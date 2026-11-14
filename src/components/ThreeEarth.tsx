@@ -1140,6 +1140,9 @@ export default function ThreeEarth({
   const earthGroupRef = useRef<THREE.Group | null>(null);
   const earthMeshRef = useRef<THREE.Mesh | null>(null);
   const selectedMarkerGroupRef = useRef<THREE.Group | null>(null);
+  const reticleRingRef = useRef<THREE.Mesh | null>(null);
+  const beaconMeshRef = useRef<THREE.Mesh | null>(null);
+  const spawnRippleRef = useRef<((point: THREE.Vector3, color?: number) => void) | null>(null);
   const tweenRef = useRef<{
     startPos: THREE.Vector3;
     endPos: THREE.Vector3;
@@ -1192,7 +1195,7 @@ export default function ThreeEarth({
     [latLonToVector3]
   );
 
-  // Update selected region 3D label on the Earth when selectedCountry changes
+  // Update selected region 3D label, reticle, laser beacon & boundary on the Earth
   useEffect(() => {
     if (!selectedCountry) return;
     const dist = Math.max(145, 275 / (selectedCountry.zoom || 1));
@@ -1205,7 +1208,18 @@ export default function ThreeEarth({
       hudCoordsRef.current.textContent = `${Math.abs(selectedCountry.lat).toFixed(2)}° ${selectedCountry.lat >= 0 ? "N" : "S"}, ${Math.abs(selectedCountry.lng).toFixed(2)}° ${selectedCountry.lng >= 0 ? "E" : "W"}`;
     }
 
-    // Update 3D label written directly on the Earth
+    const pos = latLonToVector3(
+      selectedCountry.lat,
+      selectedCountry.lng,
+      EARTH_RADIUS * 1.008
+    );
+
+    // Trigger golden celebratory ripple at the selected location
+    if (spawnRippleRef.current) {
+      spawnRippleRef.current(pos, 0xf59e0b);
+    }
+
+    // Update 3D marker written directly on the Earth
     const markerGroup = selectedMarkerGroupRef.current;
     if (markerGroup) {
       // Clear previous marker
@@ -1214,16 +1228,91 @@ export default function ThreeEarth({
         markerGroup.remove(obj);
       }
 
-      // Highlighted country name - pure text, zero triangles, zero boxes, zero lines
+      // 1. Central glowing golden node
+      const pinMesh = new THREE.Mesh(
+        new THREE.SphereGeometry(1.3, 16, 16),
+        new THREE.MeshBasicMaterial({ color: 0xfacc15 })
+      );
+      pinMesh.position.copy(pos);
+      markerGroup.add(pinMesh);
+
+      // 2. Rotating Inner Radar Reticle
+      const reticleRing = new THREE.Mesh(
+        new THREE.RingGeometry(1.8, 3.0, 32),
+        new THREE.MeshBasicMaterial({
+          color: 0xf59e0b,
+          side: THREE.DoubleSide,
+          transparent: true,
+          opacity: 0.85,
+          depthWrite: false,
+        })
+      );
+      reticleRing.position.copy(pos);
+      reticleRing.lookAt(pos.clone().multiplyScalar(2));
+      markerGroup.add(reticleRing);
+      reticleRingRef.current = reticleRing;
+
+      // 3. Outer Pulsing Radar Ring
+      const outerRing = new THREE.Mesh(
+        new THREE.RingGeometry(3.8, 4.4, 32),
+        new THREE.MeshBasicMaterial({
+          color: 0x38bdf8,
+          side: THREE.DoubleSide,
+          transparent: true,
+          opacity: 0.65,
+          depthWrite: false,
+        })
+      );
+      outerRing.position.copy(pos);
+      outerRing.lookAt(pos.clone().multiplyScalar(2));
+      markerGroup.add(outerRing);
+
+      // 4. Vertical Planetary Scanner Beacon Light Pillar
+      const beaconHeight = 20;
+      const beaconGeo = new THREE.CylinderGeometry(0.3, 1.2, beaconHeight, 16, 1, true);
+      beaconGeo.translate(0, beaconHeight / 2, 0);
+      beaconGeo.rotateX(Math.PI / 2);
+      const beaconMesh = new THREE.Mesh(
+        beaconGeo,
+        new THREE.MeshBasicMaterial({
+          color: 0xf59e0b,
+          transparent: true,
+          opacity: 0.65,
+          blending: THREE.AdditiveBlending,
+          side: THREE.DoubleSide,
+          depthWrite: false,
+        })
+      );
+      beaconMesh.position.copy(pos);
+      beaconMesh.lookAt(pos.clone().multiplyScalar(2));
+      markerGroup.add(beaconMesh);
+      beaconMeshRef.current = beaconMesh;
+
+      // 5. Circular radar boundary around region
+      const boundaryPoints: THREE.Vector3[] = [];
+      const radiusDeg = 4.0;
+      const numSteps = 48;
+      for (let i = 0; i <= numSteps; i++) {
+        const angle = (i / numSteps) * Math.PI * 2;
+        const bLat = selectedCountry.lat + Math.sin(angle) * (radiusDeg * 0.7);
+        const bLon = selectedCountry.lng + Math.cos(angle) * radiusDeg;
+        boundaryPoints.push(latLonToVector3(bLat, bLon, EARTH_RADIUS * 1.006));
+      }
+      const countryBorder = new THREE.Line(
+        new THREE.BufferGeometry().setFromPoints(boundaryPoints),
+        new THREE.LineBasicMaterial({
+          color: 0xfacc15,
+          transparent: true,
+          opacity: 0.85,
+        })
+      );
+      markerGroup.add(countryBorder);
+
+      // 6. Highlighted country label sprite above the beacon
       const labelSprite = createCountrySprite(selectedCountry.name, true);
       if (labelSprite) {
-        labelSprite.position.copy(
-          latLonToVector3(
-            selectedCountry.lat,
-            selectedCountry.lng,
-            EARTH_RADIUS * 1.019
-          )
-        );
+        const normal = pos.clone().normalize();
+        labelSprite.position.copy(pos.clone().add(normal.multiplyScalar(24)));
         markerGroup.add(labelSprite);
       }
     }
@@ -1440,6 +1529,33 @@ export default function ThreeEarth({
       }
     );
 
+    // 8b. Atmosphere Glow Shader (Fresnel Limb Glow from Space, as seen in NASA EarthScope)
+    const atmosphereMaterial = new THREE.ShaderMaterial({
+      vertexShader: `
+        varying vec3 vNormal;
+        void main() {
+          vNormal = normalize(normalMatrix * normal);
+          gl_Position = projectionMatrix * modelViewMatrix * vec4(position, 1.0);
+        }
+      `,
+      fragmentShader: `
+        varying vec3 vNormal;
+        void main() {
+          float intensity = pow(0.68 - dot(vNormal, vec3(0.0, 0.0, 1.0)), 2.8);
+          gl_FragColor = vec4(0.24, 0.70, 1.0, 1.0) * intensity * 1.35;
+        }
+      `,
+      blending: THREE.AdditiveBlending,
+      side: THREE.BackSide,
+      transparent: true,
+      depthWrite: false,
+    });
+    const atmosphereMesh = new THREE.Mesh(
+      new THREE.SphereGeometry(EARTH_RADIUS * 1.14, 64, 64),
+      atmosphereMaterial
+    );
+    scene.add(atmosphereMesh);
+
     // 9. Graticule Lines (Parallels and Meridians)
     const graticulePoints: THREE.Vector3[] = [];
     const rGrat = EARTH_RADIUS * 1.0025;
@@ -1464,10 +1580,33 @@ export default function ThreeEarth({
       new THREE.LineBasicMaterial({
         color: 0x3f3f46,
         transparent: true,
-        opacity: 0.25,
+        opacity: 0.22,
       })
     );
     earthGroup.add(graticuleMesh);
+
+    // 9b. Continental & Regional Borders (Subtle cyan line segments)
+    const borderPoints: THREE.Vector3[] = [];
+    const rBorder = EARTH_RADIUS * 1.0035;
+    for (const land of WORLD_LANDMASSES) {
+      for (let i = 0; i < land.coordinates.length - 1; i++) {
+        const [lon1, lat1] = land.coordinates[i];
+        const [lon2, lat2] = land.coordinates[i + 1];
+        borderPoints.push(
+          latLonToVector3(lat1, lon1, rBorder),
+          latLonToVector3(lat2, lon2, rBorder)
+        );
+      }
+    }
+    const bordersLineMesh = new THREE.LineSegments(
+      new THREE.BufferGeometry().setFromPoints(borderPoints),
+      new THREE.LineBasicMaterial({
+        color: 0x38bdf8,
+        transparent: true,
+        opacity: 0.32,
+      })
+    );
+    earthGroup.add(bordersLineMesh);
 
     // 10. Country & Region Labels Written Directly on the Earth (Pure text: no boxes, no pills, zero triangles)
     const labelsGroup = new THREE.Group();
@@ -1510,6 +1649,68 @@ export default function ThreeEarth({
     earthGroup.add(selectedMarkerGroup);
     selectedMarkerGroupRef.current = selectedMarkerGroup;
 
+    // 14b. Interactive Tactile Shockwave Ripples System (Radar Sonar Pulse on Contact)
+    interface ActiveRipple {
+      group: THREE.Group;
+      rings: THREE.Mesh[];
+      startTime: number;
+      duration: number;
+    }
+    const activeRipples: ActiveRipple[] = [];
+
+    const spawnContactRipple = (point: THREE.Vector3, color = 0xf59e0b) => {
+      const normPos = point.clone().normalize().multiplyScalar(EARTH_RADIUS * 1.006);
+      const rippleGroup = new THREE.Group();
+      rippleGroup.position.copy(normPos);
+      rippleGroup.lookAt(normPos.clone().multiplyScalar(2));
+
+      // Concentric expanding shockwave rings
+      const ring1 = new THREE.Mesh(
+        new THREE.RingGeometry(0.8, 1.8, 32),
+        new THREE.MeshBasicMaterial({
+          color: color,
+          side: THREE.DoubleSide,
+          transparent: true,
+          opacity: 0.95,
+          depthWrite: false,
+        })
+      );
+      const ring2 = new THREE.Mesh(
+        new THREE.RingGeometry(2.2, 3.2, 32),
+        new THREE.MeshBasicMaterial({
+          color: 0x38bdf8,
+          side: THREE.DoubleSide,
+          transparent: true,
+          opacity: 0.8,
+          depthWrite: false,
+        })
+      );
+      const ring3 = new THREE.Mesh(
+        new THREE.RingGeometry(3.8, 4.6, 32),
+        new THREE.MeshBasicMaterial({
+          color: 0xffffff,
+          side: THREE.DoubleSide,
+          transparent: true,
+          opacity: 0.6,
+          depthWrite: false,
+        })
+      );
+
+      rippleGroup.add(ring1);
+      rippleGroup.add(ring2);
+      rippleGroup.add(ring3);
+      earthGroup.add(rippleGroup);
+
+      activeRipples.push({
+        group: rippleGroup,
+        rings: [ring1, ring2, ring3],
+        startTime: performance.now(),
+        duration: 1100,
+      });
+    };
+
+    spawnRippleRef.current = spawnContactRipple;
+
     // 15. Pointer Interactivity & Raycasting
     const raycaster = new THREE.Raycaster();
     const mouse = new THREE.Vector2();
@@ -1517,6 +1718,17 @@ export default function ThreeEarth({
 
     const onPointerDown = (e: PointerEvent) => {
       pointerDownPos = { x: e.clientX, y: e.clientY };
+
+      const rect = renderer.domElement.getBoundingClientRect();
+      mouse.x = ((e.clientX - rect.left) / rect.width) * 2 - 1;
+      mouse.y = -((e.clientY - rect.top) / rect.height) * 2 + 1;
+
+      raycaster.setFromCamera(mouse, camera);
+      const hits = raycaster.intersectObject(earthMesh);
+      if (hits.length > 0) {
+        // Immediate tactile contact shockwave ripple on press!
+        spawnContactRipple(hits[0].point, 0x38bdf8);
+      }
     };
 
     const onPointerMove = (e: PointerEvent) => {
@@ -1603,13 +1815,17 @@ export default function ThreeEarth({
       const earthHits = raycaster.intersectObject(earthMesh);
 
       if (earthHits.length > 0) {
-        const hitPoint = earthHits[0].point.clone().normalize();
+        const hitPoint = earthHits[0].point;
+        // Big celebratory golden radar sonar ripple on selection!
+        spawnContactRipple(hitPoint, 0xf59e0b);
+
+        const normHit = hitPoint.clone().normalize();
         let closest: Country | null = null;
         let minDist = 0.55; // ~32 degrees angular threshold
 
         for (const c of COUNTRIES) {
           const cPos = latLonToVector3(c.lat, c.lng, 1).normalize();
-          const d = hitPoint.distanceTo(cPos);
+          const d = normHit.distanceTo(cPos);
           if (d < minDist) {
             minDist = d;
             closest = c;
@@ -1660,7 +1876,38 @@ export default function ThreeEarth({
         }
       }
 
-      // Satellite is strictly static in space - no movement
+      // Update active tactile shockwave ripples (scale up & fade)
+      for (let i = activeRipples.length - 1; i >= 0; i--) {
+        const r = activeRipples[i];
+        const elapsed = time - r.startTime;
+        const progress = Math.min(1, elapsed / r.duration);
+        if (progress >= 1) {
+          earthGroup.remove(r.group);
+          r.rings.forEach((ring) => {
+            ring.geometry.dispose();
+            (ring.material as THREE.Material).dispose();
+          });
+          activeRipples.splice(i, 1);
+        } else {
+          const scale = 1 + progress * 5.2;
+          r.group.scale.set(scale, scale, scale);
+          r.rings.forEach((ring, idx) => {
+            (ring.material as THREE.MeshBasicMaterial).opacity =
+              (1 - progress) * (idx === 0 ? 0.95 : idx === 1 ? 0.75 : 0.5);
+          });
+        }
+      }
+
+      // Rotate selected target reticle
+      if (reticleRingRef.current) {
+        reticleRingRef.current.rotation.z += 0.02;
+      }
+
+      // Animate vertical beacon glow pulse
+      if (beaconMeshRef.current) {
+        const pulse = 0.55 + Math.sin(time * 0.005) * 0.25;
+        (beaconMeshRef.current.material as THREE.MeshBasicMaterial).opacity = pulse;
+      }
 
       // Rotate solar system planets slowly on their axes
       solarSystem.update();
