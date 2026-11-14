@@ -1,20 +1,63 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useState, Suspense } from "react";
 import Link from "next/link";
+import { useSearchParams } from "next/navigation";
 import ThreeEarth from "../components/ThreeEarth";
 import SearchBar from "../components/SearchBar";
 import AiAssistantTemplate from "../components/AiAssistantTemplate";
 import { COUNTRIES, Country } from "../data/countries";
 
-export default function Home() {
+function HomeContent() {
+  const searchParams = useSearchParams();
   const defaultCountry =
     COUNTRIES.find((c) => c.name === "Palestine") || COUNTRIES[0];
-  const [selectedCountry, setSelectedCountry] = useState<Country>(defaultCountry);
+
+  const urlCountry = React.useMemo<Country | null>(() => {
+    const latStr = searchParams.get("lat");
+    const lonStr = searchParams.get("lon") || searchParams.get("lng");
+    const nameStr = searchParams.get("name");
+
+    if (latStr && lonStr) {
+      const lat = parseFloat(latStr);
+      const lng = parseFloat(lonStr);
+      if (!isNaN(lat) && !isNaN(lng)) {
+        const found = COUNTRIES.find((c) =>
+          nameStr
+            ? c.name.toLowerCase() === nameStr.toLowerCase()
+            : Math.abs(c.lat - lat) < 1.0 && Math.abs(c.lng - lng) < 1.0
+        );
+
+        if (found) return found;
+
+        return {
+          id: (nameStr || "target").toLowerCase().replace(/\s+/g, "-"),
+          name: nameStr || "Target Location",
+          officialName: nameStr || "NASA Observation Target",
+          code2: "UN",
+          code3: "UN0",
+          region: "Asia" as const,
+          subregion: "Observation Target",
+          capital: "Target Coordinates",
+          lat,
+          lng,
+          zoom: 2.2,
+          population: "N/A",
+          area: "N/A",
+          currency: "N/A",
+          timezone: "UTC",
+        };
+      }
+    }
+    return null;
+  }, [searchParams]);
+
+  const [activeCountry, setActiveCountry] = useState<Country | null>(null);
   const [isAssistantOpen, setIsAssistantOpen] = useState(false);
+  const selectedCountry = activeCountry ?? urlCountry ?? defaultCountry;
 
   const handleSelectCountry = (country: Country) => {
-    setSelectedCountry(country);
+    setActiveCountry(country);
   };
 
   return (
@@ -110,7 +153,7 @@ export default function Home() {
         />
       </section>
 
-      {/* Search Bar for Region: Positioned on the right, 48 vertical, 48 horizontal */}
+      {/* Search Bar for Region: Positioned on the right */}
       <div
         style={{ top: "48px", right: "48px" }}
         className="fixed z-30 w-80 sm:w-96 flex flex-col pointer-events-auto gap-2"
@@ -160,7 +203,7 @@ export default function Home() {
         )}
       </div>
 
-      {/* Pop-up AI Assistant Template (Pops up from the little circle) */}
+      {/* Pop-up AI Assistant Template */}
       {isAssistantOpen && (
         <div className="fixed bottom-24 right-6 sm:right-8 z-40 w-84 sm:w-96 max-w-[calc(100vw-3rem)] h-[520px] max-h-[calc(100vh-140px)] flex flex-col pointer-events-auto transition-all duration-300 origin-bottom-right">
           <AiAssistantTemplate
@@ -172,12 +215,10 @@ export default function Home() {
 
       {/* Realistic Glassmorphic Little Circle Action Button at Bottom Right */}
       <div className="fixed bottom-6 right-6 sm:bottom-8 sm:right-8 z-40 flex items-center gap-3 group">
-        {/* Hover Pill Tooltip */}
         <span className="hidden sm:inline-block px-3 py-1.5 rounded-xl bg-[#18181b]/80 backdrop-blur-xl border border-white/15 text-[#60a5fa] text-xs font-bold tracking-wide shadow-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-200 pointer-events-none">
           {isAssistantOpen ? "Close AI Assistant" : "Open AI Assistant"}
         </span>
 
-        {/* Circular Action Button */}
         <button
           onClick={() => setIsAssistantOpen((prev) => !prev)}
           aria-label={isAssistantOpen ? "Close AI Assistant" : "Open AI Assistant"}
@@ -187,13 +228,11 @@ export default function Home() {
               : "bg-[#18181b]/80 hover:bg-[#27272a]/90 border-white/20 text-[#60a5fa] hover:text-white"
           }`}
         >
-          {/* Subtle Online Dot */}
           {!isAssistantOpen && (
             <span className="absolute top-1 right-1 w-3 h-3 rounded-full bg-[#10b981] border-2 border-[#18181b]"></span>
           )}
 
           {isAssistantOpen ? (
-            /* Close X SVG */
             <svg
               width="20"
               height="20"
@@ -208,7 +247,6 @@ export default function Home() {
               <line x1="6" y1="6" x2="18" y2="18"></line>
             </svg>
           ) : (
-            /* Assistant / Radar SVG */
             <svg
               width="24"
               height="24"
@@ -231,5 +269,13 @@ export default function Home() {
         </button>
       </div>
     </main>
+  );
+}
+
+export default function Home() {
+  return (
+    <Suspense fallback={<div className="w-screen h-screen bg-[#000000]" />}>
+      <HomeContent />
+    </Suspense>
   );
 }
