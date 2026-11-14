@@ -101,3 +101,4 @@ All backend data pipelines, API routes (`/api/analysis`, `/api/forecast`, `/api/
 - `src/app/api/forecast/route.ts` - Endpoint for predictive modeling.
 - `src/app/api/ai/context/route.ts` - Location & trend semantic context endpoint.
 - `src/app/api/ai/chat/route.ts` - Streaming chat response endpoint.
+
