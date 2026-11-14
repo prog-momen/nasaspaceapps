@@ -19,15 +19,30 @@ export default function Home() {
 
   return (
     <main className="relative w-screen h-screen overflow-hidden bg-[#000000] text-[#f4f4f5] font-sans select-none flex flex-col">
-      {/* Realistic Glassmorphic Navbar: Home, Dashboard, and AI Assistant */}
-      <header className="fixed top-0 left-0 right-0 h-12 bg-[#18181b]/75 backdrop-blur-xl border-b border-white/10 shadow-[0_4px_24px_0_rgba(0,0,0,0.5)] z-40 px-6 flex items-center justify-between">
-        <div className="flex items-center gap-3">
+      {/* Realistic Glassmorphic Navbar: Logo, Home, Dashboard, and AI Assistant */}
+      <header className="fixed top-0 left-0 right-0 h-14 bg-[#080d16]/90 backdrop-blur-xl border-b border-white/10 shadow-[0_4px_24px_0_rgba(0,0,0,0.6)] z-40 px-4 sm:px-6 flex items-center justify-between">
+        <div className="flex items-center gap-2.5 sm:gap-3">
+          <Link href="/" className="flex items-center gap-2.5 group mr-1">
+            <div className="w-8 h-8 rounded-lg overflow-hidden border border-amber-400/50 bg-black shadow-[0_0_12px_rgba(245,158,11,0.25)] flex items-center justify-center transition-transform group-hover:scale-105">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img src="/logo.jpg" alt="EarthTrend Logo" className="w-full h-full object-contain" />
+            </div>
+            <div className="hidden md:flex flex-col">
+              <span className="text-xs font-black tracking-tight text-white flex items-center gap-1">
+                EarthTrend <span className="text-amber-400">Detective</span>
+              </span>
+              <span className="text-[9px] font-mono text-slate-400">NASA Space Apps</span>
+            </div>
+          </Link>
+
+          <div className="h-5 w-[1px] bg-white/10 hidden md:block" />
+
           {/* Button 1: Home */}
           <button
             onClick={() => {
               if (defaultCountry) handleSelectCountry(defaultCountry);
             }}
-            className="px-3.5 py-1.5 rounded-xl bg-white/5 hover:bg-white/15 text-[#f4f4f5] hover:text-white border border-white/15 text-xs font-bold transition-all shadow-sm flex items-center gap-2 active:scale-95 cursor-pointer"
+            className="px-3 py-1.5 rounded-xl bg-white/5 hover:bg-white/15 text-[#f4f4f5] hover:text-white border border-white/15 text-xs font-bold transition-all shadow-sm flex items-center gap-1.5 active:scale-95 cursor-pointer"
           >
             <svg
               width="14"
@@ -50,7 +65,7 @@ export default function Home() {
             href={`/dashboard?lat=${selectedCountry.lat}&lon=${selectedCountry.lng}&name=${encodeURIComponent(
               selectedCountry.name
             )}`}
-            className="px-3.5 py-1.5 rounded-xl bg-white/5 hover:bg-white/15 text-[#f4f4f5] hover:text-white border border-white/15 text-xs font-bold transition-all shadow-sm flex items-center gap-2 active:scale-95 cursor-pointer"
+            className="px-3 py-1.5 rounded-xl bg-white/5 hover:bg-white/15 text-[#f4f4f5] hover:text-white border border-white/15 text-xs font-bold transition-all shadow-sm flex items-center gap-1.5 active:scale-95 cursor-pointer"
             title={`Open Environmental Trend & Forecasting Dashboard for ${selectedCountry.name}`}
           >
             <svg
@@ -68,31 +83,21 @@ export default function Home() {
               <line x1="6" y1="20" x2="6" y2="14"></line>
             </svg>
             <span>Dashboard</span>
-            <span className="hidden sm:inline-block text-[10px] py-0.5 px-1.5 bg-[#2563eb]/20 text-[#93c5fd] border border-[#2563eb]/30 rounded font-normal">
+            <span className="hidden sm:inline-block text-[10px] py-0.5 px-1.5 bg-amber-500/15 text-amber-300 border border-amber-500/30 rounded font-mono">
               {selectedCountry.name}
             </span>
           </Link>
         </div>
 
-        {/* Button 3: AI Assistant */}
+        {/* Button 3: AI Assistant (Cosmic Gold Styling) */}
         <button
           onClick={() => setIsAssistantOpen((prev) => !prev)}
-          className="px-3.5 py-1.5 rounded-xl bg-[#2563eb] hover:bg-[#1d4ed8] text-white border border-blue-400/30 text-xs font-bold transition-all shadow-[0_4px_14px_0_rgba(37,99,235,0.4)] flex items-center gap-2 active:scale-95 cursor-pointer"
+          className="px-3.5 py-1.5 rounded-xl cosmic-gold-button text-xs font-black flex items-center gap-1.5 active:scale-95 cursor-pointer"
         >
-          <svg
-            width="14"
-            height="14"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            strokeWidth="2.2"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          >
-            <circle cx="12" cy="12" r="10"></circle>
-            <line x1="12" y1="16" x2="12" y2="12"></line>
-            <line x1="12" y1="8" x2="12.01" y2="8"></line>
-          </svg>
+          <div className="w-4 h-4 rounded-full overflow-hidden bg-black shrink-0">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src="/logo.jpg" alt="AI" className="w-full h-full object-contain" />
+          </div>
           <span>AI Assistant</span>
         </button>
       </header>

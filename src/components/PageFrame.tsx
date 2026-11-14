@@ -41,31 +41,39 @@ export default function PageFrame({
               : "bg-[#070a13]/95 backdrop-blur-md border-b border-[#1f2937]"
           } shrink-0`}
         >
-          <div className={`${maxWidth} mx-auto px-4 py-2.5 flex items-center justify-between gap-3`}>
-            <div className="min-w-0">
-              <div className="flex items-center gap-2">
-                <span
-                  className={`text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded ${
-                    isClay
-                      ? "text-[#38bdf8] bg-sky-950/60 border border-sky-500/40"
-                      : "text-[#38bdf8] bg-[#0284c7]/15 border border-[#0284c7]/30"
+          <div className={`${maxWidth} mx-auto px-4 py-2 flex items-center justify-between gap-3`}>
+            <div className="flex items-center gap-3 min-w-0">
+              <Link href="/" className="flex items-center gap-2.5 shrink-0 group">
+                <div className="relative w-8 h-8 rounded-lg overflow-hidden border border-amber-400/40 bg-black shadow-md flex items-center justify-center transition-transform group-hover:scale-105">
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img src="/logo.jpg" alt="EarthTrend Logo" className="w-full h-full object-contain" />
+                </div>
+              </Link>
+              <div className="min-w-0">
+                <div className="flex items-center gap-2">
+                  <span
+                    className={`text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded ${
+                      isClay
+                        ? "text-amber-400 bg-amber-950/40 border border-amber-500/30"
+                        : "text-amber-400 bg-amber-950/30 border border-amber-500/20"
+                    }`}
+                  >
+                    NASA EarthTrend Detective
+                  </span>
+                </div>
+                <h1
+                  className={`text-sm sm:text-base font-bold truncate mt-0.5 ${
+                    isClay ? "text-white" : "text-[#f8fafc]"
                   }`}
                 >
-                  NASA Space Apps Challenge 2026
-                </span>
+                  {title}
+                </h1>
+                {subtitle && (
+                  <p className={`text-[11px] truncate ${isClay ? "text-slate-400" : "text-[#9ca3af]"}`}>
+                    {subtitle}
+                  </p>
+                )}
               </div>
-              <h1
-                className={`text-sm sm:text-base font-bold truncate mt-0.5 ${
-                  isClay ? "text-white" : "text-[#f8fafc]"
-                }`}
-              >
-                {title}
-              </h1>
-              {subtitle && (
-                <p className={`text-[11px] truncate ${isClay ? "text-slate-400" : "text-[#9ca3af]"}`}>
-                  {subtitle}
-                </p>
-              )}
             </div>
 
             <div className="flex items-center gap-2 shrink-0">

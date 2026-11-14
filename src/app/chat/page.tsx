@@ -146,31 +146,44 @@ export default function ChatPage() {
       {/* Top Realistic Glassmorphic Navigation Bar */}
       <header className="h-16 px-6 border-b border-white/10 bg-[#18181b]/75 backdrop-blur-xl shadow-[0_4px_24px_0_rgba(0,0,0,0.5)] flex items-center justify-between z-20 shrink-0">
         {/* Link back to Homepage */}
-        <Link
-          href="/"
-          className="flex items-center gap-2.5 px-3.5 py-2 rounded-xl bg-white/5 hover:bg-white/15 text-[#f4f4f5] border border-white/10 text-xs font-bold transition-all shadow-sm active:scale-95"
-        >
-          <svg
-            width="14"
-            height="14"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            strokeWidth="2.5"
-            strokeLinecap="round"
-            strokeLinejoin="round"
+        <div className="flex items-center gap-3">
+          <Link
+            href="/"
+            className="flex items-center gap-2 group text-xs text-slate-300 hover:text-white transition-colors"
           >
-            <line x1="19" y1="12" x2="5" y2="12"></line>
-            <polyline points="12 19 5 12 12 5"></polyline>
-          </svg>
-          <span>Back to 3D Earth</span>
-        </Link>
+            <div className="w-8 h-8 rounded-lg overflow-hidden border border-amber-400/40 bg-black shadow-md flex items-center justify-center transition-transform group-hover:scale-105">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img src="/logo.jpg" alt="Logo" className="w-full h-full object-contain" />
+            </div>
+            <span className="font-bold text-white hidden sm:inline">EarthTrend Detective</span>
+          </Link>
+          <span className="text-white/20 hidden sm:inline">/</span>
+          <Link
+            href="/"
+            className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-white/5 hover:bg-white/15 text-slate-300 hover:text-white border border-white/10 text-xs font-semibold transition-all active:scale-95"
+          >
+            <svg
+              width="13"
+              height="13"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2.2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            >
+              <line x1="19" y1="12" x2="5" y2="12"></line>
+              <polyline points="12 19 5 12 12 5"></polyline>
+            </svg>
+            <span>Back to 3D Globe</span>
+          </Link>
+        </div>
 
         {/* Title */}
         <div className="flex items-center gap-2.5">
-          <span className="w-2.5 h-2.5 rounded-full bg-[#10b981]"></span>
-          <h1 className="text-xs font-bold text-[#f4f4f5] tracking-wide">
-            EarthScope AI Assistant (Full Page)
+          <span className="w-2.5 h-2.5 rounded-full bg-emerald-400"></span>
+          <h1 className="text-xs font-bold text-white tracking-wide">
+            AI Detective Assistant
           </h1>
         </div>
 

@@ -155,19 +155,25 @@ export default function AiAssistantTemplate({
   return (
     <aside className="w-full h-full flex flex-col bg-[#18181b]/80 backdrop-blur-xl border border-white/15 rounded-2xl shadow-[0_20px_50px_rgba(0,0,0,0.65)] overflow-hidden pointer-events-auto font-sans">
       {/* Realistic Glassmorphic Chat Header */}
-      <header className="px-4 py-3 bg-white/5 border-b border-white/10 flex items-center justify-between shrink-0">
+      <header className="px-4 py-3 bg-[#0a0f1d]/90 border-b border-white/10 flex items-center justify-between shrink-0">
         <div className="flex items-center gap-2.5">
-          <span className="w-2.5 h-2.5 rounded-full bg-[#10b981]"></span>
+          <div className="w-8 h-8 rounded-lg overflow-hidden border border-amber-400/50 bg-black shadow-[0_0_10px_rgba(245,158,11,0.3)] shrink-0">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src="/logo.jpg" alt="AI Detective" className="w-full h-full object-contain" />
+          </div>
           <div>
             <div className="flex items-center gap-2">
-              <h2 className="text-xs font-bold text-[#f4f4f5]">AI Assistant</h2>
+              <h2 className="text-xs font-bold text-white flex items-center gap-1.5">
+                <span>AI Detective</span>
+                <span className="w-1.5 h-1.5 rounded-full bg-emerald-400"></span>
+              </h2>
               {selectedCountry && (
-                <span className="text-[10px] font-mono px-2 py-0.5 rounded bg-white/10 text-[#a1a1aa] border border-white/10">
+                <span className="text-[10px] font-mono px-2 py-0.5 rounded bg-amber-500/10 text-amber-300 border border-amber-500/30">
                   {selectedCountry.name}
                 </span>
               )}
             </div>
-            <p className="text-[10px] text-[#a1a1aa]">Real-time Earth Science Queries</p>
+            <p className="text-[10px] text-slate-400">Real-time Earth Science Queries</p>
           </div>
         </div>
 
@@ -227,25 +233,16 @@ export default function AiAssistantTemplate({
       <div className="flex-1 overflow-y-auto p-4 flex flex-col gap-3">
         {messages.length === 0 ? (
           <div className="flex-1 flex flex-col items-center justify-center p-6 text-center text-xs text-[#a1a1aa]">
-            <div className="w-11 h-11 rounded-2xl bg-white/5 border border-white/10 text-[#a1a1aa] flex items-center justify-center mb-3 shadow-inner">
-              <svg
-                width="20"
-                height="20"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="2"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              >
-                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
-              </svg>
+            <div className="w-14 h-14 rounded-2xl overflow-hidden border border-amber-400/40 bg-black shadow-[0_0_20px_rgba(245,158,11,0.25)] flex items-center justify-center mb-3">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img src="/logo.jpg" alt="AI Ready" className="w-full h-full object-contain" />
             </div>
-            <p className="font-semibold text-[#f4f4f5] text-xs mb-1">
-              AI Assistant Ready
+            <p className="font-bold text-white text-xs mb-1 flex items-center gap-1.5">
+              <span>AI Detective Ready</span>
+              <span className="text-amber-400">✦</span>
             </p>
-            <p className="text-[11px] text-[#71717a] leading-relaxed max-w-[220px]">
-              No messages yet. Send a query below to fetch authentic NASA observation data.
+            <p className="text-[11px] text-slate-400 leading-relaxed max-w-[240px]">
+              No messages yet. Ask any question below to explore real NASA Earth observation metrics. Zero mock data.
             </p>
           </div>
         ) : (
@@ -259,7 +256,13 @@ export default function AiAssistantTemplate({
                 }`}
               >
                 <div className="flex items-center gap-1.5 text-[9px] text-[#71717a]">
-                  <span>{isUser ? "User" : "AI Assistant"}</span>
+                  {!isUser && (
+                    <div className="w-3.5 h-3.5 rounded-full overflow-hidden bg-black border border-amber-400/40">
+                      {/* eslint-disable-next-line @next/next/no-img-element */}
+                      <img src="/logo.jpg" alt="AI" className="w-full h-full object-contain" />
+                    </div>
+                  )}
+                  <span>{isUser ? "You" : "AI Detective"}</span>
                   <span>•</span>
                   <span>{msg.timestamp}</span>
                 </div>
@@ -337,7 +340,7 @@ export default function AiAssistantTemplate({
             type="submit"
             disabled={!inputPrompt.trim() || isProcessing}
             aria-label="Send Message"
-            className="px-4 py-2.5 rounded-xl bg-[#2563eb] hover:bg-[#1d4ed8] disabled:bg-white/5 disabled:text-[#71717a] text-white text-xs font-bold transition-all flex items-center justify-center shrink-0 shadow-md active:scale-95"
+            className="px-4 py-2.5 rounded-xl cosmic-gold-button disabled:opacity-40 disabled:cursor-not-allowed text-xs font-bold transition-all flex items-center justify-center shrink-0 shadow-md active:scale-95"
           >
             <svg
               width="14"
