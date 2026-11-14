@@ -1,129 +1,160 @@
 "use client";
 
 import React, { useState } from "react";
-import EarthGlobe3D from "../components/EarthGlobe3D";
+import ThreeEarth from "../components/ThreeEarth";
 import SearchBar from "../components/SearchBar";
-import CountryDetails from "../components/CountryDetails";
-import { Country, COUNTRIES } from "../data/countries";
+import AiAssistantTemplate from "../components/AiAssistantTemplate";
+import { COUNTRIES, Country } from "../data/countries";
 
 export default function Home() {
-  const [selectedCountry, setSelectedCountry] = useState<Country | null>(null);
-  const [autoSpin, setAutoSpin] = useState<boolean>(true);
-  const [showGrid, setShowGrid] = useState<boolean>(true);
+  const defaultCountry =
+    COUNTRIES.find((c) => c.name === "Palestine") || COUNTRIES[0];
+  const [selectedCountry, setSelectedCountry] = useState<Country>(defaultCountry);
+  const [isAssistantOpen, setIsAssistantOpen] = useState(false);
 
   const handleSelectCountry = (country: Country) => {
     setSelectedCountry(country);
-    // Pause auto-spin when focusing on a searched country
-    setAutoSpin(false);
   };
-
-  const handleCloseDetails = () => {
-    setSelectedCountry(null);
-  };
-
-  // Quick preset destinations
-  const popularPresets = [
-    { label: "Egypt", id: "egy" },
-    { label: "United States", id: "usa" },
-    { label: "Japan", id: "jpn" },
-    { label: "France", id: "fra" },
-    { label: "Brazil", id: "bra" },
-    { label: "Australia", id: "aus" },
-    { label: "South Africa", id: "zaf" },
-  ];
 
   return (
-    <main className="relative w-screen h-screen overflow-hidden bg-[#070a13] text-[#e2e8f0] flex flex-col font-sans select-none">
-      {/* Top Navigation & Search Bar Header */}
-      <header className="absolute top-0 left-0 right-0 z-30 p-4 sm:p-5 flex flex-col items-center pointer-events-none">
-        <div className="w-full max-w-4xl flex flex-col items-center gap-3">
-          {/* Top Title Bar */}
-          <div className="w-full flex items-center justify-between pointer-events-auto">
-            <div className="flex items-center gap-2.5">
-              <div className="w-3 h-3 bg-[#3b82f6] rounded-full"></div>
-              <h1 className="text-base sm:text-lg font-bold text-[#f8fafc] tracking-tight">
-                3D Earth Explorer
-              </h1>
-              <span className="hidden sm:inline-block text-xs font-mono px-2 py-0.5 bg-[#111827] border border-[#374151] text-[#9ca3af] rounded">
-                All World Regions
-              </span>
-            </div>
+    <main className="relative w-screen h-screen overflow-hidden bg-[#000000] text-[#f4f4f5] font-sans select-none flex flex-col">
+      {/* Realistic Glassmorphic Navbar: Exactly two buttons (Home & AI Assistant) */}
+      <header className="fixed top-0 left-0 right-0 h-12 bg-[#18181b]/75 backdrop-blur-xl border-b border-white/10 shadow-[0_4px_24px_0_rgba(0,0,0,0.5)] z-40 px-6 flex items-center justify-between">
+        {/* Button 1: Home */}
+        <button
+          onClick={() => {
+            if (defaultCountry) handleSelectCountry(defaultCountry);
+          }}
+          className="px-3.5 py-1.5 rounded-xl bg-white/5 hover:bg-white/15 text-[#f4f4f5] hover:text-white border border-white/15 text-xs font-bold transition-all shadow-sm flex items-center gap-2 active:scale-95 cursor-pointer"
+        >
+          <svg
+            width="14"
+            height="14"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="2.2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          >
+            <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+            <polyline points="9 22 9 12 15 12 15 22"></polyline>
+          </svg>
+          <span>Home</span>
+        </button>
 
-            <div className="flex items-center gap-2 text-xs">
-              <span className="hidden md:inline text-[#9ca3af]">
-                Active Database:
-              </span>
-              <span className="font-semibold text-[#60a5fa] bg-[#111827] px-2 py-1 rounded border border-[#1f2937]">
-                {COUNTRIES.length} Countries & Regions
-              </span>
-            </div>
-          </div>
-
-          {/* Interactive Search Bar */}
-          <div className="w-full pointer-events-auto">
-            <SearchBar
-              onSelectCountry={handleSelectCountry}
-              selectedCountry={selectedCountry}
-            />
-          </div>
-
-          {/* Quick Destination Fly-To Pills */}
-          <div className="w-full flex items-center gap-1.5 overflow-x-auto py-0.5 pointer-events-auto text-xs justify-start sm:justify-center">
-            <span className="text-[#64748b] text-[11px] uppercase tracking-wider font-semibold mr-1">
-              Quick Fly:
-            </span>
-            {popularPresets.map((preset) => {
-              const country = COUNTRIES.find((c) => c.id === preset.id);
-              if (!country) return null;
-              const isSelected = selectedCountry?.id === country.id;
-              return (
-                <button
-                  key={preset.id}
-                  onClick={() => handleSelectCountry(country)}
-                  className={`px-2.5 py-0.5 rounded border text-[11px] font-medium transition-colors ${
-                    isSelected
-                      ? "bg-[#22c55e] border-[#22c55e] text-white"
-                      : "bg-[#111827] border-[#1f2937] text-[#cbd5e1] hover:bg-[#1f2937] hover:border-[#374151]"
-                  }`}
-                >
-                  {preset.label}
-                </button>
-              );
-            })}
-          </div>
-        </div>
+        {/* Button 2: AI Assistant */}
+        <button
+          onClick={() => setIsAssistantOpen((prev) => !prev)}
+          className="px-3.5 py-1.5 rounded-xl bg-[#2563eb] hover:bg-[#1d4ed8] text-white border border-blue-400/30 text-xs font-bold transition-all shadow-[0_4px_14px_0_rgba(37,99,235,0.4)] flex items-center gap-2 active:scale-95 cursor-pointer"
+        >
+          <svg
+            width="14"
+            height="14"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="2.2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          >
+            <circle cx="12" cy="12" r="10"></circle>
+            <line x1="12" y1="16" x2="12" y2="12"></line>
+            <line x1="12" y1="8" x2="12.01" y2="8"></line>
+          </svg>
+          <span>AI Assistant</span>
+        </button>
       </header>
 
-      {/* 3D Canvas Earth Component (Supports touch on phones and mouse on desktop) */}
-      <section className="w-full h-full">
-        <EarthGlobe3D
-          selectedCountry={selectedCountry}
+      {/* Three.js 3D Earth Full-Screen Canvas with Deep Space Stars */}
+      <section className="w-full h-full pt-12">
+        <ThreeEarth
           onSelectCountry={handleSelectCountry}
-          autoSpin={autoSpin}
-          showGrid={showGrid}
-          onToggleAutoSpin={() => setAutoSpin((prev) => !prev)}
-          onToggleGrid={() => setShowGrid((prev) => !prev)}
+          selectedCountry={selectedCountry}
         />
       </section>
 
-      {/* Selected Country Dossier Card (Bottom overlay) */}
-      {selectedCountry && (
-        <div className="absolute bottom-6 left-4 right-4 sm:right-auto sm:max-w-md z-20 pointer-events-auto animate-in fade-in slide-in-from-bottom-4 duration-300">
-          <CountryDetails
-            country={selectedCountry}
-            onClose={handleCloseDetails}
-            onZoomTo={(customZoom) => {
-              // Trigger zoom update
-              if (selectedCountry) {
-                setSelectedCountry({
-                  ...selectedCountry,
-                  zoom: customZoom,
-                });
-              }
-            }}
+      {/* Search Bar for Region: Positioned on the right, 48 vertical, 48 horizontal */}
+      <div
+        style={{ top: "48px", right: "48px" }}
+        className="fixed z-30 w-80 sm:w-96 flex flex-col pointer-events-auto"
+      >
+        <SearchBar
+          onSelectCountry={handleSelectCountry}
+          selectedCountry={selectedCountry}
+        />
+      </div>
+
+      {/* Pop-up AI Assistant Template (Pops up from the little circle) */}
+      {isAssistantOpen && (
+        <div className="fixed bottom-24 right-6 sm:right-8 z-40 w-84 sm:w-96 max-w-[calc(100vw-3rem)] h-[520px] max-h-[calc(100vh-140px)] flex flex-col pointer-events-auto transition-all duration-300 origin-bottom-right">
+          <AiAssistantTemplate
+            selectedCountry={selectedCountry}
+            onClose={() => setIsAssistantOpen(false)}
           />
         </div>
       )}
+
+      {/* Realistic Glassmorphic Little Circle Action Button at Bottom Right */}
+      <div className="fixed bottom-6 right-6 sm:bottom-8 sm:right-8 z-40 flex items-center gap-3 group">
+        {/* Hover Pill Tooltip */}
+        <span className="hidden sm:inline-block px-3 py-1.5 rounded-xl bg-[#18181b]/80 backdrop-blur-xl border border-white/15 text-[#60a5fa] text-xs font-bold tracking-wide shadow-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-200 pointer-events-none">
+          {isAssistantOpen ? "Close AI Assistant" : "Open AI Assistant"}
+        </span>
+
+        {/* Circular Action Button */}
+        <button
+          onClick={() => setIsAssistantOpen((prev) => !prev)}
+          aria-label={isAssistantOpen ? "Close AI Assistant" : "Open AI Assistant"}
+          className={`relative w-14 h-14 rounded-full flex items-center justify-center backdrop-blur-xl shadow-[0_8px_32px_0_rgba(0,0,0,0.65)] border transition-all duration-300 active:scale-95 cursor-pointer ${
+            isAssistantOpen
+              ? "bg-[#18181b]/90 border-white/30 text-white"
+              : "bg-[#18181b]/80 hover:bg-[#27272a]/90 border-white/20 text-[#60a5fa] hover:text-white"
+          }`}
+        >
+          {/* Subtle Online Dot */}
+          {!isAssistantOpen && (
+            <span className="absolute top-1 right-1 w-3 h-3 rounded-full bg-[#10b981] border-2 border-[#18181b]"></span>
+          )}
+
+          {isAssistantOpen ? (
+            /* Close X SVG */
+            <svg
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2.5"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            >
+              <line x1="18" y1="6" x2="6" y2="18"></line>
+              <line x1="6" y1="6" x2="18" y2="18"></line>
+            </svg>
+          ) : (
+            /* Assistant / Radar SVG */
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2.2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            >
+              <circle cx="12" cy="12" r="9"></circle>
+              <path d="M12 3a9 9 0 0 1 9 9"></path>
+              <circle cx="12" cy="12" r="3"></circle>
+              <path d="M12 7v2"></path>
+              <path d="M12 15v2"></path>
+              <path d="M7 12H9"></path>
+              <path d="M15 12h2"></path>
+            </svg>
+          )}
+        </button>
+      </div>
     </main>
   );
 }

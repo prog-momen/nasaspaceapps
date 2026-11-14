@@ -36,6 +36,15 @@ export default function SearchBar({
     return () => document.removeEventListener("mousedown", handleClickOutside);
   }, []);
 
+  // Adjust query when selectedCountry changes without triggering cascading effect renders
+  const [prevSelectedCountry, setPrevSelectedCountry] = useState<Country | null>(selectedCountry);
+  if (selectedCountry !== prevSelectedCountry) {
+    setPrevSelectedCountry(selectedCountry);
+    if (selectedCountry) {
+      setQuery(selectedCountry.name);
+    }
+  }
+
   // Filter countries by query and region
   const filteredCountries = useMemo(() => {
     const q = query.trim().toLowerCase();
@@ -103,15 +112,15 @@ export default function SearchBar({
   return (
     <div
       ref={containerRef}
-      className="w-full max-w-xl mx-auto relative z-20 flex flex-col gap-2"
+      className="w-full relative z-20 flex flex-col gap-2 font-sans"
     >
-      {/* Search Input Box */}
-      <div className="flex items-center bg-[#111827] border border-[#374151] focus-within:border-[#3b82f6] rounded shadow-lg px-3 py-2 transition-colors">
+      {/* Realistic Glassmorphic Search Input Box */}
+      <div className="flex items-center bg-[#18181b]/80 backdrop-blur-xl border border-white/15 focus-within:border-[#2563eb] rounded-xl shadow-[0_8px_32px_0_rgba(0,0,0,0.5)] px-3.5 py-2.5 transition-all">
         {/* Search SVG Icon */}
-        <span className="text-[#9ca3af] mr-2.5 flex items-center">
+        <span className="text-[#a1a1aa] mr-2.5 flex items-center">
           <svg
-            width="18"
-            height="18"
+            width="17"
+            height="17"
             viewBox="0 0 24 24"
             fill="none"
             stroke="currentColor"
@@ -136,20 +145,20 @@ export default function SearchBar({
           }}
           onFocus={() => setIsOpen(true)}
           onKeyDown={handleKeyDown}
-          placeholder="Search any country, capital, or region (e.g. Japan, France, Brazil)..."
-          className="bg-transparent flex-1 text-sm text-[#f3f4f6] placeholder-[#6b7280] outline-none"
+          placeholder="Search country or scroll below..."
+          className="bg-transparent flex-1 text-xs text-[#f4f4f5] placeholder-[#71717a] outline-none"
         />
 
         {/* Clear Button */}
         {query && (
           <button
             onClick={handleClear}
-            className="text-[#9ca3af] hover:text-[#f3f4f6] p-1 ml-1 rounded transition-colors"
+            className="text-[#a1a1aa] hover:text-white p-1 ml-1 rounded transition-colors"
             title="Clear search"
           >
             <svg
-              width="16"
-              height="16"
+              width="14"
+              height="14"
               viewBox="0 0 24 24"
               fill="none"
               stroke="currentColor"
@@ -167,7 +176,7 @@ export default function SearchBar({
         {filteredCountries.length > 0 && query && (
           <button
             onClick={() => handleSelect(filteredCountries[0])}
-            className="ml-2 px-2.5 py-1 bg-[#2563eb] hover:bg-[#1d4ed8] text-white text-xs font-medium rounded transition-colors"
+            className="ml-2 px-2.5 py-1 bg-[#2563eb] hover:bg-[#1d4ed8] text-white text-xs font-medium rounded-lg transition-colors active:scale-95"
           >
             Locate
           </button>
@@ -185,10 +194,10 @@ export default function SearchBar({
                 setActiveRegion(region);
                 setHighlightedIndex(0);
               }}
-              className={`px-2.5 py-1 rounded border whitespace-nowrap font-medium transition-colors ${
+              className={`px-2.5 py-1 rounded-lg border whitespace-nowrap text-[11px] font-medium transition-all ${
                 isActive
-                  ? "bg-[#2563eb] border-[#3b82f6] text-white"
-                  : "bg-[#111827] border-[#374151] text-[#9ca3af] hover:text-[#f3f4f6] hover:bg-[#1f2937]"
+                  ? "bg-[#2563eb] border-blue-400/50 text-white shadow-sm"
+                  : "bg-white/5 border-white/10 text-[#a1a1aa] hover:text-[#f4f4f5] hover:bg-white/10"
               }`}
             >
               {region}
@@ -197,11 +206,11 @@ export default function SearchBar({
         })}
       </div>
 
-      {/* Dropdown Suggestions List */}
+      {/* Dropdown Suggestions List (Scroll down all countries) */}
       {isOpen && (
-        <div className="absolute top-[88px] left-0 right-0 max-h-72 overflow-y-auto bg-[#111827] border border-[#374151] rounded shadow-2xl z-30 divide-y divide-[#1f2937]">
+        <div className="absolute top-[88px] left-0 right-0 max-h-80 overflow-y-auto bg-[#18181b]/90 backdrop-blur-xl border border-white/15 rounded-xl shadow-[0_20px_50px_rgba(0,0,0,0.7)] z-30 divide-y divide-white/5">
           {filteredCountries.length === 0 ? (
-            <div className="p-4 text-center text-sm text-[#6b7280]">
+            <div className="p-4 text-center text-xs text-[#71717a]">
               No countries found matching &quot;{query}&quot;
             </div>
           ) : (
@@ -216,32 +225,32 @@ export default function SearchBar({
                   onMouseEnter={() => setHighlightedIndex(index)}
                   className={`px-3 py-2.5 flex items-center justify-between cursor-pointer transition-colors ${
                     isHighlighted
-                      ? "bg-[#1f2937]"
+                      ? "bg-white/10"
                       : isSelected
-                      ? "bg-[#1e3a8a]"
-                      : "hover:bg-[#1f2937]"
+                      ? "bg-[#2563eb]/30 border-l-2 border-[#2563eb]"
+                      : "hover:bg-white/5"
                   }`}
                 >
                   <div className="flex flex-col">
                     <div className="flex items-center gap-2">
-                      <span className="text-sm font-semibold text-[#f3f4f6]">
+                      <span className="text-xs font-semibold text-[#f4f4f5]">
                         {country.name}
                       </span>
-                      <span className="text-[10px] px-1.5 py-0.5 bg-[#374151] text-[#9ca3af] rounded font-mono">
+                      <span className="text-[9px] px-1.5 py-0.5 bg-white/10 text-[#a1a1aa] rounded font-mono">
                         {country.code3}
                       </span>
                     </div>
-                    <span className="text-xs text-[#9ca3af]">
+                    <span className="text-[10px] text-[#71717a]">
                       Capital: {country.capital} • {country.subregion}
                     </span>
                   </div>
 
                   <div className="flex items-center gap-2">
-                    <span className="text-xs text-[#60a5fa] font-medium hidden sm:inline">
+                    <span className="text-[10px] font-mono text-[#60a5fa] font-medium hidden sm:inline">
                       {country.lat > 0 ? `${country.lat.toFixed(1)}°N` : `${Math.abs(country.lat).toFixed(1)}°S`},{" "}
                       {country.lng > 0 ? `${country.lng.toFixed(1)}°E` : `${Math.abs(country.lng).toFixed(1)}°W`}
                     </span>
-                    <span className="text-xs text-[#22c55e] border border-[#22c55e] px-2 py-0.5 rounded font-medium">
+                    <span className="text-[10px] text-[#34d399] border border-[#34d399]/40 bg-[#34d399]/10 px-2 py-0.5 rounded-lg font-medium">
                       Fly To
                     </span>
                   </div>

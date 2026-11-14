@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
 :root {
-  --background: #0b0f19;
-  --foreground: #e2e8f0;
+  --background: #000000;
+  --foreground: #f4f4f5;
 }
 
 body {
@@ -16,21 +16,21 @@ body {
   -webkit-user-select: none;
 }
 
-/* Custom scrollbar for search list and info card */
+/* Custom scrollbar with solid colors (no gradients, no navy) */
 ::-webkit-scrollbar {
   width: 6px;
   height: 6px;
 }
 
 ::-webkit-scrollbar-track {
-  background: #111827;
+  background: #18181b;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #374151;
+  background: #27272a;
   border-radius: 3px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #4b5563;
+  background: #3f3f46;
 }
