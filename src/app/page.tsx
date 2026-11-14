@@ -1,69 +1,129 @@
-import Image from "next/image";
+"use client";
+
+import React, { useState } from "react";
+import EarthGlobe3D from "../components/EarthGlobe3D";
+import SearchBar from "../components/SearchBar";
+import CountryDetails from "../components/CountryDetails";
+import { Country, COUNTRIES } from "../data/countries";
 
 export default function Home() {
+  const [selectedCountry, setSelectedCountry] = useState<Country | null>(null);
+  const [autoSpin, setAutoSpin] = useState<boolean>(true);
+  const [showGrid, setShowGrid] = useState<boolean>(true);
+
+  const handleSelectCountry = (country: Country) => {
+    setSelectedCountry(country);
+    // Pause auto-spin when focusing on a searched country
+    setAutoSpin(false);
+  };
+
+  const handleCloseDetails = () => {
+    setSelectedCountry(null);
+  };
+
+  // Quick preset destinations
+  const popularPresets = [
+    { label: "Egypt", id: "egy" },
+    { label: "United States", id: "usa" },
+    { label: "Japan", id: "jpn" },
+    { label: "France", id: "fra" },
+    { label: "Brazil", id: "bra" },
+    { label: "Australia", id: "aus" },
+    { label: "South Africa", id: "zaf" },
+  ];
+
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert h-5 w-[100px]"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the{" "}
-            <code className="rounded bg-black/[.06] px-1.5 py-0.5 font-mono text-[0.9em] dark:bg-white/[.08]">
-              page.tsx
-            </code>{" "}
-            file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
-        </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert h-[14px] w-4"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={14}
+    <main className="relative w-screen h-screen overflow-hidden bg-[#070a13] text-[#e2e8f0] flex flex-col font-sans select-none">
+      {/* Top Navigation & Search Bar Header */}
+      <header className="absolute top-0 left-0 right-0 z-30 p-4 sm:p-5 flex flex-col items-center pointer-events-none">
+        <div className="w-full max-w-4xl flex flex-col items-center gap-3">
+          {/* Top Title Bar */}
+          <div className="w-full flex items-center justify-between pointer-events-auto">
+            <div className="flex items-center gap-2.5">
+              <div className="w-3 h-3 bg-[#3b82f6] rounded-full"></div>
+              <h1 className="text-base sm:text-lg font-bold text-[#f8fafc] tracking-tight">
+                3D Earth Explorer
+              </h1>
+              <span className="hidden sm:inline-block text-xs font-mono px-2 py-0.5 bg-[#111827] border border-[#374151] text-[#9ca3af] rounded">
+                All World Regions
+              </span>
+            </div>
+
+            <div className="flex items-center gap-2 text-xs">
+              <span className="hidden md:inline text-[#9ca3af]">
+                Active Database:
+              </span>
+              <span className="font-semibold text-[#60a5fa] bg-[#111827] px-2 py-1 rounded border border-[#1f2937]">
+                {COUNTRIES.length} Countries & Regions
+              </span>
+            </div>
+          </div>
+
+          {/* Interactive Search Bar */}
+          <div className="w-full pointer-events-auto">
+            <SearchBar
+              onSelectCountry={handleSelectCountry}
+              selectedCountry={selectedCountry}
             />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
+          </div>
+
+          {/* Quick Destination Fly-To Pills */}
+          <div className="w-full flex items-center gap-1.5 overflow-x-auto py-0.5 pointer-events-auto text-xs justify-start sm:justify-center">
+            <span className="text-[#64748b] text-[11px] uppercase tracking-wider font-semibold mr-1">
+              Quick Fly:
+            </span>
+            {popularPresets.map((preset) => {
+              const country = COUNTRIES.find((c) => c.id === preset.id);
+              if (!country) return null;
+              const isSelected = selectedCountry?.id === country.id;
+              return (
+                <button
+                  key={preset.id}
+                  onClick={() => handleSelectCountry(country)}
+                  className={`px-2.5 py-0.5 rounded border text-[11px] font-medium transition-colors ${
+                    isSelected
+                      ? "bg-[#22c55e] border-[#22c55e] text-white"
+                      : "bg-[#111827] border-[#1f2937] text-[#cbd5e1] hover:bg-[#1f2937] hover:border-[#374151]"
+                  }`}
+                >
+                  {preset.label}
+                </button>
+              );
+            })}
+          </div>
         </div>
-      </main>
-    </div>
+      </header>
+
+      {/* 3D Canvas Earth Component (Supports touch on phones and mouse on desktop) */}
+      <section className="w-full h-full">
+        <EarthGlobe3D
+          selectedCountry={selectedCountry}
+          onSelectCountry={handleSelectCountry}
+          autoSpin={autoSpin}
+          showGrid={showGrid}
+          onToggleAutoSpin={() => setAutoSpin((prev) => !prev)}
+          onToggleGrid={() => setShowGrid((prev) => !prev)}
+        />
+      </section>
+
+      {/* Selected Country Dossier Card (Bottom overlay) */}
+      {selectedCountry && (
+        <div className="absolute bottom-6 left-4 right-4 sm:right-auto sm:max-w-md z-20 pointer-events-auto animate-in fade-in slide-in-from-bottom-4 duration-300">
+          <CountryDetails
+            country={selectedCountry}
+            onClose={handleCloseDetails}
+            onZoomTo={(customZoom) => {
+              // Trigger zoom update
+              if (selectedCountry) {
+                setSelectedCountry({
+                  ...selectedCountry,
+                  zoom: customZoom,
+                });
+              }
+            }}
+          />
+        </div>
+      )}
+    </main>
   );
 }
