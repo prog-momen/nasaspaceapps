@@ -660,7 +660,7 @@ function Dashboard({ sel }: { sel: Selection }) {
   return <DashboardContent data={data} sel={sel} />;
 }
 
-export default function DashboardView() {
+function DashboardInner() {
   const sp = useSearchParams();
   const sel =
     parseSelection(sp) ?? {
@@ -671,9 +671,19 @@ export default function DashboardView() {
       start: 1990,
       end: 2025,
     };
+  return <Dashboard sel={sel} />;
+}
+
+export default function DashboardView() {
   return (
-    <Suspense fallback={<Loading text="Loading NASA Dashboard..." />}>
-      <Dashboard sel={sel} />
+    <Suspense
+      fallback={
+        <PageFrame title="NASA Dashboard" subtitle="Loading" noScroll={false} theme="clay">
+          <Loading text="Loading NASA Dashboard..." />
+        </PageFrame>
+      }
+    >
+      <DashboardInner />
     </Suspense>
   );
 }
