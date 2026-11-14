@@ -8,20 +8,14 @@ import PageFrame, { ErrorBox, Loading } from "./PageFrame";
 import AiAssistantTemplate from "./AiAssistantTemplate";
 import {
   fetchAnalysis,
+  fetchForecast,
   parseSelection,
   selectionToParams,
   type Selection,
   type AnalysisResult,
 } from "../lib/api-client";
+import { VARIABLES, EXAMPLES } from "../lib/catalog";
 import { COUNTRIES, Country } from "../data/countries";
-
-const QUICK_VARIABLES = [
-  { key: "T2M", label: "Air Temp", unit: "°C", desc: "Surface Air Temperature (2 meters above ground)" },
-  { key: "T2M_MAX", label: "Max Temp", unit: "°C", desc: "Daily Maximum Air Temperature" },
-  { key: "PRECTOTCORR", label: "Precipitation", unit: "mm/day", desc: "Rain & Snowfall Precipitation" },
-  { key: "GWETROOT", label: "Soil Wetness", unit: "0-1", desc: "Root Zone Soil Moisture Index" },
-  { key: "TS", label: "Surface Temp", unit: "°C", desc: "Earth Skin Surface Temperature" },
-];
 
 const CHAPTERS = [
   {
@@ -46,13 +40,13 @@ const CHAPTERS = [
     num: 4,
     title: "The Rhythm of Seasons",
     subtitle: "Separating the seasonal heartbeat from genuine change.",
-    buttonLabel: "What happens next? (1-Year Outlook) →",
+    buttonLabel: "What happens next? (Forecast & Outlook) →",
   },
   {
     num: 5,
     title: "The Future Horizon & AI Detective",
-    subtitle: "1-Year predictive horizon and planetary risk action.",
-    buttonLabel: "Explore Multi-Year Scenarios →",
+    subtitle: "Verified predictive horizon & planetary risk action.",
+    buttonLabel: "Simulate Multi-Year Scenarios →",
   },
 ] as const;
 
@@ -117,16 +111,59 @@ function TargetDiscoveryLauncher() {
           Choose an Earth Observation Target
         </h1>
         <p className="text-sm text-slate-300 max-w-xl leading-relaxed mb-6">
-          Every screen starts empty until you select a real-world location. We connect directly to NASA satellite archives (POWER, MERRA-2, CERES) to evaluate planetary shifts step-by-step.
+          Every screen starts empty until you select a real-world location or grid point. We connect directly to NASA satellite archives (POWER, MERRA-2, CERES) to evaluate planetary shifts step-by-step.
         </p>
 
-        {/* Search input */}
+        {/* 5 NASA Official Challenge Demonstration Examples */}
+        <div className="w-full max-w-3xl mb-8 p-4 rounded-3xl bg-[#080d16]/90 border border-amber-500/30 shadow-2xl text-left">
+          <div className="flex items-center justify-between mb-3 border-b border-white/10 pb-2">
+            <span className="text-xs font-bold text-amber-300 uppercase tracking-wider font-mono flex items-center gap-2">
+              <span>🚀</span>
+              <span>NASA Space Apps 5 Challenge Demonstration Scenarios</span>
+            </span>
+            <span className="text-[10px] text-slate-400 font-mono">Click to launch investigation</span>
+          </div>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2.5">
+            {EXAMPLES.map((ex) => (
+              <button
+                key={ex.slug}
+                onClick={() => {
+                  router.push(
+                    `/dashboard?lat=${ex.lat}&lon=${ex.lon}&name=${encodeURIComponent(
+                      ex.region_name
+                    )}&variable=${ex.variable_key}&start=${ex.start_year}&end=${ex.end_year}`
+                  );
+                }}
+                className="p-3 rounded-2xl bg-white/5 hover:bg-amber-500/15 border border-white/10 hover:border-amber-400/50 transition-all text-left flex flex-col justify-between gap-2 group cursor-pointer"
+              >
+                <div>
+                  <div className="flex items-center justify-between gap-1 text-xs font-bold text-white group-hover:text-amber-300 transition-colors">
+                    <span>{ex.title}</span>
+                    <span className="text-[10px] font-mono px-1.5 py-0.5 rounded bg-white/10 text-slate-300">
+                      {ex.variable_key}
+                    </span>
+                  </div>
+                  <p className="text-[11px] text-slate-400 line-clamp-2 mt-1">
+                    {ex.story}
+                  </p>
+                </div>
+                <div className="flex items-center justify-between text-[10px] text-slate-500 font-mono pt-1 border-t border-white/5">
+                  <span>{ex.region_name}, {ex.country ?? "Region"}</span>
+                  <span className="text-amber-400 group-hover:translate-x-1 transition-transform">Launch →</span>
+                </div>
+              </button>
+            ))}
+          </div>
+        </div>
+
+        {/* Search input for points or countries */}
         <div className="w-full max-w-md relative mb-6">
           <input
             type="text"
             value={search}
             onChange={(e) => setSearch(e.target.value)}
-            placeholder="Search country, territory, or coordinates..."
+            placeholder="Search region, country, or enter coordinates (lat, lon)..."
             className="w-full bg-[#0a111c] border border-white/15 focus:border-amber-400 rounded-2xl px-4 py-3 text-sm text-white placeholder-slate-500 outline-none shadow-lg transition-all"
           />
           <div className="absolute right-3.5 top-3.5 text-slate-400">
@@ -146,16 +183,22 @@ function TargetDiscoveryLauncher() {
                 router.push(
                   `/dashboard?lat=${c.lat}&lon=${c.lng}&name=${encodeURIComponent(
                     c.name
-                  )}&variable=T2M&start=1990&end=2025`
+                  )}&variable=T2M&start=1990&end=2024`
                 );
               }}
-              className="dark-clay-card hover:border-amber-400/50 p-3 rounded-2xl flex flex-col items-start text-left transition-all hover:-translate-y-0.5 group cursor-pointer shadow-md"
+              className="p-3 rounded-2xl bg-[#080d16]/80 hover:bg-white/10 border border-white/10 hover:border-amber-400/50 text-left transition-all group flex flex-col justify-between cursor-pointer"
             >
-              <span className="text-xs font-bold text-white group-hover:text-amber-300 transition-colors">
-                {c.name}
-              </span>
-              <span className="text-[10px] text-slate-400 font-mono mt-0.5">
-                {c.region} • {c.lat.toFixed(1)}°, {c.lng.toFixed(1)}°
+              <div>
+                <span className="text-xs font-bold text-white group-hover:text-amber-300 block truncate">
+                  {c.name}
+                </span>
+                <span className="text-[10px] text-slate-400 block truncate font-mono">
+                  {c.capital}
+                </span>
+              </div>
+              <span className="text-[10px] text-slate-500 font-mono mt-2 block">
+                {c.lat > 0 ? `${c.lat.toFixed(1)}°N` : `${Math.abs(c.lat).toFixed(1)}°S`},{" "}
+                {c.lng > 0 ? `${c.lng.toFixed(1)}°E` : `${Math.abs(c.lng).toFixed(1)}°W`}
               </span>
             </button>
           ))}
@@ -172,7 +215,7 @@ function TargetDiscoveryLauncher() {
               <line x1="2" y1="12" x2="22" y2="12"></line>
               <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
             </svg>
-            <span>Fly to 3D Globe to Pick Coordinates</span>
+            <span>Fly to 3D Globe to Pick Any Coordinate</span>
           </Link>
 
           <Link
@@ -183,7 +226,7 @@ function TargetDiscoveryLauncher() {
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img src="/logo.jpg" alt="AI" className="w-full h-full object-contain" />
             </div>
-            <span>Talk to AI Detective Assistant</span>
+            <span>Ask AI Detective</span>
           </Link>
         </div>
       </div>
@@ -192,92 +235,101 @@ function TargetDiscoveryLauncher() {
 }
 
 // =========================================================================
-// MAIN INTERACTIVE STAGE (Animated Canvas with Chapter Morphing)
+// INTERACTIVE CINEMATIC STAGE (Dynamic Animated Explainer Chart Canvas)
 // =========================================================================
 interface StageProps {
   chapter: number;
   data: AnalysisResult;
   future12Months: { x: number; y: number; lower: number; upper: number }[];
-  normalRange: { min: number; max: number; mean: number; median: number; p10: number; p90: number };
+  normalRange: {
+    min: number;
+    max: number;
+    mean: number;
+    median: number;
+    p10: number;
+    p90: number;
+  };
 }
 
-function CinematicStage({
-  chapter,
-  data,
-  future12Months,
-  normalRange,
-}: StageProps) {
+function CinematicStage({ chapter, data, future12Months, normalRange }: StageProps) {
   const { series, trend: t, variable: v } = data;
   const [hoverIndex, setHoverIndex] = useState<number | null>(null);
 
-  const W = 800;
+  // SVG Stage Dimensions
+  const W = 760;
   const H = 340;
-  const PAD = { l: 56, r: 24, t: 24, b: 36 };
+  const PAD = { t: 25, r: 25, b: 40, l: 55 };
 
-  // Calculate coordinates bounds
-  const xValues = series.map((s) => dateToDecYear(s.date));
-  const minX = Math.min(...xValues);
-  const maxX = chapter === 5 ? dateToDecYear(series[series.length - 1].date) + 1.05 : Math.max(...xValues);
+  // Domain scaling
+  const minX = dateToDecYear(series[0].date);
+  const maxX =
+    chapter === 5 && future12Months.length > 0
+      ? future12Months[future12Months.length - 1].x
+      : dateToDecYear(series[series.length - 1].date);
 
-  const allYValues = [
-    ...series.map((s) => s.value),
-    normalRange.min,
-    normalRange.max,
-    ...(chapter === 5 ? future12Months.flatMap((p) => [p.lower, p.upper]) : []),
-  ];
-  let minY = Math.min(...allYValues);
-  let maxY = Math.max(...allYValues);
-  const padY = (maxY - minY || 1) * 0.12;
-  minY -= padY;
-  maxY += padY;
+  const allVals = series.map((s) => s.value);
+  if (chapter === 5 && future12Months.length > 0) {
+    future12Months.forEach((p) => {
+      allVals.push(p.lower, p.upper, p.y);
+    });
+  }
+
+  const rawMinY = Math.min(...allVals);
+  const rawMaxY = Math.max(...allVals);
+  const padY = Math.max(0.2, (rawMaxY - rawMinY) * 0.12);
+  const minY = rawMinY - padY;
+  const maxY = rawMaxY + padY;
 
   const sx = (x: number) => PAD.l + ((x - minX) / (maxX - minX || 1)) * (W - PAD.l - PAD.r);
   const sy = (y: number) => H - PAD.b - ((y - minY) / (maxY - minY || 1)) * (H - PAD.t - PAD.b);
 
-  // SVG Line paths
+  // Path 1: Historical Monthly Series
   const historicalPath = series
-    .map((s, i) => `${i === 0 ? "M" : "L"}${sx(dateToDecYear(s.date)).toFixed(1)},${sy(s.value).toFixed(1)}`)
+    .map((s, i) => `${i === 0 ? "M" : "L"} ${sx(dateToDecYear(s.date))} ${sy(s.value)}`)
     .join(" ");
 
-  const trendLinePath = series
-    .map((s, i) => `${i === 0 ? "M" : "L"}${sx(dateToDecYear(s.date)).toFixed(1)},${sy(s.trend).toFixed(1)}`)
-    .join(" ");
-
-  // Confidence Interval band for Chapter 3
-  const ciMargin = Math.max(0.15, Math.abs(t.ols.stdErr) * 1.96 + t.stdDev * 0.18);
-  const ciBandPath =
-    series
-      .map((s, i) => `${i === 0 ? "M" : "L"}${sx(dateToDecYear(s.date)).toFixed(1)},${sy(s.trend + ciMargin).toFixed(1)}`)
-      .join(" ") +
-    " " +
-    [...series]
-      .reverse()
-      .map((s) => `L${sx(dateToDecYear(s.date)).toFixed(1)},${sy(s.trend - ciMargin).toFixed(1)}`)
-      .join(" ") +
-    " Z";
-
-  // Forecast band path for Chapter 5
+  // Path 2: Linear Trend Line (Chapter 3)
+  const firstPt = series[0];
   const lastPoint = series[series.length - 1];
-  const forecastBandPath =
-    `M${sx(dateToDecYear(lastPoint.date)).toFixed(1)},${sy(lastPoint.value + 0.3).toFixed(1)} ` +
-    future12Months.map((p) => `L${sx(p.x).toFixed(1)},${sy(p.upper).toFixed(1)}`).join(" ") +
-    " " +
-    [...future12Months].reverse().map((p) => `L${sx(p.x).toFixed(1)},${sy(p.lower).toFixed(1)}`).join(" ") +
-    ` L${sx(dateToDecYear(lastPoint.date)).toFixed(1)},${sy(lastPoint.value - 0.3).toFixed(1)} Z`;
+  const trendLinePath = `M ${sx(dateToDecYear(firstPt.date))} ${sy(firstPt.trend)} L ${sx(
+    dateToDecYear(lastPoint.date)
+  )} ${sy(lastPoint.trend)}`;
 
-  const forecastLinePath =
-    `M${sx(dateToDecYear(lastPoint.date)).toFixed(1)},${sy(lastPoint.value).toFixed(1)} ` +
-    future12Months.map((p) => `L${sx(p.x).toFixed(1)},${sy(p.y).toFixed(1)}`).join(" ");
+  // Path 3: Confidence Interval Ribbon (Chapter 3)
+  const ciMargin = Math.max(0.15, Math.abs(t.ols.ci95[1] - t.ols.ci95[0]) * 0.5);
+  const ciTop = `M ${sx(dateToDecYear(firstPt.date))} ${sy(firstPt.trend + ciMargin)} L ${sx(
+    dateToDecYear(lastPoint.date)
+  )} ${sy(lastPoint.trend + ciMargin)}`;
+  const ciBottom = `L ${sx(dateToDecYear(lastPoint.date))} ${sy(
+    lastPoint.trend - ciMargin
+  )} L ${sx(dateToDecYear(firstPt.date))} ${sy(firstPt.trend - ciMargin)} Z`;
+  const ciBandPath = `${ciTop} ${ciBottom}`;
 
-  // Seasonal cycle points for Chapter 4
-  const climMean = t.seasonalClimatology.reduce((a, b) => a + b, 0) / 12;
+  // Path 4: Seasonal Rhythm Cycle (Chapter 4)
   const seasonalPath = series
     .map((s, i) => {
-      const monthIdx = Number(s.date.slice(5, 7)) - 1;
-      const seasonalVal = s.trend + (t.seasonalClimatology[monthIdx] - climMean);
-      return `${i === 0 ? "M" : "L"}${sx(dateToDecYear(s.date)).toFixed(1)},${sy(seasonalVal).toFixed(1)}`;
+      const monthIdx = (Number(s.date.slice(5, 7)) - 1) % 12;
+      const clim = t.seasonalClimatology[monthIdx >= 0 ? monthIdx : 0];
+      return `${i === 0 ? "M" : "L"} ${sx(dateToDecYear(s.date))} ${sy(s.trend + (clim - t.mean))}`;
     })
     .join(" ");
+
+  // Path 5: Forecast Trajectory & Uncertainty Envelope (Chapter 5)
+  const lastDecX = dateToDecYear(lastPoint.date);
+  const forecastLinePath = [
+    `M ${sx(lastDecX)} ${sy(lastPoint.value)}`,
+    ...future12Months.map((p) => `L ${sx(p.x)} ${sy(p.y)}`),
+  ].join(" ");
+
+  const forecastUpper = [
+    `M ${sx(lastDecX)} ${sy(lastPoint.value)}`,
+    ...future12Months.map((p) => `L ${sx(p.x)} ${sy(p.upper)}`),
+  ].join(" ");
+  const forecastLower = [
+    ...future12Months.slice().reverse().map((p) => `L ${sx(p.x)} ${sy(p.lower)}`),
+    `L ${sx(lastDecX)} ${sy(lastPoint.value)} Z`,
+  ].join(" ");
+  const forecastBandPath = `${forecastUpper} ${forecastLower}`;
 
   // Extremes for Chapter 2
   const extremes = series.filter(
@@ -399,54 +451,17 @@ function CinematicStage({
           x2={W - PAD.r}
           y1={sy(normalRange.median)}
           y2={sy(normalRange.median)}
-          stroke="#f59e0b"
-          strokeWidth="1.2"
-          strokeOpacity={chapter === 1 ? "0.8" : "0.25"}
+          stroke="#38bdf8"
+          strokeWidth="1"
+          strokeDasharray="2 3"
+          strokeOpacity={chapter === 1 ? "0.85" : "0.2"}
         />
 
-        {chapter === 1 && (
-          <g className="animate-[fadeInUp_0.5s_ease-out]">
-            <text
-              x={W - PAD.r - 8}
-              y={sy(normalRange.max) + 14}
-              textAnchor="end"
-              fill="#38bdf8"
-              fontSize="10"
-              fontFamily="monospace"
-              fontWeight="bold"
-            >
-              Historical Max: {fmt(normalRange.max, 1)} {v.unit}
-            </text>
-            <text
-              x={W - PAD.r - 8}
-              y={sy(normalRange.mean) - 5}
-              textAnchor="end"
-              fill="#38bdf8"
-              fontSize="10"
-              fontFamily="monospace"
-              fontWeight="bold"
-            >
-              Historical Mean: {fmt(normalRange.mean, 1)} {v.unit}
-            </text>
-            <text
-              x={W - PAD.r - 8}
-              y={sy(normalRange.min) - 6}
-              textAnchor="end"
-              fill="#38bdf8"
-              fontSize="10"
-              fontFamily="monospace"
-              fontWeight="bold"
-            >
-              Historical Min: {fmt(normalRange.min, 1)} {v.unit}
-            </text>
-          </g>
-        )}
-
         {/* -------------------------------------------------------------
-            CHAPTER 3: CONFIDENCE INTERVAL BAND & SEN'S SLOPE TRENDLINE
+            CHAPTER 3: CONFIDENCE INTERVAL & BOLD TREND ARROW
            ------------------------------------------------------------- */}
-        {(chapter === 3 || chapter === 5) && (
-          <g className="animate-[fadeInUp_0.6s_ease-out]">
+        {chapter >= 3 && (
+          <g className="animate-[fadeInUp_0.5s_ease-out]">
             <path d={ciBandPath} fill="#f59e0b" fillOpacity="0.18" />
             <path
               d={trendLinePath}
@@ -518,7 +533,7 @@ function CinematicStage({
         )}
 
         {/* -------------------------------------------------------------
-            CHAPTER 5: 1-YEAR FORECAST EXTENSION & UNCERTAINTY BAND
+            CHAPTER 5: FORECAST EXTENSION & UNCERTAINTY BAND
            ------------------------------------------------------------- */}
         {chapter === 5 && (
           <g className="animate-[fadeInUp_0.6s_ease-out]">
@@ -551,7 +566,7 @@ function CinematicStage({
               fontWeight="bold"
               fontFamily="monospace"
             >
-              1-Year Predictive Horizon →
+              Predictive Outlook Envelope →
             </text>
           </g>
         )}
@@ -598,11 +613,11 @@ function CinematicStage({
       {hoverIndex !== null && series[hoverIndex] && (
         <div className="absolute top-4 right-4 bg-[#0a111c]/95 border border-amber-400/50 rounded-xl px-3 py-1.5 shadow-xl text-xs font-mono flex items-center gap-3 backdrop-blur-md">
           <span className="text-slate-300 font-bold">{series[hoverIndex].date}</span>
-          <span className="text-white font-black text-sm">
+          <span className="text-amber-300 font-black">
             {fmt(series[hoverIndex].value, 2)} {v.unit}
           </span>
-          <span className="text-amber-400 text-[10px]">
-            Δ {signed(series[hoverIndex].anomaly, 2)}
+          <span className="text-slate-400 text-[10px]">
+            (Anomaly: {signed(series[hoverIndex].anomaly, 2)})
           </span>
         </div>
       )}
@@ -611,101 +626,315 @@ function CinematicStage({
 }
 
 // =========================================================================
-// GUIDED DETECTIVE MODE (Main Refactored View)
+// SIDE-BY-SIDE COMPARATIVE STAGE (Region A vs Region B for Same Variable)
 // =========================================================================
-function GuidedDetectiveMode({ data, sel }: { data: AnalysisResult; sel: Selection }) {
+interface CompareStageProps {
+  dataA: AnalysisResult;
+  dataB: AnalysisResult;
+}
+
+function ComparativeStage({ dataA, dataB }: CompareStageProps) {
+  const [hoverIndex, setHoverIndex] = useState<number | null>(null);
+
+  const seriesA = dataA.series;
+  const seriesB = dataB.series;
+  const v = dataA.variable;
+
+  const W = 760;
+  const H = 340;
+  const PAD = { t: 25, r: 25, b: 40, l: 55 };
+
+  const minXA = dateToDecYear(seriesA[0].date);
+  const maxXA = dateToDecYear(seriesA[seriesA.length - 1].date);
+  const minXB = dateToDecYear(seriesB[0].date);
+  const maxXB = dateToDecYear(seriesB[seriesB.length - 1].date);
+
+  const minX = Math.min(minXA, minXB);
+  const maxX = Math.max(maxXA, maxXB);
+
+  const allVals = [...seriesA.map((s) => s.value), ...seriesB.map((s) => s.value)];
+  const rawMinY = Math.min(...allVals);
+  const rawMaxY = Math.max(...allVals);
+  const padY = Math.max(0.2, (rawMaxY - rawMinY) * 0.12);
+  const minY = rawMinY - padY;
+  const maxY = rawMaxY + padY;
+
+  const sx = (x: number) => PAD.l + ((x - minX) / (maxX - minX || 1)) * (W - PAD.l - PAD.r);
+  const sy = (y: number) => H - PAD.b - ((y - minY) / (maxY - minY || 1)) * (H - PAD.t - PAD.b);
+
+  const pathA = seriesA
+    .map((s, i) => `${i === 0 ? "M" : "L"} ${sx(dateToDecYear(s.date))} ${sy(s.value)}`)
+    .join(" ");
+
+  const pathB = seriesB
+    .map((s, i) => `${i === 0 ? "M" : "L"} ${sx(dateToDecYear(s.date))} ${sy(s.value)}`)
+    .join(" ");
+
+  const trendA = `M ${sx(dateToDecYear(seriesA[0].date))} ${sy(seriesA[0].trend)} L ${sx(
+    dateToDecYear(seriesA[seriesA.length - 1].date)
+  )} ${sy(seriesA[seriesA.length - 1].trend)}`;
+
+  const trendB = `M ${sx(dateToDecYear(seriesB[0].date))} ${sy(seriesB[0].trend)} L ${sx(
+    dateToDecYear(seriesB[seriesB.length - 1].date)
+  )} ${sy(seriesB[seriesB.length - 1].trend)}`;
+
+  return (
+    <div className="relative w-full dark-clay-inset rounded-2xl sm:rounded-3xl p-3 sm:p-4 overflow-hidden border border-white/10 shadow-2xl">
+      <div className="flex items-center justify-between gap-2 mb-2 pb-2 border-b border-white/10 text-xs font-mono">
+        <div className="flex items-center gap-3">
+          <div className="flex items-center gap-1.5">
+            <span className="w-2.5 h-2.5 rounded-full bg-amber-400"></span>
+            <span className="font-bold text-amber-300">{dataA.region.name} (Region A)</span>
+          </div>
+          <span className="text-slate-500">vs</span>
+          <div className="flex items-center gap-1.5">
+            <span className="w-2.5 h-2.5 rounded-full bg-sky-400"></span>
+            <span className="font-bold text-sky-300">{dataB.region.name} (Region B)</span>
+          </div>
+        </div>
+        <div className="text-[11px] text-slate-400">
+          Comparing {v.name} ({v.unit})
+        </div>
+      </div>
+
+      <svg viewBox={`0 0 ${W} ${H}`} className="w-full h-auto select-none overflow-visible">
+        {/* Horizontal grid lines */}
+        {[minY, (minY + maxY) / 2, maxY].map((yVal, idx) => (
+          <g key={idx}>
+            <line
+              x1={PAD.l}
+              x2={W - PAD.r}
+              y1={sy(yVal)}
+              y2={sy(yVal)}
+              stroke="#ffffff"
+              strokeOpacity="0.08"
+              strokeDasharray="3 3"
+            />
+            <text x={PAD.l - 8} y={sy(yVal) + 3.5} textAnchor="end" fill="#94a3b8" fontSize="10" fontFamily="monospace">
+              {fmt(yVal, 1)}
+            </text>
+          </g>
+        ))}
+
+        {/* Region A line & trend */}
+        <path d={pathA} fill="none" stroke="#f59e0b" strokeWidth="2.2" strokeOpacity="0.9" />
+        <path d={trendA} fill="none" stroke="#f59e0b" strokeWidth="2.5" strokeDasharray="6 4" />
+
+        {/* Region B line & trend */}
+        <path d={pathB} fill="none" stroke="#38bdf8" strokeWidth="2.2" strokeOpacity="0.9" />
+        <path d={trendB} fill="none" stroke="#38bdf8" strokeWidth="2.5" strokeDasharray="6 4" />
+
+        {/* Interactive scrubber */}
+        {seriesA.map((s, i) => (
+          <rect
+            key={i}
+            x={sx(dateToDecYear(s.date)) - 2}
+            y={PAD.t}
+            width={Math.max(4, W / seriesA.length)}
+            height={H - PAD.t - PAD.b}
+            fill="transparent"
+            className="cursor-crosshair"
+            onMouseEnter={() => setHoverIndex(i)}
+          />
+        ))}
+
+        {hoverIndex !== null && seriesA[hoverIndex] && (
+          <g>
+            <line
+              x1={sx(dateToDecYear(seriesA[hoverIndex].date))}
+              x2={sx(dateToDecYear(seriesA[hoverIndex].date))}
+              y1={PAD.t}
+              y2={H - PAD.b}
+              stroke="#ffffff"
+              strokeWidth="1"
+              strokeDasharray="3 3"
+            />
+            <circle cx={sx(dateToDecYear(seriesA[hoverIndex].date))} cy={sy(seriesA[hoverIndex].value)} r="4" fill="#f59e0b" />
+            {seriesB[hoverIndex] && (
+              <circle cx={sx(dateToDecYear(seriesB[hoverIndex].date))} cy={sy(seriesB[hoverIndex].value)} r="4" fill="#38bdf8" />
+            )}
+          </g>
+        )}
+      </svg>
+
+      {/* Scrubber Tooltip */}
+      {hoverIndex !== null && seriesA[hoverIndex] && (
+        <div className="absolute top-4 right-4 bg-[#0a111c]/95 border border-white/20 rounded-xl px-3 py-1.5 shadow-xl text-xs font-mono flex items-center gap-4 backdrop-blur-md">
+          <span className="text-slate-300 font-bold">{seriesA[hoverIndex].date}</span>
+          <span className="text-amber-300 font-bold">
+            {dataA.region.name}: {fmt(seriesA[hoverIndex].value, 2)} {v.unit}
+          </span>
+          {seriesB[hoverIndex] && (
+            <span className="text-sky-300 font-bold">
+              {dataB.region.name}: {fmt(seriesB[hoverIndex].value, 2)} {v.unit}
+            </span>
+          )}
+        </div>
+      )}
+    </div>
+  );
+}
+
+// =========================================================================
+// MAIN GUIDED DETECTIVE DASHBOARD CONTROLLER
+// =========================================================================
+export function DashboardView() {
+  const searchParams = useSearchParams();
+  const sel = parseSelection(searchParams);
+
+  if (!sel) {
+    return <TargetDiscoveryLauncher />;
+  }
+
+  return <DashboardLoadedView sel={sel} />;
+}
+
+function DashboardLoadedView({ sel }: { sel: Selection }) {
   const router = useRouter();
+  const selKey = `${sel.lat},${sel.lon},${sel.variable},${sel.start},${sel.end}`;
+  const { data, error, retry } = useAsync(() => fetchAnalysis(sel), selKey);
+  const loading = !data && !error;
+
+  // Guided Detective Chapter State (1 to 5)
   const [chapter, setChapter] = useState<number>(1);
   const [scientistView, setScientistView] = useState<boolean>(false);
+  const [isVariablesModalOpen, setIsVariablesModalOpen] = useState<boolean>(false);
   const [isAssistantOpen, setIsAssistantOpen] = useState<boolean>(false);
+
+  // Side-by-Side Comparison Mode State
+  const [isComparing, setIsComparing] = useState<boolean>(false);
+  const [compareRegion, setCompareRegion] = useState<{ lat: number; lon: number; name: string }>({
+    lat: 78.2,
+    lon: 15.6,
+    name: "Svalbard",
+  });
+  const compKey = isComparing && compareRegion
+    ? `${compareRegion.lat},${compareRegion.lon},${sel.variable},${sel.start},${sel.end}`
+    : "none";
+  const { data: compareData, error: compareError, retry: retryCompare } = useAsync(
+    () =>
+      isComparing && compareRegion
+        ? fetchAnalysis({
+            lat: compareRegion.lat,
+            lon: compareRegion.lon,
+            name: compareRegion.name,
+            variable: sel.variable,
+            start: sel.start,
+            end: sel.end,
+          })
+        : Promise.resolve(null),
+    compKey
+  );
+  const compareLoading = isComparing && !compareData && !compareError;
+
+  // Forecast state for Chapter 5 calling /api/forecast
+  const [forecastHorizon, setForecastHorizon] = useState<number>(5);
+  const forecastKey =
+    chapter === 5
+      ? `${sel.lat},${sel.lon},${sel.variable},${sel.start},${sel.end},${forecastHorizon}`
+      : "disabled";
+  const { data: apiForecast, error: forecastError } = useAsync(
+    () => (chapter === 5 ? fetchForecast(sel, forecastHorizon) : Promise.resolve(null)),
+    forecastKey
+  );
+  const forecastLoading = chapter === 5 && !apiForecast && !forecastError;
+
+  if (loading || !data) {
+    return (
+      <PageFrame title="NASA EarthTrend Detective" subtitle="Querying satellite observations..." noScroll={false} theme="clay">
+        <Loading text="Querying NASA POWER, MERRA-2 & CERES satellite archive..." />
+      </PageFrame>
+    );
+  }
+
+  if (error) {
+    return (
+      <PageFrame title="NASA EarthTrend Detective" subtitle="Error" noScroll={false} theme="clay">
+        <ErrorBox message={error} onRetry={retry} />
+      </PageFrame>
+    );
+  }
 
   const { trend: t, variable: v, region, series } = data;
 
-  // Calculate descriptive statistics for plain language translation
-  const values = useMemo(() => series.map((s) => s.value).sort((a, b) => a - b), [series]);
-  const normalRange = useMemo(() => {
-    const meanVal = t.mean;
-    const medianVal =
+  // Calculate descriptive statistics
+  const values = series.map((s: { value: number }) => s.value).sort((a: number, b: number) => a - b);
+  const normalRange = {
+    min: t.min.value,
+    max: t.max.value,
+    mean: t.mean,
+    median:
       values.length % 2 === 0
         ? (values[values.length / 2 - 1] + values[values.length / 2]) / 2
-        : values[Math.floor(values.length / 2)];
-    const p10 = values[Math.floor(values.length * 0.1)] ?? values[0];
-    const p90 = values[Math.floor(values.length * 0.9)] ?? values[values.length - 1];
+        : values[Math.floor(values.length / 2)],
+    p10: values[Math.floor(values.length * 0.1)] ?? values[0],
+    p90: values[Math.floor(values.length * 0.9)] ?? values[values.length - 1],
+  };
 
-    return {
-      min: t.min.value,
-      max: t.max.value,
-      mean: meanVal,
-      median: medianVal,
-      p10,
-      p90,
-    };
-  }, [t, values]);
-
-  // Decadal slope & statistical verdict
   const slopeDecade = t.ols.slopePerYear * 10;
   const isWarmingOrIncrease = t.ols.slopePerYear > 0;
   const isSignificant = t.verdict === "significant";
 
-  // Data completeness badge
+  // Data completeness
   const expectedMonths = t.period.months || series.length;
   const reliabilityPct = Math.min(100, Math.round((series.length / expectedMonths) * 100));
 
-  // 1-Year Forecast calculations for Chapter 5
+  // Chapter 5 forecast points
   const lastPoint = series[series.length - 1];
   const lastDate = lastPoint?.date ?? `${t.period.end}-12`;
   const lastYear = Number(lastDate.slice(0, 4));
   const lastMonth = Number(lastDate.slice(5, 7));
-
-  const climMean = t.seasonalClimatology.reduce((a, b) => a + b, 0) / 12;
+  const climMean = t.seasonalClimatology.reduce((a: number, b: number) => a + b, 0) / 12;
   const forecastMargin = Math.max(0.2, 1.96 * (t.stdDev * 0.35 + Math.abs(t.ols.stdErr)));
 
-  const future12Months = useMemo(() => {
-    const pts: { x: number; y: number; lower: number; upper: number }[] = [];
-    for (let m = 1; m <= 12; m++) {
-      const monthIdx = (lastMonth + m - 1) % 12;
-      const seasonalShift = t.seasonalClimatology[monthIdx] - climMean;
-      const futureDecimalYear = lastYear + (lastMonth + m - 0.5) / 12;
-      const futureTrend = lastPoint.trend + t.ols.slopePerYear * (m / 12);
-      const predictedVal = futureTrend + seasonalShift;
-      const uncertaintyExpansion = forecastMargin * (1 + 0.04 * m);
-
-      pts.push({
-        x: futureDecimalYear,
-        y: predictedVal,
-        lower: predictedVal - uncertaintyExpansion,
-        upper: predictedVal + uncertaintyExpansion,
-      });
-    }
-    return pts;
-  }, [lastPoint, lastMonth, lastYear, t.seasonalClimatology, climMean, t.ols.slopePerYear, forecastMargin]);
-
-  const projectedNextYearMean =
-    future12Months.reduce((sum, p) => sum + p.y, 0) / future12Months.length;
+  const future12Months =
+    apiForecast?.forecast?.forecast?.length
+      ? apiForecast.forecast.forecast.map((p) => {
+          const yr = Number(p.date.slice(0, 4));
+          const mo = Number(p.date.slice(5, 7));
+          return {
+            x: yr + (mo - 0.5) / 12,
+            y: p.value,
+            lower: p.lower,
+            upper: p.upper,
+          };
+        })
+      : Array.from({ length: 12 }, (_, idx) => {
+          const m = idx + 1;
+          const monthIdx = (lastMonth + m - 1) % 12;
+          const seasonalShift = t.seasonalClimatology[monthIdx] - climMean;
+          const futureDecimalYear = lastYear + (lastMonth + m - 0.5) / 12;
+          const futureTrend = lastPoint.trend + t.ols.slopePerYear * (m / 12);
+          const predictedVal = futureTrend + seasonalShift;
+          const uncertaintyExpansion = forecastMargin * (1 + 0.04 * m);
+          return {
+            x: futureDecimalYear,
+            y: predictedVal,
+            lower: predictedVal - uncertaintyExpansion,
+            upper: predictedVal + uncertaintyExpansion,
+          };
+        });
 
   // Country Object for AI Assistant
-  const countryObj: Country = useMemo(() => {
-    const match = COUNTRIES.find((c) => c.name.toLowerCase() === region.name.toLowerCase());
-    if (match) return match;
-    const base = COUNTRIES[0];
-    return {
-      id: region.name.toLowerCase().replace(/[^a-z0-9]/g, "-") || "glo",
-      name: region.name,
-      officialName: region.name,
-      code2: (region.country_code ?? "GL").slice(0, 2).toUpperCase(),
-      code3: region.country_code ?? "GLO",
-      region: "Americas",
-      subregion: "Global Study Site",
-      capital: region.name,
-      lat: region.lat,
-      lng: region.lon,
-      zoom: base ? base.zoom : 2.0,
-      population: "N/A",
-      area: "N/A",
-      currency: "N/A",
-      timezone: "UTC",
-    };
-  }, [region]);
+  const countryObj: Country = {
+    id: region.name.toLowerCase().replace(/[^a-z0-9]/g, "-") || "grid-cell",
+    name: region.name,
+    officialName: region.name,
+    code2: (region.country_code ?? "UN").slice(0, 2).toUpperCase(),
+    code3: region.country_code ?? "CELL",
+    region: "Asia",
+    subregion: "Observation Target",
+    capital: region.name,
+    lat: region.lat,
+    lng: region.lon,
+    zoom: 2.2,
+    population: "N/A",
+    area: "0.5° × 0.5° Grid Cell",
+    currency: "N/A",
+    timezone: "UTC",
+  };
+
+  const isGridCell = region.name.startsWith("Grid Cell") || region.name.includes("°");
 
   return (
     <PageFrame
@@ -731,7 +960,7 @@ function GuidedDetectiveMode({ data, sel }: { data: AnalysisResult; sel: Selecti
               <div>
                 <div className="flex items-center gap-2">
                   <span className="text-[10px] font-mono font-bold uppercase tracking-wider px-2 py-0.5 rounded-full bg-amber-500/15 text-amber-300 border border-amber-500/30">
-                    NASA Detective Mode
+                    {isGridCell ? "NASA 0.5° Grid Cell" : "NASA Observation Site"}
                   </span>
                   <span className="text-xs text-slate-400 font-mono">
                     {region.lat > 0 ? `${region.lat.toFixed(1)}°N` : `${Math.abs(region.lat).toFixed(1)}°S`},{" "}
@@ -745,32 +974,34 @@ function GuidedDetectiveMode({ data, sel }: { data: AnalysisResult; sel: Selecti
               </div>
             </div>
 
-            {/* Quick Variable Switcher + 3D Globe Link */}
+            {/* Top Quick Actions: Variable Selector + Compare Mode + 3D Globe Link */}
             <div className="flex flex-wrap items-center gap-1.5">
-              {QUICK_VARIABLES.map((qv) => {
-                const isSel = v.key === qv.key;
-                return (
-                  <button
-                    key={qv.key}
-                    onClick={() => {
-                      if (!isSel) {
-                        router.replace(`/dashboard?${selectionToParams({ ...sel, variable: qv.key })}`);
-                      }
-                    }}
-                    className={`px-2.5 py-1 rounded-xl text-xs font-semibold transition-all border ${
-                      isSel
-                        ? "bg-amber-500 text-black border-amber-300 font-bold shadow-md shadow-amber-900/40"
-                        : "dark-clay-button text-slate-300 hover:text-white"
-                    }`}
-                  >
-                    {qv.label}
-                  </button>
-                );
-              })}
+              {/* Full 12 Variables & Period Modal Toggle */}
+              <button
+                onClick={() => setIsVariablesModalOpen(true)}
+                className="px-3 py-1.5 rounded-xl text-xs font-bold cosmic-gold-button flex items-center gap-1.5 shadow-md active:scale-95 cursor-pointer"
+              >
+                <span>📊</span>
+                <span>All 12 Variables & Period</span>
+              </button>
 
+              {/* Side-by-Side Comparison Toggle */}
+              <button
+                onClick={() => setIsComparing((prev) => !prev)}
+                className={`px-3 py-1.5 rounded-xl text-xs font-bold transition-all flex items-center gap-1.5 border cursor-pointer ${
+                  isComparing
+                    ? "bg-sky-500 text-white border-sky-400 shadow-[0_0_12px_rgba(56,189,248,0.5)]"
+                    : "dark-clay-button text-slate-300 hover:text-white border-white/10"
+                }`}
+              >
+                <span>⚖️</span>
+                <span>{isComparing ? "Exit Comparison" : "Compare 2 Regions"}</span>
+              </button>
+
+              {/* Back to 3D Globe Link */}
               <Link
                 href={`/?lat=${region.lat}&lon=${region.lon}&name=${encodeURIComponent(region.name)}`}
-                className="dark-clay-button px-3 py-1 rounded-xl text-xs font-bold text-amber-300 hover:text-white flex items-center gap-1.5 transition-all ml-1 border border-amber-500/30"
+                className="dark-clay-button px-3 py-1.5 rounded-xl text-xs font-bold text-amber-300 hover:text-white flex items-center gap-1.5 transition-all border border-amber-500/30"
               >
                 <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2">
                   <circle cx="12" cy="12" r="10"></circle>
@@ -782,326 +1013,421 @@ function GuidedDetectiveMode({ data, sel }: { data: AnalysisResult; sel: Selecti
             </div>
           </div>
 
+          {/* 5 NASA Official Challenge Demonstration Scenarios Strip */}
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 pt-1 border-b border-white/5 pb-2 text-xs">
+            <span className="text-[10px] font-mono text-amber-300/80 font-bold uppercase tracking-wider shrink-0">
+              NASA 5 Demo Scenarios:
+            </span>
+            <div className="flex items-center gap-1.5 overflow-x-auto pb-1 sm:pb-0">
+              {EXAMPLES.map((ex) => (
+                <button
+                  key={ex.slug}
+                  onClick={() => {
+                    router.push(
+                      `/dashboard?lat=${ex.lat}&lon=${ex.lon}&name=${encodeURIComponent(
+                        ex.region_name
+                      )}&variable=${ex.variable_key}&start=${ex.start_year}&end=${ex.end_year}`
+                    );
+                  }}
+                  className={`px-2.5 py-1 rounded-xl text-[11px] font-semibold whitespace-nowrap transition-all border ${
+                    region.name === ex.region_name && v.key === ex.variable_key
+                      ? "bg-amber-500/25 text-amber-300 border-amber-500/50"
+                      : "bg-white/5 hover:bg-white/10 text-slate-300 border-white/10"
+                  }`}
+                >
+                  <span>{ex.region_name}</span>
+                  <span className="text-[9px] font-mono text-slate-400 ml-1">({ex.variable_key})</span>
+                </button>
+              ))}
+            </div>
+          </div>
+
           {/* Interactive Chapter Stepper Ribbon */}
-          <div className="flex flex-col sm:flex-row items-center justify-between gap-3 pt-1">
-            <div className="flex items-center gap-1.5 w-full sm:w-auto overflow-x-auto pb-1 sm:pb-0">
-              {CHAPTERS.map((ch) => {
-                const isActive = chapter === ch.num;
-                const isPassed = chapter > ch.num;
-                return (
-                  <button
-                    key={ch.num}
-                    onClick={() => setChapter(ch.num)}
-                    className={`px-3 py-1.5 rounded-xl text-xs font-bold transition-all flex items-center gap-2 border cursor-pointer ${
-                      isActive
-                        ? "bg-amber-500 text-black border-amber-300 shadow-[0_0_15px_rgba(245,158,11,0.4)]"
-                        : isPassed
-                        ? "bg-amber-950/40 text-amber-300 border-amber-500/30 hover:border-amber-400"
-                        : "dark-clay-button text-slate-400 hover:text-white"
-                    }`}
-                  >
-                    <span
-                      className={`w-4 h-4 rounded-full text-[10px] flex items-center justify-center font-mono font-black ${
+          {!isComparing && (
+            <div className="flex flex-col sm:flex-row items-center justify-between gap-3 pt-1">
+              <div className="flex items-center gap-1.5 w-full sm:w-auto overflow-x-auto pb-1 sm:pb-0">
+                {CHAPTERS.map((ch) => {
+                  const isActive = chapter === ch.num;
+                  const isPassed = chapter > ch.num;
+                  return (
+                    <button
+                      key={ch.num}
+                      onClick={() => setChapter(ch.num)}
+                      className={`px-3 py-1.5 rounded-xl text-xs font-bold transition-all flex items-center gap-2 whitespace-nowrap cursor-pointer ${
                         isActive
-                          ? "bg-black text-amber-400"
+                          ? "cosmic-gold-button shadow-md scale-105"
                           : isPassed
-                          ? "bg-amber-500 text-black"
-                          : "bg-white/10 text-slate-300"
+                          ? "bg-amber-500/20 text-amber-300 border border-amber-500/40"
+                          : "bg-white/5 text-slate-400 hover:text-white border border-white/10"
                       }`}
                     >
-                      {ch.num}
-                    </span>
-                    <span className="hidden md:inline whitespace-nowrap">{ch.title}</span>
-                  </button>
-                );
-              })}
-            </div>
+                      <span
+                        className={`w-4 h-4 rounded-full flex items-center justify-center text-[10px] font-mono ${
+                          isActive
+                            ? "bg-black text-amber-400 font-black"
+                            : isPassed
+                            ? "bg-amber-400 text-black"
+                            : "bg-white/10"
+                        }`}
+                      >
+                        {isPassed ? "✓" : ch.num}
+                      </span>
+                      <span>{ch.title.split(":")[0]}</span>
+                    </button>
+                  );
+                })}
+              </div>
 
-            {/* Toggle Scientist View Button */}
-            <button
-              onClick={() => setScientistView((prev) => !prev)}
-              className={`px-3 py-1.5 rounded-xl text-xs font-bold transition-all flex items-center gap-1.5 border cursor-pointer ${
-                scientistView
-                  ? "bg-sky-500 text-black border-sky-300 shadow-md shadow-sky-900/40"
-                  : "dark-clay-button text-slate-300 hover:text-white border-white/15"
-              }`}
-            >
-              <span>🔬</span>
-              <span>{scientistView ? "Hide Scientist View" : "Scientist View"}</span>
-            </button>
-          </div>
+              {/* Scientist View Toggle Pill */}
+              <button
+                onClick={() => setScientistView((prev) => !prev)}
+                className={`px-3 py-1.5 rounded-xl text-xs font-mono font-bold transition-all flex items-center gap-1.5 border cursor-pointer ${
+                  scientistView
+                    ? "bg-sky-500/20 text-sky-300 border-sky-400 shadow-[0_0_10px_rgba(56,189,248,0.4)]"
+                    : "bg-white/5 hover:bg-white/10 text-slate-400 hover:text-white border-white/10"
+                }`}
+              >
+                <span>🔬</span>
+                <span>{scientistView ? "Hide Scientist View" : "Scientist View"}</span>
+              </button>
+            </div>
+          )}
         </header>
 
         {/* =========================================================================
-            STAGE + STORY SPLIT (Cinematic Canvas + Focused Story Card)
+            COMPARISON MODE BANNER & SECONDARY REGION CONTROLS (IF COMPARING)
             ========================================================================= */}
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-4 items-start">
-          {/* LEFT NARRATIVE STORY CARD (lg:col-span-5) */}
-          <div className="lg:col-span-5 flex flex-col gap-3">
-            <div className="dark-clay-card rounded-2xl sm:rounded-3xl p-4 sm:p-5 flex flex-col justify-between shadow-xl border border-white/10 min-h-[360px]">
-              {/* Chapter Header */}
+        {isComparing && (
+          <div className="dark-clay-card rounded-2xl p-4 flex flex-wrap items-center justify-between gap-3 border border-sky-500/40 bg-sky-950/20">
+            <div className="flex items-center gap-3">
+              <span className="text-xl">⚖️</span>
               <div>
-                <div className="flex items-center justify-between mb-2">
-                  <span className="text-[10px] font-mono font-bold uppercase tracking-wider px-2.5 py-0.5 rounded-full bg-amber-500/15 text-amber-400 border border-amber-500/30">
+                <h3 className="text-sm font-bold text-white">Side-by-Side Comparison Mode Active</h3>
+                <p className="text-xs text-slate-300 font-mono">
+                  Evaluating {v.name} for <strong>{region.name}</strong> vs <strong>{compareRegion.name}</strong>
+                </p>
+              </div>
+            </div>
+
+            {/* Quick Picker for Secondary Region */}
+            <div className="flex items-center gap-2">
+              <span className="text-xs text-slate-400">Change Region B:</span>
+              <select
+                value={compareRegion.name}
+                onChange={(e) => {
+                  const ex = EXAMPLES.find((x) => x.region_name === e.target.value);
+                  if (ex) {
+                    setCompareRegion({ lat: ex.lat, lon: ex.lon, name: ex.region_name });
+                  } else {
+                    const c = COUNTRIES.find((x) => x.name === e.target.value);
+                    if (c) setCompareRegion({ lat: c.lat, lon: c.lng, name: c.name });
+                  }
+                }}
+                className="bg-[#0a111c] border border-white/20 rounded-xl px-3 py-1.5 text-xs text-white outline-none focus:border-amber-400"
+              >
+                <optgroup label="NASA Challenge Examples">
+                  {EXAMPLES.map((ex) => (
+                    <option key={ex.slug} value={ex.region_name}>
+                      {ex.region_name} ({ex.country ?? "Demo"})
+                    </option>
+                  ))}
+                </optgroup>
+                <optgroup label="Global Regions">
+                  {COUNTRIES.slice(0, 15).map((c) => (
+                    <option key={c.id} value={c.name}>
+                      {c.name}
+                    </option>
+                  ))}
+                </optgroup>
+              </select>
+            </div>
+          </div>
+        )}
+
+        {/* =========================================================================
+            MAIN STAGE + STORY CARDS SPLIT
+            ========================================================================= */}
+        {isComparing ? (
+          /* COMPARATIVE VIEW */
+          <div className="flex flex-col gap-4">
+            {compareLoading || !compareData ? (
+              <div className="dark-clay-card p-12 text-center text-slate-300">
+                <Loading text={`Loading comparative satellite records for ${compareRegion.name}...`} />
+              </div>
+            ) : compareError ? (
+              <ErrorBox message={compareError} onRetry={retryCompare} />
+            ) : (
+              <>
+                {/* Comparative KPI Strip */}
+                <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
+                  <div className="dark-clay-card rounded-2xl p-3 border border-white/10">
+                    <span className="text-[10px] font-mono text-slate-400 block mb-1">Rate of Change (Slope)</span>
+                    <div className="text-xs space-y-1 font-mono">
+                      <div className="text-amber-300 font-bold">{data.region.name}: {signed(data.trend.ols.slopePerYear * 10, 3)} {v.unit}/dec</div>
+                      <div className="text-sky-300 font-bold">{compareData.region.name}: {signed(compareData.trend.ols.slopePerYear * 10, 3)} {v.unit}/dec</div>
+                    </div>
+                  </div>
+
+                  <div className="dark-clay-card rounded-2xl p-3 border border-white/10">
+                    <span className="text-[10px] font-mono text-slate-400 block mb-1">Statistical Significance</span>
+                    <div className="text-xs space-y-1">
+                      <span className={`inline-block px-2 py-0.5 rounded text-[10px] font-bold ${data.trend.verdict === "significant" ? "bg-emerald-500/20 text-emerald-300" : "bg-slate-700 text-slate-300"}`}>
+                        {data.region.name}: {data.trend.verdict}
+                      </span>
+                      <span className={`block px-2 py-0.5 rounded text-[10px] font-bold ${compareData.trend.verdict === "significant" ? "bg-emerald-500/20 text-emerald-300" : "bg-slate-700 text-slate-300"}`}>
+                        {compareData.region.name}: {compareData.trend.verdict}
+                      </span>
+                    </div>
+                  </div>
+
+                  <div className="dark-clay-card rounded-2xl p-3 border border-white/10">
+                    <span className="text-[10px] font-mono text-slate-400 block mb-1">Total Shift Over Record</span>
+                    <div className="text-xs space-y-1 font-mono">
+                      <div className="text-amber-300 font-bold">{data.region.name}: {signed(data.trend.totalChange, 2)} {v.unit}</div>
+                      <div className="text-sky-300 font-bold">{compareData.region.name}: {signed(compareData.trend.totalChange, 2)} {v.unit}</div>
+                    </div>
+                  </div>
+
+                  <div className="dark-clay-card rounded-2xl p-3 border border-white/10">
+                    <span className="text-[10px] font-mono text-slate-400 block mb-1">Mean Baseline</span>
+                    <div className="text-xs space-y-1 font-mono">
+                      <div className="text-amber-300 font-bold">{data.region.name}: {fmt(data.trend.mean, 2)} {v.unit}</div>
+                      <div className="text-sky-300 font-bold">{compareData.region.name}: {fmt(compareData.trend.mean, 2)} {v.unit}</div>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Comparative Dual Stage */}
+                <ComparativeStage dataA={data} dataB={compareData} />
+
+                {/* Comparative Verdict Synthesis */}
+                <div className="dark-clay-card rounded-3xl p-5 border border-amber-500/30 flex flex-col gap-2">
+                  <h3 className="text-sm font-bold text-amber-300 font-mono uppercase tracking-wider flex items-center gap-2">
+                    <span>🔍</span>
+                    <span>Comparative Detective Verdict</span>
+                  </h3>
+                  <p className="text-sm text-slate-200 leading-relaxed">
+                    {data.region.name} exhibits a {data.trend.ols.slopePerYear >= 0 ? "warming/rising" : "cooling/decreasing"} rate of{" "}
+                    <strong>{signed(data.trend.ols.slopePerYear * 10, 3)} {v.unit}/decade</strong> ({data.trend.verdict === "significant" ? "statistically significant" : "not statistically significant"}), while {compareData.region.name} exhibits a rate of{" "}
+                    <strong>{signed(compareData.trend.ols.slopePerYear * 10, 3)} {v.unit}/decade</strong> ({compareData.trend.verdict === "significant" ? "statistically significant" : "not statistically significant"}).
+                  </p>
+                </div>
+              </>
+            )}
+          </div>
+        ) : (
+          /* GUIDED 5-CHAPTER STORY MODE */
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-4">
+            {/* LEFT FOCUSED NARRATIVE RAIL (lg:col-span-5) */}
+            <div className="lg:col-span-5 flex flex-col justify-between gap-3">
+              {/* Active Chapter Story Card */}
+              <div className="dark-clay-card rounded-2xl sm:rounded-3xl p-4 sm:p-5 flex flex-col gap-3 shadow-2xl border border-white/10">
+                <div className="flex items-center justify-between">
+                  <span className="text-[10px] font-mono font-bold uppercase tracking-wider px-2 py-0.5 rounded-full bg-amber-500/15 text-amber-300 border border-amber-500/30">
                     Chapter {chapter} of 5
                   </span>
-                  <span className="text-xs font-mono text-slate-400">
-                    NASA POWER • {series.length} Months
+                  <span className="text-[10px] text-slate-400 font-mono">
+                    {reliabilityPct}% Satellite Completeness
                   </span>
                 </div>
 
-                <h2 className="text-xl font-black text-white tracking-tight mb-1">
-                  {CHAPTERS[chapter - 1].title}
-                </h2>
-                <p className="text-xs font-medium text-amber-300/90 mb-4">
-                  {CHAPTERS[chapter - 1].subtitle}
-                </p>
+                <div>
+                  <h2 className="text-lg sm:text-xl font-bold text-white tracking-tight">
+                    {CHAPTERS[chapter - 1].title}
+                  </h2>
+                  <p className="text-xs text-slate-400 font-mono mt-0.5">
+                    {CHAPTERS[chapter - 1].subtitle}
+                  </p>
+                </div>
 
-                {/* Plain Human Language Story Content for Each Chapter */}
-                {chapter === 1 && (
-                  <div className="space-y-3 text-xs text-slate-300 leading-relaxed animate-[fadeInUp_0.3s_ease-out]">
-                    <p>
-                      Before deciding if the climate is changing, detectives first establish{" "}
-                      <strong className="text-white">what &quot;normal&quot; looks like</strong>.
-                    </p>
-                    <div className="p-3 rounded-xl bg-white/5 border border-white/10 space-y-2">
-                      <div className="flex items-center justify-between">
+                {/* Chapter-specific Plain-Language Translation */}
+                <div className="text-xs leading-relaxed text-slate-200 pt-2 border-t border-white/10 min-h-[140px] flex flex-col justify-center">
+                  {chapter === 1 && (
+                    <div className="space-y-2">
+                      <p>
+                        This is <strong>{region.name}</strong>. Over the satellite era, normal {v.name.toLowerCase()} averages{" "}
+                        <strong className="text-amber-300 font-mono">{fmt(normalRange.mean, 1)} {v.unit}</strong>{" "}
+                        (with typical readings spanning between {fmt(normalRange.p10, 1)} and {fmt(normalRange.p90, 1)} {v.unit}).
+                      </p>
+                      <div className="p-2.5 rounded-xl bg-white/5 border border-white/10 flex items-center justify-between text-[11px] font-mono">
                         <span className="text-slate-400">Data Reliability:</span>
-                        <span className="font-bold text-emerald-400 font-mono">
-                          {reliabilityPct}% Complete ({series.length} / {expectedMonths} mos)
-                        </span>
-                      </div>
-                      <div className="flex items-center justify-between">
-                        <span className="text-slate-400">Baseline Normal Mean:</span>
-                        <span className="font-bold text-white font-mono">
-                          {fmt(normalRange.mean, 1)} {v.unit}
-                        </span>
-                      </div>
-                      <div className="flex items-center justify-between">
-                        <span className="text-slate-400">Historical Extremes:</span>
-                        <span className="font-bold text-white font-mono">
-                          {fmt(normalRange.min, 1)} to {fmt(normalRange.max, 1)} {v.unit}
-                        </span>
+                        <span className="text-emerald-300 font-bold">✓ {reliabilityPct}% Complete Archive</span>
                       </div>
                     </div>
-                    <p className="text-[11px] text-slate-400">
-                      The shaded band on the stage marks the typical seasonal envelope. Next, let&apos;s watch how year-to-year weather danced across this range.
-                    </p>
-                  </div>
-                )}
+                  )}
 
-                {chapter === 2 && (
-                  <div className="space-y-3 text-xs text-slate-300 leading-relaxed animate-[fadeInUp_0.3s_ease-out]">
-                    <p>
-                      Weather is naturally bouncy. Planetary detectives evaluate{" "}
-                      <strong className="text-white">weather stability</strong>: does this region experience calm seasons or wild swings?
-                    </p>
-                    <div className="p-3 rounded-xl bg-white/5 border border-white/10 space-y-2">
-                      <div className="flex items-center justify-between">
-                        <span className="text-slate-400">Weather Stability:</span>
-                        <span className="font-bold text-amber-400">
-                          {t.stdDev / (Math.abs(t.mean) || 1) < 0.15 ? "High (Steady)" : "Dynamic Swings"}
-                        </span>
-                      </div>
-                      <div className="flex items-center justify-between">
-                        <span className="text-slate-400">Standard Deviation (Spread):</span>
-                        <span className="font-bold text-white font-mono">
-                          ±{fmt(t.stdDev, 2)} {v.unit}
-                        </span>
-                      </div>
-                      <div className="flex items-center justify-between">
-                        <span className="text-slate-400">Extreme Events (P10 / P90):</span>
-                        <span className="font-bold text-sky-400 font-mono">
-                          {fmt(normalRange.p10, 1)} / {fmt(normalRange.p90, 1)} {v.unit}
-                        </span>
+                  {chapter === 2 && (
+                    <div className="space-y-2">
+                      <p>
+                        Weather fluctuates naturally. Here, weather stability shows a standard deviation of{" "}
+                        <strong className="text-amber-300 font-mono">±{fmt(t.stdDev, 2)} {v.unit}</strong>.
+                      </p>
+                      <p className="text-slate-300">
+                        Pulsing dots highlight extreme peaks and drops. The hottest/highest recorded point was{" "}
+                        <strong className="text-amber-300 font-mono">{fmt(normalRange.max, 1)} {v.unit}</strong>{" "}
+                        on {t.max.date}, and the lowest was{" "}
+                        <strong className="text-sky-300 font-mono">{fmt(normalRange.min, 1)} {v.unit}</strong>{" "}
+                        on {t.min.date}.
+                      </p>
+                    </div>
+                  )}
+
+                  {chapter === 3 && (
+                    <div className="space-y-2">
+                      <p>
+                        {isWarmingOrIncrease ? "Rising" : "Declining"} at a rate of{" "}
+                        <strong className="text-amber-300 font-mono text-sm">
+                          {signed(slopeDecade, 2)} {v.unit}/decade
+                        </strong>{" "}
+                        (Total change across record: <strong>{signed(t.totalChange, 2)} {v.unit}</strong>).
+                      </p>
+                      <div
+                        className={`p-2.5 rounded-xl border flex items-center justify-between text-[11px] font-mono ${
+                          isSignificant
+                            ? "bg-emerald-500/15 border-emerald-500/40 text-emerald-300 font-bold"
+                            : "bg-slate-800/80 border-slate-700 text-slate-300"
+                        }`}
+                      >
+                        <span>Mann-Kendall Test:</span>
+                        <span>{isSignificant ? "Mathematically Significant Shift ✅" : "Natural Fluctuation (Not significant yet)"}</span>
                       </div>
                     </div>
-                    <p className="text-[11px] text-slate-400">
-                      Pulsing circles on the chart spotlight anomalous peaks and dips. But are these swings random weather noise or a permanent drift?
-                    </p>
-                  </div>
-                )}
+                  )}
 
-                {chapter === 3 && (
-                  <div className="space-y-3 text-xs text-slate-300 leading-relaxed animate-[fadeInUp_0.3s_ease-out]">
-                    <p>
-                      Here is the core answer to NASA&apos;s detective challenge:{" "}
-                      <strong className="text-white">What is changing, and is it statistically proven?</strong>
-                    </p>
-                    <div className="p-3 rounded-xl bg-white/5 border border-white/10 space-y-2">
-                      <div className="flex items-center justify-between">
-                        <span className="text-slate-400">Verdict:</span>
-                        <span
-                          className={`font-black font-mono px-2 py-0.5 rounded text-[11px] ${
-                            isSignificant
-                              ? "bg-emerald-500/20 text-emerald-300 border border-emerald-500/40"
-                              : "bg-amber-500/20 text-amber-300 border border-amber-500/40"
-                          }`}
-                        >
-                          {isSignificant ? "Statistically Proven Trend" : "Natural Baseline Noise"}
-                        </span>
+                  {chapter === 4 && (
+                    <div className="space-y-2">
+                      <p>
+                        Planetary tilt creates a rhythmic 12-month heartbeat. The peak month is{" "}
+                        <strong className="text-emerald-300 font-mono">Month {t.seasonalClimatology.indexOf(Math.max(...t.seasonalClimatology)) + 1}</strong>{" "}
+                        and the lowest is{" "}
+                        <strong className="text-sky-300 font-mono">Month {t.seasonalClimatology.indexOf(Math.min(...t.seasonalClimatology)) + 1}</strong>.
+                      </p>
+                      <p className="text-slate-300">
+                        Our engine subtracts this predictable astronomical wave to expose genuine long-term structural shifts underneath.
+                      </p>
+                    </div>
+                  )}
+
+                  {chapter === 5 && (
+                    <div className="space-y-2">
+                      <p>
+                        Projected outlook from NASA trend model:
+                      </p>
+                      <div className="p-2.5 rounded-xl bg-amber-500/10 border border-amber-500/30 text-amber-200 font-mono text-[11px] space-y-1">
+                        <div className="flex justify-between">
+                          <span>Horizon:</span>
+                          <span className="font-bold">{forecastHorizon} Years ({forecastLoading ? "Fetching API..." : "Live /api/forecast"})</span>
+                        </div>
+                        {apiForecast?.forecast?.method && (
+                          <div className="flex justify-between text-slate-300 text-[10px]">
+                            <span>Model Verification:</span>
+                            <span>{apiForecast.forecast.method}</span>
+                          </div>
+                        )}
+                        {apiForecast?.forecast?.expectedChange?.absolute !== undefined && (
+                          <div className="flex justify-between text-[10px]">
+                            <span>Expected Shift from Baseline:</span>
+                            <span className="font-bold text-amber-300">{signed(apiForecast.forecast.expectedChange.absolute, 2)} {v.unit}</span>
+                          </div>
+                        )}
                       </div>
-                      <div className="flex items-center justify-between">
-                        <span className="text-slate-400">Decadal Speed:</span>
-                        <span className="font-bold text-amber-400 font-mono text-sm">
-                          {signed(slopeDecade, 2)} {v.unit} / decade
-                        </span>
-                      </div>
-                      <div className="flex items-center justify-between">
-                        <span className="text-slate-400">Total Measured Shift:</span>
-                        <span className="font-bold text-white font-mono">
-                          {signed(t.totalChange, 1)} {v.unit} over {t.period.years} years
-                        </span>
+
+                      {/* Horizon switch */}
+                      <div className="flex items-center gap-1.5 pt-1">
+                        <span className="text-[10px] text-slate-400">Horizon:</span>
+                        {[1, 2, 5, 10].map((h) => (
+                          <button
+                            key={h}
+                            onClick={() => setForecastHorizon(h)}
+                            className={`px-2 py-0.5 rounded text-[10px] font-mono font-bold ${
+                              forecastHorizon === h
+                                ? "bg-amber-400 text-black"
+                                : "bg-white/10 text-slate-300 hover:text-white"
+                            }`}
+                          >
+                            {h}Y
+                          </button>
+                        ))}
                       </div>
                     </div>
-                    <p className="text-[11px] text-slate-400">
-                      {isSignificant
-                        ? "Confidence > 95%: This shift exceeds natural climate noise and will continue to alter local environmental balances."
-                        : "Variations remain within historical random noise boundaries."}
-                    </p>
-                  </div>
-                )}
-
-                {chapter === 4 && (
-                  <div className="space-y-3 text-xs text-slate-300 leading-relaxed animate-[fadeInUp_0.3s_ease-out]">
-                    <p>
-                      Every location has an annual <strong className="text-white">seasonal heartbeat</strong>.
-                      Scientists use seasonal decomposition to isolate genuine long-term changes from regular summer warmth and winter chill.
-                    </p>
-                    <div className="p-3 rounded-xl bg-white/5 border border-white/10 space-y-2">
-                      <div className="flex items-center justify-between">
-                        <span className="text-slate-400">Annual Heartbeat Cycle:</span>
-                        <span className="font-bold text-emerald-400 font-mono">
-                          12-Month Harmonic Wave
-                        </span>
-                      </div>
-                      <div className="flex items-center justify-between">
-                        <span className="text-slate-400">Warmest Month Climatology:</span>
-                        <span className="font-bold text-white font-mono">
-                          {fmt(Math.max(...t.seasonalClimatology), 1)} {v.unit}
-                        </span>
-                      </div>
-                      <div className="flex items-center justify-between">
-                        <span className="text-slate-400">Coolest Month Climatology:</span>
-                        <span className="font-bold text-white font-mono">
-                          {fmt(Math.min(...t.seasonalClimatology), 1)} {v.unit}
-                        </span>
-                      </div>
-                    </div>
-                    <p className="text-[11px] text-slate-400">
-                      The green curve traces the regular repeating cycle. Now, what does science predict for the immediate future?
-                    </p>
-                  </div>
-                )}
-
-                {chapter === 5 && (
-                  <div className="space-y-3 text-xs text-slate-300 leading-relaxed animate-[fadeInUp_0.3s_ease-out]">
-                    <p>
-                      Forecasting extends the trend into the forward horizon. Planetary detectives use this projection to protect agriculture, infrastructure, and water resources.
-                    </p>
-                    <div className="p-3 rounded-xl bg-white/5 border border-white/10 space-y-2">
-                      <div className="flex items-center justify-between">
-                        <span className="text-slate-400">Projected 1-Year Baseline:</span>
-                        <span className="font-bold text-amber-400 font-mono text-sm">
-                          {fmt(projectedNextYearMean, 1)} {v.unit}
-                        </span>
-                      </div>
-                      <div className="flex items-center justify-between">
-                        <span className="text-slate-400">Uncertainty Envelope:</span>
-                        <span className="font-bold text-white font-mono">
-                          ±{fmt(forecastMargin, 1)} {v.unit} (95% CI)
-                        </span>
-                      </div>
-                      <div className="flex items-center justify-between">
-                        <span className="text-slate-400">Future Trend Direction:</span>
-                        <span className="font-bold text-white">
-                          {isWarmingOrIncrease ? "Upward Accumulation" : "Downward Drift"}
-                        </span>
-                      </div>
-                    </div>
-                    <p className="text-[11px] text-slate-400">
-                      Ready to ask questions or simulate 5-year and 10-year scenarios? Launch the AI Detective Assistant below.
-                    </p>
-                  </div>
-                )}
-              </div>
-
-              {/* Action Buttons: Next / Previous */}
-              <div className="mt-5 pt-3 border-t border-white/10 flex items-center justify-between gap-2">
-                {chapter > 1 ? (
-                  <button
-                    onClick={() => setChapter((c) => c - 1)}
-                    className="dark-clay-button px-3 py-2 rounded-xl text-xs font-bold text-slate-300 hover:text-white transition-all cursor-pointer"
-                  >
-                    ← Previous
-                  </button>
-                ) : (
-                  <div />
-                )}
-
-                {chapter < 5 ? (
-                  <button
-                    onClick={() => setChapter((c) => c + 1)}
-                    className="cosmic-gold-button px-4 py-2 rounded-xl text-xs font-black flex items-center gap-1.5 transition-all active:scale-95 cursor-pointer"
-                  >
-                    <span>{CHAPTERS[chapter - 1].buttonLabel}</span>
-                  </button>
-                ) : (
-                  <Link
-                    href={`/forecast?lat=${region.lat}&lon=${region.lon}&name=${encodeURIComponent(
-                      region.name
-                    )}&variable=${v.key}&horizon=5`}
-                    className="cosmic-gold-button px-4 py-2 rounded-xl text-xs font-black flex items-center gap-1.5 transition-all active:scale-95 cursor-pointer"
-                  >
-                    <span>Simulate 5-Year Scenarios →</span>
-                  </Link>
-                )}
-              </div>
-            </div>
-
-            {/* AI Assistant Quick Callout */}
-            <div className="dark-clay-card rounded-2xl p-3 flex items-center justify-between gap-3 shadow-lg border border-amber-500/20">
-              <div className="flex items-center gap-2.5">
-                <div className="w-8 h-8 rounded-lg overflow-hidden border border-amber-400/40 bg-black shadow-md shrink-0">
-                  {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img src="/logo.jpg" alt="AI" className="w-full h-full object-contain" />
+                  )}
                 </div>
-                <div className="text-xs">
-                  <p className="font-bold text-white">Ask AI Detective</p>
-                  <p className="text-[10px] text-slate-400">Query trends, causes & NASA missions</p>
+
+                {/* Next Step / Action Button */}
+                <div className="pt-3 border-t border-white/10 flex items-center justify-between gap-3">
+                  {chapter > 1 ? (
+                    <button
+                      onClick={() => setChapter((prev) => Math.max(1, prev - 1))}
+                      className="px-3 py-2 rounded-xl text-xs font-bold text-slate-300 hover:text-white bg-white/5 hover:bg-white/10 border border-white/10 transition-all cursor-pointer"
+                    >
+                      ← Previous
+                    </button>
+                  ) : <div />}
+
+                  {chapter < 5 ? (
+                    <button
+                      onClick={() => setChapter((prev) => Math.min(5, prev + 1))}
+                      className="cosmic-gold-button px-4 py-2 rounded-xl text-xs font-black flex items-center gap-1.5 transition-all shadow-lg active:scale-95 cursor-pointer ml-auto"
+                    >
+                      <span>{CHAPTERS[chapter - 1].buttonLabel}</span>
+                    </button>
+                  ) : (
+                    <Link
+                      href={`/forecast?lat=${region.lat}&lon=${region.lon}&name=${encodeURIComponent(
+                        region.name
+                      )}&variable=${v.key}&horizon=${forecastHorizon}`}
+                      className="cosmic-gold-button px-4 py-2 rounded-xl text-xs font-black flex items-center gap-1.5 transition-all active:scale-95 cursor-pointer ml-auto"
+                    >
+                      <span>Full Multi-Year Simulator →</span>
+                    </Link>
+                  )}
                 </div>
               </div>
 
-              <button
-                onClick={() => setIsAssistantOpen(true)}
-                className="cosmic-gold-button px-3 py-1.5 rounded-xl text-xs font-bold active:scale-95 cursor-pointer"
-              >
-                Open Assistant
-              </button>
-            </div>
-          </div>
+              {/* AI Assistant Quick Callout */}
+              <div className="dark-clay-card rounded-2xl p-3 flex items-center justify-between gap-3 shadow-lg border border-amber-500/20">
+                <div className="flex items-center gap-2.5">
+                  <div className="w-8 h-8 rounded-lg overflow-hidden border border-amber-400/40 bg-black shadow-md shrink-0">
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
+                    <img src="/logo.jpg" alt="AI" className="w-full h-full object-contain" />
+                  </div>
+                  <div className="text-xs">
+                    <p className="font-bold text-white">Ask AI Detective</p>
+                    <p className="text-[10px] text-slate-400">Suggest variables & interpret {v.name}</p>
+                  </div>
+                </div>
 
-          {/* RIGHT MAIN INTERACTIVE STAGE (lg:col-span-7) */}
-          <div className="lg:col-span-7 flex flex-col gap-3">
-            <CinematicStage
-              chapter={chapter}
-              data={data}
-              future12Months={future12Months}
-              normalRange={normalRange}
-            />
-
-            {/* Explainer Subtitle Pill */}
-            <div className="dark-clay-card rounded-2xl p-3 flex items-center justify-between text-xs font-mono text-slate-400 shadow-md">
-              <div className="flex items-center gap-2">
-                <span className="w-2 h-2 rounded-full bg-emerald-400"></span>
-                <span>NASA POWER (MERRA-2 / CERES) 0.5° Grid Analysis</span>
+                <button
+                  onClick={() => setIsAssistantOpen(true)}
+                  className="cosmic-gold-button px-3 py-1.5 rounded-xl text-xs font-bold active:scale-95 cursor-pointer"
+                >
+                  Open Assistant
+                </button>
               </div>
-              <span className="text-amber-400 font-bold">
-                Step {chapter} / 5 Active
-              </span>
+            </div>
+
+            {/* RIGHT MAIN INTERACTIVE STAGE (lg:col-span-7) */}
+            <div className="lg:col-span-7 flex flex-col gap-3">
+              <CinematicStage
+                chapter={chapter}
+                data={data}
+                future12Months={future12Months}
+                normalRange={normalRange}
+              />
+
+              {/* Explainer Subtitle Pill */}
+              <div className="dark-clay-card rounded-2xl p-3 flex items-center justify-between text-xs font-mono text-slate-400 shadow-md">
+                <div className="flex items-center gap-2">
+                  <span className="w-2 h-2 rounded-full bg-emerald-400"></span>
+                  <span>NASA POWER (MERRA-2 / CERES) 0.5° Grid Analysis</span>
+                </div>
+                <span className="text-amber-400 font-bold">
+                  Step {chapter} / 5 Active
+                </span>
+              </div>
             </div>
           </div>
-        </div>
+        )}
 
         {/* =========================================================================
             "🔬 SCIENTIST VIEW" COLLAPSIBLE STATISTICAL DRAWER
@@ -1168,9 +1494,108 @@ function GuidedDetectiveMode({ data, sel }: { data: AnalysisResult; sel: Selecti
           </section>
         )}
 
-        {/* Floating AI Assistant Modal */}
+        {/* =========================================================================
+            FULL 12 VARIABLES & PERIOD SELECTOR MODAL
+            ========================================================================= */}
+        {isVariablesModalOpen && (
+          <div className="fixed inset-0 z-50 bg-black/80 backdrop-blur-md flex items-center justify-center p-3 sm:p-6 overflow-y-auto">
+            <div className="w-full max-w-4xl max-h-[90vh] bg-[#080d16] border border-amber-400/40 rounded-3xl p-5 sm:p-6 flex flex-col gap-4 shadow-2xl overflow-y-auto">
+              <div className="flex items-center justify-between border-b border-white/10 pb-3">
+                <div className="flex items-center gap-2.5">
+                  <span className="text-xl">📊</span>
+                  <div>
+                    <h2 className="text-lg font-black text-white">All 12 NASA Earth Observation Variables</h2>
+                    <p className="text-xs text-slate-400 font-mono">Select any parameter & observation period</p>
+                  </div>
+                </div>
+                <button
+                  onClick={() => setIsVariablesModalOpen(false)}
+                  className="w-8 h-8 rounded-full bg-white/10 hover:bg-white/20 text-white flex items-center justify-center transition-colors cursor-pointer"
+                >
+                  ✕
+                </button>
+              </div>
+
+              {/* Time Period Presets */}
+              <div className="p-3 rounded-2xl bg-white/5 border border-white/10 flex flex-wrap items-center justify-between gap-2">
+                <span className="text-xs font-mono font-bold text-amber-300">Observation Time Horizon:</span>
+                <div className="flex items-center gap-2">
+                  {[
+                    { label: "5 Years", start: 2019, end: 2024 },
+                    { label: "10 Years", start: 2014, end: 2024 },
+                    { label: "20 Years", start: 2004, end: 2024 },
+                    { label: "Full Archive (1990-2024)", start: 1990, end: 2024 },
+                  ].map((p) => {
+                    const isActive = sel.start === p.start && sel.end === p.end;
+                    return (
+                      <button
+                        key={p.label}
+                        onClick={() => {
+                          router.replace(
+                            `/dashboard?${selectionToParams({ ...sel, start: p.start, end: p.end })}`
+                          );
+                        }}
+                        className={`px-3 py-1 rounded-xl text-xs font-mono font-bold transition-all ${
+                          isActive
+                            ? "bg-amber-400 text-black shadow-md"
+                            : "bg-white/5 hover:bg-white/15 text-slate-300"
+                        }`}
+                      >
+                        {p.label}
+                      </button>
+                    );
+                  })}
+                </div>
+              </div>
+
+              {/* 12 Variables Grid by Category */}
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+                {VARIABLES.map((item) => {
+                  const isCurrent = v.key === item.key;
+                  return (
+                    <button
+                      key={item.key}
+                      onClick={() => {
+                        setIsVariablesModalOpen(false);
+                        if (!isCurrent) {
+                          router.replace(
+                            `/dashboard?${selectionToParams({ ...sel, variable: item.key })}`
+                          );
+                        }
+                      }}
+                      className={`p-3.5 rounded-2xl text-left border transition-all flex flex-col justify-between gap-2 group cursor-pointer ${
+                        isCurrent
+                          ? "bg-amber-500/20 border-amber-400 shadow-[0_0_15px_rgba(245,158,11,0.3)]"
+                          : "bg-white/5 hover:bg-white/10 border-white/10 hover:border-amber-400/50"
+                      }`}
+                    >
+                      <div>
+                        <div className="flex items-center justify-between text-xs font-bold text-white group-hover:text-amber-300">
+                          <span>{item.name}</span>
+                          <span className="font-mono text-[10px] px-1.5 py-0.5 rounded bg-white/10 text-slate-300">
+                            {item.key}
+                          </span>
+                        </div>
+                        <p className="text-[11px] text-slate-300 mt-1 line-clamp-2 leading-relaxed">
+                          {item.definition}
+                        </p>
+                      </div>
+
+                      <div className="flex items-center justify-between text-[10px] text-slate-400 font-mono pt-2 border-t border-white/5">
+                        <span>Unit: <strong>{item.unit}</strong></span>
+                        <span className="capitalize">{item.category}</span>
+                      </div>
+                    </button>
+                  );
+                })}
+              </div>
+            </div>
+          </div>
+        )}
+
+        {/* Pop-up AI Assistant */}
         {isAssistantOpen && (
-          <div className="fixed bottom-6 right-6 sm:bottom-8 sm:right-8 z-50 w-84 sm:w-96 max-w-[calc(100vw-2rem)] h-[540px] max-h-[calc(100vh-100px)] flex flex-col shadow-2xl animate-[fadeInUp_0.3s_ease-out]">
+          <div className="fixed bottom-6 right-6 z-50 w-84 sm:w-96 max-w-[calc(100vw-3rem)] h-[520px] max-h-[calc(100vh-140px)] flex flex-col pointer-events-auto shadow-2xl">
             <AiAssistantTemplate
               selectedCountry={countryObj}
               onClose={() => setIsAssistantOpen(false)}
@@ -1182,59 +1607,16 @@ function GuidedDetectiveMode({ data, sel }: { data: AnalysisResult; sel: Selecti
   );
 }
 
-// =========================================================================
-// DATA FETCHER (Wraps API call with loading and error boundaries)
-// =========================================================================
-function DashboardDataContainer({ sel }: { sel: Selection }) {
-  const { data, error, retry: load } = useAsync(
-    () => fetchAnalysis(sel),
-    selectionToParams(sel).toString()
-  );
-
-  const title = `${sel.name}`;
-  if (error) {
-    return (
-      <PageFrame title={title} subtitle="Dashboard" noScroll={false} theme="clay">
-        <ErrorBox message={error} onRetry={load} />
-      </PageFrame>
-    );
-  }
-  if (!data) {
-    return (
-      <PageFrame title={title} subtitle="Dashboard" noScroll={false} theme="clay">
-        <Loading text="Retrieving NASA satellite observations and computing trend..." />
-      </PageFrame>
-    );
-  }
-
-  return <GuidedDetectiveMode data={data} sel={sel} />;
-}
-
-// =========================================================================
-// INNER CLIENT COMPONENT (Consumes useSearchParams inside Suspense)
-// =========================================================================
-function DashboardInner() {
-  const sp = useSearchParams();
-  const sel = parseSelection(sp);
-
-  // If no location parameters are specified in the URL, render the Target Discovery Launcher (Zero fake data)
-  if (!sel) {
-    return <TargetDiscoveryLauncher />;
-  }
-
-  return <DashboardDataContainer sel={sel} />;
-}
-
-export default function DashboardView() {
+export default function DashboardPageWrapper() {
   return (
     <Suspense
       fallback={
         <PageFrame title="NASA EarthTrend Detective" subtitle="Loading" noScroll={false} theme="clay">
-          <Loading text="Loading NASA Satellite Records..." />
+          <Loading text="Preparing Guided Detective Engine..." />
         </PageFrame>
       }
     >
-      <DashboardInner />
+      <DashboardView />
     </Suspense>
   );
 }

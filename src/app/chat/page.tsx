@@ -64,40 +64,92 @@ export default function ChatPage() {
       setIsProcessing(true);
 
       try {
-        const matchedCountry = COUNTRIES.find(
-          (c) =>
-            query.toLowerCase().includes(c.name.toLowerCase()) ||
-            query.toLowerCase().includes(c.code3.toLowerCase()) ||
-            query.toLowerCase().includes(c.capital.toLowerCase())
-        );
+        // Safe coordinate resolution (avoiding 0,0 fallback)
+        const coordMatch = query.match(/(-?\d+(?:\.\d+)?)[,\s]+(-?\d+(?:\.\d+)?)/);
+        let resolvedLat = 31.95;
+        let resolvedLon = 35.23;
+        let resolvedName = "Palestine / Levant (Baseline)";
 
-        const lat = matchedCountry ? matchedCountry.lat : 0;
-        const lon = matchedCountry ? matchedCountry.lng : 0;
+        if (coordMatch) {
+          const pLat = parseFloat(coordMatch[1]);
+          const pLon = parseFloat(coordMatch[2]);
+          if (!isNaN(pLat) && !isNaN(pLon) && Math.abs(pLat) <= 90 && Math.abs(pLon) <= 180) {
+            resolvedLat = pLat;
+            resolvedLon = pLon;
+            resolvedName = `Grid Cell (${Math.abs(pLat).toFixed(1)}°${pLat >= 0 ? "N" : "S"}, ${Math.abs(pLon).toFixed(1)}°${pLon >= 0 ? "E" : "W"})`;
+          }
+        } else {
+          const matchedCountry = COUNTRIES.find(
+            (c) =>
+              query.toLowerCase().includes(c.name.toLowerCase()) ||
+              query.toLowerCase().includes(c.code3.toLowerCase()) ||
+              query.toLowerCase().includes(c.capital.toLowerCase())
+          );
+          if (matchedCountry) {
+            resolvedLat = matchedCountry.lat;
+            resolvedLon = matchedCountry.lng;
+            resolvedName = matchedCountry.name;
+          }
+        }
+
+        // Smart Variable Recommender: pick optimal variable based on user inquiry
+        const q = query.toLowerCase();
+        let targetVar = "T2M";
+        let varReason = "Surface Air Temperature baseline";
+        if (q.includes("rain") || q.includes("precip") || q.includes("storm") || q.includes("flood") || q.includes("مطر") || q.includes("أمطار")) {
+          targetVar = "PRECTOTCORR";
+          varReason = "Rain & precipitation tracking";
+        } else if (q.includes("max") || q.includes("heat") || q.includes("summer") || q.includes("hot") || q.includes("حرارة قصوى") || q.includes("موجة حارة")) {
+          targetVar = "T2M_MAX";
+          varReason = "Maximum daytime heat stress";
+        } else if (q.includes("min") || q.includes("night") || q.includes("cold") || q.includes("صقيع") || q.includes("برد")) {
+          targetVar = "T2M_MIN";
+          varReason = "Minimum night air cooling";
+        } else if (q.includes("surface") || q.includes("skin") || q.includes("سطح")) {
+          targetVar = "TS";
+          varReason = "Earth skin surface temperature";
+        } else if (q.includes("drought") || q.includes("soil") || q.includes("root") || q.includes("crop") || q.includes("جفاف") || q.includes("تربة")) {
+          targetVar = "GWETROOT";
+          varReason = "Root zone soil moisture deficit";
+        } else if (q.includes("wind") || q.includes("speed") || q.includes("رياح")) {
+          targetVar = "WS10M";
+          varReason = "Surface wind speeds";
+        } else if (q.includes("solar") || q.includes("sun") || q.includes("energy") || q.includes("شمس") || q.includes("إشعاع")) {
+          targetVar = "ALLSKY_SFC_SW_DWN";
+          varReason = "Solar irradiance reaching ground";
+        }
 
         const response = await fetch(
-          `/api/ai/context?lat=${lat}&lon=${lon}&variable=T2M&start=1990&end=2024&horizon=10`
+          `/api/ai/context?lat=${resolvedLat}&lon=${resolvedLon}&variable=${targetVar}&start=1990&end=2024&horizon=10`
         );
 
         if (response.ok) {
           const data = await response.json();
-          const regionName = data.region?.name || matchedCountry?.name || "Target Coordinates";
+          const regionName = data.region?.name || resolvedName;
           const slopeVal = data.facts?.slope_per_year
-            ? `${(data.facts.slope_per_year * 10).toFixed(2)} / decade`
+            ? `${(data.facts.slope_per_year * 10).toFixed(3)} ${data.variable?.unit ?? ""}/decade`
             : undefined;
           const pVal = data.facts?.p_value_mann_kendall;
+          const verdict = data.facts?.verdict || "Observation analyzed";
+          const totalChange = data.facts?.total_change
+            ? `${data.facts.total_change > 0 ? "+" : ""}${data.facts.total_change.toFixed(2)} ${data.variable?.unit ?? ""}`
+            : undefined;
 
-          let responseText = `Investigation Report for ${regionName}:\n`;
-          if (data.variable?.name) {
-            responseText += `• Variable: ${data.variable.name}\n`;
-          }
+          let responseText = `🔍 **NASA Grounded Investigation: ${regionName}**\n\n`;
+          responseText += `💡 **Suggested Variable:** ${data.variable?.name || targetVar} (${varReason})\n`;
+          responseText += `📊 **Detective Verdict:** ${verdict}\n`;
           if (slopeVal) {
-            responseText += `• Measured rate of change: ${slopeVal}\n`;
+            responseText += `📈 **Rate of Change (Sen's Slope):** ${slopeVal}\n`;
+          }
+          if (totalChange) {
+            responseText += `🌐 **Total Net Shift:** ${totalChange}\n`;
           }
           if (pVal !== undefined) {
-            responseText += `• Mann-Kendall p-value: ${pVal}\n`;
+            const isSig = typeof pVal === "number" ? pVal < 0.05 : String(pVal).includes("<");
+            responseText += `🔬 **Statistical Significance:** ${pVal} (${isSig ? "Statistically Significant ✅" : "Not statistically significant yet ⏳"})\n`;
           }
-          if (data.source?.model) {
-            responseText += `• Source Model: ${data.source.model}`;
+          if (data.variable?.definition) {
+            responseText += `\n*Definition: ${data.variable.definition}*`;
           }
 
           const aiMsg: ChatMessage = {
@@ -107,8 +159,8 @@ export default function ChatPage() {
             timestamp: getFormattedTime(),
             dataBrief: {
               region: regionName,
-              coords: `${lat.toFixed(2)} | ${lon.toFixed(2)}`,
-              variable: data.variable?.name,
+              coords: `${resolvedLat.toFixed(2)} | ${resolvedLon.toFixed(2)}`,
+              variable: data.variable?.name || targetVar,
               slope: slopeVal,
               pValue: pVal !== undefined ? String(pVal) : undefined,
               source: data.source?.model,

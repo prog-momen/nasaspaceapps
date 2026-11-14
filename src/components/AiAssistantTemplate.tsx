@@ -17,11 +17,101 @@ function getFormattedTime(): string {
   return `${h}:${m} UTC`;
 }
 
+function detectSuggestedVariable(query: string) {
+  const q = query.toLowerCase();
+  if (
+    q.includes("rain") ||
+    q.includes("precip") ||
+    q.includes("storm") ||
+    q.includes("flood") ||
+    q.includes("مطر") ||
+    q.includes("أمطار") ||
+    q.includes("هطول")
+  ) {
+    return { key: "PRECTOTCORR", name: "Precipitation", reason: "Rain & snowfall observation" };
+  }
+  if (
+    q.includes("max") ||
+    q.includes("heat") ||
+    q.includes("summer") ||
+    q.includes("hot") ||
+    q.includes("حر") ||
+    q.includes("موجة حارة") ||
+    q.includes("أعلى حرارة")
+  ) {
+    return { key: "T2M_MAX", name: "Maximum Air Temperature", reason: "Daytime extreme heat analysis" };
+  }
+  if (
+    q.includes("min") ||
+    q.includes("night") ||
+    q.includes("cold") ||
+    q.includes("frost") ||
+    q.includes("صقيع") ||
+    q.includes("برد") ||
+    q.includes("أدنى حرارة")
+  ) {
+    return { key: "T2M_MIN", name: "Minimum Air Temperature", reason: "Nighttime cooling and frost recovery" };
+  }
+  if (q.includes("surface") || q.includes("skin") || q.includes("ground") || q.includes("سطح")) {
+    return { key: "TS", name: "Surface Skin Temperature", reason: "Direct thermal satellite skin observation" };
+  }
+  if (
+    q.includes("drought") ||
+    q.includes("soil") ||
+    q.includes("root") ||
+    q.includes("crop") ||
+    q.includes("farm") ||
+    q.includes("جفاف") ||
+    q.includes("تربة") ||
+    q.includes("رطوبة")
+  ) {
+    return { key: "GWETROOT", name: "Root Zone Soil Wetness", reason: "Early indicator of agricultural drought" };
+  }
+  if (q.includes("evap") || q.includes("تبخر")) {
+    return { key: "EVLAND", name: "Evaporation from Land", reason: "Hydrological water loss from soil and canopy" };
+  }
+  if (q.includes("humid") || q.includes("رطوبة نسبية")) {
+    return { key: "RH2M", name: "Relative Humidity", reason: "Atmospheric moisture saturation level" };
+  }
+  if (
+    q.includes("wind") ||
+    q.includes("gust") ||
+    q.includes("speed") ||
+    q.includes("رياح") ||
+    q.includes("عاصف")
+  ) {
+    return { key: "WS10M", name: "Wind Speed (10m)", reason: "Surface wind kinetics and storm dynamics" };
+  }
+  if (q.includes("cloud") || q.includes("overcast") || q.includes("غيم") || q.includes("سحاب")) {
+    return { key: "CLOUD_AMT", name: "Cloud Amount", reason: "Sky coverage and solar shading fraction" };
+  }
+  if (
+    q.includes("solar") ||
+    q.includes("sun") ||
+    q.includes("radiation") ||
+    q.includes("energy") ||
+    q.includes("شمس") ||
+    q.includes("طاقة")
+  ) {
+    return { key: "ALLSKY_SFC_SW_DWN", name: "Solar Radiation at Surface", reason: "Incident solar energy reaching the ground" };
+  }
+  if (q.includes("pressure") || q.includes("barometer") || q.includes("ضغط")) {
+    return { key: "PS", name: "Surface Pressure", reason: "Atmospheric air mass steering weather fronts" };
+  }
+  return { key: "T2M", name: "Air Temperature (2m)", reason: "Baseline thermal trend observation" };
+}
+
 interface ChatMessage {
   id: string;
   sender: "user" | "ai";
   text: string;
   timestamp: string;
+  dashboardLink?: {
+    lat: number;
+    lon: number;
+    name: string;
+    variable: string;
+  };
   dataBrief?: {
     region?: string;
     coords?: string;
@@ -72,43 +162,75 @@ export default function AiAssistantTemplate({
       setIsProcessing(true);
 
       try {
-        // Resolve target coordinates from selected country or query
-        const matchedCountry =
-          COUNTRIES.find(
+        // Resolve target coordinates safely without 0,0 fallback
+        const coordMatch = query.match(/(-?\d+(?:\.\d+)?)[,\s]+(-?\d+(?:\.\d+)?)/);
+        let resolvedLat = 31.95;
+        let resolvedLon = 35.23;
+        let resolvedName = selectedCountry?.name || "Palestine (Default Baseline)";
+
+        if (coordMatch) {
+          const pLat = parseFloat(coordMatch[1]);
+          const pLon = parseFloat(coordMatch[2]);
+          if (!isNaN(pLat) && !isNaN(pLon) && Math.abs(pLat) <= 90 && Math.abs(pLon) <= 180) {
+            resolvedLat = pLat;
+            resolvedLon = pLon;
+            resolvedName = `Grid Cell (${Math.abs(pLat).toFixed(1)}°${pLat >= 0 ? "N" : "S"}, ${Math.abs(pLon).toFixed(1)}°${pLon >= 0 ? "E" : "W"})`;
+          }
+        } else {
+          const matchedCountry = COUNTRIES.find(
             (c) =>
               query.toLowerCase().includes(c.name.toLowerCase()) ||
               query.toLowerCase().includes(c.code3.toLowerCase()) ||
               query.toLowerCase().includes(c.capital.toLowerCase())
-          ) || selectedCountry;
+          );
+          if (matchedCountry) {
+            resolvedLat = matchedCountry.lat;
+            resolvedLon = matchedCountry.lng;
+            resolvedName = matchedCountry.name;
+          } else if (selectedCountry) {
+            resolvedLat = selectedCountry.lat;
+            resolvedLon = selectedCountry.lng;
+            resolvedName = selectedCountry.name;
+          }
+        }
 
-        const lat = matchedCountry ? matchedCountry.lat : 0;
-        const lon = matchedCountry ? matchedCountry.lng : 0;
+        // Smart Variable Recommender: pick optimal variable based on user question
+        const suggestedVar = detectSuggestedVariable(query);
 
-        // Query the real backend API
+        // Query the real backend API with resolved coordinates & suggested variable
         const response = await fetch(
-          `/api/ai/context?lat=${lat}&lon=${lon}&variable=T2M&start=1990&end=2024&horizon=10`
+          `/api/ai/context?lat=${resolvedLat}&lon=${resolvedLon}&variable=${suggestedVar.key}&start=1990&end=2024&horizon=10`
         );
 
         if (response.ok) {
           const data = await response.json();
-          const regionName = data.region?.name || matchedCountry?.name || "Target Coordinates";
+          const regionName = data.region?.name || resolvedName;
+          const varName = data.variable?.name || suggestedVar.name;
+          const varUnit = data.variable?.unit || "";
           const slopeVal = data.facts?.slope_per_year
-            ? `${(data.facts.slope_per_year * 10).toFixed(2)} / decade`
+            ? `${(data.facts.slope_per_year * 10).toFixed(3)} ${varUnit}/decade`
             : undefined;
           const pVal = data.facts?.p_value_mann_kendall;
+          const verdict = data.facts?.verdict || "Observation completed";
+          const totalChange = data.facts?.total_change
+            ? `${data.facts.total_change > 0 ? "+" : ""}${data.facts.total_change.toFixed(2)} ${varUnit}`
+            : undefined;
 
-          let responseText = `Analysis for ${regionName}:\n`;
-          if (data.variable?.name) {
-            responseText += `• Variable: ${data.variable.name}\n`;
-          }
+          let responseText = `🔍 **NASA Grounded Investigation: ${regionName}**\n\n`;
+          responseText += `💡 **Suggested Variable:** ${varName} (${suggestedVar.reason})\n`;
+          responseText += `📊 **Detective Verdict:** ${verdict}\n`;
           if (slopeVal) {
-            responseText += `• Rate of change: ${slopeVal}\n`;
+            responseText += `📈 **Rate of Change (Sen's Slope):** ${slopeVal}\n`;
+          }
+          if (totalChange) {
+            responseText += `🌐 **Total Net Shift:** ${totalChange}\n`;
           }
           if (pVal !== undefined) {
-            responseText += `• Mann-Kendall p-value: ${pVal}\n`;
+            const isSig = typeof pVal === "number" ? pVal < 0.05 : String(pVal).includes("<");
+            responseText += `🔬 **Statistical Significance:** ${pVal} (${isSig ? "Statistically Significant ✅" : "Not statistically significant yet ⏳"})\n`;
           }
-          if (data.source?.model) {
-            responseText += `• Source: ${data.source.model}`;
+          if (data.variable?.definition) {
+            responseText += `\n*Definition: ${data.variable.definition}*`;
           }
 
           const aiMsg: ChatMessage = {
@@ -116,10 +238,16 @@ export default function AiAssistantTemplate({
             sender: "ai",
             text: responseText,
             timestamp: getFormattedTime(),
+            dashboardLink: {
+              lat: resolvedLat,
+              lon: resolvedLon,
+              name: regionName,
+              variable: suggestedVar.key,
+            },
             dataBrief: {
               region: regionName,
-              coords: `${lat.toFixed(2)} | ${lon.toFixed(2)}`,
-              variable: data.variable?.name,
+              coords: `${resolvedLat.toFixed(2)}° | ${resolvedLon.toFixed(2)}°`,
+              variable: varName,
               slope: slopeVal,
               pValue: pVal !== undefined ? String(pVal) : undefined,
               source: data.source?.model,
@@ -131,7 +259,7 @@ export default function AiAssistantTemplate({
           const aiMsg: ChatMessage = {
             id: generateMessageId("ai"),
             sender: "ai",
-            text: `No observational data returned from backend API for "${query}" (Status: ${response.status}). No simulated or mock data is provided.`,
+            text: `No observational data returned from backend API for "${query}" (Status: ${response.status}). Zero simulated data is provided.`,
             timestamp: getFormattedTime(),
           };
           setMessages((prev) => [...prev, aiMsg]);
@@ -303,6 +431,18 @@ export default function AiAssistantTemplate({
                       </div>
                     )}
                   </div>
+                )}
+
+                {/* Direct Action Link to Guided Dashboard */}
+                {msg.dashboardLink && (
+                  <Link
+                    href={`/dashboard?lat=${msg.dashboardLink.lat}&lon=${msg.dashboardLink.lon}&name=${encodeURIComponent(
+                      msg.dashboardLink.name
+                    )}&variable=${msg.dashboardLink.variable}`}
+                    className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl cosmic-gold-button text-[11px] font-bold shadow-md hover:scale-[1.02] active:scale-95 transition-all mt-1"
+                  >
+                    <span>📊 Open {msg.dashboardLink.variable} in Dashboard →</span>
+                  </Link>
                 )}
               </div>
             );

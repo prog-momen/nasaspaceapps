@@ -87,6 +87,15 @@ export default function ThreeEarth({
   const containerRef = useRef<HTMLDivElement | null>(null);
   const labelsContainerRef = useRef<HTMLDivElement | null>(null);
 
+  // Keep references to handlers so main scene setup never tears down on selection change
+  const onSelectCountryRef = useRef(onSelectCountry);
+  const selectedCountryRef = useRef(selectedCountry);
+
+  useEffect(() => {
+    onSelectCountryRef.current = onSelectCountry;
+    selectedCountryRef.current = selectedCountry;
+  }, [onSelectCountry, selectedCountry]);
+
   // References across render frames
   const sceneRef = useRef<THREE.Scene | null>(null);
   const cameraRef = useRef<THREE.PerspectiveCamera | null>(null);
@@ -853,7 +862,7 @@ export default function ThreeEarth({
 
     COUNTRIES.forEach((c) => {
       const pos = latLonToVector3(c.lat, c.lng, EARTH_RADIUS * 1.008);
-      const isSelected = selectedCountry?.name === c.name;
+      const isSelected = selectedCountryRef.current?.name === c.name;
       const colorHex = isSelected ? 0xfacc15 : 0x38bdf8;
 
       // 3D Pin Sphere
@@ -889,7 +898,7 @@ export default function ThreeEarth({
       `;
       el.onclick = (e) => {
         e.stopPropagation();
-        if (onSelectCountry) onSelectCountry(c);
+        if (onSelectCountryRef.current) onSelectCountryRef.current(c);
       };
       labelsContainer.appendChild(el);
 
@@ -1023,21 +1032,22 @@ export default function ThreeEarth({
         const found = activePinsRef.current.find(
           (p) => p.pinMesh === pinHits[0].object
         );
-        if (found && onSelectCountry) {
-          onSelectCountry(found.country);
+        if (found && onSelectCountryRef.current) {
+          onSelectCountryRef.current(found.country);
           return;
         }
       }
 
-      // Check Earth surface hit
+      // Check Earth surface hit (supports picking ANY arbitrary point/grid cell on Earth)
       const earthHits = raycaster.intersectObject(earthMesh);
       if (earthHits.length > 0) {
         const hitPoint = earthHits[0].point;
         spawnContactRipple(hitPoint, 0xfacc15);
 
+        const { lat, lon } = vector3ToLatLon(hitPoint);
         const normHit = hitPoint.clone().normalize();
         let closest: Country | null = null;
-        let minDist = 0.55;
+        let minDist = 0.09; // Tight threshold (~5 degrees) for snapping to a known country marker
 
         for (const c of COUNTRIES) {
           const cPos = latLonToVector3(c.lat, c.lng, 1).normalize();
@@ -1048,8 +1058,33 @@ export default function ThreeEarth({
           }
         }
 
-        if (closest && onSelectCountry) {
-          onSelectCountry(closest);
+        if (closest && onSelectCountryRef.current) {
+          onSelectCountryRef.current(closest);
+        } else if (onSelectCountryRef.current) {
+          // Select ANY arbitrary point or ocean/land coordinate as a NASA POWER 0.5° Grid Cell
+          const latRounded = Math.round(lat * 10) / 10;
+          const lonRounded = Math.round(lon * 10) / 10;
+          const latStr = `${Math.abs(latRounded).toFixed(1)}°${latRounded >= 0 ? "N" : "S"}`;
+          const lonStr = `${Math.abs(lonRounded).toFixed(1)}°${lonRounded >= 0 ? "E" : "W"}`;
+
+          const pointTarget: Country = {
+            id: `point-${latRounded}-${lonRounded}`,
+            name: `Grid Cell (${latStr}, ${lonStr})`,
+            officialName: `NASA POWER Grid Cell (${latStr}, ${lonStr})`,
+            code2: "UN",
+            code3: "CELL",
+            region: "Asia",
+            subregion: "Observation Point",
+            capital: `Point Coordinates (${latStr}, ${lonStr})`,
+            lat: latRounded,
+            lng: lonRounded,
+            zoom: 2.5,
+            population: "N/A",
+            area: "0.5° × 0.5° (~50km)",
+            currency: "N/A",
+            timezone: "UTC",
+          };
+          onSelectCountryRef.current(pointTarget);
         }
       }
     };
@@ -1186,7 +1221,7 @@ export default function ThreeEarth({
       controls.dispose();
       renderer.dispose();
     };
-  }, [latLonToVector3, vector3ToLatLon, onSelectCountry, selectedCountry?.name]);
+  }, [latLonToVector3, vector3ToLatLon]);
 
   // Sync layer toggles to Three.js meshes
   useEffect(() => {
