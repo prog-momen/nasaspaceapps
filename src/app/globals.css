@@ -34,3 +34,164 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background: #3f3f46;
 }
+
+/* Smooth scope page transitions for Dashboard */
+@keyframes slideFromRight {
+  0% {
+    opacity: 0;
+    transform: translateX(32px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideFromLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-32px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.scope-slide-right {
+  animation: slideFromRight 0.32s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.scope-slide-left {
+  animation: slideFromLeft 0.32s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+/* Staggered progressive section animations for Dashboard */
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-14px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.stagger-1 {
+  animation: fadeInDown 0.35s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+.stagger-2 {
+  animation: fadeInUp 0.4s cubic-bezier(0.16, 1, 0.3, 1) both;
+  animation-delay: 80ms;
+}
+
+.stagger-3 {
+  animation: fadeInUp 0.45s cubic-bezier(0.16, 1, 0.3, 1) both;
+  animation-delay: 160ms;
+}
+
+.stagger-4 {
+  animation: fadeInUp 0.5s cubic-bezier(0.16, 1, 0.3, 1) both;
+  animation-delay: 240ms;
+}
+
+/* =========================================================================
+   DARK NEUMORPHIC 3D CLAY & FROSTED GLASS UTILITIES
+   Matching the sleek, dark space/satellite aesthetic with soft 3D elevation
+   ========================================================================= */
+
+.dark-clay-bg {
+  background-color: #080d16;
+}
+
+.dark-clay-card {
+  background-color: #0f1826;
+  box-shadow: 8px 8px 22px rgba(0, 0, 0, 0.55), -2px -2px 10px rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.dark-clay-card-sm {
+  background-color: #111c2c;
+  box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.5), -1px -1px 6px rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+}
+
+.dark-clay-button {
+  background-color: #162338;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.45), -2px -2px 6px rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.dark-clay-button:hover {
+  background-color: #1c2d47;
+  border-color: rgba(56, 189, 248, 0.35);
+  color: #ffffff;
+  transform: translateY(-1px);
+}
+
+.dark-clay-button:active {
+  box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.6), inset -1px -1px 3px rgba(255, 255, 255, 0.05);
+  transform: translateY(0) scale(0.98);
+}
+
+.dark-clay-inset {
+  background-color: #09101b;
+  box-shadow: inset 3px 3px 8px rgba(0, 0, 0, 0.7), inset -1px -1px 3px rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.dark-clay-sidebar {
+  background-color: #0a111c;
+  box-shadow: 12px 0 28px rgba(0, 0, 0, 0.65);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.dark-clay-sidebar-active {
+  background: linear-gradient(135deg, #1e3550 0%, #15273b 100%);
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.5), inset 1px 1px 1px rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(56, 189, 248, 0.35);
+}
+
+.dark-clay-hero {
+  background: linear-gradient(135deg, #122336 0%, #0d1a29 100%);
+  box-shadow: 8px 8px 24px rgba(0, 0, 0, 0.5), -2px -2px 10px rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(56, 189, 248, 0.2);
+}
+
+.dark-clay-badge-mint {
+  background: linear-gradient(180deg, #092622 0%, #061917 100%);
+  box-shadow: 6px 6px 16px rgba(0, 0, 0, 0.55), inset 1px 1px 1px rgba(52, 211, 153, 0.2);
+  border: 1px solid rgba(52, 211, 153, 0.3);
+}
+
+.dark-clay-badge-sky {
+  background: linear-gradient(180deg, #0a243a 0%, #071929 100%);
+  box-shadow: 6px 6px 16px rgba(0, 0, 0, 0.55), inset 1px 1px 1px rgba(56, 189, 248, 0.2);
+  border: 1px solid rgba(56, 189, 248, 0.3);
+}
+
+.dark-clay-badge-frost {
+  background: linear-gradient(180deg, #241f11 0%, #17140b 100%);
+  box-shadow: 6px 6px 16px rgba(0, 0, 0, 0.55), inset 1px 1px 1px rgba(251, 191, 36, 0.2);
+  border: 1px solid rgba(251, 191, 36, 0.3);
+}
+
+.dark-clay-badge-periwinkle {
+  background: linear-gradient(180deg, #1f1836 0%, #151025 100%);
+  box-shadow: 6px 6px 16px rgba(0, 0, 0, 0.55), inset 1px 1px 1px rgba(168, 85, 247, 0.2);
+  border: 1px solid rgba(168, 85, 247, 0.3);
+}

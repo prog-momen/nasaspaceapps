@@ -6,7 +6,16 @@ import Link from "next/link";
 import { useSearchParams } from "next/navigation";
 import PageFrame, { Card, ErrorBox, Loading, Stat, VERDICT, fmt, signed } from "./PageFrame";
 import { LineChart, dateToX } from "./charts/Charts";
-import { fetchForecast, parseSelection, selectionToParams, type Selection } from "../lib/api-client";
+import {
+  DEFAULT_VARIABLE,
+  defaultEnd,
+  defaultStart,
+  fetchForecast,
+  parseSelection,
+  selectionToParams,
+  type Selection,
+} from "../lib/api-client";
+import { COUNTRIES } from "../data/countries";
 
 function Forecast({ sel, horizon }: { sel: Selection; horizon: number }) {
   const { data, error, retry: load } = useAsync(() => fetchForecast(sel, horizon), `${selectionToParams(sel)}&h=${horizon}`);
@@ -121,15 +130,19 @@ function Forecast({ sel, horizon }: { sel: Selection; horizon: number }) {
 
 function Inner() {
   const params = useSearchParams();
-  const sel = parseSelection(params);
+  const parsed = parseSelection(params);
   const horizon = Math.min(30, Math.max(1, Number(params.get("horizon")) || 5));
-  if (!sel) {
-    return (
-      <PageFrame title="Forecast">
-        <ErrorBox message="No region selected. Go back to the globe and choose a country first." />
-      </PageFrame>
-    );
-  }
+  const defaultCountry = COUNTRIES.find((c) => c.name === "Palestine") || COUNTRIES[0];
+
+  const sel: Selection = parsed || {
+    lat: defaultCountry.lat,
+    lon: defaultCountry.lng,
+    name: defaultCountry.name,
+    variable: DEFAULT_VARIABLE,
+    start: defaultStart(),
+    end: defaultEnd(),
+  };
+
   return <Forecast sel={sel} horizon={horizon} />;
 }
 

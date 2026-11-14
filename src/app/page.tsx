@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
+import Link from "next/link";
 import ThreeEarth from "../components/ThreeEarth";
 import SearchBar from "../components/SearchBar";
 import AiAssistantTemplate from "../components/AiAssistantTemplate";
@@ -18,32 +19,62 @@ export default function Home() {
 
   return (
     <main className="relative w-screen h-screen overflow-hidden bg-[#000000] text-[#f4f4f5] font-sans select-none flex flex-col">
-      {/* Realistic Glassmorphic Navbar: Exactly two buttons (Home & AI Assistant) */}
+      {/* Realistic Glassmorphic Navbar: Home, Dashboard, and AI Assistant */}
       <header className="fixed top-0 left-0 right-0 h-12 bg-[#18181b]/75 backdrop-blur-xl border-b border-white/10 shadow-[0_4px_24px_0_rgba(0,0,0,0.5)] z-40 px-6 flex items-center justify-between">
-        {/* Button 1: Home */}
-        <button
-          onClick={() => {
-            if (defaultCountry) handleSelectCountry(defaultCountry);
-          }}
-          className="px-3.5 py-1.5 rounded-xl bg-white/5 hover:bg-white/15 text-[#f4f4f5] hover:text-white border border-white/15 text-xs font-bold transition-all shadow-sm flex items-center gap-2 active:scale-95 cursor-pointer"
-        >
-          <svg
-            width="14"
-            height="14"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            strokeWidth="2.2"
-            strokeLinecap="round"
-            strokeLinejoin="round"
+        <div className="flex items-center gap-3">
+          {/* Button 1: Home */}
+          <button
+            onClick={() => {
+              if (defaultCountry) handleSelectCountry(defaultCountry);
+            }}
+            className="px-3.5 py-1.5 rounded-xl bg-white/5 hover:bg-white/15 text-[#f4f4f5] hover:text-white border border-white/15 text-xs font-bold transition-all shadow-sm flex items-center gap-2 active:scale-95 cursor-pointer"
           >
-            <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
-            <polyline points="9 22 9 12 15 12 15 22"></polyline>
-          </svg>
-          <span>Home</span>
-        </button>
+            <svg
+              width="14"
+              height="14"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2.2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            >
+              <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+              <polyline points="9 22 9 12 15 12 15 22"></polyline>
+            </svg>
+            <span>Home</span>
+          </button>
 
-        {/* Button 2: AI Assistant */}
+          {/* Button 2: Dashboard (NASA Challenge Analysis & Forecasting) */}
+          <Link
+            href={`/dashboard?lat=${selectedCountry.lat}&lon=${selectedCountry.lng}&name=${encodeURIComponent(
+              selectedCountry.name
+            )}`}
+            className="px-3.5 py-1.5 rounded-xl bg-white/5 hover:bg-white/15 text-[#f4f4f5] hover:text-white border border-white/15 text-xs font-bold transition-all shadow-sm flex items-center gap-2 active:scale-95 cursor-pointer"
+            title={`Open Environmental Trend & Forecasting Dashboard for ${selectedCountry.name}`}
+          >
+            <svg
+              width="14"
+              height="14"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2.2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            >
+              <line x1="18" y1="20" x2="18" y2="10"></line>
+              <line x1="12" y1="20" x2="12" y2="4"></line>
+              <line x1="6" y1="20" x2="6" y2="14"></line>
+            </svg>
+            <span>Dashboard</span>
+            <span className="hidden sm:inline-block text-[10px] py-0.5 px-1.5 bg-[#2563eb]/20 text-[#93c5fd] border border-[#2563eb]/30 rounded font-normal">
+              {selectedCountry.name}
+            </span>
+          </Link>
+        </div>
+
+        {/* Button 3: AI Assistant */}
         <button
           onClick={() => setIsAssistantOpen((prev) => !prev)}
           className="px-3.5 py-1.5 rounded-xl bg-[#2563eb] hover:bg-[#1d4ed8] text-white border border-blue-400/30 text-xs font-bold transition-all shadow-[0_4px_14px_0_rgba(37,99,235,0.4)] flex items-center gap-2 active:scale-95 cursor-pointer"
@@ -77,12 +108,51 @@ export default function Home() {
       {/* Search Bar for Region: Positioned on the right, 48 vertical, 48 horizontal */}
       <div
         style={{ top: "48px", right: "48px" }}
-        className="fixed z-30 w-80 sm:w-96 flex flex-col pointer-events-auto"
+        className="fixed z-30 w-80 sm:w-96 flex flex-col pointer-events-auto gap-2"
       >
         <SearchBar
           onSelectCountry={handleSelectCountry}
           selectedCountry={selectedCountry}
         />
+
+        {/* Selected Country Quick Dashboard Action Card */}
+        {selectedCountry && (
+          <div className="p-3 rounded-xl bg-[#18181b]/80 backdrop-blur-xl border border-white/15 flex items-center justify-between text-xs shadow-2xl">
+            <div className="flex flex-col min-w-0 pr-2">
+              <span className="font-semibold text-white truncate">{selectedCountry.name}</span>
+              <span className="text-[10px] text-[#a1a1aa] truncate font-mono">
+                {selectedCountry.capital} •{" "}
+                {selectedCountry.lat > 0
+                  ? `${selectedCountry.lat.toFixed(1)}°N`
+                  : `${Math.abs(selectedCountry.lat).toFixed(1)}°S`}
+                ,{" "}
+                {selectedCountry.lng > 0
+                  ? `${selectedCountry.lng.toFixed(1)}°E`
+                  : `${Math.abs(selectedCountry.lng).toFixed(1)}°W`}
+              </span>
+            </div>
+            <Link
+              href={`/dashboard?lat=${selectedCountry.lat}&lon=${selectedCountry.lng}&name=${encodeURIComponent(
+                selectedCountry.name
+              )}`}
+              className="px-3 py-1.5 rounded-lg bg-[#2563eb] hover:bg-[#1d4ed8] text-white text-[11px] font-bold transition-all flex items-center gap-1.5 shadow-md shrink-0 active:scale-95"
+            >
+              <span>View Dashboard</span>
+              <svg
+                width="12"
+                height="12"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2.5"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              >
+                <polyline points="9 18 15 12 9 6"></polyline>
+              </svg>
+            </Link>
+          </div>
+        )}
       </div>
 
       {/* Pop-up AI Assistant Template (Pops up from the little circle) */}
