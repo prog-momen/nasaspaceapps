@@ -1,7 +1,10 @@
 "use client";
 
 import React from "react";
+import { useRouter } from "next/navigation";
 import { Country } from "../data/countries";
+import AnalysisControls from "./AnalysisControls";
+import { selectionToParams } from "../lib/api-client";
 
 interface CountryDetailsProps {
   country: Country;
@@ -14,6 +17,7 @@ export default function CountryDetails({
   onClose,
   onZoomTo,
 }: CountryDetailsProps) {
+  const router = useRouter();
   const formatCoord = (lat: number, lng: number) => {
     const latStr =
       lat >= 0
@@ -27,7 +31,7 @@ export default function CountryDetails({
   };
 
   return (
-    <div className="bg-[#111827] border border-[#374151] rounded-lg shadow-2xl p-4 w-full max-w-sm sm:max-w-md text-[#e5e7eb] flex flex-col gap-3">
+    <div className="bg-[#111827] border border-[#374151] rounded-lg shadow-2xl p-4 w-full max-w-sm sm:max-w-md max-h-[70vh] overflow-y-auto text-[#e5e7eb] flex flex-col gap-3">
       {/* Header */}
       <div className="flex items-start justify-between border-b border-[#1f2937] pb-3">
         <div>
@@ -142,6 +146,18 @@ export default function CountryDetails({
         >
           Globe View
         </button>
+      </div>
+
+      {/* Environmental analysis: pick a variable and period, then open the dashboard */}
+      <div className="border-t border-[#1f2937] pt-3">
+        <h3 className="text-[11px] uppercase tracking-wider text-[#9ca3af] mb-2">Analyze trends</h3>
+        <AnalysisControls
+          lat={country.lat}
+          lon={country.lng}
+          name={country.name}
+          submitLabel="Open Dashboard"
+          onApply={(s) => router.push(`/dashboard?${selectionToParams(s)}`)}
+        />
       </div>
     </div>
   );
