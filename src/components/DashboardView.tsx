@@ -89,7 +89,7 @@ function TargetDiscoveryLauncher() {
 
   return (
     <PageFrame
-      title="EarthTrend Detective: Investigation Launcher"
+      title="Astro EARTH: Investigation Launcher"
       subtitle="Select a global Earth observation site to begin investigation"
       noScroll={false}
       maxWidth="max-w-5xl"
@@ -841,7 +841,7 @@ function DashboardLoadedView({ sel }: { sel: Selection }) {
 
   if (loading || !data) {
     return (
-      <PageFrame title="NASA EarthTrend Detective" subtitle="Querying satellite observations..." noScroll={false} theme="clay">
+      <PageFrame title="NASA Astro EARTH" subtitle="Querying satellite observations..." noScroll={false} theme="clay">
         <Loading text="Querying NASA POWER, MERRA-2 & CERES satellite archive..." />
       </PageFrame>
     );
@@ -849,7 +849,7 @@ function DashboardLoadedView({ sel }: { sel: Selection }) {
 
   if (error) {
     return (
-      <PageFrame title="NASA EarthTrend Detective" subtitle="Error" noScroll={false} theme="clay">
+      <PageFrame title="NASA Astro EARTH" subtitle="Error" noScroll={false} theme="clay">
         <ErrorBox message={error} onRetry={retry} />
       </PageFrame>
     );
@@ -938,7 +938,7 @@ function DashboardLoadedView({ sel }: { sel: Selection }) {
 
   return (
     <PageFrame
-      title={`NASA EarthTrend Detective: ${region.name}`}
+      title={`NASA Astro EARTH: ${region.name}`}
       subtitle={`${v.name} (${v.unit}) • Continuous Satellite Record`}
       noScroll={false}
       maxWidth="max-w-6xl"
@@ -1611,7 +1611,7 @@ export default function DashboardPageWrapper() {
   return (
     <Suspense
       fallback={
-        <PageFrame title="NASA EarthTrend Detective" subtitle="Loading" noScroll={false} theme="clay">
+        <PageFrame title="NASA Astro EARTH" subtitle="Loading" noScroll={false} theme="clay">
           <Loading text="Preparing Guided Detective Engine..." />
         </PageFrame>
       }

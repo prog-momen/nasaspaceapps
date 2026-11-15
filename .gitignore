@@ -40,3 +40,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# separate nested git repo (AI service) containing credentials; never add here
+nasa-challenge-API/

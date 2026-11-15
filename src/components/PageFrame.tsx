@@ -46,7 +46,7 @@ export default function PageFrame({
               <Link href="/" className="flex items-center gap-2.5 shrink-0 group">
                 <div className="relative w-8 h-8 rounded-lg overflow-hidden border border-amber-400/40 bg-black shadow-md flex items-center justify-center transition-transform group-hover:scale-105">
                   {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img src="/logo.jpg" alt="EarthTrend Logo" className="w-full h-full object-contain" />
+                  <img src="/logo.jpg" alt="Astro EARTH Logo" className="w-full h-full object-contain" />
                 </div>
               </Link>
               <div className="min-w-0">
@@ -58,7 +58,7 @@ export default function PageFrame({
                         : "text-amber-400 bg-amber-950/30 border border-amber-500/20"
                     }`}
                   >
-                    NASA EarthTrend Detective
+                    NASA Astro EARTH
                   </span>
                 </div>
                 <h1

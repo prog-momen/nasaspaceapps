@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "3D Earth - World Explorer",
-  description: "Interactive 3D Earth with world regions, search, and navigation",
+  title: "Astro EARTH - Earth System Trend Detective",
+  description: "Pick any place on Earth, choose a NASA variable, and test whether it is changing significantly.",
 };
 
 export default function RootLayout({

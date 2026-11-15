@@ -12,6 +12,8 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
+    // Separate nested repo (Python AI service) - not part of this lint target.
+    "nasa-challenge-API/**",
   ]),
 ]);
 

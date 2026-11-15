@@ -68,11 +68,11 @@ function HomeContent() {
           <Link href="/" className="flex items-center gap-2.5 group mr-1">
             <div className="w-8 h-8 rounded-lg overflow-hidden border border-amber-400/50 bg-black shadow-[0_0_12px_rgba(245,158,11,0.25)] flex items-center justify-center transition-transform group-hover:scale-105">
               {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src="/logo.jpg" alt="EarthTrend Logo" className="w-full h-full object-contain" />
+              <img src="/logo.jpg" alt="Astro EARTH Logo" className="w-full h-full object-contain" />
             </div>
             <div className="hidden md:flex flex-col">
               <span className="text-xs font-black tracking-tight text-white flex items-center gap-1">
-                EarthTrend <span className="text-amber-400">Detective</span>
+                Astro <span className="text-amber-400">EARTH</span>
               </span>
               <span className="text-[9px] font-mono text-slate-400">NASA Space Apps</span>
             </div>

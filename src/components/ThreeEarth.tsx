@@ -40,7 +40,7 @@ const SCALE_META: Record<
   natural: null,
   temp: {
     title: "Surface Temp Anomaly (°C)",
-    src: "NASA MODIS / GISTEMP",
+    src: "Illustrative pattern - not live data",
     grad: "linear-gradient(90deg, #1a104c, #2b5c8f, #48a9b0, #87c576, #f5e98f, #f39c38, #d13b28, #701428)",
     min: "-20°C",
     mid: "+22°C",
@@ -48,7 +48,7 @@ const SCALE_META: Record<
   },
   water: {
     title: "Precipitable Water & Moisture (mm)",
-    src: "NASA GEOS-5 / GPM-IMERG",
+    src: "Illustrative pattern - not live data",
     grad: "linear-gradient(90deg, #0a183c, #1862a8, #16afb4, #48d741, #fade19, #e11e19)",
     min: "0 mm (Arid)",
     mid: "35 mm",
@@ -56,7 +56,7 @@ const SCALE_META: Record<
   },
   winds: {
     title: "Wind Speed & Jet Streams",
-    src: "NASA MERRA-2",
+    src: "Illustrative pattern - not live data",
     grad: "linear-gradient(90deg, #0a1223, #19559b, #38bdf8, #eab308, #ef4444, #d946ef)",
     min: "0 m/s",
     mid: "14 m/s (Trades)",
@@ -64,7 +64,7 @@ const SCALE_META: Record<
   },
   veg: {
     title: "Vegetation Index (NDVI)",
-    src: "NASA MODIS NDVI",
+    src: "Illustrative pattern - not live data",
     grad: "linear-gradient(90deg, #e1cda5, #d2b47d, #b9bc5f, #78b937, #2d8c26, #0a4b18)",
     min: "0.05 Desert",
     mid: "0.45 Savanna",
@@ -72,7 +72,7 @@ const SCALE_META: Record<
   },
   fires: {
     title: "Active Fire Hotspots (FIRMS)",
-    src: "NASA LANCE FIRMS VIIRS",
+    src: "Illustrative pattern - not live data",
     grad: "linear-gradient(90deg, #060a16, #7f1d1d, #ea580c, #facc15, #ffffff)",
     min: "Calm",
     mid: "Thermal Anomaly",
@@ -1299,7 +1299,7 @@ export default function ThreeEarth({
             }`}
           >
             <span>🌡️</span>
-            <span className="hidden sm:inline">Temp (MODIS)</span>
+            <span className="hidden sm:inline">Temp (illustrative)</span>
           </button>
           <button
             onClick={() => handleSetEnvLayer("water")}
@@ -1343,7 +1343,7 @@ export default function ThreeEarth({
             }`}
           >
             <span>🔥</span>
-            <span className="hidden sm:inline">Fires (FIRMS)</span>
+            <span className="hidden sm:inline">Fires (illustrative)</span>
           </button>
         </div>
 
@@ -1420,7 +1420,7 @@ export default function ThreeEarth({
           <div className="hidden md:flex items-center gap-1.5 text-[11px]">
             <span className="w-1.5 h-1.5 rounded-full bg-amber-400"></span>
             <span className="font-mono text-amber-300 font-medium text-[10.5px]">
-              NASA EarthScope Engine Active
+              NASA Astro EARTH Engine Active
             </span>
           </div>
         </div>
