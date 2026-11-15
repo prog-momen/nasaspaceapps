@@ -5,6 +5,7 @@ import { useAsync } from "../lib/useAsync";
 import Link from "next/link";
 import { useSearchParams } from "next/navigation";
 import PageFrame, { Card, ErrorBox, Loading, Stat, VERDICT, fmt, signed } from "./PageFrame";
+import SourcesNote from "./SourcesNote";
 import { LineChart, dateToX } from "./charts/Charts";
 import {
   DEFAULT_VARIABLE,
@@ -53,6 +54,42 @@ function Forecast({ sel, horizon }: { sel: Selection; horizon: number }) {
           Back to dashboard
         </Link>
       </div>
+
+      <div className="flex flex-wrap items-center gap-2" role="group" aria-label="Forecast horizon">
+        <span className="text-xs text-[#9ca3af] mr-1">Horizon (years):</span>
+        {[1, 2, 5, 10].map((h) => {
+          const p = new URLSearchParams(selectionToParams(sel));
+          p.set("horizon", String(h));
+          const active = h === horizon;
+          return (
+            <Link
+              key={h}
+              href={`/forecast?${p}`}
+              aria-current={active ? "page" : undefined}
+              className={`px-3 py-1.5 text-xs rounded-lg border font-semibold ${
+                active ? "bg-amber-500 text-black border-amber-300" : "bg-[#111827] text-[#cbd5e1] border-[#374151] hover:bg-[#1f2937]"
+              }`}
+            >
+              {h}
+            </Link>
+          );
+        })}
+        <span className="text-[11px] text-[#6b7280] ml-1">A {horizon}-year projection extends the trend; it is not a climate model run.</span>
+      </div>
+
+      {f.forecast.length > 0 && (
+        <p className="text-xs leading-relaxed text-[#d4d4d8]">
+          <b className="text-white">Asked:</b> {horizon} year{horizon === 1 ? "" : "s"} from today ({f.issueDate}):{" "}
+          {f.forecast[f.gapMonths.length]?.date ?? f.forecast[0].date} → {f.forecast[f.forecast.length - 1].date}.
+          {f.gapMonths.length > 0 && (
+            <>
+              {" "}
+              <b className="text-sky-300">+ {f.gapMonths.length} missing month{f.gapMonths.length === 1 ? "" : "s"}</b> ({f.gapMonths[0]}
+              {f.gapMonths.length > 1 ? ` to ${f.gapMonths[f.gapMonths.length - 1]}` : ""}): NASA data end {data.query.end}, so the months before today are forecast as well.
+            </>
+          )}
+        </p>
+      )}
 
       <div className="grid grid-cols-2 lg:grid-cols-4 gap-3">
         <Stat label="Last 2 years average" value={`${fmt(f.expectedChange.fromLastYearMean)} ${v.unit}`} />
@@ -124,6 +161,33 @@ function Forecast({ sel, horizon }: { sel: Selection; horizon: number }) {
           ))}
         </ul>
       </Card>
+      <SourcesNote
+        labels={{ title: "Sources", relies: "Relies on", used: "Used in this forecast" }}
+        relies={[
+          "NASA POWER monthly point API (MERRA-2 / CERES)",
+          "linear trend on deseasonalised anomalies + repeating seasonal cycle, 95% prediction interval",
+          "hold-out backtest of the last months against a seasonal-average baseline",
+        ]}
+        used={[
+          `NASA POWER ${v.source_model ?? "MERRA-2"} 0.5° cell (${region.lat.toFixed(2)}, ${region.lon.toFixed(2)})`,
+          `history ${data.query.start}–${data.query.end}, ${f.forecast.length} forecast months, issued ${f.issueDate}`,
+          f.backtest ? `backtest on ${f.backtest.holdoutMonths} months: model ${f.backtest.beatsBaseline ? "beat" : "did not beat"} the seasonal baseline` : "backtest: not enough history",
+        ]}
+        links={[
+          {
+            label: "NASA POWER data request for this place (JSON)",
+            url: `https://power.larc.nasa.gov/api/temporal/monthly/point?${new URLSearchParams({
+              parameters: v.provider_param,
+              community: "AG",
+              latitude: String(region.lat),
+              longitude: String(region.lon),
+              start: String(data.query.start),
+              end: String(data.query.end),
+              format: "JSON",
+            }).toString()}`,
+          },
+        ]}
+      />
     </PageFrame>
   );
 }

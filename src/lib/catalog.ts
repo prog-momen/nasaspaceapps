@@ -18,25 +18,25 @@ export interface VariableDef {
 
 export const VARIABLES: VariableDef[] = [
   {
-    key: "T2M", provider: "nasa_power", provider_param: "T2M", name: "Air temperature (2 m)", category: "atmosphere", unit: "C",
+    key: "T2M", provider: "nasa_power", provider_param: "T2M", name: "Air temperature (2 m)", category: "atmosphere", unit: "°C",
     definition: "Average air temperature measured two metres above the ground.",
     why_it_matters: "The most direct indicator of warming or cooling in a region.",
     source_model: "MERRA-2", higher_means: "A warmer climate.", sort_order: 1,
   },
   {
-    key: "T2M_MAX", provider: "nasa_power", provider_param: "T2M_MAX", name: "Maximum air temperature", category: "atmosphere", unit: "C",
+    key: "T2M_MAX", provider: "nasa_power", provider_param: "T2M_MAX", name: "Maximum air temperature", category: "atmosphere", unit: "°C",
     definition: "Average of the daily highest air temperature at two metres.",
     why_it_matters: "Shows whether hot days are getting hotter, which drives heat stress.",
     source_model: "MERRA-2", higher_means: "Hotter daytime conditions.", sort_order: 2,
   },
   {
-    key: "T2M_MIN", provider: "nasa_power", provider_param: "T2M_MIN", name: "Minimum air temperature", category: "atmosphere", unit: "C",
+    key: "T2M_MIN", provider: "nasa_power", provider_param: "T2M_MIN", name: "Minimum air temperature", category: "atmosphere", unit: "°C",
     definition: "Average of the daily lowest air temperature at two metres.",
     why_it_matters: "Warming nights reduce recovery from heat and affect crops and ecosystems.",
     source_model: "MERRA-2", higher_means: "Warmer nights.", sort_order: 3,
   },
   {
-    key: "TS", provider: "nasa_power", provider_param: "TS", name: "Land or ocean surface temperature", category: "land", unit: "C",
+    key: "TS", provider: "nasa_power", provider_param: "TS", name: "Land or ocean surface temperature", category: "land", unit: "°C",
     definition: "Temperature of the Earth's surface itself (skin temperature), not the air above it.",
     why_it_matters: "Surface heating drives evaporation, ice melt and urban heat.",
     source_model: "MERRA-2", higher_means: "A hotter surface.", sort_order: 4,

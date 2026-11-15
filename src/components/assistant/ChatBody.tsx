@@ -6,6 +6,7 @@ import { dashboardHref, forecastHref } from "@/lib/assistant/links";
 import type { AssistantResponse, ChatItem, Panel } from "@/lib/assistant/types";
 import { ArtifactView } from "./Artifacts";
 import { Markdown } from "./Markdown";
+import SourcesNote from "../SourcesNote";
 import type { useAssistantChat } from "./useAssistantChat";
 
 type Chat = ReturnType<typeof useAssistantChat>;
@@ -34,7 +35,7 @@ const TONE_CLS: Record<string, string> = {
 
 function Chip({ children, tone = "", title }: { children: React.ReactNode; tone?: string; title?: string }) {
   return (
-    <span title={title} className={`inline-block px-2 py-0.5 rounded-full border text-[10px] ${TONE_CLS[tone] ?? TONE_CLS[""]}`}>
+    <span title={title} className={`inline-block px-2 py-0.5 rounded-full border text-xs ${TONE_CLS[tone] ?? TONE_CLS[""]}`}>
       {children}
     </span>
   );
@@ -59,10 +60,10 @@ export function PanelView({ panel, response }: { panel: Panel; response: Assista
         <div className="grid grid-cols-2 gap-1.5">
           {metrics.map((m, i) => (
             <div key={i} title={m.basis} className={`rounded-lg border px-2 py-1.5 ${TONE_CLS[m.tone && m.tone !== "neutral" ? m.tone : ""] ?? TONE_CLS[""]}`}>
-              <div className="text-[10px] opacity-80">{m.label}</div>
+              <div className="text-xs opacity-80">{m.label}</div>
               <div className="font-semibold text-[12px]">
                 {m.value === null || m.value === undefined ? "-" : String(m.value)}
-                {m.unit ? <span className="text-[10px] opacity-70"> {m.unit}</span> : null}
+                {m.unit ? <span className="text-xs opacity-70"> {m.unit}</span> : null}
               </div>
             </div>
           ))}
@@ -72,7 +73,7 @@ export function PanelView({ panel, response }: { panel: Panel; response: Assista
         <ArtifactView key={i} artifact={a} />
       ))}
       {src && (
-        <div className="text-[10px] text-[#a1a1aa] space-y-0.5">
+        <div className="text-xs text-[#a1a1aa] space-y-0.5">
           <div className="font-semibold text-[#d4d4d8]">Source</div>
           <div>
             {[src.provider, src.product].filter(Boolean).join(" · ")}
@@ -90,7 +91,7 @@ export function PanelView({ panel, response }: { panel: Panel; response: Assista
         </div>
       )}
       {(panel.limitations ?? []).length > 0 && (
-        <details className="text-[10px] text-[#a1a1aa]">
+        <details className="text-xs text-[#a1a1aa]">
           <summary className="cursor-pointer text-[#d4d4d8]">Limits &amp; caveats</summary>
           <ul className="list-disc ps-4 mt-1 space-y-0.5">
             {panel.limitations!.map((l, i) => (
@@ -102,9 +103,77 @@ export function PanelView({ panel, response }: { panel: Panel; response: Assista
         </details>
       )}
       {response.tools && response.tools.length > 0 && (
-        <div className="text-[10px] text-[#71717a]">Tools: {response.tools.map((t) => t.name).join(", ")}</div>
+        <div className="text-xs text-[#71717a]">Tools: {response.tools.map((t) => t.name).join(", ")}</div>
       )}
     </div>
+  );
+}
+
+function CopyButton({ text }: { text: string }) {
+  const [done, setDone] = React.useState(false);
+  return (
+    <button
+      type="button"
+      onClick={() => {
+        navigator.clipboard?.writeText(text).then(() => {
+          setDone(true);
+          setTimeout(() => setDone(false), 1500);
+        }).catch(() => undefined);
+      }}
+      className="px-2 py-0.5 rounded-full border border-white/15 text-xs text-[#a1a1aa] hover:text-white hover:border-white/30"
+      aria-label="Copy answer text"
+    >
+      {done ? "Copied" : "Copy"}
+    </button>
+  );
+}
+
+function stageText(s: number) {
+  if (s < 4) return `Understanding your question… ${s}s`;
+  if (s < 10) return `Fetching NASA data and running the statistics… ${s}s`;
+  if (s < 20) return `Writing the answer and checking every number… ${s}s`;
+  return `Still working (this can take up to about 90 s)… ${s}s`;
+}
+
+function ChatSources({ r }: { r: AssistantResponse }) {
+  const ar = r.language === "ar";
+  const tools = (r.tools ?? []).filter((t) => t.name);
+  const relies: string[] = [];
+  for (const t of tools) {
+    const label = [t.provider, t.product].filter(Boolean).join(" — ");
+    relies.push(label || t.name);
+  }
+  if (r.answer_source === "claude" && r.model) relies.push(`${r.model} (wording only; every number checked against the tool result)`);
+  if (r.answer_source === "web") relies.push("web search (concept explanation only, no data)");
+  if (r.answer_source === "glossary") relies.push("built-in glossary (no data)");
+  if ((r.citations ?? []).some((c) => c.kind === "doc")) relies.push("indexed NASA documentation (cited passages)");
+
+  const used: string[] = [];
+  const place = r.resolved?.location?.name;
+  if (place) used.push(place);
+  const per = r.resolved?.period as { start_year?: number; end_year?: number; start?: string; end?: string } | null | undefined;
+  if (per?.start_year && per?.end_year) used.push(`${per.start_year}–${per.end_year}`);
+  else if (per?.start && per?.end) used.push(`${per.start} to ${per.end}`);
+  for (const c of (r.citations ?? []).filter((c) => c.kind === "doc" || c.kind === "web").slice(0, 3)) {
+    used.push(`[${c.index}] ${c.title || c.provider || c.kind}`);
+  }
+  if (r.limitations?.length) used.push(`${r.limitations.length} stated limitation(s) shown below`);
+
+  return (
+    <SourcesNote
+      dir={ar ? "rtl" : "ltr"}
+      labels={
+        ar
+          ? { title: "المصادر", relies: "معتمد على", used: "استُخدم في هذا الرد" }
+          : { title: "Sources", relies: "Relies on", used: "Used in this answer" }
+      }
+      relies={relies}
+      used={used}
+      links={(r.source_links ?? []).filter((u) => /^https?:\/\//.test(u)).map((u, i) => ({
+        label: /api\/temporal/.test(u) ? (ar ? "طلب بيانات NASA POWER لهذا المكان" : "NASA POWER data request for this place") : /doi\.org/.test(u) ? (ar ? "ورقة الطريقة الإحصائية" : `Method reference ${i}`) : u,
+        url: u,
+      }))}
+    />
   );
 }
 
@@ -132,7 +201,7 @@ function Bubble({
 
   return (
     <div className={`flex flex-col gap-1 ${isUser ? "items-end" : "items-start"}`}>
-      <div className="flex items-center gap-1.5 text-[9px] text-[#71717a]">
+      <div className="flex items-center gap-1.5 text-[11px] text-[#71717a]">
         {!isUser && (
           <div className="w-3.5 h-3.5 rounded-full overflow-hidden bg-black border border-amber-400/40">
             {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -160,7 +229,7 @@ function Bubble({
               <Chip tone="warn">Offline grounded mode (AI service unavailable)</Chip>
             </div>
           )}
-          {item.error && <div className="mb-1 text-[10px] font-semibold text-red-300">Error</div>}
+          {item.error && <div className="mb-1 text-xs font-semibold text-red-300">Error</div>}
           {r ? (
             <Markdown text={r.answer} citations={r.citations} inline={r.inline} compact={popup} />
           ) : (
@@ -170,6 +239,7 @@ function Bubble({
           {r && (
             <div className="flex flex-wrap gap-1 mt-2">
               {oc && <Chip tone={oc.tone}>{lang === "ar" ? oc.ar : oc.en}</Chip>}
+              {r.answer && <CopyButton text={r.answer} />}
               {r.answer_source && r.answer_source !== "none" && (
                 <Chip title="answer source">{r.answer_source === "claude" && r.model ? `claude · ${r.model}` : r.answer_source}</Chip>
               )}
@@ -181,7 +251,7 @@ function Bubble({
             <div className="mt-2 rounded-lg border border-amber-400/30 bg-amber-400/10 p-2 space-y-1.5">
               <div className="text-[11px] text-amber-200">The message and the selected location differ. Which should I use?</div>
               {r.conflict.items.map((c, i) => (
-                <div key={i} dir="auto" className="text-[10px] text-[#d4d4d8]">
+                <div key={i} dir="auto" className="text-xs text-[#d4d4d8]">
                   {c.field}: «{String(c.message_value)}» vs «{String(c.controls_value)}»
                 </div>
               ))}
@@ -201,8 +271,10 @@ function Bubble({
             </div>
           )}
 
+          {r && <ChatSources r={r} />}
+
           {r && (r.citations ?? []).length > 0 && (
-            <ol className="mt-2 space-y-0.5 text-[10px] text-[#a1a1aa]">
+            <ol className="mt-2 space-y-0.5 text-xs text-[#a1a1aa]">
               {r.citations!.map((c) => (
                 <li key={c.index} dir="auto">
                   <span className="text-[#60a5fa]">[{c.index}]</span>{" "}
@@ -220,7 +292,7 @@ function Bubble({
           )}
 
           {r && (r.limitations ?? []).length > 0 && (
-            <details className="mt-2 text-[10px] text-[#a1a1aa]">
+            <details className="mt-2 text-xs text-[#a1a1aa]">
               <summary className="cursor-pointer text-[#d4d4d8]">Limitations</summary>
               <ul className="list-disc ps-4 mt-1 space-y-0.5">
                 {r.limitations!.map((l, i) => (
@@ -269,7 +341,7 @@ export interface ChatBodyProps {
 
 /** Message list + starter chips + input. Shared by the popup and the full page. */
 export default function ChatBody({ chat, variant, placeholder }: ChatBodyProps) {
-  const { items, pending, elapsed, starters, send } = chat;
+  const { items, pending, elapsed, starters, send, stop } = chat;
   const [input, setInput] = useState("");
   const endRef = useRef<HTMLDivElement | null>(null);
   const [picked, setPicked] = useState<string | null>(null);
@@ -307,7 +379,7 @@ export default function ChatBody({ chat, variant, placeholder }: ChatBodyProps) 
           <p className="text-[11px] text-slate-400 leading-relaxed max-w-[280px]">
             Ask about climate trends, forecasts, fires or methods. Answers use real NASA data and cite their sources.
           </p>
-          <div className="flex flex-col gap-1.5 w-full max-w-md">
+          <div className="flex flex-col gap-1 w-full max-w-sm">
             {starters.map((s) => (
               <button
                 key={s}
@@ -315,7 +387,7 @@ export default function ChatBody({ chat, variant, placeholder }: ChatBodyProps) 
                 disabled={pending}
                 onClick={() => submit(s)}
                 dir="auto"
-                className="text-start px-3 py-2 rounded-xl bg-white/5 hover:bg-white/10 border border-white/10 text-[11px] text-[#e4e4e7] transition-colors disabled:opacity-40"
+                className="text-start px-2.5 py-1.5 rounded-lg bg-white/5 hover:bg-white/10 border border-white/10 text-[11px] leading-snug text-[#e4e4e7] transition-colors disabled:opacity-40"
               >
                 {s}
               </button>
@@ -331,7 +403,10 @@ export default function ChatBody({ chat, variant, placeholder }: ChatBodyProps) 
       {pending && (
         <div className="flex items-center gap-2 p-2.5 rounded-xl bg-white/5 border border-white/10 text-xs text-[#a1a1aa] w-fit" role="status">
           <span className="w-1.5 h-1.5 rounded-full bg-[#60a5fa] animate-ping"></span>
-          <span className="text-[11px]">Working... {elapsed}s{elapsed > 20 ? " (this can take up to ~90 s)" : ""}</span>
+          <span className="text-xs">{stageText(elapsed)}</span>
+          <button type="button" onClick={stop} className="ml-1 px-2 py-0.5 rounded-full border border-white/20 text-[11px] text-white hover:bg-white/10">
+            Stop
+          </button>
         </div>
       )}
       <div ref={endRef} />

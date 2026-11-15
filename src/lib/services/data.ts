@@ -9,7 +9,7 @@ import { chartExplanations, forecastSummary, trendSummary } from "./insights";
 const CACHE_TTL_MS = 30 * 24 * 3600 * 1000;
 
 // Percent change is meaningless for interval scales such as degrees Celsius.
-const isRatioScale = (v: VariableDef) => v.unit !== "C";
+const isRatioScale = (v: VariableDef) => v.unit !== "°C" && v.unit !== "C";
 
 export class NotFoundError extends Error {}
 
@@ -24,11 +24,14 @@ export interface Query {
 
 export const currentYear = () => new Date().getUTCFullYear();
 
+// The variables table may still store the unit as "C" (written before the °C change); normalise it on read.
+const withDegree = (v: VariableDef): VariableDef => (v.unit === "C" ? { ...v, unit: "°C" } : v);
+
 export async function getVariables(): Promise<VariableDef[]> {
   const db = getAdmin();
   if (db) {
     const { data, error } = await db.from("variables").select("*").eq("active", true).order("sort_order");
-    if (!error && data?.length) return data as VariableDef[];
+    if (!error && data?.length) return (data as VariableDef[]).map(withDegree);
   }
   return VARIABLES;
 }

@@ -37,12 +37,12 @@ export default function AiAssistantTemplate({
                 <span className="w-1.5 h-1.5 rounded-full bg-emerald-400"></span>
               </h2>
               {selectedCountry && (
-                <span className="text-[10px] font-mono px-2 py-0.5 rounded bg-amber-500/10 text-amber-300 border border-amber-500/30">
+                <span className="text-xs font-mono px-2 py-0.5 rounded bg-amber-500/10 text-amber-300 border border-amber-500/30">
                   {selectedCountry.name}
                 </span>
               )}
             </div>
-            <p className="text-[10px] text-slate-400">Real-time Earth Science Queries</p>
+            <p className="text-xs text-slate-400">Real-time Earth Science Queries</p>
           </div>
         </div>
 
@@ -54,7 +54,7 @@ export default function AiAssistantTemplate({
             disabled={chat.pending || chat.items.length === 0}
             title="New conversation"
             aria-label="New conversation"
-            className="px-2 py-1.5 rounded-lg bg-white/5 hover:bg-white/15 text-[10px] text-[#a1a1aa] hover:text-white border border-white/10 transition-colors disabled:opacity-40"
+            className="px-2 py-1.5 rounded-lg bg-white/5 hover:bg-white/15 text-xs text-[#a1a1aa] hover:text-white border border-white/10 transition-colors disabled:opacity-40"
           >
             New
           </button>

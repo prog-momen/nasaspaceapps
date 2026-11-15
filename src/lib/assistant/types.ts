@@ -77,6 +77,7 @@ export interface AssistantResponse {
   inline?: Artifact[];
   panel?: Panel | null;
   citations?: Citation[];
+  source_links?: string[];
   warnings?: string[];
   conflict?: { items: ConflictItem[]; choices: ("message" | "controls")[] } | null;
   model_notice?: { kind?: string; text: string } | null;

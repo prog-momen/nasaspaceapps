@@ -60,6 +60,8 @@ export function useAssistantChat(selected?: SelectedPoint | null) {
   const [starters, setStarters] = useState<string[]>([ARABIC_EXAMPLE, KNOWLEDGE_EXAMPLE]);
   const sidRef = useRef<string | null>(null);
   const pendingRef = useRef(false);
+  const ctlRef = useRef<AbortController | null>(null);
+  const stoppedRef = useRef(false);
   const selectedRef = useRef(selected);
   useEffect(() => {
     selectedRef.current = selected;
@@ -125,6 +127,8 @@ export function useAssistantChat(selected?: SelectedPoint | null) {
         commit((prev) => [...prev, { id: newId("u"), role: "user", text, time: timeNow() }]);
       }
       const ctl = new AbortController();
+      ctlRef.current = ctl;
+      stoppedRef.current = false;
       const timer = setTimeout(() => ctl.abort(), 100_000);
       try {
         const r = await sendAssistantMessage({ message: text, sessionId: sidRef.current, controls, conflictChoice: choice, signal: ctl.signal });
@@ -137,7 +141,12 @@ export function useAssistantChat(selected?: SelectedPoint | null) {
           { id: newId("a"), role: "assistant", text: r.answer ?? "", time: timeNow(), response: r, retryOf: { message: text, controls } },
         ]);
       } catch (e) {
-        if (e instanceof AssistantUnavailableError) {
+        if (stoppedRef.current) {
+          commit((prev) => [
+            ...prev,
+            { id: newId("a"), role: "assistant", time: timeNow(), text: "Stopped. Nothing was saved to the NASA data; send the question again when you are ready." },
+          ]);
+        } else if (e instanceof AssistantUnavailableError) {
           const fb = await offlineReply(text, selectedRef.current);
           commit((prev) => [...prev, { id: newId("a"), role: "assistant", time: timeNow(), ...fb }]);
         } else {
@@ -157,6 +166,11 @@ export function useAssistantChat(selected?: SelectedPoint | null) {
 
   const send = useCallback((text: string) => run(text), [run]);
 
+  const stop = useCallback(() => {
+    stoppedRef.current = true;
+    ctlRef.current?.abort();
+  }, []);
+
   const resolveConflict = useCallback(
     (item: ChatItem, choice: "message" | "controls") => {
       if (item.retryOf) run(item.retryOf.message, choice, item.retryOf.controls);
@@ -174,5 +188,5 @@ export function useAssistantChat(selected?: SelectedPoint | null) {
     if (sid) await resetAssistantSession(sid);
   }, []);
 
-  return { items, pending, elapsed, starters, send, resolveConflict, reset };
+  return { items, pending, elapsed, starters, send, stop, resolveConflict, reset };
 }

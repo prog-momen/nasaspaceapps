@@ -22,6 +22,10 @@ export interface ForecastResult {
   description: string;
   horizonYears: number;
   horizonMonths: number;
+  /** Date the forecast was issued (today). The requested span starts in this month. */
+  issueDate: string;
+  /** Months between the last NASA data month and today: no data exists yet, so they are forecast too. */
+  gapMonths: string[];
   forecast: ForecastPoint[];
   annualForecast: { year: number; mean: number; lower: number; upper: number }[];
   expectedChange: { fromLastYearMean: number; toFinalYearMean: number; absolute: number; percent: number | null };
@@ -122,10 +126,15 @@ function backtest(points: Point[]): Backtest | null {
  * cycle, with 95% prediction intervals that widen away from the data.
  * It is a statistical extrapolation of the past, not a climate model run.
  */
-export function forecast(points: Point[], horizonYears: number): ForecastResult {
-  const horizonMonths = Math.round(horizonYears * 12);
+export function forecast(points: Point[], horizonYears: number, today: Date = new Date()): ForecastResult {
+  const last = points[points.length - 1];
+  // The requested span is counted from TODAY. Months between the last data month and the current month have no NASA data yet,
+  // so they are forecast as well and reported as gap months.
+  const d = Math.max(0, today.getUTCFullYear() * 12 + (today.getUTCMonth() + 1) - (last.year * 12 + last.month));
+  const horizonMonths = d + Math.round(horizonYears * 12);
   const f = fit(points);
-  const future = nextMonths(points[points.length - 1], horizonMonths);
+  const future = nextMonths(last, horizonMonths);
+  const gapMonths = future.slice(0, Math.max(0, d - 1)).map((p) => p.date);
   const fc: ForecastPoint[] = future.map((p) => {
     const r = predict(f, p.t, p.month);
     return { date: p.date, value: r.value, lower: r.lower, upper: r.upper };
@@ -157,6 +166,8 @@ export function forecast(points: Point[], horizonYears: number): ForecastResult 
       "The model removes the repeating seasonal cycle, fits a straight-line trend to what is left (ordinary least squares), then adds the seasonal cycle back for future months. The shaded band is a 95% prediction interval.",
     horizonYears,
     horizonMonths,
+    issueDate: today.toISOString().slice(0, 10),
+    gapMonths,
     forecast: fc,
     annualForecast,
     expectedChange: {

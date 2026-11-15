@@ -52,7 +52,7 @@ export default function PageFrame({
               <div className="min-w-0">
                 <div className="flex items-center gap-2">
                   <span
-                    className={`text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded ${
+                    className={`text-xs font-bold uppercase tracking-wider px-2 py-0.5 rounded ${
                       isClay
                         ? "text-amber-400 bg-amber-950/40 border border-amber-500/30"
                         : "text-amber-400 bg-amber-950/30 border border-amber-500/20"
@@ -113,7 +113,7 @@ export default function PageFrame({
           {children}
         </main>
       ) : (
-        <main className={`max-w-5xl mx-auto px-4 py-6 flex flex-col gap-6 pb-20`}>{children}</main>
+        <main className={`${maxWidth} mx-auto px-4 py-6 flex flex-col gap-6 pb-20`}>{children}</main>
       )}
     </div>
   );
@@ -147,9 +147,9 @@ export function Stat({
 }) {
   return (
     <div className="bg-[#111827] border border-[#1f2937] rounded-xl p-3 shadow-md">
-      <div className="text-[10px] uppercase tracking-wider text-[#9ca3af] font-medium">{label}</div>
+      <div className="text-xs uppercase tracking-wider text-[#9ca3af] font-medium">{label}</div>
       <div className="text-base font-bold text-[#f9fafb] mt-0.5">{value}</div>
-      {hint && <div className="text-[10px] text-[#6b7280] mt-0.5">{hint}</div>}
+      {hint && <div className="text-xs text-[#6b7280] mt-0.5">{hint}</div>}
     </div>
   );
 }

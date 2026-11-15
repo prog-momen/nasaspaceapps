@@ -1,10 +1,11 @@
 "use client";
 
-import React, { Suspense, useMemo, useState } from "react";
+import React, { Suspense, useEffect, useMemo, useRef, useState } from "react";
 import Link from "next/link";
 import { useRouter, useSearchParams } from "next/navigation";
 import { useAsync } from "../lib/useAsync";
 import PageFrame, { ErrorBox, Loading } from "./PageFrame";
+import SourcesNote from "./SourcesNote";
 import AiAssistantTemplate from "./AiAssistantTemplate";
 import {
   fetchAnalysis,
@@ -121,7 +122,7 @@ function TargetDiscoveryLauncher() {
               <span>🚀</span>
               <span>NASA Space Apps 5 Challenge Demonstration Scenarios</span>
             </span>
-            <span className="text-[10px] text-slate-400 font-mono">Click to launch investigation</span>
+            <span className="text-xs text-slate-400 font-mono">Click to launch investigation</span>
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2.5">
@@ -140,7 +141,7 @@ function TargetDiscoveryLauncher() {
                 <div>
                   <div className="flex items-center justify-between gap-1 text-xs font-bold text-white group-hover:text-amber-300 transition-colors">
                     <span>{ex.title}</span>
-                    <span className="text-[10px] font-mono px-1.5 py-0.5 rounded bg-white/10 text-slate-300">
+                    <span className="text-xs font-mono px-1.5 py-0.5 rounded bg-white/10 text-slate-300">
                       {ex.variable_key}
                     </span>
                   </div>
@@ -148,7 +149,7 @@ function TargetDiscoveryLauncher() {
                     {ex.story}
                   </p>
                 </div>
-                <div className="flex items-center justify-between text-[10px] text-slate-500 font-mono pt-1 border-t border-white/5">
+                <div className="flex items-center justify-between text-xs text-slate-500 font-mono pt-1 border-t border-white/5">
                   <span>{ex.region_name}, {ex.country ?? "Region"}</span>
                   <span className="text-amber-400 group-hover:translate-x-1 transition-transform">Launch →</span>
                 </div>
@@ -192,11 +193,11 @@ function TargetDiscoveryLauncher() {
                 <span className="text-xs font-bold text-white group-hover:text-amber-300 block truncate">
                   {c.name}
                 </span>
-                <span className="text-[10px] text-slate-400 block truncate font-mono">
+                <span className="text-xs text-slate-400 block truncate font-mono">
                   {c.capital}
                 </span>
               </div>
-              <span className="text-[10px] text-slate-500 font-mono mt-2 block">
+              <span className="text-xs text-slate-500 font-mono mt-2 block">
                 {c.lat > 0 ? `${c.lat.toFixed(1)}°N` : `${Math.abs(c.lat).toFixed(1)}°S`},{" "}
                 {c.lng > 0 ? `${c.lng.toFixed(1)}°E` : `${Math.abs(c.lng).toFixed(1)}°W`}
               </span>
@@ -332,9 +333,11 @@ function CinematicStage({ chapter, data, future12Months, normalRange }: StagePro
   const forecastBandPath = `${forecastUpper} ${forecastLower}`;
 
   // Extremes for Chapter 2
-  const extremes = series.filter(
-    (s) => Math.abs(s.anomaly) > t.stdDev * 1.5 || s.value >= normalRange.p90 || s.value <= normalRange.p10
-  );
+  // The six lowest and six highest anomalies only (the old rule marked about half of all months).
+  const extremes = (() => {
+    const ranked = [...series].sort((a, b) => a.anomaly - b.anomaly);
+    return [...ranked.slice(0, 6), ...ranked.slice(-6)];
+  })();
 
   // X-axis ticks (every 5-10 years)
   const startYr = Number(series[0].date.slice(0, 4));
@@ -389,7 +392,7 @@ function CinematicStage({ chapter, data, future12Months, normalRange }: StagePro
               y={sy(yVal) + 3.5}
               textAnchor="end"
               fill="#94a3b8"
-              fontSize="10"
+              fontSize="14"
               fontFamily="monospace"
             >
               {fmt(yVal, 1)}
@@ -412,7 +415,7 @@ function CinematicStage({ chapter, data, future12Months, normalRange }: StagePro
               y={H - 12}
               textAnchor="middle"
               fill="#94a3b8"
-              fontSize="10"
+              fontSize="14"
               fontFamily="monospace"
             >
               {xVal}
@@ -562,7 +565,7 @@ function CinematicStage({ chapter, data, future12Months, normalRange }: StagePro
               x={sx(dateToDecYear(lastPoint.date)) + 8}
               y={PAD.t + 16}
               fill="#f59e0b"
-              fontSize="10"
+              fontSize="14"
               fontWeight="bold"
               fontFamily="monospace"
             >
@@ -616,7 +619,7 @@ function CinematicStage({ chapter, data, future12Months, normalRange }: StagePro
           <span className="text-amber-300 font-black">
             {fmt(series[hoverIndex].value, 2)} {v.unit}
           </span>
-          <span className="text-slate-400 text-[10px]">
+          <span className="text-slate-400 text-xs">
             (Anomaly: {signed(series[hoverIndex].anomaly, 2)})
           </span>
         </div>
@@ -633,140 +636,155 @@ interface CompareStageProps {
   dataB: AnalysisResult;
 }
 
-function ComparativeStage({ dataA, dataB }: CompareStageProps) {
-  const [hoverIndex, setHoverIndex] = useState<number | null>(null);
+function annualMeansOf(series: { date: string; value: number }[]): Map<number, number> {
+  const byYear = new Map<number, number[]>();
+  for (const s of series) {
+    const y = Number(s.date.slice(0, 4));
+    byYear.set(y, [...(byYear.get(y) ?? []), s.value]);
+  }
+  const out = new Map<number, number>();
+  byYear.forEach((vals, y) => {
+    if (vals.length >= 9) out.set(y, vals.reduce((a, b) => a + b, 0) / vals.length);
+  });
+  return out;
+}
 
-  const seriesA = dataA.series;
-  const seriesB = dataB.series;
+function slopePerYearOf(points: { x: number; y: number }[]): number {
+  const n = points.length;
+  if (n < 2) return 0;
+  const mx = points.reduce((s, p) => s + p.x, 0) / n;
+  const my = points.reduce((s, p) => s + p.y, 0) / n;
+  let num = 0;
+  let den = 0;
+  for (const p of points) {
+    num += (p.x - mx) * (p.y - my);
+    den += (p.x - mx) ** 2;
+  }
+  return den === 0 ? 0 : num / den;
+}
+
+function ComparativeStage({ dataA, dataB }: CompareStageProps) {
+  const [hoverYear, setHoverYear] = useState<number | null>(null);
+
+  // Compare YEARLY MEANS, not the raw monthly series: monthly values swing with the seasons and hide the difference between regions.
+  const annA = annualMeansOf(dataA.series);
+  const annB = annualMeansOf(dataB.series);
+  const years = [...new Set([...annA.keys(), ...annB.keys()])].sort((a, b) => a - b);
   const v = dataA.variable;
 
   const W = 760;
   const H = 340;
   const PAD = { t: 25, r: 25, b: 40, l: 55 };
 
-  const minXA = dateToDecYear(seriesA[0].date);
-  const maxXA = dateToDecYear(seriesA[seriesA.length - 1].date);
-  const minXB = dateToDecYear(seriesB[0].date);
-  const maxXB = dateToDecYear(seriesB[seriesB.length - 1].date);
+  const ptsA = [...annA.entries()].map(([y, m]) => ({ x: y + 0.5, y: m }));
+  const ptsB = [...annB.entries()].map(([y, m]) => ({ x: y + 0.5, y: m }));
+  const slopeA = slopePerYearOf(ptsA);
+  const slopeB = slopePerYearOf(ptsB);
+  const minX = years.length ? years[0] : 0;
+  const maxX = years.length ? years[years.length - 1] + 1 : 1;
 
-  const minX = Math.min(minXA, minXB);
-  const maxX = Math.max(maxXA, maxXB);
-
-  const allVals = [...seriesA.map((s) => s.value), ...seriesB.map((s) => s.value)];
-  const rawMinY = Math.min(...allVals);
-  const rawMaxY = Math.max(...allVals);
-  const padY = Math.max(0.2, (rawMaxY - rawMinY) * 0.12);
+  const allVals = [...ptsA, ...ptsB].map((p) => p.y);
+  const rawMinY = allVals.length ? Math.min(...allVals) : 0;
+  const rawMaxY = allVals.length ? Math.max(...allVals) : 1;
+  const padY = Math.max(0.5, (rawMaxY - rawMinY) * 0.12);
   const minY = rawMinY - padY;
   const maxY = rawMaxY + padY;
 
   const sx = (x: number) => PAD.l + ((x - minX) / (maxX - minX || 1)) * (W - PAD.l - PAD.r);
   const sy = (y: number) => H - PAD.b - ((y - minY) / (maxY - minY || 1)) * (H - PAD.t - PAD.b);
 
-  const pathA = seriesA
-    .map((s, i) => `${i === 0 ? "M" : "L"} ${sx(dateToDecYear(s.date))} ${sy(s.value)}`)
-    .join(" ");
+  const line = (pts: { x: number; y: number }[]) => pts.map((p, i) => `${i === 0 ? "M" : "L"} ${sx(p.x)} ${sy(p.y)}`).join(" ");
+  const trendLine = (pts: { x: number; y: number }[], slope: number) => {
+    if (!pts.length) return "";
+    const mx = pts.reduce((s, p) => s + p.x, 0) / pts.length;
+    const my = pts.reduce((s, p) => s + p.y, 0) / pts.length;
+    const at = (x: number) => my + slope * (x - mx);
+    return `M ${sx(pts[0].x)} ${sy(at(pts[0].x))} L ${sx(pts[pts.length - 1].x)} ${sy(at(pts[pts.length - 1].x))}`;
+  };
 
-  const pathB = seriesB
-    .map((s, i) => `${i === 0 ? "M" : "L"} ${sx(dateToDecYear(s.date))} ${sy(s.value)}`)
-    .join(" ");
-
-  const trendA = `M ${sx(dateToDecYear(seriesA[0].date))} ${sy(seriesA[0].trend)} L ${sx(
-    dateToDecYear(seriesA[seriesA.length - 1].date)
-  )} ${sy(seriesA[seriesA.length - 1].trend)}`;
-
-  const trendB = `M ${sx(dateToDecYear(seriesB[0].date))} ${sy(seriesB[0].trend)} L ${sx(
-    dateToDecYear(seriesB[seriesB.length - 1].date)
-  )} ${sy(seriesB[seriesB.length - 1].trend)}`;
+  const perDecade = (s: number) => `${s >= 0 ? "+" : ""}${fmt(s * 10, 2)} ${v.unit}/decade`;
+  const hover = hoverYear !== null ? { a: annA.get(hoverYear), b: annB.get(hoverYear) } : null;
 
   return (
     <div className="relative w-full dark-clay-inset rounded-2xl sm:rounded-3xl p-3 sm:p-4 overflow-hidden border border-white/10 shadow-2xl">
-      <div className="flex items-center justify-between gap-2 mb-2 pb-2 border-b border-white/10 text-xs font-mono">
-        <div className="flex items-center gap-3">
+      <div className="flex flex-wrap items-center justify-between gap-2 mb-2 pb-2 border-b border-white/10 text-xs font-mono">
+        <div className="flex flex-wrap items-center gap-3">
           <div className="flex items-center gap-1.5">
             <span className="w-2.5 h-2.5 rounded-full bg-amber-400"></span>
-            <span className="font-bold text-amber-300">{dataA.region.name} (Region A)</span>
+            <span className="font-bold text-amber-300">{dataA.region.name}</span>
+            <span className="text-amber-200/80">{perDecade(slopeA)}</span>
           </div>
           <span className="text-slate-500">vs</span>
           <div className="flex items-center gap-1.5">
             <span className="w-2.5 h-2.5 rounded-full bg-sky-400"></span>
-            <span className="font-bold text-sky-300">{dataB.region.name} (Region B)</span>
+            <span className="font-bold text-sky-300">{dataB.region.name}</span>
+            <span className="text-sky-200/80">{perDecade(slopeB)}</span>
           </div>
         </div>
-        <div className="text-[11px] text-slate-400">
-          Comparing {v.name} ({v.unit})
-        </div>
+        <div className="text-[11px] text-slate-400">Yearly means of {v.name} ({v.unit}) · dashed = linear trend</div>
       </div>
 
-      <svg viewBox={`0 0 ${W} ${H}`} className="w-full h-auto select-none overflow-visible">
-        {/* Horizontal grid lines */}
+      <svg viewBox={`0 0 ${W} ${H}`} className="w-full h-auto select-none overflow-visible" role="img" aria-label={`Yearly averages of ${v.name} for ${dataA.region.name} and ${dataB.region.name}`}>
         {[minY, (minY + maxY) / 2, maxY].map((yVal, idx) => (
           <g key={idx}>
-            <line
-              x1={PAD.l}
-              x2={W - PAD.r}
-              y1={sy(yVal)}
-              y2={sy(yVal)}
-              stroke="#ffffff"
-              strokeOpacity="0.08"
-              strokeDasharray="3 3"
-            />
-            <text x={PAD.l - 8} y={sy(yVal) + 3.5} textAnchor="end" fill="#94a3b8" fontSize="10" fontFamily="monospace">
+            <line x1={PAD.l} x2={W - PAD.r} y1={sy(yVal)} y2={sy(yVal)} stroke="#ffffff" strokeOpacity="0.08" strokeDasharray="3 3" />
+            <text x={PAD.l - 8} y={sy(yVal) + 4} textAnchor="end" fill="#94a3b8" fontSize="14" fontFamily="monospace">
               {fmt(yVal, 1)}
             </text>
           </g>
         ))}
+        {[minX, Math.round((minX + maxX) / 2), maxX - 1].map((yr, i) => (
+          <text key={i} x={sx(yr)} y={H - 12} textAnchor="middle" fill="#94a3b8" fontSize="14" fontFamily="monospace">
+            {yr}
+          </text>
+        ))}
 
-        {/* Region A line & trend */}
-        <path d={pathA} fill="none" stroke="#f59e0b" strokeWidth="2.2" strokeOpacity="0.9" />
-        <path d={trendA} fill="none" stroke="#f59e0b" strokeWidth="2.5" strokeDasharray="6 4" />
+        <path d={line(ptsA)} fill="none" stroke="#f59e0b" strokeWidth="2.2" strokeOpacity="0.9" />
+        <path d={trendLine(ptsA, slopeA)} fill="none" stroke="#f59e0b" strokeWidth="2.5" strokeDasharray="6 4" />
+        {ptsA.map((p, i) => (
+          <circle key={`a${i}`} cx={sx(p.x)} cy={sy(p.y)} r="2.6" fill="#f59e0b" />
+        ))}
 
-        {/* Region B line & trend */}
-        <path d={pathB} fill="none" stroke="#38bdf8" strokeWidth="2.2" strokeOpacity="0.9" />
-        <path d={trendB} fill="none" stroke="#38bdf8" strokeWidth="2.5" strokeDasharray="6 4" />
+        <path d={line(ptsB)} fill="none" stroke="#38bdf8" strokeWidth="2.2" strokeOpacity="0.9" />
+        <path d={trendLine(ptsB, slopeB)} fill="none" stroke="#38bdf8" strokeWidth="2.5" strokeDasharray="6 4" />
+        {ptsB.map((p, i) => (
+          <circle key={`b${i}`} cx={sx(p.x)} cy={sy(p.y)} r="2.6" fill="#38bdf8" />
+        ))}
 
-        {/* Interactive scrubber */}
-        {seriesA.map((s, i) => (
+        {years.map((y) => (
           <rect
-            key={i}
-            x={sx(dateToDecYear(s.date)) - 2}
+            key={y}
+            x={sx(y) - 6}
             y={PAD.t}
-            width={Math.max(4, W / seriesA.length)}
+            width={12}
             height={H - PAD.t - PAD.b}
             fill="transparent"
             className="cursor-crosshair"
-            onMouseEnter={() => setHoverIndex(i)}
+            onMouseEnter={() => setHoverYear(y)}
+            onMouseLeave={() => setHoverYear(null)}
           />
         ))}
 
-        {hoverIndex !== null && seriesA[hoverIndex] && (
+        {hoverYear !== null && (
           <g>
-            <line
-              x1={sx(dateToDecYear(seriesA[hoverIndex].date))}
-              x2={sx(dateToDecYear(seriesA[hoverIndex].date))}
-              y1={PAD.t}
-              y2={H - PAD.b}
-              stroke="#ffffff"
-              strokeWidth="1"
-              strokeDasharray="3 3"
-            />
-            <circle cx={sx(dateToDecYear(seriesA[hoverIndex].date))} cy={sy(seriesA[hoverIndex].value)} r="4" fill="#f59e0b" />
-            {seriesB[hoverIndex] && (
-              <circle cx={sx(dateToDecYear(seriesB[hoverIndex].date))} cy={sy(seriesB[hoverIndex].value)} r="4" fill="#38bdf8" />
-            )}
+            <line x1={sx(hoverYear + 0.5)} x2={sx(hoverYear + 0.5)} y1={PAD.t} y2={H - PAD.b} stroke="#ffffff" strokeWidth="1" strokeDasharray="3 3" />
+            {hover?.a !== undefined && <circle cx={sx(hoverYear + 0.5)} cy={sy(hover.a)} r="5" fill="#f59e0b" />}
+            {hover?.b !== undefined && <circle cx={sx(hoverYear + 0.5)} cy={sy(hover.b)} r="5" fill="#38bdf8" />}
           </g>
         )}
       </svg>
 
-      {/* Scrubber Tooltip */}
-      {hoverIndex !== null && seriesA[hoverIndex] && (
-        <div className="absolute top-4 right-4 bg-[#0a111c]/95 border border-white/20 rounded-xl px-3 py-1.5 shadow-xl text-xs font-mono flex items-center gap-4 backdrop-blur-md">
-          <span className="text-slate-300 font-bold">{seriesA[hoverIndex].date}</span>
-          <span className="text-amber-300 font-bold">
-            {dataA.region.name}: {fmt(seriesA[hoverIndex].value, 2)} {v.unit}
-          </span>
-          {seriesB[hoverIndex] && (
+      {hoverYear !== null && (
+        <div className="absolute top-4 right-4 bg-[#0a111c]/95 border border-white/20 rounded-xl px-3 py-1.5 shadow-xl text-xs font-mono flex flex-wrap items-center gap-4 backdrop-blur-md">
+          <span className="text-slate-300 font-bold">{hoverYear}</span>
+          {hover?.a !== undefined && (
+            <span className="text-amber-300 font-bold">
+              {dataA.region.name}: {fmt(hover.a, 2)} {v.unit}
+            </span>
+          )}
+          {hover?.b !== undefined && (
             <span className="text-sky-300 font-bold">
-              {dataB.region.name}: {fmt(seriesB[hoverIndex].value, 2)} {v.unit}
+              {dataB.region.name}: {fmt(hover.b, 2)} {v.unit}
             </span>
           )}
         </div>
@@ -799,6 +817,33 @@ function DashboardLoadedView({ sel }: { sel: Selection }) {
   const [chapter, setChapter] = useState<number>(1);
   const [scientistView, setScientistView] = useState<boolean>(false);
   const [isVariablesModalOpen, setIsVariablesModalOpen] = useState<boolean>(false);
+  const modalRef = useRef<HTMLDivElement | null>(null);
+  useEffect(() => {
+    if (!isVariablesModalOpen) return;
+    const opener = document.activeElement as HTMLElement | null;
+    modalRef.current?.focus();
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === "Escape") setIsVariablesModalOpen(false);
+      if (e.key === "Tab" && modalRef.current) {
+        const f = modalRef.current.querySelectorAll<HTMLElement>("button, a[href], input, select, [tabindex]:not([tabindex='-1'])");
+        if (!f.length) return;
+        const first = f[0];
+        const last = f[f.length - 1];
+        if (e.shiftKey && document.activeElement === first) {
+          e.preventDefault();
+          last.focus();
+        } else if (!e.shiftKey && document.activeElement === last) {
+          e.preventDefault();
+          first.focus();
+        }
+      }
+    };
+    document.addEventListener("keydown", onKey);
+    return () => {
+      document.removeEventListener("keydown", onKey);
+      opener?.focus?.();
+    };
+  }, [isVariablesModalOpen]);
   const [isAssistantOpen, setIsAssistantOpen] = useState<boolean>(false);
 
   // Side-by-Side Comparison Mode State
@@ -839,6 +884,31 @@ function DashboardLoadedView({ sel }: { sel: Selection }) {
   );
   const forecastLoading = chapter === 5 && !apiForecast && !forecastError;
 
+  if (error) {
+    // Land-only variables (soil wetness, evaporation) have no data over open water; say so instead of the raw statistics message.
+    const noData = /at least 36 monthly observations|no data/i.test(error);
+    return (
+      <PageFrame title="NASA Astro EARTH" subtitle="No result for this selection" noScroll={false} theme="clay">
+        <ErrorBox
+          message={
+            noData
+              ? `No usable ${sel.variable} record was found at ${sel.name} (${sel.lat.toFixed(1)}, ${sel.lon.toFixed(1)}). Some variables exist only over land, so try a land location or a different variable.`
+              : error
+          }
+          onRetry={retry}
+        />
+        <div className="mt-3 flex flex-wrap gap-2">
+          <Link href="/" className="px-3 py-1.5 text-xs rounded-lg bg-white/10 hover:bg-white/20 border border-white/15 text-white font-medium">
+            Back to globe
+          </Link>
+          <Link href="/dashboard" className="px-3 py-1.5 text-xs rounded-lg bg-white/10 hover:bg-white/20 border border-white/15 text-white font-medium">
+            Choose another target
+          </Link>
+        </div>
+      </PageFrame>
+    );
+  }
+
   if (loading || !data) {
     return (
       <PageFrame title="NASA Astro EARTH" subtitle="Querying satellite observations..." noScroll={false} theme="clay">
@@ -847,15 +917,59 @@ function DashboardLoadedView({ sel }: { sel: Selection }) {
     );
   }
 
-  if (error) {
-    return (
-      <PageFrame title="NASA Astro EARTH" subtitle="Error" noScroll={false} theme="clay">
-        <ErrorBox message={error} onRetry={retry} />
-      </PageFrame>
-    );
-  }
-
   const { trend: t, variable: v, region, series } = data;
+
+  // Sources for the current chapter: what it is built on, and the concrete inputs of this result.
+  const usedBase = [
+    `NASA POWER ${v.source_model ?? "MERRA-2"} 0.5° cell (${region.lat.toFixed(2)}, ${region.lon.toFixed(2)})`,
+    `${t.period.start} to ${t.period.end} (${t.period.months} monthly values)`,
+  ];
+  const chapterSources: Record<number, { relies: string[]; used: string[] }> = {
+    1: {
+      relies: ["NASA POWER monthly point API (MERRA-2 / CERES)", "monthly climatology (mean of each calendar month) = normal baseline"],
+      used: [...usedBase, `mean ${fmt(t.mean, 2)} ${v.unit}, range ${fmt(t.min.value, 1)} to ${fmt(t.max.value, 1)}`],
+    },
+    2: {
+      relies: ["NASA POWER monthly series", "standard deviation of the monthly values", "extremes = six highest and six lowest anomalies"],
+      used: [...usedBase, `σ = ${fmt(t.stdDev, 2)} ${v.unit}`],
+    },
+    3: {
+      relies: [
+        "OLS trend on deseasonalised anomalies, t-test with autocorrelation-adjusted sample size",
+        "Mann-Kendall (tie-corrected) on yearly means, Sen's slope with 95% interval",
+        "verdict: significant only when both tests agree at α = 0.05",
+      ],
+      used: [...usedBase, `n_eff ≈ ${Math.round(t.ols.effectiveN)}, lag-1 autocorrelation ${t.ols.lag1Autocorr.toFixed(2)}, p = ${fmtP(t.ols.pValue)}`],
+    },
+    4: {
+      relies: ["seasonal cycle = 12 monthly climatology values, removed before the trend test"],
+      used: [...usedBase, `seasonal peak month and trough month from the 12 values`],
+    },
+    5: {
+      relies: [
+        "statistical forecast: linear trend + seasonal cycle, 95% prediction interval (/api/forecast)",
+        "hold-out backtest against a seasonal-average baseline",
+      ],
+      used: [...usedBase, `projection from the last complete record year`],
+    },
+  };
+  const currentSources = chapterSources[chapter] ?? chapterSources[1];
+  // The exact NASA POWER request for this place, variable and period (works for any country or point).
+  const powerRequest = `https://power.larc.nasa.gov/api/temporal/monthly/point?${new URLSearchParams({
+    parameters: v.provider_param,
+    community: "AG",
+    latitude: String(region.lat),
+    longitude: String(region.lon),
+    start: t.period.start.slice(0, 4),
+    end: t.period.end.slice(0, 4),
+    format: "JSON",
+  }).toString()}`;
+  const methodLinks = [
+    { label: "Mann (1945), nonparametric trend test", url: "https://doi.org/10.2307/1907187" },
+    { label: "Sen (1968), slope estimator", url: "https://doi.org/10.1080/01621459.1968.10480934" },
+    { label: "Hamed & Rao (1998), autocorrelation-corrected Mann-Kendall", url: "https://doi.org/10.1016/S0022-1694(97)00125-X" },
+  ];
+  const chapterLinks = [{ label: "NASA POWER data request for this place (JSON)", url: powerRequest }, ...(chapter === 3 || chapter === 2 ? methodLinks : [])];
 
   // Calculate descriptive statistics
   const values = series.map((s: { value: number }) => s.value).sort((a: number, b: number) => a - b);
@@ -941,7 +1055,7 @@ function DashboardLoadedView({ sel }: { sel: Selection }) {
       title={`NASA Astro EARTH: ${region.name}`}
       subtitle={`${v.name} (${v.unit}) • Continuous Satellite Record`}
       noScroll={false}
-      maxWidth="max-w-6xl"
+      maxWidth="max-w-[1400px]"
       theme="clay"
       hideHeader={true}
     >
@@ -959,7 +1073,7 @@ function DashboardLoadedView({ sel }: { sel: Selection }) {
               </div>
               <div>
                 <div className="flex items-center gap-2">
-                  <span className="text-[10px] font-mono font-bold uppercase tracking-wider px-2 py-0.5 rounded-full bg-amber-500/15 text-amber-300 border border-amber-500/30">
+                  <span className="text-xs font-mono font-bold uppercase tracking-wider px-2 py-0.5 rounded-full bg-amber-500/15 text-amber-300 border border-amber-500/30">
                     {isGridCell ? "NASA 0.5° Grid Cell" : "NASA Observation Site"}
                   </span>
                   <span className="text-xs text-slate-400 font-mono">
@@ -1015,7 +1129,7 @@ function DashboardLoadedView({ sel }: { sel: Selection }) {
 
           {/* 5 NASA Official Challenge Demonstration Scenarios Strip */}
           <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 pt-1 border-b border-white/5 pb-2 text-xs">
-            <span className="text-[10px] font-mono text-amber-300/80 font-bold uppercase tracking-wider shrink-0">
+            <span className="text-xs font-mono text-amber-300/80 font-bold uppercase tracking-wider shrink-0">
               NASA 5 Demo Scenarios:
             </span>
             <div className="flex items-center gap-1.5 overflow-x-auto pb-1 sm:pb-0">
@@ -1036,7 +1150,7 @@ function DashboardLoadedView({ sel }: { sel: Selection }) {
                   }`}
                 >
                   <span>{ex.region_name}</span>
-                  <span className="text-[9px] font-mono text-slate-400 ml-1">({ex.variable_key})</span>
+                  <span className="text-[11px] font-mono text-slate-400 ml-1">({ex.variable_key})</span>
                 </button>
               ))}
             </div>
@@ -1045,7 +1159,7 @@ function DashboardLoadedView({ sel }: { sel: Selection }) {
           {/* Interactive Chapter Stepper Ribbon */}
           {!isComparing && (
             <div className="flex flex-col sm:flex-row items-center justify-between gap-3 pt-1">
-              <div className="flex items-center gap-1.5 w-full sm:w-auto overflow-x-auto pb-1 sm:pb-0">
+              <div className="flex flex-wrap items-center gap-1.5 w-full sm:flex-1">
                 {CHAPTERS.map((ch) => {
                   const isActive = chapter === ch.num;
                   const isPassed = chapter > ch.num;
@@ -1062,7 +1176,7 @@ function DashboardLoadedView({ sel }: { sel: Selection }) {
                       }`}
                     >
                       <span
-                        className={`w-4 h-4 rounded-full flex items-center justify-center text-[10px] font-mono ${
+                        className={`w-4 h-4 rounded-full flex items-center justify-center text-xs font-mono ${
                           isActive
                             ? "bg-black text-amber-400 font-black"
                             : isPassed
@@ -1081,7 +1195,8 @@ function DashboardLoadedView({ sel }: { sel: Selection }) {
               {/* Scientist View Toggle Pill */}
               <button
                 onClick={() => setScientistView((prev) => !prev)}
-                className={`px-3 py-1.5 rounded-xl text-xs font-mono font-bold transition-all flex items-center gap-1.5 border cursor-pointer ${
+                aria-pressed={scientistView}
+                className={`px-3 py-1.5 rounded-xl text-xs font-mono font-bold transition-all flex items-center gap-1.5 border cursor-pointer whitespace-nowrap shrink-0 ${
                   scientistView
                     ? "bg-sky-500/20 text-sky-300 border-sky-400 shadow-[0_0_10px_rgba(56,189,248,0.4)]"
                     : "bg-white/5 hover:bg-white/10 text-slate-400 hover:text-white border-white/10"
@@ -1161,7 +1276,7 @@ function DashboardLoadedView({ sel }: { sel: Selection }) {
                 {/* Comparative KPI Strip */}
                 <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
                   <div className="dark-clay-card rounded-2xl p-3 border border-white/10">
-                    <span className="text-[10px] font-mono text-slate-400 block mb-1">Rate of Change (Slope)</span>
+                    <span className="text-xs font-mono text-slate-400 block mb-1">Rate of Change (Slope)</span>
                     <div className="text-xs space-y-1 font-mono">
                       <div className="text-amber-300 font-bold">{data.region.name}: {signed(data.trend.ols.slopePerYear * 10, 3)} {v.unit}/dec</div>
                       <div className="text-sky-300 font-bold">{compareData.region.name}: {signed(compareData.trend.ols.slopePerYear * 10, 3)} {v.unit}/dec</div>
@@ -1169,19 +1284,19 @@ function DashboardLoadedView({ sel }: { sel: Selection }) {
                   </div>
 
                   <div className="dark-clay-card rounded-2xl p-3 border border-white/10">
-                    <span className="text-[10px] font-mono text-slate-400 block mb-1">Statistical Significance</span>
+                    <span className="text-xs font-mono text-slate-400 block mb-1">Statistical Significance</span>
                     <div className="text-xs space-y-1">
-                      <span className={`inline-block px-2 py-0.5 rounded text-[10px] font-bold ${data.trend.verdict === "significant" ? "bg-emerald-500/20 text-emerald-300" : "bg-slate-700 text-slate-300"}`}>
+                      <span className={`inline-block px-2 py-0.5 rounded text-xs font-bold ${data.trend.verdict === "significant" ? "bg-emerald-500/20 text-emerald-300" : "bg-slate-700 text-slate-300"}`}>
                         {data.region.name}: {data.trend.verdict}
                       </span>
-                      <span className={`block px-2 py-0.5 rounded text-[10px] font-bold ${compareData.trend.verdict === "significant" ? "bg-emerald-500/20 text-emerald-300" : "bg-slate-700 text-slate-300"}`}>
+                      <span className={`block px-2 py-0.5 rounded text-xs font-bold ${compareData.trend.verdict === "significant" ? "bg-emerald-500/20 text-emerald-300" : "bg-slate-700 text-slate-300"}`}>
                         {compareData.region.name}: {compareData.trend.verdict}
                       </span>
                     </div>
                   </div>
 
                   <div className="dark-clay-card rounded-2xl p-3 border border-white/10">
-                    <span className="text-[10px] font-mono text-slate-400 block mb-1">Total Shift Over Record</span>
+                    <span className="text-xs font-mono text-slate-400 block mb-1">Total Shift Over Record</span>
                     <div className="text-xs space-y-1 font-mono">
                       <div className="text-amber-300 font-bold">{data.region.name}: {signed(data.trend.totalChange, 2)} {v.unit}</div>
                       <div className="text-sky-300 font-bold">{compareData.region.name}: {signed(compareData.trend.totalChange, 2)} {v.unit}</div>
@@ -1189,7 +1304,7 @@ function DashboardLoadedView({ sel }: { sel: Selection }) {
                   </div>
 
                   <div className="dark-clay-card rounded-2xl p-3 border border-white/10">
-                    <span className="text-[10px] font-mono text-slate-400 block mb-1">Mean Baseline</span>
+                    <span className="text-xs font-mono text-slate-400 block mb-1">Mean Baseline</span>
                     <div className="text-xs space-y-1 font-mono">
                       <div className="text-amber-300 font-bold">{data.region.name}: {fmt(data.trend.mean, 2)} {v.unit}</div>
                       <div className="text-sky-300 font-bold">{compareData.region.name}: {fmt(compareData.trend.mean, 2)} {v.unit}</div>
@@ -1223,10 +1338,10 @@ function DashboardLoadedView({ sel }: { sel: Selection }) {
               {/* Active Chapter Story Card */}
               <div className="dark-clay-card rounded-2xl sm:rounded-3xl p-4 sm:p-5 flex flex-col gap-3 shadow-2xl border border-white/10">
                 <div className="flex items-center justify-between">
-                  <span className="text-[10px] font-mono font-bold uppercase tracking-wider px-2 py-0.5 rounded-full bg-amber-500/15 text-amber-300 border border-amber-500/30">
+                  <span className="text-xs font-mono font-bold uppercase tracking-wider px-2 py-0.5 rounded-full bg-amber-500/15 text-amber-300 border border-amber-500/30">
                     Chapter {chapter} of 5
                   </span>
-                  <span className="text-[10px] text-slate-400 font-mono">
+                  <span className="text-xs text-slate-400 font-mono">
                     {reliabilityPct}% Satellite Completeness
                   </span>
                 </div>
@@ -1319,13 +1434,13 @@ function DashboardLoadedView({ sel }: { sel: Selection }) {
                           <span className="font-bold">{forecastHorizon} Years ({forecastLoading ? "Fetching API..." : "Live /api/forecast"})</span>
                         </div>
                         {apiForecast?.forecast?.method && (
-                          <div className="flex justify-between text-slate-300 text-[10px]">
+                          <div className="flex justify-between text-slate-300 text-xs">
                             <span>Model Verification:</span>
                             <span>{apiForecast.forecast.method}</span>
                           </div>
                         )}
                         {apiForecast?.forecast?.expectedChange?.absolute !== undefined && (
-                          <div className="flex justify-between text-[10px]">
+                          <div className="flex justify-between text-xs">
                             <span>Expected Shift from Baseline:</span>
                             <span className="font-bold text-amber-300">{signed(apiForecast.forecast.expectedChange.absolute, 2)} {v.unit}</span>
                           </div>
@@ -1334,12 +1449,12 @@ function DashboardLoadedView({ sel }: { sel: Selection }) {
 
                       {/* Horizon switch */}
                       <div className="flex items-center gap-1.5 pt-1">
-                        <span className="text-[10px] text-slate-400">Horizon:</span>
+                        <span className="text-xs text-slate-400">Horizon:</span>
                         {[1, 2, 5, 10].map((h) => (
                           <button
                             key={h}
                             onClick={() => setForecastHorizon(h)}
-                            className={`px-2 py-0.5 rounded text-[10px] font-mono font-bold ${
+                            className={`px-2 py-0.5 rounded text-xs font-mono font-bold ${
                               forecastHorizon === h
                                 ? "bg-amber-400 text-black"
                                 : "bg-white/10 text-slate-300 hover:text-white"
@@ -1393,7 +1508,7 @@ function DashboardLoadedView({ sel }: { sel: Selection }) {
                   </div>
                   <div className="text-xs">
                     <p className="font-bold text-white">Ask AI Detective</p>
-                    <p className="text-[10px] text-slate-400">Suggest variables & interpret {v.name}</p>
+                    <p className="text-xs text-slate-400">Suggest variables & interpret {v.name}</p>
                   </div>
                 </div>
 
@@ -1432,6 +1547,13 @@ function DashboardLoadedView({ sel }: { sel: Selection }) {
         {/* =========================================================================
             "🔬 SCIENTIST VIEW" COLLAPSIBLE STATISTICAL DRAWER
             ========================================================================= */}
+        <SourcesNote
+          labels={{ title: `Sources for chapter ${chapter}`, relies: "Relies on", used: "Used in this result" }}
+          relies={currentSources.relies}
+          used={currentSources.used}
+          links={chapterLinks}
+        />
+
         {scientistView && (
           <section className="dark-clay-card rounded-2xl sm:rounded-3xl p-4 sm:p-5 shadow-2xl border border-sky-500/30 animate-[fadeInUp_0.4s_ease-out]">
             <div className="flex items-center justify-between pb-3 border-b border-white/10 mb-4">
@@ -1448,35 +1570,35 @@ function DashboardLoadedView({ sel }: { sel: Selection }) {
 
             <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 text-xs font-mono">
               <div className="p-2.5 rounded-xl bg-white/5 border border-white/10">
-                <span className="text-[10px] text-slate-400 block mb-0.5">Sen&apos;s Slope (Yearly):</span>
+                <span className="text-xs text-slate-400 block mb-0.5">Sen&apos;s Slope (Yearly):</span>
                 <span className="font-black text-amber-300 text-sm">
                   {signed(t.mannKendall.senSlopePerYear, 4)} {v.unit}/yr
                 </span>
-                <span className="text-[9px] text-slate-500 block mt-0.5">Median of all pairwise slopes</span>
+                <span className="text-[11px] text-slate-500 block mt-0.5">Median of all pairwise slopes</span>
               </div>
 
               <div className="p-2.5 rounded-xl bg-white/5 border border-white/10">
-                <span className="text-[10px] text-slate-400 block mb-0.5">Mann-Kendall p-value:</span>
+                <span className="text-xs text-slate-400 block mb-0.5">Mann-Kendall p-value:</span>
                 <span className="font-black text-white text-sm">{fmtP(t.mannKendall.pValue)}</span>
-                <span className="text-[9px] text-slate-500 block mt-0.5">
+                <span className="text-[11px] text-slate-500 block mt-0.5">
                   Tau τ: {t.mannKendall.tau.toFixed(3)} | z: {t.mannKendall.z.toFixed(2)}
                 </span>
               </div>
 
               <div className="p-2.5 rounded-xl bg-white/5 border border-white/10">
-                <span className="text-[10px] text-slate-400 block mb-0.5">Linear OLS Slope:</span>
+                <span className="text-xs text-slate-400 block mb-0.5">Linear OLS Slope:</span>
                 <span className="font-black text-white text-sm">
                   {signed(t.ols.slopePerYear, 4)} {v.unit}/yr
                 </span>
-                <span className="text-[9px] text-slate-500 block mt-0.5">
+                <span className="text-[11px] text-slate-500 block mt-0.5">
                   SE: ±{fmt(t.ols.stdErr, 4)} | R²: {t.ols.r2.toFixed(3)}
                 </span>
               </div>
 
               <div className="p-2.5 rounded-xl bg-white/5 border border-white/10">
-                <span className="text-[10px] text-slate-400 block mb-0.5">Serial Autocorrelation (r₁):</span>
+                <span className="text-xs text-slate-400 block mb-0.5">Serial Autocorrelation (r₁):</span>
                 <span className="font-black text-white text-sm">{t.ols.lag1Autocorr.toFixed(3)}</span>
-                <span className="text-[9px] text-slate-500 block mt-0.5">
+                <span className="text-[11px] text-slate-500 block mt-0.5">
                   Effective N: {Math.round(t.ols.effectiveN)} months
                 </span>
               </div>
@@ -1498,13 +1620,25 @@ function DashboardLoadedView({ sel }: { sel: Selection }) {
             FULL 12 VARIABLES & PERIOD SELECTOR MODAL
             ========================================================================= */}
         {isVariablesModalOpen && (
-          <div className="fixed inset-0 z-50 bg-black/80 backdrop-blur-md flex items-center justify-center p-3 sm:p-6 overflow-y-auto">
-            <div className="w-full max-w-4xl max-h-[90vh] bg-[#080d16] border border-amber-400/40 rounded-3xl p-5 sm:p-6 flex flex-col gap-4 shadow-2xl overflow-y-auto">
+          <div
+            className="fixed inset-0 z-50 bg-black/80 backdrop-blur-md flex items-center justify-center p-3 sm:p-6 overflow-y-auto"
+            onMouseDown={(e) => {
+              if (e.target === e.currentTarget) setIsVariablesModalOpen(false);
+            }}
+          >
+            <div
+              ref={modalRef}
+              role="dialog"
+              aria-modal="true"
+              aria-labelledby="variables-modal-title"
+              tabIndex={-1}
+              className="w-full max-w-4xl max-h-[90vh] bg-[#080d16] border border-amber-400/40 rounded-3xl p-5 sm:p-6 flex flex-col gap-4 shadow-2xl overflow-y-auto outline-none"
+            >
               <div className="flex items-center justify-between border-b border-white/10 pb-3">
                 <div className="flex items-center gap-2.5">
                   <span className="text-xl">📊</span>
                   <div>
-                    <h2 className="text-lg font-black text-white">All 12 NASA Earth Observation Variables</h2>
+                    <h2 id="variables-modal-title" className="text-lg font-black text-white">All 12 NASA Earth Observation Variables</h2>
                     <p className="text-xs text-slate-400 font-mono">Select any parameter & observation period</p>
                   </div>
                 </div>
@@ -1572,7 +1706,7 @@ function DashboardLoadedView({ sel }: { sel: Selection }) {
                       <div>
                         <div className="flex items-center justify-between text-xs font-bold text-white group-hover:text-amber-300">
                           <span>{item.name}</span>
-                          <span className="font-mono text-[10px] px-1.5 py-0.5 rounded bg-white/10 text-slate-300">
+                          <span className="font-mono text-xs px-1.5 py-0.5 rounded bg-white/10 text-slate-300">
                             {item.key}
                           </span>
                         </div>
@@ -1581,7 +1715,7 @@ function DashboardLoadedView({ sel }: { sel: Selection }) {
                         </p>
                       </div>
 
-                      <div className="flex items-center justify-between text-[10px] text-slate-400 font-mono pt-2 border-t border-white/5">
+                      <div className="flex items-center justify-between text-xs text-slate-400 font-mono pt-2 border-t border-white/5">
                         <span>Unit: <strong>{item.unit}</strong></span>
                         <span className="capitalize">{item.category}</span>
                       </div>

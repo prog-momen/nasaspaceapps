@@ -231,14 +231,27 @@ body {
     opacity: 0.9;
   }
   50% {
-    transform: scale(1.18);
+    transform: scale(1.12);
     opacity: 1;
     filter: drop-shadow(0 0 10px rgba(245, 158, 11, 0.9));
   }
 }
 
+/* SVG elements scale around their own centre (not the top-left corner of the chart), so markers pulse in place. */
 .pulse-glow {
+  transform-box: fill-box;
+  transform-origin: center;
   animation: pulseGlow 2.4s infinite ease-in-out;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .pulse-glow,
+  .animate-draw-line,
+  .animate-\[fadeInUp_0\.5s_ease-out\],
+  .animate-\[fadeInUp_0\.6s_ease-out\],
+  .animate-\[fadeInUp_0\.4s_ease-out\] {
+    animation: none !important;
+  }
 }
 
 @keyframes drawLine {

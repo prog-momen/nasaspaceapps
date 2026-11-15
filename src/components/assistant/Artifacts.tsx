@@ -16,6 +16,7 @@ const GRID = "rgba(255,255,255,0.12)";
 const MUTED = "#a1a1aa";
 
 type Num = number | null | undefined;
+const unitLabel = (u: unknown) => (u === "C" ? "°C" : u ? String(u) : "");
 const isNum = (v: unknown): v is number => typeof v === "number" && Number.isFinite(v);
 const fmt = (v: number) => (Math.abs(v) >= 100 ? v.toFixed(0) : Math.abs(v) >= 10 ? v.toFixed(1) : v.toFixed(2));
 const arr = (v: unknown): unknown[] => (Array.isArray(v) ? v : []);
@@ -84,7 +85,7 @@ function SeriesChart({ x, s, trend, title }: { x: string[]; s: Record<string, un
   const ys = nums(s.y);
   const ty = trend ? nums(trend.y) : [];
   const vals = [...ys, ...ty].filter(isNum);
-  if (!vals.length) return <div className="text-[10px] text-[#71717a]">No numeric values</div>;
+  if (!vals.length) return <div className="text-xs text-[#71717a]">No numeric values</div>;
   const bar = s.kind === "bar";
   const { lo, hi } = scaleOf(vals, bar);
   const n = x.length || ys.length;
@@ -95,9 +96,9 @@ function SeriesChart({ x, s, trend, title }: { x: string[]; s: Record<string, un
   const bw = Math.max(1, Math.min(10, (pw / Math.max(n, 1)) * 0.7));
   return (
     <div>
-      <div className="text-[10px] text-[#a1a1aa] mb-0.5">
+      <div className="text-xs text-[#a1a1aa] mb-0.5">
         {String(s.name ?? "")}
-        {s.unit ? ` (${String(s.unit)})` : ""}
+        {s.unit ? ` (${unitLabel(s.unit)})` : ""}
       </div>
       <Frame lo={lo} hi={hi} xLabels={x.length ? x : ys.map((_, i) => String(i))}>
         <title>{title}</title>
@@ -130,7 +131,7 @@ function LineChart({ a }: { a: Artifact }) {
       {series.map((s, i) => (
         <SeriesChart key={i} x={x} s={s} title={a.title ?? ""} trend={series.length === 1 ? trend : null} />
       ))}
-      {trend?.label && <div className="text-[10px] text-[#f87171]">- - - {trend.label}</div>}
+      {trend?.label && <div className="text-xs text-[#f87171]">- - - {trend.label}</div>}
     </div>
   );
 }
@@ -178,7 +179,7 @@ function ForecastChart({ a }: { a: Artifact }) {
   const fpath = fy
     .map((v, i) => (isNum(v) ? `${i === 0 || !isNum(fy[i - 1]) ? "M" : "L"}${X(off + i).toFixed(1)} ${Y(v).toFixed(1)}` : ""))
     .join("");
-  const unit = a.unit ? String(a.unit) : "";
+  const unit = unitLabel(a.unit);
   // Pointer position -> nearest month (history or forecast), in viewBox units so it works at any rendered width.
   const onMove = (e: React.PointerEvent<HTMLDivElement>) => {
     const r = e.currentTarget.getBoundingClientRect();
@@ -214,7 +215,7 @@ function ForecastChart({ a }: { a: Artifact }) {
         </Frame>
         {hover !== null && isNum(hv) && (
           <div
-            className="pointer-events-none absolute top-1 px-2 py-1 rounded-md bg-black/85 border border-white/15 text-[10px] leading-tight text-[#f4f4f5] whitespace-nowrap"
+            className="pointer-events-none absolute top-1 px-2 py-1 rounded-md bg-black/85 border border-white/15 text-xs leading-tight text-[#f4f4f5] whitespace-nowrap"
             style={X(hover) > W / 2 ? { right: `${100 - (X(hover) / W) * 100 + 1.5}%` } : { left: `${(X(hover) / W) * 100 + 1.5}%` }}
           >
             <div className="font-semibold">
@@ -228,7 +229,7 @@ function ForecastChart({ a }: { a: Artifact }) {
           </div>
         )}
       </div>
-      <div className="text-[10px] text-[#a1a1aa]">
+      <div className="text-xs text-[#a1a1aa]">
         <span style={{ color: C_LINE }}>--</span> history · <span style={{ color: C_FC }}>- -</span> forecast · shaded 80% / 95% interval
         {unit ? ` · ${unit}` : ""}
         {a.cutoff ? ` · cutoff ${String(a.cutoff).slice(0, 7)}` : ""} · hover or tap the chart to read a month
@@ -287,7 +288,7 @@ function ForecastChart({ a }: { a: Artifact }) {
             </tbody>
           </table>
           {fx.length > shown && (
-            <div className="px-2 py-1 text-[10px] text-[#71717a]">
+            <div className="px-2 py-1 text-xs text-[#71717a]">
               First {shown} of {fx.length} forecast months shown; hover the chart or open Details for the rest.
             </div>
           )}
@@ -328,8 +329,8 @@ function EnsembleChart({ a }: { a: Artifact }) {
         {band(p25, p75, 0.3)}
         <path d={path(med, X, Y)} fill="none" stroke={C_LINE} strokeWidth="1.8" />
       </Frame>
-      <div className="text-[10px] text-[#a1a1aa]">
-        line = median across members; dark band = p25-p75, light band = p10-p90 (spread, not a calibrated uncertainty){a.unit ? ` · ${String(a.unit)}` : ""}
+      <div className="text-xs text-[#a1a1aa]">
+        line = median across members; dark band = p25-p75, light band = p10-p90 (spread, not a calibrated uncertainty){a.unit ? ` · ${unitLabel(a.unit)}` : ""}
       </div>
     </div>
   );
@@ -340,7 +341,7 @@ function DataTable({ a }: { a: Artifact }) {
   const rows = arr(a.rows).slice(0, 100) as unknown[][];
   return (
     <div className="overflow-x-auto max-h-56 overflow-y-auto rounded-lg border border-white/10">
-      <table className="w-full text-[10px] text-left">
+      <table className="w-full text-xs text-left">
         <thead className="bg-white/5 text-[#a1a1aa] sticky top-0">
           <tr>
             {cols.map((c, i) => (
@@ -362,7 +363,7 @@ function DataTable({ a }: { a: Artifact }) {
           ))}
         </tbody>
       </table>
-      {arr(a.rows).length > 100 && <div className="px-2 py-1 text-[10px] text-[#71717a]">100 / {arr(a.rows).length} rows shown</div>}
+      {arr(a.rows).length > 100 && <div className="px-2 py-1 text-xs text-[#71717a]">100 / {arr(a.rows).length} rows shown</div>}
     </div>
   );
 }
@@ -381,14 +382,14 @@ function Fallback({ a }: { a: Artifact }) {
     return (
       <div className="flex flex-wrap gap-1">
         {cells.map((c, i) => (
-          <div key={i} className="px-1.5 py-1 rounded text-[10px] text-black" style={{ background: c.color || "#ddd" }} title={c.text}>
+          <div key={i} className="px-1.5 py-1 rounded text-xs text-black" style={{ background: c.color || "#ddd" }} title={c.text}>
             <b>{c.label}</b> {c.text}
           </div>
         ))}
       </div>
     );
   }
-  return <div className="text-[10px] text-[#a1a1aa]">{labels[a.type] ?? `Artifact: ${a.type}`}</div>;
+  return <div className="text-xs text-[#a1a1aa]">{labels[a.type] ?? `Artifact: ${a.type}`}</div>;
 }
 
 export function ArtifactView({ artifact }: { artifact: Artifact }) {
@@ -418,7 +419,7 @@ export function ArtifactView({ artifact }: { artifact: Artifact }) {
       )}
       {body}
       {artifact.note && (
-        <div dir="auto" className="mt-1 text-[10px] text-[#71717a]">
+        <div dir="auto" className="mt-1 text-xs text-[#71717a]">
           {artifact.note}
         </div>
       )}

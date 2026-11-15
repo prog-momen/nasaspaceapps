@@ -61,6 +61,8 @@ Make trend detection understandable to high-school and university students and t
 
 Classroom use, checking local claims, Arabic-language access. Next: area averages for countries and basins, more missions as trend variables (GPM, MODIS vegetation, GLDAS), shareable investigations.
 
+**Sources on every result.** Each dashboard chapter and each assistant answer shows two lines under it: *Relies on* (the datasets and methods the result is built on) and *Used in this result* (the place, the grid cell, the period, the records and the citations this particular result used).
+
 ## 5. Use of Artificial Intelligence
 
 - **Inside the product:** Anthropic Claude Haiku is used for two language tasks only: understanding the user's question and wording the explanation. It never produces data. All numbers come from NASA and partner data tools, and each AI-worded answer is automatically checked against the tool output; answers that fail the check are replaced by a clearly labelled template. Embeddings for the documentation search run locally (multilingual-e5-small). AI-generated answers are labelled in the interface with the model name.

@@ -51,7 +51,7 @@ function ChatPageInner() {
 
         <div className="flex items-center gap-2 text-xs">
           {selected && (
-            <span className="text-[10px] font-mono px-2 py-1 rounded bg-amber-500/10 text-amber-300 border border-amber-500/30 max-w-[160px] truncate" title={`${selected.lat}, ${selected.lon}`}>
+            <span className="text-xs font-mono px-2 py-1 rounded bg-amber-500/10 text-amber-300 border border-amber-500/30 max-w-[160px] truncate" title={`${selected.lat}, ${selected.lon}`}>
               {selected.name}
             </span>
           )}
