@@ -1,0 +1,198 @@
+{
+  "id": "resource_R087",
+  "url": "https://spinoff.nasa.gov/node/9407",
+  "checked_at": "2026-11-14T15:15:21.363704+00:00",
+  "tls_validation": false,
+  "status": 200,
+  "final_url": "https://spinoff.nasa.gov/node/9407",
+  "bytes": 51684,
+  "content_type": "text/html; charset=utf-8",
+  "sha256": "ae02ae678a75fec41696c3fab962b7c3b6e5ce68e1fb77ef3edf653f23a81367",
+  "links": [
+    {
+      "url": "https://spinoff.nasa.gov/search",
+      "label": "Search search"
+    },
+    {
+      "url": "https://spinoff.nasa.gov/",
+      "label": "Home"
+    },
+    {
+      "url": "https://spinoff.nasa.gov/category/Consumer%20Home%20Recreation",
+      "label": "Consumer Goods"
+    },
+    {
+      "url": "https://spinoff.nasa.gov/category/Environment%20and%20Resource%20Management",
+      "label": "Energy and Environment"
+    },
+    {
+      "url": "https://spinoff.nasa.gov/category/Health%20and%20Medicine",
+      "label": "Health and Medicine"
+    },
+    {
+      "url": "https://spinoff.nasa.gov/category/Industrial%20Productivity",
+      "label": "Industrial Productivity"
+    },
+    {
+      "url": "https://spinoff.nasa.gov/category/Computer%20Technology",
+      "label": "Information Technology"
+    },
+    {
+      "url": "https://spinoff.nasa.gov/category/Public%20Safety",
+      "label": "Public Safety"
+    },
+    {
+      "url": "https://spinoff.nasa.gov/category/Transportation",
+      "label": "Transportation"
+    },
+    {
+      "url": "https://spinoff.nasa.gov/spinoff",
+      "label": "About Spinoff"
+    },
+    {
+      "url": "https://spinoff.nasa.gov/faq",
+      "label": "FAQ"
+    },
+    {
+      "url": "https://homeandcity.nasa.gov/",
+      "label": "Home and City"
+    },
+    {
+      "url": "https://spinoff.nasa.gov/Other%20Spinoff%20Resources",
+      "label": "Other Spinoff Resources"
+    },
+    {
+      "url": "https://nasa.gov",
+      "label": ""
+    },
+    {
+      "url": "https://technology.nasa.gov",
+      "label": ""
+    },
+    {
+      "url": "https://spinoff.nasa.gov/",
+      "label": ""
+    },
+    {
+      "url": "https://spinoff.nasa.gov/node/9407",
+      "label": ""
+    },
+    {
+      "url": "https://spinoff.nasa.gov/search/node?advance=1",
+      "label": "Advanced Search"
+    },
+    {
+      "url": "https://spinoff.nasa.gov/Saving_Lives_at_Sea_and_on_Land",
+      "label": "Saving Lives at Sea and on Land"
+    },
+    {
+      "url": "https://spinoff.nasa.gov/For_Battery_Safety_KULR_Heads_Prevail",
+      "label": "For Battery Safety, KULR Heads Prevail"
+    },
+    {
+      "url": "https://spinoff.nasa.gov/Feeding_People_Through_Disasters",
+      "label": "Feeding People Through Disasters"
+    },
+    {
+      "url": "https://spinoff.nasa.gov/Giving_Sensors_Good_Optics",
+      "label": "Giving Sensors Good Optics"
+    },
+    {
+      "url": "https://spinoff.nasa.gov/Where_the_Wildfires_Are",
+      "label": "Where the Wildfires Are"
+    },
+    {
+      "url": "https://spinoff.nasa.gov/Spherica_Robots_to_the_Rescue",
+      "label": "Spherical Robots to the Rescue"
+    },
+    {
+      "url": "https://spinoff.nasa.gov/FINDER-Finds-Its-Way-into-Rescuers-Toolkits",
+      "label": "FINDER Finds Its Way into Rescuers’ Toolkits"
+    },
+    {
+      "url": "https://spinoff.nasa.gov/Stay-Safe-with-Battery-Testing-for-Space",
+      "label": "Stay Safe with Battery Testing for Space"
+    },
+    {
+      "url": "https://spinoff.nasa.gov/software-improves-SARSAT",
+      "label": "Answering the Call of Distress"
+    },
+    {
+      "url": "https://spinoff.nasa.gov/moon-landing-food-safety",
+      "label": "Space-Grade Safety Checks for Poultry"
+    },
+    {
+      "url": "http://technology.nasa.gov/",
+      "label": "T2 Portal"
+    },
+    {
+      "url": "http://technology.nasa.gov/patents",
+      "label": "Patent Portfolio"
+    },
+    {
+      "url": "https://software.nasa.gov/",
+      "label": "Software Catalog"
+    },
+    {
+      "url": "https://www.nasa.gov/technology-transfer-spinoffs/",
+      "label": "Benefits to You"
+    },
+    {
+      "url": "https://homeandcity.nasa.gov/",
+      "label": "homeandcity.nasa.gov"
+    },
+    {
+      "url": "https://www.facebook.com/NASATechnology",
+      "label": ""
+    },
+    {
+      "url": "https://x.com/NASA_Technology",
+      "label": ""
+    },
+    {
+      "url": "https://www.youtube.com/nasaspacetech",
+      "label": ""
+    },
+    {
+      "url": "https://lp.constantcontactpages.com/su/priz0cO/spinoffnewsletter",
+      "label": ""
+    },
+    {
+      "url": "https://nasa.gov",
+      "label": ""
+    },
+    {
+      "url": "https://www.nasa.gov/offices/odeo/no-fear-act",
+      "label": "No Fear Act"
+    },
+    {
+      "url": "https://www.nasa.gov/FOIA",
+      "label": "FOIA"
+    },
+    {
+      "url": "https://www.nasa.gov/about/highlights/HP_Privacy.html",
+      "label": "Privacy"
+    },
+    {
+      "url": "https://oig.nasa.gov/",
+      "label": "Office of Inspector General"
+    },
+    {
+      "url": "https://osc.gov/",
+      "label": "Office of Special Counsel"
+    },
+    {
+      "url": "https://www.nasa.gov/news/budget/index.html",
+      "label": "Agency Financial Reports"
+    },
+    {
+      "url": "https://www.nasa.gov/about/contact/index.html",
+      "label": "Contact NASA"
+    },
+    {
+      "url": "https://www.nasa.gov/general/accessibility/",
+      "label": "Accessibility"
+    }
+  ],
+  "elapsed_seconds": 0.86
+}

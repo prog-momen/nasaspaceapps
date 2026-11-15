@@ -1,0 +1,90 @@
+{
+  "manifest_version": 1,
+  "purpose": "References for the monthly statistical forecasting capability. Bibliographic data below were verified against the local PDFs where a PDF exists; anything not verifiable locally is marked null/unverified. Paper-derived methodological statements are kept separate from computed results (see evidence/forecast_eval).",
+  "references": [
+    {
+      "id": "A",
+      "title": "Time Series Prediction of Temperature Using Seasonal ARIMA and LSTM Models",
+      "authors": ["Hakan Koçak"],
+      "year": 2023,
+      "venue": "Gazi Journal of Engineering Sciences, vol. 9, no. 3, pp. 574-584",
+      "doi": "10.30855/gmbd.0705088",
+      "url": "https://dergipark.org.tr/en/pub/gmbd/article/1299006",
+      "local_file": "research/Time Series Prediction of Temperature Using Seasonal ARIMA and LSTM Models[#1299006]-3150939.pdf",
+      "extracted_text": "earthtrend_rag/docs/research_texts/A_gmbd_sarima_lstm.txt",
+      "full_text_available": true,
+      "read_status": "full text read (abstract, method, results, conclusion)",
+      "bibliographic_note": "The running header of the PDF cites the title as 'Time Series Prediction of Temperature Using ARIMA and LSTM Models'; the title page uses 'Seasonal ARIMA and LSTM Models'.",
+      "paper_derived_methods": ["monthly mean temperature, one weather station (Ankara, Turkiye), Jan 2010 - Mar 2023", "SARIMA selected with auto_arima: SARIMA(1,0,0)x(2,0,1)12, 12-month seasonality", "LSTM on data scaled to 0-1", "single chronological split: 80% training / 20% test"],
+      "paper_reported_results": {"SARIMA": {"MAE_C": 1.43, "RMSE_C": 1.87}, "LSTM": {"MAE_C": 1.69, "RMSE_C": 2.04}, "scope": "one station, one test block; not a result for any other location"},
+      "limitations_for_this_project": ["one station and one split: no rolling origins, no uncertainty on the metrics", "no comparison with a seasonal-naive or climatology baseline, so it does not show skill beyond the seasonal cycle", "does not evaluate lead-by-lead skill or prediction-interval calibration", "does not establish 24-month skill for any location"]
+    },
+    {
+      "id": "B",
+      "title": "Forecasting daily meteorological time series using ARIMA and regression models",
+      "authors": ["Małgorzata Murat", "Iwona Malinowska", "Magdalena Gos", "Jaromir Krzyszczak"],
+      "year": 2018,
+      "venue": "International Agrophysics, 32, 253-264",
+      "doi": "10.1515/intag-2017-0007",
+      "url": "https://doi.org/10.1515/intag-2017-0007",
+      "local_file": "research/Forecasting-daily-meteoro.pdf",
+      "extracted_text": "earthtrend_rag/docs/research_texts/B_intagr_daily_arima.txt",
+      "full_text_available": true,
+      "read_status": "full text read (abstract, methods, conclusions)",
+      "paper_derived_methods": ["daily air temperature and precipitation 1980-2010 at four European sites in different climatic zones (Jokioinen, Dikopshof, Lleida, Lublin)", "Box-Jenkins and Holt-Winters seasonal ARIMA, ARIMA with Fourier-term regressors (ARIMAF), time-series regression with trend and seasonality", "out-of-sample comparison on a six-year independent test set", "authors recommend more than one error measure and note that the best model changes with the data/site"],
+      "limitations_for_this_project": ["daily resolution, not monthly", "the best precipitation model depends on the site (so one model for every location is not justified)", "a six-year test block is a single evaluation, not rolling-origin", "does not establish 24-month skill"]
+    },
+    {
+      "id": "C",
+      "title": "Predicting Meteorological Variables on Local Level with SARIMA, LSTM and Hybrid Techniques",
+      "authors": ["Antonios Parasyris", "George Alexandrakis", "Georgios V. Kozyrakis", "Katerina Spanoudaki", "Nikolaos A. Kampanis"],
+      "year": 2022,
+      "venue": "Atmosphere 13(6), 878 (published 28 May 2022)",
+      "doi": "10.3390/atmos13060878",
+      "url": "https://www.mdpi.com/2073-4433/13/6/878",
+      "local_file": "research/atmosphere-13-00878.pdf",
+      "extracted_text": "earthtrend_rag/docs/research_texts/C_atmosphere_878.txt",
+      "full_text_available": true,
+      "read_status": "full text read (abstract, method, conclusions)",
+      "paper_derived_methods": ["3-hourly data from one hotel meteorological station in northern Crete", "forecast horizon up to 2 days", "SARIMA, LSTM and a hybrid; MAE in physical units (degC, %, m/s)", "authors report the hybrid improvement was modest relative to its cost (about 2 h of computing)"],
+      "limitations_for_this_project": ["horizon of 1-2 days at 3-hourly resolution: it does NOT support or test 24-month monthly forecasts", "single site"]
+    },
+    {
+      "id": "D",
+      "title": "A Hybrid SARIMA-LSTM Model for Air Temperature Forecasting",
+      "authors": null,
+      "year": null,
+      "venue": null,
+      "doi": "10.1002/adts.202200502",
+      "url": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adts.202200502",
+      "local_file": null,
+      "full_text_available": false,
+      "read_status": "NOT read: no local full text and no legitimate access was available in this work. Only the DOI/URL supplied by the user are recorded; authors, year and venue are unverified and left null. No claim from this paper is used.",
+      "limitations_for_this_project": ["no hybrid or neural candidate is implemented: the data volume (about 540 monthly values per series) and the validation budget do not justify it, and nothing from paper D is relied on"]
+    },
+    {
+      "id": "E",
+      "title": "Forecasting: Principles and Practice (3rd ed.), chapters on ARIMA and on the forecasting toolbox",
+      "authors": ["Rob J. Hyndman", "George Athanasopoulos"],
+      "year": null,
+      "url": ["https://otexts.com/fpp3/arima.html", "https://otexts.com/fpp3/toolbox.html"],
+      "local_file": null,
+      "full_text_available": false,
+      "read_status": "URL only; the pages were not retrieved in this work. The methods used here that are standard textbook practice (benchmark methods, seasonal-naive variance by horizon, MASE, time-series cross-validation, prediction intervals) are implemented from the standard definitions; they are cited as 'standard method', not as page-verified quotations.",
+      "limitations_for_this_project": ["year/edition details unverified locally"]
+    },
+    {
+      "id": "F",
+      "title": "statsmodels SARIMAX / ARIMA / ETSModel documentation",
+      "authors": ["statsmodels developers"],
+      "year": 2026,
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.html",
+      "local_file": "research/doc_sarimax.txt, research/doc_arima.txt (statsmodels 0.15.0 pages)",
+      "full_text_available": true,
+      "read_status": "local copies of the SARIMAX and ARIMA pages exist; the installed library is statsmodels 0.15.0",
+      "paper_derived_methods": ["SARIMAX state-space SARIMA with trend and exogenous regressors; forecast intervals from get_forecast().conf_int()", "exogenous regressors need values over the forecast horizon"],
+      "limitations_for_this_project": ["no exogenous regressors are used in this project: future values are not available at forecast time and no scenarios are defined"]
+    }
+  ],
+  "not_a_citation_for_numbers": "Papers support methodology only. Forecast numbers come from the data (NASA POWER) and the model run recorded in each result; no paper is evidence that a particular future temperature will occur."
+}

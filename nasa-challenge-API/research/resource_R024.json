@@ -1,0 +1,34 @@
+{
+  "id": "resource_R024",
+  "url": "http://geo.ca/",
+  "checked_at": "2026-11-14T15:15:10.892152+00:00",
+  "tls_validation": false,
+  "status": 200,
+  "final_url": "https://geo.ca/",
+  "bytes": 25107,
+  "content_type": "text/html",
+  "sha256": "536e857c21d70b784b7ded096e4f0cb6ffeb1f25df14da081aae7140c5a53551",
+  "links": [
+    {
+      "url": "https://geo.ca/#content",
+      "label": "Skip to main content"
+    },
+    {
+      "url": "https://geo.ca/home/",
+      "label": "English"
+    },
+    {
+      "url": "https://geo.ca/fr/accueil/",
+      "label": "Français"
+    },
+    {
+      "url": "https://geo.ca/terms-and-conditions/",
+      "label": "Terms and Conditions"
+    },
+    {
+      "url": "https://geo.ca/fr/avis/",
+      "label": "Avis"
+    }
+  ],
+  "elapsed_seconds": 0.328
+}

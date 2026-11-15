@@ -1,0 +1,314 @@
+{
+  "id": "doc_merra",
+  "url": "https://gmao.gsfc.nasa.gov/reanalysis/MERRA-2/",
+  "checked_at": "2026-11-14T15:13:40.761520+00:00",
+  "tls_validation": false,
+  "status": 200,
+  "final_url": "https://gmao.gsfc.nasa.gov/gmao-products/merra-2/",
+  "bytes": 35642,
+  "content_type": "text/html; charset=utf-8",
+  "sha256": "3f31d00cfc3603845da1f3748e450089e8e8b9cd644262263a8fcba1921e308a",
+  "links": [
+    {
+      "url": "https://gmao.gsfc.nasa.gov",
+      "label": ""
+    },
+    {
+      "url": "https://nasa.gov",
+      "label": ""
+    },
+    {
+      "url": "https://science.gsfc.nasa.gov/earth/",
+      "label": "Earth Sciences Division"
+    },
+    {
+      "url": "https://science.gsfc.nasa.gov/sci",
+      "label": "Sciences and Exploration"
+    },
+    {
+      "url": "https://gmao.gsfc.nasa.gov",
+      "label": ""
+    },
+    {
+      "url": "https://gmao.gsfc.nasa.gov/reanalysis/",
+      "label": "Reanalysis Long-term, model-based analyses of multiple datasets using a fixed assimilation system are a major focus in the GMAO. Building on the success of the atmospheric reanalyses conducted with GEOS, current research and development activities are directed at producing a major Earth System Reanalysis, including atmosphere, land, ocean, and ice."
+    },
+    {
+      "url": "https://gmao.gsfc.nasa.gov/weather-analysis-prediction/",
+      "label": "Weather Analysis & Prediction To support NASA's satellite missions and field experiments, GMAO generates near-real-time atmospheric products using GEOS and distributes them to a broad community of users."
+    },
+    {
+      "url": "https://gmao.gsfc.nasa.gov/seasonal-decadal-analysis_prediction/",
+      "label": "Seasonal-Decadal Analysis & Prediction GMAO uses coupled Earth-System models and analyses, along with a broad range of satellite observations, to study and predict phenomena that evolve on seasonal to decadal timescales."
+    },
+    {
+      "url": "https://gmao.gsfc.nasa.gov/global-mesoscale-modeling/",
+      "label": "Global Mesoscale Modeling Current computing capacity enables GMAO to simulate the entire globe at spatial resolutions previously only possible with regional models. These “global mesoscale model” simulations serve for forefront evaluations of model performance and form the basis for Observing System Simulation Experiments."
+    },
+    {
+      "url": "https://gmao.gsfc.nasa.gov/observing-system-science/",
+      "label": "Observing System Science GMAO's mission to provide modeling support for NASA's satellite observations encompasses the need to examine the impacts of different observation types in weather and climate prediction. It also requires the ability to simulate potential new observation types, in order to assess their cost benefit, based on their likely impacts on prediction."
+    },
+    {
+      "url": "https://gmao.gsfc.nasa.gov/gmao-products/merra-2/",
+      "label": "Explore"
+    },
+    {
+      "url": "https://gmao.gsfc.nasa.gov/gmao-mission/",
+      "label": "GMAO Mission"
+    },
+    {
+      "url": "https://gmao.gsfc.nasa.gov/gmao-products/",
+      "label": "GMAO Products"
+    },
+    {
+      "url": "https://gmao.gsfc.nasa.gov/news/",
+      "label": "GMAO News"
+    },
+    {
+      "url": "https://gmao.gsfc.nasa.gov/nasa-missions/",
+      "label": "NASA Mission Support"
+    },
+    {
+      "url": "https://gmao.gsfc.nasa.gov/field-campaigns/",
+      "label": "Field Campaign Support"
+    },
+    {
+      "url": "https://gmao.gsfc.nasa.gov/multi-partner/",
+      "label": "Multi-Partner Projects"
+    },
+    {
+      "url": "https://gmao.gsfc.nasa.gov/research-briefs/",
+      "label": "Research Briefs"
+    },
+    {
+      "url": "https://gmao.gsfc.nasa.gov/animations/",
+      "label": "Animations"
+    },
+    {
+      "url": "https://gmao.gsfc.nasa.gov/science-snapshots/",
+      "label": "Science Snapshots"
+    },
+    {
+      "url": "https://gmao.gsfc.nasa.gov/geos-systems/",
+      "label": "GEOS Systems"
+    },
+    {
+      "url": "https://gmao.gsfc.nasa.gov/publications/",
+      "label": "Publications"
+    },
+    {
+      "url": "https://gmao.gsfc.nasa.gov/seminars-workshops/",
+      "label": "Seminars & Workshops"
+    },
+    {
+      "url": "https://gmao.gsfc.nasa.gov/staff-directory/",
+      "label": "Staff Directory"
+    },
+    {
+      "url": "https://gmao.gsfc.nasa.gov/contact-us/",
+      "label": "Contact Information"
+    },
+    {
+      "url": "https://gmao.gsfc.nasa.gov/employment-opportunities-in-the-gmao/",
+      "label": "Employment"
+    },
+    {
+      "url": "https://gmao.gsfc.nasa.gov/intranet/",
+      "label": "Intranet (internal)"
+    },
+    {
+      "url": "https://gmao.gsfc.nasa.gov/extranet/",
+      "label": "Extranet (login required)"
+    },
+    {
+      "url": "https://gmao.gsfc.nasa.gov",
+      "label": "Home"
+    },
+    {
+      "url": "https://gmao.gsfc.nasa.gov/gmao-products/",
+      "label": "GMAO Products"
+    },
+    {
+      "url": "https://gmao.gsfc.nasa.gov/gmao-products/merra-2/data-access_merra-2/",
+      "label": "Data Access"
+    },
+    {
+      "url": "https://gmao.gsfc.nasa.gov/gmao-products/merra-2/system-characteristics_merra-2/",
+      "label": "System Characteristics"
+    },
+    {
+      "url": "https://gmao.gsfc.nasa.gov/gmao-products/merra-2/wmo-data-access_merra-2/",
+      "label": "WMO Data Access"
+    },
+    {
+      "url": "https://gmao.gsfc.nasa.gov/gmao-products/merra-2/citing-merra-2-data_merra-2/",
+      "label": "Citing MERRA-2 Data"
+    },
+    {
+      "url": "https://gmao.gsfc.nasa.gov/gmao-products/merra-2/documentation_merra-2/",
+      "label": "Documentation"
+    },
+    {
+      "url": "https://gmao.gsfc.nasa.gov/gmao-products/merra-2/wmo-climate-reanalysis_merra-2/",
+      "label": "WMO Climate Reanalysis"
+    },
+    {
+      "url": "https://gmao.gsfc.nasa.gov/gmao-products/merra-2/merra-2-amip_merra-2/",
+      "label": "MERRA-2 AMIP"
+    },
+    {
+      "url": "https://gmao.gsfc.nasa.gov/gmao-products/merra-2/highlights_merra-2/",
+      "label": "Highlights"
+    },
+    {
+      "url": "https://gmao.gsfc.nasa.gov/gmao-products/merra-2/images_merra-2/",
+      "label": "Images"
+    },
+    {
+      "url": "https://gmao.gsfc.nasa.gov/gmao-products/merra-2/videos_merra-2/",
+      "label": "Videos"
+    },
+    {
+      "url": "https://gmao.gsfc.nasa.gov/gmao-products/merra-2/faq_merra-2/",
+      "label": "FAQ"
+    },
+    {
+      "url": "https://gmao.gsfc.nasa.gov/gmao-products/merra-2/publications_merra-2/",
+      "label": "Publications"
+    },
+    {
+      "url": "https://gmao.gsfc.nasa.gov/gmao-products/merra-2/mailing-list_merra-2/",
+      "label": "Mailing List"
+    },
+    {
+      "url": "https://gmao.gsfc.nasa.gov/gmao-products/merra-2/user-metrics_merra-2/",
+      "label": "User Metrics"
+    },
+    {
+      "url": "https://gmao.gsfc.nasa.gov/gmao-products/merra-2/diagnostic-feedback_merra-2/",
+      "label": "Diagnostic Feedback"
+    },
+    {
+      "url": "https://gmao.gsfc.nasa.gov/reanalysis/",
+      "label": "GMAO Reanalysis Page"
+    },
+    {
+      "url": "https://gmao.gsfc.nasa.gov/gmao-products/reanalysis-products",
+      "label": "GMAO Reanalysis Products"
+    },
+    {
+      "url": "https://gmao.gsfc.nasa.gov/gmao-products/status/",
+      "label": "View current GMAO production status."
+    },
+    {
+      "url": "https://gmao.gsfc.nasa.gov/gmao-products/merra-21c/",
+      "label": "Modern-Era Retrospective analysis for Research and Applications - early 21st Century (MERRA-21C)"
+    },
+    {
+      "url": "https://gmao.gsfc.nasa.gov/gmao-products/geos-s2s-3/",
+      "label": "GEOS Sub-seasonal to Seasonal Prediction system, Version 3 (GEOS-S2S-3)"
+    },
+    {
+      "url": "https://gmao.gsfc.nasa.gov/gmao-products/geos-near-real-time-data-products/",
+      "label": "GEOS FP (GEOS FP)"
+    },
+    {
+      "url": "https://gmao.gsfc.nasa.gov/gmao-products/geos-it/",
+      "label": "Goddard Earth Observing System (GEOS) for Instrument Teams (GEOS IT)"
+    },
+    {
+      "url": "https://gmao.gsfc.nasa.gov/gmao-products/geos-near-real-time-data-products",
+      "label": "GEOS FP-IT (GEOS FP-IT)"
+    },
+    {
+      "url": "https://gmao.gsfc.nasa.gov/gmao-products/geos-cf/",
+      "label": "GEOS Composition Forecasts (GEOS-CF)"
+    },
+    {
+      "url": "https://gmao.gsfc.nasa.gov/gmao-products/geos-near-real-time-data-products/",
+      "label": "GEOS Near-Real Time Data Products (GEOS Near-Real Time Data Products)"
+    },
+    {
+      "url": "https://gmao.gsfc.nasa.gov/gmao-products/geos-s2s-2/",
+      "label": "GEOS Sub-seasonal to Seasonal Project, Version 2 (GEOS-S2S-2)"
+    },
+    {
+      "url": "https://gmao.gsfc.nasa.gov/gmao-products/geos-s2s-1/",
+      "label": "GEOS Experimental Seasonal Forecasts (GEOS-S2S-1)"
+    },
+    {
+      "url": "https://gmao.gsfc.nasa.gov/gmao-products/aogcm/",
+      "label": "Atmosphere-Ocean General Circulation Model (AOGCM)"
+    },
+    {
+      "url": "https://gmao.gsfc.nasa.gov/gmao-products/merra/",
+      "label": "Modern-Era Retrospective analysis for Research and Applications (MERRA)"
+    },
+    {
+      "url": "https://gmao.gsfc.nasa.gov/gmao-products/merra-land/",
+      "label": "MERRA-Land (MERRA-Land)"
+    },
+    {
+      "url": "https://gmao.gsfc.nasa.gov/gmao-products/merraero/",
+      "label": "Modern Era Retrospective analysis for Research and Applications Aerosol Reanalysis (MERRAero)"
+    },
+    {
+      "url": "https://gmao.gsfc.nasa.gov/gmao-products/merra-nobm/",
+      "label": "MERRA-NOBM (MERRA-NOBM)"
+    },
+    {
+      "url": "https://gmao.gsfc.nasa.gov/gmao-products/7km-g5nr/",
+      "label": "Non-hydrostatic 7 km Global Mesoscale Simulation (7km-G5NR)"
+    },
+    {
+      "url": "https://gmao.gsfc.nasa.gov/gmao-products/hs3/",
+      "label": "Hurricane and Severe Storm Sentinel (HS3) Forecast Support (HS3)"
+    },
+    {
+      "url": "https://gmao.gsfc.nasa.gov/gmao-products/discover-aq/",
+      "label": "DISCOVER-AQ 2014 Campaign GEOS-5 Forecasting Support (DISCOVER-AQ)"
+    },
+    {
+      "url": "https://gmao.gsfc.nasa.gov/gmao-products/dyamond-phase-ii/",
+      "label": "DYAMOND Phase II (DYAMOND Phase II)"
+    },
+    {
+      "url": "https://gmao.gsfc.nasa.gov/gmao-products/osses/",
+      "label": "Observing System Simulation Experiments (OSSEs)"
+    },
+    {
+      "url": "https://gmao.gsfc.nasa.gov/gmao-products/smap-l4/",
+      "label": "SMAP Level-4 Products (SMAP L4)"
+    },
+    {
+      "url": "https://nasa.gov",
+      "label": ""
+    },
+    {
+      "url": "https://science.gsfc.nasa.gov/earth/",
+      "label": ""
+    },
+    {
+      "url": "https://www.nasa.gov/privacy/",
+      "label": "Privacy Policy & Important Notices"
+    },
+    {
+      "url": "https://www.nasa.gov/general/accessibility/",
+      "label": "NASA's Accessibility Statement"
+    },
+    {
+      "url": "https://gmao.gsfc.nasa.gov/contact-us/",
+      "label": "Contact Us"
+    },
+    {
+      "url": "https://gmao.gsfc.nasa.gov/question-feedback/",
+      "label": "Website Question & Feedback"
+    },
+    {
+      "url": "mailto:thang.h.do@nasa.gov",
+      "label": "Thang H Do"
+    }
+  ],
+  "elapsed_seconds": 5.891
+}

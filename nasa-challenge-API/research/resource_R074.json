@@ -1,0 +1,334 @@
+{
+  "id": "resource_R074",
+  "url": "https://openetdata.org",
+  "checked_at": "2026-11-14T15:15:19.174523+00:00",
+  "tls_validation": false,
+  "status": 200,
+  "final_url": "https://etdata.org/",
+  "bytes": 304736,
+  "content_type": "text/html; charset=UTF-8",
+  "sha256": "2b66991a101f90c6fc110f172048035dce615584fb119a05123ba19f7852e01d",
+  "links": [
+    {
+      "url": "https://etdata.org/#content",
+      "label": "Skip to content"
+    },
+    {
+      "url": "https://etdata.org/",
+      "label": ""
+    },
+    {
+      "url": "https://etdata.org/",
+      "label": "Getting Started"
+    },
+    {
+      "url": "https://etdata.org/what-is-et/",
+      "label": "What is ET?"
+    },
+    {
+      "url": "https://etdata.org/how-to-use-et-data/",
+      "label": "How to Use ET Data"
+    },
+    {
+      "url": "https://etdata.org/trainings-tutorials/",
+      "label": "Trainings & Tutorials"
+    },
+    {
+      "url": "https://etdata.org/",
+      "label": "Data Access"
+    },
+    {
+      "url": "https://etdata.org/openet-data-explorer/",
+      "label": "Data Explorer"
+    },
+    {
+      "url": "https://etdata.org/api/",
+      "label": "OpenET API"
+    },
+    {
+      "url": "https://etdata.org/farms-tool/",
+      "label": "FARMS Tool"
+    },
+    {
+      "url": "https://developers.google.com/earth-engine/datasets/tags/openet",
+      "label": "Google Earth Engine"
+    },
+    {
+      "url": "https://etdata.org/change-log/",
+      "label": "Change Log"
+    },
+    {
+      "url": "https://etdata.org/",
+      "label": "About OpenET"
+    },
+    {
+      "url": "https://etdata.org/open-science-transparency/",
+      "label": "Open Science & Transparency"
+    },
+    {
+      "url": "https://etdata.org/our-team/",
+      "label": "Our Team"
+    },
+    {
+      "url": "https://etdata.org/newsroom/",
+      "label": "Newsroom"
+    },
+    {
+      "url": "https://etdata.org/events/",
+      "label": "Events"
+    },
+    {
+      "url": "https://etdata.org/faqs/",
+      "label": "FAQs"
+    },
+    {
+      "url": "https://etdata.org/resources/",
+      "label": "Reports & Resources"
+    },
+    {
+      "url": "https://etdata.org/contact-us/",
+      "label": "Contact Us"
+    },
+    {
+      "url": "https://etdata.org/",
+      "label": "OpenET Science"
+    },
+    {
+      "url": "https://etdata.org/methods/",
+      "label": "Methods"
+    },
+    {
+      "url": "https://etdata.org/accuracy-known-issues/",
+      "label": "Accuracy & Known Issues"
+    },
+    {
+      "url": "https://etdata.org/literature/",
+      "label": "Research & Literature"
+    },
+    {
+      "url": "https://etdata.org/",
+      "label": "OpenET Global"
+    },
+    {
+      "url": "https://etdata.org/openet-brazil-expansion/",
+      "label": "OpenET Brazil"
+    },
+    {
+      "url": "https://etdata.org/",
+      "label": "Impact Stories"
+    },
+    {
+      "url": "https://etdata.org/openet-for-growers/",
+      "label": "OpenET for Farmers & Growers"
+    },
+    {
+      "url": "https://etdata.org/openet-for-water-managers/",
+      "label": "OpenET for Water Managers"
+    },
+    {
+      "url": "https://www.youtube.com/@openetdata4047",
+      "label": "OpenET Application Videos"
+    },
+    {
+      "url": "https://etdata.org/openet-data-explorer/",
+      "label": "Data Explorer"
+    },
+    {
+      "url": "https://etdata.org/api/",
+      "label": "OpenET API"
+    },
+    {
+      "url": "https://etdata.org/farms-tool/",
+      "label": "FARMS Tool"
+    },
+    {
+      "url": "https://etdata.org/#elementor-action%3Aaction%3Dpopup%3Aopen%26settings%3DeyJpZCI6IjI5OTUiLCJ0b2dnbGUiOmZhbHNlfQ%3D%3D",
+      "label": "What's the difference? Compare tools"
+    },
+    {
+      "url": "https://etdata.org/impact-stories/advancing-groundwater-sustainability-with-california-dwr-openet/",
+      "label": "Read More"
+    },
+    {
+      "url": "https://etdata.org/impact-stories/sustainable-water-management-for-the-ogallala-aquifer/",
+      "label": "Read More"
+    },
+    {
+      "url": "https://etdata.org/impact-stories/using-satellite-data-to-measure-consumptive-water-usefor-irrigation-crop-water/",
+      "label": "Read More"
+    },
+    {
+      "url": "https://etdata.org/impact-stories/openet-and-water-planning-data-collection-and-data-dissemination-in-texas/",
+      "label": "Read More"
+    },
+    {
+      "url": "https://etdata.org/impact-stories/support-for-precision-irrigation-tools-and-optimized-farm-management/",
+      "label": "Read More"
+    },
+    {
+      "url": "https://etdata.org/impact-stories/testing-innovative-management-practices-for-water-conservation-on-pasturelands/",
+      "label": "Read More"
+    },
+    {
+      "url": "https://etdata.org/impact-stories/restoring-groundwater-balance-and-supply-through-community-planning/",
+      "label": "Read More"
+    },
+    {
+      "url": "https://etdata.org/impact-stories/overcoming-measurement-challenges-streamlining-water-compliance/",
+      "label": "Read More"
+    },
+    {
+      "url": "https://etdata.org/open-science-transparency/",
+      "label": "Open Science & Transparency"
+    },
+    {
+      "url": "https://etdata.org/methods/",
+      "label": "Explore Data Production Methods"
+    },
+    {
+      "url": "https://etdata.org/how-to-use-et-data/",
+      "label": "Learn more about how it can be used here"
+    },
+    {
+      "url": "https://etdata.org/our-team/#openet-consortium-partners",
+      "label": "Learn more about the partners"
+    },
+    {
+      "url": "https://etdata.org/literature/",
+      "label": "Explore Research & Literature"
+    },
+    {
+      "url": "https://etdata.org/openet-data-explorer/",
+      "label": "Data Explorer"
+    },
+    {
+      "url": "https://etdata.org/api/",
+      "label": "OpenET API"
+    },
+    {
+      "url": "https://etdata.org/farms-tool/",
+      "label": "FARMS Tool"
+    },
+    {
+      "url": "https://etdata.org/",
+      "label": ""
+    },
+    {
+      "url": "https://www.linkedin.com/company/openetdata",
+      "label": "Linkedin-in"
+    },
+    {
+      "url": "https://www.youtube.com/@openetdata4047",
+      "label": "Youtube"
+    },
+    {
+      "url": "https://github.com/Open-ET",
+      "label": "Github"
+    },
+    {
+      "url": "https://explore.etdata.org/",
+      "label": "Data Explorer"
+    },
+    {
+      "url": "https://openet-api.org",
+      "label": "OpenET API"
+    },
+    {
+      "url": "https://farms.etdata.org",
+      "label": "FARMS Tool"
+    },
+    {
+      "url": "https://etdata.org/how-to-use-et-data/",
+      "label": "How to Use ET Data"
+    },
+    {
+      "url": "https://explore.etdata.org/",
+      "label": "Data Explorer"
+    },
+    {
+      "url": "https://openet-api.org",
+      "label": "OpenET API"
+    },
+    {
+      "url": "https://farms.etdata.org",
+      "label": "FARMS Tool"
+    },
+    {
+      "url": "https://etdata.org/how-to-use-et-data/",
+      "label": "How to Use ET Data"
+    },
+    {
+      "url": "https://etdata.org/trainings-tutorials/",
+      "label": "Trainings & Tutorials"
+    },
+    {
+      "url": "https://etdata.org/change-log/",
+      "label": "Change Log"
+    },
+    {
+      "url": "https://etdata.org/newsroom/",
+      "label": "Newsroom"
+    },
+    {
+      "url": "https://etdata.org/resources/",
+      "label": "Reports & Resources"
+    },
+    {
+      "url": "https://etdata.org/events/",
+      "label": "Events"
+    },
+    {
+      "url": "https://etdata.org/trainings-tutorials/",
+      "label": "Trainings & Tutorials"
+    },
+    {
+      "url": "https://etdata.org/change-log/",
+      "label": "Change Log"
+    },
+    {
+      "url": "https://etdata.org/newsroom/",
+      "label": "Newsroom"
+    },
+    {
+      "url": "https://etdata.org/resources/",
+      "label": "Reports & Resources"
+    },
+    {
+      "url": "https://etdata.org/events/",
+      "label": "Events"
+    },
+    {
+      "url": "mailto:support@openetdata.org",
+      "label": "support@openetdata.org"
+    },
+    {
+      "url": "https://etdata.org/contact-us/",
+      "label": "Contact Us"
+    },
+    {
+      "url": "https://etdata.org/privacy-policy/",
+      "label": "Privacy Policy"
+    },
+    {
+      "url": "https://etdata.org/terms-of-service/",
+      "label": "Terms of Service"
+    },
+    {
+      "url": "https://etdata.org/cookie-policy/",
+      "label": "Cookie Policy"
+    },
+    {
+      "url": "https://etdata.org/openet-data-explorer/",
+      "label": "More About Data Explorer"
+    },
+    {
+      "url": "https://etdata.org/api/",
+      "label": "More About the API"
+    },
+    {
+      "url": "https://etdata.org/farms-tool/",
+      "label": "More About FARMS"
+    }
+  ],
+  "elapsed_seconds": 2.125
+}

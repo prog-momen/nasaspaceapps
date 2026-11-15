@@ -1,0 +1,50 @@
+{
+  "id": "resource_R051",
+  "url": "https://catalogos.conae.gov.ar/catalogo/catalogoSatSaocomInfo.html",
+  "checked_at": "2026-11-14T15:15:14.577500+00:00",
+  "tls_validation": false,
+  "status": 200,
+  "final_url": "https://catalogos.conae.gov.ar/catalogo/catalogoSatSaocomInfo.html",
+  "bytes": 7382,
+  "content_type": "text/html",
+  "sha256": "8599fc05ba9de5787bbcc6dd00fb518467bde22db06ad4b5ab0ec67cf256a204",
+  "links": [
+    {
+      "url": "https://www.argentina.gob.ar/",
+      "label": "Inicio"
+    },
+    {
+      "url": "https://www.argentina.gob.ar/ciencia",
+      "label": "Ministerio de Ciencia, Tecnología e Innovación Productiva"
+    },
+    {
+      "url": "http://www.conae.gov.ar",
+      "label": "Comisión Nacional de Actividades Espaciales"
+    },
+    {
+      "url": "https://catalogos.conae.gov.ar/catalogo/catalogo.html",
+      "label": "Catálogo de Imágenes y Productos"
+    },
+    {
+      "url": "https://catalogos.conae.gov.ar/catalogo/catalogoSat.html",
+      "label": "Satélites"
+    },
+    {
+      "url": "https://catalogos.conae.gov.ar/catalogo/catalogo.html",
+      "label": "https://catalogos.conae.gov.ar/catalogo/catalogo.html"
+    },
+    {
+      "url": "https://catalogos.conae.gov.ar/catalogo/catalogo.html",
+      "label": "https://catalogos.conae.gov.ar/catalogo/catalogo.html"
+    },
+    {
+      "url": "https://catalog.saocom.conae.gov.ar/catalog",
+      "label": "Ir a Catálogo de Imágenes"
+    },
+    {
+      "url": "https://catalogos.conae.gov.ar/catalogo/catalogoSatSaocomAdel.html",
+      "label": "Ir a Productos de Prueba SAOCOM"
+    }
+  ],
+  "elapsed_seconds": 2.422
+}

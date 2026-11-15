@@ -1,0 +1,1419 @@
+
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'html' -->
+<!-- FILE NAME SUGGESTIONS:
+   ▪️ html--node--350.html.twig
+   ▪️ html--node--%.html.twig
+   ▪️ html--node.html.twig
+   ✅ html.html.twig
+-->
+<!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/sixseventeen/templates/layout/html.html.twig' -->
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+<meta name="Generator" content="Drupal 11 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+<meta http-equiv="x-ua-compatible" content="ie=edge" />
+<link rel="icon" href="/themes/custom/sixseventeen/favicon.ico" type="image/vnd.microsoft.icon" />
+<link rel="alternate" hreflang="en" href="https://ldas.gsfc.nasa.gov/gldas/model-output" />
+<link rel="canonical" href="https://ldas.gsfc.nasa.gov/gldas/model-output" />
+<link rel="shortlink" href="https://ldas.gsfc.nasa.gov/node/350" />
+
+    <title>GLDAS Model Output | LDAS</title>
+    <link rel="stylesheet" media="all" href="/core/modules/system/css/components/align.module.css?toee3h" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/container-inline.module.css?toee3h" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/clearfix.module.css?toee3h" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/hidden.module.css?toee3h" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/js.module.css?toee3h" />
+<link rel="stylesheet" media="all" href="/core/modules/views/css/views.module.css?toee3h" />
+<link rel="stylesheet" media="all" href="/modules/contrib/extlink/css/extlink.css?toee3h" />
+<link rel="stylesheet" media="all" href="/modules/custom/smartmenus2/css/sm-ldas/sm-ldas.css?toee3h" />
+<link rel="stylesheet" media="all" href="//use.fontawesome.com/releases/v5.13.0/css/all.css" />
+<link rel="stylesheet" media="all" href="/core/../themes/contrib/bootstrap_barrio/components/menu_main/menu_main.css?toee3h" />
+<link rel="stylesheet" media="all" href="/themes/custom/sixseventeen/dist/bootstrap.min.css?toee3h" />
+<link rel="stylesheet" media="all" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" />
+<link rel="stylesheet" media="all" href="/themes/custom/sixseventeen/dist/style_ldas.min.css?toee3h" />
+<link rel="stylesheet" media="all" href="/themes/custom/sixseventeen/js/twentytwenty.css?toee3h" />
+
+    
+  </head>
+  <body class="layout-one-sidebar layout-sidebar-second page-node-350 path-node node--type-page">
+    <a href="#main-content" class="visually-hidden-focusable" id="access-top">
+      Skip to main content
+    </a>
+    
+    
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'off_canvas_page_wrapper' -->
+<!-- BEGIN OUTPUT from 'core/modules/system/templates/off-canvas-page-wrapper.html.twig' -->
+  <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'page' -->
+<!-- FILE NAME SUGGESTIONS:
+   ▪️ page--node--page.html.twig
+   ▪️ page--node--350.html.twig
+   ▪️ page--node--%.html.twig
+   ▪️ page--node.html.twig
+   ✅ page.html.twig
+-->
+<!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/sixseventeen/templates/layout/page.html.twig' -->
+
+            
+
+
+
+<div id="page-container" class="container-fluid">
+ 
+    <section class="row no-gutters region placeholder_region_1">
+        <div class="col-12">
+        
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'region' -->
+<!-- FILE NAME SUGGESTIONS:
+   ▪️ region--placeholder-region-1.html.twig
+   ✅ region.html.twig
+-->
+<!-- BEGIN OUTPUT from 'themes/contrib/bootstrap_barrio/templates/layout/region.html.twig' -->
+  <section class="row region region-placeholder-region-1">
+    
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'block' -->
+<!-- FILE NAME SUGGESTIONS:
+   ▪️ block--sixseventeen-messages.html.twig
+   ✅ block--system-messages-block.html.twig
+   ▪️ block--system.html.twig
+   ▪️ block.html.twig
+-->
+<!-- BEGIN OUTPUT from 'core/modules/system/templates/block--system-messages-block.html.twig' -->
+<div data-drupal-messages-fallback class="hidden"></div>
+
+<!-- END OUTPUT from 'core/modules/system/templates/block--system-messages-block.html.twig' -->
+
+
+  </section>
+
+<!-- END OUTPUT from 'themes/contrib/bootstrap_barrio/templates/layout/region.html.twig' -->
+
+
+        </div>
+    </section>  
+                        
+        <header id="header" class="row sticky-top" role="banner" aria-label='Site header'>
+        <!-- Meatball -->
+        <div class="col-lg-1 col-md-2 col-sm-3 col-2 tex2-center no-padding meatball">
+            <a href="https://nasa.gov">
+                <img id="nasa-logo" src="https://ldas.gsfc.nasa.gov/themes/custom/sixseventeen/images/nasa.svg"
+                     alt="NASA Logo">
+            </a>
+        </div>
+        <!-- Brand and Slogan -->
+        <div class="col-xl-3 col-lg-3 col-md-8 col-sm-7 col-8 region header_region_1">
+            <div class="brand">
+              <h1>
+                <a href="/" title="Home"
+                   rel="home" class="navbar-brand">LDAS</a>
+              </h1>
+            </div>
+            <div class="slogan">Land Data Assimilation System</div>
+        </div>
+        <!-- Navbar / Main Menu -->
+
+        <button class="navbar-toggler" type="button"
+                data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon">
+                <i class="fa fa-bars fa-lg"></i>
+            </span>
+        </button>
+
+        
+        <div class="col-xl-8 col-lg-8 col-12 d-inline-block" id="navbar-container">
+            <nav class="navbar navbar-expand-lg">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'region' -->
+<!-- FILE NAME SUGGESTIONS:
+   ✅ region--nowrap.html.twig
+   ▪️ region--primary-menu.html.twig
+   ▪️ region.html.twig
+-->
+<!-- BEGIN OUTPUT from 'themes/contrib/bootstrap_barrio/templates/layout/region--nowrap.html.twig' -->
+  
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'block' -->
+<!-- FILE NAME SUGGESTIONS:
+   ▪️ block--mainnavigation.html.twig
+   ▪️ block--menu-block--main.html.twig
+   ▪️ block--menu-block.html.twig
+   ✅ block--system-menu-block.html.twig
+   ▪️ block.html.twig
+-->
+<!-- BEGIN OUTPUT from 'themes/contrib/bootstrap_barrio/templates/block/block--system-menu-block.html.twig' -->
+<nav role="navigation" aria-labelledby="block-mainnavigation-menu" id="block-mainnavigation" class="block block-menu navigation menu--main">
+            
+  <h2 class="visually-hidden" id="block-mainnavigation-menu">Main Menu</h2>
+  
+
+        
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'menu' -->
+<!-- FILE NAME SUGGESTIONS:
+   ✅ menu--main.html.twig
+   ▪️ menu.html.twig
+-->
+<!-- BEGIN OUTPUT from 'themes/contrib/bootstrap_barrio/templates/navigation/menu--main.html.twig' -->
+<!-- 🥬 Component start: bootstrap_barrio:menu_main -->
+              <ul class="clearfix nav navbar-nav" data-component-id="bootstrap_barrio:menu_main">
+                    <li class="nav-item menu-item--expanded dropdown">
+                          <a href="/index.php/gldas" class="nav-link dropdown-toggle nav-link--indexphp-gldas" data-bs-toggle="dropdown" aria-expanded="false" aria-haspopup="true">GLDAS</a>
+                        <ul class="dropdown-menu">
+                    <li class="dropdown-item">
+                          <a href="/index.php/gldas" class="nav-link--indexphp-gldas">About</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="/index.php/news/gldas" title="News" class="nav-link--indexphp-news-gldas" data-drupal-link-system-path="news/gldas">News</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="/index.php/gldas/specifications" class="nav-link--indexphp-gldas-specifications" data-drupal-link-system-path="node/287">Specifications</a>
+              </li>
+                <li class="dropdown-item menu-item--expanded dropdown">
+                          <a href="" class="dropdown-toggle nav-link-" data-bs-toggle="dropdown" aria-expanded="false" aria-haspopup="true">Parameters</a>
+                        <ul class="dropdown-menu">
+                    <li class="dropdown-item">
+                          <a href="/index.php/gldas/elevation" class="nav-link--indexphp-gldas-elevation">Elevation</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="/index.php/gldas/soils" class="nav-link--indexphp-gldas-soils" data-drupal-link-system-path="node/298">Soils</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="/index.php/gldas/vegetation-class-mask" class="nav-link--indexphp-gldas-vegetation-class-mask" data-drupal-link-system-path="node/291">Vegetation Class/Mask</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="/index.php/gldas/vegetation-parameters" class="nav-link--indexphp-gldas-vegetation-parameters" data-drupal-link-system-path="node/360">Vegetation Parameters</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="/index.php/gldas/lai-greenness" class="nav-link--indexphp-gldas-lai-greenness" data-drupal-link-system-path="node/304">LAI/Greenness</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="dropdown-item">
+                          <a href="/index.php/gldas/forcing-data" class="nav-link--indexphp-gldas-forcing-data">Forcing Data</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="/index.php/gldas/model-output" class="nav-link--indexphp-gldas-model-output">Model Output</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="/index.php/gldas/dataset" class="nav-link--indexphp-gldas-dataset">Dataset</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="/index.php/gldas/publications" class="nav-link--indexphp-gldas-publications" data-drupal-link-system-path="node/351">Publications</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="nav-item menu-item--expanded dropdown">
+                          <a href="/index.php/nldas-news" class="nav-link dropdown-toggle nav-link--indexphp-nldas-news" data-bs-toggle="dropdown" aria-expanded="false" aria-haspopup="true">NLDAS</a>
+                        <ul class="dropdown-menu">
+                    <li class="dropdown-item">
+                          <a href="/index.php/nldas" class="nav-link--indexphp-nldas">About</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="/index.php/news/nldas" title="NLDAS News" class="nav-link--indexphp-news-nldas" data-drupal-link-system-path="news/nldas">News</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="/index.php/nldas/specifications" class="nav-link--indexphp-nldas-specifications" data-drupal-link-system-path="node/293">Specifications</a>
+              </li>
+                <li class="dropdown-item menu-item--expanded dropdown">
+                          <a href="/index.php/nldas/nldas-vegetation-parameters" class="dropdown-toggle nav-link--indexphp-nldas-nldas-vegetation-parameters" data-bs-toggle="dropdown" aria-expanded="false" aria-haspopup="true">Parameters</a>
+                        <ul class="dropdown-menu">
+                    <li class="dropdown-item">
+                          <a href="/index.php/nldas/elevation" class="nav-link--indexphp-nldas-elevation" data-drupal-link-system-path="node/307">Elevation</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="/index.php/nldas/soils" class="nav-link--indexphp-nldas-soils">Soils</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="/index.php/nldas/vegetation-class" class="nav-link--indexphp-nldas-vegetation-class" data-drupal-link-system-path="node/295">Vegetation Class</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="/index.php/nldas/vegetation-parameters" class="nav-link--indexphp-nldas-vegetation-parameters" data-drupal-link-system-path="node/296">Vegetation Parameters</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="/index.php/nldas/lai-greenness" class="nav-link--indexphp-nldas-lai-greenness" data-drupal-link-system-path="node/305">LAI/Greenness</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="dropdown-item">
+                          <a href="https://ldas.gsfc.nasa.gov/nldas/v3" class="nav-link-https--ldasgsfcnasagov-nldas-v3">NLDAS-3</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="/index.php/nldas/v2/forcing" class="nav-link--indexphp-nldas-v2-forcing" data-drupal-link-system-path="node/311">NLDAS-2 Forcing</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="/index.php/nldas/v2/models" class="nav-link--indexphp-nldas-v2-models" data-drupal-link-system-path="node/314">NLDAS-2 Models</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="/index.php/nldas/drought-monitor" class="nav-link--indexphp-nldas-drought-monitor" data-drupal-link-system-path="nldas/drought-monitor">Drought Monitor</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="/index.php/nldas/v1/forcing" class="nav-link--indexphp-nldas-v1-forcing" data-drupal-link-system-path="node/308">NLDAS-1 Forcing</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="/index.php/nldas/v1/models" class="nav-link--indexphp-nldas-v1-models" data-drupal-link-system-path="node/310">NLDAS-1 Models</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="/index.php/nldas/presentations" class="nav-link--indexphp-nldas-presentations" data-drupal-link-system-path="node/316">Presentations</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="/index.php/nldas/publications" class="nav-link--indexphp-nldas-publications" data-drupal-link-system-path="node/317">Publications</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="nav-item menu-item--expanded dropdown">
+                          <a href="/index.php/NCA-LDAS" class="nav-link dropdown-toggle nav-link--indexphp-nca-ldas" data-bs-toggle="dropdown" aria-expanded="false" aria-haspopup="true">NCA-LDAS</a>
+                        <ul class="dropdown-menu">
+                    <li class="dropdown-item">
+                          <a href="/index.php/nca-ldas" class="nav-link--indexphp-nca-ldas">About</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="/index.php/news/nca-ldas" title="NCA-LDAS News" class="nav-link--indexphp-news-nca-ldas" data-drupal-link-system-path="news/nca-ldas">News</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="/index.php/nca-ldas/specifications" class="nav-link--indexphp-nca-ldas-specifications">Specifications</a>
+              </li>
+                <li class="dropdown-item menu-item--expanded dropdown">
+                          <a href="/index.php/news/nca-ldas" class="dropdown-toggle nav-link--indexphp-news-nca-ldas" data-bs-toggle="dropdown" aria-expanded="false" aria-haspopup="true" data-drupal-link-system-path="news/nca-ldas">Parameters</a>
+                        <ul class="dropdown-menu">
+                    <li class="dropdown-item">
+                          <a href="/index.php/nca-ldas/elevation" class="nav-link--indexphp-nca-ldas-elevation" data-drupal-link-system-path="node/326">Elevation</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="/index.php/nca-ldas/soils" class="nav-link--indexphp-nca-ldas-soils">Soils</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="/index.php/nca-ldas/vegetation-class" class="nav-link--indexphp-nca-ldas-vegetation-class">Vegetation Class</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="/index.php/nca-ldas/vegetation-parameters" class="nav-link--indexphp-nca-ldas-vegetation-parameters">Vegetation Parameters</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="/index.php/nca-ldas/other-lsm-parameters" class="nav-link--indexphp-nca-ldas-other-lsm-parameters">Other LSM Parameters</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="dropdown-item">
+                          <a href="/index.php/nca-ldas/forcing" class="nav-link--indexphp-nca-ldas-forcing">Forcing Data</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="/index.php/nca-ldas/assimilated-data" class="nav-link--indexphp-nca-ldas-assimilated-data" data-drupal-link-system-path="node/328">Assimilated Data</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="/index.php/nca-ldas/model" class="nav-link--indexphp-nca-ldas-model">Model Output</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="/index.php/nca-ldas/presentations" class="nav-link--indexphp-nca-ldas-presentations">Presentations</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="/index.php/nca-ldas/publications" class="nav-link--indexphp-nca-ldas-publications">Publications</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="nav-item menu-item--expanded dropdown">
+                          <a href="/index.php/FLDAS" class="nav-link dropdown-toggle nav-link--indexphp-fldas" data-bs-toggle="dropdown" aria-expanded="false" aria-haspopup="true">FLDAS</a>
+                        <ul class="dropdown-menu">
+                    <li class="dropdown-item">
+                          <a href="/index.php/fldas" class="nav-link--indexphp-fldas">About</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="/index.php/news/fldas" title="FLDAS News" class="nav-link--indexphp-news-fldas" data-drupal-link-system-path="news/fldas">News</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="/index.php/fldas/specifications" class="nav-link--indexphp-fldas-specifications">Specifications</a>
+              </li>
+                <li class="dropdown-item menu-item--expanded dropdown">
+                          <a href="/index.php/" class="dropdown-toggle nav-link--indexphp-" data-bs-toggle="dropdown" aria-expanded="false" aria-haspopup="true" data-drupal-link-system-path="&lt;front&gt;">Parameters</a>
+                        <ul class="dropdown-menu">
+                    <li class="dropdown-item">
+                          <a href="/index.php/fldas/elevation" class="nav-link--indexphp-fldas-elevation" data-drupal-link-system-path="node/340">Elevation</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="/index.php/fldas/soils" class="nav-link--indexphp-fldas-soils" data-drupal-link-system-path="node/339">Soils</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="/index.php/fldas/vegetation-class" class="nav-link--indexphp-fldas-vegetation-class" data-drupal-link-system-path="node/336">Vegetation Class</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="/index.php/fldas/vegetation-parameters" class="nav-link--indexphp-fldas-vegetation-parameters" data-drupal-link-system-path="node/337">Vegetation Parameters</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="/index.php/fldas/vegetation-specification" class="nav-link--indexphp-fldas-vegetation-specification" data-drupal-link-system-path="node/338">LAI/Greenness</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="dropdown-item menu-item--expanded dropdown">
+                          <a href="/index.php/fldas/model-data-description" class="dropdown-toggle nav-link--indexphp-fldas-model-data-description" data-bs-toggle="dropdown" aria-expanded="false" aria-haspopup="true">Model Output</a>
+                        <ul class="dropdown-menu">
+                    <li class="dropdown-item">
+                          <a href="/index.php/fldas/models/global" class="nav-link--indexphp-fldas-models-global" data-drupal-link-system-path="fldas/models/global">FLDAS Global</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="/index.php/fldas/models/central-asia" class="nav-link--indexphp-fldas-models-central-asia">FLDAS Central Asia</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="/index.php/fldas/models/forecast" class="nav-link--indexphp-fldas-models-forecast" data-drupal-link-system-path="fldas/models/forecast">FLDAS Forecast</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="/index.php/fldas/model-data-description" class="nav-link--indexphp-fldas-model-data-description">Data Descriptor</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="dropdown-item">
+                          <a href="/index.php/fldas/presentations" class="nav-link--indexphp-fldas-presentations">Presentations</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="/index.php/fldas/publications" class="nav-link--indexphp-fldas-publications">Publications</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="nav-item menu-item--expanded dropdown">
+                          <a href="https://ldas.gsfc.nasa.gov/wldas/wldas-project-goals" class="nav-link dropdown-toggle nav-link-https--ldasgsfcnasagov-wldas-wldas-project-goals" data-bs-toggle="dropdown" aria-expanded="false" aria-haspopup="true">WLDAS</a>
+                        <ul class="dropdown-menu">
+                    <li class="dropdown-item">
+                          <a href="https://ldas.gsfc.nasa.gov/wldas/wldas-project-goals" class="nav-link-https--ldasgsfcnasagov-wldas-wldas-project-goals">About</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="https://ldas.gsfc.nasa.gov/wldas/model-output" class="nav-link-https--ldasgsfcnasagov-wldas-model-output">Model Output</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="https://ldas.gsfc.nasa.gov/wldas/news" class="nav-link-https--ldasgsfcnasagov-wldas-news">News</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="https://ldas.gsfc.nasa.gov/wldas/parameters" class="nav-link-https--ldasgsfcnasagov-wldas-parameters">Parameters</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="https://ldas.gsfc.nasa.gov/wldas/publications" class="nav-link-https--ldasgsfcnasagov-wldas-publications">Publications and Presentations</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="https://ldas.gsfc.nasa.gov/wldas/specifications" class="nav-link-https--ldasgsfcnasagov-wldas-specifications">Specifications</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="nav-item menu-item--expanded dropdown">
+                          <a href="/index.php/hydroglobe" class="nav-link dropdown-toggle nav-link--indexphp-hydroglobe" data-bs-toggle="dropdown" aria-expanded="false" aria-haspopup="true">HydroGlobe</a>
+                        <ul class="dropdown-menu">
+                    <li class="dropdown-item">
+                          <a href="/index.php/hydroglobe" class="nav-link--indexphp-hydroglobe">About</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="nav-item menu-item--expanded dropdown">
+                          <a href="/index.php/faq/all" class="nav-link dropdown-toggle nav-link--indexphp-faq-all" data-bs-toggle="dropdown" aria-expanded="false" aria-haspopup="true" data-drupal-link-system-path="faq/all">FAQ</a>
+                        <ul class="dropdown-menu">
+                    <li class="dropdown-item">
+                          <a href="/index.php/faq/ldas" class="nav-link--indexphp-faq-ldas" data-drupal-link-system-path="faq/ldas">General</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="/index.php/faq/gldas" class="nav-link--indexphp-faq-gldas" data-drupal-link-system-path="faq/gldas">GLDAS</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="/index.php/faq/nldas" class="nav-link--indexphp-faq-nldas" data-drupal-link-system-path="faq/nldas">NLDAS</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="/index.php/faq/nca-ldas" class="nav-link--indexphp-faq-nca-ldas" data-drupal-link-system-path="faq/nca-ldas">NCA-LDAS</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="/index.php/faq/fldas" class="nav-link--indexphp-faq-fldas" data-drupal-link-system-path="faq/fldas">FLDAS</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="nav-item">
+                          <a href="/index.php/data" class="nav-link nav-link--indexphp-data" data-drupal-link-system-path="node/358">Get Data</a>
+              </li>
+        </ul>
+  
+
+<!-- 🥬 Component end: bootstrap_barrio:menu_main -->
+
+<!-- END OUTPUT from 'themes/contrib/bootstrap_barrio/templates/navigation/menu--main.html.twig' -->
+
+
+  </nav>
+
+<!-- END OUTPUT from 'themes/contrib/bootstrap_barrio/templates/block/block--system-menu-block.html.twig' -->
+
+
+
+<!-- END OUTPUT from 'themes/contrib/bootstrap_barrio/templates/layout/region--nowrap.html.twig' -->
+
+
+                    <form action="/search/node" method="get" id="search-block-form"
+                          accept-charset="UTF-8"
+                          class="form-inline search-form search-block-form form-row"
+                          data-drupal-form-fields="edit-keys" >
+                        <input id="edit-keys" name="keys"
+                               class="form-search me-sm-2" type="search"
+                               placeholder="Search" aria-label="Search"
+                               data-drupal-selector="edit-keys">
+                        <button aria-label="Search" id="top-search-box" class="btn form-submit"
+                                data-drupal-selector="edit-submit"
+                                type="submit">
+                            <i class="fa fa-search fa-lg"></i>
+                        </button>
+                    </form>
+                </div>
+            </nav>
+        </div>
+           </header>
+
+<div class="row no-gutters header_image" style="">
+    <div class="col col-sm-12 col-12">
+    </div>
+</div>
+
+ 
+    <section class="row no-gutters">
+        <div class="col col-sm-12 col-12 region placeholder_region_2">
+        
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'region' -->
+<!-- FILE NAME SUGGESTIONS:
+   ▪️ region--placeholder-region-2.html.twig
+   ✅ region.html.twig
+-->
+<!-- BEGIN OUTPUT from 'themes/contrib/bootstrap_barrio/templates/layout/region.html.twig' -->
+  <section class="row region region-placeholder-region-2">
+    
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'block' -->
+<!-- FILE NAME SUGGESTIONS:
+   ▪️ block--bannerimage.html.twig
+   ▪️ block--block-content--fa1d1540-ec60-4f55-9892-6756887f059f.html.twig
+   ▪️ block--block-content--id-view--bannerimage--full.html.twig
+   ▪️ block--block-content--id--bannerimage.html.twig
+   ▪️ block--block-content--view-type--basic--full.html.twig
+   ▪️ block--block-content--type--basic.html.twig
+   ▪️ block--block-basic.html.twig
+   ▪️ block--block-content--view--full.html.twig
+   ▪️ block--block-content.html.twig
+   ✅ block.html.twig
+-->
+<!-- BEGIN OUTPUT from 'themes/contrib/bootstrap_barrio/templates/block/block.html.twig' -->
+<div id="block-bannerimage" class="block-content-basic block block-block-content block-block-contentfa1d1540-ec60-4f55-9892-6756887f059f">
+  
+    
+      <div class="content">
+      
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'field' -->
+<!-- FILE NAME SUGGESTIONS:
+   ▪️ field--block-content--body--basic.html.twig
+   ▪️ field--block-content--body.html.twig
+   ▪️ field--block-content--basic.html.twig
+   ▪️ field--body.html.twig
+   ✅ field--text-with-summary.html.twig
+   ▪️ field.html.twig
+-->
+<!-- BEGIN OUTPUT from 'themes/contrib/bootstrap_barrio/templates/field/field--text-with-summary.html.twig' -->
+
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><div class="tex2jax_process"><p><img src="/sites/default/files/ldas/ldas-banner.jpg" data-entity-uuid="67d17f16-2238-42ab-9748-0b40a85eea36" data-entity-type="file" alt width="2000" height="432"></p>
+</div></div>
+      
+<!-- END OUTPUT from 'themes/contrib/bootstrap_barrio/templates/field/field--text-with-summary.html.twig' -->
+
+
+    </div>
+  </div>
+
+<!-- END OUTPUT from 'themes/contrib/bootstrap_barrio/templates/block/block.html.twig' -->
+
+
+  </section>
+
+<!-- END OUTPUT from 'themes/contrib/bootstrap_barrio/templates/layout/region.html.twig' -->
+
+
+        </div>
+    </section>
+
+    <main id="content_section" class="row no-gutters">
+        <section id="main-content" class="col-sm-9 col-xs-12">
+            
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'region' -->
+<!-- FILE NAME SUGGESTIONS:
+   ✅ region--nowrap.html.twig
+   ▪️ region--content.html.twig
+   ▪️ region.html.twig
+-->
+<!-- BEGIN OUTPUT from 'themes/contrib/bootstrap_barrio/templates/layout/region--nowrap.html.twig' -->
+  
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'block' -->
+<!-- FILE NAME SUGGESTIONS:
+   ▪️ block--sixseventeen-page-title.html.twig
+   ▪️ block--page-title-block.html.twig
+   ▪️ block--core.html.twig
+   ✅ block.html.twig
+-->
+<!-- BEGIN OUTPUT from 'themes/contrib/bootstrap_barrio/templates/block/block.html.twig' -->
+<div id="block-sixseventeen-page-title" class="block block-core block-page-title-block">
+  
+    
+      <div class="content">
+      
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'page_title' -->
+<!-- BEGIN OUTPUT from 'themes/contrib/bootstrap_barrio/templates/content/page-title.html.twig' -->
+
+  <h1 class="title">
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'field' -->
+<!-- FILE NAME SUGGESTIONS:
+   ▪️ field--default--node--title--page--full.html.twig
+   ▪️ field--default--node--title--page.html.twig
+   ▪️ field--default--node--page--full.html.twig
+   ▪️ field--default--node--page.html.twig
+   ▪️ field--default--node--title.html.twig
+   ▪️ field--default--title--page--full.html.twig
+   ▪️ field--default--title--page.html.twig
+   ▪️ field--default--page--full.html.twig
+   ▪️ field--default--page.html.twig
+   ▪️ field--default--title.html.twig
+   ▪️ field--default.html.twig
+   ▪️ field--theme-ds-field-default.html.twig
+   ▪️ field--node--title--page.html.twig
+   ✅ field--node--title.html.twig
+   ▪️ field--node--page.html.twig
+   ▪️ field--title.html.twig
+   ▪️ field--string.html.twig
+   ▪️ field.html.twig
+-->
+<!-- BEGIN OUTPUT from 'themes/contrib/bootstrap_barrio/templates/field/field--node--title.html.twig' -->
+<span class="field field--name-title field--type-string field--label-hidden">GLDAS Model Output</span>
+
+<!-- END OUTPUT from 'themes/contrib/bootstrap_barrio/templates/field/field--node--title.html.twig' -->
+
+</h1>
+
+
+<!-- END OUTPUT from 'themes/contrib/bootstrap_barrio/templates/content/page-title.html.twig' -->
+
+
+    </div>
+  </div>
+
+<!-- END OUTPUT from 'themes/contrib/bootstrap_barrio/templates/block/block.html.twig' -->
+
+
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'block' -->
+<!-- FILE NAME SUGGESTIONS:
+   ▪️ block--sixseventeen-content.html.twig
+   ▪️ block--system-main-block.html.twig
+   ▪️ block--system.html.twig
+   ✅ block.html.twig
+-->
+<!-- BEGIN OUTPUT from 'themes/contrib/bootstrap_barrio/templates/block/block.html.twig' -->
+<div id="block-sixseventeen-content" class="block block-system block-system-main-block">
+  
+    
+      <div class="content">
+      
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'ds_entity_view' -->
+<!-- BEGIN OUTPUT from 'modules/contrib/ds/templates/ds-entity-view.html.twig' -->
+
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'bs_1col' -->
+<!-- FILE NAME SUGGESTIONS:
+   ▪️ bs-1col--node--350.html.twig
+   ▪️ bs-1col--node-page-full.html.twig
+   ▪️ bs-1col--node-page.html.twig
+   ▪️ bs-1col--node-full.html.twig
+   ▪️ bs-1col--node.html.twig
+   ✅ bs-1col.html.twig
+   ✅ bs-1col.html.twig
+-->
+<!-- BEGIN OUTPUT from 'modules/contrib/bootstrap_layouts/templates/3.0.0/bs-1col.html.twig' -->
+<div class="row bs-1col node node--type-page node--view-mode-full">
+  
+  <div class="col-sm-12 bs-region bs-region--main">
+    
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'field' -->
+<!-- FILE NAME SUGGESTIONS:
+   ▪️ field--default--node--body--page--full.html.twig
+   ▪️ field--default--node--body--page.html.twig
+   ▪️ field--default--node--page--full.html.twig
+   ▪️ field--default--node--page.html.twig
+   ▪️ field--default--node--body.html.twig
+   ▪️ field--default--body--page--full.html.twig
+   ▪️ field--default--body--page.html.twig
+   ▪️ field--default--page--full.html.twig
+   ▪️ field--default--page.html.twig
+   ▪️ field--default--body.html.twig
+   ▪️ field--default.html.twig
+   ▪️ field--theme-ds-field-default.html.twig
+   ▪️ field--node--body--page.html.twig
+   ▪️ field--node--body.html.twig
+   ▪️ field--node--page.html.twig
+   ▪️ field--body.html.twig
+   ✅ field--text-with-summary.html.twig
+   ▪️ field.html.twig
+-->
+<!-- BEGIN OUTPUT from 'themes/contrib/bootstrap_barrio/templates/field/field--text-with-summary.html.twig' -->
+
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><div class="tex2jax_process"><p><span>GLDAS follows the ALMA definitions and conventions for the land surface model output variables outlined </span><a href="https://www.lmd.jussieu.fr/~polcher/ALMA/convention_output_3.html"><span>here</span></a><span>.&nbsp;</span></p>
+<p>Descriptions are available at the GES DISC.</p>
+<ul>
+<li><a href="https://hydro1.gesdisc.eosdis.nasa.gov/data/GLDAS/GLDAS_NOAH025_3H_EP.2.1/doc/README_GLDAS2.pdf">GLDAS2 products</a></li>
+<li><a href="https://disc.gsfc.nasa.gov/information/documents?title=GLDAS%20LSM%20Description">GLDAS Land Surface Models</a></li>
+</ul>
+<h2>Model Output Summary Table</h2>
+<table class="table table-responsive table-green">
+<thead>
+<tr>
+<th><span><strong><u>Name</u></strong></span></th>
+<th><span><strong><u>GRIB PDS IDs</u></strong></span></th>
+<th><span><strong><u>Description</u></strong></span></th>
+<th><span><strong><u>Units</u></strong></span></th>
+<th><span><strong><u>Time</u></strong></span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span><strong>Swnet</strong></span></td>
+<td><span>111</span></td>
+<td><span>Net short wave radiation flux</span></td>
+<td><span>W m-2</span></td>
+<td><span>average</span></td>
+</tr>
+<tr>
+<td><span><strong>Lwnet</strong></span></td>
+<td><span>112</span></td>
+<td><span>Net long-wave radiation flux</span></td>
+<td><span>W m-2</span></td>
+<td><span>average</span></td>
+</tr>
+<tr>
+<td><span><strong>Qle</strong></span></td>
+<td><span>121</span></td>
+<td><span>Latent heat net flux</span></td>
+<td><span>W m-2</span></td>
+<td><span>average</span></td>
+</tr>
+<tr>
+<td><span><strong>Qh</strong></span></td>
+<td><span>122</span></td>
+<td><span>Sensible heat net flux</span></td>
+<td><span>W m-2</span></td>
+<td><span>average</span></td>
+</tr>
+<tr>
+<td><span><strong>Qg</strong></span></td>
+<td><span>155</span></td>
+<td><span>Heat flux</span></td>
+<td><span>W m-2</span></td>
+<td><span>average</span></td>
+</tr>
+<tr>
+<td><span><strong>Snowf</strong></span></td>
+<td><span>131</span></td>
+<td><span>Snow precipitation rate</span></td>
+<td><span>kg m-2 s-1</span></td>
+<td><span>average</span></td>
+</tr>
+<tr>
+<td><span><strong>Rainf</strong></span></td>
+<td><span>132</span></td>
+<td><span>Rain precipitation rate</span></td>
+<td><span>kg m-2 s-1</span></td>
+<td><span>average</span></td>
+</tr>
+<tr>
+<td><span><strong>Evap</strong></span></td>
+<td><span>057</span></td>
+<td><span>Evapotranspiration</span></td>
+<td><span>kg m-2 s-1</span></td>
+<td><span>average</span></td>
+</tr>
+<tr>
+<td><span><strong>Qs</strong></span></td>
+<td><span>235</span></td>
+<td><span>Storm surface runoff</span></td>
+<td><span>kg m-2 per 3-hour or&nbsp;kg m-2 s-1</span></td>
+<td><span>accumulation or average</span></td>
+</tr>
+<tr>
+<td><span><strong>Qsb</strong></span></td>
+<td><span>234</span></td>
+<td><span>Baseflow-groundwater runoff</span></td>
+<td><span>kg m-2 per 3-hour or&nbsp;kg m-2 s-1</span></td>
+<td><span>accumulation or average</span></td>
+</tr>
+<tr>
+<td><span><strong>Qsm</strong></span></td>
+<td><span>099</span></td>
+<td><span>Snow melt</span></td>
+<td><span>kg m-2 per 3-hour or&nbsp;kg m-2 s-1 or kg m-2</span></td>
+<td><span>accumulation or average</span></td>
+</tr>
+<tr>
+<td><span><strong>AvgSurfT</strong></span></td>
+<td><span>138</span></td>
+<td><span>Average Surface Skin temperature</span></td>
+<td><span>K</span></td>
+<td><span>instantaneous</span></td>
+</tr>
+<tr>
+<td><span><strong>Albedo</strong></span></td>
+<td>&nbsp;</td>
+<td><span>Albedo</span></td>
+<td><span>%</span></td>
+<td><span>instantaneous</span></td>
+</tr>
+<tr>
+<td><span><strong>SWE</strong></span></td>
+<td><span>065</span></td>
+<td><span>Snow depth water equivalent</span></td>
+<td><span>kg m-2</span></td>
+<td><span>instantaneous</span></td>
+</tr>
+<tr>
+<td><span><strong>SnowDepth</strong></span></td>
+<td>&nbsp;</td>
+<td><span>Snow depth</span></td>
+<td><span>M</span></td>
+<td><span>instantaneous</span></td>
+</tr>
+<tr>
+<td><span><strong>SoilMoist[depth]</strong></span></td>
+<td><span>086</span></td>
+<td><span>Soil moisture</span></td>
+<td><span>kg m-2</span></td>
+<td><span>instantaneous</span></td>
+</tr>
+<tr>
+<td><span><strong>SoilTMP[depth]</strong></span></td>
+<td><span>085</span></td>
+<td><span>Soil temperature</span></td>
+<td><span>K</span></td>
+<td><span>instantaneous</span></td>
+</tr>
+<tr>
+<td><span><strong>PotEvap</strong></span></td>
+<td>&nbsp;</td>
+<td><span>Potential evaporation rate</span></td>
+<td><span>W m-2</span></td>
+<td><span>average</span></td>
+</tr>
+<tr>
+<td><span><strong>ECanop</strong></span></td>
+<td>&nbsp;</td>
+<td><span>Canopy water evaporation</span></td>
+<td><span>W m-2</span></td>
+<td><span>average</span></td>
+</tr>
+<tr>
+<td><span><strong>Tveg</strong></span></td>
+<td>&nbsp;</td>
+<td><span>Transpiration</span></td>
+<td><span>W m-2</span></td>
+<td><span>average</span></td>
+</tr>
+<tr>
+<td><span><strong>ESoil</strong></span></td>
+<td>&nbsp;</td>
+<td><span>Direct Evaporation from Bare Soil</span></td>
+<td><span>W m-2</span></td>
+<td><span>average</span></td>
+</tr>
+<tr>
+<td><span><strong>RootMoist</strong></span></td>
+<td>&nbsp;</td>
+<td><span>Root zone soil moisture</span></td>
+<td><span>kg m-2</span></td>
+<td><span>instantaneous</span></td>
+</tr>
+<tr>
+<td><span><strong>CanopInt</strong></span></td>
+<td><span>071</span></td>
+<td><span>Plant canopy surface water</span></td>
+<td><span>kg m-2</span></td>
+<td><span>instantaneous</span></td>
+</tr>
+<tr>
+<td><span><strong>&nbsp;SnowT</strong></span></td>
+<td>&nbsp;</td>
+<td><span>&nbsp;Snow surface temperature</span></td>
+<td><span>&nbsp;K</span></td>
+<td><span>average</span></td>
+</tr>
+<tr>
+<td><span><strong>&nbsp;Acond</strong></span></td>
+<td>&nbsp;</td>
+<td><span>&nbsp;Aerodynamic conductance</span></td>
+<td><span>&nbsp;m s-1</span></td>
+<td><span>average</span></td>
+</tr>
+<tr>
+<td><span><strong>&nbsp;TWS</strong></span></td>
+<td>&nbsp;</td>
+<td><span>&nbsp;Terrestrial water storage</span></td>
+<td><span>&nbsp;mm</span></td>
+<td><span>average</span></td>
+</tr>
+<tr>
+<td><span><strong>&nbsp;GWS</strong></span></td>
+<td>&nbsp;</td>
+<td><span>&nbsp;Ground water storage</span></td>
+<td><span>&nbsp;mm</span></td>
+<td><span>average</span></td>
+</tr>
+<tr>
+<td><span><strong>Wind_f</strong></span></td>
+<td><span>032</span></td>
+<td><span>Wind speed</span></td>
+<td><span>m/s</span></td>
+<td><span>instantaneous</span></td>
+</tr>
+<tr>
+<td><span><strong>Rainf_f</strong></span></td>
+<td>&nbsp;</td>
+<td><span>Total precipitation rate</span></td>
+<td><span>kg m-2 s-1</span></td>
+<td><span>instantaneous</span></td>
+</tr>
+<tr>
+<td><span><strong>Tair_f</strong></span></td>
+<td><span>011</span></td>
+<td><span>Temperature</span></td>
+<td><span>K</span></td>
+<td><span>instantaneous</span></td>
+</tr>
+<tr>
+<td><span><strong>Qair_f</strong></span></td>
+<td><span>051</span></td>
+<td><span>Specific humidity</span></td>
+<td><span>kg/kg</span></td>
+<td><span>instantaneous</span></td>
+</tr>
+<tr>
+<td><span><strong>Psurf_f</strong></span></td>
+<td><span>001</span></td>
+<td><span>Pressure</span></td>
+<td><span>Pa</span></td>
+<td><span>instantaneous</span></td>
+</tr>
+<tr>
+<td><span><strong>SWdown_f</strong></span></td>
+<td><span>204</span></td>
+<td><span>Downward&nbsp;&nbsp; short-wave&nbsp; radiation</span></td>
+<td><span>W m-2</span></td>
+<td><span>average or instantaneous</span></td>
+</tr>
+<tr>
+<td><span><strong>LWdown_f</strong></span></td>
+<td><span>205</span></td>
+<td><span>Downward&nbsp;&nbsp;&nbsp; long-wave&nbsp;&nbsp;&nbsp; radiation</span></td>
+<td><span>W m-2</span></td>
+<td><span>average or instantaneous</span></td>
+</tr>
+</tbody>
+</table>
+<p>*"_f" indicates forcing variables *Not all variables are available in all LSMs or&nbsp;in&nbsp;GLDAS1</p>
+</div></div>
+      
+<!-- END OUTPUT from 'themes/contrib/bootstrap_barrio/templates/field/field--text-with-summary.html.twig' -->
+
+
+  </div>
+</div>
+
+<!-- END OUTPUT from 'modules/contrib/bootstrap_layouts/templates/3.0.0/bs-1col.html.twig' -->
+
+
+
+<!-- END OUTPUT from 'modules/contrib/ds/templates/ds-entity-view.html.twig' -->
+
+
+    </div>
+  </div>
+
+<!-- END OUTPUT from 'themes/contrib/bootstrap_barrio/templates/block/block.html.twig' -->
+
+
+
+<!-- END OUTPUT from 'themes/contrib/bootstrap_barrio/templates/layout/region--nowrap.html.twig' -->
+
+
+        </section>
+
+ 
+        <aside id="sidebar_second" class="col-sm-3 col-xs-12">
+            
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'region' -->
+<!-- FILE NAME SUGGESTIONS:
+   ✅ region--nowrap.html.twig
+   ▪️ region--sidebar-second.html.twig
+   ▪️ region.html.twig
+-->
+<!-- BEGIN OUTPUT from 'themes/contrib/bootstrap_barrio/templates/layout/region--nowrap.html.twig' -->
+  
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'block' -->
+<!-- FILE NAME SUGGESTIONS:
+   ▪️ block--lordsblock.html.twig
+   ▪️ block--block-content--247e4f16-8fda-4a93-9a2e-fd4cf891e4d6.html.twig
+   ▪️ block--block-content--id-view--lordsblock--full.html.twig
+   ▪️ block--block-content--id--lordsblock.html.twig
+   ▪️ block--block-content--view-type--basic--full.html.twig
+   ▪️ block--block-content--type--basic.html.twig
+   ▪️ block--block-basic.html.twig
+   ▪️ block--block-content--view--full.html.twig
+   ▪️ block--block-content.html.twig
+   ✅ block.html.twig
+-->
+<!-- BEGIN OUTPUT from 'themes/contrib/bootstrap_barrio/templates/block/block.html.twig' -->
+<div id="block-lordsblock" class="block-content-basic block block-block-content block-block-content247e4f16-8fda-4a93-9a2e-fd4cf891e4d6">
+  
+      <h2>Get the Data</h2>
+    
+      <div class="content">
+      
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'field' -->
+<!-- FILE NAME SUGGESTIONS:
+   ▪️ field--block-content--body--basic.html.twig
+   ▪️ field--block-content--body.html.twig
+   ▪️ field--block-content--basic.html.twig
+   ▪️ field--body.html.twig
+   ✅ field--text-with-summary.html.twig
+   ▪️ field.html.twig
+-->
+<!-- BEGIN OUTPUT from 'themes/contrib/bootstrap_barrio/templates/field/field--text-with-summary.html.twig' -->
+
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><div class="tex2jax_process"><h3><a href="/data"><span style="color:#000000;"><strong>LDAS datasets are available from the NASA GES DISC</strong></span></a></h3><img src="/sites/default/files/ldas/ldas-dimain-apr2024_v2.jpg" data-entity-uuid="4d0cc570-88f0-4794-b6b4-fd60c847705b" data-entity-type="file" alt width="1280" height="720"><p>The NASA Goddard Earth Sciences Data and Information Services Center&nbsp;(GES DISC) provides access to LDAS datasets using multiple&nbsp;methods, including HTTPS, GDS, and the ability to subset&nbsp;spatially, temporally, and/or by variable:</p><ul><li><a href="https://disc.gsfc.nasa.gov/datasets?keywords=GLDAS" target="top">GLDAS</a></li><li><a href="https://disc.gsfc.nasa.gov/datasets?keywords=NLDAS" target="top">NLDAS</a></li><li><a href="https://disc.gsfc.nasa.gov/datasets?keywords=NCA-LDAS" target="top">NCA-LDAS</a>&nbsp;</li><li><a href="https://disc.gsfc.nasa.gov/datasets?keywords=FLDAS" target="top">FLDAS</a>&nbsp;</li><li><a href="https://disc.gsfc.nasa.gov/datasets?keywords=WLDAS">WLDAS</a></li></ul><p>These datasets are also available via <a href="https://giovanni.gsfc.nasa.gov/giovanni/#">Giovanni</a>. Giovanni is an online application developed by the GES DISC that allows researchers to rapidly explore data, so that spatial-temporal variability, anomalous conditions, and patterns of interest can be directly and easily analyzed online before optionally downloading the data. Supported download formats include NetCDF, GeoTIFF, and KMZ.</p><h3>&nbsp;</h3></div></div>
+      
+<!-- END OUTPUT from 'themes/contrib/bootstrap_barrio/templates/field/field--text-with-summary.html.twig' -->
+
+
+    </div>
+  </div>
+
+<!-- END OUTPUT from 'themes/contrib/bootstrap_barrio/templates/block/block.html.twig' -->
+
+
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'block' -->
+<!-- FILE NAME SUGGESTIONS:
+   ▪️ block--views-block--latest-news-sidebar-block-1.html.twig
+   ▪️ block--views-block--latest-news-sidebar-block-1.html.twig
+   ▪️ block--views-block.html.twig
+   ▪️ block--views.html.twig
+   ✅ block.html.twig
+-->
+<!-- BEGIN OUTPUT from 'themes/contrib/bootstrap_barrio/templates/block/block.html.twig' -->
+<div id="block-views-block-latest-news-sidebar-block-1" class="block block-views block-views-blocklatest-news-sidebar-block-1">
+  
+      <h2>Latest News</h2>
+    
+      <div class="content">
+      
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'container' -->
+<!-- BEGIN OUTPUT from 'themes/contrib/bootstrap_barrio/templates/form/container.html.twig' -->
+<div class="views-element-container">
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'views_view' -->
+<!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/sixseventeen/templates/views/views-view.html.twig' -->
+<div class="view view-latest-news-sidebar view-id-latest_news_sidebar view-display-id-block_1 js-view-dom-id-53f564c47fb95c006c66755c5b035a206743d08c3299be628b8d91fe531d9d7e">
+  
+    
+      
+      <div class="view-content">
+      
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'views_bootstrap_grid' -->
+<!-- FILE NAME SUGGESTIONS:
+   ▪️ views-bootstrap-grid--latest-news-sidebar--block-1.html.twig
+   ▪️ views-bootstrap-grid--block-1.html.twig
+   ▪️ views-bootstrap-grid--latest-news-sidebar.html.twig
+   ✅ views-bootstrap-grid.html.twig
+-->
+<!-- BEGIN OUTPUT from 'modules/contrib/views_bootstrap/templates/views-bootstrap-grid.html.twig' -->
+<div id="views-bootstrap-latest-news-sidebar-block-1"  class="grid views-view-grid row">
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'views_view_fields' -->
+<!-- BEGIN OUTPUT from 'core/modules/views/templates/views-view-fields.html.twig' -->
+<div class="views-field views-field-field-hero-image"><div class="field-content">
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'views_view_field' -->
+<!-- BEGIN OUTPUT from 'core/modules/views/templates/views-view-field.html.twig' -->
+
+<!-- END OUTPUT from 'core/modules/views/templates/views-view-field.html.twig' -->
+
+</div></div><div class="views-field views-field-title"><strong class="field-content">
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'views_view_field' -->
+<!-- BEGIN OUTPUT from 'core/modules/views/templates/views-view-field.html.twig' -->
+<a href="/index.php/nldas/news/nldas-2-data-re-processed-2022-08-01-2024-03-01" hreflang="en">NLDAS-2 data re-processed from 2022-08-01 to 2024-03-01</a>
+<!-- END OUTPUT from 'core/modules/views/templates/views-view-field.html.twig' -->
+
+</strong></div><div class="views-field views-field-field-summary"><div class="field-content">
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'views_view_field' -->
+<!-- BEGIN OUTPUT from 'core/modules/views/templates/views-view-field.html.twig' -->
+<div class="tex2jax_process"><p>NLDAS-2 datasets for all collections (FORA, FORB, MOS, NOAH, and VIC) were re-processed for the dates 2022-08-81 to 2024-03-01.</p>
+</div>
+<!-- END OUTPUT from 'core/modules/views/templates/views-view-field.html.twig' -->
+
+</div></div>
+<!-- END OUTPUT from 'core/modules/views/templates/views-view-fields.html.twig' -->
+
+</div>
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'views_view_fields' -->
+<!-- BEGIN OUTPUT from 'core/modules/views/templates/views-view-fields.html.twig' -->
+<div class="views-field views-field-field-hero-image"><div class="field-content">
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'views_view_field' -->
+<!-- BEGIN OUTPUT from 'core/modules/views/templates/views-view-field.html.twig' -->
+
+<!-- END OUTPUT from 'core/modules/views/templates/views-view-field.html.twig' -->
+
+</div></div><div class="views-field views-field-title"><strong class="field-content">
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'views_view_field' -->
+<!-- BEGIN OUTPUT from 'core/modules/views/templates/views-view-field.html.twig' -->
+<a href="/index.php/nldas/news/nldas-2-grib-1-files-no-longer-updated-1-august-2024" hreflang="en">NLDAS-2 GRIB-1 files no longer updated as of 1 August 2024</a>
+<!-- END OUTPUT from 'core/modules/views/templates/views-view-field.html.twig' -->
+
+</strong></div><div class="views-field views-field-field-summary"><div class="field-content">
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'views_view_field' -->
+<!-- BEGIN OUTPUT from 'core/modules/views/templates/views-view-field.html.twig' -->
+<div class="tex2jax_process"><p>The NLDAS Version 002 (GRIB-1) files are no longer being updated daily from the GES DISC starting from files valid at 23Z on August 1, 2024.</p>
+</div>
+<!-- END OUTPUT from 'core/modules/views/templates/views-view-field.html.twig' -->
+
+</div></div>
+<!-- END OUTPUT from 'core/modules/views/templates/views-view-fields.html.twig' -->
+
+</div>
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'views_view_fields' -->
+<!-- BEGIN OUTPUT from 'core/modules/views/templates/views-view-fields.html.twig' -->
+<div class="views-field views-field-field-hero-image"><div class="field-content">
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'views_view_field' -->
+<!-- BEGIN OUTPUT from 'core/modules/views/templates/views-view-field.html.twig' -->
+
+<!-- END OUTPUT from 'core/modules/views/templates/views-view-field.html.twig' -->
+
+</div></div><div class="views-field views-field-title"><strong class="field-content">
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'views_view_field' -->
+<!-- BEGIN OUTPUT from 'core/modules/views/templates/views-view-field.html.twig' -->
+<a href="/index.php/fldas/news/reprocessed-fldas-data" hreflang="en">Reprocessed FLDAS Data</a>
+<!-- END OUTPUT from 'core/modules/views/templates/views-view-field.html.twig' -->
+
+</strong></div><div class="views-field views-field-field-summary"><div class="field-content">
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'views_view_field' -->
+<!-- BEGIN OUTPUT from 'core/modules/views/templates/views-view-field.html.twig' -->
+<div class="tex2jax_process"><p><span><span><span><span><span><span><span><span>Output data for several FLDAS model runs and selected periods have been reprocessed.&nbsp;</span></span></span></span></span></span></span></span></p>
+</div>
+<!-- END OUTPUT from 'core/modules/views/templates/views-view-field.html.twig' -->
+
+</div></div>
+<!-- END OUTPUT from 'core/modules/views/templates/views-view-fields.html.twig' -->
+
+</div>
+    </div>
+
+<!-- END OUTPUT from 'modules/contrib/views_bootstrap/templates/views-bootstrap-grid.html.twig' -->
+
+
+    </div>
+  
+            <div class="view-footer">
+      <div class="tex2jax_process"><div style="text-align: center;"><strong><a href="/news">View All News</a></strong></div></div>
+    </div>
+    </div>
+
+<!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/sixseventeen/templates/views/views-view.html.twig' -->
+
+</div>
+
+<!-- END OUTPUT from 'themes/contrib/bootstrap_barrio/templates/form/container.html.twig' -->
+
+
+    </div>
+  </div>
+
+<!-- END OUTPUT from 'themes/contrib/bootstrap_barrio/templates/block/block.html.twig' -->
+
+
+
+<!-- END OUTPUT from 'themes/contrib/bootstrap_barrio/templates/layout/region--nowrap.html.twig' -->
+
+
+        </aside>
+    </main>
+    
+    <div class="mb-2 mr-2 jump">
+        <!--        <button class="btn btn-success float-end"> -->
+            <a class='jump-button visual-hidden-focusable' href='#access-top'>Jump to Top</a>
+<!--        </button> -->
+    </div>
+    <footer id="footer_section" data-footer-bg="https://ldas.gsfc.nasa.gov/sites/default/files/LdasFooterBg3000_1.jpg">
+
+    <section class="row">
+            </section>
+    <section class='row footer_region_middle'>
+        <div class='col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4'>
+                    
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'region' -->
+<!-- FILE NAME SUGGESTIONS:
+   ▪️ region--footer-region-1.html.twig
+   ✅ region.html.twig
+-->
+<!-- BEGIN OUTPUT from 'themes/contrib/bootstrap_barrio/templates/layout/region.html.twig' -->
+  <section class="row region region-footer-region-1">
+    
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'block' -->
+<!-- FILE NAME SUGGESTIONS:
+   ▪️ block--footerldaslogo.html.twig
+   ▪️ block--block-content--0b9cb526-7a61-4d8b-846c-6f595669b49d.html.twig
+   ▪️ block--block-content--id-view--footerldaslogo--full.html.twig
+   ▪️ block--block-content--id--footerldaslogo.html.twig
+   ▪️ block--block-content--view-type--basic--full.html.twig
+   ▪️ block--block-content--type--basic.html.twig
+   ▪️ block--block-basic.html.twig
+   ▪️ block--block-content--view--full.html.twig
+   ▪️ block--block-content.html.twig
+   ✅ block.html.twig
+-->
+<!-- BEGIN OUTPUT from 'themes/contrib/bootstrap_barrio/templates/block/block.html.twig' -->
+<div id="block-footerldaslogo" class="block-content-basic block block-block-content block-block-content0b9cb526-7a61-4d8b-846c-6f595669b49d">
+  
+    
+      <div class="content">
+      
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'field' -->
+<!-- FILE NAME SUGGESTIONS:
+   ▪️ field--block-content--body--basic.html.twig
+   ▪️ field--block-content--body.html.twig
+   ▪️ field--block-content--basic.html.twig
+   ▪️ field--body.html.twig
+   ✅ field--text-with-summary.html.twig
+   ▪️ field.html.twig
+-->
+<!-- BEGIN OUTPUT from 'themes/contrib/bootstrap_barrio/templates/field/field--text-with-summary.html.twig' -->
+
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><div class="tex2jax_process"><p><img alt data-entity-type data-entity-uuid class="footer_logo" src="/sites/default/files/LDASnewsize2_orig.gif"></p>
+</div></div>
+      
+<!-- END OUTPUT from 'themes/contrib/bootstrap_barrio/templates/field/field--text-with-summary.html.twig' -->
+
+
+    </div>
+  </div>
+
+<!-- END OUTPUT from 'themes/contrib/bootstrap_barrio/templates/block/block.html.twig' -->
+
+
+  </section>
+
+<!-- END OUTPUT from 'themes/contrib/bootstrap_barrio/templates/layout/region.html.twig' -->
+
+
+                </div>
+        <div class='col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4'>
+                    
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'region' -->
+<!-- FILE NAME SUGGESTIONS:
+   ▪️ region--footer-region-2.html.twig
+   ✅ region.html.twig
+-->
+<!-- BEGIN OUTPUT from 'themes/contrib/bootstrap_barrio/templates/layout/region.html.twig' -->
+  <section class="row region region-footer-region-2">
+    
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'block' -->
+<!-- FILE NAME SUGGESTIONS:
+   ✅ block--footercredits.html.twig
+   ▪️ block--block-content--b07564c9-c637-4fd5-a1b5-e4e8ba15eedf.html.twig
+   ▪️ block--block-content--id-view--footercredits--full.html.twig
+   ▪️ block--block-content--id--footercredits.html.twig
+   ▪️ block--block-content--view-type--basic--full.html.twig
+   ▪️ block--block-content--type--basic.html.twig
+   ▪️ block--block-basic.html.twig
+   ▪️ block--block-content--view--full.html.twig
+   ▪️ block--block-content.html.twig
+   ▪️ block.html.twig
+-->
+<!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from 'themes/custom/sixseventeen/templates/block/block--footercredits.html.twig' -->
+<div id="block-footercredits" class="block-content-basic block block-block-content block-block-contentb07564c9-c637-4fd5-a1b5-e4e8ba15eedf">
+  
+    
+  <div id='required-credits'>
+  <p> 
+  <strong><span>Responsible </span>NASA Official:</strong> 
+    <a href="mailto:matthew.rodell@nasa.gov?subject=">
+        Matt Rodell</a><br>
+    <strong>Web Developers:</strong> 
+    <a href="mailto:610webdev@mail.gsfc.nasa.gov?subject=">
+        Nate Perrin, Susannah Pearce</a><br>
+
+        <strong>Curator:</strong> 
+    <a href="mailto:rashida.a.holland@nasa.gov?subject=">
+        Rashida Holland</a><br>
+    
+    <a href='/contact-us'>Contact Us</a> | 
+    <a href="/sitemap.xml">Site Map</a> | 
+    <a href='http://www.nasa.gov/about/highlights/HP_Privacy.html' 
+       target='_blank'>Privacy</a> | 
+    <a href='https://www.nasa.gov/general/accessibility' target='_blank'>Accessibility</a>
+  </p>
+      <p> 
+    Last Updated: 09/24/2026
+  </p>
+    </div>
+</div>
+
+<!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/sixseventeen/templates/block/block--footercredits.html.twig' -->
+
+
+  </section>
+
+<!-- END OUTPUT from 'themes/contrib/bootstrap_barrio/templates/layout/region.html.twig' -->
+
+
+                </div>
+        <div class='col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4'>
+                </div>
+    </section>
+    <section class="row">
+            </section>
+</footer>
+<div class="footer_bg">
+</div>
+</div>
+    <!-- Add Federal Analytics -->
+    <script type='text/javascript' id='_fed_an_ua_tag' 
+            src='https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=NASA&subagency=GSFC&yt=true&dclink=true'>
+    </script>
+
+    <!-- GA4 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-QW5CMDTYT8"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-QW5CMDTYT8');
+    </script>
+
+<!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/sixseventeen/templates/layout/page.html.twig' -->
+
+
+  </div>
+
+<!-- END OUTPUT from 'core/modules/system/templates/off-canvas-page-wrapper.html.twig' -->
+
+
+    
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"","currentPath":"node\/350","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"data":{"extlink":{"extTarget":true,"extTargetAppendNewWindowDisplay":false,"extTargetAppendNewWindowLabel":"(opens in a new window)","extTargetNoOverride":false,"extNofollow":false,"extTitleNoOverride":false,"extNoreferrer":true,"extFollowNoOverride":false,"extClass":"ext","extLabel":"(link is external)","extImgClass":false,"extSubdomains":true,"extExclude":"(.*).nasa.gov","extInclude":"","extCssExclude":"","extCssInclude":"","extCssExplicit":"","extAlert":true,"extAlertText":"You are now navigating to an external website. Do you wish to continue?","extHideIcons":false,"mailtoClass":"mailto","telClass":"","mailtoLabel":"(link sends email)","telLabel":"(link is a phone number)","extUseFontAwesome":false,"extIconPlacement":"append","extPreventOrphan":false,"extPreventOrphanTextLike":true,"extFaLinkClasses":"fa fa-external-link","extFaMailtoClasses":"fa fa-envelope-o","extUseIcon":false,"extLinkIcon":"","extMailIcon":"","extTelIcon":"","extAdditionalLinkClasses":"","extAdditionalMailtoClasses":"","extAdditionalTelClasses":"","extFaTelClasses":"fa fa-phone","allowedDomains":null,"extExcludeNoreferrer":""}},"mathjax":{"config_type":0,"config":{"tex2jax":{"inlineMath":[["$","$"],["\\(","\\)"]],"processEscapes":"true"},"showProcessingMessages":"false","messageStyle":"none"}},"smarttheme":"sm-ldas","smartloc":"top","smartpath":"modules\/custom\/smartmenus2\/","smartclass":"sm-ldas sm nav navbar-nav","user":{"uid":0,"permissionsHash":"c217e51db7c3aafb2aa8d5cd1371978ee56076ed0e0be489e3b3540ac11bb0b5"}}</script>
+<script src="/core/assets/vendor/jquery/jquery.min.js?v=4.0.0"></script>
+<script src="/core/assets/vendor/once/once.min.js?v=1.0.1"></script>
+<script src="/core/misc/drupalSettingsLoader.js?v=11.4.12"></script>
+<script src="/core/misc/drupal.js?v=11.4.12"></script>
+<script src="/core/misc/drupal.init.js?v=11.4.12"></script>
+<script src="/modules/contrib/extlink/js/extlink.js?toee3h"></script>
+<script src="/modules/contrib/mathjax/js/config.js?v=11.4.12"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js?config=TeX-AMS-MML_HTMLorMML,Safe"></script>
+<script src="/modules/contrib/mathjax/js/setup.js?v=11.4.12"></script>
+<script src="/themes/custom/sixseventeen/js/bootstrap.bundle.min.js?v=11.4.12"></script>
+<script src="/themes/custom/sixseventeen/dist/sixseventeen.min.js?v=11.4.12"></script>
+<script src="/themes/custom/sixseventeen/js/jquery.event.move.js?v=11.4.12"></script>
+<script src="/themes/custom/sixseventeen/js/jquery.twentytwenty.js?v=11.4.12"></script>
+<script src="/themes/custom/sixseventeen/dist/twentytwentyFix.min.js?v=11.4.12"></script>
+<script src="/modules/custom/smartmenus2/node_modules/smartmenus/dist/jquery.smartmenus.min.js?toee3h"></script>
+<script src="/modules/custom/smartmenus2/js/bugfix.js?toee3h"></script>
+<script src="/modules/custom/smartmenus2/node_modules/smartmenus/dist/addons/bootstrap-4/jquery.smartmenus.bootstrap-4.min.js?toee3h"></script>
+<script src="/modules/custom/smartmenus2/js/smart.js?toee3h"></script>
+
+  </body>
+</html>
+
+<!-- END CUSTOM TEMPLATE OUTPUT from 'themes/custom/sixseventeen/templates/layout/html.html.twig' -->
+

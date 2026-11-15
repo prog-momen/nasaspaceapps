@@ -1,0 +1,13 @@
+{
+  "id": "google_tts",
+  "url": "https://aistudio.google.com/docs/models/gemini-3.8-flash-tts",
+  "checked_at": "2026-11-14T15:12:47.114072+00:00",
+  "tls_validation": false,
+  "status": 200,
+  "final_url": "https://aistudio.google.com/docs/models/gemini-3.8-flash-tts",
+  "bytes": 46076,
+  "content_type": "text/html; charset=utf-8",
+  "sha256": "b440f5c964f1983a432eb6ee093a1c5876205e97c89c2678353e2879697c4751",
+  "links": [],
+  "elapsed_seconds": 0.782
+}

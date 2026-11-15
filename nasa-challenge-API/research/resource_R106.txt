@@ -1,0 +1,370 @@
+Gaia | MAST
+Skip to main content
+Search
+Search for news, events, etc.
+Do not include words like a, and, for, the, etc.
+Advanced Query Syntax
+Search Method
+All These Words
+This Exact Phrase
+Any of These Words
+Advanced
+Content Type
+Page
+Newsletter Article
+HLSP
+File
+All Searchable Content
+Sort By
+Relevancy Score
+Date
+This site is protected by reCAPTCHA and the Google
+Privacy Policy
+and
+Terms of Service
+apply.
+Menu
+Menu
+Main Navigation
+MAST Home
+HLSP
+Table of HLSPs
+3D-DASH
+3D-HST
+AGNSEDATLAS
+asPIC
+ATLAS-REFCAT2
+ATLAS-VAR
+BEACON
+BLUETIDES
+BOOCATS
+BOSZ
+BUFFALO
+CANDELS
+GOODS-N Catalogs
+GOODS-S Catalogs
+UDS Catalogs
+EGS Catalogs
+COSMOS Catalogs
+GOODS-N Images
+GOODS-S Images
+UDS Images
+EGS Images
+COSMOS Images
+CANUCS
+CANDELSNIRWL
+CDIPS
+CDIPS Bulk Download Scripts
+CEERS
+CLASSY
+CLASSY Observation Details
+CLASSY Target Properties
+CLASSY Data Products
+CLEAR
+CLUES
+COS-GAL
+COSMOS-DASH
+CRATER
+DEEPMERGE
+DIAmante
+DIAmante Data Access Table
+ELEANOR
+ELK
+EVEREST
+everest_c00
+everest_c01
+everest_c02
+everest_c03
+everest_c04
+everest_c05
+everest_c06
+everest_c07
+everest_c08
+everest_c102
+everest_c111
+everest_c112
+everest_c12
+everest_c13
+everest_c14
+everest_c15
+everest_c16
+everest_c17
+everest_c18
+FHUFD
+bootes
+canes_venatici
+coma_berenices
+hercules
+leo
+ursa_major
+FRESCO
+FUVS
+GALSEDATLAS
+GFCAT
+GLASS-JWST
+GOALS
+GRS-WFC3
+GSFC-ELEANOR-LITE
+GUVCAT
+GUVCat Column Description - Gaia DR2 Columns
+GUVCat Column Description
+GUVCat Column Description - SDSS DR14 Columns
+GUVCAT-HOTSTARS
+GUVPNCAT
+HACKS
+HAGS
+HALO
+HALO-TESS
+HAMSTERS
+HAZMAT
+HCV
+HFFCATALOGS
+HiPEEC
+HISP
+HST-HYPERION
+HTTP
+HTTP Observational Details
+ILLUSTRIS
+IRIS
+LACOS
+LARS
+LAURELIN
+LCGCOSMOS
+JADES
+JEMS
+JWST-ERO
+JWST-ERO Team
+JWSTSTARS
+K2SFF
+K2YSO
+KBONUS-APEXBA
+KBONUS-BKG
+KEPLER-SMEAR
+KSwAGS
+LMC-FLOWS
+LOWLIB
+M31-SATELLITES
+M87-HST-UV
+MSTARPANSPEC
+MUDF
+MYSST
+MUSCLES
+Acknowledgement
+NDS-2018
+NGC5044-HST
+NGC5253-DR2
+NLR-AGN
+NLTE-OBGRID
+OPAL
+OPAL - Jupiter Cycle 22
+OPAL - Jupiter Cycle 23
+OPAL - Jupiter Cycle 24
+OPAL - Jupiter Cycle 25
+OPAL - Jupiter Cycle 26
+OPAL - Jupiter Cycle 27
+OPAL - Jupiter Cycle 28
+OPAL - Jupiter Cycle 29
+OPAL - Jupiter Cycle 30
+OPAL - Jupiter Cycle 31
+OPAL - Jupiter Cycle 32
+OPAL - Saturn Cycle 25
+OPAL - Saturn Cycle 26
+OPAL - Saturn Cycle 27
+OPAL - Saturn Cycle 28
+OPAL - Saturn Cycle 29
+OPAL - Saturn Cycle 30
+OPAL - Saturn Cycle 31
+OPAL - Saturn Cycle 32
+OPAL - Uranus Cycle 22
+OPAL - Uranus Cycle 23
+OPAL - Uranus Cycle 24
+OPAL - Uranus Cycle 25
+OPAL - Uranus Cycle 26
+OPAL - Uranus Cycle 27
+OPAL - Uranus Cycle 28
+OPAL - Uranus Cycle 29
+OPAL - Uranus Cycle 30
+OPAL - Uranus Cycle 31
+OPAL - Uranus Cycle 32
+OPAL - Uranus Cycle 33
+OPAL - Neptune Cycle 22
+OPAL - Neptune Cycle 23
+OPAL - Neptune Cycle 24
+OPAL - Neptune Cycle 25
+OPAL - Neptune Cycle 26
+OPAL - Neptune Cycle 27
+OPAL - Neptune Cycle 28
+OPAL - Neptune Cycle 29
+OPAL - Neptune Cycle 30
+OPAL - Neptune Cycle 31
+OPAL - Neptune Cycle 32
+OWLS
+PATHOS
+PHANGS
+PHANGS-CAT
+PHANGS-HST
+PHANGS-JWST
+PHAST
+PHAT
+PHATAGB
+PHATAGB Cluster Finding Charts
+PHATHIGHMASS
+PHATTER
+PIE
+PS1-STRM
+PSFK2
+PQS
+QLP
+provenance_search
+search_by_tic
+REFERENCE-ATLASES
+RELICS
+Rocky Worlds DDT
+RSLSS
+SCYLLA
+SGAS
+SKYSURF
+SMARTS
+SMILES
+STELLA
+STORM
+STORM2
+SUPERBORG
+T16
+TARS
+TASOC
+TEMPLATES
+TEMPOS
+TEQUILA
+TESS-3I
+TESS-COADD-CUTOUTS
+TESS-EBs
+TESS-SPOC
+provenance_search
+search_by_tic
+TESS-SVC
+TESS-YSO
+TGLC
+THOR
+TICA
+ULLYSES
+hlsp_authors
+provenance_search
+linked_datasets
+UVCANDELS
+UVCANDELS Team
+UVESCAPE
+UVOT-OC
+UVUDF
+WD-GRID
+WFC3IR-FLUXCAL
+WFCJ
+pj03_global
+pj03_niri
+pj03b_global
+pj03b_niri
+pj04_global
+pj04_niri
+pj05_snapshot
+pj06_niri
+pj06_snapshot
+pj07_niri
+pj07_snapshot
+pj11_global
+pj12_global
+pj12_niri
+pj13_niri
+pj13_snapshot
+pj14_niri
+pj14_snapshot
+pj15_snapshot
+pj18_snapshot
+pj19_global
+pj19_niri
+pj20_niri
+pj21_snapshot
+pj22_snapshot
+WIDE
+WISE-PS1-STRM
+WISP
+Hello Universe
+DEEPMERGE
+stella
+3D-HST
+PS1-STRM
+Interpretability
+TESS CNN Stellar Rotation
+Missions and Data
+Search Interfaces
+RETIRED: PHAD
+RETIRED: GalexView
+RETIRED: Hubble Legacy Archive (HLA)
+Publishing
+DOI
+Bibliography Search
+Data Attributions
+Mission Acknowledgements
+Mission Publications Mailing List
+News
+Archived Synthetic Data
+Prototype Demo
+Virtual Observatory
+Mission Data Search
+MUG
+About MAST
+New Mission Partnerships with MAST
+Astro Art Internship
+2024 MAST Summer Webinar
+Gaia
+Breadcrumbs Navigation
+Home
+Missions and Data
+On This Page
+On This Page
+Mission Overview
+Map of Observations
+Wavelength Coverage
+From 27 July 2014 to 15 January 2025 the Gaia all-sky survey measured the positions, distances, space motions and many physical characteristics of more than a billion stars in our Galaxy and beyond. Gaia provides the detailed 3D distributions and space motions of all these stars, down to 20th magnitude. The measurement precision, reaching a few millionths of a second of arc, is unprecedented. This allows our Galaxy to be mapped, for the first time, in three dimensions. Some 10 million stars were measured with a distance accuracy of better than 1 percent; some 100 million to better than 10 percent. This established a rigorous distance scale framework throughout the Galaxy and beyond, and classified star formation and kinematical and dynamical behaviour within the Local Group of galaxies. Solar System studies received a massive impetus through the observation of hundreds of thousands of minor planets; near-Earth objects, inner Trojans and even new trans-Neptunian objects, including Plutinos, were discovered. Gaia followed the bending of star light by the Sun and major planets over the entire celestial sphere, and therefore directly observed the structure of space-time – the accuracy of its measurement of General Relativistic light bending may reveal the long-sought scalar correction to its tensor form. All this, and more, through the accurate measurement of star positions.
+Active From
+Launch: December 19, 2013
+Observation: 2014-2024
+Capabilities
+Astrometry
+High precision positions, proper motions and parallaxes
+Photometry
+broad-band white-light G-band fluxes obtained in the
+astrometric instrument.
+low-resolution spectrophotometry obtained in the Blue and Red Photometers (
+BP and RP
+).
+Radial velocities
+Documentation
+ESA Gaia Science Community
+Gaia: ESA's billion star surveyor
+Data Release 1 Overview
+Data Release 2 Overview
+Early Data Release 3 Overview
+Data Release 3 Overview
+GAIA Archive @ESA
+Search Tools
+MAST Portal
+Search multiple missions using target names or coordinates.
+MAST Astroquery
+Search for, and retrieve, Kepler data products programmatically based on a list of coordinates or target names.  Interact with observational data in programs you write.
+CasJobs
+Perform SQL queries on MAST catalogs and tables.
+VO Services
+Seamlessly incorporate data from active missions, archives, and other institutional resources worldwide.
+Footer
+Secondary Navigation
+MyST
+Help Desk
+archive@stsci.edu
+MAST Classic
+MAST Credits
+NASA Data Centers
+Data Policies
+Site Map
+Copyright
+Privacy
+Social Media

@@ -1,0 +1,2 @@
+# Optional: Google Earth Engine computation backend (needs an authorised Earth Engine project; never required)
+earthengine-api>=0.1.380

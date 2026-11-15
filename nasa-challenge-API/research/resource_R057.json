@@ -1,0 +1,54 @@
+{
+  "id": "resource_R057",
+  "url": "https://search.earthdata.nasa.gov/search?q=VIIRS",
+  "checked_at": "2026-11-14T15:15:16.088221+00:00",
+  "tls_validation": false,
+  "status": 200,
+  "final_url": "https://search.earthdata.nasa.gov/search?q=VIIRS",
+  "bytes": 14874,
+  "content_type": "text/html",
+  "sha256": "7de8b4d463ef95c1a6e36acee1b5adfd279f078a508fa3a55c0f5989eaf84bf9",
+  "links": [
+    {
+      "url": "https://access.earthdata.nasa.gov",
+      "label": "Earthdata Access"
+    },
+    {
+      "url": "https://www.google.com/chrome/",
+      "label": "Chrome"
+    },
+    {
+      "url": "http://www.mozilla.org/firefox/",
+      "label": "Firefox"
+    },
+    {
+      "url": "http://www.apple.com/safari/",
+      "label": "Safari"
+    },
+    {
+      "url": "http://www.opera.com/",
+      "label": "Opera"
+    },
+    {
+      "url": "http://windows.microsoft.com/en-us/internet-explorer/download-ie",
+      "label": "Internet Explorer"
+    },
+    {
+      "url": "http://www.nasa.gov/FOIA/index.html",
+      "label": "FOIA"
+    },
+    {
+      "url": "http://www.nasa.gov/about/highlights/HP_Privacy.html",
+      "label": "NASA Privacy Policy"
+    },
+    {
+      "url": "http://www.usa.gov",
+      "label": "USA.gov"
+    },
+    {
+      "url": "https://access.earthdata.nasa.gov/",
+      "label": "Earthdata Access: A Section 508 accessible alternative"
+    }
+  ],
+  "elapsed_seconds": 0.906
+}

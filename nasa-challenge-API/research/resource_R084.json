@@ -1,0 +1,182 @@
+{
+  "id": "resource_R084",
+  "url": "https://sma.nasa.gov/sma-disciplines/accllp/apollo-13",
+  "checked_at": "2026-11-14T15:15:21.031877+00:00",
+  "tls_validation": false,
+  "status": 200,
+  "final_url": "https://sma.nasa.gov/sma-disciplines/accllp/apollo-13",
+  "bytes": 69537,
+  "content_type": "text/html; charset=utf-8",
+  "sha256": "ad408986281e0358ed36155a028c4e35f6be2d6a1a37e707cd4d580116f80ced",
+  "links": [
+    {
+      "url": "https://www.nasa.gov",
+      "label": ""
+    },
+    {
+      "url": "https://www.nasa.gov",
+      "label": "Visit nasa.gov"
+    },
+    {
+      "url": "https://sma.nasa.gov/sma-disciplines/accllp",
+      "label": "ACCLLP"
+    },
+    {
+      "url": "https://sma.nasa.gov/sma-disciplines/accllp/apollo-13#history",
+      "label": "History"
+    },
+    {
+      "url": "https://sma.nasa.gov/sma-disciplines/accllp/apollo-13#crew",
+      "label": "Crew"
+    },
+    {
+      "url": "https://sma.nasa.gov/sma-disciplines/accllp/apollo-13#mission",
+      "label": "Apollo 13 Mission"
+    },
+    {
+      "url": "https://sma.nasa.gov/sma-disciplines/accllp/apollo-13#accident",
+      "label": "Accident"
+    },
+    {
+      "url": "https://sma.nasa.gov/sma-disciplines/accllp/apollo-13#investigation",
+      "label": "Investigation"
+    },
+    {
+      "url": "https://sma.nasa.gov/sma-disciplines/accllp/apollo-13#lessonsLearned",
+      "label": "Lessons Learned"
+    },
+    {
+      "url": "https://sma.nasa.gov/sma-disciplines/accllp/apollo-13#memorials",
+      "label": "Tributes"
+    },
+    {
+      "url": "https://sma.nasa.gov/sma-disciplines/accllp/apollo-13#multimedia",
+      "label": "Multimedia and Resources"
+    },
+    {
+      "url": "https://www.nasa.gov/wp-content/uploads/2016/01/lovell_james_0.pdf",
+      "label": "View Bio"
+    },
+    {
+      "url": "https://www.nasa.gov/wp-content/uploads/2016/01/haise_fred.pdf",
+      "label": "View Bio"
+    },
+    {
+      "url": "https://www.nasa.gov/wp-content/uploads/2020/04/swigert_john.pdf",
+      "label": "View Bio"
+    },
+    {
+      "url": "https://www.nasa.gov/wp-content/uploads/static/history/afj/ap13fj/pdf/a13-review-report-app-b-c-d-e-19700078726.pdf",
+      "label": ""
+    },
+    {
+      "url": "https://www.nasa.gov/wp-content/uploads/static/history/afj/ap13fj/pdf/a13-review-report-app-b-c-d-e-19700078726.pdf",
+      "label": "View Report"
+    },
+    {
+      "url": "https://history.nasa.gov/alsj/a13/A13_MissionReport.pdf",
+      "label": "View Resource"
+    },
+    {
+      "url": "https://www.govinfo.gov/content/pkg/GPO-CHRG-91shrg4746/pdf/GPO-CHRG-91shrg4746.pdf",
+      "label": "Read Report"
+    },
+    {
+      "url": "https://www.nasa.gov/missions/apollo/apollo-13-the-successful-failure/",
+      "label": "Read Report"
+    },
+    {
+      "url": "https://www.nasa.gov/podcasts/houston-we-have-a-podcast/apollo-13/",
+      "label": "Listen to Podcast"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=WM8kjDF0IJU",
+      "label": "Watch Video"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=MdvoA-sjs0A",
+      "label": "Watch Video"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=Ilifg26TZrI",
+      "label": "Watch Video"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=lJiRA6GtxSA",
+      "label": "Watch Video"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=5sjaZdr4cEQ",
+      "label": "Watch Video"
+    },
+    {
+      "url": "https://nasa-hcm03.ns2cloud.com/learning/user/deeplink_redirect.jsp?linkId=ITEM_DETAILS&componentID=SMA-OV-WBT-119&componentTypeID=COURSE&revisionDate=1240853231000&fromSF=Y",
+      "label": "Start Course"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=5sjaZdr4cEQ",
+      "label": "Watch Video"
+    },
+    {
+      "url": "http://www.collectspace.com/news/news-022321-apollo-13-statue-space-center-houston.html",
+      "label": ""
+    },
+    {
+      "url": "http://www.collectspace.com/news/news-022321-apollo-13-statue-space-center-houston.html",
+      "label": ""
+    },
+    {
+      "url": "http://www.collectspace.com/news/news-022321-apollo-13-statue-space-center-houston.html",
+      "label": "Learn More about the Apollo 13 Bronze Statue"
+    },
+    {
+      "url": "https://www.roadsideamerica.com/story/76407",
+      "label": "Learn More about Fred Haise Statue"
+    },
+    {
+      "url": "https://www.aoc.gov/explore-capitol-campus/art/john-swigert-jr-statue",
+      "label": "Learn More about Jack Swigert Statue"
+    },
+    {
+      "url": "https://rotblattamrany.com/projects/quest-for-exploration-james-a-lovell/",
+      "label": "Learn More about Jim Lovell Statue"
+    },
+    {
+      "url": "https://www.nasa.gov/mission/apollo-13/",
+      "label": "Apollo 13"
+    },
+    {
+      "url": "https://www.nasa.gov/missions/apollo/apollo-13-mission-details/",
+      "label": "Apollo 13: Mission Details"
+    },
+    {
+      "url": "https://www.nasa.gov/history/50-years-ago-apollo-13-preps-for-3rd-moon-landing/",
+      "label": "50 Years Ago: Apollo 13 Preps for 3rd Moon Landing"
+    },
+    {
+      "url": "https://www.nasa.gov/history/50-years-ago-houston-weve-had-a-problem/",
+      "label": "50 Years Ago: “Houston, We’ve Had a Problem”"
+    },
+    {
+      "url": "https://www.nasa.gov/history/50-years-ago-apollo-13-crew-returns-safely-to-earth/",
+      "label": "50 Years Ago: Apollo 13 Crew Returns Safely to Earth"
+    },
+    {
+      "url": "https://www.nasa.gov/history/50-years-ago-apollo-13-crew-returns-to-houston/",
+      "label": "50 Years Ago: Apollo 13 Crew Returns to Houston"
+    },
+    {
+      "url": "https://www.nasa.gov/history/50-years-ago-apollo-13-review-board-report/",
+      "label": "50 Years Ago: Apollo 13 Review Board Report"
+    },
+    {
+      "url": "https://www.nasa.gov/missions/apollo/the-hard-won-triumph-of-the-apollo-13-mission-45-years-later/",
+      "label": "The Hard-won Triumph of the Apollo 13 Mission – 45 Years Later"
+    },
+    {
+      "url": "https://www.nasa.gov/missions/apollo/apollo-13-the-successful-failure/",
+      "label": "Apollo 13: The Successful Failure"
+    }
+  ],
+  "elapsed_seconds": 1.296
+}

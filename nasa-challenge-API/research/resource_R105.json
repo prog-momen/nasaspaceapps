@@ -1,0 +1,62 @@
+{
+  "id": "resource_R105",
+  "url": "http://byw.tools/wiseview",
+  "checked_at": "2026-11-14T15:15:24.044181+00:00",
+  "tls_validation": false,
+  "status": 200,
+  "final_url": "http://byw.tools/wiseview",
+  "bytes": 18695,
+  "content_type": "text/html; charset=utf-8",
+  "sha256": "ab59f5e869bcc487329269e5e6c239d6a75133a01b18dd91b05e6fb7cc735194",
+  "links": [
+    {
+      "url": "https://www.amnh.org/",
+      "label": "American Museum of Natural History"
+    },
+    {
+      "url": "http://legacysurvey.org/viewer#NGC%203413",
+      "label": "LegacySurvey Sky Viewer"
+    },
+    {
+      "url": "http://simbad.u-strasbg.fr/simbad/sim-fcoo",
+      "label": "Simbad"
+    },
+    {
+      "url": "http://vizier.u-strasbg.fr/viz-bin/VizieR",
+      "label": "Vizier"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=23hXbfh1_aA",
+      "label": "tutorial video for Wiseview-V1"
+    },
+    {
+      "url": "http://unwise.me",
+      "label": "unWISE"
+    },
+    {
+      "url": "https://panstarrs.stsci.edu/",
+      "label": "Pan-STARRS"
+    },
+    {
+      "url": "http://docs.astropy.org/en/stable/api/astropy.visualization.AsinhStretch.html#astropy.visualization.AsinhStretch",
+      "label": "astropy.visualization.AsinhStretch"
+    },
+    {
+      "url": "http://adsabs.harvard.edu/abs/2014AJ....147..108L",
+      "label": "http://adsabs.harvard.edu/abs/2014AJ....147..108L"
+    },
+    {
+      "url": "http://adsabs.harvard.edu/abs/2017AJ....153...38M",
+      "label": "http://adsabs.harvard.edu/abs/2017AJ....153...38M"
+    },
+    {
+      "url": "http://adsabs.harvard.edu/abs/2017arXiv170506746M",
+      "label": "http://adsabs.harvard.edu/abs/2017arXiv170506746M"
+    },
+    {
+      "url": "https://ps1images.stsci.edu/cgi-bin/ps1cutouts",
+      "label": ""
+    }
+  ],
+  "elapsed_seconds": 2.047
+}

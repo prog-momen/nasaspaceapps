@@ -1,0 +1,274 @@
+Gemini 3.8 Live Extended Thinking - Gemini API | Google AI Studio
+> ## AI Agent Context
+> Get the complete documentation index at: https://aistudio.google.com/llms.txt
+> Use this file to discover all available pages.
+> For the full documentation in a single file, fetch: https://aistudio.google.com/llms-full.txt
+
+# Gemini 3.8 Live Extended Thinking
+
+Gemini 3.8 Live Extended Thinking (`gemini-3.8-live-extended-thinking`) is our
+high-reasoning audio-to-audio Live API model for complex, multi-step problem
+solving during real-time voice interactions. It processes configurable
+background reasoning (`low`, `medium`, `high`), thought summaries, and
+asynchronous tool calls while streaming continuous audio responses.
+
+For low-latency conversational voice experiences without background reasoning
+delays, see [Gemini 3.8 Live](/docs/models/gemini-3.8-live).
+
+{% button href="https://aistudio.google.com/live?model=gemini-3.8-live-extended-thinking" variant="ais" %} Try in Google AI Studio {% /button %}
+
+## Documentation  {% id="documentation" %}
+
+Visit the [Live API](/docs/live-api) and
+[Thinking in the Live API](/docs/live-api/thinking) guides for full coverage of
+reasoning configurations and asynchronous tool integrations.
+
+## gemini-3.8-live-extended-thinking  {% id="gemini-38-live-extended-thinking" %}
+
+{% table variant="model" %}
+  * Property
+  * Description
+
+  ---
+
+  *     {% section class="model-property" %}
+  {% icon name="id_card" /%}Model code
+
+    {% /section %}
+
+  * `gemini-3.8-live-extended-thinking`
+
+  ---
+
+  *     {% section class="model-property" %}
+  {% icon name="save" /%}Supported data types
+
+    {% /section %}
+
+  *     **Inputs** Text, images, audio
+
+    **Output** Text and audio
+
+
+  ---
+
+  *     {% section class="model-property" %}
+  {% icon name="token_auto" /%}Token limits{% sup %}[[*]](/docs/tokens){% /sup %}
+
+    {% /section %}
+
+  *     **Input token limit** 131,072
+
+    **Output token limit** 65,536
+
+
+  ---
+
+  *     {% section class="model-property" %}
+  {% icon name="handyman" /%}Capabilities
+
+    {% /section %}
+
+  *     {% section class="three-column-grid" %}
+  {% section %}
+  [**Audio generation**](/docs/speech-generation)
+
+  {% badge type="supported" /%}
+
+  {% /section %}
+
+  {% section %}
+  [**Code execution**](/docs/code-execution)
+
+  {% badge type="not-supported" /%}
+
+  {% /section %}
+
+  {% section %}
+  [**Context caching**](/docs/caching)
+
+  {% badge type="not-supported" /%}
+
+  {% /section %}
+
+  {% section %}
+  [**File search**](/docs/file-search)
+
+  {% badge type="not-supported" /%}
+
+  {% /section %}
+
+  {% section %}
+  [**Function calling**](/docs/function-calling)
+
+  {% badge label=Supported (Async only) type="supported" /%}
+
+  {% /section %}
+
+  {% section %}
+  [**Grounding with Google Maps**](/docs/maps-grounding)
+
+  {% badge type="not-supported" /%}
+
+  {% /section %}
+
+  {% section %}
+  [**Grounding with Google Search**](/docs/google-search)
+
+  {% badge type="supported" /%}
+
+  {% /section %}
+
+  {% section %}
+  [**Image generation**](/docs/image-generation)
+
+  {% badge type="not-supported" /%}
+
+  {% /section %}
+
+  {% section %}
+  [**Live API**](/docs/live-api)
+
+  {% badge type="supported" /%}
+
+  {% /section %}
+
+  {% section %}
+  [**Structured outputs**](/docs/structured-output)
+
+  {% badge type="not-supported" /%}
+
+  {% /section %}
+
+  {% section %}
+  [**Thinking**](/docs/thinking)
+
+  {% badge type="supported" /%}
+
+  {% /section %}
+
+  {% section %}
+  [**URL context**](/docs/url-context)
+
+  {% badge type="not-supported" /%}
+
+  {% /section %}
+
+    {% /section %}
+
+
+  ---
+
+  *     {% section class="model-property" %}
+  {% icon name="speed" /%}Consumption options
+
+    {% /section %}
+
+  *     {% section class="three-column-grid" %}
+  {% section %}
+  [**Batch API**](/docs/batch-api)
+
+  {% badge type="not-supported" /%}
+
+  {% /section %}
+
+  {% section %}
+  [**Flex inference**](/docs/flex-inference)
+
+  {% badge type="not-supported" /%}
+
+  {% /section %}
+
+  {% section %}
+  [**Priority inference**](/docs/priority-inference)
+
+  {% badge type="not-supported" /%}
+
+  {% /section %}
+
+    {% /section %}
+
+
+  ---
+
+  *     {% section class="model-property" %}
+  {% icon name="123" /%}Versions
+
+    {% /section %}
+
+  *     Read the [model version patterns](/docs/models#model-versions) for more details.
+
+    *     Stable: `gemini-3.8-live-extended-thinking`
+
+
+  ---
+
+  *     {% section class="model-property" %}
+  {% icon name="calendar_month" /%}Latest update
+
+    {% /section %}
+
+  * September 2026
+
+  ---
+
+  *     {% section class="model-property" %}
+  {% icon name="id_card" /%}Model card
+
+    {% /section %}
+
+  * [Model card](https://deepmind.google/models/model-cards/gemini-3-8-audio/)
+
+  ---
+
+  *     {% section class="model-property" %}
+  {% icon name="paid" /%}Pricing
+
+    {% /section %}
+
+  * [Pricing](/docs/pricing#gemini-3.8-live)
+{% /table %}
+
+## Upgrading to Gemini 3.8 Live Extended Thinking  {% id="upgrading" %}
+
+Gemini 3.8 Live Extended Thinking introduces background reasoning during live
+audio sessions. When integrating this model, update your client state management
+to handle asynchronous reasoning signals:
+
+*   **Asynchronous reasoning protocol**: When interacting with models that use
+  asynchronous reasoning, `turnComplete: true` no longer signals that the
+  model is completely idle. The server may continue processing background
+  reasoning or tool calls. Keep your client listening for subsequent server
+  messages (such as tool calls or audio frames) after `turnComplete: true`
+  arrives.
+*   **Monitoring `interaction_status`**: Check `server_content.interaction_status`
+  on incoming
+  [`BidiGenerateContentServerContent`](/api-reference/live#BidiGenerateContentServerContent)
+  messages to determine the current server state before closing the session:  *   `IN_PROGRESS`: The server is actively processing user input, running
+    background reasoning, or awaiting responses for asynchronous tool calls.
+    Additional model output or tool calls may follow.
+  *   `IDLE`: The server has finished all processing, reasoning, and tool
+    calls. The session is idle and waiting for user input.
+
+*   **Function calling**: Function calling is exclusively asynchronous
+  (`behavior: NON_BLOCKING`). Synchronous blocking mode returns an error, and
+  function scheduling options (`SILENT`, `WHEN_IDLE`, and `INTERRUPTED`) are
+  not supported. See
+  [Asynchronous function calling](/docs/live-api/tools#async-function-calling).
+*   **Thinking configuration**: Configure background reasoning using
+  `thinking_config` in your session setup with `thinking_level` values `low`,
+  `medium`, or `high`. Note that `MINIMAL` is not supported. See
+  [Thinking in the Live API](/docs/live-api/thinking).
+*   **Client content updates**: `send_client_content` is supported throughout
+  the entire session lifecycle (both initial history seeding and mid-turn
+  context updates) with explicit roles (`user` or `model`). Setting
+  `turn_complete=true` immediately interrupts active generation. See
+  [Incremental content updates](/docs/live-api/capabilities#incremental-updates).
+*   **Proactive audio**: Permanently enabled. Setting `proactive_audio: false`
+  returns an error.
+*   **Affective dialogue**: Removed from the API. Remove any
+  `enable_affective_dialog` configurations from your setup.
+
+For a feature comparison across all Live API models, see the
+[Model comparison](/docs/live-api/capabilities#model-comparison) table in the
+capabilities guide.

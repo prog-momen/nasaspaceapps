@@ -1,0 +1,154 @@
+{
+  "id": "resource_R103",
+  "url": "https://irsa.ipac.caltech.edu/Missions/spherex.html",
+  "checked_at": "2026-11-14T15:15:23.361062+00:00",
+  "tls_validation": false,
+  "status": 200,
+  "final_url": "https://irsa.ipac.caltech.edu/Missions/spherex.html",
+  "bytes": 9985,
+  "content_type": "text/html",
+  "sha256": "848f83636f911ffb564ad76fbe116ff4eae7e3653fa427482f82cf67a31a2a3b",
+  "links": [
+    {
+      "url": "https://irsa.ipac.caltech.edu/applications/spherex",
+      "label": ""
+    },
+    {
+      "url": "https://irsa.ipac.caltech.edu/applications/spherex",
+      "label": "SPHEREx Data Explorer"
+    },
+    {
+      "url": "https://irsa.ipac.caltech.edu/data/SPHEREx/docs/overview_dr1.html",
+      "label": ""
+    },
+    {
+      "url": "https://irsa.ipac.caltech.edu/data/SPHEREx/docs/overview_dr1.html",
+      "label": "Documentation"
+    },
+    {
+      "url": "https://ui.adsabs.harvard.edu/abs/2026ApJ...999..139B/abstract",
+      "label": "Bock et al (2026)"
+    },
+    {
+      "url": "https://ui.adsabs.harvard.edu/abs/2026ApJS..285...67A/abstract",
+      "label": "Akeson et al (2026)"
+    },
+    {
+      "url": "https://ui.adsabs.harvard.edu/abs/2025ApJS..281...10C/abstract",
+      "label": "Crill et al. (2025)"
+    },
+    {
+      "url": "https://ui.adsabs.harvard.edu/abs/2026arXiv260329835K/abstract",
+      "label": "Korngut et al. (2026)"
+    },
+    {
+      "url": "https://irsa.ipac.caltech.edu/data/SPHEREx/docs/overview_qr.html",
+      "label": "First Quick Release Products available at IRSA"
+    },
+    {
+      "url": "https://irsa.ipac.caltech.edu/data/SPHEREx/docs/overview_qr.html",
+      "label": "First reprocessed Quick Release Products (QR2) available at IRSA"
+    },
+    {
+      "url": "https://irsa.ipac.caltech.edu/data/SPHEREx/docs/psfhdrerr.html",
+      "label": "QR2 headers updated to correct PSF extension header error (see documentation for details)"
+    },
+    {
+      "url": "https://irsa.ipac.caltech.edu/data/SPHEREx/docs/overview_qr.html",
+      "label": "First Quick Release 3 (QR3) Products available at IRSA"
+    },
+    {
+      "url": "https://irsa.ipac.caltech.edu/data/SPHEREx/docs/overview_dr1.html",
+      "label": "Data Release 1 (DR1) Products available at IRSA"
+    },
+    {
+      "url": "https://irsa.ipac.caltech.edu/data/SPHEREx/docs/overview_dr1.html",
+      "label": "SPHEREx Data Release 1"
+    },
+    {
+      "url": "https://irsa.ipac.caltech.edu/data/SPHEREx/docs/overview_qr.html",
+      "label": "SPHEREx Quick Releases"
+    },
+    {
+      "url": "https://irsa.ipac.caltech.edu/data/SPHEREx/SPLICES/",
+      "label": "SPHEREx Target List of Ice Sources (SPLICES)"
+    },
+    {
+      "url": "https://irsa.ipac.caltech.edu/data/SPHEREx/docs/comet3iatlas/index.html",
+      "label": "Comet 3I/ATLAS"
+    },
+    {
+      "url": "https://irsa.ipac.caltech.edu/cloud_access/#spherex",
+      "label": "Cloud Data Access"
+    },
+    {
+      "url": "https://irsa.ipac.caltech.edu/applications/MOST",
+      "label": "Moving Object Search Tool (MOST)"
+    },
+    {
+      "url": "https://irsa.ipac.caltech.edu/applications/spherex/tool-spectrophotometry",
+      "label": "Spectrophotometry Tool"
+    },
+    {
+      "url": "https://irsa.ipac.caltech.edu/onlinehelp/spherex/#sp",
+      "label": "Spectrophotometry Tool documentation"
+    },
+    {
+      "url": "https://irsa.ipac.caltech.edu/applications/spherex/tool-mosaic",
+      "label": "Mosaic Tool"
+    },
+    {
+      "url": "https://irsa.ipac.caltech.edu/data/SPHEREx/docs/cutout_tool.html",
+      "label": "Cutout Tool"
+    },
+    {
+      "url": "https://caltech-ipac.github.io/irsa-tutorials/spherex-source-discovery-tool-demo/",
+      "label": "Source Discovery Tool"
+    },
+    {
+      "url": "https://irsa.ipac.caltech.edu/data/SPHEREx/docs/SPHEREx_Expsupp.pdf",
+      "label": "Documentation"
+    },
+    {
+      "url": "https://irsa.ipac.caltech.edu/spherex-archive-documentation/",
+      "label": "SPHEREx Archive User Guide"
+    },
+    {
+      "url": "https://irsa.ipac.caltech.edu/voapi.html",
+      "label": "Program Interfaces"
+    },
+    {
+      "url": "https://irsa.ipac.caltech.edu/data/SPHEREx/docs/spherex_spectral_calibrations.html",
+      "label": "Spectral Calibrations"
+    },
+    {
+      "url": "http://spherex.caltech.edu/",
+      "label": "SPHEREx website"
+    },
+    {
+      "url": "https://caltech-ipac.github.io/irsa-tutorials/spherex-intro/",
+      "label": "Python Notebooks: Introduction"
+    },
+    {
+      "url": "https://caltech-ipac.github.io/irsa-tutorials/spherex-cutouts/",
+      "label": "Python Notebooks: Cutouts"
+    },
+    {
+      "url": "https://caltech-ipac.github.io/irsa-tutorials/spherex-psf/",
+      "label": "Python Notebooks: PSF"
+    },
+    {
+      "url": "https://caltech-ipac.github.io/irsa-tutorials/spherex-source-discovery-tool-demo/",
+      "label": "Python Notebooks: Source Discovery Tool"
+    },
+    {
+      "url": "https://caltech-ipac.github.io/irsa-tutorials/spherex-mosaic/",
+      "label": "Python Notebooks: Mosaic Cubes"
+    },
+    {
+      "url": "https://caltech-ipac.github.io/irsa-tutorials/spherex-hipscube/",
+      "label": "Python Notebooks: HiPS Cubes"
+    }
+  ],
+  "elapsed_seconds": 1.032
+}

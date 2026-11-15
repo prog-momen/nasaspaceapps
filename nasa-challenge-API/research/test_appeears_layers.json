@@ -1,0 +1,13 @@
+{
+  "id": "test_appeears_layers",
+  "url": "https://appeears.earthdatacloud.nasa.gov/api/product/MOD11A2.061",
+  "checked_at": "2026-11-14T15:12:43.500811+00:00",
+  "tls_validation": false,
+  "status": 200,
+  "final_url": "https://appeears.earthdatacloud.nasa.gov/api/product/MOD11A2.061",
+  "bytes": 6038,
+  "content_type": "application/json",
+  "sha256": "7eebb59b991914e69d64725b0c60ea073bebd87846c7b8ce83c885fd8a70e10a",
+  "links": [],
+  "elapsed_seconds": 0.5
+}

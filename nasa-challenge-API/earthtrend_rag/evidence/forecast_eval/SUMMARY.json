@@ -1,0 +1,3048 @@
+{
+ "generated": "2026-11-15",
+ "runtime_s": 467.1,
+ "rows": [
+  {
+   "location": "Nablus (Mediterranean, semi-arid)",
+   "variable": "air_temperature",
+   "unit": "\u00b0C",
+   "n_months": 549,
+   "cutoff": "2026-09-01",
+   "selected": "ets_ana",
+   "best_baseline": "clim_trend",
+   "holdout_origins": 13,
+   "dev_origins": 18,
+   "holdout_obs": 312,
+   "skill_1-3": {
+    "status": "not_distinguishable_from_baseline",
+    "ratio_mae_model_over_baseline": 1.1081647615852892,
+    "ci95": [
+     0.9738345143701498,
+     1.196297414198609
+    ],
+    "mae_selected": 0.869191361978265
+   },
+   "skill_4-6": {
+    "status": "not_distinguishable_from_baseline",
+    "ratio_mae_model_over_baseline": 1.1177204227634407,
+    "ci95": [
+     0.9384935858144332,
+     1.359410730274293
+    ],
+    "mae_selected": 0.911218706597006
+   },
+   "skill_7-12": {
+    "status": "worse_than_baseline",
+    "ratio_mae_model_over_baseline": 1.1785065719335936,
+    "ci95": [
+     1.0369863573171385,
+     1.3138775436686247
+    ],
+    "mae_selected": 0.89098707352001
+   },
+   "skill_13-24": {
+    "status": "worse_than_baseline",
+    "ratio_mae_model_over_baseline": 1.1875268789086098,
+    "ci95": [
+     1.0549128948248683,
+     1.3337825159201298
+    ],
+    "mae_selected": 0.9597176131970482
+   },
+   "selected_mae_by_lead": {
+    "1": 0.911,
+    "3": 0.858,
+    "6": 1.11,
+    "12": 0.942,
+    "18": 1.148,
+    "24": 0.98
+   },
+   "selected_rmse_by_lead": {
+    "1": 1.04,
+    "3": 0.966,
+    "6": 1.485,
+    "12": 1.392,
+    "18": 1.561,
+    "24": 1.316
+   },
+   "selected_bias_by_lead": {
+    "1": 0.096,
+    "3": -0.122,
+    "6": 0.079,
+    "12": -0.059,
+    "18": 0.032,
+    "24": -0.028
+   },
+   "baseline_mae_by_lead": {
+    "1": 0.83,
+    "3": 0.741,
+    "6": 0.948,
+    "12": 0.829,
+    "18": 0.929,
+    "24": 0.883
+   },
+   "coverage95_holdout": {
+    "nominal": {
+     "1-3": 1.0,
+     "4-6": 0.9230769230769231,
+     "7-12": 0.9743589743589743,
+     "13-24": 0.9871794871794872
+    },
+    "calibrated": {
+     "1-3": 0.9743589743589743,
+     "4-6": 0.9230769230769231,
+     "7-12": 0.8461538461538461,
+     "13-24": 0.8205128205128205
+    }
+   },
+   "coverage80_holdout": {
+    "nominal": {
+     "1-3": 0.7692307692307693,
+     "4-6": 0.8205128205128205,
+     "7-12": 0.8333333333333334,
+     "13-24": 0.8397435897435898
+    },
+    "calibrated": {
+     "1-3": 0.6923076923076923,
+     "4-6": 0.8205128205128205,
+     "7-12": 0.6282051282051282,
+     "13-24": 0.6794871794871795
+    }
+   },
+   "structural_break": {
+    "mean_shift_between_halves": 0.7845644326476445,
+    "standardized": 8.911933456224196,
+    "flag": true,
+    "note": "A shift between the two halves of the record: climate change, a change in the POWER/MERRA-2 inputs, or both; it is not diagnosed further here."
+   },
+   "failures": {
+    "sarima_200_100_ct": {
+     "dev": 0,
+     "holdout": 0,
+     "errors": [],
+     "not_converged_dev": 2,
+     "not_converged_holdout": 1
+    }
+   }
+  },
+  {
+   "location": "Nablus (Mediterranean, semi-arid)",
+   "variable": "precipitation",
+   "unit": "mm/day",
+   "n_months": 549,
+   "cutoff": "2026-09-01",
+   "selected": "ets_aada",
+   "best_baseline": "clim_trend",
+   "holdout_origins": 13,
+   "dev_origins": 18,
+   "holdout_obs": 312,
+   "skill_1-3": {
+    "status": "not_distinguishable_from_baseline",
+    "ratio_mae_model_over_baseline": 1.0579304621305254,
+    "ci95": [
+     0.999999757399288,
+     1.1566262035879349
+    ],
+    "mae_selected": 0.9983273359257681
+   },
+   "skill_4-6": {
+    "status": "not_distinguishable_from_baseline",
+    "ratio_mae_model_over_baseline": 0.9895966775755267,
+    "ci95": [
+     0.8709735591225409,
+     1.0308979067943995
+    ],
+    "mae_selected": 1.0922794829606688
+   },
+   "skill_7-12": {
+    "status": "not_distinguishable_from_baseline",
+    "ratio_mae_model_over_baseline": 1.007816180712154,
+    "ci95": [
+     0.9555569309084776,
+     1.050760474193656
+    ],
+    "mae_selected": 0.864081419546587
+   },
+   "skill_13-24": {
+    "status": "not_distinguishable_from_baseline",
+    "ratio_mae_model_over_baseline": 1.0161389375803689,
+    "ci95": [
+     0.9717800101178512,
+     1.106785039539968
+    ],
+    "mae_selected": 0.8985355815716974
+   },
+   "selected_mae_by_lead": {
+    "1": 0.779,
+    "3": 1.539,
+    "6": 0.713,
+    "12": 0.553,
+    "18": 0.682,
+    "24": 0.527
+   },
+   "selected_rmse_by_lead": {
+    "1": 1.098,
+    "3": 3.008,
+    "6": 1.078,
+    "12": 0.887,
+    "18": 1.035,
+    "24": 0.818
+   },
+   "selected_bias_by_lead": {
+    "1": -0.108,
+    "3": -1.185,
+    "6": -0.237,
+    "12": -0.068,
+    "18": -0.209,
+    "24": 0.008
+   },
+   "baseline_mae_by_lead": {
+    "1": 0.681,
+    "3": 1.504,
+    "6": 0.672,
+    "12": 0.525,
+    "18": 0.649,
+    "24": 0.472
+   },
+   "coverage95_holdout": {
+    "nominal": {
+     "1-3": 0.7948717948717948,
+     "4-6": 0.8717948717948718,
+     "7-12": 0.8333333333333334,
+     "13-24": 0.8525641025641025
+    },
+    "calibrated": {
+     "1-3": 0.8205128205128205,
+     "4-6": 0.8461538461538461,
+     "7-12": 0.5769230769230769,
+     "13-24": 0.6666666666666666
+    }
+   },
+   "coverage80_holdout": {
+    "nominal": {
+     "1-3": 0.6923076923076923,
+     "4-6": 0.717948717948718,
+     "7-12": 0.7435897435897436,
+     "13-24": 0.717948717948718
+    },
+    "calibrated": {
+     "1-3": 0.6923076923076923,
+     "4-6": 0.7692307692307693,
+     "7-12": 0.41025641025641024,
+     "13-24": 0.4551282051282051
+    }
+   },
+   "structural_break": {
+    "mean_shift_between_halves": 0.2784490112806901,
+    "standardized": 2.99721132101395,
+    "flag": false,
+    "note": "A shift between the two halves of the record: climate change, a change in the POWER/MERRA-2 inputs, or both; it is not diagnosed further here."
+   },
+   "failures": {
+    "sarima_101_011": {
+     "dev": 0,
+     "holdout": 0,
+     "errors": [],
+     "not_converged_dev": 0,
+     "not_converged_holdout": 1
+    },
+    "sarima_200_100_ct": {
+     "dev": 0,
+     "holdout": 0,
+     "errors": [],
+     "not_converged_dev": 1,
+     "not_converged_holdout": 1
+    }
+   }
+  },
+  {
+   "location": "Nablus (Mediterranean, semi-arid)",
+   "variable": "relative_humidity",
+   "unit": "%",
+   "n_months": 549,
+   "cutoff": "2026-09-01",
+   "selected": "sarima_101_011",
+   "best_baseline": "clim",
+   "holdout_origins": 13,
+   "dev_origins": 18,
+   "holdout_obs": 312,
+   "skill_1-3": {
+    "status": "not_distinguishable_from_baseline",
+    "ratio_mae_model_over_baseline": 0.9201885931485877,
+    "ci95": [
+     0.8391976130492166,
+     1.0343509528403037
+    ],
+    "mae_selected": 3.010027229451692
+   },
+   "skill_4-6": {
+    "status": "worse_than_baseline",
+    "ratio_mae_model_over_baseline": 1.0292818354458932,
+    "ci95": [
+     1.001632883491714,
+     1.0531678950496552
+    ],
+    "mae_selected": 3.2962959126883407
+   },
+   "skill_7-12": {
+    "status": "worse_than_baseline",
+    "ratio_mae_model_over_baseline": 1.0028864418674173,
+    "ci95": [
+     1.0017986582161476,
+     1.006101516130696
+    ],
+    "mae_selected": 3.02745773728166
+   },
+   "skill_13-24": {
+    "status": "not_distinguishable_from_baseline",
+    "ratio_mae_model_over_baseline": 1.003785184473721,
+    "ci95": [
+     0.9972708603189144,
+     1.0078968804733826
+    ],
+    "mae_selected": 2.846553949712174
+   },
+   "selected_mae_by_lead": {
+    "1": 2.437,
+    "3": 2.245,
+    "6": 3.563,
+    "12": 2.838,
+    "18": 2.8,
+    "24": 2.385
+   },
+   "selected_rmse_by_lead": {
+    "1": 3.116,
+    "3": 3.396,
+    "6": 4.458,
+    "12": 3.562,
+    "18": 3.628,
+    "24": 3.016
+   },
+   "selected_bias_by_lead": {
+    "1": -0.622,
+    "3": -1.394,
+    "6": -1.337,
+    "12": -0.661,
+    "18": -0.635,
+    "24": 0.12
+   },
+   "baseline_mae_by_lead": {
+    "1": 3.151,
+    "3": 2.263,
+    "6": 3.533,
+    "12": 2.826,
+    "18": 2.765,
+    "24": 2.374
+   },
+   "coverage95_holdout": {
+    "nominal": {
+     "1-3": 0.8717948717948718,
+     "4-6": 0.8461538461538461,
+     "7-12": 0.8846153846153846,
+     "13-24": 0.8974358974358975
+    },
+    "calibrated": {
+     "1-3": 0.9230769230769231,
+     "4-6": 0.7692307692307693,
+     "7-12": 0.7692307692307693,
+     "13-24": 0.8141025641025641
+    }
+   },
+   "coverage80_holdout": {
+    "nominal": {
+     "1-3": 0.7692307692307693,
+     "4-6": 0.6923076923076923,
+     "7-12": 0.7948717948717948,
+     "13-24": 0.8141025641025641
+    },
+    "calibrated": {
+     "1-3": 0.7435897435897436,
+     "4-6": 0.6923076923076923,
+     "7-12": 0.5512820512820513,
+     "13-24": 0.6410256410256411
+    }
+   },
+   "structural_break": {
+    "mean_shift_between_halves": -0.4778093165228928,
+    "standardized": -1.6642995529853364,
+    "flag": false,
+    "note": "A shift between the two halves of the record: climate change, a change in the POWER/MERRA-2 inputs, or both; it is not diagnosed further here."
+   },
+   "failures": {
+    "sarima_011_011": {
+     "dev": 0,
+     "holdout": 0,
+     "errors": [],
+     "not_converged_dev": 1,
+     "not_converged_holdout": 0
+    },
+    "sarima_200_100_ct": {
+     "dev": 0,
+     "holdout": 0,
+     "errors": [],
+     "not_converged_dev": 3,
+     "not_converged_holdout": 4
+    }
+   }
+  },
+  {
+   "location": "Nablus (Mediterranean, semi-arid)",
+   "variable": "wind_speed",
+   "unit": "m/s",
+   "n_months": 549,
+   "cutoff": "2026-09-01",
+   "selected": "ets_aada",
+   "best_baseline": "clim",
+   "holdout_origins": 13,
+   "dev_origins": 18,
+   "holdout_obs": 312,
+   "skill_1-3": {
+    "status": "not_distinguishable_from_baseline",
+    "ratio_mae_model_over_baseline": 0.988515267553536,
+    "ci95": [
+     0.9792561869367988,
+     1.0043842260402687
+    ],
+    "mae_selected": 0.13750696801103326
+   },
+   "skill_4-6": {
+    "status": "not_distinguishable_from_baseline",
+    "ratio_mae_model_over_baseline": 0.9723862294421817,
+    "ci95": [
+     0.9525180582427103,
+     0.9995775334800829
+    ],
+    "mae_selected": 0.12563811911607317
+   },
+   "skill_7-12": {
+    "status": "not_distinguishable_from_baseline",
+    "ratio_mae_model_over_baseline": 1.0073985023083374,
+    "ci95": [
+     0.9955267663498646,
+     1.0126781620978325
+    ],
+    "mae_selected": 0.12221199486665121
+   },
+   "skill_13-24": {
+    "status": "not_distinguishable_from_baseline",
+    "ratio_mae_model_over_baseline": 1.0018896276868245,
+    "ci95": [
+     0.9955763549318882,
+     1.0038497257872276
+    ],
+    "mae_selected": 0.12413833462725482
+   },
+   "selected_mae_by_lead": {
+    "1": 0.119,
+    "3": 0.167,
+    "6": 0.095,
+    "12": 0.099,
+    "18": 0.107,
+    "24": 0.096
+   },
+   "selected_rmse_by_lead": {
+    "1": 0.15,
+    "3": 0.212,
+    "6": 0.115,
+    "12": 0.119,
+    "18": 0.123,
+    "24": 0.11
+   },
+   "selected_bias_by_lead": {
+    "1": 0.003,
+    "3": -0.011,
+    "6": 0.001,
+    "12": 0.006,
+    "18": 0.004,
+    "24": 0.032
+   },
+   "baseline_mae_by_lead": {
+    "1": 0.116,
+    "3": 0.171,
+    "6": 0.098,
+    "12": 0.103,
+    "18": 0.105,
+    "24": 0.1
+   },
+   "coverage95_holdout": {
+    "nominal": {
+     "1-3": 0.9743589743589743,
+     "4-6": 0.9743589743589743,
+     "7-12": 0.9871794871794872,
+     "13-24": 0.9871794871794872
+    },
+    "calibrated": {
+     "1-3": 0.9487179487179487,
+     "4-6": 1.0,
+     "7-12": 0.8846153846153846,
+     "13-24": 0.9423076923076923
+    }
+   },
+   "coverage80_holdout": {
+    "nominal": {
+     "1-3": 0.8205128205128205,
+     "4-6": 0.8717948717948718,
+     "7-12": 0.8974358974358975,
+     "13-24": 0.8846153846153846
+    },
+    "calibrated": {
+     "1-3": 0.8717948717948718,
+     "4-6": 0.8974358974358975,
+     "7-12": 0.7307692307692307,
+     "13-24": 0.8397435897435898
+    }
+   },
+   "structural_break": {
+    "mean_shift_between_halves": -0.0068674585268745664,
+    "standardized": -0.43839342492140815,
+    "flag": false,
+    "note": "A shift between the two halves of the record: climate change, a change in the POWER/MERRA-2 inputs, or both; it is not diagnosed further here."
+   },
+   "failures": {
+    "sarima_101_011": {
+     "dev": 0,
+     "holdout": 0,
+     "errors": [],
+     "not_converged_dev": 1,
+     "not_converged_holdout": 0
+    },
+    "sarima_200_100_ct": {
+     "dev": 0,
+     "holdout": 0,
+     "errors": [],
+     "not_converged_dev": 5,
+     "not_converged_holdout": 3
+    }
+   }
+  },
+  {
+   "location": "Cairo (hot desert)",
+   "variable": "air_temperature",
+   "unit": "\u00b0C",
+   "n_months": 549,
+   "cutoff": "2026-09-01",
+   "selected": "sarima_011_011",
+   "best_baseline": "clim_trend",
+   "holdout_origins": 13,
+   "dev_origins": 18,
+   "holdout_obs": 312,
+   "skill_1-3": {
+    "status": "not_distinguishable_from_baseline",
+    "ratio_mae_model_over_baseline": 1.0880635817779531,
+    "ci95": [
+     0.9428683165430305,
+     1.224376745242298
+    ],
+    "mae_selected": 0.983539322161832
+   },
+   "skill_4-6": {
+    "status": "not_distinguishable_from_baseline",
+    "ratio_mae_model_over_baseline": 1.0811307943596555,
+    "ci95": [
+     0.9654973603610105,
+     1.2770973957739062
+    ],
+    "mae_selected": 1.0477961462261818
+   },
+   "skill_7-12": {
+    "status": "worse_than_baseline",
+    "ratio_mae_model_over_baseline": 1.0940361872067408,
+    "ci95": [
+     1.0012295043551576,
+     1.1904267612146315
+    ],
+    "mae_selected": 0.9978529005960842
+   },
+   "skill_13-24": {
+    "status": "worse_than_baseline",
+    "ratio_mae_model_over_baseline": 1.1345041940309046,
+    "ci95": [
+     1.0155932944829353,
+     1.299633637566667
+    ],
+    "mae_selected": 1.0601301730720365
+   },
+   "selected_mae_by_lead": {
+    "1": 0.964,
+    "3": 1.13,
+    "6": 1.177,
+    "12": 1.135,
+    "18": 1.285,
+    "24": 1.198
+   },
+   "selected_rmse_by_lead": {
+    "1": 1.172,
+    "3": 1.243,
+    "6": 1.519,
+    "12": 1.488,
+    "18": 1.608,
+    "24": 1.396
+   },
+   "selected_bias_by_lead": {
+    "1": 0.19,
+    "3": -0.379,
+    "6": 0.01,
+    "12": -0.069,
+    "18": -0.019,
+    "24": -0.096
+   },
+   "baseline_mae_by_lead": {
+    "1": 0.906,
+    "3": 0.97,
+    "6": 1.132,
+    "12": 1.062,
+    "18": 1.113,
+    "24": 1.054
+   },
+   "coverage95_holdout": {
+    "nominal": {
+     "1-3": 0.9743589743589743,
+     "4-6": 0.9487179487179487,
+     "7-12": 0.9487179487179487,
+     "13-24": 0.9743589743589743
+    },
+    "calibrated": {
+     "1-3": 0.8717948717948718,
+     "4-6": 0.9487179487179487,
+     "7-12": 0.7692307692307693,
+     "13-24": 0.8525641025641025
+    }
+   },
+   "coverage80_holdout": {
+    "nominal": {
+     "1-3": 0.717948717948718,
+     "4-6": 0.7435897435897436,
+     "7-12": 0.7435897435897436,
+     "13-24": 0.8076923076923077
+    },
+    "calibrated": {
+     "1-3": 0.6666666666666666,
+     "4-6": 0.8461538461538461,
+     "7-12": 0.5897435897435898,
+     "13-24": 0.5961538461538461
+    }
+   },
+   "structural_break": {
+    "mean_shift_between_halves": 0.7059711745189117,
+    "standardized": 7.632723083739072,
+    "flag": true,
+    "note": "A shift between the two halves of the record: climate change, a change in the POWER/MERRA-2 inputs, or both; it is not diagnosed further here."
+   },
+   "failures": {
+    "sarima_200_100_ct": {
+     "dev": 0,
+     "holdout": 0,
+     "errors": [],
+     "not_converged_dev": 0,
+     "not_converged_holdout": 2
+    }
+   }
+  },
+  {
+   "location": "Cairo (hot desert)",
+   "variable": "precipitation",
+   "unit": "mm/day",
+   "n_months": 549,
+   "cutoff": "2026-09-01",
+   "selected": "sarima_011_011",
+   "best_baseline": "clim_trend",
+   "holdout_origins": 13,
+   "dev_origins": 18,
+   "holdout_obs": 312,
+   "skill_1-3": {
+    "status": "worse_than_baseline",
+    "ratio_mae_model_over_baseline": 1.3705649574889276,
+    "ci95": [
+     1.1548573830832323,
+     1.4991703314943092
+    ],
+    "mae_selected": 0.34612622690054445
+   },
+   "skill_4-6": {
+    "status": "not_distinguishable_from_baseline",
+    "ratio_mae_model_over_baseline": 1.0307890673806548,
+    "ci95": [
+     0.9284935069196819,
+     1.0832407588917647
+    ],
+    "mae_selected": 0.41388028478291894
+   },
+   "skill_7-12": {
+    "status": "worse_than_baseline",
+    "ratio_mae_model_over_baseline": 1.1057753226487468,
+    "ci95": [
+     1.0025835747435354,
+     1.146999895371201
+    ],
+    "mae_selected": 0.3599950720047828
+   },
+   "skill_13-24": {
+    "status": "worse_than_baseline",
+    "ratio_mae_model_over_baseline": 1.163402718570642,
+    "ci95": [
+     1.0359899344620493,
+     1.339886551921939
+    ],
+    "mae_selected": 0.36219970455714845
+   },
+   "selected_mae_by_lead": {
+    "1": 0.535,
+    "3": 0.224,
+    "6": 0.598,
+    "12": 0.587,
+    "18": 0.633,
+    "24": 0.478
+   },
+   "selected_rmse_by_lead": {
+    "1": 0.874,
+    "3": 0.349,
+    "6": 1.088,
+    "12": 1.078,
+    "18": 1.144,
+    "24": 0.954
+   },
+   "selected_bias_by_lead": {
+    "1": -0.151,
+    "3": -0.066,
+    "6": -0.46,
+    "12": -0.433,
+    "18": -0.463,
+    "24": -0.262
+   },
+   "baseline_mae_by_lead": {
+    "1": 0.434,
+    "3": 0.224,
+    "6": 0.593,
+    "12": 0.59,
+    "18": 0.602,
+    "24": 0.43
+   },
+   "coverage95_holdout": {
+    "nominal": {
+     "1-3": 0.7948717948717948,
+     "4-6": 0.8461538461538461,
+     "7-12": 0.8205128205128205,
+     "13-24": 0.8333333333333334
+    },
+    "calibrated": {
+     "1-3": 0.5641025641025641,
+     "4-6": 0.717948717948718,
+     "7-12": 0.3333333333333333,
+     "13-24": 0.42948717948717946
+    }
+   },
+   "coverage80_holdout": {
+    "nominal": {
+     "1-3": 0.5897435897435898,
+     "4-6": 0.6666666666666666,
+     "7-12": 0.6794871794871795,
+     "13-24": 0.6346153846153846
+    },
+    "calibrated": {
+     "1-3": 0.3333333333333333,
+     "4-6": 0.4358974358974359,
+     "7-12": 0.14102564102564102,
+     "13-24": 0.2564102564102564
+    }
+   },
+   "structural_break": {
+    "mean_shift_between_halves": 0.08065600530856006,
+    "standardized": 2.2334257737597336,
+    "flag": false,
+    "note": "A shift between the two halves of the record: climate change, a change in the POWER/MERRA-2 inputs, or both; it is not diagnosed further here."
+   },
+   "failures": {
+    "sarima_101_011": {
+     "dev": 0,
+     "holdout": 0,
+     "errors": [],
+     "not_converged_dev": 1,
+     "not_converged_holdout": 0
+    },
+    "sarima_011_011": {
+     "dev": 0,
+     "holdout": 0,
+     "errors": [],
+     "not_converged_dev": 1,
+     "not_converged_holdout": 0
+    },
+    "sarima_200_100_ct": {
+     "dev": 0,
+     "holdout": 0,
+     "errors": [],
+     "not_converged_dev": 1,
+     "not_converged_holdout": 0
+    }
+   }
+  },
+  {
+   "location": "Cairo (hot desert)",
+   "variable": "relative_humidity",
+   "unit": "%",
+   "n_months": 549,
+   "cutoff": "2026-09-01",
+   "selected": "sarima_101_011",
+   "best_baseline": "clim",
+   "holdout_origins": 13,
+   "dev_origins": 18,
+   "holdout_obs": 312,
+   "skill_1-3": {
+    "status": "validated",
+    "ratio_mae_model_over_baseline": 0.9117196128183196,
+    "ci95": [
+     0.815009351099522,
+     0.9686618360383229
+    ],
+    "mae_selected": 2.900115420275791
+   },
+   "skill_4-6": {
+    "status": "not_distinguishable_from_baseline",
+    "ratio_mae_model_over_baseline": 1.0546989772638005,
+    "ci95": [
+     0.9794120972737809,
+     1.0956598517513016
+    ],
+    "mae_selected": 3.816167370305612
+   },
+   "skill_7-12": {
+    "status": "not_distinguishable_from_baseline",
+    "ratio_mae_model_over_baseline": 0.9923204005801738,
+    "ci95": [
+     0.908407403501261,
+     1.020799252177124
+    ],
+    "mae_selected": 3.236630110806578
+   },
+   "skill_13-24": {
+    "status": "not_distinguishable_from_baseline",
+    "ratio_mae_model_over_baseline": 1.00649397130978,
+    "ci95": [
+     0.9277227844936461,
+     1.0842375887516447
+    ],
+    "mae_selected": 3.3052999696182326
+   },
+   "selected_mae_by_lead": {
+    "1": 2.498,
+    "3": 2.486,
+    "6": 3.905,
+    "12": 3.716,
+    "18": 3.89,
+    "24": 3.245
+   },
+   "selected_rmse_by_lead": {
+    "1": 3.479,
+    "3": 3.144,
+    "6": 5.128,
+    "12": 4.993,
+    "18": 5.316,
+    "24": 4.607
+   },
+   "selected_bias_by_lead": {
+    "1": -1.144,
+    "3": -1.057,
+    "6": -2.543,
+    "12": -2.376,
+    "18": -2.451,
+    "24": -1.588
+   },
+   "baseline_mae_by_lead": {
+    "1": 3.466,
+    "3": 2.718,
+    "6": 3.651,
+    "12": 3.601,
+    "18": 3.528,
+    "24": 3.016
+   },
+   "coverage95_holdout": {
+    "nominal": {
+     "1-3": 0.8974358974358975,
+     "4-6": 0.7948717948717948,
+     "7-12": 0.8589743589743589,
+     "13-24": 0.8589743589743589
+    },
+    "calibrated": {
+     "1-3": 0.9230769230769231,
+     "4-6": 0.8974358974358975,
+     "7-12": 0.7692307692307693,
+     "13-24": 0.8333333333333334
+    }
+   },
+   "coverage80_holdout": {
+    "nominal": {
+     "1-3": 0.7948717948717948,
+     "4-6": 0.6923076923076923,
+     "7-12": 0.7692307692307693,
+     "13-24": 0.7884615384615384
+    },
+    "calibrated": {
+     "1-3": 0.8717948717948718,
+     "4-6": 0.7435897435897436,
+     "7-12": 0.6025641025641025,
+     "13-24": 0.717948717948718
+    }
+   },
+   "structural_break": {
+    "mean_shift_between_halves": 0.21044149966821524,
+    "standardized": 0.6443926427533512,
+    "flag": false,
+    "note": "A shift between the two halves of the record: climate change, a change in the POWER/MERRA-2 inputs, or both; it is not diagnosed further here."
+   },
+   "failures": {
+    "sarima_101_011": {
+     "dev": 0,
+     "holdout": 0,
+     "errors": [],
+     "not_converged_dev": 0,
+     "not_converged_holdout": 1
+    },
+    "sarima_200_100_ct": {
+     "dev": 0,
+     "holdout": 0,
+     "errors": [],
+     "not_converged_dev": 2,
+     "not_converged_holdout": 5
+    }
+   }
+  },
+  {
+   "location": "Cairo (hot desert)",
+   "variable": "wind_speed",
+   "unit": "m/s",
+   "n_months": 549,
+   "cutoff": "2026-09-01",
+   "selected": "sarima_101_011",
+   "best_baseline": "clim",
+   "holdout_origins": 13,
+   "dev_origins": 18,
+   "holdout_obs": 312,
+   "skill_1-3": {
+    "status": "not_distinguishable_from_baseline",
+    "ratio_mae_model_over_baseline": 0.9619946058234053,
+    "ci95": [
+     0.9363134510381829,
+     1.0192917847564535
+    ],
+    "mae_selected": 0.15188821546131287
+   },
+   "skill_4-6": {
+    "status": "not_distinguishable_from_baseline",
+    "ratio_mae_model_over_baseline": 1.0053339483220043,
+    "ci95": [
+     0.9022052469489525,
+     1.0641558667528674
+    ],
+    "mae_selected": 0.17486342704455565
+   },
+   "skill_7-12": {
+    "status": "not_distinguishable_from_baseline",
+    "ratio_mae_model_over_baseline": 0.9994153591448373,
+    "ci95": [
+     0.9393374460559357,
+     1.055066188690209
+    ],
+    "mae_selected": 0.15620908064549133
+   },
+   "skill_13-24": {
+    "status": "not_distinguishable_from_baseline",
+    "ratio_mae_model_over_baseline": 1.008998404393954,
+    "ci95": [
+     0.9509422297682206,
+     1.0714294799191364
+    ],
+    "mae_selected": 0.15508305877821915
+   },
+   "selected_mae_by_lead": {
+    "1": 0.149,
+    "3": 0.165,
+    "6": 0.189,
+    "12": 0.182,
+    "18": 0.188,
+    "24": 0.183
+   },
+   "selected_rmse_by_lead": {
+    "1": 0.168,
+    "3": 0.206,
+    "6": 0.211,
+    "12": 0.203,
+    "18": 0.212,
+    "24": 0.207
+   },
+   "selected_bias_by_lead": {
+    "1": -0.024,
+    "3": -0.04,
+    "6": -0.001,
+    "12": 0.031,
+    "18": 0.029,
+    "24": 0.062
+   },
+   "baseline_mae_by_lead": {
+    "1": 0.16,
+    "3": 0.164,
+    "6": 0.185,
+    "12": 0.173,
+    "18": 0.175,
+    "24": 0.167
+   },
+   "coverage95_holdout": {
+    "nominal": {
+     "1-3": 0.9487179487179487,
+     "4-6": 0.8974358974358975,
+     "7-12": 0.9487179487179487,
+     "13-24": 0.9615384615384616
+    },
+    "calibrated": {
+     "1-3": 0.9743589743589743,
+     "4-6": 0.9743589743589743,
+     "7-12": 0.8589743589743589,
+     "13-24": 0.9358974358974359
+    }
+   },
+   "coverage80_holdout": {
+    "nominal": {
+     "1-3": 0.9230769230769231,
+     "4-6": 0.7948717948717948,
+     "7-12": 0.8846153846153846,
+     "13-24": 0.8974358974358975
+    },
+    "calibrated": {
+     "1-3": 0.8461538461538461,
+     "4-6": 0.8717948717948718,
+     "7-12": 0.7051282051282052,
+     "13-24": 0.8076923076923077
+    }
+   },
+   "structural_break": {
+    "mean_shift_between_halves": 0.012118234903782355,
+    "standardized": 0.6715448057078726,
+    "flag": false,
+    "note": "A shift between the two halves of the record: climate change, a change in the POWER/MERRA-2 inputs, or both; it is not diagnosed further here."
+   },
+   "failures": {
+    "sarima_200_100_ct": {
+     "dev": 0,
+     "holdout": 0,
+     "errors": [],
+     "not_converged_dev": 4,
+     "not_converged_holdout": 3
+    }
+   }
+  },
+  {
+   "location": "Riyadh (arid)",
+   "variable": "air_temperature",
+   "unit": "\u00b0C",
+   "n_months": 549,
+   "cutoff": "2026-09-01",
+   "selected": "ets_ana",
+   "best_baseline": "clim_trend",
+   "holdout_origins": 13,
+   "dev_origins": 18,
+   "holdout_obs": 312,
+   "skill_1-3": {
+    "status": "not_distinguishable_from_baseline",
+    "ratio_mae_model_over_baseline": 1.0059382009262974,
+    "ci95": [
+     0.9763513360756195,
+     1.029909971655195
+    ],
+    "mae_selected": 0.8892374393619092
+   },
+   "skill_4-6": {
+    "status": "not_distinguishable_from_baseline",
+    "ratio_mae_model_over_baseline": 0.9982161158417566,
+    "ci95": [
+     0.9552942522835811,
+     1.0429347341826634
+    ],
+    "mae_selected": 0.8040675609542659
+   },
+   "skill_7-12": {
+    "status": "worse_than_baseline",
+    "ratio_mae_model_over_baseline": 1.0451855137216621,
+    "ci95": [
+     1.00914211110651,
+     1.0778796060524505
+    ],
+    "mae_selected": 0.8477781837884449
+   },
+   "skill_13-24": {
+    "status": "worse_than_baseline",
+    "ratio_mae_model_over_baseline": 1.0293750427623078,
+    "ci95": [
+     1.0086491161925775,
+     1.044458686048921
+    ],
+    "mae_selected": 0.8852020049171441
+   },
+   "selected_mae_by_lead": {
+    "1": 1.191,
+    "3": 0.517,
+    "6": 0.823,
+    "12": 0.674,
+    "18": 0.728,
+    "24": 0.783
+   },
+   "selected_rmse_by_lead": {
+    "1": 1.56,
+    "3": 0.656,
+    "6": 1.109,
+    "12": 0.922,
+    "18": 0.927,
+    "24": 0.966
+   },
+   "selected_bias_by_lead": {
+    "1": 0.436,
+    "3": -0.374,
+    "6": 0.156,
+    "12": -0.032,
+    "18": 0.118,
+    "24": 0.004
+   },
+   "baseline_mae_by_lead": {
+    "1": 1.2,
+    "3": 0.525,
+    "6": 0.833,
+    "12": 0.683,
+    "18": 0.724,
+    "24": 0.777
+   },
+   "coverage95_holdout": {
+    "nominal": {
+     "1-3": 0.8974358974358975,
+     "4-6": 0.9487179487179487,
+     "7-12": 0.9358974358974359,
+     "13-24": 0.967948717948718
+    },
+    "calibrated": {
+     "1-3": 0.8461538461538461,
+     "4-6": 0.9743589743589743,
+     "7-12": 0.7692307692307693,
+     "13-24": 0.8461538461538461
+    }
+   },
+   "coverage80_holdout": {
+    "nominal": {
+     "1-3": 0.7692307692307693,
+     "4-6": 0.8205128205128205,
+     "7-12": 0.8205128205128205,
+     "13-24": 0.8397435897435898
+    },
+    "calibrated": {
+     "1-3": 0.717948717948718,
+     "4-6": 0.8461538461538461,
+     "7-12": 0.6410256410256411,
+     "13-24": 0.6410256410256411
+    }
+   },
+   "structural_break": {
+    "mean_shift_between_halves": 0.838360199071002,
+    "standardized": 8.623601249713358,
+    "flag": true,
+    "note": "A shift between the two halves of the record: climate change, a change in the POWER/MERRA-2 inputs, or both; it is not diagnosed further here."
+   },
+   "failures": {
+    "sarima_101_011": {
+     "dev": 0,
+     "holdout": 0,
+     "errors": [],
+     "not_converged_dev": 0,
+     "not_converged_holdout": 1
+    },
+    "sarima_200_100_ct": {
+     "dev": 0,
+     "holdout": 0,
+     "errors": [],
+     "not_converged_dev": 1,
+     "not_converged_holdout": 0
+    }
+   }
+  },
+  {
+   "location": "Riyadh (arid)",
+   "variable": "precipitation",
+   "unit": "mm/day",
+   "n_months": 549,
+   "cutoff": "2026-09-01",
+   "selected": "sarima_200_100_ct",
+   "best_baseline": "clim_trend",
+   "holdout_origins": 13,
+   "dev_origins": 18,
+   "holdout_obs": 312,
+   "skill_1-3": {
+    "status": "not_distinguishable_from_baseline",
+    "ratio_mae_model_over_baseline": 0.9640723005088728,
+    "ci95": [
+     0.901334901206158,
+     1.1010971630736144
+    ],
+    "mae_selected": 0.1861638201463998
+   },
+   "skill_4-6": {
+    "status": "not_distinguishable_from_baseline",
+    "ratio_mae_model_over_baseline": 1.0367078398843332,
+    "ci95": [
+     0.9119134898040538,
+     1.1676415462700878
+    ],
+    "mae_selected": 0.21013185570975937
+   },
+   "skill_7-12": {
+    "status": "not_distinguishable_from_baseline",
+    "ratio_mae_model_over_baseline": 1.059963286131031,
+    "ci95": [
+     0.971693368499935,
+     1.1519135066701944
+    ],
+    "mae_selected": 0.19486104363451956
+   },
+   "skill_13-24": {
+    "status": "worse_than_baseline",
+    "ratio_mae_model_over_baseline": 1.0451728324628593,
+    "ci95": [
+     1.000298987055755,
+     1.069229596318504
+    ],
+    "mae_selected": 0.21618420480128206
+   },
+   "selected_mae_by_lead": {
+    "1": 0.259,
+    "3": 0.185,
+    "6": 0.165,
+    "12": 0.167,
+    "18": 0.26,
+    "24": 0.261
+   },
+   "selected_rmse_by_lead": {
+    "1": 0.41,
+    "3": 0.407,
+    "6": 0.342,
+    "12": 0.345,
+    "18": 0.468,
+    "24": 0.469
+   },
+   "selected_bias_by_lead": {
+    "1": -0.222,
+    "3": -0.111,
+    "6": -0.154,
+    "12": -0.155,
+    "18": -0.245,
+    "24": -0.246
+   },
+   "baseline_mae_by_lead": {
+    "1": 0.287,
+    "3": 0.161,
+    "6": 0.192,
+    "12": 0.186,
+    "18": 0.256,
+    "24": 0.25
+   },
+   "coverage95_holdout": {
+    "nominal": {
+     "1-3": 0.9230769230769231,
+     "4-6": 0.8461538461538461,
+     "7-12": 0.8717948717948718,
+     "13-24": 0.8525641025641025
+    },
+    "calibrated": {
+     "1-3": 0.9743589743589743,
+     "4-6": 0.9230769230769231,
+     "7-12": 0.47435897435897434,
+     "13-24": 0.5448717948717948
+    }
+   },
+   "coverage80_holdout": {
+    "nominal": {
+     "1-3": 0.7692307692307693,
+     "4-6": 0.7692307692307693,
+     "7-12": 0.782051282051282,
+     "13-24": 0.8012820512820513
+    },
+    "calibrated": {
+     "1-3": 0.7435897435897436,
+     "4-6": 0.717948717948718,
+     "7-12": 0.19230769230769232,
+     "13-24": 0.30128205128205127
+    }
+   },
+   "structural_break": {
+    "mean_shift_between_halves": -0.00870029197080292,
+    "standardized": -0.3380401098607445,
+    "flag": false,
+    "note": "A shift between the two halves of the record: climate change, a change in the POWER/MERRA-2 inputs, or both; it is not diagnosed further here."
+   },
+   "failures": {
+    "sarima_101_011": {
+     "dev": 0,
+     "holdout": 0,
+     "errors": [],
+     "not_converged_dev": 0,
+     "not_converged_holdout": 1
+    },
+    "sarima_200_100_ct": {
+     "dev": 0,
+     "holdout": 0,
+     "errors": [],
+     "not_converged_dev": 4,
+     "not_converged_holdout": 2
+    }
+   }
+  },
+  {
+   "location": "Riyadh (arid)",
+   "variable": "relative_humidity",
+   "unit": "%",
+   "n_months": 549,
+   "cutoff": "2026-09-01",
+   "selected": "sarima_011_011",
+   "best_baseline": "clim_trend",
+   "holdout_origins": 13,
+   "dev_origins": 18,
+   "holdout_obs": 312,
+   "skill_1-3": {
+    "status": "not_distinguishable_from_baseline",
+    "ratio_mae_model_over_baseline": 0.8607968627833443,
+    "ci95": [
+     0.6901167995256506,
+     1.1021175481872598
+    ],
+    "mae_selected": 4.629452273489019
+   },
+   "skill_4-6": {
+    "status": "not_distinguishable_from_baseline",
+    "ratio_mae_model_over_baseline": 0.9908228506126157,
+    "ci95": [
+     0.888604058845527,
+     1.219937229224035
+    ],
+    "mae_selected": 4.813919221305172
+   },
+   "skill_7-12": {
+    "status": "not_distinguishable_from_baseline",
+    "ratio_mae_model_over_baseline": 1.0373329227622854,
+    "ci95": [
+     0.9313546859111745,
+     1.0929768075546111
+    ],
+    "mae_selected": 4.93925413752865
+   },
+   "skill_13-24": {
+    "status": "worse_than_baseline",
+    "ratio_mae_model_over_baseline": 1.1324824161702762,
+    "ci95": [
+     1.0314849967301019,
+     1.2260065572952907
+    ],
+    "mae_selected": 5.9602333956519225
+   },
+   "selected_mae_by_lead": {
+    "1": 4.521,
+    "3": 4.63,
+    "6": 4.735,
+    "12": 4.312,
+    "18": 6.162,
+    "24": 5.628
+   },
+   "selected_rmse_by_lead": {
+    "1": 5.878,
+    "3": 6.504,
+    "6": 6.547,
+    "12": 6.466,
+    "18": 7.884,
+    "24": 7.736
+   },
+   "selected_bias_by_lead": {
+    "1": -1.274,
+    "3": 0.836,
+    "6": -0.207,
+    "12": -0.282,
+    "18": -1.349,
+    "24": -1.51
+   },
+   "baseline_mae_by_lead": {
+    "1": 6.27,
+    "3": 4.271,
+    "6": 5.245,
+    "12": 5.26,
+    "18": 6.326,
+    "24": 6.058
+   },
+   "coverage95_holdout": {
+    "nominal": {
+     "1-3": 0.9487179487179487,
+     "4-6": 0.8974358974358975,
+     "7-12": 0.9230769230769231,
+     "13-24": 0.9423076923076923
+    },
+    "calibrated": {
+     "1-3": 0.9743589743589743,
+     "4-6": 0.9230769230769231,
+     "7-12": 0.6794871794871795,
+     "13-24": 0.6858974358974359
+    }
+   },
+   "coverage80_holdout": {
+    "nominal": {
+     "1-3": 0.6923076923076923,
+     "4-6": 0.717948717948718,
+     "7-12": 0.8076923076923077,
+     "13-24": 0.782051282051282
+    },
+    "calibrated": {
+     "1-3": 0.7692307692307693,
+     "4-6": 0.7435897435897436,
+     "7-12": 0.47435897435897434,
+     "13-24": 0.4935897435897436
+    }
+   },
+   "structural_break": {
+    "mean_shift_between_halves": -0.8798976775049767,
+    "standardized": -1.7654064970766166,
+    "flag": false,
+    "note": "A shift between the two halves of the record: climate change, a change in the POWER/MERRA-2 inputs, or both; it is not diagnosed further here."
+   },
+   "failures": {
+    "sarima_101_011": {
+     "dev": 0,
+     "holdout": 0,
+     "errors": [],
+     "not_converged_dev": 1,
+     "not_converged_holdout": 0
+    },
+    "sarima_200_100_ct": {
+     "dev": 0,
+     "holdout": 0,
+     "errors": [],
+     "not_converged_dev": 4,
+     "not_converged_holdout": 2
+    }
+   }
+  },
+  {
+   "location": "Riyadh (arid)",
+   "variable": "wind_speed",
+   "unit": "m/s",
+   "n_months": 549,
+   "cutoff": "2026-09-01",
+   "selected": "ets_aada",
+   "best_baseline": "clim",
+   "holdout_origins": 13,
+   "dev_origins": 18,
+   "holdout_obs": 312,
+   "skill_1-3": {
+    "status": "not_distinguishable_from_baseline",
+    "ratio_mae_model_over_baseline": 1.0002403183380497,
+    "ci95": [
+     0.9997178445464225,
+     1.0008383845715616
+    ],
+    "mae_selected": 0.19215112513864402
+   },
+   "skill_4-6": {
+    "status": "not_distinguishable_from_baseline",
+    "ratio_mae_model_over_baseline": 1.0009308559702625,
+    "ci95": [
+     0.9996800264887126,
+     1.0022839220040443
+    ],
+    "mae_selected": 0.23144089065183632
+   },
+   "skill_7-12": {
+    "status": "not_distinguishable_from_baseline",
+    "ratio_mae_model_over_baseline": 1.0004037696936414,
+    "ci95": [
+     0.9999410548788431,
+     1.0008428001610978
+    ],
+    "mae_selected": 0.20644354671060536
+   },
+   "skill_13-24": {
+    "status": "not_distinguishable_from_baseline",
+    "ratio_mae_model_over_baseline": 1.0000540583250364,
+    "ci95": [
+     0.9996607458106022,
+     1.0004526784311585
+    ],
+    "mae_selected": 0.19632700478423196
+   },
+   "selected_mae_by_lead": {
+    "1": 0.198,
+    "3": 0.175,
+    "6": 0.168,
+    "12": 0.149,
+    "18": 0.154,
+    "24": 0.154
+   },
+   "selected_rmse_by_lead": {
+    "1": 0.252,
+    "3": 0.239,
+    "6": 0.236,
+    "12": 0.222,
+    "18": 0.224,
+    "24": 0.224
+   },
+   "selected_bias_by_lead": {
+    "1": 0.044,
+    "3": 0.028,
+    "6": -0.067,
+    "12": -0.048,
+    "18": -0.065,
+    "24": -0.074
+   },
+   "baseline_mae_by_lead": {
+    "1": 0.198,
+    "3": 0.176,
+    "6": 0.168,
+    "12": 0.149,
+    "18": 0.154,
+    "24": 0.153
+   },
+   "coverage95_holdout": {
+    "nominal": {
+     "1-3": 0.9743589743589743,
+     "4-6": 0.9230769230769231,
+     "7-12": 0.9487179487179487,
+     "13-24": 0.9487179487179487
+    },
+    "calibrated": {
+     "1-3": 0.9743589743589743,
+     "4-6": 0.8205128205128205,
+     "7-12": 0.9358974358974359,
+     "13-24": 0.9294871794871795
+    }
+   },
+   "coverage80_holdout": {
+    "nominal": {
+     "1-3": 0.8461538461538461,
+     "4-6": 0.7948717948717948,
+     "7-12": 0.8205128205128205,
+     "13-24": 0.8141025641025641
+    },
+    "calibrated": {
+     "1-3": 0.9230769230769231,
+     "4-6": 0.6410256410256411,
+     "7-12": 0.7564102564102564,
+     "13-24": 0.7756410256410257
+    }
+   },
+   "structural_break": {
+    "mean_shift_between_halves": 0.00853109489051095,
+    "standardized": 0.37349420887697204,
+    "flag": false,
+    "note": "A shift between the two halves of the record: climate change, a change in the POWER/MERRA-2 inputs, or both; it is not diagnosed further here."
+   },
+   "failures": {
+    "sarima_101_011": {
+     "dev": 0,
+     "holdout": 0,
+     "errors": [],
+     "not_converged_dev": 1,
+     "not_converged_holdout": 1
+    },
+    "sarima_200_100_ct": {
+     "dev": 0,
+     "holdout": 0,
+     "errors": [],
+     "not_converged_dev": 4,
+     "not_converged_holdout": 2
+    }
+   }
+  },
+  {
+   "location": "London (temperate oceanic)",
+   "variable": "air_temperature",
+   "unit": "\u00b0C",
+   "n_months": 549,
+   "cutoff": "2026-09-01",
+   "selected": "ets_ana",
+   "best_baseline": "clim_trend",
+   "holdout_origins": 13,
+   "dev_origins": 18,
+   "holdout_obs": 312,
+   "skill_1-3": {
+    "status": "not_distinguishable_from_baseline",
+    "ratio_mae_model_over_baseline": 1.0225212103481642,
+    "ci95": [
+     0.9919392981572164,
+     1.055513732878341
+    ],
+    "mae_selected": 0.8857812166296865
+   },
+   "skill_4-6": {
+    "status": "worse_than_baseline",
+    "ratio_mae_model_over_baseline": 1.0580173175741687,
+    "ci95": [
+     1.0006683078476974,
+     1.1003998882874595
+    ],
+    "mae_selected": 1.04073185296365
+   },
+   "skill_7-12": {
+    "status": "worse_than_baseline",
+    "ratio_mae_model_over_baseline": 1.0463289891383563,
+    "ci95": [
+     1.01905598016595,
+     1.0824865791282547
+    ],
+    "mae_selected": 0.959325913778089
+   },
+   "skill_13-24": {
+    "status": "not_distinguishable_from_baseline",
+    "ratio_mae_model_over_baseline": 0.9780877254421754,
+    "ci95": [
+     0.9521833352115743,
+     1.0168928546576
+    ],
+    "mae_selected": 0.9647946006128708
+   },
+   "selected_mae_by_lead": {
+    "1": 0.905,
+    "3": 0.91,
+    "6": 0.751,
+    "12": 0.701,
+    "18": 0.746,
+    "24": 0.838
+   },
+   "selected_rmse_by_lead": {
+    "1": 1.192,
+    "3": 1.019,
+    "6": 0.981,
+    "12": 0.931,
+    "18": 1.01,
+    "24": 1.192
+   },
+   "selected_bias_by_lead": {
+    "1": 0.244,
+    "3": -0.295,
+    "6": -0.273,
+    "12": -0.167,
+    "18": -0.273,
+    "24": -0.522
+   },
+   "baseline_mae_by_lead": {
+    "1": 0.863,
+    "3": 0.875,
+    "6": 0.682,
+    "12": 0.618,
+    "18": 0.676,
+    "24": 0.801
+   },
+   "coverage95_holdout": {
+    "nominal": {
+     "1-3": 0.9743589743589743,
+     "4-6": 0.9743589743589743,
+     "7-12": 0.9615384615384616,
+     "13-24": 0.9551282051282052
+    },
+    "calibrated": {
+     "1-3": 0.9487179487179487,
+     "4-6": 0.9743589743589743,
+     "7-12": 0.8846153846153846,
+     "13-24": 0.9166666666666666
+    }
+   },
+   "coverage80_holdout": {
+    "nominal": {
+     "1-3": 0.9230769230769231,
+     "4-6": 0.7948717948717948,
+     "7-12": 0.8461538461538461,
+     "13-24": 0.8461538461538461
+    },
+    "calibrated": {
+     "1-3": 0.9487179487179487,
+     "4-6": 0.8461538461538461,
+     "7-12": 0.7307692307692307,
+     "13-24": 0.8012820512820513
+    }
+   },
+   "structural_break": {
+    "mean_shift_between_halves": 0.8052461446582615,
+    "standardized": 6.824822233502738,
+    "flag": true,
+    "note": "A shift between the two halves of the record: climate change, a change in the POWER/MERRA-2 inputs, or both; it is not diagnosed further here."
+   },
+   "failures": {
+    "sarima_200_100_ct": {
+     "dev": 0,
+     "holdout": 0,
+     "errors": [],
+     "not_converged_dev": 0,
+     "not_converged_holdout": 1
+    }
+   }
+  },
+  {
+   "location": "London (temperate oceanic)",
+   "variable": "precipitation",
+   "unit": "mm/day",
+   "n_months": 549,
+   "cutoff": "2026-09-01",
+   "selected": "sarima_101_011",
+   "best_baseline": "clim",
+   "holdout_origins": 13,
+   "dev_origins": 18,
+   "holdout_obs": 312,
+   "skill_1-3": {
+    "status": "not_distinguishable_from_baseline",
+    "ratio_mae_model_over_baseline": 0.9980680981206083,
+    "ci95": [
+     0.9904273033717272,
+     1.003534419793542
+    ],
+    "mae_selected": 0.873444855516389
+   },
+   "skill_4-6": {
+    "status": "not_distinguishable_from_baseline",
+    "ratio_mae_model_over_baseline": 0.9957904290781529,
+    "ci95": [
+     0.987128847908056,
+     1.0023021129120562
+    ],
+    "mae_selected": 0.6566734503719569
+   },
+   "skill_7-12": {
+    "status": "not_distinguishable_from_baseline",
+    "ratio_mae_model_over_baseline": 0.9979505771321039,
+    "ci95": [
+     0.9959971198202936,
+     1.0006857581718214
+    ],
+    "mae_selected": 0.7769721681771384
+   },
+   "skill_13-24": {
+    "status": "not_distinguishable_from_baseline",
+    "ratio_mae_model_over_baseline": 0.9970319186442822,
+    "ci95": [
+     0.9953456428181918,
+     1.0000850124982457
+    ],
+    "mae_selected": 0.7702590617273112
+   },
+   "selected_mae_by_lead": {
+    "1": 0.924,
+    "3": 0.788,
+    "6": 0.607,
+    "12": 0.597,
+    "18": 0.57,
+    "24": 0.642
+   },
+   "selected_rmse_by_lead": {
+    "1": 1.146,
+    "3": 0.973,
+    "6": 0.801,
+    "12": 0.797,
+    "18": 0.774,
+    "24": 0.817
+   },
+   "selected_bias_by_lead": {
+    "1": -0.263,
+    "3": -0.464,
+    "6": -0.246,
+    "12": -0.191,
+    "18": -0.088,
+    "24": -0.016
+   },
+   "baseline_mae_by_lead": {
+    "1": 0.934,
+    "3": 0.783,
+    "6": 0.609,
+    "12": 0.599,
+    "18": 0.574,
+    "24": 0.644
+   },
+   "coverage95_holdout": {
+    "nominal": {
+     "1-3": 0.8974358974358975,
+     "4-6": 0.9230769230769231,
+     "7-12": 0.8974358974358975,
+     "13-24": 0.8910256410256411
+    },
+    "calibrated": {
+     "1-3": 0.8717948717948718,
+     "4-6": 0.9230769230769231,
+     "7-12": 0.8589743589743589,
+     "13-24": 0.8653846153846154
+    }
+   },
+   "coverage80_holdout": {
+    "nominal": {
+     "1-3": 0.7435897435897436,
+     "4-6": 0.7435897435897436,
+     "7-12": 0.7307692307692307,
+     "13-24": 0.7243589743589743
+    },
+    "calibrated": {
+     "1-3": 0.7692307692307693,
+     "4-6": 0.7692307692307693,
+     "7-12": 0.7307692307692307,
+     "13-24": 0.7243589743589743
+    }
+   },
+   "structural_break": {
+    "mean_shift_between_halves": -0.030629528865295273,
+    "standardized": -0.3923179329792199,
+    "flag": false,
+    "note": "A shift between the two halves of the record: climate change, a change in the POWER/MERRA-2 inputs, or both; it is not diagnosed further here."
+   },
+   "failures": {
+    "sarima_200_100_ct": {
+     "dev": 0,
+     "holdout": 0,
+     "errors": [],
+     "not_converged_dev": 1,
+     "not_converged_holdout": 3
+    }
+   }
+  },
+  {
+   "location": "London (temperate oceanic)",
+   "variable": "relative_humidity",
+   "unit": "%",
+   "n_months": 549,
+   "cutoff": "2026-09-01",
+   "selected": "sarima_101_011",
+   "best_baseline": "clim",
+   "holdout_origins": 13,
+   "dev_origins": 18,
+   "holdout_obs": 312,
+   "skill_1-3": {
+    "status": "not_distinguishable_from_baseline",
+    "ratio_mae_model_over_baseline": 0.9499787005427164,
+    "ci95": [
+     0.875022752249891,
+     1.119563106746075
+    ],
+    "mae_selected": 1.4846377889076938
+   },
+   "skill_4-6": {
+    "status": "not_distinguishable_from_baseline",
+    "ratio_mae_model_over_baseline": 0.9765877680080518,
+    "ci95": [
+     0.931580563939421,
+     1.0447824800272303
+    ],
+    "mae_selected": 2.2032633596652555
+   },
+   "skill_7-12": {
+    "status": "not_distinguishable_from_baseline",
+    "ratio_mae_model_over_baseline": 1.0007732466088783,
+    "ci95": [
+     0.9461714075915723,
+     1.083705351225102
+    ],
+    "mae_selected": 2.2228250448764877
+   },
+   "skill_13-24": {
+    "status": "not_distinguishable_from_baseline",
+    "ratio_mae_model_over_baseline": 0.9992219754057818,
+    "ci95": [
+     0.9888334210861914,
+     1.0280178603870038
+    ],
+    "mae_selected": 2.3543056562020404
+   },
+   "selected_mae_by_lead": {
+    "1": 1.586,
+    "3": 1.411,
+    "6": 2.11,
+    "12": 2.313,
+    "18": 2.046,
+    "24": 2.571
+   },
+   "selected_rmse_by_lead": {
+    "1": 2.111,
+    "3": 1.739,
+    "6": 2.307,
+    "12": 2.545,
+    "18": 2.377,
+    "24": 3.295
+   },
+   "selected_bias_by_lead": {
+    "1": 0.395,
+    "3": 0.255,
+    "6": 0.476,
+    "12": 0.721,
+    "18": 0.505,
+    "24": 1.034
+   },
+   "baseline_mae_by_lead": {
+    "1": 1.878,
+    "3": 1.18,
+    "6": 2.154,
+    "12": 2.338,
+    "18": 2.059,
+    "24": 2.571
+   },
+   "coverage95_holdout": {
+    "nominal": {
+     "1-3": 0.9487179487179487,
+     "4-6": 0.8974358974358975,
+     "7-12": 0.9230769230769231,
+     "13-24": 0.9038461538461539
+    },
+    "calibrated": {
+     "1-3": 0.9230769230769231,
+     "4-6": 0.9230769230769231,
+     "7-12": 0.8205128205128205,
+     "13-24": 0.8782051282051282
+    }
+   },
+   "coverage80_holdout": {
+    "nominal": {
+     "1-3": 0.8205128205128205,
+     "4-6": 0.7435897435897436,
+     "7-12": 0.7307692307692307,
+     "13-24": 0.7051282051282052
+    },
+    "calibrated": {
+     "1-3": 0.7948717948717948,
+     "4-6": 0.7435897435897436,
+     "7-12": 0.5384615384615384,
+     "13-24": 0.6666666666666666
+    }
+   },
+   "structural_break": {
+    "mean_shift_between_halves": -0.8261666755142668,
+    "standardized": -4.008041767008872,
+    "flag": true,
+    "note": "A shift between the two halves of the record: climate change, a change in the POWER/MERRA-2 inputs, or both; it is not diagnosed further here."
+   },
+   "failures": {
+    "sarima_101_011": {
+     "dev": 0,
+     "holdout": 0,
+     "errors": [],
+     "not_converged_dev": 0,
+     "not_converged_holdout": 2
+    },
+    "sarima_200_100_ct": {
+     "dev": 0,
+     "holdout": 0,
+     "errors": [],
+     "not_converged_dev": 6,
+     "not_converged_holdout": 1
+    }
+   }
+  },
+  {
+   "location": "London (temperate oceanic)",
+   "variable": "wind_speed",
+   "unit": "m/s",
+   "n_months": 549,
+   "cutoff": "2026-09-01",
+   "selected": "ets_ana",
+   "best_baseline": "clim",
+   "holdout_origins": 13,
+   "dev_origins": 18,
+   "holdout_obs": 312,
+   "skill_1-3": {
+    "status": "not_distinguishable_from_baseline",
+    "ratio_mae_model_over_baseline": 1.0000039186994143,
+    "ci95": [
+     0.9999892927859219,
+     1.0000227831269792
+    ],
+    "mae_selected": 0.3035223252400192
+   },
+   "skill_4-6": {
+    "status": "not_distinguishable_from_baseline",
+    "ratio_mae_model_over_baseline": 0.9999991402277644,
+    "ci95": [
+     0.9999969765960339,
+     1.0000067943075488
+    ],
+    "mae_selected": 0.446174816657864
+   },
+   "skill_7-12": {
+    "status": "not_distinguishable_from_baseline",
+    "ratio_mae_model_over_baseline": 1.000001617562949,
+    "ci95": [
+     0.9999973466640824,
+     1.0000056406006246
+    ],
+    "mae_selected": 0.3755517324365453
+   },
+   "skill_13-24": {
+    "status": "not_distinguishable_from_baseline",
+    "ratio_mae_model_over_baseline": 0.9999971056232895,
+    "ci95": [
+     0.9999938134535719,
+     0.9999985981648453
+    ],
+    "mae_selected": 0.34931784308971137
+   },
+   "selected_mae_by_lead": {
+    "1": 0.307,
+    "3": 0.254,
+    "6": 0.399,
+    "12": 0.411,
+    "18": 0.394,
+    "24": 0.338
+   },
+   "selected_rmse_by_lead": {
+    "1": 0.381,
+    "3": 0.37,
+    "6": 0.49,
+    "12": 0.508,
+    "18": 0.502,
+    "24": 0.455
+   },
+   "selected_bias_by_lead": {
+    "1": 0.054,
+    "3": -0.076,
+    "6": 0.021,
+    "12": 0.009,
+    "18": 0.045,
+    "24": 0.101
+   },
+   "baseline_mae_by_lead": {
+    "1": 0.307,
+    "3": 0.254,
+    "6": 0.399,
+    "12": 0.411,
+    "18": 0.394,
+    "24": 0.338
+   },
+   "coverage95_holdout": {
+    "nominal": {
+     "1-3": 1.0,
+     "4-6": 0.8974358974358975,
+     "7-12": 0.9487179487179487,
+     "13-24": 0.9551282051282052
+    },
+    "calibrated": {
+     "1-3": 1.0,
+     "4-6": 0.9230769230769231,
+     "7-12": 0.9230769230769231,
+     "13-24": 0.9487179487179487
+    }
+   },
+   "coverage80_holdout": {
+    "nominal": {
+     "1-3": 0.8461538461538461,
+     "4-6": 0.7948717948717948,
+     "7-12": 0.8076923076923077,
+     "13-24": 0.8333333333333334
+    },
+    "calibrated": {
+     "1-3": 0.9230769230769231,
+     "4-6": 0.8205128205128205,
+     "7-12": 0.782051282051282,
+     "13-24": 0.8525641025641025
+    }
+   },
+   "structural_break": {
+    "mean_shift_between_halves": -0.04492870603848706,
+    "standardized": -1.0549671003557546,
+    "flag": false,
+    "note": "A shift between the two halves of the record: climate change, a change in the POWER/MERRA-2 inputs, or both; it is not diagnosed further here."
+   },
+   "failures": {
+    "sarima_200_100_ct": {
+     "dev": 0,
+     "holdout": 0,
+     "errors": [],
+     "not_converged_dev": 2,
+     "not_converged_holdout": 1
+    }
+   }
+  },
+  {
+   "location": "Manaus (tropical, humid)",
+   "variable": "air_temperature",
+   "unit": "\u00b0C",
+   "n_months": 549,
+   "cutoff": "2026-09-01",
+   "selected": "sarima_101_011",
+   "best_baseline": "clim_trend",
+   "holdout_origins": 13,
+   "dev_origins": 18,
+   "holdout_obs": 312,
+   "skill_1-3": {
+    "status": "validated",
+    "ratio_mae_model_over_baseline": 0.5307708041032364,
+    "ci95": [
+     0.41657624707421204,
+     0.7678301236809255
+    ],
+    "mae_selected": 0.5048148744089047
+   },
+   "skill_4-6": {
+    "status": "not_distinguishable_from_baseline",
+    "ratio_mae_model_over_baseline": 0.9164711549423165,
+    "ci95": [
+     0.5733812374565641,
+     1.123174342346657
+    ],
+    "mae_selected": 0.6544733408016892
+   },
+   "skill_7-12": {
+    "status": "not_distinguishable_from_baseline",
+    "ratio_mae_model_over_baseline": 0.9724163677638019,
+    "ci95": [
+     0.6964692168004356,
+     1.0943246044327475
+    ],
+    "mae_selected": 0.8497105390513031
+   },
+   "skill_13-24": {
+    "status": "not_distinguishable_from_baseline",
+    "ratio_mae_model_over_baseline": 1.0013958945145216,
+    "ci95": [
+     0.7215184535815095,
+     1.1885587454408177
+    ],
+    "mae_selected": 0.9464560690136433
+   },
+   "selected_mae_by_lead": {
+    "1": 0.688,
+    "3": 0.297,
+    "6": 0.923,
+    "12": 1.029,
+    "18": 1.08,
+    "24": 1.322
+   },
+   "selected_rmse_by_lead": {
+    "1": 0.89,
+    "3": 0.375,
+    "6": 1.488,
+    "12": 1.549,
+    "18": 1.652,
+    "24": 1.918
+   },
+   "selected_bias_by_lead": {
+    "1": -0.017,
+    "3": 0.026,
+    "6": -0.448,
+    "12": -0.589,
+    "18": -0.709,
+    "24": -0.938
+   },
+   "baseline_mae_by_lead": {
+    "1": 1.279,
+    "3": 0.635,
+    "6": 0.963,
+    "12": 1.094,
+    "18": 1.081,
+    "24": 1.353
+   },
+   "coverage95_holdout": {
+    "nominal": {
+     "1-3": 0.8974358974358975,
+     "4-6": 0.8974358974358975,
+     "7-12": 0.8846153846153846,
+     "13-24": 0.8589743589743589
+    },
+    "calibrated": {
+     "1-3": 0.9487179487179487,
+     "4-6": 0.8461538461538461,
+     "7-12": 0.8076923076923077,
+     "13-24": 0.7756410256410257
+    }
+   },
+   "coverage80_holdout": {
+    "nominal": {
+     "1-3": 0.7948717948717948,
+     "4-6": 0.8461538461538461,
+     "7-12": 0.7435897435897436,
+     "13-24": 0.7307692307692307
+    },
+    "calibrated": {
+     "1-3": 0.8205128205128205,
+     "4-6": 0.717948717948718,
+     "7-12": 0.5769230769230769,
+     "13-24": 0.6282051282051282
+    }
+   },
+   "structural_break": {
+    "mean_shift_between_halves": 0.793997372262774,
+    "standardized": 9.910749781160813,
+    "flag": true,
+    "note": "A shift between the two halves of the record: climate change, a change in the POWER/MERRA-2 inputs, or both; it is not diagnosed further here."
+   },
+   "failures": {
+    "sarima_200_100_ct": {
+     "dev": 0,
+     "holdout": 0,
+     "errors": [],
+     "not_converged_dev": 5,
+     "not_converged_holdout": 2
+    }
+   }
+  },
+  {
+   "location": "Manaus (tropical, humid)",
+   "variable": "precipitation",
+   "unit": "mm/day",
+   "n_months": 549,
+   "cutoff": "2026-09-01",
+   "selected": "sarima_101_011",
+   "best_baseline": "clim_trend",
+   "holdout_origins": 13,
+   "dev_origins": 18,
+   "holdout_obs": 312,
+   "skill_1-3": {
+    "status": "validated",
+    "ratio_mae_model_over_baseline": 0.786319355842078,
+    "ci95": [
+     0.6975173893711607,
+     0.9021031124230664
+    ],
+    "mae_selected": 1.3891321045707758
+   },
+   "skill_4-6": {
+    "status": "not_distinguishable_from_baseline",
+    "ratio_mae_model_over_baseline": 0.8858478354925996,
+    "ci95": [
+     0.7350311934798899,
+     1.1377107966466007
+    ],
+    "mae_selected": 1.3592273630493932
+   },
+   "skill_7-12": {
+    "status": "not_distinguishable_from_baseline",
+    "ratio_mae_model_over_baseline": 0.960512076041321,
+    "ci95": [
+     0.7940789596063421,
+     1.2387102017739346
+    ],
+    "mae_selected": 1.6210013617796581
+   },
+   "skill_13-24": {
+    "status": "not_distinguishable_from_baseline",
+    "ratio_mae_model_over_baseline": 1.0287909881944433,
+    "ci95": [
+     0.8423679607120959,
+     1.3194398334900752
+    ],
+    "mae_selected": 1.657411120753088
+   },
+   "selected_mae_by_lead": {
+    "1": 1.469,
+    "3": 1.084,
+    "6": 1.128,
+    "12": 1.271,
+    "18": 1.343,
+    "24": 1.359
+   },
+   "selected_rmse_by_lead": {
+    "1": 1.627,
+    "3": 1.219,
+    "6": 1.238,
+    "12": 1.416,
+    "18": 1.49,
+    "24": 1.526
+   },
+   "selected_bias_by_lead": {
+    "1": 0.255,
+    "3": -0.317,
+    "6": -0.204,
+    "12": -0.185,
+    "18": 0.102,
+    "24": 0.394
+   },
+   "baseline_mae_by_lead": {
+    "1": 1.895,
+    "3": 1.531,
+    "6": 1.505,
+    "12": 1.469,
+    "18": 1.417,
+    "24": 1.311
+   },
+   "coverage95_holdout": {
+    "nominal": {
+     "1-3": 0.9743589743589743,
+     "4-6": 0.9743589743589743,
+     "7-12": 0.9487179487179487,
+     "13-24": 0.9423076923076923
+    },
+    "calibrated": {
+     "1-3": 0.9487179487179487,
+     "4-6": 0.9487179487179487,
+     "7-12": 0.9102564102564102,
+     "13-24": 0.9358974358974359
+    }
+   },
+   "coverage80_holdout": {
+    "nominal": {
+     "1-3": 0.8974358974358975,
+     "4-6": 0.8461538461538461,
+     "7-12": 0.8076923076923077,
+     "13-24": 0.7564102564102564
+    },
+    "calibrated": {
+     "1-3": 0.8974358974358975,
+     "4-6": 0.8717948717948718,
+     "7-12": 0.6794871794871795,
+     "13-24": 0.7051282051282052
+    }
+   },
+   "structural_break": {
+    "mean_shift_between_halves": -1.0955486662242868,
+    "standardized": -6.652101786570927,
+    "flag": true,
+    "note": "A shift between the two halves of the record: climate change, a change in the POWER/MERRA-2 inputs, or both; it is not diagnosed further here."
+   },
+   "failures": {}
+  },
+  {
+   "location": "Manaus (tropical, humid)",
+   "variable": "relative_humidity",
+   "unit": "%",
+   "n_months": 549,
+   "cutoff": "2026-09-01",
+   "selected": "sarima_101_011",
+   "best_baseline": "clim",
+   "holdout_origins": 13,
+   "dev_origins": 18,
+   "holdout_obs": 312,
+   "skill_1-3": {
+    "status": "validated",
+    "ratio_mae_model_over_baseline": 0.6181147771403351,
+    "ci95": [
+     0.5044523454073996,
+     0.8753809809762867
+    ],
+    "mae_selected": 2.9518327863358857
+   },
+   "skill_4-6": {
+    "status": "not_distinguishable_from_baseline",
+    "ratio_mae_model_over_baseline": 0.9642959330931479,
+    "ci95": [
+     0.9234976210269492,
+     1.1441710133433476
+    ],
+    "mae_selected": 3.2062217201123917
+   },
+   "skill_7-12": {
+    "status": "not_distinguishable_from_baseline",
+    "ratio_mae_model_over_baseline": 1.0008408268295093,
+    "ci95": [
+     0.958392447549333,
+     1.1237076641938861
+    ],
+    "mae_selected": 4.429364514688454
+   },
+   "skill_13-24": {
+    "status": "not_distinguishable_from_baseline",
+    "ratio_mae_model_over_baseline": 1.0008723227390162,
+    "ci95": [
+     0.9649028419353372,
+     1.1277731402672908
+    ],
+    "mae_selected": 4.714986209354233
+   },
+   "selected_mae_by_lead": {
+    "1": 3.598,
+    "3": 1.835,
+    "6": 4.985,
+    "12": 5.807,
+    "18": 5.59,
+    "24": 7.241
+   },
+   "selected_rmse_by_lead": {
+    "1": 4.881,
+    "3": 2.375,
+    "6": 8.947,
+    "12": 9.428,
+    "18": 9.647,
+    "24": 11.361
+   },
+   "selected_bias_by_lead": {
+    "1": -0.079,
+    "3": -0.945,
+    "6": 2.266,
+    "12": 3.168,
+    "18": 3.808,
+    "24": 5.484
+   },
+   "baseline_mae_by_lead": {
+    "1": 6.539,
+    "3": 2.605,
+    "6": 5.058,
+    "12": 6.043,
+    "18": 5.744,
+    "24": 7.598
+   },
+   "coverage95_holdout": {
+    "nominal": {
+     "1-3": 0.9230769230769231,
+     "4-6": 0.8717948717948718,
+     "7-12": 0.8076923076923077,
+     "13-24": 0.782051282051282
+    },
+    "calibrated": {
+     "1-3": 0.8717948717948718,
+     "4-6": 0.7435897435897436,
+     "7-12": 0.7564102564102564,
+     "13-24": 0.7564102564102564
+    }
+   },
+   "coverage80_holdout": {
+    "nominal": {
+     "1-3": 0.717948717948718,
+     "4-6": 0.8461538461538461,
+     "7-12": 0.7051282051282052,
+     "13-24": 0.6987179487179487
+    },
+    "calibrated": {
+     "1-3": 0.6410256410256411,
+     "4-6": 0.6923076923076923,
+     "7-12": 0.5769230769230769,
+     "13-24": 0.6089743589743589
+    }
+   },
+   "structural_break": {
+    "mean_shift_between_halves": -2.380831214333112,
+    "standardized": -5.591106637823259,
+    "flag": true,
+    "note": "A shift between the two halves of the record: climate change, a change in the POWER/MERRA-2 inputs, or both; it is not diagnosed further here."
+   },
+   "failures": {
+    "sarima_101_011": {
+     "dev": 0,
+     "holdout": 0,
+     "errors": [],
+     "not_converged_dev": 0,
+     "not_converged_holdout": 1
+    },
+    "sarima_200_100_ct": {
+     "dev": 0,
+     "holdout": 0,
+     "errors": [],
+     "not_converged_dev": 2,
+     "not_converged_holdout": 4
+    }
+   }
+  },
+  {
+   "location": "Manaus (tropical, humid)",
+   "variable": "wind_speed",
+   "unit": "m/s",
+   "n_months": 549,
+   "cutoff": "2026-09-01",
+   "selected": "sarima_101_011",
+   "best_baseline": "clim",
+   "holdout_origins": 13,
+   "dev_origins": 18,
+   "holdout_obs": 312,
+   "skill_1-3": {
+    "status": "not_distinguishable_from_baseline",
+    "ratio_mae_model_over_baseline": 0.958983056396923,
+    "ci95": [
+     0.8393341521477473,
+     1.0439504650395912
+    ],
+    "mae_selected": 0.025460328755143466
+   },
+   "skill_4-6": {
+    "status": "not_distinguishable_from_baseline",
+    "ratio_mae_model_over_baseline": 1.0458721846752592,
+    "ci95": [
+     0.9714757452704627,
+     1.1853400192362684
+    ],
+    "mae_selected": 0.027457181868416246
+   },
+   "skill_7-12": {
+    "status": "not_distinguishable_from_baseline",
+    "ratio_mae_model_over_baseline": 1.0366224969446522,
+    "ci95": [
+     0.9835981703191529,
+     1.102929937948589
+    ],
+    "mae_selected": 0.028367862188024395
+   },
+   "skill_13-24": {
+    "status": "not_distinguishable_from_baseline",
+    "ratio_mae_model_over_baseline": 1.0380121186566724,
+    "ci95": [
+     0.981502821357055,
+     1.1000671095983923
+    ],
+    "mae_selected": 0.030782002655524845
+   },
+   "selected_mae_by_lead": {
+    "1": 0.027,
+    "3": 0.024,
+    "6": 0.036,
+    "12": 0.035,
+    "18": 0.034,
+    "24": 0.038
+   },
+   "selected_rmse_by_lead": {
+    "1": 0.036,
+    "3": 0.029,
+    "6": 0.04,
+    "12": 0.039,
+    "18": 0.04,
+    "24": 0.043
+   },
+   "selected_bias_by_lead": {
+    "1": 0.003,
+    "3": 0.011,
+    "6": 0.001,
+    "12": 0.003,
+    "18": 0.001,
+    "24": -0.004
+   },
+   "baseline_mae_by_lead": {
+    "1": 0.031,
+    "3": 0.023,
+    "6": 0.034,
+    "12": 0.033,
+    "18": 0.032,
+    "24": 0.036
+   },
+   "coverage95_holdout": {
+    "nominal": {
+     "1-3": 0.9230769230769231,
+     "4-6": 0.9743589743589743,
+     "7-12": 0.9230769230769231,
+     "13-24": 0.9038461538461539
+    },
+    "calibrated": {
+     "1-3": 0.8974358974358975,
+     "4-6": 1.0,
+     "7-12": 0.9230769230769231,
+     "13-24": 0.8974358974358975
+    }
+   },
+   "coverage80_holdout": {
+    "nominal": {
+     "1-3": 0.8205128205128205,
+     "4-6": 0.8461538461538461,
+     "7-12": 0.8076923076923077,
+     "13-24": 0.7692307692307693
+    },
+    "calibrated": {
+     "1-3": 0.8461538461538461,
+     "4-6": 0.8461538461538461,
+     "7-12": 0.7948717948717948,
+     "13-24": 0.7628205128205128
+    }
+   },
+   "structural_break": {
+    "mean_shift_between_halves": -0.0004986861313868607,
+    "standardized": -0.16671748098368813,
+    "flag": false,
+    "note": "A shift between the two halves of the record: climate change, a change in the POWER/MERRA-2 inputs, or both; it is not diagnosed further here."
+   },
+   "failures": {
+    "sarima_200_100_ct": {
+     "dev": 0,
+     "holdout": 0,
+     "errors": [],
+     "not_converged_dev": 5,
+     "not_converged_holdout": 6
+    }
+   }
+  },
+  {
+   "location": "Sydney (southern hemisphere, subtropical)",
+   "variable": "air_temperature",
+   "unit": "\u00b0C",
+   "n_months": 549,
+   "cutoff": "2026-09-01",
+   "selected": "ets_ana",
+   "best_baseline": "clim_trend",
+   "holdout_origins": 13,
+   "dev_origins": 18,
+   "holdout_obs": 312,
+   "skill_1-3": {
+    "status": "validated",
+    "ratio_mae_model_over_baseline": 0.766911030038369,
+    "ci95": [
+     0.6311065047358143,
+     0.8463037377525227
+    ],
+    "mae_selected": 0.4815141730714304
+   },
+   "skill_4-6": {
+    "status": "not_distinguishable_from_baseline",
+    "ratio_mae_model_over_baseline": 1.035902360503806,
+    "ci95": [
+     0.9072340276547607,
+     1.166587190801891
+    ],
+    "mae_selected": 0.6321543054402003
+   },
+   "skill_7-12": {
+    "status": "not_distinguishable_from_baseline",
+    "ratio_mae_model_over_baseline": 0.9977921274039274,
+    "ci95": [
+     0.8069662958470802,
+     1.166708180635439
+    ],
+    "mae_selected": 0.647687941443333
+   },
+   "skill_13-24": {
+    "status": "not_distinguishable_from_baseline",
+    "ratio_mae_model_over_baseline": 1.0178837514081354,
+    "ci95": [
+     0.8910681898583424,
+     1.2104166129059897
+    ],
+    "mae_selected": 0.7017143178052954
+   },
+   "selected_mae_by_lead": {
+    "1": 0.388,
+    "3": 0.508,
+    "6": 0.661,
+    "12": 0.699,
+    "18": 0.766,
+    "24": 0.848
+   },
+   "selected_rmse_by_lead": {
+    "1": 0.453,
+    "3": 0.655,
+    "6": 0.863,
+    "12": 0.897,
+    "18": 0.961,
+    "24": 1.031
+   },
+   "selected_bias_by_lead": {
+    "1": 0.159,
+    "3": 0.229,
+    "6": -0.239,
+    "12": -0.263,
+    "18": -0.321,
+    "24": -0.519
+   },
+   "baseline_mae_by_lead": {
+    "1": 0.477,
+    "3": 0.706,
+    "6": 0.732,
+    "12": 0.754,
+    "18": 0.782,
+    "24": 0.766
+   },
+   "coverage95_holdout": {
+    "nominal": {
+     "1-3": 0.9743589743589743,
+     "4-6": 0.9230769230769231,
+     "7-12": 0.9871794871794872,
+     "13-24": 0.967948717948718
+    },
+    "calibrated": {
+     "1-3": 1.0,
+     "4-6": 0.8205128205128205,
+     "7-12": 0.9487179487179487,
+     "13-24": 0.8397435897435898
+    }
+   },
+   "coverage80_holdout": {
+    "nominal": {
+     "1-3": 0.8717948717948718,
+     "4-6": 0.7692307692307693,
+     "7-12": 0.7948717948717948,
+     "13-24": 0.7628205128205128
+    },
+    "calibrated": {
+     "1-3": 0.8461538461538461,
+     "4-6": 0.7948717948717948,
+     "7-12": 0.7692307692307693,
+     "13-24": 0.6987179487179487
+    }
+   },
+   "structural_break": {
+    "mean_shift_between_halves": 0.7093713072329131,
+    "standardized": 10.69161996383658,
+    "flag": true,
+    "note": "A shift between the two halves of the record: climate change, a change in the POWER/MERRA-2 inputs, or both; it is not diagnosed further here."
+   },
+   "failures": {
+    "sarima_101_011": {
+     "dev": 0,
+     "holdout": 0,
+     "errors": [],
+     "not_converged_dev": 1,
+     "not_converged_holdout": 0
+    },
+    "sarima_200_100_ct": {
+     "dev": 0,
+     "holdout": 0,
+     "errors": [],
+     "not_converged_dev": 2,
+     "not_converged_holdout": 3
+    }
+   }
+  },
+  {
+   "location": "Sydney (southern hemisphere, subtropical)",
+   "variable": "precipitation",
+   "unit": "mm/day",
+   "n_months": 549,
+   "cutoff": "2026-09-01",
+   "selected": "ets_ana",
+   "best_baseline": "clim_trend",
+   "holdout_origins": 13,
+   "dev_origins": 18,
+   "holdout_obs": 312,
+   "skill_1-3": {
+    "status": "not_distinguishable_from_baseline",
+    "ratio_mae_model_over_baseline": 1.0085635592275144,
+    "ci95": [
+     0.9865914148288712,
+     1.0280728194298794
+    ],
+    "mae_selected": 1.3699181311627509
+   },
+   "skill_4-6": {
+    "status": "worse_than_baseline",
+    "ratio_mae_model_over_baseline": 1.0261489073923524,
+    "ci95": [
+     1.0013727439758136,
+     1.0784668731027902
+    ],
+    "mae_selected": 1.8145036438054143
+   },
+   "skill_7-12": {
+    "status": "not_distinguishable_from_baseline",
+    "ratio_mae_model_over_baseline": 0.994591088567889,
+    "ci95": [
+     0.9810234785683302,
+     1.0322641967992376
+    ],
+    "mae_selected": 1.5487667669435017
+   },
+   "skill_13-24": {
+    "status": "not_distinguishable_from_baseline",
+    "ratio_mae_model_over_baseline": 1.0003886532296795,
+    "ci95": [
+     0.992423513921802,
+     1.0083729718930052
+    ],
+    "mae_selected": 1.4924672999102384
+   },
+   "selected_mae_by_lead": {
+    "1": 1.554,
+    "3": 1.438,
+    "6": 2.472,
+    "12": 2.29,
+    "18": 2.277,
+    "24": 2.048
+   },
+   "selected_rmse_by_lead": {
+    "1": 1.901,
+    "3": 1.519,
+    "6": 3.873,
+    "12": 3.778,
+    "18": 3.876,
+    "24": 3.729
+   },
+   "selected_bias_by_lead": {
+    "1": -0.484,
+    "3": 0.352,
+    "6": -1.564,
+    "12": -1.425,
+    "18": -1.431,
+    "24": -1.11
+   },
+   "baseline_mae_by_lead": {
+    "1": 1.541,
+    "3": 1.395,
+    "6": 2.409,
+    "12": 2.277,
+    "18": 2.249,
+    "24": 2.054
+   },
+   "coverage95_holdout": {
+    "nominal": {
+     "1-3": 0.9743589743589743,
+     "4-6": 0.8974358974358975,
+     "7-12": 0.9358974358974359,
+     "13-24": 0.9551282051282052
+    },
+    "calibrated": {
+     "1-3": 0.8461538461538461,
+     "4-6": 0.8974358974358975,
+     "7-12": 0.8717948717948718,
+     "13-24": 0.8782051282051282
+    }
+   },
+   "coverage80_holdout": {
+    "nominal": {
+     "1-3": 0.717948717948718,
+     "4-6": 0.8461538461538461,
+     "7-12": 0.8076923076923077,
+     "13-24": 0.8141025641025641
+    },
+    "calibrated": {
+     "1-3": 0.6666666666666666,
+     "4-6": 0.8205128205128205,
+     "7-12": 0.717948717948718,
+     "13-24": 0.75
+    }
+   },
+   "structural_break": {
+    "mean_shift_between_halves": -0.2709857199734572,
+    "standardized": -1.5241979778051058,
+    "flag": false,
+    "note": "A shift between the two halves of the record: climate change, a change in the POWER/MERRA-2 inputs, or both; it is not diagnosed further here."
+   },
+   "failures": {
+    "sarima_200_100_ct": {
+     "dev": 0,
+     "holdout": 0,
+     "errors": [],
+     "not_converged_dev": 2,
+     "not_converged_holdout": 2
+    }
+   }
+  },
+  {
+   "location": "Sydney (southern hemisphere, subtropical)",
+   "variable": "relative_humidity",
+   "unit": "%",
+   "n_months": 549,
+   "cutoff": "2026-09-01",
+   "selected": "sarima_101_011",
+   "best_baseline": "clim",
+   "holdout_origins": 13,
+   "dev_origins": 18,
+   "holdout_obs": 312,
+   "skill_1-3": {
+    "status": "not_distinguishable_from_baseline",
+    "ratio_mae_model_over_baseline": 0.9592292745189626,
+    "ci95": [
+     0.8976602773179861,
+     1.0024924913707234
+    ],
+    "mae_selected": 3.2900307423939172
+   },
+   "skill_4-6": {
+    "status": "not_distinguishable_from_baseline",
+    "ratio_mae_model_over_baseline": 0.9808233096475769,
+    "ci95": [
+     0.9520472653668087,
+     1.0688537520120072
+    ],
+    "mae_selected": 3.2013181378683337
+   },
+   "skill_7-12": {
+    "status": "worse_than_baseline",
+    "ratio_mae_model_over_baseline": 1.0264278770252788,
+    "ci95": [
+     1.005086558243065,
+     1.0863371550535488
+    ],
+    "mae_selected": 3.2153378512478357
+   },
+   "skill_13-24": {
+    "status": "not_distinguishable_from_baseline",
+    "ratio_mae_model_over_baseline": 1.0170374312920814,
+    "ci95": [
+     0.9884760659830808,
+     1.0308727817251093
+    ],
+    "mae_selected": 3.0590995519391417
+   },
+   "selected_mae_by_lead": {
+    "1": 3.098,
+    "3": 2.816,
+    "6": 3.404,
+    "12": 3.479,
+    "18": 3.341,
+    "24": 3.355
+   },
+   "selected_rmse_by_lead": {
+    "1": 4.185,
+    "3": 3.386,
+    "6": 4.381,
+    "12": 4.404,
+    "18": 4.31,
+    "24": 4.314
+   },
+   "selected_bias_by_lead": {
+    "1": -1.448,
+    "3": -0.011,
+    "6": 0.133,
+    "12": 0.099,
+    "18": -0.064,
+    "24": 0.424
+   },
+   "baseline_mae_by_lead": {
+    "1": 3.923,
+    "3": 2.677,
+    "6": 3.599,
+    "12": 3.616,
+    "18": 3.554,
+    "24": 3.614
+   },
+   "coverage95_holdout": {
+    "nominal": {
+     "1-3": 0.9743589743589743,
+     "4-6": 0.9487179487179487,
+     "7-12": 0.9615384615384616,
+     "13-24": 0.9743589743589743
+    },
+    "calibrated": {
+     "1-3": 0.9230769230769231,
+     "4-6": 0.7948717948717948,
+     "7-12": 0.8461538461538461,
+     "13-24": 0.8717948717948718
+    }
+   },
+   "coverage80_holdout": {
+    "nominal": {
+     "1-3": 0.7435897435897436,
+     "4-6": 0.7435897435897436,
+     "7-12": 0.7435897435897436,
+     "13-24": 0.7756410256410257
+    },
+    "calibrated": {
+     "1-3": 0.6410256410256411,
+     "4-6": 0.6666666666666666,
+     "7-12": 0.6923076923076923,
+     "13-24": 0.717948717948718
+    }
+   },
+   "structural_break": {
+    "mean_shift_between_halves": -0.6380235700066361,
+    "standardized": -1.9432624951893291,
+    "flag": false,
+    "note": "A shift between the two halves of the record: climate change, a change in the POWER/MERRA-2 inputs, or both; it is not diagnosed further here."
+   },
+   "failures": {
+    "sarima_101_011": {
+     "dev": 0,
+     "holdout": 0,
+     "errors": [],
+     "not_converged_dev": 1,
+     "not_converged_holdout": 0
+    },
+    "sarima_200_100_ct": {
+     "dev": 0,
+     "holdout": 0,
+     "errors": [],
+     "not_converged_dev": 6,
+     "not_converged_holdout": 5
+    }
+   }
+  },
+  {
+   "location": "Sydney (southern hemisphere, subtropical)",
+   "variable": "wind_speed",
+   "unit": "m/s",
+   "n_months": 549,
+   "cutoff": "2026-09-01",
+   "selected": "sarima_101_011",
+   "best_baseline": "clim",
+   "holdout_origins": 13,
+   "dev_origins": 18,
+   "holdout_obs": 312,
+   "skill_1-3": {
+    "status": "not_distinguishable_from_baseline",
+    "ratio_mae_model_over_baseline": 1.0014599231953507,
+    "ci95": [
+     0.9916456101371737,
+     1.012185202678812
+    ],
+    "mae_selected": 0.182159965900178
+   },
+   "skill_4-6": {
+    "status": "not_distinguishable_from_baseline",
+    "ratio_mae_model_over_baseline": 0.9971973000442852,
+    "ci95": [
+     0.993782840128244,
+     0.9991868042310056
+    ],
+    "mae_selected": 0.2637685657332794
+   },
+   "skill_7-12": {
+    "status": "not_distinguishable_from_baseline",
+    "ratio_mae_model_over_baseline": 0.9992939920647297,
+    "ci95": [
+     0.9975630604069811,
+     1.0002681609941966
+    ],
+    "mae_selected": 0.21784164260987945
+   },
+   "skill_13-24": {
+    "status": "not_distinguishable_from_baseline",
+    "ratio_mae_model_over_baseline": 0.9990416389567904,
+    "ci95": [
+     0.9977059595141372,
+     1.0001115471300357
+    ],
+    "mae_selected": 0.21709872171636732
+   },
+   "selected_mae_by_lead": {
+    "1": 0.234,
+    "3": 0.166,
+    "6": 0.271,
+    "12": 0.273,
+    "18": 0.269,
+    "24": 0.276
+   },
+   "selected_rmse_by_lead": {
+    "1": 0.285,
+    "3": 0.194,
+    "6": 0.307,
+    "12": 0.307,
+    "18": 0.306,
+    "24": 0.308
+   },
+   "selected_bias_by_lead": {
+    "1": 0.041,
+    "3": 0.057,
+    "6": -0.059,
+    "12": -0.043,
+    "18": -0.029,
+    "24": -0.009
+   },
+   "baseline_mae_by_lead": {
+    "1": 0.234,
+    "3": 0.165,
+    "6": 0.272,
+    "12": 0.273,
+    "18": 0.27,
+    "24": 0.276
+   },
+   "coverage95_holdout": {
+    "nominal": {
+     "1-3": 0.9487179487179487,
+     "4-6": 0.8205128205128205,
+     "7-12": 0.8974358974358975,
+     "13-24": 0.9102564102564102
+    },
+    "calibrated": {
+     "1-3": 0.9487179487179487,
+     "4-6": 0.8205128205128205,
+     "7-12": 0.8846153846153846,
+     "13-24": 0.8974358974358975
+    }
+   },
+   "coverage80_holdout": {
+    "nominal": {
+     "1-3": 0.8974358974358975,
+     "4-6": 0.7435897435897436,
+     "7-12": 0.8333333333333334,
+     "13-24": 0.8205128205128205
+    },
+    "calibrated": {
+     "1-3": 0.8717948717948718,
+     "4-6": 0.717948717948718,
+     "7-12": 0.8589743589743589,
+     "13-24": 0.8012820512820513
+    }
+   },
+   "structural_break": {
+    "mean_shift_between_halves": 0.00439831453218315,
+    "standardized": 0.19629157497162472,
+    "flag": false,
+    "note": "A shift between the two halves of the record: climate change, a change in the POWER/MERRA-2 inputs, or both; it is not diagnosed further here."
+   },
+   "failures": {
+    "sarima_200_100_ct": {
+     "dev": 0,
+     "holdout": 0,
+     "errors": [],
+     "not_converged_dev": 5,
+     "not_converged_holdout": 1
+    }
+   }
+  }
+ ]
+}

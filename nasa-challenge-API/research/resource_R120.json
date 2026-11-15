@@ -1,0 +1,450 @@
+{
+  "id": "resource_R120",
+  "url": "https://svs.gsfc.nasa.gov/gallery/earth-information-center/",
+  "checked_at": "2026-11-14T15:15:28.714394+00:00",
+  "tls_validation": false,
+  "status": 200,
+  "final_url": "https://svs.gsfc.nasa.gov/gallery/earth-information-center/",
+  "bytes": 109386,
+  "content_type": "text/html; charset=utf-8",
+  "sha256": "da703f5a90d27bef7a040531c3d9ac7d9738d7ac74636c002528ade4d38ced16",
+  "links": [
+    {
+      "url": "https://www.nasa.gov/",
+      "label": ""
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/",
+      "label": "Scientific Visualization Studio"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/gallery/the-galleries/",
+      "label": "Galleries"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/help/",
+      "label": "Help"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/api/40467",
+      "label": ""
+    },
+    {
+      "url": "https://twitter.com/intent/tweet",
+      "label": ""
+    },
+    {
+      "url": "https://www.facebook.com/share.php?u=http%3A//svs.gsfc.nasa.gov/gallery/earth-information-center/%3F",
+      "label": ""
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/gallery/earth-information-center/#media_group_371615",
+      "label": "Overview"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/gallery/earth-information-center/#media_group_371616",
+      "label": "EIC Dashboards"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/gallery/earth-information-center/#media_group_371617",
+      "label": "EIC Videos"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/gallery/earth-information-center/#media_group_371618",
+      "label": "EIC Beauty Pieces"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/gallery/earth-information-center/#media_group_371619",
+      "label": "Media Resources"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/gallery/earth-information-center/#media_group_372474",
+      "label": "Daily Visualizations"
+    },
+    {
+      "url": "https://science.nasa.gov/earth-science/earth-information-center",
+      "label": "Earth Information Center (EIC)"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/gallery/earth-now-dashboard/",
+      "label": ""
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/gallery/earth-now-dashboard/",
+      "label": "Earth Now Dashboard"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/gallery/earth-now-dashboard/",
+      "label": "Go to this page"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/gallery/climate-vital-signs-dashboard/",
+      "label": ""
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/gallery/climate-vital-signs-dashboard/",
+      "label": "Climate Vital Signs Dashboard"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/gallery/climate-vital-signs-dashboard/",
+      "label": "Go to this page"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/gallery/greenhouse-gases-dashboard/",
+      "label": ""
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/gallery/greenhouse-gases-dashboard/",
+      "label": "Greenhouse Gases Dashboard"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/gallery/greenhouse-gases-dashboard/",
+      "label": "Go to this page"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/gallery/carbon-dioxide-sources-sinks/",
+      "label": ""
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/gallery/carbon-dioxide-sources-sinks/",
+      "label": "Carbon Dioxide Sources and Sinks"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/gallery/carbon-dioxide-sources-sinks/",
+      "label": "Go to this page"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/gallery/air-quality-dashboard/",
+      "label": ""
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/gallery/air-quality-dashboard/",
+      "label": "Air Quality Dashboard"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/gallery/air-quality-dashboard/",
+      "label": "Go to this page"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/gallery/wildland-fires/",
+      "label": ""
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/gallery/wildland-fires/",
+      "label": "Wildland Fires Dashboard"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/gallery/wildland-fires/",
+      "label": "Go to this page"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/gallery/nasaand-hurricanes/",
+      "label": ""
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/gallery/nasaand-hurricanes/",
+      "label": "NASA and Hurricanes"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/gallery/nasaand-hurricanes/",
+      "label": "Go to this page"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/gallery/nasaand-agriculture/",
+      "label": ""
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/gallery/nasaand-agriculture/",
+      "label": "NASA and Agriculture Video"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/gallery/nasaand-agriculture/",
+      "label": "Go to this page"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/14700/",
+      "label": ""
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/14700/",
+      "label": "NASA + The Smithsonian: Biodiversity"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/search/?nasa_science_categories=Earth",
+      "label": ""
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/14700/",
+      "label": "Go to this page"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/14606/",
+      "label": ""
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/14606/",
+      "label": "NASA and Fire"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/search/?nasa_science_categories=Earth",
+      "label": ""
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/14606/",
+      "label": "Go to this page"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/14696/",
+      "label": ""
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/14696/",
+      "label": "NASA + Smithsonian and Greenhouse Gases"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/search/?nasa_science_categories=Earth",
+      "label": ""
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/14696/",
+      "label": "Go to this page"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/14568/",
+      "label": ""
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/14568/",
+      "label": "Tracking the Greenhouse Gas Methane, Earth Information Center Videos"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/search/?nasa_science_categories=Earth",
+      "label": ""
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/14568/",
+      "label": "Go to this page"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/14507/",
+      "label": ""
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/14507/",
+      "label": "NASA Joins the Jane Goodall Institute to Conserve Chimpanzee Habitat, Earth Information Center Videos"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/search/?nasa_science_categories=Earth",
+      "label": ""
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/14507/",
+      "label": "Go to this page"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/14713/",
+      "label": ""
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/14713/",
+      "label": "Building Coastal Resilience with NASA Data"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/search/?nasa_science_categories=Earth",
+      "label": ""
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/14713/",
+      "label": "Go to this page"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/3912/#media_group_349716",
+      "label": ""
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/3912/#media_group_349716",
+      "label": "Global Sea Surface Currents and Temperature"
+    },
+    {
+      "url": "http://ecco2.org/",
+      "label": "Estimating the Circulation and Climate of the Ocean, Phase II (ECCO2)"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/3912/#media_group_349716",
+      "label": "Go to this section"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/4950/",
+      "label": ""
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/4950/",
+      "label": "GEDI Forest Height"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/search/?nasa_science_categories=Earth",
+      "label": ""
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/4950/",
+      "label": "Go to this page"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/4993/",
+      "label": ""
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/4993/",
+      "label": "Spread of the Dixie Fire - 2021"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/search/?nasa_science_categories=Earth",
+      "label": ""
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/4993/",
+      "label": "Go to this page"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/4960/",
+      "label": ""
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/4960/",
+      "label": "A 3D View of an Atmospheric River from an Earth System Model"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/search/?nasa_science_categories=Earth",
+      "label": ""
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/4960/",
+      "label": "Go to this page"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/5011/",
+      "label": ""
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/5011/",
+      "label": "Lightning Events Detected from the International Space Station (ISS) 2017-2023"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/search/?nasa_science_categories=Earth",
+      "label": ""
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/5011/",
+      "label": "Go to this page"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/5313/",
+      "label": ""
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/5313/",
+      "label": "Change in Night Lights between 2012 and 2023 - EIC Version"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/search/?nasa_science_categories=Earth",
+      "label": ""
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/5313/",
+      "label": "Go to this page"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/5196/",
+      "label": ""
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/5196/",
+      "label": "DYAMOND Global Carbon Dioxide"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/search/?nasa_science_categories=Earth",
+      "label": ""
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/5196/",
+      "label": "Go to this page"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/5425/",
+      "label": ""
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/5425/",
+      "label": "Perpetual Ocean 2: Western Boundary Currents"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/search/?nasa_science_categories=Earth",
+      "label": ""
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/5425/",
+      "label": "Go to this page"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/5533/",
+      "label": ""
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/5533/",
+      "label": "Air Quality Model Runs"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/search/?nasa_science_categories=Earth",
+      "label": ""
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/5533/",
+      "label": "Go to this page"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/14371/",
+      "label": ""
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/14371/",
+      "label": "Earth Information Center Media B-Roll"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/search/?nasa_science_categories=Earth",
+      "label": ""
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/14371/",
+      "label": "Go to this page"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/gallery/daily-visualizations/",
+      "label": ""
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/gallery/daily-visualizations/",
+      "label": "Daily Visualizations"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/gallery/daily-visualizations/",
+      "label": "Go to this page"
+    },
+    {
+      "url": "https://www.nasa.gov/",
+      "label": ""
+    },
+    {
+      "url": "https://www.usa.gov/",
+      "label": ""
+    },
+    {
+      "url": "https://www.nasa.gov/about/highlights/HP_Privacy.html",
+      "label": "Privacy Policy and Important Notices"
+    },
+    {
+      "url": "https://www.nasa.gov/multimedia/guidelines/index.html",
+      "label": "Reproduction Guidelines"
+    }
+  ],
+  "elapsed_seconds": 1.219
+}

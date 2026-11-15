@@ -1,0 +1,186 @@
+NASA SVS | DYAMOND Global Carbon Dioxide
+Scientific Visualization Studio
+Galleries
+Help
+Search
+5324: An M9.3 flare from Active Region 13723 - Jun...
+14631: Model Behavior: Visualizing Global CO2
+DYAMOND Global Carbon Dioxide
+Released
+Monday, July 22, 2024
+ID: 5196
+Visualizations by:
+AJ Christensen
+Scientific consulting by:
+Lesley Ott
+View full credits
+Global CO2 ppm for January-March of 2020. This camera move orbits the Earth from a distance.
+Download
+Movies
+dyamondPointCloud_12-1-2023b_dyamond_co2_anim_globe_orbit_1080p30_h265.mp4 (1920x1080) [6.9 MB]
+dyamondPointCloud_12-1-2023b_dyamond_co2_anim_globe_orbit_2160p30.mp4 (3840x2160) [68.4 MB]
+Frame sets
+dyamondPointCloud_12-1-2023b_dyamond_co2_anim_globe_orbit_3x3Hyperwall (5760x3240) [0 Item(s)]
+Images
+dyamondPointCloud_12-1-2023b_dyamond_co2_anim_globe_orbit_3x3Hyperwall.00200_print.jpg (1024x576) [46.2 KB]
+dyamondPointCloud_12-1-2023b_dyamond_co2_anim_globe_orbit_3x3Hyperwall.00200_searchweb.png (320x180) [31.3 KB]
+dyamondPointCloud_12-1-2023b_dyamond_co2_anim_globe_orbit_3x3Hyperwall.00200_web.png (320x180) [31.3 KB]
+dyamondPointCloud_12-1-2023b_dyamond_co2_anim_globe_orbit_3x3Hyperwall.00200_thm.png (80x40) [3.0 KB]
+Hyperwall shows
+dyamondPointCloud_12-1-2023b_dyamond_co2_anim_globe_orbit_2160p30.mp4.hwshow [231 bytes]
+Global CO2 ppm for January-March of 2020. This camera move orbits the Earth from a distance.
+What we’re looking at
+This global map shows concentrations of carbon dioxide as the gas moved through Earth’s atmosphere from January through March 2020, driven by wind patterns and atmospheric circulation.
+Because of the model’s high resolution, you can zoom in and see carbon dioxide emissions rising from power plants, fires, and cities, then spreading across continents and oceans.
+“As policymakers and as scientists, we're trying to account for where carbon comes from and how that impacts the planet,” said NASA climate scientist Lesley Ott. “You see here how everything is interconnected by these different weather patterns.”
+Global CO2 ppm for January-March of 2020. This camera move zooms in on the eastern United States.
+Download
+Movies
+dyamondPointCloud_3-29-2023a_dyamond_co2_anim_globe_zoom_1080p30.mp4 (1920x1080) [43.5 MB]
+dyamondPointCloud_3-29-2023a_dyamond_co2_anim_globe_zoom_2160p30.mp4 (3840x2160) [152.2 MB]
+Frame sets
+dyamondPointCloud_3-29-2023a_dyamond_co2_anim_globe_zoom_3x3hyperwall [0 Item(s)]
+Images
+dyamondPointCloud_3-29-2023a_dyamond_co2_anim_globe_zoom_3x3hyperwall.00800_print.jpg (1024x576) [152.4 KB]
+dyamondPointCloud_3-29-2023a_dyamond_co2_anim_globe_zoom_3x3hyperwall.00800_searchweb.png (320x180) [101.2 KB]
+dyamondPointCloud_3-29-2023a_dyamond_co2_anim_globe_zoom_3x3hyperwall.00800_thm.png (80x40) [7.0 KB]
+Hyperwall shows
+dyamondPointCloud_3-29-2023a_dyamond_co2_anim_globe_zoom_2160p30.mp4.hwshow [230 bytes]
+Global CO2 ppm for January-March of 2020. This camera move zooms in on the eastern United States.
+Global CO2 ppm for January-March of 2020. This camera move zooms in on the eastern United States.This is a super-wide screen format for 5x3 tiled display walls.
+Download
+Movies
+dyamondPointCloud_4-3-2023a_dyamond_co2_anim_globe_zoom_5x3_1080p30.mp4 (3200x1080) [42.2 MB]
+Frame sets
+dyamondPointCloud_4-3-2023a_dyamond_co2_anim_globe_zoom_hyperwall5x3 [0 Item(s)]
+dyamondPointCloud_4-3-2023a_dyamond_co2_anim_globe_zoom_hyperwall5x3_pngs (9600x3240) [1176 Item(s)]
+Images
+dyamondPointCloud_4-3-2023a_dyamond_co2_anim_globe_zoom_hyperwall5x3.00800_print.jpg (1024x345) [55.7 KB]
+dyamondPointCloud_4-3-2023a_dyamond_co2_anim_globe_zoom_5x3_1080p30.jpg (3200x1080) [501.0 KB]
+dyamondPointCloud_4-3-2023a_dyamond_co2_anim_globe_zoom_hyperwall5x3.00800_searchweb.png (320x180) [84.5 KB]
+dyamondPointCloud_4-3-2023a_dyamond_co2_anim_globe_zoom_hyperwall5x3.00800_thm.png (80x40) [6.2 KB]
+Global CO2 ppm for January-March of 2020. This camera move zooms in on the eastern United States.
+This is a super-wide screen format for 5x3 tiled display walls.
+What are the sources of CO2?
+Over China, the United States, and South Asia, the majority of emissions came from power plants, industrial facilities, and cars and trucks, Ott said. Meanwhile, in Africa and South America, emissions largely stemmed from fires, especially those related to land management, controlled agricultural burns and deforestation, along with the burning of oil and coal. Fires release carbon dioxide as they burn.
+Why does the map look like it’s pulsing?
+There are two primary reasons for the pulsing: First, fires have a clear day-night cycle. They typically flare up during the day and die down at night.
+Second, you’re seeing the absorption and release of carbon dioxide as trees and plants photosynthesize. Earth’s land and oceans absorb about 50% of carbon dioxide; these are natural carbon sinks. Plants take up carbon dioxide during the day as they photosynthesize and then release it at night through respiration. Notice that much of the pulsing occurred in regions with lots of trees, like mid- or high-latitude forests. And since the data were taken during the Southern Hemisphere summer, you see more pulsing in the tropics and South America, where it was the active growing season.
+Some of the pulsing also comes from the planetary boundary layer — the lowest 3,000 feet 914 meters of the atmosphere — which rises as the Earth’s surface is heated by sunlight during the day, then falls as it cools at night.
+Global CO2 ppm for January-March of 2020. This camera move zooms in on the western United States.
+Download
+Movies
+dyamondPointCloud_1-22-2025a_dyamond_co2_anim_globe_zoomwest_3x3hyperwall_1080p30_2.mp4 (1920x1080) [42.6 MB]
+dyamondPointCloud_1-22-2025a_dyamond_co2_anim_globe_zoomwest_3x3hyperwall_3240p30_h265_2.mp4 (5760x3240) [159.2 MB]
+Frame sets
+dyamondPointCloud_1-22-2025a_dyamond_co2_anim_globe_zoomwest_3x3hyperwall (5760x3240) [1177 Item(s)]
+Images
+dyamondPointCloud_1-22-2025a_dyamond_co2_anim_globe_zoomwest_3x3hyperwall.01080_print.jpg (1024x576) [133.1 KB]
+dyamondPointCloud_1-22-2025a_dyamond_co2_anim_globe_zoomwest_3x3hyperwall.01080_searchweb.png (320x180) [86.7 KB]
+dyamondPointCloud_1-22-2025a_dyamond_co2_anim_globe_zoomwest_3x3hyperwall.01080_web.png (320x180) [86.7 KB]
+dyamondPointCloud_1-22-2025a_dyamond_co2_anim_globe_zoomwest_3x3hyperwall.01080_thm.png [6.1 KB]
+Global CO2 ppm for January-March of 2020. This camera move zooms in on the western United States.
+The data that drives it
+The map was created by NASA’s Scientific Visualization Studio using a model called GEOS, short for the Goddard Earth Observing System. GEOS is a high-resolution weather reanalysis model, powered by supercomputers, that is used to represent what was happening in the atmosphere — including storm systems, cloud formations, and other natural events. GEOS pulls in billions of data points from ground observations and satellite instruments, such as the
+Terra satellite’s MODIS
+and the
+Suomi-NPP satellite’s VIIRS instruments
+. Its resolution is more than 100 times greater than your typical weather model.
+Ott and other climate scientists wanted to know what GEOS would show if it was used to model the movement and density of carbon dioxide in the global atmosphere.
+“We had this opportunity to say: can we tag along and see what really high-resolution CO2 looks like?” Ott said. “We had a feeling we were going to see plume structures and things that we've never been able to see when we do these coarser resolution simulations.”
+Her instinct was right. “Just seeing how persistent the plumes were and the interaction of the plumes with weather systems, it was tremendous.”
+Why it matters
+You can’t tackle climate change without confronting the fact that we’re emitting massive amounts of CO2, and it’s warming the atmosphere, Ott said.
+Carbon dioxide is a heat-trapping greenhouse gas and the primary reason for Earth’s rising temperatures. As CO2 builds in the atmosphere, it warms our planet. This is clear in the numbers. 2023 was the
+hottest year on record
+, according to scientists from NASA’s Goddard Institute for Space Studies (GISS) in New York. Most of the ten hottest years on record have occurred in the past decade.
+All this carbon dioxide isn’t harmful to
+air quality
+. In fact, we need some carbon dioxide to keep the planet warm enough for life to exist. But when too much CO2 is pumped into the atmosphere, the Earth warms too much and too fast. That’s what has been happening for at least the past half century. The concentration of carbon dioxide in the atmosphere increased from approximately 278 parts per million in 1750, the beginning of the industrial era, to
+427 parts per million in May 2024
+. More on that
+here
+.
+Human activities have “unequivocally caused warming,” according to the
+latest report
+by the Intergovernmental Panel on Climate Change. This warming is leading to all sorts of changes to our climate, including more intense storms, wildfires, heat waves, and rising sea levels.
+Global CO2 ppm for January-March of 2020. This camera move is more experimental and attempts to fly through the data, starting from the East coast and heading west. The middle of the video is quite dark because of the density of the CO2.
+Download
+Movies
+dyamondPointCloud_12-4-2023b_dyamond_co2_anim_globe_tilt_1080p30.mp4 (1920x1080) [24.5 MB]
+Frame sets
+dyamondPointCloud_12-4-2023b_dyamond_co2_anim_globe_tilt_3x3Hyperwall [0 Item(s)]
+Images
+dyamondPointCloud_12-4-2023b_dyamond_co2_anim_globe_tilt_3x3Hyperwall.01085_print.jpg (1024x576) [126.5 KB]
+dyamondPointCloud_12-4-2023b_dyamond_co2_anim_globe_tilt_3x3Hyperwall.01085_searchweb.png (320x180) [82.0 KB]
+dyamondPointCloud_12-4-2023b_dyamond_co2_anim_globe_tilt_3x3Hyperwall.01085_web.png (320x180) [82.0 KB]
+dyamondPointCloud_12-4-2023b_dyamond_co2_anim_globe_tilt_3x3Hyperwall.01085_thm.png (80x40) [6.2 KB]
+Global CO2 ppm for January-March of 2020. This camera move is more experimental and attempts to fly through the data, starting from the East coast and heading west. The middle of the video is quite dark because of the density of the CO2.
+Inside the SVS studio
+Carbon dioxide exists everywhere in the atmosphere, and the challenge for AJ Christensen, a senior visualization designer at NASA’s Goddard Space Flight Center, was to show the differences in density of this invisible gas.
+"We didn't want people to get the impression that there was no carbon dioxide in these sparser regions," Christensen said. “But we also wanted to really highlight the dense regions because that's the interesting feature of the data. We were trying to show that there's a lot of density over New York and Beijing.”
+Data visualizations help people understand how Earth’s systems work, and they can help scientists find patterns in massive datasets, Ott said.
+“What's happening is you're stitching together this very complex array of models to make use of the different satellite data, and that’s helping us fill in this broad puzzle of all the processes that control carbon dioxide,” Ott said. “The hope is that if we understand greenhouse gases really well today, we'll be able to build models that better predict them over the next decades or even centuries.”
+For more information and data on greenhouse gases, visit the
+U.S. Greenhouse Gas Center
+.
+Download
+Images
+dyamondCbar_6-27-2024a.png (1920x1080) [47.6 KB]
+dyamondCbar_6-27-2024a_print.jpg (1024x576) [29.3 KB]
+Color bar showing the range, color, and opacity transfer functions for the above visualizations.
+Earth
+Carbon Dioxide
+Eic (earth information center) display
+Hyperwall
+Credits
+Please give credit for this item to:
+NASA's Scientific Visualization Studio
+Visualizers
+AJ Christensen
+(SSAI)
+Greg Shirah
+(NASA/GSFC)
+Helen-Nicole Kostis
+(USRA)
+Mark SubbaRao
+(NASA/GSFC)
+Technical support
+Laurence Schuler
+(ADNET Systems, Inc.)
+Ian Jones
+(ADNET Systems, Inc.)
+Scientists
+Lesley Ott
+(NASA/GSFC)
+Brad Weir
+(Morgan State University)
+William Putman
+(NASA/GSFC)
+Tomohiro Oda
+(USRA/EfSI)
+Datasets used
+DYAMOND
+ID: 1193
+Type: Model
+Collected by: NASA/JPL, NASA/GMAO
+The data from the experimental coupled GEOS-MITgcm model known as DYAMOND that was run on NASA Advanced Supercomputing facility.
+See all pages that use this dataset
+Note: While we identify the data sets used on this page, we do not store any further details, nor the data sets themselves on our site.
+Used as a Source In
+ID: 14696
+Produced Video
+NASA + Smithsonian and Greenhouse Gases
+ID: 14631
+Produced Video
+Model Behavior: Visualizing Global CO2
+Release date
+This page was originally published on Monday, July 22, 2024.
+This page was last updated on Monday, June 23, 2025 at 12:16 AM EDT.
+You may also like...
+No results.
+An error occurred. Please reload this page and try again.
+Privacy Policy and Important Notices
+Reproduction Guidelines
+NASA Official:
+Site Curator:

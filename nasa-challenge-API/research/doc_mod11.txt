@@ -1,0 +1,980 @@
+MODIS/Terra Land Surface Temperature/Emissivity Monthly L3 Global 0.05Deg CMG V061 | NASA Earthdata
+Skip to main content
+Earthdata Forum is down due to unplanned maintenance. Please contact earthdata-support@nasa.gov with questions.
+See the alert
+Suomi NPP is no longer delivering new data. Users must transition to alternative products.
+Suomi NPP data announcement
+Home
+Data
+Data Catalog
+Data Alerts and Outages
+Projects
+Land, Atmosphere Near real-time Capability for Earth observation (LANCE)
+Harmonized Landsat and Sentinel-2 (HLS)
+Applied Remote Sensing Training Program (ARSET)
+Observation Methods
+Platforms
+Instruments
+Space Geodesy Techniques
+Data Tools
+Earthdata Search
+Worldview
+Fire Information for Resource Management System (FIRMS)
+Vertex
+Giovanni
+Application for Extracting and Exploring Analysis Ready Samples (AppEEARS)
+Visualization, Exploration, and Data Analysis (VEDA)
+Ocean Color Level 3 and 4 Browser
+Topics
+Atmosphere
+Biosphere
+Climate Indicators
+Cryosphere
+Human Dimensions
+Land Surface
+Ocean
+Solid Earth
+Sun-Earth Interactions
+Terrestrial Hydrosphere
+View All Topics
+Learn
+Earth Observation Data Basics
+GIS Resources
+Data in Action
+Data Recipes
+Trainings
+Tutorials
+Webinars
+Publications
+Centers
+Distributed Active Archive Centers (DAACs)
+Alaska Satellite Facility (ASF) DAAC
+Atmospheric Science Data Center (ASDC)
+Crustal Dynamics Data Information System (CDDIS)
+Global Hydrometeorology Resource Center (GHRC) DAAC
+Goddard Earth Sciences Data and Information Services Center (GES DISC)
+Land Processes (LP) DAAC
+Level 1 and Atmosphere Archive and Distribution System (LAADS) DAAC
+National Snow and Ice Data Center (NSIDC) DAAC
+Oak Ridge National Laboratory (ORNL) DAAC
+Ocean Biology DAAC (OB.DAAC)
+Physical Oceanography DAAC (PO.DAAC)
+Science Investigator-led Processing Systems (SIPS)
+MODIS Adaptive Processing System (MODAPS) SIPS
+Ocean SIPS
+Microwave Limb Sounder (MLS) SIPS
+Ozone Monitoring Instrument (OMI) SIPS
+Atmosphere SIPS
+Land SIPS
+Ozone Mapping and Profiler Suite SIPS
+Sounder SIPS
+Suborbital Data Resource Center
+Engage
+Open Data, Services, and Software Policies
+Open Science and Data Management Plan
+For Researchers and Grantees
+Data Management Guidance
+Data Rights and Related Issues
+Data Use Guidance
+For Developers
+APIs
+Common Metadata Repository
+For Data Providers
+Adding New Data
+DOI Process
+Standards
+About
+ESDS Leadership
+Organizational Chart
+Multi-Mission Data Processing System Study
+Earth Science Data and Information System (ESDIS) Project
+ESDS Digital Strategy and User Development Team
+Earth Science Data Systems Geographic Information Systems Team (EGIST)
+Competitive Programs
+News & Events
+News
+Events
+Worldview Image of the Week
+Feature Articles
+Data User Stories
+Earthdata Blog
+Data Alerts System
+Subscribe to the Earthdata Newsletter
+Data
+Toggle submenu
+Data
+Data Catalog
+Data Alerts and Outages
+Projects
+Land, Atmosphere Near real-time Capability for Earth observation (LANCE)
+Harmonized Landsat and Sentinel-2 (HLS)
+Applied Remote Sensing Training Program (ARSET)
+Observation Methods
+Platforms
+NASA operates state-of-the-art platforms that collect critical information about our home planet. Drill down to the data and tools you need by exploring platforms on Earth and in the sky.
+Instruments
+From the ground and into space, instruments aboard NASA platforms collect a vast array of Earth science data.
+Space Geodesy Techniques
+These data are used to support scientific and societal applications Earth observations, positioning, navigation, and timing.
+Data Tools
+Earthdata Search
+Worldview
+Fire Information for Resource Management System (FIRMS)
+Vertex
+Giovanni
+Application for Extracting and Exploring Analysis Ready Samples (AppEEARS)
+Visualization, Exploration, and Data Analysis (VEDA)
+Ocean Color Level 3 and 4 Browser
+?
+Get help from experienced data users and managers on Earthdata Forum
+Topics
+Toggle submenu
+Data Pathfinders by Topic
+Atmosphere
+The atmosphere is a gaseous envelope surrounding and protecting our planet from the intense radiation of the Sun.
+Biosphere
+The biosphere encompasses all life on Earth and extends from root systems to mountaintops and all depths of the ocean.
+Climate Indicators
+Climate Indicators hold key information for the most relevant domains of climate change: temperature and energy, atmospheric composition, ocean and water as well as the cryosphere.
+Cryosphere
+The cryosphere encompasses the frozen parts of Earth, including glaciers and ice sheets, sea ice, and any other frozen body of water.
+Human Dimensions
+The human dimensions discipline includes ways humans interact with the environment and how these interactions impact Earth’s systems.
+Land Surface
+The land surface discipline includes research into areas such as shrinking forests, warming land, and eroding soils.
+Ocean
+This vast, critical reservoir supports a diversity of life and helps regulate Earth’s climate.
+Solid Earth
+Processes occurring deep within Earth constantly are shaping landforms.
+Sun-Earth Interactions
+The Sun influences physical and chemical processes in Earth’s atmosphere.
+Terrestrial Hydrosphere
+The terrestrial hydrosphere includes water on the land surface and underground in the form of lakes, rivers, and groundwater along with total water storage.
+Featured Data Pathfinders by Topic
+Air Quality
+Agriculture Production
+Natural Hazards
+Water Quality
+Climate Resilience
+View all Topics
+Learn
+Toggle submenu
+Learn
+Earth Observation Data Basics
+Learn key terms and concepts like remote sensing and processing levels.
+GIS Resources
+Explore resources for the Geographic Information Systems (GIS) community, including StoryMaps.
+Data Support
+Connect with experienced data users and managers through the Earthdata Forum for help with datasets, tools, and services.
+Data in Action
+Data in Action demonstrates Earth science data applications with interactive explanations as to how the work was accomplished.
+Data Recipes
+Data Recipes are code-based instructions that help data scientists accomplish a specific task, such as converting data into a specific format for analysis or visualization.
+Trainings
+Trainings are interactive opportunities to develop technical skills with NASA Earth science data.
+Tutorials
+Tutorials are step by step “how to” content that cover a broad range of tasks, from data collection to visualization.
+Webinars
+Webinars are video seminars featuring experts in various disciplines who share their knowledge in a particular subject area, from data in the cloud to specific data tools.
+Publications
+Access publications citing NASA Earth science data.
+Centers
+Toggle submenu
+Centers
+Distributed Active Archive Centers (DAACs)
+Science Investigator-led Processing Systems (SIPS)
+Alaska Satellite Facility (ASF) DAAC
+Atmospheric Science Data Center (ASDC)
+Crustal Dynamics Data Information System (CDDIS)
+Global Hydrometeorology Resource Center (GHRC) DAAC
+Goddard Earth Sciences Data and Information Services Center (GES DISC)
+Land Processes (LP) DAAC
+Level 1 and Atmosphere Archive and Distribution System (LAADS) DAAC
+National Snow and Ice Data Center (NSIDC) DAAC
+Oak Ridge National Laboratory (ORNL) DAAC
+Ocean Biology DAAC (OB.DAAC)
+Physical Oceanography DAAC (PO.DAAC)
+MODIS Adaptive Processing System (MODAPS) SIPS
+Ocean SIPS
+Microwave Limb Sounder (MLS) SIPS
+Ozone Monitoring Instrument (OMI) SIPS
+Atmosphere SIPS
+Land SIPS
+Ozone Mapping and Profiler Suite SIPS
+Sounder SIPS
+Suborbital Data Resource Center
+All of the resources for the airborne and field data community within our program can be found here.
+Engage
+Toggle submenu
+Engage
+Open Data, Services, and Software Policies
+Open Science and Data Management Plan
+For Researchers and Grantees
+Data Management Guidance
+Data Rights and Related Issues
+Data Use Guidance
+For Developers
+APIs
+Common Metadata Repository
+For Data Providers
+Adding New Data
+DOI Process
+Standards
+About
+Toggle submenu
+About
+ESDS Leadership
+Meet the Earth Science Data Systems Program leadership team.
+Organizational Chart
+View the internal structure of the ESDS Program.
+Multi-Mission Data Processing System Study
+We are considering the right data processing system for open-source data.
+Contact Us
+Find the right contact for questions, feedback, or support related to NASA Earthdata.
+Earth Science Data and Information System (ESDIS) Project
+ESDS Digital Strategy and User Development Team
+Earth Science Data Systems Geographic Information Systems Team (EGIST)
+Competitive Programs
+Program Performance and Metrics
+Access overall ingest, archive, and distribution metrics for the ESDS program.
+News & Events
+Toggle submenu
+News
+View the latest updates from Earthdata.
+Events
+Sign up or watch a past recording of events covering Earth science data topics.
+Worldview Image of the Week
+Learn about the Earth through the lens of NASA’s Worldview.
+Data Alerts System
+Subscribe to the Earthdata Newsletter
+Feature Articles
+Read stories inspired by NASA Earth science data.
+Data User Stories
+Discover how people are researching with NASA Earth science data.
+Earthdata Blog
+Take a deeper dive into NASA Earth science data.
+Latest News
+2 MIN READ
+Atmospheric River Season for the Pacific Northwest
+Worldview Image of the Week
+Nov 13, 2026
+1 MIN READ
+earthaccess Hackathon at AGU 2026
+Event
+Nov 10, 2026
+Search
+Home
+Find Data
+Data Catalog
+MODIS/Terra Land Surface Temperature/Emissivity Monthly L3 Global 0.05Deg CMG V061
+MODIS/Terra Land Surface Temperature/Emissivity Monthly L3 Global 0.05Deg CMG V061
+MOD11C3
+Version
+061
+DOI
+https://doi.org/10.5067/MODIS/MOD11C3.061
+Citation
+Center/Project
+Land Processes DAAC (LP DAAC)
+Data at a Glance
+Cloud Enabled Dataset
+CMR Concept ID:
+c2565788897-lpcloud
+Copy URL
+Copy CMR Metadata URL
+Share
+Facebook
+Data Format
+HDF-EOS2
+Dataset Size
+70 MB
+Spatial Extent
+N: 90
+S: -90
+E: 180
+W: -180
+Spatial Resolution
+5600 Meters x 5600 Meters
+Location
+GLOBAL
+Temporal Extent
+2000-02-01 to Present
+Temporal Resolution
+1 Month
+Coordinate System
+CARTESIAN
+Granule Spatial Representation
+CARTESIAN
+Data Access
+User Guide
+Overview
+Documents and Resources
+Publications
+Variables
+TABLE OF CONTENTS
+Description
+The Terra Moderate Resolution Imaging Spectroradiometer (MODIS) Land Surface Temperature/Emissivity Monthly(MOD11C3) Version 6.1 product provides monthly Land Surface Temperature and Emissivity (LST&E) values in a 0.05  degree (5,600 meters at the equator) latitude/longitude Climate Modeling Grid (CMG). A CMG granule is a geographic grid with 7,200 columns and 3,600 rows representing the entire globe. The LST&E values in the MOD11C3 product are derived by compositing and averaging the values from the corresponding month of
+MOD11C1
+daily files. Each MOD11C3 product consists of the following layers for daytime and nighttime observations: LSTs, quality control assessments, observation times, view zenith angles, and number of clear-sky observations along with percentage of land in the grid and emissivities from bands 20, 22, 23, 29, 31, and 32.
+Known Issues
+For complete information about known issues please refer to the
+MODIS/VIIRS Land Quality Assessment website
+.
+Version Description
+The following changes and improvements were implemented for inputs to MODIS Version 6.1 land surface temperature and emissivity data products: (1) Version 6.1 Level-1B (L1B) products have been improved by undergoing various calibration changes that include: changes to the response-versus-scan angle (RVS) approach that affects reflectance bands for Aqua and Terra MODIS, corrections to adjust for the optical crosstalk in Terra MODIS infrared (IR) bands, and corrections to the Terra MODIS forward look-up table (LUT) update for the period 2012 – 2017, and (2) A polarization correction has been applied to the L1B Reflective Solar Bands (RSB).
+Product Summary
+Platforms
+Terra
+Instruments
+MODIS
+Projects
+TERRA
+Spatial Extent
+N: 90
+S: -90
+E: 180
+W: -180
+Spatial Resolution
+5600 Meters x 5600 Meters
+Spatial Reference System(s)
+MODIS Climate Modeling Grid (CMG)
+Location
+GLOBAL
+Coordinate System
+CARTESIAN
+Granule Spatial Representation
+CARTESIAN
+Temporal Extent
+2000-02-01 to Present
+Temporal Resolution
+1 Month
+Data Partner
+Land Processes Distributed Active Archive Center (LP DAAC)
+,
+MODIS Adaptive Processing System, Terrestrial Information Systems Laboratory, Earth Sciences Division, Science and Exploration Directorate, Goddard Space Flight Center, NASA (NASA/GSFC/SED/ESD/TISL/MODAPS)
+Concept ID
+C2565788897-LPCLOUD
+Data State
+ACTIVE
+Number of Files/Granules
+321
+Processing Level
+3
+Published
+2021-02-04
+Updated
+2021-02-04
+Science Keywords
+Emissivity
+,
+Land Surface Temperature
+Citation
+Citation is critically important for dataset documentation and discovery. This dataset is openly shared, without restriction, in accordance with the
+EOSDIS Data Use and Citation Guidance
+.
+Copy Citation
+Select a Citation Style:
+APA
+BibTeX
+Chicago
+MLA
+Copy
+Citation Copied
+Wan,  Zhengming, Hook,  Simon, & Hulley,  Glynn. (2021). MODIS/Terra Land Surface Temperature/Emissivity Monthly L3 Global 0.05Deg CMG V061 [Data set]. NASA Land Processes Distributed Active Archive Center. https://doi.org/10.5067/MODIS/MOD11C3.061
+ Date Accessed: 2026-11-14
+@misc{Wan_Hook_Hulley_2021,
+  title={MODIS/Terra Land Surface Temperature/Emissivity Monthly L3 Global 0.05Deg CMG V061},
+  url={https://www.earthdata.nasa.gov/data/catalog/lpcloud-mod11c3-061},
+  DOI={10.5067/MODIS/MOD11C3.061},
+  publisher={NASA Land Processes Distributed Active Archive Center},
+  author={Wan,  Zhengming and Hook,  Simon and Hulley,  Glynn},
+  year={2021},
+}
+Wan,  Zhengming,  Simon Hook, and  Glynn Hulley. “MODIS/Terra Land Surface Temperature/Emissivity Monthly L3 Global 0.05Deg CMG V061.” NASA Land Processes Distributed Active Archive Center, 2021. doi:10.5067/MODIS/MOD11C3.061.
+ Date Accessed: 2026-11-14
+Wan,  Zhengming, et al. “MODIS/Terra Land Surface Temperature/Emissivity Monthly L3 Global 0.05Deg CMG V061.” NASA Land Processes Distributed Active Archive Center, 2021, https://doi.org/10.5067/MODIS/MOD11C3.061.
+ Date Accessed: 2026-11-14
+File Naming Convention
+MOD11C3.A2025182.061.2025213154157.hdf
+The file name begins with the Product Short Name (MOD11C3) followed by the Julian Date of Acquisition formatted as AYYYYDDD (A2025182), the Version of the data collection (061), the Julian Date and Time of Production designated as YYYYDDDHHMMSS (2025213154157), and the Data Format (hdf).
+Get Help
+QUESTIONS & SUPPORT
+Have a question?
+Get help with NASA Earth science data, datasets, tools, services, and metadata on the Earthdata Forum. Experienced staff in the data user community review and answer questions.
+Get help on Earthdata Forum
+Earthdata
+Forum
+TABLE OF CONTENTS
+Documents
+USER'S GUIDE
+The technical information in the User's Guide enables users to interpret and use the data products.
+ALGORITHM THEORETICAL BASIS DOCUMENT (ATBD)
+The ATBD provides physical theory and mathematical procedures for the calculations used to produce the data products.
+PRODUCT QUALITY ASSESSMENT
+The LDOPE Land Product Quality Assessment website provides known issues, maneuvers, and product quality of the land products.
+SCIENCE DATA PRODUCT VALIDATION
+Validation at stage 2 has been achieved for all MODIS Land Surface Temperature and Emissivity products.
+Further details regarding MODIS land product validation for the MOD11 data products are available from the MODIS Land Team Validation site.
+GENERAL DOCUMENTATION
+The File Specification provides a description of the product file including Scientific Data Sets and their attributes.
+Dataset Resources
+View All Learning Resources
+View All News & Events
+Filters
+Type
+Tutorial
+Status (1)
+Current
+Archived
+Copy Link
+BibTeX
+Items
+4
+8
+12
+16
+Apply
+Clear All
+Get Started with MODIS Land Surface Temperature Data Part 3: Interpreting Quality Information
+Learn how to interpret Moderate Resolution Imaging Spectroradiometer (MODIS) Land Surface Temperature data quality information, including decoding binary quality layers and utilizing tools for data analysis.
+Tutorial
+Jan. 23, 2017
+SHOWING
+1 OF 1
+Items
+4
+8
+12
+16
+Get Help
+QUESTIONS & SUPPORT
+Have a question?
+Get help with NASA Earth science data, datasets, tools, services, and metadata on the Earthdata Forum. Experienced staff in the data user community review and answer questions.
+Get help on Earthdata Forum
+Earthdata
+Forum
+Publications Citing This Dataset
+Filters
+Copy Link
+BibTeX
+Topic
+Agriculture (1)
+Atmosphere (41)
+Biosphere (82)
+Climate Indicators (2)
+Cryosphere (14)
+Human Dimensions (12)
+Ocean (5)
+Solid Earth (1)
+Terrestrial Hydrosphere (16)
+Article Type
+journal_article (157)
+book_chapter (2)
+proceedings_article (1)
+Journal
+Allerton Press (1)
+American Association for the Advancement of Science (AAAS) (1)
+American Geophysical Union (AGU) (15)
+American Meteorological Society (2)
+Asian Journal of Agriculture and Biology (1)
+Copernicus GmbH (13)
+Elsevier BV (39)
+Frontiers Media SA (1)
+Geological Society of India (1)
+IEEE (1)
+Informa UK Limited (8)
+Institute of Electrical and Electronics Engineers (IEEE) (3)
+International Society for Environmental Information Science (ISEIS) (1)
+IOP Publishing (3)
+MDPI AG (21)
+Medknow (1)
+Pandawa Institute (1)
+Pleiades Publishing Ltd (1)
+Proceedings of the National Academy of Sciences (1)
+Public Library of Science (PLoS) (4)
+Space Research Institute RAS (1)
+Springer International Publishing (1)
+Springer Nature Switzerland (1)
+Springer Science and Business Media LLC (30)
+The Royal Society (1)
+Wiley (7)
+Year
+2026 (15)
+2025 (19)
+2024 (20)
+2023 (17)
+2022 (22)
+2021 (35)
+2020 (24)
+2019 (26)
+2018 (7)
+2017 (4)
+2016 (5)
+2015 (3)
+2014 (2)
+2011 (1)
+Apply
+Clear All
+Title
+Authors
+Year
+Sort ascending
+Referenced Datasets
+Recent changes in antarctic surface air temperature based on the fusion of satellite and in-situ measurements
+Xie, Siqin, Wei, Sihao, Li, Zichen, Li, Qingxiang
+2026
+MODIS/Aqua Land Surface Temperature/Emissivity Monthly L3 Global 0.05Deg CMG V006
+MODIS/Terra Land Surface Temperature/Emissivity Monthly L3 Global 0.05Deg CMG V006
+MODIS/Terra Land Surface Temperature/Emissivity Monthly L3 Global 0.05Deg CMG V061
+MODIS/Aqua Land Surface Temperature/Emissivity Monthly L3 Global 0.05Deg CMG V061
+Global risk pooling mitigates financial risk from drought in hydropower-dependent countries
+Cuppari, Rosa Isabella, Pavelsky, Tamlin M., Characklis, Gregory W.
+2026
+MODIS/Terra Snow Cover Monthly L3 Global 0.05Deg CMG V061
+MODIS/Terra Vegetation Indices Monthly L3 Global 0.05Deg CMG V006
+MODIS/Terra Vegetation Indices Monthly L3 Global 0.05Deg CMG V061
+MODIS/Terra Land Surface Temperature/Emissivity Monthly L3 Global 0.05Deg CMG V006
+MODIS/Terra Land Surface Temperature/Emissivity Monthly L3 Global 0.05Deg CMG V061
+GPM IMERG Late Precipitation L3 Half Hourly 0.1 degree x 0.1 degree V07 (GPM_3IMERGHHL)
+GPM IMERG Final Precipitation L3 1 month 0.1 degree x 0.1 degree V07 (GPM_3IMERGM)
+Host Community Traits Driving Crimean-Congo Hemorrhagic Fever Virus
+Xavier, Patricia, Perello, Alberto, Luque-Castro, Victor, Relimpio, David, Barroso, Patricia, Almeida, Virgilio, de la Fuente, Jose, Balseiro, Ana, Ruiz-Fons, Francisco, Gortazar, Christian
+2026
+MODIS/Terra Vegetation Indices 16-Day L3 Global 250m SIN Grid V061
+MODIS/Terra Vegetation Indices 16-Day L3 Global 250m SIN Grid V006
+MODIS/Terra Land Surface Temperature/Emissivity Monthly L3 Global 0.05Deg CMG V006
+MODIS/Terra Land Surface Temperature/Emissivity Monthly L3 Global 0.05Deg CMG V061
+Evaporative cooling exceeded albedo-induced warming in greening areas of global drylands
+Daramola, Mojolaoluwa T., Li, Renqiang, Xu, Ming
+2026
+MODIS/Terra+Aqua Land Cover Type Yearly L3 Global 0.05Deg CMG V006
+MODIS/Terra+Aqua Land Cover Type Yearly L3 Global 0.05Deg CMG V061
+MODIS/Terra Vegetation Indices Monthly L3 Global 0.05Deg CMG V006
+MODIS/Terra Vegetation Indices Monthly L3 Global 0.05Deg CMG V061
+MODIS/Aqua Land Surface Temperature/Emissivity Monthly L3 Global 0.05Deg CMG V006
+MODIS/Terra Land Surface Temperature/Emissivity Monthly L3 Global 0.05Deg CMG V006
+MODIS/Terra Land Surface Temperature/Emissivity Monthly L3 Global 0.05Deg CMG V061
+MODIS/Aqua Land Surface Temperature/Emissivity Monthly L3 Global 0.05Deg CMG V061
+Vegetation responses to air dryness amplify future land surface warming
+Green, Julia K., Keenan, Trevor F., Lian, Xu, Moore, David J. P., Ciais, Philippe
+2026
+Aqua/AIRS L3 Monthly Standard Physical Retrieval (AIRS-only) 1 degree x 1 degree V7.0
+AIRS/Aqua L3 Monthly Standard Physical Retrieval (AIRS-only) 1 degree x 1 degree V006 (AIRS3STM)
+MODIS/Terra Land Surface Temperature/Emissivity Monthly L3 Global 0.05Deg CMG V061
+The safety margin of small-scale tree cover loss in global fragmented forests
+Wang, Jingrui, Zhang, Chaoqun, Pan, Yixuan, Su, Yongxian, Ciais, Philippe, Smith, Taylor, Shang, Jiali, Liu, Jane, Chen, Jing M., Cescatti, Alessandro, Zhang, Yongguang, Laurance, William F., Senf, Cornelius, Zuo, Zhiyan, Liao, Jinbao, Lafortezza, Raffaele, Yan, Kai, Zhu, Peng, Guan, Xiaobin, Li, Xing, Xue, Meimei, Yuan, Wenping, Chen, Xiuzhi, Zhou, Weiqi
+2026
+MODIS/Terra Leaf Area Index/FPAR 8-Day L4 Global 500m SIN Grid V061
+MODIS/Terra Vegetation Indices 16-Day L3 Global 250m SIN Grid V061
+MODIS/Terra+Aqua Land Cover Type Yearly L3 Global 0.05Deg CMG V061
+MODIS/Terra Land Surface Temperature/Emissivity Monthly L3 Global 0.05Deg CMG V061
+Aerosol and non-aerosol drivers of regional trends in top-of-atmosphere Albedo over 2002-2020
+Clement, Noe, Bellouin, Nicolas, Boucher, Olivier, Quaas, Johannes, Jia, Hailing, Tegen, Ina
+2026
+MODIS/Terra Aerosol 5-Min L2 Swath 10km
+MODIS/Terra+Aqua BRDF/Albedo Albedo Daily L3 Global 0.05Deg CMG V061
+MODIS/Terra+Aqua BRDF/Albedo Albedo Daily L3 Global 0.05Deg CMG V006
+MODIS/Terra Land Surface Temperature/Emissivity Monthly L3 Global 0.05Deg CMG V006
+MODIS/Terra Land Surface Temperature/Emissivity Monthly L3 Global 0.05Deg CMG V061
+Improving terrestrial carbon flux simulations with machine learning and global Earth observations
+Seiler, Christian
+2026
+MODIS/Terra Land Surface Temperature/Emissivity Monthly L3 Global 0.05Deg CMG V006
+MODIS/Terra Land Surface Temperature/Emissivity Monthly L3 Global 0.05Deg CMG V061
+Phenological fluctuations induce seasonal asymmetric warming in boreal forests
+Yan, Kai, Liu, Panpan, Huang, Cheng, Chen, Jing M., Su, Yongxian, Gao, Si, Chen, Xiuzhi, Ma, Xuanlong, Fan, Lei, Yan, Guangjian, Fan, Wenjie, Liu, Liangyun, Wang, Guoqiang, Wang, Qiao
+2026
+MODIS/Terra+Aqua Surface Radiation Daily/3-Hour L3 Global 1km SIN Grid V062
+MODIS/Terra Net Evapotranspiration Gap-Filled 8-Day L4 Global 500m SIN Grid V006
+MODIS/Terra Land Surface Temperature/Emissivity Monthly L3 Global 0.05Deg CMG V061
+MODIS/Terra+Aqua Land Cover Type Yearly L3 Global 500m SIN Grid V061
+MODIS/Terra Net Evapotranspiration Gap-Filled 8-Day L4 Global 500m SIN Grid V061
+MODIS/Terra+Aqua Surface Radiation Daily/3-Hour L3 Global 5km SIN Grid V006
+MODIS/Terra Land Surface Temperature/Emissivity Monthly L3 Global 0.05Deg CMG V006
+MODIS/Terra Leaf Area Index/FPAR 8-Day L4 Global 500m SIN Grid V061
+MODIS/Terra+Aqua BRDF/Albedo Albedo Daily L3 Global - 500m V006
+MODIS/Terra+Aqua BRDF/Albedo Albedo Daily L3 Global - 500m V061
+MODIS/Terra+Aqua Surface Radiation Daily/3-Hour L3 Global 1km SIN Grid V061
+MODIS/Terra Leaf Area Index/FPAR 8-Day L4 Global 500m SIN Grid V006
+MODIS/Terra+Aqua Land Cover Type Yearly L3 Global 500m SIN Grid V006
+A framework for effective long-term conservation in a changing climate
+Tang, Ying, Winkler, Julie A., Vina, Andres, Wang, Fang, Frans, Veronica F., Zhang, Jindong, Zhao, Zhiqiang, Connor, Thomas, Yang, Hongbo, Zhang, Yuanbin, Zhang, Xiaofeng, Li, Xiaohong, Xu, Weihua, Ouyang, Zhiyun, Liu, Jianguo
+2026
+MODIS/Terra Surface Reflectance 8-Day L3 Global 250m SIN Grid V006
+MODIS/Terra Land Surface Temperature/Emissivity Monthly L3 Global 0.05Deg CMG V006
+MODIS/Terra Land Surface Temperature/Emissivity Monthly L3 Global 0.05Deg CMG V061
+MODIS/Terra Surface Reflectance 8-Day L3 Global 250m SIN Grid V061
+Moving beyond exposure: a globally comparable framework for heat risk assessment in cities
+Jayaratne Kariyawasam, Nethmi, Lizana, Jesus, Khosla, Radhika
+2026
+MODIS/Terra Vegetation Indices 16-Day L3 Global 250m SIN Grid V061
+MODIS/Terra Land Surface Temperature/Emissivity Monthly L3 Global 0.05Deg CMG V061
+MODIS/Terra Vegetation Indices 16-Day L3 Global 250m SIN Grid V006
+MODIS/Terra Land Surface Temperature/Emissivity Monthly L3 Global 0.05Deg CMG V006
+Decadal amplification of wildfireinduced perturbations in summer surface energy partitioning across the boreal forest biome
+He, Tianxing, Wang, Wen J., Bao, Suri G., Helbig, Manuel, Wang, Xianli, Boulanger, Yan, Liu, Zhihua, Li, MaiHe, He, Hong S.
+2026
+MODIS/Terra Land Surface Temperature/Emissivity Monthly L3 Global 0.05Deg CMG V061
+MODIS/Terra+Aqua BRDF/Albedo Albedo Daily L3 Global - 500m V061
+MODIS/Terra Land Surface Temperature/Emissivity Monthly L3 Global 0.05Deg CMG V006
+MODIS/Terra+Aqua BRDF/Albedo Albedo Daily L3 Global - 500m V006
+MODIS/Terra Vegetation Indices Monthly L3 Global 1km SIN Grid V006
+MODIS/Terra+Aqua Land Cover Type Yearly L3 Global 500m SIN Grid V006
+MODIS/Terra Net Evapotranspiration Gap-Filled 8-Day L4 Global 500m SIN Grid V061
+MODIS/Terra Snow Cover Daily L3 Global 500m SIN Grid V061
+MODIS/Terra Vegetation Indices Monthly L3 Global 1km SIN Grid V061
+MODIS/Terra+Aqua Land Cover Type Yearly L3 Global 500m SIN Grid V061
+MODIS/Terra Net Evapotranspiration Gap-Filled 8-Day L4 Global 500m SIN Grid V006
+From Rasters to Social Ecological Gradients over a Research Network
+Charpentier, Isabelle
+2026
+MODIS/Terra Land Surface Temperature/Emissivity Monthly L3 Global 0.05Deg CMG V061
+MODIS/Terra Vegetation Indices Monthly L3 Global 0.05Deg CMG V061
+Gridded Population of the World, Version 4 (GPWv4): Population Density, Revision 11
+MODIS/Terra Land Surface Temperature/Emissivity Monthly L3 Global 0.05Deg CMG V006
+MODIS/Terra Vegetation Indices Monthly L3 Global 0.05Deg CMG V006
+Human activity increases Arctic fire occurrence within and near lit areas
+Akandil, Cengiz, Heim, Ramona J., Plekhanova, Elena, Rietze, Nils, Roman, Miguel O., Wang, Zhuosen, Furrer, Reinhard, Schaepman-Strub, Gabriela
+2026
+MODIS/Terra Land Surface Temperature/Emissivity Monthly L3 Global 0.05Deg CMG V061
+Machine learning-based Arctic-boreal terrestrial ecosystem CO2 fluxes, 2001-2020
+MODIS/Terra Land Surface Temperature/Emissivity Monthly L3 Global 0.05Deg CMG V006
+Assessing Earth's skin temperature trends: consistent signals from IASI, MODIS, ESA CCI and ERA5
+Safieddine, Sarah, Sinnathamby, Selviga, Hadji-Lazaro, Juliette, Doutriaux-Boucher, Marie, Ghent, Darren, Whitburn, Simon, Clarisse, Lieven, Clerbaux, Cathy
+2026
+MODIS/Terra Land Surface Temperature/Emissivity Monthly L3 Global 0.05Deg CMG V061
+MODIS/Terra Land Surface Temperature/Emissivity Monthly L3 Global 0.05Deg CMG V006
+Analyses of MODIS land cover/use and wildfires in Italian regions since 2001
+Ghaderpour, Ebrahim, Bozzano, Francesca, Scarascia Mugnozza, Gabriele, Mazzanti, Paolo
+2025
+GPM IMERG Final Precipitation L3 1 month 0.1 degree x 0.1 degree V07 (GPM_3IMERGM)
+MODIS/Terra+Aqua Land Cover Type Yearly L3 Global 500m SIN Grid V061
+MODIS/Terra+Aqua Land Cover Type Yearly L3 Global 500m SIN Grid V006
+MODIS/Terra Vegetation Indices 16-Day L3 Global 250m SIN Grid V061
+MODIS/Terra Vegetation Indices 16-Day L3 Global 250m SIN Grid V006
+MODIS/Terra Land Surface Temperature/Emissivity Monthly L3 Global 0.05Deg CMG V006
+MODIS/Terra Land Surface Temperature/Emissivity Monthly L3 Global 0.05Deg CMG V061
+Biodiversity regulates the asymmetric influence of forest cover gain and loss on land surface temperature
+Liao, Ziyin, Zhang, Chaoqun, Wang, Yixiao, Wu, Jianping, Yan, Wenting, Su, Yongxian
+2025
+MODIS/Terra+Aqua Land Cover Type Yearly L3 Global 0.05Deg CMG V006
+MODIS/Terra+Aqua Land Cover Type Yearly L3 Global 0.05Deg CMG V061
+MODIS/Terra Land Surface Temperature/Emissivity Monthly L3 Global 0.05Deg CMG V006
+MODIS/Terra Land Surface Temperature/Emissivity Monthly L3 Global 0.05Deg CMG V061
+Pervasive but biome-dependent relationship between fragmentation and resilience in forests
+Su, Yongxian, Zhang, Chaoqun, Cescatti, Alessandro, Yu, Kailiang, Ciais, Philippe, Smith, Taylor, Shang, Jiali, Carnicer, Jofre, Liu, Jane, Chen, Jing Ming, Green, Julia K., Wu, Jianping, Ponce-Campos, Guillermo E., Zhang, Yongguang, Zuo, Zhiyan, Liao, Jinbao, Wu, Jianping, Lafortezza, Raffaele, Yan, Kai, Yang, Xueqin, Liu, Liyang, Ren, Jiashun, Yuan, Wenping, Chen, Xiuzhi, Wu, Chaoyang, Zhou, Weiqi
+2025
+MODIS/Terra+Aqua BRDF/Albedo Albedo Daily L3 Global - 500m V006
+Global Forest Cover Change Tree Cover Multi-Year Global 30m V003
+MODIS/Terra+Aqua BRDF/Albedo Albedo Daily L3 Global - 500m V061
+MODIS/Terra Land Surface Temperature/Emissivity Monthly L3 Global 0.05Deg CMG V061
+MODIS/Terra+Aqua Leaf Area Index/FPAR 4-Day L4 Global 500m SIN Grid V061
+MODIS/Terra+Aqua Land Cover Type Yearly L3 Global 0.05Deg CMG V061
+MODIS/Terra Land Surface Temperature/Emissivity Monthly L3 Global 0.05Deg CMG V006
+MODIS/Terra+Aqua Land Cover Type Yearly L3 Global 0.05Deg CMG V006
+MODIS/Terra Vegetation Indices Monthly L3 Global 0.05Deg CMG V006
+MODIS/Terra Vegetation Indices Monthly L3 Global 0.05Deg CMG V061
+MODIS/Terra+Aqua Leaf Area Index/FPAR 4-Day L4 Global 500m SIN Grid V006
+Local hourly trends in near-surface and land surface temperatures
+Safieddine, Sarah, Clerbaux, Cathy, Munoz-Sabater, Joaquin, Thepaut, Jean-Noel
+2025
+MODIS/Terra Land Surface Temperature/Emissivity Monthly L3 Global 0.05Deg CMG V006
+MODIS/Terra Land Surface Temperature/Emissivity Monthly L3 Global 0.05Deg CMG V061
+Optimal spatiotemporal thinning schemes combined with wood vaulting could maximize the forest biomass carbon sink in China
+Chen, Yongzhe, Feng, Xiaoming, Huang, Yuanyuan, Liang, Shunlin, Wang, Lijuan, Ma, Haozhi, Gao, Zhen, Cheng, Linhai, Sucharitakul, Phuping, Zhang, Junze, Xia, Jiangzhou, Yuan, Wenping, Fu, Bojie
+2025
+MODIS/Terra+Aqua Direct Broadcast Burned Area Monthly L3 Global 500m SIN Grid V061
+MODIS/Terra+Aqua Direct Broadcast Burned Area Monthly L3 Global 500m SIN Grid V006
+MODIS/Terra Land Surface Temperature/Emissivity Monthly L3 Global 0.05Deg CMG V006
+MODIS/Terra Land Surface Temperature/Emissivity Monthly L3 Global 0.05Deg CMG V061
+GPM IMERG Late Precipitation L3 Half Hourly 0.1 degree x 0.1 degree V07 (GPM_3IMERGHHL)
+Mapping the spatio-temporal distribution of burned areas in the Amazon
+Abid, Mohamed, Gonzalez, Jonatan A., de Rivera, Oscar Rodriguez, Moraga, Paula
+2025
+MODIS/Terra+Aqua Direct Broadcast Burned Area Monthly L3 Global 500m SIN Grid V006
+MODIS/Terra+Aqua Land Cover Type Yearly L3 Global 0.05Deg CMG V006
+MODIS/Terra+Aqua Land Cover Type Yearly L3 Global 0.05Deg CMG V061
+GPM IMERG Final Precipitation L3 Half Hourly 0.1 degree x 0.1 degree V07 (GPM_3IMERGHH)
+FLDAS Noah Land Surface Model L4 Global Monthly 0.1 x 0.1 degree (MERRA-2 and CHIRPS) V001 (FLDAS_NOAH01_C_GL_M)
+MODIS/Terra+Aqua Direct Broadcast Burned Area Monthly L3 Global 500m SIN Grid V061
+GPM IMERG Final Precipitation L3 1 month 0.1 degree x 0.1 degree V07 (GPM_3IMERGM)
+MODIS/Terra Land Surface Temperature/Emissivity Monthly L3 Global 0.05Deg CMG V006
+GPM IMERG Late Precipitation L3 Half Hourly 0.1 degree x 0.1 degree V07 (GPM_3IMERGHHL)
+MODIS/Terra Land Surface Temperature/Emissivity Monthly L3 Global 0.05Deg CMG V061
+FreezeThaw Dynamics Reshape Climatic Control of Spring Phenology Across Northern Ecosystems
+Wu, Shuai, Zhang, Yu, Guo, Kang, Luo, Geping, Han, Yonglong, Yan, Wei, Ma, Xiaofei
+2025
+MODIS/Terra+Aqua Land Cover Type Yearly L3 Global 500m SIN Grid V061
+MODIS/Terra+Aqua Land Cover Type Yearly L3 Global 500m SIN Grid V006
+MODIS/Terra Land Surface Temperature/Emissivity Monthly L3 Global 0.05Deg CMG V006
+MODIS/Terra Land Surface Temperature/Emissivity Monthly L3 Global 0.05Deg CMG V061
+MEaSUREs Global Record of Daily Landscape Freeze/Thaw Status V004
+Latitudinal and Seasonal Asymmetry in Land Surface Temperature Responses
+Cheng, Yongming, An, Qiang, Liu, Liu, Zhang, Yuxiang, Li, Hao, Liu, Xingcai, Huang, Guanhua
+2025
+MODIS/Terra Net Evapotranspiration Gap-Filled Yearly L4 Global 500m SIN Grid V061
+GLDAS Noah Land Surface Model L4 monthly 0.25 x 0.25 degree V2.1 (GLDAS_NOAH025_M)
+MODIS/Terra+Aqua Land Cover Type Yearly L3 Global 0.05Deg CMG V061
+MODIS/Terra+Aqua BRDF/Albedo Albedo Daily L3 Global 0.05Deg CMG V006
+MODIS/Terra Net Evapotranspiration Gap-Filled 8-Day L4 Global 500m SIN Grid V006
+MODIS/Terra Land Surface Temperature/Emissivity Monthly L3 Global 0.05Deg CMG V006
+MODIS/Terra Land Surface Temperature/Emissivity Monthly L3 Global 0.05Deg CMG V061
+MODIS/Terra Net Evapotranspiration Gap-Filled 8-Day L4 Global 500m SIN Grid V061
+MODIS/Terra Net Evapotranspiration Gap-Filled Yearly L4 Global 500m SIN Grid V006
+MODIS/Terra+Aqua Land Cover Type Yearly L3 Global 0.05Deg CMG V006
+MODIS/Terra+Aqua BRDF/Albedo Albedo Daily L3 Global 0.05Deg CMG V061
+MODIS/Terra Vegetation Indices Monthly L3 Global 0.05Deg CMG V061
+MODIS/Terra Vegetation Indices Monthly L3 Global 0.05Deg CMG V006
+GLDAS Noah Land Surface Model L4 monthly 0.25 x 0.25 degree V2.0 (GLDAS_NOAH025_M)
+Improving satellite remote sensing estimates of the global terrestrial
+Heberger, Matthew, Aires, Filipe, Pellet, Victor
+2025
+MODIS/Terra Land Surface Temperature/Emissivity Monthly L3 Global 0.05Deg CMG V006
+MODIS/Terra Land Surface Temperature/Emissivity Monthly L3 Global 0.05Deg CMG V061
+MODIS/Terra Vegetation Indices Monthly L3 Global 0.05Deg CMG V006
+MODIS/Terra Vegetation Indices Monthly L3 Global 0.05Deg CMG V061
+MODIS/Terra Snow Cover Monthly L3 Global 0.05Deg CMG V061
+CSR TELLUS GRACE Level-3 Monthly Land Water-Equivalent-Thickness Surface Mass Anomaly Release 6.0 version 04
+Impacts of Vegetation Greening on Summer Mean and Extreme Land Surface
+Liu, Guoshuai, Wang, Weiguang, Chen, Zefeng
+2025
+MODIS/Terra+Aqua Land Cover Type Yearly L3 Global 0.05Deg CMG V006
+MODIS/Terra+Aqua Land Cover Type Yearly L3 Global 0.05Deg CMG V061
+MODIS/Terra Land Surface Temperature/Emissivity Monthly L3 Global 0.05Deg CMG V006
+MODIS/Terra Land Surface Temperature/Emissivity Monthly L3 Global 0.05Deg CMG V061
+MODIS/Aqua Land Surface Temperature/Emissivity Monthly L3 Global 0.05Deg CMG V061
+MODIS/Aqua Land Surface Temperature/Emissivity Monthly L3 Global 0.05Deg CMG V006
+You're viewing 25 of 200
+Load More
+Variables
+The table below lists the variables contained within a single granule for this
+dataset. Variables often contain observed or derived geophysical measurements
+collected from a variety of sources, including remote sensing instruments on
+satellite and airborne platforms, field campaigns, in situ measurements, and
+model outputs. The terms variable, parameter, scientific data set, layer, and band
+have been used across NASA’s Earth science disciplines; however, variable is the
+designated nomenclature in NASA’s Common Metadata Repository (CMR).
+Variable metadata attributes such as Name, Description, Units, Data Type, Fill
+Value, Valid Range, and Scale Factor allow users to efficiently process and analyze
+the data. The full range of attributes may not be applicable to all variables.
+Additional information on variable attributes is typically available in the data,
+user guide, and/or other product documentation.
+For questions on a specific variable, please use the
+Earthdata Forum.
+Copy Link
+BibTeX
+Apply
+Clear All
+Name
+Sort descending
+Description
+Units
+Data Type
+Fill Value
+Valid Range
+Scale Factor
+Offset
+Clear_sky_days
+Days in clear sky condition
+Bit Field
+uint32
+0
+0  to  4294967296
+N/A
+N/A
+Clear_sky_nights
+Nights in clear sky condition
+Bit Field
+uint32
+0
+0  to  4294967296
+N/A
+N/A
+Day_view_angl
+View zenith angle of day observation
+Degree
+uint8
+255
+0  to  130
+N/A
+-65
+Day_view_time
+Local time of day observation
+Hours
+uint8
+255
+0  to  120
+0.2
+N/A
+Emis_20
+Band 20 emissivity
+N/A
+uint8
+0
+1  to  255
+0.002
+0.49
+Emis_22
+Band 22 emissivity
+N/A
+uint8
+0
+1  to  255
+0.002
+0.49
+Emis_23
+Band 23 emissivity
+N/A
+uint8
+0
+1  to  255
+0.002
+0.49
+Emis_29
+Band 29 emissivity
+N/A
+uint8
+0
+1  to  255
+0.002
+0.49
+Emis_31
+Band 31 emissivity
+N/A
+uint8
+0
+1  to  255
+0.002
+0.49
+Emis_32
+Band 32 emissivity
+N/A
+uint8
+0
+1  to  255
+0.002
+0.49
+LST_Day_CMG
+Day Land Surface Temperature
+Kelvin
+uint16
+0
+7500  to  65535
+0.02
+N/A
+LST_Night_CMG
+Night Land Surface Temperature
+Kelvin
+uint16
+0
+7500  to  65535
+0.02
+N/A
+Night_view_angl
+View zenith angle of night observation
+Degree
+uint8
+255
+0  to  130
+N/A
+-65
+Night_view_time
+Local time of night observation
+Hours
+uint8
+255
+0  to  120
+0.2
+N/A
+Percent_land_in_grid
+Percentage of land in the grid
+Percent
+uint8
+0
+1  to  100
+N/A
+N/A
+QC_Day
+Daytime LST Quality Indicators
+Bit Field
+uint8
+N/A
+0  to  255
+N/A
+N/A
+QC_Night
+Nighttime LST Quality indicators
+Bit Field
+uint8
+N/A
+0  to  255
+N/A
+N/A
+You're viewing 17 of 17
+Footer
+Find Data
+Data Catalog
+Data Tools
+Platforms
+Instruments
+Space Geodesy Techniques
+Projects
+Data Alerts and Outages
+Earthdata Login
+Data Pathfinders by Topic
+Atmosphere
+Biosphere
+Climate Indicators
+Cryosphere
+Human Dimensions
+Land Surface
+Ocean
+Solid Earth
+Sun-Earth Interactions
+Terrestrial Hydrosphere
+Learn
+Earth Observation Data Basics
+Earthdata Forum
+Webinars
+Trainings
+Tutorials
+Data in Action
+Data Recipes
+GIS Resources
+StoryMaps
+Publications
+Centers
+ASF DAAC
+ASDC
+CDDIS
+GHRC DAAC
+GES DISC
+LP DAAC
+LAADS DAAC
+NSIDC DAAC
+ORNL DAAC
+OB.DAAC
+PO.DAAC
+Sea Level Change Portal
+Suborbital Data Resource Center
+Engage
+Data Management Guidance for ESD-funded Researchers
+Open Data, Services, and Software Policies
+Public and Private Partnerships
+Memberships and Affiliations
+News
+Events
+Newsletter
+Contact
+Footer Submenu
+Web Privacy Policy
+Data and Information Guidance
+Communications Policy
+FOIA
+Accessibility
+Sitemap
+USA.gov
+Site last Updated:
+Nov. 6, 2026
+NASA Official:
+Katie Baynes

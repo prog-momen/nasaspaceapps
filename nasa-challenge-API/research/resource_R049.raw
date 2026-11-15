@@ -1,0 +1,384 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<!--JUSTIN CASIANO DEVELOPED THIS WEB PAGE DURING HIS 2014 SUMMER INTERNSHIP AT JPL-->
+
+<html>
+<head>
+  <title>Infographics & Postcards - UAVSAR</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="keywords" content="UAVSAR, Uninhabited Aerial Vehicle Synthetic Aperture Radar, UAV SAR, UAV, SAR, Gulfstream-III, G3, G-3, G-III, repeat pass interferometry, RPI, InSAR, Synthetic Aperture Radar, JPL, Jet Propulsion Laboratory, NASA, National Aeronautics and Space Administration, ESTO, Earth Science Technology Office, Differential Interferometry, AIRSAR, Rosamond, corner reflectors, electronically steered antenna, flight plannning, deformation, Dryden, DFRC, KML, precision autopilot, PPA, earthquake, interferogram, differential interferogram, earthquake, volcano, vegetation, hydrology, ice, subsidence, forest structure, forest height, airborne, Caltech, PolSAR, polarimetric, quad-pol, dual-pol, single-pol, emergency response, l-band, l band, p-band, p band, ka-band, ka band, AirMOSS, GLISTIN">
+  <meta name="description" content="Using an airborne radar to study earth science (earthquakes, volcanoes, vegetation, hydrology, ice, etc.), with emergency response potential">
+
+  <link rel="icon" type="image/png" href="/favicon.png">
+  <link rel="stylesheet" href="/css/main.css" type="text/css">
+
+  <style>
+div.polaroid {
+    width: 424px;
+	height: 300px;
+    padding: 10px 10px 10px 10px;
+	margin-bottom: 50px;
+    border: 1px solid #BFBFBF;
+    background-color: white;
+    box-shadow: 8px 8px 12px #aaaaaa;
+}
+
+div.rotate_left {
+    position: relative;
+    float: left;
+	margin: 5px 20px 0 0;
+    -ms-transform: rotate(8deg); /* IE 9 */
+    -webkit-transform: rotate(8deg); /* Chrome, Safari, Opera */
+    transform: rotate(8deg);
+	font-size: 15px;
+	text-align: center;
+	float: right;
+	margin-right: 20px;
+	background-color: #E2F6F6;
+	z-index: 1;
+}
+
+div.rotate_right {
+    position: relative;
+    float: left;
+	margin-left: 20px;
+    -ms-transform: rotate(-10deg); /* IE 9 */
+    -webkit-transform: rotate(-10deg); /* Chrome, Safari, Opera */
+    transform: rotate(-10deg);
+	z-index: 5;
+}
+
+.clear { clear: both; }
+  </style>
+
+  <script type="text/javascript" src="/js/jquery-1.7.2.min.js"></script>
+
+  <!-- JS libraries to make IE behave like a standards-compliant browser -->
+  <!--[if lt IE 7]>
+  <script src="/ie7/IE7.js"></script>
+  <![endif]-->
+  <!--[if lt IE 8]>
+  <script src="/ie7/IE8.js"></script>
+  <![endif]-->
+  <!--[if lt IE 9]>
+  <script src="/ie7/IE9.js"></script>
+  <![endif]-->
+
+  <script async type="text/javascript" id="_fed_an_ua_tag" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=NASA&subagency=JPL-airmoss"></script>
+
+</head>
+
+<body>
+<!-- Skip to main content link -->
+<a href="#startOfContent"><img src="/images/spacer.gif" alt="Follow this link to skip to the main content" width="1" height="1" hspace="0" vspace="0" border="0" align="left"></a>
+<!-- End of skip to main content link -->
+
+<div id="background">
+<div id="layout">
+
+<!-- JPL HEADER ************************************************************-->
+<div id="jplHeader">
+  <a id="nasaLogo" href="http://www.nasa.gov/" title="NASA">
+    <img src="/images/nasaLogo.png" alt="NASA Logo"> 
+  </a>
+  <a id="linkJPL" href="http://www.jpl.nasa.gov/" title="Jet Propulsion Laboratory">Jet Propulsion Laboratory</a>
+  <a id="linkCaltech" href="http://www.caltech.edu/" title="California Institute of Technology">California Institute of Technology</a>
+
+  <ul id="jplLinks">
+    <li>
+	  <a href="http://www.jpl.nasa.gov" title="JPL Home">JPL HOME</a>
+	</li>
+    <li>
+      <a href="http://www.jpl.nasa.gov/earth" title="Earth">EARTH</a>
+	</li>
+    <li>
+      <a href="http://www.jpl.nasa.gov/solar-system" title="Solar System">SOLAR SYSTEM</a>
+	</li>
+    <li>
+      <a href="http://www.jpl.nasa.gov/stars-galaxies" title="Stars & Galaxies">STARS &amp; GALAXIES</a>
+	</li>
+    <li>
+      <a href="http://scienceandtechnology.jpl.nasa.gov" title="Science & Technology">SCIENCE &amp; TECHNOLOGY</a>
+	</li>
+  </ul>
+
+  <span id="jplSocial">
+	BRING THE UNIVERSE TO YOU: &nbsp;
+	<a href="http://www.kintera.org/site/apps/ka/ct/contactcustom.asp?c=bsJKK2PNJtH&amp;b=198474">JPL Email News</a> &nbsp; | &nbsp;
+	<a href="http://jpl.nasa.gov/rss">RSS</a> &nbsp; | &nbsp;
+	<a href="http://jpl.nasa.gov/podcast">Podcast</a> &nbsp; | &nbsp;
+	<a href="http://jpl.nasa.gov/video">Video</a> 
+  </span>
+
+</div>
+<!-- END OF JPL HEADER *****************************************************-->
+
+
+<!-- BANNER TEXT ***********************************************************-->
+<div id="bannerText">
+  <a href="/"><h1>UAVSAR</h1></a>
+  <a href="/"><h3>Uninhabited Aerial Vehicle Synthetic Aperture Radar</h3></a>
+  <a href="/"><i class="L-band">L-band</i></a>
+  <a href="http://airmoss.jpl.nasa.gov"><i class="P-band">P-band (AirMOSS)</i></a>
+  <a href="http://airbornescience.jpl.nasa.gov/instruments/glistin/"><i class="Ka-band">Ka-band (GLISTIN-A)</i></a>
+</div>
+<!-- END OF BANNER TEXT ****************************************************-->
+
+
+<!-- NAVIGATION ************************************************************-->
+<div id="navigationBkgd"></div>
+<ul id="navigation">
+  <li><a class="leftmost" href="/science">Science &amp; Applications</a></li>
+  <li><a href="/technology">Technology</a></li>
+  <li><a href="/education">Education</a></li>
+  <li><a class="rightmost" href="/tools">Tools</a></li>
+</ul>
+<!-- END OF NAVIGATION *****************************************************-->
+
+
+<!-- MAIN CONTENT **********************************************************-->
+<div id="mainContent">
+  <a name="startOfContent"></a>
+
+  <div id="breadcrumbs">
+    <a href="/education">Education</a> &nbsp;&gt;&nbsp; 
+	Infographics & Postcards
+  </div>
+
+  <h2>Infographics</h2>
+  <div id="myAccount"><a href="/cgi-bin/login.pl">My Account</a></div>
+
+  <div class="polaroid rotate_right">
+	<img src="/images/postcards/UAVSAR-infographic-plane.png" alt="UAVSAR cartoon infographic of the NASA Armstrong 802 C-20A airplane with dimensions, weight, and more info" width="424" height="300">
+  </div>
+
+  <div class="polaroid rotate_left">
+    <p class="caption"><br><h3>Infographic of the UAVSAR plane</h3>The airplane is managed by NASA Armstrong Flight Research Center (AFRC).<br><br><a href="/resources/infographics/UAVSAR_802_C-20A_Aircraft_Infographic.pdf" target="_blank">Print this infographic (PDF)</a></p>
+  </div>
+  <div class="clear"></div>
+
+  <div class="polaroid rotate_right">
+	<img src="/images/postcards/UAVSAR-infographic-L-band.png" alt="UAVSAR cartoon infographic of the L-band radar pod with information about subsystems, wavelengths, and how it is flown" width="424" height="300">
+  </div>
+
+  <div class="polaroid rotate_left">
+    <p class="caption"><br><h3>Infographic of the UAVSAR L-band radar</h3><br><br><a href="/resources/infographics/UAVSAR_L-band_Instrument_Infographic.pdf" target="_blank">Print this infographic (PDF)</a></p>
+  </div>
+  <div class="clear"></div>
+
+  <br><br>
+  <h2>Postcards</h2>
+
+<br><br>
+
+<div class="polaroid rotate_right">
+  <img src="/images/postcards/UAVSAR-postcard-Gabon-small.jpg" alt="UAVSAR Postcard Los Angeles" width="424" height="300">
+</div>
+
+<div class="polaroid rotate_left">
+  <p class="caption"><br><h3>Radar image (channels:<font color="red"> HH-VV</font> <font color="green">HV</font> <font color="blue">HH+HV</font>) of Gabon's Akanda National Park and city of Libreville<br>(March 6, 2016)</h3>This false color composite reveals the dominant structure of the landscape. Areas by color: red and pink are flooded vegetation and urban areas, while green is forests and mangroves.<br><br> <a href="/resources/postcards/UAVSAR-postcard-Gabon.png" target="_blank">Image (PNG)</a> <br> <a href="/resources/postcards/UAVSAR-postcard-Gabon.pdf" target="_blank">Print this postcard (PDF)</a></p>
+</div>
+<div class="clear"></div>
+
+<div class="polaroid rotate_right">
+  <img src="/images/postcards/UAVSAR-postcard-CA-drought-small.jpg" alt="UAVSAR Postcard of subsidence near the California Aqueduct" width="424" height="300">
+</div>
+
+<div class="polaroid rotate_left">
+  <p class="caption"><h3>UAVSAR-derived image overlayed on Google Earth of land sinking (subsidence) near Huron and Kettleman City, California<br>(July 2013 to March 2015)</h3>This image shows areas where subsidence exceeded 7 inches. The land is subsiding in the Central Valley due to groundwater pumping in response to CA's historic drought.<br><br> <a href="/resources/postcards/UAVSAR-postcard-CA-drought.jpg" target="_blank">Image (JPG)</a> <br> <a href="/resources/postcards/UAVSAR-postcard-CA-drought.pdf" target="_blank">Print this postcard (PDF)</a></p>
+</div>
+<div class="clear"></div>
+
+<div class="polaroid rotate_right">
+  <img src="/images/postcards/UAVSAR-postcard-Los-Angeles-small.jpg" alt="UAVSAR Postcard Los Angeles" width="424" height="300">
+</div>
+
+<div class="polaroid rotate_left">
+  <p class="caption"><br><h3>Polarmetric SAR image (channels:<font color="red"> HH</font> <font color="green">HV</font> <font color="blue">VV</font>) of Los Angeles, California<br>(October 2014)</h3><br><br> <a href="/resources/postcards/UAVSAR-postcard-Los-Angeles.jpg" target="_blank">Image (JPG)</a> <br> <a href="/resources/postcards/UAVSAR-postcard-Los-Angeles.pdf" target="_blank">Print this postcard (PDF)</a></p>
+</div>
+<div class="clear"></div>
+
+<div class="polaroid rotate_right">
+  <img src="/images/postcards/UAVSAR-postcard-Mexicali-small.jpg" alt="UAVSAR Postcard Mexicali Earthquake" width="424" height="300">
+</div>
+
+<div class="polaroid rotate_left">
+  <p class="caption"><h3>Interferometric image of the 2010 Baja California Earthquake<br>(October 20, 2009 & April 13, 2010)</h3>This image of the El Mayor - Cucapah Earthquake (April 4, 2010) shows surface ruptures not seen from space-borne instruments.<br><br> <a href="/resources/postcards/UAVSAR-postcard-Mexicali.jpg" target="_blank">Image (PNG)</a> <br> <a href="/resources/postcards/UAVSAR-postcard-Mexicali.pdf" target="_blank">Print this postcard (PDF)</a> <br> <a href="http://uavsar.jpl.nasa.gov/cgi-bin/product.pl?jobName=SanAnd_26501_09083-010_10028-000_0174d_s01_L090_01" target="_blank">Data download page</a></p>
+</div>
+<div class="clear"></div>
+
+<div class="polaroid rotate_right">
+  <img src="/images/postcards/UAVSAR-postcard-SF-small.jpg" alt="UAVSAR Postcard San Francisco Bay Area" width="424" height="300">
+</div>
+
+<div class="polaroid rotate_left">
+  <p class="caption"><br><h3>Polarmetric SAR image (channels:<font color="red"> HH</font> <font color="green">HV</font> <font color="blue">VV</font>) of California's San Francisco Bay Area<br>(February 18, 2009)</h3><br><br> <a href="/resources/postcards/UAVSAR-postcard-SF.jpg" target="_blank">Image (PNG)</a> <br> <a href="/resources/postcards/UAVSAR-postcard-SF.pdf" target="_blank">Print this postcard (PDF)</a> <br> <a href="http://uavsar.jpl.nasa.gov/cgi-bin/product.pl?jobName=Haywrd_23501_09006_012_090218_L090_CX_01" target="_blank">Data download page</a></p>
+</div>
+<div class="clear"></div>
+
+<div class="polaroid rotate_right">
+  <img src="/images/postcards/UAVSAR-postcard-Kilauea-small.jpg" alt="UAVSAR Postcard Kilauea Volcano" width="424" height="300">
+</div>
+
+<div class="polaroid rotate_left">
+  <p class="caption"><h3>Interferometric image of Hawaii's Kilauea Volcano<br> (January 4, 2010 & May 7, 2011)</h3> Located on Hawai'i Island (the Big Island), Kilauea is a currently hyperactive shield volcano, frequently outpouring lava. Its current eruption dates back to January 3, 1983.<br><br> <a href="/resources/postcards/UAVSAR-postcard-Kilauea.png" target="_blank">Image (PNG)</a> <br> <a href="/resources/postcards/UAVSAR-postcard-Kilauea.pdf" target="_blank">Print this postcard (PDF)</a> <br> <a href="http://uavsar.jpl.nasa.gov/cgi-bin/product.pl?jobName=BigIsl_05901_10001-002_11024-009_0488d_s01_L090_01" target="_blank">Data download page</a></p>
+</div>
+<div class="clear"></div>
+
+<div class="polaroid rotate_right">
+  <img src="/images/postcards/UAVSAR-postcard-Cipreses-small.jpg" alt="UAVSAR Postcard Cepreses" width="424" height="300">
+</div>
+
+<div class="polaroid rotate_left">
+  <p class="caption"><h3>Interferometric image of Chile's Rio Los Cipreses National Reserve<br> (March 25 & 27, 2013)</h3> The colors correspond to small amounts of ground movement that occurred between the two dates. Rapid color changes show where the glacier is moving more quickly. The colors are draped over Google Earth. <br><br> <a href="/resources/postcards/UAVSAR-postcard-Cipreses.png" target="_blank">Image (PNG)</a> <br> <a href="/resources/postcards/UAVSAR-postcard-Cipreses.pdf" target="_blank">Print this postcard (PDF)</a> <br> <a href="http://uavsar.jpl.nasa.gov/cgi-bin/product.pl?jobName=ChiGla_09300_13046-004_13048-011_0002d_s01_L090_02" target="_blank">Data download page</a></p>
+</div>
+<div class="clear"></div>
+
+<div class="polaroid rotate_right">
+  <img src="/images/postcards/UAVSAR-postcard-Azufre-small.jpg" alt="UAVSAR Postcard Azufre" width="424" height="300">
+</div>
+
+<div class="polaroid rotate_left">
+  <p class="caption"><br><br><h3>Cordon del Azufre volcanic complex, <br>Chile & Argentina <br>(March 24, 2013)</h3><br><a href="/resources/postcards/UAVSAR-postcard-Azufre.jpg" target="_blank">Image (JPG)</a> <br> <a href="/resources/postcards/UAVSAR-postcard-Azufre.pdf" target="_blank">Print this postcard (PDF)</a> <br> <a href="http://uavsar.jpl.nasa.gov/cgi-bin/product.pl?jobName=ChiVol_11304_13045_014_130324_L090_CX_01" target="_blank">Data download page</a></p>
+</div>
+<div class="clear"></div>
+
+<div class="polaroid rotate_right">
+  <img src="/images/postcards/UAVSAR-postcard-Pacaya-Samiria-small.jpg" alt="UAVSAR Postcard Pacaya Samiria" width="424" height="300">
+</div>
+
+<div class="polaroid rotate_left">
+  <p class="caption"><h3>Polarmetric SAR image (channels:<font color="red"> HH</font> <font color="green">HV</font> <font color="blue">VV</font>) of Peru's Pacaya-Samiria National Reserve <br>(March 17, 2013)</h3> Areas by color: black is open water, grayish-green is tropical forest, dark green is low vegetation, perhaps floating vegetation, while red and pink are two different types of inundated vegetation. <br><br> <a href="/resources/postcards/UAVSAR-postcard-Pacaya-Samiria.png" target="_blank">Image (PNG)</a> <br> <a href="/resources/postcards/UAVSAR-postcard-Pacaya-Samiria.pdf" target="_blank">Print this postcard (PDF)</a> <br> <a href="http://uavsar.jpl.nasa.gov/cgi-bin/product.pl?jobName=Pacaya_06302_13041_008_130317_L090_CX_01" target="_blank">Data download page</a></p>
+</div>
+<div class="clear"></div>
+
+<div class="polaroid rotate_right">
+  <img src="/images/postcards/UAVSAR-postcard-Tungurahua-small.jpg" alt="UAVSAR Postcard Tungaurahua" width="424" height="300">
+</div>
+
+<div class="polaroid rotate_left">
+  <p class="caption"><br><h3>Polarimetric SAR image (channels:<font color="red"> HH</font> <font color="green">HV</font> <font color="blue">VV</font>) of Ecuador's Tungurahua Volcano <br>(March 15, 2013)</h3> As one of Ecuador's most active volcanoes, Tungurahua has had several major eruptions since volcanic <br>activity restarted in August 1999. <br> <br><a href="/resources/postcards/UAVSAR-postcard-Tungurahua.jpg" target="_blank">Image (JPG)</a> <br> <a href="/resources/postcards/UAVSAR-postcard-Tungurahua.pdf" target="_blank">Print this postcard (PDF)</a> <br> <a href="http://uavsar.jpl.nasa.gov/cgi-bin/product.pl?jobName=EcuVol_34800_13040_009_130315_L090_CX_01" target="_blank">Data download page</a></p>
+</div>
+<div class="clear"></div>
+
+<div class="polaroid rotate_right">
+  <img src="/images/postcards/UAVSAR-postcard-San-Miguel-small.jpg" alt="UAVSAR Postcard San Miguel Volcano" width="424" height="300">
+</div>
+
+<div class="polaroid rotate_left">
+  <p class="caption"><br><h3>Polarimetric SAR image (channels:<font color="red"> HH</font> <font color="green">HV</font> <font color="blue">VV</font>) of  El Salvador's San Miguel Volcano <br> (March 8, 2013)</h3> San Miguel last erupted on December 29, 2013, prompting the evacuation of thousands of people living in a<br> 3 km radius of the volcano. <br><br> <a href="/resources/postcards/UAVSAR-postcard-San-Miguel.jpg" target="_blank">Image (JPG)</a> <br> <a href="/resources/postcards/UAVSAR-postcard-San-Miguel.pdf" target="_blank">Print this postcard (PDF)</a> <br> <a href="http://uavsar.jpl.nasa.gov/cgi-bin/product.pl?jobName=ElSalv_28602_13035_010_130308_L090_CX_01" target="_blank">Data download page</a></p>
+</div>
+<div class="clear"></div>
+
+<div class="polaroid rotate_right">
+  <img src="/images/postcards/UAVSAR-postcard-Kyushu-small.jpg" alt="UAVSAR Postcard Kyushu" width="424" height="300">
+</div>
+
+<div class="polaroid rotate_left">
+  <p class="caption"><br><br><h3>Polarimetric SAR image of Japan's Kyushu Volcanoes (October 5, 2012)</h3>Kirishima is a group of more than 20 active volcanoes on Kyushu. Japan's third largest island. It last eruped in August of 2011. <br><br><a href="/resources/postcards/UAVSAR-postcard-Kyushu.png" target="_blank">Image (PNG)</a> <br> <a href="/resources/postcards/UAVSAR-postcard-Kyushu.pdf" target="_blank">Print this postcard (PDF)</a> <br> <a href="http://uavsar.jpl.nasa.gov/cgi-bin/product.pl?jobName=JapanV_20802_12092_005_121005_L090_CX_01" target="_blank">Data download page</a></p>
+</div>
+<div class="clear"></div> 
+
+<div class="polaroid rotate_right">
+  <img src="/images/postcards/UAVSAR-postcard-Vatnajokull-glacier-small.jpg" alt="UAVSAR Postcard Vatnojokull Glacier" width="424" height="300">
+</div>
+
+<div class="polaroid rotate_left">
+  <p class="caption"><br><h3>Polarimetric SAR image of Iceland's Vatnajokull Glacier (June 3, 2012)</h3> Vatnajokull is the largest ice cap in Europe by volume, with an average ice thickness of 400 meters. Like many glaciers of Iceland, Vatnajokull has several volcanoes. <br><br><a href="/resources/postcards/UAVSAR-postcard-Vatnajokull-glacier.png" target="_blank">Image (PNG)</a> <br> <a href="/resources/postcards/UAVSAR-postcard-Vatnajokull-glacier.pdf" target="_blank">Print this postcard (PDF)</a> <br> <a href="http://uavsar.jpl.nasa.gov/cgi-bin/product.pl?jobName=Icelnd_28501_12034_018_120603_L090_CX_02">Data download page</a></p>
+</div>
+<div class="clear"></div>
+
+<div class="polaroid rotate_right">
+  <img src="/images/postcards/UAVSAR-postcard-Aleutian-1-small.jpg" alt="UAVSAR Postcard Aleutian 1" width="424" height="300">
+</div>
+
+<div class="polaroid rotate_left">
+  <p class="caption"><br><h3>Polarimetric SAR image of Alaska's Aleutian Islands (August 11, 2011)</h3> Umnak is the third largest island in the Aleutian archipelago and its volcanic aldera on Mount Okmok contains the only field of geysers in Alaska. <br><br><a href="/resources/postcards/UAVSAR-postcard-Aleutian-1.png" target="_blank">Image (PNG)</a> <br><a href="/resources/postcards/UAVSAR-postcard-Aleutian-1.pdf" target="_blank">Print this postcard (PDF)</a> <br><a href="http://uavsar.jpl.nasa.gov/cgi-bin/product.pl?jobName=aleutn_06005_11055_003_110802_L090_CX_01" target="_blank">Data download page</a></p>
+</div>
+<div class="clear"></div>
+
+<div class="polaroid rotate_right">
+  <img src="/images/postcards/UAVSAR-postcard-Aleutian-2-small.jpg" alt="UAVSAR Postcard Aleutian 2" width="424" height="300">
+</div>
+
+
+<div class="polaroid rotate_left">
+  <p class="caption"><h3>Polarimetric SAR image of Alaska's Aleutian Islands (August 4, 2010)</h3> Herbert (left) and Chuginadak (right) are part of the Islands of Four Mountains, each of which has its own prominent volcano. Mount Cleveland volcano on Chuginadak is currently active, erupting at least 22 times in the last 230 years.<br> <br><a href="/resources/postcards/UAVSAR-postcard-Aleutian-2.jpg" target="_blank">Image (JPG)</a> <br> <a href="/resources/postcards/UAVSAR-postcard-Aleutian-2.pdf" target="_blank">Print this postcard (PDF)</a> <br><a href="http://uavsar.jpl.nasa.gov/cgi-bin/product.pl?jobName=aleutn_24702_10063_008_100804_L090_CX_01" target="_blank">Data download page</a></p>
+</div>
+<div class="clear"></div>
+
+
+<div class="polaroid rotate_right">
+  <img src="/images/postcards/UAVSAR-postcard-Hawaii-small.jpg" alt="UAVSAR Postcard Hawaii" width="424" height="300">
+</div>
+
+<div class="polaroid rotate_left">
+  <p class="caption"><br><br><h3>Polarimetric Image of Southeast Oahu, HI (January 10, 2010)</h3><br> <a href="/resources/postcards/UAVSAR-postcard-Hawaii.jpg" target="_blank">Image (JPG)</a> <br><a href="/resources/postcards/UAVSAR-postcard-Hawaii.pdf" target="_blank">Print this postcard (PDF)</a> <br><a href="http://uavsar.jpl.nasa.gov/cgi-bin/product.pl?jobName=OahuSE_05401_10006_004_100110_L090_CX_01" target="_blank">Data download page</a></p>
+</div>
+<div class="clear"></div>
+
+<div class="polaroid rotate_right">
+  <img src="/images/postcards/UAVSAR-postcard-Iceland-PolSAR-small.jpg" alt="UAVSAR Postcard Iceland PolSAR" width="424" height="300">
+</div>
+
+<div class="polaroid rotate_left">
+  <p class="caption"><br><h3>Polarimetric SAR image of Hofsjokull, Iceland (June 12, 2009)</h3> The blue areas are bare ground surfaces and<br> the green areas are ice. <br><br> <a href="/resources/postcards/UAVSAR-postcard-Iceland-PolSAR.jpg" target="_blank">Image (JPG)</a> <br> <a href="/resources/postcards/UAVSAR-postcard-Iceland-PolSAR.pdf" target="_blank">Print this postcard (PDF)</a> <br> <a href="http://uavsar.jpl.nasa.gov/cgi-bin/product.pl?jobName=Icelnd_32011_09039_008_090612_L090_CX_01" target="_blank">Data download page</a></p>
+</div>
+<div class="clear"></div>
+
+<div class="polaroid rotate_right">
+  <img src="/images/postcards/UAVSAR-postcard-Iceland-InSAR-small.jpg" alt="UAVSAR Postcard Iceland InSAR" width="424" height="300">
+</div>
+
+<div class="polaroid rotate_left">
+  <p class="caption"><br><br><h3>Interferometric SAR image of Hofsjokull, Iceland (June 10-11, 2009)</h3> The colors indicate the glacial velocity where yellow is moving to the northwest and turquoise is moving to the southeast.<br><br> <a href="/resources/postcards/UAVSAR-postcard-Iceland-InSAR.png" target="_blank">Image (PNG)</a><br> <a href="/resources/postcards/UAVSAR-postcard-Iceland-InSAR-front.jpg" target="_blank">Postcard front</a> <br> <a href="/resources/postcards/UAVSAR-postcard-Iceland-InSAR-back.jpg" target="_blank">Postcard back</a></p>
+</div>
+<div class="clear"></div>
+
+</div>
+      <!--End of Postcards-->
+
+<!-- END OF MAIN CONTENT ***************************************************-->
+
+
+<!-- FOOTER ****************************************************************-->
+<div id="footer">
+  <span id="updateDate">
+    Last updated: May 3, 2017
+  </span>
+  <span id="footerLinks">
+    <a href="mailto:Bruce.D.Chapman@jpl.nasa.gov">
+	  Contact Webmaster
+	</a> 
+	&nbsp; | &nbsp;
+	<a href="http://www.jpl.nasa.gov/copyrights.cfm" target="_blank"> 
+	  Privacy
+	</a> 
+	&nbsp; | &nbsp;
+	<a href="http://www.jpl.nasa.gov/imagepolicy/" target="_blank">
+	  Image Policy
+	</a>
+  </span>
+  <span id="clearanceNum">
+    (CL 07-1343)
+  </span>
+</div>
+<!-- END OF FOOTER *********************************************************-->
+
+</div>  <!-- End of layout -->
+</div>  <!-- End of background -->
+
+<!-- Google Analytics -->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-15546159-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+<!-- End of Google Analytics -->
+
+</body>
+</html>

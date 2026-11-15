@@ -1,0 +1,13 @@
+{
+  "id": "resource_R030",
+  "url": "https://osdr.nasa.gov/bio/repo/",
+  "checked_at": "2026-11-14T15:15:11.884518+00:00",
+  "tls_validation": false,
+  "status": 200,
+  "final_url": "https://osdr.nasa.gov/bio/repo/",
+  "bytes": 983,
+  "content_type": "text/html; charset=utf-8",
+  "sha256": "e36ae949dd555ef015243e2b94471ea1c99b95aed3b15c53bbee6553ea421ee3",
+  "links": [],
+  "elapsed_seconds": 1.594
+}

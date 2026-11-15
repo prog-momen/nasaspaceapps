@@ -1,0 +1,36 @@
+# Secrets - never commit
+.env
+.env.*
+*.env
+!.env.example
+GEMINI_API_KEY*
+البروتوتايب/
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Local vector DB and caches
+earthtrend_rag/data/qdrant/
+earthtrend_rag/data/cache/
+earthtrend_rag/data/usage.json
+
+# Large vendored/research artifacts
+research/python_deps/
+
+# Prototype runtime files
+earthtrend_rag/data/server.pid
+earthtrend_rag/data/server.port
+earthtrend_rag/data/server*.log
+earthtrend_rag/data/downloads/*
+!earthtrend_rag/data/downloads/NOTICE.md
+!earthtrend_rag/data/downloads/ewds_70a98f19e839.nc
+!earthtrend_rag/data/downloads/ewds_892debc5242a.nc
+!earthtrend_rag/data/downloads/ewds_d7878496d78d.nc
+!earthtrend_rag/data/downloads/ewds_ref_6f4dcb2b5f0d.nc
+!earthtrend_rag/data/downloads/ewds_ref_aaeff6199878.nc
+!earthtrend_rag/data/downloads/ewds_ref_b2542c0c7128.nc
+earthtrend_rag/data/diagnostics_last.json
+earthtrend_rag/data/usage.json.lock

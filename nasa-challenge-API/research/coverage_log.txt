@@ -1,0 +1,738 @@
+200
+{
+  "data": {
+    "challenges": {
+      "totalCount": 14,
+      "edges": [
+        {
+          "node": {
+            "id": "aWQ6NTUxMjU=",
+            "title": "Abandoned but not Forgotten: Storytelling about NASA's Discarded Equipment on the Moon and Mars",
+            "meta": {
+              "relativeUrl": "/2026/challenges/nasas-discarded-equipment-storytelling/"
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "aWQ6NTUxMjg=",
+            "title": "Be An Earth System Trend Detective!",
+            "meta": {
+              "relativeUrl": "/2026/challenges/earth-system-trend-detective/"
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "aWQ6NTUxMjQ=",
+            "title": "Build a Junior Astronaut Mission Trainer",
+            "meta": {
+              "relativeUrl": "/2026/challenges/junior-astronaut-mission-trainer/"
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "aWQ6NTUxMzA=",
+            "title": "Create Health Monitoring Software for Astronauts on Space Missions",
+            "meta": {
+              "relativeUrl": "/2026/challenges/health-monitoring-software/"
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "aWQ6NTUxMTk=",
+            "title": "Dancing with the SARs",
+            "meta": {
+              "relativeUrl": "/2026/challenges/dancing-with-the-sars/"
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "aWQ6NTUxMjY=",
+            "title": "Field Shift: Adapting Farms with NASA Data",
+            "meta": {
+              "relativeUrl": "/2026/challenges/adapting-farms-with-nasa-data/"
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "aWQ6NTUxMjE=",
+            "title": "Flame in Freefall: SI-Powered Fire Safety Insights from Microgravity Combustion Data",
+            "meta": {
+              "relativeUrl": "/2026/challenges/flame-in-freefall/"
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "aWQ6NTUxMzI=",
+            "title": "Harmonization of MODIS and VIIRS Hot Spots",
+            "meta": {
+              "relativeUrl": "/2026/challenges/modis-and-viirs-hot-spots/"
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "aWQ6NTUxMjk=",
+            "title": "Identify Earth Locations that Analog the Permanent Moon Base Locations and Mars",
+            "meta": {
+              "relativeUrl": "/2026/challenges/permanent-moon-base-locations-and-mars/"
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "aWQ6NTUxMTg=",
+            "title": "Interplanetary Survival Guide: Martian Map",
+            "meta": {
+              "relativeUrl": "/2026/challenges/interplanetary-survival-guide-martian-map/"
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "aWQ6NTUxMjc=",
+            "title": "Lunar Landing Site Navigator",
+            "meta": {
+              "relativeUrl": "/2026/challenges/lunar-landing-site-navigator/"
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "aWQ6NTUxMjA=",
+            "title": "Planet X and SPHEREx",
+            "meta": {
+              "relativeUrl": "/2026/challenges/planet-x-and-spherex/"
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "aWQ6NTUxMzE=",
+            "title": "Space Mission Design Game",
+            "meta": {
+              "relativeUrl": "/2026/challenges/space-mission-design-game/"
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "aWQ6NTUxMTc=",
+            "title": "The Earth Information Jukebox",
+            "meta": {
+              "relativeUrl": "/2026/challenges/the-earth-information-jukebox/"
+            }
+          }
+        }
+      ],
+      "pageInfo": {
+        "hasNextPage": false
+      }
+    }
+  }
+}
+challenge_nasas-discarded-equipment-storytelling 200 78909 
+challenge_earth-system-trend-detective 200 83283 
+challenge_junior-astronaut-mission-trainer 200 82013 
+challenge_health-monitoring-software 200 76664 
+challenge_dancing-with-the-sars 200 82242 
+challenge_adapting-farms-with-nasa-data 200 94485 
+challenge_flame-in-freefall 200 83911 
+challenge_modis-and-viirs-hot-spots 200 78148 
+challenge_permanent-moon-base-locations-and-mars 200 86120 
+challenge_interplanetary-survival-guide-martian-map 200 77102 
+challenge_lunar-landing-site-navigator 200 80831 
+challenge_planet-x-and-spherex 200 77483 
+challenge_space-mission-design-game 200 94109 
+challenge_the-earth-information-jukebox 200 81869 
+challenge_nasas-discarded-equipment-storytelling [
+  [
+    "https://nssdc.gsfc.nasa.gov/",
+    "NASA Space Science Data Coordinated Archive (NSSDCA)"
+  ],
+  [
+    "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1969-059C",
+    "Apollo Lunar Modules"
+  ],
+  [
+    "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1971-063C",
+    "Lunar Roving Vehicles (LRVs)"
+  ],
+  [
+    "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1969-099C",
+    "ALSEP Scientific Packages"
+  ],
+  [
+    "https://science.nasa.gov/mission/surveyor-3/",
+    "Surveyor Landers"
+  ],
+  [
+    "https://science.nasa.gov/mission/mars-pathfinder/",
+    "Sojourner Rover"
+  ],
+  [
+    "https://science.nasa.gov/mission/mars-exploration-rovers-spirit-and-opportunity/",
+    "Spirit & Opportunity"
+  ],
+  [
+    "https://science.nasa.gov/mission/viking-1/",
+    "Viking 1 & 2 Landers"
+  ],
+  [
+    "https://science.nasa.gov/mission/insight/",
+    "Phoenix & InSight Landers"
+  ],
+  [
+    "https://science.nasa.gov/mission/dawn/",
+    "Dawn Spacecraft"
+  ],
+  [
+    "https://science.nasa.gov/mission/near-shoemaker/",
+    "NEAR Shoemaker"
+  ],
+  [
+    "https://science.nasa.gov/mission/pioneer-10/",
+    "Pioneer 10 & 11"
+  ],
+  [
+    "https://science.nasa.gov/mission/mars-2020-perseverance/ingenuity-mars-helicopter/",
+    "Ingenuity Helicopter"
+  ],
+  [
+    "https://science.nasa.gov/mission/kepler/",
+    "Kepler Space Telescope"
+  ]
+]
+challenge_earth-system-trend-detective [
+  [
+    "https://giovanni.gsfc.nasa.gov/",
+    "Giovanni"
+  ],
+  [
+    "https://disc.gsfc.nasa.gov/information/tools?title=Hydrology%20Time%20Series",
+    "Hydrology Time Series"
+  ],
+  [
+    "https://appeears.earthdatacloud.nasa.gov/",
+    "AppEEARS"
+  ],
+  [
+    "https://www.ncei.noaa.gov/cdo-web/",
+    "Climate Data Online (CDO)"
+  ],
+  [
+    "https://ntrs.nasa.gov/api/citations/20090042747/downloads/20090042747.pdf",
+    "Time-Series Analysis of Remotely-Sensed SeaWiFS Chlorophyll in River-Influenced Coastal Regions"
+  ],
+  [
+    "https://climexp.knmi.nl/",
+    "Royal Netherlands Meteorological Institute (KNMI) Climate Explorer"
+  ],
+  [
+    "https://medium.com/@snp.kriss/statistical-test-methods-to-detect-trends-in-time-series-data-b361a0ec530b",
+    "Statistical test methods to detect trends in time series data"
+  ],
+  [
+    "https://www.statsig.com/perspectives/a-comprehensive-guide-to-statistical-significance",
+    "A Comprehensive Guide to Statistical Significance"
+  ],
+  [
+    "https://donnees-data.asc-csa.gc.ca/en/dataset/rcm",
+    "Radarsat Constellation Mission (RCM) - Data"
+  ],
+  [
+    "http://geo.ca/",
+    "Geo.ca"
+  ],
+  [
+    "https://www.asc-csa.gc.ca/eng/satellites/swot/",
+    "SWOT Mission - Information"
+  ],
+  [
+    "https://www.asc-csa.gc.ca/eng/satellites/everyday-lives/monitoring-and-protecting-our-ecosystems-from-space.asp",
+    "Monitoring and protecting our ecosystem from space"
+  ],
+  [
+    "https://github.com/asc-csa/Synthetic_Aperture_Radar_Tutorial",
+    "Synthetic Aperture Radar python Tutorial"
+  ]
+]
+challenge_junior-astronaut-mission-trainer [
+  [
+    "https://api.nasa.gov/",
+    "NASA Open APIs"
+  ],
+  [
+    "https://ccmc.gsfc.nasa.gov/tools/DONKI/",
+    "Space Weather Database Of Notifications, Knowledge, Information (DONKI)"
+  ],
+  [
+    "https://osdr.nasa.gov/bio/repo/",
+    "NASA Open Science Data Repository (OSDR)"
+  ],
+  [
+    "https://osdr.nasa.gov/osdr/data/search?term=KEYWORD",
+    "search API"
+  ],
+  [
+    "https://visualization.osdr.nasa.gov/radlab/gui/data-api/",
+    "RadLab (OSDR Radiation Dosimetry Database)"
+  ],
+  [
+    "https://trek.nasa.gov/mars/",
+    "Mars Trek"
+  ],
+  [
+    "https://www.asc-csa.gc.ca/eng/youth-educators/resources-stem-and-youth-organizations.asp",
+    "Space resources for STEM and youth organizations"
+  ],
+  [
+    "https://www.asc-csa.gc.ca/eng/youth-educators/toolkits/food-production/",
+    "Food production on the moon and in remote areas"
+  ]
+]
+challenge_health-monitoring-software [
+  [
+    "https://www.nasa.gov/hrp/hazards/",
+    "5 Hazards of Human Spaceflight"
+  ],
+  [
+    "https://www.nasa.gov/hrp/risks/",
+    "Risks of Human Spaceflight"
+  ],
+  [
+    "https://www.nasa.gov/hrp/ongoing-hrp-research/",
+    "Ongoing HRP Research in Space"
+  ],
+  [
+    "https://www.asc-csa.gc.ca/eng/news/articles/2026/2026-02-26-monitoring-radiation-astronaut-health.asp",
+    "Monitoring Radiation for Astronaut Health"
+  ],
+  [
+    "https://www.asc-csa.gc.ca/eng/iss/science/why-do-we-conduct-science-experiments-in-space.asp",
+    "Why Do We Conduct Science Experiments in Space?"
+  ]
+]
+challenge_dancing-with-the-sars [
+  [
+    "https://search.earthdata.nasa.gov/search",
+    "NASA Earthdata Search"
+  ],
+  [
+    "https://search.asf.alaska.edu/",
+    "ASF Data Search Vertex"
+  ],
+  [
+    "https://nisar-docs.asf.alaska.edu/",
+    "NISAR Data User Guide"
+  ],
+  [
+    "https://www.earthdata.nasa.gov/learn/earth-observation-data-basics/remote-sensing",
+    "Intro to Remote Sensing"
+  ],
+  [
+    "https://www.earthdata.nasa.gov/learn/earth-observation-data-basics/sar",
+    "Intro to Synthetic Aperture Radar (SAR)"
+  ],
+  [
+    "https://appliedsciences.nasa.gov/get-involved/training",
+    "NASA ARSET Trainings"
+  ],
+  [
+    "https://nisar.jpl.nasa.gov/applications/arcgis-storymaps/",
+    "NISAR StoryMaps"
+  ],
+  [
+    "https://nisar.jpl.nasa.gov/applications/societal-benefit/",
+    "NISAR Applications White Papers"
+  ],
+  [
+    "https://uavsar.jpl.nasa.gov/education/postcards.html",
+    "UAVSAR Postcards"
+  ],
+  [
+    "https://donnees-data.asc-csa.gc.ca/en/dataset/rcm",
+    "Radarsat Constellation Mission (RCM) - Data"
+  ],
+  [
+    "https://github.com/asc-csa/Synthetic_Aperture_Radar_Tutorial",
+    "Synthetic Aperture Radar python Tutorial"
+  ],
+  [
+    "https://donnees-data.asc-csa.gc.ca/en/dataset/radarsat1",
+    "RADARSAT 1 - Data"
+  ],
+  [
+    "https://catalogos.conae.gov.ar/catalogo/catalogoSatSaocomInfo.html",
+    "SAOCOM Catalogue"
+  ],
+  [
+    "https://www.argentina.gob.ar/noticias/la-informacion-saocom-cada-vez-mas-accesible",
+    "SAOCOM Catalogue Registration"
+  ]
+]
+challenge_adapting-farms-with-nasa-data [
+  [
+    "https://www.earthdata.nasa.gov/data/platforms/space-based-platforms/smap",
+    "Soil Moisture Active Passive (SMAP)"
+  ],
+  [
+    "https://gpm.nasa.gov/data",
+    "Global Precipitation Measurement (GPM) & IMERG"
+  ],
+  [
+    "https://earthexplorer.usgs.gov/",
+    "Landsat"
+  ],
+  [
+    "https://lpdaac.usgs.gov/products/",
+    "MODIS"
+  ],
+  [
+    "https://search.earthdata.nasa.gov/search?q=VIIRS",
+    "VIIRS"
+  ],
+  [
+    "https://power.larc.nasa.gov/",
+    "NASA POWER"
+  ],
+  [
+    "https://www.earthdata.nasa.gov/data/instruments/srtm",
+    "Shuttle Radar Topography Mission (SRTM)"
+  ],
+  [
+    "https://ecostress.jpl.nasa.gov/data",
+    "ECOSTRESS"
+  ],
+  [
+    "https://www.nal.usda.gov/services/agdatacommons",
+    "USDA Ag Data Commons"
+  ],
+  [
+    "https://websoilsurvey.nrcs.usda.gov/app/",
+    "Web Soil Survey (WSS)"
+  ],
+  [
+    "https://nassgeodata.gmu.edu/CropScape/",
+    "Cropland Data Layer (CDL): CropScape"
+  ],
+  [
+    "https://prism.oregonstate.edu",
+    "PRISM Climate Data"
+  ],
+  [
+    "https://www.nrcs.usda.gov/resources/data-and-reports/soils",
+    "USDA NRCS SSURGO/STATSGO2"
+  ],
+  [
+    "https://naip-usdaonline.hub.arcgis.com/",
+    "National Agriculture Imagery Program (NAIP)"
+  ],
+  [
+    "https://www.usgs.gov/centers/eros/science/national-land-cover-database",
+    "USGS National Land Cover Database (NLCD)"
+  ],
+  [
+    "https://www.earthdata.nasa.gov/",
+    "NLDAS/GLDAS: Land Data Assimilation Systems"
+  ],
+  [
+    "https://gaez.fao.org",
+    "FAO Global Agro-Ecological Zones (GAEZ)"
+  ],
+  [
+    "https://www.cocorahs.org/Maps",
+    "CoCoRaHS"
+  ],
+  [
+    "https://waterdata.usgs.gov/nwis",
+    "USGS National Water Information Systems (NWIS)"
+  ],
+  [
+    "https://www.ams.usda.gov/market-news",
+    "USDA AMS Market News"
+  ],
+  [
+    "https://quickstats.nass.usda.gov",
+    "USDA NASS QuickStats"
+  ],
+  [
+    "https://openetdata.org",
+    "OpenET"
+  ],
+  [
+    "https://www.landfire.gov",
+    "USFS LANDFIRE"
+  ],
+  [
+    "https://gedi.umd.edu/data",
+    "Global Ecosystem Dynamics Investigation (GEDI)"
+  ],
+  [
+    "https://dataspace.copernicus.eu",
+    "Copernicus Sentinel-2: ESA:"
+  ],
+  [
+    "https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels?tab=overview",
+    "ERA5: ECMWF Reanalysis"
+  ]
+]
+challenge_flame-in-freefall [
+  [
+    "https://psi.nasa.gov/physci/repo/search?q=combustion",
+    "PSI Data Repository: Combustion Science"
+  ],
+  [
+    "https://www.nasa.gov/glenn/glenn-expertise-space-exploration/physical-sciences-program/combustion-science/",
+    "NASA Combustion Science"
+  ],
+  [
+    "https://www.youtube.com/watch?v=W1oXykoz9zg",
+    "NASA ScienceCasts: The Power of Studying Combustion on the ISS"
+  ],
+  [
+    "https://www.nasa.gov/missions/station/a-researchers-guide-to-combustion-science/",
+    "A Researcher’s Guide to International Space Station Combustion Science"
+  ],
+  [
+    "https://sma.nasa.gov/sma-disciplines/accllp/apollo-1",
+    "Apollo 1"
+  ],
+  [
+    "https://sma.nasa.gov/sma-disciplines/accllp/apollo-13",
+    "Apollo 13"
+  ],
+  [
+    "https://www.nasa.gov/history/25-years-ago-fire-aboard-space-station-mir/",
+    "25 Years Ago: Fire Aboard Space Station Mir"
+  ],
+  [
+    "https://spinoff.nasa.gov/node/9582",
+    "Fireman’s Air Tanks"
+  ],
+  [
+    "https://spinoff.nasa.gov/node/9407",
+    "Fire Detector"
+  ],
+  [
+    "https://spinoff.nasa.gov/node/9918",
+    "New Technology for the Fire Attire"
+  ]
+]
+challenge_modis-and-viirs-hot-spots [
+  [
+    "https://www.earthdata.nasa.gov/data/tools/firms",
+    "FIRMS NASA EARTHDATA: Fire Information for Resource Management System"
+  ]
+]
+challenge_permanent-moon-base-locations-and-mars [
+  [
+    "https://search.earthdata.nasa.gov/?utm_source=%27chatgpt.com%27",
+    "NASA Earthdata Search"
+  ],
+  [
+    "https://worldview.earthdata.nasa.gov/index.html?utm_source=%27chatgpt.com%27",
+    "NASA Worldview"
+  ],
+  [
+    "https://pds.nasa.gov/?utm_source=%27chatgpt.com%27",
+    "NASA Planetary Data System (PDS)"
+  ],
+  [
+    "https://pds-geosciences.wustl.edu/missions/lro/?utm_source=%27chatgpt.com%27",
+    "NASA Lunar Reconnaissance Orbiter (LRO)"
+  ],
+  [
+    "https://pds-geosciences.wustl.edu/missions/lro/diviner.htm?utm_source=%27chatgpt.com%27",
+    "NASA LRO Diviner Lunar Data"
+  ],
+  [
+    "https://donnees-data.asc-csa.gc.ca/en/dataset/rcm",
+    "RADARSAT Constellation Mission (RCM) - Data"
+  ],
+  [
+    "https://donnees-data.asc-csa.gc.ca/en/dataset/radarsat1",
+    "RADARSAT 1 - Data"
+  ],
+  [
+    "https://github.com/asc-csa/Synthetic_Aperture_Radar_Tutorial",
+    "Synthetic Aperture Radar (SAR) Python Tutorial"
+  ],
+  [
+    "https://dataspace.copernicus.eu/?utm_source=%27chatgpt.com%27",
+    "Copernicus Data Space Ecosystem"
+  ],
+  [
+    "https://opensciencedata.esa.int/?utm_source=%27chatgpt.com%27",
+    "ESA Open Science Catalog"
+  ],
+  [
+    "https://gportal.jaxa.jp/gpr/index/index?utm_source=%27chatgpt.com%27",
+    "JAXA G-Portal"
+  ]
+]
+challenge_interplanetary-survival-guide-martian-map [
+  [
+    "https://trek.nasa.gov/mars/",
+    "Jet Propulsion Laboratory’s (JPL) Mars Trek"
+  ],
+  [
+    "https://astrogeology-usgs.hub.arcgis.com/pages/interactive-maps-mars",
+    "USGS-NASA Planetary Geologic Mapping Program"
+  ],
+  [
+    "https://science.nasa.gov/resource/curiositys-proposed-path-up-mount-sharp/",
+    "Example of a route map visual for the Curiosity example mentioned above"
+  ],
+  [
+    "https://worldview.earthdata.nasa.gov/",
+    "NASA Worldview"
+  ],
+  [
+    "https://mars.nasa.gov/mars2020/multimedia/raw-images/",
+    "Mars Perseverance Raw Images Gallery"
+  ]
+]
+challenge_lunar-landing-site-navigator [
+  [
+    "https://quickmap.lroc.asu.edu/",
+    "Quickmap"
+  ],
+  [
+    "https://trek.nasa.gov/moon/",
+    "Moon Trek"
+  ],
+  [
+    "https://ssd.jpl.nasa.gov/horizons/",
+    "Horizons System"
+  ],
+  [
+    "https://www.asc-csa.gc.ca/eng/astronomy/moon-exploration/",
+    "Moon Exploration"
+  ]
+]
+challenge_planet-x-and-spherex [
+  [
+    "https://irsa.ipac.caltech.edu/Missions/spherex.html",
+    "NASA/IPAC Infrared Science Archive"
+  ],
+  [
+    "https://caltech-ipac.github.io/irsa-tutorials/spherex/",
+    "SPHEREx Tutorial Notebooks"
+  ],
+  [
+    "http://byw.tools/wiseview",
+    "WiseView"
+  ],
+  [
+    "https://archive.stsci.edu/missions-and-data/gaia",
+    "Gaia Mission Data"
+  ],
+  [
+    "https://www.asc-csa.gc.ca/eng/satellites/neossat/",
+    "NEOSSat: Observing Asteroids, Space Debris and Exoplanets"
+  ],
+  [
+    "https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/",
+    "Canadian Astronomy Data Centre (CADC)"
+  ],
+  [
+    "https://github.com/asc-csa/NEOSSAT_Tutorial",
+    "NEOSSat Data Tutorial"
+  ],
+  [
+    "https://data.asc-csa.gc.ca/dataset/neossat",
+    "NEOSSat Dataset"
+  ]
+]
+challenge_space-mission-design-game [
+  [
+    "https://www.nasa.gov/wp-content/uploads/2025/04/250323-design-and-develop-science-mission.pdf?emrc=a454cf",
+    "Design and Develop Science Missions"
+  ],
+  [
+    "https://software.nasa.gov/software/GSC-19468-1",
+    "General Mission Analysis Tool (GMAT)"
+  ],
+  [
+    "https://dataverse.jpl.nasa.gov/dataset.xhtml?persistentId=hdl:2014/44299",
+    "Concept Maturity Levels (CMLs)"
+  ],
+  [
+    "https://etd.gsfc.nasa.gov/capabilities/integrated-design-center/mission-design-lab/",
+    "Mission Design Lab (MDL)"
+  ],
+  [
+    "https://nasa.github.io/mission-viz/",
+    "NASA Mission Viz"
+  ],
+  [
+    "https://science.nasa.gov/mission/webb/game-build-it-yourself/",
+    "A Learning Game About Telescopes"
+  ],
+  [
+    "https://www3.nasa.gov/sites/default/files/atoms/files/nasa_csli_cubesat_101_508.pdf",
+    "Cubesat 101 - Basic Concepts and Processes for First-Time CubeSat Developers"
+  ],
+  [
+    "https://www.spaceappschallenge.org/2023/challenges/visualize-a-space-mission-using-virtual-reality/",
+    "Visualize a Space Mission Using Virtual Reality"
+  ],
+  [
+    "https://www.asc-csa.gc.ca/eng/youth-educators/digital-games-and-activities.asp",
+    "Digital Games and Activities"
+  ]
+]
+challenge_the-earth-information-jukebox [
+  [
+    "https://svs.gsfc.nasa.gov/gallery/earth-information-center/",
+    "Earth Information Center (EIC) Content Database"
+  ],
+  [
+    "https://svs.gsfc.nasa.gov/13786/",
+    "Data Sonification: Caldwell 73"
+  ],
+  [
+    "https://svs.gsfc.nasa.gov/5313/",
+    "Change in Night Lights between 2012 and 2023 - EIC Version"
+  ],
+  [
+    "https://svs.gsfc.nasa.gov/3912/#media_group_349716",
+    "Global Sea Surface Currents and Temperature"
+  ],
+  [
+    "https://svs.gsfc.nasa.gov/5669/",
+    "GEOS Aerosols"
+  ],
+  [
+    "https://svs.gsfc.nasa.gov/5533/",
+    "Air Quality Model Runs"
+  ],
+  [
+    "https://svs.gsfc.nasa.gov/5425/",
+    "Perpetual Ocean 2: Western Boundary Currents"
+  ],
+  [
+    "https://svs.gsfc.nasa.gov/5196/",
+    "DYAMOND Global Carbon Dioxide"
+  ],
+  [
+    "https://svs.gsfc.nasa.gov/5011/",
+    "Lightning Events Detected from the ISS 2017-2023"
+  ],
+  [
+    "https://svs.gsfc.nasa.gov/4960/",
+    "A 3D View of an Atmospheric River from an Earth System Model"
+  ],
+  [
+    "https://svs.gsfc.nasa.gov/4950/",
+    "GEDI Forest Height"
+  ]
+]
+TOTAL 14 UNIQUE 133

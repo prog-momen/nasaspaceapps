@@ -1,0 +1,238 @@
+{
+  "id": "resource_R018",
+  "url": "https://www.ncei.noaa.gov/cdo-web/",
+  "checked_at": "2026-11-14T15:15:10.517669+00:00",
+  "tls_validation": false,
+  "status": 200,
+  "final_url": "https://www.ncei.noaa.gov/cdo-web/",
+  "bytes": 19246,
+  "content_type": "text/html;charset=ISO-8859-1",
+  "sha256": "35c4d6c849d119e0e2dd381530f6f93cd39d669a40606f1c6072970fa3fbe826",
+  "links": [
+    {
+      "url": "http://www.noaa.gov/",
+      "label": ""
+    },
+    {
+      "url": "http://www.ncei.noaa.gov/",
+      "label": "National Centers for Environmental Information"
+    },
+    {
+      "url": "http://www.commerce.gov/",
+      "label": ""
+    },
+    {
+      "url": "https://www.ncei.noaa.gov/cdo-web/#main-content",
+      "label": "Skip to main content"
+    },
+    {
+      "url": "https://www.ncei.noaa.gov/cdo-web/#site-search",
+      "label": "Skip to site search"
+    },
+    {
+      "url": "https://www.ncei.noaa.gov/",
+      "label": "Home"
+    },
+    {
+      "url": "https://www.ncei.noaa.gov/monitoring",
+      "label": "Climate Information"
+    },
+    {
+      "url": "https://www.ncei.noaa.gov/access",
+      "label": "Data Access"
+    },
+    {
+      "url": "https://www.ncei.noaa.gov/contact",
+      "label": "Contact"
+    },
+    {
+      "url": "https://www.ncei.noaa.gov/about",
+      "label": "About"
+    },
+    {
+      "url": "https://www.ncei.noaa.gov/cdo-web/",
+      "label": ""
+    },
+    {
+      "url": "https://www.ncei.noaa.gov/",
+      "label": "Home"
+    },
+    {
+      "url": "https://www.ncei.noaa.gov/cdo-web/datasets",
+      "label": "Datasets"
+    },
+    {
+      "url": "https://www.ncei.noaa.gov/cdo-web/search",
+      "label": "Search Tool"
+    },
+    {
+      "url": "https://gis.ncdc.noaa.gov/maps/ncei/",
+      "label": "Mapping Tool"
+    },
+    {
+      "url": "https://www.ncei.noaa.gov/cdo-web/datatools",
+      "label": "Data Tools"
+    },
+    {
+      "url": "https://www.ncei.noaa.gov/cdo-web/faq",
+      "label": "Help"
+    },
+    {
+      "url": "https://www.ncei.noaa.gov/cdo-web/",
+      "label": ""
+    },
+    {
+      "url": "https://www.ncei.noaa.gov/certification",
+      "label": "certified hard copies"
+    },
+    {
+      "url": "https://www.ncei.noaa.gov/cdo-web/datasets",
+      "label": "Datasets Browse Datasets"
+    },
+    {
+      "url": "https://www.ncei.noaa.gov/certification",
+      "label": "Certification Certify Orders"
+    },
+    {
+      "url": "https://www.ncei.noaa.gov/cdo-web/orders",
+      "label": "Order Status Check Status"
+    },
+    {
+      "url": "https://www.ncei.noaa.gov/cdo-web/faq",
+      "label": "Find Help Find Help"
+    },
+    {
+      "url": "https://www.ncei.noaa.gov/cdo-web/search",
+      "label": "Search Tool Search for and access past weather and climate data by station name or identifier, ZIP code, city, county, state, or country. Search Tool »"
+    },
+    {
+      "url": "https://gis.ncdc.noaa.gov/maps/ncei/",
+      "label": "Mapping Tool Find and view past weather and climate data by station name or identifier, ZIP code, city, county, state, or country. Mapping Tool »"
+    },
+    {
+      "url": "https://www.ncei.noaa.gov/cdo-web/datatools",
+      "label": "Data Tools Access past weather and climate data using a collection of specialized tools. Data Tools »"
+    },
+    {
+      "url": "https://www.climate.gov",
+      "label": "Climate.gov"
+    },
+    {
+      "url": "https://www.drought.gov",
+      "label": "Drought.gov"
+    },
+    {
+      "url": "https://www.ncei.noaa.gov/products/weather-climate-models",
+      "label": "Climate Models"
+    },
+    {
+      "url": "https://www.avl.class.noaa.gov/release/index.htm#3",
+      "label": "Satellite"
+    },
+    {
+      "url": "https://www.ncei.noaa.gov/products/climate-data-records",
+      "label": "Climate Data Records"
+    },
+    {
+      "url": "https://www.ncdc.noaa.gov/IPS/",
+      "label": "Publications"
+    },
+    {
+      "url": "https://www.ncdc.noaa.gov/stormevents/",
+      "label": "Storm Events"
+    },
+    {
+      "url": "https://www.ncei.noaa.gov/products/severe-weather-data-inventory",
+      "label": "Severe Weather"
+    },
+    {
+      "url": "https://www.ncei.noaa.gov/products/weather-climate-models/service-records-retention",
+      "label": "Service Records Retention System (SRRS)"
+    },
+    {
+      "url": "https://www.ncei.noaa.gov/cdo-web/faq",
+      "label": "Ordering Data"
+    },
+    {
+      "url": "https://www.ncei.noaa.gov/cdo-web/webservices/getstarted",
+      "label": "Using Web Services"
+    },
+    {
+      "url": "https://www.ncei.noaa.gov/cdo-web/orders",
+      "label": "Checking Order Status"
+    },
+    {
+      "url": "https://www.ncei.noaa.gov/access/homr/reports/mshr",
+      "label": "Viewing a List of Stations"
+    },
+    {
+      "url": "https://www.commerce.gov/",
+      "label": ""
+    },
+    {
+      "url": "https://www.usa.gov",
+      "label": ""
+    },
+    {
+      "url": "https://www.ready.gov",
+      "label": ""
+    },
+    {
+      "url": "https://www.ncei.noaa.gov/",
+      "label": "NCEI"
+    },
+    {
+      "url": "https://www.ncei.noaa.gov/about",
+      "label": "About"
+    },
+    {
+      "url": "https://www.ncei.noaa.gov/sitemap",
+      "label": "Site Map"
+    },
+    {
+      "url": "http://www.noaa.gov/privacy.html",
+      "label": "Privacy"
+    },
+    {
+      "url": "http://www.rdc.noaa.gov/%7Efoia/",
+      "label": "FOIA"
+    },
+    {
+      "url": "http://www.cio.noaa.gov/Policy_Programs/info_quality.html",
+      "label": "Information Quality"
+    },
+    {
+      "url": "http://www.noaa.gov/disclaimer.html",
+      "label": "Disclaimer"
+    },
+    {
+      "url": "http://www.commerce.gov/",
+      "label": "Department of Commerce"
+    },
+    {
+      "url": "http://www.noaa.gov",
+      "label": "NOAA"
+    },
+    {
+      "url": "http://www.nesdis.noaa.gov/",
+      "label": "NESDIS"
+    },
+    {
+      "url": "https://www.commerce.gov/",
+      "label": "Department of Commerce"
+    },
+    {
+      "url": "https://www.noaa.gov/",
+      "label": "NOAA"
+    },
+    {
+      "url": "https://www.nesdis.noaa.gov/",
+      "label": "NESDIS"
+    },
+    {
+      "url": "https://www.ncei.noaa.gov/",
+      "label": "NCEI"
+    }
+  ],
+  "elapsed_seconds": 0.64
+}

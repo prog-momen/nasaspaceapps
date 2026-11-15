@@ -1,0 +1,13 @@
+{
+  "id": "official_challenges_graphql",
+  "url": "https://api.spaceappschallenge.org/graphql?query=query+Challenges%28%24event%3A+EncodedID%2C+%24first%3A+Int%21%29+%7B+challenges%28event%3A%24event%2C+first%3A%24first%29+%7B+totalCount+edges+%7B+node+%7B+id+title+meta+%7B+relativeUrl+%7D+%7D+%7D+pageInfo+%7B+hasNextPage+%7D+%7D+%7D&variables=%7B%22event%22%3A+%22aWQ6NA%3D%3D%22%2C+%22first%22%3A+100%7D",
+  "checked_at": "2026-11-14T15:12:32.936007+00:00",
+  "tls_validation": false,
+  "status": 200,
+  "final_url": "https://api.spaceappschallenge.org/graphql?query=query+Challenges%28%24event%3A+EncodedID%2C+%24first%3A+Int%21%29+%7B+challenges%28event%3A%24event%2C+first%3A%24first%29+%7B+totalCount+edges+%7B+node+%7B+id+title+meta+%7B+relativeUrl+%7D+%7D+%7D+pageInfo+%7B+hasNextPage+%7D+%7D+%7D&variables=%7B%22event%22%3A+%22aWQ6NA%3D%3D%22%2C+%22first%22%3A+100%7D",
+  "bytes": 2334,
+  "content_type": "application/json; charset=utf-8",
+  "sha256": "cf0ae742984b07dc746fd4eae291a3f1131cc156a1a19eac878885a1bfd7a79d",
+  "links": [],
+  "elapsed_seconds": 0.5
+}

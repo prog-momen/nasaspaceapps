@@ -1,0 +1,83 @@
+{
+  "invalid_eval_items": [],
+  "chunks": 899,
+  "models": {
+    "BAAI/bge-m3": {
+      "dense": {
+        "hit@1": 0.1875,
+        "hit@3": 0.375,
+        "hit@5": 0.625,
+        "mrr": 0.3302083333333333,
+        "precision@5": 0.15000000000000002,
+        "misses": [
+          "A02",
+          "A04",
+          "A05",
+          "A06",
+          "A10",
+          "A12"
+        ]
+      },
+      "hybrid": {
+        "hit@1": 0.3125,
+        "hit@3": 0.75,
+        "hit@5": 0.875,
+        "mrr": 0.5208333333333334,
+        "precision@5": 0.23750000000000002,
+        "misses": [
+          "A06",
+          "A12"
+        ]
+      },
+      "dense_score_answerable": {
+        "min": 0.5123467799723853,
+        "median": 0.579499378135684
+      },
+      "dense_score_insufficient": {
+        "max": 0.5927126961561696,
+        "median": 0.4861496396382793
+      },
+      "threshold_midpoint": 0.5525297380642775,
+      "separable": false,
+      "dim": 1024,
+      "load_seconds": 308.6,
+      "index_seconds": 1765.0,
+      "eval_seconds": 14.8
+    },
+    "intfloat/multilingual-e5-small": {
+      "dense": {
+        "hit@1": 0.625,
+        "hit@3": 0.75,
+        "hit@5": 0.875,
+        "mrr": 0.7052083333333333,
+        "precision@5": 0.25,
+        "misses": [
+          "A01",
+          "A04"
+        ]
+      },
+      "hybrid": {
+        "hit@1": 0.625,
+        "hit@3": 0.875,
+        "hit@5": 1.0,
+        "mrr": 0.7677083333333333,
+        "precision@5": 0.25,
+        "misses": []
+      },
+      "dense_score_answerable": {
+        "min": 0.815503539506635,
+        "median": 0.8577691914740585
+      },
+      "dense_score_insufficient": {
+        "max": 0.8629718658664893,
+        "median": 0.8171243038430507
+      },
+      "threshold_midpoint": 0.8392377026865622,
+      "separable": false,
+      "dim": 384,
+      "load_seconds": 132.8,
+      "index_seconds": 165.5,
+      "eval_seconds": 1.9
+    }
+  }
+}

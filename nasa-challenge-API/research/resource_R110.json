@@ -1,0 +1,350 @@
+{
+  "id": "resource_R110",
+  "url": "https://data.asc-csa.gc.ca/dataset/neossat",
+  "checked_at": "2026-11-14T15:15:25.837255+00:00",
+  "tls_validation": false,
+  "status": 200,
+  "final_url": "https://data.asc-csa.gc.ca/dataset/neossat",
+  "bytes": 58201,
+  "content_type": "text/html; charset=utf-8",
+  "sha256": "285283deae2a52477690064c2251ba847133bd94855a1f1c5da9d680f3f5f529",
+  "links": [
+    {
+      "url": "https://data.asc-csa.gc.ca/dataset/neossat#wb-cont",
+      "label": "Skip to main content"
+    },
+    {
+      "url": "https://data.asc-csa.gc.ca/dataset/neossat#wb-info",
+      "label": "Skip to \"About this site\""
+    },
+    {
+      "url": "https://data.asc-csa.gc.ca/fr/dataset/neossat",
+      "label": "Français fr"
+    },
+    {
+      "url": "https://www.canada.ca/en.html",
+      "label": "Government of Canada / Gouvernement du Canada"
+    },
+    {
+      "url": "https://www.canada.ca/en/services/jobs.html",
+      "label": "Jobs and the workplace"
+    },
+    {
+      "url": "https://www.canada.ca/en/services/immigration-citizenship.html",
+      "label": "Immigration and citizenship"
+    },
+    {
+      "url": "https://travel.gc.ca/",
+      "label": "Travel and tourism"
+    },
+    {
+      "url": "https://www.canada.ca/en/services/business.html",
+      "label": "Business and industry"
+    },
+    {
+      "url": "https://www.canada.ca/en/services/benefits.html",
+      "label": "Benefits"
+    },
+    {
+      "url": "https://www.canada.ca/en/services/health.html",
+      "label": "Health"
+    },
+    {
+      "url": "https://www.canada.ca/en/services/taxes.html",
+      "label": "Taxes"
+    },
+    {
+      "url": "https://www.canada.ca/en/services/environment.html",
+      "label": "Environment and natural resources"
+    },
+    {
+      "url": "https://www.canada.ca/en/services/defence.html",
+      "label": "National security and defence"
+    },
+    {
+      "url": "https://www.canada.ca/en/services/culture.html",
+      "label": "Culture, history and sport"
+    },
+    {
+      "url": "https://www.canada.ca/en/services/policing.html",
+      "label": "Policing, justice and emergencies"
+    },
+    {
+      "url": "https://www.canada.ca/en/services/transport.html",
+      "label": "Transport and infrastructure"
+    },
+    {
+      "url": "https://international.gc.ca/world-monde/index.aspx?lang=eng",
+      "label": "Canada and the world"
+    },
+    {
+      "url": "https://www.canada.ca/en/services/finance.html",
+      "label": "Money and finances"
+    },
+    {
+      "url": "https://www.canada.ca/en/services/science.html",
+      "label": "Science and innovation"
+    },
+    {
+      "url": "https://www.canada.ca/en.html",
+      "label": "Canada.ca"
+    },
+    {
+      "url": "https://www.asc-csa.gc.ca/eng/Default.asp",
+      "label": "Canadian Space Agency"
+    },
+    {
+      "url": "https://asc-csa.gc.ca/eng/open-data/default.asp",
+      "label": "Open data and information"
+    },
+    {
+      "url": "https://data.asc-csa.gc.ca/dataset/",
+      "label": "Portal"
+    },
+    {
+      "url": "mailto:gouvernementouvert-opengovernment@asc-csa.gc.ca",
+      "label": "gouvernementouvert-opengovernment@asc-csa.gc.ca"
+    },
+    {
+      "url": "https://data.asc-csa.gc.ca/dataset/?keywords_en=NEOSSat",
+      "label": "NEOSSat"
+    },
+    {
+      "url": "https://data.asc-csa.gc.ca/dataset/?keywords_en=Satellite",
+      "label": "Satellite"
+    },
+    {
+      "url": "https://data.asc-csa.gc.ca/dataset/?keywords_en=Comet",
+      "label": "Comet"
+    },
+    {
+      "url": "https://data.asc-csa.gc.ca/dataset/?keywords_en=Asteroid",
+      "label": "Asteroid"
+    },
+    {
+      "url": "https://data.asc-csa.gc.ca/dataset/?keywords_en=Astronomy",
+      "label": "Astronomy"
+    },
+    {
+      "url": "https://data.asc-csa.gc.ca/dataset/?subject=science_and_technology",
+      "label": "Science and technology"
+    },
+    {
+      "url": "https://www.asc-csa.gc.ca/eng/satellites/neossat/default.asp",
+      "label": "https://www.asc-csa.gc.ca/eng/satellites/neossat/default.asp"
+    },
+    {
+      "url": "http://open.canada.ca/en/open-government-licence-canada",
+      "label": "Open Government Licence - Canada"
+    },
+    {
+      "url": "https://donnees-data.asc-csa.gc.ca/api/action/package_show?id=62d8033b-87b6-4322-8d5f-e26bebf934c1",
+      "label": "Link to JSON format"
+    },
+    {
+      "url": "https://data.asc-csa.gc.ca/dataset/neossat",
+      "label": "Dataset"
+    },
+    {
+      "url": "https://data.asc-csa.gc.ca/dataset/groups/neossat",
+      "label": "Groups"
+    },
+    {
+      "url": "http://asc-csa.gc.ca/eng/satellites/neossat/default.asp",
+      "label": "http://asc-csa.gc.ca/eng/satellites/neossat/default.asp"
+    },
+    {
+      "url": "https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/neossat/",
+      "label": "Download the resource named: CADC Data Archive (en, fr)"
+    },
+    {
+      "url": "https://data.asc-csa.gc.ca/users/OpenData_DonneesOuvertes/pub/NEOSSAT/ASTRO/",
+      "label": "Download the resource named: Astronomy Data (zxx)"
+    },
+    {
+      "url": "https://donnees-data.asc-csa.gc.ca/users/OpenData_DonneesOuvertes/pub/NEOSSAT/Supporting%20Documents/CSA-NEOSSAT-MAN-0002_FITS_IMAGE_UGUIDE-v4-00.pdf",
+      "label": "Download the resource named: NEOSSat FITS Image User’s Guide (en)"
+    },
+    {
+      "url": "https://donnees-data.asc-csa.gc.ca/users/OpenData_DonneesOuvertes/pub/NEOSSAT/XML/",
+      "label": "Download the resource named: XML (zxx)"
+    },
+    {
+      "url": "https://donnees-data.asc-csa.gc.ca/users/OpenData_DonneesOuvertes/pub/NEOSSAT/Supporting%20Documents/NEOSSat%20document%20de%20soutien.docx",
+      "label": "Go to the data dictionary named: NEOSSat supporting document (fr)"
+    },
+    {
+      "url": "https://donnees-data.asc-csa.gc.ca/users/OpenData_DonneesOuvertes/pub/NEOSSAT/Supporting%20Documents/NEOSSat%20supporting%20document.docx",
+      "label": "Go to the data dictionary named: NEOSSat supporting document (en)"
+    },
+    {
+      "url": "https://open.canada.ca/data/dataset/9ae3e718-8b6d-40b7-8aa4-858f00e84b30/resource/355ab8b4-71ad-4677-a40b-1b5b89636ce0/download/neossat-experience-v1.5.pdf",
+      "label": "Go to the data dictionary named: NEOSSat Experience (en)"
+    },
+    {
+      "url": "https://github.com/asc-csa/NEOSSAT_Tutorial",
+      "label": "Go to the tutorial named: Tutorial (en, fr)"
+    },
+    {
+      "url": "https://data.asc-csa.gc.ca/dataset/neossateval",
+      "label": "Evaluation of the Near Earth Object Surveillance Satellite (NEOSSat) Project"
+    },
+    {
+      "url": "https://data.asc-csa.gc.ca/dataset/d700c863-8622-4ec2-a4ee-a1c377880e2e",
+      "label": "THEMIS Mission (Time History of Events and Macroscale Interactions during Substorms)"
+    },
+    {
+      "url": "https://data.asc-csa.gc.ca/dataset/4501efc8-9fe0-4a52-9a60-f2657a969c0b",
+      "label": "WINDII Data Archive"
+    },
+    {
+      "url": "https://data.asc-csa.gc.ca/dataset/98466021-2q1w-5g2d-677zwru214wx68",
+      "label": "CASSIOPE Satellite Data on Earth’s Space Environment"
+    },
+    {
+      "url": "mailto:gouvernementouvert-opengovernment@asc-csa.gc.ca",
+      "label": "gouvernementouvert-opengovernment@asc-csa.gc.ca"
+    },
+    {
+      "url": "http://asc-csa.gc.ca/eng/satellites/neossat/default.asp",
+      "label": "http://asc-csa.gc.ca/eng/satellites/neossat/default.asp"
+    },
+    {
+      "url": "https://data.asc-csa.gc.ca/dataset/?tags=NEOSSat",
+      "label": "NEOSSat"
+    },
+    {
+      "url": "https://data.asc-csa.gc.ca/dataset/?tags=Satellite",
+      "label": "Satellite"
+    },
+    {
+      "url": "https://data.asc-csa.gc.ca/dataset/?tags=Comet",
+      "label": "Comet"
+    },
+    {
+      "url": "https://data.asc-csa.gc.ca/dataset/?tags=Asteroid",
+      "label": "Asteroid"
+    },
+    {
+      "url": "https://data.asc-csa.gc.ca/dataset/?tags=Astronomy",
+      "label": "Astronomy"
+    },
+    {
+      "url": "https://data.asc-csa.gc.ca/dataset/?subject=science_and_technology",
+      "label": "Science and technology"
+    },
+    {
+      "url": "https://data.asc-csa.gc.ca/dataset/?subject=space_astronomy",
+      "label": "Space astronomy"
+    },
+    {
+      "url": "https://www.asc-csa.gc.ca/eng/satellites/neossat/default.asp",
+      "label": "https://www.asc-csa.gc.ca/eng/satellites/neossat/default.asp"
+    },
+    {
+      "url": "https://www.canada.ca/en/contact.html",
+      "label": "All contacts"
+    },
+    {
+      "url": "https://www.canada.ca/en/government/dept.html",
+      "label": "Departments and agencies"
+    },
+    {
+      "url": "https://www.canada.ca/en/government/system.html",
+      "label": "About government"
+    },
+    {
+      "url": "https://www.canada.ca/en/services/jobs.html",
+      "label": "Jobs"
+    },
+    {
+      "url": "https://www.canada.ca/en/services/immigration-citizenship.html",
+      "label": "Immigration and citizenship"
+    },
+    {
+      "url": "https://travel.gc.ca/",
+      "label": "Travel and tourism"
+    },
+    {
+      "url": "https://www.canada.ca/en/services/business.html",
+      "label": "Business"
+    },
+    {
+      "url": "https://www.canada.ca/en/services/benefits.html",
+      "label": "Benefits"
+    },
+    {
+      "url": "https://www.canada.ca/en/services/health.html",
+      "label": "Health"
+    },
+    {
+      "url": "https://www.canada.ca/en/services/taxes.html",
+      "label": "Taxes"
+    },
+    {
+      "url": "https://www.canada.ca/en/services/environment.html",
+      "label": "Environment and natural resources"
+    },
+    {
+      "url": "https://www.canada.ca/en/services/defence.html",
+      "label": "National security and defence"
+    },
+    {
+      "url": "https://www.canada.ca/en/services/culture.html",
+      "label": "Culture, history and sport"
+    },
+    {
+      "url": "https://www.canada.ca/en/services/policing.html",
+      "label": "Policing, justice and emergencies"
+    },
+    {
+      "url": "https://www.canada.ca/en/services/transport.html",
+      "label": "Transport and infrastructure"
+    },
+    {
+      "url": "https://international.gc.ca/world-monde/index.aspx?lang=eng",
+      "label": "Canada and the world"
+    },
+    {
+      "url": "https://www.canada.ca/en/services/finance.html",
+      "label": "Money and finance"
+    },
+    {
+      "url": "https://www.canada.ca/en/services/science.html",
+      "label": "Science and innovation"
+    },
+    {
+      "url": "https://www.canada.ca/en/services/indigenous-peoples.html",
+      "label": "Indigenous peoples"
+    },
+    {
+      "url": "https://www.canada.ca/en/services/veterans.html",
+      "label": "Veterans and military"
+    },
+    {
+      "url": "https://www.canada.ca/en/services/youth.html",
+      "label": "Youth"
+    },
+    {
+      "url": "https://www.canada.ca/en/social.html",
+      "label": "Social media"
+    },
+    {
+      "url": "https://www.canada.ca/en/mobile.html",
+      "label": "Mobile applications"
+    },
+    {
+      "url": "https://www.canada.ca/en/government/about.html",
+      "label": "About Canada.ca"
+    },
+    {
+      "url": "https://www.canada.ca/en/transparency/terms.html",
+      "label": "Terms and conditions"
+    },
+    {
+      "url": "https://www.canada.ca/en/transparency/privacy.html",
+      "label": "Privacy"
+    }
+  ],
+  "elapsed_seconds": 2.219
+}

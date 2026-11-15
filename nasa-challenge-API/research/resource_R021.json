@@ -1,0 +1,246 @@
+{
+  "id": "resource_R021",
+  "url": "https://medium.com/@snp.kriss/statistical-test-methods-to-detect-trends-in-time-series-data-b361a0ec530b",
+  "checked_at": "2026-11-14T15:15:10.552772+00:00",
+  "tls_validation": false,
+  "status": 200,
+  "final_url": "https://medium.com/@snp.kriss/statistical-test-methods-to-detect-trends-in-time-series-data-b361a0ec530b",
+  "bytes": 257782,
+  "content_type": "text/html; charset=utf-8",
+  "sha256": "fc455303ad54316ab84b508554603cf64dd52077b17e593a9504fd6cef923ab2",
+  "links": [
+    {
+      "url": "https://medium.com/sitemap/sitemap.xml",
+      "label": "Sitemap"
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=com.medium.reader&referrer=utm_source%3DmobileNavBar&source=---top_nav_layout_nav--------------------------------------------",
+      "label": "Open in app"
+    },
+    {
+      "url": "https://medium.com/m/signin?operation=login&redirect=https%3A%2F%2Fmedium.com%2F%40snp.kriss%2Fstatistical-test-methods-to-detect-trends-in-time-series-data-b361a0ec530b&source=post_page---top_nav_layout_nav-----------------------global_nav---------------------",
+      "label": "Sign in"
+    },
+    {
+      "url": "https://medium.com/?source=---top_nav_layout_nav--------------------------------------------",
+      "label": "Medium Logo"
+    },
+    {
+      "url": "https://medium.com/m/signin?operation=register&redirect=https%3A%2F%2Fmedium.com%2Fnew-story&source=---top_nav_layout_nav-----------------------new_post_topnav---------------------",
+      "label": "Write"
+    },
+    {
+      "url": "https://medium.com/search?source=---top_nav_layout_nav--------------------------------------------",
+      "label": "Search"
+    },
+    {
+      "url": "https://medium.com/m/signin?operation=login&redirect=https%3A%2F%2Fmedium.com%2F%40snp.kriss%2Fstatistical-test-methods-to-detect-trends-in-time-series-data-b361a0ec530b&source=post_page---top_nav_layout_nav-----------------------global_nav---------------------",
+      "label": "Sign in"
+    },
+    {
+      "url": "https://medium.com/?source=post_page-----b361a0ec530b------------------------------------------#e50c",
+      "label": "Introduction"
+    },
+    {
+      "url": "https://medium.com/?source=post_page-----b361a0ec530b------------------------------------------#4227",
+      "label": "Generating toy datasets"
+    },
+    {
+      "url": "https://medium.com/?source=post_page-----b361a0ec530b------------------------------------------#7ac8",
+      "label": "Ordinary Least Square Regression"
+    },
+    {
+      "url": "https://medium.com/?source=post_page-----b361a0ec530b------------------------------------------#9d90",
+      "label": "Mann-Kendall Trend Test"
+    },
+    {
+      "url": "https://medium.com/?source=post_page-----b361a0ec530b------------------------------------------#20e9",
+      "label": "Seasonal Kendall Test"
+    },
+    {
+      "url": "https://medium.com/?source=post_page-----b361a0ec530b------------------------------------------#86d1",
+      "label": "Unit Root Tests"
+    },
+    {
+      "url": "https://medium.com/?source=post_page-----b361a0ec530b------------------------------------------#19b1",
+      "label": "Closing Remarks"
+    },
+    {
+      "url": "https://medium.com/?source=post_page-----b361a0ec530b------------------------------------------#253d",
+      "label": "References"
+    },
+    {
+      "url": "https://medium.com/tag/trend-detection?source=post_page---header_tags--b361a0ec530b------------------------------------------",
+      "label": "Trend Detection"
+    },
+    {
+      "url": "https://medium.com/tag/mann-kendall?source=post_page---header_tags--b361a0ec530b------------------------------------------",
+      "label": "Mann Kendall"
+    },
+    {
+      "url": "https://medium.com/tag/dickey-fuller-test?source=post_page---header_tags--b361a0ec530b------------------------------------------",
+      "label": "Dickey Fuller Test"
+    },
+    {
+      "url": "https://medium.com/tag/unit-root-test?source=post_page---header_tags--b361a0ec530b------------------------------------------",
+      "label": "Unit Root Test"
+    },
+    {
+      "url": "https://medium.com/tag/time-series-data?source=post_page---header_tags--b361a0ec530b------------------------------------------",
+      "label": "Time Series Data"
+    },
+    {
+      "url": "https://medium.com/@snp.kriss?source=post_page---byline--b361a0ec530b------------------------------------------",
+      "label": ""
+    },
+    {
+      "url": "https://medium.com/@snp.kriss?source=post_page---byline--b361a0ec530b------------------------------------------",
+      "label": "MCMC Addict"
+    },
+    {
+      "url": "https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2Fb361a0ec530b&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40snp.kriss%2Fstatistical-test-methods-to-detect-trends-in-time-series-data-b361a0ec530b&user=MCMC+Addict&userId=ebd8c9c184e3&source=---header_actions--b361a0ec530b---------------------clap_footer---------------------",
+      "label": ""
+    },
+    {
+      "url": "https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Frepost%2Fp%2Fb361a0ec530b&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40snp.kriss%2Fstatistical-test-methods-to-detect-trends-in-time-series-data-b361a0ec530b&user=MCMC+Addict&userId=ebd8c9c184e3&source=---header_actions--b361a0ec530b---------------------repost_header---------------------",
+      "label": ""
+    },
+    {
+      "url": "https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2Fb361a0ec530b&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40snp.kriss%2Fstatistical-test-methods-to-detect-trends-in-time-series-data-b361a0ec530b&source=---header_actions--b361a0ec530b---------------------bookmark_footer---------------------",
+      "label": ""
+    },
+    {
+      "url": "https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2Fplans%3Fdimension%3Dpost_audio_button%26postId%3Db361a0ec530b&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40snp.kriss%2Fstatistical-test-methods-to-detect-trends-in-time-series-data-b361a0ec530b&source=---header_actions--b361a0ec530b---------------------post_audio_button---------------------",
+      "label": "Listen"
+    },
+    {
+      "url": "https://unsplash.com/@marekpiwnicki?utm_source=medium&utm_medium=referral",
+      "label": "Marek Piwnicki"
+    },
+    {
+      "url": "https://unsplash.com?utm_source=medium&utm_medium=referral",
+      "label": "Unsplash"
+    },
+    {
+      "url": "https://pypi.org/project/pymannkendall/",
+      "label": "https://pypi.org/project/pymannkendall/"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Kendall_rank_correlation_coefficient",
+      "label": "https://en.wikipedia.org/wiki/Kendall_rank_correlation_coefficient"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Unit_root",
+      "label": "https://en.wikipedia.org/wiki/Unit_root"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Dickey%E2%80%93Fuller_test",
+      "label": "https://en.wikipedia.org/wiki/Dickey%E2%80%93Fuller_test"
+    },
+    {
+      "url": "https://medium.com/tag/trend-detection?source=post_page---footer_tags--b361a0ec530b------------------------------------------",
+      "label": "Trend Detection"
+    },
+    {
+      "url": "https://medium.com/tag/mann-kendall?source=post_page---footer_tags--b361a0ec530b------------------------------------------",
+      "label": "Mann Kendall"
+    },
+    {
+      "url": "https://medium.com/tag/dickey-fuller-test?source=post_page---footer_tags--b361a0ec530b------------------------------------------",
+      "label": "Dickey Fuller Test"
+    },
+    {
+      "url": "https://medium.com/tag/unit-root-test?source=post_page---footer_tags--b361a0ec530b------------------------------------------",
+      "label": "Unit Root Test"
+    },
+    {
+      "url": "https://medium.com/tag/time-series-data?source=post_page---footer_tags--b361a0ec530b------------------------------------------",
+      "label": "Time Series Data"
+    },
+    {
+      "url": "https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2Fb361a0ec530b&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40snp.kriss%2Fstatistical-test-methods-to-detect-trends-in-time-series-data-b361a0ec530b&user=MCMC+Addict&userId=ebd8c9c184e3&source=---footer_actions--b361a0ec530b---------------------clap_footer---------------------",
+      "label": ""
+    },
+    {
+      "url": "https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2Fb361a0ec530b&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40snp.kriss%2Fstatistical-test-methods-to-detect-trends-in-time-series-data-b361a0ec530b&user=MCMC+Addict&userId=ebd8c9c184e3&source=---footer_actions--b361a0ec530b---------------------clap_footer---------------------",
+      "label": ""
+    },
+    {
+      "url": "https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Frepost%2Fp%2Fb361a0ec530b&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40snp.kriss%2Fstatistical-test-methods-to-detect-trends-in-time-series-data-b361a0ec530b&user=MCMC+Addict&userId=ebd8c9c184e3&source=---footer_actions--b361a0ec530b---------------------repost_footer---------------------",
+      "label": ""
+    },
+    {
+      "url": "https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2Fb361a0ec530b&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40snp.kriss%2Fstatistical-test-methods-to-detect-trends-in-time-series-data-b361a0ec530b&source=---footer_actions--b361a0ec530b---------------------bookmark_footer---------------------",
+      "label": ""
+    },
+    {
+      "url": "https://medium.com/@snp.kriss?source=post_page---post_author_info--b361a0ec530b------------------------------------------",
+      "label": ""
+    },
+    {
+      "url": "https://medium.com/@snp.kriss?source=post_page---post_author_info--b361a0ec530b------------------------------------------",
+      "label": ""
+    },
+    {
+      "url": "https://medium.com/@snp.kriss?source=post_page---post_author_info--b361a0ec530b------------------------------------------",
+      "label": "Written by MCMC Addict"
+    },
+    {
+      "url": "https://medium.com/@snp.kriss/followers?source=post_page---post_author_info--b361a0ec530b------------------------------------------",
+      "label": "90 followers"
+    },
+    {
+      "url": "https://medium.com/@snp.kriss/following?source=post_page---post_author_info--b361a0ec530b------------------------------------------",
+      "label": "113 following"
+    },
+    {
+      "url": "https://www.researchgate.net/profile/Seung-Nam-Park",
+      "label": "https://www.researchgate.net/profile/Seung-Nam-Park"
+    },
+    {
+      "url": "https://help.medium.com/hc/en-us?source=post_page-----b361a0ec530b------------------------------------------",
+      "label": "Help"
+    },
+    {
+      "url": "https://status.medium.com/?source=post_page-----b361a0ec530b------------------------------------------",
+      "label": "Status"
+    },
+    {
+      "url": "https://medium.com/about?autoplay=1&source=post_page-----b361a0ec530b------------------------------------------",
+      "label": "About"
+    },
+    {
+      "url": "https://medium.com/jobs-at-medium/work-at-medium-959d1a85284e?source=post_page-----b361a0ec530b------------------------------------------",
+      "label": "Careers"
+    },
+    {
+      "url": "mailto:pressinquiries@medium.com",
+      "label": "Press"
+    },
+    {
+      "url": "https://blog.medium.com/?source=post_page-----b361a0ec530b------------------------------------------",
+      "label": "Blog"
+    },
+    {
+      "url": "https://medium.com/store",
+      "label": "Store"
+    },
+    {
+      "url": "https://policy.medium.com/medium-privacy-policy-f03bf92035c9?source=post_page-----b361a0ec530b------------------------------------------",
+      "label": "Privacy"
+    },
+    {
+      "url": "https://policy.medium.com/medium-rules-30e5502c4eb4?source=post_page-----b361a0ec530b------------------------------------------",
+      "label": "Rules"
+    },
+    {
+      "url": "https://policy.medium.com/medium-terms-of-service-9db0094a1e0f?source=post_page-----b361a0ec530b------------------------------------------",
+      "label": "Terms"
+    },
+    {
+      "url": "https://speechify.com/medium?source=post_page-----b361a0ec530b------------------------------------------",
+      "label": "Text to speech"
+    }
+  ],
+  "elapsed_seconds": 0.344
+}

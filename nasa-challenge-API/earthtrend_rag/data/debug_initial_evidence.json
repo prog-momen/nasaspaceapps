@@ -1,0 +1,44 @@
+{
+  "date": "2026-11-14",
+  "origin": "Observed command outputs from this debug session; no secrets included",
+  "initial_model": "gemini-3.8-flash",
+  "initial_fallback_models": [],
+  "initial_offline_tests": {"passed":147,"deselected_integration":40},
+  "raw_edge_reproductions_before_fix": {
+    "mann_kendall_1_nan_3_S":"NaN",
+    "duplicate_2024_01_values_1_9_screened_value":9.0,
+    "reversed_time_sen_slope":"NaN"
+  },
+  "gemini_text": {
+    "status":"FAIL","http_code":429,"kind":"quota","elapsed_s":0.797,
+    "attempts":1,"request_id":null
+  },
+  "gemini_model_metadata": {
+    "status":"PASS","elapsed_s":0.271,"name":"models/gemini-3.8-flash",
+    "supported_actions":["generateContent","countTokens","createCachedContent","batchGenerateContent"]
+  },
+  "gemini_fixed_function_request": {
+    "status":"FAIL","http_code":429,"status_name":"RESOURCE_EXHAUSTED","elapsed_s":0.39,
+    "violations":[{
+      "quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests",
+      "quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier",
+      "quotaDimensions":{"model":"gemini-3.8-flash","location":"global"},"quotaValue":"20"
+    }],
+    "retryDelay":"45381s","request_id":null,
+    "local_function_execution":"BLOCKED","response_roundtrip":"BLOCKED"
+  },
+  "initial_power_same_small_request": {
+    "location":{"lat":32.22,"lon":35.26},"period":"2024-01 through 2024-12",
+    "direct":{"http_status":200,"content_type":"application/json","elapsed_s":0.811,"raw_records":13,"monthly_records":12,"missing":0,"units":"C"},
+    "project_client":{"status":"PASS","monthly_records":12,"elapsed_s":0.353},
+    "wrapped_tool":{"status":"insufficient_data","reason_code":"TOO_FEW_YEARS","valid_months":12},
+    "first_divergence":"none; tool correctly refuses a trend verdict on one year"
+  },
+  "concurrent_workspace_changes": {
+    "observed":true,"preserved":true,
+    "later_primary_model":"gemini-3.5-flash-lite",
+    "later_fallback_models":["gemini-3.1-flash-lite","gemini-3.8-flash"],
+    "later_live_rag_document_query":{"status":"PASS","answer_source":"gemini","sources":5,"elapsed_s":1.709},
+    "later_rag_trend":{"status":"ok","answer_source":"template","fallback_reason":"budget","valid_months":252,"data_origin":"existing cache"}
+  }
+}

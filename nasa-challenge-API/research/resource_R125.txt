@@ -1,0 +1,165 @@
+NASA SVS | Air Quality Model Runs
+Scientific Visualization Studio
+Galleries
+Help
+Search
+5518: Science On A Sphere: Air Quality Model Runs
+31344: Herbig-Haro 49/50 Stellar Jets
+Air Quality Model Runs
+Released
+Monday, May 5, 2025
+ID: 5533
+Visualizations by:
+Helen-Nicole Kostis
+and
+Joseph V. Ardizzone
+Scientific consulting by:
+Lesley Ott
+View full credits
+No description available.
+Download
+Movies
+AirQuality_SphereWithLabels_5760x3240.mp4 (5760x3240) [285.8 MB]
+Frame sets
+AirQuality_SphereWithLabels (5760x3240) [1801 Item(s)]
+Images
+AirQuality_Sphere_5760x3240_0000.png (5760x3240) [6.8 MB]
+AirQuality_Sphere_1920x1080_0000.png (1920x1080) [1.1 MB]
+Visualization showcasing the transport of Carbon Monoxide (CO), Particulate Matter (PM 2.5), Ozone (O
+3
+) and Nitrous Oxides (NO
+x
+) during July-August 2024, which was an active fire season in Northern America. This visualization is rendered on a rotating Earth and is provided in 5760x3240 pixels (16:9 aspect ratio).
+NASA utilizes satellite instruments and models to monitor sources of air pollutants and their movement through the atmosphere. This visualization shows concentrations of air pollutants, such as Particulate Matter (PM2.5, fine particles smaller than 2.5 micrometers), Ozone (O
+3
+), Carbon Monoxide (CO), and Nitrogen Oxides (NO
+x
+) as they are tracked from NASA's Goddard Earth Observing System Composition Forecasting (GEOS-CF) system. This data is used around the world to develop new methods for improving local air quality predictions, to understand the impact of pollution on human health, and to improve the quality of NASA satellite datasets.
+Predictions of air pollution are created using complex models that combine information about weather and the emissions, transformation, and transport of chemical species and particles. The Goddard Earth Observing System Composition Forecasting (GEOS-CF) system is a research model maintained by NASA’s Global Modeling and Assimilation Office to help scientists understand the causes and impact of air pollution. It is one of the highest resolution and most detailed models of its kind in the world, made possible through ongoing collaborations between NASA and university scientists. GEOS-CF tracks the concentrations of hundreds of gas phase chemical species and dozens of types of particles characterized by their composition and size. It is used by a wide variety of stakeholders around the world to develop new methods for improving local predictions, understanding the impact of pollution on human health, and improving the quality of NASA satellite datasets. Images for this visualization were created by NASA’s Global Modeling and Assimilation Office (GMAO) and produced by NASA's Scientific Visualization Studio (SVS).
+This page offers content in 16:9 and 32:9 aspect ratios.
+No description available.
+Download
+Movies
+AirQuality_MapWithLabels_5760x3240.mp4 (5760x3240) [286.2 MB]
+Frame sets
+AirQuality_MapWithLabels (5760x3240) [1800 Item(s)]
+Images
+AirQuality_WithLabels_1920x1080_0000.png (1920x1080) [2.2 MB]
+AirQuality_WithLabels_5760x3240_0000.png (5760x3240) [9.4 MB]
+Visualization showcasing the transport of Carbon Monoxide (CO), Particulate Matter (PM 2.5), Ozone (O
+3
+) and Nitrous Oxides (NO
+x
+) during July-August 2024, which was an active fire season in Northern America. This visualization is provided in 5760x3240 pixels (16:9 aspect ratio).
+No description available.
+Download
+Movies
+AirQuality_Sphere_5760x3240_long.mp4 (5760x3240) [361.2 MB]
+Frame sets
+AirQuality_SphereWithLabels_long (5760x3240) [3031 Item(s)]
+Images
+AirQuality_SphereLong_5760x3240_3030.png (5760x3240) [5.9 MB]
+AirQuality_SphereLong_1920x1080_3030.png (1920x1080) [908.4 KB]
+Visualization showcasing the transport of Carbon Monoxide (CO), Particulate Matter (PM 2.5), Ozone (O
+3
+) and Nitrous Oxides (NO
+x
+) during July-August 2024, which was an active fire season in Northern America. This longer version (1min 41secs) is rendered on a rotating Earth and is provided in 5760x3240 pixels (16:9 aspect ratio).
+No description available.
+Download
+Movies
+EIC_AirQuality_Preview_3840x1080.mp4 (3840x1080) [178.8 MB]
+EIC_AirQuality_NMNH_7680x2160.mp4 (7680x2160) [536.7 MB]
+Frame sets
+7680x2160_32x9_30p (7680x2160) [4502 Item(s)]
+Images
+AirQualityWithLabels_3840x1080_30fps_0000.png (3840x1080) [2.7 MB]
+AirQualityWithLabels_7680x2160_30fps_0000.png (7680x2160) [7.7 MB]
+Earth Information Center Version for the Hyperwall (32:9 Aspect ratio, 7680x2160 pixels resolution)
+Visualization showcasing the transport of Carbon Monoxide (CO), Particulate Matter (PM 2.5), Ozone (O
+3
+) and Nitrous Oxides (NO
+x
+) during July-August 2024, which was an active fire season in Northern America.
+For More Information
+See
+https://gmao.gsfc.nasa.gov/gmao-products/geos-cf/
+Earth
+air quality
+Atmospheric Composition
+Earth Information Center
+GEOS
+GMAO
+Hyperwall
+Credits
+NASA's Scientific Visualization Studio and NASA's Global Modeling and Assimilation Office
+Data visualizers
+Helen-Nicole Kostis
+(USRA)
+Joseph V. Ardizzone
+(NASA/GSFC)
+Scientist
+Lesley Ott
+(NASA/GSFC)
+Technical support
+Laurence Schuler
+(ADNET Systems, Inc.)
+Ian Jones
+(ADNET Systems, Inc.)
+Ella Kaplan
+(Global Science and Technology, Inc.)
+Related papers
+Description of the NASA GEOS composition forecast modeling system GEOS-CF v1.0
+Keller, C. A., Knowland, K. E., Duncan, B. N., Liu, J., Anderson, D. C., Das, S., Lucchesi, R. A., Lundgren, E. W., Nicely, J. M., Nielsen, E., Ott, L. E., Saunders, E., Strode, S. A., Wales, P. A., Jacob. D. J., and Pawson, S. (2021). Description of the NASA GEOS composition forecast modeling system GEOS-CF v1.0. Journal of Advances in Modeling Earth Systems, 13, e2020MS002413. 10.1029/2020MS002413.
+DOI: 10.1029/2020MS002413
+This paper can be found at:
+https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2020MS002413
+NASA GEOS Composition Forecast Modeling System GEOS-CF v1.0: Stratospheric composition
+Knowland, K. E., C. A. Keller, P. A. Wales, K. Wargan, L. Coy, M. S. Johnson, J. Liu, R. A. Lucchesi, S. D. Eastham, E. Fleming, Q. Liang, T. Leblanc, N. J. Livesey, K. A. Walker, L. E. Ott, and S. Pawson. (2022). NASA GEOS Composition Forecast Modeling System GEOS-CF v1.0: Stratospheric composition. Journal of Advances in Modeling Earth Systems, 14, e2021MS002852. 10.1029/2021MS002852
+DOI: 10.1029/2021MS002852
+This paper can be found at:
+https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2021MS002852
+Datasets used
+GEOS-CF
+ID: 1197
+Collected by: NASA GMAO
+Dates used: July 1-September 14, 2024
+Knowland, K.E., C.A. Keller, and R. Lucchesi, 2022: File Specification for GEOS-CF Products. GMAO Office Note No. 17 (Version 1.3), 54 pp, available from
+https://gmao.gsfc.nasa.gov/pubs/docs/Knowland1446.pdf
+This dataset can be found at:
+https://portal.nccs.nasa.gov/datashare/gmao/geos-cf/v2/
+See all pages that use this dataset
+Note: While we identify the data sets used on this page, we do not store any further details, nor the data sets themselves on our site.
+Citing this page
+DOI:
+10.5281/zenodo.16782803
+Related
+ID: 5669
+Visualization
+GEOS Aerosols (2025)
+ID: 5151
+Visualization
+Particulate Matter (PM) 2.5
+ID: 5152
+Visualization
+Near surface Ozone (O3)
+ID: 5153
+Visualization
+Carbon Monoxide (CO)
+ID: 5154
+Visualization
+Nitrogen Oxides (NOx)
+Alternate Versions
+ID: 5518
+Visualization
+Science On A Sphere: Air Quality Model Runs
+Release date
+This page was originally published on Monday, May 5, 2025.
+This page was last updated on Wednesday, January 28, 2026 at 5:21 PM EST.
+You may also like...
+No results.
+An error occurred. Please reload this page and try again.
+Privacy Policy and Important Notices
+Reproduction Guidelines
+NASA Official:
+Site Curator:

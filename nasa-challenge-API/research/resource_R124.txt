@@ -1,0 +1,131 @@
+NASA SVS | GEOS Aerosols (2025)
+Scientific Visualization Studio
+Galleries
+Help
+Search
+5661: NISAR Reveals Major Flooding In Mozambique
+5670: High-Resolution True Color Earth Imagery Sim...
+GEOS Aerosols (2025)
+Released
+Monday, August 10, 2026
+ID: 5669
+Visualizations by:
+Joseph V. Ardizzone
+and
+Helen-Nicole Kostis
+Scientific consulting by:
+Lesley Ott
+View full credits
+Download
+Images
+Aerosols_2025-08-19T20_00_00_1920x1080.png (1920x1080) [2.6 MB]
+Aerosols_2025-08-19T20_00_00_3840x2160.png (3840x2160) [8.8 MB]
+Aerosols_2025-08-19T20_00_00_5760x3240.png (5760x3240) [16.9 MB]
+Aerosols_2025-08-19T20_00_00_7680x4320.png (7680x4320) [23.5 MB]
+Visualization still image showing aerosols as modeled by NASA's Goddard Earth Observing System (GEOS) on August 19, 2025 (20:00 UTC).
+Aerosols are tiny solid or liquid particles suspended in the atmosphere that can travel vast distances, affecting air quality and visibility far from their original sources. This visualization is based on the GEOS model, which provides realistic, high-resolution weather and aerosol data that enables customized environmental prediction and advances in AI research.
+NASA uses satellites, ground measurements, and powerful computer models to track tiny particles floating in our air called aerosols. These small solid or liquid particles can travel thousands of miles, affecting the air we breathe and how far we can see, even far from where they originated.
+This visualization still, shows how these particles travel through Earth's atmosphere on August 19, 2025 (20:00 UTC) . Different colors represent different types of aerosols: sea salt (blue), dust (pink/magenta), smoke from fires (orange/red), and sulfates from pollution and volcanoes (green).
+This visualization still image highlights several atmopsheric phenomena:
+Hurricane Erin
+: As the first Atlantic hurricane of the 2025 season, Erin is visible in the Atlantic Ocean pulling in dust from Africa. The storm's powerful winds churn up ocean water, creating sea salt particles visible as blue spirals. Although it steered clear of making a direct landfall, the hurricane delivered heavy rain and tropical storm conditions to coastal areas of Puerto Rico, the Turks and Caicos Islands, the Bahamas, and the U.S. Atlantic coast.
+Saharan Dust Journey
+: Desert dust from the Sahara travels all the way across the Atlantic Ocean, creating hazy skies in the Caribbean and affecting air quality as it reaches the United States.
+Volcanic Plumes
+: Hawaii's Kilauea Volcano released a narrow stream of sulfate particles moving westward, while Italy's Mount Etna created similar streams over southern Europe.
+Wildfire Smoke:
+In southern Africa, seasonal agricultural burning created smoke that drifted over the Atlantic Ocean
+Wildfires raged across multiple regions in Spain
+The swirling blue patterns over oceans show sea salt kicked up by strong winds.
+This visualization still image highlights how our atmosphere connects distant parts of the world. What happens in one region—whether natural events or human activities—can affect weather patterns and air quality thousands of miles away. By tracking these movements, NASA helps communities prepare for changes in air quality and visibility while advancing our understanding of Earth's complex atmospheric system.
+The visualization was developed using NASA’s Goddard Earth Observing System (GEOS), a complex modeling and data assimilation system that creates global analyses of the Earth System. GEOS integrates satellite observations, in situ measurements, and approximately one million weather observations collected hourly to inform its models. Through the GEOS Forward Processing (FP) product, the system generates both analyses and forecasts in near real-time. Images for this visualization were created by NASA’s Global Modeling and Assimilation Office (GMAO).
+Print-Quality Version (14:11 Aspect Ratio)
+Download
+Images
+Aerosols_2025-08-19T20_00_00_1500x1179_72dpi.png (1500x1179) [2.2 MB]
+Aerosols_2025-08-19T20_00_00_4200x3300_300dpi.png (4200x3300) [12.9 MB]
+Visualization still image (14:11 aspect ratio) showing aerosols as modeled by NASA's Goddard Earth Observing System (GEOS) on August 19, 2025 (20:00 UTC).
+Aerosols are tiny solid or liquid particles suspended in the atmosphere that can travel vast distances, affecting air quality and visibility far from their original sources. This visualization is based on the GEOS model, which provides realistic, high-resolution weather and aerosol data that enables customized environmental prediction and advances in AI research.
+Note: A print-quality version (300 dpi) is available in this content block under "Download"
+Download
+Images
+Aerosols_cbar.png (1500x300) [37.8 KB]
+Colorbar for the aerosols visualization.
+Earth
+Aerosol Optical Depth/Thickness
+GEOS
+Models
+Credits
+NASA's Global Modeling Assimilation Office (GMAO) and NASA's Scientific Visualization Studio (SVS)
+Data visualizers
+Joseph V. Ardizzone
+(NASA/GSFC)
+Helen-Nicole Kostis
+(Science and Technology Corporation)
+Scientist
+Lesley Ott
+(NASA/GSFC)
+Datasets used
+GEOS-FP 2Km Replay (GEOS Forward Processing 2Km Replay)
+ID: 1258
+Type: Model
+Dates used: August 19, 2025
+See all pages that use this dataset
+Note: While we identify the data sets used on this page, we do not store any further details, nor the data sets themselves on our site.
+Citing this page
+DOI:
+10.5281/zenodo.21893141
+Related
+ID: 14899
+Produced Video
+Inside the Visualization: Aerosols
+ID: 5572
+Visualization
+GEOS Aerosols
+ID: 5552
+Visualization
+Science On A Sphere: Aerosols in the Air
+ID: 5533
+Visualization
+Air Quality Model Runs
+ID: 5518
+Visualization
+Science On A Sphere: Air Quality Model Runs
+ID: 5147
+Visualization
+GEOS-FP Near-Surface Temperature
+ID: 5148
+Visualization
+GEOS-FP Near-Surface Wind Speed
+ID: 5149
+Visualization
+GEOS-FP Precipitation and Clouds
+ID: 5150
+Visualization
+GEOS-FP Near-Surface Humidity
+ID: 5151
+Visualization
+Particulate Matter (PM) 2.5
+ID: 5152
+Visualization
+Near surface Ozone (O3)
+ID: 5153
+Visualization
+Carbon Monoxide (CO)
+ID: 5154
+Visualization
+Nitrogen Oxides (NOx)
+Alternate Versions
+ID: 5552
+Visualization
+Science On A Sphere: Aerosols in the Air
+Release date
+This page was originally published on Monday, August 10, 2026.
+This page was last updated on Monday, August 10, 2026 at 5:08 PM EDT.
+You may also like...
+No results.
+An error occurred. Please reload this page and try again.
+Privacy Policy and Important Notices
+Reproduction Guidelines
+NASA Official:
+Site Curator:

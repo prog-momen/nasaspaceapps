@@ -1,0 +1,158 @@
+{
+  "id": "resource_R121",
+  "url": "https://svs.gsfc.nasa.gov/13786/",
+  "checked_at": "2026-11-14T15:15:29.012648+00:00",
+  "tls_validation": false,
+  "status": 200,
+  "final_url": "https://svs.gsfc.nasa.gov/13786/",
+  "bytes": 32431,
+  "content_type": "text/html; charset=utf-8",
+  "sha256": "ffd261ec6a24000061a8443019bfbf62d0a57d4d3bafa0a5caabb9547f9bbf0a",
+  "links": [
+    {
+      "url": "https://www.nasa.gov/",
+      "label": ""
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/",
+      "label": "Scientific Visualization Studio"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/gallery/the-galleries/",
+      "label": "Galleries"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/help/",
+      "label": "Help"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/4880",
+      "label": "4880: COVID-19 Earth Observing Fleet"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/13782",
+      "label": "13782: Hubble's 30th Anniversary Celebration"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/15113",
+      "label": ""
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/api/13786",
+      "label": ""
+    },
+    {
+      "url": "https://twitter.com/intent/tweet",
+      "label": ""
+    },
+    {
+      "url": "https://www.facebook.com/share.php?u=http%3A//svs.gsfc.nasa.gov/13786/%3F",
+      "label": ""
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/13786/#section_credits",
+      "label": "View full credits"
+    },
+    {
+      "url": "https://nasa.gov/hubble",
+      "label": "https://nasa.gov/hubble"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a010000/a013700/a013786/Caldwell73_2K_Final.mp4",
+      "label": "Caldwell73_2K_Final.mp4 (1920x1920) [73.9 MB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a010000/a013700/a013786/Caldwell73_2K_Final.webm",
+      "label": "Caldwell73_2K_Final.webm (1920x1920) [5.6 MB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a010000/a013700/a013786/CALDWELL73.en_US.SRT",
+      "label": "CALDWELL73.en_US.SRT [49 bytes]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a010000/a013700/a013786/print.jpg",
+      "label": "print.jpg (1920x1080) [850.7 KB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a010000/a013700/a013786/wide.jpg",
+      "label": "wide.jpg (1920x1080) [850.7 KB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a010000/a013700/a013786/SW.jpg",
+      "label": "SW.jpg (320x180) [47.1 KB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/search?nasa_science_categories=Universe",
+      "label": "Universe"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/search?keywords=HST",
+      "label": "HST"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/search?keywords=Hubble Space Telescope",
+      "label": "Hubble Space Telescope"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/search?keywords=Sonification",
+      "label": "Sonification"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/search/?people=Aaron%20E.%20Lepsch",
+      "label": "Aaron E. Lepsch"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/search/?missions=Hubble",
+      "label": "Hubble"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/13999/",
+      "label": ""
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/13999/",
+      "label": "Sonification of the Bubble Nebula"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/13998/",
+      "label": ""
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/13998/",
+      "label": "Sonification of the Butterfly Nebula"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/13997/",
+      "label": ""
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/13997/",
+      "label": "Sonification of NGC 2392"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/13893/",
+      "label": ""
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/13893/",
+      "label": "Sonification of Hubble Ultra Deep Field (2014)"
+    },
+    {
+      "url": "https://www.nasa.gov/",
+      "label": ""
+    },
+    {
+      "url": "https://www.usa.gov/",
+      "label": ""
+    },
+    {
+      "url": "https://www.nasa.gov/about/highlights/HP_Privacy.html",
+      "label": "Privacy Policy and Important Notices"
+    },
+    {
+      "url": "https://www.nasa.gov/multimedia/guidelines/index.html",
+      "label": "Reproduction Guidelines"
+    }
+  ],
+  "elapsed_seconds": 0.937
+}

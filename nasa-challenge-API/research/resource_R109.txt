@@ -1,0 +1,331 @@
+GitHub - asc-csa/NEOSSAT_Tutorial: 🛰 Ce tutoriel aide les utilisateurs à mieux comprendre, extraire et visualiser les données du télescope NEOSSAT. | 🛰 This tutorial helps users better understand, extract and visualize NEOSSAT telescope data. · GitHub
+Skip to content
+Navigation Menu
+Sign in
+Products
+Platform
+GitHub
+Repository hosting, code review, and collaboration
+Copilot
+AI coding agent for tasks, projects, and automated work
+Build & Ship
+Actions
+CI/CD and automation
+Code Quality
+Quality analysis, fixes, and enforcement
+Codespaces
+Cloud development environments
+Secure
+Code Security
+Vulnerability detection and remediation
+Secret Protection
+Secret scanning and leak prevention
+All Features
+Developers
+Learn
+Documentation
+Training
+Certifications
+Build
+Build with Copilot
+Customize Copilot
+Integrations
+Explore
+Trending repos
+GitHub Sponsors
+Developer articles
+Changelog
+Changelog
+Your source for the latest features, improvements, and fixes across GitHub products, all in one place.
+Businesses
+By Stage
+Enterprises
+Team
+Startups
+Nonprofits
+By Industry
+Healthcare
+Financial services
+Manufacturing
+Government
+See all industries
+Evaluate GitHub
+Why GitHub
+Customer Stories
+Business insights
+Trust Center
+Add-ons
+GitHub Advanced Security
+Enterprise-grade code security
+Copilot for business
+Enterprise-grade AI features
+Premium Support
+Enterprise-grade 24/7 support
+Resources
+Learn & Connect
+Documentation
+Resource center
+Blog
+Events & webinars
+Community Forum
+Customer Stories
+Integrations
+Support
+Customer support
+Training
+GitHub Status
+Company
+About
+Partners
+Changelog
+GitHub Universe
+GitHub Universe
+The event for developers, by developers — talks, workshops, and what’s next for GitHub.
+Pricing
+Search
+/
+Sign in
+Sign up
+Appearance settings
+You signed in with another tab or window.
+Reload
+to refresh your session.
+You signed out in another tab or window.
+Reload
+to refresh your session.
+You switched accounts on another tab or window.
+Reload
+to refresh your session.
+Dismiss alert
+{{ message }}
+asc-csa
+NEOSSAT_Tutorial
+Repository navigation
+Code
+Issues
+Pull requests
+Actions
+Projects
+Security and quality
+Insights
+More
+items
+NEOSSAT_Tutorial
+Public
+Notifications
+You must be signed in to change notification settings
+Fork
+2
+(
+2
+)
+Star
+4
+(
+4
+)
+You must be signed in to star a repository
+About
+🛰 Ce tutoriel aide les utilisateurs à mieux comprendre, extraire et visualiser les données du télescope NEOSSAT. | 🛰 This tutorial helps users better understand, extract and visualize NEOSSAT telescope data.
+Topics
+dataextraction
+neossat
+python
+tutorial
+Resources
+Readme
+License
+Activity
+Custom properties
+Stars
+4
+stars
+Watchers
+2
+watching
+Forks
+2
+forks
+Report repository
+main
+Branches
+Tags
+Go to file
+Code
+Open more actions menu
+Latest commit
+History
+19 Commits
+19 Commits
+Folders and files
+Name
+Name
+Last commit message
+Last commit date
+code
+code
+LICENSE.txt
+LICENSE.txt
+README.md
+README.md
+neossat.jpg
+neossat.jpg
+View all files
+Repository files navigation
+README
+License
+More
+items
+Crédit d'image | Image credit:
+ASC-CSA
+Français
+|
+English (follows)
+Extraction de données NEOSSAT - Un tutoriel
+Description brève :
+Ce tutoriel se concentre sur le téléchargement des données NEOSSAT à partir du site Web de l’Agence spatiale canadienne et du Centre canadien de données astronomiques. Les utilisateurs peuvent filtrer les données et visualiser les fichiers .fits de leur choix pour le contexte du défi des applications spatiales.
+À propos
+Extraction de données NEOSSAT - Un tutoriel
+est un tutoriel qui se concentre sur le téléchargement et l'analyse des données NEOSSAT. Il couvre :
+Téléchargement de données NEOSSAT depuis les archives de l'ASC et du CCDA
+Filtrage et sélection de données astronomiques selon des critères spécifiques
+Visualisation et analyse de fichiers FITS astronomiques
+Prétraitement des données pour l'analyse d'objets proches de la Terre (NEO)
+Un second tutoriel est offert pour démontrer les différentes étapes du prétraitement des données de NEOSSat ainsi que pour effectuer une première analyse des objets proches de la Terre.
+Ce tutoriel est fourni à des fins pédagogiques et expérimentales.
+Prérequis
+Python 3.9 ou plus récent
+Jupyter Notebook ou Jupyter Lab
+Bibliothèques Python : astropy, numpy, matplotlib, pandas
+Connexion Internet (pour l'accès aux archives NEOSSAT)
+Espace de stockage pour les fichiers FITS
+Démarrage rapide
+📦
+Cloner le dépôt
+git clone https://github.com/asc-csa/NEOSSAT_Tutorial.git
+cd
+NEOSSAT_Tutorial
+🐍
+Créer un environnement
+#
+Avec virtualenv
+python -m venv env
+source
+env/bin/activate
+#
+Ou avec conda
+conda create -n neossat_env python=3.9
+conda activate neossat_env
+🚀
+Lancer le tutoriel
+jupyter notebook
+Remarque :
+Deux tutoriels sont disponibles - téléchargement/visualisation de données et prétraitement pour l'analyse NEO.
+Astuces & Conseils
+Archives NEOSSAT :
+Les données sont disponibles via l'ASC et le Centre canadien de données astronomiques
+Fichiers FITS :
+Utilisez astropy pour une manipulation efficace des données astronomiques
+Objets NEO :
+NEOSSAT surveille les objets proches de la Terre et les débris spatiaux
+Filtrage :
+Les critères de sélection peuvent être ajustés selon vos besoins d'analyse
+Licence
+Ce projet est sous une licence MIT modifiée – voir le fichier
+LICENSE
+pour plus de détails.
+English
+|
+Français (précède)
+Extracting NEOSSAT data - A Tutorial
+Brief description:
+This tutorial focuses on downloading the NEOSSAT data from the website of the Canadian Space Agency and Canadian Astronomy Data Center. The users can filter through the data and visualize the .fits files of their choice for the context of the Space Apps challenges.
+About
+Extracting NEOSSAT data - A Tutorial
+is a tutorial that focuses on downloading and analyzing NEOSSAT data. It covers:
+Downloading NEOSSAT data from CSA and CADC archives
+Filtering and selecting astronomical data based on specific criteria
+Visualizing and analyzing astronomical FITS files
+Pre-processing data for Near-Earth Object (NEO) analysis
+A second tutorial is available to demonstrate different steps in pre-processing of NEOSSat data as well as perform initial analysis on near-earth-objects.
+This tutorial is provided for educational and experimental purposes.
+Prerequisites
+Python 3.9 or newer
+Jupyter Notebook or Jupyter Lab
+Python libraries: astropy, numpy, matplotlib, pandas
+Internet connection (for NEOSSAT archive access)
+Storage space for FITS files
+Quick Start
+📦
+Clone the repo
+git clone https://github.com/asc-csa/NEOSSAT_Tutorial.git
+cd
+NEOSSAT_Tutorial
+🐍
+Create environment
+#
+Using virtualenv
+python -m venv env
+source
+env/bin/activate
+#
+Or using conda
+conda create -n neossat_env python=3.9
+conda activate neossat_env
+🚀
+Run the tutorial
+jupyter notebook
+Note:
+Two tutorials are available - data download/visualization and pre-processing for NEO analysis.
+Tips & Tricks
+NEOSSAT Archives:
+Data is available through CSA and Canadian Astronomy Data Centre
+FITS Files:
+Use astropy for efficient manipulation of astronomical data
+NEO Objects:
+NEOSSAT monitors Near-Earth Objects and space debris
+Filtering:
+Selection criteria can be adjusted based on your analysis needs
+License
+This project is licensed under a modified MIT license - see the
+LICENSE
+file for details.
+About
+🛰 Ce tutoriel aide les utilisateurs à mieux comprendre, extraire et visualiser les données du télescope NEOSSAT. | 🛰 This tutorial helps users better understand, extract and visualize NEOSSAT telescope data.
+Topics
+dataextraction
+neossat
+python
+tutorial
+Resources
+Readme
+License
+Activity
+Custom properties
+Stars
+4
+stars
+Watchers
+2
+watching
+Forks
+2
+forks
+Report repository
+Releases
+Packages
+Contributors
+Languages
+Footer
+© 2026 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Community
+Docs
+Contact
+Manage cookies
+Do not share my personal information
+You can’t perform that action at this time.

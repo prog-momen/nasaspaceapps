@@ -1,0 +1,434 @@
+{
+  "id": "doc_gldas",
+  "url": "https://ldas.gsfc.nasa.gov/gldas/model-output",
+  "checked_at": "2026-11-14T15:13:39.896165+00:00",
+  "tls_validation": false,
+  "status": 200,
+  "final_url": "https://ldas.gsfc.nasa.gov/gldas/model-output",
+  "bytes": 63945,
+  "content_type": "text/html; charset=utf-8",
+  "sha256": "2c3c353d366ab27c5b384053ffa5f609b974cbc07fe17baf3802de2df79da324",
+  "links": [
+    {
+      "url": "https://ldas.gsfc.nasa.gov/gldas/model-output#main-content",
+      "label": "Skip to main content"
+    },
+    {
+      "url": "https://nasa.gov",
+      "label": ""
+    },
+    {
+      "url": "https://ldas.gsfc.nasa.gov/",
+      "label": "LDAS"
+    },
+    {
+      "url": "https://ldas.gsfc.nasa.gov/index.php/gldas",
+      "label": "GLDAS"
+    },
+    {
+      "url": "https://ldas.gsfc.nasa.gov/index.php/gldas",
+      "label": "About"
+    },
+    {
+      "url": "https://ldas.gsfc.nasa.gov/index.php/news/gldas",
+      "label": "News"
+    },
+    {
+      "url": "https://ldas.gsfc.nasa.gov/index.php/gldas/specifications",
+      "label": "Specifications"
+    },
+    {
+      "url": "https://ldas.gsfc.nasa.gov/gldas/model-output",
+      "label": "Parameters"
+    },
+    {
+      "url": "https://ldas.gsfc.nasa.gov/index.php/gldas/elevation",
+      "label": "Elevation"
+    },
+    {
+      "url": "https://ldas.gsfc.nasa.gov/index.php/gldas/soils",
+      "label": "Soils"
+    },
+    {
+      "url": "https://ldas.gsfc.nasa.gov/index.php/gldas/vegetation-class-mask",
+      "label": "Vegetation Class/Mask"
+    },
+    {
+      "url": "https://ldas.gsfc.nasa.gov/index.php/gldas/vegetation-parameters",
+      "label": "Vegetation Parameters"
+    },
+    {
+      "url": "https://ldas.gsfc.nasa.gov/index.php/gldas/lai-greenness",
+      "label": "LAI/Greenness"
+    },
+    {
+      "url": "https://ldas.gsfc.nasa.gov/index.php/gldas/forcing-data",
+      "label": "Forcing Data"
+    },
+    {
+      "url": "https://ldas.gsfc.nasa.gov/index.php/gldas/model-output",
+      "label": "Model Output"
+    },
+    {
+      "url": "https://ldas.gsfc.nasa.gov/index.php/gldas/dataset",
+      "label": "Dataset"
+    },
+    {
+      "url": "https://ldas.gsfc.nasa.gov/index.php/gldas/publications",
+      "label": "Publications"
+    },
+    {
+      "url": "https://ldas.gsfc.nasa.gov/index.php/nldas-news",
+      "label": "NLDAS"
+    },
+    {
+      "url": "https://ldas.gsfc.nasa.gov/index.php/nldas",
+      "label": "About"
+    },
+    {
+      "url": "https://ldas.gsfc.nasa.gov/index.php/news/nldas",
+      "label": "News"
+    },
+    {
+      "url": "https://ldas.gsfc.nasa.gov/index.php/nldas/specifications",
+      "label": "Specifications"
+    },
+    {
+      "url": "https://ldas.gsfc.nasa.gov/index.php/nldas/nldas-vegetation-parameters",
+      "label": "Parameters"
+    },
+    {
+      "url": "https://ldas.gsfc.nasa.gov/index.php/nldas/elevation",
+      "label": "Elevation"
+    },
+    {
+      "url": "https://ldas.gsfc.nasa.gov/index.php/nldas/soils",
+      "label": "Soils"
+    },
+    {
+      "url": "https://ldas.gsfc.nasa.gov/index.php/nldas/vegetation-class",
+      "label": "Vegetation Class"
+    },
+    {
+      "url": "https://ldas.gsfc.nasa.gov/index.php/nldas/vegetation-parameters",
+      "label": "Vegetation Parameters"
+    },
+    {
+      "url": "https://ldas.gsfc.nasa.gov/index.php/nldas/lai-greenness",
+      "label": "LAI/Greenness"
+    },
+    {
+      "url": "https://ldas.gsfc.nasa.gov/nldas/v3",
+      "label": "NLDAS-3"
+    },
+    {
+      "url": "https://ldas.gsfc.nasa.gov/index.php/nldas/v2/forcing",
+      "label": "NLDAS-2 Forcing"
+    },
+    {
+      "url": "https://ldas.gsfc.nasa.gov/index.php/nldas/v2/models",
+      "label": "NLDAS-2 Models"
+    },
+    {
+      "url": "https://ldas.gsfc.nasa.gov/index.php/nldas/drought-monitor",
+      "label": "Drought Monitor"
+    },
+    {
+      "url": "https://ldas.gsfc.nasa.gov/index.php/nldas/v1/forcing",
+      "label": "NLDAS-1 Forcing"
+    },
+    {
+      "url": "https://ldas.gsfc.nasa.gov/index.php/nldas/v1/models",
+      "label": "NLDAS-1 Models"
+    },
+    {
+      "url": "https://ldas.gsfc.nasa.gov/index.php/nldas/presentations",
+      "label": "Presentations"
+    },
+    {
+      "url": "https://ldas.gsfc.nasa.gov/index.php/nldas/publications",
+      "label": "Publications"
+    },
+    {
+      "url": "https://ldas.gsfc.nasa.gov/index.php/NCA-LDAS",
+      "label": "NCA-LDAS"
+    },
+    {
+      "url": "https://ldas.gsfc.nasa.gov/index.php/nca-ldas",
+      "label": "About"
+    },
+    {
+      "url": "https://ldas.gsfc.nasa.gov/index.php/news/nca-ldas",
+      "label": "News"
+    },
+    {
+      "url": "https://ldas.gsfc.nasa.gov/index.php/nca-ldas/specifications",
+      "label": "Specifications"
+    },
+    {
+      "url": "https://ldas.gsfc.nasa.gov/index.php/news/nca-ldas",
+      "label": "Parameters"
+    },
+    {
+      "url": "https://ldas.gsfc.nasa.gov/index.php/nca-ldas/elevation",
+      "label": "Elevation"
+    },
+    {
+      "url": "https://ldas.gsfc.nasa.gov/index.php/nca-ldas/soils",
+      "label": "Soils"
+    },
+    {
+      "url": "https://ldas.gsfc.nasa.gov/index.php/nca-ldas/vegetation-class",
+      "label": "Vegetation Class"
+    },
+    {
+      "url": "https://ldas.gsfc.nasa.gov/index.php/nca-ldas/vegetation-parameters",
+      "label": "Vegetation Parameters"
+    },
+    {
+      "url": "https://ldas.gsfc.nasa.gov/index.php/nca-ldas/other-lsm-parameters",
+      "label": "Other LSM Parameters"
+    },
+    {
+      "url": "https://ldas.gsfc.nasa.gov/index.php/nca-ldas/forcing",
+      "label": "Forcing Data"
+    },
+    {
+      "url": "https://ldas.gsfc.nasa.gov/index.php/nca-ldas/assimilated-data",
+      "label": "Assimilated Data"
+    },
+    {
+      "url": "https://ldas.gsfc.nasa.gov/index.php/nca-ldas/model",
+      "label": "Model Output"
+    },
+    {
+      "url": "https://ldas.gsfc.nasa.gov/index.php/nca-ldas/presentations",
+      "label": "Presentations"
+    },
+    {
+      "url": "https://ldas.gsfc.nasa.gov/index.php/nca-ldas/publications",
+      "label": "Publications"
+    },
+    {
+      "url": "https://ldas.gsfc.nasa.gov/index.php/FLDAS",
+      "label": "FLDAS"
+    },
+    {
+      "url": "https://ldas.gsfc.nasa.gov/index.php/fldas",
+      "label": "About"
+    },
+    {
+      "url": "https://ldas.gsfc.nasa.gov/index.php/news/fldas",
+      "label": "News"
+    },
+    {
+      "url": "https://ldas.gsfc.nasa.gov/index.php/fldas/specifications",
+      "label": "Specifications"
+    },
+    {
+      "url": "https://ldas.gsfc.nasa.gov/index.php/",
+      "label": "Parameters"
+    },
+    {
+      "url": "https://ldas.gsfc.nasa.gov/index.php/fldas/elevation",
+      "label": "Elevation"
+    },
+    {
+      "url": "https://ldas.gsfc.nasa.gov/index.php/fldas/soils",
+      "label": "Soils"
+    },
+    {
+      "url": "https://ldas.gsfc.nasa.gov/index.php/fldas/vegetation-class",
+      "label": "Vegetation Class"
+    },
+    {
+      "url": "https://ldas.gsfc.nasa.gov/index.php/fldas/vegetation-parameters",
+      "label": "Vegetation Parameters"
+    },
+    {
+      "url": "https://ldas.gsfc.nasa.gov/index.php/fldas/vegetation-specification",
+      "label": "LAI/Greenness"
+    },
+    {
+      "url": "https://ldas.gsfc.nasa.gov/index.php/fldas/model-data-description",
+      "label": "Model Output"
+    },
+    {
+      "url": "https://ldas.gsfc.nasa.gov/index.php/fldas/models/global",
+      "label": "FLDAS Global"
+    },
+    {
+      "url": "https://ldas.gsfc.nasa.gov/index.php/fldas/models/central-asia",
+      "label": "FLDAS Central Asia"
+    },
+    {
+      "url": "https://ldas.gsfc.nasa.gov/index.php/fldas/models/forecast",
+      "label": "FLDAS Forecast"
+    },
+    {
+      "url": "https://ldas.gsfc.nasa.gov/index.php/fldas/model-data-description",
+      "label": "Data Descriptor"
+    },
+    {
+      "url": "https://ldas.gsfc.nasa.gov/index.php/fldas/presentations",
+      "label": "Presentations"
+    },
+    {
+      "url": "https://ldas.gsfc.nasa.gov/index.php/fldas/publications",
+      "label": "Publications"
+    },
+    {
+      "url": "https://ldas.gsfc.nasa.gov/wldas/wldas-project-goals",
+      "label": "WLDAS"
+    },
+    {
+      "url": "https://ldas.gsfc.nasa.gov/wldas/wldas-project-goals",
+      "label": "About"
+    },
+    {
+      "url": "https://ldas.gsfc.nasa.gov/wldas/model-output",
+      "label": "Model Output"
+    },
+    {
+      "url": "https://ldas.gsfc.nasa.gov/wldas/news",
+      "label": "News"
+    },
+    {
+      "url": "https://ldas.gsfc.nasa.gov/wldas/parameters",
+      "label": "Parameters"
+    },
+    {
+      "url": "https://ldas.gsfc.nasa.gov/wldas/publications",
+      "label": "Publications and Presentations"
+    },
+    {
+      "url": "https://ldas.gsfc.nasa.gov/wldas/specifications",
+      "label": "Specifications"
+    },
+    {
+      "url": "https://ldas.gsfc.nasa.gov/index.php/hydroglobe",
+      "label": "HydroGlobe"
+    },
+    {
+      "url": "https://ldas.gsfc.nasa.gov/index.php/hydroglobe",
+      "label": "About"
+    },
+    {
+      "url": "https://ldas.gsfc.nasa.gov/index.php/faq/all",
+      "label": "FAQ"
+    },
+    {
+      "url": "https://ldas.gsfc.nasa.gov/index.php/faq/ldas",
+      "label": "General"
+    },
+    {
+      "url": "https://ldas.gsfc.nasa.gov/index.php/faq/gldas",
+      "label": "GLDAS"
+    },
+    {
+      "url": "https://ldas.gsfc.nasa.gov/index.php/faq/nldas",
+      "label": "NLDAS"
+    },
+    {
+      "url": "https://ldas.gsfc.nasa.gov/index.php/faq/nca-ldas",
+      "label": "NCA-LDAS"
+    },
+    {
+      "url": "https://ldas.gsfc.nasa.gov/index.php/faq/fldas",
+      "label": "FLDAS"
+    },
+    {
+      "url": "https://ldas.gsfc.nasa.gov/index.php/data",
+      "label": "Get Data"
+    },
+    {
+      "url": "https://www.lmd.jussieu.fr/~polcher/ALMA/convention_output_3.html",
+      "label": "here"
+    },
+    {
+      "url": "https://hydro1.gesdisc.eosdis.nasa.gov/data/GLDAS/GLDAS_NOAH025_3H_EP.2.1/doc/README_GLDAS2.pdf",
+      "label": "GLDAS2 products"
+    },
+    {
+      "url": "https://disc.gsfc.nasa.gov/information/documents?title=GLDAS%20LSM%20Description",
+      "label": "GLDAS Land Surface Models"
+    },
+    {
+      "url": "https://ldas.gsfc.nasa.gov/data",
+      "label": "LDAS datasets are available from the NASA GES DISC"
+    },
+    {
+      "url": "https://disc.gsfc.nasa.gov/datasets?keywords=GLDAS",
+      "label": "GLDAS"
+    },
+    {
+      "url": "https://disc.gsfc.nasa.gov/datasets?keywords=NLDAS",
+      "label": "NLDAS"
+    },
+    {
+      "url": "https://disc.gsfc.nasa.gov/datasets?keywords=NCA-LDAS",
+      "label": "NCA-LDAS"
+    },
+    {
+      "url": "https://disc.gsfc.nasa.gov/datasets?keywords=FLDAS",
+      "label": "FLDAS"
+    },
+    {
+      "url": "https://disc.gsfc.nasa.gov/datasets?keywords=WLDAS",
+      "label": "WLDAS"
+    },
+    {
+      "url": "https://giovanni.gsfc.nasa.gov/giovanni/",
+      "label": "Giovanni"
+    },
+    {
+      "url": "https://ldas.gsfc.nasa.gov/index.php/nldas/news/nldas-2-data-re-processed-2022-08-01-2024-03-01",
+      "label": "NLDAS-2 data re-processed from 2022-08-01 to 2024-03-01"
+    },
+    {
+      "url": "https://ldas.gsfc.nasa.gov/index.php/nldas/news/nldas-2-grib-1-files-no-longer-updated-1-august-2024",
+      "label": "NLDAS-2 GRIB-1 files no longer updated as of 1 August 2024"
+    },
+    {
+      "url": "https://ldas.gsfc.nasa.gov/index.php/fldas/news/reprocessed-fldas-data",
+      "label": "Reprocessed FLDAS Data"
+    },
+    {
+      "url": "https://ldas.gsfc.nasa.gov/news",
+      "label": "View All News"
+    },
+    {
+      "url": "https://ldas.gsfc.nasa.gov/gldas/model-output#access-top",
+      "label": "Jump to Top"
+    },
+    {
+      "url": "mailto:matthew.rodell@nasa.gov?subject=",
+      "label": "Matt Rodell"
+    },
+    {
+      "url": "mailto:610webdev@mail.gsfc.nasa.gov?subject=",
+      "label": "Nate Perrin, Susannah Pearce"
+    },
+    {
+      "url": "mailto:rashida.a.holland@nasa.gov?subject=",
+      "label": "Rashida Holland"
+    },
+    {
+      "url": "https://ldas.gsfc.nasa.gov/contact-us",
+      "label": "Contact Us"
+    },
+    {
+      "url": "https://ldas.gsfc.nasa.gov/sitemap.xml",
+      "label": "Site Map"
+    },
+    {
+      "url": "http://www.nasa.gov/about/highlights/HP_Privacy.html",
+      "label": "Privacy"
+    },
+    {
+      "url": "https://www.nasa.gov/general/accessibility",
+      "label": "Accessibility"
+    }
+  ],
+  "elapsed_seconds": 3.406
+}

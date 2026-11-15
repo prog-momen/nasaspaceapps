@@ -1,0 +1,430 @@
+Medium
+Statistical test methods to detect trends in time series data | by MCMC Addict | Medium
+Sitemap
+Open in app
+Sign up
+Sign in
+Medium Logo
+Get app
+Write
+Search
+Sign up
+Sign in
+Introduction
+Generating toy datasets
+Ordinary Least Square Regression
+Mann-Kendall Trend Test
+Seasonal Kendall Test
+Unit Root Tests
+Closing Remarks
+References
+Trend Detection
+Mann Kendall
+Dickey Fuller Test
+Unit Root Test
+Time Series Data
+Statistical test methods to detect trends in time series data
+A comprehensive approach using toy datasets for global warming and methane concentration Increase
+MCMC Addict
+13 min read
+·
+Jul 19, 2024
+--
+Listen
+Share
+Press enter or click to view image in full size
+Photo by
+Marek Piwnicki
+on
+Unsplash
+Introduction
+Detecting and analysing trends in time series data is a crucial aspect of environmental science, particularly regarding global warming and its associated impacts. One significant consequence of rising global temperatures is increased atmospheric methane concentrations, a potent greenhouse gas. While carbon dioxide (CO₂) is the primary driver of global warming due to its higher concentration and longer atmospheric lifetime, methane (CH₄) plays a critical role that cannot be overlooked.
+Methane is over 25 times more effective than CO₂ at trapping atmospheric heat over 100 years. Despite its lower concentration than CO₂, its high global warming potential makes it a key target for climate change mitigation efforts. Additionally, methane has a relatively short atmospheric lifetime of about 12 years, meaning reducing methane emissions can have a quicker impact on climate change mitigation than CO₂.
+Understanding trends in methane concentrations is essential for developing effective strategies to cure global warming. These trends can provide insights into the effectiveness of emission control policies, the contribution of different methane sources, and the potential feedback loops in the climate system. Given its significant impact and the need for timely action, it is imperative to detect and analyse methane concentration trends accurately.
+In this article, we will explore various statistical tests to detect trends in time series data, using the example of global methane concentration increases due to global warming. We will start with the straightforward linear regression approach and move on to more sophisticated methods, including the Mann-Kendall, seasonal Mann-Kendall and unit root tests. Each technique will be illustrated with Python code examples, providing a practical framework for analysing similar environmental datasets. Since these tests allow us to statistically test the existence of a trend in time series data, I will intentionally reduce the trend slope of toy datasets until we can reject the null hypothesis of no trend in global methane concentration.
+Understanding and identifying trends in methane concentrations is vital for developing mitigation strategies and informing policy decisions. By applying these robust statistical methods, researchers can gain deeper insights into the temporal dynamics of methane levels and their broader implications for climate change.
+Generating toy datasets
+Even if we can find the time series data of the global methane concentration on the NOAA website, it is meaningful to generate the dataset to remind us of its current level and seasonal variation. First, we assume the level and slope to be 1800 ppb as of 2000 and 7 ppb/year, respectively. Its concentrations exhibit seasonal variations, typically with higher values in late summer and lower in late winter. The seasonal cycle can vary depending on the geographic region and specific atmospheric conditions, but a common approach is to model the seasonal variation using a sinusoidal function. To generate a toy dataset, we can assume an approximate seasonal variation of about ±10 ppb with a standard deviation of ±5 ppb superimposed as noise.
+I generated several datasets using the code below. Each list element of 'slopes' characterises the ‘dataset [i]'. The 'slopes [i][0]' and 'slopes [i][1]' denote the methane's slope (ppb/year) and the existence of the seasonal variation, respectively.
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+from collections import namedtuple
+np.random.seed(1)
+# Parameters for the toy dataset
+start_year = 2000
+end_year = 2020
+years = np.arange(start_year, end_year + 1)
+months = np.arange(1, 13)
+intercept = 1800  # Starting methane concentration in ppb
+seasonal_amplitude = 10  # Amplitude of seasonal variation in ppb
+noise_std_dev = 5  # Standard deviation of the noise
+# Generate yearly and monthly time points
+time_years = np.repeat(years, 12)
+time_months = np.tile(months, len(years))
+time = time_years+(time_months-1)/12
+# slopes = [[slope, existence of seasonal variation],...]
+slopes = [[0.1,1], [0.2,1], [0.3,1], [7,1], [0.1,0]]
+methane = namedtuple('methane', ['years', 'concentration', 'slope'])
+dataset =[]
+noise= np.random.normal(0, noise_std_dev, len(time_years))
+seasonal_variation = seasonal_amplitude * np.sin(2 * np.pi * (time_months - 1) / 12)
+for slope in slopes:
+# Generate methane concentrations with a linear trend, seasonal variation, and random noise
+methane_concentration= np.round(intercept + slope[0] * (time_years - start_year) + noise \
++ seasonal_variation * slope[1],1)
+comment = f'{slope[0]} ppb/year' if slope[1] else f'{slope[0]} ppb/year without seasonal variation'
+dataset.append(methane(time, methane_concentration, comment))
+Press enter or click to view image in full size
+A toy Dataset[3] is generated considering the 7 ppb/year slope and seasonal variation of ±10 ppb with a standard deviation of ±5 ppb superimposed as noise.
+Ordinary Least Square Regression
+Applying a linear regression aligns with standard practices for analysing time series data to determine if there is a significant trend. The null hypothesis is that the slope is zero, which implies no significant trend, while the alternative hypothesis is not zero, which implies a significant trend. Then, conduct a t-test on the slope coefficient from your linear regression. The
+t
+-test will help you determine if the slope differs significantly from zero. If the p-value from the
+t
+-test is less than our chosen significance level (e.g. 0.05), we reject the null hypothesis and conclude that there is a significant trend in our time series data. If the p-value is greater than the significance level, we fail to reject the null hypothesis, indicating that there is no significant trend.
+I use OLS in ‘statmodels’ in the following code. Because the methane trend is evident, I reduced the slope from 7 ppb/year to 0.2 and 0.3 ppb/year to generate the 'dataset[1]' and 'dataset[2]'. The latter case of 0.3 ppb/year exhibits a significant trend, but the former case of 0.2 ppb/year shows signically no trend. These two limits act as a window to the significance of the trend. If we want to maintain an insignificant trend in the methane increase, we should reduce the slope to 1/35 of the current slope with the noise assumed.
+import statsmodels.api as sm
+def ols_model(data, plot=True):
+# Fit a linear regression model
+X = sm.add_constant(data.years)
+model = sm.OLS(data.concentration, X).fit()
+if plot:
+plt.scatter(data.years,data.concentration, label='Data')
+plt.plot(data.years, model.fittedvalues, color='red', label='Fitted Line')
+plt.xlabel('Year')
+plt.ylabel('Methane Concentration')
+plt.legend()
+plt.show()
+# Run regression model
+model.summary()
+print(f"Yearly data generation slope:{data.slope}")
+print(f"fitted slope: {model.params[1]}")
+print(f"t-statistic: {model.tvalues[1]}")
+print(f"p-value: {model.pvalues[1]}")
+if model.pvalues[1] < 0.05:
+print("Reject the null hypothesis: There is a significant trend.\n")
+else:
+print("Fail to reject the null hypothesis: No significant trend.\n")
+ols_model(dataset[1], plot=True)
+ols_model(dataset[2], plot=False)
+Press enter or click to view image in full size
+Mann-Kendall Trend Test
+This test is a non-parametric statistical method for identifying trends in a time series dataset. It is widely used in environmental science and climatology to detect trends without assuming a specific distribution for the data. Its test steps run as follows:
+Rank the Data
+: The data points are ranked based on their time order. Each data point is compared to all subsequent data points to determine whether it is more significant, smaller, or equal.
+Calculate the Mann-Kendall Statistic (
+S
+)
+A comparison is made for each pair of data points. Suppose a data point later in the series is more prominent than an earlier one; a positive value is assigned. If it is smaller, a negative value is assigned. If the two points are equal, a value of zero is assigned.
+The Mann-Kendall statistic
+S
+is the sum of all these values:
+Press enter or click to view image in full size
+where the function
+sign
+(
+arg
+) is +1 if
+arg
+> 0, 0 if
+arg
+= 0, and -1 if
+arg
+< 0. Therefore, a positive
+S
+, negative
+S
+, and zero indicate an increasing trend, a decreasing trend, and no trend in the data. The magnitude of S indicates the trend's strength, while its sign indicates the direction of the trend.
+3. Variance of
+S
+:
+The observed value of
+S
+is compared to its expected value under the null hypothesis of no trend to determine whether it is statistically significant. Under the null hypothesis, the expected value of
+S
+is zero. Therefore, the variance of
+S
+is used to standardise
+S
+into a test statistic (Z).
+The variance of S is calculated to account for the test dataset of multiple data points. It is denoted as Var(S) and depends on the dataset of tied groups (if any). For data with no ties, the variance is given by:
+Press enter or click to view image in full size
+where
+n
+is the total number of data points in the dataset.
+When there are ties (i.e., identical values in the dataset), the variance is adjusted to account for relationships. If
+t
+is the number of tied groups and t_k​ is the number of data points in the
+k
+-th tied group,
+Press enter or click to view image in full size
+where
+g
+is the number of tied groups.
+4. Test Statistic (Z)
+To determine the significance of the trend, the test statistic Z is calculated:
+Press enter or click to view image in full size
+The value of Z is then compared to the critical values of the standard normal distribution to determine the trend's significance. Typically, a significance level is chosen. If the absolute value of Z is greater than the critical value (e.g., 1.96 for α=0.05), the null hypothesis of no trend is rejected, indicating a significant trend. We can draw the critical value 1.96 assuming the normality of the Z value, which can be justified by the central limit theorem and a simulation using a random generator of normal distribution. The code below shows the distribution of the Z values to follow the standard normal distribution: The histogram results in an excellent fit to the normal distribution with a location of -0.010 and a scale of 0.991.
+from scipy.stats import norm
+np.random.seed(1)    # for reproducibility
+# Function to perform the Mann-Kendall test and return S
+def mann_kendall_test(data):
+n = len(data)
+S = 0
+for i in range(n - 1):
+for j in range(i + 1, n):
+S += np.sign(data[j] - data[i])
+return S
+# Simulate multiple samples and calculate S
+sample_size = 100  # Large sample size
+num_simulations = 10000
+S_values = []
+for _ in range(num_simulations):
+data = np.random.normal(size=sample_size)
+S = mann_kendall_test(data)
+S_values.append(S)
+# Standardize S to calculate Z
+mean_S = 0
+var_S = (sample_size * (sample_size - 1) * (2 * sample_size + 5)) / 18
+Z_values = [(S - mean_S) / np.sqrt(var_S) for S in S_values]
+# Plot the standard normal distribution for comparison
+xmin, xmax = plt.xlim()
+x = np.linspace(xmin, xmax, 100)
+p = norm.pdf(x, 0, 1)
+plt.plot(x, p, 'k', linewidth=2)
+title = "Histogram of Z values with Standard Normal Distribution"
+plt.title(title)
+# Fit the Z values to Normal distribution
+loc, scale = norm.fit(Z_values)
+print(f'Normal distribution with loc={loc:4.3f}, scale={scale:4.3f}')
+Press enter or click to view image in full size
+5.
+Application of Python library
+A Python library, 'pymankendall', has been implemented to apply this test. Please look at the demo code below and its results with the datasets [1] and [2]. The method gives the same test results as the linear regression method before. However, if we do not consider the seasonal variation as in the dataset[4], we can see the trend still increasing with a slope of 0.1 ppb/year. I expect the seasonal variation to make trend detections insensitive.
+from pymannkendall import original_test as mk_test
+def mannkendall_test(data):
+'''perform the Mann-Kendall test'''
+result = mk_test(data.concentration)
+print(f"Yearly data generation slope:{data.slope}")
+print(f"Trend: {result.trend}")
+if result.h:
+print('Hypothesis: Reject null hypothesis of no trend')
+else:
+print('Hypothesis: Fail to reject null hypothesis of no trend')
+print(f"p-value: {result.p}\n")
+mannkendall_test(dataset[1])
+mannkendall_test(dataset[2])
+mannkendall_test(dataset[4])
+Yearly data generation slope:0.2 ppb/year
+Trend: no trend
+Hypothesis: Fail to reject null hypothesis of no trend
+p-value: 0.08451668200699602
+Yearly data generation slope:0.3 ppb/year
+Trend: increasing
+Hypothesis: Reject null hypothesis of no trend
+p-value: 0.005446346816116554
+Yearly data generation slope:0.1 ppb/year without seasonal variation
+Trend: increasing
+Hypothesis: Reject null hypothesis of no trend
+p-value: 0.03902984383065089
+Seasonal Kendall Test
+The Seasonal Kendall test is an extension of the Mann-Kendall test designed to handle seasonality in the data. The Mann-Kendall test is non-parametric and does not assume a specific data distribution. The test assumes that the seasonal components (e.g., monthly or quarterly data) are independent and identically distributed.
+Another version of the Mann-Kendall test considers periodicity in time series data. This test forms the significant trend detection window between 0.1 ppb/year and 0.2 ppb/year with the appropriate periodicity. However, a wrong periodicity value of 2 shows the same results as the general Mann-Kandal test.
+import pymannkendall as mk
+def mk_seasonal_test(data, period=12):
+'''using pymannkendall library with a seasonal test method'''
+result_seasonal = mk.seasonal_test(data.concentration, period=period)  # Example period
+print(f"Yearly data generation slope:{data.slope}")
+print(f"Trend: {result_seasonal.trend}")
+print(f"Hypothesis: {'Reject null hypothesis of no trend' if result_seasonal.h else 'Fail to reject null hypothesis of no trend'}")
+print(f"p-value: {result_seasonal.p}\n")
+mk_seasonal_test(dataset[0], period=12)
+mk_seasonal_test(dataset[1], period=12)
+mk_seasonal_test(dataset[1], period=2)
+mk_seasonal_test(dataset[2], period=2)
+Yearly data generation slope:0.1 ppb/year
+Trend: no trend
+Hypothesis: Fail to reject null hypothesis of no trend
+p-value: 0.09755673352859229
+Yearly data generation slope:0.2 ppb/year
+Trend: increasing
+Hypothesis: Reject null hypothesis of no trend
+p-value: 0.00013780365183713172
+Yearly data generation slope:0.2 ppb/year
+Trend: no trend
+Hypothesis: Fail to reject null hypothesis of no trend
+p-value: 0.0820714015763353
+Yearly data generation slope:0.3 ppb/year
+Trend: increasing
+Hypothesis: Reject null hypothesis of no trend
+p-value: 0.005593338735154996
+Unit Root Tests
+Definition of Unit Root
+Consider a discrete-time stochastic process (
+y
+ₜ,
+t
+= 1, 2, 3, …), and suppose that it can be described as an autoregressive process of order
+p
+:
+Press enter or click to view image in full size
+Here, (
+ε
+ₜ
+ₜ
+,
+t
+=1, 2, 3, …) is a serially uncorrelated, zero-mean stochastic process with constant variance. Assuming
+y₀
+= 0, if
+m
+= 1 is a root of the characteristic equation with multiplicity 1:
+Press enter or click to view image in full size
+then the stochastic process has a unit root. The first-order autoregressive model,
+y
+ₜ
+ₜ
+=
+a
+₁
+y
+ₜ₋₁
++ ε
+ₜ
+,
+has a unit root when
+a
+₁=1. In this case, the characteristic equation is
+m
+—
+a
+₁= 0. The root of the equation is
+m
+= 1. (Unit root) In the first-order model,
+ε
+ₜ is a white noise error term. In other words, the value of the series at time
+t
+is equal to its value at time
+t
+−1 plus a random error term. Shocks to the time series have a permanent effect.
+2.
+Implications of Unit Root
+A time series with a unit root is non-stationary. Stationarity means that the statistical properties of the series (mean, variance, autocorrelation) are constant over time. Non-stationary time series with unit roots exhibit a time-dependent structure, meaning their behaviour changes over time, making prediction and analysis more complex.
+A unit root process is often described as a random walk. Each value is a random step away from the previous value in a random walk. This makes the series unpredictable, and any shock to the series has a lasting effect.
+3.
+Augmented Dickey-Fuller (ADF) Test
+The Dickey-Fuller Test tests the null hypothesis that a unit root is present in an autoregressive model. The ADF Test extends the Dickey-Fuller test, including lagged differences to account for higher-order autocorrelation. The presence of a unit root in a time series indicates that the series has a stochastic trend, making it non-stationary.
+Including additional lagged differences of the dependent variable to account for higher-order serial correlation, the ADF test statistic is defined as
+Press enter or click to view image in full size
+where Δ
+y
+ₜ is the first difference of
+y
+ₜ
+, α
+is a constant term,
+βt
+is a trend term,
+γ y
+ₜ₋₁​ is the coefficient on the lagged level of the series, the terms with summation are lagged differences, and
+ϵ
+ₜ
+is the error term.
+4. Application of the ADF Test using the Python library
+Using the Python library, I have plotted a histogram of the ADF test statistics of non-stationary datasets generated by a random walk process.
+from statsmodels.tsa.stattools import adfuller
+# Function to generate a non-stationary time series (random walk)
+def generate_random_walk(n):
+return np.cumsum(np.random.normal(size=n))
+# Number of simulations
+num_simulations = 1000
+sample_size = 100
+adf_statistics = []
+# Perform the ADF test on multiple random walk samples
+for _ in range(num_simulations):
+random_walk = generate_random_walk(sample_size)
+result = adfuller(random_walk)
+adf_statistics.append(result[0])
+# Plot the distribution of the ADF statistics
+plt.figure(figsize=(10, 6))
+plt.hist(adf_statistics, bins=50, density=True, alpha=0.6, color='g')
+plt.xlabel('ADF Statistic')
+plt.ylabel('Density')
+plt.title('Distribution of ADF Statistic for Non-Stationary Time Series')
+plt.axvline(x=np.percentile(adf_statistics, 2.5), color='r', linestyle='--', label='2.5th Percentile')
+plt.axvline(x=np.percentile(adf_statistics, 97.5), color='b', linestyle='--', label='97.5th Percentile')
+plt.legend();
+Press enter or click to view image in full size
+Under the null hypothesis of a unit root (non-stationarity), the ADF test statistic does not follow a normal distribution. It follows the Dickey-Fuller distribution. The library uses a pre-calculated table for different sample sizes and lag numbers used in the test.
+Applying the ADF test to the methane concentration trends, we obtain the same test results as the Ordinary Least Square Regression and the Mann-Kendall Trend Test as follows:
+from statsmodels.tsa.stattools import adfuller
+def dickeyfuller_test(data):
+''' Augmented Dickey-Fuller test '''
+adf_result = adfuller(data.concentration)
+print(f"Yearly data generation slope:{data.slope}")
+print(f"ADF Statistic: {adf_result[0]}")
+print(f"p-value: {adf_result[1]}")
+print("Critical Values:")
+for key, value in adf_result[4].items():
+print(f"   {key}: {value}")
+print()
+dickeyfuller_test(dataset[1])
+dickeyfuller_test(dataset[2])
+Yearly data generation slope:0.2 ppb/year
+ADF Statistic: -3.131641940818521
+p-value: 0.02429844851053876
+Critical Values:
+1%: -3.458010773719797
+5%: -2.8737103617125186
+10%: -2.5732559963936206
+Yearly data generation slope:0.3 ppb/year
+ADF Statistic: -2.627964831251696
+p-value: 0.08735413744719817
+Critical Values:
+1%: -3.458010773719797
+5%: -2.8737103617125186
+10%: -2.5732559963936206
+Closing Remarks
+Climate change is causing a wide range of extreme weather events worldwide. In 2021, North America experienced an unprecedented heat wave, with temperatures soaring above 40 degrees Celsius in many regions. This extreme heat led to wildfires, power outages and hundreds of deaths. This summer, China and South Korea are both experiencing severe flooding due to heavy rainfall linked to climate change.
+I created toy datasets to simulate the time series of global methane concentrations and statistically detect trends. I explored statistical test methods such as ordinary least square regression, Mann-Kendall, seasonal Mann-Kendall and unit root tests. Using the toy datasets and test tools, I know that we should reduce the slope to 1/35 of the current slope if we want to get an insignificant trend in methane increase. Even if we can achieve such a reduction, global warming will continue for some time because of its latency. Hopeless news?
+References
+pymannkendall 1.4.3 (2023, Jan 14)
+https://pypi.org/project/pymannkendall/
+Kendall rank correlation coefficient. (2024, June 30). In
+Wikipedia
+.
+https://en.wikipedia.org/wiki/Kendall_rank_correlation_coefficient
+Unit root. (2024, January 28). In
+Wikipedia
+.
+https://en.wikipedia.org/wiki/Unit_root
+Dickey–Fuller test. (2024, February 22). In
+Wikipedia
+.
+https://en.wikipedia.org/wiki/Dickey%E2%80%93Fuller_test
+Trend Detection
+Mann Kendall
+Dickey Fuller Test
+Unit Root Test
+Time Series Data
+--
+--
+Written by
+MCMC Addict
+90 followers
+·
+113 following
+PhD in Physics, Metrologist working at National Metrology Institute of Korea(KRISS)
+https://www.researchgate.net/profile/Seung-Nam-Park
+Help
+Status
+About
+Careers
+Press
+Blog
+Store
+Privacy
+Rules
+Terms
+Text to speech

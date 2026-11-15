@@ -1,0 +1,1844 @@
+[
+  {
+    "url": "https://nssdc.gsfc.nasa.gov/",
+    "normalized_url": "https://nssdc.gsfc.nasa.gov",
+    "labels": [
+      "NASA Space Science Data Coordinated Archive (NSSDCA)"
+    ],
+    "challenges": [
+      1
+    ],
+    "source_urls": [
+      "https://www.spaceappschallenge.org/2026/challenges/nasas-discarded-equipment-storytelling/?tab=resources"
+    ],
+    "id": "R001"
+  },
+  {
+    "url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1969-059C",
+    "normalized_url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1969-059C",
+    "labels": [
+      "Apollo Lunar Modules"
+    ],
+    "challenges": [
+      1
+    ],
+    "source_urls": [
+      "https://www.spaceappschallenge.org/2026/challenges/nasas-discarded-equipment-storytelling/?tab=resources"
+    ],
+    "id": "R002"
+  },
+  {
+    "url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1971-063C",
+    "normalized_url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1971-063C",
+    "labels": [
+      "Lunar Roving Vehicles (LRVs)"
+    ],
+    "challenges": [
+      1
+    ],
+    "source_urls": [
+      "https://www.spaceappschallenge.org/2026/challenges/nasas-discarded-equipment-storytelling/?tab=resources"
+    ],
+    "id": "R003"
+  },
+  {
+    "url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1969-099C",
+    "normalized_url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1969-099C",
+    "labels": [
+      "ALSEP Scientific Packages"
+    ],
+    "challenges": [
+      1
+    ],
+    "source_urls": [
+      "https://www.spaceappschallenge.org/2026/challenges/nasas-discarded-equipment-storytelling/?tab=resources"
+    ],
+    "id": "R004"
+  },
+  {
+    "url": "https://science.nasa.gov/mission/surveyor-3/",
+    "normalized_url": "https://science.nasa.gov/mission/surveyor-3",
+    "labels": [
+      "Surveyor Landers"
+    ],
+    "challenges": [
+      1
+    ],
+    "source_urls": [
+      "https://www.spaceappschallenge.org/2026/challenges/nasas-discarded-equipment-storytelling/?tab=resources"
+    ],
+    "id": "R005"
+  },
+  {
+    "url": "https://science.nasa.gov/mission/mars-pathfinder/",
+    "normalized_url": "https://science.nasa.gov/mission/mars-pathfinder",
+    "labels": [
+      "Sojourner Rover"
+    ],
+    "challenges": [
+      1
+    ],
+    "source_urls": [
+      "https://www.spaceappschallenge.org/2026/challenges/nasas-discarded-equipment-storytelling/?tab=resources"
+    ],
+    "id": "R006"
+  },
+  {
+    "url": "https://science.nasa.gov/mission/mars-exploration-rovers-spirit-and-opportunity/",
+    "normalized_url": "https://science.nasa.gov/mission/mars-exploration-rovers-spirit-and-opportunity",
+    "labels": [
+      "Spirit & Opportunity"
+    ],
+    "challenges": [
+      1
+    ],
+    "source_urls": [
+      "https://www.spaceappschallenge.org/2026/challenges/nasas-discarded-equipment-storytelling/?tab=resources"
+    ],
+    "id": "R007"
+  },
+  {
+    "url": "https://science.nasa.gov/mission/viking-1/",
+    "normalized_url": "https://science.nasa.gov/mission/viking-1",
+    "labels": [
+      "Viking 1 & 2 Landers"
+    ],
+    "challenges": [
+      1
+    ],
+    "source_urls": [
+      "https://www.spaceappschallenge.org/2026/challenges/nasas-discarded-equipment-storytelling/?tab=resources"
+    ],
+    "id": "R008"
+  },
+  {
+    "url": "https://science.nasa.gov/mission/insight/",
+    "normalized_url": "https://science.nasa.gov/mission/insight",
+    "labels": [
+      "Phoenix & InSight Landers"
+    ],
+    "challenges": [
+      1
+    ],
+    "source_urls": [
+      "https://www.spaceappschallenge.org/2026/challenges/nasas-discarded-equipment-storytelling/?tab=resources"
+    ],
+    "id": "R009"
+  },
+  {
+    "url": "https://science.nasa.gov/mission/dawn/",
+    "normalized_url": "https://science.nasa.gov/mission/dawn",
+    "labels": [
+      "Dawn Spacecraft"
+    ],
+    "challenges": [
+      1
+    ],
+    "source_urls": [
+      "https://www.spaceappschallenge.org/2026/challenges/nasas-discarded-equipment-storytelling/?tab=resources"
+    ],
+    "id": "R010"
+  },
+  {
+    "url": "https://science.nasa.gov/mission/near-shoemaker/",
+    "normalized_url": "https://science.nasa.gov/mission/near-shoemaker",
+    "labels": [
+      "NEAR Shoemaker"
+    ],
+    "challenges": [
+      1
+    ],
+    "source_urls": [
+      "https://www.spaceappschallenge.org/2026/challenges/nasas-discarded-equipment-storytelling/?tab=resources"
+    ],
+    "id": "R011"
+  },
+  {
+    "url": "https://science.nasa.gov/mission/pioneer-10/",
+    "normalized_url": "https://science.nasa.gov/mission/pioneer-10",
+    "labels": [
+      "Pioneer 10 & 11"
+    ],
+    "challenges": [
+      1
+    ],
+    "source_urls": [
+      "https://www.spaceappschallenge.org/2026/challenges/nasas-discarded-equipment-storytelling/?tab=resources"
+    ],
+    "id": "R012"
+  },
+  {
+    "url": "https://science.nasa.gov/mission/mars-2020-perseverance/ingenuity-mars-helicopter/",
+    "normalized_url": "https://science.nasa.gov/mission/mars-2020-perseverance/ingenuity-mars-helicopter",
+    "labels": [
+      "Ingenuity Helicopter"
+    ],
+    "challenges": [
+      1
+    ],
+    "source_urls": [
+      "https://www.spaceappschallenge.org/2026/challenges/nasas-discarded-equipment-storytelling/?tab=resources"
+    ],
+    "id": "R013"
+  },
+  {
+    "url": "https://science.nasa.gov/mission/kepler/",
+    "normalized_url": "https://science.nasa.gov/mission/kepler",
+    "labels": [
+      "Kepler Space Telescope"
+    ],
+    "challenges": [
+      1
+    ],
+    "source_urls": [
+      "https://www.spaceappschallenge.org/2026/challenges/nasas-discarded-equipment-storytelling/?tab=resources"
+    ],
+    "id": "R014"
+  },
+  {
+    "url": "https://giovanni.gsfc.nasa.gov/",
+    "normalized_url": "https://giovanni.gsfc.nasa.gov",
+    "labels": [
+      "Giovanni"
+    ],
+    "challenges": [
+      2
+    ],
+    "source_urls": [
+      "https://www.spaceappschallenge.org/2026/challenges/earth-system-trend-detective/?tab=resources"
+    ],
+    "id": "R015"
+  },
+  {
+    "url": "https://disc.gsfc.nasa.gov/information/tools?title=Hydrology%20Time%20Series",
+    "normalized_url": "https://disc.gsfc.nasa.gov/information/tools?title=Hydrology+Time+Series",
+    "labels": [
+      "Hydrology Time Series"
+    ],
+    "challenges": [
+      2
+    ],
+    "source_urls": [
+      "https://www.spaceappschallenge.org/2026/challenges/earth-system-trend-detective/?tab=resources"
+    ],
+    "id": "R016"
+  },
+  {
+    "url": "https://appeears.earthdatacloud.nasa.gov/",
+    "normalized_url": "https://appeears.earthdatacloud.nasa.gov",
+    "labels": [
+      "AppEEARS"
+    ],
+    "challenges": [
+      2
+    ],
+    "source_urls": [
+      "https://www.spaceappschallenge.org/2026/challenges/earth-system-trend-detective/?tab=resources"
+    ],
+    "id": "R017"
+  },
+  {
+    "url": "https://www.ncei.noaa.gov/cdo-web/",
+    "normalized_url": "https://ncei.noaa.gov/cdo-web",
+    "labels": [
+      "Climate Data Online (CDO)"
+    ],
+    "challenges": [
+      2
+    ],
+    "source_urls": [
+      "https://www.spaceappschallenge.org/2026/challenges/earth-system-trend-detective/?tab=resources"
+    ],
+    "id": "R018"
+  },
+  {
+    "url": "https://ntrs.nasa.gov/api/citations/20090042747/downloads/20090042747.pdf",
+    "normalized_url": "https://ntrs.nasa.gov/api/citations/20090042747/downloads/20090042747.pdf",
+    "labels": [
+      "Time-Series Analysis of Remotely-Sensed SeaWiFS Chlorophyll in River-Influenced Coastal Regions"
+    ],
+    "challenges": [
+      2
+    ],
+    "source_urls": [
+      "https://www.spaceappschallenge.org/2026/challenges/earth-system-trend-detective/?tab=resources"
+    ],
+    "id": "R019"
+  },
+  {
+    "url": "https://climexp.knmi.nl/",
+    "normalized_url": "https://climexp.knmi.nl",
+    "labels": [
+      "Royal Netherlands Meteorological Institute (KNMI) Climate Explorer"
+    ],
+    "challenges": [
+      2
+    ],
+    "source_urls": [
+      "https://www.spaceappschallenge.org/2026/challenges/earth-system-trend-detective/?tab=resources"
+    ],
+    "id": "R020"
+  },
+  {
+    "url": "https://medium.com/@snp.kriss/statistical-test-methods-to-detect-trends-in-time-series-data-b361a0ec530b",
+    "normalized_url": "https://medium.com/@snp.kriss/statistical-test-methods-to-detect-trends-in-time-series-data-b361a0ec530b",
+    "labels": [
+      "Statistical test methods to detect trends in time series data"
+    ],
+    "challenges": [
+      2
+    ],
+    "source_urls": [
+      "https://www.spaceappschallenge.org/2026/challenges/earth-system-trend-detective/?tab=resources"
+    ],
+    "id": "R021"
+  },
+  {
+    "url": "https://www.statsig.com/perspectives/a-comprehensive-guide-to-statistical-significance",
+    "normalized_url": "https://statsig.com/perspectives/a-comprehensive-guide-to-statistical-significance",
+    "labels": [
+      "A Comprehensive Guide to Statistical Significance"
+    ],
+    "challenges": [
+      2
+    ],
+    "source_urls": [
+      "https://www.spaceappschallenge.org/2026/challenges/earth-system-trend-detective/?tab=resources"
+    ],
+    "id": "R022"
+  },
+  {
+    "url": "https://donnees-data.asc-csa.gc.ca/en/dataset/rcm",
+    "normalized_url": "https://donnees-data.asc-csa.gc.ca/en/dataset/rcm",
+    "labels": [
+      "Radarsat Constellation Mission (RCM) - Data",
+      "RADARSAT Constellation Mission (RCM) - Data"
+    ],
+    "challenges": [
+      2,
+      5,
+      9
+    ],
+    "source_urls": [
+      "https://www.spaceappschallenge.org/2026/challenges/earth-system-trend-detective/?tab=resources",
+      "https://www.spaceappschallenge.org/2026/challenges/dancing-with-the-sars/?tab=resources",
+      "https://www.spaceappschallenge.org/2026/challenges/permanent-moon-base-locations-and-mars/?tab=resources"
+    ],
+    "id": "R023"
+  },
+  {
+    "url": "http://geo.ca/",
+    "normalized_url": "https://geo.ca",
+    "labels": [
+      "Geo.ca"
+    ],
+    "challenges": [
+      2
+    ],
+    "source_urls": [
+      "https://www.spaceappschallenge.org/2026/challenges/earth-system-trend-detective/?tab=resources"
+    ],
+    "id": "R024"
+  },
+  {
+    "url": "https://www.asc-csa.gc.ca/eng/satellites/swot/",
+    "normalized_url": "https://asc-csa.gc.ca/eng/satellites/swot",
+    "labels": [
+      "SWOT Mission - Information"
+    ],
+    "challenges": [
+      2
+    ],
+    "source_urls": [
+      "https://www.spaceappschallenge.org/2026/challenges/earth-system-trend-detective/?tab=resources"
+    ],
+    "id": "R025"
+  },
+  {
+    "url": "https://www.asc-csa.gc.ca/eng/satellites/everyday-lives/monitoring-and-protecting-our-ecosystems-from-space.asp",
+    "normalized_url": "https://asc-csa.gc.ca/eng/satellites/everyday-lives/monitoring-and-protecting-our-ecosystems-from-space.asp",
+    "labels": [
+      "Monitoring and protecting our ecosystem from space"
+    ],
+    "challenges": [
+      2
+    ],
+    "source_urls": [
+      "https://www.spaceappschallenge.org/2026/challenges/earth-system-trend-detective/?tab=resources"
+    ],
+    "id": "R026"
+  },
+  {
+    "url": "https://github.com/asc-csa/Synthetic_Aperture_Radar_Tutorial",
+    "normalized_url": "https://github.com/asc-csa/Synthetic_Aperture_Radar_Tutorial",
+    "labels": [
+      "Synthetic Aperture Radar python Tutorial",
+      "Synthetic Aperture Radar (SAR) Python Tutorial"
+    ],
+    "challenges": [
+      2,
+      5,
+      9
+    ],
+    "source_urls": [
+      "https://www.spaceappschallenge.org/2026/challenges/earth-system-trend-detective/?tab=resources",
+      "https://www.spaceappschallenge.org/2026/challenges/dancing-with-the-sars/?tab=resources",
+      "https://www.spaceappschallenge.org/2026/challenges/permanent-moon-base-locations-and-mars/?tab=resources"
+    ],
+    "id": "R027"
+  },
+  {
+    "url": "https://api.nasa.gov/",
+    "normalized_url": "https://api.nasa.gov",
+    "labels": [
+      "NASA Open APIs"
+    ],
+    "challenges": [
+      3
+    ],
+    "source_urls": [
+      "https://www.spaceappschallenge.org/2026/challenges/junior-astronaut-mission-trainer/?tab=resources"
+    ],
+    "id": "R028"
+  },
+  {
+    "url": "https://ccmc.gsfc.nasa.gov/tools/DONKI/",
+    "normalized_url": "https://ccmc.gsfc.nasa.gov/tools/DONKI",
+    "labels": [
+      "Space Weather Database Of Notifications, Knowledge, Information (DONKI)"
+    ],
+    "challenges": [
+      3
+    ],
+    "source_urls": [
+      "https://www.spaceappschallenge.org/2026/challenges/junior-astronaut-mission-trainer/?tab=resources"
+    ],
+    "id": "R029"
+  },
+  {
+    "url": "https://osdr.nasa.gov/bio/repo/",
+    "normalized_url": "https://osdr.nasa.gov/bio/repo",
+    "labels": [
+      "NASA Open Science Data Repository (OSDR)"
+    ],
+    "challenges": [
+      3
+    ],
+    "source_urls": [
+      "https://www.spaceappschallenge.org/2026/challenges/junior-astronaut-mission-trainer/?tab=resources"
+    ],
+    "id": "R030"
+  },
+  {
+    "url": "https://osdr.nasa.gov/osdr/data/search?term=KEYWORD",
+    "normalized_url": "https://osdr.nasa.gov/osdr/data/search?term=KEYWORD",
+    "labels": [
+      "search API"
+    ],
+    "challenges": [
+      3
+    ],
+    "source_urls": [
+      "https://www.spaceappschallenge.org/2026/challenges/junior-astronaut-mission-trainer/?tab=resources"
+    ],
+    "id": "R031"
+  },
+  {
+    "url": "https://visualization.osdr.nasa.gov/radlab/gui/data-api/",
+    "normalized_url": "https://visualization.osdr.nasa.gov/radlab/gui/data-api",
+    "labels": [
+      "RadLab (OSDR Radiation Dosimetry Database)"
+    ],
+    "challenges": [
+      3
+    ],
+    "source_urls": [
+      "https://www.spaceappschallenge.org/2026/challenges/junior-astronaut-mission-trainer/?tab=resources"
+    ],
+    "id": "R032"
+  },
+  {
+    "url": "https://trek.nasa.gov/mars/",
+    "normalized_url": "https://trek.nasa.gov/mars",
+    "labels": [
+      "Mars Trek",
+      "Jet Propulsion Laboratory’s (JPL) Mars Trek"
+    ],
+    "challenges": [
+      3,
+      10
+    ],
+    "source_urls": [
+      "https://www.spaceappschallenge.org/2026/challenges/junior-astronaut-mission-trainer/?tab=resources",
+      "https://www.spaceappschallenge.org/2026/challenges/interplanetary-survival-guide-martian-map/?tab=resources"
+    ],
+    "id": "R033"
+  },
+  {
+    "url": "https://www.asc-csa.gc.ca/eng/youth-educators/resources-stem-and-youth-organizations.asp",
+    "normalized_url": "https://asc-csa.gc.ca/eng/youth-educators/resources-stem-and-youth-organizations.asp",
+    "labels": [
+      "Space resources for STEM and youth organizations"
+    ],
+    "challenges": [
+      3
+    ],
+    "source_urls": [
+      "https://www.spaceappschallenge.org/2026/challenges/junior-astronaut-mission-trainer/?tab=resources"
+    ],
+    "id": "R034"
+  },
+  {
+    "url": "https://www.asc-csa.gc.ca/eng/youth-educators/toolkits/food-production/",
+    "normalized_url": "https://asc-csa.gc.ca/eng/youth-educators/toolkits/food-production",
+    "labels": [
+      "Food production on the moon and in remote areas"
+    ],
+    "challenges": [
+      3
+    ],
+    "source_urls": [
+      "https://www.spaceappschallenge.org/2026/challenges/junior-astronaut-mission-trainer/?tab=resources"
+    ],
+    "id": "R035"
+  },
+  {
+    "url": "https://www.nasa.gov/hrp/hazards/",
+    "normalized_url": "https://nasa.gov/hrp/hazards",
+    "labels": [
+      "5 Hazards of Human Spaceflight"
+    ],
+    "challenges": [
+      4
+    ],
+    "source_urls": [
+      "https://www.spaceappschallenge.org/2026/challenges/health-monitoring-software/?tab=resources"
+    ],
+    "id": "R036"
+  },
+  {
+    "url": "https://www.nasa.gov/hrp/risks/",
+    "normalized_url": "https://nasa.gov/hrp/risks",
+    "labels": [
+      "Risks of Human Spaceflight"
+    ],
+    "challenges": [
+      4
+    ],
+    "source_urls": [
+      "https://www.spaceappschallenge.org/2026/challenges/health-monitoring-software/?tab=resources"
+    ],
+    "id": "R037"
+  },
+  {
+    "url": "https://www.nasa.gov/hrp/ongoing-hrp-research/",
+    "normalized_url": "https://nasa.gov/hrp/ongoing-hrp-research",
+    "labels": [
+      "Ongoing HRP Research in Space"
+    ],
+    "challenges": [
+      4
+    ],
+    "source_urls": [
+      "https://www.spaceappschallenge.org/2026/challenges/health-monitoring-software/?tab=resources"
+    ],
+    "id": "R038"
+  },
+  {
+    "url": "https://www.asc-csa.gc.ca/eng/news/articles/2026/2026-02-26-monitoring-radiation-astronaut-health.asp",
+    "normalized_url": "https://asc-csa.gc.ca/eng/news/articles/2026/2026-02-26-monitoring-radiation-astronaut-health.asp",
+    "labels": [
+      "Monitoring Radiation for Astronaut Health"
+    ],
+    "challenges": [
+      4
+    ],
+    "source_urls": [
+      "https://www.spaceappschallenge.org/2026/challenges/health-monitoring-software/?tab=resources"
+    ],
+    "id": "R039"
+  },
+  {
+    "url": "https://www.asc-csa.gc.ca/eng/iss/science/why-do-we-conduct-science-experiments-in-space.asp",
+    "normalized_url": "https://asc-csa.gc.ca/eng/iss/science/why-do-we-conduct-science-experiments-in-space.asp",
+    "labels": [
+      "Why Do We Conduct Science Experiments in Space?"
+    ],
+    "challenges": [
+      4
+    ],
+    "source_urls": [
+      "https://www.spaceappschallenge.org/2026/challenges/health-monitoring-software/?tab=resources"
+    ],
+    "id": "R040"
+  },
+  {
+    "url": "https://search.earthdata.nasa.gov/search",
+    "normalized_url": "https://search.earthdata.nasa.gov",
+    "labels": [
+      "NASA Earthdata Search"
+    ],
+    "challenges": [
+      5,
+      9
+    ],
+    "source_urls": [
+      "https://www.spaceappschallenge.org/2026/challenges/dancing-with-the-sars/?tab=resources",
+      "https://www.spaceappschallenge.org/2026/challenges/permanent-moon-base-locations-and-mars/?tab=resources"
+    ],
+    "id": "R041"
+  },
+  {
+    "url": "https://search.asf.alaska.edu/",
+    "normalized_url": "https://search.asf.alaska.edu",
+    "labels": [
+      "ASF Data Search Vertex"
+    ],
+    "challenges": [
+      5
+    ],
+    "source_urls": [
+      "https://www.spaceappschallenge.org/2026/challenges/dancing-with-the-sars/?tab=resources"
+    ],
+    "id": "R042"
+  },
+  {
+    "url": "https://nisar-docs.asf.alaska.edu/",
+    "normalized_url": "https://nisar-docs.asf.alaska.edu",
+    "labels": [
+      "NISAR Data User Guide"
+    ],
+    "challenges": [
+      5
+    ],
+    "source_urls": [
+      "https://www.spaceappschallenge.org/2026/challenges/dancing-with-the-sars/?tab=resources"
+    ],
+    "id": "R043"
+  },
+  {
+    "url": "https://www.earthdata.nasa.gov/learn/earth-observation-data-basics/remote-sensing",
+    "normalized_url": "https://earthdata.nasa.gov/learn/earth-observation-data-basics/remote-sensing",
+    "labels": [
+      "Intro to Remote Sensing"
+    ],
+    "challenges": [
+      5
+    ],
+    "source_urls": [
+      "https://www.spaceappschallenge.org/2026/challenges/dancing-with-the-sars/?tab=resources"
+    ],
+    "id": "R044"
+  },
+  {
+    "url": "https://www.earthdata.nasa.gov/learn/earth-observation-data-basics/sar",
+    "normalized_url": "https://earthdata.nasa.gov/learn/earth-observation-data-basics/sar",
+    "labels": [
+      "Intro to Synthetic Aperture Radar (SAR)"
+    ],
+    "challenges": [
+      5
+    ],
+    "source_urls": [
+      "https://www.spaceappschallenge.org/2026/challenges/dancing-with-the-sars/?tab=resources"
+    ],
+    "id": "R045"
+  },
+  {
+    "url": "https://appliedsciences.nasa.gov/get-involved/training",
+    "normalized_url": "https://appliedsciences.nasa.gov/get-involved/training",
+    "labels": [
+      "NASA ARSET Trainings"
+    ],
+    "challenges": [
+      5
+    ],
+    "source_urls": [
+      "https://www.spaceappschallenge.org/2026/challenges/dancing-with-the-sars/?tab=resources"
+    ],
+    "id": "R046"
+  },
+  {
+    "url": "https://nisar.jpl.nasa.gov/applications/arcgis-storymaps/",
+    "normalized_url": "https://nisar.jpl.nasa.gov/applications/arcgis-storymaps",
+    "labels": [
+      "NISAR StoryMaps"
+    ],
+    "challenges": [
+      5
+    ],
+    "source_urls": [
+      "https://www.spaceappschallenge.org/2026/challenges/dancing-with-the-sars/?tab=resources"
+    ],
+    "id": "R047"
+  },
+  {
+    "url": "https://nisar.jpl.nasa.gov/applications/societal-benefit/",
+    "normalized_url": "https://nisar.jpl.nasa.gov/applications/societal-benefit",
+    "labels": [
+      "NISAR Applications White Papers"
+    ],
+    "challenges": [
+      5
+    ],
+    "source_urls": [
+      "https://www.spaceappschallenge.org/2026/challenges/dancing-with-the-sars/?tab=resources"
+    ],
+    "id": "R048"
+  },
+  {
+    "url": "https://uavsar.jpl.nasa.gov/education/postcards.html",
+    "normalized_url": "https://uavsar.jpl.nasa.gov/education/postcards.html",
+    "labels": [
+      "UAVSAR Postcards"
+    ],
+    "challenges": [
+      5
+    ],
+    "source_urls": [
+      "https://www.spaceappschallenge.org/2026/challenges/dancing-with-the-sars/?tab=resources"
+    ],
+    "id": "R049"
+  },
+  {
+    "url": "https://donnees-data.asc-csa.gc.ca/en/dataset/radarsat1",
+    "normalized_url": "https://donnees-data.asc-csa.gc.ca/en/dataset/radarsat1",
+    "labels": [
+      "RADARSAT 1 - Data"
+    ],
+    "challenges": [
+      5,
+      9
+    ],
+    "source_urls": [
+      "https://www.spaceappschallenge.org/2026/challenges/dancing-with-the-sars/?tab=resources",
+      "https://www.spaceappschallenge.org/2026/challenges/permanent-moon-base-locations-and-mars/?tab=resources"
+    ],
+    "id": "R050"
+  },
+  {
+    "url": "https://catalogos.conae.gov.ar/catalogo/catalogoSatSaocomInfo.html",
+    "normalized_url": "https://catalogos.conae.gov.ar/catalogo/catalogoSatSaocomInfo.html",
+    "labels": [
+      "SAOCOM Catalogue"
+    ],
+    "challenges": [
+      5
+    ],
+    "source_urls": [
+      "https://www.spaceappschallenge.org/2026/challenges/dancing-with-the-sars/?tab=resources"
+    ],
+    "id": "R051"
+  },
+  {
+    "url": "https://www.argentina.gob.ar/noticias/la-informacion-saocom-cada-vez-mas-accesible",
+    "normalized_url": "https://argentina.gob.ar/noticias/la-informacion-saocom-cada-vez-mas-accesible",
+    "labels": [
+      "SAOCOM Catalogue Registration"
+    ],
+    "challenges": [
+      5
+    ],
+    "source_urls": [
+      "https://www.spaceappschallenge.org/2026/challenges/dancing-with-the-sars/?tab=resources"
+    ],
+    "id": "R052"
+  },
+  {
+    "url": "https://www.earthdata.nasa.gov/data/platforms/space-based-platforms/smap",
+    "normalized_url": "https://earthdata.nasa.gov/data/platforms/space-based-platforms/smap",
+    "labels": [
+      "Soil Moisture Active Passive (SMAP)"
+    ],
+    "challenges": [
+      6
+    ],
+    "source_urls": [
+      "https://www.spaceappschallenge.org/2026/challenges/adapting-farms-with-nasa-data/?tab=resources"
+    ],
+    "id": "R053"
+  },
+  {
+    "url": "https://gpm.nasa.gov/data",
+    "normalized_url": "https://gpm.nasa.gov/data",
+    "labels": [
+      "Global Precipitation Measurement (GPM) & IMERG"
+    ],
+    "challenges": [
+      6
+    ],
+    "source_urls": [
+      "https://www.spaceappschallenge.org/2026/challenges/adapting-farms-with-nasa-data/?tab=resources"
+    ],
+    "id": "R054"
+  },
+  {
+    "url": "https://earthexplorer.usgs.gov/",
+    "normalized_url": "https://earthexplorer.usgs.gov",
+    "labels": [
+      "Landsat"
+    ],
+    "challenges": [
+      6
+    ],
+    "source_urls": [
+      "https://www.spaceappschallenge.org/2026/challenges/adapting-farms-with-nasa-data/?tab=resources"
+    ],
+    "id": "R055"
+  },
+  {
+    "url": "https://lpdaac.usgs.gov/products/",
+    "normalized_url": "https://lpdaac.usgs.gov/products",
+    "labels": [
+      "MODIS"
+    ],
+    "challenges": [
+      6
+    ],
+    "source_urls": [
+      "https://www.spaceappschallenge.org/2026/challenges/adapting-farms-with-nasa-data/?tab=resources"
+    ],
+    "id": "R056"
+  },
+  {
+    "url": "https://search.earthdata.nasa.gov/search?q=VIIRS",
+    "normalized_url": "https://search.earthdata.nasa.gov?q=VIIRS",
+    "labels": [
+      "VIIRS"
+    ],
+    "challenges": [
+      6
+    ],
+    "source_urls": [
+      "https://www.spaceappschallenge.org/2026/challenges/adapting-farms-with-nasa-data/?tab=resources"
+    ],
+    "id": "R057"
+  },
+  {
+    "url": "https://power.larc.nasa.gov/",
+    "normalized_url": "https://power.larc.nasa.gov",
+    "labels": [
+      "NASA POWER"
+    ],
+    "challenges": [
+      6
+    ],
+    "source_urls": [
+      "https://www.spaceappschallenge.org/2026/challenges/adapting-farms-with-nasa-data/?tab=resources"
+    ],
+    "id": "R058"
+  },
+  {
+    "url": "https://www.earthdata.nasa.gov/data/instruments/srtm",
+    "normalized_url": "https://earthdata.nasa.gov/data/instruments/srtm",
+    "labels": [
+      "Shuttle Radar Topography Mission (SRTM)"
+    ],
+    "challenges": [
+      6
+    ],
+    "source_urls": [
+      "https://www.spaceappschallenge.org/2026/challenges/adapting-farms-with-nasa-data/?tab=resources"
+    ],
+    "id": "R059"
+  },
+  {
+    "url": "https://ecostress.jpl.nasa.gov/data",
+    "normalized_url": "https://ecostress.jpl.nasa.gov/data",
+    "labels": [
+      "ECOSTRESS"
+    ],
+    "challenges": [
+      6
+    ],
+    "source_urls": [
+      "https://www.spaceappschallenge.org/2026/challenges/adapting-farms-with-nasa-data/?tab=resources"
+    ],
+    "id": "R060"
+  },
+  {
+    "url": "https://www.nal.usda.gov/services/agdatacommons",
+    "normalized_url": "https://nal.usda.gov/services/agdatacommons",
+    "labels": [
+      "USDA Ag Data Commons"
+    ],
+    "challenges": [
+      6
+    ],
+    "source_urls": [
+      "https://www.spaceappschallenge.org/2026/challenges/adapting-farms-with-nasa-data/?tab=resources"
+    ],
+    "id": "R061"
+  },
+  {
+    "url": "https://websoilsurvey.nrcs.usda.gov/app/",
+    "normalized_url": "https://websoilsurvey.nrcs.usda.gov/app",
+    "labels": [
+      "Web Soil Survey (WSS)"
+    ],
+    "challenges": [
+      6
+    ],
+    "source_urls": [
+      "https://www.spaceappschallenge.org/2026/challenges/adapting-farms-with-nasa-data/?tab=resources"
+    ],
+    "id": "R062"
+  },
+  {
+    "url": "https://nassgeodata.gmu.edu/CropScape/",
+    "normalized_url": "https://nassgeodata.gmu.edu/CropScape",
+    "labels": [
+      "Cropland Data Layer (CDL): CropScape"
+    ],
+    "challenges": [
+      6
+    ],
+    "source_urls": [
+      "https://www.spaceappschallenge.org/2026/challenges/adapting-farms-with-nasa-data/?tab=resources"
+    ],
+    "id": "R063"
+  },
+  {
+    "url": "https://prism.oregonstate.edu",
+    "normalized_url": "https://prism.oregonstate.edu",
+    "labels": [
+      "PRISM Climate Data"
+    ],
+    "challenges": [
+      6
+    ],
+    "source_urls": [
+      "https://www.spaceappschallenge.org/2026/challenges/adapting-farms-with-nasa-data/?tab=resources"
+    ],
+    "id": "R064"
+  },
+  {
+    "url": "https://www.nrcs.usda.gov/resources/data-and-reports/soils",
+    "normalized_url": "https://nrcs.usda.gov/resources/data-and-reports/soils",
+    "labels": [
+      "USDA NRCS SSURGO/STATSGO2"
+    ],
+    "challenges": [
+      6
+    ],
+    "source_urls": [
+      "https://www.spaceappschallenge.org/2026/challenges/adapting-farms-with-nasa-data/?tab=resources"
+    ],
+    "id": "R065"
+  },
+  {
+    "url": "https://naip-usdaonline.hub.arcgis.com/",
+    "normalized_url": "https://naip-usdaonline.hub.arcgis.com",
+    "labels": [
+      "National Agriculture Imagery Program (NAIP)"
+    ],
+    "challenges": [
+      6
+    ],
+    "source_urls": [
+      "https://www.spaceappschallenge.org/2026/challenges/adapting-farms-with-nasa-data/?tab=resources"
+    ],
+    "id": "R066"
+  },
+  {
+    "url": "https://www.usgs.gov/centers/eros/science/national-land-cover-database",
+    "normalized_url": "https://usgs.gov/centers/eros/science/national-land-cover-database",
+    "labels": [
+      "USGS National Land Cover Database (NLCD)"
+    ],
+    "challenges": [
+      6
+    ],
+    "source_urls": [
+      "https://www.spaceappschallenge.org/2026/challenges/adapting-farms-with-nasa-data/?tab=resources"
+    ],
+    "id": "R067"
+  },
+  {
+    "url": "https://www.earthdata.nasa.gov/",
+    "normalized_url": "https://earthdata.nasa.gov",
+    "labels": [
+      "NLDAS/GLDAS: Land Data Assimilation Systems"
+    ],
+    "challenges": [
+      6
+    ],
+    "source_urls": [
+      "https://www.spaceappschallenge.org/2026/challenges/adapting-farms-with-nasa-data/?tab=resources"
+    ],
+    "id": "R068"
+  },
+  {
+    "url": "https://gaez.fao.org",
+    "normalized_url": "https://gaez.fao.org",
+    "labels": [
+      "FAO Global Agro-Ecological Zones (GAEZ)"
+    ],
+    "challenges": [
+      6
+    ],
+    "source_urls": [
+      "https://www.spaceappschallenge.org/2026/challenges/adapting-farms-with-nasa-data/?tab=resources"
+    ],
+    "id": "R069"
+  },
+  {
+    "url": "https://www.cocorahs.org/Maps",
+    "normalized_url": "https://cocorahs.org/Maps",
+    "labels": [
+      "CoCoRaHS"
+    ],
+    "challenges": [
+      6
+    ],
+    "source_urls": [
+      "https://www.spaceappschallenge.org/2026/challenges/adapting-farms-with-nasa-data/?tab=resources"
+    ],
+    "id": "R070"
+  },
+  {
+    "url": "https://waterdata.usgs.gov/nwis",
+    "normalized_url": "https://waterdata.usgs.gov/nwis",
+    "labels": [
+      "USGS National Water Information Systems (NWIS)"
+    ],
+    "challenges": [
+      6
+    ],
+    "source_urls": [
+      "https://www.spaceappschallenge.org/2026/challenges/adapting-farms-with-nasa-data/?tab=resources"
+    ],
+    "id": "R071"
+  },
+  {
+    "url": "https://www.ams.usda.gov/market-news",
+    "normalized_url": "https://ams.usda.gov/market-news",
+    "labels": [
+      "USDA AMS Market News"
+    ],
+    "challenges": [
+      6
+    ],
+    "source_urls": [
+      "https://www.spaceappschallenge.org/2026/challenges/adapting-farms-with-nasa-data/?tab=resources"
+    ],
+    "id": "R072"
+  },
+  {
+    "url": "https://quickstats.nass.usda.gov",
+    "normalized_url": "https://quickstats.nass.usda.gov",
+    "labels": [
+      "USDA NASS QuickStats"
+    ],
+    "challenges": [
+      6
+    ],
+    "source_urls": [
+      "https://www.spaceappschallenge.org/2026/challenges/adapting-farms-with-nasa-data/?tab=resources"
+    ],
+    "id": "R073"
+  },
+  {
+    "url": "https://openetdata.org",
+    "normalized_url": "https://openetdata.org",
+    "labels": [
+      "OpenET"
+    ],
+    "challenges": [
+      6
+    ],
+    "source_urls": [
+      "https://www.spaceappschallenge.org/2026/challenges/adapting-farms-with-nasa-data/?tab=resources"
+    ],
+    "id": "R074"
+  },
+  {
+    "url": "https://www.landfire.gov",
+    "normalized_url": "https://landfire.gov",
+    "labels": [
+      "USFS LANDFIRE"
+    ],
+    "challenges": [
+      6
+    ],
+    "source_urls": [
+      "https://www.spaceappschallenge.org/2026/challenges/adapting-farms-with-nasa-data/?tab=resources"
+    ],
+    "id": "R075"
+  },
+  {
+    "url": "https://gedi.umd.edu/data",
+    "normalized_url": "https://gedi.umd.edu/data",
+    "labels": [
+      "Global Ecosystem Dynamics Investigation (GEDI)"
+    ],
+    "challenges": [
+      6
+    ],
+    "source_urls": [
+      "https://www.spaceappschallenge.org/2026/challenges/adapting-farms-with-nasa-data/?tab=resources"
+    ],
+    "id": "R076"
+  },
+  {
+    "url": "https://dataspace.copernicus.eu",
+    "normalized_url": "https://dataspace.copernicus.eu",
+    "labels": [
+      "Copernicus Sentinel-2: ESA:",
+      "Copernicus Data Space Ecosystem"
+    ],
+    "challenges": [
+      6,
+      9
+    ],
+    "source_urls": [
+      "https://www.spaceappschallenge.org/2026/challenges/adapting-farms-with-nasa-data/?tab=resources",
+      "https://www.spaceappschallenge.org/2026/challenges/permanent-moon-base-locations-and-mars/?tab=resources"
+    ],
+    "id": "R077"
+  },
+  {
+    "url": "https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels?tab=overview",
+    "normalized_url": "https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels?tab=overview",
+    "labels": [
+      "ERA5: ECMWF Reanalysis"
+    ],
+    "challenges": [
+      6
+    ],
+    "source_urls": [
+      "https://www.spaceappschallenge.org/2026/challenges/adapting-farms-with-nasa-data/?tab=resources"
+    ],
+    "id": "R078"
+  },
+  {
+    "url": "https://psi.nasa.gov/physci/repo/search?q=combustion",
+    "normalized_url": "https://psi.nasa.gov/physci/repo/search?q=combustion",
+    "labels": [
+      "PSI Data Repository: Combustion Science"
+    ],
+    "challenges": [
+      7
+    ],
+    "source_urls": [
+      "https://www.spaceappschallenge.org/2026/challenges/flame-in-freefall/?tab=resources"
+    ],
+    "id": "R079"
+  },
+  {
+    "url": "https://www.nasa.gov/glenn/glenn-expertise-space-exploration/physical-sciences-program/combustion-science/",
+    "normalized_url": "https://nasa.gov/glenn/glenn-expertise-space-exploration/physical-sciences-program/combustion-science",
+    "labels": [
+      "NASA Combustion Science"
+    ],
+    "challenges": [
+      7
+    ],
+    "source_urls": [
+      "https://www.spaceappschallenge.org/2026/challenges/flame-in-freefall/?tab=resources"
+    ],
+    "id": "R080"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=W1oXykoz9zg",
+    "normalized_url": "https://youtube.com/watch?v=W1oXykoz9zg",
+    "labels": [
+      "NASA ScienceCasts: The Power of Studying Combustion on the ISS"
+    ],
+    "challenges": [
+      7
+    ],
+    "source_urls": [
+      "https://www.spaceappschallenge.org/2026/challenges/flame-in-freefall/?tab=resources"
+    ],
+    "id": "R081"
+  },
+  {
+    "url": "https://www.nasa.gov/missions/station/a-researchers-guide-to-combustion-science/",
+    "normalized_url": "https://nasa.gov/missions/station/a-researchers-guide-to-combustion-science",
+    "labels": [
+      "A Researcher’s Guide to International Space Station Combustion Science"
+    ],
+    "challenges": [
+      7
+    ],
+    "source_urls": [
+      "https://www.spaceappschallenge.org/2026/challenges/flame-in-freefall/?tab=resources"
+    ],
+    "id": "R082"
+  },
+  {
+    "url": "https://sma.nasa.gov/sma-disciplines/accllp/apollo-1",
+    "normalized_url": "https://sma.nasa.gov/sma-disciplines/accllp/apollo-1",
+    "labels": [
+      "Apollo 1"
+    ],
+    "challenges": [
+      7
+    ],
+    "source_urls": [
+      "https://www.spaceappschallenge.org/2026/challenges/flame-in-freefall/?tab=resources"
+    ],
+    "id": "R083"
+  },
+  {
+    "url": "https://sma.nasa.gov/sma-disciplines/accllp/apollo-13",
+    "normalized_url": "https://sma.nasa.gov/sma-disciplines/accllp/apollo-13",
+    "labels": [
+      "Apollo 13"
+    ],
+    "challenges": [
+      7
+    ],
+    "source_urls": [
+      "https://www.spaceappschallenge.org/2026/challenges/flame-in-freefall/?tab=resources"
+    ],
+    "id": "R084"
+  },
+  {
+    "url": "https://www.nasa.gov/history/25-years-ago-fire-aboard-space-station-mir/",
+    "normalized_url": "https://nasa.gov/history/25-years-ago-fire-aboard-space-station-mir",
+    "labels": [
+      "25 Years Ago: Fire Aboard Space Station Mir"
+    ],
+    "challenges": [
+      7
+    ],
+    "source_urls": [
+      "https://www.spaceappschallenge.org/2026/challenges/flame-in-freefall/?tab=resources"
+    ],
+    "id": "R085"
+  },
+  {
+    "url": "https://spinoff.nasa.gov/node/9582",
+    "normalized_url": "https://spinoff.nasa.gov/node/9582",
+    "labels": [
+      "Fireman’s Air Tanks"
+    ],
+    "challenges": [
+      7
+    ],
+    "source_urls": [
+      "https://www.spaceappschallenge.org/2026/challenges/flame-in-freefall/?tab=resources"
+    ],
+    "id": "R086"
+  },
+  {
+    "url": "https://spinoff.nasa.gov/node/9407",
+    "normalized_url": "https://spinoff.nasa.gov/node/9407",
+    "labels": [
+      "Fire Detector"
+    ],
+    "challenges": [
+      7
+    ],
+    "source_urls": [
+      "https://www.spaceappschallenge.org/2026/challenges/flame-in-freefall/?tab=resources"
+    ],
+    "id": "R087"
+  },
+  {
+    "url": "https://spinoff.nasa.gov/node/9918",
+    "normalized_url": "https://spinoff.nasa.gov/node/9918",
+    "labels": [
+      "New Technology for the Fire Attire"
+    ],
+    "challenges": [
+      7
+    ],
+    "source_urls": [
+      "https://www.spaceappschallenge.org/2026/challenges/flame-in-freefall/?tab=resources"
+    ],
+    "id": "R088"
+  },
+  {
+    "url": "https://www.earthdata.nasa.gov/data/tools/firms",
+    "normalized_url": "https://earthdata.nasa.gov/data/tools/firms",
+    "labels": [
+      "FIRMS NASA EARTHDATA: Fire Information for Resource Management System"
+    ],
+    "challenges": [
+      8
+    ],
+    "source_urls": [
+      "https://www.spaceappschallenge.org/2026/challenges/modis-and-viirs-hot-spots/?tab=resources"
+    ],
+    "id": "R089"
+  },
+  {
+    "url": "https://worldview.earthdata.nasa.gov/index.html?utm_source=%27chatgpt.com%27",
+    "normalized_url": "https://worldview.earthdata.nasa.gov",
+    "labels": [
+      "NASA Worldview"
+    ],
+    "challenges": [
+      9,
+      10
+    ],
+    "source_urls": [
+      "https://www.spaceappschallenge.org/2026/challenges/permanent-moon-base-locations-and-mars/?tab=resources",
+      "https://www.spaceappschallenge.org/2026/challenges/interplanetary-survival-guide-martian-map/?tab=resources"
+    ],
+    "id": "R090"
+  },
+  {
+    "url": "https://pds.nasa.gov/?utm_source=%27chatgpt.com%27",
+    "normalized_url": "https://pds.nasa.gov",
+    "labels": [
+      "NASA Planetary Data System (PDS)"
+    ],
+    "challenges": [
+      9
+    ],
+    "source_urls": [
+      "https://www.spaceappschallenge.org/2026/challenges/permanent-moon-base-locations-and-mars/?tab=resources"
+    ],
+    "id": "R091"
+  },
+  {
+    "url": "https://pds-geosciences.wustl.edu/missions/lro/?utm_source=%27chatgpt.com%27",
+    "normalized_url": "https://pds-geosciences.wustl.edu/missions/lro",
+    "labels": [
+      "NASA Lunar Reconnaissance Orbiter (LRO)"
+    ],
+    "challenges": [
+      9
+    ],
+    "source_urls": [
+      "https://www.spaceappschallenge.org/2026/challenges/permanent-moon-base-locations-and-mars/?tab=resources"
+    ],
+    "id": "R092"
+  },
+  {
+    "url": "https://pds-geosciences.wustl.edu/missions/lro/diviner.htm?utm_source=%27chatgpt.com%27",
+    "normalized_url": "https://pds-geosciences.wustl.edu/missions/lro/diviner.htm",
+    "labels": [
+      "NASA LRO Diviner Lunar Data"
+    ],
+    "challenges": [
+      9
+    ],
+    "source_urls": [
+      "https://www.spaceappschallenge.org/2026/challenges/permanent-moon-base-locations-and-mars/?tab=resources"
+    ],
+    "id": "R093"
+  },
+  {
+    "url": "https://opensciencedata.esa.int/?utm_source=%27chatgpt.com%27",
+    "normalized_url": "https://opensciencedata.esa.int",
+    "labels": [
+      "ESA Open Science Catalog"
+    ],
+    "challenges": [
+      9
+    ],
+    "source_urls": [
+      "https://www.spaceappschallenge.org/2026/challenges/permanent-moon-base-locations-and-mars/?tab=resources"
+    ],
+    "id": "R094"
+  },
+  {
+    "url": "https://gportal.jaxa.jp/gpr/index/index?utm_source=%27chatgpt.com%27",
+    "normalized_url": "https://gportal.jaxa.jp/gpr/index/index",
+    "labels": [
+      "JAXA G-Portal"
+    ],
+    "challenges": [
+      9
+    ],
+    "source_urls": [
+      "https://www.spaceappschallenge.org/2026/challenges/permanent-moon-base-locations-and-mars/?tab=resources"
+    ],
+    "id": "R095"
+  },
+  {
+    "url": "https://astrogeology-usgs.hub.arcgis.com/pages/interactive-maps-mars",
+    "normalized_url": "https://astrogeology-usgs.hub.arcgis.com/pages/interactive-maps-mars",
+    "labels": [
+      "USGS-NASA Planetary Geologic Mapping Program"
+    ],
+    "challenges": [
+      10
+    ],
+    "source_urls": [
+      "https://www.spaceappschallenge.org/2026/challenges/interplanetary-survival-guide-martian-map/?tab=resources"
+    ],
+    "id": "R096"
+  },
+  {
+    "url": "https://science.nasa.gov/resource/curiositys-proposed-path-up-mount-sharp/",
+    "normalized_url": "https://science.nasa.gov/resource/curiositys-proposed-path-up-mount-sharp",
+    "labels": [
+      "Example of a route map visual for the Curiosity example mentioned above"
+    ],
+    "challenges": [
+      10
+    ],
+    "source_urls": [
+      "https://www.spaceappschallenge.org/2026/challenges/interplanetary-survival-guide-martian-map/?tab=resources"
+    ],
+    "id": "R097"
+  },
+  {
+    "url": "https://mars.nasa.gov/mars2020/multimedia/raw-images/",
+    "normalized_url": "https://mars.nasa.gov/mars2020/multimedia/raw-images",
+    "labels": [
+      "Mars Perseverance Raw Images Gallery"
+    ],
+    "challenges": [
+      10
+    ],
+    "source_urls": [
+      "https://www.spaceappschallenge.org/2026/challenges/interplanetary-survival-guide-martian-map/?tab=resources"
+    ],
+    "id": "R098"
+  },
+  {
+    "url": "https://quickmap.lroc.asu.edu/",
+    "normalized_url": "https://quickmap.lroc.asu.edu",
+    "labels": [
+      "Quickmap"
+    ],
+    "challenges": [
+      11
+    ],
+    "source_urls": [
+      "https://www.spaceappschallenge.org/2026/challenges/lunar-landing-site-navigator/?tab=resources"
+    ],
+    "id": "R099"
+  },
+  {
+    "url": "https://trek.nasa.gov/moon/",
+    "normalized_url": "https://trek.nasa.gov/moon",
+    "labels": [
+      "Moon Trek"
+    ],
+    "challenges": [
+      11
+    ],
+    "source_urls": [
+      "https://www.spaceappschallenge.org/2026/challenges/lunar-landing-site-navigator/?tab=resources"
+    ],
+    "id": "R100"
+  },
+  {
+    "url": "https://ssd.jpl.nasa.gov/horizons/",
+    "normalized_url": "https://ssd.jpl.nasa.gov/horizons",
+    "labels": [
+      "Horizons System"
+    ],
+    "challenges": [
+      11
+    ],
+    "source_urls": [
+      "https://www.spaceappschallenge.org/2026/challenges/lunar-landing-site-navigator/?tab=resources"
+    ],
+    "id": "R101"
+  },
+  {
+    "url": "https://www.asc-csa.gc.ca/eng/astronomy/moon-exploration/",
+    "normalized_url": "https://asc-csa.gc.ca/eng/astronomy/moon-exploration",
+    "labels": [
+      "Moon Exploration"
+    ],
+    "challenges": [
+      11
+    ],
+    "source_urls": [
+      "https://www.spaceappschallenge.org/2026/challenges/lunar-landing-site-navigator/?tab=resources"
+    ],
+    "id": "R102"
+  },
+  {
+    "url": "https://irsa.ipac.caltech.edu/Missions/spherex.html",
+    "normalized_url": "https://irsa.ipac.caltech.edu/Missions/spherex.html",
+    "labels": [
+      "NASA/IPAC Infrared Science Archive"
+    ],
+    "challenges": [
+      12
+    ],
+    "source_urls": [
+      "https://www.spaceappschallenge.org/2026/challenges/planet-x-and-spherex/?tab=resources"
+    ],
+    "id": "R103"
+  },
+  {
+    "url": "https://caltech-ipac.github.io/irsa-tutorials/spherex/",
+    "normalized_url": "https://caltech-ipac.github.io/irsa-tutorials/spherex",
+    "labels": [
+      "SPHEREx Tutorial Notebooks"
+    ],
+    "challenges": [
+      12
+    ],
+    "source_urls": [
+      "https://www.spaceappschallenge.org/2026/challenges/planet-x-and-spherex/?tab=resources"
+    ],
+    "id": "R104"
+  },
+  {
+    "url": "http://byw.tools/wiseview",
+    "normalized_url": "https://byw.tools/wiseview",
+    "labels": [
+      "WiseView"
+    ],
+    "challenges": [
+      12
+    ],
+    "source_urls": [
+      "https://www.spaceappschallenge.org/2026/challenges/planet-x-and-spherex/?tab=resources"
+    ],
+    "id": "R105"
+  },
+  {
+    "url": "https://archive.stsci.edu/missions-and-data/gaia",
+    "normalized_url": "https://archive.stsci.edu/missions-and-data/gaia",
+    "labels": [
+      "Gaia Mission Data"
+    ],
+    "challenges": [
+      12
+    ],
+    "source_urls": [
+      "https://www.spaceappschallenge.org/2026/challenges/planet-x-and-spherex/?tab=resources"
+    ],
+    "id": "R106"
+  },
+  {
+    "url": "https://www.asc-csa.gc.ca/eng/satellites/neossat/",
+    "normalized_url": "https://asc-csa.gc.ca/eng/satellites/neossat",
+    "labels": [
+      "NEOSSat: Observing Asteroids, Space Debris and Exoplanets"
+    ],
+    "challenges": [
+      12
+    ],
+    "source_urls": [
+      "https://www.spaceappschallenge.org/2026/challenges/planet-x-and-spherex/?tab=resources"
+    ],
+    "id": "R107"
+  },
+  {
+    "url": "https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/",
+    "normalized_url": "https://cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en",
+    "labels": [
+      "Canadian Astronomy Data Centre (CADC)"
+    ],
+    "challenges": [
+      12
+    ],
+    "source_urls": [
+      "https://www.spaceappschallenge.org/2026/challenges/planet-x-and-spherex/?tab=resources"
+    ],
+    "id": "R108"
+  },
+  {
+    "url": "https://github.com/asc-csa/NEOSSAT_Tutorial",
+    "normalized_url": "https://github.com/asc-csa/NEOSSAT_Tutorial",
+    "labels": [
+      "NEOSSat Data Tutorial"
+    ],
+    "challenges": [
+      12
+    ],
+    "source_urls": [
+      "https://www.spaceappschallenge.org/2026/challenges/planet-x-and-spherex/?tab=resources"
+    ],
+    "id": "R109"
+  },
+  {
+    "url": "https://data.asc-csa.gc.ca/dataset/neossat",
+    "normalized_url": "https://data.asc-csa.gc.ca/dataset/neossat",
+    "labels": [
+      "NEOSSat Dataset"
+    ],
+    "challenges": [
+      12
+    ],
+    "source_urls": [
+      "https://www.spaceappschallenge.org/2026/challenges/planet-x-and-spherex/?tab=resources"
+    ],
+    "id": "R110"
+  },
+  {
+    "url": "https://www.nasa.gov/wp-content/uploads/2025/04/250323-design-and-develop-science-mission.pdf?emrc=a454cf",
+    "normalized_url": "https://nasa.gov/wp-content/uploads/2025/04/250323-design-and-develop-science-mission.pdf?emrc=a454cf",
+    "labels": [
+      "Design and Develop Science Missions"
+    ],
+    "challenges": [
+      13
+    ],
+    "source_urls": [
+      "https://www.spaceappschallenge.org/2026/challenges/space-mission-design-game/?tab=resources"
+    ],
+    "id": "R111"
+  },
+  {
+    "url": "https://software.nasa.gov/software/GSC-19468-1",
+    "normalized_url": "https://software.nasa.gov/software/GSC-19468-1",
+    "labels": [
+      "General Mission Analysis Tool (GMAT)"
+    ],
+    "challenges": [
+      13
+    ],
+    "source_urls": [
+      "https://www.spaceappschallenge.org/2026/challenges/space-mission-design-game/?tab=resources"
+    ],
+    "id": "R112"
+  },
+  {
+    "url": "https://dataverse.jpl.nasa.gov/dataset.xhtml?persistentId=hdl:2014/44299",
+    "normalized_url": "https://dataverse.jpl.nasa.gov/dataset.xhtml?persistentId=hdl%3A2014%2F44299",
+    "labels": [
+      "Concept Maturity Levels (CMLs)"
+    ],
+    "challenges": [
+      13
+    ],
+    "source_urls": [
+      "https://www.spaceappschallenge.org/2026/challenges/space-mission-design-game/?tab=resources"
+    ],
+    "id": "R113"
+  },
+  {
+    "url": "https://etd.gsfc.nasa.gov/capabilities/integrated-design-center/mission-design-lab/",
+    "normalized_url": "https://etd.gsfc.nasa.gov/capabilities/integrated-design-center/mission-design-lab",
+    "labels": [
+      "Mission Design Lab (MDL)"
+    ],
+    "challenges": [
+      13
+    ],
+    "source_urls": [
+      "https://www.spaceappschallenge.org/2026/challenges/space-mission-design-game/?tab=resources"
+    ],
+    "id": "R114"
+  },
+  {
+    "url": "https://nasa.github.io/mission-viz/",
+    "normalized_url": "https://nasa.github.io/mission-viz",
+    "labels": [
+      "NASA Mission Viz"
+    ],
+    "challenges": [
+      13
+    ],
+    "source_urls": [
+      "https://www.spaceappschallenge.org/2026/challenges/space-mission-design-game/?tab=resources"
+    ],
+    "id": "R115"
+  },
+  {
+    "url": "https://science.nasa.gov/mission/webb/game-build-it-yourself/",
+    "normalized_url": "https://science.nasa.gov/mission/webb/game-build-it-yourself",
+    "labels": [
+      "A Learning Game About Telescopes"
+    ],
+    "challenges": [
+      13
+    ],
+    "source_urls": [
+      "https://www.spaceappschallenge.org/2026/challenges/space-mission-design-game/?tab=resources"
+    ],
+    "id": "R116"
+  },
+  {
+    "url": "https://www3.nasa.gov/sites/default/files/atoms/files/nasa_csli_cubesat_101_508.pdf",
+    "normalized_url": "https://www3.nasa.gov/sites/default/files/atoms/files/nasa_csli_cubesat_101_508.pdf",
+    "labels": [
+      "Cubesat 101 - Basic Concepts and Processes for First-Time CubeSat Developers"
+    ],
+    "challenges": [
+      13
+    ],
+    "source_urls": [
+      "https://www.spaceappschallenge.org/2026/challenges/space-mission-design-game/?tab=resources"
+    ],
+    "id": "R117"
+  },
+  {
+    "url": "https://www.spaceappschallenge.org/2023/challenges/visualize-a-space-mission-using-virtual-reality/",
+    "normalized_url": "https://spaceappschallenge.org/2023/challenges/visualize-a-space-mission-using-virtual-reality",
+    "labels": [
+      "Visualize a Space Mission Using Virtual Reality"
+    ],
+    "challenges": [
+      13
+    ],
+    "source_urls": [
+      "https://www.spaceappschallenge.org/2026/challenges/space-mission-design-game/?tab=resources"
+    ],
+    "id": "R118"
+  },
+  {
+    "url": "https://www.asc-csa.gc.ca/eng/youth-educators/digital-games-and-activities.asp",
+    "normalized_url": "https://asc-csa.gc.ca/eng/youth-educators/digital-games-and-activities.asp",
+    "labels": [
+      "Digital Games and Activities"
+    ],
+    "challenges": [
+      13
+    ],
+    "source_urls": [
+      "https://www.spaceappschallenge.org/2026/challenges/space-mission-design-game/?tab=resources"
+    ],
+    "id": "R119"
+  },
+  {
+    "url": "https://svs.gsfc.nasa.gov/gallery/earth-information-center/",
+    "normalized_url": "https://svs.gsfc.nasa.gov/gallery/earth-information-center",
+    "labels": [
+      "Earth Information Center (EIC) Content Database"
+    ],
+    "challenges": [
+      14
+    ],
+    "source_urls": [
+      "https://www.spaceappschallenge.org/2026/challenges/the-earth-information-jukebox/?tab=resources"
+    ],
+    "id": "R120"
+  },
+  {
+    "url": "https://svs.gsfc.nasa.gov/13786/",
+    "normalized_url": "https://svs.gsfc.nasa.gov/13786",
+    "labels": [
+      "Data Sonification: Caldwell 73"
+    ],
+    "challenges": [
+      14
+    ],
+    "source_urls": [
+      "https://www.spaceappschallenge.org/2026/challenges/the-earth-information-jukebox/?tab=resources"
+    ],
+    "id": "R121"
+  },
+  {
+    "url": "https://svs.gsfc.nasa.gov/5313/",
+    "normalized_url": "https://svs.gsfc.nasa.gov/5313",
+    "labels": [
+      "Change in Night Lights between 2012 and 2023 - EIC Version"
+    ],
+    "challenges": [
+      14
+    ],
+    "source_urls": [
+      "https://www.spaceappschallenge.org/2026/challenges/the-earth-information-jukebox/?tab=resources"
+    ],
+    "id": "R122"
+  },
+  {
+    "url": "https://svs.gsfc.nasa.gov/3912/#media_group_349716",
+    "normalized_url": "https://svs.gsfc.nasa.gov/3912#media_group_349716",
+    "labels": [
+      "Global Sea Surface Currents and Temperature"
+    ],
+    "challenges": [
+      14
+    ],
+    "source_urls": [
+      "https://www.spaceappschallenge.org/2026/challenges/the-earth-information-jukebox/?tab=resources"
+    ],
+    "id": "R123"
+  },
+  {
+    "url": "https://svs.gsfc.nasa.gov/5669/",
+    "normalized_url": "https://svs.gsfc.nasa.gov/5669",
+    "labels": [
+      "GEOS Aerosols"
+    ],
+    "challenges": [
+      14
+    ],
+    "source_urls": [
+      "https://www.spaceappschallenge.org/2026/challenges/the-earth-information-jukebox/?tab=resources"
+    ],
+    "id": "R124"
+  },
+  {
+    "url": "https://svs.gsfc.nasa.gov/5533/",
+    "normalized_url": "https://svs.gsfc.nasa.gov/5533",
+    "labels": [
+      "Air Quality Model Runs"
+    ],
+    "challenges": [
+      14
+    ],
+    "source_urls": [
+      "https://www.spaceappschallenge.org/2026/challenges/the-earth-information-jukebox/?tab=resources"
+    ],
+    "id": "R125"
+  },
+  {
+    "url": "https://svs.gsfc.nasa.gov/5425/",
+    "normalized_url": "https://svs.gsfc.nasa.gov/5425",
+    "labels": [
+      "Perpetual Ocean 2: Western Boundary Currents"
+    ],
+    "challenges": [
+      14
+    ],
+    "source_urls": [
+      "https://www.spaceappschallenge.org/2026/challenges/the-earth-information-jukebox/?tab=resources"
+    ],
+    "id": "R126"
+  },
+  {
+    "url": "https://svs.gsfc.nasa.gov/5196/",
+    "normalized_url": "https://svs.gsfc.nasa.gov/5196",
+    "labels": [
+      "DYAMOND Global Carbon Dioxide"
+    ],
+    "challenges": [
+      14
+    ],
+    "source_urls": [
+      "https://www.spaceappschallenge.org/2026/challenges/the-earth-information-jukebox/?tab=resources"
+    ],
+    "id": "R127"
+  },
+  {
+    "url": "https://svs.gsfc.nasa.gov/5011/",
+    "normalized_url": "https://svs.gsfc.nasa.gov/5011",
+    "labels": [
+      "Lightning Events Detected from the ISS 2017-2023"
+    ],
+    "challenges": [
+      14
+    ],
+    "source_urls": [
+      "https://www.spaceappschallenge.org/2026/challenges/the-earth-information-jukebox/?tab=resources"
+    ],
+    "id": "R128"
+  },
+  {
+    "url": "https://svs.gsfc.nasa.gov/4960/",
+    "normalized_url": "https://svs.gsfc.nasa.gov/4960",
+    "labels": [
+      "A 3D View of an Atmospheric River from an Earth System Model"
+    ],
+    "challenges": [
+      14
+    ],
+    "source_urls": [
+      "https://www.spaceappschallenge.org/2026/challenges/the-earth-information-jukebox/?tab=resources"
+    ],
+    "id": "R129"
+  },
+  {
+    "url": "https://svs.gsfc.nasa.gov/4950/",
+    "normalized_url": "https://svs.gsfc.nasa.gov/4950",
+    "labels": [
+      "GEDI Forest Height"
+    ],
+    "challenges": [
+      14
+    ],
+    "source_urls": [
+      "https://www.spaceappschallenge.org/2026/challenges/the-earth-information-jukebox/?tab=resources"
+    ],
+    "id": "R130"
+  }
+]

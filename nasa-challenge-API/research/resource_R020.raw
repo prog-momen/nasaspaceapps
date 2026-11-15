@@ -1,0 +1,339 @@
+
+Content-Type: text/html
+
+
+<!doctype html>
+<html lang="en">
+<head>
+<!-- beheerder: climate-explorer@knmi.nl -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<meta name="robots" content="noindex,nofollow">
+<link rel="stylesheet" href="styles/rccstyle_v2.css" type="text/css">
+<link rel="shortcut icon" href="/favicon.ico"> 
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<title>Climate Explorer: Welcome to Climate Explorer</title>
+<style type="text/css">
+a { text-decoration: none }
+</style>
+</head>
+<body>
+<div id="top"></div>
+<!-- font import WMO style-->
+<script language="javascript" src="library/javascript/hidden_info_switch.js"></script>
+<script language="javascript" src="library/javascript/pop_page.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<a hidden href="#content">Skip to content</a>
+<div class="header2020">
+
+<div class="rechtsheader">
+<ul class="headerlink2020">
+<li>
+<a href="https://public.wmo.int/en">WMO</a>
+</li>
+<li>
+&nbsp;&nbsp;&nbsp;&nbsp;
+</li>
+<li>
+<a href="http://www.ecad.eu/"> European Climate Assessment &amp; Dataset</a>
+</li>
+<li>
+&nbsp;&nbsp;&nbsp;&nbsp;
+</li>
+<li>
+<a href="http://www.knmi.nl/">KNMI</a>
+</li>
+</ul>
+
+<h2><a href="https://climexp.knmi.nl/start.cgi?id=someone@somewhere">KNMI Climate Explorer</a>
+</h2>
+
+</div>
+</div>
+
+<!-- <center><p style="color:red"><b>The Climate Explorer is down for Maintenance.</b></center> -->
+
+<nav class="navbar navbar-default navbar-static-top" role="navigation">
+			<div class="container2">
+         <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" 
+		aria-expanded=false aria-controls="bs-example-navbar-collapse-1" data-target="#bs-example-navbar-collapse-1">
+
+        <span class="sr-only">Menu</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav">
+
+<li class="head-menu"><a href="/start.cgi?id=someone@somewhere">Home</a></li>
+<li class="head-menu"><a href="/help.cgi?id=someone@somewhere">Help</a></li>
+<li class="head-menu"><a href="/news.cgi?id=someone@somewhere">News</a></li>
+<li class="head-menu"><a href="/about.cgi?id=someone@somewhere">About</a></li>
+<li class="head-menu"><a href="/monthly_overview_world_weather/index.cgi?id=someone@somewhere">World weather</a></li>
+<li class="head-menu"><a href="/effects.cgi?id=someone@somewhere">Effects of ENSO</a></li>
+<!--<li><a href="/kprep_seasonal_forecasts.cgi?id=someone@somewhere">Seasonal forecasts</a></li>-->
+<li class="head-menu"><a href="/plot_atlas_form.py?id=someone@somewhere">Climate Change Atlas</a></li>
+<li class="head-menu"><a href="/citation.cgi?id=someone@somewhere">Cite Us!</a></li>
+
+    </ul>
+  </div>
+</div>
+</nav>
+
+
+<div class="container-fluid content">
+	<div class="row">
+            <div class="col-md-8">
+            
+	        <!--  Server maintenance news to be re-added as needed -->
+            <!-- <p style="font-weight: bold; color: black;">Climate Explorer has recently undergone maintenance and upgrades. If you spot any issues, please contact <a style="font-weight: bold;" href="mailto:climate-explorer@knmi.nl">the administrator</a>.</p> -->
+
+            <!-- TEMPORARY MESSAGE ON ALL PAGES -->
+            <!-- <a style="font-weight: bold; color: blue;">Please note: the Climate Explorer will undergo external server maintenance Monday, 02.02.2026 at 9:00-11:00 am CET and will not be available during the maintenance. We apologise for any inconvenience and thank you for your understanding!</a></p> -->
+
+            <!-- <a style="font-weight: bold; color: #DD0000;" href="citation.cgi?id=FORM_EMAIL">Kindly reminder: Support the KNMI Climate Explorer by citing it. Click here. Thank you!</a> -->
+            <a style="color: #DD0000;" href="/citation.cgi?id=FORM_EMAIL">Kindly reminder: Support the KNMI Climate Explorer by citing it. Click here. Thank you!</a></p>
+            <div class="breadc2020"><a href="/start.cgi?id=someone@somewhere">Home</a> &mdash; Welcome to Climate Explorer: </div>
+            <h2>Welcome to Climate Explorer</h2>
+            <br>
+<a name="content"></a>
+<!-- Voeg hieronder de inhoud van de pagina in -->
+
+<p>
+<span style="color: #DD0000"><b>Please read:</b></span> 
+To tackle increasing web traffic from spambots blocking the server for legitimate users, we are asking users to now verify that they are human before using the Climate Explorer. 
+You will only have to do this once for a given computer or network. 
+This is not related to your user ID. 
+Please contact <a href="mailto:climate-explorer@knmi.nl">the administrator</a> if you run into problems with this service, or wish to have your IP address manually added to our system. 
+</p>
+<div onmousemove="motion(event)">
+<form action="start.cgi" method="POST">
+<table>
+<tr><td>
+<input type="hidden" name="motion" id="motion" value="0"/>
+<input type="hidden" name="challenge" id="challenge" value="4001434712862408574"/>
+<p><b>I verify that I am human:</b> <input type="submit" value="Click here" class="formbutton"/></p>
+</td></tr>
+</table>
+</form>
+</div>
+<script type="text/javascript">
+document.onkeydown = function() {keypress()};
+function motion(event) {
+    document.getElementById("motion").value="1";
+}
+function keypress() {
+    document.getElementById("motion").value="1";
+}
+
+</script>
+<hr>
+<h2>About the Climate Explorer</h2>
+<p>The KNMI Climate Explorer is a web-based scientific analysis tool developed and maintained by the Royal Netherlands Meteorological Institute (KNMI).
+It is designed to help researchers, students, and climate analysts explore, analyze, and visualize climate data from a wide range of sources. The tool is freely accessible online and is widely used in climate science, especially for studying climate variability and change. The Climate Explorer is freely accessible and is widely used in climate science, especially for studying climate variability and change.
+
+<p> The Climate Explorer is part of the WMO Regional Climate Centre at KNMI. It contains more than 10 TB of climate data and dozens of analysis tools to provide an interactive environment for climate data exploration and statistical analysis. These include
+<ul>
+<li>Surface temperature records from weather stations worldwide</li>
+<li>Precipitation data</li>
+<li>Atmospheric pressure and wind observations</li>
+<li>Reanalysis of datasets (combined observations and model reconstructions of past weather)</li>
+<li>Outputs from global climate models (such as CMIP experiments)</li>
+<li>Future climate scenario simulations</li>
+</ul>
+
+<p>Much of the observational data is updated monthly, part of the
+daily data is updated every day. Other data is updated when needed. If
+you have an interesting dataset that you want us to consider for
+publishing on the KNMI Climate Explorer, please send us the URL of a
+<a href="http://cf-pcmdi.llnl.gov/" target="_new">CF-compliant netcdf
+file</a> and a short description. Note that publishing is not guaranteed and is at the discretion of the maintainers. 
+
+<p>The Climate Explorer provides several built-in analysis tools for working directly with climate data in your browser.
+Users can generate time series to examine climate variability and trends, including anomaly calculations relative to a reference period.
+Analysis is available to compare average climate conditions during selected events or periods, such as extreme weather years or known climate phases.
+Trend analysis tools allow calculation of long-term changes, paired with significance testing to assess robustness.
+Results from all analyses can be visualized and downloaded for further use.
+
+<p>The code of the KNMI Climate Explorer itself is freely available on <a href="https://gitlab.com/KNMI-OSS/climexp">GitLab</a>.
+
+<figure>
+<figcaption><div class="bijschrift"></div></figcaption>
+<center>
+<img src="monthly_overview_world_weather/data-folder/2023/prcp_gpcc_yr02023_frac.png" alt="" border=0 class="realimage" hspace=0 vspace=0 width=100%>
+</center>
+</figure>
+
+<h2>Your first time with the Climate Explorer</h2>
+New users are adviced to study the examples and the manual. There is also an old <a href="/publications/the_climate_explorer.pdf">presentation</a> available that gives an overview of the system, and a more recent <a href="publications/Climexp_Brazil.mp4">video presentation</a> focussing mainly on the Atlas. <a href="http://www.bioone.org/doi/abs/10.3959/1536-1098-69.1.3" target=_new>Trouet and van Oldenborgh</a> (TRR, 2013) gives a useful overview and manual for paleo-climatologists and others who try to understand the influence of climate on their time series.
+
+<p>In the Climate Explorer pages, the <a href="help.cgi?id=someone@somewhere"><img src="images/info-i.gif" alt="help" border="0"></a> symbol indicates a help pop-up.  Below an alphabetical list of these pop-ups is given.  Please contact <a href="mailto:climate-explorer@knmi.nl">the administrator</a> if the help text is confusing, or missing in a place where it is needed.
+
+<br><br>
+<div id="div_id"></div>
+Here we show three manuals used for presentations or workshops that guide the user through some parts of the Climate Explorer. Note that these manuals are not being updated on a regular basis.
+<br>
+<ul class="dash-list">
+  <li><a href="/publications/Romania_Climate_Explorer_temperature.pdf">temperature data</a> and <a href="/publications/Romania_Climate_Explorer_precipitation.pdf">precipitation data</a>: 
+find and analyse for a point location: station data, gridded data, reanalysis data.
+  </li>
+
+  <li><a href="/publications/training_climexp_Accessing-and-downloading-data.pdf">assessing and downloading data</a>:
+sign in; 
+assess data; 
+investigate time series; 
+create extremes series; 
+download (processed) data; 
+gridded data; 
+select subregion; 
+create time series of extreme index; 
+trend analysis.
+  </li>
+
+<li><a href="/publications/Manual_Climate_Explorer_steps_2024.pdf">attribution protocol</a>:
+Create map of the event; 
+Create map of rank; 
+Create climatology map; 
+Create time series from field; 
+Plot last N days; 
+Generate extreme time series;  
+Plot 15-year running standard deviation /dispersion; 
+Calculate trends in return times of extremes; 
+model evaluation and attribution; 
+synthesis of attribution results.
+</li>
+</ul>
+<p>Do not forget to cite the KNMI Climate Explorer in your publications!
+
+<h2>Citation of the Climate Explorer</h2>
+<p>It is much easier for us to get funded to maintain the
+KNMI Climate Explorer if it is cited in scientific journals. Academic
+tradition requires you to cite works you base your article on. If you
+use the KNMI Climate Explorer to process data for an article in a
+scientific publication, please cite:
+
+<blockquote>
+KNMI Climate Explorer. c2022. de Bilt: Koninklijk Nederlands Meteorologisch Instituut (KNMI); [accessed 2025 Nov 17]. https://climexp.knmi.nl/start.cgi. 
+</blockquote>
+
+<p>This example (change the access date as needed) is based on the '<a href="https://www.scientificstyleandformat.org/Tools/SSF-Citation-Quick-Guide.html">Scientific Style and Format Citation Quick Guide</font></a>' from the Council of
+Science Editors. Please adapt to your journal guidelines.
+
+<p>In publications the original data source should also be cited. The Climate Explorer provides a link to a web page describing the data. If this link is broken, please <a 
+href="contact.cgi?id=someone@somewhere">let us know</a> and we will try to fix it.
+
+<h2>Contact us!</h2>
+The support team of the KNMI Climate Explorer originally consisted of <a 
+href="in-memoriam.html">one research scientist</a>, next to his day job 
+writing <a href="https://scholar.google.nl/citations?hl=nl&user=q9wj1loAAAAJ&view_op=list_works&sortby=pubdate">research 
+papers</a>. He supported the Climate Explorer and related projects.
+
+<p>The Climate Explorer relies on the users to report bugs, please mail <a 
+href="mailto:climate-explorer@knmi.nl">the administrator</a> when something does not work as advertised.
+<p>Some restrictions are in force: the site does not remember how you filled out the forms, you cannot define your own indices, nor upload data into the Climate Explorer or handle large datasets. If you want to use these features please <a href="registerform.cgi"><u>log in or register</u></a>.
+<h2>Recent news</h2>
+This is an excerpt of our most recent news, announcements, and updates.
+<table class="realtable" width="100%" border=0 cellpadding=0 cellspacing=0>
+<tr><th colspan="2">News</th></tr>
+<tr><td class="datumtd">14-sep-2026</td><td>Updated UK Met Office datasets CRUTEM (5.1), ISST2 (2.2), HadSST (4.2), HadNMAT2 (2.0.1)</td></tr>
+<tr><td class="datumtd">01-sep-2026</td><td>Updated E-OBS global radiation to version 31</td></tr>
+<tr><td class="datumtd">01-sep-2026</td><td>Updated E-OBS to version 33 (32 for wind speed, and global radiation remains at 30)</td></tr>
+<tr><td class="datumtd">01-sep-2026</td><td>Upgraded CRU TS and scPDSI to their 4.10 version running up to 2025</td></tr>
+<tr><td class="datumtd">26-jan-2026</td><td>Add global (0.5°) and regional (0.25°) daily <a href=https://www.nature.com/articles/s41597-021-01003-9><b>dPET</b></a> from Bristol University</td></tr>
+<tr><td class="datumtd">12-jan-2026</td><td>Update and add new cyclones data sets from Colorado State University</td></tr>
+<tr><td class="datumtd">09-jan-2026</td><td>Add global daily dPET derived from ERA5-Land from Bristol University (experimental, 0.5° only)</td></tr>
+<tr><td class="datumtd">30-oct-2025</td><td>Climate Explorer experienced a server issue this morning. The issue has now been resolved and service has returned to normal.</td></tr>
+<tr><td class="datumtd">06-oct-2025</td><td>Add E-OBS 0.1 degree</td></tr>
+<tr><td class="datumtd">06-oct-2025</td><td>The cluster platform used by the Climate Explorer has been updated</td></tr>
+<tr><td class="datumtd">09-sep-2025</td><td>Updated soil moisture from Land Data Assimilation System (FLDAS) up to last month</td></tr>
+<tr><td class="datumtd">09-jul-2025</td><td>Climate Explorer has recently undergone maintenance and upgrades to allow future improvemenets. If you encounter any issues with the site, please report them to <a href="mailto:climate-explorer@knmi.nl">the administrator</a>.</td></tr>
+<tr><td class="datumtd">26-may-2025</td><td>Updated E-OBS to version 31 (30 for global radiation)</td></tr>
+<tr><td class="datumtd">19-may-2025</td><td>Added HadEX3 analyses of extreme indices (replaces HadEx2)</td></tr>
+<tr><td class="datumtd">17-apr-2025</td><td>A new side menu section Toolbox Attribution Studies has been added with the existing Attribution Runs feature and two new tools - Analogues and Synthesis.</td></tr>
+<tr><td class="datumtd">04-feb-2025</td><td>We will soon be deploying a new IP whitelisting feature in an attempt to block automated spam traffic and hopefully improve performance for legitimate users. This will require you to click on a confirmation button. After clicking, you will not be asked again until you change network (e.g. connect to a VPN, travel to another location). We will not require any personal information during this process. Please report problems you encounter to <a href="mailto:climate-explorer@knmi.nl">the administrator</a>.</td></tr>
+<tr><td class="datumtd">16-dec-2024</td><td>Climate Change Atlas updated to include KNMI23 CMIP6 data and AR6 regions. You may have to refresh your browser to see the new version. Please report issues to the administrator.</td></tr>
+<tr><td class="datumtd">28-oct-2024</td><td>Provide PDO from HadISST, COBE2 and ERSST5</td></tr>
+<tr><td class="datumtd">28-oct-2024</td><td>Updated E-OBS to the Copernicus version 30.0e</td></tr>
+<tr><td class="datumtd">07-oct-2024</td><td>Look and feel of side menu reworked. You may need to refresh your browser for the changes to take effect. Please report issues to the administrator.</td></tr>
+<tr><td><a href="news.cgi?id=someone@somewhere&all=all">more...</a></td><td>&nbsp;</td></tr></table>
+<div class="footercontainerroot">
+    <div class="pre-footer footercontainer">
+        <div class="region region-pre-footer">
+            <section class="block block-menu pre-footer-wmo clearfix" id="block-menu-menu-pre-footer-wmo">
+                <h2 class="block-title">WMO</h2>
+                <ul class="menu nav">
+                    <li class="first leaf">
+                        <a href="https://public.wmo.int/en/about-us/governance" target="_blank" title="">
+                            Governance
+                        </a>
+                    </li>
+                    <li class="leaf">
+                        <a href="https://public.wmo.int/en/our-mandate/how-we-do-it/partnerships" target="_blank" title="">
+                            Partnerships
+                        </a>
+                    </li>
+                    <li class="leaf">
+                        <a href="https://public.wmo.int/en/about-us/contact-us" target="_blank" title="">
+                            Contact us
+                        </a>
+                    </li>
+                    <li class="leaf">
+                        <a href="https://public.wmo.int/en/about-us/procurement" target="_blank" title="">
+                            Procurement
+                        </a>
+                    </li>
+                    <li class="leaf">
+                        <a href="https://public.wmo.int/en/privacy-policy" target="_blank" title="">
+                            Privacy policy
+                        </a>
+                    </li>
+                    <li class="last leaf">
+                        <a href="https://public.wmo.int/en/about-us/planning-finance-accountability/internal-oversight-office/report-fraud-corruption-or-abuse" target="_blank" title="">
+                            Report fraud, corruption or abuse
+                        </a>
+                    </li>
+                </ul>
+            </section>
+        </div>
+    </div>
+
+    <div class="footercontainer py-2 footer-bar">
+        <div class="row justify-content-between align-items-center">
+            <div class="col-12 col-md-auto py-2 py-md-0 flex-last flex-md-first text-center">
+                <div class="text-muted">
+                    <ul class="list-unstyled m-0 d-inline-block footer-bar-menu">
+                        <li class="menu-755 first"><a href="https://public.wmo.int/en" target="_blank">WMO Public
+                            site</a></li>
+                        <li class="menu-757">
+                            <a href="https://public.wmo.int/en/disclaimer" target="_blank">
+                                Disclaimer
+                            </a>
+                        </li>
+                    </ul>
+                    <br>
+                    <div class="copywmo">
+                        &copy; 2026
+                        <a href="https://www.knmi.nl/copyright">KNMI</a> (results, code) /
+                        <a href="https://public.wmo.int/en/copyright" target="_blank">World Meteorological Organization (WMO)</a> (design) /
+                        <a href="https://www.emetsoc.org/ems-technology-award-2021-for-geert-jan-van-oldenborgh/">Winner of the EMS Technology Achievement Award 2021</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-auto py-2 py-md-0 flex-first flex-md-last text-center">
+            </div>
+        </div>
+    </div>
+</div>
+<a class="toppop" href="#"><img alt="Back to top" src="/vinklude/images/arrowup.png"></a>
+<!-- Put this here to trap existing code on page -->
+<script src="/library/javascript/menu_collapser.js" type="text/javascript"></script>
+</body>
+</html>

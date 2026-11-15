@@ -1,0 +1,418 @@
+Your Gateway to NASA Earth Observation Data | NASA Earthdata
+Skip to main content
+Earthdata Forum is down due to unplanned maintenance. Please contact earthdata-support@nasa.gov with questions.
+See the alert
+Suomi NPP is no longer delivering new data. Users must transition to alternative products.
+Suomi NPP data announcement
+Home
+Data
+Data Catalog
+Data Alerts and Outages
+Projects
+Land, Atmosphere Near real-time Capability for Earth observation (LANCE)
+Harmonized Landsat and Sentinel-2 (HLS)
+Applied Remote Sensing Training Program (ARSET)
+Observation Methods
+Platforms
+Instruments
+Space Geodesy Techniques
+Data Tools
+Earthdata Search
+Worldview
+Fire Information for Resource Management System (FIRMS)
+Vertex
+Giovanni
+Application for Extracting and Exploring Analysis Ready Samples (AppEEARS)
+Visualization, Exploration, and Data Analysis (VEDA)
+Ocean Color Level 3 and 4 Browser
+Topics
+Atmosphere
+Biosphere
+Climate Indicators
+Cryosphere
+Human Dimensions
+Land Surface
+Ocean
+Solid Earth
+Sun-Earth Interactions
+Terrestrial Hydrosphere
+View All Topics
+Learn
+Earth Observation Data Basics
+GIS Resources
+Data in Action
+Data Recipes
+Trainings
+Tutorials
+Webinars
+Publications
+Centers
+Distributed Active Archive Centers (DAACs)
+Alaska Satellite Facility (ASF) DAAC
+Atmospheric Science Data Center (ASDC)
+Crustal Dynamics Data Information System (CDDIS)
+Global Hydrometeorology Resource Center (GHRC) DAAC
+Goddard Earth Sciences Data and Information Services Center (GES DISC)
+Land Processes (LP) DAAC
+Level 1 and Atmosphere Archive and Distribution System (LAADS) DAAC
+National Snow and Ice Data Center (NSIDC) DAAC
+Oak Ridge National Laboratory (ORNL) DAAC
+Ocean Biology DAAC (OB.DAAC)
+Physical Oceanography DAAC (PO.DAAC)
+Science Investigator-led Processing Systems (SIPS)
+MODIS Adaptive Processing System (MODAPS) SIPS
+Ocean SIPS
+Microwave Limb Sounder (MLS) SIPS
+Ozone Monitoring Instrument (OMI) SIPS
+Atmosphere SIPS
+Land SIPS
+Ozone Mapping and Profiler Suite SIPS
+Sounder SIPS
+Suborbital Data Resource Center
+Engage
+Open Data, Services, and Software Policies
+Open Science and Data Management Plan
+For Researchers and Grantees
+Data Management Guidance
+Data Rights and Related Issues
+Data Use Guidance
+For Developers
+APIs
+Common Metadata Repository
+For Data Providers
+Adding New Data
+DOI Process
+Standards
+About
+ESDS Leadership
+Organizational Chart
+Multi-Mission Data Processing System Study
+Earth Science Data and Information System (ESDIS) Project
+ESDS Digital Strategy and User Development Team
+Earth Science Data Systems Geographic Information Systems Team (EGIST)
+Competitive Programs
+News & Events
+News
+Events
+Worldview Image of the Week
+Feature Articles
+Data User Stories
+Earthdata Blog
+Data Alerts System
+Subscribe to the Earthdata Newsletter
+Data
+Toggle submenu
+Data
+Data Catalog
+Data Alerts and Outages
+Projects
+Land, Atmosphere Near real-time Capability for Earth observation (LANCE)
+Harmonized Landsat and Sentinel-2 (HLS)
+Applied Remote Sensing Training Program (ARSET)
+Observation Methods
+Platforms
+NASA operates state-of-the-art platforms that collect critical information about our home planet. Drill down to the data and tools you need by exploring platforms on Earth and in the sky.
+Instruments
+From the ground and into space, instruments aboard NASA platforms collect a vast array of Earth science data.
+Space Geodesy Techniques
+These data are used to support scientific and societal applications Earth observations, positioning, navigation, and timing.
+Data Tools
+Earthdata Search
+Worldview
+Fire Information for Resource Management System (FIRMS)
+Vertex
+Giovanni
+Application for Extracting and Exploring Analysis Ready Samples (AppEEARS)
+Visualization, Exploration, and Data Analysis (VEDA)
+Ocean Color Level 3 and 4 Browser
+?
+Get help from experienced data users and managers on Earthdata Forum
+Topics
+Toggle submenu
+Data Pathfinders by Topic
+Atmosphere
+The atmosphere is a gaseous envelope surrounding and protecting our planet from the intense radiation of the Sun.
+Biosphere
+The biosphere encompasses all life on Earth and extends from root systems to mountaintops and all depths of the ocean.
+Climate Indicators
+Climate Indicators hold key information for the most relevant domains of climate change: temperature and energy, atmospheric composition, ocean and water as well as the cryosphere.
+Cryosphere
+The cryosphere encompasses the frozen parts of Earth, including glaciers and ice sheets, sea ice, and any other frozen body of water.
+Human Dimensions
+The human dimensions discipline includes ways humans interact with the environment and how these interactions impact Earth’s systems.
+Land Surface
+The land surface discipline includes research into areas such as shrinking forests, warming land, and eroding soils.
+Ocean
+This vast, critical reservoir supports a diversity of life and helps regulate Earth’s climate.
+Solid Earth
+Processes occurring deep within Earth constantly are shaping landforms.
+Sun-Earth Interactions
+The Sun influences physical and chemical processes in Earth’s atmosphere.
+Terrestrial Hydrosphere
+The terrestrial hydrosphere includes water on the land surface and underground in the form of lakes, rivers, and groundwater along with total water storage.
+Featured Data Pathfinders by Topic
+Air Quality
+Agriculture Production
+Natural Hazards
+Water Quality
+Climate Resilience
+View all Topics
+Learn
+Toggle submenu
+Learn
+Earth Observation Data Basics
+Learn key terms and concepts like remote sensing and processing levels.
+GIS Resources
+Explore resources for the Geographic Information Systems (GIS) community, including StoryMaps.
+Data Support
+Connect with experienced data users and managers through the Earthdata Forum for help with datasets, tools, and services.
+Data in Action
+Data in Action demonstrates Earth science data applications with interactive explanations as to how the work was accomplished.
+Data Recipes
+Data Recipes are code-based instructions that help data scientists accomplish a specific task, such as converting data into a specific format for analysis or visualization.
+Trainings
+Trainings are interactive opportunities to develop technical skills with NASA Earth science data.
+Tutorials
+Tutorials are step by step “how to” content that cover a broad range of tasks, from data collection to visualization.
+Webinars
+Webinars are video seminars featuring experts in various disciplines who share their knowledge in a particular subject area, from data in the cloud to specific data tools.
+Publications
+Access publications citing NASA Earth science data.
+Centers
+Toggle submenu
+Centers
+Distributed Active Archive Centers (DAACs)
+Science Investigator-led Processing Systems (SIPS)
+Alaska Satellite Facility (ASF) DAAC
+Atmospheric Science Data Center (ASDC)
+Crustal Dynamics Data Information System (CDDIS)
+Global Hydrometeorology Resource Center (GHRC) DAAC
+Goddard Earth Sciences Data and Information Services Center (GES DISC)
+Land Processes (LP) DAAC
+Level 1 and Atmosphere Archive and Distribution System (LAADS) DAAC
+National Snow and Ice Data Center (NSIDC) DAAC
+Oak Ridge National Laboratory (ORNL) DAAC
+Ocean Biology DAAC (OB.DAAC)
+Physical Oceanography DAAC (PO.DAAC)
+MODIS Adaptive Processing System (MODAPS) SIPS
+Ocean SIPS
+Microwave Limb Sounder (MLS) SIPS
+Ozone Monitoring Instrument (OMI) SIPS
+Atmosphere SIPS
+Land SIPS
+Ozone Mapping and Profiler Suite SIPS
+Sounder SIPS
+Suborbital Data Resource Center
+All of the resources for the airborne and field data community within our program can be found here.
+Engage
+Toggle submenu
+Engage
+Open Data, Services, and Software Policies
+Open Science and Data Management Plan
+For Researchers and Grantees
+Data Management Guidance
+Data Rights and Related Issues
+Data Use Guidance
+For Developers
+APIs
+Common Metadata Repository
+For Data Providers
+Adding New Data
+DOI Process
+Standards
+About
+Toggle submenu
+About
+ESDS Leadership
+Meet the Earth Science Data Systems Program leadership team.
+Organizational Chart
+View the internal structure of the ESDS Program.
+Multi-Mission Data Processing System Study
+We are considering the right data processing system for open-source data.
+Contact Us
+Find the right contact for questions, feedback, or support related to NASA Earthdata.
+Earth Science Data and Information System (ESDIS) Project
+ESDS Digital Strategy and User Development Team
+Earth Science Data Systems Geographic Information Systems Team (EGIST)
+Competitive Programs
+Program Performance and Metrics
+Access overall ingest, archive, and distribution metrics for the ESDS program.
+News & Events
+Toggle submenu
+News
+View the latest updates from Earthdata.
+Events
+Sign up or watch a past recording of events covering Earth science data topics.
+Worldview Image of the Week
+Learn about the Earth through the lens of NASA’s Worldview.
+Data Alerts System
+Subscribe to the Earthdata Newsletter
+Feature Articles
+Read stories inspired by NASA Earth science data.
+Data User Stories
+Discover how people are researching with NASA Earth science data.
+Earthdata Blog
+Take a deeper dive into NASA Earth science data.
+Latest News
+2 MIN READ
+Atmospheric River Season for the Pacific Northwest
+Worldview Image of the Week
+Nov 13, 2026
+1 MIN READ
+earthaccess Hackathon at AGU 2026
+Event
+Nov 10, 2026
+Search
+Your Gateway to NASA  Earth Observation Data
+The Earth Science Data Systems (ESDS) Program provides open access to NASA’s archive of Earth science data, empowering researchers and decision makers to better understand and protect our home planet.
+Search
+Data Catalog
+Explore petabytes of unrestricted Earth science data.
+Data Tools
+From discovery to visualization, our data tools simplify and streamline Earth science research.
+Data Alerts and Outages
+Track releases of new and updated datasets, as well as outages for instruments, platforms, and data centers.
+Browse Data by Topic
+Our data pathfinders guide you by topic to the data, tutorials, and tools you need for your research.
+Atmosphere
+Biosphere
+Climate Indicators
+Cryosphere
+Human Dimensions
+Land Surface
+Ocean
+Solid Earth
+Sun-Earth Interactions
+Terrestrial Hydrosphere
+New on Earthdata
+Read More in the News
+Worldview Image of the Week
+2 MIN READ
+Atmospheric River Season for the Pacific Northwest
+Rainy season brings some relief after the summer's severe drought
+Tutorial
+5 MIN READ
+How to Search & Order Data With the LAADS Find Data Interface
+This tutorial guides the user through the LAADS Find Data Interface.
+Event
+1 MIN READ
+earthaccess Hackathon at AGU 2026
+The NASA Openscapes group is hosting an earthaccess hackathon on Wednesday, December 9, 2026 from 3:30 to 6:30pm during the American Geophysical Union Fall Meeting.
+News
+8 MIN READ
+What a Difference an Hour Makes
+TEMPO's hourly scans of North America are revolutionizing air quality monitoring across the continent.
+1 MIN READ
+Tracking the Journey of Iceberg A81
+Worldview Image of the Week
+3 MIN READ
+Transitioning From Suomi NPP to NOAA-20 and NOAA-21: What LANCE Users Need to Know
+Blog
+2 MIN READ
+Autumnal Colors in the Ridge and Valley Province
+Worldview Image of the Week
+3 MIN READ
+Detecting Station Errors Quickly in Earth Laser Ranging Data
+News
+Featured Data Tools
+From discovery to visualization, our data tools simplify and streamline your research.
+Earthdata Search
+Earthdata Search enables data discovery, search, comparison, visualization, and access across NASA’s Earth science data holdings.
+Earthdata GIS
+Earthdata GIS is a resource for distributing cloud-native, GIS-ready NASA Earth science data and services, including over 200 raster and feature geospatial services as well as resources such as thematic applications and ArcGIS StoryMaps.
+GUARDIAN
+The GNSS-based Upper Atmospheric Realtime Disaster Information and Alert Network (GUARDIAN) is a near real-time (NRT) ionospheric monitoring tool for natural hazards warning.
+Open Science
+We empower a collaborative scientific process through the open sharing of data and knowledge. Our
+open data, services, and software policies
+ensure that data are fully available to any user for any purpose.
+Earth Science Data Systems 2025 Fiscal Year Highlights
+View All Program Metrics
+Archived Data Volume
+Data Archive Growth Projection
+Image
+Image
++7.4 billion
+files distributed to end users
+10+ million
+distinct data and service users
+178+ petabytes
+of Earth science data available
+Explore Learning Resources
+NASA’s massive archive of Earth science data are free and open to any user for any purpose—but accessing, analyzing, visualizing, and applying these data requires a certain degree of knowledge about Earth observation data and how it is collected and optimized.
+Check out our catalog of learning resources to better understand data basics, explore geographic information systems (GIS), and level up your skills in areas ranging from data in the cloud to using a representational state transfer (REST) interface.
+Data in Action
+Data in Action demonstrates Earth science data applications with interactive explanations as to how the work was accomplished.
+Data Recipes
+Data Recipes are code-based instructions that help users accomplish a specific task, such as converting data into a specific format for analysis or visualization.
+Tutorials
+Tutorials are step by step “how to” content that cover a broad range of tasks, from data discovery to application.
+Webinars
+Webinars are video seminars and workshops featuring experts in various disciplines who share their knowledge in a particular subject area, from data in the cloud to specific data tools.
+Footer
+Find Data
+Data Catalog
+Data Tools
+Platforms
+Instruments
+Space Geodesy Techniques
+Projects
+Data Alerts and Outages
+Earthdata Login
+Data Pathfinders by Topic
+Atmosphere
+Biosphere
+Climate Indicators
+Cryosphere
+Human Dimensions
+Land Surface
+Ocean
+Solid Earth
+Sun-Earth Interactions
+Terrestrial Hydrosphere
+Learn
+Earth Observation Data Basics
+Earthdata Forum
+Webinars
+Trainings
+Tutorials
+Data in Action
+Data Recipes
+GIS Resources
+StoryMaps
+Publications
+Centers
+ASF DAAC
+ASDC
+CDDIS
+GHRC DAAC
+GES DISC
+LP DAAC
+LAADS DAAC
+NSIDC DAAC
+ORNL DAAC
+OB.DAAC
+PO.DAAC
+Sea Level Change Portal
+Suborbital Data Resource Center
+Engage
+Data Management Guidance for ESD-funded Researchers
+Open Data, Services, and Software Policies
+Public and Private Partnerships
+Memberships and Affiliations
+News
+Events
+Newsletter
+Contact
+Footer Submenu
+Web Privacy Policy
+Data and Information Guidance
+Communications Policy
+FOIA
+Accessibility
+Sitemap
+USA.gov
+Site last Updated:
+Nov. 6, 2026
+NASA Official:
+Katie Baynes

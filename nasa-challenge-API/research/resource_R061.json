@@ -1,0 +1,314 @@
+{
+  "id": "resource_R061",
+  "url": "https://www.nal.usda.gov/services/agdatacommons",
+  "checked_at": "2026-11-14T15:15:16.844191+00:00",
+  "tls_validation": false,
+  "status": 200,
+  "final_url": "https://www.nal.usda.gov/services/agdatacommons",
+  "bytes": 44104,
+  "content_type": "text/html; charset=utf-8",
+  "sha256": "5da2cb01b84ea6985b9a948a5f7f8cc627ba6c8a56db9ef283b9b2da5680b171",
+  "links": [
+    {
+      "url": "https://www.nal.usda.gov/services/agdatacommons#main-content",
+      "label": "Skip to main content"
+    },
+    {
+      "url": "https://www.nal.usda.gov/",
+      "label": "National Agricultural Library"
+    },
+    {
+      "url": "https://www.usda.gov",
+      "label": "U.S. Department of Agriculture"
+    },
+    {
+      "url": "https://www.nal.usda.gov/ask-question",
+      "label": "Ask A Question"
+    },
+    {
+      "url": "https://www.nal.usda.gov/contact-us",
+      "label": "Contact Us"
+    },
+    {
+      "url": "https://digitop.nal.usda.gov/",
+      "label": "DigiTop"
+    },
+    {
+      "url": "https://www.nal.usda.gov/",
+      "label": "Home"
+    },
+    {
+      "url": "https://www.nal.usda.gov/animal-health-and-welfare",
+      "label": "Animal Health and Welfare"
+    },
+    {
+      "url": "https://www.nal.usda.gov/economics-business-and-trade",
+      "label": "Economics, Business, and Trade"
+    },
+    {
+      "url": "https://www.nal.usda.gov/farms-and-agricultural-production-systems",
+      "label": "Farms and Agricultural Production Systems"
+    },
+    {
+      "url": "https://www.nal.usda.gov/human-nutrition-and-food-safety",
+      "label": "Human Nutrition and Food Safety"
+    },
+    {
+      "url": "https://www.nal.usda.gov/natural-resources-conservation-environment",
+      "label": "Natural Resources, Conservation, and Environment"
+    },
+    {
+      "url": "https://www.nal.usda.gov/plant-production-gardening",
+      "label": "Plant Production and Gardening"
+    },
+    {
+      "url": "https://www.nal.usda.gov/rural-development-communities",
+      "label": "Rural Development and Communities"
+    },
+    {
+      "url": "https://www.nal.usda.gov/topics",
+      "label": "All Topics"
+    },
+    {
+      "url": "https://search.nal.usda.gov",
+      "label": "NAL SEARCH"
+    },
+    {
+      "url": "https://search.nal.usda.gov/discovery/search?vid=01NAL_INST:MAIN&search_scope=pubag",
+      "label": "PubAg"
+    },
+    {
+      "url": "https://agdatacommons.nal.usda.gov",
+      "label": "Ag Data Commons"
+    },
+    {
+      "url": "https://search.nal.usda.gov/discovery/search?vid=01NAL_INST:MAIN&search_scope=agricola",
+      "label": "AGRICOLA"
+    },
+    {
+      "url": "https://lod.nal.usda.gov/",
+      "label": "NALT Concept Space"
+    },
+    {
+      "url": "https://fdc.nal.usda.gov/",
+      "label": "Food Data Central"
+    },
+    {
+      "url": "https://www.nal.usda.gov/research-tools/food-safety-research-projects",
+      "label": "Food Safety Research Projects Database"
+    },
+    {
+      "url": "https://archivesspace.nal.usda.gov/",
+      "label": "Manuscript Collections Search"
+    },
+    {
+      "url": "https://www.nal.usda.gov/research-tools/research-tools",
+      "label": "All Research Tools"
+    },
+    {
+      "url": "https://naldc.nal.usda.gov",
+      "label": "Digital Collections"
+    },
+    {
+      "url": "https://www.nal.usda.gov/collections/exhibits",
+      "label": "Exhibits"
+    },
+    {
+      "url": "https://www.nal.usda.gov/collections/special-collections",
+      "label": "Special Collections"
+    },
+    {
+      "url": "https://www.nal.usda.gov/collections/stories",
+      "label": "Stories From the Collection"
+    },
+    {
+      "url": "https://www.nal.usda.gov/collections/government-documents",
+      "label": "Government Documents"
+    },
+    {
+      "url": "https://www.nal.usda.gov/all-collections",
+      "label": "All Collections"
+    },
+    {
+      "url": "https://www.nal.usda.gov/services/data-management-planning",
+      "label": "Data Management Planning Services"
+    },
+    {
+      "url": "https://www.nal.usda.gov/services/data-management-planning#toc-create-a-dmp",
+      "label": "Create a DMP"
+    },
+    {
+      "url": "https://www.nal.usda.gov/services/data-management-planning#toc-dmp-feedback-and-review",
+      "label": "DMP Feedback and Review"
+    },
+    {
+      "url": "https://www.nal.usda.gov/services/data-management-planning#toc-find-a-data-repository",
+      "label": "Find a Data Repository"
+    },
+    {
+      "url": "https://www.nal.usda.gov/services/data-management-planning#toc-data-management-glossary",
+      "label": "Data Management Glossary"
+    },
+    {
+      "url": "https://www.nal.usda.gov/services/data-management-planning#toc-data-management-videos",
+      "label": "Data Management Videos"
+    },
+    {
+      "url": "https://www.nal.usda.gov/services/public-access",
+      "label": "Public Access and Open Science at USDA"
+    },
+    {
+      "url": "https://www.nal.usda.gov/services/data-management-planning",
+      "label": "Data Management Planning"
+    },
+    {
+      "url": "https://www.nal.usda.gov/services/agdatacommons",
+      "label": "Ag Data Commons User Guide"
+    },
+    {
+      "url": "https://digitop.nal.usda.gov/",
+      "label": "DigiTop"
+    },
+    {
+      "url": "https://www.nal.usda.gov/borrow-materials",
+      "label": "Borrow Materials"
+    },
+    {
+      "url": "https://www.nal.usda.gov/ask-question",
+      "label": "Reference and Research"
+    },
+    {
+      "url": "https://www.nal.usda.gov/services",
+      "label": "All Services"
+    },
+    {
+      "url": "https://www.nal.usda.gov/about-the-library",
+      "label": "About the Library"
+    },
+    {
+      "url": "https://www.nal.usda.gov/about-us/events",
+      "label": "Events"
+    },
+    {
+      "url": "https://www.nal.usda.gov/programs",
+      "label": "Program Areas"
+    },
+    {
+      "url": "https://www.nal.usda.gov/contact-us",
+      "label": "Contact Us"
+    },
+    {
+      "url": "https://www.nal.usda.gov/",
+      "label": "Home"
+    },
+    {
+      "url": "https://www.nal.usda.gov/services",
+      "label": "Services"
+    },
+    {
+      "url": "https://agdatacommons.nal.usda.gov",
+      "label": "Ag Data Commons"
+    },
+    {
+      "url": "https://www.nal.usda.gov/services/agdatacommons/polices-and-documentation",
+      "label": "Ag Data Commons Collection Policy"
+    },
+    {
+      "url": "https://www.nal.usda.gov/services/agdatacommons/data-submission-manual",
+      "label": "Data Submission Manual"
+    },
+    {
+      "url": "https://www.nal.usda.gov/services/agdatacommons/policies",
+      "label": "Ag Data Commons Collection Policies"
+    },
+    {
+      "url": "https://agdatacommons.nal.usda.gov/",
+      "label": "Ag Data Commons Portal [agdatacommons.nal.usda.gov]"
+    },
+    {
+      "url": "https://agdatacommons.nal.usda.gov/stats",
+      "label": "Ag Data Commons Usage Statistics [agdatacommons.nal.usda.gov]"
+    },
+    {
+      "url": "https://www.zotero.org/groups/925027/ag_data_commons/collections/AQ8KNDKU",
+      "label": "View Articles Citing Ag Data Commons [zotero.org]"
+    },
+    {
+      "url": "https://www.nal.usda.gov/services/agdatacommons/dashboard",
+      "label": "Ag Data Commons Dashboard: Trend in Citations to ADC"
+    },
+    {
+      "url": "https://www.nal.usda.gov/programs/knowledge-services",
+      "label": "Knowledge Services Division (KSD)"
+    },
+    {
+      "url": "https://www.nal.usda.gov/",
+      "label": "Home"
+    },
+    {
+      "url": "https://www.nal.usda.gov/sitemap",
+      "label": "Sitemap"
+    },
+    {
+      "url": "https://www.facebook.com/USDA",
+      "label": "Facebook"
+    },
+    {
+      "url": "https://twitter.com/National_Ag_Lib",
+      "label": "Twitter"
+    },
+    {
+      "url": "https://www.youtube.com/user/NationalAgLibrary",
+      "label": "YouTube"
+    },
+    {
+      "url": "https://www.usda.gov/policies-and-links",
+      "label": "Policies and Links"
+    },
+    {
+      "url": "https://www.usda.gov/plain-writing",
+      "label": "Plain Writing"
+    },
+    {
+      "url": "https://www.ars.usda.gov/oc/foia/freedom-of-information-act-and-privacy-act-reference-guide/",
+      "label": "FOIA"
+    },
+    {
+      "url": "https://www.usda.gov/accessibility-statement",
+      "label": "Accessibility Statement"
+    },
+    {
+      "url": "https://www.usda.gov/privacy-policy",
+      "label": "Privacy Policy"
+    },
+    {
+      "url": "https://www.usda.gov/non-discrimination-statement",
+      "label": "Non-Discrimination Statement"
+    },
+    {
+      "url": "https://www.usda.gov/about-usda/general-information/staff-offices/office-assistant-secretary-civil-rights",
+      "label": "Office of the Assistant Secretary for Civil Rights (OASCR)"
+    },
+    {
+      "url": "https://www.ars.usda.gov/docs/quality-of-information/",
+      "label": "Information Quality"
+    },
+    {
+      "url": "https://www.ars.usda.gov",
+      "label": "Agricultural Research Service"
+    },
+    {
+      "url": "https://www.usda.gov",
+      "label": "USDA.gov"
+    },
+    {
+      "url": "https://www.usa.gov",
+      "label": "USA.gov"
+    },
+    {
+      "url": "https://www.whitehouse.gov",
+      "label": "WhiteHouse.gov"
+    }
+  ],
+  "elapsed_seconds": 1.047
+}

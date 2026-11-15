@@ -1,0 +1,34 @@
+[
+  [
+    "https://irsa.ipac.caltech.edu/Missions/spherex.html",
+    "NASA/IPAC Infrared Science Archive"
+  ],
+  [
+    "https://caltech-ipac.github.io/irsa-tutorials/spherex/",
+    "SPHEREx Tutorial Notebooks"
+  ],
+  [
+    "http://byw.tools/wiseview",
+    "WiseView"
+  ],
+  [
+    "https://archive.stsci.edu/missions-and-data/gaia",
+    "Gaia Mission Data"
+  ],
+  [
+    "https://www.asc-csa.gc.ca/eng/satellites/neossat/",
+    "NEOSSat: Observing Asteroids, Space Debris and Exoplanets"
+  ],
+  [
+    "https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/",
+    "Canadian Astronomy Data Centre (CADC)"
+  ],
+  [
+    "https://github.com/asc-csa/NEOSSAT_Tutorial",
+    "NEOSSat Data Tutorial"
+  ],
+  [
+    "https://data.asc-csa.gc.ca/dataset/neossat",
+    "NEOSSat Dataset"
+  ]
+]

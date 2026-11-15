@@ -1,0 +1,13 @@
+{
+  "id": "resource_R111",
+  "url": "https://www.nasa.gov/wp-content/uploads/2025/04/250323-design-and-develop-science-mission.pdf?emrc=a454cf",
+  "checked_at": "2026-11-14T15:15:25.912948+00:00",
+  "tls_validation": false,
+  "status": 200,
+  "final_url": "https://www.nasa.gov/wp-content/uploads/2025/04/250323-design-and-develop-science-mission.pdf?emrc=a454cf",
+  "bytes": 750000,
+  "content_type": "application/pdf",
+  "sha256": "a3bd213ccd2a74442d29b03ff17004f071811ccb18def75bc7bd5aa63a735a67",
+  "links": [],
+  "elapsed_seconds": 3.719
+}

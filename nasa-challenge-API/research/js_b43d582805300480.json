@@ -1,0 +1,30 @@
+{
+  "id": "js_b43d582805300480",
+  "url": "https://www.spaceappschallenge.org/_next/static/chunks/b43d582805300480.js",
+  "checked_at": "2026-11-14T15:09:16.122821+00:00",
+  "tls_validation": false,
+  "status": 200,
+  "final_url": "https://www.spaceappschallenge.org/_next/static/chunks/b43d582805300480.js",
+  "bytes": 1695997,
+  "content_type": "application/javascript; charset=UTF-8",
+  "sha256": "39bd9a601266f0e0312669c23de950a80f93be544862cd4f665b89c29108fab6",
+  "links": [
+    {
+      "url": "https://www.mapbox.com/about/maps/",
+      "label": "Mapbox"
+    },
+    {
+      "url": "http://www.openstreetmap.org/copyright",
+      "label": "OpenStreetMap"
+    },
+    {
+      "url": "https://earthobservatory.nasa.gov/",
+      "label": "NASA Earth Observatory"
+    },
+    {
+      "url": "https://www.mapbox.com/map-feedback/",
+      "label": "Improve this map"
+    }
+  ],
+  "elapsed_seconds": 0.922
+}

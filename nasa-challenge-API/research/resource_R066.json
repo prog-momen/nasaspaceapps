@@ -1,0 +1,13 @@
+{
+  "id": "resource_R066",
+  "url": "https://naip-usdaonline.hub.arcgis.com/",
+  "checked_at": "2026-11-14T15:15:17.615555+00:00",
+  "tls_validation": false,
+  "status": 200,
+  "final_url": "https://naip-usdaonline.hub.arcgis.com/",
+  "bytes": 55877,
+  "content_type": "text/html; charset=utf-8",
+  "sha256": "e7c117fd3eee20777f17a274ee666c84d584526c37dd9f25aeca0d8b43e1817c",
+  "links": [],
+  "elapsed_seconds": 1.516
+}

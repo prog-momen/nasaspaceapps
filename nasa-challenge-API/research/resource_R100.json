@@ -1,0 +1,13 @@
+{
+  "id": "resource_R100",
+  "url": "https://trek.nasa.gov/moon/",
+  "checked_at": "2026-11-14T15:15:23.061972+00:00",
+  "tls_validation": false,
+  "status": 200,
+  "final_url": "https://trek.nasa.gov/moon/",
+  "bytes": 8029,
+  "content_type": "text/html",
+  "sha256": "70ac2c0495b3c8431d07a582a073cdc012c4864c68fa93f9bd6765e02a90694c",
+  "links": [],
+  "elapsed_seconds": 0.984
+}

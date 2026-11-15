@@ -1,0 +1,13 @@
+{
+  "id": "google_functions",
+  "url": "https://aistudio.google.com/docs/function-calling",
+  "checked_at": "2026-11-14T15:12:48.198795+00:00",
+  "tls_validation": false,
+  "status": 200,
+  "final_url": "https://aistudio.google.com/docs/function-calling",
+  "bytes": 182496,
+  "content_type": "text/html; charset=utf-8",
+  "sha256": "b977928c75093887c78864c2a1bd38e67a172344e8a31f0607050d7f51cb1444",
+  "links": [],
+  "elapsed_seconds": 0.61
+}

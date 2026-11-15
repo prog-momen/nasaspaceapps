@@ -1,0 +1,683 @@
+FIRMS | NASA Earthdata
+Skip to main content
+Earthdata Forum is down due to unplanned maintenance. Please contact earthdata-support@nasa.gov with questions.
+See the alert
+Suomi NPP is no longer delivering new data. Users must transition to alternative products.
+Suomi NPP data announcement
+Home
+Data
+Data Catalog
+Data Alerts and Outages
+Projects
+Land, Atmosphere Near real-time Capability for Earth observation (LANCE)
+Harmonized Landsat and Sentinel-2 (HLS)
+Applied Remote Sensing Training Program (ARSET)
+Observation Methods
+Platforms
+Instruments
+Space Geodesy Techniques
+Data Tools
+Earthdata Search
+Worldview
+Fire Information for Resource Management System (FIRMS)
+Vertex
+Giovanni
+Application for Extracting and Exploring Analysis Ready Samples (AppEEARS)
+Visualization, Exploration, and Data Analysis (VEDA)
+Ocean Color Level 3 and 4 Browser
+Topics
+Atmosphere
+Biosphere
+Climate Indicators
+Cryosphere
+Human Dimensions
+Land Surface
+Ocean
+Solid Earth
+Sun-Earth Interactions
+Terrestrial Hydrosphere
+View All Topics
+Learn
+Earth Observation Data Basics
+GIS Resources
+Data in Action
+Data Recipes
+Trainings
+Tutorials
+Webinars
+Publications
+Centers
+Distributed Active Archive Centers (DAACs)
+Alaska Satellite Facility (ASF) DAAC
+Atmospheric Science Data Center (ASDC)
+Crustal Dynamics Data Information System (CDDIS)
+Global Hydrometeorology Resource Center (GHRC) DAAC
+Goddard Earth Sciences Data and Information Services Center (GES DISC)
+Land Processes (LP) DAAC
+Level 1 and Atmosphere Archive and Distribution System (LAADS) DAAC
+National Snow and Ice Data Center (NSIDC) DAAC
+Oak Ridge National Laboratory (ORNL) DAAC
+Ocean Biology DAAC (OB.DAAC)
+Physical Oceanography DAAC (PO.DAAC)
+Science Investigator-led Processing Systems (SIPS)
+MODIS Adaptive Processing System (MODAPS) SIPS
+Ocean SIPS
+Microwave Limb Sounder (MLS) SIPS
+Ozone Monitoring Instrument (OMI) SIPS
+Atmosphere SIPS
+Land SIPS
+Ozone Mapping and Profiler Suite SIPS
+Sounder SIPS
+Suborbital Data Resource Center
+Engage
+Open Data, Services, and Software Policies
+Open Science and Data Management Plan
+For Researchers and Grantees
+Data Management Guidance
+Data Rights and Related Issues
+Data Use Guidance
+For Developers
+APIs
+Common Metadata Repository
+For Data Providers
+Adding New Data
+DOI Process
+Standards
+About
+ESDS Leadership
+Organizational Chart
+Multi-Mission Data Processing System Study
+Earth Science Data and Information System (ESDIS) Project
+ESDS Digital Strategy and User Development Team
+Earth Science Data Systems Geographic Information Systems Team (EGIST)
+Competitive Programs
+News & Events
+News
+Events
+Worldview Image of the Week
+Feature Articles
+Data User Stories
+Earthdata Blog
+Data Alerts System
+Subscribe to the Earthdata Newsletter
+Data
+Toggle submenu
+Data
+Data Catalog
+Data Alerts and Outages
+Projects
+Land, Atmosphere Near real-time Capability for Earth observation (LANCE)
+Harmonized Landsat and Sentinel-2 (HLS)
+Applied Remote Sensing Training Program (ARSET)
+Observation Methods
+Platforms
+NASA operates state-of-the-art platforms that collect critical information about our home planet. Drill down to the data and tools you need by exploring platforms on Earth and in the sky.
+Instruments
+From the ground and into space, instruments aboard NASA platforms collect a vast array of Earth science data.
+Space Geodesy Techniques
+These data are used to support scientific and societal applications Earth observations, positioning, navigation, and timing.
+Data Tools
+Earthdata Search
+Worldview
+Fire Information for Resource Management System (FIRMS)
+Vertex
+Giovanni
+Application for Extracting and Exploring Analysis Ready Samples (AppEEARS)
+Visualization, Exploration, and Data Analysis (VEDA)
+Ocean Color Level 3 and 4 Browser
+?
+Get help from experienced data users and managers on Earthdata Forum
+Topics
+Toggle submenu
+Data Pathfinders by Topic
+Atmosphere
+The atmosphere is a gaseous envelope surrounding and protecting our planet from the intense radiation of the Sun.
+Biosphere
+The biosphere encompasses all life on Earth and extends from root systems to mountaintops and all depths of the ocean.
+Climate Indicators
+Climate Indicators hold key information for the most relevant domains of climate change: temperature and energy, atmospheric composition, ocean and water as well as the cryosphere.
+Cryosphere
+The cryosphere encompasses the frozen parts of Earth, including glaciers and ice sheets, sea ice, and any other frozen body of water.
+Human Dimensions
+The human dimensions discipline includes ways humans interact with the environment and how these interactions impact Earth’s systems.
+Land Surface
+The land surface discipline includes research into areas such as shrinking forests, warming land, and eroding soils.
+Ocean
+This vast, critical reservoir supports a diversity of life and helps regulate Earth’s climate.
+Solid Earth
+Processes occurring deep within Earth constantly are shaping landforms.
+Sun-Earth Interactions
+The Sun influences physical and chemical processes in Earth’s atmosphere.
+Terrestrial Hydrosphere
+The terrestrial hydrosphere includes water on the land surface and underground in the form of lakes, rivers, and groundwater along with total water storage.
+Featured Data Pathfinders by Topic
+Air Quality
+Agriculture Production
+Natural Hazards
+Water Quality
+Climate Resilience
+View all Topics
+Learn
+Toggle submenu
+Learn
+Earth Observation Data Basics
+Learn key terms and concepts like remote sensing and processing levels.
+GIS Resources
+Explore resources for the Geographic Information Systems (GIS) community, including StoryMaps.
+Data Support
+Connect with experienced data users and managers through the Earthdata Forum for help with datasets, tools, and services.
+Data in Action
+Data in Action demonstrates Earth science data applications with interactive explanations as to how the work was accomplished.
+Data Recipes
+Data Recipes are code-based instructions that help data scientists accomplish a specific task, such as converting data into a specific format for analysis or visualization.
+Trainings
+Trainings are interactive opportunities to develop technical skills with NASA Earth science data.
+Tutorials
+Tutorials are step by step “how to” content that cover a broad range of tasks, from data collection to visualization.
+Webinars
+Webinars are video seminars featuring experts in various disciplines who share their knowledge in a particular subject area, from data in the cloud to specific data tools.
+Publications
+Access publications citing NASA Earth science data.
+Centers
+Toggle submenu
+Centers
+Distributed Active Archive Centers (DAACs)
+Science Investigator-led Processing Systems (SIPS)
+Alaska Satellite Facility (ASF) DAAC
+Atmospheric Science Data Center (ASDC)
+Crustal Dynamics Data Information System (CDDIS)
+Global Hydrometeorology Resource Center (GHRC) DAAC
+Goddard Earth Sciences Data and Information Services Center (GES DISC)
+Land Processes (LP) DAAC
+Level 1 and Atmosphere Archive and Distribution System (LAADS) DAAC
+National Snow and Ice Data Center (NSIDC) DAAC
+Oak Ridge National Laboratory (ORNL) DAAC
+Ocean Biology DAAC (OB.DAAC)
+Physical Oceanography DAAC (PO.DAAC)
+MODIS Adaptive Processing System (MODAPS) SIPS
+Ocean SIPS
+Microwave Limb Sounder (MLS) SIPS
+Ozone Monitoring Instrument (OMI) SIPS
+Atmosphere SIPS
+Land SIPS
+Ozone Mapping and Profiler Suite SIPS
+Sounder SIPS
+Suborbital Data Resource Center
+All of the resources for the airborne and field data community within our program can be found here.
+Engage
+Toggle submenu
+Engage
+Open Data, Services, and Software Policies
+Open Science and Data Management Plan
+For Researchers and Grantees
+Data Management Guidance
+Data Rights and Related Issues
+Data Use Guidance
+For Developers
+APIs
+Common Metadata Repository
+For Data Providers
+Adding New Data
+DOI Process
+Standards
+About
+Toggle submenu
+About
+ESDS Leadership
+Meet the Earth Science Data Systems Program leadership team.
+Organizational Chart
+View the internal structure of the ESDS Program.
+Multi-Mission Data Processing System Study
+We are considering the right data processing system for open-source data.
+Contact Us
+Find the right contact for questions, feedback, or support related to NASA Earthdata.
+Earth Science Data and Information System (ESDIS) Project
+ESDS Digital Strategy and User Development Team
+Earth Science Data Systems Geographic Information Systems Team (EGIST)
+Competitive Programs
+Program Performance and Metrics
+Access overall ingest, archive, and distribution metrics for the ESDS program.
+News & Events
+Toggle submenu
+News
+View the latest updates from Earthdata.
+Events
+Sign up or watch a past recording of events covering Earth science data topics.
+Worldview Image of the Week
+Learn about the Earth through the lens of NASA’s Worldview.
+Data Alerts System
+Subscribe to the Earthdata Newsletter
+Feature Articles
+Read stories inspired by NASA Earth science data.
+Data User Stories
+Discover how people are researching with NASA Earth science data.
+Earthdata Blog
+Take a deeper dive into NASA Earth science data.
+Latest News
+2 MIN READ
+Atmospheric River Season for the Pacific Northwest
+Worldview Image of the Week
+Nov 13, 2026
+1 MIN READ
+earthaccess Hackathon at AGU 2026
+Event
+Nov 10, 2026
+Search
+Home
+Find Data
+Data Tools
+FIRMS
+FIRMS
+Fire Information for Resource Management System
+Providing Active Fire Data for Near-Real Time Monitoring and Applications
+Discover FIRMS
+Global Fire Map
+US/Canada Fire Map
+Active Fire Data
+Email Alerts
+Archive Download
+Web Services
+Contact us and FAQs
+About
+Background
+NASA Active Fire Data
+Publications
+Links
+The Fire Information for Resource Management System (FIRMS) enables access to global
+near real-time
+satellite imagery, active fire/hotspots, and related products to identify the location, extent, and intensity of wildfire activity. FIRMS tools and applications provide geospatial data, products, and services to support the broader fire management community and to inform the general public.  Global data are available within 3 hours of satellite observation; some U.S. and Canada active fire detections are available in real-time.
+NASA supports
+full and open sharing of data
+. We ask that if you provide FIRMS data to a third party, you follow the guidelines below.
+Acknowledgments
+We acknowledge the use of data and/or imagery from NASA's Fire Information for Resource Management System (FIRMS) (
+https://earthdata.nasa.gov/firms
+), part of NASA's Land, Atmosphere Near real-time Capability for Earth observations (LANCE) (
+https://earthdata.nasa.gov/lance
+) and NASA's Earth Science Data and Information System (ESDIS).
+Disclaimer
+FIRMS is operated by the ESDIS project. The information presented through LANCE, GIBS, Worldview, and FIRMS are provided “as is” and users bear all responsibility and liability for their use of data.  Please read the
+full disclaimer
+.
+The Fire Information for Resource Management System (FIRMS) was developed to provide near real-time active fire locations to natural resource managers that faced challenges obtaining timely satellite-derived fire information. In partnership with the U.S. Forest Service, a
+FIRMS US/Canada map service
+was launched in January 2021.
+FIRMS was developed in 2007 by the University of Maryland, with funds from NASA’s Applied Sciences Program and the United Nations Food and Agriculture Organization (UN FAO), to provide near real-time active fire locations to natural resource managers that faced challenges obtaining timely satellite-derived fire information.
+A version of FIRMS, known as the Global Fire Information Management System (GFIMS) ran at the UN FAO from 2010–2012, where it complemented the FAO’s existing suite of projects that deliver near real-time information to ongoing monitoring and emergency projects, to other UN organizations as well as providing information to the general public. GFIMS is no longer actively supported.
+FIRMS US/Canada
+FIRMS US/Canada
+provides the USDA Forest Service, partner agencies, and the general public access to tools and data to visualize and monitor the location, extent, intensity, and impacts of wildfire activity in the U.S. and Canada. The source of low latency satellite imagery, science data products, and enabling technologies to FIRMS US/Canada include: the NASA Land, Atmosphere Near real-time Capability for EO (
+LANCE
+) and other partners. Data from the Moderate Resolution Imaging Spectroradiometer (
+MODIS
+) and the Visible Infrared Imaging Radiometer Suite (
+VIIRS
+) are the foundational satellite data sources of the current FIRMS US/Canada application. Additional geospatial data and information from various agencies are also integrated to provide context for current/recent wildfire activity. Sources for these additional data include the National Interagency Fire Center, Department of the Interior Office of Wildland Fire, National Oceanic and Atmospheric Administration, National Weather Service, Canadian Interagency Fire Centre, and Natural Resources Canada
+FIRMS US/Canada builds on a longstanding partnership between NASA and the Forest Service. In 2001, NASA's Goddard Space Flight Center in Greenbelt, Maryland, (GSFC) and the University of Maryland (UMD) developed the
+MODIS Land Rapid Response System
+to provide time-critical, science grade data products to the Forest Service and other users. That same year, the Forest Service implemented the
+Active Fire Mapping (AFM) Program
+to ingest near real-time data from the, now decommissioned, MODIS Land Rapid Response System to produce and disseminate value-added geospatial fire products. AFM since evolved to leverage and ingest MODIS and VIIRS satellite direct readout data and the NASA LANCE MODIS/VIIRS data stream.
+FIRMS US/Canada is a joint NASA/Forest Service effort to modernize and optimize the legacy AFM Program data and product delivery capabilities that have provided imagery and geospatial fire products for the United States and Canada since 2001. The initial release of FIRMS US/Canada was launched in January 2021 and provides an updated platform for delivery of near real-time satellite data products as well as mapping and visualization capabilities. Data from additional near real-time satellite sources and other technical capabilities are also planned for the FIRMS US/Canada application after the initial early-2021 release.
+MODIS Active Fire Products
+Each MODIS active fire/thermal hotspot location represents the center of a 1km pixel that is flagged by the algorithm as containing one or more fires within the pixel. Combined (Terra and Aqua) MODIS NRT active fire products (
+MCD14DL
+) are processed using the standard MOD14/MYD14
+Fire and Thermal Anomalies algorithm
+.
+MODIS Collection 61 has been available since April 2021. C61 processing does not contain any change to the science algorithm; the update is from changes and enhancements to the calibration approach used in the generation of the Terra and Aqua MODIS Level 1B products. For further details on C61 calibration changes and other changes user is encouraged to refer to the
+PDF summarizing Collection 6.1 specific changes
+. For the most up to date information, please refer to the
+MODIS Collection 6 and 6.1 Version 1.0 Active Fire Product User's Guide
+(updated May 2021).
+VIIRS (375m) Active Fire Products
+Each VIIRS active fire/thermal hotspot location represents the center of a 375m pixel. The VIIRS data complement the MODIS fire detections but the improved spatial resolution of the 375 m data provides a greater response of fires over relatively small areas and has improved nighttime performance.
+Read more on VIIRS active fire products
+.
+VIIRS NRT 375 m active fire products are from: Suomi NPP (
+VNP14IMGTDL_NRT
+); NOAA-20, formally known as JPSS-1 (
+VJ114IMGTDL_NRT
+); and NOAA-21, formally known as JPSS-2 (
+VJ214IMGTDL_NRT
+).
+Active Fire Data Attributes for MODIS and VIIRS
+View
+data attribute tables for NRT MODIS active fire data and NRT VIIRS 375m active fire data
+.
+User Guides
+Visible Infrared Imaging Radiometer Suite (VIIRS) 375 m Active Fire Algorithm User Guide
+(Updated July 2018)
+MODIS Collection 6 Active Fire Product User's Guide, Revision B
+(Updated December 2018)
+MODIS Collection 5 Active Fire Product User’s Guide, v2.5
+(Updated 31 March 2013)
+FIRMS, Active Fire, and Burned Area Publications
+The publications listed below describe FIRMS, the MODIS Active Fire and Burned Area Products, and explore the level of accuracy of the products.
+Read about FIRMS in the Earthdata article
+Fires from Space
+, and how near real-time MODIS fire detections are used in NASA's Sensing Our Planet publication
+Orbiting Watchtowers
+.
+Giglio L., Schroeder, W., & Justice, C.O. (2016). The collection 6 MODIS active fire detection algorithm and fire products.
+Remote Sensing of Environment,
+178: 31-41.
+doi:10.1016/j.rse.2016.02.054
+PDF
+Schroeder, W., Oliva, P., Giglio, L., & Csiszar, I. A. (2014). The New VIIRS 375m active fire detection data product: algorithm description and initial assessment.
+Remote Sensing of Environment
+, 143: 85-96.
+doi:10.1016/j.rse.2013.12.008
+PDF
+Justice, C.O., Giglio, L., et al. (2011). MODIS-Derived Global Fire Products. Land Remote Sensing and Global Environmental Change. B. Ramachandran, C.O. Justice, and M.J. Abrams, Springer New York. 11: 661-679.
+doi:10.1007/978-1-4419-6749-7_29
+Davies, D.K., Ilavajhala, S., Wong, M.M., & Justice, C.O. (2009). Fire Information for Resource Management System: Archiving and Distributing MODIS Active Fire Data.
+IEEE Transactions on Geoscience and Remote Sensing,
+47(1): 72-79.
+doi:10.1109/TGRS.2008.2002076
+Schroeder, W., Prins, E., Giglio, L., Csiszar, I., Schimdt, C., Morisette, J., & Morton, D. (2008). Validation of GOES and MODIS active fire detection products using ASTER and ETM+ data.
+Remote Sensing of Environment,
+112 (2008): 2711-2726.
+doi:10.1016/j.rse.2008.01.005
+Csiszar, I., Morisette, J., & Giglio, L. (2006). Validation of active fire detection from moderate resolution satellite sensors: the MODIS example in Northern Eurasia.
+IEEE Transactions on Geoscience and Remote Sensing,
+44(7): 1757-1764.
+doi:10.1109/TGRS.2006.875941
+Giglio, L., van derWerf, G.R., Randerson, J.T., Collatz, G.J., & Kasibhatla, P. (2006). Global estimation of burned area using MODIS active fire observations.
+Atmospheric Chemistry and Physics,
+6: 957-974.
+doi:10.5194/acp-6-957-2006
+Wooster, M.J., Roberts, G., Perry, G.L.W., & Kaufman, Y.J. (2005). Retrieval of biomass combustion rates and totals from fire radiative power observations: FRP derivation and calibration relationships between biomass consumption and fire radiative energy release.
+Journal of Geophysical Research,
+110, D24311.
+doi:10.1029/2005JD006318
+Morisette, J.T., Giglio, L., Csiszar, I., Setzer, A., Schroeder, W., Morton, D., & Justice, C.O. (2005). Validation of MODIS active fire detection products derived from two algorithms.
+Earth Interactions,
+9(9): 1-25.
+doi: 10.1175/EI141.1
+Morisette, J.T., Giglio, L., Csiszar, I., & Justice, C.O. (2005). Validation of the MODIS Active fire product over Southern Africa with ASTER data.
+International Journal of Remote Sensing,
+26: 4239-4264.
+doi:10.1080/01431160500113526
+Wooster, M.J., Zhukov, B., & Oertel, D. (2003). Fire radiative energy for quantitative study of biomass burning: Derivation from the BIRD experimental satellite and comparison to MODIS fire products.
+Remote Sensing of Environment,
+86(1): 83-107.
+doi:10.1016/S0034-4257(03)00070-1
+PDF
+Giglio, L., Descloitres, J., Justice, C.O., & Kaufman, Y. (2003). An enhanced contextual fire detection algorithm for MODIS.
+Remote Sensing of Environment,
+87: 273-282.
+doi: 10.1016/S0034-4257(03)00184-6
+Justice, C.O., Giglio, L., Korontzi, S., Owens, J., Morisette, J., Roy, D., Descloitres, J., Alleaume, S., Petitcolin, F., & Kaufman, Y.J. (2002). The MODIS fire products.
+Remote Sensing of Environment,
+83: 244-262.
+doi:10.1016/S0034-4257(02)00076-7
+Kaufman, Y.J., Justice, C.O., Flynn, L.P., Kendall, J.D., Prins, E.M., Giglio, L., Ward, D.E., Menzel, W.P., & Setzer, A.W. (1998). Potential global fire monitoring from EOS‐MODIS.
+Journal of Geophysical Research: Atmospheres (1984–2012),
+103(D24): 32215-32238.
+doi:10.1029/98jd01644
+The following links maybe useful for users wanting to learn more or connect with other fire networks/see other fire applications.
+Wildfires Data Pathfinder
+Background/Framework
+Global Observations of Forest and Land Cover Dynamics (GOFC-GOLD) Fire Monitoring and Mapping Implementation (
+GOFC-Fire
+)
+Science
+MODIS Active Fire and Burned Area products
+MODIS Fire and Thermal Anomalies
+VIIRS Fire and Thermal Anomalies
+Other regional fire applications may provide users with additional value-added products.  These include:
+Comisión nacional para el conocimiento y uso de la biodiversidad (
+CONABIO
+)
+Instituto Nacional De Pesquisas Espaciais (
+INPE
+), Brazil
+European Forest Fire Information System (
+EFFIS
+), Italy
+Digital Earth Australia Hotspots
+Tool at a Glance
+View data alert history
+Data Tool Type
+Access
+Visualization
+Related Topic
+Fire Management
+Wildfires
+Launch FIRMS Global
+Launch FIRMS US/Canada
+FIRMS News
+View All News
+Filters
+Copy Link
+BibTeX
+Type
+Blog (31)
+Data User Story (5)
+Feature Article (17)
+News (3)
+Worldview Image of the Week (19)
+Topic
+Atmosphere (23)
+Biosphere (5)
+Human Dimensions (65)
+Land Surface (3)
+Terrestrial Hydrosphere (1)
+Data Tool
+Catalog of Archived Suborbital Earth Science Investigations (CASEI) (1)
+Global Imagery Browse Services (GIBS) (8)
+Visualization, Exploration, and Data Analysis (VEDA) (2)
+Worldview (10)
+Instrument
+ABI (5)
+Advanced Himawari Imager (AHI) (5)
+AIRS (2)
+AMSR-E (1)
+AMSR2 (1)
+ASTER (2)
+CERES (1)
+ECOSTRESS (1)
+ETM+ (1)
+GMI (1)
+Lightning Imaging Sensor (LIS) (1)
+Microwave Limb Sounder (MLS) (1)
+MISR (1)
+MODIS (40)
+MOPITT (1)
+MSS (1)
+NASA-ISRO Synthetic Aperture Radar L-Band (L-SAR) (1)
+NASA-ISRO Synthetic Aperture Radar S-Band (S-SAR) (1)
+OLI (16)
+OLI-2 (2)
+OMI (2)
+OMPS (5)
+SENTINEL-1 C-SAR (1)
+Sentinel-2 MSI (10)
+SEVIRI (1)
+TIRS (1)
+TIRS-2 (1)
+TM (1)
+VIIRS (49)
+Project
+ARSET (1)
+FIRMS (43)
+HLS (7)
+LANCE (34)
+Data Mechanic
+Calibration and Validation (1)
+Commercial Data (1)
+Geographic Tagged Image File Format (GeoTIFF) (1)
+Harmonized Landsat Sentinel-2 (HLS) Data (9)
+Near real-time data (NRT) (31)
+Open Science (1)
+SmallSat Data (1)
+Synthetic Aperture Radar (SAR) (1)
+Items
+4
+8
+12
+16
+Apply
+Clear All
+Transitioning From Suomi NPP to NOAA-20 and NOAA-21: What LANCE Users Need to Know
+Information on what the cessation of Suomi NPP data means for users of LANCE data products, with recommended replacement datasets.
+Blog
+Nov. 3, 2026
+Transitioning from Suomi NPP VIIRS & OMPS: What FIRMS Users Need to Know
+We provide information on what this change means for your workflows and the recommended replacement datasets you can use in FIRMS to ensure uninterrupted fire monitoring.
+Blog
+Oct. 27, 2026
+New Higher-Resolution Aerosol Index, Pyrocumulonimbus Layers Now Available in NASA FIRMS
+New NOAA-21 OMPS products complement existing NOAA-20 and Suomi NPP indices currently available in FIRMS, but offer a significant upgrade in spatial resolution.
+Blog
+Oct. 13, 2026
+New FIRMS Data Product: Satellite Swath Outlines
+NASA's Fire Information for Resource Management System now provides swath outlines, showing the extent of Earth's surface within view of a sensor.
+Blog
+June 25, 2026
+SHOWING
+4 OF 75
+Items
+4
+8
+12
+16
+FIRMS Learning Resources
+View All Learning Resources
+Filters
+Copy Link
+BibTeX
+Type
+Data Basics (2)
+Event (4)
+StoryMap (1)
+Training (8)
+Tutorial (13)
+Items
+4
+8
+12
+16
+Apply
+Clear All
+Empowering Fire Managers: New HLS Capabilities in NASA's FIRMS
+Learn how the Fire Information for Resource Management System (FIRMS) uses timely composite imagery to identify fire fronts, burned areas, and smoke.
+Webinar
+June 17, 2026
+Customize Fire Related Imagery Through the HLS Interface, TiTiler, and FIRMS
+FIRMS has incorporated additional capabilities into the HLS dropdown menu of its interactive map, including four vegetation indices and the ability for user to create their own red, green, blue (RGB) image composites through the TiTiler-CMR service.
+Tutorial
+April 29, 2026
+Advanced NASA Earth Observations and Tools for Active Fire, Smoke, and Post-Fire Monitoring
+This ARSET training introduces participants to several capabilities within FIRMS that were not included in the previous ARSET training.
+Training
+Jan. 14-21, 2026
+Observaciones Satelitales y Herramientas de la NASA para el Monitoreo de Incendios Activos, Humo y Evaluación Post-Incendio
+Esta capacitación de dos partes familarizará a los participantes con varias capacidades dentro de FIRMS que no se incluyeron en la capacitación de ARSET anterior.
+Training
+Jan. 14-21, 2026
+Pagination
+Disabled
+1
+2
+3
+4
+5
+…
+7
+Last page
+Next page
+SHOWING
+4 OF 28
+Items
+4
+8
+12
+16
+Join Our Community of NASA Data Users
+While NASA data are openly available without restriction, an Earthdata Login is required to download data and to use some tools with full functionality.
+Learn About the Benefits of Earthdata Login
+Get Help
+QUESTIONS & SUPPORT
+Have a question?
+Get help with NASA Earth science data, datasets, tools, services, and metadata on the Earthdata Forum. Experienced staff in the data user community review and answer questions.
+Get help on Earthdata Forum
+Earthdata
+Forum
+Find Data
+By Platform
+Explore data collected by platforms in space, air, water, and land.
+By Topic
+Browse by topic to find relevant data, tools, learning resources, news, and more.
+Data Catalog
+Dive into one of the planet’s largest repositories of Earth science data.
+Data Tools
+Access a range of tools that enable data discovery, analysis, and visualization.
+Footer
+Find Data
+Data Catalog
+Data Tools
+Platforms
+Instruments
+Space Geodesy Techniques
+Projects
+Data Alerts and Outages
+Earthdata Login
+Data Pathfinders by Topic
+Atmosphere
+Biosphere
+Climate Indicators
+Cryosphere
+Human Dimensions
+Land Surface
+Ocean
+Solid Earth
+Sun-Earth Interactions
+Terrestrial Hydrosphere
+Learn
+Earth Observation Data Basics
+Earthdata Forum
+Webinars
+Trainings
+Tutorials
+Data in Action
+Data Recipes
+GIS Resources
+StoryMaps
+Publications
+Centers
+ASF DAAC
+ASDC
+CDDIS
+GHRC DAAC
+GES DISC
+LP DAAC
+LAADS DAAC
+NSIDC DAAC
+ORNL DAAC
+OB.DAAC
+PO.DAAC
+Sea Level Change Portal
+Suborbital Data Resource Center
+Engage
+Data Management Guidance for ESD-funded Researchers
+Open Data, Services, and Software Policies
+Public and Private Partnerships
+Memberships and Affiliations
+News
+Events
+Newsletter
+Contact
+Footer Submenu
+Web Privacy Policy
+Data and Information Guidance
+Communications Policy
+FOIA
+Accessibility
+Sitemap
+USA.gov
+Site last Updated:
+Nov. 6, 2026
+NASA Official:
+Katie Baynes

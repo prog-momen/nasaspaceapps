@@ -1,0 +1,566 @@
+{
+  "id": "resource_R130",
+  "url": "https://svs.gsfc.nasa.gov/4950/",
+  "checked_at": "2026-11-14T15:15:30.434835+00:00",
+  "tls_validation": false,
+  "status": 200,
+  "final_url": "https://svs.gsfc.nasa.gov/4950/",
+  "bytes": 118611,
+  "content_type": "text/html; charset=utf-8",
+  "sha256": "6c196e9a6b7a5bde26b0dfd387f7510a6e63b5729878ecccb2f96a543c2deaab",
+  "links": [
+    {
+      "url": "https://www.nasa.gov/",
+      "label": ""
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/",
+      "label": "Scientific Visualization Studio"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/gallery/the-galleries/",
+      "label": "Galleries"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/help/",
+      "label": "Help"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/13978",
+      "label": "13978: Instruments in the Sea and Sky: NASA’s S-MO..."
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/4947",
+      "label": "4947: 2021 Hurricane Season through September"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/15113",
+      "label": ""
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/api/4950",
+      "label": ""
+    },
+    {
+      "url": "https://twitter.com/intent/tweet",
+      "label": ""
+    },
+    {
+      "url": "https://www.facebook.com/share.php?u=http%3A//svs.gsfc.nasa.gov/4950/%3F",
+      "label": ""
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/search?people=Kel%20Elkins",
+      "label": "Kel Elkins"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/4950/#section_credits",
+      "label": "View full credits"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a004900/a004950/GEDI_global_w_colorbar_1080p60.mp4",
+      "label": "GEDI_global_w_colorbar_1080p60.mp4 (1920x1080) [17.7 MB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a004900/a004950/GEDI_global_w_colorbar_1080p60.webm",
+      "label": "GEDI_global_w_colorbar_1080p60.webm (1920x1080) [6.0 MB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a004900/a004950/GEDI_global_w_colorbar_2160p30.mp4",
+      "label": "GEDI_global_w_colorbar_2160p30.mp4 (3840x2160) [61.5 MB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a004900/a004950/GEDI_global_w_colorbar_2160p60.mp4",
+      "label": "GEDI_global_w_colorbar_2160p60.mp4 (3840x2160) [65.5 MB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a004900/a004950/frames/3840x2160_16x9_60p/GEDI_global_w_colorbar/",
+      "label": "GEDI_global_w_colorbar (3840x2160) [3000 Item(s)]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a004900/a004950/captions_silent.31845.en_US.srt",
+      "label": "captions_silent.31845.en_US.srt [43 bytes]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a004900/a004950/GEDI_global_w_colorbar_0900_print.jpg",
+      "label": "GEDI_global_w_colorbar_0900_print.jpg (1024x576) [83.4 KB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a004900/a004950/GEDI_global_w_colorbar_0900_searchweb.png",
+      "label": "GEDI_global_w_colorbar_0900_searchweb.png (320x180) [42.8 KB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a004900/a004950/GEDI_global_w_colorbar_0900_thm.png",
+      "label": "GEDI_global_w_colorbar_0900_thm.png (80x40) [4.0 KB]"
+    },
+    {
+      "url": "https://gedi.umd.edu/",
+      "label": "GEDI webpage"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a004900/a004950/GEDI_CA_w_colorbar_1080p60.mp4",
+      "label": "GEDI_CA_w_colorbar_1080p60.mp4 (1920x1080) [24.5 MB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a004900/a004950/GEDI_CA_w_colorbar_1080p60.webm",
+      "label": "GEDI_CA_w_colorbar_1080p60.webm (1920x1080) [3.7 MB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a004900/a004950/GEDI_CA_w_colorbar_2160p30.mp4",
+      "label": "GEDI_CA_w_colorbar_2160p30.mp4 (3840x2160) [86.9 MB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a004900/a004950/GEDI_CA_w_colorbar_2160p60.mp4",
+      "label": "GEDI_CA_w_colorbar_2160p60.mp4 (3840x2160) [93.2 MB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a004900/a004950/frames/3840x2160_16x9_60p/GEDI_CA_w_colorbar/",
+      "label": "GEDI_CA_w_colorbar (3840x2160) [1402 Item(s)]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a004900/a004950/captions_silent.31846.en_US.srt",
+      "label": "captions_silent.31846.en_US.srt [43 bytes]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a004900/a004950/GEDI_CA_w_colorbar_0850_print.jpg",
+      "label": "GEDI_CA_w_colorbar_0850_print.jpg (1024x576) [157.8 KB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a004900/a004950/GEDI_colorbar_0to50_01_print.jpg",
+      "label": "GEDI_colorbar_0to50_01_print.jpg (1024x576) [10.8 KB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a004900/a004950/GEDI_colorbar_0to50_01.tif",
+      "label": "GEDI_colorbar_0to50_01.tif (3840x2160) [63.3 MB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a004900/a004950/GEDI_colorbar_0to75_01_print.jpg",
+      "label": "GEDI_colorbar_0to75_01_print.jpg (1024x576) [10.7 KB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a004900/a004950/GEDI_colorbar_0to75_01.tif",
+      "label": "GEDI_colorbar_0to75_01.tif (3840x2160) [63.3 MB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a004900/a004950/GEDI_colorbar_0to40_01_print.jpg",
+      "label": "GEDI_colorbar_0to40_01_print.jpg (1024x576) [7.5 KB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a004900/a004950/GEDI_colorbar_0to40_01.tif",
+      "label": "GEDI_colorbar_0to40_01.tif (3840x2160) [63.3 MB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a004900/a004950/GEDI_global_2160p60.mp4",
+      "label": "GEDI_global_2160p60.mp4 (3840x2160) [70.7 MB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a004900/a004950/GEDI_global_2160p60.webm",
+      "label": "GEDI_global_2160p60.webm (3840x2160) [20.5 MB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a004900/a004950/GEDI_global_prores.mov",
+      "label": "GEDI_global_prores.mov (3840x2160) [3.1 GB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a004900/a004950/frames/3840x2160_16x9_60p/GEDI_global/",
+      "label": "GEDI_global (3840x2160) [3000 Item(s)]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a004900/a004950/GEDI_global.0900_print.jpg",
+      "label": "GEDI_global.0900_print.jpg (1024x576) [80.1 KB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a004900/a004950/GEDI_CA_2160p60.mp4",
+      "label": "GEDI_CA_2160p60.mp4 (3840x2160) [94.5 MB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a004900/a004950/GEDI_CA_2160p60.webm",
+      "label": "GEDI_CA_2160p60.webm (3840x2160) [13.1 MB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a004900/a004950/GEDI_CA_prores.mov",
+      "label": "GEDI_CA_prores.mov (3840x2160) [3.7 GB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a004900/a004950/frames/3840x2160_16x9_60p/GEDI_CA/",
+      "label": "GEDI_CA (3840x2160) [1402 Item(s)]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a004900/a004950/GEDI_CA.4900_print.jpg",
+      "label": "GEDI_CA.4900_print.jpg (1024x576) [148.8 KB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a004900/a004950/GEDI_FL_w_colorbar_1080p60.mp4",
+      "label": "GEDI_FL_w_colorbar_1080p60.mp4 (1920x1080) [14.7 MB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a004900/a004950/GEDI_FL_w_colorbar_1080p60.webm",
+      "label": "GEDI_FL_w_colorbar_1080p60.webm (1920x1080) [3.0 MB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a004900/a004950/GEDI_FL_w_colorbar_2160p30.mp4",
+      "label": "GEDI_FL_w_colorbar_2160p30.mp4 (3840x2160) [47.6 MB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a004900/a004950/GEDI_FL_w_colorbar_2160p60.mp4",
+      "label": "GEDI_FL_w_colorbar_2160p60.mp4 (3840x2160) [51.0 MB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a004900/a004950/frames/3840x2160_16x9_60p/GEDI_FL_w_colorbar/",
+      "label": "GEDI_FL_w_colorbar (3840x2160) [1402 Item(s)]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a004900/a004950/GEDI_FL_w_colorbar1400_print.jpg",
+      "label": "GEDI_FL_w_colorbar1400_print.jpg (1024x576) [115.7 KB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a004900/a004950/GEDI_Goddard_w_colorbar_1080p60.mp4",
+      "label": "GEDI_Goddard_w_colorbar_1080p60.mp4 (1920x1080) [43.6 MB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a004900/a004950/GEDI_Goddard_w_colorbar_1080p60.webm",
+      "label": "GEDI_Goddard_w_colorbar_1080p60.webm (1920x1080) [4.8 MB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a004900/a004950/GEDI_Goddard_w_colorbar_2160p60.mp4",
+      "label": "GEDI_Goddard_w_colorbar_2160p60.mp4 (3840x2160) [146.5 MB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a004900/a004950/GEDI_Goddard_w_colorbar_2160p30.mp4",
+      "label": "GEDI_Goddard_w_colorbar_2160p30.mp4 (3840x2160) [135.5 MB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a004900/a004950/frames/3840x2160_16x9_60p/GEDI_Goddard_w_colorbar/",
+      "label": "GEDI_Goddard_w_colorbar (3840x2160) [1396 Item(s)]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a004900/a004950/GEDI_Goddard_w_colorbar1394_print.jpg",
+      "label": "GEDI_Goddard_w_colorbar1394_print.jpg (1024x576) [223.4 KB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a004900/a004950/GEDI_Laurentides_w_colorbar_1080p60.mp4",
+      "label": "GEDI_Laurentides_w_colorbar_1080p60.mp4 (1920x1080) [42.5 MB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a004900/a004950/GEDI_Laurentides_w_colorbar_1080p60.webm",
+      "label": "GEDI_Laurentides_w_colorbar_1080p60.webm (1920x1080) [4.7 MB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a004900/a004950/GEDI_Laurentides_w_colorbar_2160p30.mp4",
+      "label": "GEDI_Laurentides_w_colorbar_2160p30.mp4 (3840x2160) [132.6 MB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a004900/a004950/GEDI_Laurentides_w_colorbar_2160p60.mp4",
+      "label": "GEDI_Laurentides_w_colorbar_2160p60.mp4 (3840x2160) [141.1 MB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a004900/a004950/frames/3840x2160_16x9_60p/GEDI_Laurentides_w_colorbar/",
+      "label": "GEDI_Laurentides_w_colorbar (3840x2160) [1397 Item(s)]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a004900/a004950/GEDI_Laurentides_w_colorbar1395_print.jpg",
+      "label": "GEDI_Laurentides_w_colorbar1395_print.jpg (1024x576) [202.1 KB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a004900/a004950/GEDI_senegal_w_colorbar_1080p60.mp4",
+      "label": "GEDI_senegal_w_colorbar_1080p60.mp4 (1920x1080) [26.9 MB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a004900/a004950/GEDI_senegal_w_colorbar_1080p60.webm",
+      "label": "GEDI_senegal_w_colorbar_1080p60.webm (1920x1080) [3.8 MB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a004900/a004950/GEDI_senegal_w_colorbar_2160p60.mp4",
+      "label": "GEDI_senegal_w_colorbar_2160p60.mp4 (3840x2160) [88.5 MB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a004900/a004950/GEDI_senegal_w_colorbar_2160p30.mp4",
+      "label": "GEDI_senegal_w_colorbar_2160p30.mp4 (3840x2160) [83.2 MB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a004900/a004950/frames/3840x2160_16x9_60p/GEDI_Senegal_w_colorbar/",
+      "label": "GEDI_Senegal_w_colorbar (3840x2160) [1347 Item(s)]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a004900/a004950/GEDI_senegal_w_colorbar.11345_print.jpg",
+      "label": "GEDI_senegal_w_colorbar.11345_print.jpg (1024x576) [179.2 KB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a004900/a004950/GEDI_FL_1080p60.mp4",
+      "label": "GEDI_FL_1080p60.mp4 (1920x1080) [14.6 MB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a004900/a004950/GEDI_FL_1080p60.webm",
+      "label": "GEDI_FL_1080p60.webm (1920x1080) [2.9 MB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a004900/a004950/GEDI_FL_2160p60.mp4",
+      "label": "GEDI_FL_2160p60.mp4 (3840x2160) [51.4 MB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a004900/a004950/GEDI_FL_2160p30.mp4",
+      "label": "GEDI_FL_2160p30.mp4 (3840x2160) [48.5 MB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a004900/a004950/frames/3840x2160_16x9_60p/GEDI_FL/",
+      "label": "GEDI_FL (3840x2160) [1402 Item(s)]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a004900/a004950/GEDI_FL_04.6900_print.jpg",
+      "label": "GEDI_FL_04.6900_print.jpg (1024x576) [110.0 KB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a004900/a004950/GEDI_FL_04.6900_searchweb.png",
+      "label": "GEDI_FL_04.6900_searchweb.png (320x180) [57.9 KB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a004900/a004950/GEDI_Goddard_02_1080p60.mp4",
+      "label": "GEDI_Goddard_02_1080p60.mp4 (1920x1080) [42.9 MB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a004900/a004950/GEDI_Goddard_02_1080p60.webm",
+      "label": "GEDI_Goddard_02_1080p60.webm (1920x1080) [4.6 MB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a004900/a004950/GEDI_Goddard_2160p60.mp4",
+      "label": "GEDI_Goddard_2160p60.mp4 (3840x2160) [154.2 MB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a004900/a004950/GEDI_Goddard_2160p30.mp4",
+      "label": "GEDI_Goddard_2160p30.mp4 (3840x2160) [144.7 MB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a004900/a004950/frames/3840x2160_16x9_60p/GEDI_Goddard/",
+      "label": "GEDI_Goddard (3840x2160) [1396 Item(s)]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a004900/a004950/GEDI_Goddard_02.8394_print.jpg",
+      "label": "GEDI_Goddard_02.8394_print.jpg (1024x576) [216.4 KB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a004900/a004950/GEDI_Laurentides_02_1080p60.mp4",
+      "label": "GEDI_Laurentides_02_1080p60.mp4 (1920x1080) [42.4 MB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a004900/a004950/GEDI_Laurentides_02_1080p60.webm",
+      "label": "GEDI_Laurentides_02_1080p60.webm (1920x1080) [4.7 MB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a004900/a004950/GEDI_Laurentides_02_2160p30.mp4",
+      "label": "GEDI_Laurentides_02_2160p30.mp4 (3840x2160) [142.4 MB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a004900/a004950/GEDI_Laurentides_02_2160p60.mp4",
+      "label": "GEDI_Laurentides_02_2160p60.mp4 (3840x2160) [150.2 MB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a004900/a004950/frames/3840x2160_16x9_60p/GEDI_Laurentides/",
+      "label": "GEDI_Laurentides (3840x2160) [1396 Item(s)]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a004900/a004950/GEDI_Laurentides_02.9894_print.jpg",
+      "label": "GEDI_Laurentides_02.9894_print.jpg (1024x576) [200.6 KB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a004900/a004950/GEDI_senegal_1080p60.mp4",
+      "label": "GEDI_senegal_1080p60.mp4 (1920x1080) [26.7 MB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a004900/a004950/GEDI_senegal_1080p60.webm",
+      "label": "GEDI_senegal_1080p60.webm (1920x1080) [3.7 MB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a004900/a004950/GEDI_senegal_2160p60.mp4",
+      "label": "GEDI_senegal_2160p60.mp4 (3840x2160) [88.2 MB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a004900/a004950/GEDI_senegal_2160p30.mp4",
+      "label": "GEDI_senegal_2160p30.mp4 (3840x2160) [82.7 MB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a004900/a004950/frames/3840x2160_16x9_60p/GEDI_Senegal/",
+      "label": "GEDI_Senegal (3840x2160) [1347 Item(s)]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a004900/a004950/GEDI_senegal.11345_print.jpg",
+      "label": "GEDI_senegal.11345_print.jpg (1024x576) [173.7 KB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a004900/a004950/GEDI_global_w_colorbar_0230_print.jpg",
+      "label": "GEDI_global_w_colorbar_0230_print.jpg (1024x576) [82.8 KB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a004900/a004950/GEDI_global_w_colorbar_0230_print.tif",
+      "label": "GEDI_global_w_colorbar_0230_print.tif (3840x2160) [31.7 MB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a004900/a004950/GEDI_global_w_colorbar_0600_print.jpg",
+      "label": "GEDI_global_w_colorbar_0600_print.jpg (1024x576) [80.2 KB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a004900/a004950/GEDI_global_w_colorbar_0600_print.tif",
+      "label": "GEDI_global_w_colorbar_0600_print.tif (3840x2160) [31.7 MB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a004900/a004950/GEDI_global_w_colorbar_1055_print.jpg",
+      "label": "GEDI_global_w_colorbar_1055_print.jpg (1024x576) [83.4 KB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a004900/a004950/GEDI_global_w_colorbar_1055_print.tif",
+      "label": "GEDI_global_w_colorbar_1055_print.tif (3840x2160) [31.7 MB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a004900/a004950/GEDI_global_w_colorbar_1900_print.jpg",
+      "label": "GEDI_global_w_colorbar_1900_print.jpg (1024x576) [68.3 KB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a004900/a004950/GEDI_global_w_colorbar_1900_print.tif",
+      "label": "GEDI_global_w_colorbar_1900_print.tif (3840x2160) [31.7 MB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a004900/a004950/GEDI_CA_w_colorbar_0150_print.jpg",
+      "label": "GEDI_CA_w_colorbar_0150_print.jpg (1024x576) [202.5 KB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a004900/a004950/GEDI_CA_w_colorbar_0150_print.tif",
+      "label": "GEDI_CA_w_colorbar_0150_print.tif (3840x2160) [31.7 MB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a004900/a004950/GEDI_CA_w_colorbar_0300_print.jpg",
+      "label": "GEDI_CA_w_colorbar_0300_print.jpg (1024x576) [225.6 KB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a004900/a004950/GEDI_CA_w_colorbar_0300_print.tif",
+      "label": "GEDI_CA_w_colorbar_0300_print.tif (3840x2160) [31.7 MB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a004900/a004950/GEDI_CA_w_colorbar_1000_print.jpg",
+      "label": "GEDI_CA_w_colorbar_1000_print.jpg (1024x576) [140.5 KB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a004900/a004950/GEDI_CA_w_colorbar_1000_print.tif",
+      "label": "GEDI_CA_w_colorbar_1000_print.tif (3840x2160) [31.7 MB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a004900/a004950/GEDI_CA_w_colorbar_1400_print.jpg",
+      "label": "GEDI_CA_w_colorbar_1400_print.jpg (1024x576) [118.0 KB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a004900/a004950/GEDI_CA_w_colorbar_1400_print.tif",
+      "label": "GEDI_CA_w_colorbar_1400_print.tif (3840x2160) [31.7 MB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/search?nasa_science_categories=Earth",
+      "label": "Earth"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/search?keywords=Agricultural science",
+      "label": "Agricultural science"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/search?keywords=Agriculture",
+      "label": "Agriculture"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/search?keywords=Earth Science",
+      "label": "Earth Science"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/search?keywords=Forest Science",
+      "label": "Forest Science"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/search?keywords=Forestry",
+      "label": "Forestry"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/search?keywords=Hyperwall",
+      "label": "Hyperwall"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/search?keywords=ISS",
+      "label": "ISS"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/search?keywords=Lidar",
+      "label": "Lidar"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/search/?people=Kel%20Elkins",
+      "label": "Kel Elkins"
+    },
+    {
+      "url": "https://orcid.org/0000-0002-0585-1619",
+      "label": ""
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/search/?people=Horace%20Mitchell",
+      "label": "Horace Mitchell"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/search/?people=Greg%20Shirah",
+      "label": "Greg Shirah"
+    },
+    {
+      "url": "https://orcid.org/0000-0002-7955-9573",
+      "label": ""
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/search/?people=Laurence%20Schuler",
+      "label": "Laurence Schuler"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/search/?people=Ian%20Jones",
+      "label": "Ian Jones"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/search/?people=Temilola%20Fatoyinbo",
+      "label": "Temilola Fatoyinbo"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/search/?people=Atticus%20Stovall",
+      "label": "Atticus Stovall"
+    },
+    {
+      "url": "https://gedi.umd.edu/",
+      "label": "https://gedi.umd.edu/"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/search/?datasets=1131",
+      "label": "See all pages that use this dataset"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/14696/",
+      "label": ""
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/14696/",
+      "label": "NASA + Smithsonian and Greenhouse Gases"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/14261/",
+      "label": ""
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/14261/",
+      "label": "Leaders in Lidar"
+    },
+    {
+      "url": "https://www.nasa.gov/",
+      "label": ""
+    },
+    {
+      "url": "https://www.usa.gov/",
+      "label": ""
+    },
+    {
+      "url": "https://www.nasa.gov/about/highlights/HP_Privacy.html",
+      "label": "Privacy Policy and Important Notices"
+    },
+    {
+      "url": "https://www.nasa.gov/multimedia/guidelines/index.html",
+      "label": "Reproduction Guidelines"
+    }
+  ],
+  "elapsed_seconds": 1.062
+}

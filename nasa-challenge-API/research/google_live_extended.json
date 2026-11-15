@@ -1,0 +1,13 @@
+{
+  "id": "google_live_extended",
+  "url": "https://aistudio.google.com/docs/models/gemini-3.8-live-extended-thinking",
+  "checked_at": "2026-11-14T15:16:15.194522+00:00",
+  "tls_validation": false,
+  "status": 200,
+  "final_url": "https://aistudio.google.com/docs/models/gemini-3.8-live-extended-thinking",
+  "bytes": 42476,
+  "content_type": "text/html; charset=utf-8",
+  "sha256": "7a6bdd2892a57bf2436db49f17e81da477d65bc737ca16e1e3f20ddd9fa856c5",
+  "links": [],
+  "elapsed_seconds": 0.75
+}

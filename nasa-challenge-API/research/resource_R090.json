@@ -1,0 +1,13 @@
+{
+  "id": "resource_R090",
+  "url": "https://worldview.earthdata.nasa.gov/index.html?utm_source=%27chatgpt.com%27",
+  "checked_at": "2026-11-14T15:15:22.228115+00:00",
+  "tls_validation": false,
+  "status": 200,
+  "final_url": "https://worldview.earthdata.nasa.gov/index.html?utm_source=%27chatgpt.com%27",
+  "bytes": 4315,
+  "content_type": "text/html",
+  "sha256": "cb2d20917791e84f680004926944677e08289fa228d60fc734d427c0718596ff",
+  "links": [],
+  "elapsed_seconds": 0.562
+}

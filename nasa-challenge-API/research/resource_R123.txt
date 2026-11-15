@@ -1,0 +1,182 @@
+NASA SVS | Global Sea Surface Currents and Temperature
+Scientific Visualization Studio
+Galleries
+Help
+Search
+10931: Moon Struck
+10937: RBSP Animation
+Global Sea Surface Currents and Temperature
+Released
+Friday, March 16, 2012
+ID: 3912
+Visualizations by:
+Greg Shirah
+View full credits
+This visualization shows sea surface current flows. The flows are colored by corresponding sea surface temperature data. This visualization is rendered for display on very high resolution devices like hyperwalls or for print media.
+This visualization was produced using model output from the joint MIT/JPL project entitled
+Estimating the Circulation and Climate of the Ocean, Phase II (ECCO2)
+. ECCO2 uses the MIT general circulation model (MITgcm) to synthesize satellite and in-situ data of the global ocean and sea-ice at resolutions that begin to resolve ocean eddies and other narrow current systems, which transport heat and carbon in the oceans. The ECCO2 model simulates ocean flows at all depths, but only surface flows are used in this visualization.
+Global sea surface currents colored by temperature.  These are the assembled (contiguous) versions of the animation.  There are several resolutions to choose from, some are cropped for various purposes.  The 6840x3420 version is the complete, full resolution visualization at the appropriate 2x1 aspect ratio and has not been cropped or resized.  The time range for these visualizations is from 2007-03-25T12:00Z to 2008-03-03T12:00Z.
+Download
+Movies
+ecco2_sst_flow.webmhd.webm (960x540) [14.9 MB]
+ecco2_sst_flow.mp4 (2048x1024) [244.4 MB]
+flat_global_ecco2_2028x1024_comp_p30.mp4 (2048x1024) [278.6 MB]
+ecco2_sst_flow.m4v (640x320) [12.1 MB]
+Oceanflows-UHD-2160.mp4 (3840x2160) [324.0 MB]
+Frame sets
+orig (2048x1024) [2002 Item(s)]
+with_colorbar (2048x1024) [2002 Item(s)]
+6840x3420_1x1_30p (6840x3420) [2004 Item(s)]
+Images
+flat_global_ecco2_2028x1024.25000.jpg (2048x1024) [1002.0 KB]
+flat_global_ecco2_2028x1024.25000_web.png (320x160) [77.5 KB]
+flat_global_ecco2_2028x1024.25000_thm.png (80x40) [5.7 KB]
+flat_global_ecco2_2028x1024.25000_searchweb.png (180x320) [77.4 KB]
+Hyperwall shows
+multiple-bigmovie.hwshow [222 bytes]
+Presentations
+the_motions_of_the_oceans.pptx [54.7 MB]
+the_motions_of_the_oceans.key [54.9 MB]
+Global sea surface currents colored by temperature.  These are the assembled (contiguous) versions of the animation.  There are several resolutions to choose from, some are cropped for various purposes.  The 6840x3420 version is the complete, full resolution visualization at the appropriate 2x1 aspect ratio and has not been cropped or resized.  The time range for these visualizations is from 2007-03-25T12:00Z to 2008-03-03T12:00Z.
+Download
+Images
+ecco2_and_grid_crop1.png (320x180) [133.1 KB]
+ecco2_and_grid_crop1.jpg (320x180) [77.0 KB]
+ecco2_and_grid_crop1.tif (320x180) [167.2 KB]
+A cropped region in the Pacific illustrating the distribution of the actual flow vector data points relative to the flow curves. The white dots represent locations where the ECCO2 model defines the ocean current directions. Locations in between those locations are interpolated.
+Download
+Images
+ecco2_and_grid_crop2.png (320x180) [141.4 KB]
+ecco2_and_grid_crop2.jpg (320x180) [77.8 KB]
+ecco2_and_grid_crop2.tif (320x180) [183.9 KB]
+A cropped region in the Atlantic illustrating the distribution of the actual flow vector data points relative to the flow curves. The white dots represent locations where the ECCO2 model defines the ocean current directions. Locations in between those locations are interpolated.  Notice the irregular distribution of grid points (e.g., bright spot near the center).  This is due to the advanced cube-sphere distribution of the data points.  The bright spot is one of the cube-sphere corners.
+Download
+Images
+ecco2_and_grid.jpg (6840x3420) [12.8 MB]
+ecco2_and_grid_web.png (320x160) [78.6 KB]
+ecco2_and_grid.tif (6840x3420) [34.4 MB]
+Full resolution ECCO2 flow field illustrating the distribution of the actual flow vector data points relative to the flow curves. The white dots represent locations where the ECCO2 model defines the ocean current directions. Locations in between those locations are interpolated.
+Sea surface currents and temperatures cropped, scaled, and diced for a 5x3 hyperwall.Date and time information for each frame can be found here. Individual cut-up frames and movie files are available for download.
+Download
+Movies
+flat_global_ecco2_6840x3420_768p30-b1.webm (1368x768) [8.0 MB]
+flat_global_ecco2_6840x3420_768p30-d1.mp4 (1368x768) [25.0 MB]
+flat_global_ecco2_6840x3420_768p30-c1.mp4 (1368x768) [184.5 MB]
+flat_global_ecco2_6840x3420_768p30-c2.mp4 (1368x768) [178.5 MB]
+flat_global_ecco2_6840x3420_768p30-a1.mp4 (1368x768) [268.7 MB]
+flat_global_ecco2_6840x3420_768p30-e3.mp4 (1368x768) [277.9 MB]
+flat_global_ecco2_6840x3420_768p30-b1.mp4 (1368x768) [203.4 MB]
+flat_global_ecco2_6840x3420_768p30-b2.mp4 (1368x768) [245.6 MB]
+flat_global_ecco2_6840x3420_768p30-b3.mp4 (1368x768) [276.6 MB]
+flat_global_ecco2_6840x3420_768p30-e1.mp4 (1368x768) [241.7 MB]
+flat_global_ecco2_6840x3420_768p30-c3.mp4 (1368x768) [311.7 MB]
+flat_global_ecco2_6840x3420_768p30-e2.mp4 (1368x768) [331.2 MB]
+flat_global_ecco2_6840x3420_768p30-d3.mp4 (1368x768) [346.5 MB]
+flat_global_ecco2_6840x3420_768p30-d2.mp4 (1368x768) [318.9 MB]
+flat_global_ecco2_6840x3420_768p30-a3.mp4 (1368x768) [328.2 MB]
+flat_global_ecco2_6840x3420_768p30-a2.mp4 (1368x768) [387.7 MB]
+Images
+global-5x3-3-montage.png (6840x2304) [24.0 MB]
+global_5x3-3_hw_print.jpg (345x1024) [180.3 KB]
+Hyperwall shows
+test-multiple-movies.hwshow.hwshow
+test-multiple-movies.hwshow.hwshow
+Sea surface currents and temperatures cropped, scaled, and diced for a 5x3 hyperwall.
+Date and time information for each frame can be found here.
+Individual cut-up frames and movie files are available for download.
+Download
+Frame sets
+6840x2304_1x1_30p (6840x2304) [1751 Item(s)]
+Images
+atlantic-5x3-montage.png (6840x2304) [19.1 MB]
+flat_atlantic_ecco2_6840x2304.23000_print.jpg (1024x344) [151.1 KB]
+Sea Surface currents of the northern Atlantic Ocean. This version was produced for a 5x3 hyperwall.
+Download
+Images
+sst_ecco2_cbar.png (310x95) [8.7 KB]
+Sea surface temperature color bar (blue is 0 degrees C, green is 10-20 degrees C, yellow is about 25 degrees C, red is 32 degrees C)
+This visualization shows the sea surface currents and temperatures in the eastern Pacific Ocean.
+Download
+Movies
+pacificcurrents_1080p30.webm (1920x1080) [8.6 MB]
+pacificcurrents_no_overlay_1080p30_2.mp4 (1920x1080) [264.5 MB]
+pacificcurrents_1080p30.mp4 (1920x1080) [475.2 MB]
+Frame sets
+pacific (1920x1080) [2002 Item(s)]
+pacific_bare (1920x1080) [2002 Item(s)]
+Images
+pacificcurrents.00000_print.jpg (1024x576) [256.0 KB]
+This visualization shows the sea surface currents and temperatures in the eastern Pacific Ocean.
+Earth
+Climate Variability and Change
+Earth Science
+Hyperwall
+ocean circulation
+ocean currents
+Oceans
+Physical oceanography
+Presentation
+Credits
+Please give credit for this item to:
+NASA/Goddard Space Flight Center Scientific Visualization Studio
+Animators
+Greg Shirah
+(NASA/GSFC)
+Horace Mitchell
+(NASA/GSFC)
+Eric Sokolowsky
+(Global Science and Technology, Inc.)
+Project support
+Eric Sokolowsky
+(Global Science and Technology, Inc.)
+Producer
+Michael Starobin
+(HTSI)
+Scientists
+Hong Zhang
+(UCLA)
+Dimitris Menemenlis
+(NASA/JPL CalTech)
+Missions
+This page is related to the following missions:
+Global Precipitation Measurement (GPM)
+Series
+This page can be found in the following series:
+Flows
+Hyperwall
+Datasets used
+GTOPO30 Topography and Bathymetry
+ID: 274
+Type: Data Compilation
+Collected by: USGS
+Dates used: 3-2007 through 2-2008
+See all pages that use this dataset
+ECCO2 (ECCO2 High Resolution Ocean and Sea Ice Model)
+ID: 707
+Type: Model
+Collected by: NASA/JPL
+See all pages that use this dataset
+Note: While we identify the data sets used on this page, we do not store any further details, nor the data sets themselves on our site.
+Related
+ID: 10953
+Produced Video
+Swirling Seas
+Sources
+ID: 30701
+Hyperwall Visual
+Earth: A System of Systems
+Used as a Source In
+ID: 12738
+Produced Video
+Intense String of Hurricanes Seen From Space
+Release date
+This page was originally published on Friday, March 16, 2012.
+This page was last updated on Tuesday, February 18, 2025 at 12:01 AM EST.
+You may also like...
+No results.
+An error occurred. Please reload this page and try again.
+Privacy Policy and Important Notices
+Reproduction Guidelines
+NASA Official:
+Site Curator:

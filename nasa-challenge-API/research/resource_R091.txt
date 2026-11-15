@@ -1,0 +1,82 @@
+Welcome to the Planetary Data System
+Main menu
+Home
+Data Search
+Tools
+Data Standards
+Menu: Home
+Home
+About PDS
+Data Users
+Data Proposers
+Data Providers
+NASA Portal
+Site Help
+Contact Us
+Feedback
+Announcements
+Community Announcement
+New Releases
+October 31, 2026
+aperiodic PDS data releases in October 2026
+October 7, 2026
+Artemis II Mission Data Release
+October 1, 2026
+Odyssey Data Release 97
+Data Release Calendar
+Previous Releases
+Subscribe to new releases
+PDS Nodes
+Atmospheres (ATM)
+Cartography and Imaging Sciences (IMG)
+Geosciences (GEO)
+Navigational & Ancillary Information Facility (NAIF)
+Planetary Plasma Interactions (PPI)
+Ring-Moon Systems (RMS)
+Small Bodies (SBN)
+Welcome to the PDS
+Updated
+PDS Beta Website 2.0 — October 2026
+The next release of our redesigned website is live. New in 2.0: portal pages for bundles and collections, including DOI landing pages;
+		mission data from ESA’s Planetary Science Archive in Data Search; and new
+Find Data By
+directories for facilities, instruments,
+		investigations, targets, and telescopes.
+Try the beta site
+This site remains available during the beta. Tell us what works and what doesn’t with the
+Give Feedback
+link on the beta site.
+The Planetary Data System (PDS) is a long-term archive of digital data products returned from NASA's planetary missions, and from other kinds of flight and ground-based data acquisitions, including laboratory experiments. But it is more than just a facility - the archive is actively managed by planetary scientists to help ensure its usefulness and usability by the world wide planetary science community.
+Archive submissions are prepared by researchers under the guidance of PDS personnel. All products are peer-reviewed, well-documented, and easily accessible via a system of online catalogs that are organized by planetary disciplines.
+Archived products are available on-line. When needed, PDS provides users access to staff to help with data selection. PDS also provides a variety of tools useful in producing, obtaining and using archived data. There is no cost associated with acquiring PDS archived data or tools or in getting reasonable amounts of PDS help. All PDS archived data may be exported outside of the United States under the U.S. Government's Technology and Software Publicly Available (TSPA) classification.
+To learn more about PDS and the nodes, go to
+About the PDS
+.
+Below are links to important information for the various categories of PDS users.
+Data Users
+(Researchers, Educators, Students and the General Public)
+Data Users include researchers, students, and educators who are interested in obtaining, manipulating, and understanding PDS data products.
+			They intend to locate data products, find tools to work with those data products, and understand how those data products are formatted and structured.
+Some information in this collection may also be of interest to the general public.
+Data Proposers
+Data Proposers intend to submit a proposal for NASA funding, with the proposal including the intent to archive data in the PDS.
+			The proposal might be prepared as part of a mission proposal, or as an individual researcher responding to a data analysis program call.
+			A data proposer is looking for information on how to include PDS archiving in their proposal.
+			A successful Data Proposer will later become a Data Provider.
+Data Providers
+Data Providers intend to submit data to PDS for peer review and subsequent archiving.
+			They are looking for tools to develop their data products and archive bundles, and for documentation detailing PDS standards and bundle structure.
+Privacy / Copyright
+Freedom of Information Act
+NASA
+Caltech
+Privacy
+Image Policy
+FAQ
+Feedback
+Webmaster:
+PDS Operator
+NASA Official:
+Dr. Robin Fergason
+Clearance: CL#22-1582
+Last updated: July 2026

@@ -1,0 +1,846 @@
+{
+  "id": "doc_harmony",
+  "url": "https://harmony.earthdata.nasa.gov/docs",
+  "checked_at": "2026-11-14T15:12:45.592357+00:00",
+  "tls_validation": false,
+  "status": 200,
+  "final_url": "https://harmony.earthdata.nasa.gov/docs",
+  "bytes": 154699,
+  "content_type": "text/html; charset=utf-8",
+  "sha256": "45264984296d15d450b6224dea89a091860128ff4a7e65773b0bedaf597b8a0c",
+  "links": [
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs",
+      "label": "Earthdata Harmony"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#overview",
+      "label": "§"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/eosdis/",
+      "label": "Earth Observing Systems Data and Information System (EOSDIS)"
+    },
+    {
+      "url": "https://www.ogc.org/",
+      "label": "Open Geospatial Consortium (OGC)"
+    },
+    {
+      "url": "https://aws.com",
+      "label": "AWS"
+    },
+    {
+      "url": "https://github.com/nasa/harmony-py",
+      "label": "Harmony-Py"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#overview",
+      "label": "Overview"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#getting-started",
+      "label": "Getting Started"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#passing-credentials-with-curl",
+      "label": "Passing credentials with curl"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#passing-credentials-in-code",
+      "label": "Passing credentials in code"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#using-the-service-apis",
+      "label": "Using the Service APIs"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#ogc-coverages-request-parameters",
+      "label": "OGC Coverages Request Parameters"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#url-path-parameters",
+      "label": "URL Path Parameters"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#query-parameters",
+      "label": "Query Parameters"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#ogc-edr-request-parameters",
+      "label": "OGC EDR Request Parameters"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#url-path-parameters-1",
+      "label": "URL Path Parameters"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#common-ogc-edr-query-parameters",
+      "label": "Common OGC EDR Query Parameters"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#harmony-extended-query-parameters-for-ogc-edr-routes",
+      "label": "Harmony Extended Query Parameters for OGC EDR Routes"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#ogc-edr-cube-subsetting-query-parameters",
+      "label": "OGC EDR Cube Subsetting Query Parameters"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#ogc-edr-area-subsetting-query-parameters",
+      "label": "OGC EDR Area Subsetting Query Parameters"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#ogc-edr-position-subsetting-query-parameters",
+      "label": "OGC EDR Position Subsetting Query Parameters"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#ogc-edr-trajectory-subsetting-query-parameters",
+      "label": "OGC EDR Trajectory Subsetting Query Parameters"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#wms-requests",
+      "label": "WMS Requests"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#url-path-parameters-2",
+      "label": "URL Path Parameters"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#common-query-parameters",
+      "label": "Common Query Parameters"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#query-parameters-for-getmap---standard-wms",
+      "label": "Query Parameters for GetMap - Standard WMS"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#additional-harmony-parameters-for-wms-requests",
+      "label": "Additional Harmony parameters for WMS requests"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#available-services",
+      "label": "Available Services"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#service-versions",
+      "label": "Service Versions"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#service-capabilities",
+      "label": "Service Capabilities"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#user-owned-buckets-for-harmony-output",
+      "label": "User Owned Buckets for Harmony Output"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#summary-of-available-endpoints",
+      "label": "Summary of Available Endpoints"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#get-harmony-capabilities-for-the-provided-collection",
+      "label": "Get Harmony capabilities for the provided collection"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#query-parameters-1",
+      "label": "Query Parameters"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#response",
+      "label": "Response"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#version-3",
+      "label": "Version 3"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#version-2",
+      "label": "Version 2"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#version-1",
+      "label": "Version 1"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#getting-harmony-capabilities-for-a-given-collection-by-collection-concept-id",
+      "label": "Getting Harmony capabilities for a given collection by collection concept id"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#getting-harmony-capabilities-for-a-given-collection-by-collection-short-name",
+      "label": "Getting Harmony capabilities for a given collection by collection short name"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#monitoring-jobs-with-the-jobs-api-and-the-workflow-ui",
+      "label": "Monitoring Jobs with the Jobs API and the Workflow-UI"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#getting-the-list-of-jobs-for-a-user",
+      "label": "Getting the list of jobs for a user"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#query-parameters-2",
+      "label": "Query Parameters"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#response-1",
+      "label": "Response"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#getting-job-status",
+      "label": "Getting job status"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#response-2",
+      "label": "Response"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#getting-status-for-multiple-jobs-at-once",
+      "label": "Getting status for multiple jobs at once"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#response-3",
+      "label": "Response"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#pausing-a-job",
+      "label": "Pausing a job"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#resuming-a-paused-job",
+      "label": "Resuming a paused job"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#canceling-a-job",
+      "label": "Canceling a job"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#skipping-preview",
+      "label": "Skipping preview"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#inspecting-a-job's-steps-with-the-steps-api",
+      "label": "Inspecting a Job's Steps with the Steps API"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#getting-the-steps-for-a-job",
+      "label": "Getting the steps for a job"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#resolving-a-work-item's-files",
+      "label": "Resolving a work item's files"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#query-parameters-3",
+      "label": "Query Parameters"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#response-4",
+      "label": "Response"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#step-fields",
+      "label": "Step fields"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#paging-fields",
+      "label": "Paging fields"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#work-item-fields",
+      "label": "Work item fields"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#labeling-jobs",
+      "label": "Labeling Jobs"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#retrieving-stac-catalog-and-catalog-items-for-processed-data",
+      "label": "Retrieving STAC catalog and catalog items for processed data"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#getting-the-stac-catalog-of-a-single-job",
+      "label": "Getting the STAC catalog of a single job"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#getting-the-stac-catalog-item-within-a-job's-stac-catalog",
+      "label": "Getting the STAC catalog item within a job's STAC catalog"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#getting-in-region-s3-aws-access-keys-using-the-cloud-access-api",
+      "label": "Getting in region S3 AWS access keys using the cloud-access API"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#get-aws-s3-access-credentials-as-json",
+      "label": "Get AWS S3 access credentials as JSON"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#get-aws-s3-access-credentials-as-a-shell-script-to-use-in-a-terminal",
+      "label": "Get AWS S3 access credentials as a shell script to use in a terminal"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#getting-the-versions-of-images-used-in-each-of-the-harmony-backend-service-chains",
+      "label": "Getting the versions of images used in each of the Harmony backend service chains"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#get-backend-service-version-information",
+      "label": "Get backend service version information"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#getting-started",
+      "label": "§"
+    },
+    {
+      "url": "https://urs.earthdata.nasa.gov",
+      "label": "Earthdata Login"
+    },
+    {
+      "url": "https://curl.se/",
+      "label": "curl"
+    },
+    {
+      "url": "https://everything.curl.dev/usingcurl/netrc",
+      "label": ".netrc file"
+    },
+    {
+      "url": "https://urs.earthdata.nasa.gov/documentation/for_users/user_token",
+      "label": "bearer token"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#passing-credentials-with-curl",
+      "label": "§"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#passing-credentials-in-code",
+      "label": "§"
+    },
+    {
+      "url": "https://github.com/nasa/harmony-py",
+      "label": "harmony-py"
+    },
+    {
+      "url": "https://harmony-py.readthedocs.io/en/latest/",
+      "label": "documentation"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#using-the-service-apis",
+      "label": "§"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs/api",
+      "label": "OGC Coverages API"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs/edr-api",
+      "label": "OGC EDR API"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#ogc-coverages-request-parameters",
+      "label": "§"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#url-path-parameters",
+      "label": "§"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#query-parameters",
+      "label": "§"
+    },
+    {
+      "url": "http://www.opengis.net/def/crs/OGC/1.3/CRS84",
+      "label": "WGS84 longitude/latitude"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#ogc-edr-request-parameters",
+      "label": "§"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#url-path-parameters-1",
+      "label": "§"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#common-ogc-edr-query-parameters",
+      "label": "§"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#harmony-extended-query-parameters-for-ogc-edr-routes",
+      "label": "§"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#ogc-edr-cube-subsetting-query-parameters",
+      "label": "§"
+    },
+    {
+      "url": "http://www.opengis.net/def/crs/OGC/1.3/CRS84",
+      "label": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#ogc-edr-area-subsetting-query-parameters",
+      "label": "§"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#ogc-edr-position-subsetting-query-parameters",
+      "label": "§"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#ogc-edr-trajectory-subsetting-query-parameters",
+      "label": "§"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#wms-requests",
+      "label": "§"
+    },
+    {
+      "url": "https://www.ogc.org/standard/wms/",
+      "label": "OGC Web Map Service (WMS) API"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#url-path-parameters-2",
+      "label": "§"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#common-query-parameters",
+      "label": "§"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#query-parameters-for-getmap---standard-wms",
+      "label": "§"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#additional-harmony-parameters-for-wms-requests",
+      "label": "§"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#available-services",
+      "label": "§"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#service-versions",
+      "label": "§"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/versions",
+      "label": "versions"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#service-capabilities",
+      "label": "§"
+    },
+    {
+      "url": "https://stitchee.readthedocs.io/en/latest/sambah_readme/",
+      "label": "here"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#user-owned-buckets-for-harmony-output",
+      "label": "§"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/staging-bucket-policy?bucketPath=my-example-bucket",
+      "label": "https://harmony.earthdata.nasa.gov/staging-bucket-policy?bucketPath=my-example-bucket"
+    },
+    {
+      "url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html",
+      "label": "AWS bucket naming rules"
+    },
+    {
+      "url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/object-keys.html",
+      "label": "AWS object key naming guidelines"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#summary-of-available-endpoints",
+      "label": "§"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#using-the-service-apis",
+      "label": "Using the Service APIs section"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#capabilities-details",
+      "label": "Get harmony capabilities for the provided collection"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#cloud-access-details",
+      "label": "Generates AWS credentials for accessing processed data in S3"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#jobs-details",
+      "label": "The jobs API for getting job status, pausing/continuing/canceling jobs"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#bulk-job-status",
+      "label": "Getting status for multiple jobs at once"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#jobs-steps",
+      "label": "The introspection service for understanding a jobs steps and intermediate results"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#stac-details",
+      "label": "The API for retrieving STAC catalog and catalog items for processed data"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#user-owned-buckets-for-harmony-output",
+      "label": "The policy generator for external (user) bucket storage"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#versions-details",
+      "label": "Returns JSON indicating the image and tag each deployed service is running"
+    },
+    {
+      "url": "https://github.com/nasa/harmony/blob/main/docs/guides/managing-existing-services.md",
+      "label": "The API for managing service image tags/versions"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#get-harmony-capabilities-for-the-provided-collection",
+      "label": "§"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs",
+      "label": ""
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs/capabilities-api",
+      "label": "OpenAPI/Swagger"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/schemas/collection-capabilities/v3/collection-capabilities-v3.json",
+      "label": "Version 3"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/schemas/collection-capabilities/v2/collection-capabilities-v2.json",
+      "label": "Version 2"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/schemas/collection-capabilities/v1/collection-capabilities-v1.json",
+      "label": "Version 1"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#query-parameters-1",
+      "label": "§"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs",
+      "label": ""
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#response",
+      "label": "§"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs",
+      "label": ""
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#version-3",
+      "label": "§"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs",
+      "label": ""
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#version-2",
+      "label": "§"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs",
+      "label": ""
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#version-1",
+      "label": "§"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs",
+      "label": ""
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#getting-harmony-capabilities-for-a-given-collection-by-collection-concept-id",
+      "label": "§"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#getting-harmony-capabilities-for-a-given-collection-by-collection-short-name",
+      "label": "§"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#monitoring-jobs-with-the-jobs-api-and-the-workflow-ui",
+      "label": "§"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs",
+      "label": ""
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/workflow-ui",
+      "label": "Workflow-UI"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#getting-the-list-of-jobs-for-a-user",
+      "label": "§"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#query-parameters-2",
+      "label": "§"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs",
+      "label": ""
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#response-1",
+      "label": "§"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs",
+      "label": ""
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#job-response",
+      "label": "job status response"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#getting-job-status",
+      "label": "§"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#response-2",
+      "label": "§"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs",
+      "label": ""
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#getting-status-for-multiple-jobs-at-once",
+      "label": "§"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs",
+      "label": ""
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#job-response",
+      "label": "job status response"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#response-3",
+      "label": "§"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs",
+      "label": ""
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#pausing-a-job",
+      "label": "§"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#job-response",
+      "label": "job status response"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#resuming-a-paused-job",
+      "label": "§"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#job-response",
+      "label": "job status response"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#canceling-a-job",
+      "label": "§"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#job-response",
+      "label": "job status response"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#skipping-preview",
+      "label": "§"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#using-the-service-apis",
+      "label": "Services API section"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#inspecting-a-job's-steps-with-the-steps-api",
+      "label": "§"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs",
+      "label": ""
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#getting-the-steps-for-a-job",
+      "label": "§"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#step-work-item-response",
+      "label": "work item fields"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#steps-resolve-files",
+      "label": "Resolving a work item's files"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#resolving-a-work-item's-files",
+      "label": "§"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs",
+      "label": ""
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#query-parameters-3",
+      "label": "§"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs",
+      "label": ""
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#steps-resolve-files",
+      "label": "Resolving a work item's files"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#response-4",
+      "label": "§"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs",
+      "label": ""
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#step-response",
+      "label": "step fields"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#step-fields",
+      "label": "§"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs",
+      "label": ""
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#step-work-item-response",
+      "label": "work item fields"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#step-paging-response",
+      "label": "paging fields"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#paging-fields",
+      "label": "§"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs",
+      "label": ""
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#work-item-fields",
+      "label": "§"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs",
+      "label": ""
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#steps-resolve-files",
+      "label": "resolving a work item's files"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#step-paging-response",
+      "label": "paging fields"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#step-paging-response",
+      "label": "paging fields"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#labeling-jobs",
+      "label": "§"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs",
+      "label": ""
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#using-the-service-apis",
+      "label": "Services API section"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#retrieving-stac-catalog-and-catalog-items-for-processed-data",
+      "label": "§"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs",
+      "label": ""
+    },
+    {
+      "url": "https://stacspec.org/en",
+      "label": "STAC catalog"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#getting-the-stac-catalog-of-a-single-job",
+      "label": "§"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#getting-the-stac-catalog-item-within-a-job's-stac-catalog",
+      "label": "§"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#getting-in-region-s3-aws-access-keys-using-the-cloud-access-api",
+      "label": "§"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs",
+      "label": ""
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#get-aws-s3-access-credentials-as-json",
+      "label": "§"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#get-aws-s3-access-credentials-as-a-shell-script-to-use-in-a-terminal",
+      "label": "§"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#getting-the-versions-of-images-used-in-each-of-the-harmony-backend-service-chains",
+      "label": "§"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs",
+      "label": ""
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs#get-backend-service-version-information",
+      "label": "§"
+    },
+    {
+      "url": "https://github.com/nasa/harmony/blob/main/config/services-uat.yml",
+      "label": "services-uat.yml"
+    },
+    {
+      "url": "http://www.nasa.gov/FOIA/index.html",
+      "label": "FOIA"
+    },
+    {
+      "url": "http://www.nasa.gov/about/highlights/HP_Privacy.html",
+      "label": "NASA Privacy Policy"
+    },
+    {
+      "url": "http://www.usa.gov/",
+      "label": "USA.gov"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs",
+      "label": "Feedback"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/versions",
+      "label": "v 1.1.514"
+    }
+  ],
+  "elapsed_seconds": 1.0
+}

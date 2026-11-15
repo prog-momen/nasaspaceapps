@@ -1,0 +1,138 @@
+{
+  "id": "resource_R058",
+  "url": "https://power.larc.nasa.gov/",
+  "checked_at": "2026-11-14T15:15:16.530489+00:00",
+  "tls_validation": false,
+  "status": 200,
+  "final_url": "https://power.larc.nasa.gov/",
+  "bytes": 35593,
+  "content_type": "text/html",
+  "sha256": "0c2f2af2440b4e9dda000c921f3be02dd1d71294a1e57640ef6a4e3270fb98b1",
+  "links": [
+    {
+      "url": "https://power.larc.nasa.gov/#main-content",
+      "label": "Skip to main content"
+    },
+    {
+      "url": "https://www.nasa.gov/",
+      "label": ""
+    },
+    {
+      "url": "https://power.larc.nasa.gov/",
+      "label": ""
+    },
+    {
+      "url": "https://power.larc.nasa.gov/parameters/",
+      "label": "ParametersExplore our catalog of 300+ solar and meteorological data parameters."
+    },
+    {
+      "url": "https://power.larc.nasa.gov/docs/",
+      "label": "DocumentationReview data methodology, tutorials, and publications citing POWER data."
+    },
+    {
+      "url": "https://power.larc.nasa.gov/articles/",
+      "label": "Impact StoriesDive into stories demonstrating POWER's impact worldwide."
+    },
+    {
+      "url": "https://www.nasa.gov/",
+      "label": ""
+    },
+    {
+      "url": "https://power.larc.nasa.gov/",
+      "label": "NASA Prediction Of Worldwide Energy Resources (POWER)"
+    },
+    {
+      "url": "https://power.larc.nasa.gov/",
+      "label": "POWER"
+    },
+    {
+      "url": "https://power.larc.nasa.gov/data-access-viewer/",
+      "label": "Data Access Viewer"
+    },
+    {
+      "url": "https://power.larc.nasa.gov/parameter-uncertainty-viewer/",
+      "label": "PaRameter Uncertainty ViEwer"
+    },
+    {
+      "url": "https://power.larc.nasa.gov/api/pages/",
+      "label": "Application Programming Interface"
+    },
+    {
+      "url": "https://registry.opendata.aws/nasa-power/",
+      "label": "Direct Datastore Access"
+    },
+    {
+      "url": "https://nasa.maps.arcgis.com/home/group.html?id=4b75def515df430980faebca6a007465#overview",
+      "label": "Geospatial Data Services"
+    },
+    {
+      "url": "https://power.larc.nasa.gov/docs/methodology/communities/",
+      "label": "Communities"
+    },
+    {
+      "url": "https://power.larc.nasa.gov/articles/",
+      "label": "Impact Stories"
+    },
+    {
+      "url": "https://power.larc.nasa.gov/global-community-summit/",
+      "label": "Global Community Summit"
+    },
+    {
+      "url": "https://power.larc.nasa.gov/docs/",
+      "label": "Documentation"
+    },
+    {
+      "url": "https://power.larc.nasa.gov/docs/methodology/",
+      "label": "Methodology"
+    },
+    {
+      "url": "https://power.larc.nasa.gov/docs/faqs/",
+      "label": "Frequent Questions"
+    },
+    {
+      "url": "https://power.larc.nasa.gov/docs/tutorials/",
+      "label": "Training and Tutorials"
+    },
+    {
+      "url": "https://power.larc.nasa.gov/parameters/",
+      "label": "Parameter Dictionary"
+    },
+    {
+      "url": "https://power.larc.nasa.gov/dashboard/",
+      "label": "Dashboards"
+    },
+    {
+      "url": "https://power.larc.nasa.gov/docs/team/",
+      "label": "Team Members"
+    },
+    {
+      "url": "https://power.larc.nasa.gov/docs/references/publications/",
+      "label": "Team Publications"
+    },
+    {
+      "url": "https://power.larc.nasa.gov/docs/acknowledgements/",
+      "label": "Acknowledgements"
+    },
+    {
+      "url": "https://www.nasa.gov/privacy/",
+      "label": "NASA Privacy Statement"
+    },
+    {
+      "url": "https://www.nasa.gov/organizations/disclaimer/",
+      "label": "Disclaimer"
+    },
+    {
+      "url": "https://www.nasa.gov/accessibility/",
+      "label": "Accessibility"
+    },
+    {
+      "url": "mailto:paul.w.stackhouse@nasa.gov",
+      "label": "Paul Stackhouse"
+    },
+    {
+      "url": "mailto:larc-power-project@mail.nasa.gov",
+      "label": "NASA POWER"
+    }
+  ],
+  "elapsed_seconds": 0.312
+}

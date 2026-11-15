@@ -1,0 +1,13 @@
+{
+  "id": "resource_R071",
+  "url": "https://waterdata.usgs.gov/nwis",
+  "checked_at": "2026-11-14T15:15:19.050902+00:00",
+  "tls_validation": false,
+  "status": 403,
+  "final_url": "https://waterdata.usgs.gov/nwis",
+  "bytes": 919,
+  "content_type": "text/html",
+  "sha256": "4d3e36f5fd99e053ff0e69698b984c7c741f5608d5c12d93c68584b9b084f3fb",
+  "links": [],
+  "elapsed_seconds": 0.156
+}

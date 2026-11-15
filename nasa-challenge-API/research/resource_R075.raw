@@ -1,0 +1,878 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+        <meta charset="utf-8" />
+<meta name="Generator" content="Drupal 11 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="icon" href="/sites/default/files/appicon.png" type="image/png" />
+<link rel="canonical" href="https://www.landfire.gov/node/3" />
+<link rel="shortlink" href="https://www.landfire.gov/node/3" />
+
+    <title>Homepage | LANDFIRE</title>
+    <link rel="stylesheet" media="all" href="/core/modules/system/css/components/align.module.css?toefcy" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/container-inline.module.css?toefcy" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/clearfix.module.css?toefcy" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/hidden.module.css?toefcy" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/js.module.css?toefcy" />
+<link rel="stylesheet" media="all" href="/core/modules/views/css/views.module.css?toefcy" />
+<link rel="stylesheet" media="all" href="/modules/contrib/better_exposed_filters/css/better_exposed_filters.css?toefcy" />
+<link rel="stylesheet" media="all" href="/modules/contrib/paragraphs/css/paragraphs.unpublished.css?toefcy" />
+<link rel="stylesheet" media="all" href="/core/../themes/custom/landfire/components/html/html.css?toefcy" />
+<link rel="stylesheet" media="all" href="/core/../themes/custom/landfire/components/nav/nav.css?toefcy" />
+<link rel="stylesheet" media="all" href="/core/../themes/custom/landfire/components/navbar/navbar.css?toefcy" />
+<link rel="stylesheet" media="all" href="/core/../themes/custom/landfire/components/page-footer/page-footer.css?toefcy" />
+<link rel="stylesheet" media="all" href="/core/../themes/custom/landfire/components/page-front/page-front.css?toefcy" />
+<link rel="stylesheet" media="all" href="/core/../themes/custom/landfire/components/page-front-content/page-front-content.css?toefcy" />
+<link rel="stylesheet" media="all" href="/core/../themes/custom/landfire/components/page-header/page-header.css?toefcy" />
+<link rel="stylesheet" media="all" href="/core/../themes/contrib/radix/components/form-element/form-element.css?toefcy" />
+<link rel="stylesheet" media="all" href="/themes/custom/landfire/build/css/main.style.css?toefcy" />
+
+    
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital@0;1&family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-P1JQNF783Q"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-P1JQNF783Q');
+    </script>
+
+    <!-- USGS Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-TKQR8KP');</script>
+    <!-- End Google Tag Manager -->
+  </head>
+  <body class="node-3 node-type--page path-frontpage language--en" data-component-id="landfire:html">
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe sandbox src="https://www.googletagmanager.com/ns.html?id=GTM-TKQR8KP"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+          <a href="#main-content" class="visually-hidden focusable">
+      Skip to main content
+    </a>
+    
+      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    
+<div  class="page app">
+      <header role="banner" class="bg-primary bg-gradient shadow-md text-light py-2 border-bottom border-dark border-2">
+  <div class="container">
+    <div class="d-flex justify-content-between">
+      <div class="d-flex align-items-center branding">
+        <div class="d-flex align-items-center logos me-2">
+          <div class="px-1">
+            <img class="img-fluid w-auto" alt="United States Forest Service" src="/themes/custom/landfire/media/USDA-FS_Lockup-No_Text-White-Standard.png" />
+          </div> 
+          <div class="px-1">
+            <img class="img-fluid w-auto" alt="United States Department of the Interior" src="/themes/custom/landfire/media/Seal_of_the_United_States_Department_of_the_Interior.svg" />
+          </div>
+          <div class="px-1">
+            <img class="img-fluid w-auto" alt="United States Wildland Fire Service" src="/themes/custom/landfire/media/uswfs-logo-spfc.png" />
+          </div>
+        </div>
+        <div>
+                            
+
+
+<div  data-component-id="radix:block" class="block block-system block-system-branding-block block--landfire-branding block--system-branding">
+
+  
+          
+
+      
+  <a href="/" class="navbar-brand " >
+          <div class="navbar-brand__logo">
+                        <img src="/sites/default/files/logo_0.png" width="40px" alt="LANDFIRE logo" />
+  
+              </div>
+
+            </a>
+
+  
+</div>
+
+  
+                  </div>
+        <div class="tagline">
+          <small class="fst-italic">20 + years of critical data for<br/>Wildland Fire &amp; Natural Resource Management</small>
+        </div>
+      </div>
+      <div class="d-flex flex-column d-none d-lg-block">
+          <div class="d-flex align-items-center justify-content-end mb-1">
+            <div>
+                                  <div class="ms-auto">
+                          
+
+
+<div  data-component-id="radix:block" class="block block-views block-views-exposed-filter-blocksearch-search block--landfire-exposedformsearchsearch">
+
+  
+          
+
+            <div class="block__content">
+        
+
+<form  class="views-exposed-form bef-exposed-form needs-validation form form--views-exposed-form-search-search" data-drupal-selector="views-exposed-form-search-search" action="/search" method="get" id="views-exposed-form-search-search" accept-charset="UTF-8" data-component-id="radix:form">
+  
+      
+
+
+<div data-component-id="radix:form-element" class="js-form-item form-item form-type-textfield js-form-type-textfield form-item-keys js-form-item-keys form-group">
+      
+  
+  
+    
+    
+    
+
+<div class="input-group input-group-sm mb-3 mb-lg-0 rounded-pill border border-1 border-white overflow-hidden bg-white input-search">
+  <input id="edit-keys" value=" " type="text" class="form-textfield form-control border-0 bg-white" name="keys" aria-label="Site Search" aria-describedby="edit-keys-submit" />
+  <button id="edit-keys-submit" value=" " class="input-group-text bg-transparent border-0 " title="Search" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+</div>
+
+
+    
+    
+  
+  
+  </div>
+<div data-drupal-selector="edit-actions" class="form-actions js-form-wrapper form-wrapper" id="edit-actions">
+
+<input data-drupal-selector="edit-submit-search" type="submit" id="edit-submit-search" value="Apply" class="js-form-submit form-submit btn btn-primary" data-component-id="radix:input">
+</div>
+
+
+    
+</form>
+
+      </div>
+      
+</div>
+
+  
+                  </div>
+                            </div>
+          </div>
+          <nav class="navbar text-light navbar-expand-lg justify-content-between py-0">
+                          <div class="me-auto">
+                      
+
+
+<div  data-component-id="radix:block" class="block block-system block-system-menu-blockmain block--landfire-main-menu block--system-menu">
+
+  
+          
+
+            <div class="block__content">
+        
+
+
+
+
+
+  <ul data-component-id="landfire:nav" class="nav navbar-nav">
+                                          <li class="nav-item active ">
+                      <a href="/" class="nav-link is-active" data-drupal-link-system-path="&lt;front&gt;" aria-current="page">Home</a>
+                  </li>
+                                      <li class="nav-item  ">
+                      <a href="/about-landfire" class="nav-link" data-drupal-link-system-path="node/1">About</a>
+                  </li>
+                                      <li class="nav-item  ">
+                      <a href="/data" class="nav-link" data-drupal-link-system-path="node/14">Get Data</a>
+                  </li>
+                                      <li class="nav-item  ">
+                      <a href="/resources" class="nav-link" data-drupal-link-system-path="node/4970">Resources</a>
+                  </li>
+                                      <li class="nav-item  ">
+                      <a href="/outreach" class="nav-link" data-drupal-link-system-path="node/6052">Outreach</a>
+                  </li>
+                                      <li class="nav-item  ">
+                      <a href="/help" class="nav-link" data-drupal-link-system-path="node/5861">Help</a>
+                  </li>
+            </ul>
+
+      </div>
+      
+</div>
+
+  
+              </div>
+                      </nav>
+      </div>
+      <div class="d-flex flex-column d-block d-lg-none justify-content-center align-items-end">
+        <button class="navbar-toggler collapsed me-0 ms-auto text-white" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon d-flex align-items-center justify-content-center">
+            <i class="fa-solid fa-bars fa-xl"></i>
+          </span>
+        </button>
+      </div>
+    </div>
+      
+  </div>
+</header>
+
+
+
+
+
+<nav  class="navbar navbar-dark navbar-expand-lg justify-content-between bg-dark d-block d-lg-none py-0">
+          <div class="container">
+    
+    <div id="navbar-collapse" class="collapse navbar-collapse">
+      <div class="py-3">
+                          <div class="me-auto">
+                  
+
+
+<div  data-component-id="radix:block" class="block block-system block-system-menu-blockmain block--landfire-main-menu block--system-menu">
+
+  
+          
+
+            <div class="block__content">
+        
+
+
+
+
+
+  <ul data-component-id="landfire:nav" class="nav navbar-nav">
+                                          <li class="nav-item active ">
+                      <a href="/" class="nav-link is-active" data-drupal-link-system-path="&lt;front&gt;" aria-current="page">Home</a>
+                  </li>
+                                      <li class="nav-item  ">
+                      <a href="/about-landfire" class="nav-link" data-drupal-link-system-path="node/1">About</a>
+                  </li>
+                                      <li class="nav-item  ">
+                      <a href="/data" class="nav-link" data-drupal-link-system-path="node/14">Get Data</a>
+                  </li>
+                                      <li class="nav-item  ">
+                      <a href="/resources" class="nav-link" data-drupal-link-system-path="node/4970">Resources</a>
+                  </li>
+                                      <li class="nav-item  ">
+                      <a href="/outreach" class="nav-link" data-drupal-link-system-path="node/6052">Outreach</a>
+                  </li>
+                                      <li class="nav-item  ">
+                      <a href="/help" class="nav-link" data-drupal-link-system-path="node/5861">Help</a>
+                  </li>
+            </ul>
+
+      </div>
+      
+</div>
+
+  
+          </div>
+              
+        <div class="navbar__search navbar__search--mobile">
+                    
+
+
+<div  class="views-exposed-form bef-exposed-form needs-validation block block-views block-views-exposed-filter-blocksearch-mobile-search-mobile-block" data-drupal-selector="views-exposed-form-search-mobile-search-mobile-block" data-component-id="radix:block">
+
+  
+          
+
+            <div class="block__content">
+        
+
+<form  action="/search" method="get" id="views-exposed-form-search-mobile-search-mobile-block" accept-charset="UTF-8" data-component-id="radix:form" class="form form--views-exposed-form-search-mobile-search-mobile-block">
+  
+      
+
+
+<div data-component-id="radix:form-element" class="js-form-item form-item form-type-textfield js-form-type-textfield form-item-keys js-form-item-keys form-group">
+      
+  
+  
+    
+    
+    
+
+<div class="input-group input-group-sm mb-3 mb-lg-0 rounded-pill border border-1 border-white overflow-hidden bg-white input-search">
+  <input id="edit-keys" value=" " type="text" class="form-textfield form-control border-0 bg-white" name="keys" aria-label="Site Search" aria-describedby="edit-keys-submit" />
+  <button id="edit-keys-submit" value=" " class="input-group-text bg-transparent border-0 " title="Search" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+</div>
+
+
+    
+    
+  
+  
+  </div>
+<div data-drupal-selector="edit-actions" class="form-actions js-form-wrapper form-wrapper" id="edit-actions">
+
+<input data-drupal-selector="edit-submit-search-mobile" type="submit" id="edit-submit-search-mobile" value="Apply" class="js-form-submit form-submit btn btn-primary" data-component-id="radix:input">
+</div>
+
+
+    
+</form>
+
+      </div>
+      
+</div>
+
+        </div>
+
+      </div>
+    </div>
+
+          </div>
+    </nav>
+
+    
+      
+<main>
+        <div>
+                        
+
+
+<div  data-component-id="radix:block" class="block block-system block-system-menu-blockquick-links block--landfire-quicklinks block--system-menu">
+
+  
+          
+
+            <div class="block__content">
+        <div class="bg-tertiary">
+    <div class="container pt-3 pb-2">
+        
+        
+        
+        
+                
+        
+                <ul aria-label="Quicklinks Navigation" class="menu-quick-links nav justify-content-lg-between">
+                                                                                                        <li class="nav-item me-2 mb-2  ">
+                                    <a href="/reference" title="LF users can find public events and the LF Reference Database under this Reference page." class="rounded-pill btn btn-outline-light px-4" data-drupal-link-system-path="node/4962">Reference</a>
+                                </li>
+                                                                                            <li class="nav-item me-2 mb-2  ">
+                                    <a href="/disturbance" title="LF users can locate the various disturbance products that reflect change on the landscape." class="rounded-pill btn btn-outline-light px-4" data-drupal-link-system-path="node/4963">Disturbance</a>
+                                </li>
+                                                                                            <li class="nav-item me-2 mb-2  ">
+                                    <a href="/vegetation" title="LF users can find current vegetation, modeled vegetation, and vegetation classes on this Vegetation main page." class="rounded-pill btn btn-outline-light px-4" data-drupal-link-system-path="node/9">Vegetation</a>
+                                </li>
+                                                                                            <li class="nav-item me-2 mb-2  ">
+                                    <a href="/fuel" title="LF users can find surface fuel, canopy fuel, and fuel vegetation on this Fuel page.  Also MoD-FIS and Operational Roads will be found on this page." class="rounded-pill btn btn-outline-light px-4" data-drupal-link-system-path="node/29">Fuel</a>
+                                </li>
+                                                                                            <li class="nav-item me-2 mb-2  ">
+                                    <a href="/fire-regime" title="LF users can find fire regime products which are outputs of locally developed state and transition models." class="rounded-pill btn btn-outline-light px-4" data-drupal-link-system-path="node/5950">Historic Fire Regime</a>
+                                </li>
+                                                                                            <li class="nav-item me-2 mb-2  ">
+                                    <a href="/topographic" title="Topographic products provide geospatial information describing the landscape of the United States and its territories.  LF users will find Aspect, Elevation, and Slope on this main page." class="rounded-pill btn btn-outline-light px-4" data-drupal-link-system-path="node/755">Topographic</a>
+                                </li>
+                                </ul>
+            </div>
+</div>
+      </div>
+      
+</div>
+
+
+
+<div  data-component-id="radix:block" class="block block-views block-views-blockalerts-block-1 block--landfire-views-block--alerts-block-1">
+
+  
+          
+
+            <div class="block__content">
+        <div class="views-element-container">
+
+
+
+
+
+
+
+
+
+
+
+
+<div  data-component-id="radix:views-view" class="view view-alerts view-id-alerts view-display-id-block_1 js-view-dom-id-7af789cb9996eab6aec2f4ee00bc63f2e1634937f7765ec070533a28875d7b48">
+      
+                  
+
+              
+              
+              
+              
+              
+              
+              
+              
+                </div>
+</div>
+
+      </div>
+      
+</div>
+
+
+
+<div  data-component-id="radix:block" class="block block-views block-views-blockslideshow-block-1 block--landfire-views-block--slideshow-block-1">
+
+  
+          
+
+            <div class="block__content">
+        <div class="views-element-container">  <div class="slideshow-container">
+    <div class="slideshow full">
+                
+
+
+
+<div class="slide shadow">
+      <div>
+      <img class="img-fluid" alt="LANDFIRE Reference Database with forest fire in background" src="/sites/default/files/2026-11/LANDFIRE-Reference-Database.jpg" />
+    </div>
+    <div class="slideshow-content-container">
+    <div class="slideshow-content">
+        <div class="container">
+                      <header class="mb-2">
+              <span class="title h2">LANDFIRE Reference Database</span>
+              <span class="subtitle fst-italic opacity-75"></span>
+            </header>
+                                          <footer class="d-flex align-items-end justify-content-between">
+              <a href="data-downloads/documents/LANDFIRE%20LFRDB%20New%20Plots%20Added.pdf" target=_self class="btn bg-primary rounded-pill btn-primary px-4 waves-effect waves-light">View New Plots Document</a>
+            </footer>
+                  </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="slide shadow">
+      <div>
+      <img class="img-fluid" alt="CONUS full update with sandy beach background" src="/sites/default/files/2026-10/CONUS-Vegetation-and-Fuels-v3.jpg" />
+    </div>
+    <div class="slideshow-content-container">
+    <div class="slideshow-content">
+        <div class="container">
+                      <header class="mb-2">
+              <span class="title h2">LF 2025 CONUS Final Update</span>
+              <span class="subtitle fst-italic opacity-75"></span>
+            </header>
+                                          <footer class="d-flex align-items-end justify-content-between">
+              <a href="data/FullExtentDownloads?field_version_target_id=49&amp;tid=All&amp;field_region_id_target_id=4" target=_self class="btn bg-primary rounded-pill btn-primary px-4 waves-effect waves-light">View Data</a>
+            </footer>
+                  </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="slide shadow">
+      <div>
+      <img class="img-fluid" alt="Annual Disturbance for AK and CONUS with mountain background" src="/sites/default/files/2026-09/Annual-Disturbance---Sept-30th-v3.jpg" />
+    </div>
+    <div class="slideshow-content-container">
+    <div class="slideshow-content">
+        <div class="container">
+                      <header class="mb-2">
+              <span class="title h2">LF 2025 Annual Disturbance release for AK and CONUS</span>
+              <span class="subtitle fst-italic opacity-75"></span>
+            </header>
+                                          <footer class="d-flex align-items-end justify-content-between">
+              <a href="data/FullExtentDownloads?field_version_target_id=49&amp;tid=5&amp;field_region_id_target_id=All" target=_self class="btn bg-primary rounded-pill btn-primary px-4 waves-effect waves-light">View AK &amp; CONUS Disturbance Data</a>
+            </footer>
+                  </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="slide shadow">
+      <div>
+      <img class="img-fluid" alt="Fall Seasonal Fuels release with fall stream background" src="/sites/default/files/2026-09/Fall-Seasonal-Fuels-2026-1.jpg" />
+    </div>
+    <div class="slideshow-content-container">
+    <div class="slideshow-content">
+        <div class="container">
+                      <header class="mb-2">
+              <span class="title h2">Fall Seasonal Fuel release</span>
+              <span class="subtitle fst-italic opacity-75"></span>
+            </header>
+                                          <footer class="d-flex align-items-end justify-content-between">
+              <a href="data/FullExtentDownloads?field_version_target_id=49&amp;tid=50&amp;field_region_id_target_id=All" target=_self class="btn bg-primary rounded-pill btn-primary px-4 waves-effect waves-light">View Seasonal Fuel Data</a>
+            </footer>
+                  </div>
+    </div>
+  </div>
+</div>
+
+          </div>
+    <div class="slideshow-arrows-container">
+      <div class="container">
+          <div class="slideshow-arrows">
+            <span class="btn btn-outline-light rounded slick-prev">
+                <i class=" fa-solid fa-chevron-left"></i>
+            </span>
+            <span class="btn btn-outline-light rounded slick-next">
+                <i class="fa-solid fa-chevron-right"></i>
+            </span>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      </div>
+      
+</div>
+
+  
+              </div>
+    <div class="py-5">
+          <header class="page__header mb-3">
+        <div class="container">
+                            <div data-drupal-messages-fallback class="hidden"></div>
+
+  
+                  </div>
+      </header>
+    
+          <div class="page__content" id="main-content">
+        <div class="container">
+                            
+
+
+<div  data-component-id="radix:block" class="block block-system block-system-main-block block--landfire-content block--system-main">
+
+  
+          
+
+            <div class="block__content">
+        
+
+
+
+<div data-history-node-id="3" data-component-id="radix:node" class="node node--promoted page page--full node--full node--page--full view-mode--full">
+      
+  
+        
+      
+  
+        
+  <div  class="node__content">
+          
+      </div>
+</div>
+
+      </div>
+      
+</div>
+
+
+
+<div  data-component-id="radix:block" class="block block-views block-views-blockcards-block-1 block--landfire-views-block--cards-block-1">
+
+  
+          
+
+            <div class="block__content">
+        <div class="views-element-container">    <div class="row row-cols-1 row-cols-md-3 g-4">
+                
+
+<div class="col flex flex-col">
+            
+  <div class="card shadow-sm info h-100 bg-white">
+          <a href="/about-landfire" class="waves-light waves-effect transition card-image-container">
+        <img src="/sites/default/files/2025-06/about-homepage-forestfire.jpg" class="card-img-top" alt="About">
+      </a>
+        <div class="card-body d-flex flex-column">
+        <header>
+                      <h5 class="card-title mb-1 h4">About</h5>
+                            </header>
+                  <p class="card-text flex-grow-1">Discover the LF mission, who we are, what we do and how LF is important to you.  Also learn about the LF History and how it all began...</p>
+                          <div>
+            <a href="/about-landfire" class="btn btn-primary rounded-pill px-4 bg-gradient waves-effect waves-light">Learn More</a>
+          </div>
+            </div>
+  </div>
+
+</div>
+<div class="col flex flex-col">
+            
+  <div class="card shadow-sm info h-100 bg-white">
+          <a href="/data" class="waves-light waves-effect transition card-image-container">
+        <img src="/sites/default/files/2025-06/data-homepage-evt.jpg" class="card-img-top" alt="Data">
+      </a>
+        <div class="card-body d-flex flex-column">
+        <header>
+                      <h5 class="card-title mb-1 h4">Data</h5>
+                            </header>
+                  <p class="card-text flex-grow-1">Explore our data approach, applications, methods, uncover detailed product information, and download the data in various formats
+
+
+...</p>
+                          <div>
+            <a href="/data" class="btn btn-primary rounded-pill px-4 bg-gradient waves-effect waves-light">Browse Data</a>
+          </div>
+            </div>
+  </div>
+
+</div>
+<div class="col flex flex-col">
+            
+  <div class="card shadow-sm info h-100 bg-white">
+          <a href="/resources" class="waves-light waves-effect transition card-image-container">
+        <img src="/sites/default/files/2025-06/resources-homepage-sagebrush.jpg" class="card-img-top" alt="Resources">
+      </a>
+        <div class="card-body d-flex flex-column">
+        <header>
+                      <h5 class="card-title mb-1 h4">Resources</h5>
+                            </header>
+                  <p class="card-text flex-grow-1">Navigate through our support materials, including our technical documentation, dictionary, definitions and standards, and LF publications
+
+
+...</p>
+                          <div>
+            <a href="/resources" class="btn btn-primary rounded-pill px-4 bg-gradient waves-effect waves-light">View Resources</a>
+          </div>
+            </div>
+  </div>
+
+</div>
+
+          </div>
+</div>
+
+      </div>
+      
+</div>
+
+
+
+<div  class="block--type-basic block block-block-content block-block-content43ed55e7-6833-4201-aa93-13b42e7dbea1 block--basic block--landfire-dataalertsslim" data-component-id="radix:block">
+
+  
+          
+
+            <div class="block__content">
+        
+
+
+            <div  data-component-id="radix:field" class="field field--name-body field--type-text-with-summary field--label-hidden field--item"><div class="mt-5 mb-5"><div class="row row-cols-2"><div class="col mb-2"><h4>Data Alerts</h4></div><div class="col mb-2"><p><a class="text-light inline-block float-end btn btn-primary" style="border-radius:50rem;text-decoration:none;" href="/data/alerts" type="button">See More Alerts</a></p></div></div><div class="row row-cols-1 row-cols-md-3 g-4"><div class="col mb-2 data-alert btn-outline-primary"><div class="h-100"><div class="card-header bg-primary-subtle flex"><strong><i class="fa fa-database" aria-hidden="true"></i>Data Release:</strong> <em>2026-10-27</em></div><div class="card-body h-75" style="padding:0.5rem 1rem;"><p class="mb-0"><a href="/data/FullExtentDownloads?field_version_target_id=49&amp;tid=All&amp;field_region_id_target_id=4">2025 Full Extent CONUS products release</a> and <a href="/reference/lfrdb">LFRDB update</a>.</p></div></div></div><div class="col mb-2 data-alert btn-outline-primary"><div class="h-100"><div class="card-header bg-primary-subtle flex"><strong><i class="fa fa-database" aria-hidden="true"></i>Data Release:</strong> <em>2026-09-30</em></div><div class="card-body h-75" style="padding:0.5rem 1rem;"><p class="mb-0"><a href="/data/FullExtentDownloads?field_version_target_id=49&amp;tid=5&amp;field_region_id_target_id=All">2025 Fall Seasonal Fuels and AK &amp; CONUS Annual Disturbance updates are available.</a></p></div></div></div><div class="col mb-2 data-alert btn-outline-primary"><div class="h-100"><div class="card-header bg-primary-subtle flex"><strong><i class="fa fa-database" aria-hidden="true"></i>Data Release:</strong> <em>2026-06-23</em></div><div class="card-body h-75" style="padding:0.5rem 1rem;"><p class="mb-0"><a href="/data/FullExtentDownloads?field_version_target_id=49&amp;tid=All&amp;field_region_id_target_id=4">2025 Summer Seasonal Fuels and NW GeoArea Vegetation, Fuel, and Preliminary Annual Disturbance product updates are available.</a></p></div></div></div><div class="col mb-2 data-alert btn-outline-primary" style="display:none;"><div class="h-100"><div class="card-header bg-primary-subtle flex"><strong><i class="fa fa-database" aria-hidden="true"></i>Data Release:</strong> <em>2026-05-18</em></div><div class="card-body h-75" style="padding:0.5rem 1rem;"><p><a href="/data/FullExtentDownloads?field_version_target_id=49&amp;tid=All&amp;field_region_id_target_id=1">2025 Spring Seasonal Fuels and AK Vegetation, Fuel, and Preliminary Annual Disturbance product updates are available.</a></p></div></div></div><div class="col mb-2 data-alert btn-outline-primary" style="display:none;"><div class="h-100"><div class="card-header bg-primary-subtle flex"><strong><i class="fa fa-database" aria-hidden="true"></i>Data Release:</strong> <em>2026-04-30</em></div><div class="card-body h-75"><p><a href="/data/FullExtentDownloads?field_version_target_id=49&amp;field_theme_target_id=All&amp;field_region_id_target_id=4">2025 SW Vegetation, Fuel, and Preliminary Annual Disturbance update is available.</a></p></div></div></div><div class="col mb-2 data-alert btn-outline-primary" style="display:none;"><div class="h-100"><div class="card-header bg-primary-subtle flex"><strong><i class="fa fa-database" aria-hidden="true"></i>Data Release:</strong> <em>2026-04-15</em></div><div class="card-body h-75"><p><a href="/fuel/seasonal_fuels">Early Spring Seasonal Fuels FBFM40 product for the LF 2025 Update is available.</a></p></div></div></div><div class="col mb-2 data-alert btn-outline-dark" style="display:none;"><div class="h-100"><div class="card-header bg-dark-subtle bg-gradient flex"><strong><i class="fa fa-cloud-upload" aria-hidden="true"></i>Data Update:</strong> <em>2026-01-28</em></div><div class="card-body h-75"><p><a href="/disturbance/hdist">Historical Disturbance products retired.</a></p></div></div></div></div></div></div>
+      
+      </div>
+      
+</div>
+
+  
+                  </div>
+      </div>
+      </div>
+  </main>  
+      
+
+  <footer  class="page__footer bg-primary bg-gradient" role="contentinfo">
+    <div class="container px-3 py-3">
+      <div class="row row-cols-1 row-cols-md-4 g-4 g-xl-7">
+                        
+
+
+<div  class="block--type-basic block block-block-content block-block-content0027f736-2422-45e6-a99a-872a39bbd570 block--basic block--landfire-socialmediaicons" data-component-id="radix:block">
+
+  
+          
+
+            <div class="block__content">
+        
+
+
+            <div  data-component-id="radix:field" class="field field--name-body field--type-text-with-summary field--label-hidden field--item"><div class="d-flex justify-content-end"><div class="container"><div class="row align-items-end"><div class="col"><div class="p-2"><a href="https://www.linkedin.com/company/landfire/?viewAsMember=true" target="_blank"><img src="/data-downloads/images/icons/linkedin.svg" alt="LinkedIn" width="32" height="32" loading="lazy"></a></div></div></div><div class="row"><div class="col"><div class="p-2"><a href="https://www.youtube.com/user/LANDFIREvideo" target="_blank"><img src="/data-downloads/images/icons/youtube.svg" alt="YouTube" width="32" height="32" loading="lazy"></a></div></div></div><div class="row"><div class="col"><div class="p-2"><a href="/contact"><img src="/data-downloads/images/icons/envelope.svg" alt="Contact" width="32" height="32" loading="lazy"></a></div></div></div></div></div></div>
+      
+      </div>
+      
+</div>
+
+
+
+<div  data-component-id="radix:block" class="block block-system block-system-menu-blockget-data block--landfire-getdata block--system-menu">
+
+  
+            
+
+  <h2  class="block__title">
+                  Get Data
+            </h2>
+        
+
+            <div class="block__content">
+        
+
+
+<ul  data-component-id="radix:nav" class="nav">
+                                      <li class="nav-item">
+                        <a href="https://www.landfire.gov/viewer" target="_blank" class="nav-link">LF Map Viewer</a>
+        
+                  </li>
+                  <li class="nav-item">
+                        <a href="/data/FullExtentDownloads" class="nav-link" data-drupal-link-system-path="data/FullExtentDownloads">Full Extent Downloads</a>
+        
+                  </li>
+                  <li class="nav-item">
+                        <a href="https://lfps.usgs.gov/" target="_blank" class="nav-link">LF Product Service (LFPS)</a>
+        
+                  </li>
+                  <li class="nav-item">
+                        <a href="/data/lf_stream" class="nav-link">WCS/WMS Services</a>
+        
+                  </li>
+  
+      </ul>
+
+
+      </div>
+      
+</div>
+
+
+
+<div  data-component-id="radix:block" class="block block-system block-system-menu-blocklandfire block--landfire-keylinks block--system-menu">
+
+  
+            
+
+  <h2  class="block__title">
+                  Key Links
+            </h2>
+        
+
+            <div class="block__content">
+        
+
+
+<ul  data-component-id="radix:nav" class="nav">
+                                      <li class="nav-item">
+                        <a href="https://www.youtube.com/user/landfirevideo" target="_blank" class="nav-link">LF YouTube</a>
+        
+                  </li>
+                  <li class="nav-item">
+                        <a href="https://landfire.us9.list-manage.com/subscribe?u=25aeabb346a09aaf1c528f007&amp;id=2f025aaae2" target="_blank" class="nav-link">LF News</a>
+        
+                  </li>
+                  <li class="nav-item">
+                        <a href="/help" class="nav-link" data-drupal-link-system-path="node/5861">LF Help</a>
+        
+                  </li>
+                  <li class="nav-item">
+                        <a href="/faqs" class="nav-link" data-drupal-link-system-path="faqs">FAQs</a>
+        
+                  </li>
+  
+      </ul>
+
+
+      </div>
+      
+</div>
+
+
+
+<div  data-component-id="radix:block" class="block block-system block-system-menu-blockdocumentation block--landfire-datadetails block--system-menu">
+
+  
+            
+
+  <h2  class="block__title">
+                  Data Details
+            </h2>
+        
+
+            <div class="block__content">
+        
+
+
+<ul  data-component-id="radix:nav" class="nav">
+                            <li class="nav-item">
+                        <a href="/data-downloads/documents/LF_Data_Dictionary.pdf" target="_blank" title="A guide to access information about products, Attribute Data Dictionaries, and terms." class="nav-link">LF Dictionary</a>
+        
+                  </li>
+                            <li class="nav-item">
+                        <a href="https://pubs.usgs.gov/publication/ofr20231045" target="_blank" class="nav-link" title="Documentation that focuses specifically on the methods and datasets used to create the LF data  product.">LF Technical Documentation</a>
+        
+                  </li>
+                  <li class="nav-item">
+                        <a href="/data-downloads/documents/LF_Definitions_Quality_and_Standards_Annual_Report.pdf" target="_blank" title="Document that explains metadata standards." class="nav-link">Data and Metadata Standards</a>
+        
+                  </li>
+  
+      </ul>
+
+
+      </div>
+      
+</div>
+
+
+
+<div  data-component-id="radix:block" class="block block-system block-system-menu-blockpolicies-and-standards block--landfire-agencypolicies block--system-menu">
+
+  
+            
+
+  <h2  class="block__title">
+                  Agency Policies
+            </h2>
+        
+
+            <div class="block__content">
+        
+
+
+<ul  data-component-id="radix:nav" class="nav">
+                            <li class="nav-item">
+                        <a href="/policies#DOI" title="Link to a page for all of DOI policies and standards to follow" class="nav-link" data-drupal-link-system-path="node/5862">DOI Policies</a>
+        
+                  </li>
+                  <li class="nav-item">
+                        <a href="/policies#USDA" title="Links to a page with USDA policies and standards" class="nav-link" data-drupal-link-system-path="node/5862">USDA Policies</a>
+        
+                  </li>
+  
+      </ul>
+
+
+      </div>
+      
+</div>
+
+  
+              </div>
+    </div>
+  </footer>
+
+  </div>
+
+  </div>
+
+    
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"","currentPath":"node\/3","currentPathIsAdmin":false,"isFront":true,"currentLanguage":"en","themeUrl":"themes\/custom\/landfire"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"ajaxTrustedUrl":{"\/search":true},"user":{"uid":0,"permissionsHash":"86e3f5b81f8d0402805906437f3629a127f864b7be4e132a67e01bea640acf72"}}</script>
+<script src="/core/assets/vendor/jquery/jquery.min.js?v=4.0.0"></script>
+<script src="/sites/default/files/js/js_X0YYlySxg8_2mp2jR2cXzAGtFgcal_5zVNngM1wUK2U.js?scope=footer&amp;delta=1&amp;language=en&amp;theme=landfire&amp;include=eJxLSi0pSS2KT60oyC9OTYlPy8wBcov101PzUosSc3RyEvNS0jKLUvWLSypzUgGkwhIU"></script>
+
+        <script type="text/javascript">
+      window._mfq = window._mfq || [];
+      (function() {
+        var mf = document.createElement("script");
+        mf.type = "text/javascript"; mf.defer = true;
+        mf.src = "//cdn.mouseflow.com/projects/434b54da-441a-4eaa-84fc-bc67d8a738d2.js";
+        document.getElementsByTagName("head")[0].appendChild(mf);
+      })();
+    </script>
+  </body>
+</html>

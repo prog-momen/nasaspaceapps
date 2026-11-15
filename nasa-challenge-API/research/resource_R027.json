@@ -1,0 +1,614 @@
+{
+  "id": "resource_R027",
+  "url": "https://github.com/asc-csa/Synthetic_Aperture_Radar_Tutorial",
+  "checked_at": "2026-11-14T15:15:11.222600+00:00",
+  "tls_validation": false,
+  "status": 200,
+  "final_url": "https://github.com/asc-csa/Synthetic_Aperture_Radar_Tutorial",
+  "bytes": 264024,
+  "content_type": "text/html; charset=utf-8",
+  "sha256": "fc142af484cef4bce5efa61168d83f82dc67b4bdcfb318e4948eebb25eb8cb9c",
+  "links": [
+    {
+      "url": "https://github.com/asc-csa/Synthetic_Aperture_Radar_Tutorial#start-of-content",
+      "label": "Skip to content"
+    },
+    {
+      "url": "https://github.com/",
+      "label": ""
+    },
+    {
+      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fasc-csa%2FSynthetic_Aperture_Radar_Tutorial",
+      "label": "Sign in"
+    },
+    {
+      "url": "https://github.com/platform",
+      "label": "GitHubRepository hosting, code review, and collaboration"
+    },
+    {
+      "url": "https://github.com/features/copilot",
+      "label": "CopilotAI coding agent for tasks, projects, and automated work"
+    },
+    {
+      "url": "https://github.com/features/actions",
+      "label": "ActionsCI/CD and automation"
+    },
+    {
+      "url": "https://github.com/features/code-quality",
+      "label": "Code QualityQuality analysis, fixes, and enforcement"
+    },
+    {
+      "url": "https://github.com/features/codespaces",
+      "label": "CodespacesCloud development environments"
+    },
+    {
+      "url": "https://github.com/security/advanced-security/code-security",
+      "label": "Code SecurityVulnerability detection and remediation"
+    },
+    {
+      "url": "https://github.com/security/advanced-security/secret-protection",
+      "label": "Secret ProtectionSecret scanning and leak prevention"
+    },
+    {
+      "url": "https://github.com/features",
+      "label": "All Features"
+    },
+    {
+      "url": "https://docs.github.com/en",
+      "label": "Documentation"
+    },
+    {
+      "url": "https://learn.github.com/skills",
+      "label": "Training"
+    },
+    {
+      "url": "https://learn.github.com/credentials",
+      "label": "Certifications"
+    },
+    {
+      "url": "https://github.com/features/ai",
+      "label": "Build with Copilot"
+    },
+    {
+      "url": "https://docs.github.com/en/copilot/how-tos/copilot-on-github/customize-copilot/customize-copilot-overview",
+      "label": "Customize Copilot"
+    },
+    {
+      "url": "https://github.com/marketplace",
+      "label": "Integrations"
+    },
+    {
+      "url": "https://github.com/trending",
+      "label": "Trending repos"
+    },
+    {
+      "url": "https://github.com/open-source/sponsors",
+      "label": "GitHub Sponsors"
+    },
+    {
+      "url": "https://github.com/resources/articles",
+      "label": "Developer articles"
+    },
+    {
+      "url": "https://github.blog/changelog/",
+      "label": "ChangelogYour source for the latest features, improvements, and fixes across GitHub products, all in one place."
+    },
+    {
+      "url": "https://github.com/enterprise",
+      "label": "Enterprises"
+    },
+    {
+      "url": "https://github.com/team",
+      "label": "Team"
+    },
+    {
+      "url": "https://github.com/enterprise/startups",
+      "label": "Startups"
+    },
+    {
+      "url": "https://github.com/solutions/industry/nonprofits",
+      "label": "Nonprofits"
+    },
+    {
+      "url": "https://github.com/solutions/industry/healthcare",
+      "label": "Healthcare"
+    },
+    {
+      "url": "https://github.com/solutions/industry/financial-services",
+      "label": "Financial services"
+    },
+    {
+      "url": "https://github.com/solutions/industry/manufacturing",
+      "label": "Manufacturing"
+    },
+    {
+      "url": "https://github.com/solutions/industry/government",
+      "label": "Government"
+    },
+    {
+      "url": "https://github.com/solutions/industry",
+      "label": "See all industries"
+    },
+    {
+      "url": "https://github.com/why-github",
+      "label": "Why GitHub"
+    },
+    {
+      "url": "https://github.com/customer-stories",
+      "label": "Customer Stories"
+    },
+    {
+      "url": "https://github.com/solutions/executive-insights",
+      "label": "Business insights"
+    },
+    {
+      "url": "https://github.com/trust-center",
+      "label": "Trust Center"
+    },
+    {
+      "url": "https://github.com/security/advanced-security",
+      "label": "GitHub Advanced SecurityEnterprise-grade code security"
+    },
+    {
+      "url": "https://github.com/features/copilot/copilot-business",
+      "label": "Copilot for businessEnterprise-grade AI features"
+    },
+    {
+      "url": "https://github.com/enterprise/premium-support",
+      "label": "Premium SupportEnterprise-grade 24/7 support"
+    },
+    {
+      "url": "https://docs.github.com/en",
+      "label": "Documentation"
+    },
+    {
+      "url": "https://github.com/resources",
+      "label": "Resource center"
+    },
+    {
+      "url": "https://github.blog/",
+      "label": "Blog"
+    },
+    {
+      "url": "https://github.com/resources/events",
+      "label": "Events & webinars"
+    },
+    {
+      "url": "https://github.com/orgs/community/discussions",
+      "label": "Community Forum"
+    },
+    {
+      "url": "https://github.com/customer-stories",
+      "label": "Customer Stories"
+    },
+    {
+      "url": "https://github.com/marketplace",
+      "label": "Integrations"
+    },
+    {
+      "url": "https://help.github.com/",
+      "label": "Customer support"
+    },
+    {
+      "url": "https://learn.github.com/skills",
+      "label": "Training"
+    },
+    {
+      "url": "https://www.githubstatus.com/",
+      "label": "GitHub Status"
+    },
+    {
+      "url": "https://github.com/about",
+      "label": "About"
+    },
+    {
+      "url": "https://github.com/partners",
+      "label": "Partners"
+    },
+    {
+      "url": "https://github.blog/changelog/",
+      "label": "Changelog"
+    },
+    {
+      "url": "https://githubuniverse.com/",
+      "label": "GitHub UniverseThe event for developers, by developers — talks, workshops, and what’s next for GitHub."
+    },
+    {
+      "url": "https://github.com/pricing",
+      "label": "Pricing"
+    },
+    {
+      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fasc-csa%2FSynthetic_Aperture_Radar_Tutorial",
+      "label": "Sign in"
+    },
+    {
+      "url": "https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E&source=header-repo&source_repo=asc-csa%2FSynthetic_Aperture_Radar_Tutorial",
+      "label": "Sign up"
+    },
+    {
+      "url": "https://github.com/asc-csa/Synthetic_Aperture_Radar_Tutorial",
+      "label": "Reload"
+    },
+    {
+      "url": "https://github.com/asc-csa/Synthetic_Aperture_Radar_Tutorial",
+      "label": "Reload"
+    },
+    {
+      "url": "https://github.com/asc-csa/Synthetic_Aperture_Radar_Tutorial",
+      "label": "Reload"
+    },
+    {
+      "url": "https://github.com/asc-csa",
+      "label": "asc-csa"
+    },
+    {
+      "url": "https://github.com/asc-csa/Synthetic_Aperture_Radar_Tutorial",
+      "label": "Synthetic_Aperture_Radar_Tutorial"
+    },
+    {
+      "url": "https://github.com/asc-csa/Synthetic_Aperture_Radar_Tutorial",
+      "label": "Code"
+    },
+    {
+      "url": "https://github.com/asc-csa/Synthetic_Aperture_Radar_Tutorial/issues",
+      "label": "Issues1 (1)"
+    },
+    {
+      "url": "https://github.com/asc-csa/Synthetic_Aperture_Radar_Tutorial/pulls",
+      "label": "Pull requests"
+    },
+    {
+      "url": "https://github.com/asc-csa/Synthetic_Aperture_Radar_Tutorial/actions",
+      "label": "Actions"
+    },
+    {
+      "url": "https://github.com/asc-csa/Synthetic_Aperture_Radar_Tutorial/projects",
+      "label": "Projects"
+    },
+    {
+      "url": "https://github.com/asc-csa/Synthetic_Aperture_Radar_Tutorial/security",
+      "label": "Security and quality"
+    },
+    {
+      "url": "https://github.com/asc-csa/Synthetic_Aperture_Radar_Tutorial/pulse",
+      "label": "Insights"
+    },
+    {
+      "url": "https://github.com/asc-csa/Synthetic_Aperture_Radar_Tutorial",
+      "label": ""
+    },
+    {
+      "url": "https://github.com/asc-csa/Synthetic_Aperture_Radar_Tutorial",
+      "label": "Synthetic_Aperture_Radar_Tutorial"
+    },
+    {
+      "url": "https://github.com/login?return_to=%2Fasc-csa%2FSynthetic_Aperture_Radar_Tutorial",
+      "label": "Notifications"
+    },
+    {
+      "url": "https://github.com/login?return_to=%2Fasc-csa%2FSynthetic_Aperture_Radar_Tutorial",
+      "label": "Fork6 (6)"
+    },
+    {
+      "url": "https://github.com/login?return_to=%2Fasc-csa%2FSynthetic_Aperture_Radar_Tutorial",
+      "label": "Star10 (10)"
+    },
+    {
+      "url": "https://github.com/topics/cartopy",
+      "label": "cartopy"
+    },
+    {
+      "url": "https://github.com/topics/osgeo",
+      "label": "osgeo"
+    },
+    {
+      "url": "https://github.com/topics/qgis",
+      "label": "qgis"
+    },
+    {
+      "url": "https://github.com/topics/synthetic-aperture-radar",
+      "label": "synthetic-aperture-radar"
+    },
+    {
+      "url": "https://github.com/topics/tutorial",
+      "label": "tutorial"
+    },
+    {
+      "url": "https://github.com/asc-csa/Synthetic_Aperture_Radar_Tutorial#readme-ov-file",
+      "label": "Readme"
+    },
+    {
+      "url": "https://github.com/asc-csa/Synthetic_Aperture_Radar_Tutorial#License-1-ov-file",
+      "label": "License"
+    },
+    {
+      "url": "https://github.com/asc-csa/Synthetic_Aperture_Radar_Tutorial/activity",
+      "label": "Activity"
+    },
+    {
+      "url": "https://github.com/asc-csa/Synthetic_Aperture_Radar_Tutorial/custom-properties",
+      "label": "Custom properties"
+    },
+    {
+      "url": "https://github.com/asc-csa/Synthetic_Aperture_Radar_Tutorial/forks",
+      "label": "6 forks"
+    },
+    {
+      "url": "https://github.com/contact/report-content?content_url=https%3A%2F%2Fgithub.com%2Fasc-csa%2FSynthetic_Aperture_Radar_Tutorial&report=asc-csa+%28user%29",
+      "label": "Report repository"
+    },
+    {
+      "url": "https://github.com/asc-csa/Synthetic_Aperture_Radar_Tutorial/branches",
+      "label": "Branches"
+    },
+    {
+      "url": "https://github.com/asc-csa/Synthetic_Aperture_Radar_Tutorial/tags",
+      "label": "Tags"
+    },
+    {
+      "url": "https://github.com/asc-csa/Synthetic_Aperture_Radar_Tutorial/branches",
+      "label": ""
+    },
+    {
+      "url": "https://github.com/asc-csa/Synthetic_Aperture_Radar_Tutorial/tags",
+      "label": ""
+    },
+    {
+      "url": "https://github.com/asc-csa/Synthetic_Aperture_Radar_Tutorial/commits/main/",
+      "label": "33 Commits"
+    },
+    {
+      "url": "https://github.com/asc-csa/Synthetic_Aperture_Radar_Tutorial/commits/main/",
+      "label": ""
+    },
+    {
+      "url": "https://github.com/asc-csa/Synthetic_Aperture_Radar_Tutorial/tree/main/Option%201%20-%20QGIS",
+      "label": "Option 1 - QGIS"
+    },
+    {
+      "url": "https://github.com/asc-csa/Synthetic_Aperture_Radar_Tutorial/tree/main/Option%201%20-%20QGIS",
+      "label": "Option 1 - QGIS"
+    },
+    {
+      "url": "https://github.com/asc-csa/Synthetic_Aperture_Radar_Tutorial/tree/main/Option%202%20-%20Python",
+      "label": "Option 2 - Python"
+    },
+    {
+      "url": "https://github.com/asc-csa/Synthetic_Aperture_Radar_Tutorial/tree/main/Option%202%20-%20Python",
+      "label": "Option 2 - Python"
+    },
+    {
+      "url": "https://github.com/asc-csa/Synthetic_Aperture_Radar_Tutorial/blob/main/LICENSE",
+      "label": "LICENSE"
+    },
+    {
+      "url": "https://github.com/asc-csa/Synthetic_Aperture_Radar_Tutorial/blob/main/LICENSE",
+      "label": "LICENSE"
+    },
+    {
+      "url": "https://github.com/asc-csa/Synthetic_Aperture_Radar_Tutorial/blob/main/README.md",
+      "label": "README.md"
+    },
+    {
+      "url": "https://github.com/asc-csa/Synthetic_Aperture_Radar_Tutorial/blob/main/README.md",
+      "label": "README.md"
+    },
+    {
+      "url": "https://github.com/asc-csa/Synthetic_Aperture_Radar_Tutorial",
+      "label": "README"
+    },
+    {
+      "url": "https://github.com/asc-csa/Synthetic_Aperture_Radar_Tutorial",
+      "label": "License"
+    },
+    {
+      "url": "https://camo.githubusercontent.com/ba1239ac21b604fc039e0bb231b399a49ae0495ea08314abc6e1e5102c625157/68747470733a2f2f7777772e6173632d6373612e67632e63612f696d616765732f7265636865726368652f74696c65732f35306435306463342d343563312d343933332d386134312d6233313234373262336262332e6a7067",
+      "label": ""
+    },
+    {
+      "url": "https://www.asc-csa.gc.ca/images/recherche/tiles/50d50dc4-45c1-4933-8a41-b312472b3bb3.jpg",
+      "label": "ASC-CSA"
+    },
+    {
+      "url": "https://github.com/asc-csa/Synthetic_Aperture_Radar_Tutorial#stars",
+      "label": ""
+    },
+    {
+      "url": "https://github.com/asc-csa/Synthetic_Aperture_Radar_Tutorial#watchers",
+      "label": ""
+    },
+    {
+      "url": "https://github.com/asc-csa/Synthetic_Aperture_Radar_Tutorial/commits/main",
+      "label": ""
+    },
+    {
+      "url": "https://github.com/asc-csa/Synthetic_Aperture_Radar_Tutorial/graphs/contributors",
+      "label": ""
+    },
+    {
+      "url": "https://twitter.com/intent/follow?screen_name=csa_asc",
+      "label": ""
+    },
+    {
+      "url": "https://github.com/asc-csa/Synthetic_Aperture_Radar_Tutorial#titre-du-projet",
+      "label": "Français"
+    },
+    {
+      "url": "https://github.com/asc-csa/Synthetic_Aperture_Radar_Tutorial#project-title",
+      "label": "English (follows)"
+    },
+    {
+      "url": "https://github.com/asc-csa/Synthetic_Aperture_Radar_Tutorial#--français---english-follows",
+      "label": ""
+    },
+    {
+      "url": "https://github.com/asc-csa/Synthetic_Aperture_Radar_Tutorial",
+      "label": ""
+    },
+    {
+      "url": "https://github.com/asc-csa/Synthetic_Aperture_Radar_Tutorial#radar-à-synthèse-douverture-rso---un-tutoriel",
+      "label": ""
+    },
+    {
+      "url": "https://github.com/asc-csa/Synthetic_Aperture_Radar_Tutorial#à-propos",
+      "label": ""
+    },
+    {
+      "url": "https://donnees-data.asc-csa.gc.ca/users/OpenData_DonneesOuvertes/pub/BC%20fires/",
+      "label": "https://donnees-data.asc-csa.gc.ca/users/OpenData_DonneesOuvertes/pub/BC%20fires/"
+    },
+    {
+      "url": "http://www.naturalearthdata.com/features/",
+      "label": "http://www.naturalearthdata.com/features/"
+    },
+    {
+      "url": "https://github.com/asc-csa/Synthetic_Aperture_Radar_Tutorial#prérequis",
+      "label": ""
+    },
+    {
+      "url": "https://github.com/asc-csa/Synthetic_Aperture_Radar_Tutorial#démarrage-rapide",
+      "label": ""
+    },
+    {
+      "url": "https://github.com/asc-csa/Synthetic_Aperture_Radar_Tutorial#astuces--conseils",
+      "label": ""
+    },
+    {
+      "url": "https://github.com/asc-csa/Synthetic_Aperture_Radar_Tutorial#licence",
+      "label": ""
+    },
+    {
+      "url": "https://github.com/asc-csa/Synthetic_Aperture_Radar_Tutorial/blob/main/LICENSE.txt",
+      "label": "LICENSE"
+    },
+    {
+      "url": "https://github.com/asc-csa/Synthetic_Aperture_Radar_Tutorial#project-title",
+      "label": "English"
+    },
+    {
+      "url": "https://github.com/asc-csa/Synthetic_Aperture_Radar_Tutorial#titre-du-projet",
+      "label": "Français (précède)"
+    },
+    {
+      "url": "https://github.com/asc-csa/Synthetic_Aperture_Radar_Tutorial#--english----français-précède",
+      "label": ""
+    },
+    {
+      "url": "https://github.com/asc-csa/Synthetic_Aperture_Radar_Tutorial",
+      "label": ""
+    },
+    {
+      "url": "https://github.com/asc-csa/Synthetic_Aperture_Radar_Tutorial#synthetic-aperture-radar-sar---a-tutorial",
+      "label": ""
+    },
+    {
+      "url": "https://github.com/asc-csa/Synthetic_Aperture_Radar_Tutorial#about",
+      "label": ""
+    },
+    {
+      "url": "https://donnees-data.asc-csa.gc.ca/users/OpenData_DonneesOuvertes/pub/BC%20fires/",
+      "label": "https://donnees-data.asc-csa.gc.ca/users/OpenData_DonneesOuvertes/pub/BC%20fires/"
+    },
+    {
+      "url": "http://www.naturalearthdata.com/features/",
+      "label": "http://www.naturalearthdata.com/features/"
+    },
+    {
+      "url": "https://github.com/asc-csa/Synthetic_Aperture_Radar_Tutorial#prerequisites",
+      "label": ""
+    },
+    {
+      "url": "https://github.com/asc-csa/Synthetic_Aperture_Radar_Tutorial#quick-start",
+      "label": ""
+    },
+    {
+      "url": "https://github.com/asc-csa/Synthetic_Aperture_Radar_Tutorial#tips--tricks",
+      "label": ""
+    },
+    {
+      "url": "https://github.com/asc-csa/Synthetic_Aperture_Radar_Tutorial#license",
+      "label": ""
+    },
+    {
+      "url": "https://github.com/asc-csa/Synthetic_Aperture_Radar_Tutorial/blob/main/LICENSE.txt",
+      "label": "LICENSE"
+    },
+    {
+      "url": "https://github.com/topics/cartopy",
+      "label": "cartopy"
+    },
+    {
+      "url": "https://github.com/topics/osgeo",
+      "label": "osgeo"
+    },
+    {
+      "url": "https://github.com/topics/qgis",
+      "label": "qgis"
+    },
+    {
+      "url": "https://github.com/topics/synthetic-aperture-radar",
+      "label": "synthetic-aperture-radar"
+    },
+    {
+      "url": "https://github.com/topics/tutorial",
+      "label": "tutorial"
+    },
+    {
+      "url": "https://github.com/asc-csa/Synthetic_Aperture_Radar_Tutorial#readme-ov-file",
+      "label": "Readme"
+    },
+    {
+      "url": "https://github.com/asc-csa/Synthetic_Aperture_Radar_Tutorial#License-1-ov-file",
+      "label": "License"
+    },
+    {
+      "url": "https://github.com/asc-csa/Synthetic_Aperture_Radar_Tutorial/activity",
+      "label": "Activity"
+    },
+    {
+      "url": "https://github.com/asc-csa/Synthetic_Aperture_Radar_Tutorial/custom-properties",
+      "label": "Custom properties"
+    },
+    {
+      "url": "https://github.com/asc-csa/Synthetic_Aperture_Radar_Tutorial/forks",
+      "label": "6 forks"
+    },
+    {
+      "url": "https://github.com/contact/report-content?content_url=https%3A%2F%2Fgithub.com%2Fasc-csa%2FSynthetic_Aperture_Radar_Tutorial&report=asc-csa+%28user%29",
+      "label": "Report repository"
+    },
+    {
+      "url": "https://github.com",
+      "label": ""
+    },
+    {
+      "url": "https://docs.github.com/site-policy/github-terms/github-terms-of-service",
+      "label": "Terms"
+    },
+    {
+      "url": "https://docs.github.com/site-policy/privacy-policies/github-privacy-statement",
+      "label": "Privacy"
+    },
+    {
+      "url": "https://github.com/security",
+      "label": "Security"
+    },
+    {
+      "url": "https://www.githubstatus.com/",
+      "label": "Status"
+    },
+    {
+      "url": "https://github.community/",
+      "label": "Community"
+    },
+    {
+      "url": "https://docs.github.com/",
+      "label": "Docs"
+    },
+    {
+      "url": "https://support.github.com?tags=dotcom-footer",
+      "label": "Contact"
+    }
+  ],
+  "elapsed_seconds": 0.859
+}

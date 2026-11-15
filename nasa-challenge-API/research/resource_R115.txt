@@ -1,0 +1,48 @@
+Mission Visualization
+Web-based Space Mission Visualization
+Contents of the Web-based Space Mission Visualization (WSMV)
+repository include Orrery demonstration web-apps and tutorials for depicting
+orbital trajectories.
+Repository https://github.com/nasa/mission-viz
+Web-Apps
+Ontology-based Orrery
+Markup Language (HTML) page with an embedded 3D model of the solar system with Keplerian orbital parameters expressed as a orbit
+class from a Space Situational Awareness Ontology. The model was created with
+the X3DOM JavaScript code library.
+Orrery and orbital parameters table
+R code generated HTML page with an embedded 3D modelof the solar system with a table of planetary orbital parameters.
+Orrery
+with Potentially Hazardous Asteroids
+- An HTML page with an embedded
+interactive animated 3D model of the inner planets of the solar system and 50
+potentially hazardous asteroids. The model was created with the X3DOM
+JavaScript code library. Original JavaScript code implements an orbital
+propagator described in “Orbital Mechanics, Theory and Applications by Tom
+Logsdon.
+Earth
+Moon Mission Visualization
+- An HTML page with an interactive 3D animated
+model a spacecraft moving from an Earth orbit to a Lunar orbit. The model was
+produced with the X3DOM JavaScript code library.
+Tutorials
+How
+to design a 3D elliptical orbit
+- An
+R code generated HTML page with interactive 3D models of elliptical orbits.
+This web-app explains how to transform a 2D ellipse into a 3D orbit and how to
+implement an orbital propagator.
+Web-based
+Space Mission Visualization Tutorial Series
+- An HTML web page that provide links to tutorials in
+Portable Data Files (PDF) and the interactive demonstrations described in items
+d, e, f, and g on this list.
+Importing data into an ontology and exporting JSON-LD
+- A presentation that
+     explains how to import data from Excel into an ontology within Protégé
+Generate
+     a table and 3D plot using R
+A
+     vision for a community developed web-based orrery
+Ontology
+Space Situational Awareness Ontology developed by Robert Rovetto
+An Ontology-Based Virtual Orrery

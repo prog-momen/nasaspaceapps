@@ -1,0 +1,230 @@
+{
+  "id": "resource_R128",
+  "url": "https://svs.gsfc.nasa.gov/5011/",
+  "checked_at": "2026-11-14T15:15:29.944719+00:00",
+  "tls_validation": false,
+  "status": 200,
+  "final_url": "https://svs.gsfc.nasa.gov/5011/",
+  "bytes": 44011,
+  "content_type": "text/html; charset=utf-8",
+  "sha256": "b7ab9ef971975de3169a4a89b7c4da10e45055668613d89fb4ff3c111d5893ec",
+  "links": [
+    {
+      "url": "https://www.nasa.gov/",
+      "label": ""
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/",
+      "label": "Scientific Visualization Studio"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/gallery/the-galleries/",
+      "label": "Galleries"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/help/",
+      "label": "Help"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/14436",
+      "label": "14436: Traveler and Friends Halloween Pumpkin Sten..."
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/14426",
+      "label": "14426: NASA's Lucy Mission Flyby of Asteroid Dinki..."
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/15113",
+      "label": ""
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/api/5011",
+      "label": ""
+    },
+    {
+      "url": "https://twitter.com/intent/tweet",
+      "label": ""
+    },
+    {
+      "url": "https://www.facebook.com/share.php?u=http%3A//svs.gsfc.nasa.gov/5011/%3F",
+      "label": ""
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/search?people=Michala%20Garrison",
+      "label": "Michala Garrison"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/5011/#section_credits",
+      "label": "View full credits"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a005000/a005011/iss_lightning_sphere_07312023.mp4",
+      "label": "iss_lightning_sphere_07312023.mp4 (1920x1080) [127.0 MB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a005000/a005011/iss_lightning_sphere_07312023_60p4k.mp4",
+      "label": "iss_lightning_sphere_07312023_60p4k.mp4 (3840x2160) [414.2 MB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a005000/a005011/iss_lightning_eic_display_2160p30_h2652.mp4",
+      "label": "iss_lightning_eic_display_2160p30_h2652.mp4 (7680x2160) [579.9 MB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a005000/a005011/iss_lightning_preview.jpg",
+      "label": "iss_lightning_preview.jpg (1024x576) [260.7 KB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a005000/a005011/iss_lightning_preview_searchweb.png",
+      "label": "iss_lightning_preview_searchweb.png (320x180) [59.3 KB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a005000/a005011/iss_lightning_preview_thm.png",
+      "label": "iss_lightning_preview_thm.png (80x40) [4.9 KB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a005000/a005011/iss_lightning_sphere_07312023.mp4.hwshow",
+      "label": "iss_lightning_sphere_07312023.mp4.hwshow [195 bytes]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a005000/a005011/playlist.sos.txt",
+      "label": "playlist.sos"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a005000/a005011/labels.txt",
+      "label": "labels.txt"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a005000/a005011/iss_lightning_sos_yearly_07312023_2048p60.mp4",
+      "label": "iss_lightning_sos_yearly_07312023_2048p60.mp4 (4096x2048) [334.0 MB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a005000/a005011/iss_lightning_sos_yearly_debug_2023_sos_2048p60.mp4",
+      "label": "iss_lightning_sos_yearly_debug_2023_sos_2048p60.mp4 (4096x2048) [659.8 MB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a005000/a005011/iss_lightning_sos_yearly_debug_2023_sos_2048p60.00420_print.jpg",
+      "label": "iss_lightning_sos_yearly_debug_2023_sos_2048p60.00420_print.jpg (1024x512) [49.5 KB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a005000/a005011/iss_lightning_SOS_thumb.jpg",
+      "label": "iss_lightning_SOS_thumb.jpg (800x800) [262.7 KB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/search?nasa_science_categories=Earth",
+      "label": "Earth"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/search?keywords=Earth Information Center",
+      "label": "Earth Information Center"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/search?keywords=Eic (earth information center) display",
+      "label": "Eic (earth information center) display"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/search?keywords=Hyperwall",
+      "label": "Hyperwall"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/search?keywords=International Space Station",
+      "label": "International Space Station"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/search?keywords=ISS",
+      "label": "ISS"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/search?keywords=Lightning",
+      "label": "Lightning"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/search?keywords=Lightning Imaging Sensor",
+      "label": "Lightning Imaging Sensor"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/search?keywords=Science On a Sphere",
+      "label": "Science On a Sphere"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/search/?people=Michala%20Garrison",
+      "label": "Michala Garrison"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/search/?people=Greg%20Shirah",
+      "label": "Greg Shirah"
+    },
+    {
+      "url": "https://orcid.org/0000-0002-7955-9573",
+      "label": ""
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/search/?people=Kel%20Elkins",
+      "label": "Kel Elkins"
+    },
+    {
+      "url": "https://orcid.org/0000-0002-0585-1619",
+      "label": ""
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/search/?people=Alex%20Kekesi",
+      "label": "Alex Kekesi"
+    },
+    {
+      "url": "https://orcid.org/0009-0001-3924-5377",
+      "label": ""
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/search/?datasets=600",
+      "label": "See all pages that use this dataset"
+    },
+    {
+      "url": "https://www.naturalearthdata.com/downloads/10m-raster-data/10m-gray-earth/",
+      "label": "https://www.naturalearthdata.com/downloads/10m-raster-data/10m-gray-earth/"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/search/?datasets=1149",
+      "label": "See all pages that use this dataset"
+    },
+    {
+      "url": "https://ghrcdrive.nsstc.nasa.gov/pub/lis/iss/data/science/final/nc/",
+      "label": "https://ghrcdrive.nsstc.nasa.gov/pub/lis/iss/data/science/final/nc/"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/search/?datasets=1150",
+      "label": "See all pages that use this dataset"
+    },
+    {
+      "url": "https://lpdaac.usgs.gov/products/mcd12c1v006/",
+      "label": "https://lpdaac.usgs.gov/products/mcd12c1v006/"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/search/?datasets=1158",
+      "label": "See all pages that use this dataset"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/14802/",
+      "label": ""
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/14802/",
+      "label": "Earth to Space: A National Symphony Orchestra Concert"
+    },
+    {
+      "url": "https://www.nasa.gov/",
+      "label": ""
+    },
+    {
+      "url": "https://www.usa.gov/",
+      "label": ""
+    },
+    {
+      "url": "https://www.nasa.gov/about/highlights/HP_Privacy.html",
+      "label": "Privacy Policy and Important Notices"
+    },
+    {
+      "url": "https://www.nasa.gov/multimedia/guidelines/index.html",
+      "label": "Reproduction Guidelines"
+    }
+  ],
+  "elapsed_seconds": 0.844
+}

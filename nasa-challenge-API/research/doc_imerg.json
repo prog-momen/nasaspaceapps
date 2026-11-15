@@ -1,0 +1,606 @@
+{
+  "id": "doc_imerg",
+  "url": "https://gpm.nasa.gov/data/imerg",
+  "checked_at": "2026-11-14T15:12:46.003882+00:00",
+  "tls_validation": false,
+  "status": 200,
+  "final_url": "https://gpm.nasa.gov/data/imerg",
+  "bytes": 86245,
+  "content_type": "text/html; charset=UTF-8",
+  "sha256": "2a9c0ffb4755c41b638fc3c235e80bff434a52cc7b735ca7af08e2cd869048f5",
+  "links": [
+    {
+      "url": "https://gpm.nasa.gov/data/imerg#main-content",
+      "label": "Skip to main content"
+    },
+    {
+      "url": "https://www.nasa.gov/",
+      "label": ""
+    },
+    {
+      "url": "https://gpm.nasa.gov/",
+      "label": ""
+    },
+    {
+      "url": "https://gpm.nasa.gov/",
+      "label": "GLOBAL PRECIPITATION MEASUREMENT"
+    },
+    {
+      "url": "https://gpm.nasa.gov/search",
+      "label": "SEARCH"
+    },
+    {
+      "url": "https://gpm.nasa.gov/data/ask-a-question",
+      "label": "QUESTIONS"
+    },
+    {
+      "url": "https://gpm.nasa.gov/missions",
+      "label": "Missions"
+    },
+    {
+      "url": "https://gpm.nasa.gov/missions/GPM",
+      "label": "GPM"
+    },
+    {
+      "url": "https://gpm.nasa.gov/missions/GPM/core-observatory",
+      "label": "GPM Core Observatory"
+    },
+    {
+      "url": "https://gpm.nasa.gov/missions/GPM/GMI",
+      "label": "GPM Microwave Imager (GMI)"
+    },
+    {
+      "url": "https://gpm.nasa.gov/missions/GPM/DPR",
+      "label": "Dual-frequency Precipitation Radar (DPR)"
+    },
+    {
+      "url": "https://gpm.nasa.gov/missions/GPM/constellation",
+      "label": "GPM Constellation"
+    },
+    {
+      "url": "https://gpm.nasa.gov/missions/GPM/launch",
+      "label": "Launch"
+    },
+    {
+      "url": "https://gpm.nasa.gov/missions/gpm/10-year-anniversary",
+      "label": "GPM 10 Year Anniversary"
+    },
+    {
+      "url": "https://gpm.nasa.gov/missions/trmm",
+      "label": "TRMM"
+    },
+    {
+      "url": "https://gpm.nasa.gov/missions/TRMM/satellite",
+      "label": "Spacecraft and Instruments"
+    },
+    {
+      "url": "https://gpm.nasa.gov/extreme-weather-news",
+      "label": "Extreme Weather News"
+    },
+    {
+      "url": "https://gpm.nasa.gov/missions/articles",
+      "label": "Articles"
+    },
+    {
+      "url": "https://gpm.nasa.gov/data",
+      "label": "Data"
+    },
+    {
+      "url": "https://gpm.nasa.gov/data/directory",
+      "label": "Data Directory"
+    },
+    {
+      "url": "https://gpm.nasa.gov/data/sources",
+      "label": "Data Sources"
+    },
+    {
+      "url": "https://gpm.nasa.gov/data/news",
+      "label": "Data News"
+    },
+    {
+      "url": "https://gpm.nasa.gov/data/faq",
+      "label": "Data FAQ"
+    },
+    {
+      "url": "https://gpm.nasa.gov/data/policy",
+      "label": "Data Policy"
+    },
+    {
+      "url": "https://gpm.nasa.gov/data/training",
+      "label": "Training"
+    },
+    {
+      "url": "https://gpm.nasa.gov/data/tutorials",
+      "label": "Tutorials"
+    },
+    {
+      "url": "https://gpm.nasa.gov/data/ground-validation",
+      "label": "Ground Validation Data"
+    },
+    {
+      "url": "https://gpm.nasa.gov/data/imerg",
+      "label": "IMERG"
+    },
+    {
+      "url": "https://gpm.nasa.gov/data/imerg/precipitation-climatology",
+      "label": "Precipitation Climatology"
+    },
+    {
+      "url": "https://gpm.nasa.gov/data/imerg/seasonal-precipitation-variations",
+      "label": "Seasonal Precipitation Variations"
+    },
+    {
+      "url": "https://gpm.nasa.gov/data/visualization",
+      "label": "Visualization"
+    },
+    {
+      "url": "https://gpm.nasa.gov/data/visualization/global-viewer",
+      "label": "IMERG Global Viewer"
+    },
+    {
+      "url": "https://gpm.nasa.gov/data/visualization/worldview",
+      "label": "NASA Worldview"
+    },
+    {
+      "url": "https://gpm.nasa.gov/data/visualization/precip-apps",
+      "label": "Precipitation & Applications Viewer"
+    },
+    {
+      "url": "https://gpm.nasa.gov/data/visualizations/rain-global",
+      "label": "RAIN Global Viewer"
+    },
+    {
+      "url": "https://gpm.nasa.gov/data/articles",
+      "label": "Articles"
+    },
+    {
+      "url": "https://gpm.nasa.gov/applications",
+      "label": "Applications"
+    },
+    {
+      "url": "https://gpm.nasa.gov/applications/ecology",
+      "label": "Ecology"
+    },
+    {
+      "url": "https://gpm.nasa.gov/applications/water",
+      "label": "Water & Agriculture"
+    },
+    {
+      "url": "https://gpm.nasa.gov/applications/energy",
+      "label": "Energy"
+    },
+    {
+      "url": "https://gpm.nasa.gov/applications/weather",
+      "label": "Weather"
+    },
+    {
+      "url": "https://gpm.nasa.gov/applications/weather/news",
+      "label": "Extreme Weather News"
+    },
+    {
+      "url": "https://gpm.nasa.gov/applications/health",
+      "label": "Health"
+    },
+    {
+      "url": "https://gpm.nasa.gov/applications/disease-initiative",
+      "label": "Disease Initiative"
+    },
+    {
+      "url": "https://gpm.nasa.gov/applications/disasters",
+      "label": "Disasters"
+    },
+    {
+      "url": "https://gpm.nasa.gov/applications/landslides",
+      "label": "Landslides"
+    },
+    {
+      "url": "https://gpm.nasa.gov/applications/landslides/coolr",
+      "label": "COOLR"
+    },
+    {
+      "url": "https://gpm.nasa.gov/applications/landslides/reporter",
+      "label": "Landslide Reporter"
+    },
+    {
+      "url": "https://gpm.nasa.gov/applications/landslides/reporter-faq",
+      "label": "Landslide Reporter FAQ"
+    },
+    {
+      "url": "https://gpm.nasa.gov/applications/whos-using-gpm-data",
+      "label": "Who's Using GPM Data"
+    },
+    {
+      "url": "https://gpm.nasa.gov/applications/highlights",
+      "label": "Applications Highlights"
+    },
+    {
+      "url": "https://gpm.nasa.gov/applications/articles",
+      "label": "Articles"
+    },
+    {
+      "url": "https://gpm.nasa.gov/science",
+      "label": "Science"
+    },
+    {
+      "url": "https://gpm.nasa.gov/science/research-topics",
+      "label": "Research Topics"
+    },
+    {
+      "url": "https://gpm.nasa.gov/science/research-topics#stormstructureandmesoscaledynamics",
+      "label": "Storm Structure and Mesoscale Dynamics"
+    },
+    {
+      "url": "https://gpm.nasa.gov/science/research-topics#theglobalwatercycle",
+      "label": "The Global Water Cycle"
+    },
+    {
+      "url": "https://gpm.nasa.gov/science/research-topics#climateanalysis",
+      "label": "Climate Analysis"
+    },
+    {
+      "url": "https://gpm.nasa.gov/science/research-topics#precipitationmicrophysics",
+      "label": "Precipitation Microphysics"
+    },
+    {
+      "url": "https://gpm.nasa.gov/science/ground-validation",
+      "label": "Ground Validation"
+    },
+    {
+      "url": "https://gpm.nasa.gov/science/ground-validation/field-campaigns",
+      "label": "Field Campaigns"
+    },
+    {
+      "url": "https://gpm.nasa.gov/science/ground-validation/ground-and-airborne-instruments",
+      "label": "Ground and Airborne Instruments"
+    },
+    {
+      "url": "https://gpm.nasa.gov/science/ground-validation/validation",
+      "label": "Validation"
+    },
+    {
+      "url": "https://gpm.nasa.gov/science/precipitation-algorithms",
+      "label": "Precipitation Algorithms"
+    },
+    {
+      "url": "https://gpm.nasa.gov/science/meetings",
+      "label": "Meetings"
+    },
+    {
+      "url": "https://gpm.nasa.gov/science/pmm-science-team",
+      "label": "PMM Science Team"
+    },
+    {
+      "url": "https://gpm.nasa.gov/science/articles",
+      "label": "Articles"
+    },
+    {
+      "url": "https://gpm.nasa.gov/resources",
+      "label": "Resources"
+    },
+    {
+      "url": "https://gpm.nasa.gov/resources/faq",
+      "label": "Frequently Asked Questions"
+    },
+    {
+      "url": "https://gpm.nasa.gov/resources/images",
+      "label": "Image Gallery"
+    },
+    {
+      "url": "https://gpm.nasa.gov/resources/videos",
+      "label": "Video Gallery"
+    },
+    {
+      "url": "https://gpm.nasa.gov/resources/documents",
+      "label": "Documents"
+    },
+    {
+      "url": "https://gpm.nasa.gov/resources/gpm-publications",
+      "label": "GPM Refereed Publications"
+    },
+    {
+      "url": "https://gpm.nasa.gov/resources/trmm-publications",
+      "label": "TRMM Refereed Publications"
+    },
+    {
+      "url": "https://gpm.nasa.gov/resources/3Dprinting",
+      "label": "3D Printed GPM Precipitation Data"
+    },
+    {
+      "url": "https://gpm.nasa.gov/resources/media",
+      "label": "Media & Press Resources"
+    },
+    {
+      "url": "https://gpm.nasa.gov/resources/glossary",
+      "label": "Glossary"
+    },
+    {
+      "url": "https://gpm.nasa.gov/resources/articles",
+      "label": "All Articles"
+    },
+    {
+      "url": "https://gpm.nasa.gov/education",
+      "label": "Education"
+    },
+    {
+      "url": "https://gpm.nasa.gov/education/water-cycle",
+      "label": "Water Cycle"
+    },
+    {
+      "url": "https://gpm.nasa.gov/education/weather-climate",
+      "label": "Weather & Climate"
+    },
+    {
+      "url": "https://gpm.nasa.gov/education/societal-applications",
+      "label": "Societal Applications"
+    },
+    {
+      "url": "https://gpm.nasa.gov/education/technology",
+      "label": "Technology"
+    },
+    {
+      "url": "https://gpm.nasa.gov/",
+      "label": "Home"
+    },
+    {
+      "url": "https://gpm.nasa.gov/data",
+      "label": "Data"
+    },
+    {
+      "url": "https://gpm.nasa.gov/data/imerg",
+      "label": ""
+    },
+    {
+      "url": "https://gpm.nasa.gov/missions/gpm/constellation",
+      "label": "GPM satellite constellation"
+    },
+    {
+      "url": "https://gpm.nasa.gov/missions/imerg",
+      "label": "TRMM"
+    },
+    {
+      "url": "https://gpm.nasa.gov/applications",
+      "label": "applications"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a004200/a004285/imergert_1080p.now.png",
+      "label": ""
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a004200/a004285/imergert_1080p.now.png",
+      "label": "View full size image"
+    },
+    {
+      "url": "https://gpm.nasa.gov/sites/default/files/data/world_political_boundaries_2012_2px_1920x1080.tif",
+      "label": "Overlay image of political boundaries"
+    },
+    {
+      "url": "https://gpm.nasa.gov/sites/default/files/data/10degree_grid_1920x1080_v2.tif",
+      "label": "Overlay image of 10 degree lat / long grid"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/4285/",
+      "label": "View an animation of the past 7 days of IMERG precipitation"
+    },
+    {
+      "url": "https://gpm.nasa.gov/data/directory",
+      "label": "GPM Data Directory"
+    },
+    {
+      "url": "https://gpm.nasa.gov/data/directory",
+      "label": "Click here to visit the GPM Data Directory"
+    },
+    {
+      "url": "https://giovanni.gsfc.nasa.gov/giovanni/#dataKeyword=IMERG",
+      "label": "https://giovanni.gsfc.nasa.gov/giovanni/#dataKeyword=IMERG"
+    },
+    {
+      "url": "https://giovanni.gsfc.nasa.gov/giovanni/doc/UsersManualworkingdocument.docx.html",
+      "label": "https://giovanni.gsfc.nasa.gov/giovanni/doc/UsersManualworkingdocument.docx.html"
+    },
+    {
+      "url": "https://urs.earthdata.nasa.gov/users/new",
+      "label": "https://urs.earthdata.nasa.gov/users/new"
+    },
+    {
+      "url": "https://jsimpsonhttps.pps.eosdis.nasa.gov/imerg/gis/early/",
+      "label": "https://jsimpsonhttps.pps.eosdis.nasa.gov/imerg/gis/early/"
+    },
+    {
+      "url": "http://registration.pps.eosdis.nasa.gov/registration/",
+      "label": "Click here to register for the PPS FTP"
+    },
+    {
+      "url": "https://pmm-dev.pps.eosdis.nasa.gov/resources/documents/imerg-geotiff-wordfile-documentation",
+      "label": "Read documentation for using IMERG GeoTIFF + Wordfiles"
+    },
+    {
+      "url": "https://jsimpsonhttps.pps.eosdis.nasa.gov/imerg/gis/",
+      "label": "https://jsimpsonhttps.pps.eosdis.nasa.gov/imerg/gis/"
+    },
+    {
+      "url": "http://registration.pps.eosdis.nasa.gov/registration/",
+      "label": "Click here to register for the PPS FTP"
+    },
+    {
+      "url": "https://gpm.nasa.gov/resources/documents/imerg-geotiff-wordfile-documentation",
+      "label": "Read documentation for using IMERG GeoTIFF + Wordfiles"
+    },
+    {
+      "url": "ftp://arthurhou.pps.eosdis.nasa.gov/gpmdata/",
+      "label": "ftp://arthurhou.pps.eosdis.nasa.gov/gpmdata/"
+    },
+    {
+      "url": "http://registration.pps.eosdis.nasa.gov/registration/",
+      "label": "Click here to register for the PPS FTP"
+    },
+    {
+      "url": "https://pmm-dev.pps.eosdis.nasa.gov/resources/documents/imerg-geotiff-wordfile-documentation",
+      "label": "Read documentation for using IMERG GeoTIFF + Wordfiles"
+    },
+    {
+      "url": "https://gpm.nasa.gov/resources/documents/IMERG-V06-Technical-Documentation",
+      "label": "Integrated Multi-satellitE Retrievals for GPM (IMERG) Technical Documentation"
+    },
+    {
+      "url": "https://www.dwd.de/EN/ourservices/gpcc/gpcc.html",
+      "label": "https://www.dwd.de/EN/ourservices/gpcc/gpcc.html"
+    },
+    {
+      "url": "https://gpm.nasa.gov/resources/documents/transition-multi-satellite-products-trmm-gpm-tmpa-imerg",
+      "label": "https://gpm.nasa.gov/resources/documents/transition-multi-satellite-pro…"
+    },
+    {
+      "url": "https://pps.gsfc.nasa.gov/Documents/README.GIS.pdf",
+      "label": "https://pps.gsfc.nasa.gov/Documents/README.GIS.pdf"
+    },
+    {
+      "url": "https://gpm.nasa.gov/taxonomy/term/1346",
+      "label": "Hide Date"
+    },
+    {
+      "url": "https://gpm.nasa.gov/data/directory",
+      "label": "Data Directory"
+    },
+    {
+      "url": "https://gpm.nasa.gov/data/sources",
+      "label": "Data Sources"
+    },
+    {
+      "url": "https://gpm.nasa.gov/data/news",
+      "label": "Data News"
+    },
+    {
+      "url": "https://gpm.nasa.gov/data/faq",
+      "label": "Data FAQ"
+    },
+    {
+      "url": "https://gpm.nasa.gov/data/policy",
+      "label": "Data Policy"
+    },
+    {
+      "url": "https://gpm.nasa.gov/data/training",
+      "label": "Training"
+    },
+    {
+      "url": "https://gpm.nasa.gov/data/tutorials",
+      "label": "Tutorials"
+    },
+    {
+      "url": "https://gpm.nasa.gov/data/ground-validation",
+      "label": "Ground Validation Data"
+    },
+    {
+      "url": "https://gpm.nasa.gov/data/imerg",
+      "label": "IMERG"
+    },
+    {
+      "url": "https://gpm.nasa.gov/data/imerg/precipitation-climatology",
+      "label": "Precipitation Climatology"
+    },
+    {
+      "url": "https://gpm.nasa.gov/data/imerg/seasonal-precipitation-variations",
+      "label": "Seasonal Precipitation Variations"
+    },
+    {
+      "url": "https://gpm.nasa.gov/data/visualization",
+      "label": "Visualization"
+    },
+    {
+      "url": "https://gpm.nasa.gov/data/visualization/global-viewer",
+      "label": "IMERG Global Viewer"
+    },
+    {
+      "url": "https://gpm.nasa.gov/data/visualization/worldview",
+      "label": "NASA Worldview"
+    },
+    {
+      "url": "https://gpm.nasa.gov/data/visualization/precip-apps",
+      "label": "Precipitation & Applications Viewer"
+    },
+    {
+      "url": "https://gpm.nasa.gov/data/visualizations/rain-global",
+      "label": "RAIN Global Viewer"
+    },
+    {
+      "url": "https://gpm.nasa.gov/data/articles",
+      "label": "Articles"
+    },
+    {
+      "url": "https://gpm.nasa.gov/data",
+      "label": ""
+    },
+    {
+      "url": "https://twitter.com/NASAEarth",
+      "label": ""
+    },
+    {
+      "url": "https://facebook.com/NASAEarth",
+      "label": ""
+    },
+    {
+      "url": "http://www.youtube.com/playlist?list=PL_8hVmWnP_O258ZS4-HKumKTfX7f72LHA",
+      "label": ""
+    },
+    {
+      "url": "http://www.nasa.gov/centers/goddard/home/index.html",
+      "label": ""
+    },
+    {
+      "url": "https://gpm.nasa.gov/contact",
+      "label": "George Huffman"
+    },
+    {
+      "url": "https://gpm.nasa.gov/contact",
+      "label": "Will McCarty"
+    },
+    {
+      "url": "https://gpm.nasa.gov/contact",
+      "label": "Charles Cosner"
+    },
+    {
+      "url": "https://gpm.nasa.gov/contact",
+      "label": "Jacob Reed"
+    },
+    {
+      "url": "http://www.nasa.gov/about/highlights/HP_Privacy.html",
+      "label": "Privacy Policy"
+    },
+    {
+      "url": "https://www.nasa.gov/accessibility/",
+      "label": "Accessibility"
+    },
+    {
+      "url": "https://gpm.nasa.gov/image-use-policy",
+      "label": "NASA Image Use Policy"
+    },
+    {
+      "url": "https://gpm.nasa.gov/data/ask-a-question",
+      "label": "Ask a Question"
+    },
+    {
+      "url": "https://gpm.nasa.gov/sitemap",
+      "label": "Site Map"
+    },
+    {
+      "url": "http://science.gsfc.nasa.gov/sed/index.cfm?fuseAction=home.main&&navOrgCode=610",
+      "label": "Earth Science Division"
+    },
+    {
+      "url": "http://www.nasa.gov/centers/goddard/home/index.html",
+      "label": "Goddard Space Flight Center"
+    },
+    {
+      "url": "http://www.nasa.gov",
+      "label": "NASA.gov"
+    },
+    {
+      "url": "http://www.usa.gov",
+      "label": "USA.gov"
+    },
+    {
+      "url": "http://www.nasa.gov/",
+      "label": ""
+    }
+  ],
+  "elapsed_seconds": 1.078
+}

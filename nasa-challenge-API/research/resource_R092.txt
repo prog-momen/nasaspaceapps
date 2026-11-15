@@ -1,0 +1,624 @@
+﻿
+PDS Geosciences Node Data and Services: Lunar Reconnaissance Orbiter 
+(LRO) Mission
++ NASA Homepage
++ NASA en Español
++ Contact NASA
+HOME
+DATA AND SERVICES
+TOOLS
+ABOUT US
+CONTACT US
+SITE MAP
+Services
+Analyst's Notebooks
+Orbital Data Explorers
+Spectral Library
+FTP Access
+Workshops
+Geosciences Node Data
+Mars
+Mars Exploration
+Mars 2020
+About Mars 2020
+PIXL
+Returned Sample Science
+RIMFAX
+SHERLOC
+SuperCam
+InSight
+About InSight
+HP3/RAD
+IDA
+RISE
+SEIS
+MSL
+About MSL
+APXS
+ChemCam
+CheMin
+DAN
+SAM
+MRO
+About MRO
+CRISM
+SHARAD
+Gravity/Radio Science
+MER
+Mars Express
+About Mars Express
+ASPERA
+HRSC
+MaRS
+MARSIS
+OMEGA
+PFS
+SPICAM
+SPICE
+VMC
+Odyssey
+About Odyssey
+THEMIS
+GRS
+MARIE
+Radio Science
+Accelerometer
+SPICE
+Phoenix
+About Phoenix
+MECA
+RA
+TEGA
+MGS
+About MGS
+MOLA
+MOC
+TES
+MAG/ER
+Radio Science
+Accelerometer
+SPICE
+Pathfinder
+About Pathfinder
+IMP 3-D
+Summary Image
+Radio Science
+Prototype Rovers
+Viking Orbiter
+About Viking Orbiter
+VIS-EDR Images
+MDIM/MDTM
+IRTM
+MAWD
+LOS Gravity
+VO/Mariner 
+			  9 Topo
+Viking Lander
+About Viking Lander
+EDR Images
+Rock Data Set
+Labeled Release
+Seismic Data
+Mariner
+About Mariner
+Mariner Mars 
+			  1969 Images
+Earth Based Data
+About Earth Based Data
+HST
+Venus
+Magellan
+About Magellan
+F-BIDR
+C-BIDR
+MIDR
+ALT-EDR
+ARCDR
+GXDR
+SCVDR
+GVDR
+BSR
+LOSAPDR
+Spherical
+Harmonic, Topo
+and Gravity
+Radio Tracking
+Pre-Magellan
+Venus Radar
+Venera
+Mercury
+MESSENGER
+About MESSENGER
+GRS/NS
+MASCS
+MLA
+Radio Science
+XRS
+Moon
+Moon Data
+Artemis II
+CLPS
+Chandrayaan-1
+Chang'e
+GRAIL
+LCROSS
+LRO
+About LRO
+Diviner
+LEND
+LOLA
+Mini-RF
+Radio Science
+Apollo
+Kaguya
+MSX
+Lunar Prospector
+About Lunar Prospector
+Level 0 Data
+Level 1 Spectrometer Data
+Reduced Spectrometer Data
+Spherical Harmonics Gravity 
+			Models
+LOS Gravity
+MAG/ER Data
+ODF Data
+Lunar Radar
+70 cm Lunar Radar
+12.6 cm (S-Band) Lunar Radar
+South Pole DEM
+Lunar Spectroscopy
+Clementine
+About Clementine
+Gravity/Topo
+Raw LIDAR
+LWIR Brightness 
+			Temperature
+Raw Bistatic Radar
+Reduced Bistatic 
+			Radar
+Pre-Magellan
+Earth
+Earth Data
+Amboy Crater
+GRSFE
+Laboratory Data
+Nevada LIDAR
+Pre-Magellan
+Asteroids
+NEAR
+About NEAR
+NLR
+Radio Science
+Gravity Models
+All Geosciences DOIs
+All Geosciences Data Holdings
+Help
+Frequently Asked Questions
+Geosciences Node Forums
+Help for Data Users
+Help for Data Reviewers
+Help for Proposers
+About PDS4
+About Checksums
+Cite PDS On Your Poster
+Contact Us
+Scheduled Maintenance
+This site may be down on
+Thursdays
+between 7:00 and 9:30 pm Central Time for maintenance.
+Lunar Reconnaissance 
+						Orbiter (LRO)
+September 21, 2026.
+Delayed
+Mini-RF
+release 67 data are available.
+September 15, 2026.
+LRO Release 67 
+							  includes new
+Diviner
+,
+LEND
+,
+LOLA
+, and
+Radio Science
+data. Release 
+							  of Mini-RF data is delayed.
+Search Tools
+The
+Lunar 
+						  Orbital Data Explorer (ODE)
+at the Geosciences Node provides search capabilities 
+						  for all LRO data sets.
+The
+Planetary Image Atlas
+at the Imaging Node provides search capabilities for 
+						  LAMP and LROC data.
+The standard
+PDS Data Set Search
+tool includes all LRO data 
+						  sets.
+Instruments and Archives
+Instrument
+Follow links to instrument team web sites
+PDS Archives
+CRaTER
+(Cosmic Ray Telescope for the Effects of 
+							  Radiation)
+CRaTER Archive
+at the PPI Node
+Diviner
+(Lunar Radiometer Experiment)
+Diviner Archive
+LAMP
+(Lyman-Alpha Mapping Project)
+LAMP Archive
+at the Imaging Node
+LEND
+(Lunar Exploration Neutron Detector)
+LEND Archive
+LOLA
+(Lunar Orbiter Laser Altimeter)
+LOLA Archive
+LROC
+(Lunar Reconnaissance Orbiter Camera)
+LROC Archive
+at the LROC Data Node
+Mini-RF
+(Miniature Radio Frequency Technology 
+							  Demonstration)
+Mini-RF Archive
+Radio 
+							  Science
+Radio Science Archive
+SPICE
+(Geometry and Navigation Data -- see note below)
+SPICE Archive
+at the NAIF Node
+More Information
+The
+LRO Data Management and Archive Plan
+, revised 
+						May 6, 2013 (PDF, 692 KB)
+The
+LRO Mission Description
+from the PDS Catalog (ASCII, 35 KB)
+The
+LRO Spacecraft Description
+from the PDS Catalog (ASCII, 37 KB)
+The
+LRO web 
+						site
+at GSFC.
+Note about LRO Ephemeris Data
+There are two sources 
+									of LRO ephemeris data (SPICE SPK kernels). 
+									SPK data from the LRO Flight Dynamics Team 
+									(FDT) are available from the PDS Navigation 
+									and Ancillary Information Facility (
+NAIF
+). 
+									The FDT SPK data are currently produced 
+									without using LRO Lunar Orbiting Laser 
+									Altimeter (LOLA) data.
+LRO SPK data produced 
+									by the LOLA team are available from the
+Radio Science Data Archive at the LOLA Data 
+									Node
+in the DATA/SPK directory.
+The LOLA SPK files are 
+									orbit reconstructions produced by the LOLA 
+									Precise Orbit Determination Team.
+These SPKs are used for geolocation 
+									of LOLA data. They contain spacecraft 
+									ephemerides and have the same binary format 
+									as SPK files provided by NAIF. More 
+									information about the content of the LOLA 
+									SPK data may be found in the "GEODYN 
+									Trajectory Files (SPK Directory)" 
+									information in the "Secondary Data" 
+									section of the
+Radio Science Data Set catalog file
+.
+Release Schedule
+Most LRO instrument teams release data 
+						every three months; LROC releases data monthly.  
+						The data acqusition periods shown below are nominal, as 
+						some teams release more recently acquired data. See 
+						release notes for each data set.
+Use the PDS Subscription Service
+to receive email announcements of each LRO 
+						release.
+Release
+Data 
+							Acquisition (nominal)
+Release 
+							to Public
+70
+12/15/26 - 3/14/27
+6/15/27
+70C
+2/16/27 - 
+							3/15/27 (LROC)
+6/15/27
+70B
+1/16/27 - 2/15/27 (LROC)
+5/14/27
+70A
+12/16/26 - 
+							1/15/27 (LROC)
+4/15/27
+69
+9/15/26 - 12/14/26
+3/15/27
+69C
+11/16/26 - 
+							12/15/26 (LROC)
+3/15/27
+69B
+10/16/26 -11/15/26 (LROC)
+2/15/27
+69A
+9/16/26 - 
+							10/15/26 (LROC)
+1/15/27
+68
+6/15/26 - 9/14/26
+12/15/26
+68C
+8/16/26 - 
+							9/15/26 (LROC)
+12/15/26
+68B
+7/16/26 - 8/15/26 (LROC)
+11/13/26
+68A
+6/16/26 - 
+							7/15/26 (LROC)
+10/15/26
+67
+3/15/26 - 6/14/26
+9/15/26
+67C
+5/16/26 - 
+							6/15/26 (LROC)
+9/15/26
+67B
+4/16/26 - 5/15/26 (LROC)
+8/14/26
+67A
+3/16/26 - 
+							4/15/26 (LROC)
+7/15/26
+66
+12/15/25 - 3/14/26
+6/15/26
+66C
+2/16/26 - 
+							3/15/26 (LROC)
+6/15/26
+66B
+1/16/26 - 2/15/26 (LROC)
+5/15/26
+66A
+12/16/25 - 
+							1/15/26 (LROC)
+4/15/26
+65
+9/15/25 - 12/14/25
+3/13/26
+65C
+11/16/25 - 12/15/25 (LROC)
+3/13/26
+65B
+10/16/25 - 11/15/25 (LROC)
+2/13/26
+65A
+9/16/25 
+							- 10/15/25 (LROC)
+1/15/26
+64
+6/15/25 - 9/14/25
+12/15/25
+63
+3/15/25 - 6/14/25
+9/15/25
+62
+12/15/24 - 3/14/25
+6/13/25
+...
+...
+...
+1
+9/15/09 - 12/14/09
+3/15/10
+What's 
+					New
+Sep. 21, 2026.
+Delayed Mini-RF 
+							  release 67 data are available.
+Sep. 15, 2026.
+Release 67 
+							  of LRO data is now online. Release of Mini-RF data 
+							  is delayed.
+Jun. 15, 2026.
+Release 66 
+							  of LRO data is now online.
+Apr. 22, 2026.
+The
+Radio Science
+SPK 
+							  dataset has been updated.
+Mar. 13, 2026.
+Release 65 
+							  of LRO data is now online.
+Jan. 5, 2026.
+Delayed Diviner 
+							  Release 64 data are now available.
+Dec. 15, 2025.
+Release 64 
+							  of LRO data is now online. Release of Diviner data 
+							  is delayed.
+Sep. 15, 2025.
+Release 63 of LRO 
+							 data is now online.
+Jun. 30, 2025.
+LRO
+Radio Science
+TRK data have been migrated to the PDS4 
+							 standard.
+Jun. 13, 2025.
+Release 62 of LRO 
+							  data is now online.
+Mar. 14, 2025.
+Release 61 iof LRO 
+							  data is now online.
+Jan. 14, 2025.
+Delayed Diviner RDR 
+							 Release 60 data are now available.
+Dec. 13, 2024.
+Some of the
+Mini-RF
+Bistatic 
+							 Radar dataset has been migrated to the PDS4 
+							 standard.
+Dec. 13, 2024.
+Release 60 of LRO 
+							 data is now online.
+Sep. 13, 2024.
+Release 59 of LRO 
+							 data is now online.
+Aug. 27, 2024.
+A new
+Diviner
+Emission 
+							 Phase Function dataset is released.
+Aug. 9, 2024.
+The
+Radio Science
+SPK 
+							 dataset has been updated.
+Jul. 30, 2024.
+The
+Mini-RF
+Global 
+							 Mosaics dataset has been migrated to the PDS4 
+							 standard.
+Jun. 24, 2024.
+Delayed Diviner RDR 
+							 Release 58 data are now available.
+Jun. 14, 2024.
+Release 58 of LRO 
+							 data is now online.
+Mar. 15, 2024.
+Release 57 of LRO 
+							 data is now online.
+Feb. 5, 2024.
+A new dataset of
+Diviner
+High-Resolution Mosaics is online.
+Dec. 15, 2023.
+Release 56 of LRO 
+							 data is now online.
+Sep. 15, 2023.
+Release 55 of LRO 
+							 data is now online.
+Aug. 15, 2023.
+Migration of all
+Diviner
+data to the PDS4 standard is complete.
+Jun. 29, 2023.
+Withheld
+LOLA
+RDR data have 
+							 been released.
+Jun. 15, 2023
+. Release 54 of LRO 
+							 data is now online.
+Jun. 15, 2023
+. All previously 
+							 released
+LEND
+data have been migrated to the PDS4 standard.
+May 8, 2023
+.
+All 
+							 backlogged
+Diviner RDR
+data have been released.
+May 8, 2023
+.
+All 
+							 previously released
+LOLA
+and
+Diviner EDR
+data have been migrated to the PDS4 standard.
+Mar. 15, 2023
+. Release 53 
+					of LRO data is now online.
+Dec. 15, 2022
+. Release 52 
+					of LRO data is now online.
+Sep. 15, 2022
+. Release 51 
+					of LRO data is now online.
+Aug. 26, 2022
+.
+The first seasonal
+Diviner 
+					PCPs
+have been posted, and the diurnal Diviner PCPs have been 
+					converted to PDS4.
+Jun. 15, 2022
+. Release 50 
+					of LRO data is now online.
+May 5, 2022
+.
+The first
+Diviner RCP
+is 
+					released.
+Mar. 15, 2022
+. Release 49 
+					of LRO data is now online.
+Dec. 15, 2021
+. Release 48 
+					of LRO data is now online.
+Sep. 15, 2021
+. Release 47 
+					of LRO data is now online.
+Jun. 15, 2021
+. Release 46 
+					of LRO data is now online.
+Mar. 15, 2021
+. Release 45 
+					of LRO data is now online.
+Dec. 15, 2020
+. Release 44 
+					of LRO data is now online.
+Sept. 15, 2020
+. Release 43 
+					of LRO data is now online.
+Jul. 15, 2020.
+Diviner PCPs
+are released.
+Jun. 15, 2020
+. Release 42 
+					of LRO data is now online.
+April 22, 2020.
+36
+Diviner GDR
+data 
+					products have been revised.
++ Freedom of Information Act
++ NASA Strategic Plans
++ NASA Privacy Statement, Disclaimer, and
+Accessibility Certification
++ Copyright/Image Use Policy
+Curator:
+Jennifer Ward
+NASA Official:
+Paul Byrne
+Last Updated:
++ Comments and Questions

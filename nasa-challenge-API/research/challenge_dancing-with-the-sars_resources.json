@@ -1,0 +1,58 @@
+[
+  [
+    "https://search.earthdata.nasa.gov/search",
+    "NASA Earthdata Search"
+  ],
+  [
+    "https://search.asf.alaska.edu/",
+    "ASF Data Search Vertex"
+  ],
+  [
+    "https://nisar-docs.asf.alaska.edu/",
+    "NISAR Data User Guide"
+  ],
+  [
+    "https://www.earthdata.nasa.gov/learn/earth-observation-data-basics/remote-sensing",
+    "Intro to Remote Sensing"
+  ],
+  [
+    "https://www.earthdata.nasa.gov/learn/earth-observation-data-basics/sar",
+    "Intro to Synthetic Aperture Radar (SAR)"
+  ],
+  [
+    "https://appliedsciences.nasa.gov/get-involved/training",
+    "NASA ARSET Trainings"
+  ],
+  [
+    "https://nisar.jpl.nasa.gov/applications/arcgis-storymaps/",
+    "NISAR StoryMaps"
+  ],
+  [
+    "https://nisar.jpl.nasa.gov/applications/societal-benefit/",
+    "NISAR Applications White Papers"
+  ],
+  [
+    "https://uavsar.jpl.nasa.gov/education/postcards.html",
+    "UAVSAR Postcards"
+  ],
+  [
+    "https://donnees-data.asc-csa.gc.ca/en/dataset/rcm",
+    "Radarsat Constellation Mission (RCM) - Data"
+  ],
+  [
+    "https://github.com/asc-csa/Synthetic_Aperture_Radar_Tutorial",
+    "Synthetic Aperture Radar python Tutorial"
+  ],
+  [
+    "https://donnees-data.asc-csa.gc.ca/en/dataset/radarsat1",
+    "RADARSAT 1 - Data"
+  ],
+  [
+    "https://catalogos.conae.gov.ar/catalogo/catalogoSatSaocomInfo.html",
+    "SAOCOM Catalogue"
+  ],
+  [
+    "https://www.argentina.gob.ar/noticias/la-informacion-saocom-cada-vez-mas-accesible",
+    "SAOCOM Catalogue Registration"
+  ]
+]

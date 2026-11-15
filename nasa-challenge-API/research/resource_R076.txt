@@ -1,0 +1,91 @@
+Data collection started - GEDI
+GEDI
+Ecosystem Lidar
+Mission
+Mission Status
+Mission Overview
+Technology
+Timeline
+Mission Team
+Instrument
+Instrument Overview
+Specifications
+Launch
+Science
+Science Overview
+Publications
+GEDI-Related Publications
+Conference Proceedings
+Competed Science Team
+Applications
+Applications Overview
+Topography and Surface Deformation
+Water Resources
+Weather Prediction
+Forest Management
+Data Products
+Products Overview
+Access
+ATBD Documents
+L4B visualization
+Calibration/Validation
+Resources & Tutorials
+Media
+Gallery
+Latest News
+Contact
+Mission
+Mission Status
+Mission Overview
+Technology
+Timeline
+Mission Team
+Instrument
+Instrument Overview
+Specifications
+Launch
+Science
+Science Overview
+Publications
+GEDI-Related Publications
+Conference Proceedings
+Competed Science Team
+Applications
+Applications Overview
+Topography and Surface Deformation
+Water Resources
+Weather Prediction
+Forest Management
+Data Products
+Products Overview
+Access
+ATBD Documents
+L4B visualization
+Calibration/Validation
+Resources & Tutorials
+Media
+Gallery
+Latest News
+Contact
+Data collection started
+0
+April 16, 2019
+Latest News
+GEDI finished its on-orbit checkout phase (the commissioning period) and started official operations to acquire science data on March 25th, 2019. GEDI is currently following Reference Ground Tracks (RGTs) to evenly sample the forest structure across the earth. Every week the science team prioritizes the potential RGTs by programming the instrument to point nadir, or slightly off-nadir, to provide the best spatial coverage and to target specific areas of interest. The science data collection phase is scheduled to last for 2 years and the first data products will be delivered in six months around the end of September, 2019. Before then we plan to make example data sets available to help the community prepare for the first data release.
+Image: GEDI data collection over South Carolina woodland, darker green shows where the leaves and branches are denser, lighter green shows less dense canopy. Image credits: Joshua Stevens (NASA Earth Observatory), Bryan Blair (NASA Goddard Space Flight Center), Michelle Hofton and Ralph Dubayah (University of Maryland).
+Read more about the newly collected data in these press releases on the
+NASA
+,
+EarthObservatory
+,
+phys
+and
+CofC
+websites.
+FOLLOW US
+© 2026 GEDI Ecosystem Lidar |
+WordPress Web Design and Development by HyperArts
+Friend's email
+Message
+https://gedi.umd.edu/data-collection-started/
+Send

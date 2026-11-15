@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <base href="https://nssdc.gsfc.nasa.gov" />
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>NASA Space Science Data Coordinated Archive</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+	<link rel="stylesheet" href="/style_new/template.css">
+        <link rel="stylesheet" href="/style_new/home.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+        <meta name="description" content="NASA Space Science Data Coordinated Archive (NSSDCA) Home Page">
+        <meta name="keywords" content="NASA, NSSDC, NSSDCA, data, space physics, astronomy, astrophysics, planetary science, planet, planets, moon, lunar science, solar wind, CD-ROM, CD-ROMs, solar physics">
+
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+        </style>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+        </style>
+    </head>
+
+    <body>
+        
+	<nav class="navbar navbar-expand-lg navbar-dark bg-black fixed-top">
+  <div class="container">
+    <div class="navbar-brand d-flex align-items-center">
+      <a href="https://www.nasa.gov/" aria-label="NASA Home">
+        <img src="/Images/nasa-logo-sm.ea68afd.webp" width="60" alt="NASA" />
+      </a>
+      <a href="/" class="ms-3 brand-text text-decoration-none">
+        <div class="brand-title">NSSDCA</div>
+        <div class="brand-subtitle">NASA Space Science Data Coordinated Archive</div>
+      </a>
+    </div>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navMenu"
+      aria-controls="navMenu"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navMenu">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="/about/charter.html" title="NSSDCA Mission">Mission</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/about/about_nssdc.html" title="About the NSSDCA">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/nssdc/nssdc_faq.html" title="Frequently Asked Questions">FAQs</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/search.html" title="Search">Search</a>
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link"
+            href="mailto:gsfc-dl-nssdca-contact-us@mail.nasa.gov?Subject=Feedback from NSSDCA Main Page"
+            title="Contact Us"
+          >Contact</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle"
+            href="#"
+            id="servicesDropdown"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            Services
+          </a>
+          <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="servicesDropdown">
+            <li><a class="dropdown-item" href="/nmc/">Master Catalog</a></li>
+            <li><a class="dropdown-item" href="/nssdc/obtaining_data.html">Obtaining Data</a></li>
+            <li><a class="dropdown-item" href="/nssdc/submitting_data.html">Submitting Data</a></li>
+            <li><a class="dropdown-item" href="/archive/mou/">Archive Support</a></li>
+            <li><a class="dropdown-item" href="/nssdc/data_retention.html">Data Retention</a></li>
+            <li><a class="dropdown-item" href="/publication/">Legacy Publications</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+        <section class="hero">
+            <img src="/Images/moonB1.jpg" class="hero-bg" alt="Moon Background Image">
+            <!-- https://stock.adobe.com/search?k=%22planet+mars%22&asset_id=227410177 -->
+            <div class="hero-content container text-center">
+                <h1 class="display-4">
+                    NASA Space Science Data Coordinated Archive
+                </h1>
+
+                <img src="/Images/NSSDCA-LOGO.png" class="hero-logo" alt="NSSDCA Logo Image">
+
+                <p>
+                    NASA's permanent archive for space science mission data
+                </p>
+            </div>
+        </section>
+
+	<section class="second-nav">
+  <div class="nav-horizontal-two">
+    <a href="/">NSSDCA</a>
+    <a href="/planetary/">Planetary</a>
+    <a href="/astro/">Astrophysics</a>
+    <a href="/space/">Heliophysics</a>
+    <a href="/image/">Images</a>
+  </div>
+</section>
+       
+
+        <section id="services" class="py-5 text-white">
+            <div class="container-fluid px-5">
+                <h2 class="text-center mb-5">
+                    Discipline Services
+                </h2>
+
+                <div class="row justify-content-center g-5">
+
+                    <div class="col-12 col-sm-6 col-lg-4 col-xl-3 d-flex">
+                        <a href="/planetary/index.html" class="services-link">
+                            <div class="card service-card">
+                                <div class="card-image">
+                                    <img src="/Images/solarSystem.webp" class="card-img-top" alt="Solar System Image">
+                                    <!-- https://science.howstuffworks.com/outer-planets.html -->
+                                </div>
+
+                                <div class="service-link-row">
+                                    <h5 class="service-title">Solar System</h5>
+
+                                    <span class="link-item-arrow" aria-hidden="true">
+                                        <svg viewBox="-2 -2 24 24" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M-5.94966e-07 11.1944L15.7545 11.1944L10.9496 16.3277L12.5145 18L20 10L12.5145 2L10.9496 3.6723L15.7545 8.80562L-8.03799e-07 8.80562L-5.94966e-07 11.1944Z" fill="currentColor"/>
+                                        </svg>
+                                    </span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-lg-4 col-xl-3 d-flex">
+                        <a href="/space/index.html" class="services-link">
+                            <div class="card service-card">
+                                <div class="card-image">
+                                    <img src="/Images/sun.jpg" class="card-img-top" alt="Sun Image">
+                                    <!-- https://eos.org/research-spotlights/how-accurate-are-our-measurements-of-the-suns-energy -->
+                                </div>
+
+                                <div class="service-link-row">
+                                    <h5 class="service-title">Heliophysics</h5>
+
+                                    <span class="link-item-arrow" aria-hidden="true">
+                                        <svg viewBox="-2 -2 24 24" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M-5.94966e-07 11.1944L15.7545 11.1944L10.9496 16.3277L12.5145 18L20 10L12.5145 2L10.9496 3.6723L15.7545 8.80562L-8.03799e-07 8.80562L-5.94966e-07 11.1944Z" fill="currentColor"/>
+                                        </svg>
+                                    </span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-lg-4 col-xl-3 d-flex">
+                        <a href="/astro/index.html" class="services-link">
+                            <div class="card service-card">
+                                <div class="card-image">
+                                    <img src="/Images/milky.webp" class="card-img-top" alt="Milky Way Image">
+                                    <!-- https://phys.org/news/2015-05-solar.html#google_vignette -->
+                                </div>
+
+                                <div class="service-link-row">
+                                    <h5 class="service-title">Astrophysics</h5>
+
+                                    <span class="link-item-arrow" aria-hidden="true">
+                                        <svg viewBox="-2 -2 24 24" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M-5.94966e-07 11.1944L15.7545 11.1944L10.9496 16.3277L12.5145 18L20 10L12.5145 2L10.9496 3.6723L15.7545 8.80562L-8.03799e-07 8.80562L-5.94966e-07 11.1944Z" fill="currentColor"/>
+                                        </svg>
+                                    </span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-lg-4 col-xl-3 d-flex">
+                        <a href="/image/index.html" class="services-link">
+                            <div class="card service-card">
+                                <div class="card-image">
+                                    <img src="/Images/spacewalk.webp" class="card-img-top" alt="Spacewalk Image">
+                                    <!-- https://www.nasa.gov/wp-content/uploads/2023/07/iss069e018537-1.jpg -->
+                                </div>
+
+                                <div class="service-link-row">
+                                    <h5 class="service-title">Image Resources</h5>
+
+                                    <span class="link-item-arrow" aria-hidden="true">
+                                        <svg viewBox="-2 -2 24 24" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M-5.94966e-07 11.1944L15.7545 11.1944L10.9496 16.3277L12.5145 18L20 10L12.5145 2L10.9496 3.6723L15.7545 8.80562L-8.03799e-07 8.80562L-5.94966e-07 11.1944Z" fill="currentColor"/>
+                                        </svg>
+                                    </span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="access-services" class="access-services py-5">
+
+            <div class="container">
+
+                <h2 class="text-center mb-5">Access &amp; Other Services</h2>
+
+                <div class="row g-4 text-center">
+                    
+		    <div class="col-12 col-sm-12 col-lg-6">
+                        <a href="https://nssdc.gsfc.nasa.gov/nmc/" class="access-card">
+                            <h4>Master Catalog</h4>
+                        </a>
+                    </div>
+                    <div class="col-12 col-sm-12 col-lg-6">
+                        <a href="/archive/mou/" class="access-card">
+                            <h4>Archive Support</h4>
+                        </a>
+                    </div>
+                    <div class="col-12 col-sm-12 col-lg-6">
+                        <a href="/nssdc/obtaining_data.html" class="access-card">
+                            <h4>Obtaining Data</h4>
+                        </a>
+                    </div>
+                    <div class="col-12 col-sm-12 col-lg-6">
+                        <a href="/nssdc/submitting_data.html" class="access-card">
+                            <h4>Submitting Data</h4>
+                        </a>
+                    </div>
+                    <div class="col-12 col-sm-12 col-lg-6">
+                        <a href="/nssdc/data_retention.html" class="access-card">
+                            <h4>Data Retention</h4>
+                        </a>
+                    </div>
+                    <div class="col-12 col-sm-12 col-lg-6">
+                        <a href="/publication/index.html" class="access-card">
+                            <h4>Publications</h4>
+                        </a>
+                    </div>                
+	       </div>
+            </div>
+        </section>
+
+        <section id="news" class="py-5">
+            <div class="container">
+
+                <h2 class="text-center mb-5">Recent News</h2>
+
+                <div id="newsCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="12000">
+
+                    <div class="carousel-inner">
+
+                        <div class="carousel-item active">
+                            <div class="news-wrapper">
+                                <div class="news-image">
+                                    <img src="/Images/artemis2.webp" alt="Artemis II Image">
+                                    <!-- https://www.laurus-school.com/school-highlights/artemis-missions-to-the-moon -->
+                                    <button type="button" class="news-toggle" aria-label="Pause Button">
+                                        <i class=" newsToggleIcon fa-solid fa-pause"></i>
+                                    </button>
+                                </div>
+                                <div class="news-text">
+                                    <h3>Artemis II Mission</h3>
+                                    <p>For the first time since 1972, NASA is sending humans back on
+                                        a path toward the Moon with the Artemis II Mission</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <div class="news-wrapper">
+                                <div class="news-image">
+                                    <img src="/Images/iss.webp" alt="ISS Image">
+                                    <!-- https://spectrum.ieee.org/private-space-stations -->
+                                    <button type="button" class="news-toggle" aria-label="Pause Button">
+                                        <i class="newsToggleIcon fa-solid fa-pause"></i>
+                                    </button>
+                                </div>
+                                <div class="news-text">
+                                    <h3>Fermi Spots Star Cluster Blowing Gamma-Ray Bubbles</h3>
+                                    <p>Explore this and other groundbreaking work from the Sciences
+                                        and Exploration Directorate.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <div class="news-wrapper">
+                                <div class="news-image">
+                                    <img src="/Images/jwt.jpg" alt="James Webb Telescope Image">
+                                    <!-- https://www.space.com/21925-james-webb-space-telescope-jwst.html -->
+                                    <button type="button" class="news-toggle" aria-label="Pause Button">
+                                        <i class=" newsToggleIcon fa-solid fa-pause"></i>
+                                    </button>
+                                </div>
+                                <div class="news-text">
+                                    <h3>Webb Telescope Observes Early Galaxies</h3>
+                                    <p>New data from the James Webb Telescope reveals galaxies
+                                        from the early universe</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                     <!-- Previous button -->
+                    <button class="carousel-control-prev" type="button" data-bs-target="#newsCarousel" data-bs-slide="prev" aria-label="Previous Button">
+                        <span class="news-arrow news-arrow-prev" aria-hidden="true">
+                            <svg viewBox="-2 -2 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M20 8.80562L4.2455 8.80562L9.0504 3.6723L7.4855 2L0 10L7.4855 18L9.0504 16.3277L4.2455 11.1944L20 11.1944L20 8.80562Z" fill="currentColor"/>
+                            </svg>
+                        </span>
+                    </button>
+
+                    <!-- Next button -->
+                    <button class="carousel-control-next" type="button" data-bs-target="#newsCarousel" data-bs-slide="next" aria-label="Next Button">
+                        <span class="news-arrow news-arrow-next" aria-hidden="true">
+                            <svg viewBox="-2 -2 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M-5.94966e-07 11.1944L15.7545 11.1944L10.9496 16.3277L12.5145 18L20 10L12.5145 2L10.9496 3.6723L15.7545 8.80562L-8.03799e-07 8.80562L-5.94966e-07 11.1944Z" fill="currentColor"/>
+                            </svg>
+                        </span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section class="data-highlights py-5">
+
+            <div class="container">
+                <h1 class="text-center mb-5">NSSDCA Highlights</h1>
+            </div>
+
+            <div class="highlight-scroll-wrapper">
+                <div class="highlight-track">
+                    <div class="highlight-row">
+
+                        <div class="highlight-card">
+                            <img src="../Images/nssdcaPresentation.png" alt="NSSDCA Presenation Image">
+                            <div class="highlight-overlay">
+                                <h2>NSSDCA Presentation</h2>
+                                <button type="button" aria-label="Watch Video Button" onclick="window.location.href='https://www.youtube.com/watch?v=OHA2tm5Lvzg'">Watch Now</button>
+                            </div>
+                        </div>
+
+                        <div class="highlight-card">
+                            <img src="/Images/jupiter_nssdca.webp" alt="NSSDCA Article Image">
+                            <div class="highlight-overlay">
+                                <h2>NSSDCA Article</h2>
+                                <button type="button" aria-label="Read Article Button" onclick="window.location.href='https://www.space.com/space-exploration/missions/how-a-mini-team-of-nasa-archivists-is-restoring-astronomical-history'">Learn More</button>
+                            </div>
+                        </div>
+
+                        <div class="highlight-card">
+                            <img src="../Images/decipheringPresentation.png" alt="NSSDCA Presenation Image">
+                            <div class="highlight-overlay">
+                                <h2>Deciphering Legacy Data Presentation</h2>
+                                <button type="button" aria-label="Watch Video Button" onclick="window.location.href='https://www.youtube.com/watch?v=014ASB8CJws'">Watch Now</button>
+                            </div>
+                        </div>
+
+                        <div class="highlight-card">
+                            <img src="../Images/pioneerVenusPresentation.png" alt="NSSDCA Presenation Image">
+                            <div class="highlight-overlay">
+                                <h2>Pioneer Venus LNMS Data Story Presentation</h2>
+                                <button type="button" aria-label="Watch Video Button" onclick="window.location.href='https://www.youtube.com/watch?v=0OSK5eUSz6A'">Watch Now</button>
+                            </div>
+                        </div>
+
+                        <div class="highlight-card">
+                            <img src="/Images/coronagraph.png" alt="Apollo 15 Coronal Photograph Image">
+                            <div class="highlight-overlay">
+                                <h2>Apollo 15 Coronal Photographs done by our NSSDCA scientists</h2>
+                                <button type="button" aria-label="Learn More Button">In Development</button>
+                            </div>
+                        </div>
+
+                        <div class="highlight-card">
+                            <img src="/Images/apollo16.jpg" alt="Apollo 16 Geocorona and Auroral Emissions Image">
+                            <div class="highlight-overlay">
+                                <h2>Apollo 16 Geocorona and Auroral Emissions</h2>
+                                <button type="button" aria-label="Learn More Button">In Development</button>
+                            </div>
+                        </div>                       
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="picture-day py-5">
+            <div class="container">
+                <h2 class="text-center mb-5">Astronomy Picture of the Day</h2>
+
+                <div class="pod-wrapper">
+                    <div class="pod-image">
+                        <img id="apod-image" src="/Images/pod.webp" alt="NASA Astronomy Picture of the Day">
+                        <video id="apod-video" controls playsinline style="display: none;"></video>
+                        <iframe id="apod-frame" style="display: none;" title="Picture of the Day"></iframe>
+                    </div>
+
+                    <div class="pod-text">
+                        <h3 id="apod-title">Loading Astronomy Picture...</h3>
+
+                        <p id="apod-description">Fetching today's image from NASA...</p>
+
+                        <a id="apod-link" href="https://science.nasa.gov/apod/" class="btn mt-3" target="_blank" rel="noopener noreferrer">
+                            APOD Website
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact py-5">
+            <div class="container">
+
+                <div class="row align-items-center g-5">
+
+                    <div class="col-lg-5">
+                        <div class="contact-intro">
+                            <h2>Contact Us</h2>
+                            <p class="lead">
+                                NASA Space Science Data Coordinated Archive
+                            </p>
+
+                            <p class="contact-description">
+                                For data access, archive support, or technical questions,
+                                please reach out to the appropriate contact. Our team is
+                                available to assist with mission data and archive services.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-7">
+                        <div class="contact-panel">
+
+                            <div class="contact-row">
+                                <div class="contact-info">
+                                    <h5>Thomas Morgan</h5>
+                                    <p class="role">Curator</p>
+                                </div>
+                                <div class="contact-email">
+                                    <i class="fa-solid fa-envelope me-2"></i>
+                                    <a class="contact-email" href="mailto:thomas.h.morgan@nasa.gov" aria-label="Curator Email">thomas.h.morgan@nasa.gov</a>
+                                </div>
+                            </div>
+
+                            <div class="contact-row">
+                                <div class="contact-info">
+                                    <h5>Larysa Paliashchuk</h5>
+                                    <p class="role">Web Master</p>
+                                </div>
+                                <div class="contact-email">
+                                    <i class="fa-solid fa-envelope me-2"></i>
+                                    <a class="contact-email" href="mailto:larysa.a.paliashchuk@nasa.gov" aria-label="Curator Email">larysa.a.paliashchuk@nasa.gov</a>
+                                </div>
+                            </div>
+
+                            <div class="contact-row">
+                                <div class="contact-info">
+                                    <h5>Scott Witschey</h5>
+                                    <p class="role">Web Master</p>
+                                </div>
+                                <div class="contact-email">
+                                    <i class="fa-solid fa-envelope me-2"></i>
+                                    <a class="contact-email" href="mailto:scott.a.witschey@nasa.gov" aria-label="Curator Email">scott.a.witschey@nasa.gov</a>
+                                </div>
+                            </div>
+
+                            <div class="contact-footer-note">
+                                Technical issues may be reported to the contacts listed above.
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <script>window.PAGE_LAST_UPDATED = "September 08, 2026";</script>
+
+	<footer class="footer">
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-left">
+        <div class="footer-brand">
+          <img src="/Images/nasa-logo-sm.ea68afd.webp" class="footer-logo" alt="NASA logo" />
+          <div class="footer-brand-text">
+            <h3>National Aeronautics and Space Administration</h3>
+            <p>
+              NASA explores the unknown in air and space, innovates for the benefit of humanity,
+              and inspires the world through discovery.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="footer-right">
+        <div class="footer-column">
+          <a href="https://www.nasa.gov/">NASA</a>
+          <a href="https://www.nasa.gov/about/">About NASA</a>
+        </div>
+        <div class="footer-column">
+          <a href="https://www.nasa.gov/foia/">FOIA</a>
+          <a href="https://www.nasa.gov/no-fear-act/">No FEAR Act</a>
+          <a href="https://www.nasa.gov/vulnerability-disclosure-policy/">Vulnerability Disclosure Policy</a>
+        </div>
+        <div class="footer-column">
+          <a href="https://www.nasa.gov/privacy/">Privacy Policy</a>
+          <a href="https://www.nasa.gov/general/accessibility/">Accessibility</a>
+          <a
+            href="mailto:gsfc-dl-nssdca-contact-us@mail.nasa.gov?Subject=Feedback from NSSDCA Main Page"
+            title="Contact NSSDCA"
+          >Contact NSSDCA</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="footer-bottom-right">
+        <p>Responsible NASA Official: <strong><a href="mailto:thomas.h.morgan@nasa.gov">Thomas Morgan</a></strong></p>
+        <p>Last Updated: <strong id="page-last-updated">September 08, 2026</strong></p>
+        <p>Web Masters: <strong>
+          <a href="mailto:larysa.a.paliashchuk@nasa.gov">Larysa Paliashchuk</a>
+          and
+          <a href="mailto:scott.a.witschey@nasa.gov">Scott Witschey</a>
+        </strong></p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+  // Reads window.PAGE_LAST_UPDATED set on each individual page
+  // and injects it into the footer date. Falls back to the
+  // default date in the HTML if the variable is not set.
+  const dateEl = document.getElementById('page-last-updated');
+  if (dateEl && window.PAGE_LAST_UPDATED) {
+    dateEl.textContent = window.PAGE_LAST_UPDATED;
+  }
+</script>
+
+
+        
+     	<script>
+     	// Reads window.PAGE_LAST_UPDATED set by each individual page
+      	// and injects it into the footer date. Falls back to the
+      	// default date already in the HTML if the variable is not set.
+      		const dateEl = document.getElementById('page-last-updated');
+      		if (dateEl && window.PAGE_LAST_UPDATED) {
+        		dateEl.textContent = window.PAGE_LAST_UPDATED;
+      		}
+   	</script>
+
+        <script src="/script_new/home.js"></script>
+
+    </body>
+
+</html>

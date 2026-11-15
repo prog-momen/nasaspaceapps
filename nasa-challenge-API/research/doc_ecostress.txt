@@ -1,0 +1,646 @@
+ECOSTRESS Tiled Land Surface Temperature and Emissivity Instantaneous L2 Global 70 m V002 | NASA Earthdata
+Skip to main content
+Earthdata Forum is down due to unplanned maintenance. Please contact earthdata-support@nasa.gov with questions.
+See the alert
+Suomi NPP is no longer delivering new data. Users must transition to alternative products.
+Suomi NPP data announcement
+Home
+Data
+Data Catalog
+Data Alerts and Outages
+Projects
+Land, Atmosphere Near real-time Capability for Earth observation (LANCE)
+Harmonized Landsat and Sentinel-2 (HLS)
+Applied Remote Sensing Training Program (ARSET)
+Observation Methods
+Platforms
+Instruments
+Space Geodesy Techniques
+Data Tools
+Earthdata Search
+Worldview
+Fire Information for Resource Management System (FIRMS)
+Vertex
+Giovanni
+Application for Extracting and Exploring Analysis Ready Samples (AppEEARS)
+Visualization, Exploration, and Data Analysis (VEDA)
+Ocean Color Level 3 and 4 Browser
+Topics
+Atmosphere
+Biosphere
+Climate Indicators
+Cryosphere
+Human Dimensions
+Land Surface
+Ocean
+Solid Earth
+Sun-Earth Interactions
+Terrestrial Hydrosphere
+View All Topics
+Learn
+Earth Observation Data Basics
+GIS Resources
+Data in Action
+Data Recipes
+Trainings
+Tutorials
+Webinars
+Publications
+Centers
+Distributed Active Archive Centers (DAACs)
+Alaska Satellite Facility (ASF) DAAC
+Atmospheric Science Data Center (ASDC)
+Crustal Dynamics Data Information System (CDDIS)
+Global Hydrometeorology Resource Center (GHRC) DAAC
+Goddard Earth Sciences Data and Information Services Center (GES DISC)
+Land Processes (LP) DAAC
+Level 1 and Atmosphere Archive and Distribution System (LAADS) DAAC
+National Snow and Ice Data Center (NSIDC) DAAC
+Oak Ridge National Laboratory (ORNL) DAAC
+Ocean Biology DAAC (OB.DAAC)
+Physical Oceanography DAAC (PO.DAAC)
+Science Investigator-led Processing Systems (SIPS)
+MODIS Adaptive Processing System (MODAPS) SIPS
+Ocean SIPS
+Microwave Limb Sounder (MLS) SIPS
+Ozone Monitoring Instrument (OMI) SIPS
+Atmosphere SIPS
+Land SIPS
+Ozone Mapping and Profiler Suite SIPS
+Sounder SIPS
+Suborbital Data Resource Center
+Engage
+Open Data, Services, and Software Policies
+Open Science and Data Management Plan
+For Researchers and Grantees
+Data Management Guidance
+Data Rights and Related Issues
+Data Use Guidance
+For Developers
+APIs
+Common Metadata Repository
+For Data Providers
+Adding New Data
+DOI Process
+Standards
+About
+ESDS Leadership
+Organizational Chart
+Multi-Mission Data Processing System Study
+Earth Science Data and Information System (ESDIS) Project
+ESDS Digital Strategy and User Development Team
+Earth Science Data Systems Geographic Information Systems Team (EGIST)
+Competitive Programs
+News & Events
+News
+Events
+Worldview Image of the Week
+Feature Articles
+Data User Stories
+Earthdata Blog
+Data Alerts System
+Subscribe to the Earthdata Newsletter
+Data
+Toggle submenu
+Data
+Data Catalog
+Data Alerts and Outages
+Projects
+Land, Atmosphere Near real-time Capability for Earth observation (LANCE)
+Harmonized Landsat and Sentinel-2 (HLS)
+Applied Remote Sensing Training Program (ARSET)
+Observation Methods
+Platforms
+NASA operates state-of-the-art platforms that collect critical information about our home planet. Drill down to the data and tools you need by exploring platforms on Earth and in the sky.
+Instruments
+From the ground and into space, instruments aboard NASA platforms collect a vast array of Earth science data.
+Space Geodesy Techniques
+These data are used to support scientific and societal applications Earth observations, positioning, navigation, and timing.
+Data Tools
+Earthdata Search
+Worldview
+Fire Information for Resource Management System (FIRMS)
+Vertex
+Giovanni
+Application for Extracting and Exploring Analysis Ready Samples (AppEEARS)
+Visualization, Exploration, and Data Analysis (VEDA)
+Ocean Color Level 3 and 4 Browser
+?
+Get help from experienced data users and managers on Earthdata Forum
+Topics
+Toggle submenu
+Data Pathfinders by Topic
+Atmosphere
+The atmosphere is a gaseous envelope surrounding and protecting our planet from the intense radiation of the Sun.
+Biosphere
+The biosphere encompasses all life on Earth and extends from root systems to mountaintops and all depths of the ocean.
+Climate Indicators
+Climate Indicators hold key information for the most relevant domains of climate change: temperature and energy, atmospheric composition, ocean and water as well as the cryosphere.
+Cryosphere
+The cryosphere encompasses the frozen parts of Earth, including glaciers and ice sheets, sea ice, and any other frozen body of water.
+Human Dimensions
+The human dimensions discipline includes ways humans interact with the environment and how these interactions impact Earth’s systems.
+Land Surface
+The land surface discipline includes research into areas such as shrinking forests, warming land, and eroding soils.
+Ocean
+This vast, critical reservoir supports a diversity of life and helps regulate Earth’s climate.
+Solid Earth
+Processes occurring deep within Earth constantly are shaping landforms.
+Sun-Earth Interactions
+The Sun influences physical and chemical processes in Earth’s atmosphere.
+Terrestrial Hydrosphere
+The terrestrial hydrosphere includes water on the land surface and underground in the form of lakes, rivers, and groundwater along with total water storage.
+Featured Data Pathfinders by Topic
+Air Quality
+Agriculture Production
+Natural Hazards
+Water Quality
+Climate Resilience
+View all Topics
+Learn
+Toggle submenu
+Learn
+Earth Observation Data Basics
+Learn key terms and concepts like remote sensing and processing levels.
+GIS Resources
+Explore resources for the Geographic Information Systems (GIS) community, including StoryMaps.
+Data Support
+Connect with experienced data users and managers through the Earthdata Forum for help with datasets, tools, and services.
+Data in Action
+Data in Action demonstrates Earth science data applications with interactive explanations as to how the work was accomplished.
+Data Recipes
+Data Recipes are code-based instructions that help data scientists accomplish a specific task, such as converting data into a specific format for analysis or visualization.
+Trainings
+Trainings are interactive opportunities to develop technical skills with NASA Earth science data.
+Tutorials
+Tutorials are step by step “how to” content that cover a broad range of tasks, from data collection to visualization.
+Webinars
+Webinars are video seminars featuring experts in various disciplines who share their knowledge in a particular subject area, from data in the cloud to specific data tools.
+Publications
+Access publications citing NASA Earth science data.
+Centers
+Toggle submenu
+Centers
+Distributed Active Archive Centers (DAACs)
+Science Investigator-led Processing Systems (SIPS)
+Alaska Satellite Facility (ASF) DAAC
+Atmospheric Science Data Center (ASDC)
+Crustal Dynamics Data Information System (CDDIS)
+Global Hydrometeorology Resource Center (GHRC) DAAC
+Goddard Earth Sciences Data and Information Services Center (GES DISC)
+Land Processes (LP) DAAC
+Level 1 and Atmosphere Archive and Distribution System (LAADS) DAAC
+National Snow and Ice Data Center (NSIDC) DAAC
+Oak Ridge National Laboratory (ORNL) DAAC
+Ocean Biology DAAC (OB.DAAC)
+Physical Oceanography DAAC (PO.DAAC)
+MODIS Adaptive Processing System (MODAPS) SIPS
+Ocean SIPS
+Microwave Limb Sounder (MLS) SIPS
+Ozone Monitoring Instrument (OMI) SIPS
+Atmosphere SIPS
+Land SIPS
+Ozone Mapping and Profiler Suite SIPS
+Sounder SIPS
+Suborbital Data Resource Center
+All of the resources for the airborne and field data community within our program can be found here.
+Engage
+Toggle submenu
+Engage
+Open Data, Services, and Software Policies
+Open Science and Data Management Plan
+For Researchers and Grantees
+Data Management Guidance
+Data Rights and Related Issues
+Data Use Guidance
+For Developers
+APIs
+Common Metadata Repository
+For Data Providers
+Adding New Data
+DOI Process
+Standards
+About
+Toggle submenu
+About
+ESDS Leadership
+Meet the Earth Science Data Systems Program leadership team.
+Organizational Chart
+View the internal structure of the ESDS Program.
+Multi-Mission Data Processing System Study
+We are considering the right data processing system for open-source data.
+Contact Us
+Find the right contact for questions, feedback, or support related to NASA Earthdata.
+Earth Science Data and Information System (ESDIS) Project
+ESDS Digital Strategy and User Development Team
+Earth Science Data Systems Geographic Information Systems Team (EGIST)
+Competitive Programs
+Program Performance and Metrics
+Access overall ingest, archive, and distribution metrics for the ESDS program.
+News & Events
+Toggle submenu
+News
+View the latest updates from Earthdata.
+Events
+Sign up or watch a past recording of events covering Earth science data topics.
+Worldview Image of the Week
+Learn about the Earth through the lens of NASA’s Worldview.
+Data Alerts System
+Subscribe to the Earthdata Newsletter
+Feature Articles
+Read stories inspired by NASA Earth science data.
+Data User Stories
+Discover how people are researching with NASA Earth science data.
+Earthdata Blog
+Take a deeper dive into NASA Earth science data.
+Latest News
+2 MIN READ
+Atmospheric River Season for the Pacific Northwest
+Worldview Image of the Week
+Nov 13, 2026
+1 MIN READ
+earthaccess Hackathon at AGU 2026
+Event
+Nov 10, 2026
+Search
+Home
+Find Data
+Data Catalog
+ECOSTRESS Tiled Land Surface Temperature and Emissivity Instantaneous L2 Global 70 M V002
+ECOSTRESS Tiled Land Surface Temperature and Emissivity Instantaneous L2 Global 70 m V002
+ECO_L2T_LSTE
+Version
+002
+DOI
+https://doi.org/10.5067/ECOSTRESS/ECO_L2T_LSTE.002
+Citation
+Center/Project
+Land Processes DAAC (LP DAAC)
+Data at a Glance
+Cloud Enabled Dataset
+CMR Concept ID:
+c2076090826-lpcloud
+Copy URL
+Copy CMR Metadata URL
+Share
+Facebook
+Data Format
+COG
+Dataset Size
+7.3 MB
+Spatial Extent
+N: 54
+S: -54
+E: 180
+W: -180
+Spatial Resolution
+70 Meters x 70 Meters
+Location
+GLOBAL LAND
+Temporal Extent
+2018-07-09 to Present
+Temporal Resolution
+Varies
+Coordinate System
+CARTESIAN
+Granule Spatial Representation
+GEODETIC
+Data Access
+User Guide
+Overview
+Documents and Resources
+Publications
+Variables
+TABLE OF CONTENTS
+Description
+The ECOsystem Spaceborne Thermal Radiometer Experiment on Space Station (ECOSTRESS) mission measures the temperature of plants to better understand how much water plants need and how they respond to stress. ECOSTRESS is attached to the International Space Station (ISS) and collects data globally between 52° N and 52° S latitudes.
+The ECOSTRESS Tiled Land Surface Temperature and Emissivity Instantaneous Level 2 Global 70 m (ECO_L2T_LSTE) Version 2 data product provides atmospherically corrected land surface temperature and emissivity (LST&E) values derived from five thermal infrared (TIR) bands. The ECO_L2T_LSTE data product was derived using a physics-based Temperature and Emissivity Separation (TES) algorithm. This tiled data product is subset from the
+ECO_L2G_LSTE
+data product using a modified version of the Military Grid Reference System (
+MGRS
+) which divides Universal Transverse Mercator (UTM) zones into square tiles that are 109.8 km by 109.8 km with a 70 meter (m) spatial resolution.
+The ECO_L2T_LSTE Version 2 data product is provided in Cloud Optimized GeoTIFF (COG) format, and each band is distributed as a separate COG. This product contains seven layers including LST, LST error, wideband emissivity, quality flags, height, and cloud and water masks.
+Known Issues
+Data acquisition gap: ECOSTRESS was launched on June 29, 2018, and moved to autonomous science operations on August 20, 2018, following a successful in-orbit checkout period. On September 29, 2018, ECOSTRESS experienced an anomaly with its primary mass storage unit (MSU). ECOSTRESS has a primary and secondary MSU (A and B). On December 5, 2018, the instrument was switched to the secondary MSU and science operations resumed. On March 14, 2019, the secondary MSU experienced a similar anomaly, temporarily halting science acquisitions. On May 15, 2019, a new data acquisition approach was implemented, and science acquisitions resumed. To optimize the new acquisition approach TIR bands 2, 4, and 5 are being downloaded. The data products are as previously, except the bands not downloaded contain fill values (L1 radiance and L2 emissivity). This approach was implemented from May 15, 2019, through April 28, 2023.
+Data acquisition gap: From February 8 to February 16, 2020, an ECOSTRESS instrument issue resulted in a data anomaly that created striping in band 4 (10.5 micron). These data products have been reprocessed and are available for download. No ECOSTRESS data were acquired on February 17, 2020, due to the instrument being in SAFEHOLD. Data acquired following the anomaly have not been affected.
+Data acquisition: ECOSTRESS has now successfully returned to 5-band mode after being in 3-band mode since 2019. This feature was successfully enabled following a Data Processing Unit firmware update (version 4.1) to the payload on April 28, 2023. To better balance contiguous science data scene variables, 3-band collection is currently being interleaved with 5-band acquisitions over the orbital day/night periods.
+Data alert: All users of ECOSTRESS L2 v002 products (ECO_L2T_LSTE, ECO_L2_LSTE, ECO_L2G_LSTE) should be aware that the cloud mask information previously available in the Quality Control (QC) layer in v001, is not available in the v002 QC layer. Instead, users should be using the 'cloud_mask' layer in the L2 LSTE product, or the cloud information in the standard cloud mask products (ECO_L2_CLOUD, ECO_L2T_CLOUD, ECO_L2G_CLOUD) to assess if a pixel is clear or cloudy (see section 3 of the User Guide). In v002 the mandatory QA flags in the QC bit mask provide the following information in bits 1 and 0:
+00 - Pixel produced by TES
+01 - Pixel produced by TES but certain conditions are met that may degrade the LSTE accuracy (see User Guide for details)
+10 - Not set (previously set to cloud mask in v001)
+11 - Pixel not produced (see bits 3 & 2 for additional information)
+Solar Array Obstruction: Some ECOSTRESS scenes may be affected by solar array obstructions from the International Space Station (ISS), potentially impacting data quality of obstructed pixels. The 'FieldOfViewObstruction' metadata field is included in all Version 2 products to indicate possible obstructions:
+Before October 24, 2024 (orbits prior to 35724): The field is present but was not populated and does not reliably identify affected scenes.
+On or after October 24, 2024 (starting with orbit 35724): The field is populated and generally accurate, except for late December 2024, when a temporary processing error may have caused false positives.
+A
+list of scenes
+confirmed to be affected by obstructions is available and is recommended for verifying historical data (before October 24, 2024) and scenes from late December 2024.
+Geolocation flags: The ISS native pointing information is coarse relative to ECOSTRESS pixels, so ECOSTRESS geolocation is improved through image matching with a basemap. Metadata in the L1B_GEO file shows the success of this geolocation improvement, using categorizations "best", "good", "suspect", and "poor". We recommend that users use only "best" and "good" scenes for evaluations where geolocation is important (e.g., comparison to field sites). For some scenes, this metadata is not reflected in the higher-level products (e.g., land surface temperature, evapotranspiration, etc.). While this metadata is always available in the geolocation product, to save users additional download, we have produced a
+summary text file
+that includes the geolocation quality flags for all scenes from launch to present. At a later date, all higher-level products will reflect the geolocation quality flag correctly (the field name is GeolocationAccuracyQA).
+Instrument noise: During the time period of May 15, 2025, through July 1, 2025 ECOSTRESS data was noisier than expected. Cycling the payload resolved the issue, but researchers should use all levels of ECOSTRESS data acquired during this time period with caution.
+Missing variable: ECO_L2T_LSTE was generated without the lst_err layer/variable during the time period from December 16, 2025, to June 10, 2026. The impacted data will be reprocessed in the near future.
+Version Description
+The following changes and improvements were implemented for the ECOSTRESS Tiled Land Surface Temperature and Emissivity Instantaneous Version 2 data product: (1) Addition of cloud mask and water mask layers, and (2) Tiled L2 Tiled Land Surface Temperature and Emissivity data product was introduced in ECOSTRESS Version 2.
+Product Summary
+Platforms
+ISS
+Instruments
+ECOSTRESS
+Projects
+ECOSTRESS
+Spatial Extent
+N: 54
+S: -54
+E: 180
+W: -180
+Spatial Resolution
+70 Meters x 70 Meters
+Spatial Reference System(s)
+UTM
+Location
+GLOBAL LAND
+Coordinate System
+CARTESIAN
+Granule Spatial Representation
+GEODETIC
+Temporal Extent
+2018-07-09 to Present
+Temporal Resolution
+Varies
+Data Partner
+Land Processes Distributed Active Archive Center (LP DAAC)
+,
+ECOsystem Spaceborne Thermal Radiometer Experiment on Space Station, Jet Propulsion Laboratory, NASA (NASA/JPL/ECOSTRESS)
+Concept ID
+C2076090826-LPCLOUD
+Data State
+ACTIVE
+Number of Files/Granules
+15909055
+Processing Level
+2
+Published
+2022-11-14
+Updated
+2022-11-14
+Science Keywords
+Land Surface Temperature
+,
+Emissivity
+File Naming Convention
+ECOv002_L2T_LSTE_40701_007_17FQA_20250909T164037_0713_01_cloud.tif
+The file name begins with the Sensor (ECO) followed by the Product Version (v002), Processing Level and Type (L2T), Geophysical Parameter (LSTE), Orbit Number (40701), Scene Identifier (007),  5-character MGRS Tile Identifier (17FQA), Date and Time of Acquisition designated as YYYYMMDDTHHMMSS (20250909T164037), Build Identifier of product generation software (0713), Product Iteration Number (01),  Layer/band Name (cloud), and the Data Format (tif).
+Get Help
+QUESTIONS & SUPPORT
+Have a question?
+Get help with NASA Earth science data, datasets, tools, services, and metadata on the Earthdata Forum. Experienced staff in the data user community review and answer questions.
+Get help on Earthdata Forum
+Earthdata
+Forum
+TABLE OF CONTENTS
+Documents
+USER'S GUIDE
+The technical information in the User's Guide enables users to interpret and use the data products.
+The quality information in the ECO_L2_LSTE User's Guide enables users to interpret and use the data products.
+ALGORITHM THEORETICAL BASIS DOCUMENT (ATBD)
+The ATBD provides physical theory and mathematical procedures for the calculations used to produce the data products.
+ALGORITHM DOCUMENTATION
+The Algorithm Specification Document (ASD) describes the computer processing used to generate the ECOSTRESS products.
+DATA PRODUCT SPECIFICATION
+The Product Specification Document (PSD) describes the format and contents of the ECOSTRESS product.
+DATA QUALITY
+Summary text file that includes the geolocation quality flags for all scenes from launch to present.
+ANOMALIES
+List of scenes confirmed to affected by obstructions.
+Dataset Resources
+View All Learning Resources
+View All News & Events
+Filters
+Type
+Data in Action
+Tutorial
+Status (1)
+Current
+Archived
+Copy Link
+BibTeX
+Items
+4
+8
+12
+16
+Apply
+Clear All
+ECOSTRESS Data Offer Significant Potential for Wildfire Prediction and Analysis
+Learn how ECOSTRESS data may significantly improve wildfire prediction by capturing drought signals that precede wildland fire events.
+Data in Action
+Sept. 25, 2025
+Access and Use the LP DAAC Data Resource GitHub Repository
+The GitHub repository, hosted by NASA's Land Processes Distributed Active Archive Center, provides a range of materials for using LP DAAC data and tools.
+Tutorial
+April 21, 2023
+SHOWING
+2 OF 2
+Items
+4
+8
+12
+16
+Get Help
+QUESTIONS & SUPPORT
+Have a question?
+Get help with NASA Earth science data, datasets, tools, services, and metadata on the Earthdata Forum. Experienced staff in the data user community review and answer questions.
+Get help on Earthdata Forum
+Earthdata
+Forum
+Publications Citing This Dataset
+Filters
+Copy Link
+BibTeX
+Article Type
+journal_article (2)
+Journal
+Institute of Electrical and Electronics Engineers (IEEE) (1)
+MDPI AG (1)
+Year
+2026 (1)
+2025 (1)
+Apply
+Clear All
+Title
+Authors
+Year
+Sort ascending
+Referenced Datasets
+Characterizing the Mismatch Between ECOSTRESS-Derived Land Surface
+Ai, Jiancheng, Zhang, Yuhan, Li, Zhe
+2026
+ECOSTRESS Tiled Land Surface Temperature and Emissivity Instantaneous L2 Global 70 m V002
+ECOSTRESS Tiled Land Surface Temperature and Emissivity Instantaneous L2 Global 70 m V003
+An Improved TES Method to Retrieve Urban Surface Temperature
+Zhu, Lili, Yang, Jinxin, Ouyang, Xiaoying, Shi, Qian, Xu, Yong, Wong, Man Sing, Menenti, Massimo
+2025
+ECOSTRESS Tiled Land Surface Temperature and Emissivity Instantaneous L2 Global 70 m V002
+ECOSTRESS Tiled Land Surface Temperature and Emissivity Instantaneous L2 Global 70 m V003
+You're viewing 2 of 2
+Variables
+The table below lists the variables contained within a single granule for this
+dataset. Variables often contain observed or derived geophysical measurements
+collected from a variety of sources, including remote sensing instruments on
+satellite and airborne platforms, field campaigns, in situ measurements, and
+model outputs. The terms variable, parameter, scientific data set, layer, and band
+have been used across NASA’s Earth science disciplines; however, variable is the
+designated nomenclature in NASA’s Common Metadata Repository (CMR).
+Variable metadata attributes such as Name, Description, Units, Data Type, Fill
+Value, Valid Range, and Scale Factor allow users to efficiently process and analyze
+the data. The full range of attributes may not be applicable to all variables.
+Additional information on variable attributes is typically available in the data,
+user guide, and/or other product documentation.
+For questions on a specific variable, please use the
+Earthdata Forum.
+Copy Link
+BibTeX
+Apply
+Clear All
+Name
+Sort descending
+Description
+Units
+Data Type
+Fill Value
+Valid Range
+Scale Factor
+Offset
+cloud
+Cloud mask
+N/A
+uint8
+N/A
+0  to  1
+N/A
+N/A
+EmisWB
+Wide Band Emissivity, Fill Value = NaN
+N/A
+float32
+N/A
+0  to  1
+N/A
+N/A
+height
+Surface elevation of observation, Fill Value = NaN
+Meters
+float32
+N/A
+N/A
+N/A
+N/A
+LST
+Land Surface Temperature, Fill Value = NaN
+Kelvin
+float32
+N/A
+N/A
+N/A
+N/A
+LST_err
+Land Surface Temperature error, Fill Value = NaN
+Kelvin
+float32
+N/A
+N/A
+N/A
+N/A
+QC
+Quality Control for LST and emissivity
+Bit Field
+uint16
+N/A
+N/A
+N/A
+N/A
+view_zenith
+View zenith angle of observation, Fill Value = NaN
+Degree
+float32
+N/A
+N/A
+N/A
+N/A
+water
+Water mask
+N/A
+uint8
+N/A
+0  to  1
+N/A
+N/A
+You're viewing 8 of 8
+Footer
+Find Data
+Data Catalog
+Data Tools
+Platforms
+Instruments
+Space Geodesy Techniques
+Projects
+Data Alerts and Outages
+Earthdata Login
+Data Pathfinders by Topic
+Atmosphere
+Biosphere
+Climate Indicators
+Cryosphere
+Human Dimensions
+Land Surface
+Ocean
+Solid Earth
+Sun-Earth Interactions
+Terrestrial Hydrosphere
+Learn
+Earth Observation Data Basics
+Earthdata Forum
+Webinars
+Trainings
+Tutorials
+Data in Action
+Data Recipes
+GIS Resources
+StoryMaps
+Publications
+Centers
+ASF DAAC
+ASDC
+CDDIS
+GHRC DAAC
+GES DISC
+LP DAAC
+LAADS DAAC
+NSIDC DAAC
+ORNL DAAC
+OB.DAAC
+PO.DAAC
+Sea Level Change Portal
+Suborbital Data Resource Center
+Engage
+Data Management Guidance for ESD-funded Researchers
+Open Data, Services, and Software Policies
+Public and Private Partnerships
+Memberships and Affiliations
+News
+Events
+Newsletter
+Contact
+Footer Submenu
+Web Privacy Policy
+Data and Information Guidance
+Communications Policy
+FOIA
+Accessibility
+Sitemap
+USA.gov
+Site last Updated:
+Nov. 6, 2026
+NASA Official:
+Katie Baynes

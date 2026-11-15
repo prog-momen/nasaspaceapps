@@ -1,0 +1,13 @@
+{
+  "id": "test_eonet",
+  "url": "https://eonet.gsfc.nasa.gov/api/v3/events?limit=1&status=all",
+  "checked_at": "2026-11-14T15:12:43.980123+00:00",
+  "tls_validation": false,
+  "status": 200,
+  "final_url": "https://eonet.gsfc.nasa.gov/api/v3/events?limit=1&status=all",
+  "bytes": 808,
+  "content_type": "application/rss+xml; charset=utf-8",
+  "sha256": "613356320015254d86f580dfb16eeea2c388a490fbbbdbd98adba0dd0ea202bb",
+  "links": [],
+  "elapsed_seconds": 1.109
+}

@@ -1,0 +1,42 @@
+{
+  "id": "doc_firms",
+  "url": "https://firms.modaps.eosdis.nasa.gov/api/",
+  "checked_at": "2026-11-14T15:12:45.092058+00:00",
+  "tls_validation": false,
+  "status": 200,
+  "final_url": "https://firms.modaps.eosdis.nasa.gov/api/",
+  "bytes": 5966,
+  "content_type": "text/html; charset=UTF-8",
+  "sha256": "b64c927eac537148afdfb3b0f2bd26077a7a59b36e0d9887ee998e7b95c1eacf",
+  "links": [
+    {
+      "url": "https://firms.modaps.eosdis.nasa.gov/api/area/",
+      "label": "area"
+    },
+    {
+      "url": "https://firms.modaps.eosdis.nasa.gov/notifications/firms/outages.html",
+      "label": "* Feature currently not available."
+    },
+    {
+      "url": "https://firms.modaps.eosdis.nasa.gov/notifications/firms/outages.html",
+      "label": "* Feature currently not available."
+    },
+    {
+      "url": "https://firms.modaps.eosdis.nasa.gov/api/data_availability/",
+      "label": "data_availability"
+    },
+    {
+      "url": "https://firms.modaps.eosdis.nasa.gov/api/kml_fire_footprints/",
+      "label": "kml_fire_footprints"
+    },
+    {
+      "url": "https://firms.modaps.eosdis.nasa.gov/api/map_key/",
+      "label": "map_key"
+    },
+    {
+      "url": "https://firms.modaps.eosdis.nasa.gov/api/missing_data/",
+      "label": "missing_data"
+    }
+  ],
+  "elapsed_seconds": 0.906
+}

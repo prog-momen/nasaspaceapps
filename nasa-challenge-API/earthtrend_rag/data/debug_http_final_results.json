@@ -1,0 +1,129 @@
+[
+  {
+    "endpoint": "/api/rag/health",
+    "http_status": 200,
+    "body": {
+      "status": "degraded",
+      "components": {
+        "embedding_model": "intfloat/multilingual-e5-small",
+        "embedding_dim": 384,
+        "collections": {
+          "earth_knowledge": 878,
+          "gemini_platform": 241
+        },
+        "index_ready": true,
+        "gemini_model": "gemini-3.5-flash-lite",
+        "gemini_key_configured": true,
+        "gemini_generation_status": "blocked",
+        "gemini_model_blocks": {
+          "gemini-3.5-flash-lite": "local daily request cap reached",
+          "gemini-3.1-flash-lite": "local daily request cap reached",
+          "gemini-3.8-flash": "daily quota exhausted (cached)"
+        },
+        "live_probe_performed": false,
+        "relevance_threshold": 0.79,
+        "usage_today": {
+          "date": "2026-11-14",
+          "timezone": "America/Los_Angeles",
+          "requests": 55,
+          "prompt_tokens": 54356,
+          "output_tokens": 5203,
+          "models": {
+            "gemini-3.6-flash": {
+              "requests": 15,
+              "prompt_tokens": 8478,
+              "output_tokens": 837
+            },
+            "gemini-3.1-flash-lite": {
+              "requests": 18,
+              "prompt_tokens": 19021,
+              "output_tokens": 1559
+            },
+            "gemini-3.8-flash": {
+              "requests": 1,
+              "prompt_tokens": 0,
+              "output_tokens": 0
+            },
+            "gemini-3.5-flash": {
+              "requests": 1,
+              "prompt_tokens": 0,
+              "output_tokens": 0
+            },
+            "gemini-3.5-flash-lite": {
+              "requests": 20,
+              "prompt_tokens": 26857,
+              "output_tokens": 2807
+            }
+          }
+        }
+      },
+      "problems": [
+        "All configured Gemini models are blocked by known local caps or cached provider quota errors"
+      ]
+    }
+  },
+  {
+    "endpoint": "/api/analysis/trend/ask",
+    "http_status": 200,
+    "seconds": 0.43,
+    "answer_source": "template",
+    "fallback_reason": "quota",
+    "analysis_status": "ok",
+    "source_cache_hit": true,
+    "valid_months": 252,
+    "llm": {
+      "error_kind": "quota",
+      "attempts": [
+        {
+          "model": "gemini-3.5-flash-lite",
+          "skipped": "local daily request cap reached"
+        },
+        {
+          "model": "gemini-3.1-flash-lite",
+          "skipped": "local daily request cap reached"
+        },
+        {
+          "model": "gemini-3.8-flash",
+          "skipped": "daily quota exhausted (cached)"
+        }
+      ]
+    },
+    "retrieval": null
+  },
+  {
+    "endpoint": "/api/rag/query",
+    "http_status": 200,
+    "seconds": 0.327,
+    "answer_source": "template",
+    "fallback_reason": "quota",
+    "analysis_status": "ok",
+    "source_cache_hit": true,
+    "valid_months": 252,
+    "llm": {
+      "error_kind": "quota",
+      "attempts": [
+        {
+          "model": "gemini-3.5-flash-lite",
+          "skipped": "local daily request cap reached"
+        },
+        {
+          "model": "gemini-3.1-flash-lite",
+          "skipped": "local daily request cap reached"
+        },
+        {
+          "model": "gemini-3.8-flash",
+          "skipped": "daily quota exhausted (cached)"
+        }
+      ]
+    },
+    "retrieval": {
+      "collection": "earth_knowledge",
+      "best_dense_score": 0.8016,
+      "threshold": 0.79,
+      "candidates": 36,
+      "filters": {},
+      "filter_fallback": false,
+      "returned": 5
+    }
+  }
+]

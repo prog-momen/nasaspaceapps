@@ -1,0 +1,2023 @@
+<!--template/package/read.html start-->
+
+
+<!DOCTYPE html>
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en"  > <!--<![endif]-->
+  <head>
+    
+	
+
+
+  <meta name="csrf_field_name" content="_csrf_token" />
+  <meta name="_csrf_token" content="IjhjYzU0YjI2OTMyZjk2OWY1OGFlYzRhMjQ0ZGM0ZjI0Y2EzODdhN2Ui.avh6_w.4aYvovvY7GvrHnOx_rF0vUJ-o3o" />
+
+  <meta name="generator" content="ckan 2.11" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--CKANEXT-CSA VERSION 1.0    -->
+    <title>
+    Open data and information Portal
+    </title>
+
+    
+    <link rel="shortcut icon" href="/favicon.ico" />
+    
+  
+    
+    
+      
+      
+      
+    
+
+    
+    
+    
+    
+    
+    
+
+    
+
+  
+
+
+    
+    <link href="/webassets/base/51d427fe_main.css" rel="stylesheet"/>
+<link href="/GCWeb/css/theme.min.css" rel="stylesheet"/>
+<link href="/webassets/webassets-external/7fb1ce8bd89b17d727cdbd7bd76aa90c_extra.css" rel="stylesheet"/>
+<link href="/webassets/ckanext-geoview/f197a782_geo-resource-styles.css" rel="stylesheet"/>
+<link href="/webassets/ckanext-scheming/073d7cfa_scheming_css.css" rel="stylesheet"/>
+    
+    
+  
+  <meta property="og:title" content="RADARSAT Constellation Mission (RCM) Data - CKAN">
+  <meta property="og:description" content="The RADARSAT Constellation Mission (RCM) is Canada&amp;#39;s new generation of Earth observation satellites.The RCM includes a trio of Earth observation satellites, capable of scanning Earth day or night and in any weather conditions. The three-satellite configuration allows for daily revisits of Canada&amp;#39;s vast territory and maritime approaches, as well as daily access to 90% of the world&amp;#39;s surface and the Arctic up to four times a day. Over a dozen federal government departments already use RADARSAT data to deliver important services to Canadians. The RCM is designed to provide effective solutions...">
+
+
+  </head>
+
+  
+  <body data-site-root="https://donnees-data.asc-csa.gc.ca/" data-locale-root="https://donnees-data.asc-csa.gc.ca/en/" >
+
+    
+    
+    <nav>
+      <ul id="wb-tphp">
+        <li class="wb-slc">
+          <a class="wb-sl" href="#wb-cont">Skip to main content</a>
+        </li>
+        <li class="wb-slc visible-sm visible-md visible-lg">
+          <a class="wb-sl" href="#wb-info">Skip to "About this site"</a>
+        </li>
+      </ul>
+    </nav>
+  
+
+  
+    <header>
+      
+
+<!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+		wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html -->
+
+
+	<div id="wb-bnr" class="container">
+		<div class="row">
+			<section id="wb-lng" class="col-xs-3 col-sm-12 pull-right text-right">
+				<h2 class="wb-inv">Language selection</h2>
+				<ul class="list-inline mrgn-bttm-0">
+					
+					<li>
+						<a lang="fr" hreflang="fr" href="/fr/dataset/rcm">
+							<span class="hidden-xs" translate="no">Français</span>
+							<abbr title="Français" translate="no" class="visible-xs h3 mrgn-tp-sm mrgn-bttm-0 text-uppercase">fr</abbr>
+						</a>
+					</li>
+					
+				</ul>
+			</section>
+
+			
+			<div class="brand col-xs-9 col-sm-5 col-md-4" property="publisher" resource="#wb-publisher" typeof="GovernmentOrganization">
+				<a href="https://www.canada.ca/en.html" property="url">
+					<img src="/sig-blk-en.svg" alt="" property="logo"><span class="wb-inv" property="name"> Government of Canada / <span lang="fr">Gouvernement du Canada</span></span>
+				</a>
+				<meta property="areaServed" typeof="Country" content="Canada">
+				<link property="logo" href="/wmms-blk.svg">
+			</div>
+
+			<section id="wb-srch" class="col-lg-offset-4 col-md-offset-4 col-sm-offset-2 col-xs-12 col-sm-5 col-md-4">
+				<h2>Search Canada.ca</h2>
+				<form action="https://www.canada.ca/en/sr/srb.html" method="get" name="cse-search-box" role="search">
+					<div class="form-group wb-srch-qry">
+						<label for="wb-srch-q" class="wb-inv">Search Canada.ca</label>
+						<input name="cdn" value="canada" type="hidden">
+						<input name="st" value="s" type="hidden">
+						<input name="num" value="10" type="hidden">
+						<input name="langs" value="en" type="hidden">
+						<input name="st1rt" value="1" type="hidden">
+						<input name="s5bm3ts21rch" value="x" type="hidden">
+						<input id="wb-srch-q" list="wb-srch-q-ac" class="wb-srch-q form-control" name="q" type="search" value="" size="34" maxlength="170" placeholder="Search Canada.ca">
+						<input type="hidden" name="_charset_" value="UTF-8">
+						<datalist id="wb-srch-q-ac">
+						</datalist>
+					</div>
+					<div class="form-group submit">
+						<button type="submit" id="wb-srch-sub" class="btn btn-primary btn-small" name="wb-srch-sub"><span class="glyphicon-search glyphicon"></span><span class="wb-inv">Search</span></button>
+					</div>
+				</form>
+			</section>
+			
+		</div>
+	</div>
+	<nav class="gcweb-menu" typeof="SiteNavigationElement">
+		<div class="container">
+			<h2 class="wb-inv">Menu</h2>
+			<button type="button" aria-haspopup="true" aria-expanded="false"><span class="wb-inv">Main </span>Menu <span class="expicon glyphicon glyphicon-chevron-down"></span></button>
+			
+			<ul role="menu" aria-orientation="vertical" data-ajax-replace="https://www.canada.ca/content/dam/canada/sitemenu/sitemenu-v2-en.html">
+			
+				<li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/jobs.html">Jobs and the workplace</a></li>
+				<li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/immigration-citizenship.html">Immigration and citizenship</a></li>
+				<li role="presentation"><a role="menuitem" href="https://travel.gc.ca/">Travel and tourism</a></li>
+				<li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/business.html">Business and industry</a></li>
+				<li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/benefits.html">Benefits</a></li>
+				<li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/health.html">Health</a></li>
+				<li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/taxes.html">Taxes</a></li>
+				<li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/environment.html">Environment and natural resources</a></li>
+				<li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/defence.html">National security and defence</a></li>
+				<li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/culture.html">Culture, history and sport</a></li>
+				<li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/policing.html">Policing, justice and emergencies</a></li>
+				<li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/transport.html">Transport and infrastructure</a></li>
+				<li role="presentation"><a role="menuitem" href="https://international.gc.ca/world-monde/index.aspx?lang=eng">Canada and the world</a></li>
+				<li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/finance.html">Money and finances</a></li>
+				<li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/science.html">Science and innovation</a></li>
+			</ul>
+		</div>
+	</nav>
+<!-- Static header ends -->
+
+      
+        <nav id="wb-bc" property="breadcrumb">
+          <h2 class="wb-inv">You are here:</h2>
+          
+            <div class="container">
+              <ol class="breadcrumb">
+                <!--template/snippets/home_breadcrumb.html start-->
+
+
+
+
+  <li property="itemListElement" typeof="ListItem">
+    <a property="item" typeof="WebPage" href="https://www.canada.ca/en.html">
+      <span property="name">Canada.ca</span>
+    </a>
+    <meta property="position" content="1">
+  </li>
+  <li property="itemListElement" typeof="ListItem">
+    <a property="item" typeof="WebPage" href="https://www.asc-csa.gc.ca/eng/Default.asp">
+      <span property="name">Canadian Space Agency</span>
+    </a>
+    <meta property="position" content="2">
+  </li>
+  <li property="itemListElement" typeof="ListItem">
+    <a property="item" typeof="WebPage" href="https://asc-csa.gc.ca/eng/open-data/default.asp">
+      <span property="name">Open data and information</span>
+    </a>
+    <meta property="position" content="3">
+  </li>
+  
+    <li property="itemListElement" typeof="ListItem">
+      <a property="item" typeof="WebPage" href="/en/dataset/">
+        <span property="name">Portal</span>
+      </a>
+      <meta property="position" content="4">
+    </li>
+    <li property="itemListElement" typeof="ListItem">
+      <span property="name">RADARSAT Constellation Mission (RCM) Data</span>
+      <meta property="position" content="5">
+    </li>
+  
+
+<!--template/snippets/home_breadcrumb.html end-->
+              </ol>
+            </div>
+          
+        </nav>
+      
+    </header>
+  
+    <div class='page-wrap'>
+      <main id="content" class="container">
+        
+          
+            <div class="flash-messages">
+              
+                
+              
+            </div>
+          
+
+          <div  class="row wrapper">
+            
+            
+            
+            
+            
+
+            
+              <aside class="secondary col-sm-3">
+                
+                
+    
+
+  
+
+  
+    
+
+
+<section class="panel panel-primary feedback-rating-widget"
+     data-package-id="07e083c2-ab5a-473e-80e8-2a7131bf24de"
+     data-rate-url="/en/dataset/07e083c2-ab5a-473e-80e8-2a7131bf24de/feedback/rate"
+     data-user-rating="0">
+  <header class="panel-heading">
+    <h2 class="panel-title">Have your say</h2>
+  </header>
+  <div class="panel-body text-center">
+    
+<input type="hidden" name="_csrf_token" value="IjhjYzU0YjI2OTMyZjk2OWY1OGFlYzRhMjQ0ZGM0ZjI0Y2EzODdhN2Ui.avh6_w.4aYvovvY7GvrHnOx_rF0vUJ-o3o"/>
+    <fieldset class="feedback-stars">
+      <legend class="wb-inv">Rate this dataset from 1 to 5 stars</legend>
+      
+      
+        <input type="radio"
+               name="feedback-rating"
+               id="feedback-rating-1"
+               class="feedback-star-input"
+               value="1"
+               >
+        <label for="feedback-rating-1"
+               class="feedback-star-label"
+               title="Rate 1 out of 5">
+          <span class="wb-inv">1 out of 5</span>
+        </label>
+      
+        <input type="radio"
+               name="feedback-rating"
+               id="feedback-rating-2"
+               class="feedback-star-input"
+               value="2"
+               >
+        <label for="feedback-rating-2"
+               class="feedback-star-label"
+               title="Rate 2 out of 5">
+          <span class="wb-inv">2 out of 5</span>
+        </label>
+      
+        <input type="radio"
+               name="feedback-rating"
+               id="feedback-rating-3"
+               class="feedback-star-input"
+               value="3"
+               >
+        <label for="feedback-rating-3"
+               class="feedback-star-label"
+               title="Rate 3 out of 5">
+          <span class="wb-inv">3 out of 5</span>
+        </label>
+      
+        <input type="radio"
+               name="feedback-rating"
+               id="feedback-rating-4"
+               class="feedback-star-input"
+               value="4"
+               >
+        <label for="feedback-rating-4"
+               class="feedback-star-label"
+               title="Rate 4 out of 5">
+          <span class="wb-inv">4 out of 5</span>
+        </label>
+      
+        <input type="radio"
+               name="feedback-rating"
+               id="feedback-rating-5"
+               class="feedback-star-input"
+               value="5"
+               >
+        <label for="feedback-rating-5"
+               class="feedback-star-label"
+               title="Rate 5 out of 5">
+          <span class="wb-inv">5 out of 5</span>
+        </label>
+      
+    </fieldset>
+    <p class="feedback-rating-info text-muted mrgn-tp-sm mrgn-bttm-0">
+      <span class="feedback-avg">5.0</span> / 5
+      (<span class="feedback-count">2</span> votes)
+    </p>
+  </div>
+</section>
+
+
+
+  
+
+  
+    
+
+  
+  <!--template/package/snippets/info.html start-->
+
+          
+            
+              <!-- <h2 class="heading">RADARSAT Constellation Mission (RCM) Data</h2> -->
+            
+            
+
+
+            
+
+          
+
+
+
+  
+  <!--template/package/info.html end-->
+
+  
+
+  <div class="panel panel-primary" style="-ms-word-wrap: break-word;">
+        <div class="panel-heading">
+          <div class="panel-title">
+            Additional information
+          </div>
+        </div>
+        <ul class="list-group">
+          
+
+          
+
+
+
+
+        
+
+            
+
+            
+
+            
+
+            
+              
+
+
+          
+              
+
+              
+
+              
+                
+
+                
+
+            
+
+
+            
+
+              
+              
+              
+
+            
+
+
+            
+              
+
+              
+
+              
+                
+
+                
+
+            
+
+
+            
+
+              
+              
+                <li class="list-group-item">
+                  <strong>Contact email:</strong>
+                  <a href=mailto:gouvernementouvert-opengovernment@asc-csa.gc.ca>gouvernementouvert-opengovernment@asc-csa.gc.ca</a>
+                </li>
+              
+              
+
+            
+
+
+            
+              
+
+              
+
+              
+                
+
+                
+
+            
+
+
+
+            <!-- I had to cheat here a bit to make the keywords appear... go check the read_base.html file to see-->
+            
+
+            <li class="list-group-item">
+            <strong>Keywords:</strong>
+
+            
+
+            
+
+            
+            
+            
+            <a class="btn btn-default btn-xs mrgn-bttm-sm mrgn-rght-sm" href="/en/dataset/?keywords_en=RADARSAT">RADARSAT</a>
+            
+
+            
+
+            
+            
+            
+            <a class="btn btn-default btn-xs mrgn-bttm-sm mrgn-rght-sm" href="/en/dataset/?keywords_en=Earth+Observation">Earth Observation</a>
+            
+
+            
+
+            
+            
+            
+            <a class="btn btn-default btn-xs mrgn-bttm-sm mrgn-rght-sm" href="/en/dataset/?keywords_en=Satellite">Satellite</a>
+            
+            <!--Add custom language flag for external links based on the link_language parameter -->
+            
+            
+
+
+            
+              
+
+              
+
+              
+                
+
+                
+
+            
+
+
+            
+
+              
+              
+                <li class="list-group-item">
+                  <strong>Subject:</strong>
+                  <ul class='list-inline'>
+        <li><a class="btn btn-default btn-xs mrgn-bttm-sm mrgn-rght-sm"
+          href="/en/dataset/?subject=science_and_technology">Science and technology</a></li>
+      </ul>
+                </li>
+              
+              
+
+            
+
+
+            
+              
+
+              
+
+              
+                
+
+                
+
+            
+
+
+            
+
+              
+              
+              
+
+            
+
+
+            
+              
+
+              
+
+              
+                
+
+                
+
+            
+
+
+            
+
+              
+              
+              
+
+            
+
+
+            
+              
+
+              
+
+              
+                
+
+                
+
+            
+
+
+            
+
+              
+              
+              
+
+            
+
+
+            
+              
+
+              
+
+              
+
+            
+
+
+            
+
+            
+
+
+            
+              
+
+              
+
+              
+
+            
+
+
+            
+
+            
+
+
+            
+              
+
+              
+
+              
+                
+
+                
+
+            
+
+
+            
+
+              
+              
+              
+              
+              
+
+            
+
+
+            
+              
+
+              
+
+              
+                
+
+                
+
+            
+
+
+            
+
+              
+              
+              
+              
+              
+
+            
+
+
+            
+              
+
+              
+
+              
+                
+
+                
+
+            
+
+
+            
+
+              
+              
+              
+              
+              
+
+            
+
+
+            
+              
+
+              
+
+              
+
+            
+
+
+            
+
+            
+
+
+            
+              
+
+              
+
+              
+
+            
+
+
+            
+
+            
+
+
+            
+              
+
+              
+
+              
+                
+
+                
+
+            
+
+
+            
+
+              
+              
+              
+
+            
+
+
+            
+              
+
+              
+
+              
+
+            
+
+
+            
+
+            
+
+
+            
+              
+
+              
+
+              
+
+            
+
+
+            
+
+            
+
+
+            
+              
+
+              
+
+              
+
+            
+
+
+            
+
+            
+
+
+            
+              
+
+              
+
+              
+                
+
+                
+
+            
+
+
+            
+
+              
+              
+                <li class="list-group-item">
+                  <strong>Maintenance and update frequency:</strong>
+                  Not Planned
+                </li>
+              
+              
+
+            
+
+
+            
+              
+
+              
+
+              
+
+            
+
+
+            
+
+            
+
+
+            
+              
+
+              
+
+              
+
+            
+
+
+            
+
+            
+
+
+            
+              
+
+              
+
+              
+                
+
+                
+
+            
+
+
+            
+
+              
+              
+              
+
+            
+
+
+            
+              
+
+              
+
+              
+                
+
+                
+
+            
+
+
+            
+
+              
+              
+              
+
+            
+
+
+            
+              
+
+              
+
+              
+                
+
+                
+
+            
+            
+            
+              <li class="list-group-item">
+                <strong>Date published:</strong>
+                <time class="nowrap" datetime="2021-01-26 00:00:00">2021-01-26 00:00:00</time>
+              </li>
+            
+          
+
+
+            
+              
+
+              
+
+              
+                
+
+                
+
+            
+            
+            
+            
+              
+              
+            
+            
+              <li class="list-group-item">
+			    
+				  <strong>Licence:</strong>
+				
+                
+                  <a href="http://open.canada.ca/en/open-government-licence-canada">Open Government Licence - Canada</a>
+                
+              </li>
+            
+
+          
+
+
+            
+              
+
+              
+
+              
+
+            
+            
+            
+          
+
+
+            
+              
+
+              
+
+              
+
+            
+            
+            
+          
+
+
+            
+              
+
+              
+
+              
+                
+
+                
+
+            
+            
+            
+          
+
+
+            
+            
+
+
+
+
+
+        </ul>
+      </div>
+
+      <div class="panel panel-primary">
+            <div class="panel-heading">
+            <div class="panel-title">About this record</div>
+            </div>
+
+            <ul class="list-group">
+
+              <li class="list-group-item">
+                <strong>Record ID:</strong>
+                07e083c2-ab5a-473e-80e8-2a7131bf24de
+              </li>
+              <li class="list-group-item">
+                <strong>Metadata:</strong>
+                <ul class="list-group" >
+                  <li class="list-group-item">
+                    <a href="https://donnees-data.asc-csa.gc.ca/api/action/package_show?id=07e083c2-ab5a-473e-80e8-2a7131bf24de" rel="nofollow">
+                      Link to JSON format
+                    </a>
+                  </li>
+
+                </ul>
+              </li>
+
+
+
+            </ul>
+          </div>
+
+  
+    
+      
+      
+
+
+
+
+    
+  
+
+  
+    
+
+  
+
+  
+
+  
+
+  
+
+<!--template/package/read_base.html end-->
+
+
+    
+
+              </aside>
+            
+
+            
+              <div class="primary col-sm-9 col-xs-12">
+                
+
+                
+                  <article class="module">
+                    
+                      <header class="module-content page-header">
+                        
+                        <ul class="nav nav-tabs">
+                          
+  <li class="active"><a href="/en/dataset/rcm"><i class="fa fa-sitemap"></i> Dataset</a></li>
+  <li><a href="/en/dataset/groups/rcm"><i class="fa fa-users"></i> Groups</a></li>
+
+                        </ul>
+                      </header>
+                    
+                    <div  class="module-content">
+                      
+                      
+  
+    
+      
+    
+
+  
+  
+    <h1 property="name" id="wb-cont">
+      
+        RADARSAT Constellation Mission (RCM) Data
+        
+        
+      
+      
+    </h1>
+    
+      
+    
+    
+    <div class="notes embedded-content">
+      <p>The RADARSAT Constellation Mission (RCM) is Canada's new generation of Earth observation satellites.The RCM includes a trio of Earth observation satellites, capable of scanning Earth day or night and in any weather conditions. The three-satellite configuration allows for daily revisits of Canada's vast territory and maritime approaches, as well as daily access to 90% of the world's surface and the Arctic up to four times a day. Over a dozen federal government departments already use RADARSAT data to deliver important services to Canadians. </p>
+<p>The RCM is designed to provide effective solutions in three main areas: 
+•Maritime surveillance (ice, surface wind, oil pollution and ship monitoring);
+•Disaster management (mitigation, warning, response and recovery); and
+•Ecosystem monitoring (agriculture, wetlands, forestry and coastal change monitoring).</p>
+<p>Certain RCM image products are freely and openly available to users outside the Government of Canada, subject to exceptions in terms of security, privacy and confidentiality. Public and vetted users can access RCM image products through the Earth Observation Data Management System at <a href="https://www.eodms-sgdot.nrcan-rncan.gc.ca/index_en.jsp" target="_blank" rel="nofollow">https://www.eodms-sgdot.nrcan-rncan.gc.ca/index_en.jsp</a>.</p>
+<p>The Canadian Space Agency plans to disseminate some RCM-related resources such as acquisition plans and data packages. Consult them from this page.</p>
+<p>The use of each RCM image product must adhere to the accompanying User Licence. Please make sure to review the terms and conditions in the available resources before downloading the data. By downloading images, you confirm your adherence to the terms and conditions of the licence.</p>
+    </div>
+  
+
+    
+    
+    
+    <span class="insert-comment-thread"></span>
+  
+
+  
+    
+
+
+
+<!--template/package/resource_list.html start-->
+<br><br>
+
+
+    
+    
+
+    
+    
+      <section>
+        <table class="table table-striped resource-list">
+          <caption class="wb-inv">Resource list table</caption>
+          <thead>
+            <tr>
+              <th scope="col" class="td-center-nowrap">Resource name</th>
+              <th scope="col" class="td-center-nowrap">Resource type</th>
+              <th scope="col" class="td-center-nowrap">Format</th>
+              <th scope="col" class="td-center-nowrap">Language</th>
+              <th scope="col" class="td-center-nowrap">Links</th>
+            </tr>
+          </thead>
+
+        
+        
+          
+            <!--template/package/snippets/resource_item.html start-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          
+
+                      
+
+                      
+
+                      
+                      
+                        
+
+              
+
+
+
+<tr>
+  <td class="" style="width:30%">
+    
+    
+      DATA Archive (EODMS)
+    
+    
+  </td>
+  <td class="td-center" style="width:15%">
+    Website
+  </td>
+  <td  class="td-center" style="width:15%">
+    Other &nbsp; <span class="format-label" property="dc:format" data-format="other">other</span>
+  </td>
+  <td class="td-center" style="width:20%">
+    English<br/>French<br/>
+  </td>
+  <td class="td-center" style="width:20%">
+      
+      
+      
+      
+        
+          
+        
+      
+      <a href="https://www.eodms-sgdot.nrcan-rncan.gc.ca/index_en.jsp" title="Resource 1" class="resource-url-analytics btn btn-primary" target="_blank" data-pkg-id="07e083c2-ab5a-473e-80e8-2a7131bf24de" data-res-id="f8ffc51e-3ff6-4c43-a641-8c772644fdac" data-org-id="95F65CF9-ED6A-4630-9C1A-8339FDB15CF0">
+          Download
+        
+        <span class="wb-inv">the resource named: DATA Archive (EODMS) (en, fr)</span>
+        </a>
+        <br>
+
+        
+        
+  </td>
+</tr>
+
+<!--template/package/snippets/resource_item.html end-->
+          
+        
+          
+            <!--template/package/snippets/resource_item.html start-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          
+
+                      
+
+                      
+
+                      
+                      
+                        
+
+              
+
+
+
+<tr>
+  <td class="" style="width:30%">
+    
+    
+      <span class="wrapall">Data</span>
+    
+    
+  </td>
+  <td class="td-center" style="width:15%">
+    Dataset
+  </td>
+  <td  class="td-center" style="width:15%">
+    Other &nbsp; <span class="format-label" property="dc:format" data-format="other">other</span>
+  </td>
+  <td class="td-center" style="width:20%">
+    English<br/>French<br/>
+  </td>
+  <td class="td-center" style="width:20%">
+      
+      
+      
+      
+        
+          
+        
+      
+      <a href="https://donnees-data.asc-csa.gc.ca/users/OpenData_DonneesOuvertes/pub/RCM/" title="Resource 2" class="resource-url-analytics btn btn-primary" target="_blank" data-pkg-id="07e083c2-ab5a-473e-80e8-2a7131bf24de" data-res-id="6a5492b3-1625-4dde-8e09-2ffbd8a17e31" data-org-id="95F65CF9-ED6A-4630-9C1A-8339FDB15CF0">
+          Download
+        
+        <span class="wb-inv">the resource named: Data (en, fr)</span>
+        </a>
+        <br>
+
+        
+        
+  </td>
+</tr>
+
+<!--template/package/snippets/resource_item.html end-->
+          
+        
+          
+            <!--template/package/snippets/resource_item.html start-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          
+
+                      
+
+                      
+
+                      
+                      
+                        
+
+              
+
+
+
+<tr>
+  <td class="" style="width:30%">
+    
+    
+      EO Visualization and Search Tutorial
+    
+    
+  </td>
+  <td class="td-center" style="width:15%">
+    Guide
+  </td>
+  <td  class="td-center" style="width:15%">
+    Other &nbsp; <span class="format-label" property="dc:format" data-format="other">other</span>
+  </td>
+  <td class="td-center" style="width:20%">
+    English<br/>French<br/>
+  </td>
+  <td class="td-center" style="width:20%">
+      
+      
+      
+      
+        
+          
+        
+      
+      <a href="https://github.com/asc-csa/EO-Visualization-and-Search-Tutorial" title="Resource 3" class="resource-url-analytics btn btn-primary" target="_blank" data-pkg-id="07e083c2-ab5a-473e-80e8-2a7131bf24de" data-res-id="b48b92d4-aa6e-4922-af39-755de5282d1e" data-org-id="95F65CF9-ED6A-4630-9C1A-8339FDB15CF0">
+          Download
+        
+        <span class="wb-inv">the resource named: EO Visualization and Search Tutorial (en, fr)</span>
+        </a>
+        <br>
+
+        
+        
+  </td>
+</tr>
+
+<!--template/package/snippets/resource_item.html end-->
+          
+        
+          
+            <!--template/package/snippets/resource_item.html start-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          
+
+                      
+
+                      
+
+                      
+                      
+                        
+
+              
+
+
+
+<tr>
+  <td class="" style="width:30%">
+    
+    
+      SAR Data Tutorial
+    
+    
+  </td>
+  <td class="td-center" style="width:15%">
+    Guide
+  </td>
+  <td  class="td-center" style="width:15%">
+    Other &nbsp; <span class="format-label" property="dc:format" data-format="other">other</span>
+  </td>
+  <td class="td-center" style="width:20%">
+    English<br/>French<br/>
+  </td>
+  <td class="td-center" style="width:20%">
+      
+      
+      
+      
+        
+          
+        
+      
+      <a href="https://github.com/asc-csa/Synthetic_Aperture_Radar_Tutorial" title="Resource 4" class="resource-url-analytics btn btn-primary" target="_blank" data-pkg-id="07e083c2-ab5a-473e-80e8-2a7131bf24de" data-res-id="fe44d02c-4221-42a1-bf99-7303c76769e5" data-org-id="95F65CF9-ED6A-4630-9C1A-8339FDB15CF0">
+          Download
+        
+        <span class="wb-inv">the resource named: SAR Data Tutorial (en, fr)</span>
+        </a>
+        <br>
+
+        
+        
+  </td>
+</tr>
+
+<!--template/package/snippets/resource_item.html end-->
+          
+        
+
+        </table>
+      </section>
+    
+    
+
+    
+
+    
+
+
+
+<!--template/package/resource_list.html end-->
+  
+
+  
+    
+    
+    
+      <section class="panel panel-default similar-datasets" style="margin-top: 15px;">
+        <div class="panel-heading">
+          <h2 class="panel-title">Similar datasets</h2>
+        </div>
+        <ul class="list-group">
+          
+            
+            
+            
+            
+            <li class="list-group-item">
+              <a href="/en/dataset/e0333ed6-a614-46b1-b595-1fac1ce9214a">RADARSAT-1 - Heatmap of processed archived images</a>
+              
+                <p class="text-muted small">RADARSAT-1, in operation from 1995 to 2013, is Canada's first earth observation satellite. Developed and operated by the Canadian Space Agency (CSA), it has provided essential information to...</p>
+              
+            </li>
+          
+            
+            
+            
+            
+            <li class="list-group-item">
+              <a href="/en/dataset/radarsat1">RADARSAT-1 Archive</a>
+              
+                <p class="text-muted small">Launched in November 1995, RADARSAT-1 provided Canada and the world with an operational radar satellite system capable of timely delivery of large amounts of data. Equipped with a powerful...</p>
+              
+            </li>
+          
+            
+            
+            
+            
+            <li class="list-group-item">
+              <a href="/en/dataset/b01f66c5-5090-488f-9bb6-b2f39a7bbc0b">Audit of the Management Framework of the Earth Observation Mission Program – RADARSAT Constellation Mission (RCM) </a>
+              
+                <p class="text-muted small">The objective of this audit is to determine whether a management framework is in place to enable the Program objectives to be achieved and, more specifically, to prevent cost increases, comply with...</p>
+              
+            </li>
+          
+            
+            
+            
+            
+            <li class="list-group-item">
+              <a href="/en/dataset/swot">Surface Water and Ocean Topography (SWOT)</a>
+              
+                <p class="text-muted small">The Surface Water and Ocean Topography (SWOT) mission provides valuable data and information about the world's oceans and its terrestrial surface water. SWOT is developed jointly by NASA and the...</p>
+              
+            </li>
+          
+        </ul>
+      </section>
+    
+  
+
+  
+    
+
+  
+
+  
+    
+
+
+
+
+
+
+
+<section class="panel panel-default mrgn-tp-lg">
+  <div class="panel-heading">
+    <h2 class="panel-title">Provide feedback on this dataset</h2>
+  </div>
+  
+  <div class="panel-body wb-frmvld">
+    <form method="POST"
+          action="/en/dataset/07e083c2-ab5a-473e-80e8-2a7131bf24de/feedback/submit"
+          class="feedback-submission-form"
+          >
+      
+<input type="hidden" name="_csrf_token" value="IjhjYzU0YjI2OTMyZjk2OWY1OGFlYzRhMjQ0ZGM0ZjI0Y2EzODdhN2Ui.avh6_w.4aYvovvY7GvrHnOx_rF0vUJ-o3o"/>
+
+      
+
+      <div class="form-group">
+        <label for="feedback-name">
+          <span class="field-name">Name</span>
+          <strong class="optional">(optional)</strong>
+        </label>
+        <input type="text" class="form-control" id="feedback-name" name="author_name"
+               value=""
+               placeholder="Your name" style="width: 100%;">
+      </div>
+
+      <div class="form-group">
+        <label for="feedback-email">
+          <span class="field-name">Email</span>
+          <strong class="optional">(optional)</strong>
+        </label>
+        <input type="email" class="form-control" id="feedback-email" name="author_email"
+               value=""
+               placeholder="Your email address" style="width: 100%;">
+      </div>
+
+      <div class="form-group">
+        <label for="feedback-subject-type" class="required">
+          <span class="field-name">I am a</span>
+          <strong class="required" aria-hidden="true">(required)</strong>
+        </label>
+        <select class="form-control" id="feedback-subject-type" name="subject_type" required style="width: 100%;">
+          <option value="">-- Select --</option>
+          
+            <option value="Citizen" >Citizen</option>
+          
+            <option value="Researcher" >Researcher</option>
+          
+            <option value="Developer" >Developer</option>
+          
+            <option value="Government Employee" >Government Employee</option>
+          
+            <option value="Other" >Other</option>
+          
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="feedback-reason" class="required">
+          <span class="field-name">Reason for feedback</span>
+          <strong class="required" aria-hidden="true">(required)</strong>
+        </label>
+        <select class="form-control" id="feedback-reason" name="reason" required style="width: 100%;">
+          <option value="">-- Select --</option>
+          
+            <option value="Data Quality" >Data Quality</option>
+          
+            <option value="Missing Data" >Missing Data</option>
+          
+            <option value="Broken Link" >Broken Link</option>
+          
+            <option value="Suggestion" >Suggestion</option>
+          
+            <option value="Other" >Other</option>
+          
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="feedback-body" class="required">
+          <span class="field-name">Feedback</span>
+          <strong class="required" aria-hidden="true">(required)</strong>
+        </label>
+        <textarea class="form-control" id="feedback-body" name="body" rows="5" required
+                  placeholder="Please describe your feedback..." style="width: 100%;"></textarea>
+      </div>
+
+      
+
+      <button type="submit" class="btn btn-primary">
+        Submit Feedback
+      </button>
+    </form>
+  </div>
+</section>
+  
+
+  
+  
+
+<!--template/package/additional_info.html start-->
+<section class="additional-info">
+   <h2>More on this record:</h2>
+  <table class="table table-bordered">
+    
+    <tbody>
+      <tr>
+        <th scope="row" class="dataset-label">Collection type</th>
+        <td class="dataset-details">Geospatial data</td>
+      </tr><tr>
+        <th scope="row" class="dataset-label">Title</th>
+        <td class="dataset-details">RADARSAT Constellation Mission (RCM) Data</td>
+      </tr><tr>
+        <th scope="row" class="dataset-label">Publisher - Organization Name at Publication</th>
+        <td class="dataset-details">Canadian Space Agency</td>
+      </tr><tr>
+        <th scope="row" class="dataset-label">Publisher - Organization section name</th>
+        <td class="dataset-details"></td>
+      </tr><tr>
+        <th scope="row" class="dataset-label">Creator</th>
+        <td class="dataset-details"></td>
+      </tr><tr>
+        <th scope="row" class="dataset-label">Metadata contact</th>
+        <td class="dataset-details"></td>
+      </tr><tr>
+        <th scope="row" class="dataset-label">Parent identifier</th>
+        <td class="dataset-details"></td>
+      </tr><tr>
+        <th scope="row" class="dataset-label">Hierarchy level</th>
+        <td class="dataset-details"></td>
+      </tr><tr>
+        <th scope="row" class="dataset-label">File Identifier</th>
+        <td class="dataset-details"></td>
+      </tr><tr>
+        <th scope="row" class="dataset-label">Short Key</th>
+        <td class="dataset-details"></td>
+      </tr><tr>
+        <th scope="row" class="dataset-label">Version</th>
+        <td class="dataset-details"></td>
+      </tr><tr>
+        <th scope="row" class="dataset-label">Language Support</th>
+        <td class="dataset-details">Bilingual</td>
+      </tr><tr>
+        <th scope="row" class="dataset-label">Language Support Specify</th>
+        <td class="dataset-details"></td>
+      </tr><tr>
+        <th scope="row" class="dataset-label">Data Steward</th>
+        <td class="dataset-details">Christine Giguère</td>
+      </tr><tr>
+        <th scope="row" class="dataset-label">Manager or Supervisor</th>
+        <td class="dataset-details">Guennadi Kroupnik</td>
+      </tr><tr>
+        <th scope="row" class="dataset-label">DIIDS No</th>
+        <td class="dataset-details">ODI-2018-00222</td>
+      </tr><tr>
+        <th scope="row" class="dataset-label">Directorate</th>
+        <td class="dataset-details">Space Utilization</td>
+      </tr><tr>
+        <th scope="row" class="dataset-label">CSA Science category</th>
+        <td class="dataset-details">Science</td>
+      </tr><tr>
+        <th scope="row" class="dataset-label">Portal type</th>
+        <td class="dataset-details">Open Data</td>
+      </tr><tr>
+        <th scope="row" class="dataset-label">Dataset Status</th>
+        <td class="dataset-details">Completed Form (OD)</td>
+      </tr><tr>
+        <th scope="row" class="dataset-label">Division</th>
+        <td class="dataset-details"></td>
+      </tr><tr>
+        <th scope="row" class="dataset-label">Data Owner</th>
+        <td class="dataset-details">CSA</td>
+      </tr><tr>
+        <th scope="row" class="dataset-label">Security Classification</th>
+        <td class="dataset-details">Unclassified</td>
+      </tr><tr>
+        <th scope="row" class="dataset-label">Data Owner (specify)</th>
+        <td class="dataset-details">CSA</td>
+      </tr><tr>
+        <th scope="row" class="dataset-label">Registered on the Open Data Site</th>
+        <td class="dataset-details">No</td>
+      </tr><tr>
+        <th scope="row" class="dataset-label">Date released on open.canada.ca</th>
+        <td class="dataset-details"></td>
+      </tr><tr>
+        <th scope="row" class="dataset-label">Data is publicly availible within another site</th>
+        <td class="dataset-details"></td>
+      </tr><tr>
+        <th scope="row" class="dataset-label">Date published on another site</th>
+        <td class="dataset-details"></td>
+      </tr><tr>
+        <th scope="row" class="dataset-label">Publisher</th>
+        <td class="dataset-details"></td>
+      </tr><tr>
+        <th scope="row" class="dataset-label">Personal Information</th>
+        <td class="dataset-details">No</td>
+      </tr><tr>
+        <th scope="row" class="dataset-label">Eligible for Release</th>
+        <td class="dataset-details">Yes</td>
+      </tr><tr>
+        <th scope="row" class="dataset-label">Format of source data</th>
+        <td class="dataset-details">Other</td>
+      </tr><tr>
+        <th scope="row" class="dataset-label">Format of source data (details)</th>
+        <td class="dataset-details"></td>
+      </tr><tr>
+        <th scope="row" class="dataset-label">Size of Dataset</th>
+        <td class="dataset-details"></td>
+      </tr><tr>
+        <th scope="row" class="dataset-label">Contributor</th>
+        <td class="dataset-details"></td>
+      </tr><tr>
+        <th scope="row" class="dataset-label">Contact email</th>
+        <td class="dataset-details"><a href=mailto:gouvernementouvert-opengovernment@asc-csa.gc.ca>gouvernementouvert-opengovernment@asc-csa.gc.ca</a></td>
+      </tr><tr>
+        <th scope="row" class="dataset-label">Description</th>
+        <td class="dataset-details"><p>The RADARSAT Constellation Mission (RCM) is Canada's new generation of Earth observation satellites.The RCM includes a trio of Earth observation satellites, capable of scanning Earth day or night and in any weather conditions. The three-satellite configuration allows for daily revisits of Canada's vast territory and maritime approaches, as well as daily access to 90% of the world's surface and the Arctic up to four times a day. Over a dozen federal government departments already use RADARSAT data to deliver important services to Canadians. </p>
+<p>The RCM is designed to provide effective solutions in three main areas: 
+•Maritime surveillance (ice, surface wind, oil pollution and ship monitoring);
+•Disaster management (mitigation, warning, response and recovery); and
+•Ecosystem monitoring (agriculture, wetlands, forestry and coastal change monitoring).</p>
+<p>Certain RCM image products are freely and openly available to users outside the Government of Canada, subject to exceptions in terms of security, privacy and confidentiality. Public and vetted users can access RCM image products through the Earth Observation Data Management System at <a href="https://www.eodms-sgdot.nrcan-rncan.gc.ca/index_en.jsp" target="_blank" rel="nofollow">https://www.eodms-sgdot.nrcan-rncan.gc.ca/index_en.jsp</a>.</p>
+<p>The Canadian Space Agency plans to disseminate some RCM-related resources such as acquisition plans and data packages. Consult them from this page.</p>
+<p>The use of each RCM image product must adhere to the accompanying User Licence. Please make sure to review the terms and conditions in the available resources before downloading the data. By downloading images, you confirm your adherence to the terms and conditions of the licence.</p></td>
+      </tr><tr>
+        <th scope="row" class="dataset-label">Keywords</th>
+        <td class="dataset-details"><section class="tags">
+
+  <ul class="tag-list">
+    
+      <li>
+        <a class="tag" href="/en/dataset/?tags=RADARSAT">RADARSAT</a>
+      </li>
+    
+      <li>
+        <a class="tag" href="/en/dataset/?tags=Earth+Observation">Earth Observation</a>
+      </li>
+    
+      <li>
+        <a class="tag" href="/en/dataset/?tags=Satellite">Satellite</a>
+      </li>
+    
+  </ul>
+
+<section class="tags"></td>
+      </tr><tr>
+        <th scope="row" class="dataset-label">Subject</th>
+        <td class="dataset-details"><ul class='list-inline'>
+        <li><a class="btn btn-default btn-xs mrgn-bttm-sm mrgn-rght-sm"
+          href="/en/dataset/?subject=science_and_technology">Science and technology</a></li>
+      </ul></td>
+      </tr><tr>
+        <th scope="row" class="dataset-label">Project</th>
+        <td class="dataset-details"><ul class='list-inline'>
+        <li><a class="btn btn-default btn-xs mrgn-bttm-sm mrgn-rght-sm"
+          href="/en/dataset/?subject=earth_observation">Earth observation</a></li>
+      </ul></td>
+      </tr><tr>
+        <th scope="row" class="dataset-label">Audience</th>
+        <td class="dataset-details"><ul class='list-inline'></ul></td>
+      </tr><tr>
+        <th scope="row" class="dataset-label">Place of Publication</th>
+        <td class="dataset-details"><ul></ul></td>
+      </tr><tr>
+        <th scope="row" class="dataset-label">IMSO Approval</th>
+        <td class="dataset-details">Yes</td>
+      </tr><tr>
+        <th scope="row" class="dataset-label">Access Restrictions</th>
+        <td class="dataset-details">Unrestricted</td>
+      </tr><tr>
+        <th scope="row" class="dataset-label">Jurisdiction</th>
+        <td class="dataset-details">Federal</td>
+      </tr><tr>
+        <th scope="row" class="dataset-label">Ready to Publish</th>
+        <td class="dataset-details">Yes</td>
+      </tr><tr>
+        <th scope="row" class="dataset-label">Portal Release Date</th>
+        <td class="dataset-details"></td>
+      </tr><tr>
+        <th scope="row" class="dataset-label">Spatial</th>
+        <td class="dataset-details"></td>
+      </tr><tr>
+        <th scope="row" class="dataset-label">Geographic Region Name</th>
+        <td class="dataset-details"><ul></ul></td>
+      </tr><tr>
+        <th scope="row" class="dataset-label">Time Period Coverage Start</th>
+        <td class="dataset-details"></td>
+      </tr><tr>
+        <th scope="row" class="dataset-label">Time period coverage end</th>
+        <td class="dataset-details"></td>
+      </tr><tr>
+        <th scope="row" class="dataset-label">Maintenance and update frequency</th>
+        <td class="dataset-details">Not Planned</td>
+      </tr><tr>
+        <th scope="row" class="dataset-label">Date published</th>
+        <td class="dataset-details">
+  2021-01-26
+</td>
+      </tr><tr>
+        <th scope="row" class="dataset-label">Date Modified</th>
+        <td class="dataset-details"></td>
+      </tr><tr>
+        <th scope="row" class="dataset-label">Homepage</th>
+        <td class="dataset-details"><a href="" rel=" noopener noreferrer" style="word-wrap: break-word" target="_blank"></a></td>
+      </tr><tr>
+        <th scope="row" class="dataset-label">Homepage Link Language</th>
+        <td class="dataset-details"></td>
+      </tr><tr>
+        <th scope="row" class="dataset-label">Data Visualisation</th>
+        <td class="dataset-details"></td>
+      </tr><tr>
+        <th scope="row" class="dataset-label">Data Series Name</th>
+        <td class="dataset-details"></td>
+      </tr><tr>
+        <th scope="row" class="dataset-label">Series Issue ID</th>
+        <td class="dataset-details"></td>
+      </tr><tr>
+        <th scope="row" class="dataset-label">Digital Object Identifier (DOI)</th>
+        <td class="dataset-details"></td>
+      </tr><tr>
+        <th scope="row" class="dataset-label">Position Name</th>
+        <td class="dataset-details"></td>
+      </tr><tr>
+        <th scope="row" class="dataset-label">Role</th>
+        <td class="dataset-details"></td>
+      </tr><tr>
+        <th scope="row" class="dataset-label">Contact Information</th>
+        <td class="dataset-details"></td>
+      </tr><tr>
+        <th scope="row" class="dataset-label">Topic category</th>
+        <td class="dataset-details"><ul class='list-inline'></ul></td>
+      </tr><tr>
+        <th scope="row" class="dataset-label">Reference System Information</th>
+        <td class="dataset-details"></td>
+      </tr><tr>
+        <th scope="row" class="dataset-label">Distributor</th>
+        <td class="dataset-details"></td>
+      </tr><tr>
+        <th scope="row" class="dataset-label">Status</th>
+        <td class="dataset-details"></td>
+      </tr><tr>
+        <th scope="row" class="dataset-label">Association Type</th>
+        <td class="dataset-details"></td>
+      </tr><tr>
+        <th scope="row" class="dataset-label">Aggregate dataset identifier</th>
+        <td class="dataset-details"></td>
+      </tr><tr>
+        <th scope="row" class="dataset-label">Spatial Representation Type</th>
+        <td class="dataset-details"><ul></ul></td>
+      </tr><tr>
+        <th scope="row" class="dataset-label">Presentation Form</th>
+        <td class="dataset-details"></td>
+      </tr>
+
+    </tbody>
+  </table>
+</section>
+<!--template/package/additional_info.html end-->
+
+
+  
+
+
+                    </div>
+                  </article>
+                
+              </div>
+            
+          </div>
+        
+        
+<div class="pagedetails container" style="background-color: white;">
+<dl id="wb-dtmd">
+<dt>Date modified:&#32;</dt>
+<dd><time property="dateModified">2026-06-12</time></dd>
+</dl>
+</div>
+
+      </main>
+    </div>
+  
+    
+
+<!-- Static footer starts -->
+<footer id="wb-info">
+	<div class="gc-main-footer">
+		<div class="container">
+			<nav>
+				
+					<h3>Government of Canada</h3>
+				
+				<ul class="list-unstyled colcount-sm-2 colcount-md-3">
+					
+					<li><a href="https://www.canada.ca/en/contact.html">All contacts</a></li>
+					<li><a href="https://www.canada.ca/en/government/dept.html">Departments and agencies</a></li>
+					<li><a href="https://www.canada.ca/en/government/system.html">About government</a></li>
+					
+				</ul>
+				<h4><span class="wb-inv">Themes and topics</span></h4>
+				<ul class="list-unstyled colcount-sm-2 colcount-md-3">
+					
+					<li><a href="https://www.canada.ca/en/services/jobs.html">Jobs</a></li>
+					<li><a href="https://www.canada.ca/en/services/immigration-citizenship.html">Immigration and citizenship</a></li>
+					<li><a href="https://travel.gc.ca/">Travel and tourism</a></li>
+					<li><a href="https://www.canada.ca/en/services/business.html">Business</a></li>
+					<li><a href="https://www.canada.ca/en/services/benefits.html">Benefits</a></li>
+					<li><a href="https://www.canada.ca/en/services/health.html">Health</a></li>
+					<li><a href="https://www.canada.ca/en/services/taxes.html">Taxes</a></li>
+					<li><a href="https://www.canada.ca/en/services/environment.html">Environment and natural resources</a></li>
+					<li><a href="https://www.canada.ca/en/services/defence.html">National security and defence</a></li>
+					<li><a href="https://www.canada.ca/en/services/culture.html">Culture, history and sport</a></li>
+					<li><a href="https://www.canada.ca/en/services/policing.html">Policing, justice and emergencies</a></li>
+					<li><a href="https://www.canada.ca/en/services/transport.html">Transport and infrastructure</a></li>
+					<li><a href="https://international.gc.ca/world-monde/index.aspx?lang=eng">Canada and the world</a></li>
+					<li><a href="https://www.canada.ca/en/services/finance.html">Money and finance</a></li>
+					<li><a href="https://www.canada.ca/en/services/science.html">Science and innovation</a></li>
+					<li><a href="https://www.canada.ca/en/services/indigenous-peoples.html">Indigenous peoples</a></li>
+					<li><a href="https://www.canada.ca/en/services/veterans.html">Veterans and military</a></li>
+					<li><a href="https://www.canada.ca/en/services/youth.html">Youth</a></li>
+					
+				</ul>
+			</nav>
+		</div>
+	</div>
+	<div class="gc-sub-footer">
+		<div class="container d-flex align-items-center">
+			<nav>
+				<h2 class="wb-inv">About this site</h2>
+				<ul>
+					<li><a href="https://www.canada.ca/en/social.html">Social media</a></li>
+					<li><a href="https://www.canada.ca/en/mobile.html">Mobile applications</a></li>
+					<li><a href="https://www.canada.ca/en/government/about.html">About Canada.ca</a></li>
+					<li><a href="https://www.canada.ca/en/transparency/terms.html">Terms and conditions</a></li>
+					<li><a href="https://www.canada.ca/en/transparency/privacy.html">Privacy</a></li>
+				</ul>
+			</nav>
+			
+			<div class="wtrmrk align-self-end">
+				<img src="/wmms-blk.svg" alt="Symbol of the Government of Canada">
+			</div>
+			
+		</div>
+	</div>
+</footer>
+
+
+	
+
+
+<!--template/footer.html end-->
+
+  
+  
+  
+  
+  
+  
+    
+
+  
+
+
+    
+    
+    <link href="/webassets/ckanext_feedback/3d9ea423_feedback.css" rel="stylesheet"/>
+<link href="/webassets/vendor/f3b8236b_select2.css" rel="stylesheet"/>
+<link href="/webassets/vendor/53df638c_fontawesome.css" rel="stylesheet"/>
+    <script src="/jquery.min.js" type="text/javascript"></script>
+<script src="/wet-boew/js/wet-boew.js" type="text/javascript"></script>
+<script src="/GCWeb/js/theme.min.js" type="text/javascript"></script>
+<script src="/wet-boew/js/i18n/en.min.js" type="text/javascript"></script>
+<script src="/webassets/ckanext_feedback/2cec0b26_feedback.js" type="text/javascript"></script>
+<script src="/webassets/vendor/240e5086_jquery.js" type="text/javascript"></script>
+<script src="/webassets/vendor/773d6354_vendor.js" type="text/javascript"></script>
+<script src="/webassets/vendor/6d1ad7e6_bootstrap.js" type="text/javascript"></script>
+<script src="/webassets/vendor/529a0eb7_htmx.js" type="text/javascript"></script>
+<script src="/webassets/base/a65ea3a0_main.js" type="text/javascript"></script>
+<script src="/webassets/base/78ac888d_ckan.js" type="text/javascript"></script>
+<script src="/webassets/tracking/8b59a308_tracking.js" type="text/javascript"></script>
+  </body>
+</html>

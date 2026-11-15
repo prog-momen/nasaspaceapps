@@ -1,0 +1,358 @@
+{
+  "id": "resource_R127",
+  "url": "https://svs.gsfc.nasa.gov/5196/",
+  "checked_at": "2026-11-14T15:15:29.944719+00:00",
+  "tls_validation": false,
+  "status": 200,
+  "final_url": "https://svs.gsfc.nasa.gov/5196/",
+  "bytes": 65873,
+  "content_type": "text/html; charset=utf-8",
+  "sha256": "3a06a8eabf0dc7bf227347d41538eaac2f6a7cdee1f7f3a40b922f81e171bb80",
+  "links": [
+    {
+      "url": "https://www.nasa.gov/",
+      "label": ""
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/",
+      "label": "Scientific Visualization Studio"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/gallery/the-galleries/",
+      "label": "Galleries"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/help/",
+      "label": "Help"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/5324",
+      "label": "5324: An M9.3 flare from Active Region 13723 - Jun..."
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/14631",
+      "label": "14631: Model Behavior: Visualizing Global CO2"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/15113",
+      "label": ""
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/api/5196",
+      "label": ""
+    },
+    {
+      "url": "https://twitter.com/intent/tweet",
+      "label": ""
+    },
+    {
+      "url": "https://www.facebook.com/share.php?u=http%3A//svs.gsfc.nasa.gov/5196/%3F",
+      "label": ""
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/search?people=AJ%20Christensen",
+      "label": "AJ Christensen"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/search?people=Lesley%20Ott",
+      "label": "Lesley Ott"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/5196/#section_credits",
+      "label": "View full credits"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a005100/a005196/dyamondPointCloud_12-1-2023b_dyamond_co2_anim_globe_orbit_1080p30_h265.mp4",
+      "label": "dyamondPointCloud_12-1-2023b_dyamond_co2_anim_globe_orbit_1080p30_h265.mp4 (1920x1080) [6.9 MB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a005100/a005196/dyamondPointCloud_12-1-2023b_dyamond_co2_anim_globe_orbit_2160p30.mp4",
+      "label": "dyamondPointCloud_12-1-2023b_dyamond_co2_anim_globe_orbit_2160p30.mp4 (3840x2160) [68.4 MB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a005100/a005196/frames/5760x3240_16x9_30p/dyamondPointCloud_12-1-2023b_dyamond_co2_anim_globe_orbit_3x3Hyperwall/",
+      "label": "dyamondPointCloud_12-1-2023b_dyamond_co2_anim_globe_orbit_3x3Hyperwall (5760x3240) [0 Item(s)]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a005100/a005196/dyamondPointCloud_12-1-2023b_dyamond_co2_anim_globe_orbit_3x3Hyperwall.00200_print.jpg",
+      "label": "dyamondPointCloud_12-1-2023b_dyamond_co2_anim_globe_orbit_3x3Hyperwall.00200_print.jpg (1024x576) [46.2 KB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a005100/a005196/dyamondPointCloud_12-1-2023b_dyamond_co2_anim_globe_orbit_3x3Hyperwall.00200_searchweb.png",
+      "label": "dyamondPointCloud_12-1-2023b_dyamond_co2_anim_globe_orbit_3x3Hyperwall.00200_searchweb.png (320x180) [31.3 KB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a005100/a005196/dyamondPointCloud_12-1-2023b_dyamond_co2_anim_globe_orbit_3x3Hyperwall.00200_web.png",
+      "label": "dyamondPointCloud_12-1-2023b_dyamond_co2_anim_globe_orbit_3x3Hyperwall.00200_web.png (320x180) [31.3 KB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a005100/a005196/dyamondPointCloud_12-1-2023b_dyamond_co2_anim_globe_orbit_3x3Hyperwall.00200_thm.png",
+      "label": "dyamondPointCloud_12-1-2023b_dyamond_co2_anim_globe_orbit_3x3Hyperwall.00200_thm.png (80x40) [3.0 KB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a005100/a005196/dyamondPointCloud_12-1-2023b_dyamond_co2_anim_globe_orbit_2160p30.mp4.hwshow",
+      "label": "dyamondPointCloud_12-1-2023b_dyamond_co2_anim_globe_orbit_2160p30.mp4.hwshow [231 bytes]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a005100/a005196/dyamondPointCloud_3-29-2023a_dyamond_co2_anim_globe_zoom_1080p30.mp4",
+      "label": "dyamondPointCloud_3-29-2023a_dyamond_co2_anim_globe_zoom_1080p30.mp4 (1920x1080) [43.5 MB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a005100/a005196/dyamondPointCloud_3-29-2023a_dyamond_co2_anim_globe_zoom_2160p30.mp4",
+      "label": "dyamondPointCloud_3-29-2023a_dyamond_co2_anim_globe_zoom_2160p30.mp4 (3840x2160) [152.2 MB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a005100/a005196/frames/5760x3240_16x9_30p/dyamondPointCloud_3-29-2023a_dyamond_co2_anim_globe_zoom_3x3hyperwall/",
+      "label": "dyamondPointCloud_3-29-2023a_dyamond_co2_anim_globe_zoom_3x3hyperwall [0 Item(s)]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a005100/a005196/dyamondPointCloud_3-29-2023a_dyamond_co2_anim_globe_zoom_3x3hyperwall.00800_print.jpg",
+      "label": "dyamondPointCloud_3-29-2023a_dyamond_co2_anim_globe_zoom_3x3hyperwall.00800_print.jpg (1024x576) [152.4 KB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a005100/a005196/dyamondPointCloud_3-29-2023a_dyamond_co2_anim_globe_zoom_3x3hyperwall.00800_searchweb.png",
+      "label": "dyamondPointCloud_3-29-2023a_dyamond_co2_anim_globe_zoom_3x3hyperwall.00800_searchweb.png (320x180) [101.2 KB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a005100/a005196/dyamondPointCloud_3-29-2023a_dyamond_co2_anim_globe_zoom_3x3hyperwall.00800_thm.png",
+      "label": "dyamondPointCloud_3-29-2023a_dyamond_co2_anim_globe_zoom_3x3hyperwall.00800_thm.png (80x40) [7.0 KB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a005100/a005196/dyamondPointCloud_3-29-2023a_dyamond_co2_anim_globe_zoom_2160p30.mp4.hwshow",
+      "label": "dyamondPointCloud_3-29-2023a_dyamond_co2_anim_globe_zoom_2160p30.mp4.hwshow [230 bytes]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a005100/a005196/dyamondPointCloud_4-3-2023a_dyamond_co2_anim_globe_zoom_5x3_1080p30.mp4",
+      "label": "dyamondPointCloud_4-3-2023a_dyamond_co2_anim_globe_zoom_5x3_1080p30.mp4 (3200x1080) [42.2 MB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a005100/a005196/frames/9600x3240_16x9_30p/dyamondPointCloud_4-3-2023a_dyamond_co2_anim_globe_zoom_hyperwall5x3/",
+      "label": "dyamondPointCloud_4-3-2023a_dyamond_co2_anim_globe_zoom_hyperwall5x3 [0 Item(s)]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a005100/a005196/frames/9600x3240_16x9_30p/dyamondPointCloud_4-3-2023a_dyamond_co2_anim_globe_zoom_hyperwall5x3_pngs/",
+      "label": "dyamondPointCloud_4-3-2023a_dyamond_co2_anim_globe_zoom_hyperwall5x3_pngs (9600x3240) [1176 Item(s)]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a005100/a005196/dyamondPointCloud_4-3-2023a_dyamond_co2_anim_globe_zoom_hyperwall5x3.00800_print.jpg",
+      "label": "dyamondPointCloud_4-3-2023a_dyamond_co2_anim_globe_zoom_hyperwall5x3.00800_print.jpg (1024x345) [55.7 KB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a005100/a005196/dyamondPointCloud_4-3-2023a_dyamond_co2_anim_globe_zoom_5x3_1080p30.jpg",
+      "label": "dyamondPointCloud_4-3-2023a_dyamond_co2_anim_globe_zoom_5x3_1080p30.jpg (3200x1080) [501.0 KB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a005100/a005196/dyamondPointCloud_4-3-2023a_dyamond_co2_anim_globe_zoom_hyperwall5x3.00800_searchweb.png",
+      "label": "dyamondPointCloud_4-3-2023a_dyamond_co2_anim_globe_zoom_hyperwall5x3.00800_searchweb.png (320x180) [84.5 KB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a005100/a005196/dyamondPointCloud_4-3-2023a_dyamond_co2_anim_globe_zoom_hyperwall5x3.00800_thm.png",
+      "label": "dyamondPointCloud_4-3-2023a_dyamond_co2_anim_globe_zoom_hyperwall5x3.00800_thm.png (80x40) [6.2 KB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a005100/a005196/dyamondPointCloud_1-22-2025a_dyamond_co2_anim_globe_zoomwest_3x3hyperwall_1080p30_2.mp4",
+      "label": "dyamondPointCloud_1-22-2025a_dyamond_co2_anim_globe_zoomwest_3x3hyperwall_1080p30_2.mp4 (1920x1080) [42.6 MB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a005100/a005196/dyamondPointCloud_1-22-2025a_dyamond_co2_anim_globe_zoomwest_3x3hyperwall_3240p30_h265_2.mp4",
+      "label": "dyamondPointCloud_1-22-2025a_dyamond_co2_anim_globe_zoomwest_3x3hyperwall_3240p30_h265_2.mp4 (5760x3240) [159.2 MB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a005100/a005196/frames/5760x3240_16x9_30p/dyamondPointCloud_1-22-2025a_dyamond_co2_anim_globe_zoomwest_3x3hyperwall/",
+      "label": "dyamondPointCloud_1-22-2025a_dyamond_co2_anim_globe_zoomwest_3x3hyperwall (5760x3240) [1177 Item(s)]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a005100/a005196/dyamondPointCloud_1-22-2025a_dyamond_co2_anim_globe_zoomwest_3x3hyperwall.01080_print.jpg",
+      "label": "dyamondPointCloud_1-22-2025a_dyamond_co2_anim_globe_zoomwest_3x3hyperwall.01080_print.jpg (1024x576) [133.1 KB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a005100/a005196/dyamondPointCloud_1-22-2025a_dyamond_co2_anim_globe_zoomwest_3x3hyperwall.01080_searchweb.png",
+      "label": "dyamondPointCloud_1-22-2025a_dyamond_co2_anim_globe_zoomwest_3x3hyperwall.01080_searchweb.png (320x180) [86.7 KB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a005100/a005196/dyamondPointCloud_1-22-2025a_dyamond_co2_anim_globe_zoomwest_3x3hyperwall.01080_web.png",
+      "label": "dyamondPointCloud_1-22-2025a_dyamond_co2_anim_globe_zoomwest_3x3hyperwall.01080_web.png (320x180) [86.7 KB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a005100/a005196/dyamondPointCloud_1-22-2025a_dyamond_co2_anim_globe_zoomwest_3x3hyperwall.01080_thm.png",
+      "label": "dyamondPointCloud_1-22-2025a_dyamond_co2_anim_globe_zoomwest_3x3hyperwall.01080_thm.png [6.1 KB]"
+    },
+    {
+      "url": "https://modis.gsfc.nasa.gov/",
+      "label": "Terra satellite’s MODIS"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/learn/find-data/near-real-time/viirs",
+      "label": "Suomi-NPP satellite’s VIIRS instruments"
+    },
+    {
+      "url": "https://www.nasa.gov/news-release/nasa-analysis-confirms-2023-as-warmest-year-on-record/",
+      "label": "hottest year on record"
+    },
+    {
+      "url": "https://science.nasa.gov/earth/explore/air-quality/",
+      "label": "air quality"
+    },
+    {
+      "url": "https://climate.nasa.gov/vital-signs/carbon-dioxide/?intent=121",
+      "label": "427 parts per million in May 2024"
+    },
+    {
+      "url": "https://earthobservatory.nasa.gov/images/152519/emissions-from-fossil-fuels-continue-to-rise",
+      "label": "here"
+    },
+    {
+      "url": "https://www.ipcc.ch/report/ar6/wg2/",
+      "label": "latest report"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a005100/a005196/dyamondPointCloud_12-4-2023b_dyamond_co2_anim_globe_tilt_1080p30.mp4",
+      "label": "dyamondPointCloud_12-4-2023b_dyamond_co2_anim_globe_tilt_1080p30.mp4 (1920x1080) [24.5 MB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a005100/a005196/frames/5760x3240_16x9_30p/dyamondPointCloud_12-4-2023b_dyamond_co2_anim_globe_tilt_3x3Hyperwall/",
+      "label": "dyamondPointCloud_12-4-2023b_dyamond_co2_anim_globe_tilt_3x3Hyperwall [0 Item(s)]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a005100/a005196/dyamondPointCloud_12-4-2023b_dyamond_co2_anim_globe_tilt_3x3Hyperwall.01085_print.jpg",
+      "label": "dyamondPointCloud_12-4-2023b_dyamond_co2_anim_globe_tilt_3x3Hyperwall.01085_print.jpg (1024x576) [126.5 KB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a005100/a005196/dyamondPointCloud_12-4-2023b_dyamond_co2_anim_globe_tilt_3x3Hyperwall.01085_searchweb.png",
+      "label": "dyamondPointCloud_12-4-2023b_dyamond_co2_anim_globe_tilt_3x3Hyperwall.01085_searchweb.png (320x180) [82.0 KB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a005100/a005196/dyamondPointCloud_12-4-2023b_dyamond_co2_anim_globe_tilt_3x3Hyperwall.01085_web.png",
+      "label": "dyamondPointCloud_12-4-2023b_dyamond_co2_anim_globe_tilt_3x3Hyperwall.01085_web.png (320x180) [82.0 KB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a005100/a005196/dyamondPointCloud_12-4-2023b_dyamond_co2_anim_globe_tilt_3x3Hyperwall.01085_thm.png",
+      "label": "dyamondPointCloud_12-4-2023b_dyamond_co2_anim_globe_tilt_3x3Hyperwall.01085_thm.png (80x40) [6.2 KB]"
+    },
+    {
+      "url": "https://earth.gov/ghgcenter/",
+      "label": "U.S. Greenhouse Gas Center"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a005100/a005196/dyamondCbar_6-27-2024a.png",
+      "label": "dyamondCbar_6-27-2024a.png (1920x1080) [47.6 KB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a005100/a005196/dyamondCbar_6-27-2024a_print.jpg",
+      "label": "dyamondCbar_6-27-2024a_print.jpg (1024x576) [29.3 KB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/search?nasa_science_categories=Earth",
+      "label": "Earth"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/search?keywords=Carbon Dioxide",
+      "label": "Carbon Dioxide"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/search?keywords=Eic (earth information center) display",
+      "label": "Eic (earth information center) display"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/search?keywords=Hyperwall",
+      "label": "Hyperwall"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/search/?people=AJ%20Christensen",
+      "label": "AJ Christensen"
+    },
+    {
+      "url": "https://orcid.org/0000-0002-8711-2317",
+      "label": ""
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/search/?people=Greg%20Shirah",
+      "label": "Greg Shirah"
+    },
+    {
+      "url": "https://orcid.org/0000-0002-7955-9573",
+      "label": ""
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/search/?people=Helen-Nicole%20Kostis",
+      "label": "Helen-Nicole Kostis"
+    },
+    {
+      "url": "https://orcid.org/0009-0002-7913-1128",
+      "label": ""
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/search/?people=Mark%20SubbaRao",
+      "label": "Mark SubbaRao"
+    },
+    {
+      "url": "https://orcid.org/0000-0002-5668-9674",
+      "label": ""
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/search/?people=Laurence%20Schuler",
+      "label": "Laurence Schuler"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/search/?people=Ian%20Jones",
+      "label": "Ian Jones"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/search/?people=Lesley%20Ott",
+      "label": "Lesley Ott"
+    },
+    {
+      "url": "https://orcid.org/0000-0002-0035-9625",
+      "label": ""
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/search/?people=Brad%20Weir",
+      "label": "Brad Weir"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/search/?people=William%20Putman",
+      "label": "William Putman"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/search/?people=Tomohiro%20Oda",
+      "label": "Tomohiro Oda"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/search/?datasets=1193",
+      "label": "See all pages that use this dataset"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/14696/",
+      "label": ""
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/14696/",
+      "label": "NASA + Smithsonian and Greenhouse Gases"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/14631/",
+      "label": ""
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/14631/",
+      "label": "Model Behavior: Visualizing Global CO2"
+    },
+    {
+      "url": "https://www.nasa.gov/",
+      "label": ""
+    },
+    {
+      "url": "https://www.usa.gov/",
+      "label": ""
+    },
+    {
+      "url": "https://www.nasa.gov/about/highlights/HP_Privacy.html",
+      "label": "Privacy Policy and Important Notices"
+    },
+    {
+      "url": "https://www.nasa.gov/multimedia/guidelines/index.html",
+      "label": "Reproduction Guidelines"
+    }
+  ],
+  "elapsed_seconds": 0.922
+}

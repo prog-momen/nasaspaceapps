@@ -1,0 +1,156 @@
+What is earthaccess? - earthaccess
+Skip to content
+earthaccess
+What is earthaccess?
+Initializing search
+earthaccess-dev/earthaccess
+Overview
+API reference
+User guide
+Contributor guide
+earthaccess
+earthaccess-dev/earthaccess
+Overview
+Overview
+Community calendar
+External resources
+About us
+Supported by
+Governance
+Governance
+Decisions
+Decisions
+#231 AWS us-west-2 checking method
+#929 Move or fork to independent organization
+API reference
+API reference
+Modules
+Modules
+Collections
+Collections
+Collection queries
+Collection results
+Collection services
+Granules
+Granules
+Granule queries
+Granule results
+Store
+Store
+Store
+Auth
+Auth
+Auth
+User guide
+User guide
+Quick start
+How-to
+How-to
+Authenticate with Earthdata Login
+Authenticate with Earthdata Login using environment variables
+Authenticate with Earthdata Login using `.netrc`
+Search for datasets using keywords
+Search for datasets by instrument
+Search for data by temporal range
+Search for data using a polygon
+Download data to a local machine
+Stream data directly to xarray
+Get URLs for granules
+Get OPeNDAP URLs for granules
+Search for services
+Tutorials
+Tutorials
+Streaming data from NASA's Earth Surface Minteral Dust Source Investigation (EMIT)
+Using virtual dataset capability to work with TEMPO Level 3 data
+Explanation
+Explanation
+Authentication
+Status
+Search
+Access
+Backwards compatibility
+Remote files and fsspec caching
+Reference
+Reference
+Glossary
+Glossary
+NASA glossary
+Cloud computing terminology
+Contributor guide
+Contributor guide
+Code of conduct
+AI policy
+How-to
+How-to
+Setup dev environment
+Create a Pull Request (PR)
+Release a version
+Be a maintainer
+Triage issues
+Explanation
+Explanation
+Integration tests
+Reference
+Reference
+Naming conventions
+Documentation style guide
+Code style guide
+Welcome to
+earthaccess
+!
+earthaccess
+is a Python library to
+search for
+and
+download
+or
+stream
+NASA Earth science data with just a few lines of code. Want to get started ASAP?
+See our
+quick start guide
+.
+"earthaccess revolutionizes NASA data access by drastically reducing the complexity and code required. Since open science is a collaborative effort involving people from different technical backgrounds, our team took the approach that data analysis can and should be made more inclusive and accessible by reducing the complexities of underlying systems."
+Luis López, an NSIDC software developer and earthaccess creator
+About
+earthaccess
+earthaccess
+is a highly active, open-source, and community-driven library developed by
+NASA DAACs
+, private industry, and the broader NASA data user community.
+NASA Earthdata using `earthaccess` for impactful science. Art by Allison Horst and Openscapes.
+We can use
+earthaccess
+to do impactful science, faster:
+Search data
+: Explore NASA's extensive collection of Earth science data, powered by
+CMR
+.
+Access data
+: Download data to your local machine or stream it directly into your Python scripts through
+fsspec
+.
+Authenticate
+: Manage your
+NASA Earthdata Login (EDL)
+and Earthdata Cloud credentials.
+earthaccess
+is an open-source community effort under an
+MIT license
+.  We welcome contributions to improve
+earthaccess
+.  Please see the
+Contributing Guide
+to learn how to get involved.
+Supported by
+earthaccess
+is supported by
+NASA
+,
+Openscapes
+,
+NSIDC
+, and other organizations.
+See all supporters
+.
+Made with
+Material for MkDocs

@@ -1,0 +1,1298 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr" class="h-100">
+    <head>
+        <meta charset="utf-8">
+        <title>EarthExplorer</title>
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self';script-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com https://ajax.googleapis.com https://maps.googleapis.com https://maps.google.com https://stackpath.bootstrapcdn.com https://cdn.jsdelivr.net https://imsdev.cr.usgs.gov https://ims.cr.usgs.gov https://www.googletagmanager.com https://www.google-analytics.com https://search.usa.gov/ https://www.ssa.gov/ https://dap.digitalgov.gov https://dmiddev.cr.usgs.gov https://dmidit.cr.usgs.gov https://dmidst.cr.usgs.gov https://dmidprod.cr.usgs.gov https://imsdev.cr.usgs.gov https://imsit.cr.usgs.gov https://imsst.cr.usgs.gov https://imsprod.cr.usgs.gov https://unpkg.com https://www.youtube.com;style-src 'self' 'unsafe-inline' https://stackpath.bootstrapcdn.com https://cdn.jsdelivr.net https://ajax.googleapis.com https://imsdev.cr.usgs.gov https://ims.cr.usgs.gov https://www.ssa.gov/ https://dmiddev.cr.usgs.gov https://dmidit.cr.usgs.gov https://dmidst.cr.usgs.gov https://dmidprod.cr.usgs.gov https://imsdev.cr.usgs.gov https://imsit.cr.usgs.gov https://imsst.cr.usgs.gov https://imsprod.cr.usgs.gov https://unpkg.com/leaflet@1.9.4/dist/leaflet.css https://fonts.googleapis.com;img-src 'self' data: https://ajax.googleapis.com https://maps.google.com https://imsdev.cr.usgs.gov https://ims.cr.usgs.gov https://services.arcgisonline.com https://server.arcgisonline.com https://basemap.nationalmap.gov https://*.tile.openstreetmap.org https://www.ssa.gov/ https://dmiddev.cr.usgs.gov https://dmidit.cr.usgs.gov https://dmidst.cr.usgs.gov https://dmidprod.cr.usgs.gov https://imsdev.cr.usgs.gov https://imsit.cr.usgs.gov https://imsst.cr.usgs.gov https://imsprod.cr.usgs.gov https://landsatlook.usgs.gov https://st-usgs-landsat-dds.eros.chs.usgs.gov https://it-usgs-landsat-dds.dev-lsdsdpas.chs.usgs.gov https://it-usgs-landsat-dds.eros.chs.usgs.gov https://a.basemaps.cartocdn.com https://b.basemaps.cartocdn.com https://c.basemaps.cartocdn.com https://d.basemaps.cartocdn.com https://maps.gstatic.com https://www.googletagmanager.com;connect-src 'self' https://ajax.googleapis.com https://maps.google.com https://maps.googleapis.com https://www.google-analytics.com/ https://imsdev.cr.usgs.gov https://ims.cr.usgs.gov https://cdnjs.cloudflare.com https://dmiddev.cr.usgs.gov https://dmidit.cr.usgs.gov https://dmidst.cr.usgs.gov https://dmidprod.cr.usgs.gov https://imsdev.cr.usgs.gov https://imsit.cr.usgs.gov https://imsst.cr.usgs.gov https://imsprod.cr.usgs.gov https://m2mdev.cr.usgs.gov https://m2mdev.cr.usgs.gov https://m2m.cr.usgs.gov https://unpkg.com/esri-leaflet/dist/esri-leaflet.js https://basemaps.arcgis.com https://places.googleapis.com https://dap.digitalgov.gov;font-src 'self' https://imsdev.cr.usgs.gov https://ims.cr.usgs.gov https://dmiddev.cr.usgs.gov https://dmidit.cr.usgs.gov https://dmidst.cr.usgs.gov https://dmidprod.cr.usgs.gov https://imsdev.cr.usgs.gov https://imsit.cr.usgs.gov https://imsst.cr.usgs.gov https://imsprod.cr.usgs.gov https://fonts.gstatic.com;object-src 'none';media-src 'self';frame-src 'none';child-src 'self';form-action 'self';base-uri 'self';worker-src 'self' blob:;manifest-src 'none'">
+        <meta name="viewport" content="width&#x3D;device-width,&#x20;initial-scale&#x3D;1.0">
+<meta name="description" content="Query&#x20;and&#x20;order&#x20;satellite&#x20;images,&#x20;aerial&#x20;photographs,&#x20;and&#x20;cartographic&#x20;products&#x20;through&#x20;the&#x20;U.S.&#x20;Geological&#x20;Survey">
+<meta name="keywords" content="U.S.&#x20;Geological&#x20;Survey,USGS,National&#x20;Mapping&#x20;Division,NMD,USA,&#x0A;&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;United&#x20;States,Territories,Antarctica,cartographic,cartography,geographic,&#x0A;&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;geography,geospatial&#x20;data,geographic&#x20;information&#x20;system,GIS,mapping,maps,&#x0A;&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;aerial&#x20;photographs,satellite&#x20;imagery,digital&#x20;elevation&#x20;model,&#x0A;&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;digital&#x20;raster&#x20;graphic,digital&#x20;orthophoto,topographic,topography,&#x0A;&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;geographic&#x20;names,earthscience,data,geospatial&#x20;metadata,geospatial&#x20;data&#x20;standards,&#x0A;&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;landsat,GNIS,NAPP,DEM,DRG,DOQ,NSDI,Earth&#x20;Explorer,&#x20;EarthExplorer">
+<meta name="author" content="USGS&#x20;-&#x20;U.S.&#x20;Geological&#x20;Survey">
+<meta name="publisher" content="USGS&#x20;-&#x20;U.S.&#x20;Geological&#x20;Survey">
+<meta name="classification" content="Government">
+<meta name="robots" content="ALL">
+<meta name="distribution" content="Global">
+<meta name="rating" content="Safe&#x20;For&#x20;Kids">
+<meta name="copyright" content="None">
+<meta name="language" content="English">
+<meta name="doc-type" content="Government">
+<meta name="doc-class" content="Living&#x20;Document">
+<meta name="doc-rights" content="Public&#x20;Domain">
+<meta http-equiv="X-UA-Compatible" content="IE&#x3D;edge">
+<meta http-equiv="Content-Type" content="text&#x2F;html&#x3B;&#x20;charset&#x3D;utf-8">
+        <!-- Le styles -->
+        <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2032%2032%22%3E%3Crect%20width%3D%2232%22%20height%3D%2232%22%20rx%3D%224%22%20fill%3D%22%231B4F8A%22%2F%3E%3Ccircle%20cx%3D%2216%22%20cy%3D%2216%22%20r%3D%2212.2%22%20fill%3D%22%232471A3%22%2F%3E%3Cg%20clip-path%3D%22url%28%23fc%29%22%20stroke%3D%22rgba%28255%2C255%2C255%2C0.28%29%22%20stroke-width%3D%220.77%22%20fill%3D%22none%22%3E%3Cellipse%20cx%3D%2216%22%20cy%3D%2216%22%20rx%3D%2212.2%22%20ry%3D%224.03%22%2F%3E%3Cellipse%20cx%3D%2216%22%20cy%3D%229.66%22%20rx%3D%2212.2%22%20ry%3D%222.69%22%2F%3E%3Cellipse%20cx%3D%2216%22%20cy%3D%2222.34%22%20rx%3D%2212.2%22%20ry%3D%222.69%22%2F%3E%3Cellipse%20cx%3D%2216%22%20cy%3D%2216%22%20rx%3D%224.64%22%20ry%3D%2212.2%22%2F%3E%3Cellipse%20cx%3D%2216%22%20cy%3D%2216%22%20rx%3D%228.78%22%20ry%3D%2212.2%22%2F%3E%3C%2Fg%3E%3Cdefs%3E%3CclipPath%20id%3D%22fc%22%3E%3Ccircle%20cx%3D%2216%22%20cy%3D%2216%22%20r%3D%2212.2%22%2F%3E%3C%2FclipPath%3E%3C%2Fdefs%3E%3Ccircle%20cx%3D%2216%22%20cy%3D%2216%22%20r%3D%2212.2%22%20fill%3D%22none%22%20stroke%3D%22rgba%28255%2C255%2C255%2C0.45%29%22%20stroke-width%3D%220.7%22%2F%3E%3Ctext%20x%3D%2216%22%20y%3D%2221%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%20Black%2CArial%2Csans-serif%22%20font-weight%3D%22900%22%20font-size%3D%229.92%22%20fill%3D%22white%22%20paint-order%3D%22stroke%22%20stroke%3D%22rgba%280%2C0%2C0%2C0.25%29%22%20stroke-width%3D%221.28%22%20stroke-linejoin%3D%22round%22%3EEE%3C%2Ftext%3E%3C%2Fsvg%3E"><link href="https&#x3A;&#x2F;&#x2F;ims.cr.usgs.gov&#x2F;lib&#x2F;bootstrap&#x2F;5.3.8&#x2F;css&#x2F;bootstrap.min.css" media="screen" rel="stylesheet" type="text&#x2F;css">
+<link href="https&#x3A;&#x2F;&#x2F;ims.cr.usgs.gov&#x2F;lib&#x2F;web&#x2F;uswds.css" media="screen" rel="stylesheet" type="text&#x2F;css">
+<link href="&#x2F;css&#x2F;style.css&#x3F;jb&#x3D;2026-11-14" media="screen" rel="stylesheet" type="text&#x2F;css">
+<link href="&#x2F;css&#x2F;common.css&#x3F;jb&#x3D;2026-11-14" media="screen" rel="stylesheet" type="text&#x2F;css">
+<link href="https&#x3A;&#x2F;&#x2F;ims.cr.usgs.gov&#x2F;font-awesome&#x2F;exp&#x2F;css&#x2F;all.min.css" media="screen" rel="stylesheet" type="text&#x2F;css">
+<link href="https&#x3A;&#x2F;&#x2F;ims.cr.usgs.gov&#x2F;lib&#x2F;web&#x2F;explorer_favicon.ico" rel="shortcut&#x20;icon" type="image&#x2F;vnd.microsoft.icon">
+        <!-- Scripts -->
+        <script type="text/javascript">
+            //Set some base confiugrations that all applications will be interested in
+            LaminasCore = {
+                baseUrl: "/"
+            };
+
+            //Frame buster - must have this
+            if (top != self) {
+                top.location = self.location;
+            }
+        </script>
+
+                    <!--NEW G4 Google analytics added--keep both versions until test results-->
+            <!---HAS to be in head tag to work, no longer allowed in footer-->
+            <!-- Global site tag (gtag.js) - Google Analytics -->
+            <script async src="https://www.googletagmanager.com/gtag/js?id=G-71JPYV1CCS"></script>
+            <script>
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', 'G-71JPYV1CCS');
+            </script>
+
+            <!-- Google Tag Manager -->
+            <script>(function(w,d,s,l,i){
+                    w[l]=w[l]||[];
+                    w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});
+                    var f=d.getElementsByTagName(s)[0],
+                    j=d.createElement(s),
+                    dl=l!='dataLayer'?'&l='+l:'';
+                    j.async=true;
+                    j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;
+                    f.parentNode.insertBefore(j,f);
+                })(window,document,'script','dataLayer','GTM-TKQR8KP');
+            </script>
+            <!-- End Google Tag Manager -->
+
+        
+        <script  src="https&#x3A;&#x2F;&#x2F;ims.cr.usgs.gov&#x2F;lib&#x2F;jquery&#x2F;3.7.1&#x2F;js&#x2F;jquery.min.js"></script>
+<script  src="https&#x3A;&#x2F;&#x2F;ims.cr.usgs.gov&#x2F;lib&#x2F;bootstrap&#x2F;5.3.8&#x2F;js&#x2F;bootstrap.bundle.min.js"></script>    </head>
+    <body class="d-flex flex-column h-100">
+        <!-- BEGIN USGS Applications Header Template -->
+                    <!-- Google Tag Manager (noscript) -->
+            <!--Added sandbox for security flag--will see if resolves the low security flag-->
+            <noscript><iframe sandbox src="https://www.googletagmanager.com/ns.html?id=GTM-TKQR8KP"
+                height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+            <!-- End Google Tag Manager (noscript) -->
+        
+        <script>
+                    !function(){"use strict";var n,e="usa-js-loading";function t(){document.documentElement.classList.remove(e)}document.documentElement.classList.add(e),n=setTimeout(t,8e3),window.addEventListener("load",function e(){window.uswdsPresent&&(clearTimeout(n),t(),window.removeEventListener("load",e,!0))},!0)}();
+                    //# sourceMappingURL=uswds-init.min.js.map
+                  </script>        <section class="usa-banner" aria-label="Official website of the United States government">
+            <div class="usa-accordion">
+                <header class="usa-banner__header">
+                    <div class="usa-banner__inner">
+                        <div class="grid-col-auto">
+                            <img aria-hidden="true" class="usa-banner__header-flag" src="https://ims.cr.usgs.gov/lib/web/us_flag_small.png" alt="U.S. flag" />
+                        </div>
+                        <div class="grid-col-fill tablet:grid-col-auto" aria-hidden="true">
+                            <p class="usa-banner__header-text">
+                                An official website of the United States government
+                            </p>
+                            <p class="usa-banner__header-action">Here’s how you know</p>
+                        </div>
+                        <button type="button" class="usa-accordion__button usa-banner__button" aria-expanded="false" aria-controls="gov-banner-default">
+                            <span class="usa-banner__button-text">Here’s how you know</span>
+                        </button>
+                    </div>
+                </header>
+                <div class="usa-banner__content usa-accordion__content" id="gov-banner-default" hidden="">
+                    <div class="grid-row grid-gap-lg">
+                        <div class="usa-banner__guidance tablet:grid-col-6">
+                            <img class="usa-banner__icon usa-media-block__img" src="https://ims.cr.usgs.gov/lib/web/icon-dot-gov.svg" role="img" alt="Dot Gov icon" aria-hidden="true" />
+                            <div class="usa-media-block__body">
+                                <p>
+                                    <strong>Official websites use .gov</strong><br />A
+                                    <strong>.gov</strong> website belongs to an official government organization in the United States.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="usa-banner__guidance tablet:grid-col-6">
+                            <img class="usa-banner__icon usa-media-block__img" src="https://ims.cr.usgs.gov/lib/web/icon-https.svg" role="img" alt="HTTPS Icon" aria-hidden="true" />
+                            <div class="usa-media-block__body">
+                                <p>
+                                    <strong>Secure .gov websites use HTTPS</strong><br />A
+                                    <strong>lock</strong> (
+                                    <span class="icon-lock"><svg xmlns="http://www.w3.org/2000/svg" width="52" height="64" viewBox="0 0 52 64" class="usa-banner__lock-image" role="img" aria-labelledby="banner-lock-description-default" focusable="false">
+                                        <title id="banner-lock-title-default">Lock</title>
+                                        <desc id="banner-lock-description-default">Locked padlock icon</desc>
+                                        <path fill="#000000" fill-rule="evenodd" d="M26 0c10.493 0 19 8.507 19 19v9h3a4 4 0 0 1 4 4v28a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4V32a4 4 0 0 1 4-4h3v-9C7 8.507 15.507 0 26 0zm0 8c-5.979 0-10.843 4.77-10.996 10.712L15 19v9h22v-9c0-6.075-4.925-11-11-11z"></path>
+                                        </svg> </span>) or <strong>https://</strong> means you’ve safely connected to the .gov website. Share sensitive information only on official, secure websites.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <header id="navbar" class="header-nav" role="banner">
+            <div class="tmp-container">
+                <!-- primary navigation bar -->
+                <!-- search bar -->
+                <div class="header-search">
+                    <a class="logo-header" href="https://www.usgs.gov" title="USGS Home">
+                        <img class="img" src="https://ims.cr.usgs.gov/lib/web/usgs-logo.png?jb=2026-11-14" alt="Home" />
+                    </a>
+                                    </div>
+                <!-- end search bar -->
+            </div>
+            <!-- end header-container -->
+        </header>
+        <!-- END USGS Applications Header Template -->
+
+        <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark" style="overflow: visible;">
+            <a class="navbar-brand" href="/">EarthExplorer</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-menu" aria-controls="navbar-menu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-between" id="navbar-menu">
+                
+                <ul class="navbar-nav me-auto">
+    </ul>
+
+                <!-- System Notifications -->
+                                
+                <ul class="navbar-nav">
+                        <li  class="nav-item">
+                                    <a class="nav-link " href="/help/help/"  target="_blank" >
+                                Help                                </a>
+            </li>
+                                <li  class="nav-item">
+                                    <a class="nav-link " href="/feedback"  target="_blank" >
+                                Feedback                                </a>
+            </li>
+                                <li id="authMenuLink" class="nav-item">
+                                      
+                    <a class="nav-link " href="/login" aria-label="Login">
+                                Login                                </a>
+            </li>
+            </ul>
+                                    <script type="text/javascript">
+    DevConsole = {
+        messageTypes: {},
+        logMessage: function(messageType, messageContents)
+        {
+            return;
+        },
+        init: function()
+        {
+
+        }
+    };
+</script>                            </div>
+        </nav>
+
+        
+        <div id="pageContentLayoutContainer" class="container-fluid">
+            
+<link href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.css" rel="stylesheet" type="text/css" />
+<link href="https://ims.cr.usgs.gov/lib/treeview/jquery.treeview.css" rel="stylesheet" type="text/css" />
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.ui-contextmenu/1.18.1/jquery.ui-contextmenu.min.js"></script>
+
+<link href="/css/ee.css" rel="stylesheet" text="text/css"></style>
+<link href="/css/custom.css" rel="stylesheet" text="text/css"></style>
+
+<link rel="stylesheet" href="https://ims.cr.usgs.gov/lib/leaflet/1.9.4/leaflet.css" />
+<script src="https://ims.cr.usgs.gov/lib/leaflet/1.9.4/leaflet.js" type="text/javascript"></script>
+
+<script src="https://ims.cr.usgs.gov/lib/leaflet/lib/Leaflet.ImageOverlay.Rotated.js" type="text/javascript"></script>
+<script src="https://ims.cr.usgs.gov/lib/leaflet/lib/Wrapped.Polygon.js" type="text/javascript"></script>
+<script src="https://ims.cr.usgs.gov/lib/leaflet/lib/tileLayer.wms.dmid.js" type="text/javascript"></script>
+<script src="https://ims.cr.usgs.gov/lib/galleria/galleria.js" type="text/javascript"></script>
+<script src="https://ims.cr.usgs.gov/lib/treeview/jquery.treeview.js" type="text/javascript"></script>
+
+<!-- Esri Leaflet and Esri Leaflet Vector -->
+ <script src="https://ims.cr.usgs.gov/lib/leaflet/lib/esri-leaflet.js" type="text/javascript"></script>
+ <script src="https://ims.cr.usgs.gov/lib/leaflet/lib/esri-leaflet-vector.js" type="text/javascript"></script>
+
+
+<script src="/js/include/EE.js?jb=2026-11-14" type="text/javascript"></script>
+
+<script type="text/javascript">
+    EE.auth = false;
+    EE.defaultUrl = '/';
+    EE.wmsBasepath = '';
+</script>
+
+<script src="/js/include/newControls.js?jb=2026-11-14" type="text/javascript"></script>
+<script src="/js/include/load.js?jb=2026-11-14" type="text/javascript"></script>
+
+<script src="https://ims.cr.usgs.gov/lib/blockui/jquery.blockui.js" type="text/javascript"></script>
+<script src="https://ims.cr.usgs.gov/lib/sticky/sticky.min.js" type="text/javascript"></script>
+
+<script>
+  (g=>{var h,a,k,p="The Google Maps JavaScript API",c="google",l="importLibrary",q="__ib__",m=document,b=window;b=b[c]||(b[c]={});var d=b.maps||(b.maps={}),r=new Set,e=new URLSearchParams,u=()=>h||(h=new Promise(async(f,n)=>{await (a=m.createElement("script"));e.set("libraries",[...r]+"");for(k in g)e.set(k.replace(/[A-Z]/g,t=>"_"+t[0].toLowerCase()),g[k]);e.set("callback",c+".maps."+q);a.src=`https://maps.${c}apis.com/maps/api/js?`+e;d[q]=f;a.onerror=()=>h=n(Error(p+" could not load."));a.nonce=m.querySelector("script[nonce]")?.nonce||"";m.head.append(a)}));d[l]?console.warn(p+" only loads once. Ignoring:",g):d[l]=(f,...n)=>r.add(f)&&u().then(()=>d[l](f,...n))})({
+    key: "AIzaSyDU_1sSZAxKSZvwF_jq-5fw-_hbSIxaDT8",
+    v: "weekly",
+    // Use the 'v' parameter to indicate the version to use (weekly, beta, alpha, etc.).
+    // Add other bootstrap parameters as needed, using camel case.
+  });
+</script>
+
+
+<script type="text/javascript">
+    
+    $(document).ready(function () {
+        EE.maps.settings.areaOfInterest.strokeColor = '#ff0000';
+        EE.maps.settings.areaOfInterest.strokeOpacity = 80 / 100;
+        EE.maps.settings.areaOfInterest.strokeWeight = '2';
+        EE.maps.settings.areaOfInterest.fillColor = '#ff0000';
+        EE.maps.settings.areaOfInterest.fillOpacity = 35 / 100;
+        
+                    EE.maps.polygon.clear();
+            EE.maps.polygon.redraw(true);
+        
+        
+        });
+</script>
+
+<div id="wrapper" class="clearfix">
+        <div id="mapWithControls">
+        <div id="cloakingSession">
+                    </div>
+        <script type="text/javascript">
+    EE.verbiage = {
+        collectionType: 'Data Set'
+    };
+</script>
+    <div id="left-col">
+
+        
+        <div id="tabs" class="page-tabs unselectable">
+            <div id="tab1" class="tab selected" data-tab="1" tabindex=0>Search Criteria</div>
+            <div id="tab2" class="tab " data-tab="2" tabindex=0>Data Sets</div>
+            <div id="tab3" class="tab disabled" data-tab="3">Additional Criteria</div>
+            <div id="tab4" class="tab disabled" data-tab="4">Results</div>
+        </div>
+
+        <div class="expand">
+
+        <!--<div id="dataforms" class="clearfix"></div>-->
+
+<!--
+   NEW HIDDEN SETTINGS!
+-->
+
+    <input type="hidden" id="activeTabs" title="Active Tabs" name="activeTabs" value="1 2" />
+    <input type="hidden" id="currentTab" title="Current Tab" name="currentTab" value="1" />
+    <input type="hidden" id="activeDataSet" title="Active DataSet" name="activeDataSet" value="-1" />
+    <input type="hidden" id="monthsSelected" title="Months Selected" name="monthsSelected" value="1,2,3,4,5,6,7,8,9,10,11,12" />
+    <input type="hidden" id="polygonType" title="Polygon Type" name="polygonType" value="polygon" />
+    <input type="hidden" id="searchType" title="Search Type" name="searchType" value="Std" />
+
+<!--
+===================================
+ TAB ONE
+===================================
+-->
+<div id="tab1data" class="tabdata" >
+    <h3>1. Enter Search Criteria</h3>
+
+    <p class="description">
+    	To narrow your search area: type in an address or place name,
+        enter coordinates or click the map to define your search area
+        (for advanced map tools, view the
+        <a target="_blank" class="link-underline-secondary link-underline-opacity-0" href='/help/searchCriteria'>help documentation</a>),
+        and/or choose a date range.
+    </p>
+
+
+    <div id="geoTabs" class="control-tabs unselectable clearfix">
+        <div id="tabGeocoder" class="tab selected" tabindex=0>Geocoder</div>
+        <div id="tabUpload" class="tab" title="Upload your own polygon via GeoJSON or KML or Shapefile" tabindex=0>GeoJSON/KML/Shapefile Upload</div>
+    </div>
+    <div class="control-container">
+        <div id="tabGeocoderForm" class="geoForm">
+            <label for="geocoderSelection">Select a Geocoding Method</label>
+            <select id="geocoderSelection">
+                <option value="tabFeature">Feature (GNIS)</option>
+                                <option value="tabPathRow">Path/Row</option>
+            </select>
+
+            <div id="geocodingContainer">
+                
+                <div id="tabPathRowForm" class="geocodeForm">
+                    <div id="wrsTypeSet" style="margin-bottom: 6px;">
+                        <fieldset>
+                            <legend style="display:None;">Set WRS Type</legend>
+                            <label for="wrsTypePoint">Point</label>
+                            <input id="wrsTypePoint" type="radio" value="Point" name="wrsType" checked="checked" />
+                            <label for="wrsTypePolygon" style="margin-left:-5px;">Polygon</label>
+                            <input id="wrsTypePolygon" type="radio" value="Polygon" name="wrsType" />
+                        </fieldset>
+                    </div>
+
+                    <div id="wrsInputs">
+                        <label for="typeAddress">Type:</label>
+                        <select id="typeAddress" class="pathRowAddress" name="typeAddress">
+                            <option value="WRS2">WRS2</option>
+                            <option value="WRS1">WRS1</option>
+                        </select>
+
+                        <label for="pathAddress">Path:</label>
+                        <input type="text" id="pathAddress" name="pathAddress" size="3" maxlength="3" />
+                        <label for="rowAddress">Row:</label>
+                        <input type="text" id="rowAddress" class="pathRowAddress" name="rowAddress" size="3" maxlength="3" />
+                    </div>
+                </div>
+
+                <div id="tabFeatureForm" class="geocodeForm">
+                    <cite>
+                        <strong>Search Limits:</strong> The search result limit is 100 records; select a Country, Feature Class, and/or Feature Type to reduce your chances of exceeding this limit.
+                    </cite>
+
+                    <div id="featureTypeSet" style="margin-bottom:6px;">
+                        <fieldset>
+                            <legend style="display:None;">Feature Type</legend>
+                            <label for="featureTypeUS">US Features</label>
+                            <input id="featureTypeUS" type="radio" value="US" name="featureType" checked="checked" />
+                            <label for="featureTypeWorld" style="margin-left:-5px;">World Features</label>
+                            <input id="featureTypeWorld" type="radio" value="World" name="featureType" />
+                        </fieldset>
+                    </div>
+
+                    <span id="featureFormElements">
+                        <label for="featureName">Feature Name</label>
+                        <input type="text" id="featureName" name="featureName" placeholder="(use &#37; as wildcard)" />
+
+                        <span id="featureFormElementsUS">
+                            <label for="featureUSState">State</label>
+                            <select name="featureUSState" id="featureUSState">
+                                <option value=''>All</option>
+                                <option value='AL'>ALABAMA</option><option value='AK'>ALASKA</option><option value='AS'>AMERICAN SAMOA</option><option value='AZ'>ARIZONA</option><option value='AR'>ARKANSAS</option><option value='CA'>CALIFORNIA</option><option value='CO'>COLORADO</option><option value='CT'>CONNECTICUT</option><option value='DE'>DELAWARE</option><option value='DC'>DISTRICT OF COLUMBIA</option><option value='FM'>FEDERATED STATES OF MICRONESIA</option><option value='FL'>FLORIDA</option><option value='GA'>GEORGIA</option><option value='GU'>GUAM</option><option value='HI'>HAWAII</option><option value='ID'>IDAHO</option><option value='IL'>ILLINOIS</option><option value='IN'>INDIANA</option><option value='IA'>IOWA</option><option value='KS'>KANSAS</option><option value='KY'>KENTUCKY</option><option value='LA'>LOUISIANA</option><option value='ME'>MAINE</option><option value='MH'>MARSHALL ISLANDS</option><option value='MD'>MARYLAND</option><option value='MA'>MASSACHUSETTS</option><option value='MI'>MICHIGAN</option><option value='MN'>MINNESOTA</option><option value='MS'>MISSISSIPPI</option><option value='MO'>MISSOURI</option><option value='MT'>MONTANA</option><option value='NE'>NEBRASKA</option><option value='NV'>NEVADA</option><option value='NH'>NEW HAMPSHIRE</option><option value='NJ'>NEW JERSEY</option><option value='NM'>NEW MEXICO</option><option value='NY'>NEW YORK</option><option value='NC'>NORTH CAROLINA</option><option value='ND'>NORTH DAKOTA</option><option value='MP'>NORTHERN MARIANA ISLANDS</option><option value='OH'>OHIO</option><option value='OK'>OKLAHOMA</option><option value='OR'>OREGON</option><option value='PW'>PALAU</option><option value='PA'>PENNSYLVANIA</option><option value='PR'>PUERTO RICO</option><option value='RI'>RHODE ISLAND</option><option value='SC'>SOUTH CAROLINA</option><option value='SD'>SOUTH DAKOTA</option><option value='TN'>TENNESSEE</option><option value='TX'>TEXAS</option><option value='UM'>U.S. MINOR OUTLYING ISLANDS</option><option value='UT'>UTAH</option><option value='VT'>VERMONT</option><option value='VA'>VIRGINIA</option><option value='VI'>VIRGIN ISLANDS</option><option value='WA'>WASHINGTON</option><option value='WV'>WEST VIRGINIA</option><option value='WI'>WISCONSIN</option><option value='WY'>WYOMING</option>                            </select>
+
+                            <label for="featureUSType">Feature Type</label>
+                            <select name="featureUSType" id="featureUSType">
+                                <option value=''>All</option>
+                                <option value='POPULATED PLACE'>PPL*CITY*POPULATED PLACE*PPL*SETTLEMENT*TOWN*VILLAGE</option><option value='ZIP CODE'>ZIP CODE (5 digit)</option><option value='CIVIL'>BOROUGH*CIVIL*COUNTY*MINICIPIO*PARISH*TOWN*TOWNSHIP</option><option value='ARCH'>ARCH*BRIDGE*NATURAL BRIDGE*SEA ARCH</option><option value='AREA'>AREA*BADLANDS*BARREN*DELTA*FAN*GARDEN</option><option value='ARROYO'>ARROYO*COULEE*DRAW*GULLY*WASH</option><option value='BAR'>BAR*LEDGE*REEF*SANDBAR*SHOAL*SPIT</option><option value='BASIN'>AMPHITHEATER*BASIN*CIRQUE*PIT*SINK</option><option value='BAY'>ARM*BAY*BIGHT*COVE*ESTUARY*GOLF*INLET*SOUND</option><option value='BEACH'>BEACH*COAST*SHORE*STRAND</option><option value='BEND'>BEND*BOTTOM*LOOP*MEANDER</option><option value='CANAL'>CANAL*DITCH*LATERAL</option><option value='CAPE'>CAPE*LEA*NECK*PENINSULA*POINT</option><option value='CHANNEL'>CHANNEL*PASSAGE*REACH*STRAIT*THOROUGHFARE*THROUGHFARE</option><option value='CLIFF'>BLUFF*CLIFF*CRAG*HEAD*HEADLAND*NOSE*PALISADES...</option><option value='CRATER'>CALDERA*CRATER*LUA</option><option value='CROSSING'>CROSSING*OVERPASS*UNDERPASS</option><option value='FALLS'>CASCADE*CATARACT*FALLS*WATERFALL</option><option value='FLAT'>CLEARING*FLAT*GLADE*PLAYA</option><option value='GAP'>COL*GAP*NOTCH*PASS*SADDLE*WATER GAP*WIND GAP</option><option value='GLACIER'>GLACIER*ICEFIELD*ICE PATCH*SNOW PATCH</option><option value='GUT'>CREEK*INLET*SLOUGH</option><option value='ISLAND'>ARCHIPELAGO*ATOLL*CAY*HAMMOCK*HUMMOCK*ISLA*ISLE*KEY...</option><option value='ISTHMUS'>ISTHMUS</option><option value='LAKE'>BACKWTR*LAC*LAGOON*LAGUNA*LAKE*POND*POOL*RESACA</option><option value='LAVA'>KEPULA*LAVA*LAVA FLOW</option><option value='LEVEE'>BANK*BERM*LEVEE</option><option value='MILITARY'>MILITARY</option><option value='BENCH'>BENCH*LEVEL</option><option value='PILLAR'>CHIMNEY*MONUMENT*PILLAR*PINNACLE*POHAKU*ROCK TOWER</option><option value='PLAIN'>GRASSLAND*HIGHLAND*KULA*PLAIN*PLATEAU*UPLAND</option><option value='RANGE'>CORDILLERA*RANGE*SIERRA</option><option value='RAPIDS'>RAPIDS*RIFFLE*RIPPLE</option><option value='RESERVOIR'>LAKE*RESERVOIR*TANK</option><option value='RIDGE'>CREST*CUESTA*ESCARPMENT*HOGBACK*LAE*RIDGE*RIM*SPUR</option><option value='SEA'>GULF*OCEAN*SEA</option><option value='SLOPE'>GRADE*PITCH*SLOPE</option><option value='SPRING'>SEEP*SPRING</option><option value='STREAM'>ANABRANCH*AWAWA*BAYOU*BRANCH*BROOK*CREEK*FORK...</option><option value='SUMMIT'>AHU*BERG*BALD*BUTTE*CERRO*COLINA*CONE*CUMBRE*DOME...</option><option value='SWAMP'>BOG*CIENEGA*MARAIS*MARSH*POCOSIN*SWAMP</option><option value='VALLEY'>BARRANCA*CANYON*CHASM*COVE*DRAW*GLEN*GORGE*GULCH*GULF</option><option value='WOODS'>FOREST*NAT. FOREST*NAT. GRASSLANDS*STATE FOREST*WOODS</option>                            </select>
+                        </span>
+
+                        <span id="featureFormElementsWorld">
+                            <label for="featureWorldCountry">Country</label>
+                            <select name="featureWorldCountry" id="featureWorldCountry">
+                                <option value=''>All</option>
+                                <option value='AF'>AFGHANISTAN</option><option value='AX'>ÅLAND ISLANDS</option><option value='AL'>ALBANIA</option><option value='DZ'>ALGERIA</option><option value='AS'>AMERICAN SAMOA</option><option value='AD'>ANDORRA</option><option value='AO'>ANGOLA</option><option value='AI'>ANGUILLA</option><option value='AQ'>ANTARCTICA</option><option value='AG'>ANTIGUA AND BARBUDA</option><option value='AR'>ARGENTINA</option><option value='AM'>ARMENIA</option><option value='AW'>ARUBA</option><option value='AU'>AUSTRALIA</option><option value='AT'>AUSTRIA</option><option value='AZ'>AZERBAIJAN</option><option value='BS'>BAHAMAS</option><option value='BH'>BAHRAIN</option><option value='BD'>BANGLADESH</option><option value='BB'>BARBADOS</option><option value='BY'>BELARUS</option><option value='BE'>BELGIUM</option><option value='BZ'>BELIZE</option><option value='BJ'>BENIN</option><option value='BM'>BERMUDA</option><option value='BT'>BHUTAN</option><option value='BO'>BOLIVIA, PLURINATIONAL STATE OF</option><option value='BQ'>BONAIRE, SINT EUSTATIUS AND SABA</option><option value='BA'>BOSNIA AND HERZEGOVINA</option><option value='BW'>BOTSWANA</option><option value='BV'>BOUVET ISLAND</option><option value='BR'>BRAZIL</option><option value='IO'>BRITISH INDIAN OCEAN TERRITORY</option><option value='BN'>BRUNEI DARUSSALAM</option><option value='BG'>BULGARIA</option><option value='BF'>BURKINA FASO</option><option value='BI'>BURUNDI</option><option value='CV'>CABO VERDE</option><option value='KH'>CAMBODIA</option><option value='CM'>CAMEROON</option><option value='CA'>CANADA</option><option value='KY'>CAYMAN ISLANDS</option><option value='CF'>CENTRAL AFRICAN REPUBLIC</option><option value='TD'>CHAD</option><option value='CL'>CHILE</option><option value='CN'>CHINA</option><option value='CX'>CHRISTMAS ISLAND</option><option value='CC'>COCOS (KEELING) ISLANDS</option><option value='CO'>COLOMBIA</option><option value='KM'>COMOROS</option><option value='CG'>CONGO</option><option value='CD'>CONGO, THE DEMOCRATIC REPUBLIC OF THE</option><option value='CK'>COOK ISLANDS</option><option value='CR'>COSTA RICA</option><option value='CI'>CÔTE D'IVOIRE</option><option value='HR'>CROATIA</option><option value='CU'>CUBA</option><option value='CW'>CURAÇAO</option><option value='CY'>CYPRUS</option><option value='CZ'>CZECHIA</option><option value='DK'>DENMARK</option><option value='DJ'>DJIBOUTI</option><option value='DM'>DOMINICA</option><option value='DO'>DOMINICAN REPUBLIC</option><option value='EC'>ECUADOR</option><option value='EG'>EGYPT</option><option value='SV'>EL SALVADOR</option><option value='GQ'>EQUATORIAL GUINEA</option><option value='ER'>ERITREA</option><option value='EE'>ESTONIA</option><option value='SZ'>ESWATINI</option><option value='ET'>ETHIOPIA</option><option value='FK'>FALKLAND ISLANDS (MALVINAS)</option><option value='FO'>FAROE ISLANDS</option><option value='FJ'>FIJI</option><option value='FI'>FINLAND</option><option value='FR'>FRANCE</option><option value='GF'>FRENCH GUIANA</option><option value='PF'>FRENCH POLYNESIA</option><option value='TF'>FRENCH SOUTHERN TERRITORIES</option><option value='GA'>GABON</option><option value='GM'>GAMBIA</option><option value='GE'>GEORGIA</option><option value='DE'>GERMANY</option><option value='GH'>GHANA</option><option value='GI'>GIBRALTAR</option><option value='GR'>GREECE</option><option value='GL'>GREENLAND</option><option value='GD'>GRENADA</option><option value='GP'>GUADELOUPE</option><option value='GU'>GUAM</option><option value='GT'>GUATEMALA</option><option value='GG'>GUERNSEY</option><option value='GN'>GUINEA</option><option value='GW'>GUINEA-BISSAU</option><option value='GY'>GUYANA</option><option value='HT'>HAITI</option><option value='HM'>HEARD ISLAND AND MCDONALD ISLANDS</option><option value='VA'>HOLY SEE (VATICAN CITY STATE)</option><option value='HN'>HONDURAS</option><option value='HK'>HONG KONG</option><option value='HU'>HUNGARY</option><option value='IS'>ICELAND</option><option value='IN'>INDIA</option><option value='ID'>INDONESIA</option><option value='IR'>IRAN, ISLAMIC REPUBLIC OF</option><option value='IQ'>IRAQ</option><option value='IE'>IRELAND</option><option value='IM'>ISLE OF MAN</option><option value='IL'>ISRAEL</option><option value='IT'>ITALY</option><option value='JM'>JAMAICA</option><option value='JP'>JAPAN</option><option value='JE'>JERSEY</option><option value='JO'>JORDAN</option><option value='KZ'>KAZAKHSTAN</option><option value='KE'>KENYA</option><option value='KI'>KIRIBATI</option><option value='KP'>KOREA, DEMOCRATIC PEOPLE'S REPUBLIC OF</option><option value='KR'>KOREA, REPUBLIC OF</option><option value='KW'>KUWAIT</option><option value='KG'>KYRGYZSTAN</option><option value='LA'>LAO PEOPLE'S DEMOCRATIC REPUBLIC</option><option value='LV'>LATVIA</option><option value='LB'>LEBANON</option><option value='LS'>LESOTHO</option><option value='LR'>LIBERIA</option><option value='LY'>LIBYA</option><option value='LI'>LIECHTENSTEIN</option><option value='LT'>LITHUANIA</option><option value='LU'>LUXEMBOURG</option><option value='MO'>MACAO</option><option value='MG'>MADAGASCAR</option><option value='MW'>MALAWI</option><option value='MY'>MALAYSIA</option><option value='MV'>MALDIVES</option><option value='ML'>MALI</option><option value='MT'>MALTA</option><option value='MH'>MARSHALL ISLANDS</option><option value='MQ'>MARTINIQUE</option><option value='MR'>MAURITANIA</option><option value='MU'>MAURITIUS</option><option value='YT'>MAYOTTE</option><option value='MX'>MEXICO</option><option value='FM'>MICRONESIA, FEDERATED STATES OF</option><option value='MD'>MOLDOVA, REPUBLIC OF</option><option value='MC'>MONACO</option><option value='MN'>MONGOLIA</option><option value='ME'>MONTENEGRO</option><option value='MS'>MONTSERRAT</option><option value='MA'>MOROCCO</option><option value='MZ'>MOZAMBIQUE</option><option value='MM'>MYANMAR</option><option value='NA'>NAMIBIA</option><option value='NR'>NAURU</option><option value='NP'>NEPAL</option><option value='NL'>NETHERLANDS</option><option value='NC'>NEW CALEDONIA</option><option value='NZ'>NEW ZEALAND</option><option value='NI'>NICARAGUA</option><option value='NE'>NIGER</option><option value='NG'>NIGERIA</option><option value='NU'>NIUE</option><option value='NF'>NORFOLK ISLAND</option><option value='MP'>NORTHERN MARIANA ISLANDS</option><option value='MK'>NORTH MACEDONIA</option><option value='NO'>NORWAY</option><option value='OM'>OMAN</option><option value='PK'>PAKISTAN</option><option value='PW'>PALAU</option><option value='PS'>PALESTINE, STATE OF</option><option value='PA'>PANAMA</option><option value='PG'>PAPUA NEW GUINEA</option><option value='PY'>PARAGUAY</option><option value='PE'>PERU</option><option value='PH'>PHILIPPINES</option><option value='PN'>PITCAIRN</option><option value='PL'>POLAND</option><option value='PT'>PORTUGAL</option><option value='PR'>PUERTO RICO</option><option value='QA'>QATAR</option><option value='RE'>RÉUNION</option><option value='RO'>ROMANIA</option><option value='RU'>RUSSIAN FEDERATION</option><option value='RW'>RWANDA</option><option value='BL'>SAINT BARTHÉLEMY</option><option value='SH'>SAINT HELENA, ASCENSION AND TRISTAN DA CUNHA</option><option value='KN'>SAINT KITTS AND NEVIS</option><option value='LC'>SAINT LUCIA</option><option value='MF'>SAINT MARTIN (FRENCH PART)</option><option value='PM'>SAINT PIERRE AND MIQUELON</option><option value='VC'>SAINT VINCENT AND THE GRENADINES</option><option value='WS'>SAMOA</option><option value='SM'>SAN MARINO</option><option value='ST'>SAO TOME AND PRINCIPE</option><option value='SA'>SAUDI ARABIA</option><option value='SN'>SENEGAL</option><option value='RS'>SERBIA</option><option value='SC'>SEYCHELLES</option><option value='SL'>SIERRA LEONE</option><option value='SG'>SINGAPORE</option><option value='SX'>SINT MAARTEN (DUTCH PART)</option><option value='SK'>SLOVAKIA</option><option value='SI'>SLOVENIA</option><option value='SB'>SOLOMON ISLANDS</option><option value='SO'>SOMALIA</option><option value='ZA'>SOUTH AFRICA</option><option value='GS'>SOUTH GEORGIA AND THE SOUTH SANDWICH ISLANDS</option><option value='SS'>SOUTH SUDAN</option><option value='ES'>SPAIN</option><option value='LK'>SRI LANKA</option><option value='SD'>SUDAN</option><option value='SR'>SURINAME</option><option value='SJ'>SVALBARD AND JAN MAYEN</option><option value='SE'>SWEDEN</option><option value='CH'>SWITZERLAND</option><option value='SY'>SYRIAN ARAB REPUBLIC</option><option value='TW'>TAIWAN, PROVINCE OF CHINA</option><option value='TJ'>TAJIKISTAN</option><option value='TZ'>TANZANIA, UNITED REPUBLIC OF</option><option value='TH'>THAILAND</option><option value='TL'>TIMOR-LESTE</option><option value='TG'>TOGO</option><option value='TK'>TOKELAU</option><option value='TO'>TONGA</option><option value='TT'>TRINIDAD AND TOBAGO</option><option value='TN'>TUNISIA</option><option value='TR'>TÜRKIYE</option><option value='TM'>TURKMENISTAN</option><option value='TC'>TURKS AND CAICOS ISLANDS</option><option value='TV'>TUVALU</option><option value='UG'>UGANDA</option><option value='UA'>UKRAINE</option><option value='AE'>UNITED ARAB EMIRATES</option><option value='GB'>UNITED KINGDOM</option><option value='US'>UNITED STATES</option><option value='UM'>UNITED STATES MINOR OUTLYING ISLANDS</option><option value='UY'>URUGUAY</option><option value='UZ'>UZBEKISTAN</option><option value='VU'>VANUATU</option><option value='VE'>VENEZUELA, BOLIVARIAN REPUBLIC OF</option><option value='VN'>VIET NAM</option><option value='VG'>VIRGIN ISLANDS, BRITISH</option><option value='VI'>VIRGIN ISLANDS, U.S.</option><option value='WF'>WALLIS AND FUTUNA</option><option value='EH'>WESTERN SAHARA</option><option value='YE'>YEMEN</option><option value='ZM'>ZAMBIA</option><option value='ZW'>ZIMBABWE</option>                            </select>
+
+                            <label for="featureWorldClass">Feature Class</label>
+                            <select name="featureWorldClass" id="featureWorldClass">
+                                <option value=''>All</option>
+                                <option value='A'>Administrative Boundary Features</option><option value='H'>Hydrographic Features</option><option value='L'>Area Features</option><option value='P'>Populated Place Features</option><option value='R'>Road or Railroad Features</option><option value='S'>Spot Features</option><option value='T'>Hypsographic Features</option><option value='U'>Undersea Features</option><option value='V'>Vegetation Features</option>                            </select>
+
+                            <label for="featureWorldType">Feature Type</label>
+                            <select name="featureWorldType" id="featureWorldType">
+                                <option value=''>All</option>
+                            </select>
+                        </span>
+                    </span>
+
+                </div>
+                <div class="buttons">
+                    <input id="geoShow" title="Show" type="button" class="button" value="Show" />
+                    <input id="geoClear" title="Clear" type="button" class="button" value="Clear" />
+                </div>
+                <div class="geoRow" id="googleResults">
+                    <p>
+                        Click on an Address/Place to show the
+                        location on the map and add coordinates
+                        to the Area of Interest Control.
+                    </p>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th scope="col">Num</th>
+                                <th scope="col">Address/Place</th>
+                                <th scope="col">Latitude</th>
+                                <th scope="col">Longitude</th>
+                            </tr>
+                        </thead>
+
+                        <tbody id="googleRow">
+
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="geoRow" id="featureResults">
+                    <p>
+                        Click on a Feature to show the
+                        location on the map and add coordinates
+                        to the Area of Interest Control.
+                    </p>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th scope="col">Placename</th>
+                                <th scope="col">Type</th>
+                                <th scope="col">Region</th>
+                                <th scope="col">Latitude</th>
+                                <th scope="col">Longitude</th>
+                            </tr>
+                        </thead>
+
+                        <tbody id="featureRow">
+
+                        </tbody>
+                    </table>
+                </div>
+
+                <div id="geoErrorMessage">
+
+                </div>
+            </div>
+        </div>
+        <div id="tabUploadForm" class="geoForm">
+                            <div class="clearfix" style="background-color: #efefef;border: 1px solid #678ac7;font-size:14px;margin-bottom:10px;padding: 6px;text-align:left;vertical-align:middle;">
+                    <div style="float:left;">
+                        <div class="ee-icon ee-icon-info"></div>
+                    </div>
+                    <div style="float:left;">
+                        &nbsp;&nbsp;You must be logged in to upload a file.
+                    </div>
+                </div>
+                    </div>
+    
+        <div id="tabCalValSiteForm" class="geocodeForm">
+            <div>
+                <label for="calValSiteType">Type</label>
+                <select id="calValSiteType" name="calValSiteType">
+                    <option value="">Select One</option>
+                                            <option value="1">AERONET</option>
+                                            <option value="2">NEON Relocatable Terrestrial</option>
+                                            <option value="3">NEON Core Terrestrial</option>
+                                            <option value="4">USCRN</option>
+                                            <option value="5">SURFRAD</option>
+                                            <option value="6">EOS Land Validation Core Sites</option>
+                                            <option value="7">CEOS Reference Sites</option>
+                                            <option value="8">CEOS Super Sites</option>
+                                    </select>
+            </div>
+            <div style="margin-top: 10px;">
+                <label for="calValSiteList">Cal/Val Site</label>
+                <select id="calValSiteList" name="calValSiteList"></select>
+            </div>
+            <div class="buttons">
+                <input id="calvalSiteShow" title="Show Site" type="button" class="button" value="Show Site" />
+                <input id="calvalSiteClear" title="Clear Site" type="button" class="button" value="Clear Site" />
+            </div>
+        </div>
+    </div>
+
+    
+    <div id="areaTabs" class="control-tabs unselectable">
+        <div id="tabPolygon" class="tab selected" tabindex=0>Polygon</div>
+        <div id="tabCircle" class="tab " tabindex=0>Circle</div>
+        <div id="tabPredefinedArea" class="tab " tabindex=0 title="Select the Shape map option to use Predefined Areas.">Predefined Area</div>
+
+        <div style="clear:both;"></div>
+    </div>
+    <div class="control-container">
+        <div id="tabPolygonForm" class="areaForm">
+            <div id="lat_lon_section">
+                <fieldset>
+                    <legend style="display:None;">Coordinates Format</legend>
+                    <label for="latlonfmtdeg">Degree/Minute/Second</label>
+                                        <input id="latlonfmtdeg" type="radio" value="dms" name="latlonfmt" checked="checked" />
+                    <label for="latlonfmtdec" style="margin-left:-5px;">Decimal</label>
+                    <input id="latlonfmtdec" type="radio" value="dd" name="latlonfmt"/>
+                </fieldset>
+            </div>
+
+            
+<template id="coordEntryTemplate">
+    <li id="coordinate_!%index%!" class="coordinate control-!%format%!">
+
+        <div style="float:left;margin-right:8px;"> <span class="coordinateNum"></span>. </div>
+
+        <div class="format_dms" style="float:left;">
+            Lat: <span class="latitude"></span>,
+            Lon: <span class="longitude"></span>
+        </div>
+
+        <div class="format_dd" style="float:left;">
+            Lat: <span class="latitude"></span>,
+            Lon: <span class="longitude"></span>
+        </div>
+
+        <div style="float:right;">
+            <span class="coordinateElementOperations">
+                <a id="edit_!%index%!" class="iconLink edit" tabindex=0 title="Edit this coordinate">
+                    <span class="ee-icon ee-icon-notepad"></span>
+                </a>
+                <a id="delete_!%index%!" class="iconLink delete" tabindex=0 title="Delete this coordinate">
+                    <span class="ee-icon ee-icon-delete"></span>
+                </a>
+            </span>
+        </div>
+        <div style="clear:both;"></div>
+    </li>
+</template>
+
+<ul id="coordEntryArea" class="mapPointContainer ui-sortable">
+    <li id="coordinateElementEmpty" class="coordinate even" style="display:block;">
+        <i class="fa fa-info-circle"></i> No coordinates selected.
+    </li>
+    </ul>
+
+            <div class="buttons">
+                <input id="coordUseMap" title="Use Map" type="button" class="button" value="Use Map" />
+                <input id="coordEntryAdd" title="Add Coordinate" type="button" class="button" value="Add Coordinate" />
+                <input id="coordEntryClear" title="Clear Coordinates" type="button" class="button" value="Clear Coordinates" />
+            </div>
+        </div>
+        <div id="tabCircleForm" class="areaForm">
+            <cite>
+                Circular polygons are created using a center point defined by decimal latitude and longitude values and a radius.
+            </cite>
+            <div id="circleEntryContainer" class="clearfix">
+                <div style="float:left;margin-right:8px;">
+                    <div>
+                        <label for="centerLat">Center Latitude:</label>
+                        <input type="text" id="centerLat" name="centerLat" style="width: 150px;" />
+                    </div>
+                    <div style="margin-top: 10px;">
+                        <label for="circleRadius">Radius:</label>
+                        <input type="text" id="circleRadius" name="circleRadius" />
+
+                        <select id="unitType" name="unitType" aria-label="Unit Type" style="width: 100px;">
+                            <option value='m'>Meters</option>
+                            <option value='km'>Kilometers</option>
+                            <option value='mi'>Miles</option>
+                        </select>
+                    </div>
+                </div>
+                <div style="float:left">
+                    <label for="centerLng">Center Longitude:</label>
+                    <input type="text" id="centerLng" name="centerLng" style="width: 150px;" />
+                </div>
+            </div>
+            <div class="buttons">
+                <input id="circleEntryApply" title="Clear Circle" type="button" class="button" value="Apply" />
+                <input id="circleEntryClear" title="Clear Circle" type="button" class="button" value="Clear Circle" />
+            </div>
+        </div>
+        <div id="tabPredefinedAreaForm" class="areaForm">
+            <div id="areaShapeSection" class="clearfix">
+                <i class="fa fa-globe"></i>
+                                    <span class="boundaryName">No shape loaded.</span>
+                            </div>
+
+            <div class="buttons">
+                <input id="shapeAdd" title="Add Shape" class="button" type="button" value="Add Shape"/>
+                <input id="shapeClear" title="Clear Shape" class="button" type="button" value="Clear Shape"/>
+            </div>
+        </div>        
+    </div>
+    <div class="aoiEdit" style="text-align: right; margin-top: 13px; margin-bottom: 5px; display: none;">
+        <button class="btn btn-success" onclick="saveAoi()">Save Spatial Filter</button>
+        <button class="btn btn-success" onclick="resetAoi(this)" data-aoi=>Reset</button>
+        <button class="btn btn-secondary" onclick="cancelAoi()">Cancel</button>
+    </div>
+
+    <div id="dateTabs" class="control-tabs unselectable">
+        <div id="tabDateRange" class="tab selected" tabindex=0>Date Range</div>
+        <div id="tabCloudCover" class="tab" tabindex=0>Cloud Cover</div>
+        <div id="tabResultOptions" class="tab" tabindex=0>Result Options</div>
+        <div style="clear:both;"></div>
+    </div>
+
+    <div class="control-container">
+        <div id="tabDateRangeForm" class="optionsForm">
+            <label class="newlineLabel" for="start_linked">Search from: </label>
+            <input value="" size="10" name="start_linked" id="start_linked" type="text" placeholder="mm/dd/yyyy" />
+            <label for="end_linked">to: </label>
+            <input value="" size="10" name="end_linked" id="end_linked" type="text" placeholder="mm/dd/yyyy" />
+
+            <div id="monthSelectorBox" class="clearfix" style="margin: 6px 0 6px 0;">
+                <div style="float:left;padding:2px 0 2px 0;">
+                    Search months:&nbsp;
+                </div>
+
+                <div style="float:left;">
+                    
+                    <a id="monthSelector">
+                        <span class="text" tabindex=0>(all)</span>
+                        <span style="float:right;margin-top:3px;" class="ui-icon ui-icon-triangle-1-s" tabindex=0></span>
+                    </a>
+
+                    <div id="monthSelectorDropPanel">
+                        <form name="monthForm" action="">
+                            <fieldset>
+                                <legend style="display:None;">Select Months</legend>
+                                <div><span><input type="checkbox" id="all_months" value="" title="(all)" name="monthBoxes" checked="checked" /> </span><label for="all_months">(all)</label></div>
+                                                                    <div><span><input type="checkbox" id="January" value="0" title="January" name="monthBoxes" checked="checked" /> </span><label for="January">January</label></div>
+                                                                    <div><span><input type="checkbox" id="February" value="1" title="February" name="monthBoxes" checked="checked" /> </span><label for="February">February</label></div>
+                                                                    <div><span><input type="checkbox" id="March" value="2" title="March" name="monthBoxes" checked="checked" /> </span><label for="March">March</label></div>
+                                                                    <div><span><input type="checkbox" id="April" value="3" title="April" name="monthBoxes" checked="checked" /> </span><label for="April">April</label></div>
+                                                                    <div><span><input type="checkbox" id="May" value="4" title="May" name="monthBoxes" checked="checked" /> </span><label for="May">May</label></div>
+                                                                    <div><span><input type="checkbox" id="June" value="5" title="June" name="monthBoxes" checked="checked" /> </span><label for="June">June</label></div>
+                                                                    <div><span><input type="checkbox" id="July" value="6" title="July" name="monthBoxes" checked="checked" /> </span><label for="July">July</label></div>
+                                                                    <div><span><input type="checkbox" id="August" value="7" title="August" name="monthBoxes" checked="checked" /> </span><label for="August">August</label></div>
+                                                                    <div><span><input type="checkbox" id="September" value="8" title="September" name="monthBoxes" checked="checked" /> </span><label for="September">September</label></div>
+                                                                    <div><span><input type="checkbox" id="October" value="9" title="October" name="monthBoxes" checked="checked" /> </span><label for="October">October</label></div>
+                                                                    <div><span><input type="checkbox" id="November" value="10" title="November" name="monthBoxes" checked="checked" /> </span><label for="November">November</label></div>
+                                                                    <div><span><input type="checkbox" id="December" value="11" title="December" name="monthBoxes" checked="checked" /> </span><label for="December">December</label></div>
+                                                            </fieldset>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="tabCloudCoverForm" class="optionsForm" style="padding-bottom: 7px;">
+            <p>
+              Cloud Cover Range: <span id="cloudCoverRange"></span>
+            </p>
+
+            <div id="cloudCoverSlider" data-defaultMin="0" data-defaultMax="100"></div>
+
+            <label for="includeUnknownCloudCover">Unknown Cloud Cover Values</label>
+            <select id="includeUnknownCloudCover" name="includeUnknownCloudCover">
+                <option value="1" selected="selected">Included</option>
+                <option value="0" >Excluded</option>
+            </select>
+            <div style="margin-top: 5px; font-size: 0.8em; font-style: italic; line-height: 100%;">
+                This filter will only be applied to data sets that support cloud cover filtering (<i class="fa fa-cloud" style="margin: 0 2px;"></i> in the data set list denotes cloud cover support).
+            </div>
+        </div>
+        <div id="tabResultOptionsForm" class="optionsForm">
+            <div id="searchTypeSection" class="clearfix">
+                <fieldset>
+                    <legend style="display:None;">Search Type</legend>
+                                        <label for="searchTypeStandard">Standard Search</label>
+                    <input id="searchTypeStandard" type="radio" value="Std" name="searchTypeButton" checked="checked" />
+                                    </fieldset>
+            </div>
+
+            <div id="searchTypeFormElements" class="clearfix">
+                <div id="searchTypeFormElementsStd" >
+                    <div style="float: left; margin-top: 6px;">
+                        <label for="resultsPerPageSelect">Results per Page: </label>
+                        <select name="resultsPerPageSelect" id="resultsPerPageSelect">
+                                                            <option value="5" >5</option>
+                                                            <option value="10" >10</option>
+                                                            <option value="25" >25</option>
+                                                            <option value="50" >50</option>
+                                                            <option value="100" selected="selected">100</option>
+                                                    </select>
+                    </div>
+                                        <div id="response" style="clear: both; padding-top: 5px;"></div>
+                </div>
+                <div id="searchTypeFormElementsBulk" style="display: none;">
+                    <p style="line-height:1.2em;font-style:italic;">
+                        Mass Media Searches are not limited by number of results or size; however, Mass Media Orders in excess of 6 terabytes will require extra processing time and justification.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="usWorldFeatureDialog" title="US/World Feature Search">
+        <div id="usWorldFeatureDialogContent"></div>
+    </div>
+
+    <div id="coordEntryDialogTemplate">
+        <div class="dd">
+            <div class="label">
+                <label for="latitude">Latitude</label>
+            </div>
+            <div class="inputs">
+                <input class="latitude txtbox decimalBox" id="latitude" name="latitude" type="text" value="" />
+            </div>
+            <div style="clear:both;"></div>
+
+            <div class="label">
+                <label for="longitude">Longitude</label>
+            </div>
+            <div class="inputs">
+                <input class="longitude txtbox decimalBox" id="longitude" name="longitude" type="text" value="" />
+            </div>
+            <div style="clear:both;"></div>
+        </div>
+
+        <div class="dms">
+            <div class="label">
+                <strong>Latitude:</strong>
+            </div>
+            <div class="inputs">
+                <input class="degreesLat txtbox degreeBox" id="degreesLat" name="degreesLat" type="text" aria-label="Latitude degree" /> <span>&deg;</span>
+                <input class="minutesLat txtbox degreeBox" id="minutesLat" name="minutesLat" type="text" aria-label="Latitude minutes" /> <span>&#39;</span>
+                <input class="secondsLat txtbox degreeBox" id="secondsLat" name="secondsLat" type="text" aria-label="Latitude seconds" /> <span>&quot;</span>
+                <select class="directionLat" style="width:70px;" name="directionLat" aria-label="Direction Latitude">
+                   <option value="N">North</option>
+                   <option value="S">South</option>
+                </select>
+            </div>
+            <div style="clear:both;"></div>
+
+            <div class="label">
+                <strong>Longitude:</strong>
+            </div>
+            <div class="inputs">
+                <input class="degreesLng txtbox degreeBox" id="degreesLng" name="degreesLng" type="text" aria-label="Longitude degree" /> <span>&deg;</span>
+                <input class="minutesLng txtbox degreeBox" id="minutesLng" name="minutesLng" type="text" aria-label="Longitude minutes" /> <span>&#39;</span>
+                <input class="secondsLng txtbox degreeBox" id="secondsLng" name="secondsLng" type="text" aria-label="Longitude seconds" /> <span>&quot;</span>
+                <select class="directionLng" style="width:70px;" name="directionLng" aria-label="Direction Longitude">
+                   <option value="W">West</option>
+                   <option value="E">East</option>
+                </select>
+            </div>
+            <div style="clear:both;"></div>
+        </div>
+    </div>
+
+    <div id="coordEntryDialogArea"></div>
+
+    <div class="tabButtonContainer tabButtons">
+        <input class="button tabButton" type="button" title="Data Sets" value="Data Sets &raquo;" data-tab="2"  />
+        <input class="button tabButton disabled" title="Additional Criteria" type="button" value="Additional Criteria &raquo;" data-tab="3" />
+        <input class="button tabButton disabled" title="Results" type="button" value="Results &raquo;" data-tab="4" />
+    </div>
+</div>
+<!--
+===================================
+ TAB TWO
+===================================
+-->
+<div id="tab2data" class="tabdata" style="display:none;">
+    <h3>2. Select Your Data Set(s)</h3>
+    <p class="description">
+        Check the boxes for the data set(s) you want to search. When done selecting data set(s), click the <i>Additional Criteria</i> or <i>Results</i> buttons below.
+        Click the plus sign next to the category name to show a list of data sets.
+    </p>
+        <div class="form">
+        <div id="dataSetPrefilter">
+            <input type="checkbox" id="use_prefilter" disabled /> <label class="disabled" for="use_prefilter">Use Data Set Prefilter</label>
+            &nbsp;<span style="font-size:11px;">(<a class="link-underline-secondary link-underline-opacity-0" href="/help/prefilter" title="How to use the data set prefilter" target="_blank">What's This?</a>)</span>
+
+            <div id="dataSetPrefilterMessage"><strong id="dataSetPrefilterHiddenNum">0</strong>&nbsp;data sets out of <strong id="dataSetPrefilterTotal">0</strong>&nbsp;were hidden by the prefilter <strong id="dataSetPrefilterToggle" style="cursor:pointer; color:#0f1faa;">(Show)</strong>.</div>
+        </div>
+    </div>
+    <div class="form">
+        <div id="dataSetSearch" class='ui-widget' style="display: none;">
+            <label for="dataSetSearchInput">Data Set Search: </label>
+            <input id="dataSetSearchInput" type="text" style="width: 260px;" />
+        </div>
+    </div>
+    <div class="form" name="dataSetForm">
+        <div id="dataset-container" class="unselectable">
+            <div style="padding: 6px 8px;">
+                <i class="fal fa-spinner fa-spin fa-lg" title="Loading"></i>
+                <strong style="font-size: 13px;">Please wait while the Data Sets are loaded.</strong>
+            </div>
+        </div>
+        <div style="clear:both;"></div>
+
+        <div class="tabButtonContainer tabButtons">
+            <input id="tab2ClearAll" class="button tabButton unselectable disabled" type="button" title="Clear All Selected" value="Clear All Selected" />
+            <input class="button tabButton unselectable disabled" type="button" title="Additional Criteria" value="Additional Criteria &raquo;" data-tab="3" />
+            <input class="button tabButton unselectable disabled" type="button" title="Results" value="Results &raquo;" data-tab="4" />
+        </div>
+    </div>
+</div>
+<!--
+===================================
+ TAB THREE
+===================================
+-->
+<div id="tab3data" class="tabdata" style="display:none;">
+    <h3>3. Additional Criteria (Optional)</h3>
+    <p class="description">
+        If you have more than one data sets selected, use the dropdown to select the additional criteria for each data set.
+    </p>
+
+    <div id="dataSetSelector" class="add_criteria_forms" style="margin: 4px 0 4px 0;">
+        <label for="add_crit_data">Data Sets: </label><br />
+        <span id='add_criteria_select'>
+            <select name="add_crit_data" id="add_crit_data">
+                            </select>
+        </span><br />
+    </div>
+
+    <div id="add-criteria-container" class="clearfix">
+        <div id="filterRefreshNotice" class="alert alert-info" style="margin-bottom: 0;">
+            Additional criteria filters are cached for performance. If you are not seeing an expected filter option,
+            <span id="refreshFilterCache" class="fst-italic fw-bold" style="cursor:pointer;">click here to refresh</span>.
+        </div>
+        <span id="additionalCriteriaLoader">
+            <i class="fal fa-spinner fa-spin fa-lg" title="Loading Criteria"></i>
+            <strong style="font-size: 13px;">Please wait while the additional criteria form is loaded.</strong>
+        </span>
+    </div>
+
+    <div class="tabButtonContainer tabButtons">
+        <input id="tab3ClearAll" class="button tabButton" type="button" title="Clear All Criteria" value="Clear All Criteria" />
+        <input class="button tabButton" type="button" title="Results" value="Results &raquo;" data-tab="4" />
+    </div>
+</div>
+<!--
+===================================
+ TAB FOUR
+===================================
+-->
+<div id="tab4data" class="tabdata" style="display:none;">
+   <h3>4. Search Results</h3>
+   <p class="description">
+      If you selected more than one data set to search, use the dropdown to see the search results for each specific data set.
+   </p>
+
+      	<p style="font-style: italic; margin: 6px 0;">
+   		<strong>Note:</strong> You must be logged in to download and order scenes
+   	</p>
+ 	
+   <form class="form" action="">
+        <div id="tab4browseControlsContainer" style="margin-top: 6px;">
+                <div id="tab4BrowseControlsToggle" class="clearfix">
+                    <div id='tab4BrowseControlsHeading'>Show Browse/Footprint Controls</div>
+                    <div id='tab4BrowseControlsStatus' class='ui-state-icons'>
+                        <span title='Expand Controls' tabindex=0 class='ui-icon ui-icon-triangle-1-s'></span>
+                    </div>
+                </div>
+                <div id="tab4BrowseControls" style="display: none;" class="clearfix">
+                    <div id="showAllBrowseControlsContainer" class="clearfix">
+                        <div id="showAllFootprintsContainer">
+                            <input type="checkbox" id="showAllFootprints" name="showAllFootprints" title='Show All Footprints From Current Page'/>
+                            <label for="showAllFootprints">Show All Footprints From Current Page</label>
+                            <br />
+                        </div>
+                        <div id="showAllBrowseContainer">
+                            <input type="checkbox" id="showAllBrowse" name="showAllBrowse" title='Show All Browse From Current Page'/>
+                            <label for="showAllBrowse">Show All Browse From Current Page</label>
+                        </div>
+                        <div id="showBrowseComparison" style="text-align: center; margin-top: 6px;">
+                        Compare Browse:
+                        <select id='browseComparisonType' aria-label="Browse Comparison Type">
+                            <option value='map'>Map Overlay</option>
+                        </select>
+                        <select id='browseSceneType' aria-label="Browse Scene Type">
+                            <option value='all'>All Scenes</option>
+                            <option value='collection'>Collection</option>
+                        </select>
+                        <input type="button" id="browseComparison" class="button" title="Compare" value="Compare" />
+                    </div>
+                    <div id="browseOpacityContainer" class="clearfix">
+                        <div style="margin: 10px 0 0 5px;" class="clearfix">
+                            <strong>Browse Overlay Opacity: </strong><span id="browseOpacityLabel"></span>
+                        </div>
+                        <div id="browseOpacity" class="clearfix" style="width: 370px;margin: 5px;"></div>
+                    </div>
+                    <div style="margin: 5px 0 5px 5px;">
+                        <div id="primaryOverlayNumContainer" style="border-top: 1px solid #a9bbdf; padding-top: 5px;">
+                            <label for="primaryOverlayNum" style="font-weight: bold;">Default Browse Overlay Option (Visualization Only)</label>
+                            <select id="primaryOverlayNum" style="width: 375px;"></select>
+                        </div>
+                        <div id="secondaryOverlayNumContainer" style="margin-top: 5px;">
+                            <label for="secondaryOverlayNum" style="font-weight: bold;">Alternate Browse Overlay Option (Visualization Only)</label>
+                            <select id="secondaryOverlayNum" style="width: 375px;"></select>
+                        </div>
+                    </div>
+                  </div>
+              </div>
+        </div>
+        <div id="tab4controlsContainer" style="margin-top: 6px;">
+            <div id="tab4ControlsToggle" class="clearfix">
+                <div id='tab4ControlsHeading'>Show Result Controls</div>
+                <div id='tab4ControlsStatus' class='ui-state-icons'>
+                    <span title='Expand Controls' tabindex=0 class='ui-icon ui-icon-triangle-1-s'></span>
+                </div>
+            </div>
+            <div id="tab4Controls" style="display: none;" class="clearfix">
+                <div id="showAllContainer" class="clearfix">
+                    <div id="addAllToBulkContainer">
+                        <input type="checkbox" id="addAllToBulk" name="addAllToBulk" disabled="disabled" title='Add All Results From Current Page To Bulk Download'/>
+                        <label for="addAllToBulk">Add All Results From Current Page to Bulk Download</label>
+                        <br />
+                    </div>
+                    <div id="addAllToOrderContainer">
+                        <input type="checkbox" id="addAllToOrder" name="addAllToOrder" disabled="disabled" title='Add All To From Current Page To Order'/>
+                        <label for="addAllToOrder">Add All Results From Current Page to Order</label>
+                        <br />
+                    </div>
+                </div>
+            </div>
+        </div>
+ 
+        <div id="tab4ajax" style="margin-top: 8px;">
+           
+<div id="dataSetResultsSelector">
+    <div class="dataSetContainer clearfix">
+        <strong>
+            Data Set        </strong>
+
+        <div class="icons">
+            
+            <div style="float: left; font-size: 12px; margin-right: 4px; vertical-align: middle; height: 20px; line-height: 20px; color: rgb(71, 106, 167);">Click here to export your results &raquo;</div>
+
+            <a id="metadataExportButton" role="link" title="Log In To Export Metadata" tabindex=0 class="disabled">
+                <div class="ee-icon ee-icon-export"> </div>
+            </a>
+        </div>
+    </div>
+
+    <select name="show_search_data" id="show_search_data" aria-label="Select dataset to view results">
+            </select>
+</div>
+
+<div id="search-results-container" class="clearfix"></div>
+
+<div id="resultApproximationModal" class="modal fade" role="dialog" tabindex="-1" aria-labelledby="resultApproximationModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="resultApproximationModalLabel">Total Results Approximated</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body" id="resultApproximationModalContent">
+                The total number of results is approximated because search criteria were not applied to this search. If new scenes have been ingested since the daily data set approximation was ran, you may be unable to access a few
+                results through this paginated interface. Applying any criteria on the "Search Criteria" or "Additional Criteria" tabs will ensure you can access all results.
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div id="metadataExportDialog" title="Metadata Export" data-noBrowseInKmzDatasets=''>
+    <div id="metadataExportError" class="alert alert-warning" style="display: none;"></div>
+    <div class="mb-3">
+        <label for="exportName">Export Name</label>
+        <input type="text" id="exportName" name="exportName" maxlength="256" class="form-control" value="" aria-describedby="exportNameHelp" />
+        <div class="invalid-feedback"></div>
+        <small id="exportNameHelp" class="form-text text-muted" style="display: none;">What do you want to call this export? If left blank, we'll generate a random token.</small>
+    </div>
+    <div class="mb-3">
+        <label for="exportFormatSelector">Export Format</label>
+        <select id="exportFormatSelector" name="exportFormatSelector" title="Export Format Selector" class="form-select" aria-describedby="exportFormatSelectorHelp">
+                        <option value="csv">CSV</option>
+            <option value="kmz_browse">KMZ - Include Browse</option>
+            <option value="kmz_nobrowse">KMZ - No Browse</option>
+            <option value="delimited_comma">Comma (,) Delimited</option>
+            <option value="delimited_pipe">Pipe (|) Delimited</option>            
+            <option value="shapefile">Shapefile</option>
+            <option value="fgdc">FGDC</option>
+        </select>
+        <div class="invalid-feedback"></div>
+        <small id="exportFormatSelectorHelp" class="form-text text-muted" style="display: none;">Select an export format</small>
+    </div>
+    <div class="mb-3">
+        <div id="excludeListContainer" style="display: none;">
+            <input id="excludeList" type="checkbox" title="Do not export excluded scenes" name="excludeScenes" checked>
+            <label title="Do not export Excluded scenes" for="excludeList">Do not export "Excluded" scenes</label>
+        </div>
+    </div>    
+</div>
+
+<div id="exportRequestModal" class="modal fade" role="dialog" tabindex="-1" aria-labelledby="exportRequestModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exportRequestModalLabel">Export Requested for Processing</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                We are processing your export request.              
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="exportGenerationModal" class="modal fade" role="dialog" tabindex="-1" aria-labelledby="exportGenerationModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exportGenerationModalLabel">Export Submitted for Processing</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body" id="exportGenerationModalContent">
+                Large exports may take several hours to process during periods of high demand.                
+                Once processing has finished, an e-mail will be sent to the address associated with your ERS account. Real-time status updates can be found on the export status page.
+                You may return to your results at any time, it will not impact the processing of your export.
+            </div>
+            <div class="modal-footer">
+                <button id="exportLogButton" type="button" class="btn btn-secondary">Open Export Status Page</button>
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id='rollDialog' title="Scene View" style='display: none;'>
+    <div id='rollDialogContent'></div>
+</div>
+
+<div class="modal fade" id="eulaModal" tabindex="-1" role="dialog" aria-labelledby="eulaModalLongTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document" style="max-width: 800px !important;">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="eulaModalLongTitle">End-User License Agreement (EULA)</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body" style="max-height: calc(100vh - 210px); overflow-y: auto;">
+                You are attempting to download licenses data - this requires acknowledgement of an End-User License Agreement. Please
+                review the agreement content and click "I Agree" to proceed to your download.
+                <div id="eulaAgreement"></div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                <button type="button" id="eulaAgreeButton" class="btn btn-primary">I Agree - Continue to Download</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="addToBulkErrorModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="addToBulkErrorModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="addToBulkErrorModalLabel">Unable to add scene(s)</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+        </div>
+
+        
+    </form>
+
+    <div id="metadataDialog" title="View Metadata">
+        <div id="metadataDialogArea"></div>
+    </div>
+
+    
+    <table id="searchDialogTemplate" style="display: none;" role="presentation">
+        <tr>
+            <td class="name"></td>
+            <td class="action"><button class="button" data-action="cancel">Cancel</button></td>
+        </tr>
+    </table>
+
+</div>
+<!-- END TAB FOUR -->
+
+</div> <!-- end expand -->
+
+</div> <!-- end leftcol -->
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        // Hide all Area Forms
+        $('#tab1data').find('.areaForm').hide();
+
+        // Load the correct Area Tab form
+        var areaName = $('#areaTabs').children('.selected').attr('id');
+        $('#' + areaName + 'Form').show();
+    });
+
+    
+    
+    $('#refreshFilterCache').click(function () {
+        $.blockUI({
+            theme:   true,
+            title:   'Notice',
+            message: '<p>Refreshing your data set criteria filters</p>',
+            timeout: 0
+        });
+
+        $.ajax({
+            dataType: 'json',
+            method:   'POST',
+            data:     {},
+            url:      '/dataset/refresh'
+        }).fail(function (jqXHR) {
+            $.unblockUI();
+            $('#filterRefreshNotice').html('<div class="alert alert-danger"><strong>' + jqXHR.status + ' Error</strong><br />Could not refresh filters. Please try again.</div>');
+        }).done(function () {
+            $.unblockUI();
+            EE.tabs.additionalCriteria.load();
+        });
+    });
+</script>
+        <div id="right-col">
+            <div id="searchCriteriaBox">
+                <div id="searchCriteriaHeader" style='height: 17px;'>
+                    <div style='float: left;'>Search Criteria Summary <span id="searchCriteriaStatus">(Show)</span></div>
+                    <div id='clearAllCriteria' style='float: right; padding-right: 5px;'>Clear Search Criteria</div>
+                    <div style='clear:both;'></div>
+                </div>
+
+                <div id="searchCriteria" class="criteriaSpan">
+                    <h2>You are searching the following data sets:</h2>
+                        <ul id="summaryDataSets">
+                            <li>No data sets selected.</li>                        </ul>
+
+                    <h2>Your area of interest:</h2>
+                        <ul id="summaryAreaOfInterest">
+                            <li>No coordinates selected.</li>                        </ul>
+
+                    <h2>You are searching using the following criteria:</h2>
+                        <ul>
+                            <li><strong>Start Date:</strong> <span id="summaryStartDate">None</span></li>
+                            <li><strong>End Date:</strong> <span id="summaryEndDate">None</span></li>
+                            <li><strong>Months:</strong> <span id="summaryMonths">(all)</span></li>
+                        </ul>
+                </div>
+            </div>
+
+            <div id="mapWrapper">
+                <div id="map"></div>
+                <div id="mapOverlays">
+                    <div id="mouseLatLng" class="mapControlElement">(coordinates)</div>
+
+                    <div id="optionsControl" class="unselectable mapControlElement">
+                        <div>Options</div>
+
+                        <div class="mapControlDropDown">
+                            <form name="optionsControlForm" action="">
+                                <span class="autoCenter unselectable" title="Automatically center map when adding footprints or browse.">
+                                    <input id="optionAutoCenter" title="Auto Center" type="checkbox" checked="checked"/>
+                                    <label for="optionAutoCenter">Auto-Center</label>
+                                </span>
+                                <span class="overlayOrder unselectable" title="Automatically sets search polygon (AOI) on top of browse overlay.">
+                                    <label for="aoiOverlaysOrder">AOI Overlay Location</label>
+                                    <select name="aoiOverlaysOrder" id="aoiOverlaysOrder">
+                                        <option value="AboveSceneOverlay" selected="selected">Above Scene Overlay</option>
+                                        <option value="BelowSceneOverlay" >Below Scene Overlay</option>
+                                    </select>
+                                </span>
+
+                                <fieldset>
+                                    <legend style="display:None;">Select Coordinates format</legend>
+                                    <span class="decimalFormatToggle unselectable" title="Identify coordinates in decimal degree format.">
+                                        <input id="decimalFormatDegree" title="Decimal Degree" type="radio" name="decimalFormatToggle"  value="dd" />
+                                        <label for="decimalFormatDegree">Decimal Degree Format</label>
+                                    </span>
+                                    <span class="decimalFormatToggle unselectable" title="Identify coordinates in degree/minute/second format.">
+                                        <input id="decimalFormatDms" title="Degree/Minute/Second" type="radio" name="decimalFormatToggle" checked="checked" value="dms" />
+                                        <label for="decimalFormatDms">Degree/Minute/Second Format</label>
+                                    </span>
+                                </fieldset>
+                                
+                                <fieldset>
+                                    <legend style="display:None;">AOI Type</legend>
+                                    <span class="polygonTool unselectable" title="Define your area of interest by drawing a polygon." >
+                                        <input id="polygonTypePolygon" title="Polygon Type Polygon" type="radio" name="polygonType" checked="checked" value="polygon" />
+                                        <label for="polygonTypePolygon">Polygon</label>
+                                    </span>
+                                    <span class="polygonTool unselectable" title="Define your area of interest by drawing a circle." >
+                                        <input id="polygonTypeCircle" title="Polygon Type Circle" type="radio" name="polygonType"  value="circle" />
+                                        <label for="polygonTypeCircle">Circle</label>
+                                    </span>
+                                    <span class="polygonTool unselectable" title="Define your area of interest by using a predefined area." >
+                                        <input id="polygonTypeShape" title="Polygon Type Shape" type="radio" name="polygonType"  value="shape" />
+                                        <label for="polygonTypeShape">Predefined Area</label>
+                                    </span>
+                                </fieldset>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="mapDisclaimer">
+                Basemaps are for reference only and cannot be downloaded. Some non-USGS layers may not reflect current naming conventions. Use the left-side options to access available data.
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script type="text/javascript">
+    EE.maps.loadMap([{"isDefault":true,"mapTitle":"Vector Map","uri":"https:\/\/ims.cr.usgs.gov\/basemaps\/style-basemap-light-full.json","layerOptions":{"attribution":"&copy; <a href=\"https:\/\/www.openstreetmap.org\/copyright\">OpenStreetMap<\/a> contributors &mdash; tiles hosted by USGS","gridColor":"#000000"},"layerType":"maplibre-style","usesImagery":false,"labelMode":"vector"},{"isDefault":false,"mapTitle":"Dark Map","uri":"https:\/\/ims.cr.usgs.gov\/basemaps\/style-basemap-dark-full.json","layerOptions":{"attribution":"&copy; <a href=\"https:\/\/www.openstreetmap.org\/copyright\">OpenStreetMap<\/a> contributors &mdash; tiles hosted by USGS","gridColor":"#FFFFFF"},"layerType":"maplibre-style","usesImagery":false,"labelMode":"vector"},{"isDefault":false,"mapTitle":"Light Gray Map","uri":"https:\/\/ims.cr.usgs.gov\/basemaps\/style-basemap-gray-full.json","layerOptions":{"attribution":"&copy; <a href=\"https:\/\/www.openstreetmap.org\/copyright\">OpenStreetMap<\/a> contributors &mdash; tiles hosted by USGS","gridColor":"#000000"},"layerType":"maplibre-style","usesImagery":false,"labelMode":"vector"},{"isDefault":false,"mapTitle":"The National Map","uri":"https:\/\/basemap.nationalmap.gov\/arcgis\/rest\/services\/USGSTopo\/MapServer\/WMTS\/tile\/1.0.0\/USGSTopo\/default\/default028mm\/{z}\/{y}\/{x}\/","layerOptions":{"attribution":"&copy; <a href=\"https:\/\/apps.nationalmap.gov\/services\/\">TNM<\/a>","gridColor":"#000000"},"layerType":"tile","usesImagery":false},{"isDefault":false,"mapTitle":"ESRI World Imagery","uri":"https:\/\/server.arcgisonline.com\/ArcGIS\/rest\/services\/World_Imagery\/MapServer\/tile\/{z}\/{y}\/{x}","layerOptions":{"attribution":"Tiles &copy; <a href=\"https:\/\/www.arcgis.com\/home\/item.html?id=10df2279f9684e4a9f6a7f08febac2a9\">Esri<\/a> &mdash; Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community","gridColor":"#FFFFFF"},"layerType":"tile","usesImagery":true,"labelMode":"overlay","labelOverlayUri":"https:\/\/ims.cr.usgs.gov\/basemaps\/style-basemap-imagery-reference.json"}]);
+    document.getElementsByClassName("leaflet-control-layers-toggle")[0].setAttribute("aria-label","Leaflet Layers");
+    if (EE.tabs.tabInfo.getCurrent() !== 1) {
+        EE.maps.map.setMaxBounds(L.latLngBounds(new L.latLng(85, -360), new L.latLng(-85, 180)));
+    } else {
+        EE.maps.map.setMaxBounds(L.latLngBounds(new L.latLng(85, -180), new L.latLng(-85, 180)));
+    }
+    
+    $('#aoiOverlaysOrder').change(function() {
+        if ($('#aoiOverlaysOrder').val() === "BelowSceneOverlay" && (EE.maps.coordinateList.length > 2)) {
+            EE.maps.map.getPane('aoiPane').style.zIndex = 401;
+        } else {
+            EE.maps.map.getPane('aoiPane').style.zIndex = 449;
+        }
+    });
+</script>
+        </div>
+
+        
+        <footer class="footer mt-auto py-3">
+            <div class="container-fluid">
+                <div class="d-flex">
+                    <div>
+                        <ul class="menu nav">
+                            <li><a href="https://www.doi.gov/privacy">DOI Privacy Policy</a></li>
+                            <li><a href="https://www.usgs.gov/policies-and-notices">Legal</a></li>
+                            <li><a href="https://www.usgs.gov/accessibility-and-us-geological-survey">Accessibility</a></li>
+                            <li><a href="https://www.usgs.gov/sitemap">Site Map</a></li>
+                            <li><a href="https://answers.usgs.gov/">Contact USGS</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <hr />
+
+                <div class="d-flex">
+                    <div>
+                        <ul class="menu nav">
+                            <li><a href="https://www.doi.gov/">U.S. Department of the Interior</a></li>
+                            <li><a href="https://www.doioig.gov/">DOI Inspector General</a></li>
+                            <li><a href="https://www.whitehouse.gov/">White House</a></li>
+                            <li><a href="https://www.doi.gov/pmb/eeo/no-fear-act">No Fear Act</a></li>
+                            <li><a href="https://www.usgs.gov/foia">FOIA</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="ms-auto footer-icons">
+                        <ul>
+                                                    </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+                    <!-- Google Tag Manager (noscript) -->
+            <!--Added sandbox for security flag--will see if resolves the low security flag-->
+            <noscript><iframe sandbox src="https://www.googletagmanager.com/ns.html?id=GTM-TKQR8KP"
+                height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+            <!-- End Google Tag Manager (noscript) -->
+
+            
+            <script type="text/javascript" src="https://www.google-analytics.com/analytics.js"></script>
+
+            <!--OLD version of GA--remove once results verififed-->
+            <script type="text/javascript">
+                try {
+                    ga('set', 'anonymizeIp', true);
+
+                    ga('create', 'UA-21295076-2', 'auto', {'name': 'lta'});
+
+                    //Assuming this is what will be required once usgs analytics is updated
+                    ga('lta.send', 'pageview');
+                } catch (exception) {
+                    // Ignore the exception and continue loading EE
+                    console.log(exception);
+                }
+            </script>
+
+        
+            </body>
+
+    <script src="https://ims.cr.usgs.gov/lib/web/uswds.min.js"></script></html>
+

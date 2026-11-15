@@ -1,0 +1,365 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../">
+<head>
+  <meta charset="utf-8" />
+  <meta name="readthedocs-addons-api-version" content="1"><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Reprojection &mdash; rasterio 1.4.4 documentation</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=03e43079" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=e59714d7" />
+
+  
+      <script src="../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../_static/documentation_options.js?v=6d0302ba"></script>
+      <script src="../_static/doctools.js?v=9bcbadda"></script>
+      <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../_static/js/theme.js"></script>
+    <script src="../_static/js/versions.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Resampling" href="resampling.html" />
+    <link rel="prev" title="Reading Datasets" href="reading.html" /> 
+<script async type="text/javascript" src="/_/static/javascript/readthedocs-addons.js"></script><meta name="readthedocs-project-slug" content="rasterio" /><meta name="readthedocs-version-slug" content="stable" /><meta name="readthedocs-resolver-filename" content="/topics/reproject.html" /><meta name="readthedocs-http-status" content="200" /></head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../index.html" class="icon icon-home">
+            rasterio
+          </a>
+              <div class="switch-menus">
+                <div class="version-switch"></div>
+                <div class="language-switch"></div>
+              </div>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../intro.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../quickstart.html">Python Quickstart</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../cli.html">Command Line User Guide</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Advanced Topics</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="calc.html">Using rio-calc</a></li>
+<li class="toctree-l2"><a class="reference internal" href="color.html">Color</a></li>
+<li class="toctree-l2"><a class="reference internal" href="concurrency.html">Concurrent processing</a></li>
+<li class="toctree-l2"><a class="reference internal" href="configuration.html">GDAL Option Configuration</a></li>
+<li class="toctree-l2"><a class="reference internal" href="datasets.html">Advanced Datasets</a></li>
+<li class="toctree-l2"><a class="reference internal" href="errors.html">Error Handling</a></li>
+<li class="toctree-l2"><a class="reference internal" href="features.html">Vector Features</a></li>
+<li class="toctree-l2"><a class="reference internal" href="fillnodata.html">Filling nodata areas</a></li>
+<li class="toctree-l2"><a class="reference internal" href="georeferencing.html">Georeferencing</a></li>
+<li class="toctree-l2"><a class="reference internal" href="image_options.html">Options</a></li>
+<li class="toctree-l2"><a class="reference internal" href="image_processing.html">Interoperability</a></li>
+<li class="toctree-l2"><a class="reference internal" href="masking-by-shapefile.html">Masking a raster using a shapefile</a></li>
+<li class="toctree-l2"><a class="reference internal" href="masks.html">Nodata Masks</a></li>
+<li class="toctree-l2"><a class="reference internal" href="memory-files.html">In-Memory Files</a></li>
+<li class="toctree-l2"><a class="reference internal" href="migrating-to-v1.html">Migrating to Rasterio 1.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="overviews.html">Overviews</a></li>
+<li class="toctree-l2"><a class="reference internal" href="plotting.html">Plotting</a></li>
+<li class="toctree-l2"><a class="reference internal" href="profiles.html">Profiles and Writing Files</a></li>
+<li class="toctree-l2"><a class="reference internal" href="reading.html">Reading Datasets</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Reprojection</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#estimating-optimal-output-shape">Estimating optimal output shape</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#reprojecting-a-geotiff-dataset">Reprojecting a GeoTIFF dataset</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#reprojecting-with-other-georeferencing-metadata">Reprojecting with other georeferencing metadata</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#references">References</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="resampling.html">Resampling</a></li>
+<li class="toctree-l2"><a class="reference internal" href="switch.html">Switching from GDAL’s Python bindings</a></li>
+<li class="toctree-l2"><a class="reference internal" href="tags.html">Tagging datasets and bands</a></li>
+<li class="toctree-l2"><a class="reference internal" href="transforms.html">Transforms</a></li>
+<li class="toctree-l2"><a class="reference internal" href="virtual-warping.html">Virtual Warping</a></li>
+<li class="toctree-l2"><a class="reference internal" href="vsi.html">Virtual Filesystems</a></li>
+<li class="toctree-l2"><a class="reference internal" href="windowed-rw.html">Windowed reading and writing</a></li>
+<li class="toctree-l2"><a class="reference internal" href="writing.html">Writing Datasets</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../api/index.html">Rasterio API Reference</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../contributing.html">Contributing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../faq.html">Frequently Asked Questions</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">rasterio</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="index.html">Advanced Topics</a></li>
+      <li class="breadcrumb-item active">Reprojection</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/topics/reproject.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="reprojection">
+<h1>Reprojection<a class="headerlink" href="#reprojection" title="Link to this heading"></a></h1>
+<p>Rasterio can map the pixels of a destination raster with an associated
+coordinate reference system and transform to the pixels of a source image with
+a different coordinate reference system and transform. This process is known as
+reprojection.</p>
+<p>Rasterio’s <a class="reference internal" href="../api/rasterio.warp.html#rasterio.warp.reproject" title="rasterio.warp.reproject"><code class="xref py py-func docutils literal notranslate"><span class="pre">rasterio.warp.reproject()</span></code></a> is a geospatial-specific analog
+to SciPy’s <code class="docutils literal notranslate"><span class="pre">scipy.ndimage.interpolation.geometric_transform()</span></code> <a class="footnote-reference brackets" href="#id3" id="id1" role="doc-noteref"><span class="fn-bracket">[</span>1<span class="fn-bracket">]</span></a>.</p>
+<p>The code below reprojects between two arrays, using no pre-existing GIS
+datasets.  <a class="reference internal" href="../api/rasterio.warp.html#rasterio.warp.reproject" title="rasterio.warp.reproject"><code class="xref py py-func docutils literal notranslate"><span class="pre">rasterio.warp.reproject()</span></code></a> has two positional arguments: source
+and destination.  The remaining keyword arguments parameterize the reprojection
+transform.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">numpy</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">np</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">rasterio</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">rasterio</span><span class="w"> </span><span class="kn">import</span> <span class="n">Affine</span> <span class="k">as</span> <span class="n">A</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">rasterio.warp</span><span class="w"> </span><span class="kn">import</span> <span class="n">reproject</span><span class="p">,</span> <span class="n">Resampling</span>
+
+<span class="k">with</span> <span class="n">rasterio</span><span class="o">.</span><span class="n">Env</span><span class="p">():</span>
+
+    <span class="c1"># As source: a 512 x 512 raster centered on 0 degrees E and 0</span>
+    <span class="c1"># degrees N, each pixel covering 15&quot;.</span>
+    <span class="n">rows</span><span class="p">,</span> <span class="n">cols</span> <span class="o">=</span> <span class="n">src_shape</span> <span class="o">=</span> <span class="p">(</span><span class="mi">512</span><span class="p">,</span> <span class="mi">512</span><span class="p">)</span>
+    <span class="n">d</span> <span class="o">=</span> <span class="mf">1.0</span><span class="o">/</span><span class="mi">240</span> <span class="c1"># decimal degrees per pixel</span>
+    <span class="c1"># The following is equivalent to</span>
+    <span class="c1"># A(d, 0, -cols*d/2, 0, -d, rows*d/2).</span>
+    <span class="n">src_transform</span> <span class="o">=</span> <span class="n">A</span><span class="o">.</span><span class="n">translation</span><span class="p">(</span><span class="o">-</span><span class="n">cols</span><span class="o">*</span><span class="n">d</span><span class="o">/</span><span class="mi">2</span><span class="p">,</span> <span class="n">rows</span><span class="o">*</span><span class="n">d</span><span class="o">/</span><span class="mi">2</span><span class="p">)</span> <span class="o">*</span> <span class="n">A</span><span class="o">.</span><span class="n">scale</span><span class="p">(</span><span class="n">d</span><span class="p">,</span> <span class="o">-</span><span class="n">d</span><span class="p">)</span>
+    <span class="n">src_crs</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;init&#39;</span><span class="p">:</span> <span class="s1">&#39;EPSG:4326&#39;</span><span class="p">}</span>
+    <span class="n">source</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">ones</span><span class="p">(</span><span class="n">src_shape</span><span class="p">,</span> <span class="n">np</span><span class="o">.</span><span class="n">uint8</span><span class="p">)</span><span class="o">*</span><span class="mi">255</span>
+
+    <span class="c1"># Destination: a 1024 x 1024 dataset in Web Mercator (EPSG:3857)</span>
+    <span class="c1"># with origin at 0.0, 0.0.</span>
+    <span class="n">dst_shape</span> <span class="o">=</span> <span class="p">(</span><span class="mi">1024</span><span class="p">,</span> <span class="mi">1024</span><span class="p">)</span>
+    <span class="n">dst_transform</span> <span class="o">=</span> <span class="n">A</span><span class="o">.</span><span class="n">translation</span><span class="p">(</span><span class="o">-</span><span class="mf">237481.5</span><span class="p">,</span> <span class="mf">237536.4</span><span class="p">)</span> <span class="o">*</span> <span class="n">A</span><span class="o">.</span><span class="n">scale</span><span class="p">(</span><span class="mf">425.0</span><span class="p">,</span> <span class="o">-</span><span class="mf">425.0</span><span class="p">)</span>
+    <span class="n">dst_crs</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;init&#39;</span><span class="p">:</span> <span class="s1">&#39;EPSG:3857&#39;</span><span class="p">}</span>
+    <span class="n">destination</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">zeros</span><span class="p">(</span><span class="n">dst_shape</span><span class="p">,</span> <span class="n">np</span><span class="o">.</span><span class="n">uint8</span><span class="p">)</span>
+
+    <span class="n">reproject</span><span class="p">(</span>
+        <span class="n">source</span><span class="p">,</span>
+        <span class="n">destination</span><span class="p">,</span>
+        <span class="n">src_transform</span><span class="o">=</span><span class="n">src_transform</span><span class="p">,</span>
+        <span class="n">src_crs</span><span class="o">=</span><span class="n">src_crs</span><span class="p">,</span>
+        <span class="n">dst_transform</span><span class="o">=</span><span class="n">dst_transform</span><span class="p">,</span>
+        <span class="n">dst_crs</span><span class="o">=</span><span class="n">dst_crs</span><span class="p">,</span>
+        <span class="n">resampling</span><span class="o">=</span><span class="n">Resampling</span><span class="o">.</span><span class="n">nearest</span><span class="p">)</span>
+
+    <span class="c1"># Assert that the destination is only partly filled.</span>
+    <span class="k">assert</span> <span class="n">destination</span><span class="o">.</span><span class="n">any</span><span class="p">()</span>
+    <span class="k">assert</span> <span class="ow">not</span> <span class="n">destination</span><span class="o">.</span><span class="n">all</span><span class="p">()</span>
+</pre></div>
+</div>
+<p>See <a class="reference external" href="https://github.com/rasterio/rasterio/blob/master/examples/reproject.py">examples/reproject.py</a>
+for code that writes the destination array to a GeoTIFF file. I’ve uploaded the
+resulting file to a Mapbox map to show that the reprojection is
+correct: <a class="reference external" href="https://a.tiles.mapbox.com/v3/sgillies.hfek2oko/page.html?secure=1#6/0.000/0.033">https://a.tiles.mapbox.com/v3/sgillies.hfek2oko/page.html?secure=1#6/0.000/0.033</a>. (dead link)</p>
+<section id="estimating-optimal-output-shape">
+<h2>Estimating optimal output shape<a class="headerlink" href="#estimating-optimal-output-shape" title="Link to this heading"></a></h2>
+<p>Rasterio provides a <a class="reference internal" href="../api/rasterio.warp.html#rasterio.warp.calculate_default_transform" title="rasterio.warp.calculate_default_transform"><code class="xref py py-func docutils literal notranslate"><span class="pre">rasterio.warp.calculate_default_transform()</span></code></a> function to
+determine the optimal resolution and transform for the destination raster.
+Given a source dataset in a known coordinate reference system, this
+function will return a <code class="docutils literal notranslate"><span class="pre">transform,</span> <span class="pre">width,</span> <span class="pre">height</span></code> tuple which is calculated
+by libgdal.</p>
+</section>
+<section id="reprojecting-a-geotiff-dataset">
+<h2>Reprojecting a GeoTIFF dataset<a class="headerlink" href="#reprojecting-a-geotiff-dataset" title="Link to this heading"></a></h2>
+<p>Reprojecting a GeoTIFF dataset from one coordinate reference system is a common
+use case.  Rasterio provides a few utilities to make this even easier:</p>
+<p><a class="reference internal" href="../api/rasterio.warp.html#rasterio.warp.transform_bounds" title="rasterio.warp.transform_bounds"><code class="xref py py-func docutils literal notranslate"><span class="pre">transform_bounds()</span></code></a>
+transforms the bounding coordinates of the source raster to the target
+coordinate reference system, densifiying points along the edges to account
+for non-linear transformations of the edges.</p>
+<p><a class="reference internal" href="../api/rasterio.warp.html#rasterio.warp.calculate_default_transform" title="rasterio.warp.calculate_default_transform"><code class="xref py py-func docutils literal notranslate"><span class="pre">calculate_default_transform()</span></code></a>
+transforms bounds to target coordinate system, calculates resolution if not
+provided, and returns destination transform and dimensions.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">numpy</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">np</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">rasterio</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">rasterio.warp</span><span class="w"> </span><span class="kn">import</span> <span class="n">calculate_default_transform</span><span class="p">,</span> <span class="n">reproject</span><span class="p">,</span> <span class="n">Resampling</span>
+
+<span class="n">dst_crs</span> <span class="o">=</span> <span class="s1">&#39;EPSG:4326&#39;</span>
+
+<span class="k">with</span> <span class="n">rasterio</span><span class="o">.</span><span class="n">open</span><span class="p">(</span><span class="s1">&#39;rasterio/tests/data/RGB.byte.tif&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">src</span><span class="p">:</span>
+    <span class="n">transform</span><span class="p">,</span> <span class="n">width</span><span class="p">,</span> <span class="n">height</span> <span class="o">=</span> <span class="n">calculate_default_transform</span><span class="p">(</span>
+        <span class="n">src</span><span class="o">.</span><span class="n">crs</span><span class="p">,</span> <span class="n">dst_crs</span><span class="p">,</span> <span class="n">src</span><span class="o">.</span><span class="n">width</span><span class="p">,</span> <span class="n">src</span><span class="o">.</span><span class="n">height</span><span class="p">,</span> <span class="o">*</span><span class="n">src</span><span class="o">.</span><span class="n">bounds</span><span class="p">)</span>
+    <span class="n">kwargs</span> <span class="o">=</span> <span class="n">src</span><span class="o">.</span><span class="n">meta</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
+    <span class="n">kwargs</span><span class="o">.</span><span class="n">update</span><span class="p">({</span>
+        <span class="s1">&#39;crs&#39;</span><span class="p">:</span> <span class="n">dst_crs</span><span class="p">,</span>
+        <span class="s1">&#39;transform&#39;</span><span class="p">:</span> <span class="n">transform</span><span class="p">,</span>
+        <span class="s1">&#39;width&#39;</span><span class="p">:</span> <span class="n">width</span><span class="p">,</span>
+        <span class="s1">&#39;height&#39;</span><span class="p">:</span> <span class="n">height</span>
+    <span class="p">})</span>
+
+    <span class="k">with</span> <span class="n">rasterio</span><span class="o">.</span><span class="n">open</span><span class="p">(</span><span class="s1">&#39;/tmp/RGB.byte.wgs84.tif&#39;</span><span class="p">,</span> <span class="s1">&#39;w&#39;</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span> <span class="k">as</span> <span class="n">dst</span><span class="p">:</span>
+        <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">src</span><span class="o">.</span><span class="n">count</span> <span class="o">+</span> <span class="mi">1</span><span class="p">):</span>
+            <span class="n">reproject</span><span class="p">(</span>
+                <span class="n">source</span><span class="o">=</span><span class="n">rasterio</span><span class="o">.</span><span class="n">band</span><span class="p">(</span><span class="n">src</span><span class="p">,</span> <span class="n">i</span><span class="p">),</span>
+                <span class="n">destination</span><span class="o">=</span><span class="n">rasterio</span><span class="o">.</span><span class="n">band</span><span class="p">(</span><span class="n">dst</span><span class="p">,</span> <span class="n">i</span><span class="p">),</span>
+                <span class="n">src_transform</span><span class="o">=</span><span class="n">src</span><span class="o">.</span><span class="n">transform</span><span class="p">,</span>
+                <span class="n">src_crs</span><span class="o">=</span><span class="n">src</span><span class="o">.</span><span class="n">crs</span><span class="p">,</span>
+                <span class="n">dst_transform</span><span class="o">=</span><span class="n">transform</span><span class="p">,</span>
+                <span class="n">dst_crs</span><span class="o">=</span><span class="n">dst_crs</span><span class="p">,</span>
+                <span class="n">resampling</span><span class="o">=</span><span class="n">Resampling</span><span class="o">.</span><span class="n">nearest</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>See <code class="docutils literal notranslate"><span class="pre">rasterio/rio/warp.py</span></code> for more complex examples of reprojection based on
+new bounds, dimensions, and resolution (as well as a command-line interface
+described <a class="reference internal" href="../cli.html#warp"><span class="std std-ref">here</span></a>).</p>
+<p>It is also possible to use <a class="reference internal" href="../api/rasterio.warp.html#rasterio.warp.reproject" title="rasterio.warp.reproject"><code class="xref py py-func docutils literal notranslate"><span class="pre">reproject()</span></code></a> to create an output dataset zoomed
+out by a factor of 2.  Methods of the <code class="xref py py-class docutils literal notranslate"><span class="pre">rasterio.Affine</span></code> class help us generate
+the output dataset’s transform matrix and, thereby, its spatial extent.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">numpy</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">np</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">rasterio</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">rasterio</span><span class="w"> </span><span class="kn">import</span> <span class="n">Affine</span> <span class="k">as</span> <span class="n">A</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">rasterio.warp</span><span class="w"> </span><span class="kn">import</span> <span class="n">reproject</span><span class="p">,</span> <span class="n">Resampling</span>
+
+<span class="k">with</span> <span class="n">rasterio</span><span class="o">.</span><span class="n">open</span><span class="p">(</span><span class="s1">&#39;rasterio/tests/data/RGB.byte.tif&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">src</span><span class="p">:</span>
+    <span class="n">src_transform</span> <span class="o">=</span> <span class="n">src</span><span class="o">.</span><span class="n">transform</span>
+
+    <span class="c1"># Zoom out by a factor of 2 from the center of the source</span>
+    <span class="c1"># dataset. The destination transform is the product of the</span>
+    <span class="c1"># source transform, a translation down and to the right, and</span>
+    <span class="c1"># a scaling.</span>
+    <span class="n">dst_transform</span> <span class="o">=</span> <span class="n">src_transform</span><span class="o">*</span><span class="n">A</span><span class="o">.</span><span class="n">translation</span><span class="p">(</span>
+        <span class="o">-</span><span class="n">src</span><span class="o">.</span><span class="n">width</span><span class="o">/</span><span class="mf">2.0</span><span class="p">,</span> <span class="o">-</span><span class="n">src</span><span class="o">.</span><span class="n">height</span><span class="o">/</span><span class="mf">2.0</span><span class="p">)</span><span class="o">*</span><span class="n">A</span><span class="o">.</span><span class="n">scale</span><span class="p">(</span><span class="mf">2.0</span><span class="p">)</span>
+
+    <span class="n">data</span> <span class="o">=</span> <span class="n">src</span><span class="o">.</span><span class="n">read</span><span class="p">()</span>
+
+    <span class="n">kwargs</span> <span class="o">=</span> <span class="n">src</span><span class="o">.</span><span class="n">meta</span>
+    <span class="n">kwargs</span><span class="p">[</span><span class="s1">&#39;transform&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">dst_transform</span>
+
+    <span class="k">with</span> <span class="n">rasterio</span><span class="o">.</span><span class="n">open</span><span class="p">(</span><span class="s1">&#39;/tmp/zoomed-out.tif&#39;</span><span class="p">,</span> <span class="s1">&#39;w&#39;</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span> <span class="k">as</span> <span class="n">dst</span><span class="p">:</span>
+
+        <span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">band</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">data</span><span class="p">,</span> <span class="mi">1</span><span class="p">):</span>
+            <span class="n">dest</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">zeros_like</span><span class="p">(</span><span class="n">band</span><span class="p">)</span>
+
+            <span class="n">reproject</span><span class="p">(</span>
+                <span class="n">band</span><span class="p">,</span>
+                <span class="n">dest</span><span class="p">,</span>
+                <span class="n">src_transform</span><span class="o">=</span><span class="n">src_transform</span><span class="p">,</span>
+                <span class="n">src_crs</span><span class="o">=</span><span class="n">src</span><span class="o">.</span><span class="n">crs</span><span class="p">,</span>
+                <span class="n">dst_transform</span><span class="o">=</span><span class="n">dst_transform</span><span class="p">,</span>
+                <span class="n">dst_crs</span><span class="o">=</span><span class="n">src</span><span class="o">.</span><span class="n">crs</span><span class="p">,</span>
+                <span class="n">resampling</span><span class="o">=</span><span class="n">Resampling</span><span class="o">.</span><span class="n">nearest</span><span class="p">)</span>
+
+            <span class="n">dst</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">dest</span><span class="p">,</span> <span class="n">indexes</span><span class="o">=</span><span class="n">i</span><span class="p">)</span>
+</pre></div>
+</div>
+<img alt="https://farm8.staticflickr.com/7399/16390100651_54f01b8601_b_d.jpg)" src="https://farm8.staticflickr.com/7399/16390100651_54f01b8601_b_d.jpg)" />
+</section>
+<section id="reprojecting-with-other-georeferencing-metadata">
+<h2>Reprojecting with other georeferencing metadata<a class="headerlink" href="#reprojecting-with-other-georeferencing-metadata" title="Link to this heading"></a></h2>
+<p>Most geospatial datasets have a geotransform which can be used to reproject a dataset
+from one coordinate reference system to another. Datasets may also be
+georeferenced by alternative metadata, namely Ground Control Points (gcps) or
+Rational Polynomial Coefficients (rpcs). For details on gcps and rpcs, see
+<a class="reference internal" href="georeferencing.html"><span class="doc">Georeferencing</span></a>. A common scenario is using gcps or rpcs to geocode
+(orthorectify) datasets, resampling and reorienting them to a coordinate
+reference system with a newly computed geotransform.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">numpy</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">np</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">rasterio</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">rasterio.warp</span><span class="w"> </span><span class="kn">import</span> <span class="n">reproject</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">rasterio.enums</span><span class="w"> </span><span class="kn">import</span> <span class="n">Resampling</span>
+
+<span class="k">with</span> <span class="n">rasterio</span><span class="o">.</span><span class="n">open</span><span class="p">(</span><span class="s1">&#39;RGB.byte.rpc.vrt&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">source</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">source</span><span class="o">.</span><span class="n">rpcs</span><span class="p">)</span>
+    <span class="n">src_crs</span> <span class="o">=</span> <span class="s2">&quot;EPSG:4326&quot;</span>  <span class="c1"># This is the crs of the rpcs</span>
+
+    <span class="c1"># Optional keyword arguments to be passed to GDAL transformer</span>
+    <span class="c1"># https://gdal.org/api/gdal_alg.html?highlight=gdalcreategenimgprojtransformer2#_CPPv432GDALCreateGenImgProjTransformer212GDALDatasetH12GDALDatasetHPPc</span>
+    <span class="n">kwargs</span> <span class="o">=</span> <span class="p">{</span>
+        <span class="s1">&#39;RPC_DEM&#39;</span><span class="p">:</span> <span class="s1">&#39;/path/to/dem.tif&#39;</span>
+    <span class="p">}</span>
+
+    <span class="c1"># Destination: a 1024 x 1024 dataset in Web Mercator (EPSG:3857)</span>
+    <span class="n">destination</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">zeros</span><span class="p">((</span><span class="mi">1024</span><span class="p">,</span> <span class="mi">1024</span><span class="p">),</span> <span class="n">dtype</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">uint8</span><span class="p">)</span>
+    <span class="n">dst_crs</span> <span class="o">=</span> <span class="s2">&quot;EPSG:3857&quot;</span>
+
+    <span class="n">_</span><span class="p">,</span> <span class="n">dst_transform</span> <span class="o">=</span> <span class="n">reproject</span><span class="p">(</span>
+        <span class="n">rasterio</span><span class="o">.</span><span class="n">band</span><span class="p">(</span><span class="n">source</span><span class="p">,</span> <span class="mi">1</span><span class="p">),</span>
+        <span class="n">destination</span><span class="p">,</span>
+        <span class="n">rpcs</span><span class="o">=</span><span class="n">source</span><span class="o">.</span><span class="n">rpcs</span><span class="p">,</span>
+        <span class="n">src_crs</span><span class="o">=</span><span class="n">src_crs</span><span class="p">,</span>
+        <span class="n">dst_crs</span><span class="o">=</span><span class="n">dst_crs</span><span class="p">,</span>
+        <span class="n">resampling</span><span class="o">=</span><span class="n">Resampling</span><span class="o">.</span><span class="n">nearest</span><span class="p">,</span>
+        <span class="o">**</span><span class="n">kwargs</span>
+    <span class="p">)</span>
+
+    <span class="k">assert</span> <span class="n">destination</span><span class="o">.</span><span class="n">any</span><span class="p">()</span>
+</pre></div>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>When reprojecting a dataset with gcps or rpcs, the src_crs parameter should
+be supplied with the coordinate reference system that the gcps or rpcs are
+referenced against. By definition rpcs are always referenced against WGS84
+ellipsoid with geographic coordinates (EPSG:4326) <a class="footnote-reference brackets" href="#id4" id="id2" role="doc-noteref"><span class="fn-bracket">[</span>2<span class="fn-bracket">]</span></a>.</p>
+</div>
+</section>
+<section id="references">
+<h2>References<a class="headerlink" href="#references" title="Link to this heading"></a></h2>
+<aside class="footnote-list brackets">
+<aside class="footnote brackets" id="id3" role="doc-footnote">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id1">1</a><span class="fn-bracket">]</span></span>
+<p><a class="reference external" href="https://docs.scipy.org/doc/scipy/reference/generated/scipy.ndimage.geometric_transform.html#scipy.ndimage.geometric_transform">https://docs.scipy.org/doc/scipy/reference/generated/scipy.ndimage.geometric_transform.html#scipy.ndimage.geometric_transform</a></p>
+</aside>
+<aside class="footnote brackets" id="id4" role="doc-footnote">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id2">2</a><span class="fn-bracket">]</span></span>
+<p><a class="reference external" href="http://geotiff.maptools.org/rpc_prop.html">http://geotiff.maptools.org/rpc_prop.html</a></p>
+</aside>
+</aside>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="reading.html" class="btn btn-neutral float-left" title="Reading Datasets" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="resampling.html" class="btn btn-neutral float-right" title="Resampling" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2018, Mapbox.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

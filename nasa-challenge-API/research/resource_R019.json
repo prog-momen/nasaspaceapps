@@ -1,0 +1,13 @@
+{
+  "id": "resource_R019",
+  "url": "https://ntrs.nasa.gov/api/citations/20090042747/downloads/20090042747.pdf",
+  "checked_at": "2026-11-14T15:15:10.518699+00:00",
+  "tls_validation": false,
+  "status": 200,
+  "final_url": "https://ntrs.nasa.gov/api/citations/20090042747/downloads/20090042747.pdf",
+  "bytes": 750000,
+  "content_type": "application/pdf",
+  "sha256": "7970ee875d6900e658f8834494b5d8dd95a17fca829d9ae0f9607a586a223e90",
+  "links": [],
+  "elapsed_seconds": 2.125
+}

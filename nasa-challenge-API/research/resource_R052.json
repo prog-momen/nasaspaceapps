@@ -1,0 +1,142 @@
+{
+  "id": "resource_R052",
+  "url": "https://www.argentina.gob.ar/noticias/la-informacion-saocom-cada-vez-mas-accesible",
+  "checked_at": "2026-11-14T15:15:14.577500+00:00",
+  "tls_validation": false,
+  "status": 200,
+  "final_url": "https://www.argentina.gob.ar/noticias/la-informacion-saocom-cada-vez-mas-accesible",
+  "bytes": 41431,
+  "content_type": "text/html; charset=utf-8",
+  "sha256": "8588dba9f0c5380c001f233baec1c572b12a0e277fb74349461853941b407fb0",
+  "links": [
+    {
+      "url": "https://www.argentina.gob.ar/noticias/la-informacion-saocom-cada-vez-mas-accesible#main-content",
+      "label": "Pasar al contenido principal"
+    },
+    {
+      "url": "https://www.argentina.gob.ar/",
+      "label": ""
+    },
+    {
+      "url": "https://mi.argentina.gob.ar",
+      "label": "Ir a Mi Argentina"
+    },
+    {
+      "url": "https://mi.argentina.gob.ar/",
+      "label": "Mi Argentina"
+    },
+    {
+      "url": "https://www.argentina.gob.ar/",
+      "label": "Inicio"
+    },
+    {
+      "url": "https://www.argentina.gob.ar/jefatura",
+      "label": "Jefatura de Gabinete de Ministros"
+    },
+    {
+      "url": "https://www.argentina.gob.ar/jefatura/innovacion-ciencia-y-tecnologia",
+      "label": "Innovación, Ciencia y Tecnología"
+    },
+    {
+      "url": "https://www.argentina.gob.ar/ciencia",
+      "label": "Ciencia y Tecnología"
+    },
+    {
+      "url": "https://www.argentina.gob.ar/ciencia/conae",
+      "label": "Comisión Nacional de Actividades Espaciales"
+    },
+    {
+      "url": "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.argentina.gob.ar%2Fnoticias%2Fla-informacion-saocom-cada-vez-mas-accesible&title=La+informaci%C3%B3n+SAOCOM+cada+vez+m%C3%A1s+accesible+",
+      "label": "Compartir en Facebook"
+    },
+    {
+      "url": "https://x.com/share?url=https%3A%2F%2Fwww.argentina.gob.ar%2Fnoticias%2Fla-informacion-saocom-cada-vez-mas-accesible&title=La+informaci%C3%B3n+SAOCOM+cada+vez+m%C3%A1s+accesible+",
+      "label": "Compartir en X"
+    },
+    {
+      "url": "https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fwww.argentina.gob.ar%2Fnoticias%2Fla-informacion-saocom-cada-vez-mas-accesible",
+      "label": "Compartir en Linkedin"
+    },
+    {
+      "url": "https://web.whatsapp.com/send?text=https%3A%2F%2Fwww.argentina.gob.ar%2Fnoticias%2Fla-informacion-saocom-cada-vez-mas-accesible&title=La+informaci%C3%B3n+SAOCOM+cada+vez+m%C3%A1s+accesible+",
+      "label": "Compartir en Whatsapp"
+    },
+    {
+      "url": "https://t.me/share/url?url=https%3A%2F%2Fwww.argentina.gob.ar%2Fnoticias%2Fla-informacion-saocom-cada-vez-mas-accesible&text=La+informaci%C3%B3n+SAOCOM+cada+vez+m%C3%A1s+accesible+",
+      "label": "Compartir en Telegram"
+    },
+    {
+      "url": "https://www.argentina.gob.ar/misiones-satelitales/productos",
+      "label": "productos"
+    },
+    {
+      "url": "https://www.argentina.gob.ar/ciencia/conae/productos-saocom/acceder-la-licencia-de-uso",
+      "label": "Página"
+    },
+    {
+      "url": "https://registro.conae.gov.ar/registracion/view/",
+      "label": "https://registro.conae.gov.ar/registracion/view/"
+    },
+    {
+      "url": "https://catalog.saocom.conae.gov.ar/catalog/#/",
+      "label": "https://catalog.saocom.conae.gov.ar/catalog/#/"
+    },
+    {
+      "url": "mailto:atencion.usuario@conae.gov.ar",
+      "label": "[email protected]"
+    },
+    {
+      "url": "https://www.argentina.gob.ar/noticias/conae-anuncia-los-cinco-equipos-que-llegan-la-campana-de-lanzamiento-de-cansat-secundario",
+      "label": "12 de noviembre de 2026 CONAE anuncia los cinco equipos que llegan a la campaña de lanzamiento de CANSAT Secundario 2026"
+    },
+    {
+      "url": "https://www.argentina.gob.ar/noticias/desafio-nasa-space-apps-challenge-2026-crea-soluciones-para-monitorear-incendios-con-datos",
+      "label": "28 de octubre de 2026 Desafío NASA Space Apps Challenge 2026: creá soluciones para monitorear incendios con datos espaciales"
+    },
+    {
+      "url": "https://www.argentina.gob.ar/noticias/la-mision-sabia-mar-aprobo-la-revision-del-estado-de-calificacion-del-segmento-terreno-y",
+      "label": "26 de octubre de 2026 La Misión SABIA-Mar aprobó la revisión del estado de calificación del segmento terreno y operaciones de vuelo"
+    },
+    {
+      "url": "https://www.argentina.gob.ar/turnos",
+      "label": "Turnos"
+    },
+    {
+      "url": "https://www.argentina.gob.ar/tad",
+      "label": "Trámites a distancia"
+    },
+    {
+      "url": "https://www.argentina.gob.ar/miargentina/mesadeayuda",
+      "label": "Atención a la ciudadanía"
+    },
+    {
+      "url": "https://www.argentina.gob.ar/pais",
+      "label": "Nuestro país"
+    },
+    {
+      "url": "https://www.argentina.gob.ar/normativa",
+      "label": "Leyes argentinas"
+    },
+    {
+      "url": "https://www.argentina.gob.ar/organismos",
+      "label": "Organismos"
+    },
+    {
+      "url": "https://www.argentina.gob.ar/desregulacion/mapa-del-estado",
+      "label": "Mapa del Estado"
+    },
+    {
+      "url": "https://www.argentina.gob.ar/acerca",
+      "label": "Acerca de este sitio"
+    },
+    {
+      "url": "https://www.argentina.gob.ar/terminos-y-condiciones",
+      "label": "Términos y condiciones"
+    },
+    {
+      "url": "https://www.argentina.gob.ar/sugerencias",
+      "label": "Sugerencias"
+    }
+  ],
+  "elapsed_seconds": 4.141
+}

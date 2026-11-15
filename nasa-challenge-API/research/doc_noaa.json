@@ -1,0 +1,338 @@
+{
+  "id": "doc_noaa",
+  "url": "https://www.ncei.noaa.gov/cdo-web/webservices/v2",
+  "checked_at": "2026-11-14T15:12:45.240552+00:00",
+  "tls_validation": false,
+  "status": 200,
+  "final_url": "https://www.ncei.noaa.gov/cdo-web/webservices/v2",
+  "bytes": 57224,
+  "content_type": "text/html;charset=ISO-8859-1",
+  "sha256": "c54a9b3f1daf89cba658a15ffdd6d269f3cf0b9a58e6bb531cca5ab55226e1fa",
+  "links": [
+    {
+      "url": "http://www.noaa.gov/",
+      "label": ""
+    },
+    {
+      "url": "http://www.ncei.noaa.gov/",
+      "label": "National Centers for Environmental Information"
+    },
+    {
+      "url": "http://www.commerce.gov/",
+      "label": ""
+    },
+    {
+      "url": "https://www.ncei.noaa.gov/cdo-web/webservices/v2#main-content",
+      "label": "Skip to main content"
+    },
+    {
+      "url": "https://www.ncei.noaa.gov/cdo-web/webservices/v2#site-search",
+      "label": "Skip to site search"
+    },
+    {
+      "url": "https://www.ncei.noaa.gov/",
+      "label": "Home"
+    },
+    {
+      "url": "https://www.ncei.noaa.gov/monitoring",
+      "label": "Climate Information"
+    },
+    {
+      "url": "https://www.ncei.noaa.gov/access",
+      "label": "Data Access"
+    },
+    {
+      "url": "https://www.ncei.noaa.gov/contact",
+      "label": "Contact"
+    },
+    {
+      "url": "https://www.ncei.noaa.gov/about",
+      "label": "About"
+    },
+    {
+      "url": "https://www.ncei.noaa.gov/cdo-web/webservices/v2",
+      "label": ""
+    },
+    {
+      "url": "https://www.ncei.noaa.gov/",
+      "label": "Home"
+    },
+    {
+      "url": "https://www.ncei.noaa.gov/cdo-web/",
+      "label": "Climate Data Online"
+    },
+    {
+      "url": "https://www.ncei.noaa.gov/cdo-web/datasets",
+      "label": "Datasets"
+    },
+    {
+      "url": "https://www.ncei.noaa.gov/cdo-web/search",
+      "label": "Search Tool"
+    },
+    {
+      "url": "https://gis.ncdc.noaa.gov/maps/ncei/",
+      "label": "Mapping Tool"
+    },
+    {
+      "url": "https://www.ncei.noaa.gov/cdo-web/datatools",
+      "label": "Data Tools"
+    },
+    {
+      "url": "https://www.ncei.noaa.gov/cdo-web/faq",
+      "label": "Help"
+    },
+    {
+      "url": "https://www.ncei.noaa.gov/cdo-web/webservices/v2",
+      "label": ""
+    },
+    {
+      "url": "https://www.ncei.noaa.gov/cdo-web/webservices/v2",
+      "label": "Getting Started"
+    },
+    {
+      "url": "https://www.ncei.noaa.gov/cdo-web/webservices/v2",
+      "label": "Datasets"
+    },
+    {
+      "url": "https://www.ncei.noaa.gov/cdo-web/webservices/v2",
+      "label": "Data Categories"
+    },
+    {
+      "url": "https://www.ncei.noaa.gov/cdo-web/webservices/v2",
+      "label": "Data Types"
+    },
+    {
+      "url": "https://www.ncei.noaa.gov/cdo-web/webservices/v2",
+      "label": "Location Categories"
+    },
+    {
+      "url": "https://www.ncei.noaa.gov/cdo-web/webservices/v2",
+      "label": "Locations"
+    },
+    {
+      "url": "https://www.ncei.noaa.gov/cdo-web/webservices/v2",
+      "label": "Stations"
+    },
+    {
+      "url": "https://www.ncei.noaa.gov/cdo-web/webservices/v2",
+      "label": "Data"
+    },
+    {
+      "url": "https://www.ncei.noaa.gov/cdo-web/token",
+      "label": "token request page"
+    },
+    {
+      "url": "https://www.ncei.noaa.gov/cdo-web/webservices/v2",
+      "label": "/datasets"
+    },
+    {
+      "url": "https://www.ncei.noaa.gov/cdo-web/webservices/v2",
+      "label": "/datacategories"
+    },
+    {
+      "url": "https://www.ncei.noaa.gov/cdo-web/webservices/v2",
+      "label": "/datatypes"
+    },
+    {
+      "url": "https://www.ncei.noaa.gov/cdo-web/webservices/v2",
+      "label": "/locationcategories"
+    },
+    {
+      "url": "https://www.ncei.noaa.gov/cdo-web/webservices/v2",
+      "label": "/locations"
+    },
+    {
+      "url": "https://www.ncei.noaa.gov/cdo-web/webservices/v2",
+      "label": "/stations"
+    },
+    {
+      "url": "https://www.ncei.noaa.gov/cdo-web/webservices/v2",
+      "label": "/data"
+    },
+    {
+      "url": "https://www.ncei.noaa.gov/cdo-web/token",
+      "label": "token request page"
+    },
+    {
+      "url": "https://www.ncei.noaa.gov/cdo-web/webservices/v2",
+      "label": "Fetch all available datasets"
+    },
+    {
+      "url": "https://www.ncei.noaa.gov/cdo-web/webservices/v2",
+      "label": "Fetch all information about the GSOY dataset specifically"
+    },
+    {
+      "url": "https://www.ncei.noaa.gov/cdo-web/webservices/v2",
+      "label": "Fetch all available datasets with the Temperature at the time of observation (TOBS) data type"
+    },
+    {
+      "url": "https://www.ncei.noaa.gov/cdo-web/webservices/v2",
+      "label": "Fetch all available datasets with data for a given set of stations"
+    },
+    {
+      "url": "https://www.ncei.noaa.gov/cdo-web/webservices/v2",
+      "label": "Fetch all available data categories"
+    },
+    {
+      "url": "https://www.ncei.noaa.gov/cdo-web/webservices/v2",
+      "label": "Fetch all information about the Annual Agricultural dataset specifically"
+    },
+    {
+      "url": "https://www.ncei.noaa.gov/cdo-web/webservices/v2",
+      "label": "Fetch data categories for a given set of locations"
+    },
+    {
+      "url": "https://www.ncei.noaa.gov/cdo-web/webservices/v2",
+      "label": "Fetch available data types"
+    },
+    {
+      "url": "https://www.ncei.noaa.gov/cdo-web/webservices/v2",
+      "label": "Fetch more information about the ACMH data type id"
+    },
+    {
+      "url": "https://www.ncei.noaa.gov/cdo-web/webservices/v2",
+      "label": "Fetch data types with the air temperature data category"
+    },
+    {
+      "url": "https://www.ncei.noaa.gov/cdo-web/webservices/v2",
+      "label": "Fetch data types that support a given set of stations"
+    },
+    {
+      "url": "https://www.ncei.noaa.gov/cdo-web/webservices/v2",
+      "label": "Fetch all available location categories"
+    },
+    {
+      "url": "https://www.ncei.noaa.gov/cdo-web/webservices/v2",
+      "label": "Fetch more information about the climate region location category"
+    },
+    {
+      "url": "https://www.ncei.noaa.gov/cdo-web/webservices/v2",
+      "label": "Fetch available location categories that have data after 1970"
+    },
+    {
+      "url": "https://www.ncei.noaa.gov/cdo-web/webservices/v2",
+      "label": "Fetch available locations"
+    },
+    {
+      "url": "https://www.ncei.noaa.gov/cdo-web/webservices/v2",
+      "label": "Fetch more information about location id FIPS:37"
+    },
+    {
+      "url": "https://www.ncei.noaa.gov/cdo-web/webservices/v2",
+      "label": "Fetch available locations for the GHCND (Daily Summaries) dataset"
+    },
+    {
+      "url": "https://www.ncei.noaa.gov/cdo-web/webservices/v2",
+      "label": "Fetch all U.S. States"
+    },
+    {
+      "url": "https://www.ncei.noaa.gov/cdo-web/webservices/v2",
+      "label": "Fetch list of city locations in descending order"
+    },
+    {
+      "url": "https://www.ncei.noaa.gov/cdo-web/webservices/v2",
+      "label": "Fetch list of zip code locations in descending order"
+    },
+    {
+      "url": "https://developers.google.com/maps/documentation/javascript/reference#LatLngBounds",
+      "label": "Google Maps API V3 LatLngBounds.toUrlValue"
+    },
+    {
+      "url": "https://www.ncei.noaa.gov/cdo-web/webservices/v2",
+      "label": "Fetch all available stations"
+    },
+    {
+      "url": "https://www.ncei.noaa.gov/cdo-web/webservices/v2",
+      "label": "Fetch all information about the Abbeville AL station specifically"
+    },
+    {
+      "url": "https://www.ncei.noaa.gov/cdo-web/webservices/v2",
+      "label": "Fetch all the stations in North Carolina, US (FIPS:37)"
+    },
+    {
+      "url": "https://www.ncei.noaa.gov/cdo-web/webservices/v2",
+      "label": "Fetch a list of stations that support a given set of data types"
+    },
+    {
+      "url": "https://www.ncei.noaa.gov/cdo-web/webservices/v2",
+      "label": "Fetch data from the GHCND dataset (Daily Summaries) for zip code 28801, May 1st of 2010"
+    },
+    {
+      "url": "https://www.ncei.noaa.gov/cdo-web/webservices/v2",
+      "label": "Fetch data from the PRECIP_15 dataset (Precipitation 15 Minute) for COOP station 010008, for May of 2010 with metric units"
+    },
+    {
+      "url": "https://www.ncei.noaa.gov/cdo-web/webservices/v2",
+      "label": "Fetch data from the GSOM dataset (Global Summary of the Month) for GHCND station USC00010008, for May of 2010 with standard units"
+    },
+    {
+      "url": "https://www.commerce.gov/",
+      "label": ""
+    },
+    {
+      "url": "https://www.usa.gov",
+      "label": ""
+    },
+    {
+      "url": "https://www.ready.gov",
+      "label": ""
+    },
+    {
+      "url": "https://www.ncei.noaa.gov/",
+      "label": "NCEI"
+    },
+    {
+      "url": "https://www.ncei.noaa.gov/about",
+      "label": "About"
+    },
+    {
+      "url": "https://www.ncei.noaa.gov/sitemap",
+      "label": "Site Map"
+    },
+    {
+      "url": "http://www.noaa.gov/privacy.html",
+      "label": "Privacy"
+    },
+    {
+      "url": "http://www.rdc.noaa.gov/%7Efoia/",
+      "label": "FOIA"
+    },
+    {
+      "url": "http://www.cio.noaa.gov/Policy_Programs/info_quality.html",
+      "label": "Information Quality"
+    },
+    {
+      "url": "http://www.noaa.gov/disclaimer.html",
+      "label": "Disclaimer"
+    },
+    {
+      "url": "http://www.commerce.gov/",
+      "label": "Department of Commerce"
+    },
+    {
+      "url": "http://www.noaa.gov",
+      "label": "NOAA"
+    },
+    {
+      "url": "http://www.nesdis.noaa.gov/",
+      "label": "NESDIS"
+    },
+    {
+      "url": "https://www.commerce.gov/",
+      "label": "Department of Commerce"
+    },
+    {
+      "url": "https://www.noaa.gov/",
+      "label": "NOAA"
+    },
+    {
+      "url": "https://www.nesdis.noaa.gov/",
+      "label": "NESDIS"
+    },
+    {
+      "url": "https://www.ncei.noaa.gov/",
+      "label": "NCEI"
+    }
+  ],
+  "elapsed_seconds": 1.75
+}

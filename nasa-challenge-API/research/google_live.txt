@@ -1,0 +1,276 @@
+Gemini 3.8 Live - Gemini API | Google AI Studio
+> ## AI Agent Context
+> Get the complete documentation index at: https://aistudio.google.com/llms.txt
+> Use this file to discover all available pages.
+> For the full documentation in a single file, fetch: https://aistudio.google.com/llms-full.txt
+
+# Gemini 3.8 Live
+
+Gemini 3.8 Live (`gemini-3.8-live`) is the default option for low-latency,
+audio-to-audio voice agent experiences and real-time dialogue without
+reasoning-induced delays. It supports interleaved reasoning, asynchronous and
+synchronous function calling, full-session client content updates, and built-in
+proactive audio.
+
+For complex agentic tasks requiring multi-step reasoning and configurable
+thinking budgets, see
+[Gemini 3.8 Live Extended Thinking](/docs/models/gemini-3.8-live-extended-thinking).
+
+{% button href="https://aistudio.google.com/live?model=gemini-3.8-live" variant="ais" %} Try in Google AI Studio {% /button %}
+
+## Documentation  {% id="documentation" %}
+
+Visit the [Live API](/docs/live-api) guide for full coverage of features,
+streaming configurations, and tool integrations.
+
+## gemini-3.8-live  {% id="gemini-38-live" %}
+
+{% table variant="model" %}
+  * Property
+  * Description
+
+  ---
+
+  *     {% section class="model-property" %}
+  {% icon name="id_card" /%}Model code
+
+    {% /section %}
+
+  * `gemini-3.8-live`
+
+  ---
+
+  *     {% section class="model-property" %}
+  {% icon name="save" /%}Supported data types
+
+    {% /section %}
+
+  *     **Inputs** Text, images, audio
+
+    **Output** Text and audio
+
+
+  ---
+
+  *     {% section class="model-property" %}
+  {% icon name="token_auto" /%}Token limits{% sup %}[[*]](/docs/tokens){% /sup %}
+
+    {% /section %}
+
+  *     **Input token limit** 131,072
+
+    **Output token limit** 65,536
+
+
+  ---
+
+  *     {% section class="model-property" %}
+  {% icon name="handyman" /%}Capabilities
+
+    {% /section %}
+
+  *     {% section class="three-column-grid" %}
+  {% section %}
+  [**Audio generation**](/docs/speech-generation)
+
+  {% badge type="supported" /%}
+
+  {% /section %}
+
+  {% section %}
+  [**Code execution**](/docs/code-execution)
+
+  {% badge type="not-supported" /%}
+
+  {% /section %}
+
+  {% section %}
+  [**Context caching**](/docs/caching)
+
+  {% badge type="not-supported" /%}
+
+  {% /section %}
+
+  {% section %}
+  [**File search**](/docs/file-search)
+
+  {% badge type="not-supported" /%}
+
+  {% /section %}
+
+  {% section %}
+  [**Function calling**](/docs/function-calling)
+
+  {% badge type="supported" /%}
+
+  {% /section %}
+
+  {% section %}
+  [**Grounding with Google Maps**](/docs/maps-grounding)
+
+  {% badge type="not-supported" /%}
+
+  {% /section %}
+
+  {% section %}
+  [**Grounding with Google Search**](/docs/google-search)
+
+  {% badge type="supported" /%}
+
+  {% /section %}
+
+  {% section %}
+  [**Image generation**](/docs/image-generation)
+
+  {% badge type="not-supported" /%}
+
+  {% /section %}
+
+  {% section %}
+  [**Live API**](/docs/live-api)
+
+  {% badge type="supported" /%}
+
+  {% /section %}
+
+  {% section %}
+  [**Structured outputs**](/docs/structured-output)
+
+  {% badge type="not-supported" /%}
+
+  {% /section %}
+
+  {% section %}
+  [**Thinking**](/docs/thinking)
+
+  {% badge label=Supported (interleaved reasoning) type="supported" /%}
+
+  {% /section %}
+
+  {% section %}
+  [**URL context**](/docs/url-context)
+
+  {% badge type="not-supported" /%}
+
+  {% /section %}
+
+    {% /section %}
+
+
+  ---
+
+  *     {% section class="model-property" %}
+  {% icon name="speed" /%}Consumption options
+
+    {% /section %}
+
+  *     {% section class="three-column-grid" %}
+  {% section %}
+  [**Batch API**](/docs/batch-api)
+
+  {% badge type="not-supported" /%}
+
+  {% /section %}
+
+  {% section %}
+  [**Flex inference**](/docs/flex-inference)
+
+  {% badge type="not-supported" /%}
+
+  {% /section %}
+
+  {% section %}
+  [**Priority inference**](/docs/priority-inference)
+
+  {% badge type="not-supported" /%}
+
+  {% /section %}
+
+    {% /section %}
+
+
+  ---
+
+  *     {% section class="model-property" %}
+  {% icon name="123" /%}Versions
+
+    {% /section %}
+
+  *     Read the [model version patterns](/docs/models#model-versions) for more details.
+
+    *     Stable: `gemini-3.8-live`
+
+
+  ---
+
+  *     {% section class="model-property" %}
+  {% icon name="calendar_month" /%}Latest update
+
+    {% /section %}
+
+  * September 2026
+
+  ---
+
+  *     {% section class="model-property" %}
+  {% icon name="id_card" /%}Model card
+
+    {% /section %}
+
+  * [Model card](https://deepmind.google/models/model-cards/gemini-3-8-audio/)
+
+  ---
+
+  *     {% section class="model-property" %}
+  {% icon name="paid" /%}Pricing
+
+    {% /section %}
+
+  * [Pricing](/docs/pricing#gemini-3.8-live)
+{% /table %}
+
+## Migrating from Gemini 3.1 Flash Live  {% id="migrating" %}
+
+Gemini 3.8 Live delivers ultra-low latency audio-to-audio interactions and
+expands support for asynchronous workflows. When migrating from
+`gemini-3.1-flash-live-preview`, review the following updates:
+
+*   **Model string**: Update your model string from
+  `gemini-3.1-flash-live-preview` to `gemini-3.8-live`.
+*   **Thinking configuration**: `thinking_level` is not supported in
+  `gemini-3.8-live` because interleaved reasoning is built in. Omit
+  `thinking_level` and `thinking_config` from your session setup. If your
+  application requires configurable background reasoning (`low`, `medium`, or
+  `high`), use
+  [`gemini-3.8-live-extended-thinking`](/docs/models/gemini-3.8-live-extended-thinking).
+  See [Thinking in the Live API](/docs/live-api/thinking).
+*   **Asynchronous function calling**: Asynchronous execution (`behavior:
+NON_BLOCKING`) is the default function calling mode. You can still use
+  synchronous blocking mode for backward compatibility by setting `behavior:
+BLOCKING` on your tool declarations. Function scheduling options (`SILENT`,
+  `WHEN_IDLE`, and `INTERRUPTED`) are also supported. See
+  [Asynchronous function calling](/docs/live-api/tools#async-function-calling).
+*   **Client content updates**: `send_client_content` is supported throughout
+  the entire session lifecycle (both initial history seeding and mid-turn
+  context updates) with explicit roles (`user` or `model`). Setting
+  `turn_complete=true` unconditionally interrupts active model generation. If
+  you send content without `turn_complete`, the server waits for subsequent
+  messages before responding. See
+  [Incremental content updates](/docs/live-api/capabilities#incremental-updates).
+*   **Proactive audio**: Proactive audio is permanently enabled. Setting
+  `proactive_audio: false` returns an error, so omit `proactive_audio` if you
+  are migrating code that disables it.
+*   **Affective dialogue**: Affective dialogue is removed from the API. Remove
+  any `enable_affective_dialog` configurations from your setup.
+*   **Turn coverage**: Defaults to
+  [`TURN_INCLUDES_AUDIO_ACTIVITY_AND_ALL_VIDEO`](/api-reference/live#RealtimeInputConfig.TurnCoverage).
+  Video frames are sent to the model by default, so send frames only when
+  needed to manage context and cost.
+*   **Response modalities**: Audio is the only supported response modality
+  (`response_modalities=["AUDIO"]`). Enable `output_audio_transcription` if
+  your application requires a text transcript. See
+  [Audio transcriptions](/docs/live-api/capabilities#audio-transcription).
+
+For a feature comparison across all Live API models, see the
+[Model comparison](/docs/live-api/capabilities#model-comparison) table in the
+capabilities guide.

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="1" skipped="0" tests="1" time="2.876" timestamp="2026-11-14T21:37:34.107849+02:00" hostname="hsmb"><testcase classname="tests.integration.test_real_trend" name="test_real_gemini_function_calling_runs_tool_and_explains" time="1.444"><failure message="AssertionError: ['Explicit arguments parsed deterministically; model function calling did not succeed', 'Gemini unavailable for the ex...(Gemini unavailable (quota). Attempts: gemini-3.8-flash: daily quota exhausted (cached)); deterministic template used']&#10;assert 'template' == 'gemini'&#10;  &#10;  - gemini&#10;  + template">real_result = {'variable': {'id': 'air_temperature', 'name': 'Air temperature at 2 m (T2M)', 'name_ar': 'درجة حرارة الهواء على ارتفا...riod_requested': {'start_year': 2005, 'end_year': 2025}, 'period_actual': {'first': '2005-01', 'last': '2025-12'}, ...}
+
+    def test_real_gemini_function_calling_runs_tool_and_explains(real_result):
+        agent = TrendAgent(GeminiClient())
+        a = agent.ask("هل ارتفعت درجة حرارة الهواء في الأمازون بين 2005 و2025؟")
+&gt;       assert a.answer_source == "gemini", a.warnings
+E       AssertionError: ['Explicit arguments parsed deterministically; model function calling did not succeed', 'Gemini unavailable for the ex...(Gemini unavailable (quota). Attempts: gemini-3.8-flash: daily quota exhausted (cached)); deterministic template used']
+E       assert 'template' == 'gemini'
+E         
+E         - gemini
+E         + template
+
+tests\integration\test_real_trend.py:42: AssertionError</failure></testcase></testsuite></testsuites>

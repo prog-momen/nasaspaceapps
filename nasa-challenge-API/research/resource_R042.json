@@ -1,0 +1,13 @@
+{
+  "id": "resource_R042",
+  "url": "https://search.asf.alaska.edu/",
+  "checked_at": "2026-11-14T15:15:13.584243+00:00",
+  "tls_validation": false,
+  "status": 200,
+  "final_url": "https://search.asf.alaska.edu/",
+  "bytes": 90083,
+  "content_type": "text/html",
+  "sha256": "5b3b2fd0c807fdadf4cb49dce96f32f140c296b56b84856d9d629a5fb988708f",
+  "links": [],
+  "elapsed_seconds": 0.578
+}

@@ -1,0 +1,13 @@
+{
+  "id": "doc_prithvi",
+  "url": "https://huggingface.co/ibm-nasa-geospatial/Prithvi-EO-2.0-300M-TL/raw/main/README.md",
+  "checked_at": "2026-11-14T15:12:46.581565+00:00",
+  "tls_validation": false,
+  "status": 200,
+  "final_url": "https://huggingface.co/ibm-nasa-geospatial/Prithvi-EO-2.0-300M-TL/raw/main/README.md",
+  "bytes": 7831,
+  "content_type": "text/plain; charset=utf-8",
+  "sha256": "dbb086e8c419228ad1b5cfdb4e2b5c37ec0bb96afcac2c3655c0910e393e81d3",
+  "links": [],
+  "elapsed_seconds": 0.391
+}

@@ -1,0 +1,282 @@
+{
+  "id": "resource_R078",
+  "url": "https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels?tab=overview",
+  "checked_at": "2026-11-14T15:15:19.993264+00:00",
+  "tls_validation": false,
+  "status": 200,
+  "final_url": "https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels?tab=overview",
+  "bytes": 433520,
+  "content_type": "text/html; charset=utf-8",
+  "sha256": "1ee3647d3fdbb58c7c415c38fe3e6e10f0c0469dc60e1a4672d667c8b778c9dd",
+  "links": [
+    {
+      "url": "https://www.copernicus.eu/",
+      "label": ""
+    },
+    {
+      "url": "https://climate.copernicus.eu/",
+      "label": ""
+    },
+    {
+      "url": "https://www.ecmwf.int/",
+      "label": ""
+    },
+    {
+      "url": "https://cds.climate.copernicus.eu/",
+      "label": "Climate Data Store"
+    },
+    {
+      "url": "https://cds.climate.copernicus.eu/datasets",
+      "label": "Datasets"
+    },
+    {
+      "url": "https://cds.climate.copernicus.eu/user-guide",
+      "label": "User guide"
+    },
+    {
+      "url": "https://apps.climate.copernicus.eu",
+      "label": "Applications"
+    },
+    {
+      "url": "https://forum.ecmwf.int",
+      "label": "Forum"
+    },
+    {
+      "url": "https://cds.climate.copernicus.eu/live",
+      "label": "Live status"
+    },
+    {
+      "url": "https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels?tab=overview",
+      "label": ""
+    },
+    {
+      "url": "https://confluence.ecmwf.int/display/CKB/The+family+of+ERA5+datasets",
+      "label": "this article"
+    },
+    {
+      "url": "https://confluence.ecmwf.int/display/CKB/How+to+download+ERA5",
+      "label": "these guidelines"
+    },
+    {
+      "url": "https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels?tab=overview",
+      "label": ""
+    },
+    {
+      "url": "https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels?tab=overview",
+      "label": ""
+    },
+    {
+      "url": "https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels?tab=overview",
+      "label": ""
+    },
+    {
+      "url": "https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels?tab=overview",
+      "label": ""
+    },
+    {
+      "url": "https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels?tab=quality_assurance_tab#qa_general",
+      "label": "Data Management"
+    },
+    {
+      "url": "https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels?tab=overview",
+      "label": ""
+    },
+    {
+      "url": "https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels?tab=overview",
+      "label": ""
+    },
+    {
+      "url": "https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels?tab=overview",
+      "label": ""
+    },
+    {
+      "url": "https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels?tab=overview",
+      "label": ""
+    },
+    {
+      "url": "https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels?tab=quality_assurance_tab#qa_data_records",
+      "label": "Data records"
+    },
+    {
+      "url": "https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels?tab=overview",
+      "label": ""
+    },
+    {
+      "url": "https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels?tab=overview",
+      "label": ""
+    },
+    {
+      "url": "https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels?tab=overview",
+      "label": ""
+    },
+    {
+      "url": "https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels?tab=overview",
+      "label": ""
+    },
+    {
+      "url": "https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels?tab=quality_assurance_tab#qa_metadata",
+      "label": "Metadata"
+    },
+    {
+      "url": "https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels?tab=overview",
+      "label": ""
+    },
+    {
+      "url": "https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels?tab=overview",
+      "label": ""
+    },
+    {
+      "url": "https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels?tab=overview",
+      "label": ""
+    },
+    {
+      "url": "https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels?tab=quality_assurance_tab#qa_documentation",
+      "label": "Documentation"
+    },
+    {
+      "url": "https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels?tab=overview",
+      "label": ""
+    },
+    {
+      "url": "https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels?tab=overview",
+      "label": ""
+    },
+    {
+      "url": "https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels?tab=overview",
+      "label": ""
+    },
+    {
+      "url": "https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels?tab=overview",
+      "label": ""
+    },
+    {
+      "url": "https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels?tab=overview",
+      "label": ""
+    },
+    {
+      "url": "https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels?tab=overview",
+      "label": ""
+    },
+    {
+      "url": "https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels?tab=overview",
+      "label": ""
+    },
+    {
+      "url": "https://doi.org/10.24381/cds.adbb2d47",
+      "label": "10.24381/cds.adbb2d47"
+    },
+    {
+      "url": "https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels?tab=overview",
+      "label": ""
+    },
+    {
+      "url": "https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels?tab=overview",
+      "label": ""
+    },
+    {
+      "url": "https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels?tab=overview",
+      "label": ""
+    },
+    {
+      "url": "https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels?tab=overview",
+      "label": ""
+    },
+    {
+      "url": "https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels?tab=overview",
+      "label": ""
+    },
+    {
+      "url": "https://earthkit.ecmwf.int/",
+      "label": ""
+    },
+    {
+      "url": "https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels?tab=overview",
+      "label": ""
+    },
+    {
+      "url": "https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels?tab=overview",
+      "label": ""
+    },
+    {
+      "url": "https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels?tab=overview",
+      "label": ""
+    },
+    {
+      "url": "https://jupyterhub.ecmwf.int/hub/user-redirect/lab/tree/notebooks-library/dss-notebooks/datasets/reanalysis-era5-single-levels/demo.ipynb?profile=dss-singleuser",
+      "label": "Launch example in JupyterHub"
+    },
+    {
+      "url": "https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels?tab=overview",
+      "label": ""
+    },
+    {
+      "url": "https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels?tab=overview",
+      "label": ""
+    },
+    {
+      "url": "https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels?tab=overview",
+      "label": ""
+    },
+    {
+      "url": "https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels?tab=overview",
+      "label": ""
+    },
+    {
+      "url": "https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels?tab=overview",
+      "label": ""
+    },
+    {
+      "url": "https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels?tab=overview",
+      "label": ""
+    },
+    {
+      "url": "https://cds.climate.copernicus.eu/stac-browser/collections/reanalysis-era5-single-levels",
+      "label": "STAC"
+    },
+    {
+      "url": "https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels?tab=overview",
+      "label": ""
+    },
+    {
+      "url": "https://cds.climate.copernicus.eu/api/csw/v1/%20?service=CSW&version=3.0.0&request=GetRecordById&outputSchema=http://www.isotc211.org/2005/gmd&id=reanalysis-era5-single-levels&elementsetname=full",
+      "label": "CSW"
+    },
+    {
+      "url": "https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels?tab=overview",
+      "label": ""
+    },
+    {
+      "url": "https://ads.atmosphere.copernicus.eu/",
+      "label": "Atmosphere Data Store"
+    },
+    {
+      "url": "https://ewds.climate.copernicus.eu/",
+      "label": "CEMS Early Warning Data Store"
+    },
+    {
+      "url": "https://climate.copernicus.eu/about-us",
+      "label": "About C3S"
+    },
+    {
+      "url": "https://cds.climate.copernicus.eu/help",
+      "label": "Help"
+    },
+    {
+      "url": "https://cds.climate.copernicus.eu/privacy",
+      "label": "Privacy"
+    },
+    {
+      "url": "https://cds.climate.copernicus.eu/disclaimer-privacy",
+      "label": "Terms of Use"
+    },
+    {
+      "url": "https://cds.climate.copernicus.eu/cookies",
+      "label": "Cookies"
+    },
+    {
+      "url": "https://cds.climate.copernicus.eu/background",
+      "label": "Background"
+    }
+  ],
+  "elapsed_seconds": 1.375
+}

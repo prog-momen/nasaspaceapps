@@ -1,0 +1,452 @@
+Applied Remote Sensing Training Program | NASA Earthdata
+Skip to main content
+Earthdata Forum is down due to unplanned maintenance. Please contact earthdata-support@nasa.gov with questions.
+See the alert
+Suomi NPP is no longer delivering new data. Users must transition to alternative products.
+Suomi NPP data announcement
+Home
+Data
+Data Catalog
+Data Alerts and Outages
+Projects
+Land, Atmosphere Near real-time Capability for Earth observation (LANCE)
+Harmonized Landsat and Sentinel-2 (HLS)
+Applied Remote Sensing Training Program (ARSET)
+Observation Methods
+Platforms
+Instruments
+Space Geodesy Techniques
+Data Tools
+Earthdata Search
+Worldview
+Fire Information for Resource Management System (FIRMS)
+Vertex
+Giovanni
+Application for Extracting and Exploring Analysis Ready Samples (AppEEARS)
+Visualization, Exploration, and Data Analysis (VEDA)
+Ocean Color Level 3 and 4 Browser
+Topics
+Atmosphere
+Biosphere
+Climate Indicators
+Cryosphere
+Human Dimensions
+Land Surface
+Ocean
+Solid Earth
+Sun-Earth Interactions
+Terrestrial Hydrosphere
+View All Topics
+Learn
+Earth Observation Data Basics
+GIS Resources
+Data in Action
+Data Recipes
+Trainings
+Tutorials
+Webinars
+Publications
+Centers
+Distributed Active Archive Centers (DAACs)
+Alaska Satellite Facility (ASF) DAAC
+Atmospheric Science Data Center (ASDC)
+Crustal Dynamics Data Information System (CDDIS)
+Global Hydrometeorology Resource Center (GHRC) DAAC
+Goddard Earth Sciences Data and Information Services Center (GES DISC)
+Land Processes (LP) DAAC
+Level 1 and Atmosphere Archive and Distribution System (LAADS) DAAC
+National Snow and Ice Data Center (NSIDC) DAAC
+Oak Ridge National Laboratory (ORNL) DAAC
+Ocean Biology DAAC (OB.DAAC)
+Physical Oceanography DAAC (PO.DAAC)
+Science Investigator-led Processing Systems (SIPS)
+MODIS Adaptive Processing System (MODAPS) SIPS
+Ocean SIPS
+Microwave Limb Sounder (MLS) SIPS
+Ozone Monitoring Instrument (OMI) SIPS
+Atmosphere SIPS
+Land SIPS
+Ozone Mapping and Profiler Suite SIPS
+Sounder SIPS
+Suborbital Data Resource Center
+Engage
+Open Data, Services, and Software Policies
+Open Science and Data Management Plan
+For Researchers and Grantees
+Data Management Guidance
+Data Rights and Related Issues
+Data Use Guidance
+For Developers
+APIs
+Common Metadata Repository
+For Data Providers
+Adding New Data
+DOI Process
+Standards
+About
+ESDS Leadership
+Organizational Chart
+Multi-Mission Data Processing System Study
+Earth Science Data and Information System (ESDIS) Project
+ESDS Digital Strategy and User Development Team
+Earth Science Data Systems Geographic Information Systems Team (EGIST)
+Competitive Programs
+News & Events
+News
+Events
+Worldview Image of the Week
+Feature Articles
+Data User Stories
+Earthdata Blog
+Data Alerts System
+Subscribe to the Earthdata Newsletter
+Data
+Toggle submenu
+Data
+Data Catalog
+Data Alerts and Outages
+Projects
+Land, Atmosphere Near real-time Capability for Earth observation (LANCE)
+Harmonized Landsat and Sentinel-2 (HLS)
+Applied Remote Sensing Training Program (ARSET)
+Observation Methods
+Platforms
+NASA operates state-of-the-art platforms that collect critical information about our home planet. Drill down to the data and tools you need by exploring platforms on Earth and in the sky.
+Instruments
+From the ground and into space, instruments aboard NASA platforms collect a vast array of Earth science data.
+Space Geodesy Techniques
+These data are used to support scientific and societal applications Earth observations, positioning, navigation, and timing.
+Data Tools
+Earthdata Search
+Worldview
+Fire Information for Resource Management System (FIRMS)
+Vertex
+Giovanni
+Application for Extracting and Exploring Analysis Ready Samples (AppEEARS)
+Visualization, Exploration, and Data Analysis (VEDA)
+Ocean Color Level 3 and 4 Browser
+?
+Get help from experienced data users and managers on Earthdata Forum
+Topics
+Toggle submenu
+Data Pathfinders by Topic
+Atmosphere
+The atmosphere is a gaseous envelope surrounding and protecting our planet from the intense radiation of the Sun.
+Biosphere
+The biosphere encompasses all life on Earth and extends from root systems to mountaintops and all depths of the ocean.
+Climate Indicators
+Climate Indicators hold key information for the most relevant domains of climate change: temperature and energy, atmospheric composition, ocean and water as well as the cryosphere.
+Cryosphere
+The cryosphere encompasses the frozen parts of Earth, including glaciers and ice sheets, sea ice, and any other frozen body of water.
+Human Dimensions
+The human dimensions discipline includes ways humans interact with the environment and how these interactions impact Earth’s systems.
+Land Surface
+The land surface discipline includes research into areas such as shrinking forests, warming land, and eroding soils.
+Ocean
+This vast, critical reservoir supports a diversity of life and helps regulate Earth’s climate.
+Solid Earth
+Processes occurring deep within Earth constantly are shaping landforms.
+Sun-Earth Interactions
+The Sun influences physical and chemical processes in Earth’s atmosphere.
+Terrestrial Hydrosphere
+The terrestrial hydrosphere includes water on the land surface and underground in the form of lakes, rivers, and groundwater along with total water storage.
+Featured Data Pathfinders by Topic
+Air Quality
+Agriculture Production
+Natural Hazards
+Water Quality
+Climate Resilience
+View all Topics
+Learn
+Toggle submenu
+Learn
+Earth Observation Data Basics
+Learn key terms and concepts like remote sensing and processing levels.
+GIS Resources
+Explore resources for the Geographic Information Systems (GIS) community, including StoryMaps.
+Data Support
+Connect with experienced data users and managers through the Earthdata Forum for help with datasets, tools, and services.
+Data in Action
+Data in Action demonstrates Earth science data applications with interactive explanations as to how the work was accomplished.
+Data Recipes
+Data Recipes are code-based instructions that help data scientists accomplish a specific task, such as converting data into a specific format for analysis or visualization.
+Trainings
+Trainings are interactive opportunities to develop technical skills with NASA Earth science data.
+Tutorials
+Tutorials are step by step “how to” content that cover a broad range of tasks, from data collection to visualization.
+Webinars
+Webinars are video seminars featuring experts in various disciplines who share their knowledge in a particular subject area, from data in the cloud to specific data tools.
+Publications
+Access publications citing NASA Earth science data.
+Centers
+Toggle submenu
+Centers
+Distributed Active Archive Centers (DAACs)
+Science Investigator-led Processing Systems (SIPS)
+Alaska Satellite Facility (ASF) DAAC
+Atmospheric Science Data Center (ASDC)
+Crustal Dynamics Data Information System (CDDIS)
+Global Hydrometeorology Resource Center (GHRC) DAAC
+Goddard Earth Sciences Data and Information Services Center (GES DISC)
+Land Processes (LP) DAAC
+Level 1 and Atmosphere Archive and Distribution System (LAADS) DAAC
+National Snow and Ice Data Center (NSIDC) DAAC
+Oak Ridge National Laboratory (ORNL) DAAC
+Ocean Biology DAAC (OB.DAAC)
+Physical Oceanography DAAC (PO.DAAC)
+MODIS Adaptive Processing System (MODAPS) SIPS
+Ocean SIPS
+Microwave Limb Sounder (MLS) SIPS
+Ozone Monitoring Instrument (OMI) SIPS
+Atmosphere SIPS
+Land SIPS
+Ozone Mapping and Profiler Suite SIPS
+Sounder SIPS
+Suborbital Data Resource Center
+All of the resources for the airborne and field data community within our program can be found here.
+Engage
+Toggle submenu
+Engage
+Open Data, Services, and Software Policies
+Open Science and Data Management Plan
+For Researchers and Grantees
+Data Management Guidance
+Data Rights and Related Issues
+Data Use Guidance
+For Developers
+APIs
+Common Metadata Repository
+For Data Providers
+Adding New Data
+DOI Process
+Standards
+About
+Toggle submenu
+About
+ESDS Leadership
+Meet the Earth Science Data Systems Program leadership team.
+Organizational Chart
+View the internal structure of the ESDS Program.
+Multi-Mission Data Processing System Study
+We are considering the right data processing system for open-source data.
+Contact Us
+Find the right contact for questions, feedback, or support related to NASA Earthdata.
+Earth Science Data and Information System (ESDIS) Project
+ESDS Digital Strategy and User Development Team
+Earth Science Data Systems Geographic Information Systems Team (EGIST)
+Competitive Programs
+Program Performance and Metrics
+Access overall ingest, archive, and distribution metrics for the ESDS program.
+News & Events
+Toggle submenu
+News
+View the latest updates from Earthdata.
+Events
+Sign up or watch a past recording of events covering Earth science data topics.
+Worldview Image of the Week
+Learn about the Earth through the lens of NASA’s Worldview.
+Data Alerts System
+Subscribe to the Earthdata Newsletter
+Feature Articles
+Read stories inspired by NASA Earth science data.
+Data User Stories
+Discover how people are researching with NASA Earth science data.
+Earthdata Blog
+Take a deeper dive into NASA Earth science data.
+Latest News
+2 MIN READ
+Atmospheric River Season for the Pacific Northwest
+Worldview Image of the Week
+Nov 13, 2026
+1 MIN READ
+earthaccess Hackathon at AGU 2026
+Event
+Nov 10, 2026
+Search
+Explore ARSET
+Overview
+News
+Learn
+Contact
+Training Types and Levels
+Resources
+Home
+Find Data
+Projects
+ARSET
+ARSET
+Applied Remote Sensing Training Program
+Build skills to use remote sensing data for a range of applications related to air quality, public health, agriculture, disasters, ecological conservation, water resource management, climate resilience, and wildland fires. From "How do satellites work?" to "How can I use satellite data to make a flood map?," there are trainings available for all levels of experience at no cost.
+Funding Programs
+NASA Earth Action Program
+Browse our list of trainings
+Not sure where to start? You can filter by theme, training level, and training type. Or browse our
+Online Resource Guide
+(PDF, 7.8 MB) to quickly see descriptions of our online trainings since 2015.
+Learn more about our
+types and levels of training
+.
+New to remote sensing and Earth observations? Check out our interactive online, self-paced
+Fundamentals of Remote Sensing
+training on the
+ARSET learning management system
+to start learning.
+Visit our
+contact page
+to contact us, join our email list to get training announcements right to your inbox and find answers to frequently asked questions.
+Image
+Featured Trainings
+Monitoring Surface Water with SAR for Water Resource Management
+This ARSET training demonstrates the use of NISAR SAR data and OPERA surface water products to detect, map, and monitor surface water.
+Training
+Oct. 20-27, 2026
+Identifying Disaster Extent and Risk Using NISAR Surface Displacement
+This ARSET training focuses on the use of InSAR data from NISAR and surface displacement products from OPERA to monitor ground movements.
+Training
+Nov. 12-19, 2026
+Fundamentals of Remote Sensing
+This ARSET training introduces participants to the underlying science of satellite remote sensing.
+Training
+Ongoing
+Fundamentals of Remote Sensing for Air Quality Applications
+This ARSET training introduces participants to the underlying science of satellite remote sensing for air quality applications.
+Training
+Ongoing
+Application Areas
+Agriculture
+Climate Resilience
+Disasters
+Ecological Conservation
+Health & Air Quality
+Water Resources
+Wildland Fires
+Find trainings related to food security and agriculture. These trainings cover a wide variety of applications using satellite and modeled data.
+Crop mapping
+Soil moisture and evapotranspiration observations for water resources and agricultural management
+Large-scale data and machine learning applications
+Synthetic Aperture Radar (SAR) observations for crop identification and characterization
+Find trainings that address climate risk, mitigation, and adaptation.
+Climate-related risks including sea level change, coastal storm impacts, and landslides
+Climate projections
+Greenhouse gas monitoring
+Renewable energy management
+ARSET offers training on the use of remote sensing observations for disaster monitoring, preparedness, and relief.
+Wildland fire risk, detection, and analysis
+Flood monitoring and management
+Synthetic Aperture Radar (SAR) observations for detection of floods, sea ice, subsidence, oil slicks,landslides, and more
+Assessment of urban heat islands and other human impacts
+Ecological Conservation trainings focus on access, interpretation, and processing of NASA Earth Observation data for a variety of terrestrial and aquatic applications.
+Land cover and land use change detection
+Calculating vegetation indices
+Monitoring of coastal and marine ecosystems
+Biodiversity management
+ARSET has a variety of trainings that address health and air quality.
+Aerosols, trace gases, smoke, dust, and particulate matter data access and applications
+Long range transport of atmospheric pollutants
+Surface and satellite data validation
+Waterborne and vector-borne diseases
+ARSET’s water resources trainings focus on accessing, interpreting, and applying remote sensing and model-based hydrologic cycle components and water quality parameters.
+Drought monitoring, prediction, and projection
+Water quality monitoring in inland, coastal, and estuarine water bodies
+Agricultural applications related to drought and evapotranspiration
+ARSET has a variety of trainings that address fire risk, detection, and analysis, as well as related topics including air quality and watershed impacts.
+Monitoring pre-fire conditions
+Pre-fire risk assessment
+Active fire and smoke detection
+Post-fire burn severity mapping
+Pre- and post- fire riverine and freshwater water quality analysis
+Latest From ARSET
+See all ARSET News and Announcements
+Feature Article
+1 MIN READ
+Turn Earth Data into Real-World Impact with NASA's Earth Science Applications Guidebook
+This interactive resource guides users through Earth Science at NASA, developing Earth Action proposals, and managing an Earth Action project.
+Feature Article
+2 MIN READ
+Unleash the Force of Lidar with the OBIWAN API to Understand Global Ecosystem Dynamics
+This NASA ARSET training program teaches participants to process data from the Global Ecosystems Dynamics Investigation (GEDI) instrument in the Online Biomass Inference using Waveforms and iNventory (OBIWAN) API to map vegetation structure.
+2 MIN READ
+Seeing the Invisible: Thermal Remote Sensing for Urban Heat
+News
+2 MIN READ
+Below the Surface: Tracking Groundwater from Space
+News
+1 MIN READ
+Eyes in the Sky: A Training on NASA Satellite Imagery for Land Cover Analysis
+News
+Find Data
+By Platform
+Explore data collected by platforms in space, air, water, and land.
+By Topic
+Browse by topic to find relevant data, tools, learning resources, news, and more.
+Data Catalog
+Dive into one of the planet’s largest repositories of Earth science data.
+Data Tools
+Access a range of tools that enable data discovery, analysis, and visualization.
+Footer
+Find Data
+Data Catalog
+Data Tools
+Platforms
+Instruments
+Space Geodesy Techniques
+Projects
+Data Alerts and Outages
+Earthdata Login
+Data Pathfinders by Topic
+Atmosphere
+Biosphere
+Climate Indicators
+Cryosphere
+Human Dimensions
+Land Surface
+Ocean
+Solid Earth
+Sun-Earth Interactions
+Terrestrial Hydrosphere
+Learn
+Earth Observation Data Basics
+Earthdata Forum
+Webinars
+Trainings
+Tutorials
+Data in Action
+Data Recipes
+GIS Resources
+StoryMaps
+Publications
+Centers
+ASF DAAC
+ASDC
+CDDIS
+GHRC DAAC
+GES DISC
+LP DAAC
+LAADS DAAC
+NSIDC DAAC
+ORNL DAAC
+OB.DAAC
+PO.DAAC
+Sea Level Change Portal
+Suborbital Data Resource Center
+Engage
+Data Management Guidance for ESD-funded Researchers
+Open Data, Services, and Software Policies
+Public and Private Partnerships
+Memberships and Affiliations
+News
+Events
+Newsletter
+Contact
+Footer Submenu
+Web Privacy Policy
+Data and Information Guidance
+Communications Policy
+FOIA
+Accessibility
+Sitemap
+USA.gov
+Site last Updated:
+Nov. 6, 2026
+NASA Official:
+Katie Baynes

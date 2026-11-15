@@ -1,0 +1,13 @@
+{
+  "id": "resource_R031",
+  "url": "https://osdr.nasa.gov/osdr/data/search?term=KEYWORD",
+  "checked_at": "2026-11-14T15:15:11.963078+00:00",
+  "tls_validation": false,
+  "status": 200,
+  "final_url": "https://osdr.nasa.gov/osdr/data/search?term=KEYWORD",
+  "bytes": 64753,
+  "content_type": "application/json",
+  "sha256": "be61e94bc242e46c4afa39580f0bad7ee93ed57b75d5271f0e709378315e74a4",
+  "links": [],
+  "elapsed_seconds": 1.797
+}

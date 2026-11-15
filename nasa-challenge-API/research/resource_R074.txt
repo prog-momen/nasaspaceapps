@@ -1,0 +1,198 @@
+Open-Source Transparent Water Management Data | OpenET
+Skip to content
+Getting Started
+What is ET?
+How to Use ET Data
+Trainings & Tutorials
+Data Access
+Data Explorer
+OpenET API
+FARMS Tool
+Google Earth Engine
+Change Log
+About OpenET
+Open Science & Transparency
+Our Team
+Newsroom
+Events
+FAQs
+Reports & Resources
+Contact Us
+OpenET Science
+Methods
+Accuracy & Known Issues
+Research & Literature
+OpenET Global
+OpenET Brazil
+Impact Stories
+OpenET for Farmers & Growers
+OpenET for Water Managers
+OpenET Application Videos
+Search
+Filling the Biggest Data Gap
+in Water Management
+OpenET
+empowers
+water management from local to global scales by delivering transparent, scientifically rigorous satellite-based evapotranspiration (ET) data through accessible tools.
+Data Explorer
+OpenET API
+FARMS Tool
+What's the difference?
+Compare tools
+Open, Trusted Data Transforms Decision-Making
+See how OpenET data is
+driving
+innovation
+—from optimizing on-farm water use to advancing sustainable water management to informing policy at the basin scale.
+Advancing Groundwater Sustainability with California DWR & OpenET
+California
+Read More
+Sustainable Water Management for the Ogallala Aquifer
+Twin Platte Natural Resources District, West Central Nebraska
+Read More
+Using Satellite Data to Measure Consumptive Water Use for Irrigation & Water Conservation Programs
+Upper Colorado River Basin
+Read More
+OpenET & Water Planning, Data Collection, & Data Dissemination
+Texas
+Read More
+Support for Precision Irrigation Tools & Optimized Farm Management
+California Central Coast
+Read More
+Testing Innovative Management Practices for Water Conservation on Pasturelands
+Kremmling, Colorado
+Read More
+Restoring Groundwater Balance & Supply Through Community Planning
+Harney County, Oregon
+Read More
+Overcoming Measurement Challenges & Streamlining Water Compliance
+Sacramento-San Joaquin Delta, California
+Read More
+Built for Impact,
+Powered by Transparency
+Our
+methods
+are
+transparent
+, verifiable, and rigorously validated. At its core, OpenET is about solutions—giving farmers, water managers, and communities the tools they need to make decisions.
+Our
+data
+are
+openly
+available and made actionable through easy-to-use tools.
+Our
+partnerships
+build
+trust
+and solutions that scale through genuine collaboration.
+Open Science & Transparency
+“OpenET provides real-time insights into crop water use that farmers have never had before. When combined with soil-moisture probes, it helps producers grow more with less water — a game-changer for the next generation of agriculture.”
+Dwane Roth
+Fourth-generation Kansas Farmer (semiretired)
+“OpenET’s ability to provide large-scale, spatially rich ET data helps us better understand crop water use patterns across diverse cropping systems. By combining OpenET with local soil, crop, and weather data, we’re working to build tools that support near real-time, practical decision-making in the field.
+OpenET has the potential to play a key role in improving on-farm water management across the West.”
+Maria Zamora Re
+Extension Irrigation Specialist @ Oregon State University
+Actionable Data
+By making high-resolution evapotranspiration (ET) data
+widely accessible
+and
+easy to use
+, OpenET empowers growers, water managers, policymakers, and researchers to make smarter, more sustainable decisions. The “open” in OpenET means that the data are publicly available for anyone to use, while still being developed and maintained through a rigorous, science-based process to ensure accuracy and reliability.
+Proven, science-backed methods for ET data
+OpenET uses proven, science-backed methods to produce daily, monthly, and annual satellite-based ET data at the field scale (30m x 30m).
+Precipitation and vegetation condition
+OpenET also provides access to gridded precipitation information and satellite data on vegetation conditions—offering a comprehensive view of key factors that influence water use.
+Explore Data Production Methods
+A Collaborative Solution to a Critical Need
+OpenET puts the
+best available science
+into the hands of those who need it most.
+Developed by leading experts in partnership with farmers, water managers, and policymakers, OpenET delivers transparent, field-scale ET data to support real-world water challenges.
+Learn more about how it can be used here
+Develop smarter
+irrigation strategies
+Support flexible water conservation
+and trading programs
+Create balanced
+water budgets
+Increase groundwater
+sustainability efforts
+OpenET Consortium Partners
+Learn more about the partners
+How OpenET Works
+OpenET calculates evapotranspiration (ET) using
+publicly available data
+and
+trusted scientific models
+. Here’s how it all comes together:
+1
+We use satellite observations of Land Surface Temperature (LST) and vegetation conditions. We use gridded weather data products, not data from individual weather stations (with the exception of the creation of bias-correction surfaces for reference ET).
+2
+This data is fed into calculate ET models to compute field-scale water use.
+3
+Daily, monthly, & annual ET data are provided via easy-to-use & reliable tools.
+Explore Research & Literature
+Stay Informed
+Sign up for our
+quarterly newsletter
+to stay up to date on new data releases, advances, and OpenET community engagement.
+Subscribe
+First Name
+*
+Last Name
+*
+Email
+*
+Affiliation
+Subscribe
+If you are human, leave this field blank.
+Filling the Biggest Data Gap
+in Water Management
+As we expand globally, our mission remains the same: deliver open, reliable, and actionable water data—
+developed with users, for users.
+Data Explorer
+OpenET API
+FARMS Tool
+Filling the biggest data gap in water management
+Linkedin-in
+Youtube
+Github
+Quick Links
+Data Explorer
+OpenET API
+FARMS Tool
+How to Use ET Data
+Data Explorer
+OpenET API
+FARMS Tool
+How to Use ET Data
+Resources
+Trainings & Tutorials
+Change Log
+Newsroom
+Reports & Resources
+Events
+Trainings & Tutorials
+Change Log
+Newsroom
+Reports & Resources
+Events
+Reach Out
+support@openetdata.org
+Contact Us
+© 2026
+OpenET. All rights reserved.
+Privacy Policy
+Terms of Service
+Cookie Policy
+Compare OpenET Tools
+Data Explorer
+A user-friendly, visual tool for quickly exploring ET data. You can select areas of interest, view historical patterns, and download results.
+More About Data Explorer
+API
+Provides automated access to ET data for large-scale or repeated use. Ideal for integrating ET into irrigation scheduling tools, hydrologic models, water accounting systems, or other applications.
+More About the API
+FARMS Tool
+Designed for growers, this tool compares ET with water use at the field level. Reports from FARMS can help users to optimize irrigation efficiency, and support farm-level decision-making.
+More About FARMS

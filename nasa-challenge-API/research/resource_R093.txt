@@ -1,0 +1,306 @@
+﻿
+PDS Geosciences Node Data and Services: LRO DIVINER
++ NASA Homepage
++ NASA en Español
++ Contact NASA
+HOME
+DATA AND SERVICES
+TOOLS
+ABOUT US
+CONTACT US
+SITE MAP
+Services
+Analyst's Notebooks
+Orbital Data Explorers
+Spectral Library
+FTP Access
+Workshops
+Geosciences Node Data
+Mars
+Mars Exploration
+Mars 2020
+About Mars 2020
+PIXL
+Returned Sample Science
+RIMFAX
+SHERLOC
+SuperCam
+InSight
+About InSight
+HP3/RAD
+IDA
+RISE
+SEIS
+MSL
+About MSL
+APXS
+ChemCam
+CheMin
+DAN
+SAM
+MRO
+About MRO
+CRISM
+SHARAD
+Gravity/Radio Science
+MER
+Mars Express
+About Mars Express
+ASPERA
+HRSC
+MaRS
+MARSIS
+OMEGA
+PFS
+SPICAM
+SPICE
+VMC
+Odyssey
+About Odyssey
+THEMIS
+GRS
+MARIE
+Radio Science
+Accelerometer
+SPICE
+Phoenix
+About Phoenix
+MECA
+RA
+TEGA
+MGS
+About MGS
+MOLA
+MOC
+TES
+MAG/ER
+Radio Science
+Accelerometer
+SPICE
+Pathfinder
+About Pathfinder
+IMP 3-D
+Summary Image
+Radio Science
+Prototype Rovers
+Viking Orbiter
+About Viking Orbiter
+VIS-EDR Images
+MDIM/MDTM
+IRTM
+MAWD
+LOS Gravity
+VO/Mariner 
+			  9 Topo
+Viking Lander
+About Viking Lander
+EDR Images
+Rock Data Set
+Labeled Release
+Seismic Data
+Mariner
+About Mariner
+Mariner Mars 
+			  1969 Images
+Earth Based Data
+About Earth Based Data
+HST
+Venus
+Magellan
+About Magellan
+F-BIDR
+C-BIDR
+MIDR
+ALT-EDR
+ARCDR
+GXDR
+SCVDR
+GVDR
+BSR
+LOSAPDR
+Spherical
+Harmonic, Topo
+and Gravity
+Radio Tracking
+Pre-Magellan
+Venus Radar
+Venera
+Mercury
+MESSENGER
+About MESSENGER
+GRS/NS
+MASCS
+MLA
+Radio Science
+XRS
+Moon
+Moon Data
+Artemis II
+CLPS
+Chandrayaan-1
+Chang'e
+GRAIL
+LCROSS
+LRO
+About LRO
+Diviner
+LEND
+LOLA
+Mini-RF
+Radio Science
+Apollo
+Kaguya
+MSX
+Lunar Prospector
+About Lunar Prospector
+Level 0 Data
+Level 1 Spectrometer Data
+Reduced Spectrometer Data
+Spherical Harmonics Gravity 
+			Models
+LOS Gravity
+MAG/ER Data
+ODF Data
+Lunar Radar
+70 cm Lunar Radar
+12.6 cm (S-Band) Lunar Radar
+South Pole DEM
+Lunar Spectroscopy
+Clementine
+About Clementine
+Gravity/Topo
+Raw LIDAR
+LWIR Brightness 
+			Temperature
+Raw Bistatic Radar
+Reduced Bistatic 
+			Radar
+Pre-Magellan
+Earth
+Earth Data
+Amboy Crater
+GRSFE
+Laboratory Data
+Nevada LIDAR
+Pre-Magellan
+Asteroids
+NEAR
+About NEAR
+NLR
+Radio Science
+Gravity Models
+All Geosciences DOIs
+All Geosciences Data Holdings
+Help
+Frequently Asked Questions
+Geosciences Node Forums
+Help for Data Users
+Help for Data Reviewers
+Help for Proposers
+About PDS4
+About Checksums
+Cite PDS On Your Poster
+Contact Us
+Scheduled Maintenance
+This site may be down on
+Thursdays
+between 7:00 and 9:30 pm Central Time for maintenance.
+LRO: 
+									DIVINER
+September 15, 2026.
+LRO Release 67 
+							 includes new Diviner EDR and RDR data acquired 
+							 between March 16 and June 15, 2026.
+-------------------------------------------------------------------------------------------------------------------
+Note on RDR Channels 1 and 2.
+Since April 17, 2019 at 12:00, almost all (99.25%) 
+							 Diviner RDR products have been missing temperature 
+							 brightness data for the solar channels 1 and 2. A 
+							 small amount of temperature brightness data in 
+							 non-solar channels (channels 3 through 9) is also 
+							 missing since this date. It's only about 1.1%, but 
+							 it is significant because prior to this date almost 
+							 none of it was missing. JPL is currently tracking 
+							 down the reason for the missing data and hopes to 
+							 have a fix for it fairly soon. When it is fixed, 
+							 the Diviner team will redeliver all the RDR 
+							 products since April 17, 2019.
+Records with 
+							 missing brightness temperature data have the value 
+							 -9999 in the "tb" column (column 24) of the Diviner 
+							 RDR data product. The missing data is the result of 
+							 processing errors, and is not due to a fault with 
+							 the instrument. The EDR data products are not 
+							 affected by these errors.
+The Diviner Lunar Radar Experiment is a multi-channel 
+						solar reflectance and infrared radiometer that maps the 
+						temperature of the lunar surface at 500-meter horizontal 
+						scales. Diviner data sets are produced by the Diviner 
+						Science Team at the University of California, Los 
+						Angeles.
+Diviner Data Sets
+Raw Data Products (PDS4)
+Bundle Root
+LRODLR_0001
+Coverage
+EDR - Experiment Data Records
+Jul. 5, 2009 - Dec. 31, 2016
+LRODLR_0002
+Coverage
+EDR - Experiment Data Records
+Jan. 1, 2017 - Jun. 15, 2026
+Calibrated Data Products (PDS4)
+Bundle Root
+LRODLR_1001
+Coverage
+RDR - Reduced Data Records
+Jul. 5, 2009 - Dec. 31, 2016
+LRODLR_1002
+Coverage
+RDR - Reduced Data Records
+Jan. 1, 2017 - Jun. 15, 2026
+Derived Data Products (PDS4) - Bundle 1
+Bundle Root
+Coverage
+GCP - Global Cumulative Products
+Jul. 5, 2009 - Apr. 1, 2015
+GDR - Global Data Records
+GDR_L2
+Jul. 5, 2009 - Oct. 23, 2016
+GDR_L3
+Jul. 5, 2009 - Oct. 23, 2016
+PCP - Polar Cumulative Products
+Jul. 5, 2009 - Mar. 15, 2020
+PRP - Polar Resource Products
+N/A
+RCP - Regional Cumulative Products
+Jul. 5, 2009 - Mar. 1, 2021
+GHRM - Global High-Resolution Mosaics
+Jul. 5, 2009 - Aug. 1, 2022
+Derived Data Products (PDS4) - Bundle 2
+Bundle Root
+Coverage
+EPF - Emission Phase Function Products
+Jul. 5, 2009 - Feb. 29, 2024
+Online Tools
+Lunar Orbital Data Explorer
+- Provides search, display, and 
+											download  tools for LRO DIVINER data 
+											sets.
+Related Information
+Diviner EDR Data Product SIS
+(PDF, 1.36 MB)
+Diviner RDR Data Product SIS
+(PDF, 1.74 MB)
+Diviner Team Web Site
++ Freedom of Information Act
++ NASA Strategic Plans
++ NASA Privacy Statement, Disclaimer, and
+Accessibility Certification
++ Copyright/Image Use Policy
+Curator:
+Jennifer Ward
+NASA Official:
+Paul Byrne
+Last Updated:
++ Comments and Questions

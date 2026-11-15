@@ -1,0 +1,174 @@
+{
+  "id": "doc_appeears",
+  "url": "https://appeears.earthdatacloud.nasa.gov/api/",
+  "checked_at": "2026-11-14T15:12:44.610565+00:00",
+  "tls_validation": false,
+  "status": 200,
+  "final_url": "https://appeears.earthdatacloud.nasa.gov/api/",
+  "bytes": 233772,
+  "content_type": "text/html; charset=utf-8",
+  "sha256": "26dbf2cb44129ee7ef3a0f407b28d37ba000b0ae213bd36add1ea1cdc595ad53",
+  "links": [
+    {
+      "url": "https://appeears.earthdatacloud.nasa.gov/api/",
+      "label": "MENU"
+    },
+    {
+      "url": "https://appeears.earthdatacloud.nasa.gov/api/",
+      "label": "cURL"
+    },
+    {
+      "url": "https://appeears.earthdatacloud.nasa.gov/api/",
+      "label": "Python 3"
+    },
+    {
+      "url": "https://appeears.earthdatacloud.nasa.gov/api/",
+      "label": "R"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Representational_state_transfer",
+      "label": "REST"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/JSON",
+      "label": "JSON"
+    },
+    {
+      "url": "https://appeears.earthdatacloud.nasa.gov/api/#login",
+      "label": "Authentication"
+    },
+    {
+      "url": "https://appeears.earthdatacloud.nasa.gov/feedback",
+      "label": "AppEEARS Feedback Form"
+    },
+    {
+      "url": "https://urs.earthdata.nasa.gov/",
+      "label": "NASA Earthdata Login"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Basic_access_authentication",
+      "label": "HTTP Basic Authentication"
+    },
+    {
+      "url": "https://appeears.earthdatacloud.nasa.gov/api/#login",
+      "label": "above"
+    },
+    {
+      "url": "https://appeears.earthdatacloud.nasa.gov/api/#list-tasks",
+      "label": "below"
+    },
+    {
+      "url": "http://epsg.io/4326",
+      "label": "geographic"
+    },
+    {
+      "url": "https://appeears.earthdatacloud.nasa.gov/api/#list-projections",
+      "label": "here"
+    },
+    {
+      "url": "http://epsg.io/4326",
+      "label": "geographic"
+    },
+    {
+      "url": "https://appeears.earthdatacloud.nasa.gov/api/#task-object",
+      "label": "Task object"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Query_string",
+      "label": "query string"
+    },
+    {
+      "url": "http://epsg.io/4326",
+      "label": "geographic"
+    },
+    {
+      "url": "http://epsg.io/4326",
+      "label": "geographic"
+    },
+    {
+      "url": "https://appeears.earthdatacloud.nasa.gov/api/#list-projections",
+      "label": "here"
+    },
+    {
+      "url": "https://appeears.earthdatacloud.nasa.gov/api/#pagination",
+      "label": "pagination"
+    },
+    {
+      "url": "https://appeears.earthdatacloud.nasa.gov/api/#task-query-parameters",
+      "label": "query parameters"
+    },
+    {
+      "url": "https://appeears.earthdatacloud.nasa.gov/api/#task-object",
+      "label": "task object section"
+    },
+    {
+      "url": "https://appeears.earthdatacloud.nasa.gov/api/#task-query-parameters",
+      "label": "task query parameters section"
+    },
+    {
+      "url": "https://appeears.earthdatacloud.nasa.gov/api/examples/sample_point_request.json",
+      "label": "Point Example JSON"
+    },
+    {
+      "url": "https://appeears.earthdatacloud.nasa.gov/api/examples/sample_area_request.json",
+      "label": "Area Example JSON"
+    },
+    {
+      "url": "https://appeears.earthdatacloud.nasa.gov/api/#login",
+      "label": "above"
+    },
+    {
+      "url": "https://appeears.earthdatacloud.nasa.gov/api/#login",
+      "label": "above"
+    },
+    {
+      "url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/using-presigned-url.html",
+      "label": "Amazon Web Services (AWS) Simple Cloud Storage (S3) URL"
+    },
+    {
+      "url": "https://appeears.earthdatacloud.nasa.gov/api/#pagination",
+      "label": "pagination"
+    },
+    {
+      "url": "https://appeears.earthdatacloud.nasa.gov/api/#pagination",
+      "label": "pagination"
+    },
+    {
+      "url": "https://docs.aws.amazon.com/general/latest/gr/aws-security-credentials.html",
+      "label": "credentials"
+    },
+    {
+      "url": "https://aws.amazon.com/s3/",
+      "label": "cloud S3 storage"
+    },
+    {
+      "url": "https://urs.earthdata.nasa.gov/",
+      "label": "NASA Earthdata Login"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Basic_access_authentication",
+      "label": "HTTP Basic Authentication"
+    },
+    {
+      "url": "https://docs.aws.amazon.com/cli/index.html",
+      "label": "AWS CLI"
+    },
+    {
+      "url": "https://aws.amazon.com/sdk-for-python/",
+      "label": "AWS Python SDK"
+    },
+    {
+      "url": "https://appeears.earthdatacloud.nasa.gov/api/",
+      "label": "cURL"
+    },
+    {
+      "url": "https://appeears.earthdatacloud.nasa.gov/api/",
+      "label": "Python 3"
+    },
+    {
+      "url": "https://appeears.earthdatacloud.nasa.gov/api/",
+      "label": "R"
+    }
+  ],
+  "elapsed_seconds": 0.578
+}

@@ -1,0 +1,478 @@
+{
+  "id": "resource_R101",
+  "url": "https://ssd.jpl.nasa.gov/horizons/",
+  "checked_at": "2026-11-14T15:15:23.186962+00:00",
+  "tls_validation": false,
+  "status": 200,
+  "final_url": "https://ssd.jpl.nasa.gov/horizons/",
+  "bytes": 24244,
+  "content_type": "text/html",
+  "sha256": "ae7b2f15acd48d137f7e261e8eef9a44faf6c72a655a28aeae5ee9a0a8bb928c",
+  "links": [
+    {
+      "url": "https://ssd.jpl.nasa.gov/horizons/#main_content",
+      "label": "Skip Navigation"
+    },
+    {
+      "url": "https://www.nasa.gov/",
+      "label": "NASA"
+    },
+    {
+      "url": "https://www.jpl.nasa.gov/",
+      "label": "JPL"
+    },
+    {
+      "url": "https://www.caltech.edu/",
+      "label": "Caltech"
+    },
+    {
+      "url": "https://ssd.jpl.nasa.gov/",
+      "label": "Home"
+    },
+    {
+      "url": "https://ssd.jpl.nasa.gov/horizons/",
+      "label": "About"
+    },
+    {
+      "url": "https://ssd.jpl.nasa.gov/about/",
+      "label": "What does SSD do?"
+    },
+    {
+      "url": "https://ssd.jpl.nasa.gov/faq.html",
+      "label": "FAQ"
+    },
+    {
+      "url": "https://ssd.jpl.nasa.gov/sitemap.html",
+      "label": "Sitemap"
+    },
+    {
+      "url": "https://ssd.jpl.nasa.gov/contact/",
+      "label": "Contact Us"
+    },
+    {
+      "url": "https://ssd.jpl.nasa.gov/horizons/",
+      "label": "Orbits &Ephemerides"
+    },
+    {
+      "url": "https://ssd.jpl.nasa.gov/orbits.html",
+      "label": "Introduction"
+    },
+    {
+      "url": "https://ssd.jpl.nasa.gov/horizons/",
+      "label": "Horizons System"
+    },
+    {
+      "url": "https://ssd.jpl.nasa.gov/planets/orbits.html",
+      "label": "Planets"
+    },
+    {
+      "url": "https://ssd.jpl.nasa.gov/sats/orbits.html",
+      "label": "Planetary Satellites"
+    },
+    {
+      "url": "https://ssd.jpl.nasa.gov/sb/orbits.html",
+      "label": "Small Bodies"
+    },
+    {
+      "url": "https://ssd.jpl.nasa.gov/tools/orbit_viewer.html",
+      "label": "Orbit Viewer"
+    },
+    {
+      "url": "https://ssd.jpl.nasa.gov/ephem.html",
+      "label": "Download Ephemerides"
+    },
+    {
+      "url": "https://ssd.jpl.nasa.gov/horizons/",
+      "label": "Planets"
+    },
+    {
+      "url": "https://ssd.jpl.nasa.gov/planets/",
+      "label": "Introduction"
+    },
+    {
+      "url": "https://ssd.jpl.nasa.gov/planets/orbits.html",
+      "label": "Orbits & Ephemerides"
+    },
+    {
+      "url": "https://ssd.jpl.nasa.gov/planets/phys_par.html",
+      "label": "Physical Parameters"
+    },
+    {
+      "url": "https://ssd.jpl.nasa.gov/tools/gravity.html",
+      "label": "Gravity Fields"
+    },
+    {
+      "url": "https://ssd.jpl.nasa.gov/planets/obs_data.html",
+      "label": "Observational Data"
+    },
+    {
+      "url": "https://ssd.jpl.nasa.gov/planets/discovery.html",
+      "label": "Discovery Circumstances"
+    },
+    {
+      "url": "https://ssd.jpl.nasa.gov/horizons/",
+      "label": "PlanetarySatellites"
+    },
+    {
+      "url": "https://ssd.jpl.nasa.gov/sats/",
+      "label": "Introduction"
+    },
+    {
+      "url": "https://ssd.jpl.nasa.gov/sats/orbits.html",
+      "label": "Orbits & Ephemerides"
+    },
+    {
+      "url": "https://ssd.jpl.nasa.gov/sats/phys_par/",
+      "label": "Physical Parameters"
+    },
+    {
+      "url": "https://ssd.jpl.nasa.gov/sats/obs_data.html",
+      "label": "Observational Data"
+    },
+    {
+      "url": "https://ssd.jpl.nasa.gov/sats/discovery.html",
+      "label": "Discovery Circumstances"
+    },
+    {
+      "url": "https://ssd.jpl.nasa.gov/horizons/",
+      "label": "Small Bodies"
+    },
+    {
+      "url": "https://ssd.jpl.nasa.gov/sb/",
+      "label": "Introduction"
+    },
+    {
+      "url": "https://ssd.jpl.nasa.gov/sb/orbits.html",
+      "label": "Orbits & Ephemerides"
+    },
+    {
+      "url": "https://ssd.jpl.nasa.gov/tools/sbdb_lookup.html",
+      "label": "Database Lookup"
+    },
+    {
+      "url": "https://ssd.jpl.nasa.gov/tools/sbdb_query.html",
+      "label": "Database Query"
+    },
+    {
+      "url": "https://ssd.jpl.nasa.gov/tools/mdesign.html",
+      "label": "Mission Design"
+    },
+    {
+      "url": "https://ssd.jpl.nasa.gov/tools/sb_ident.html",
+      "label": "Identification"
+    },
+    {
+      "url": "https://ssd.jpl.nasa.gov/tools/sbwobs.html",
+      "label": "What's Observable?"
+    },
+    {
+      "url": "https://ssd.jpl.nasa.gov/sb/meteor_streams.html",
+      "label": "Meteor Streams"
+    },
+    {
+      "url": "https://ssd.jpl.nasa.gov/sb/targets.html",
+      "label": "Mission Targets"
+    },
+    {
+      "url": "https://ssd.jpl.nasa.gov/sb/sats.html",
+      "label": "Satellites"
+    },
+    {
+      "url": "https://ssd.jpl.nasa.gov/sb/radar.html",
+      "label": "Radar Astrometry"
+    },
+    {
+      "url": "https://ssd.jpl.nasa.gov/diagrams/",
+      "label": "Diagrams and Charts"
+    },
+    {
+      "url": "https://ssd.jpl.nasa.gov/tools/gravity.html",
+      "label": "Gravity Fields"
+    },
+    {
+      "url": "https://ssd.jpl.nasa.gov/sb/great_comets.html",
+      "label": "Great Comets"
+    },
+    {
+      "url": "https://ssd.jpl.nasa.gov/sb/neos.html",
+      "label": "Near-Earth Objects"
+    },
+    {
+      "url": "https://ssd.jpl.nasa.gov/horizons/",
+      "label": "Tools"
+    },
+    {
+      "url": "https://ssd.jpl.nasa.gov/tools/",
+      "label": "Description of Tools"
+    },
+    {
+      "url": "https://ssd.jpl.nasa.gov/horizons/",
+      "label": "Horizons System"
+    },
+    {
+      "url": "https://ssd.jpl.nasa.gov/ephem.html",
+      "label": "Download Ephemerides"
+    },
+    {
+      "url": "https://ssd.jpl.nasa.gov/tools/sbdb_lookup.html",
+      "label": "Small-Body Database Lookup"
+    },
+    {
+      "url": "https://ssd.jpl.nasa.gov/tools/sbdb_query.html",
+      "label": "Small-Body Database Query"
+    },
+    {
+      "url": "https://ssd.jpl.nasa.gov/tools/mdesign.html",
+      "label": "Small-Body Mission Design"
+    },
+    {
+      "url": "https://ssd.jpl.nasa.gov/tools/sb_ident.html",
+      "label": "Small-Body Identification"
+    },
+    {
+      "url": "https://ssd.jpl.nasa.gov/tools/sbwobs.html",
+      "label": "Small-Body Observability"
+    },
+    {
+      "url": "https://ssd.jpl.nasa.gov/tools/orbit_viewer.html",
+      "label": "Orbit Viewer"
+    },
+    {
+      "url": "https://ssd.jpl.nasa.gov/tools/gravity.html",
+      "label": "Gravity Field Visualization"
+    },
+    {
+      "url": "https://ssd.jpl.nasa.gov/tools/jdc/",
+      "label": "JD Date/Time Converter"
+    },
+    {
+      "url": "https://ssd.jpl.nasa.gov/api.html",
+      "label": "APIs"
+    },
+    {
+      "url": "https://ssd.jpl.nasa.gov/horizons/",
+      "label": "Extras"
+    },
+    {
+      "url": "https://ssd.jpl.nasa.gov/extras.html",
+      "label": "Description of Extras"
+    },
+    {
+      "url": "https://ssd.jpl.nasa.gov/astro_par.html",
+      "label": "Astrodynamic Parameters"
+    },
+    {
+      "url": "https://ssd.jpl.nasa.gov/diagrams/",
+      "label": "Diagrams and Charts"
+    },
+    {
+      "url": "https://ssd.jpl.nasa.gov/obs_data.html",
+      "label": "Observational Data"
+    },
+    {
+      "url": "https://ssd.jpl.nasa.gov/tools/periodic_orbits.html",
+      "label": "Three-Body Periodic Orbits"
+    },
+    {
+      "url": "https://ssd.jpl.nasa.gov/tools/orbit_diagram.html",
+      "label": "Custom Orbit Visualization"
+    },
+    {
+      "url": "https://ssd.jpl.nasa.gov/api.html",
+      "label": "APIs"
+    },
+    {
+      "url": "https://ssd.jpl.nasa.gov/doc/",
+      "label": "Technical Documents"
+    },
+    {
+      "url": "https://ssd.jpl.nasa.gov/discovery.html",
+      "label": "Discovery Circumstances"
+    },
+    {
+      "url": "https://ssd.jpl.nasa.gov/announcements/",
+      "label": "Announcements"
+    },
+    {
+      "url": "https://ssd.jpl.nasa.gov/email_list.html",
+      "label": "Email Lists"
+    },
+    {
+      "url": "https://ssd.jpl.nasa.gov/glossary/",
+      "label": "Glossary"
+    },
+    {
+      "url": "https://ssd.jpl.nasa.gov/links.html",
+      "label": "Related Sites"
+    },
+    {
+      "url": "https://ssd.jpl.nasa.gov/faq.html",
+      "label": "FAQ"
+    },
+    {
+      "url": "https://ssd.jpl.nasa.gov/sitemap.html",
+      "label": "Sitemap"
+    },
+    {
+      "url": "https://ssd.jpl.nasa.gov/contact/",
+      "label": "Contact Us"
+    },
+    {
+      "url": "https://ssd.jpl.nasa.gov/",
+      "label": "Home"
+    },
+    {
+      "url": "https://ssd.jpl.nasa.gov/tools/",
+      "label": "Tools"
+    },
+    {
+      "url": "https://ssd.jpl.nasa.gov/horizons/",
+      "label": "About"
+    },
+    {
+      "url": "https://ssd.jpl.nasa.gov/horizons/app.html",
+      "label": "App"
+    },
+    {
+      "url": "https://ssd.jpl.nasa.gov/horizons/manual.html",
+      "label": "Manual"
+    },
+    {
+      "url": "https://ssd.jpl.nasa.gov/horizons/tutorial.html",
+      "label": "Tutorial"
+    },
+    {
+      "url": "https://ssd.jpl.nasa.gov/horizons/time_spans.html",
+      "label": "Time Spans"
+    },
+    {
+      "url": "https://ssd.jpl.nasa.gov/horizons/news.html",
+      "label": "News"
+    },
+    {
+      "url": "https://www.jpl.nasa.gov/",
+      "label": "Jet Propulsion Laboratory"
+    },
+    {
+      "url": "https://ssd.jpl.nasa.gov/horizons/manual.html",
+      "label": "Documentation"
+    },
+    {
+      "url": "https://ssd.jpl.nasa.gov/horizons/manual.html",
+      "label": "Manual"
+    },
+    {
+      "url": "https://ssd.jpl.nasa.gov/horizons/time_spans.html",
+      "label": "time-spans"
+    },
+    {
+      "url": "https://ssd.jpl.nasa.gov/horizons/time_spans.html",
+      "label": "Time Spans"
+    },
+    {
+      "url": "https://ssd.jpl.nasa.gov/horizons/time_spans.html",
+      "label": "time-span"
+    },
+    {
+      "url": "https://ssd.jpl.nasa.gov/horizons/#web",
+      "label": "web"
+    },
+    {
+      "url": "https://ssd.jpl.nasa.gov/horizons/#cmd",
+      "label": "command-line"
+    },
+    {
+      "url": "https://ssd.jpl.nasa.gov/horizons/#email",
+      "label": "email"
+    },
+    {
+      "url": "https://ssd.jpl.nasa.gov/horizons/#api",
+      "label": "API"
+    },
+    {
+      "url": "https://ssd.jpl.nasa.gov/horizons/",
+      "label": ""
+    },
+    {
+      "url": "https://ssd.jpl.nasa.gov/horizons/app.html",
+      "label": "App"
+    },
+    {
+      "url": "https://ssd.jpl.nasa.gov/horizons/tutorial.html",
+      "label": "tutorial"
+    },
+    {
+      "url": "https://ssd.jpl.nasa.gov/horizons/manual.html",
+      "label": "manual"
+    },
+    {
+      "url": "https://ssd.jpl.nasa.gov/horizons/#cmd",
+      "label": "command-line"
+    },
+    {
+      "url": "https://ssd.jpl.nasa.gov/horizons/manual.html#search",
+      "label": "Small-body Population Searches"
+    },
+    {
+      "url": "https://ssd.jpl.nasa.gov/tools/sbdb_query.html",
+      "label": "Small-Body Database Query Tool"
+    },
+    {
+      "url": "https://ssd.jpl.nasa.gov/horizons/manual.html#ca",
+      "label": "Close-Approach Tables"
+    },
+    {
+      "url": "https://ssd.jpl.nasa.gov/horizons/",
+      "label": ""
+    },
+    {
+      "url": "https://ssd.jpl.nasa.gov/horizons/horizons_tls_access.html",
+      "label": "here"
+    },
+    {
+      "url": "https://ssd.jpl.nasa.gov/horizons/",
+      "label": ""
+    },
+    {
+      "url": "https://ssd-api.jpl.nasa.gov/doc/horizons.html",
+      "label": "Instructions"
+    },
+    {
+      "url": "https://ssd.jpl.nasa.gov/horizons/",
+      "label": ""
+    },
+    {
+      "url": "https://ssd.jpl.nasa.gov/ftp/ssd/horizons_batch_example.long",
+      "label": "this link"
+    },
+    {
+      "url": "https://ssd.jpl.nasa.gov/dat/Configuring_Mail_Clients_to_Send_Plain_ASCII_Text.pdf",
+      "label": "this link"
+    },
+    {
+      "url": "https://ssd.jpl.nasa.gov/sitemap.html",
+      "label": "Site Map"
+    },
+    {
+      "url": "https://www.jpl.nasa.gov/caltechjpl-privacy-policies-and-important-notices",
+      "label": "Privacy"
+    },
+    {
+      "url": "https://www.jpl.nasa.gov/jpl-image-use-policy",
+      "label": "Image Policy"
+    },
+    {
+      "url": "https://ssd.jpl.nasa.gov/contact/",
+      "label": "Contact Us"
+    },
+    {
+      "url": "https://ammos.nasa.gov/",
+      "label": "Advanced Multi-Mission Operations System"
+    },
+    {
+      "url": "https://science.nasa.gov/solar-system",
+      "label": "NASA’s Science Mission Directorate"
+    }
+  ],
+  "elapsed_seconds": 2.14
+}

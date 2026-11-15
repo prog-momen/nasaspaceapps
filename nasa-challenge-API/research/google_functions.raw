@@ -1,0 +1,3871 @@
+<!doctype html><html lang="en-US" dir="ltr"><head><base href="https://aistudio.google.com/"><link rel="preconnect" href="//www.gstatic.com"><meta name="referrer" content="origin"><link rel="canonical" href="https://aistudio.google.com/docs/function-calling"><meta property="og:type" content="website"><meta property="og:title" content="Google AI Studio"><meta property="og:description" content="The fastest path from prompt to production with Gemini"><meta property="og:image" content="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="628"><meta property="og:image:type" content="image/png"><meta name="mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="application-name" content="AI Studio"><meta name="apple-mobile-web-app-title" content="AI Studio"><meta name="apple-mobile-web-app-status-bar-style" content="default"><meta name="theme-color" content="#000"><meta name="msapplication-tap-highlight" content="no"><link rel="preconnect" href="//fonts.googleapis.com"><link rel="preconnect" href="//fonts.gstatic.com"><link rel="preconnect" href="//www.gstatic.com"><link rel="preconnect" href="//alkalimakersuite-pa.clients6.google.com"><link rel="prefetch" href="//apis.google.com/js/api.js"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz,wght@6..144,1..1000&amp;display=swap" nonce="cS_cducc1uhxbTAmrY7taQ"><link rel="stylesheet" href="//fonts.googleapis.com/css2?family=Inter:wght@400;500&amp;family=Inter+Tight:wght@300;500;600&amp;display=swap" nonce="cS_cducc1uhxbTAmrY7taQ"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Google+Sans+Text:ital,wght@0,400;0,500;0,600;1,400;1,500&amp;display=swap" nonce="cS_cducc1uhxbTAmrY7taQ"><link rel="manifest" crossorigin="use-credentials" href="_/MakerSuite/manifest.json"><link rel="home" href="/prompts/new_chat?utm_source=pwa&amp;utm_medium=homescreen&amp;lfhs=2"><link rel="msapplication-starturl" href="/prompts/new_chat?utm_source=pwa&amp;utm_medium=homescreen&amp;lfhs=2"><link rel="icon" href="https://www.gstatic.com/images/branding/productlogos/ai_studio/v1/web-32dp/logo_ai_studio_color_1x_web_32dp.png" sizes="32x32"><link rel="apple-touch-icon-precomposed" href="https://www.gstatic.com/images/branding/productlogos/ai_studio/v1/web-32dp/logo_ai_studio_color_1x_web_32dp.png" sizes="32x32"><link rel="msapplication-square32x32logo" href="https://www.gstatic.com/images/branding/productlogos/ai_studio/v1/web-32dp/logo_ai_studio_color_1x_web_32dp.png" sizes="32x32"><link rel="icon" href="https://www.gstatic.com/images/branding/productlogos/ai_studio/v1/web-64dp/logo_ai_studio_color_1x_web_64dp.png" sizes="64x64"><link rel="apple-touch-icon-precomposed" href="https://www.gstatic.com/images/branding/productlogos/ai_studio/v1/web-64dp/logo_ai_studio_color_1x_web_64dp.png" sizes="64x64"><link rel="msapplication-square64x64logo" href="https://www.gstatic.com/images/branding/productlogos/ai_studio/v1/web-64dp/logo_ai_studio_color_1x_web_64dp.png" sizes="64x64"><link rel="icon" href="https://www.gstatic.com/images/branding/productlogos/ai_studio/v1/web-96dp/logo_ai_studio_color_1x_web_96dp.png" sizes="96x96"><link rel="apple-touch-icon-precomposed" href="https://www.gstatic.com/images/branding/productlogos/ai_studio/v1/web-96dp/logo_ai_studio_color_1x_web_96dp.png" sizes="96x96"><link rel="msapplication-square96x96logo" href="https://www.gstatic.com/images/branding/productlogos/ai_studio/v1/web-96dp/logo_ai_studio_color_1x_web_96dp.png" sizes="96x96"><link rel="icon" href="https://www.gstatic.com/images/branding/productlogos/ai_studio/v1/web-96dp/logo_ai_studio_color_2x_web_96dp.png" sizes="192x192"><link rel="apple-touch-icon-precomposed" href="https://www.gstatic.com/images/branding/productlogos/ai_studio/v1/web-96dp/logo_ai_studio_color_2x_web_96dp.png" sizes="192x192"><link rel="msapplication-square192x192logo" href="https://www.gstatic.com/images/branding/productlogos/ai_studio/v1/web-96dp/logo_ai_studio_color_2x_web_96dp.png" sizes="192x192"><link rel="icon" href="https://www.gstatic.com/images/branding/productlogos/ai_studio/v1/web-512dp/logo_ai_studio_color_1x_web_512dp.png" sizes="512x512"><link rel="apple-touch-icon-precomposed" href="https://www.gstatic.com/images/branding/productlogos/ai_studio/v1/web-512dp/logo_ai_studio_color_1x_web_512dp.png" sizes="512x512"><link rel="msapplication-square512x512logo" href="https://www.gstatic.com/images/branding/productlogos/ai_studio/v1/web-512dp/logo_ai_studio_color_1x_web_512dp.png" sizes="512x512"><link rel="preload" href="https://www.gstatic.com/_/mss/boq-makersuite/_/js/k=boq-makersuite.MakerSuite.en_US.JLBvzaeCXqM.2018.O/am=AaRKgIHgEA/d=1/excm=_b/ed=1/dg=0/wt=2/ujg=1/rs=AMOXD28TXvfRTu02iapAh4ulgskYyMojcA/dti=1/m=_b" as="script" nonce="NO4JpEQUcnt87ezEIRLB-w"><link rel="preload" href="https://www.gstatic.com/_/mss/boq-makersuite/_/js/k=boq-makersuite.MakerSuite.en_US.JLBvzaeCXqM.2018.O/ck=boq-makersuite.MakerSuite.kzfi84e3Yfk.L.X.O/am=AaRKgIHgEA/d=1/exm=_b/excm=_b/ed=1/wt=2/ujg=1/rs=AMOXD2-ib17KaT37ns1_YK5ZGXyiQubPTw/dti=1/m=smxHue" as="script" nonce="NO4JpEQUcnt87ezEIRLB-w"><script type="application/json" id="b5dd02d8-5bd4-4f23-a282-a37cf92d8e19" nonce="NO4JpEQUcnt87ezEIRLB-w">{"AfY8Hf":false,"CmfRSc":"0","CoJqbf":"https://alkalimakersuite-pa.clients6.google.com","DpimGf":false,"Dvqjfd":"","EBvNTe":"823511539352-ojaretejk1s95sdvkic0te923pt7knpu.apps.googleusercontent.com","EP1ykd":["/.well-known/*","/_/*","/accounts/*","/app","/app/*","/assets/*","/audio/*","/images/*","/music/*","/public/*","/templates/*"],"FdrFJe":"5893057946879414338","HiPsbb":1,"Im6cmf":"/_/MakerSuite","KU8tnd":"https://alkalimakersuiteapplets.pa.clients6.google.com","LoQv7e":true,"MT7f9b":[],"MUE6Ne":"alkali-makersuite","MsAAre":false,"NHyHAe":60000,"O7uJJ":"https://cloudconsole-pa.clients6.google.com","OC2PJe":"https://people-pa.clients6.google.com","Onibif":"https://webchannel-alkalimakersuite-pa.clients6.google.com","PeqOqb":"AIzaSyDHAQL7kdN6lNBcBok1eNB8dG7wwo6E6io","PgS1Kc":"https://content.googleapis.com","PqyQ6d":"","QrtxK":"","S06Grb":"","S6lZl":96797242,"TSDtV":"%.@.[[null,[[45847864,null,true,null,null,null,\"kE3j8b\"],[45750734,null,false,null,null,null,\"zNidwd\"],[45859437,null,null,null,\"\",null,\"iPg3y\"],[45786059,null,true,null,null,null,\"ZRXcme\"],[45800001,null,false,null,null,null,\"fEA85b\"],[45872738,null,false,null,null,null,\"Zemkge\"],[45815137,null,true,null,null,null,\"WRwkue\"],[45766584,null,false,null,null,null,\"uzk17e\"],[45812681,null,true,null,null,null,\"X7uB7c\"],[45870949,null,false,null,null,null,\"rOpvAb\"],[45864047,null,true,null,null,null,\"OHVamb\"],[45784561,null,false,null,null,null,\"LXfb5c\"],[45856904,null,true,null,null,null,\"FG6P7d\"],[45780874,null,false,null,null,null,\"Q1jbEd\"],[45772164,null,false,null,null,null,\"zeKiRd\"],[45764549,null,true,null,null,null,\"ZSgiif\"],[45841148,null,true,null,null,null,\"s6aszc\"],[45737435,null,true,null,null,null,\"QLHTQ\"],[45860610,null,false,null,null,null,\"pYjjGf\"],[45786683,null,true,null,null,null,\"SEwGId\"],[45860469,null,true,null,null,null,\"EuiBmf\"],[45714250,null,true,null,null,null,\"t52vxe\"],[45771578,null,true,null,null,null,\"FWnIxc\"],[45828307,null,false,null,null,null,\"yMyGUd\"],[45773098,null,true,null,null,null,\"tHUpTc\"],[45805229,null,false,null,null,null,\"s3lTDc\"],[45746196,null,true,null,null,null,\"Mkmxtb\"],[45820967,null,false,null,null,null,\"sFOxp\"],[45772817,null,true,null,null,null,\"fMTTic\"],[45884298,null,false,null,null,null,\"v5uyBe\"],[45824912,131072,null,null,null,null,\"b2C2B\"],[45773200,null,false,null,null,null,\"SNmu3c\"],[45784564,null,false,null,null,null,\"oj32cc\"],[45809279,null,false,null,null,null,\"PDJPhb\"],[45857667,null,false,null,null,null,\"NWij2c\"],[45796413,null,false,null,null,null,\"tO7rUe\"],[45837404,null,false,null,null,null,\"CT0XI\"],[45842046,null,null,null,null,null,\"f87Xt\",[\"[]\"]],[45776026,null,false,null,null,null,\"CEBNKb\"],[45777831,null,false,null,null,null,\"GPgspe\"],[45817873,null,true,null,null,null,\"TQ277c\"],[45845967,null,true,null,null,null,\"Sniiwc\"],[45854059,null,true,null,null,null,\"b40um\"],[45861368,null,false,null,null,null,\"lMSdOe\"],[45812538,null,false,null,null,null,\"eJaIR\"],[45784662,null,false,null,null,null,\"QdT1Z\"],[45764720,null,true,null,null,null,\"B2Bu0b\"],[45861278,null,false,null,null,null,\"V5KHhb\"],[45825903,null,false,null,null,null,\"mNGeee\"],[45862868,null,false,null,null,null,\"bfKXxd\"],[45879438,null,false,null,null,null,\"Aq2Vrc\"],[45773240,null,false,null,null,null,\"n7JOEb\"],[45772231,null,false,null,null,null,\"HsfSqc\"],[45632067,null,true,null,null,null,\"CyDiEf\"],[45820776,null,true,null,null,null,\"bFtnL\"],[45670190,null,false,null,null,null,\"ArIgzf\"],[45806859,null,true,null,null,null,\"RYGIvf\"],[45734881,null,false,null,null,null,\"RLIQje\"],[45834641,null,false,null,null,null,\"WHLyI\"],[45877221,null,true,null,null,null,\"km8lB\"],[45675258,null,false,null,null,null,\"z2PIFf\"],[45787299,null,true,null,null,null,\"h85Kkd\"],[45866857,null,false,null,null,null,\"xpMubf\"],[45875820,null,false,null,null,null,\"WtdpB\"],[45812905,null,true,null,null,null,\"Y9AUte\"],[45799321,null,false,null,null,null,\"Qsarhc\"],[45836227,null,false,null,null,null,\"FAv3Rc\"],[45874376,null,false,null,null,null,\"hAJked\"],[45784559,null,true,null,null,null,\"quitKc\"],[45806340,null,true,null,null,null,\"OEiE2c\"],[45820497,null,false,null,null,null,\"oYprSb\"],[45762876,null,false,null,null,null,\"JRm6id\"],[45737434,null,true,null,null,null,\"LYXRQd\"],[45876363,null,false,null,null,null,\"F175qf\"],[45833843,null,false,null,null,null,\"NYdl8e\"],[45851528,null,false,null,null,null,\"COIM7c\"],[45882926,null,false,null,null,null,\"YYknXb\"],[45884321,null,false,null,null,null,\"sioIbb\"],[45768537,null,true,null,null,null,\"HzvgYb\"],[45788298,null,false,null,null,null,\"ET3a6d\"],[45763863,null,false,null,null,null,\"srRqFc\"],[45777963,null,false,null,null,null,\"JE0rH\"],[45853662,null,false,null,null,null,\"z4Szhe\"],[45865399,null,false,null,null,null,\"DFzY9e\"],[45834985,null,true,null,null,null,\"sAqbnd\"],[45849298,null,false,null,null,null,\"j578Be\"],[45827384,null,false,null,null,null,\"g3QGVd\"],[45822819,null,true,null,null,null,\"YalIlf\"],[45742893,null,true,null,null,null,\"Irsrgf\"],[45827530,null,true,null,null,null,\"KGZnYc\"],[45713337,null,true,null,null,null,\"yauate\"],[45775967,null,true,null,null,null,\"h9YtGf\"],[45781210,null,true,null,null,null,\"ZAVYX\"],[45784560,null,true,null,null,null,\"aUo2dd\"],[45862407,null,false,null,null,null,\"xzAHle\"],[45786621,null,false,null,null,null,\"u5h94\"],[45856905,null,true,null,null,null,\"YyN5cb\"],[45721377,null,null,null,\"\",null,\"bXSQ7e\"],[45772596,null,true,null,null,null,\"AYGfy\"],[45817527,null,true,null,null,null,\"KAsw\"],[45850100,null,false,null,null,null,\"HIcJUb\"],[45817874,null,true,null,null,null,\"a6JmIf\"],[45733504,null,false,null,null,null,\"JZ5hpd\"],[45786417,null,false,null,null,null,\"jL0KB\"],[45781629,null,false,null,null,null,\"T92pzc\"],[45746822,null,true,null,null,null,\"Evf1d\"],[45885152,null,false,null,null,null,\"rZqh3\"],[45848811,null,false,null,null,null,\"UBGA9b\"],[45797765,null,false,null,null,null,\"LMH9V\"],[45784562,null,true,null,null,null,\"B7YKqc\"],[45870781,null,false,null,null,null,\"NryDGf\"],[45869556,null,false,null,null,null,\"tScIGe\"],[45806420,null,true,null,null,null,\"fEQEmb\"],[45767301,null,true,null,null,null,\"XNnQfb\"],[45790102,null,false,null,null,null,\"gWraHd\"],[45775806,null,false,null,null,null,\"f1cyrc\"],[45852907,null,true,null,null,null,\"a8lhaf\"],[45890186,null,false,null,null,null,\"CLydhf\"],[45865262,null,false,null,null,null,\"Bh3Ol\"],[45776819,null,true,null,null,null,\"CWdxXd\"],[45823295,null,false,null,null,null,\"Arlbpd\"],[45871674,null,false,null,null,null,\"o8NB9c\"],[45830082,null,false,null,null,null,\"ZUp3se\"],[45836590,null,null,0,null,null,\"vIGve\"],[45801163,null,true,null,null,null,\"VDs51c\"],[45858220,null,false,null,null,null,\"YAQRrc\"],[45796593,null,true,null,null,null,\"piQlge\"],[45751428,null,false,null,null,null,\"w8d1bc\"],[45837256,null,false,null,null,null,\"qckzOe\"],[45857099,null,false,null,null,null,\"cIG1vc\"],[45815733,null,true,null,null,null,\"ht9f6e\"],[45739638,null,true,null,null,null,\"hPR2wd\"],[45866669,null,true,null,null,null,\"xk2TDe\"],[45784349,null,true,null,null,null,\"xNyUwf\"],[45725952,null,false,null,null,null,\"LGSclc\"],[45716130,null,null,null,\"\",null,\"Qy4uld\"],[45773243,null,false,null,null,null,\"MLsv8b\"],[45793959,null,false,null,null,null,\"hOMnHf\"],[45646711,null,false,null,null,null,\"aKSrdd\"],[45773517,null,true,null,null,null,\"C4cpEd\"],[45863024,null,null,null,\"models/gemini-4-hydrogen\",null,\"SzcwOb\"],[45808440,null,false,null,null,null,\"OgCwYe\"],[45826997,null,true,null,null,null,\"XjAiEc\"],[45745504,null,false,null,null,null,\"II2tFb\"],[45830858,null,false,null,null,null,\"mJ13bb\"],[45786476,null,true,null,null,null,\"NtxR6e\"],[45832772,null,true,null,null,null,\"NrZPHe\"],[45765786,null,false,null,null,null,\"B1GdRb\"],[45780375,null,true,null,null,null,\"GAbK3d\"],[45785393,null,false,null,null,null,\"JVB6z\"],[45797100,null,false,null,null,null,\"iB2O1e\"],[45791779,null,false,null,null,null,\"DQg7Hb\"],[45767507,null,true,null,null,null,\"Zn5Ej\"],[45775384,null,true,null,null,null,\"DqVejd\"],[45802372,null,true,null,null,null,\"XXFwZe\"],[45716158,null,false,null,null,null,\"j1MtL\"],[45784330,null,true,null,null,null,\"WWo53e\"],[45869663,null,false,null,null,null,\"TDErSd\"],[106136619,null,true,null,null,null,\"iGreoe\"],[45794982,null,true,null,null,null,\"EW5nff\"],[45818348,null,false,null,null,null,\"r6kKsf\"],[45746195,null,true,null,null,null,\"eXVehb\"],[45865704,null,false,null,null,null,\"zgb7I\"],[45877248,null,false,null,null,null,\"ol8MBf\"],[45694412,null,false,null,null,null,\"SbCVZ\"],[45732213,null,false,null,null,null,\"w7xKfd\"],[45785017,null,true,null,null,null,\"ri7Eac\"],[45854438,null,false,null,null,null,\"YxfQyc\"],[45762227,null,true,null,null,null,\"Z4Lh5e\"],[45865613,null,true,null,null,null,\"TYumuf\"],[45828311,null,false,null,null,null,\"HUhtxc\"],[45773733,null,true,null,null,null,\"EGfkj\"],[45772448,null,true,null,null,null,\"i07PMb\"],[45827223,null,true,null,null,null,\"Jtk3bf\"],[45854328,null,true,null,null,null,\"UeVFAf\"],[45772059,null,true,null,null,null,\"R59tgd\"],[45798215,null,false,null,null,null,\"HCx3Oc\"],[45747021,null,true,null,null,null,\"pKd73e\"],[45834001,null,true,null,null,null,\"hfCZid\"],[45823372,null,false,null,null,null,\"oMK3Y\"],[45830753,null,null,0,null,null,\"cRQlrb\"],[45741743,null,false,null,null,null,\"FpM8Qe\"],[45800793,null,true,null,null,null,\"ou8vKf\"],[45822392,null,true,null,null,null,\"wJ3FQd\"],[45862259,null,false,null,null,null,\"sZycyd\"],[45816582,null,false,null,null,null,\"dSJ7Bd\"],[45835850,null,false,null,null,null,\"L6pDkb\"],[45772137,null,false,null,null,null,\"ishS2b\"],[45724978,null,false,null,null,null,\"OWw3ld\"],[45773922,null,true,null,null,null,\"RSYlDb\"],[45851577,null,false,null,null,null,\"Imb3Ce\"],[45837097,null,false,null,null,null,\"Ace8lb\"],[45776579,null,true,null,null,null,\"clXDpe\"],[45826123,null,true,null,null,null,\"I4xrBe\"],[45780339,null,true,null,null,null,\"RajHhe\"],[45786812,null,true,null,null,null,\"rG2Adf\"],[45872515,null,false,null,null,null,\"o84zEc\"],[45818351,null,false,null,null,null,\"jif7mb\"],[45872481,null,false,null,null,null,\"ZL3igd\"],[45797782,null,false,null,null,null,\"KGod8d\"],[45865396,null,true,null,null,null,\"F7dvAc\"],[45843340,null,false,null,null,null,\"DRXio\"],[45824509,null,true,null,null,null,\"j3c7ob\"],[45883228,null,false,null,null,null,\"nma2yd\"],[45814275,null,true,null,null,null,\"RkNCqf\"],[45857186,null,false,null,null,null,\"yZGRVd\"],[45750201,null,true,null,null,null,\"eOwTyc\"],[45869948,null,true,null,null,null,\"Fr9VSd\"],[45725932,null,false,null,null,null,\"Gb1Jaf\"],[45886982,null,false,null,null,null,\"KO1zzd\"],[45882374,null,false,null,null,null,\"pfT1bf\"],[45846308,null,true,null,null,null,\"I5yZof\"],[45818257,null,false,null,null,null,\"IXqyUd\"],[45791794,null,false,null,null,null,\"kc5JKd\"],[45741421,null,null,null,\"models/gemini-4-hydrogen\",null,\"PH4l9d\"],[45868031,null,false,null,null,null,\"OcMSwf\"],[45817341,null,false,null,null,null,\"E9pnPd\"],[45881088,null,false,null,null,null,\"v26dNe\"],[45821529,null,true,null,null,null,\"wXqG7\"],[45869851,null,true,null,null,null,\"XtjyHc\"],[45740367,null,true,null,null,null,\"jCr8Db\"],[45765657,null,false,null,null,null,\"TQncq\"],[45788850,null,true,null,null,null,\"Bh3THc\"],[45812131,null,false,null,null,null,\"tUuz0c\"],[45867460,null,false,null,null,null,\"UCMFWd\"],[45817301,null,true,null,null,null,\"QPlsw\"],[45794311,null,false,null,null,null,\"s5sys\"],[45798403,null,false,null,null,null,\"x2wuHf\"],[45880297,null,true,null,null,null,\"dtWFPb\"],[45722603,null,true,null,null,null,\"iWkpJ\"],[45708381,null,false,null,null,null,\"JkACyc\"],[45842058,null,false,null,null,null,\"BeXieb\"],[45831005,null,false,null,null,null,\"DHRiDc\"],[45835180,null,false,null,null,null,\"hBbzle\"],[45755068,null,true,null,null,null,\"EB2qEd\"],[45772802,null,true,null,null,null,\"gENGMb\"],[45787653,null,true,null,null,null,\"N0vGQ\"],[45796979,null,false,null,null,null,\"cElYhd\"],[45723374,null,false,null,null,null,\"FK7eJd\"],[45831247,null,false,null,null,null,\"dTRbcc\"],[45844654,null,false,null,null,null,\"Ll0PNe\"],[45753184,null,false,null,null,null,\"yUHVge\"],[45781083,null,false,null,null,null,\"NNIf1e\"],[45865261,null,true,null,null,null,\"HmKYT\"],[45737499,null,true,null,null,null,\"dIQ2Ic\"],[45861680,null,true,null,null,null,\"gXEGbd\"],[45796324,null,true,null,null,null,\"sFBYxc\"],[45836224,null,false,null,null,null,\"QODXE\"],[45712153,null,false,null,null,null,\"aynkwb\"],[45726760,null,null,null,\"\",null,\"OZtjO\"],[45807399,20000,null,null,null,null,\"Fklxcf\"],[45825002,null,false,null,null,null,\"UYZwfb\"],[45747224,null,true,null,null,null,\"hLDizc\"],[45778977,null,true,null,null,null,\"BQF0Ib\"],[45854839,null,false,null,null,null,\"Q2VwPe\"],[45788754,null,null,null,null,null,\"CAlZbf\",[\"[[[\\\"supercloud\\\",\\\"https://www.gstatic.com/images/branding/productlogos/google_cloud_2026/v1/192px.svg\\\",\\\"https://www.gstatic.com/images/branding/productlogos/google_cloud_2026/v1/192px.svg\\\"],[\\\"gemini\\\",\\\"https://www.gstatic.com/images/branding/productlogos/gemini_2026/v1/192px.svg\\\",\\\"https://www.gstatic.com/images/branding/productlogos/gemini_2026/v1/192px.svg\\\"]]]\"]],[45886867,null,true,null,null,null,\"o1mLC\"],[45854420,null,true,null,null,null,\"vYFiN\"],[45773239,null,false,null,null,null,\"FR4WA\"],[45828912,null,null,null,\"\",null,\"M4rIM\"],[45826452,null,true,null,null,null,\"fyn48c\"],[45757828,null,true,null,null,null,\"Q8uuOb\"],[45784563,null,false,null,null,null,\"E8pjWd\"],[45879950,null,false,null,null,null,\"EzTFA\"],[45799359,null,true,null,null,null,\"B1kymf\"],[45828251,null,false,null,null,null,\"y14pld\"],[45721546,null,true,null,null,null,\"kNlqGe\"],[45759847,null,true,null,null,null,\"yRDM\"],[45818673,null,false,null,null,null,\"qxbq6e\"],[45825960,null,true,null,null,null,\"v240vc\"],[45778471,null,true,null,null,null,\"GxQ9o\"],[45737255,null,true,null,null,null,\"ra4Rcf\"],[45740401,null,true,null,null,null,\"kAmEsf\"],[45782135,null,true,null,null,null,\"aWuK4b\"],[45870488,null,false,null,null,null,\"P7LWqb\"],[45789764,null,true,null,null,null,\"q7jIFe\"],[45799173,null,null,null,null,null,\"AyrXXd\",[\"[]\"]],[106476711,null,true,null,null,null,\"oGx9Pd\"],[45747468,null,true,null,null,null,\"gjSq0\"],[45825901,null,true,null,null,null,\"dAUG8e\"],[45775030,null,true,null,null,null,\"yT9XMb\"],[45785071,null,true,null,null,null,\"jCAPEe\"],[45792594,null,false,null,null,null,\"pl1NXc\"],[45868792,null,false,null,null,null,\"vvpGyc\"],[497238176,null,true,null,null,null,\"WSAzh\"],[45845522,null,false,null,null,null,\"p7emWb\"]],\"CAMSwwEdxwbx4LI1CoyDFQ+AngUP/QIPl5UGD4oJD9g7D/DHBg+/HQ+CQxWlKACQJw+kNg+9kAYPsKkGD8RZD79cD8mtBg+xBg+aCw/vnwYPyJEED8VZD8rmBg+79gYP5pUFD/QuD4+NBQ++ag+9Fg/2Sg+KxQUP6GgAg5cFD9pkD803D/kAD6bWBQ/EDg/yLQ+TPg/z+wMPiy0PhzwP8MIFD9AED/ugBQ+NfwCtuQYP7DcPwQQPwQ8PkGUPsdwGD+AED9T6Aw8\\u003d\"]]]","TwvH1d":false,"UUFaWc":"%.@.null,1000,2]","UsvuEb":true,"Vvafkd":false,"WIu0Nc":"AIzaSyDdP816MREB3SkjZO04QXbjsigfcI0GWOs","Z8v1ze":["clients6.google.com"],"ZGhOkf":false,"ZLEzG":"","ZOkjLb":"","ax6qJc":false,"b5W2zf":"default_MakerSuite","cfb2h":"boq_alkali-makersuite_20261110.12_p5","eptZe":"/_/MakerSuite/","gGcLoe":false,"gTCm1":true,"goX6ee":[1706538,106240713,106421007,106640299,106821707,106848712,106596088,106070698,106034713,106313915,106090184,106460446,106091999,107005844,106912575,106194850,106326023,106274811,106168017,106168006,106278925,106527927,106735891,106874967,106654357,106261858,106889123,106124489,106136612,106620816,106827696,106790580,106705624,106153117,106577085,106729386,106602757,106115617,106741289,106621491,107045340,107003409,106889112,106647031,106888705,106099784,106486688,106426380,106737938,106127883,106828955,106823440,106206959,106917705,106875431,106868706,106641528,106108827,106146800,106782647,106854629,106844334,106142671,106824642,106296617,106476709,106474465,106791061,106589860,106385828,106240521,106999334,106071470,106876535,106354910,106917208,106218673,106737949,106115994,106818123,106518858,106748851,106238854,106190114,1714257,99469034,99469322,99469603,99470387,99470673,99471518,99472149,99472920,99473631,99474975,99475396,99476937,99479559,99479840,99481320,99483071,99485059,99487560,99488541,99490000,99498686,99502609,99504443,99506557,99507748,99511363,99513765,99515726,99519343,99521542,99526241,99592556,99592771,99593562,99593852,99594414,99595822,99597460,99598311,99599016,99599999,99601751,99603292,99603792,99605897,99610501,99612553,99615952,99618106,99620675,99624119,99627484,99628901,99631431,99634097,99636529,99643466,99645637,99649838,99663826,99670408,99674191,99684863,99690675,99697486,99698397,99706770,99709711,99722741,99730392,99818964,99819035,99819334,99819943,99822040,99824013,99825645,99831342,99835415,99836186,99843080,99846642,99848136,99851358,99853538,99856063,99858530,99864880,99871493,99874436,99880733,99888727,99892720,99895591,99900703,99922477,99925702,99934491,99939532,99947940,99948571,99955152,99964534,99966075,99976508,99982045,99986736,99988907,100006202,100011243,100015457,100022598,100024069,100036041,100048865,100056076,100056847,100066643,100072720,100080149,100085340,100091445,100116445,100130506,100133251,102390173,100153249,100161727,100167189,100175030,100190920,100196801,100225434,101401152,101401293,101401504,101404171,101404452,101404523,101412498,101413206,101413328,101415141,101415225,101415385,101415969,101416280,101416387,101421786,101422064,101422868,101425625,101425697,101426074,99654654,99671460,99689204,99823312,99826766,99827747,99837668,99866816,99898112,100098738,100138712,100182203,101413109,99820701,99885796,98419872,98419863,98419856,98419880,106242288,106065558,106895299,106895288,106542255,106195246,117434425,106641106,106597120,106793981,106808637,117071028,105901316,106914895,105993283,97785984,105739268,119919289,102936969,106172513,106240704,106420998,106640290,106821698,106848703,106596079,106070689,106034704,106313906,106090175,106460437,106091990,107005835,106912566,106194841,106326014,106274802,106168008,106167997,106278916,106527918,106735882,106874958,106654348,106261849,106889114,106124480,106136593,106620807,106827687,106790571,106705615,106153108,106577076,106729377,106602748,106115608,106741280,106621482,107045331,107003400,106889103,106647022,106888696,106099775,106486679,106426371,106737929,106127874,106828946,106823431,106206950,106917696,106875422,106868697,106641519,106108819,106146791,106782639,106854621,106844326,106142663,106824633,106296608,106476700,106474456,106791052,106589851,106385819,106240512,106999325,106071461,106876526,106354901,106917199,106218664,106737940,106115985,106818115,106518849,106748842,106238845,106190105,99469021,99469309,99469590,99470374,99470660,99471505,99472136,99472907,99473618,99474962,99475383,99476924,99479546,99479827,99481307,99483058,99485046,99487547,99488528,99489987,99498673,99502596,99504430,99506544,99507735,99511350,99513752,99515713,99519330,99521529,99526228,99592543,99592758,99593549,99593839,99594401,99595809,99597447,99598298,99599003,99599986,99601738,99603279,99603779,99605884,99610488,99612540,99615939,99618093,99620662,99624106,99627471,99628888,99631418,99634084,99636516,99643453,99645624,99649825,99663813,99670395,99674178,99684850,99690662,99697473,99698384,99706757,99709698,99722728,99730379,99818951,99819022,99819321,99819930,99822027,99824000,99825632,99831329,99835402,99836173,99843067,99846629,99848123,99851345,99853525,99856050,99858517,99864867,99871480,99874423,99880720,99888714,99892707,99895578,99900690,99922464,99925689,99934478,99939519,99947927,99948558,99955139,99964521,99966062,99976495,99982032,99986723,99988894,100006189,100011230,100015444,100022585,100024056,100036028,100048852,100056063,100056834,100066630,100072707,100080136,100085327,100091432,100116432,100130493,100133238,102390160,100153236,100161714,100167176,100175017,100190907,100196788,100225421,101401139,101401280,101401491,101404158,101404439,101404510,101412485,101413193,101413315,101415128,101415212,101415372,101415956,101416267,101416374,101421773,101422051,101422855,101425612,101425684,101426061,99654641,99671447,99689191,99823299,99826753,99827734,99837655,99866803,99898099,100098725,100138699,100182190,101413096,99820688,99885783,98419868,98419859,98419852,98419876,106242279,106065549,106895290,106895279,106542247,106195237,117434412,106641098,106597111,106808635,117071024,106914886,105993269,97785970,105739254,119919287,102936956,106172504],"hOXil":["FaxEntityService"],"hsFLT":"%.@.null,10,3]","iRz4i":3,"k76Vlc":[],"kFsUdb":"https://docs.google.com/picker","kPYdqb":false,"mXaIFf":false,"nPAWmd":"https://cloudconsole-pa.clients6.google.com","nQyAE":{},"nfd52d":"google-ai-studio","p9hQne":"https://www.gstatic.com/_/boq-makersuite/_/r/","pm20lb":"cloudconsole-pa.clients6.google.com","qc58fc":"","qocwD":false,"qwAQke":"MakerSuite","rU9UAf":86400000,"rtQCxc":-120,"syGxEd":false,"teM9xe":"84414258-e650-497b-b5e9-43e291b491eb","tkHyOe":"MUST_PROVIDE_AN_API_KEY","u4g7r":"%.@.null,1,3]","wpAUPe":false,"xnI9P":false,"xwAfE":true,"y2FhP":"prod","yFnxrf":1957,"yWAmtc":false,"yueqgf":false,"z6uGHf":"6LfMhuItAAAAAPMRs5Icz9eJnvIjRlxrxvJQ6ABh","zBpHOc":"https://accounts.google.com/o/oauth2/auth","zChJod":"%.@.]","zQKvjb":25,"zSAhZc":"https://accounts.google.com/o/oauth2/iframe"}</script><script nonce="NO4JpEQUcnt87ezEIRLB-w">window["_F_toggles_default_MakerSuite"] = [0x4aa401, 0x438206, 0x1800000, ];</script><script nonce="NO4JpEQUcnt87ezEIRLB-w"></script><script nonce="NO4JpEQUcnt87ezEIRLB-w">var _F_cssRowKey = 'boq-makersuite.MakerSuite.kzfi84e3Yfk.L.X.O';var _F_combinedSignature = 'AMOXD2-ib17KaT37ns1_YK5ZGXyiQubPTw';function _DumpException(e) {throw e;}</script><link rel="stylesheet" href="https://www.gstatic.com/_/mss/boq-makersuite/_/ss/k=boq-makersuite.MakerSuite.kzfi84e3Yfk.L.X.O/am=AaRKgIHgEAAAABg/d=1/ed=1/rs=AMOXD29QAgwnYLCJaE5_ftIyOmT02guqZQ/m=_b" data-id="_cl" nonce="cS_cducc1uhxbTAmrY7taQ"><style data-font-stylesheet nonce="cS_cducc1uhxbTAmrY7taQ">@font-face{font-family:'Product Sans';font-style:normal;font-weight:400;font-display:block;src:url(https://fonts.gstatic.com/s/productsans/v9/pxiDypQkot1TnFhsFMOfGShVF9eL.ttf)format('truetype');}@font-face{font-family:'Google Sans';font-style:normal;font-weight:400;font-display:block;src:url(https://fonts.gstatic.com/s/googlesans/v62/4Ua_rENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RFD48TE63OOYKtrwEIJllpyw.ttf)format('truetype');}@font-face{font-family:'Google Sans';font-style:normal;font-weight:500;font-display:block;src:url(https://fonts.gstatic.com/s/googlesans/v62/4Ua_rENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RFD48TE63OOYKtrw2IJllpyw.ttf)format('truetype');}@font-face{font-family:'Google Sans';font-style:normal;font-weight:700;font-display:block;src:url(https://fonts.gstatic.com/s/googlesans/v62/4Ua_rENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RFD48TE63OOYKtrzjJ5llpyw.ttf)format('truetype');}@font-face{font-family:'Google Sans Mono';font-style:normal;font-weight:400;font-display:block;src:url(https://fonts.gstatic.com/s/googlesansmono/v15/P5sUzYWFYtnZ_Cg-t0Uq_rfivrdYH4RE8-pZ5gQ1abT53wVQGrw.ttf)format('truetype');}@font-face{font-family:'Google Sans Mono';font-style:normal;font-weight:500;font-display:block;src:url(https://fonts.gstatic.com/s/googlesansmono/v15/P5sUzYWFYtnZ_Cg-t0Uq_rfivrdYH4RE8-pZ5gQ1abTL3wVQGrw.ttf)format('truetype');}@font-face{font-family:'Google Sans Display';font-style:normal;font-weight:400;font-display:block;src:url(https://fonts.gstatic.com/s/googlesansdisplay/v13/ea8FacM9Wef3EJPWRrHjgE4B6CnlZxHVDv79pA.ttf)format('truetype');}@font-face{font-family:'Google Sans Display';font-style:normal;font-weight:500;font-display:block;src:url(https://fonts.gstatic.com/s/googlesansdisplay/v13/ea8IacM9Wef3EJPWRrHjgE4B6CnlZxHVBg3etBD7SQ.ttf)format('truetype');}@font-face{font-family:'Google Symbols';font-style:normal;font-weight:300;font-display:block;src:url(https://fonts.gstatic.com/l/font?kit=HhzMU5Ak9u-oMExPeInvcuEmPosC9zyteYEFU68cPrjdKM1XLPTxlGmzczpgWvF1d8Yp7AudBnt3CPar1JFWjoLAUv3G2tSNljixIIGUsC62cdTKiAkecSathI2-Ama_9tgxECbWyWdcPvfEJGvEQgr6-vH_5FdLAwAw6VG8UVin4vJWnDEuNkOg_Yu5j43CpNBozuwHmZ8fWrE9Lf4MNKI8Ob1p3vhM5MmL1xPtYWJxn249etAwJOtWcK4TGbpR9kT-hxSQZneh0280ej7HGssaEg83Dl7y2HGz0kOBfNx3wEu0X_XuCaG3cN2lRqWIbdLNSNDJRROijuPx8l9LJ9MUc3YVaAy_FvW5Mqt0GUo25_KQiw1hKNLtEJaxxjaMHUnuguCLmBasc_FprKmQJwcnLLo8bdqtzSuhFP_31k52MdmRBrH3GvPp7bHNbT4EXm1lWgmcIdjLuuJhef26zX41OuqUtxjwb8NDNZa8Q6TNW_dJyeL-gWgc_ClBMu341gqZlWdWoPecEu3euEPGsLoo4vfChyzXDI2WqoSMnLm-9pkpNBDu59zXyx5iF00pAp2AABx0R33XwMfUTHMtQMlXylX0za0M7FckJGLshp-5a4dlVw&skey=f8ec4d50247dc1c1&v=v470)format('truetype');}.google-symbols{font-family:'Google Symbols';font-weight:normal;font-style:normal;font-size:24px;line-height:1;letter-spacing:normal;text-transform:none;display:inline-block;white-space:nowrap;word-wrap:normal;direction:ltr;}</style><title>Function calling with the Gemini API - Gemini API | Google AI Studio</title><meta name="description" content="Get started using Function Calling with the Gemini API"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, interactive-widget=resizes-content"><script nonce="NO4JpEQUcnt87ezEIRLB-w">
+      function glueCookieNotificationBarLoaded() {
+        const {instance} = window.glue.CookieNotificationBar;
+        instance.listen('visibilitychange', (event) => {
+          const cookieBanner = document.getElementsByClassName('glue-cookie-notification-bar')[0];
+          if (event.detail.visible) {
+            cookieBanner.classList.add('visible');
+          } else {
+            cookieBanner.classList.remove('visible');
+          }
+        });
+
+        (function (w, d, s, l) {
+          w[l] = w[l] || [];
+          w[l].push({'gtm.start': new Date().getTime(), event: 'gtm.js'});
+          var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s),
+            dl = l != 'dataLayer' ? '&l=' + l : '',
+            e=d.querySelector('script[nonce]'),n=e&&(e['nonce']||e.getAttribute('nonce'));
+          j.async = true;
+          j.setAttribute('nonce', n);
+          if (self.trustedTypes && self.trustedTypes.createPolicy) {var policy = self.trustedTypes.createPolicy('aistudio', {createScriptURL: function(unused) { return 'https:\/\/www.googletagmanager.com\/gtm.js?id\x3dGTM-TT9C75WP'; }}); j.src = policy.createScriptURL('');} else {j.src = 'https:\/\/www.googletagmanager.com\/gtm.js?id\x3dGTM-TT9C75WP';}
+
+          f.parentNode.insertBefore(j, f);
+
+          window[l].push({'event': 'dataLayer_initialized', 'page_name': 'Google AI Studio'});
+        })(window, document, 'script', 'dataLayer');
+      }
+    </script><!-- Cookie Consent --><script src="https://www.gstatic.com/glue/cookienotificationbar/cookienotificationbar.min.js" data-glue-cookie-notification-bar-category="2A" data-glue-cookie-notification-bar-site-id="Google AI Studio" nonce="NO4JpEQUcnt87ezEIRLB-w"></script><!-- End Cookie Consent  --><link rel="llms.txt" href="/llms.txt"><link rel="alternate" type="text/markdown" href="/docs/function-calling.md"><script nonce="NO4JpEQUcnt87ezEIRLB-w">var AF_initDataKeys = window.AF_initDataKeys || {}; var AF_dataServiceRequests = window.AF_dataServiceRequests || {}; var AF_initDataChunkQueue = window.AF_initDataChunkQueue || {}; var AF_initDataCallback = window.AF_initDataCallback || {}; var AF_initDataInitializeCallback = window.AF_initDataInitializeCallback || {}; AF_initDataKeys['b5dd02d8-5bd4-4f23-a282-a37cf92d8e19'] = []; AF_dataServiceRequests['b5dd02d8-5bd4-4f23-a282-a37cf92d8e19'] = {}; AF_initDataChunkQueue['b5dd02d8-5bd4-4f23-a282-a37cf92d8e19'] = AF_initDataChunkQueue['b5dd02d8-5bd4-4f23-a282-a37cf92d8e19'] || []; if (AF_initDataInitializeCallback['b5dd02d8-5bd4-4f23-a282-a37cf92d8e19']) {AF_initDataInitializeCallback['b5dd02d8-5bd4-4f23-a282-a37cf92d8e19'](AF_initDataKeys['b5dd02d8-5bd4-4f23-a282-a37cf92d8e19'], AF_initDataChunkQueue['b5dd02d8-5bd4-4f23-a282-a37cf92d8e19'], AF_dataServiceRequests['b5dd02d8-5bd4-4f23-a282-a37cf92d8e19']);}if (!AF_initDataCallback['b5dd02d8-5bd4-4f23-a282-a37cf92d8e19']) {AF_initDataCallback['b5dd02d8-5bd4-4f23-a282-a37cf92d8e19'] = function(chunk) {AF_initDataChunkQueue['b5dd02d8-5bd4-4f23-a282-a37cf92d8e19'].push(chunk);};}</script></head><app-root></app-root><noscript><pre>&gt; ## AI Agent Context
+&gt; Get the complete documentation index at: https://aistudio.google.com/llms.txt
+&gt; Use this file to discover all available pages.
+&gt; For the full documentation in a single file, fetch: https://aistudio.google.com/llms-full.txt
+
+# Function calling with the Gemini API
+
+Function calling lets you connect models to external tools and APIs.
+Instead of generating text responses, the model determines when to call specific
+functions and provides the necessary parameters to execute real-world actions.
+This allows the model to act as a bridge between natural language and real-world
+actions and data. Function calling has 3 primary use cases:
+
+- [**Take Actions:**](/docs/function-calling#meeting) Interact with external systems using APIs, such as
+  scheduling appointments, creating invoices, sending emails, or controlling
+  smart home devices.
+- [**Augment Knowledge:**](/docs/function-calling#weather) Access information from external sources like
+  databases, APIs, and knowledge bases.
+- [**Extend Capabilities:**](/docs/function-calling#chart) Use external tools to perform computations and
+  extend the limitations of the model, such as using a calculator or creating
+  charts.
+
+You can browse examples of these use cases below:
+
+### Schedule Meeting  {% id=&quot;meeting&quot; %}
+
+This example shows how to define a function that schedules a meeting with attendees at a specific time, allowing the model to parse user requests and return structured arguments to trigger actions in external systems.
+
+{% tabs %}
+  {% tab filename=&quot;sample.py&quot; label=&quot;Python&quot; %}
+  ```python
+  from google import genai
+  
+  schedule_meeting_function = {
+      &quot;type&quot;: &quot;function&quot;,
+      &quot;name&quot;: &quot;schedule_meeting&quot;,
+      &quot;description&quot;: &quot;Schedules a meeting with specified attendees at a given time and date.&quot;,
+      &quot;parameters&quot;: {
+          &quot;type&quot;: &quot;object&quot;,
+          &quot;properties&quot;: {
+              &quot;attendees&quot;: {&quot;type&quot;: &quot;array&quot;, &quot;items&quot;: {&quot;type&quot;: &quot;string&quot;}},
+              &quot;date&quot;: {&quot;type&quot;: &quot;string&quot;, &quot;description&quot;: &quot;Date (e.g., &#39;2024-07-29&#39;)&quot;},
+              &quot;time&quot;: {&quot;type&quot;: &quot;string&quot;, &quot;description&quot;: &quot;Time (e.g., &#39;15:00&#39;)&quot;},
+              &quot;topic&quot;: {&quot;type&quot;: &quot;string&quot;, &quot;description&quot;: &quot;The meeting topic.&quot;},
+          },
+          &quot;required&quot;: [&quot;attendees&quot;, &quot;date&quot;, &quot;time&quot;, &quot;topic&quot;],
+      },
+  }
+  
+  client = genai.Client()
+  
+  interaction = client.interactions.create(
+      model=&quot;gemini-4-hydrogen&quot;,
+      input=&quot;Schedule a meeting with Bob and Alice for 03/14/2025 at 10:00 AM about Q3 planning.&quot;,
+      tools=[{&quot;type&quot;: &quot;function&quot;, **schedule_meeting_function}],
+  )
+  
+  for step in interaction.steps:
+      if step.type == &quot;function_call&quot;:
+          print(f&quot;Function to call: {step.name}&quot;)
+          print(f&quot;Arguments: {step.arguments}&quot;)
+  ```
+
+  {% /tab %}
+
+  {% tab filename=&quot;sample.js&quot; label=&quot;JavaScript&quot; %}
+  ```javascript
+  import { GoogleGenAI } from &#39;@google/genai&#39;;
+  
+  const client = new GoogleGenAI({});
+  
+  const interaction = await client.interactions.create({
+    model: &#39;gemini-4-hydrogen&#39;,
+    input: &#39;Schedule a meeting with Bob and Alice for 03/27/2025 at 10:00 AM about Q3 planning.&#39;,
+    tools: [
+      {
+        type: &quot;function&quot;,
+        name: &quot;schedule_meeting&quot;,
+        description: &quot;Schedule a meeting with specified attendees, date, time, and topic.&quot;,
+        parameters: {
+          type: &quot;object&quot;,
+          properties: {
+            attendees: {
+              type: &quot;array&quot;,
+              items: { type: &quot;string&quot; },
+              description: &quot;List of attendee names or email addresses&quot;,
+            },
+            date: { type: &quot;string&quot;, description: &quot;Date of the meeting (YYYY-MM-DD)&quot; },
+            time: { type: &quot;string&quot;, description: &quot;Time of the meeting (HH:MM)&quot; },
+            topic: { type: &quot;string&quot;, description: &quot;Subject or topic of the meeting&quot; },
+          },
+          required: [&quot;attendees&quot;, &quot;date&quot;, &quot;time&quot;, &quot;topic&quot;],
+        },
+      },
+    ],
+  });
+  
+  for (const step of interaction.steps) {
+    if (step.type === &#39;function_call&#39;) {
+      console.log(`Function to call: ${step.name}`);
+      console.log(`Arguments: ${JSON.stringify(step.arguments)}`);
+    }
+  }
+  ```
+
+  {% /tab %}
+
+  {% tab filename=&quot;sample.sh&quot; label=&quot;REST&quot; %}
+  ```shell
+  curl -X POST &quot;https://generativelanguage.googleapis.com/v1beta/interactions&quot; \
+    -H &quot;x-goog-api-key: $GEMINI_API_KEY&quot; \
+    -H &#39;Content-Type: application/json&#39; \
+    -d &#39;{
+      &quot;model&quot;: &quot;gemini-4-hydrogen&quot;,
+      &quot;input&quot;: &quot;Schedule a meeting with Bob and Alice for 03/27/2025 at 10:00 AM about Q3 planning.&quot;,
+      &quot;tools&quot;: [{
+          &quot;type&quot;: &quot;function&quot;,
+          &quot;name&quot;: &quot;schedule_meeting&quot;,
+          &quot;description&quot;: &quot;Schedules a meeting with specified attendees at a given time and date.&quot;,
+          &quot;parameters&quot;: {
+            &quot;type&quot;: &quot;object&quot;,
+            &quot;properties&quot;: {
+              &quot;attendees&quot;: {&quot;type&quot;: &quot;array&quot;, &quot;items&quot;: {&quot;type&quot;: &quot;string&quot;}},
+              &quot;date&quot;: {&quot;type&quot;: &quot;string&quot;},
+              &quot;time&quot;: {&quot;type&quot;: &quot;string&quot;},
+              &quot;topic&quot;: {&quot;type&quot;: &quot;string&quot;}
+            },
+            &quot;required&quot;: [&quot;attendees&quot;, &quot;date&quot;, &quot;time&quot;, &quot;topic&quot;]
+          }
+      }]
+    }&#39;
+  ```
+
+  {% /tab %}
+
+  {% tab label=&quot;Java&quot; %}
+  ```java
+  import com.google.genai.Client;
+  import com.google.genai.gaos.models.interactions.CreateModelInteraction;
+  import com.google.genai.gaos.models.interactions.Function;
+  import com.google.genai.gaos.models.interactions.FunctionCallStep;
+  import com.google.genai.gaos.models.interactions.Interaction;
+  import com.google.genai.gaos.models.interactions.InteractionsInput;
+  import com.google.genai.gaos.models.interactions.Model;
+  import com.google.genai.gaos.models.interactions.Step;
+  import com.google.genai.gaos.models.operations.CreateInteractionRequestBody;
+  import java.util.Arrays;
+  import java.util.Collections;
+  import java.util.HashMap;
+  import java.util.Map;
+  
+  Client client = new Client();
+  
+  Map&lt;String, Object&gt; attendeesProp = new HashMap&lt;&gt;();
+  attendeesProp.put(&quot;type&quot;, &quot;array&quot;);
+  Map&lt;String, Object&gt; itemsMap = new HashMap&lt;&gt;(); itemsMap.put(&quot;type&quot;, &quot;string&quot;); attendeesProp.put(&quot;items&quot;, itemsMap);
+  
+  Map&lt;String, Object&gt; dateProp = new HashMap&lt;&gt;();
+  dateProp.put(&quot;type&quot;, &quot;string&quot;);
+  dateProp.put(&quot;description&quot;, &quot;Date (e.g., \&quot;2024-07-29\&quot;)&quot;);
+  
+  Map&lt;String, Object&gt; timeProp = new HashMap&lt;&gt;();
+  timeProp.put(&quot;type&quot;, &quot;string&quot;);
+  timeProp.put(&quot;description&quot;, &quot;Time (e.g., \&quot;15:00\&quot;)&quot;);
+  
+  Map&lt;String, Object&gt; topicProp = new HashMap&lt;&gt;();
+  topicProp.put(&quot;type&quot;, &quot;string&quot;);
+  topicProp.put(&quot;description&quot;, &quot;The meeting topic.&quot;);
+  
+  Map&lt;String, Object&gt; properties = new HashMap&lt;&gt;();
+  properties.put(&quot;attendees&quot;, attendeesProp);
+  properties.put(&quot;date&quot;, dateProp);
+  properties.put(&quot;time&quot;, timeProp);
+  properties.put(&quot;topic&quot;, topicProp);
+  
+  Map&lt;String, Object&gt; parameters = new HashMap&lt;&gt;();
+  parameters.put(&quot;type&quot;, &quot;object&quot;);
+  parameters.put(&quot;properties&quot;, properties);
+  parameters.put(&quot;required&quot;, Arrays.asList(&quot;attendees&quot;, &quot;date&quot;, &quot;time&quot;, &quot;topic&quot;));
+  
+  Function scheduleMeetingFunction =
+      Function.builder()
+          .name(&quot;schedule_meeting&quot;)
+          .description(&quot;Schedules a meeting with specified attendees at a given time and date.&quot;)
+          .parameters(parameters)
+          .build();
+  
+  CreateModelInteraction params =
+      CreateModelInteraction.builder()
+          .model(Model.of(&quot;gemini-3.6-flash&quot;))
+          .input(InteractionsInput.of(&quot;Schedule a meeting with Bob and Alice for 03/27/2025 at 10:00 AM about Q3 planning.&quot;))
+          .tools(Arrays.asList(scheduleMeetingFunction))
+          .build();
+  
+  Interaction interaction =
+      client.interactions.create(CreateInteractionRequestBody.of(params)).interaction().get();
+  
+  if (interaction.steps().isPresent()) {
+    for (Step step : interaction.steps().get()) {
+      if (step instanceof FunctionCallStep) {
+        FunctionCallStep functionCall = (FunctionCallStep) step;
+        System.out.println(&quot;Function to call: &quot; + functionCall.name().orElse(&quot;&quot;));
+        System.out.println(&quot;Arguments: &quot; + functionCall.arguments().orElse(null));
+      }
+    }
+  }
+  ```
+
+  {% /tab %}
+
+  {% tab label=&quot;Go&quot; %}
+  ```go
+  package main
+  
+  import (
+      &quot;context&quot;
+      &quot;fmt&quot;
+      &quot;log&quot;
+  
+      &quot;google.golang.org/genai&quot;
+      &quot;google.golang.org/genai/interactions/models/interactions&quot;
+      &quot;google.golang.org/genai/interactions/models/operations&quot;
+  )
+  
+  func main() {
+      ctx := context.Background()
+      client, err := genai.NewClient(ctx, nil)
+      if err != nil {
+          log.Fatal(err)
+      }
+  
+      scheduleMeetingFunction := interactions.NewTool(interactions.Function{
+          Name:        genai.Ptr(&quot;schedule_meeting&quot;),
+          Description: genai.Ptr(&quot;Schedules a meeting with specified attendees at a given time and date.&quot;),
+          Parameters: map[string]any{
+              &quot;type&quot;: &quot;object&quot;,
+              &quot;properties&quot;: map[string]any{
+                  &quot;attendees&quot;: map[string]any{
+                      &quot;type&quot;:  &quot;array&quot;,
+                      &quot;items&quot;: map[string]any{&quot;type&quot;: &quot;string&quot;},
+                  },
+                  &quot;date&quot;: map[string]any{
+                      &quot;type&quot;:        &quot;string&quot;,
+                      &quot;description&quot;: &quot;Date (e.g., &#39;2024-07-29&#39;)&quot;,
+                  },
+                  &quot;time&quot;: map[string]any{
+                      &quot;type&quot;:        &quot;string&quot;,
+                      &quot;description&quot;: &quot;Time (e.g., &#39;15:00&#39;)&quot;,
+                  },
+                  &quot;topic&quot;: map[string]any{
+                      &quot;type&quot;:        &quot;string&quot;,
+                      &quot;description&quot;: &quot;The meeting topic.&quot;,
+                  },
+              },
+              &quot;required&quot;: []string{&quot;attendees&quot;, &quot;date&quot;, &quot;time&quot;, &quot;topic&quot;},
+          },
+      })
+  
+      resp, err := client.Interactions.Create(ctx, operations.CreateInteractionRequest{
+          Body: operations.NewCreateInteractionRequestBody(
+              interactions.CreateModelInteraction{
+                  Model: interactions.Model(&quot;gemini-4-hydrogen&quot;),
+                  Input: interactions.NewInteractionsInput(&quot;Schedule a meeting with Bob and Alice for 03/14/2025 at 10:00 AM about Q3 planning.&quot;),
+                  Tools: []interactions.Tool{scheduleMeetingFunction},
+              },
+          ),
+      })
+      if err != nil {
+          log.Fatal(err)
+      }
+  
+      for _, step := range resp.Interaction.Steps {
+          if step.FunctionCallStep != nil {
+              fc := step.FunctionCallStep
+              fmt.Println(&quot;Function to call:&quot;, fc.Name)
+              fmt.Println(&quot;Arguments:&quot;, fc.Arguments)
+          }
+      }
+  }
+  ```
+
+  {% /tab %}
+
+{% /tabs %}
+
+### Get Weather  {% id=&quot;weather&quot; %}
+
+This example shows how to define a function that retrieves temperature data for a location, enabling the model to call external APIs to answer queries requiring real-time or external information.
+
+{% tabs %}
+  {% tab filename=&quot;sample.py&quot; label=&quot;Python&quot; %}
+  ```python
+  from google import genai
+  
+  weather_function = {
+      &quot;type&quot;: &quot;function&quot;,
+      &quot;name&quot;: &quot;get_current_temperature&quot;,
+      &quot;description&quot;: &quot;Gets the current temperature for a given location.&quot;,
+      &quot;parameters&quot;: {
+          &quot;type&quot;: &quot;object&quot;,
+          &quot;properties&quot;: {
+              &quot;location&quot;: {
+                  &quot;type&quot;: &quot;string&quot;,
+                  &quot;description&quot;: &quot;The city name, e.g. San Francisco&quot;,
+              },
+          },
+          &quot;required&quot;: [&quot;location&quot;],
+      },
+  }
+  
+  client = genai.Client()
+  
+  interaction = client.interactions.create(
+      model=&quot;gemini-4-hydrogen&quot;,
+      input=&quot;What&#39;s the temperature in London?&quot;,
+      tools=[weather_function],
+  )
+  
+  for step in interaction.steps:
+      if step.type == &quot;function_call&quot;:
+          print(f&quot;Function to call: {step.name}&quot;)
+          print(f&quot;Arguments: {step.arguments}&quot;)
+  ```
+
+  {% /tab %}
+
+  {% tab filename=&quot;sample.js&quot; label=&quot;JavaScript&quot; %}
+  ```javascript
+  import { GoogleGenAI } from &#39;@google/genai&#39;;
+  
+  const client = new GoogleGenAI({});
+  
+  const interaction = await client.interactions.create({
+    model: &#39;gemini-4-hydrogen&#39;,
+    input: &quot;What&#39;s the temperature in London?&quot;,
+    tools: [
+      {
+        type: &quot;function&quot;,
+        name: &quot;get_current_weather&quot;,
+        description: &quot;Get the current weather for a given location&quot;,
+        parameters: {
+          type: &quot;object&quot;,
+          properties: {
+            location: { type: &quot;string&quot;, description: &quot;City and state, e.g. San Francisco, CA&quot; },
+            unit: { type: &quot;string&quot;, enum: [&quot;celsius&quot;, &quot;fahrenheit&quot;] },
+          },
+          required: [&quot;location&quot;],
+        },
+      },
+    ],
+  });
+  
+  for (const step of interaction.steps) {
+    if (step.type === &#39;function_call&#39;) {
+      console.log(`Function to call: ${step.name}`);
+      console.log(`Arguments: ${JSON.stringify(step.arguments)}`);
+    }
+  }
+  ```
+
+  {% /tab %}
+
+  {% tab filename=&quot;sample.sh&quot; label=&quot;REST&quot; %}
+  ```shell
+  curl -X POST &quot;https://generativelanguage.googleapis.com/v1beta/interactions&quot; \
+    -H &quot;x-goog-api-key: $GEMINI_API_KEY&quot; \
+    -H &#39;Content-Type: application/json&#39; \
+    -d &#39;{
+      &quot;model&quot;: &quot;gemini-4-hydrogen&quot;,
+      &quot;input&quot;: &quot;What&#39;\&#39;&#39;s the temperature in London?&quot;,
+      &quot;tools&quot;: [{
+        &quot;type&quot;: &quot;function&quot;,
+        &quot;name&quot;: &quot;get_current_temperature&quot;,
+        &quot;description&quot;: &quot;Gets the current temperature for a given location.&quot;,
+        &quot;parameters&quot;: {
+          &quot;type&quot;: &quot;object&quot;,
+          &quot;properties&quot;: {
+            &quot;location&quot;: {&quot;type&quot;: &quot;string&quot;, &quot;description&quot;: &quot;The city name&quot;}
+          },
+          &quot;required&quot;: [&quot;location&quot;]
+        }
+      }]
+    }&#39;
+  ```
+
+  {% /tab %}
+
+  {% tab label=&quot;Java&quot; %}
+  ```java
+  import com.google.genai.Client;
+  import com.google.genai.gaos.models.interactions.CreateModelInteraction;
+  import com.google.genai.gaos.models.interactions.Function;
+  import com.google.genai.gaos.models.interactions.FunctionCallStep;
+  import com.google.genai.gaos.models.interactions.Interaction;
+  import com.google.genai.gaos.models.interactions.InteractionsInput;
+  import com.google.genai.gaos.models.interactions.Model;
+  import com.google.genai.gaos.models.interactions.Step;
+  import com.google.genai.gaos.models.operations.CreateInteractionRequestBody;
+  import java.util.Arrays;
+  import java.util.Collections;
+  import java.util.HashMap;
+  import java.util.Map;
+  
+  Client client = new Client();
+  
+  Map&lt;String, Object&gt; locationProp = new HashMap&lt;&gt;();
+  locationProp.put(&quot;type&quot;, &quot;string&quot;);
+  locationProp.put(&quot;description&quot;, &quot;The city name, e.g. San Francisco&quot;);
+  
+  Map&lt;String, Object&gt; properties = new HashMap&lt;&gt;();
+  properties.put(&quot;location&quot;, locationProp);
+  
+  Map&lt;String, Object&gt; parameters = new HashMap&lt;&gt;();
+  parameters.put(&quot;type&quot;, &quot;object&quot;);
+  parameters.put(&quot;properties&quot;, properties);
+  parameters.put(&quot;required&quot;, Arrays.asList(&quot;location&quot;));
+  
+  Function weatherFunction =
+      Function.builder()
+          .name(&quot;get_current_temperature&quot;)
+          .description(&quot;Gets the current temperature for a given location.&quot;)
+          .parameters(parameters)
+          .build();
+  
+  CreateModelInteraction params =
+      CreateModelInteraction.builder()
+          .model(Model.of(&quot;gemini-3.6-flash&quot;))
+          .input(InteractionsInput.of(&quot;What&#39;s the temperature in London?&quot;))
+          .tools(Arrays.asList(weatherFunction))
+          .build();
+  
+  Interaction interaction =
+      client.interactions.create(CreateInteractionRequestBody.of(params)).interaction().get();
+  
+  if (interaction.steps().isPresent()) {
+    for (Step step : interaction.steps().get()) {
+      if (step instanceof FunctionCallStep) {
+        FunctionCallStep functionCall = (FunctionCallStep) step;
+        System.out.println(&quot;Function to call: &quot; + functionCall.name().orElse(&quot;&quot;));
+        System.out.println(&quot;Arguments: &quot; + functionCall.arguments().orElse(null));
+      }
+    }
+  }
+  ```
+
+  {% /tab %}
+
+  {% tab label=&quot;Go&quot; %}
+  ```go
+  package main
+  
+  import (
+      &quot;context&quot;
+      &quot;fmt&quot;
+      &quot;log&quot;
+  
+      &quot;google.golang.org/genai&quot;
+      &quot;google.golang.org/genai/interactions/models/interactions&quot;
+      &quot;google.golang.org/genai/interactions/models/operations&quot;
+  )
+  
+  func main() {
+      ctx := context.Background()
+      client, err := genai.NewClient(ctx, nil)
+      if err != nil {
+          log.Fatal(err)
+      }
+  
+      weatherFunction := interactions.NewTool(interactions.Function{
+          Name:        genai.Ptr(&quot;get_current_temperature&quot;),
+          Description: genai.Ptr(&quot;Gets the current temperature for a given location.&quot;),
+          Parameters: map[string]any{
+              &quot;type&quot;: &quot;object&quot;,
+              &quot;properties&quot;: map[string]any{
+                  &quot;location&quot;: map[string]any{
+                      &quot;type&quot;:        &quot;string&quot;,
+                      &quot;description&quot;: &quot;The city name, e.g. San Francisco&quot;,
+                  },
+              },
+              &quot;required&quot;: []string{&quot;location&quot;},
+          },
+      })
+  
+      resp, err := client.Interactions.Create(ctx, operations.CreateInteractionRequest{
+          Body: operations.NewCreateInteractionRequestBody(
+              interactions.CreateModelInteraction{
+                  Model: interactions.Model(&quot;gemini-4-hydrogen&quot;),
+                  Input: interactions.NewInteractionsInput(&quot;What&#39;s the temperature in London?&quot;),
+                  Tools: []interactions.Tool{weatherFunction},
+              },
+          ),
+      })
+      if err != nil {
+          log.Fatal(err)
+      }
+  
+      for _, step := range resp.Interaction.Steps {
+          if step.FunctionCallStep != nil {
+              fc := step.FunctionCallStep
+              fmt.Println(&quot;Function to call:&quot;, fc.Name)
+              fmt.Println(&quot;Arguments:&quot;, fc.Arguments)
+          }
+      }
+  }
+  ```
+
+  {% /tab %}
+
+{% /tabs %}
+
+### Create Chart  {% id=&quot;chart&quot; %}
+
+This example shows how to define a function that generates a bar chart from structured data, demonstrating how the model can use external tools to perform computations or create visual assets:
+
+{% tabs %}
+  {% tab filename=&quot;sample.py&quot; label=&quot;Python&quot; %}
+  ```python
+  from google import genai
+  
+  create_chart_function = {
+      &quot;type&quot;: &quot;function&quot;,
+      &quot;name&quot;: &quot;create_bar_chart&quot;,
+      &quot;description&quot;: &quot;Creates a bar chart given a title, labels, and values.&quot;,
+      &quot;parameters&quot;: {
+          &quot;type&quot;: &quot;object&quot;,
+          &quot;properties&quot;: {
+              &quot;title&quot;: {&quot;type&quot;: &quot;string&quot;, &quot;description&quot;: &quot;The title for the chart.&quot;},
+              &quot;labels&quot;: {&quot;type&quot;: &quot;array&quot;, &quot;items&quot;: {&quot;type&quot;: &quot;string&quot;}},
+              &quot;values&quot;: {&quot;type&quot;: &quot;array&quot;, &quot;items&quot;: {&quot;type&quot;: &quot;number&quot;}},
+          },
+          &quot;required&quot;: [&quot;title&quot;, &quot;labels&quot;, &quot;values&quot;],
+      },
+  }
+  
+  client = genai.Client()
+  
+  interaction = client.interactions.create(
+      model=&quot;gemini-4-hydrogen&quot;,
+      input=&quot;Create a bar chart titled &#39;Quarterly Sales&#39; with Q1: 50000, Q2: 75000, Q3: 60000.&quot;,
+      tools=[create_chart_function],
+  )
+  
+  for step in interaction.steps:
+      if step.type == &quot;function_call&quot;:
+          print(f&quot;Function to call: {step.name}&quot;)
+          print(f&quot;Arguments: {step.arguments}&quot;)
+  ```
+
+  {% /tab %}
+
+  {% tab filename=&quot;sample.js&quot; label=&quot;JavaScript&quot; %}
+  ```javascript
+  import { GoogleGenAI } from &#39;@google/genai&#39;;
+  
+  const client = new GoogleGenAI({});
+  
+  const interaction = await client.interactions.create({
+    model: &#39;gemini-4-hydrogen&#39;,
+    input: &quot;Create a bar chart titled &#39;Quarterly Sales&#39; with Q1: 50000, Q2: 75000, Q3: 60000.&quot;,
+    tools: [
+      {
+        type: &quot;function&quot;,
+        name: &quot;create_chart&quot;,
+        description: &quot;Create a chart based on provided data&quot;,
+        parameters: {
+          type: &quot;object&quot;,
+          properties: {
+            chart_type: { type: &quot;string&quot;, enum: [&quot;bar&quot;, &quot;line&quot;, &quot;pie&quot;] },
+            data: { type: &quot;string&quot;, description: &quot;JSON string of chart data points&quot; },
+            title: { type: &quot;string&quot;, description: &quot;Title of the chart&quot; },
+          },
+          required: [&quot;chart_type&quot;, &quot;data&quot;, &quot;title&quot;],
+        },
+      },
+    ],
+  });
+  
+  for (const step of interaction.steps) {
+    if (step.type === &#39;function_call&#39;) {
+      console.log(`${step.name}(${JSON.stringify(step.arguments)})`);
+    }
+  }
+  ```
+
+  {% /tab %}
+
+  {% tab filename=&quot;sample.sh&quot; label=&quot;REST&quot; %}
+  ```shell
+  curl -X POST &quot;https://generativelanguage.googleapis.com/v1beta/interactions&quot; \
+    -H &quot;x-goog-api-key: $GEMINI_API_KEY&quot; \
+    -H &#39;Content-Type: application/json&#39; \
+    -d &#39;{
+      &quot;model&quot;: &quot;gemini-4-hydrogen&quot;,
+      &quot;input&quot;: &quot;Create a bar chart titled &#39;\&#39;&#39;Quarterly Sales&#39;\&#39;&#39; with Q1: 50000, Q2: 75000, Q3: 60000.&quot;,
+      &quot;tools&quot;: [{
+          &quot;type&quot;: &quot;function&quot;,
+          &quot;name&quot;: &quot;create_bar_chart&quot;,
+          &quot;description&quot;: &quot;Creates a bar chart given a title, labels, and values.&quot;,
+          &quot;parameters&quot;: {
+            &quot;type&quot;: &quot;object&quot;,
+            &quot;properties&quot;: {
+              &quot;title&quot;: {&quot;type&quot;: &quot;string&quot;},
+              &quot;labels&quot;: {&quot;type&quot;: &quot;array&quot;, &quot;items&quot;: {&quot;type&quot;: &quot;string&quot;}},
+              &quot;values&quot;: {&quot;type&quot;: &quot;array&quot;, &quot;items&quot;: {&quot;type&quot;: &quot;number&quot;}}
+            },
+            &quot;required&quot;: [&quot;title&quot;, &quot;labels&quot;, &quot;values&quot;]
+          }
+      }]
+    }&#39;
+  ```
+
+  {% /tab %}
+
+  {% tab label=&quot;Java&quot; %}
+  ```java
+  import com.google.genai.Client;
+  import com.google.genai.gaos.models.interactions.CreateModelInteraction;
+  import com.google.genai.gaos.models.interactions.Function;
+  import com.google.genai.gaos.models.interactions.FunctionCallStep;
+  import com.google.genai.gaos.models.interactions.Interaction;
+  import com.google.genai.gaos.models.interactions.InteractionsInput;
+  import com.google.genai.gaos.models.interactions.Model;
+  import com.google.genai.gaos.models.interactions.Step;
+  import com.google.genai.gaos.models.operations.CreateInteractionRequestBody;
+  import java.util.Arrays;
+  import java.util.Collections;
+  import java.util.HashMap;
+  import java.util.Map;
+  
+  Client client = new Client();
+  
+  Map&lt;String, Object&gt; properties = new HashMap&lt;&gt;();
+  Map&lt;String, Object&gt; titleMap = new HashMap&lt;&gt;(); titleMap.put(&quot;type&quot;, &quot;string&quot;); titleMap.put(&quot;description&quot;, &quot;The title for the chart.&quot;); properties.put(&quot;title&quot;, titleMap);
+  Map&lt;String, Object&gt; labelsMap = new HashMap&lt;&gt;(); labelsMap.put(&quot;type&quot;, &quot;array&quot;); labelsMap.put(&quot;items&quot;, Collections.singletonMap(&quot;type&quot;, &quot;string&quot;)); properties.put(&quot;labels&quot;, labelsMap);
+  Map&lt;String, Object&gt; valuesMap = new HashMap&lt;&gt;(); valuesMap.put(&quot;type&quot;, &quot;array&quot;); valuesMap.put(&quot;items&quot;, Collections.singletonMap(&quot;type&quot;, &quot;number&quot;)); properties.put(&quot;values&quot;, valuesMap);
+  
+  Map&lt;String, Object&gt; parameters = new HashMap&lt;&gt;();
+  parameters.put(&quot;type&quot;, &quot;object&quot;);
+  parameters.put(&quot;properties&quot;, properties);
+  parameters.put(&quot;required&quot;, Arrays.asList(&quot;title&quot;, &quot;labels&quot;, &quot;values&quot;));
+  
+  Function createChartFunction =
+      Function.builder()
+          .name(&quot;create_bar_chart&quot;)
+          .description(&quot;Creates a bar chart given a title, labels, and values.&quot;)
+          .parameters(parameters)
+          .build();
+  
+  CreateModelInteraction params =
+      CreateModelInteraction.builder()
+          .model(Model.of(&quot;gemini-3.6-flash&quot;))
+          .input(InteractionsInput.of(&quot;Create a bar chart titled &#39;Quarterly Sales&#39; with Q1: 50000, Q2: 75000, Q3: 60000.&quot;))
+          .tools(Arrays.asList(createChartFunction))
+          .build();
+  
+  Interaction interaction =
+      client.interactions.create(CreateInteractionRequestBody.of(params)).interaction().get();
+  
+  if (interaction.steps().isPresent()) {
+    for (Step step : interaction.steps().get()) {
+      if (step instanceof FunctionCallStep) {
+        FunctionCallStep functionCall = (FunctionCallStep) step;
+        System.out.println(functionCall.name().orElse(&quot;&quot;) + &quot;(&quot; + functionCall.arguments().orElse(null) + &quot;)&quot;);
+      }
+    }
+  }
+  ```
+
+  {% /tab %}
+
+  {% tab label=&quot;Go&quot; %}
+  ```go
+  package main
+  
+  import (
+      &quot;context&quot;
+      &quot;fmt&quot;
+      &quot;log&quot;
+  
+      &quot;google.golang.org/genai&quot;
+      &quot;google.golang.org/genai/interactions/models/interactions&quot;
+      &quot;google.golang.org/genai/interactions/models/operations&quot;
+  )
+  
+  func main() {
+      ctx := context.Background()
+      client, err := genai.NewClient(ctx, nil)
+      if err != nil {
+          log.Fatal(err)
+      }
+  
+      createChartFunction := interactions.NewTool(interactions.Function{
+          Name:        genai.Ptr(&quot;create_bar_chart&quot;),
+          Description: genai.Ptr(&quot;Creates a bar chart given a title, labels, and values.&quot;),
+          Parameters: map[string]any{
+              &quot;type&quot;: &quot;object&quot;,
+              &quot;properties&quot;: map[string]any{
+                  &quot;title&quot;: map[string]any{
+                      &quot;type&quot;:        &quot;string&quot;,
+                      &quot;description&quot;: &quot;The title for the chart.&quot;,
+                  },
+                  &quot;labels&quot;: map[string]any{
+                      &quot;type&quot;:  &quot;array&quot;,
+                      &quot;items&quot;: map[string]any{&quot;type&quot;: &quot;string&quot;},
+                  },
+                  &quot;values&quot;: map[string]any{
+                      &quot;type&quot;:  &quot;array&quot;,
+                      &quot;items&quot;: map[string]any{&quot;type&quot;: &quot;number&quot;},
+                  },
+              },
+              &quot;required&quot;: []string{&quot;title&quot;, &quot;labels&quot;, &quot;values&quot;},
+          },
+      })
+  
+      resp, err := client.Interactions.Create(ctx, operations.CreateInteractionRequest{
+          Body: operations.NewCreateInteractionRequestBody(
+              interactions.CreateModelInteraction{
+                  Model: interactions.Model(&quot;gemini-4-hydrogen&quot;),
+                  Input: interactions.NewInteractionsInput(&quot;Create a bar chart titled &#39;Quarterly Sales&#39; with Q1: 50000, Q2: 75000, Q3: 60000.&quot;),
+                  Tools: []interactions.Tool{createChartFunction},
+              },
+          ),
+      })
+      if err != nil {
+          log.Fatal(err)
+      }
+  
+      for _, step := range resp.Interaction.Steps {
+          if step.FunctionCallStep != nil {
+              fc := step.FunctionCallStep
+              fmt.Println(&quot;Function to call:&quot;, fc.Name)
+              fmt.Println(&quot;Arguments:&quot;, fc.Arguments)
+          }
+      }
+  }
+  ```
+
+  {% /tab %}
+
+{% /tabs %}
+
+## How function calling works  {% id=&quot;how-it-works&quot; %}
+
+![](https://www.gstatic.com/cloud-cms/6fae8435a773b720d5db0c8746efb318.png)
+
+Function calling involves a structured interaction between your application, the
+model, and external functions:
+
+1. **Define Function Declaration:** Define the function&#39;s name, parameters, and
+  purpose to the model.
+2. **Call LLM with function declarations:** Send user prompt along with the
+  function declaration(s) to the model.
+3. **Execute Function Code (Your Responsibility):** The model *doesn&#39;t*
+  execute the function itself. Extract the name and args and execute in
+  your application.
+4. **Create User friendly response:** Send the result back to the model for a
+  final, user-friendly response.
+
+This process can be repeated over multiple turns. The model supports calling
+multiple functions in a single turn ([parallel function calling](/docs/function-calling#parallel_function_calling)) and in sequence ([compositional function calling](/docs/function-calling#compositional_function_calling)).
+
+### Step 1: Define a function declaration  {% id=&quot;step-1&quot; %}
+
+{% tabs %}
+  {% tab filename=&quot;sample.py&quot; label=&quot;Python&quot; %}
+  ```python
+  set_light_values_declaration = {
+      &quot;type&quot;: &quot;function&quot;,
+      &quot;name&quot;: &quot;set_light_values&quot;,
+      &quot;description&quot;: &quot;Sets the brightness and color temperature of a light.&quot;,
+      &quot;parameters&quot;: {
+          &quot;type&quot;: &quot;object&quot;,
+          &quot;properties&quot;: {
+              &quot;brightness&quot;: {
+                  &quot;type&quot;: &quot;integer&quot;,
+                  &quot;description&quot;: &quot;Light level from 0 to 100&quot;,
+              },
+              &quot;color_temp&quot;: {
+                  &quot;type&quot;: &quot;string&quot;,
+                  &quot;enum&quot;: [&quot;daylight&quot;, &quot;cool&quot;, &quot;warm&quot;],
+                  &quot;description&quot;: &quot;Color temperature&quot;,
+              },
+          },
+          &quot;required&quot;: [&quot;brightness&quot;, &quot;color_temp&quot;],
+      },
+  }
+  
+  def set_light_values(brightness: int, color_temp: str) -&gt; dict:
+      &quot;&quot;&quot;Set the brightness and color temperature of a room light.&quot;&quot;&quot;
+      return {&quot;brightness&quot;: brightness, &quot;colorTemperature&quot;: color_temp}
+  ```
+
+  {% /tab %}
+
+  {% tab filename=&quot;sample.js&quot; label=&quot;JavaScript&quot; %}
+  ```javascript
+  const setLightValuesTool = {
+    type: &#39;function&#39;,
+    name: &#39;set_light_values&#39;,
+    description: &#39;Sets the brightness and color temperature of a light.&#39;,
+    parameters: {
+      type: &#39;object&#39;,
+      properties: {
+        brightness: { type: &#39;number&#39;, description: &#39;Light level from 0 to 100&#39; },
+        color_temp: { type: &#39;string&#39;, enum: [&#39;daylight&#39;, &#39;cool&#39;, &#39;warm&#39;] },
+      },
+      required: [&#39;brightness&#39;, &#39;color_temp&#39;],
+    },
+  };
+  
+  function setLightValues(brightness = 0, color_temp = &#39;daylight&#39;) {
+    return { brightness: brightness, colorTemperature: color_temp };
+  }
+  ```
+
+  {% /tab %}
+
+  {% tab label=&quot;Java&quot; %}
+  ```java
+  import com.google.genai.Client;
+  import com.google.genai.gaos.models.interactions.CreateModelInteraction;
+  import com.google.genai.gaos.models.interactions.Function;
+  import com.google.genai.gaos.models.interactions.FunctionCallStep;
+  import com.google.genai.gaos.models.interactions.Interaction;
+  import com.google.genai.gaos.models.interactions.InteractionsInput;
+  import com.google.genai.gaos.models.interactions.Model;
+  import com.google.genai.gaos.models.interactions.Step;
+  import com.google.genai.gaos.models.operations.CreateInteractionRequestBody;
+  import java.util.Arrays;
+  import java.util.Collections;
+  import java.util.HashMap;
+  import java.util.Map;
+  
+  Client client = new Client();
+  Map&lt;String, Object&gt; parameters = new HashMap&lt;&gt;();
+  parameters.put(&quot;type&quot;, &quot;object&quot;);
+  
+  Function function = Function.builder()
+      .name(&quot;custom_function&quot;)
+      .description(&quot;A custom function.&quot;)
+      .parameters(parameters)
+      .build();
+  
+  CreateModelInteraction params = CreateModelInteraction.builder()
+      .model(Model.of(&quot;gemini-3.6-flash&quot;))
+      .input(InteractionsInput.of(&quot;Call the function.&quot;))
+      .tools(Arrays.asList(function))
+      .build();
+  
+  Interaction interaction =
+      client.interactions.create(CreateInteractionRequestBody.of(params)).interaction().get();
+  
+  if (interaction.steps().isPresent()) {
+    for (Step step : interaction.steps().get()) {
+      if (step instanceof FunctionCallStep) {
+        FunctionCallStep fc = (FunctionCallStep) step;
+        System.out.println(&quot;Function: &quot; + fc.name().orElse(&quot;&quot;));
+      }
+    }
+  }
+  ```
+
+  {% /tab %}
+
+  {% tab label=&quot;Go&quot; %}
+  ```go
+  package main
+  
+  import (
+      &quot;google.golang.org/genai&quot;
+      &quot;google.golang.org/genai/interactions/models/interactions&quot;
+  )
+  
+  func setLightValues(brightness int, colorTemp string) map[string]any {
+      return map[string]any{
+          &quot;brightness&quot;:       brightness,
+          &quot;colorTemperature&quot;: colorTemp,
+      }
+  }
+  
+  func main() {
+      setLightValuesDeclaration := interactions.NewTool(interactions.Function{
+          Name:        genai.Ptr(&quot;set_light_values&quot;),
+          Description: genai.Ptr(&quot;Sets the brightness and color temperature of a light.&quot;),
+          Parameters: map[string]any{
+              &quot;type&quot;: &quot;object&quot;,
+              &quot;properties&quot;: map[string]any{
+                  &quot;brightness&quot;: map[string]any{
+                      &quot;type&quot;:        &quot;integer&quot;,
+                      &quot;description&quot;: &quot;Light level from 0 to 100&quot;,
+                  },
+                  &quot;color_temp&quot;: map[string]any{
+                      &quot;type&quot;:        &quot;string&quot;,
+                      &quot;enum&quot;:        []string{&quot;daylight&quot;, &quot;cool&quot;, &quot;warm&quot;},
+                      &quot;description&quot;: &quot;Color temperature&quot;,
+                  },
+              },
+              &quot;required&quot;: []string{&quot;brightness&quot;, &quot;color_temp&quot;},
+          },
+      })
+      _ = setLightValuesDeclaration
+  }
+  ```
+
+  {% /tab %}
+
+{% /tabs %}
+
+### Step 2: Call the model with function declarations  {% id=&quot;step-2&quot; %}
+
+{% tabs %}
+  {% tab filename=&quot;sample.py&quot; label=&quot;Python&quot; %}
+  ```python
+  from google import genai
+  
+  client = genai.Client()
+  
+  interaction = client.interactions.create(
+      model=&quot;gemini-4-hydrogen&quot;,
+      input=&quot;Turn the lights down to a romantic level&quot;,
+      tools=[set_light_values_declaration],
+  )
+  
+  fc_step = next(s for s in interaction.steps if s.type == &quot;function_call&quot;)
+  print(fc_step)
+  ```
+
+  {% /tab %}
+
+  {% tab filename=&quot;sample.js&quot; label=&quot;JavaScript&quot; %}
+  ```javascript
+  import { GoogleGenAI } from &#39;@google/genai&#39;;
+  
+  const client = new GoogleGenAI({});
+  
+  const interaction = await client.interactions.create({
+    model: &#39;gemini-4-hydrogen&#39;,
+    input: &#39;Turn the lights down to a romantic level&#39;,
+    tools: [
+      {
+        type: &quot;function&quot;,
+        name: &quot;set_light_values&quot;,
+        description: &quot;Set the brightness and color temperature of a room light.&quot;,
+        parameters: {
+          type: &quot;object&quot;,
+          properties: {
+            brightness: { type: &quot;number&quot;, description: &quot;Light level from 0 to 100.&quot; },
+            color_temp: { type: &quot;string&quot;, description: &quot;Color temperature (e.g. daylight, cool_white, warm_white).&quot; },
+          },
+          required: [&quot;brightness&quot;, &quot;color_temp&quot;],
+        },
+      },
+    ],
+  });
+  
+  let fcStep;
+  for (const step of interaction.steps || []) {
+    if (step.type === &#39;function_call&#39;) {
+      fcStep = step;
+      break;
+    }
+  }
+  console.log(fcStep);
+  ```
+
+  {% /tab %}
+
+  {% tab label=&quot;Java&quot; %}
+  ```java
+  import com.google.genai.Client;
+  import com.google.genai.gaos.models.interactions.CreateModelInteraction;
+  import com.google.genai.gaos.models.interactions.Function;
+  import com.google.genai.gaos.models.interactions.FunctionCallStep;
+  import com.google.genai.gaos.models.interactions.Interaction;
+  import com.google.genai.gaos.models.interactions.InteractionsInput;
+  import com.google.genai.gaos.models.interactions.Model;
+  import com.google.genai.gaos.models.interactions.Step;
+  import com.google.genai.gaos.models.operations.CreateInteractionRequestBody;
+  import java.util.Arrays;
+  import java.util.Collections;
+  import java.util.HashMap;
+  import java.util.Map;
+  
+  Client client = new Client();
+  Map&lt;String, Object&gt; parameters = new HashMap&lt;&gt;();
+  parameters.put(&quot;type&quot;, &quot;object&quot;);
+  
+  Function function = Function.builder()
+      .name(&quot;custom_function&quot;)
+      .description(&quot;A custom function.&quot;)
+      .parameters(parameters)
+      .build();
+  
+  CreateModelInteraction params = CreateModelInteraction.builder()
+      .model(Model.of(&quot;gemini-3.6-flash&quot;))
+      .input(InteractionsInput.of(&quot;Call the function.&quot;))
+      .tools(Arrays.asList(function))
+      .build();
+  
+  Interaction interaction =
+      client.interactions.create(CreateInteractionRequestBody.of(params)).interaction().get();
+  
+  if (interaction.steps().isPresent()) {
+    for (Step step : interaction.steps().get()) {
+      if (step instanceof FunctionCallStep) {
+        FunctionCallStep fc = (FunctionCallStep) step;
+        System.out.println(&quot;Function: &quot; + fc.name().orElse(&quot;&quot;));
+      }
+    }
+  }
+  ```
+
+  {% /tab %}
+
+  {% tab label=&quot;Go&quot; %}
+  ```go
+  package main
+  
+  import (
+      &quot;context&quot;
+      &quot;fmt&quot;
+      &quot;log&quot;
+  
+      &quot;google.golang.org/genai&quot;
+      &quot;google.golang.org/genai/interactions/models/interactions&quot;
+      &quot;google.golang.org/genai/interactions/models/operations&quot;
+  )
+  
+  func main() {
+      ctx := context.Background()
+      client, err := genai.NewClient(ctx, nil)
+      if err != nil {
+          log.Fatal(err)
+      }
+  
+      setLightValuesDeclaration := interactions.NewTool(interactions.Function{
+          Name:        genai.Ptr(&quot;set_light_values&quot;),
+          Description: genai.Ptr(&quot;Sets the brightness and color temperature of a light.&quot;),
+          Parameters: map[string]any{
+              &quot;type&quot;: &quot;object&quot;,
+              &quot;properties&quot;: map[string]any{
+                  &quot;brightness&quot;: map[string]any{
+                      &quot;type&quot;:        &quot;integer&quot;,
+                      &quot;description&quot;: &quot;Light level from 0 to 100&quot;,
+                  },
+                  &quot;color_temp&quot;: map[string]any{
+                      &quot;type&quot;:        &quot;string&quot;,
+                      &quot;enum&quot;:        []string{&quot;daylight&quot;, &quot;cool&quot;, &quot;warm&quot;},
+                      &quot;description&quot;: &quot;Color temperature&quot;,
+                  },
+              },
+              &quot;required&quot;: []string{&quot;brightness&quot;, &quot;color_temp&quot;},
+          },
+      })
+  
+      resp, err := client.Interactions.Create(ctx, operations.CreateInteractionRequest{
+          Body: operations.NewCreateInteractionRequestBody(
+              interactions.CreateModelInteraction{
+                  Model: interactions.Model(&quot;gemini-4-hydrogen&quot;),
+                  Input: interactions.NewInteractionsInput(&quot;Turn the lights down to a romantic level&quot;),
+                  Tools: []interactions.Tool{setLightValuesDeclaration},
+              },
+          ),
+      })
+      if err != nil {
+          log.Fatal(err)
+      }
+  
+      var fcStep *interactions.FunctionCallStep
+      for _, step := range resp.Interaction.Steps {
+          if step.FunctionCallStep != nil {
+              fcStep = step.FunctionCallStep
+              break
+          }
+      }
+      fmt.Println(fcStep)
+  }
+  ```
+
+  {% /tab %}
+
+{% /tabs %}
+
+The model returns a `function_call` step with `type`, `name`, and `arguments`:
+
+```python
+type=&#39;function_call&#39;
+name=&#39;set_light_values&#39;
+arguments={&#39;color_temp&#39;: &#39;warm&#39;, &#39;brightness&#39;: 25}
+```
+
+### Step 3: Execute the function  {% id=&quot;step-3&quot; %}
+
+{% tabs %}
+  {% tab filename=&quot;sample.py&quot; label=&quot;Python&quot; %}
+  ```python
+  fc_step = next(s for s in interaction.steps if s.type == &quot;function_call&quot;)
+  
+  if fc_step.name == &quot;set_light_values&quot;:
+      result = set_light_values(**fc_step.arguments)
+      print(f&quot;Function execution result: {result}&quot;)
+  ```
+
+  {% /tab %}
+
+  {% tab filename=&quot;sample.js&quot; label=&quot;JavaScript&quot; %}
+  ```javascript
+  function setLightValues(brightness = 0, color_temp = &#39;&#39;) {
+    return { brightness: brightness, colorTemperature: color_temp };
+  }
+  
+  let fcStep;
+  for (const step of interaction.steps || []) {
+    if (step.type === &#39;function_call&#39;) {
+      fcStep = step;
+      break;
+    }
+  }
+  
+  let result;
+  if (fcStep?.name === &#39;set_light_values&#39;) {
+    result = setLightValues(fcStep.arguments?.brightness, fcStep.arguments?.color_temp);
+    console.log(`Function execution result: ${JSON.stringify(result)}`);
+  }
+  ```
+
+  {% /tab %}
+
+  {% tab label=&quot;Java&quot; %}
+  ```java
+  import com.google.genai.Client;
+  import com.google.genai.gaos.models.interactions.CreateModelInteraction;
+  import com.google.genai.gaos.models.interactions.Function;
+  import com.google.genai.gaos.models.interactions.FunctionCallStep;
+  import com.google.genai.gaos.models.interactions.Interaction;
+  import com.google.genai.gaos.models.interactions.InteractionsInput;
+  import com.google.genai.gaos.models.interactions.Model;
+  import com.google.genai.gaos.models.interactions.Step;
+  import com.google.genai.gaos.models.operations.CreateInteractionRequestBody;
+  import java.util.Arrays;
+  import java.util.Collections;
+  import java.util.HashMap;
+  import java.util.Map;
+  
+  Client client = new Client();
+  Map&lt;String, Object&gt; parameters = new HashMap&lt;&gt;();
+  parameters.put(&quot;type&quot;, &quot;object&quot;);
+  
+  Function function = Function.builder()
+      .name(&quot;custom_function&quot;)
+      .description(&quot;A custom function.&quot;)
+      .parameters(parameters)
+      .build();
+  
+  CreateModelInteraction params = CreateModelInteraction.builder()
+      .model(Model.of(&quot;gemini-3.6-flash&quot;))
+      .input(InteractionsInput.of(&quot;Call the function.&quot;))
+      .tools(Arrays.asList(function))
+      .build();
+  
+  Interaction interaction =
+      client.interactions.create(CreateInteractionRequestBody.of(params)).interaction().get();
+  
+  if (interaction.steps().isPresent()) {
+    for (Step step : interaction.steps().get()) {
+      if (step instanceof FunctionCallStep) {
+        FunctionCallStep fc = (FunctionCallStep) step;
+        System.out.println(&quot;Function: &quot; + fc.name().orElse(&quot;&quot;));
+      }
+    }
+  }
+  ```
+
+  {% /tab %}
+
+  {% tab label=&quot;Go&quot; %}
+  ```go
+  package main
+  
+  import (
+      &quot;context&quot;
+      &quot;fmt&quot;
+      &quot;log&quot;
+  
+      &quot;google.golang.org/genai&quot;
+      &quot;google.golang.org/genai/interactions/models/interactions&quot;
+      &quot;google.golang.org/genai/interactions/models/operations&quot;
+  )
+  
+  func setLightValues(brightness int, colorTemp string) map[string]any {
+      return map[string]any{
+          &quot;brightness&quot;:       brightness,
+          &quot;colorTemperature&quot;: colorTemp,
+      }
+  }
+  
+  func main() {
+      ctx := context.Background()
+      client, err := genai.NewClient(ctx, nil)
+      if err != nil {
+          log.Fatal(err)
+      }
+  
+      setLightValuesDeclaration := interactions.NewTool(interactions.Function{
+          Name:        genai.Ptr(&quot;set_light_values&quot;),
+          Description: genai.Ptr(&quot;Sets the brightness and color temperature of a light.&quot;),
+          Parameters: map[string]any{
+              &quot;type&quot;: &quot;object&quot;,
+              &quot;properties&quot;: map[string]any{
+                  &quot;brightness&quot;: map[string]any{
+                      &quot;type&quot;:        &quot;integer&quot;,
+                      &quot;description&quot;: &quot;Light level from 0 to 100&quot;,
+                  },
+                  &quot;color_temp&quot;: map[string]any{
+                      &quot;type&quot;:        &quot;string&quot;,
+                      &quot;enum&quot;:        []string{&quot;daylight&quot;, &quot;cool&quot;, &quot;warm&quot;},
+                      &quot;description&quot;: &quot;Color temperature&quot;,
+                  },
+              },
+              &quot;required&quot;: []string{&quot;brightness&quot;, &quot;color_temp&quot;},
+          },
+      })
+  
+      resp, err := client.Interactions.Create(ctx, operations.CreateInteractionRequest{
+          Body: operations.NewCreateInteractionRequestBody(
+              interactions.CreateModelInteraction{
+                  Model: interactions.Model(&quot;gemini-4-hydrogen&quot;),
+                  Input: interactions.NewInteractionsInput(&quot;Turn the lights down to a romantic level&quot;),
+                  Tools: []interactions.Tool{setLightValuesDeclaration},
+              },
+          ),
+      })
+      if err != nil {
+          log.Fatal(err)
+      }
+  
+      for _, step := range resp.Interaction.Steps {
+          if step.FunctionCallStep != nil {
+              fcStep := step.FunctionCallStep
+              if fcStep.Name == &quot;set_light_values&quot; {
+                  brightness := 25
+                  if b, ok := fcStep.Arguments[&quot;brightness&quot;].(float64); ok {
+                      brightness = int(b)
+                  }
+                  colorTemp := &quot;warm&quot;
+                  if c, ok := fcStep.Arguments[&quot;color_temp&quot;].(string); ok {
+                      colorTemp = c
+                  }
+                  result := setLightValues(brightness, colorTemp)
+                  fmt.Println(&quot;Function execution result:&quot;, result)
+              }
+          }
+      }
+  }
+  ```
+
+  {% /tab %}
+
+{% /tabs %}
+
+### Step 4: Send result back to model  {% id=&quot;step-4&quot; %}
+
+{% tabs %}
+  {% tab filename=&quot;sample.py&quot; label=&quot;Python&quot; %}
+  ```python
+  final_interaction = client.interactions.create(
+      model=&quot;gemini-4-hydrogen&quot;,
+      input=[
+          {
+              &quot;type&quot;: &quot;function_result&quot;,
+              &quot;name&quot;: fc_step.name,
+              &quot;call_id&quot;: fc_step.id,
+              &quot;result&quot;: [{&quot;type&quot;: &quot;text&quot;, &quot;text&quot;: json.dumps(result)}],
+          }
+      ],
+      tools=[set_light_values_declaration],
+      previous_interaction_id=interaction.id,
+  )
+  
+  print(final_interaction.output_text)
+  ```
+
+  {% /tab %}
+
+  {% tab filename=&quot;sample.js&quot; label=&quot;JavaScript&quot; %}
+  ```javascript
+  const finalInteraction = await client.interactions.create({
+    model: &#39;gemini-4-hydrogen&#39;,
+    input: [{
+      type: &#39;function_result&#39;,
+      name: fcStep.name,
+      call_id: fcStep.id,
+      result: [{ type: &#39;text&#39;, text: JSON.stringify(result) }]
+    }],
+    tools: [
+      {
+        type: &quot;function&quot;,
+        name: &quot;set_light_values&quot;,
+        description: &quot;Set the brightness and color temperature of a room light.&quot;,
+        parameters: {
+          type: &quot;object&quot;,
+          properties: {
+            brightness: { type: &quot;number&quot;, description: &quot;Light level from 0 to 100.&quot; },
+            color_temp: { type: &quot;string&quot;, description: &quot;Color temperature (e.g. daylight, cool_white, warm_white).&quot; },
+          },
+          required: [&quot;brightness&quot;, &quot;color_temp&quot;],
+        },
+      },
+    ],
+    previous_interaction_id: interaction.id,
+  });
+  
+  console.log(finalInteraction.output_text);
+  ```
+
+  {% /tab %}
+
+  {% tab label=&quot;Java&quot; %}
+  ```java
+  import com.google.genai.Client;
+  import com.google.genai.gaos.models.interactions.CreateModelInteraction;
+  import com.google.genai.gaos.models.interactions.Function;
+  import com.google.genai.gaos.models.interactions.FunctionCallStep;
+  import com.google.genai.gaos.models.interactions.Interaction;
+  import com.google.genai.gaos.models.interactions.InteractionsInput;
+  import com.google.genai.gaos.models.interactions.Model;
+  import com.google.genai.gaos.models.interactions.Step;
+  import com.google.genai.gaos.models.operations.CreateInteractionRequestBody;
+  import java.util.Arrays;
+  import java.util.Collections;
+  import java.util.HashMap;
+  import java.util.Map;
+  
+  Client client = new Client();
+  Map&lt;String, Object&gt; parameters = new HashMap&lt;&gt;();
+  parameters.put(&quot;type&quot;, &quot;object&quot;);
+  
+  Function function = Function.builder()
+      .name(&quot;custom_function&quot;)
+      .description(&quot;A custom function.&quot;)
+      .parameters(parameters)
+      .build();
+  
+  CreateModelInteraction params = CreateModelInteraction.builder()
+      .model(Model.of(&quot;gemini-3.6-flash&quot;))
+      .input(InteractionsInput.of(&quot;Call the function.&quot;))
+      .tools(Arrays.asList(function))
+      .build();
+  
+  Interaction interaction =
+      client.interactions.create(CreateInteractionRequestBody.of(params)).interaction().get();
+  
+  if (interaction.steps().isPresent()) {
+    for (Step step : interaction.steps().get()) {
+      if (step instanceof FunctionCallStep) {
+        FunctionCallStep fc = (FunctionCallStep) step;
+        System.out.println(&quot;Function: &quot; + fc.name().orElse(&quot;&quot;));
+      }
+    }
+  }
+  ```
+
+  {% /tab %}
+
+  {% tab label=&quot;Go&quot; %}
+  ```go
+  package main
+  
+  import (
+      &quot;context&quot;
+      &quot;fmt&quot;
+      &quot;log&quot;
+  
+      &quot;google.golang.org/genai&quot;
+      &quot;google.golang.org/genai/interactions/models/interactions&quot;
+      &quot;google.golang.org/genai/interactions/models/operations&quot;
+  )
+  
+  func main() {
+      ctx := context.Background()
+      client, err := genai.NewClient(ctx, nil)
+      if err != nil {
+          log.Fatal(err)
+      }
+  
+      setLightValuesDeclaration := interactions.NewTool(interactions.Function{
+          Name:        genai.Ptr(&quot;set_light_values&quot;),
+          Description: genai.Ptr(&quot;Sets the brightness and color temperature of a light.&quot;),
+          Parameters: map[string]any{
+              &quot;type&quot;: &quot;object&quot;,
+              &quot;properties&quot;: map[string]any{
+                  &quot;brightness&quot;: map[string]any{
+                      &quot;type&quot;:        &quot;integer&quot;,
+                      &quot;description&quot;: &quot;Light level from 0 to 100&quot;,
+                  },
+                  &quot;color_temp&quot;: map[string]any{
+                      &quot;type&quot;:        &quot;string&quot;,
+                      &quot;enum&quot;:        []string{&quot;daylight&quot;, &quot;cool&quot;, &quot;warm&quot;},
+                      &quot;description&quot;: &quot;Color temperature&quot;,
+                  },
+              },
+              &quot;required&quot;: []string{&quot;brightness&quot;, &quot;color_temp&quot;},
+          },
+      })
+  
+      resp, err := client.Interactions.Create(ctx, operations.CreateInteractionRequest{
+          Body: operations.NewCreateInteractionRequestBody(
+              interactions.CreateModelInteraction{
+                  Model: interactions.Model(&quot;gemini-4-hydrogen&quot;),
+                  Input: interactions.NewInteractionsInput(&quot;Turn the lights down to a romantic level&quot;),
+                  Tools: []interactions.Tool{setLightValuesDeclaration},
+              },
+          ),
+      })
+      if err != nil {
+          log.Fatal(err)
+      }
+  
+      var fcStep *interactions.FunctionCallStep
+      for _, step := range resp.Interaction.Steps {
+          if step.FunctionCallStep != nil {
+              fcStep = step.FunctionCallStep
+              break
+          }
+      }
+  
+      if fcStep != nil {
+          resultJson := `{&quot;brightness&quot;: 25, &quot;colorTemperature&quot;: &quot;warm&quot;}`
+          resultStep := interactions.NewStep(interactions.FunctionResultStep{
+              Name:   genai.Ptr(fcStep.Name),
+              CallID: fcStep.ID,
+              Result: interactions.NewFunctionResultStepResultUnion([]interactions.FunctionResultSubcontent{
+                  interactions.NewFunctionResultSubcontent(interactions.TextContent{
+                      Text: resultJson,
+                  }),
+              }),
+          })
+  
+          finalResp, err := client.Interactions.Create(ctx, operations.CreateInteractionRequest{
+              Body: operations.NewCreateInteractionRequestBody(
+                  interactions.CreateModelInteraction{
+                      Model:                 interactions.Model(&quot;gemini-4-hydrogen&quot;),
+                      PreviousInteractionID: resp.Interaction.ID,
+                      Tools:                 []interactions.Tool{setLightValuesDeclaration},
+                      Input:                 interactions.NewInteractionsInput([]interactions.Step{resultStep}),
+                  },
+              ),
+          })
+          if err != nil {
+              log.Fatal(err)
+          }
+  
+          fmt.Println(finalResp.Interaction.GetOutputText())
+      }
+  }
+  ```
+
+  {% /tab %}
+
+{% /tabs %}
+
+### Stateless function calling  {% id=&quot;stateless-function-calling&quot; %}
+
+You can also use function calling in stateless mode by managing the conversation history on the client side and setting `store=false`.
+
+In stateless mode, you must pass the full history of the conversation in the `input` field of each subsequent request. This history must include:
+
+1. The initial `user_input` step.
+2. All model-generated steps returned in Turn 1 (including `thought` and `function_call` steps) exactly as received.
+3. The `function_result` step containing the output of your executed function.
+
+{% tabs %}
+  {% tab filename=&quot;sample.py&quot; label=&quot;Python&quot; %}
+  ```python
+  from google import genai
+  import json
+  
+  client = genai.Client()
+  
+  history = [
+      {
+          &quot;type&quot;: &quot;user_input&quot;,
+          &quot;content&quot;: [{&quot;type&quot;: &quot;text&quot;, &quot;text&quot;: &quot;Turn the lights down to a romantic level&quot;}]
+      }
+  ]
+  
+  interaction = client.interactions.create(
+      model=&quot;gemini-4-hydrogen&quot;,
+      store=False,
+      input=history,
+      tools=[set_light_values_declaration],
+  )
+  
+  for step in interaction.steps:
+      history.append(step.model_dump())
+  
+  fc_step = next(s for s in interaction.steps if s.type == &quot;function_call&quot;)
+  if fc_step.name == &quot;set_light_values&quot;:
+      result = set_light_values(**fc_step.arguments)
+  
+  history.append({
+      &quot;type&quot;: &quot;function_result&quot;,
+      &quot;name&quot;: fc_step.name,
+      &quot;call_id&quot;: fc_step.id,
+      &quot;result&quot;: [{&quot;type&quot;: &quot;text&quot;, &quot;text&quot;: json.dumps(result)}],
+  })
+  
+  final_interaction = client.interactions.create(
+      model=&quot;gemini-4-hydrogen&quot;,
+      store=False,
+      input=history,
+      tools=[set_light_values_declaration],
+  )
+  
+  print(final_interaction.output_text)
+  ```
+
+  {% /tab %}
+
+  {% tab filename=&quot;sample.js&quot; label=&quot;JavaScript&quot; %}
+  ```javascript
+  import { GoogleGenAI } from &quot;@google/genai&quot;;
+  
+  const client = new GoogleGenAI({});
+  
+  async function main() {
+    const history = [
+      {
+        type: &quot;user_input&quot;,
+        content: [{ type: &quot;text&quot;, text: &quot;Turn the lights down to a romantic level&quot; }]
+      }
+    ];
+  
+    const interaction = await client.interactions.create({
+      model: &quot;gemini-4-hydrogen&quot;,
+      store: false,
+      input: history,
+      tools: [setLightValuesTool],
+    });
+  
+    history.push(...interaction.steps);
+  
+    const fcStep = interaction.steps.find(s =&gt; s.type === &#39;function_call&#39;);
+    let result;
+    if (fcStep.name === &#39;set_light_values&#39;) {
+      result = setLightValues(fcStep.arguments.brightness, fcStep.arguments.color_temp);
+    }
+  
+    history.push({
+      type: &#39;function_result&#39;,
+      name: fcStep.name,
+      call_id: fcStep.id,
+      result: [{ type: &#39;text&#39;, text: JSON.stringify(result) }]
+    });
+  
+    const finalInteraction = await client.interactions.create({
+      model: &#39;gemini-4-hydrogen&#39;,
+      store: false,
+      input: history,
+      tools: [setLightValuesTool],
+    });
+  
+    console.log(finalInteraction.output_text);
+  }
+  
+  await main();
+  ```
+
+  {% /tab %}
+
+  {% tab filename=&quot;sample.sh&quot; label=&quot;REST&quot; %}
+  ```shell
+  # Turn 1: Send request with tools and store: false
+  RESPONSE1=$(curl -s -X POST &quot;https://generativelanguage.googleapis.com/v1beta/interactions&quot; \
+    -H &quot;x-goog-api-key: $GEMINI_API_KEY&quot; \
+    -H &#39;Content-Type: application/json&#39; \
+    -d &#39;{
+      &quot;model&quot;: &quot;gemini-4-hydrogen&quot;,
+      &quot;store&quot;: false,
+      &quot;input&quot;: [
+        {
+          &quot;type&quot;: &quot;user_input&quot;,
+          &quot;content&quot;: &quot;Turn the lights down to a romantic level&quot;
+        }
+      ],
+      &quot;tools&quot;: [{
+        &quot;type&quot;: &quot;function&quot;,
+        &quot;name&quot;: &quot;set_light_values&quot;,
+        &quot;description&quot;: &quot;Sets the brightness and color temperature of a light.&quot;,
+        &quot;parameters&quot;: {
+          &quot;type&quot;: &quot;object&quot;,
+          &quot;properties&quot;: {
+            &quot;brightness&quot;: {&quot;type&quot;: &quot;integer&quot;, &quot;description&quot;: &quot;Light level from 0 to 100&quot;},
+            &quot;color_temp&quot;: {&quot;type&quot;: &quot;string&quot;, &quot;enum&quot;: [&quot;daylight&quot;, &quot;cool&quot;, &quot;warm&quot;]}
+          },
+          &quot;required&quot;: [&quot;brightness&quot;, &quot;color_temp&quot;]
+        }
+      }]
+    }&#39;)
+  
+  # Extract model steps (thought, function_call)
+  MODEL_STEPS=$(echo &quot;$RESPONSE1&quot; | jq &#39;.steps&#39;)
+  
+  # Extract function call details to execute
+  FC_NAME=$(echo &quot;$RESPONSE1&quot; | jq -r &#39;.steps[] | select(.type==&quot;function_call&quot;) | .name&#39;)
+  FC_ID=$(echo &quot;$RESPONSE1&quot; | jq -r &#39;.steps[] | select(.type==&quot;function_call&quot;) | .id&#39;)
+  
+  # Assume local execution returns: {&quot;brightness&quot;: 25, &quot;colorTemperature&quot;: &quot;warm&quot;}
+  RESULT=&quot;{\&quot;brightness\&quot;: 25, \&quot;colorTemperature\&quot;: \&quot;warm\&quot;}&quot;
+  
+  # Reconstruct history for Turn 2
+  HISTORY=$(jq -n \
+    --argjson first_input &#39;[{&quot;type&quot;: &quot;user_input&quot;, &quot;content&quot;: &quot;Turn the lights down to a romantic level&quot;}]&#39; \
+    --argjson model_steps &quot;$MODEL_STEPS&quot; \
+    --arg fc_name &quot;$FC_NAME&quot; \
+    --arg fc_id &quot;$FC_ID&quot; \
+    --arg result &quot;$RESULT&quot; \
+    &#39;$first_input + $model_steps + [{&quot;type&quot;: &quot;function_result&quot;, &quot;name&quot;: $fc_name, &quot;call_id&quot;: $fc_id, &quot;result&quot;: [{&quot;type&quot;: &quot;text&quot;, &quot;text&quot;: $result}]}]&#39;)
+  
+  # Turn 2: Send the full history
+  curl -X POST &quot;https://generativelanguage.googleapis.com/v1beta/interactions&quot; \
+    -H &quot;x-goog-api-key: $GEMINI_API_KEY&quot; \
+    -H &#39;Content-Type: application/json&#39; \
+    -d &quot;{
+      \&quot;model\&quot;: \&quot;gemini-4-hydrogen\&quot;,
+      \&quot;store\&quot;: false,
+      \&quot;input\&quot;: $HISTORY,
+      \&quot;tools\&quot;: [{
+        \&quot;type\&quot;: \&quot;function\&quot;,
+        \&quot;name\&quot;: \&quot;set_light_values\&quot;,
+        \&quot;description\&quot;: \&quot;Sets the brightness and color temperature of a light.\&quot;,
+        \&quot;parameters\&quot;: {
+          \&quot;type\&quot;: \&quot;object\&quot;,
+          \&quot;properties\&quot;: {
+            \&quot;brightness\&quot;: {\&quot;type\&quot;: \&quot;integer\&quot;},
+            \&quot;color_temp\&quot;: {\&quot;type\&quot;: \&quot;string\&quot;}
+          },
+          \&quot;required\&quot;: [\&quot;brightness\&quot;, \&quot;color_temp\&quot;]
+        }
+      }]
+    }&quot;
+  ```
+
+  {% /tab %}
+
+  {% tab label=&quot;Java&quot; %}
+  ```java
+  import com.google.genai.Client;
+  import com.google.genai.gaos.models.interactions.CreateModelInteraction;
+  import com.google.genai.gaos.models.interactions.Function;
+  import com.google.genai.gaos.models.interactions.FunctionCallStep;
+  import com.google.genai.gaos.models.interactions.Interaction;
+  import com.google.genai.gaos.models.interactions.InteractionsInput;
+  import com.google.genai.gaos.models.interactions.Model;
+  import com.google.genai.gaos.models.interactions.Step;
+  import com.google.genai.gaos.models.operations.CreateInteractionRequestBody;
+  import java.util.Arrays;
+  import java.util.Collections;
+  import java.util.HashMap;
+  import java.util.Map;
+  
+  Client client = new Client();
+  Map&lt;String, Object&gt; parameters = new HashMap&lt;&gt;();
+  parameters.put(&quot;type&quot;, &quot;object&quot;);
+  
+  Function function = Function.builder()
+      .name(&quot;custom_function&quot;)
+      .description(&quot;A custom function.&quot;)
+      .parameters(parameters)
+      .build();
+  
+  CreateModelInteraction params = CreateModelInteraction.builder()
+      .model(Model.of(&quot;gemini-3.6-flash&quot;))
+      .input(InteractionsInput.of(&quot;Call the function.&quot;))
+      .tools(Arrays.asList(function))
+      .build();
+  
+  Interaction interaction =
+      client.interactions.create(CreateInteractionRequestBody.of(params)).interaction().get();
+  
+  if (interaction.steps().isPresent()) {
+    for (Step step : interaction.steps().get()) {
+      if (step instanceof FunctionCallStep) {
+        FunctionCallStep fc = (FunctionCallStep) step;
+        System.out.println(&quot;Function: &quot; + fc.name().orElse(&quot;&quot;));
+      }
+    }
+  }
+  ```
+
+  {% /tab %}
+
+  {% tab label=&quot;Go&quot; %}
+  ```go
+  package main
+  
+  import (
+      &quot;context&quot;
+      &quot;fmt&quot;
+      &quot;log&quot;
+  
+      &quot;google.golang.org/genai&quot;
+      &quot;google.golang.org/genai/interactions/models/interactions&quot;
+      &quot;google.golang.org/genai/interactions/models/operations&quot;
+  )
+  
+  func main() {
+      ctx := context.Background()
+      client, err := genai.NewClient(ctx, nil)
+      if err != nil {
+          log.Fatal(err)
+      }
+  
+      setLightValuesDeclaration := interactions.NewTool(interactions.Function{
+          Name:        genai.Ptr(&quot;set_light_values&quot;),
+          Description: genai.Ptr(&quot;Sets the brightness and color temperature of a light.&quot;),
+          Parameters: map[string]any{
+              &quot;type&quot;: &quot;object&quot;,
+              &quot;properties&quot;: map[string]any{
+                  &quot;brightness&quot;: map[string]any{
+                      &quot;type&quot;:        &quot;integer&quot;,
+                      &quot;description&quot;: &quot;Light level from 0 to 100&quot;,
+                  },
+                  &quot;color_temp&quot;: map[string]any{
+                      &quot;type&quot;:        &quot;string&quot;,
+                      &quot;enum&quot;:        []string{&quot;daylight&quot;, &quot;cool&quot;, &quot;warm&quot;},
+                      &quot;description&quot;: &quot;Color temperature&quot;,
+                  },
+              },
+              &quot;required&quot;: []string{&quot;brightness&quot;, &quot;color_temp&quot;},
+          },
+      })
+  
+      history := []interactions.Step{
+          interactions.NewStep(interactions.UserInputStep{
+              Content: []interactions.Content{
+                  interactions.NewContent(interactions.TextContent{
+                      Text: &quot;Turn the lights down to a romantic level&quot;,
+                  }),
+              },
+          }),
+      }
+  
+      resp, err := client.Interactions.Create(ctx, operations.CreateInteractionRequest{
+          Body: operations.NewCreateInteractionRequestBody(
+              interactions.CreateModelInteraction{
+                  Model: interactions.Model(&quot;gemini-4-hydrogen&quot;),
+                  Store: genai.Ptr(false),
+                  Input: interactions.NewInteractionsInput(history),
+                  Tools: []interactions.Tool{setLightValuesDeclaration},
+              },
+          ),
+      })
+      if err != nil {
+          log.Fatal(err)
+      }
+  
+      history = append(history, resp.Interaction.Steps...)
+      var fcStep *interactions.FunctionCallStep
+      for _, step := range resp.Interaction.Steps {
+          if step.FunctionCallStep != nil {
+              fcStep = step.FunctionCallStep
+              break
+          }
+      }
+  
+      if fcStep != nil {
+          resultJson := `{&quot;brightness&quot;: 25, &quot;colorTemperature&quot;: &quot;warm&quot;}`
+          history = append(history, interactions.NewStep(interactions.FunctionResultStep{
+              Name:   genai.Ptr(fcStep.Name),
+              CallID: fcStep.ID,
+              Result: interactions.NewFunctionResultStepResultUnion([]interactions.FunctionResultSubcontent{
+                  interactions.NewFunctionResultSubcontent(interactions.TextContent{
+                      Text: resultJson,
+                  }),
+              }),
+          }))
+  
+          finalResp, err := client.Interactions.Create(ctx, operations.CreateInteractionRequest{
+              Body: operations.NewCreateInteractionRequestBody(
+                  interactions.CreateModelInteraction{
+                      Model: interactions.Model(&quot;gemini-4-hydrogen&quot;),
+                      Store: genai.Ptr(false),
+                      Input: interactions.NewInteractionsInput(history),
+                      Tools: []interactions.Tool{setLightValuesDeclaration},
+                  },
+              ),
+          })
+          if err != nil {
+              log.Fatal(err)
+          }
+  
+          fmt.Println(finalResp.Interaction.GetOutputText())
+      }
+  }
+  ```
+
+  {% /tab %}
+
+{% /tabs %}
+
+## Function declarations  {% id=&quot;function-declarations&quot; %}
+
+A function declaration is passed as a tool and includes:
+
+* `type` (string): Must be `&quot;function&quot;` for custom functions.
+* `name` (string): Unique function name (use underscores or camelCase).
+* `description` (string): Clear explanation of the function&#39;s purpose.
+* `parameters` (object): Input parameters the function expects.  *   `type` (string): Overall data type, such as `object`.
+  *   `properties` (object): Individual parameters with type and description.
+  *   `required` (array): Mandatory parameter names.
+
+
+## Function calling with thinking models  {% id=&quot;thinking&quot; %}
+
+Gemini 3 series models use an internal [&quot;thinking&quot;](/docs/thinking) process that improves function calling. The SDKs automatically handle [thought signatures](/docs/thought-signatures) for you.
+
+## Parallel function calling  {% id=&quot;parallel_function_calling&quot; %}
+
+Call multiple functions at once when they are independent:
+
+{% tabs %}
+  {% tab filename=&quot;sample.py&quot; label=&quot;Python&quot; %}
+  ```python
+  power_disco_ball = {&quot;type&quot;: &quot;function&quot;, &quot;name&quot;: &quot;power_disco_ball&quot;, &quot;description&quot;: &quot;Powers the disco ball.&quot;,
+      &quot;parameters&quot;: {&quot;type&quot;: &quot;object&quot;, &quot;properties&quot;: {&quot;power&quot;: {&quot;type&quot;: &quot;boolean&quot;}}, &quot;required&quot;: [&quot;power&quot;]}}
+  start_music = {&quot;type&quot;: &quot;function&quot;, &quot;name&quot;: &quot;start_music&quot;, &quot;description&quot;: &quot;Play music.&quot;,
+      &quot;parameters&quot;: {&quot;type&quot;: &quot;object&quot;, &quot;properties&quot;: {&quot;energetic&quot;: {&quot;type&quot;: &quot;boolean&quot;}, &quot;loud&quot;: {&quot;type&quot;: &quot;boolean&quot;}}, &quot;required&quot;: [&quot;energetic&quot;, &quot;loud&quot;]}}
+  dim_lights = {&quot;type&quot;: &quot;function&quot;, &quot;name&quot;: &quot;dim_lights&quot;, &quot;description&quot;: &quot;Dim the lights.&quot;,
+      &quot;parameters&quot;: {&quot;type&quot;: &quot;object&quot;, &quot;properties&quot;: {&quot;brightness&quot;: {&quot;type&quot;: &quot;number&quot;}}, &quot;required&quot;: [&quot;brightness&quot;]}}
+  
+  client = genai.Client()
+  
+  interaction = client.interactions.create(
+      model=&quot;gemini-4-hydrogen&quot;,
+      input=&quot;Turn this place into a party!&quot;,
+      tools=[power_disco_ball, start_music, dim_lights],
+      generation_config={&quot;tool_choice&quot;: &quot;any&quot;},
+  )
+  
+  for step in interaction.steps:
+      if step.type == &quot;function_call&quot;:
+          args = &quot;, &quot;.join(f&quot;{key}={val}&quot; for key, val in step.arguments.items())
+          print(f&quot;{step.name}({args})&quot;)
+  ```
+
+  {% /tab %}
+
+  {% tab filename=&quot;sample.js&quot; label=&quot;JavaScript&quot; %}
+  ```javascript
+  const powerDiscoBall = { type: &#39;function&#39;, name: &#39;power_disco_ball&#39;, description: &#39;Powers the disco ball.&#39;,
+    parameters: { type: &#39;object&#39;, properties: { power: { type: &#39;boolean&#39; } }, required: [&#39;power&#39;] } };
+  const startMusic = { type: &#39;function&#39;, name: &#39;start_music&#39;, description: &#39;Play music.&#39;,
+    parameters: { type: &#39;object&#39;, properties: { energetic: { type: &#39;boolean&#39; }, loud: { type: &#39;boolean&#39; } }, required: [&#39;energetic&#39;, &#39;loud&#39;] } };
+  const dimLights = { type: &#39;function&#39;, name: &#39;dim_lights&#39;, description: &#39;Dim the lights.&#39;,
+    parameters: { type: &#39;object&#39;, properties: { brightness: { type: &#39;number&#39; } }, required: [&#39;brightness&#39;] } };
+  
+  const interaction = await client.interactions.create({
+    model: &#39;gemini-4-hydrogen&#39;,
+    input: &#39;Turn this place into a party!&#39;,
+    tools: [powerDiscoBall, startMusic, dimLights],
+    generation_config: { tool_choice: &#39;any&#39; },
+  });
+  
+  for (const step of interaction.steps) {
+    if (step.type === &#39;function_call&#39;) {
+      console.log(`${step.name}(${JSON.stringify(step.arguments)})`);
+    }
+  }
+  ```
+
+  {% /tab %}
+
+  {% tab filename=&quot;sample.sh&quot; label=&quot;REST&quot; %}
+  ```shell
+  curl -X POST &quot;https://generativelanguage.googleapis.com/v1beta/interactions&quot; \
+    -H &quot;x-goog-api-key: $GEMINI_API_KEY&quot; \
+    -H &#39;Content-Type: application/json&#39; \
+    -d &#39;{
+      &quot;model&quot;: &quot;gemini-4-hydrogen&quot;,
+      &quot;input&quot;: &quot;Turn this place into a party!&quot;,
+      &quot;tools&quot;: [
+        {
+          &quot;type&quot;: &quot;function&quot;,
+          &quot;name&quot;: &quot;power_disco_ball&quot;,
+          &quot;description&quot;: &quot;Powers the disco ball.&quot;,
+          &quot;parameters&quot;: {
+            &quot;type&quot;: &quot;object&quot;,
+            &quot;properties&quot;: {
+              &quot;power&quot;: {&quot;type&quot;: &quot;boolean&quot;}
+            },
+            &quot;required&quot;: [&quot;power&quot;]
+          }
+        },
+        {
+          &quot;type&quot;: &quot;function&quot;,
+          &quot;name&quot;: &quot;start_music&quot;,
+          &quot;description&quot;: &quot;Play music.&quot;,
+          &quot;parameters&quot;: {
+            &quot;type&quot;: &quot;object&quot;,
+            &quot;properties&quot;: {
+              &quot;energetic&quot;: {&quot;type&quot;: &quot;boolean&quot;},
+              &quot;loud&quot;: {&quot;type&quot;: &quot;boolean&quot;}
+            },
+            &quot;required&quot;: [&quot;energetic&quot;, &quot;loud&quot;]
+          }
+        },
+        {
+          &quot;type&quot;: &quot;function&quot;,
+          &quot;name&quot;: &quot;dim_lights&quot;,
+          &quot;description&quot;: &quot;Dim the lights.&quot;,
+          &quot;parameters&quot;: {
+            &quot;type&quot;: &quot;object&quot;,
+            &quot;properties&quot;: {
+              &quot;brightness&quot;: {&quot;type&quot;: &quot;number&quot;}
+            },
+            &quot;required&quot;: [&quot;brightness&quot;]
+          }
+        }
+      ]
+    }&#39;
+  ```
+
+  {% /tab %}
+
+  {% tab label=&quot;Java&quot; %}
+  ```java
+  import com.google.genai.Client;
+  import com.google.genai.gaos.models.interactions.CreateModelInteraction;
+  import com.google.genai.gaos.models.interactions.Function;
+  import com.google.genai.gaos.models.interactions.FunctionCallStep;
+  import com.google.genai.gaos.models.interactions.Interaction;
+  import com.google.genai.gaos.models.interactions.InteractionsInput;
+  import com.google.genai.gaos.models.interactions.Model;
+  import com.google.genai.gaos.models.interactions.Step;
+  import com.google.genai.gaos.models.operations.CreateInteractionRequestBody;
+  import java.util.Arrays;
+  import java.util.Collections;
+  import java.util.HashMap;
+  import java.util.Map;
+  
+  Client client = new Client();
+  Map&lt;String, Object&gt; parameters = new HashMap&lt;&gt;();
+  parameters.put(&quot;type&quot;, &quot;object&quot;);
+  
+  Function function = Function.builder()
+      .name(&quot;custom_function&quot;)
+      .description(&quot;A custom function.&quot;)
+      .parameters(parameters)
+      .build();
+  
+  CreateModelInteraction params = CreateModelInteraction.builder()
+      .model(Model.of(&quot;gemini-3.6-flash&quot;))
+      .input(InteractionsInput.of(&quot;Call the function.&quot;))
+      .tools(Arrays.asList(function))
+      .build();
+  
+  Interaction interaction =
+      client.interactions.create(CreateInteractionRequestBody.of(params)).interaction().get();
+  
+  if (interaction.steps().isPresent()) {
+    for (Step step : interaction.steps().get()) {
+      if (step instanceof FunctionCallStep) {
+        FunctionCallStep fc = (FunctionCallStep) step;
+        System.out.println(&quot;Function: &quot; + fc.name().orElse(&quot;&quot;));
+      }
+    }
+  }
+  ```
+
+  {% /tab %}
+
+  {% tab label=&quot;Go&quot; %}
+  ```go
+  package main
+  
+  import (
+      &quot;context&quot;
+      &quot;fmt&quot;
+      &quot;log&quot;
+  
+      &quot;google.golang.org/genai&quot;
+      &quot;google.golang.org/genai/interactions/models/interactions&quot;
+      &quot;google.golang.org/genai/interactions/models/operations&quot;
+  )
+  
+  func main() {
+      ctx := context.Background()
+      client, err := genai.NewClient(ctx, nil)
+      if err != nil {
+          log.Fatal(err)
+      }
+  
+      powerDiscoBall := interactions.NewTool(interactions.Function{
+          Name:        genai.Ptr(&quot;power_disco_ball&quot;),
+          Description: genai.Ptr(&quot;Powers the disco ball.&quot;),
+          Parameters: map[string]any{
+              &quot;type&quot;: &quot;object&quot;,
+              &quot;properties&quot;: map[string]any{
+                  &quot;power&quot;: map[string]any{&quot;type&quot;: &quot;boolean&quot;},
+              },
+              &quot;required&quot;: []string{&quot;power&quot;},
+          },
+      })
+  
+      startMusic := interactions.NewTool(interactions.Function{
+          Name:        genai.Ptr(&quot;start_music&quot;),
+          Description: genai.Ptr(&quot;Play music.&quot;),
+          Parameters: map[string]any{
+              &quot;type&quot;: &quot;object&quot;,
+              &quot;properties&quot;: map[string]any{
+                  &quot;energetic&quot;: map[string]any{&quot;type&quot;: &quot;boolean&quot;},
+                  &quot;loud&quot;:      map[string]any{&quot;type&quot;: &quot;boolean&quot;},
+              },
+              &quot;required&quot;: []string{&quot;energetic&quot;, &quot;loud&quot;},
+          },
+      })
+  
+      dimLights := interactions.NewTool(interactions.Function{
+          Name:        genai.Ptr(&quot;dim_lights&quot;),
+          Description: genai.Ptr(&quot;Dim the lights.&quot;),
+          Parameters: map[string]any{
+              &quot;type&quot;: &quot;object&quot;,
+              &quot;properties&quot;: map[string]any{
+                  &quot;brightness&quot;: map[string]any{&quot;type&quot;: &quot;number&quot;},
+              },
+              &quot;required&quot;: []string{&quot;brightness&quot;},
+          },
+      })
+  
+      resp, err := client.Interactions.Create(ctx, operations.CreateInteractionRequest{
+          Body: operations.NewCreateInteractionRequestBody(
+              interactions.CreateModelInteraction{
+                  Model: interactions.Model(&quot;gemini-4-hydrogen&quot;),
+                  Input: interactions.NewInteractionsInput(&quot;Turn this place into a party!&quot;),
+                  Tools: []interactions.Tool{powerDiscoBall, startMusic, dimLights},
+                  GenerationConfig: &amp;interactions.GenerationConfig{
+                      ToolChoice: genai.Ptr(interactions.NewToolChoice(interactions.ToolChoiceTypeAny)),
+                  },
+              },
+          ),
+      })
+      if err != nil {
+          log.Fatal(err)
+      }
+  
+      for _, step := range resp.Interaction.Steps {
+          if step.FunctionCallStep != nil {
+              fc := step.FunctionCallStep
+              fmt.Printf(&quot;%s(%v)\n&quot;, fc.Name, fc.Arguments)
+          }
+      }
+  }
+  ```
+
+  {% /tab %}
+
+{% /tabs %}
+
+## Compositional function calling  {% id=&quot;compositional_function_calling&quot; %}
+
+Chain multiple function calls together for complex requests (e.g., get location
+first, then get weather for that location).
+
+{% tabs %}
+  {% tab filename=&quot;sample.py&quot; label=&quot;Python&quot; %}
+  ```python
+  get_weather_forecast_declaration = {
+      &quot;type&quot;: &quot;function&quot;,
+      &quot;name&quot;: &quot;get_weather_forecast&quot;,
+      &quot;description&quot;: &quot;Gets the current weather temperature for a given location.&quot;,
+      &quot;parameters&quot;: {
+          &quot;type&quot;: &quot;object&quot;,
+          &quot;properties&quot;: {
+              &quot;location&quot;: {&quot;type&quot;: &quot;string&quot;, &quot;description&quot;: &quot;The location&quot;},
+          },
+          &quot;required&quot;: [&quot;location&quot;],
+      },
+  }
+  
+  set_thermostat_temperature_declaration = {
+      &quot;type&quot;: &quot;function&quot;,
+      &quot;name&quot;: &quot;set_thermostat_temperature&quot;,
+      &quot;description&quot;: &quot;Sets the thermostat to a desired temperature.&quot;,
+      &quot;parameters&quot;: {
+          &quot;type&quot;: &quot;object&quot;,
+          &quot;properties&quot;: {
+              &quot;temperature&quot;: {
+                  &quot;type&quot;: &quot;integer&quot;,
+                  &quot;description&quot;: &quot;The temperature in Celsius&quot;,
+              },
+          },
+          &quot;required&quot;: [&quot;temperature&quot;],
+      },
+  }
+  
+  client = genai.Client()
+  
+  interaction = client.interactions.create(
+      model=&quot;gemini-4-hydrogen&quot;,
+      input=&quot;If it&#39;s warmer than 20°C in London, set the thermostat to 20°C, otherwise 18°C.&quot;,
+      tools=[
+          get_weather_forecast_declaration,
+          set_thermostat_temperature_declaration,
+      ],
+  )
+  
+  for step in interaction.steps:
+      if step.type == &quot;function_call&quot;:
+          print(f&quot;Function to call: {step.name}&quot;)
+          print(f&quot;Arguments: {step.arguments}&quot;)
+      elif hasattr(step, &quot;content&quot;) and step.content:
+           for part in step.content:
+               if hasattr(part, &quot;text&quot;):
+                   print(part.text)
+  ```
+
+  {% /tab %}
+
+  {% tab filename=&quot;sample.js&quot; label=&quot;JavaScript&quot; %}
+  ```javascript
+  import { GoogleGenAI } from &#39;@google/genai&#39;;
+  
+  const client = new GoogleGenAI({});
+  
+  const interaction = await client.interactions.create({
+    model: &#39;gemini-4-hydrogen&#39;,
+    input: &quot;If it&#39;s warmer than 20°C in London, set the thermostat to 20°C, otherwise 18°C.&quot;,
+    tools: [
+      {
+        type: &quot;function&quot;,
+        name: &quot;get_weather_forecast&quot;,
+        description: &quot;Get the weather forecast for a given location and number of days.&quot;,
+        parameters: {
+          type: &quot;object&quot;,
+          properties: {
+            location: { type: &quot;string&quot;, description: &quot;The city and state, e.g. San Francisco, CA&quot; },
+            days: { type: &quot;number&quot;, description: &quot;Number of days for the forecast.&quot; },
+          },
+          required: [&quot;location&quot;],
+        },
+      },
+      {
+        type: &quot;function&quot;,
+        name: &quot;set_thermostat_temperature&quot;,
+        description: &quot;Set the target temperature for the home thermostat.&quot;,
+        parameters: {
+          type: &quot;object&quot;,
+          properties: {
+            temperature: { type: &quot;number&quot;, description: &quot;Target temperature in Fahrenheit.&quot; },
+          },
+          required: [&quot;temperature&quot;],
+        },
+      },
+    ],
+  });
+  
+  for (const step of interaction.steps) {
+    if (step.type === &#39;function_call&#39;) {
+      console.log(`Function to call: ${step.name}`);
+      console.log(`Arguments: ${JSON.stringify(step.arguments)}`);
+    } else if (&#39;content&#39; in step &amp;&amp; Array.isArray(step.content)) {
+      for (const part of step.content || []) {
+        if (&#39;text&#39; in part &amp;&amp; part.text) {
+          console.log(part.text);
+        }
+      }
+    }
+  }
+  ```
+
+  {% /tab %}
+
+  {% tab filename=&quot;sample.sh&quot; label=&quot;REST&quot; %}
+  ```shell
+  curl -X POST &quot;https://generativelanguage.googleapis.com/v1beta/interactions&quot; \
+    -H &quot;x-goog-api-key: $GEMINI_API_KEY&quot; \
+    -H &#39;Content-Type: application/json&#39; \
+    -d &#39;{
+      &quot;model&quot;: &quot;gemini-4-hydrogen&quot;,
+      &quot;input&quot;: &quot;If it&#39;\&#39;&#39;s warmer than 20°C in London, set the thermostat to 20°C, otherwise 18°C.&quot;,
+      &quot;tools&quot;: [
+        {
+          &quot;type&quot;: &quot;function&quot;,
+          &quot;name&quot;: &quot;get_weather_forecast&quot;,
+          &quot;description&quot;: &quot;Gets the current weather temperature for a given location.&quot;,
+          &quot;parameters&quot;: {
+            &quot;type&quot;: &quot;object&quot;,
+            &quot;properties&quot;: {
+              &quot;location&quot;: {&quot;type&quot;: &quot;string&quot;}
+            },
+            &quot;required&quot;: [&quot;location&quot;]
+          }
+        },
+        {
+          &quot;type&quot;: &quot;function&quot;,
+          &quot;name&quot;: &quot;set_thermostat_temperature&quot;,
+          &quot;description&quot;: &quot;Sets the thermostat to a desired temperature.&quot;,
+          &quot;parameters&quot;: {
+            &quot;type&quot;: &quot;object&quot;,
+            &quot;properties&quot;: {
+              &quot;temperature&quot;: {&quot;type&quot;: &quot;integer&quot;}
+            },
+            &quot;required&quot;: [&quot;temperature&quot;]
+          }
+        }
+      ]
+    }&#39;
+  ```
+
+  {% /tab %}
+
+  {% tab label=&quot;Java&quot; %}
+  ```java
+  import com.google.genai.Client;
+  import com.google.genai.gaos.models.interactions.CreateModelInteraction;
+  import com.google.genai.gaos.models.interactions.Function;
+  import com.google.genai.gaos.models.interactions.FunctionCallStep;
+  import com.google.genai.gaos.models.interactions.Interaction;
+  import com.google.genai.gaos.models.interactions.InteractionsInput;
+  import com.google.genai.gaos.models.interactions.Model;
+  import com.google.genai.gaos.models.interactions.Step;
+  import com.google.genai.gaos.models.operations.CreateInteractionRequestBody;
+  import java.util.Arrays;
+  import java.util.Collections;
+  import java.util.HashMap;
+  import java.util.Map;
+  
+  Client client = new Client();
+  Map&lt;String, Object&gt; parameters = new HashMap&lt;&gt;();
+  parameters.put(&quot;type&quot;, &quot;object&quot;);
+  
+  Function function = Function.builder()
+      .name(&quot;custom_function&quot;)
+      .description(&quot;A custom function.&quot;)
+      .parameters(parameters)
+      .build();
+  
+  CreateModelInteraction params = CreateModelInteraction.builder()
+      .model(Model.of(&quot;gemini-3.6-flash&quot;))
+      .input(InteractionsInput.of(&quot;Call the function.&quot;))
+      .tools(Arrays.asList(function))
+      .build();
+  
+  Interaction interaction =
+      client.interactions.create(CreateInteractionRequestBody.of(params)).interaction().get();
+  
+  if (interaction.steps().isPresent()) {
+    for (Step step : interaction.steps().get()) {
+      if (step instanceof FunctionCallStep) {
+        FunctionCallStep fc = (FunctionCallStep) step;
+        System.out.println(&quot;Function: &quot; + fc.name().orElse(&quot;&quot;));
+      }
+    }
+  }
+  ```
+
+  {% /tab %}
+
+  {% tab label=&quot;Go&quot; %}
+  ```go
+  package main
+  
+  import (
+      &quot;context&quot;
+      &quot;fmt&quot;
+      &quot;log&quot;
+  
+      &quot;google.golang.org/genai&quot;
+      &quot;google.golang.org/genai/interactions/models/interactions&quot;
+      &quot;google.golang.org/genai/interactions/models/operations&quot;
+  )
+  
+  func main() {
+      ctx := context.Background()
+      client, err := genai.NewClient(ctx, nil)
+      if err != nil {
+          log.Fatal(err)
+      }
+  
+      getWeatherForecastDeclaration := interactions.NewTool(interactions.Function{
+          Name:        genai.Ptr(&quot;get_weather_forecast&quot;),
+          Description: genai.Ptr(&quot;Gets the current weather temperature for a given location.&quot;),
+          Parameters: map[string]any{
+              &quot;type&quot;: &quot;object&quot;,
+              &quot;properties&quot;: map[string]any{
+                  &quot;location&quot;: map[string]any{
+                      &quot;type&quot;:        &quot;string&quot;,
+                      &quot;description&quot;: &quot;The location&quot;,
+                  },
+              },
+              &quot;required&quot;: []string{&quot;location&quot;},
+          },
+      })
+  
+      setThermostatTemperatureDeclaration := interactions.NewTool(interactions.Function{
+          Name:        genai.Ptr(&quot;set_thermostat_temperature&quot;),
+          Description: genai.Ptr(&quot;Sets the thermostat to a desired temperature.&quot;),
+          Parameters: map[string]any{
+              &quot;type&quot;: &quot;object&quot;,
+              &quot;properties&quot;: map[string]any{
+                  &quot;temperature&quot;: map[string]any{
+                      &quot;type&quot;:        &quot;integer&quot;,
+                      &quot;description&quot;: &quot;The temperature in Celsius&quot;,
+                  },
+              },
+              &quot;required&quot;: []string{&quot;temperature&quot;},
+          },
+      })
+  
+      resp, err := client.Interactions.Create(ctx, operations.CreateInteractionRequest{
+          Body: operations.NewCreateInteractionRequestBody(
+              interactions.CreateModelInteraction{
+                  Model: interactions.Model(&quot;gemini-4-hydrogen&quot;),
+                  Input: interactions.NewInteractionsInput(&quot;If it&#39;s warmer than 20°C in London, set the thermostat to 20°C, otherwise 18°C.&quot;),
+                  Tools: []interactions.Tool{getWeatherForecastDeclaration, setThermostatTemperatureDeclaration},
+              },
+          ),
+      })
+      if err != nil {
+          log.Fatal(err)
+      }
+  
+      for _, step := range resp.Interaction.Steps {
+          if step.FunctionCallStep != nil {
+              fc := step.FunctionCallStep
+              fmt.Println(&quot;Function to call:&quot;, fc.Name)
+              fmt.Println(&quot;Arguments:&quot;, fc.Arguments)
+          } else if step.ModelOutputStep != nil {
+              for _, part := range step.ModelOutputStep.Content {
+                  if part.TextContent != nil {
+                      fmt.Println(part.TextContent.Text)
+                  }
+              }
+          }
+      }
+  }
+  ```
+
+  {% /tab %}
+
+{% /tabs %}
+
+## Function calling modes  {% id=&quot;function_calling_modes&quot; %}
+
+Control how the model uses tools using `tool_choice` in `generation_config`:
+
+* `auto` (Default): Model decides whether to call a function or respond directly.
+* `any`: Model is constrained to always predict a function call.
+* `none`: Model is prohibited from making function calls.
+* `validated`: Model ensures function schema adherence.
+
+{% tabs %}
+  {% tab filename=&quot;sample.py&quot; label=&quot;Python&quot; %}
+  ```python
+  generation_config = {
+      &quot;tool_choice&quot;: {
+          &quot;allowed_tools&quot;: {
+              &quot;mode&quot;: &quot;any&quot;,
+              &quot;tools&quot;: [&quot;get_current_temperature&quot;]
+          }
+      }
+  }
+  ```
+
+  {% /tab %}
+
+  {% tab filename=&quot;sample.js&quot; label=&quot;JavaScript&quot; %}
+  ```javascript
+  const generation_config = {
+    tool_choice: {
+      allowed_tools: {
+        mode: &#39;any&#39;,
+        tools: [&#39;get_current_temperature&#39;]
+      }
+    }
+  };
+  ```
+
+  {% /tab %}
+
+  {% tab filename=&quot;sample.sh&quot; label=&quot;REST&quot; %}
+  ```shell
+  curl -X POST &quot;https://generativelanguage.googleapis.com/v1beta/interactions&quot; \
+    -H &quot;x-goog-api-key: $GEMINI_API_KEY&quot; \
+    -H &#39;Content-Type: application/json&#39; \
+    -d &#39;{
+      &quot;model&quot;: &quot;gemini-4-hydrogen&quot;,
+      &quot;input&quot;: &quot;What is the temperature in Boston?&quot;,
+      &quot;tools&quot;: [{
+        &quot;type&quot;: &quot;function&quot;,
+        &quot;name&quot;: &quot;get_current_temperature&quot;,
+        &quot;description&quot;: &quot;Gets the current temperature for a given location.&quot;,
+        &quot;parameters&quot;: {
+          &quot;type&quot;: &quot;object&quot;,
+          &quot;properties&quot;: {
+            &quot;location&quot;: {&quot;type&quot;: &quot;string&quot;}
+          },
+          &quot;required&quot;: [&quot;location&quot;]
+        }
+      }],
+      &quot;generation_config&quot;: {
+        &quot;tool_choice&quot;: {
+          &quot;allowed_tools&quot;: {
+            &quot;mode&quot;: &quot;any&quot;,
+            &quot;tools&quot;: [&quot;get_current_temperature&quot;]
+          }
+        }
+      }
+    }&#39;
+  ```
+
+  {% /tab %}
+
+  {% tab label=&quot;Java&quot; %}
+  ```java
+  import com.google.genai.Client;
+  import com.google.genai.gaos.models.interactions.CreateModelInteraction;
+  import com.google.genai.gaos.models.interactions.Function;
+  import com.google.genai.gaos.models.interactions.FunctionCallStep;
+  import com.google.genai.gaos.models.interactions.Interaction;
+  import com.google.genai.gaos.models.interactions.InteractionsInput;
+  import com.google.genai.gaos.models.interactions.Model;
+  import com.google.genai.gaos.models.interactions.Step;
+  import com.google.genai.gaos.models.operations.CreateInteractionRequestBody;
+  import java.util.Arrays;
+  import java.util.Collections;
+  import java.util.HashMap;
+  import java.util.Map;
+  
+  Client client = new Client();
+  Map&lt;String, Object&gt; parameters = new HashMap&lt;&gt;();
+  parameters.put(&quot;type&quot;, &quot;object&quot;);
+  
+  Function function = Function.builder()
+      .name(&quot;custom_function&quot;)
+      .description(&quot;A custom function.&quot;)
+      .parameters(parameters)
+      .build();
+  
+  CreateModelInteraction params = CreateModelInteraction.builder()
+      .model(Model.of(&quot;gemini-3.6-flash&quot;))
+      .input(InteractionsInput.of(&quot;Call the function.&quot;))
+      .tools(Arrays.asList(function))
+      .build();
+  
+  Interaction interaction =
+      client.interactions.create(CreateInteractionRequestBody.of(params)).interaction().get();
+  
+  if (interaction.steps().isPresent()) {
+    for (Step step : interaction.steps().get()) {
+      if (step instanceof FunctionCallStep) {
+        FunctionCallStep fc = (FunctionCallStep) step;
+        System.out.println(&quot;Function: &quot; + fc.name().orElse(&quot;&quot;));
+      }
+    }
+  }
+  ```
+
+  {% /tab %}
+
+  {% tab label=&quot;Go&quot; %}
+  ```go
+  package main
+  
+  import (
+      &quot;google.golang.org/genai&quot;
+      &quot;google.golang.org/genai/interactions/models/interactions&quot;
+  )
+  
+  func main() {
+      generationConfig := interactions.GenerationConfig{
+          ToolChoice: genai.Ptr(interactions.NewToolChoice(interactions.ToolChoiceConfig{
+              AllowedTools: &amp;interactions.AllowedTools{
+                  Mode:  interactions.ToolChoiceTypeAny.ToPointer(),
+                  Tools: []string{&quot;get_current_temperature&quot;},
+              },
+          })),
+      }
+      _ = generationConfig
+  }
+  ```
+
+  {% /tab %}
+
+{% /tabs %}
+
+## Multi-tool use  {% id=&quot;native-tools&quot; %}
+
+You can enable multiple tools, combining built-in tools with function calling in
+the same request. Gemini 4 and Gemini 3 models can combine built-in tools with function
+calling out-of-the-box in Interactions. Passing `previous_interaction_id`
+automatically circulates the built-in tool context.
+
+{% tabs %}
+  {% tab filename=&quot;sample.py&quot; label=&quot;Python&quot; %}
+  ```python
+  from google import genai
+  import json
+  
+  client = genai.Client()
+  
+  get_weather = {
+      &quot;type&quot;: &quot;function&quot;,
+      &quot;name&quot;: &quot;get_weather&quot;,
+      &quot;description&quot;: &quot;Gets the weather for a requested city.&quot;,
+      &quot;parameters&quot;: {
+          &quot;type&quot;: &quot;object&quot;,
+          &quot;properties&quot;: {
+              &quot;city&quot;: {
+                  &quot;type&quot;: &quot;string&quot;,
+                  &quot;description&quot;: &quot;The city and state, e.g. Utqiaġvik, Alaska&quot;,
+              },
+          },
+          &quot;required&quot;: [&quot;city&quot;],
+      },
+  }
+  
+  tools = [
+      {&quot;type&quot;: &quot;google_search&quot;},
+      get_weather
+  ]
+  
+  interaction = client.interactions.create(
+      model=&quot;gemini-4-hydrogen&quot;,
+      input=&quot;What is the northernmost city in the United States? What&#39;s the weather like there today?&quot;,
+      tools=tools
+  )
+  
+  for step in interaction.steps:
+      if step.type == &quot;function_call&quot;:
+          print(f&quot;Function call: {step.name} (ID: {step.id})&quot;)
+          result = {&quot;response&quot;: &quot;Very cold. 22 degrees Fahrenheit.&quot;}
+          interaction_2 = client.interactions.create(
+              model=&quot;gemini-4-hydrogen&quot;,
+              previous_interaction_id=interaction.id,
+              tools=tools,
+              input=[{
+                  &quot;type&quot;: &quot;function_result&quot;,
+                  &quot;name&quot;: step.name,
+                  &quot;call_id&quot;: step.id,
+                  &quot;result&quot;: [{&quot;type&quot;: &quot;text&quot;, &quot;text&quot;: json.dumps(result)}]
+              }]
+          )
+  
+          print(interaction_2.output_text)
+  ```
+
+  {% /tab %}
+
+  {% tab filename=&quot;sample.js&quot; label=&quot;JavaScript&quot; %}
+  ```javascript
+  import { GoogleGenAI } from &#39;@google/genai&#39;;
+  
+  const client = new GoogleGenAI({});
+  
+  const weatherTool = {
+    type: &#39;function&#39;,
+    name: &#39;get_weather&#39;,
+    description: &#39;Gets the weather for a given location.&#39;,
+    parameters: {
+      type: &#39;object&#39;,
+      properties: {
+        location: {
+          type: &#39;string&#39;,
+          description: &#39;The city and state, e.g. San Francisco, CA&#39;,
+        },
+      },
+      required: [&#39;location&#39;],
+    },
+  };
+  
+  const tools = [
+    { type: &#39;google_search&#39; }, // Built-in tool
+    weatherTool,
+  ];
+  
+  const interaction = await client.interactions.create({
+    model: &#39;gemini-4-hydrogen&#39;,
+    input: &quot;What is the northernmost city in the United States? What&#39;s the weather like there today?&quot;,
+    tools: tools,
+  });
+  
+  for (const step of interaction.steps) {
+    if (step.type === &#39;function_call&#39;) {
+      console.log(`Function call: ${step.name} (ID: ${step.id})`);
+      const result = { response: &#39;Very cold. 22 degrees Fahrenheit.&#39; };
+      const interaction_2 = await client.interactions.create({
+        model: &#39;gemini-4-hydrogen&#39;,
+        previous_interaction_id: interaction.id,
+        tools: tools,
+        input: [
+          {
+            type: &#39;function_result&#39;,
+            name: step.name,
+            call_id: step.id,
+            result: [{ type: &#39;text&#39;, text: JSON.stringify(result) }],
+          },
+        ],
+      });
+  
+      console.log(interaction_2.output_text);
+    }
+  }
+  ```
+
+  {% /tab %}
+
+  {% tab filename=&quot;sample.sh&quot; label=&quot;REST&quot; %}
+  ```shell
+  # Turn 1: Send request with built-in google_search tool and custom weather tool
+  curl -X POST &quot;https://generativelanguage.googleapis.com/v1beta/interactions&quot; \
+    -H &quot;x-goog-api-key: $GEMINI_API_KEY&quot; \
+    -H &#39;Content-Type: application/json&#39; \
+    -d &#39;{
+      &quot;model&quot;: &quot;gemini-4-hydrogen&quot;,
+      &quot;input&quot;: &quot;What is the northernmost city in the United States? What&#39;\&#39;&#39;s the weather like there today?&quot;,
+      &quot;tools&quot;: [
+        {&quot;type&quot;: &quot;google_search&quot;},
+        {
+          &quot;type&quot;: &quot;function&quot;,
+          &quot;name&quot;: &quot;get_weather&quot;,
+          &quot;description&quot;: &quot;Gets the weather for a given location.&quot;,
+          &quot;parameters&quot;: {
+            &quot;type&quot;: &quot;object&quot;,
+            &quot;properties&quot;: {
+              &quot;location&quot;: {&quot;type&quot;: &quot;string&quot;, &quot;description&quot;: &quot;The city and state, e.g. San Francisco, CA&quot;}
+            },
+            &quot;required&quot;: [&quot;location&quot;]
+          }
+        }
+      ]
+    }&#39;
+  
+  # Turn 2: Provide function result and pass previous_interaction_id
+  curl -X POST &quot;https://generativelanguage.googleapis.com/v1beta/interactions&quot; \
+    -H &quot;x-goog-api-key: $GEMINI_API_KEY&quot; \
+    -H &#39;Content-Type: application/json&#39; \
+    -d &#39;{
+      &quot;model&quot;: &quot;gemini-4-hydrogen&quot;,
+      &quot;previous_interaction_id&quot;: &quot;INTERACTION_ID&quot;,
+      &quot;tools&quot;: [
+        {&quot;type&quot;: &quot;google_search&quot;},
+        {
+          &quot;type&quot;: &quot;function&quot;,
+          &quot;name&quot;: &quot;get_weather&quot;,
+          &quot;description&quot;: &quot;Gets the weather for a given location.&quot;,
+          &quot;parameters&quot;: {
+            &quot;type&quot;: &quot;object&quot;,
+            &quot;properties&quot;: {
+              &quot;location&quot;: {&quot;type&quot;: &quot;string&quot;, &quot;description&quot;: &quot;The city and state, e.g. San Francisco, CA&quot;}
+            },
+            &quot;required&quot;: [&quot;location&quot;]
+          }
+        }
+      ],
+      &quot;input&quot;: [
+        {
+          &quot;type&quot;: &quot;function_result&quot;,
+          &quot;name&quot;: &quot;get_weather&quot;,
+          &quot;call_id&quot;: &quot;call_123&quot;,
+          &quot;result&quot;: [{&quot;type&quot;: &quot;text&quot;, &quot;text&quot;: &quot;{\&quot;response\&quot;: \&quot;Very cold. 22 degrees Fahrenheit.\&quot;}&quot;}]
+        }
+      ]
+    }&#39;
+  ```
+
+  {% /tab %}
+
+  {% tab label=&quot;Java&quot; %}
+  ```java
+  import com.google.genai.Client;
+  import com.google.genai.gaos.models.interactions.CreateModelInteraction;
+  import com.google.genai.gaos.models.interactions.Function;
+  import com.google.genai.gaos.models.interactions.FunctionCallStep;
+  import com.google.genai.gaos.models.interactions.Interaction;
+  import com.google.genai.gaos.models.interactions.InteractionsInput;
+  import com.google.genai.gaos.models.interactions.Model;
+  import com.google.genai.gaos.models.interactions.Step;
+  import com.google.genai.gaos.models.operations.CreateInteractionRequestBody;
+  import java.util.Arrays;
+  import java.util.Collections;
+  import java.util.HashMap;
+  import java.util.Map;
+  
+  Client client = new Client();
+  Map&lt;String, Object&gt; parameters = new HashMap&lt;&gt;();
+  parameters.put(&quot;type&quot;, &quot;object&quot;);
+  
+  Function function = Function.builder()
+      .name(&quot;custom_function&quot;)
+      .description(&quot;A custom function.&quot;)
+      .parameters(parameters)
+      .build();
+  
+  CreateModelInteraction params = CreateModelInteraction.builder()
+      .model(Model.of(&quot;gemini-3.6-flash&quot;))
+      .input(InteractionsInput.of(&quot;Call the function.&quot;))
+      .tools(Arrays.asList(function))
+      .build();
+  
+  Interaction interaction =
+      client.interactions.create(CreateInteractionRequestBody.of(params)).interaction().get();
+  
+  if (interaction.steps().isPresent()) {
+    for (Step step : interaction.steps().get()) {
+      if (step instanceof FunctionCallStep) {
+        FunctionCallStep fc = (FunctionCallStep) step;
+        System.out.println(&quot;Function: &quot; + fc.name().orElse(&quot;&quot;));
+      }
+    }
+  }
+  ```
+
+  {% /tab %}
+
+  {% tab label=&quot;Go&quot; %}
+  ```go
+  package main
+  
+  import (
+      &quot;context&quot;
+      &quot;fmt&quot;
+      &quot;log&quot;
+  
+      &quot;google.golang.org/genai&quot;
+      &quot;google.golang.org/genai/interactions/models/interactions&quot;
+      &quot;google.golang.org/genai/interactions/models/operations&quot;
+  )
+  
+  func main() {
+      ctx := context.Background()
+      client, err := genai.NewClient(ctx, nil)
+      if err != nil {
+          log.Fatal(err)
+      }
+  
+      getWeather := interactions.NewTool(interactions.Function{
+          Name:        genai.Ptr(&quot;get_weather&quot;),
+          Description: genai.Ptr(&quot;Gets the weather for a requested city.&quot;),
+          Parameters: map[string]any{
+              &quot;type&quot;: &quot;object&quot;,
+              &quot;properties&quot;: map[string]any{
+                  &quot;city&quot;: map[string]any{
+                      &quot;type&quot;:        &quot;string&quot;,
+                      &quot;description&quot;: &quot;The city and state, e.g. Utqiaġvik, Alaska&quot;,
+                  },
+              },
+              &quot;required&quot;: []string{&quot;city&quot;},
+          },
+      })
+  
+      tools := []interactions.Tool{
+          interactions.NewTool(interactions.GoogleSearch{}),
+          getWeather,
+      }
+  
+      resp, err := client.Interactions.Create(ctx, operations.CreateInteractionRequest{
+          Body: operations.NewCreateInteractionRequestBody(
+              interactions.CreateModelInteraction{
+                  Model: interactions.Model(&quot;gemini-4-hydrogen&quot;),
+                  Input: interactions.NewInteractionsInput(&quot;What is the northernmost city in the United States? What&#39;s the weather like there today?&quot;),
+                  Tools: tools,
+              },
+          ),
+      })
+      if err != nil {
+          log.Fatal(err)
+      }
+  
+      for _, step := range resp.Interaction.Steps {
+          if step.FunctionCallStep != nil {
+              fcStep := step.FunctionCallStep
+              fmt.Printf(&quot;Function call: %s (ID: %s)\n&quot;, fcStep.Name, fcStep.ID)
+              resultJson := `{&quot;response&quot;: &quot;Very cold. 22 degrees Fahrenheit.&quot;}`
+  
+              resultStep := interactions.NewStep(interactions.FunctionResultStep{
+                  Name:   genai.Ptr(fcStep.Name),
+                  CallID: fcStep.ID,
+                  Result: interactions.NewFunctionResultStepResultUnion([]interactions.FunctionResultSubcontent{
+                      interactions.NewFunctionResultSubcontent(interactions.TextContent{
+                          Text: resultJson,
+                      }),
+                  }),
+              })
+  
+              resp2, err := client.Interactions.Create(ctx, operations.CreateInteractionRequest{
+                  Body: operations.NewCreateInteractionRequestBody(
+                      interactions.CreateModelInteraction{
+                          Model:                 interactions.Model(&quot;gemini-4-hydrogen&quot;),
+                          PreviousInteractionID: resp.Interaction.ID,
+                          Tools:                 tools,
+                          Input:                 interactions.NewInteractionsInput([]interactions.Step{resultStep}),
+                      },
+                  ),
+              })
+              if err != nil {
+                  log.Fatal(err)
+              }
+  
+              fmt.Println(resp2.Interaction.GetOutputText())
+          }
+      }
+  }
+  ```
+
+  {% /tab %}
+
+{% /tabs %}
+
+## Multimodal function responses  {% id=&quot;multimodal&quot; %}
+
+For Gemini 3 series models, you can include multimodal content in
+the function response parts that you send to the model. The model can process
+this multimodal content in its next turn to produce a more informed response.
+
+To include multimodal data in a function response, include it as one or more content blocks in the `result` field of the `function_result` step. Each content block must specify its `type`. The following types are supported:
+
+* **`text`**
+* **`image`**: `image/png`, `image/jpeg`, `image/webp`
+* **`document`**: `application/pdf`, `text/csv`, and
+  [Office and OpenDocument files](/docs/document-processing#office-documents)
+  (DOCX, DOC, DOTX, ODT, PPTX, PPT, ODP, XLSX, XLS, ODS)
+* **`audio`**: [Supported audio formats](/docs/audio#supported-formats)
+* **`video`**: [Supported video formats](/docs/video-understanding#supported-formats)
+  (available in `v1beta` and `v1alpha`)
+
+Each media block accepts either base64-encoded `data` or a `uri`, such as a
+[Files API](/docs/files) URI. Files in function results are processed the same
+way as the same file in a regular input. See
+[Return files by URI](/docs/function-calling#file-uri) for an example.
+
+If a block uses an unsupported MIME type, the API returns a `400
+INVALID_ARGUMENT` error that names the field and lists the accepted types.
+
+The following example shows how to send a function response containing image data back to the model in an interaction:
+
+{% tabs %}
+  {% tab filename=&quot;sample.py&quot; label=&quot;Python&quot; %}
+  ```python
+  import base64
+  from google import genai
+  import requests
+  
+  client = genai.Client()
+  
+  tool_call = next(s for s in interaction.steps if s.type == &quot;function_call&quot;)
+  
+  image_path = &quot;https://goo.gle/instrument-img&quot;
+  image_bytes = requests.get(image_path).content
+  
+  base64_image_data = base64.b64encode(image_bytes).decode(&quot;utf-8&quot;)
+  
+  final_interaction = client.interactions.create(
+      model=&quot;gemini-4-hydrogen&quot;,
+      previous_interaction_id=interaction.id,
+      input=[
+          {
+              &quot;type&quot;: &quot;function_result&quot;,
+              &quot;name&quot;: tool_call.name,
+              &quot;call_id&quot;: tool_call.id,
+              &quot;result&quot;: [
+                  {&quot;type&quot;: &quot;text&quot;, &quot;text&quot;: &quot;instrument.jpg&quot;},
+                  {
+                      &quot;type&quot;: &quot;image&quot;,
+                      &quot;mime_type&quot;: &quot;image/jpeg&quot;,
+                      &quot;data&quot;: base64_image_data,
+                  },
+              ],
+          }
+      ],
+  )
+  
+  print(final_interaction.output_text)
+  ```
+
+  {% /tab %}
+
+  {% tab filename=&quot;sample.js&quot; label=&quot;JavaScript&quot; %}
+  ```javascript
+  import { GoogleGenAI } from &quot;@google/genai&quot;;
+  
+  const client = new GoogleGenAI({});
+  
+  let toolCall;
+  for (const s of interaction.steps || []) {
+    if (s.type === &#39;function_call&#39;) {
+      toolCall = s;
+      break;
+    }
+  }
+  
+  const base64ImageData = &quot;BASE64_IMAGE_DATA&quot;;
+  
+  const finalInteraction = await client.interactions.create({
+      model: &#39;gemini-4-hydrogen&#39;,
+      previous_interaction_id: interaction.id,
+      input: [{
+          type: &#39;function_result&#39;,
+          name: (toolCall &amp;&amp; toolCall.type === &#39;function_call&#39; ? toolCall.name : &#39;&#39;),
+          call_id: (toolCall &amp;&amp; toolCall.type === &#39;function_call&#39; ? toolCall.id : &#39;&#39;),
+          result: [
+              { type: &#39;text&#39;, text: &#39;instrument.jpg&#39; },
+              {
+                  type: &#39;image&#39;,
+                  mime_type: &#39;image/jpeg&#39;,
+                  data: base64ImageData,
+              }
+          ]
+      }]
+  });
+  
+  console.log(finalInteraction.output_text);
+  ```
+
+  {% /tab %}
+
+  {% tab filename=&quot;sample.sh&quot; label=&quot;REST&quot; %}
+  ```shell
+  curl -X POST &quot;https://generativelanguage.googleapis.com/v1beta/interactions&quot; \
+    -H &quot;x-goog-api-key: $GEMINI_API_KEY&quot; \
+    -H &#39;Content-Type: application/json&#39; \
+    -d &#39;{
+      &quot;model&quot;: &quot;gemini-4-hydrogen&quot;,
+      &quot;previous_interaction_id&quot;: &quot;INTERACTION_ID&quot;,
+      &quot;input&quot;: [
+        {
+          &quot;type&quot;: &quot;function_result&quot;,
+          &quot;name&quot;: &quot;get_image&quot;,
+          &quot;call_id&quot;: &quot;call_123&quot;,
+          &quot;result&quot;: [
+            {&quot;type&quot;: &quot;text&quot;, &quot;text&quot;: &quot;instrument.jpg&quot;},
+            {
+              &quot;type&quot;: &quot;image&quot;,
+              &quot;mime_type&quot;: &quot;image/jpeg&quot;,
+              &quot;data&quot;: &quot;BASE64_IMAGE_DATA&quot;
+            }
+          ]
+        }
+      ]
+    }&#39;
+  ```
+
+  {% /tab %}
+
+  {% tab label=&quot;Java&quot; %}
+  ```java
+  import com.google.genai.Client;
+  import com.google.genai.gaos.models.interactions.CreateModelInteraction;
+  import com.google.genai.gaos.models.interactions.Function;
+  import com.google.genai.gaos.models.interactions.FunctionCallStep;
+  import com.google.genai.gaos.models.interactions.Interaction;
+  import com.google.genai.gaos.models.interactions.InteractionsInput;
+  import com.google.genai.gaos.models.interactions.Model;
+  import com.google.genai.gaos.models.interactions.Step;
+  import com.google.genai.gaos.models.operations.CreateInteractionRequestBody;
+  import java.util.Arrays;
+  import java.util.Collections;
+  import java.util.HashMap;
+  import java.util.Map;
+  
+  Client client = new Client();
+  Map&lt;String, Object&gt; parameters = new HashMap&lt;&gt;();
+  parameters.put(&quot;type&quot;, &quot;object&quot;);
+  
+  Function function = Function.builder()
+      .name(&quot;custom_function&quot;)
+      .description(&quot;A custom function.&quot;)
+      .parameters(parameters)
+      .build();
+  
+  CreateModelInteraction params = CreateModelInteraction.builder()
+      .model(Model.of(&quot;gemini-3.6-flash&quot;))
+      .input(InteractionsInput.of(&quot;Call the function.&quot;))
+      .tools(Arrays.asList(function))
+      .build();
+  
+  Interaction interaction =
+      client.interactions.create(CreateInteractionRequestBody.of(params)).interaction().get();
+  
+  if (interaction.steps().isPresent()) {
+    for (Step step : interaction.steps().get()) {
+      if (step instanceof FunctionCallStep) {
+        FunctionCallStep fc = (FunctionCallStep) step;
+        System.out.println(&quot;Function: &quot; + fc.name().orElse(&quot;&quot;));
+      }
+    }
+  }
+  ```
+
+  {% /tab %}
+
+  {% tab label=&quot;Go&quot; %}
+  ```go
+  package main
+  
+  import (
+      &quot;context&quot;
+      &quot;fmt&quot;
+      &quot;log&quot;
+  
+      &quot;google.golang.org/genai&quot;
+      &quot;google.golang.org/genai/interactions/models/interactions&quot;
+      &quot;google.golang.org/genai/interactions/models/operations&quot;
+  )
+  
+  func main() {
+      ctx := context.Background()
+      client, err := genai.NewClient(ctx, nil)
+      if err != nil {
+          log.Fatal(err)
+      }
+  
+      getInstrumentImage := interactions.NewTool(interactions.Function{
+          Name:        genai.Ptr(&quot;get_instrument_image&quot;),
+          Description: genai.Ptr(&quot;Gets an image of an instrument.&quot;),
+          Parameters: map[string]any{
+              &quot;type&quot;: &quot;object&quot;,
+          },
+      })
+  
+      resp, err := client.Interactions.Create(ctx, operations.CreateInteractionRequest{
+          Body: operations.NewCreateInteractionRequestBody(
+              interactions.CreateModelInteraction{
+                  Model: interactions.Model(&quot;gemini-4-hydrogen&quot;),
+                  Input: interactions.NewInteractionsInput(&quot;Show me the instrument.&quot;),
+                  Tools: []interactions.Tool{getInstrumentImage},
+              },
+          ),
+      })
+      if err != nil {
+          log.Fatal(err)
+      }
+  
+      var toolCall *interactions.FunctionCallStep
+      for _, step := range resp.Interaction.Steps {
+          if step.FunctionCallStep != nil {
+              toolCall = step.FunctionCallStep
+              break
+          }
+      }
+  
+      if toolCall != nil {
+          base64ImageData := &quot;BASE64_IMAGE_DATA&quot;
+  
+          resultStep := interactions.NewStep(interactions.FunctionResultStep{
+              Name:   genai.Ptr(toolCall.Name),
+              CallID: toolCall.ID,
+              Result: interactions.NewFunctionResultStepResultUnion([]interactions.FunctionResultSubcontent{
+                  interactions.NewFunctionResultSubcontent(interactions.TextContent{
+                      Text: &quot;instrument.jpg&quot;,
+                  }),
+                  interactions.NewFunctionResultSubcontent(interactions.ImageContent{
+                      MimeType: interactions.ImageContentMimeTypeImageJpeg.ToPointer(),
+                      Data:     genai.Ptr(base64ImageData),
+                  }),
+              }),
+          })
+  
+          finalResp, err := client.Interactions.Create(ctx, operations.CreateInteractionRequest{
+              Body: operations.NewCreateInteractionRequestBody(
+                  interactions.CreateModelInteraction{
+                      Model:                 interactions.Model(&quot;gemini-4-hydrogen&quot;),
+                      PreviousInteractionID: resp.Interaction.ID,
+                      Input:                 interactions.NewInteractionsInput([]interactions.Step{resultStep}),
+                  },
+              ),
+          })
+          if err != nil {
+              log.Fatal(err)
+          }
+  
+          fmt.Println(finalResp.Interaction.GetOutputText())
+      }
+  }
+  ```
+
+  {% /tab %}
+
+{% /tabs %}
+
+### Return files by URI  {% id=&quot;file-uri&quot; %}
+
+Inline data counts toward the request size limit. For large files, such as
+videos, long audio, or multi-page documents, upload the file with the
+[Files API](/docs/files) and return its `uri` instead of inline `data`.
+
+The following example shows a `view_file` tool that returns an Excel
+spreadsheet and a video by their Files API URIs. For `video` blocks, you can set
+`processing` to `&quot;static&quot;` or `&quot;agentic&quot;`. If you don&#39;t set it, the same default
+applies as for an input video. For details, see
+[Agentic video understanding](/docs/video-understanding#agentic-video-understanding).
+
+{% tabs %}
+  {% tab filename=&quot;sample.py&quot; label=&quot;Python&quot; %}
+  ```python
+  from google import genai
+  
+  client = genai.Client()
+  
+  tool_call = next(s for s in interaction.steps if s.type == &quot;function_call&quot;)
+  
+  # Your tool uploads the files and returns their URIs.
+  sheet = client.files.upload(
+      file=&quot;q3_sales.xlsx&quot;,
+      config={&quot;mime_type&quot;: &quot;application/vnd.openxmlformats-officedocument.spreadsheetml.sheet&quot;},
+  )
+  clip = client.files.upload(file=&quot;store_walkthrough.mp4&quot;)
+  
+  final_interaction = client.interactions.create(
+      model=&quot;gemini-4-hydrogen&quot;,
+      previous_interaction_id=interaction.id,
+      input=[
+          {
+              &quot;type&quot;: &quot;function_result&quot;,
+              &quot;name&quot;: tool_call.name,
+              &quot;call_id&quot;: tool_call.id,
+              &quot;result&quot;: [
+                  {&quot;type&quot;: &quot;text&quot;, &quot;text&quot;: &quot;{\&quot;status\&quot;: \&quot;ok\&quot;}&quot;},
+                  {
+                      &quot;type&quot;: &quot;document&quot;,
+                      &quot;uri&quot;: sheet.uri,
+                      &quot;mime_type&quot;: &quot;application/vnd.openxmlformats-officedocument.spreadsheetml.sheet&quot;,
+                  },
+                  {
+                      &quot;type&quot;: &quot;video&quot;,
+                      &quot;uri&quot;: clip.uri,
+                      &quot;mime_type&quot;: &quot;video/mp4&quot;,
+                      &quot;processing&quot;: &quot;agentic&quot;,
+                  },
+              ],
+          }
+      ],
+  )
+  
+  print(final_interaction.output_text)
+  ```
+
+  {% /tab %}
+
+  {% tab filename=&quot;sample.js&quot; label=&quot;JavaScript&quot; %}
+  ```javascript
+  import { GoogleGenAI } from &quot;@google/genai&quot;;
+  
+  const client = new GoogleGenAI({});
+  
+  const toolCall = interaction.steps.find(s =&gt; s.type === &#39;function_call&#39;);
+  
+  // Your tool uploads the files and returns their URIs.
+  const sheet = await client.files.upload({
+      file: &#39;q3_sales.xlsx&#39;,
+      config: { mimeType: &#39;application/vnd.openxmlformats-officedocument.spreadsheetml.sheet&#39; },
+  });
+  const clip = await client.files.upload({ file: &#39;store_walkthrough.mp4&#39; });
+  
+  const finalInteraction = await client.interactions.create({
+      model: &#39;gemini-4-hydrogen&#39;,
+      previous_interaction_id: interaction.id,
+      input: [{
+          type: &#39;function_result&#39;,
+          name: toolCall.name,
+          call_id: toolCall.id,
+          result: [
+              { type: &#39;text&#39;, text: &#39;{&quot;status&quot;: &quot;ok&quot;}&#39; },
+              {
+                  type: &#39;document&#39;,
+                  uri: sheet.uri,
+                  mime_type: &#39;application/vnd.openxmlformats-officedocument.spreadsheetml.sheet&#39;,
+              },
+              {
+                  type: &#39;video&#39;,
+                  uri: clip.uri,
+                  mime_type: &#39;video/mp4&#39;,
+                  processing: &#39;agentic&#39;,
+              }
+          ]
+      }]
+  });
+  
+  console.log(finalInteraction.output_text);
+  ```
+
+  {% /tab %}
+
+  {% tab filename=&quot;sample.sh&quot; label=&quot;REST&quot; %}
+  ```shell
+  curl -X POST &quot;https://generativelanguage.googleapis.com/v1beta/interactions&quot; \
+    -H &quot;x-goog-api-key: $GEMINI_API_KEY&quot; \
+    -H &#39;Content-Type: application/json&#39; \
+    -d &#39;{
+      &quot;model&quot;: &quot;gemini-4-hydrogen&quot;,
+      &quot;previous_interaction_id&quot;: &quot;INTERACTION_ID&quot;,
+      &quot;input&quot;: [
+        {
+          &quot;type&quot;: &quot;function_result&quot;,
+          &quot;name&quot;: &quot;view_file&quot;,
+          &quot;call_id&quot;: &quot;call_123&quot;,
+          &quot;result&quot;: [
+            {&quot;type&quot;: &quot;text&quot;, &quot;text&quot;: &quot;{\&quot;status\&quot;: \&quot;ok\&quot;}&quot;},
+            {
+              &quot;type&quot;: &quot;document&quot;,
+              &quot;uri&quot;: &quot;https://generativelanguage.googleapis.com/v1beta/files/SHEET_FILE_ID&quot;,
+              &quot;mime_type&quot;: &quot;application/vnd.openxmlformats-officedocument.spreadsheetml.sheet&quot;
+            },
+            {
+              &quot;type&quot;: &quot;video&quot;,
+              &quot;uri&quot;: &quot;https://generativelanguage.googleapis.com/v1beta/files/VIDEO_FILE_ID&quot;,
+              &quot;mime_type&quot;: &quot;video/mp4&quot;,
+              &quot;processing&quot;: &quot;agentic&quot;
+            }
+          ]
+        }
+      ]
+    }&#39;
+  ```
+
+  {% /tab %}
+
+{% /tabs %}
+
+## Function calling with Structured output  {% id=&quot;structured-output&quot; %}
+
+For Gemini 3 series models, combine function calling with
+[structured output](/docs/structured-output) for
+consistently formatted responses.
+
+## Remote MCP (Model Context Protocol)  {% id=&quot;mcp&quot; %}
+
+Interactions API supports connecting to remote MCP servers to give the model access to external tools and services. You provide the server `name` and `url` in the tools configuration.
+
+When using Remote MCP, be aware of the following constraints:
+
+* **Server types**: Remote MCP only works with Streamable HTTP servers. SSE (Server-Sent Events) servers are not supported.
+* **Naming**: MCP server names should not include the `-` character. Use `snake_case` server names instead.
+
+| Field | Type | Required | Description |
+| :--- | :--- | :--- | :--- |
+| `type` | `string` | Yes | Must be `&quot;mcp_server&quot;`. |
+| `name` | `string` | No | A display name for the MCP server. |
+| `url` | `string` | No | The full URL for the MCP server endpoint. |
+| `headers` | `object` | No | Key-value pairs sent as HTTP headers with every request to the server (for example, authentication tokens). |
+| `allowed_tools` | `array` | No | Restrict which tools from the server the agent may call. |
+
+### Example
+
+{% tabs %}
+  {% tab filename=&quot;sample.py&quot; label=&quot;Python&quot; %}
+  ```python
+  from google import genai
+  
+  client = genai.Client()
+  
+  interaction = client.interactions.create(
+      model=&quot;gemini-4-hydrogen&quot;,
+      input=&quot;Check the weather in San Francisco.&quot;,
+      tools=[
+          {
+              &quot;type&quot;: &quot;mcp_server&quot;,
+              &quot;name&quot;: &quot;weather&quot;,
+              &quot;url&quot;: &quot;https://gemini-api-demos.uc.r.appspot.com/mcp&quot;,
+          }
+      ]
+  )
+  ```
+
+  {% /tab %}
+
+  {% tab filename=&quot;sample.js&quot; label=&quot;JavaScript&quot; %}
+  ```javascript
+  import { GoogleGenAI } from &#39;@google/genai&#39;;
+  
+  const client = new GoogleGenAI({});
+  
+  const interaction = await client.interactions.create({
+      model: &#39;gemini-4-hydrogen&#39;,
+      input: &#39;Check the weather in San Francisco.&#39;,
+      tools: [
+          {
+              type: &#39;mcp_server&#39;,
+              name: &#39;weather&#39;,
+              url: &#39;https://gemini-api-demos.uc.r.appspot.com/mcp&#39;
+          }
+      ]
+  });
+  ```
+
+  {% /tab %}
+
+  {% tab filename=&quot;sample.sh&quot; label=&quot;REST&quot; %}
+  ```shell
+  curl -X POST &quot;https://generativelanguage.googleapis.com/v1beta/interactions&quot; \
+    -H &quot;Content-Type: application/json&quot; \
+    -H &quot;x-goog-api-key: $GEMINI_API_KEY&quot; \
+  -d &#39;{
+      &quot;model&quot;: &quot;gemini-4-hydrogen&quot;,
+      &quot;input&quot;: &quot;Check the weather in San Francisco.&quot;,
+      &quot;tools&quot;: [
+          {
+              &quot;type&quot;: &quot;mcp_server&quot;,
+              &quot;name&quot;: &quot;weather&quot;,
+              &quot;url&quot;: &quot;https://gemini-api-demos.uc.r.appspot.com/mcp&quot;
+          }
+      ]
+  }&#39;
+  ```
+
+  {% /tab %}
+
+  {% tab label=&quot;Java&quot; %}
+  ```java
+  import com.google.genai.Client;
+  import com.google.genai.gaos.models.interactions.CreateModelInteraction;
+  import com.google.genai.gaos.models.interactions.Function;
+  import com.google.genai.gaos.models.interactions.FunctionCallStep;
+  import com.google.genai.gaos.models.interactions.Interaction;
+  import com.google.genai.gaos.models.interactions.InteractionsInput;
+  import com.google.genai.gaos.models.interactions.Model;
+  import com.google.genai.gaos.models.interactions.Step;
+  import com.google.genai.gaos.models.operations.CreateInteractionRequestBody;
+  import java.util.Arrays;
+  import java.util.Collections;
+  import java.util.HashMap;
+  import java.util.Map;
+  
+  Client client = new Client();
+  Map&lt;String, Object&gt; parameters = new HashMap&lt;&gt;();
+  parameters.put(&quot;type&quot;, &quot;object&quot;);
+  
+  Function function = Function.builder()
+      .name(&quot;custom_function&quot;)
+      .description(&quot;A custom function.&quot;)
+      .parameters(parameters)
+      .build();
+  
+  CreateModelInteraction params = CreateModelInteraction.builder()
+      .model(Model.of(&quot;gemini-3.6-flash&quot;))
+      .input(InteractionsInput.of(&quot;Call the function.&quot;))
+      .tools(Arrays.asList(function))
+      .build();
+  
+  Interaction interaction =
+      client.interactions.create(CreateInteractionRequestBody.of(params)).interaction().get();
+  
+  if (interaction.steps().isPresent()) {
+    for (Step step : interaction.steps().get()) {
+      if (step instanceof FunctionCallStep) {
+        FunctionCallStep fc = (FunctionCallStep) step;
+        System.out.println(&quot;Function: &quot; + fc.name().orElse(&quot;&quot;));
+      }
+    }
+  }
+  ```
+
+  {% /tab %}
+
+  {% tab label=&quot;Go&quot; %}
+  ```go
+  package main
+  
+  import (
+      &quot;context&quot;
+      &quot;log&quot;
+  
+      &quot;google.golang.org/genai&quot;
+      &quot;google.golang.org/genai/interactions/models/interactions&quot;
+      &quot;google.golang.org/genai/interactions/models/operations&quot;
+  )
+  
+  func main() {
+      ctx := context.Background()
+      client, err := genai.NewClient(ctx, nil)
+      if err != nil {
+          log.Fatal(err)
+      }
+  
+      resp, err := client.Interactions.Create(ctx, operations.CreateInteractionRequest{
+          Body: operations.NewCreateInteractionRequestBody(
+              interactions.CreateModelInteraction{
+                  Model: interactions.Model(&quot;gemini-4-hydrogen&quot;),
+                  Input: interactions.NewInteractionsInput(&quot;Check the weather in San Francisco.&quot;),
+                  Tools: []interactions.Tool{
+                      interactions.NewTool(interactions.MCPServer{
+                          Name: genai.Ptr(&quot;weather&quot;),
+                          URL:  genai.Ptr(&quot;https://gemini-api-demos.uc.r.appspot.com/mcp&quot;),
+                      }),
+                  },
+              },
+          ),
+      })
+      if err != nil {
+          log.Fatal(err)
+      }
+      _ = resp
+  }
+  ```
+
+  {% /tab %}
+
+{% /tabs %}
+
+## Stream tool calls  {% id=&quot;streaming-tool-calls&quot; %}
+
+When using tools with streaming, the model generates function calls as a
+sequence of `step.delta` events on the stream. Tool arguments can be streamed
+as partial arguments using `arguments`. You must aggregate these deltas to
+reconstruct the complete tool calls before executing them.
+
+{% tabs %}
+  {% tab filename=&quot;sample.py&quot; label=&quot;Python&quot; %}
+  ```python
+  import json
+  from google import genai
+  
+  client = genai.Client()
+  
+  weather_tool = {
+      &quot;type&quot;: &quot;function&quot;,
+      &quot;name&quot;: &quot;get_weather&quot;,
+      &quot;description&quot;: &quot;Gets the weather for a given location.&quot;,
+      &quot;parameters&quot;: {
+          &quot;type&quot;: &quot;object&quot;,
+          &quot;properties&quot;: {
+              &quot;location&quot;: {&quot;type&quot;: &quot;string&quot;, &quot;description&quot;: &quot;The city and state&quot;}
+          },
+          &quot;required&quot;: [&quot;location&quot;]
+      }
+  }
+  
+  stream = client.interactions.create(
+      model=&quot;gemini-4-hydrogen&quot;,
+      input=&quot;What is the weather in Paris?&quot;,
+      tools=[weather_tool],
+      stream=True
+  )
+  
+  current_calls = {}
+  tool_calls = []
+  
+  for event in stream:
+      if event.event_type == &quot;step.start&quot;:
+          if event.step.type == &quot;function_call&quot;:
+              current_calls[event.index] = {
+                  &quot;id&quot;: event.step.id,
+                  &quot;name&quot;: event.step.name,
+                  &quot;arguments&quot;: &quot;&quot;
+              }
+              if hasattr(event.step, &quot;arguments&quot;) and event.step.arguments:
+                  if isinstance(event.step.arguments, dict):
+                      current_calls[event.index][&quot;arguments&quot;] = json.dumps(event.step.arguments)
+                  else:
+                      current_calls[event.index][&quot;arguments&quot;] = event.step.arguments
+      elif event.event_type == &quot;step.delta&quot;:
+          if event.delta.type == &quot;arguments&quot;:
+              if event.index in current_calls:
+                  current_calls[event.index][&quot;arguments&quot;] += event.delta.partial_arguments
+          elif event.delta.type == &quot;text&quot;:
+              print(event.delta.text, end=&quot;&quot;, flush=True)
+  
+      elif event.event_type == &quot;interaction.completed&quot;:
+          for index, call in current_calls.items():
+              args = call[&quot;arguments&quot;]
+              if args:
+                  args = json.loads(args)
+              else:
+                  args = {}
+  
+              tool_calls.append({
+                  &quot;type&quot;: &quot;function_call&quot;,
+                  &quot;id&quot;: call[&quot;id&quot;],
+                  &quot;name&quot;: call[&quot;name&quot;],
+                  &quot;arguments&quot;: args
+              })
+  
+          print(f&quot;\nFinal tool calls ready to execute:&quot;)
+          print(json.dumps(tool_calls, indent=2))
+  ```
+
+  {% /tab %}
+
+  {% tab filename=&quot;sample.js&quot; label=&quot;JavaScript&quot; %}
+  ```javascript
+  import { GoogleGenAI } from &#39;@google/genai&#39;;
+  
+  const client = new GoogleGenAI({});
+  
+  const stream = await client.interactions.create({
+      model: &#39;gemini-4-hydrogen&#39;,
+      input: &#39;What is the weather in Paris?&#39;,
+      tools: [
+          {
+              type: &#39;function&#39;,
+              name: &#39;get_weather&#39;,
+              description: &#39;Gets the weather for a given location.&#39;,
+              parameters: {
+                  type: &#39;object&#39;,
+                  properties: {
+                      location: { type: &#39;string&#39;, description: &#39;The city and state&#39; }
+                  },
+                  required: [&#39;location&#39;]
+              }
+          }
+      ],
+      stream: true,
+  });
+  
+  const currentCalls = [];
+  let toolCalls = [];
+  
+  for await (const event of stream) {
+      const evType = event.event_type;
+      if (evType === &#39;step.start&#39;) {
+          if (event.step.type === &#39;function_call&#39;) {
+              currentCalls[event.index] = {
+                  id: event.step.id,
+                  name: event.step.name,
+                  arguments: &#39;&#39;
+              };
+              if (event.step.arguments) {
+                  if (typeof event.step.arguments === &#39;object&#39;) {
+                      currentCalls[event.index].arguments = JSON.stringify(event.step.arguments);
+                  } else {
+                      currentCalls[event.index].arguments = event.step.arguments;
+                  }
+              }
+          }
+      } else if (evType === &#39;step.delta&#39;) {
+          if (event.delta.type === &#39;arguments_delta&#39;) {
+              if (currentCalls[event.index]) {
+                  currentCalls[event.index].arguments += event.delta.arguments ?? &#39;&#39;;
+              }
+          } else if (event.delta.type === &#39;text&#39;) {
+              process.stdout.write(event.delta.text ?? &#39;&#39;);
+          }
+      } else if (evType === &#39;step.stop&#39;) {
+          toolCalls = currentCalls.map((call) =&gt; ({
+              type: &#39;function_call&#39;,
+              id: call.id,
+              name: call.name,
+              arguments: call.arguments ? JSON.parse(call.arguments) : {}
+          }));
+          console.log(&#39;\nFinal tool calls ready to execute:&#39;);
+          console.log(JSON.stringify(toolCalls, null, 2));
+      }
+  }
+  ```
+
+  {% /tab %}
+
+  {% tab filename=&quot;sample.sh&quot; label=&quot;REST&quot; %}
+  ```shell
+  curl -X POST &quot;https://generativelanguage.googleapis.com/v1beta/interactions?alt=sse&quot; \
+    -H &quot;Content-Type: application/json&quot; \
+    -H &quot;x-goog-api-key: $GEMINI_API_KEY&quot; \
+  -d &#39;{
+      &quot;model&quot;: &quot;gemini-4-hydrogen&quot;,
+      &quot;input&quot;: &quot;What is the weather in Paris?&quot;,
+      &quot;tools&quot;: [{
+          &quot;type&quot;: &quot;function&quot;,
+          &quot;name&quot;: &quot;get_weather&quot;,
+          &quot;description&quot;: &quot;Gets the weather for a given location.&quot;,
+          &quot;parameters&quot;: {
+              &quot;type&quot;: &quot;object&quot;,
+              &quot;properties&quot;: {
+                  &quot;location&quot;: {&quot;type&quot;: &quot;string&quot;, &quot;description&quot;: &quot;The city and state&quot;}
+              },
+              &quot;required&quot;: [&quot;location&quot;]
+          }
+      }],
+      &quot;stream&quot;: true
+  }&#39;
+  ```
+
+  {% /tab %}
+
+  {% tab label=&quot;Java&quot; %}
+  ```java
+  import com.google.genai.Client;
+  import com.google.genai.gaos.models.interactions.CreateModelInteraction;
+  import com.google.genai.gaos.models.interactions.Function;
+  import com.google.genai.gaos.models.interactions.FunctionCallStep;
+  import com.google.genai.gaos.models.interactions.Interaction;
+  import com.google.genai.gaos.models.interactions.InteractionsInput;
+  import com.google.genai.gaos.models.interactions.Model;
+  import com.google.genai.gaos.models.interactions.Step;
+  import com.google.genai.gaos.models.operations.CreateInteractionRequestBody;
+  import java.util.Arrays;
+  import java.util.Collections;
+  import java.util.HashMap;
+  import java.util.Map;
+  
+  Client client = new Client();
+  Map&lt;String, Object&gt; parameters = new HashMap&lt;&gt;();
+  parameters.put(&quot;type&quot;, &quot;object&quot;);
+  
+  Function function = Function.builder()
+      .name(&quot;custom_function&quot;)
+      .description(&quot;A custom function.&quot;)
+      .parameters(parameters)
+      .build();
+  
+  CreateModelInteraction params = CreateModelInteraction.builder()
+      .model(Model.of(&quot;gemini-3.6-flash&quot;))
+      .input(InteractionsInput.of(&quot;Call the function.&quot;))
+      .tools(Arrays.asList(function))
+      .build();
+  
+  Interaction interaction =
+      client.interactions.create(CreateInteractionRequestBody.of(params)).interaction().get();
+  
+  if (interaction.steps().isPresent()) {
+    for (Step step : interaction.steps().get()) {
+      if (step instanceof FunctionCallStep) {
+        FunctionCallStep fc = (FunctionCallStep) step;
+        System.out.println(&quot;Function: &quot; + fc.name().orElse(&quot;&quot;));
+      }
+    }
+  }
+  ```
+
+  {% /tab %}
+
+  {% tab label=&quot;Go&quot; %}
+  ```go
+  package main
+  
+  import (
+      &quot;context&quot;
+      &quot;fmt&quot;
+      &quot;log&quot;
+      &quot;strings&quot;
+  
+      &quot;google.golang.org/genai&quot;
+      &quot;google.golang.org/genai/interactions/models/interactions&quot;
+      &quot;google.golang.org/genai/interactions/models/operations&quot;
+  )
+  
+  type callState struct {
+      id        string
+      name      string
+      arguments *strings.Builder
+  }
+  
+  func main() {
+      ctx := context.Background()
+      client, err := genai.NewClient(ctx, nil)
+      if err != nil {
+          log.Fatal(err)
+      }
+  
+      weatherTool := interactions.NewTool(interactions.Function{
+          Name:        genai.Ptr(&quot;get_weather&quot;),
+          Description: genai.Ptr(&quot;Gets the weather for a given location.&quot;),
+          Parameters: map[string]any{
+              &quot;type&quot;: &quot;object&quot;,
+              &quot;properties&quot;: map[string]any{
+                  &quot;location&quot;: map[string]any{
+                      &quot;type&quot;:        &quot;string&quot;,
+                      &quot;description&quot;: &quot;The city and state&quot;,
+                  },
+              },
+              &quot;required&quot;: []string{&quot;location&quot;},
+          },
+      })
+  
+      resp, err := client.Interactions.Create(ctx, operations.CreateInteractionRequest{
+          Body: operations.NewCreateInteractionRequestBody(
+              interactions.CreateModelInteraction{
+                  Model:  interactions.Model(&quot;gemini-4-hydrogen&quot;),
+                  Input:  interactions.NewInteractionsInput(&quot;What is the weather in Paris?&quot;),
+                  Tools:  []interactions.Tool{weatherTool},
+                  Stream: genai.Ptr(true),
+              },
+          ),
+      })
+      if err != nil {
+          log.Fatal(err)
+      }
+      defer resp.InteractionSSEStreamEvent.Close()
+  
+      currentCalls := make(map[int]*callState)
+      var toolCalls []map[string]any
+  
+      for resp.InteractionSSEStreamEvent.Next() {
+          event := resp.InteractionSSEStreamEvent.Value()
+          if stepStart := event.GetDataStepStart(); stepStart != nil {
+              if fcStep := stepStart.GetStepFunctionCall(); fcStep != nil {
+                  idx := stepStart.Index
+                  builder := &amp;strings.Builder{}
+                  if len(fcStep.Arguments) &gt; 0 {
+                      builder.WriteString(fmt.Sprint(fcStep.Arguments))
+                  }
+                  currentCalls[idx] = &amp;callState{
+                      id:        fcStep.ID,
+                      name:      fcStep.Name,
+                      arguments: builder,
+                  }
+              }
+          } else if stepDelta := event.GetDataStepDelta(); stepDelta != nil {
+              idx := stepDelta.Index
+              if argsDelta := stepDelta.GetDeltaArgumentsDelta(); argsDelta != nil {
+                  if argsDelta.Arguments != nil {
+                      if call, ok := currentCalls[idx]; ok {
+                          call.arguments.WriteString(*argsDelta.Arguments)
+                      }
+                  }
+              } else if textDelta := stepDelta.GetDeltaText(); textDelta != nil {
+                  fmt.Print(textDelta.GetText())
+              }
+          } else if completed := event.GetDataInteractionCompleted(); completed != nil {
+              for _, call := range currentCalls {
+                  toolCalls = append(toolCalls, map[string]any{
+                      &quot;type&quot;:      &quot;function_call&quot;,
+                      &quot;id&quot;:        call.id,
+                      &quot;name&quot;:      call.name,
+                      &quot;arguments&quot;: call.arguments.String(),
+                  })
+              }
+              fmt.Println(&quot;\nFinal tool calls ready to execute:&quot;)
+              fmt.Println(toolCalls)
+          }
+      }
+  }
+  ```
+
+  {% /tab %}
+
+{% /tabs %}
+
+## Best practices  {% id=&quot;best-practices&quot; %}
+
+* **Function and Parameter Descriptions:** Be clear and specific.
+* **Naming:** Use descriptive names without spaces or special characters.
+* **Strong Typing:** Use specific types (integer, string, enum).
+* **Tool Selection:** Keep active set to 10-20 tools maximum.
+* **Prompt Engineering:** Provide context and instructions.
+* **Validation:** Validate function calls before executing.
+* **Error Handling:** Implement robust error handling.
+* **Security:** Use appropriate authentication for external APIs.
+
+## Workarounds for pre-tool text requirements  {% id=&quot;workarounds-for-pre-tool-text-requirements&quot; %}
+
+**Issue:** If your prompt requires the model to output structured text (XML, YAML, JSON, etc.) (e.g., `&lt;UPDATE&gt;...&lt;/UPDATE&gt;`) immediately before making a tool call, the tool call may occasionally fail with `Malformed_Function_Call`.
+
+**Solutions:** The following workarounds resolve this issue:
+
+* **PREFERRED:** Instruct the model to put its pre-tool notes inside a dedicated `update()` function call instead of raw text (details below).
+* Instruct the model to write notes as Markdown headers (`# UPDATE`, `## PLAN`) instead of structured text.
+* Do not require the model to output text before tool calls.
+
+### Preferred workaround: Wrap working notes in a dedicated function call  {% id=&quot;preferred-workaround&quot; %}
+
+Instead of the original instruction:
+
+```html
+Before calling a tool, in every response you MUST first output a single `&lt;UPDATE&gt;` part as specified, don&#39;t skip this part or any of required sub-tags within `&lt;UPDATE&gt;`.
+```
+
+Use this updated instruction:
+
+```html
+Before calling any other tool, in every response you MUST first call `update` with all required parameters (previous_step, plan, next_step, external).
+```
+
+And update all references to the old `&lt;UPDATE&gt;` XML format in the customer request. Then add the corresponding function declaration for the update function:
+
+```json
+{
+  &quot;name&quot;: &quot;update&quot;,
+  &quot;description&quot;: &quot;Update working notes (previous step analysis, plan, next step, external note).&quot;,
+  &quot;parameters&quot;: {
+    &quot;type&quot;: &quot;OBJECT&quot;,
+    &quot;properties&quot;: {
+      &quot;previous_step&quot;: {
+        &quot;type&quot;: &quot;STRING&quot;,
+        &quot;description&quot;: &quot;Key findings and outcomes since the previous step.&quot;
+      },
+      &quot;plan&quot;: {
+        &quot;type&quot;: &quot;STRING&quot;,
+        &quot;description&quot;: &quot;The current status of the plan.&quot;
+      },
+      &quot;next_step&quot;: {
+        &quot;type&quot;: &quot;STRING&quot;,
+        &quot;description&quot;: &quot;Brief explanation of the immediate next action according to the plan.&quot;
+      },
+      &quot;external&quot;: {
+        &quot;type&quot;: &quot;STRING&quot;,
+        &quot;description&quot;: &quot;A short, plain-language note shown to the User about what you are ABOUT TO DO next.&quot;
+      }
+    },
+    &quot;required&quot;: [
+      &quot;previous_step&quot;,
+      &quot;plan&quot;,
+      &quot;next_step&quot;,
+      &quot;external&quot;
+    ]
+  }
+}
+```
+
+Then the model will make two calls in the same step: the `update()` call that replaces the structured XML, and the actual function call it wants to make.
+
+## Notes and limitations  {% id=&quot;limitations&quot; %}
+
+* Only a [subset of the OpenAPI schema](/api-reference/generate-content#Resource:Tool) is supported.
+* For `any` mode, very large or deeply nested schemas may be rejected.
+* Supported parameter types in Python are limited.
+
+### Simplifying complex function schemas  {% id=&quot;simplifying-complex-schemas&quot; %}
+
+When you use `any` mode or define complex parameter schemas, the API compiles
+your function declarations into a state machine that constrains token
+generation. This state machine enforces limits on total states, branching
+paths, and nesting depth. If the combined complexity of your tools exceeds
+these limits, the API rejects the request with a `400 INVALID_ARGUMENT` error.
+
+To fix schema rejection errors, reduce the structural depth and branching
+factor of your declarations. You can simplify complex function schemas in
+several ways:
+
+* **Split large tool sets and move rules to descriptions:** Constrained
+  decoding evaluates all declared tools together. Limit the number of functions
+  in a single request and split monolithic functions into smaller, focused
+  tools. Move complex formatting rules into field `description` properties or
+  system instructions, which guide the model without expanding the grammar.
+* **Flatten nested objects and bound recursion:** Replace deeply nested object
+  hierarchies with flatter structures. If you use `$defs` and `$ref` for
+  recursive types, make the recursive reference optional or nullable. Avoid
+  recursing through required properties or arrays with `minItems` greater than
+  zero.
+* **Reduce branching from optional fields, enums, and unions:** Optional
+  properties, `enum` values, and `anyOf` branches multiply the branching paths
+  in the output grammar. Mark properties as `required` where possible and allow
+  `null` values when a field can be empty. Trim large `enum` lists and simplify
+  `anyOf` unions, or include the constraint in your prompt (for example, with a
+  Pydantic schema) as a softer restriction.
+* **Shorten property names and drop array bounds:** Property keys consume
+  states proportional to their character length. Array bounds such as
+  `minItems` and `maxItems` also duplicate the item schema for each counted
+  position. Use concise property names, remove unused fields, and either
+  include array bounds in your prompt (for example, with a Pydantic schema) as
+  a softer restriction or check array lengths in your application code.
+
+</pre></noscript><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TT9C75WP" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><script src="https://www.gstatic.com/_/mss/boq-makersuite/_/js/k=boq-makersuite.MakerSuite.en_US.JLBvzaeCXqM.2018.O/am=AaRKgIHgEA/d=1/excm=_b/ed=1/dg=0/wt=2/ujg=1/rs=AMOXD28TXvfRTu02iapAh4ulgskYyMojcA/dti=1/m=_b" id="base-js" data-scope-id="b5dd02d8-5bd4-4f23-a282-a37cf92d8e19" nonce="NO4JpEQUcnt87ezEIRLB-w"></script></body></html>

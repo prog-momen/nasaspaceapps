@@ -1,0 +1,13 @@
+{
+  "id": "trend_be",
+  "url": "https://www.spaceappschallenge.org/2026/challenges/be-an-earth-system-trend-detective/?tab=resources",
+  "checked_at": "2026-11-14T15:09:15.013146+00:00",
+  "tls_validation": false,
+  "status": 200,
+  "final_url": "https://www.spaceappschallenge.org/2026/challenges/be-an-earth-system-trend-detective/?tab=resources",
+  "bytes": 39635,
+  "content_type": "text/html; charset=utf-8",
+  "sha256": "3ee091a64822e197d3057aa1aba129e480d5aa2827e1c60f8e016dd9a7b9fb6e",
+  "links": [],
+  "elapsed_seconds": 0.672
+}

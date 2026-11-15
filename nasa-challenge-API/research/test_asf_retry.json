@@ -1,0 +1,13 @@
+{
+  "id": "test_asf_retry",
+  "url": "https://api.daac.asf.alaska.edu/services/search/param?platform=Sentinel-1&bbox=35.2,32.1,35.3,32.3&start=2025-01-01T00%3A00%3A00Z&end=2025-01-03T00%3A00%3A00Z&output=geojson&maxResults=1",
+  "checked_at": "2026-11-14T15:13:33.467621+00:00",
+  "tls_validation": false,
+  "status": 200,
+  "final_url": "https://api.daac.asf.alaska.edu/services/search/param?platform=Sentinel-1&bbox=35.2,32.1,35.3,32.3&start=2025-01-01T00%3A00%3A00Z&end=2025-01-03T00%3A00%3A00Z&output=geojson&maxResults=1",
+  "bytes": 55,
+  "content_type": "application/geo+json; charset=utf-8",
+  "sha256": "0e48e00525b7d02b53a0cbade537868bcc0fb3450f5131a9591516e37d3cb181",
+  "links": [],
+  "elapsed_seconds": 2.844
+}

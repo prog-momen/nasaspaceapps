@@ -1,0 +1,393 @@
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta name="google-site-verification" content="fpm-ihn-NqE5SPhSZVC5R7CAIp41BOTLKm8FjrJT7A0" />
+    <meta name="msvalidate.01" content="1E6248CC83F622D09CD63D4B759AB6F1" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    <link type="image/x-icon" rel="shortcut icon" href="https://prism.oregonstate.edu/inc/images/favicon.ico" />
+    <link type="text/css" rel="stylesheet" href="https://util.nacse.org/css/bootstrap/5.3.7/bootstrap.min.css" />
+    <link type="text/css" rel="stylesheet" media="all" href="https://util.nacse.org/js/jQuery-ui/1.14.0/jquery-ui.css" />
+    <link rel="stylesheet" href="https://util.nacse.org/js/jQuery-ui/1.14.0/jquery-ui.theme.css">
+    <link type="text/css" rel="stylesheet" media="all" href="https://prism.oregonstate.edu/inc/css/navbar.css?r=1189b" />
+    <link type="text/css" rel="stylesheet" media="all" href="https://prism.oregonstate.edu/inc/css/public.css?r=1189b" id="pubcss" />
+
+    <script type="text/javascript" src="https://util.nacse.org/js/bootstrap/5.3.7/bootstrap.bundle.min.js" type="text/javascript"></script>
+    <script src="https://util.nacse.org/js/jQuery/3.7.1/jquery-3.7.1.min.js" type="text/javascript"></script>
+    <script src="https://util.nacse.org/js/jQuery-ui/1.14.0/jquery-ui.min.js" type="text/javascript"></script>
+    <script src="https://util.nacse.org/js/libjs/libjs.current/prism/prism.js" type="text/javascript"></script>
+    <script type="text/javascript" src="https://prism.oregonstate.edu/inc/js/public.js"></script>
+    <script type="text/javascript" src="https://prism.oregonstate.edu/inc/js/jquery.mousewheel.js"></script>
+    <script type="text/javascript" src="https://prism.oregonstate.edu/inc/js/imagezoom.js"></script>
+
+    <title>PRISM Group at Oregon State University</title>
+
+    <script>
+      var prism_conf = {
+          base: "https://prism.oregonstate.edu/"
+      };
+    </script>
+  </head>
+
+
+<script type="text/javascript">
+  $(document).ready(function(){
+
+    //Navbar
+    $("#carousel-main").addClass("active");
+    $("#link-home").addClass("active");
+
+    //Our graphics Archive
+    let base = "https://data.prism.oregonstate.edu/map_graphics/us/an/png/800m/";
+    let drought_base = "https://prism.oregonstate.edu/comparisons/images/prism_drought/";
+
+    // Grab the latest date for which we have the graphics
+    var latest_pga_date = "2026-11-13";
+    var year,month,day;
+  
+    [year,month,day] = latest_pga_date.split('-');
+
+    $("#mtd_ppt").attr('src',base+"ppt/mtd/2026/prism_ppt_us_30s_20261113_mtd_076dpi.png?r=1189b");
+    $("#mtd_tmin").attr('src',base+"tmin/mtd/2026/prism_tmin_us_30s_20261113_mtd_076dpi.png?r=1189b");
+    $("#mtd_tmean").attr('src',base+"tmean/mtd_anom/2026/prism_tmean_us_30s_20261113_mtd_anom_076dpi.png?r=1189b");
+    $("#mtd_tmax").attr('src',base+"tmax/mtd/2026/prism_tmax_us_30s_20261113_mtd_076dpi.png?r=1189b");
+    $('#mtd_drought').attr('src',drought_base+"2026/prism_ppt_us_30s_202611_anom-2020-30y_05m_mtd.png?r=1189b");
+    $("#mtd_solslope").attr('src',base+"solslope/mtd/2026/prism_solslope_us_30s_20261113_mtd_076dpi.png?r=1189b");
+
+  });
+</script>
+
+<style>
+.bbg{
+  background-color: #fff3de;
+}
+.carimg{
+  width: 820px; 
+  height: 410px; 
+  object-fit: contain;
+}
+.carousel-indicators .carbtn {
+  background-color: #ccc;
+  border: 1px solid #000;
+  height: 4px;
+  opacity: 1;
+}
+.carousel-indicators .active {
+  background-color: #fa8416;
+  border: 1px solid #000;
+  height: 4px;
+  opacity: 1;
+}
+.carousel-item {
+  min-height: 410px;
+  transition: transform 0s ease-out, transform 0s ease-in;
+}
+.carousel-inner {
+  min-height: 410px;
+}
+</style>
+
+  <body>
+  <div id="uber_main">
+    <div class="banner"></div>
+    <div id="navwrap" class="d-flex justify-content-center">
+        <nav class="navbar navbar-expand navbar-dark" style="background-color: #1a1a1a;">
+          <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="navbar_main">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+    
+                <!-- Home -->
+                <li class="nav-item">
+                  <a class="nav-link" href="https://prism.oregonstate.edu/" id="link-home">Home</a>
+                </li>
+    
+                <!-- PRISM -->
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" id="link-prism">About</a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="https://prism.oregonstate.edu/overview">PRISM Overview</a></li>
+                    <li><a class="dropdown-item" href="https://prism.oregonstate.edu/whatsnew">What's New</a></li>
+                    <li><a class="dropdown-item" href="https://prism.oregonstate.edu/pubs">Publications</a></li>
+                    <!-- <li><a class="dropdown-item" href="https://prism.oregonstate.edu/news">PRISM in the News</a></li> -->
+                    <li><a class="dropdown-item" href="https://prism.oregonstate.edu/participate">Citizen Science</a></li>
+                    <li>
+                      <a class="dropdown-item" href="https://lists.engr.oregonstate.edu/mailman3/lists/prism-updates.lists.engr.oregonstate.edu" target="_blank">
+                      Mailing List&nbsp;
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-up-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M6.364 13.5a.5.5 0 0 0 .5.5H13.5a1.5 1.5 0 0 0 1.5-1.5v-10A1.5 1.5 0 0 0 13.5 1h-10A1.5 1.5 0 0 0 2 2.5v6.636a.5.5 0 1 0 1 0V2.5a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 .5.5v10a.5.5 0 0 1-.5.5H6.864a.5.5 0 0 0-.5.5" />
+                        <path fill-rule="evenodd" d="M11 5.5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793l-8.147 8.146a.5.5 0 0 0 .708.708L10 6.707V10.5a.5.5 0 0 0 1 0z"/>
+                      </svg>
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+    
+                <!-- Data Access -->
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" id="link-data">Data Grids</a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="https://prism.oregonstate.edu/data">Time Series Data</a></li>
+                    <li><a class="dropdown-item" href="https://prism.oregonstate.edu/normals">1991-2020 Normals</a></li>
+                    <li><a class="dropdown-item" href="https://prism.oregonstate.edu/normals_other">Other Normals</a></li>
+                    <li>
+                      <a class="dropdown-item" href="https://data.prism.oregonstate.edu" target="_blank">
+                      Data Directory&nbsp;
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-up-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M6.364 13.5a.5.5 0 0 0 .5.5H13.5a1.5 1.5 0 0 0 1.5-1.5v-10A1.5 1.5 0 0 0 13.5 1h-10A1.5 1.5 0 0 0 2 2.5v6.636a.5.5 0 1 0 1 0V2.5a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 .5.5v10a.5.5 0 0 1-.5.5H6.864a.5.5 0 0 0-.5.5" />
+                        <path fill-rule="evenodd" d="M11 5.5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793l-8.147 8.146a.5.5 0 0 0 .708.708L10 6.707V10.5a.5.5 0 0 0 1 0z"/>
+                      </svg>
+                      </a>
+                    </li>
+                    <li><a class="dropdown-item" href="https://prism.oregonstate.edu/data/supporting.php">Supporting Datasets</a></li>
+                  </ul>
+                </li>
+    
+                <!-- Data Explorer -->
+                  <a class="nav-link" href="https://prism.oregonstate.edu/explorer" id="link-explorer">Data Explorer</a>
+                <!-- Map Graphics -->
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" id="link-graphics">Map Graphics</a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="https://prism.oregonstate.edu/comparisons/anomalies.php">Anomalies &amp; Month-to-Date</a></li>
+                    <li><a class="dropdown-item" href="https://prism.oregonstate.edu/comparisons/drought.php">Drought Indicator Tool</a></li>
+                    <li><a class="dropdown-item" href="https://prism.oregonstate.edu/graphics/gallery.php">State Precipitation Maps</a></li>
+                    <li><a class="dropdown-item" href="https://prism.oregonstate.edu/graphics">Daily Map Graphics Generator</a></li>
+                    <li><a class="dropdown-item" href="https://prism.oregonstate.edu/normals/animation.php">Daily Normals Animations</a></li>
+                    <li>
+                      <a class="dropdown-item" href="https://data.prism.oregonstate.edu/map_graphics" target="_blank">
+                      Map Graphics Archive&nbsp;
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-up-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M6.364 13.5a.5.5 0 0 0 .5.5H13.5a1.5 1.5 0 0 0 1.5-1.5v-10A1.5 1.5 0 0 0 13.5 1h-10A1.5 1.5 0 0 0 2 2.5v6.636a.5.5 0 1 0 1 0V2.5a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 .5.5v10a.5.5 0 0 1-.5.5H6.864a.5.5 0 0 0-.5.5" />
+                        <path fill-rule="evenodd" d="M11 5.5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793l-8.147 8.146a.5.5 0 0 0 .708.708L10 6.707V10.5a.5.5 0 0 0 1 0z"/>
+                      </svg>
+                      </a>
+                  </ul>
+                </li>
+    
+                <!-- Projects -->
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" id="link-projects">Plant Hardiness</a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="https://prism.oregonstate.edu/phzm">Current Version (2023)</a></li>
+                    <li><a class="dropdown-item" href="https://prism.oregonstate.edu/phzm/phzm_2012.php">Prior Version (2012)</a></li>
+                  </ul>
+                </li>
+    
+                <!-- Documentation -->
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" id="link-docs">Documentation</a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="https://prism.oregonstate.edu/documents/PRISM_datasets.pdf" target="_blank">
+                        PRISM Datasets (pdf) &nbsp;
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-up-right" viewBox="0 0 16 16">
+                          <path fill-rule="evenodd" d="M6.364 13.5a.5.5 0 0 0 .5.5H13.5a1.5 1.5 0 0 0 1.5-1.5v-10A1.5 1.5 0 0 0 13.5 1h-10A1.5 1.5 0 0 0 2 2.5v6.636a.5.5 0 1 0 1 0V2.5a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 .5.5v10a.5.5 0 0 1-.5.5H6.864a.5.5 0 0 0-.5.5" />
+                          <path fill-rule="evenodd" d="M11 5.5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793l-8.147 8.146a.5.5 0 0 0 .708.708L10 6.707V10.5a.5.5 0 0 0 1 0z"/>
+                        </svg>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="https://prism.oregonstate.edu/documents/PRISM_history.pdf" target="_blank">
+                PRISM History (pdf) &nbsp;
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-up-right" viewBox="0 0 16 16">
+                          <path fill-rule="evenodd" d="M6.364 13.5a.5.5 0 0 0 .5.5H13.5a1.5 1.5 0 0 0 1.5-1.5v-10A1.5 1.5 0 0 0 13.5 1h-10A1.5 1.5 0 0 0 2 2.5v6.636a.5.5 0 1 0 1 0V2.5a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 .5.5v10a.5.5 0 0 1-.5.5H6.864a.5.5 0 0 0-.5.5" />
+                          <path fill-rule="evenodd" d="M11 5.5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793l-8.147 8.146a.5.5 0 0 0 .708.708L10 6.707V10.5a.5.5 0 0 0 1 0z"/>
+                        </svg>
+                      </a>
+                    </li>
+                    <li><a class="dropdown-item" href="https://prism.oregonstate.edu/methods">PRISM Methods</a></li>
+                    <li><a class="dropdown-item" href="https://prism.oregonstate.edu/formats">PRISM Data Formats</a></li>
+                    <li><a class="dropdown-item" href="https://prism.oregonstate.edu/downloads">Bulk Data Download Info</a></li>
+                    <li><a class="dropdown-item" href="https://prism.oregonstate.edu/terms">Terms of Use</a></li>
+                    <li class="nav-item dropend">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="font-size: 0.95em; padding: 4px 8px 4px 12px;">Data Updates Calendar</a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="https://prism.oregonstate.edu/calendar">Overview</a></li>
+                        <li><a class="dropdown-item" href="https://prism.oregonstate.edu/calendar/list.php">Daily Data (list)</a></li>
+                        <li><a class="dropdown-item" href="https://prism.oregonstate.edu/calendar/grid.php">Daily Data (tabular)</a></li>
+                        <li><a class="dropdown-item" href="https://prism.oregonstate.edu/calendar/month.php">Monthly Data (tabular)</a></li>
+                      </ul>
+                    </li>
+                    <li><a class="dropdown-item" href="https://prism.oregonstate.edu/issues">Known Data Issues</a></li>
+                    <li><a class="dropdown-item" href="https://prism.oregonstate.edu/notices">Data Notices Archive</a></li>
+                  </ul>
+                </li>
+    
+                <!-- FAQ -->
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="https://prism.oregonstate.edu/faq" id="link-faq">FAQ</a>
+                </li>
+    
+              </ul>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <!-- <script type="text/javascript" src="https://prism.oregonstate.edu/inc/js/navbar.js"></script> -->
+    
+    <div id="main">
+      <div id="content">
+        <div id="wrapper" style="padding: 20px 0px 0px 0px;">
+          <div class="title_line" style="font-size: 2em;">
+            PRISM Weather Data
+          </div>
+
+          <div class="alert alert-primary alert-dismissible fade show p-2" role="alert">
+            <strong>PRISM Map Graphics Announcement (2026-10-22):</strong>&nbsp;&nbsp;<a href="notices/notice_20261022.php" class="alert-link" target="_blank">Month-to-Date Anomaly map graphics now available</a>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-up-right" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M6.364 13.5a.5.5 0 0 0 .5.5H13.5a1.5 1.5 0 0 0 1.5-1.5v-10A1.5 1.5 0 0 0 13.5 1h-10A1.5 1.5 0 0 0 2 2.5v6.636a.5.5 0 1 0 1 0V2.5a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 .5.5v10a.5.5 0 0 1-.5.5H6.864a.5.5 0 0 0-.5.5" />
+              <path fill-rule="evenodd" d="M11 5.5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793l-8.147 8.146a.5.5 0 0 0 .708.708L10 6.707V10.5a.5.5 0 0 0 1 0z"/>
+            </svg>
+            <button type="button" class="btn-close p-2" data-bs-dismiss="alert" aria-label="Close"></button>
+          </div>
+
+          <div class="alert alert-primary alert-dismissible fade show p-2" role="alert">
+            <strong>PRISM Data Announcement (2026-09-08):</strong>&nbsp;&nbsp;<a href="notices/notice_20260908.php" class="alert-link" target="_blank">PRISM data now available in netCDF format</a>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-up-right" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M6.364 13.5a.5.5 0 0 0 .5.5H13.5a1.5 1.5 0 0 0 1.5-1.5v-10A1.5 1.5 0 0 0 13.5 1h-10A1.5 1.5 0 0 0 2 2.5v6.636a.5.5 0 1 0 1 0V2.5a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 .5.5v10a.5.5 0 0 1-.5.5H6.864a.5.5 0 0 0-.5.5" />
+              <path fill-rule="evenodd" d="M11 5.5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793l-8.147 8.146a.5.5 0 0 0 .708.708L10 6.707V10.5a.5.5 0 0 0 1 0z"/>
+            </svg>
+            <button type="button" class="btn-close p-2" data-bs-dismiss="alert" aria-label="Close"></button>
+          </div>
+
+          <div style="width: 820px; margin: 0 auto;">
+            <div id="carousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="6000" style="background-color: black;">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="carbtn active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" class="carbtn" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" class="carbtn" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="3" class="carbtn" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="4" class="carbtn" aria-label="Slide 5"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="5" class="carbtn" aria-label="Slide 6"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="6" class="carbtn" aria-label="Slide 7"></button> 
+                <!-- <button type="button" data-bs-target="#carousel" data-bs-slide-to="6" class="carbtn" aria-label="Slide 7"></button> -->
+          
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item bbg active" id="carousel-main">
+                  <a href="https://prism.oregonstate.edu/comparisons/anomalies.php?var=ppt">
+                    <img src="inc/images/carousel/car_blank.jpg" id="mtd_ppt" class="d-block carimg" alt="CONUS Month-to-Date Daily Precipitation">
+                    <div class="carousel-caption d-none d-md-block">
+                      <p>CONUS Month-to-Date Daily Precipitation</p>
+                    </div>
+                  </a>
+                </div>
+                <div class="carousel-item bbg">
+                  <a href="https://prism.oregonstate.edu/comparisons/drought.php">
+                    <img src="inc/images/carousel/car_blank.jpg" id="mtd_drought" class="d-block carimg" alt="CONUS Month-to-Date Drought Indicator">
+                    <div class="carousel-caption d-none d-md-block">
+                      <p>CONUS Month-to-Date Drought Indicator</p>
+                    </div>
+                  </a>
+                </div>
+                <div class="carousel-item bbg">
+                  <a href="https://prism.oregonstate.edu/comparisons/anomalies.php?var=tmin">
+                    <img src="inc/images/carousel/car_blank.jpg" id="mtd_tmin" class="d-block carimg" alt="CONUS Month-to-Date Daily Minimum Temperature">
+                    <div class="carousel-caption d-none d-md-block">
+                      <p>CONUS Month-to-Date Daily Minimum Temperature</p>
+                    </div>
+                  </a>
+                </div>
+                <div class="carousel-item bbg">
+                  <a href="https://prism.oregonstate.edu/comparisons/anomalies.php?var=tmean&comp=mtdanom">
+                    <img src="inc/images/carousel/car_blank.jpg" id="mtd_tmean" class="d-block carimg" alt="CONUS Month-to-Date Daily Mean Temperature Anomaly">
+                    <div class="carousel-caption d-none d-md-block">
+                      <p>CONUS Month-to-Date Daily Mean Temperature Anomaly</p>
+                    </div>
+                  </a>
+                </div>
+                <div class="carousel-item bbg">
+                  <a href="https://prism.oregonstate.edu/comparisons/anomalies.php?var=tmax">
+                    <img src="inc/images/carousel/car_blank.jpg" id="mtd_tmax" class="d-block carimg" alt="CONUS Month-to-Date Daily Maximum Temperature">
+                    <div class="carousel-caption d-none d-md-block">
+                      <p>CONUS Month-to-Date Daily Maximum Temperature</p>
+                    </div>
+                  </a>
+                </div>
+                <div class="carousel-item bbg">
+                  <a href="https://prism.oregonstate.edu/comparisons/anomalies.php?var=solslope">
+                    <img src="inc/images/carousel/car_blank.jpg" id="mtd_solslope" class="d-block carimg" alt="CONUS Month-to-Date Average Daily Solar Irradiance (Sloped Surface)">
+                    <div class="carousel-caption d-none d-md-block">
+                      <p>CONUS Month-to-Date Average Daily Solar Irradiance (Sloped Surface)</p>
+                    </div>
+                  </a>
+                </div>
+                <div class="carousel-item bbg">
+                  <a href="https://planthardiness.ars.usda.gov" target="_blank">
+                    <img src="inc/images/carousel/phzm.jpg" id="phzm" class="d-block carimg" alt="2023 Plant Hardiness Zone Map">
+                    <div class="carousel-caption d-none d-md-block">
+                      <p>2023 USDA Plant Hardiness Zone Map</p>
+                    </div>
+                  </a>
+                </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+
+          <br /><br />
+
+          <div style="font-size:1.4em;">
+          <p>The <b>PRISM Group</b> gathers weather observations from a wide range of monitoring networks, applies sophisticated quality control measures and mapping methods, and develops spatial datasets to reveal <b>short- and long-term weather patterns</b>.<p>
+          <p>The <a href="data">resulting datasets</a> incorporate a variety of modeling techniques and are available at multiple spatial/temporal resolutions, covering <b>1895 to the present</b> (<a href="documents/PRISM_datasets.pdf" target="_blank">detailed information</a>).</p>
+          <p>We offer these datasets to the public free of charge and provide mutiple options for <a href="downloads">bulk gridded data downloads</a>, as well as the ability to <a href="explorer">fetch a data time series</a> for a single grid cell across any number of days/months/years.</p>
+
+          <div class="separator"></div>
+          <br />
+
+          <p style="font-size: 0.9em;"><b>Key website sections:</b></p>
+          <p class="home_page_item">
+            <a href="https://prism.oregonstate.edu/data"><b>Time Series Data</b></a>&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Download PRISM time series data grids covering daily (1981-present), monthly (1895-present), and annual (1895-present) temporal periods. Both 4km and 800m spatial resolutions available.
+          </p>
+          <p class="home_page_item" style="padding-top:5px;">
+            <a href="https://prism.oregonstate.edu/normals"><b>30-Year Normals</b></a>&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Download PRISM 30-year normals grids. At the end of each decade, average values for all variables are computed over the preceding 30 years. The current set of 30-year normals covers the period 1991-2020.
+          </p>
+          <p class="home_page_item">
+            <a href="https://prism.oregonstate.edu/explorer"><b>Data Explorer</b></a>&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Retrieve and download 4km and 800m time series data for point locations. Our bulk option allows up to 500 points in a single request.
+          </p>
+          <p class="home_page_item">
+            <a href="https://prism.oregonstate.edu/downloads"><b>Bulk Data Downloads</b></a>&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Access to web services and FTP resources for downloading PRISM data in bulk.
+          </p>
+          <p class="home_page_item">
+            <a href="https://prism.oregonstate.edu/comparisons/anomalies.php"><b>Anomalies</b></a>&nbsp;&nbsp;&mdash;&nbsp;&nbsp;View &quot;anomaly&quot; map graphics that represent how observed values deviate from long-term conditions.
+          </p>
+          <p class="home_page_item">
+            <a href="https://data.prism.oregonstate.edu" target="_blank"><b>Data Directory</b></a>&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Web-browseable reflection of our FTP server that includes all PRISM time series and normals data, a map graphics archive, and prior versions of PRISM data.
+          </p>
+          <p class="home_page_item">
+            <a href="https://prism.oregonstate.edu/pubs"><b>Publications</b></a>&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Full listing of PRISM-related peer reviewed publications, with links to download journal articles.
+          </p>
+
+          <br />
+
+        </div>
+
+        </div>
+      </div>
+
+      <div style='width:60%;margin:10px auto 20px auto'>
+        <div style="width:100%">
+          <table style='width:100%;border-collapse:collapse;border-spacing:0px'>
+            <tr>
+              <td> <img src='inc/images/RMA_logo.png'/> </td>
+              <td> This website is supported by the <a href='http://www.rma.usda.gov'>USDA Risk Management Agency</a></td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div id='footer'>
+Questions to <a href='mailto:prism-questions@nacse.org'>prism-questions@nacse.org</a></br>
+&copy; 2026 Northwest Alliance for Computational Science &amp; Engineering (<a href='http://www.nacse.org' target='_blank'>NACSE</a>), based at <a href='http://www.oregonstate.edu' target='_blank'>Oregon State University</a>
+
+    </div>
+  </div>
+  </body>
+</html>

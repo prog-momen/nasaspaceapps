@@ -1,0 +1,2254 @@
+{
+  "id": "resource_R067",
+  "url": "https://www.usgs.gov/centers/eros/science/national-land-cover-database",
+  "checked_at": "2026-11-14T15:15:17.882287+00:00",
+  "tls_validation": false,
+  "status": 200,
+  "final_url": "https://www.usgs.gov/centers/eros/science/national-land-cover-database",
+  "bytes": 416195,
+  "content_type": "text/html; charset=utf-8",
+  "sha256": "153ed6ccdfd99bccee3b6a89243f4d9f550d727ec179b10c2bf5494a9760c16f",
+  "links": [
+    {
+      "url": "https://www.usgs.gov/centers/eros/science/national-land-cover-database#main-content",
+      "label": "Skip to main content"
+    },
+    {
+      "url": "https://www.usgs.gov/",
+      "label": ""
+    },
+    {
+      "url": "https://www.usgs.gov/science/science-explorer",
+      "label": "Science Explorer"
+    },
+    {
+      "url": "https://www.usgs.gov/science/science-explorer/biology",
+      "label": "Biology"
+    },
+    {
+      "url": "https://www.usgs.gov/science/science-explorer/climate",
+      "label": "Climate"
+    },
+    {
+      "url": "https://www.usgs.gov/science/science-explorer/coasts",
+      "label": "Coasts"
+    },
+    {
+      "url": "https://www.usgs.gov/search?keywords=energy",
+      "label": "Energy"
+    },
+    {
+      "url": "https://www.usgs.gov/search?keywords=environmental%20health",
+      "label": "Environmental Health"
+    },
+    {
+      "url": "https://www.usgs.gov/search?keywords=geology",
+      "label": "Geology"
+    },
+    {
+      "url": "https://www.usgs.gov/search?keywords=information%20systems",
+      "label": "Information Systems"
+    },
+    {
+      "url": "https://www.usgs.gov/science/science-explorer/maps-and-mapping",
+      "label": "Maps and Mapping"
+    },
+    {
+      "url": "https://www.usgs.gov/science/science-explorer/minerals",
+      "label": "Minerals"
+    },
+    {
+      "url": "https://www.usgs.gov/search?keywords=methods%20and%20analysis",
+      "label": "Methods and Analysis"
+    },
+    {
+      "url": "https://www.usgs.gov/science/science-explorer/natural-hazards",
+      "label": "Natural Hazards"
+    },
+    {
+      "url": "https://www.usgs.gov/science/science-explorer/ocean",
+      "label": "Ocean"
+    },
+    {
+      "url": "https://www.usgs.gov/science/science-explorer/planetary-science",
+      "label": "Planetary Science"
+    },
+    {
+      "url": "https://www.usgs.gov/search?keywords=science%2Btechnology",
+      "label": "Science Technology"
+    },
+    {
+      "url": "https://www.usgs.gov/search?keywords=water",
+      "label": "Water"
+    },
+    {
+      "url": "https://www.usgs.gov/science/mission-areas",
+      "label": "Mission Areas"
+    },
+    {
+      "url": "https://www.usgs.gov/mission-areas/core-science-systems",
+      "label": "Core Science Systems"
+    },
+    {
+      "url": "https://www.usgs.gov/mission-areas/ecosystems",
+      "label": "Ecosystems"
+    },
+    {
+      "url": "https://www.usgs.gov/mission-areas/geology-energy-minerals",
+      "label": "Geology, Energy, and Minerals"
+    },
+    {
+      "url": "https://www.usgs.gov/mission-areas/natural-hazards",
+      "label": "Natural Hazards"
+    },
+    {
+      "url": "https://www.usgs.gov/mission-areas/water-resources",
+      "label": "Water Resources"
+    },
+    {
+      "url": "https://www.usgs.gov/science/programs",
+      "label": "Programs"
+    },
+    {
+      "url": "https://www.usgs.gov/science/regions",
+      "label": "Regions"
+    },
+    {
+      "url": "https://www.usgs.gov/regions/northeast-region",
+      "label": "Northeast Region"
+    },
+    {
+      "url": "https://www.usgs.gov/regions/southeast",
+      "label": "Southeast Region"
+    },
+    {
+      "url": "https://www.usgs.gov/regions/midcontinent",
+      "label": "Midcontinent Region"
+    },
+    {
+      "url": "https://www.usgs.gov/regions/rocky-mountain-region",
+      "label": "Rocky Mountain Region"
+    },
+    {
+      "url": "https://www.usgs.gov/regions/southwest",
+      "label": "Southwest Region"
+    },
+    {
+      "url": "https://www.usgs.gov/regions/alaska",
+      "label": "Alaska Region"
+    },
+    {
+      "url": "https://www.usgs.gov/regions/northwest-pacific-islands",
+      "label": "Northwest-Pacific Islands Region"
+    },
+    {
+      "url": "https://www.usgs.gov/science/science-centers",
+      "label": "Science Centers"
+    },
+    {
+      "url": "https://www.usgs.gov/science/observatories",
+      "label": "Observatories"
+    },
+    {
+      "url": "https://www.usgs.gov/science/laboratories",
+      "label": "Laboratories"
+    },
+    {
+      "url": "https://www.usgs.gov/science/faqs",
+      "label": "Frequently Asked Questions"
+    },
+    {
+      "url": "https://www.usgs.gov/educational-resources",
+      "label": "Educational Resources"
+    },
+    {
+      "url": "https://www.usgs.gov/science/special-topics",
+      "label": "Special Topics"
+    },
+    {
+      "url": "https://www.usgs.gov/products/data",
+      "label": "Data"
+    },
+    {
+      "url": "https://www.usgs.gov/products/data-and-tools/data-management",
+      "label": "Data Management"
+    },
+    {
+      "url": "https://www.usgs.gov/products/data/data-releases",
+      "label": "Data Releases"
+    },
+    {
+      "url": "https://www.usgs.gov/products/data/real-time-data",
+      "label": "Real-time Data"
+    },
+    {
+      "url": "https://www.usgs.gov/products/data/all-data",
+      "label": "All Data"
+    },
+    {
+      "url": "https://www.usgs.gov/products/maps",
+      "label": "Maps"
+    },
+    {
+      "url": "https://www.usgs.gov/programs/national-cooperative-geologic-mapping-program/science/national-geologic-map-database-0",
+      "label": "Geologic Maps"
+    },
+    {
+      "url": "https://www.usgs.gov/products/maps/map-releases",
+      "label": "Map Releases"
+    },
+    {
+      "url": "https://www.usgs.gov/programs/national-geospatial-program/topographic-maps",
+      "label": "Topographic (Topo) Maps"
+    },
+    {
+      "url": "https://www.usgs.gov/products/maps/volcanic-maps",
+      "label": "Volcanic Maps"
+    },
+    {
+      "url": "https://www.usgs.gov/products/maps/all-maps",
+      "label": "All Maps"
+    },
+    {
+      "url": "https://www.usgs.gov/products/multimedia-gallery",
+      "label": "Multimedia Gallery"
+    },
+    {
+      "url": "https://www.usgs.gov/products/multimedia-gallery/audio",
+      "label": "Audio"
+    },
+    {
+      "url": "https://www.usgs.gov/products/multimedia-gallery/images",
+      "label": "Images"
+    },
+    {
+      "url": "https://www.usgs.gov/products/multimedia-gallery/stereograms",
+      "label": "Stereograms"
+    },
+    {
+      "url": "https://www.usgs.gov/products/multimedia-gallery/videos",
+      "label": "Videos"
+    },
+    {
+      "url": "https://www.usgs.gov/products/multimedia-gallery/webcams",
+      "label": "Webcams"
+    },
+    {
+      "url": "https://www.usgs.gov/products/multimedia-gallery/all-multimedia",
+      "label": "All Multimedia"
+    },
+    {
+      "url": "https://www.usgs.gov/products/publications",
+      "label": "Publications"
+    },
+    {
+      "url": "https://www.usgs.gov/products/web-tools",
+      "label": "Web Tools"
+    },
+    {
+      "url": "https://www.usgs.gov/web-tools/alerts-and-notification-services",
+      "label": "Alert and Notification Services"
+    },
+    {
+      "url": "https://www.usgs.gov/products/web-tools/apis",
+      "label": "APIs"
+    },
+    {
+      "url": "https://www.usgs.gov/products/web-tools/data-access-tools",
+      "label": "Data Access Tools"
+    },
+    {
+      "url": "https://www.usgs.gov/products/web-tools/data-analysis-tools",
+      "label": "Data Analysis Tools"
+    },
+    {
+      "url": "https://www.usgs.gov/products/web-tools/data-visualizations",
+      "label": "Data Visualizations"
+    },
+    {
+      "url": "https://www.usgs.gov/products/web-tools/interactive-maps",
+      "label": "Interactive Maps"
+    },
+    {
+      "url": "https://www.usgs.gov/products/web-tools/all-web-tools",
+      "label": "All Web Tools"
+    },
+    {
+      "url": "https://www.usgs.gov/products/software",
+      "label": "Software"
+    },
+    {
+      "url": "https://www.usgs.gov/us-board-on-geographic-names",
+      "label": "U.S. Board on Geographic Names"
+    },
+    {
+      "url": "https://www.usgs.gov/programs/national-geospatial-program/national-map",
+      "label": "The National Map"
+    },
+    {
+      "url": "https://www.usgs.gov/library",
+      "label": "USGS Library"
+    },
+    {
+      "url": "https://store.usgs.gov",
+      "label": "USGS Store"
+    },
+    {
+      "url": "https://store.usgs.gov/recreational-passes",
+      "label": "Park Passes"
+    },
+    {
+      "url": "https://www.usgs.gov/news/news-releases",
+      "label": "News Releases"
+    },
+    {
+      "url": "https://www.usgs.gov/news/news-releases/national-news-releases",
+      "label": "National News Releases"
+    },
+    {
+      "url": "https://www.usgs.gov/news/news-releases/state-news-releases",
+      "label": "State News Releases"
+    },
+    {
+      "url": "https://www.usgs.gov/news/news-releases/all-news-releases",
+      "label": "All News Releases"
+    },
+    {
+      "url": "https://www.usgs.gov/news/featured-stories",
+      "label": "Featured Stories"
+    },
+    {
+      "url": "https://www.usgs.gov/news/science-snippets",
+      "label": "Science Snippets"
+    },
+    {
+      "url": "https://www.usgs.gov/news/technical-announcements",
+      "label": "Technical Announcements"
+    },
+    {
+      "url": "https://www.usgs.gov/news/media-contacts",
+      "label": "Media Contacts"
+    },
+    {
+      "url": "https://www.usgs.gov/connect/headquarters",
+      "label": "Headquarters"
+    },
+    {
+      "url": "https://www.usgs.gov/connect/locations",
+      "label": "Locations"
+    },
+    {
+      "url": "https://www.usgs.gov/connect/staff-profiles",
+      "label": "Staff Profiles"
+    },
+    {
+      "url": "https://www.usgs.gov/connect/social-media",
+      "label": "Social Media"
+    },
+    {
+      "url": "https://www.usgs.gov/human-capital",
+      "label": "Careers"
+    },
+    {
+      "url": "https://answers.usgs.gov",
+      "label": "Contact Us"
+    },
+    {
+      "url": "https://answers.usgs.gov/",
+      "label": "Email"
+    },
+    {
+      "url": "tel:+18882758747",
+      "label": "USGS Store 1-888-275-8747"
+    },
+    {
+      "url": "https://www.usgs.gov/about/about-us",
+      "label": "About Us"
+    },
+    {
+      "url": "https://www.usgs.gov/about/about-us/who-we-are",
+      "label": "Who We Are"
+    },
+    {
+      "url": "https://pubs.usgs.gov/circ/c1050/",
+      "label": "Our History"
+    },
+    {
+      "url": "https://www.usgs.gov/about/about-us/past-directors",
+      "label": "Past Directors"
+    },
+    {
+      "url": "https://www.usgs.gov/survey-manual",
+      "label": "Survey Manual"
+    },
+    {
+      "url": "https://www.usgs.gov/about/key-officials",
+      "label": "Key Officials"
+    },
+    {
+      "url": "https://www.usgs.gov/media/images/usgs-organizational-chart-key-officials",
+      "label": "Organizational Chart"
+    },
+    {
+      "url": "https://www.usgs.gov/about/organization",
+      "label": "Organization"
+    },
+    {
+      "url": "https://www.usgs.gov/science/mission-areas",
+      "label": "Mission Areas"
+    },
+    {
+      "url": "https://www.usgs.gov/science/programs",
+      "label": "Programs"
+    },
+    {
+      "url": "https://www.usgs.gov/science/regions",
+      "label": "Regions"
+    },
+    {
+      "url": "https://www.usgs.gov/science/science-centers",
+      "label": "Science Centers"
+    },
+    {
+      "url": "https://www.usgs.gov/science/observatories",
+      "label": "Observatories"
+    },
+    {
+      "url": "https://www.usgs.gov/science/laboratories",
+      "label": "Laboratories"
+    },
+    {
+      "url": "https://www.usgs.gov/about/organization/science-support-offices",
+      "label": "Science Support Offices"
+    },
+    {
+      "url": "https://www.usgs.gov/about/congressional",
+      "label": "Congressional"
+    },
+    {
+      "url": "https://www.usgs.gov/about/congressional/statements",
+      "label": "Statements"
+    },
+    {
+      "url": "https://www.usgs.gov/about/about-us/congressional/contactss",
+      "label": "Contacts"
+    },
+    {
+      "url": "https://www.usgs.gov/budget",
+      "label": "Budget"
+    },
+    {
+      "url": "https://www.usgs.gov/human-capital",
+      "label": "Careers and Employees"
+    },
+    {
+      "url": "https://www.doi.gov/pmb/eeo",
+      "label": "Office of Civil Rights"
+    },
+    {
+      "url": "https://www.usgs.gov/about/doing-business",
+      "label": "Doing Business"
+    },
+    {
+      "url": "https://www.usgs.gov/office-of-acquisition-and-grants",
+      "label": "Acquisition and Financial Assistance"
+    },
+    {
+      "url": "https://www.usgs.gov/programs/emergency-management",
+      "label": "Emergency Management"
+    },
+    {
+      "url": "https://www.usgs.gov/centers/eros/science/national-land-cover-database",
+      "label": "Facebook"
+    },
+    {
+      "url": "https://www.usgs.gov/centers/eros/science/national-land-cover-database",
+      "label": "Twitter"
+    },
+    {
+      "url": "https://www.usgs.gov/centers/eros/science/national-land-cover-database",
+      "label": "Linkedin"
+    },
+    {
+      "url": "https://www.usgs.gov/centers/eros/science/national-land-cover-database",
+      "label": "Digg"
+    },
+    {
+      "url": "https://www.usgs.gov/centers/eros/science/national-land-cover-database",
+      "label": "Reddit"
+    },
+    {
+      "url": "https://www.usgs.gov/centers/eros/science/national-land-cover-database",
+      "label": "Pinterest"
+    },
+    {
+      "url": "https://www.usgs.gov/centers/eros/science/national-land-cover-database",
+      "label": "Email"
+    },
+    {
+      "url": "https://www.usgs.gov/science/faqs",
+      "label": "Frequently Asked Questions"
+    },
+    {
+      "url": "https://www.usgs.gov/science/science-explorer",
+      "label": "Science Explorer"
+    },
+    {
+      "url": "https://www.usgs.gov/science/mission-areas",
+      "label": "Mission Areas"
+    },
+    {
+      "url": "https://www.usgs.gov/science/programs",
+      "label": "Programs"
+    },
+    {
+      "url": "https://www.usgs.gov/science/regions",
+      "label": "Regions"
+    },
+    {
+      "url": "https://www.usgs.gov/science/science-centers",
+      "label": "Science Centers"
+    },
+    {
+      "url": "https://www.usgs.gov/science/observatories",
+      "label": "Observatories"
+    },
+    {
+      "url": "https://www.usgs.gov/science/laboratories",
+      "label": "Laboratories"
+    },
+    {
+      "url": "https://www.usgs.gov/science/faqs",
+      "label": "Frequently Asked Questions"
+    },
+    {
+      "url": "https://www.usgs.gov/educational-resources",
+      "label": "Educational Resources"
+    },
+    {
+      "url": "https://www.usgs.gov/science/special-topics",
+      "label": "Special Topics"
+    },
+    {
+      "url": "https://www.usgs.gov/products/data",
+      "label": "Data"
+    },
+    {
+      "url": "https://www.usgs.gov/products/maps",
+      "label": "Maps"
+    },
+    {
+      "url": "https://www.usgs.gov/products/multimedia-gallery",
+      "label": "Multimedia Gallery"
+    },
+    {
+      "url": "https://www.usgs.gov/products/publications",
+      "label": "Publications"
+    },
+    {
+      "url": "https://www.usgs.gov/products/web-tools",
+      "label": "Web Tools"
+    },
+    {
+      "url": "https://www.usgs.gov/products/software",
+      "label": "Software"
+    },
+    {
+      "url": "https://www.usgs.gov/us-board-on-geographic-names",
+      "label": "U.S. Board on Geographic Names"
+    },
+    {
+      "url": "https://www.usgs.gov/programs/national-geospatial-program/national-map",
+      "label": "The National Map"
+    },
+    {
+      "url": "https://www.usgs.gov/library",
+      "label": "USGS Library"
+    },
+    {
+      "url": "https://store.usgs.gov",
+      "label": "USGS Store"
+    },
+    {
+      "url": "https://store.usgs.gov/recreational-passes",
+      "label": "Park Passes"
+    },
+    {
+      "url": "https://www.usgs.gov/news/news-releases",
+      "label": "News Releases"
+    },
+    {
+      "url": "https://www.usgs.gov/news/featured-stories",
+      "label": "Featured Stories"
+    },
+    {
+      "url": "https://www.usgs.gov/news/science-snippets",
+      "label": "Science Snippets"
+    },
+    {
+      "url": "https://www.usgs.gov/news/technical-announcements",
+      "label": "Technical Announcements"
+    },
+    {
+      "url": "https://www.usgs.gov/news/media-contacts",
+      "label": "Media Contacts"
+    },
+    {
+      "url": "https://www.usgs.gov/connect/headquarters",
+      "label": "Headquarters"
+    },
+    {
+      "url": "https://www.usgs.gov/connect/locations",
+      "label": "Locations"
+    },
+    {
+      "url": "https://www.usgs.gov/connect/staff-profiles",
+      "label": "Staff Profiles"
+    },
+    {
+      "url": "https://www.usgs.gov/connect/social-media",
+      "label": "Social Media"
+    },
+    {
+      "url": "https://www.usgs.gov/human-capital",
+      "label": "Careers"
+    },
+    {
+      "url": "https://answers.usgs.gov",
+      "label": "Contact Us"
+    },
+    {
+      "url": "https://www.usgs.gov/about/about-us",
+      "label": "About Us"
+    },
+    {
+      "url": "https://www.usgs.gov/survey-manual",
+      "label": "Survey Manual"
+    },
+    {
+      "url": "https://www.usgs.gov/about/key-officials",
+      "label": "Key Officials"
+    },
+    {
+      "url": "https://www.usgs.gov/about/organization",
+      "label": "Organization"
+    },
+    {
+      "url": "https://www.usgs.gov/about/congressional",
+      "label": "Congressional"
+    },
+    {
+      "url": "https://www.usgs.gov/budget",
+      "label": "Budget"
+    },
+    {
+      "url": "https://www.usgs.gov/human-capital",
+      "label": "Careers and Employees"
+    },
+    {
+      "url": "https://www.doi.gov/pmb/eeo",
+      "label": "Office of Civil Rights"
+    },
+    {
+      "url": "https://www.usgs.gov/about/doing-business",
+      "label": "Doing Business"
+    },
+    {
+      "url": "https://www.usgs.gov/programs/emergency-management",
+      "label": "Emergency Management"
+    },
+    {
+      "url": "https://earthquake.usgs.gov/earthquakes/map",
+      "label": "Latest Earthquakes"
+    },
+    {
+      "url": "https://www.usgs.gov/centers/eros/science/national-land-cover-database",
+      "label": "Facebook"
+    },
+    {
+      "url": "https://www.usgs.gov/centers/eros/science/national-land-cover-database",
+      "label": "Twitter"
+    },
+    {
+      "url": "https://www.usgs.gov/centers/eros/science/national-land-cover-database",
+      "label": "Linkedin"
+    },
+    {
+      "url": "https://www.usgs.gov/centers/eros/science/national-land-cover-database",
+      "label": "Digg"
+    },
+    {
+      "url": "https://www.usgs.gov/centers/eros/science/national-land-cover-database",
+      "label": "Reddit"
+    },
+    {
+      "url": "https://www.usgs.gov/centers/eros/science/national-land-cover-database",
+      "label": "Pinterest"
+    },
+    {
+      "url": "https://www.usgs.gov/centers/eros/science/national-land-cover-database",
+      "label": "Email"
+    },
+    {
+      "url": "https://www.usgs.gov/centers/eros",
+      "label": "Earth Resources Observation and Science (EROS) Center"
+    },
+    {
+      "url": "https://www.usgs.gov/centers/eros/science",
+      "label": "Science"
+    },
+    {
+      "url": "https://www.usgs.gov/centers/eros",
+      "label": "Earth Resources Observation and Science (EROS) Center"
+    },
+    {
+      "url": "https://www.usgs.gov/annualnlcd",
+      "label": "Visit the Website"
+    },
+    {
+      "url": "https://www.usgs.gov/centers/eros/science/national-land-cover-database#overview",
+      "label": "Overview"
+    },
+    {
+      "url": "https://www.usgs.gov/centers/eros/science/national-land-cover-database#science",
+      "label": "Science"
+    },
+    {
+      "url": "https://www.usgs.gov/centers/eros/science/national-land-cover-database#data",
+      "label": "Data"
+    },
+    {
+      "url": "https://www.usgs.gov/centers/eros/science/national-land-cover-database#multimedia",
+      "label": "Multimedia"
+    },
+    {
+      "url": "https://www.usgs.gov/centers/eros/science/national-land-cover-database#publications",
+      "label": "Publications"
+    },
+    {
+      "url": "https://www.usgs.gov/centers/eros/science/national-land-cover-database#news",
+      "label": "News"
+    },
+    {
+      "url": "https://www.usgs.gov/annualnlcd",
+      "label": "Annual NLCD"
+    },
+    {
+      "url": "https://www.usgs.gov/media/images/national-land-cover-database-nlcd-2021-conterminous-us-land-cover",
+      "label": "Media"
+    },
+    {
+      "url": "https://www.usgs.gov/media/images/national-land-cover-database-nlcd-2021-conterminous-us-land-cover",
+      "label": "View Media Details"
+    },
+    {
+      "url": "https://www.sciencebase.gov/catalog/item/6345b637d34e342aee0863aa",
+      "label": "National Land Cover Database (NLCD) Products - ScienceBase-Catalog"
+    },
+    {
+      "url": "https://www.usgs.gov/centers/eros/science/national-land-cover-database",
+      "label": ""
+    },
+    {
+      "url": "https://www.usgs.gov/staff-profiles/jon-dewitz",
+      "label": "Jon Dewitz"
+    },
+    {
+      "url": "https://www.usgs.gov/centers/eros",
+      "label": "Earth Resources Observation and Science (EROS) Center"
+    },
+    {
+      "url": "mailto:dewitz@usgs.gov",
+      "label": "dewitz@usgs.gov"
+    },
+    {
+      "url": "tel:605-594-2715",
+      "label": "605-594-2715"
+    },
+    {
+      "url": "https://www.usgs.gov/search?keywords=Climate",
+      "label": "Climate"
+    },
+    {
+      "url": "https://www.usgs.gov/search?keywords=Information Systems",
+      "label": "Information Systems"
+    },
+    {
+      "url": "https://www.usgs.gov/search?keywords=Maps and Mapping",
+      "label": "Maps and Mapping"
+    },
+    {
+      "url": "https://www.usgs.gov/search?keywords=National Land Cover Database",
+      "label": "National Land Cover Database"
+    },
+    {
+      "url": "https://www.usgs.gov/search?keywords=NLCD",
+      "label": "NLCD"
+    },
+    {
+      "url": "https://www.usgs.gov/search?keywords=National Land Cover Dataset",
+      "label": "National Land Cover Dataset"
+    },
+    {
+      "url": "https://www.usgs.gov/search?keywords=earth resources observation and science center",
+      "label": "earth resources observation and science center"
+    },
+    {
+      "url": "https://www.usgs.gov/search?keywords=United States of America",
+      "label": "United States of America"
+    },
+    {
+      "url": "https://www.usgs.gov/search?keywords=Earth Resources Observation and Science (EROS) Center",
+      "label": "Earth Resources Observation and Science (EROS) Center"
+    },
+    {
+      "url": "https://www.usgs.gov/search?keywords=Land Cover",
+      "label": "Land Cover"
+    },
+    {
+      "url": "https://www.usgs.gov/search?keywords=Products and Datasets",
+      "label": "Products and Datasets"
+    },
+    {
+      "url": "https://www.usgs.gov/search?keywords=Integrated Land Change Monitoring",
+      "label": "Integrated Land Change Monitoring"
+    },
+    {
+      "url": "https://www.usgs.gov/centers/eros/science/national-land-cover-database",
+      "label": "View All"
+    },
+    {
+      "url": "https://www.usgs.gov/centers/eros/eyes-earth-episode-54-national-land-cover-database-2019",
+      "label": ""
+    },
+    {
+      "url": "https://www.usgs.gov/centers/eros/eyes-earth-episode-54-national-land-cover-database-2019",
+      "label": "Eyes on Earth Episode 54 – National Land Cover Database 2019 Eyes on Earth Episode 54 – National Land Cover Database 2019"
+    },
+    {
+      "url": "https://www.usgs.gov/centers/eros/eyes-earth-episode-54-national-land-cover-database-2019",
+      "label": "Eyes on Earth Episode 54 – National Land Cover Database 2019"
+    },
+    {
+      "url": "https://www.usgs.gov/centers/eros/eyes-earth-episode-54-national-land-cover-database-2019",
+      "label": "Learn More"
+    },
+    {
+      "url": "https://www.usgs.gov/centers/eros/eyes-earth-episode-42-rangelands-us",
+      "label": ""
+    },
+    {
+      "url": "https://www.usgs.gov/centers/eros/eyes-earth-episode-42-rangelands-us",
+      "label": "Eyes on Earth Episode 42 – Rangelands of the U.S. Eyes on Earth Episode 42 – Rangelands of the U.S."
+    },
+    {
+      "url": "https://www.usgs.gov/centers/eros/eyes-earth-episode-42-rangelands-us",
+      "label": "Eyes on Earth Episode 42 – Rangelands of the U.S."
+    },
+    {
+      "url": "https://www.usgs.gov/centers/eros/eyes-earth-episode-42-rangelands-us",
+      "label": "Learn More"
+    },
+    {
+      "url": "https://www.usgs.gov/special-topics/lcmap/science/lcmap-and-nlcd-complementary-data-understanding-geography-united",
+      "label": ""
+    },
+    {
+      "url": "https://www.usgs.gov/special-topics/lcmap/science/lcmap-and-nlcd-complementary-data-understanding-geography-united",
+      "label": "LCMAP and NLCD: Complementary Data for Understanding the Geography of the United States"
+    },
+    {
+      "url": "https://www.usgs.gov/mission-areas/core-science-systems",
+      "label": "Core Science Systems Mission Area"
+    },
+    {
+      "url": "https://www.usgs.gov/programs/national-land-imaging-program",
+      "label": "National Land Imaging Program"
+    },
+    {
+      "url": "https://www.usgs.gov/special-topics/lcmap",
+      "label": "Land Change Monitoring, Assessment, and Projection"
+    },
+    {
+      "url": "https://www.usgs.gov/special-topics/lcmap/science/lcmap-and-nlcd-complementary-data-understanding-geography-united",
+      "label": "LCMAP and NLCD: Complementary Data for Understanding the Geography of the United States"
+    },
+    {
+      "url": "https://www.usgs.gov/special-topics/lcmap/science/lcmap-and-nlcd-complementary-data-understanding-geography-united",
+      "label": "Learn More"
+    },
+    {
+      "url": "https://www.usgs.gov/centers/eros/eyes-earth-episode-3-national-land-cover-database",
+      "label": ""
+    },
+    {
+      "url": "https://www.usgs.gov/centers/eros/eyes-earth-episode-3-national-land-cover-database",
+      "label": "Eyes on Earth Episode 3 - National Land Cover Database Eyes on Earth Episode 3 - National Land Cover Database"
+    },
+    {
+      "url": "https://www.usgs.gov/centers/eros/eyes-earth-episode-3-national-land-cover-database",
+      "label": "Eyes on Earth Episode 3 - National Land Cover Database"
+    },
+    {
+      "url": "https://www.usgs.gov/centers/eros/eyes-earth-episode-3-national-land-cover-database",
+      "label": "Learn More"
+    },
+    {
+      "url": "https://www.usgs.gov/centers/eros/science/western-us-cheatgrass-and-shrubland-monitoring",
+      "label": ""
+    },
+    {
+      "url": "https://www.usgs.gov/centers/eros/science/western-us-cheatgrass-and-shrubland-monitoring",
+      "label": "Western U.S. Cheatgrass and Shrubland Monitoring"
+    },
+    {
+      "url": "https://www.usgs.gov/centers/eros",
+      "label": "Earth Resources Observation and Science (EROS) Center"
+    },
+    {
+      "url": "https://www.usgs.gov/centers/eros/science/western-us-cheatgrass-and-shrubland-monitoring",
+      "label": "Western U.S. Cheatgrass and Shrubland Monitoring"
+    },
+    {
+      "url": "https://www.usgs.gov/centers/eros/science/western-us-cheatgrass-and-shrubland-monitoring",
+      "label": "Learn More"
+    },
+    {
+      "url": "https://www.usgs.gov/centers/community-for-data-integration-cdi/science/national-land-cover-database-visualization-and",
+      "label": ""
+    },
+    {
+      "url": "https://www.usgs.gov/centers/community-for-data-integration-cdi/science/national-land-cover-database-visualization-and",
+      "label": "National Land Cover Database Visualization and Information Tool"
+    },
+    {
+      "url": "https://www.usgs.gov/centers/community-for-data-integration-cdi",
+      "label": "Community for Data Integration (CDI)"
+    },
+    {
+      "url": "https://www.usgs.gov/centers/community-for-data-integration-cdi/science/national-land-cover-database-visualization-and",
+      "label": "National Land Cover Database Visualization and Information Tool"
+    },
+    {
+      "url": "https://www.usgs.gov/centers/community-for-data-integration-cdi/science/national-land-cover-database-visualization-and",
+      "label": "Learn More"
+    },
+    {
+      "url": "https://www.usgs.gov/data/national-land-cover-database-nlcd-2016-shrubland-fractional-components-western-us-ver-30-july",
+      "label": "National Land Cover Database (NLCD) 2016 Shrubland Fractional Components for the Western U.S. (ver. 3.0, July 2020) National Land Cover Database (NLCD) 2016 Shrubland Fractional Components for the Western U.S. (ver. 3.0, July 2020)"
+    },
+    {
+      "url": "https://www.usgs.gov/centers/eros",
+      "label": "Earth Resources Observation and Science (EROS) Center"
+    },
+    {
+      "url": "https://www.usgs.gov/data/remote-sensing-shrubgrass-national-land-cover-database-nlcd-back-time-bit-products-western-us",
+      "label": "Remote Sensing Shrub/Grass National Land Cover Database (NLCD) Back-in-Time (BIT) Products for the Western U.S., 1985 - 2018 Remote Sensing Shrub/Grass National Land Cover Database (NLCD) Back-in-Time (BIT) Products for the Western U.S., 1985 - 2018"
+    },
+    {
+      "url": "https://www.usgs.gov/centers/eros",
+      "label": "Earth Resources Observation and Science (EROS) Center"
+    },
+    {
+      "url": "https://www.usgs.gov/data/non-native-and-synanthropic-bird-data-derived-2010-2012-breeding-bird-survey-and-associated",
+      "label": "Non-native and synanthropic bird data derived from 2010-2012 Breeding Bird Survey and associated landscape metrics from 2011 NLCD Non-native and synanthropic bird data derived from 2010-2012 Breeding Bird Survey and associated landscape metrics from 2011 NLCD"
+    },
+    {
+      "url": "https://www.usgs.gov/centers/fort-collins-science-center",
+      "label": "Fort Collins Science Center"
+    },
+    {
+      "url": "https://www.usgs.gov/node/279743",
+      "label": "National Land Cover Database (NLCD) National Land Cover Database (NLCD)"
+    },
+    {
+      "url": "https://www.usgs.gov/special-topics/drought",
+      "label": "Drought"
+    },
+    {
+      "url": "https://www.usgs.gov/media/images/dallas-ft-worth-nlcd-2016-impervious-descriptor-layer",
+      "label": "Dallas-Ft. Worth - NLCD 2016 Impervious Descriptor layer"
+    },
+    {
+      "url": "https://www.usgs.gov/media/before-after/mapping-roadways-landsat-scale",
+      "label": "Mapping Roadways at Landsat Scale"
+    },
+    {
+      "url": "https://www.usgs.gov/media/images/dallas-ft-worth-nlcd-2016-impervious-descriptor-layer",
+      "label": "Dallas-Ft. Worth - NLCD 2016 Impervious Descriptor layer"
+    },
+    {
+      "url": "https://www.usgs.gov/media/before-after/mapping-roadways-landsat-scale",
+      "label": "Mapping Roadways at Landsat Scale"
+    },
+    {
+      "url": "https://www.usgs.gov/media/before-after/mapping-roadways-landsat-scale",
+      "label": "Mapping Roadways at Landsat Scale"
+    },
+    {
+      "url": "https://www.usgs.gov/centers/eros",
+      "label": "Earth Resources Observation and Science (EROS) Center"
+    },
+    {
+      "url": "https://www.usgs.gov/media/images/dallas-ft-worth-nlcd-2016-impervious-descriptor-layer",
+      "label": "Dallas-Ft. Worth - NLCD 2016 Impervious Descriptor layer"
+    },
+    {
+      "url": "https://www.usgs.gov/media/before-after/mapping-roadways-landsat-scale",
+      "label": "Mapping Roadways at Landsat Scale"
+    },
+    {
+      "url": "https://www.usgs.gov/media/before-after/mapping-roadways-landsat-scale",
+      "label": "Mapping Roadways at Landsat Scale"
+    },
+    {
+      "url": "https://www.usgs.gov/media/before-after/mapping-roadways-landsat-scale",
+      "label": "Mapping Roadways at Landsat Scale"
+    },
+    {
+      "url": "https://www.usgs.gov/media/before-after/mapping-roadways-landsat-scale",
+      "label": "Mapping Roadways at Landsat Scale"
+    },
+    {
+      "url": "https://www.usgs.gov/centers/eros",
+      "label": "Earth Resources Observation and Science (EROS) Center"
+    },
+    {
+      "url": "https://www.usgs.gov/media/images/eyes-earth-national-land-cover-database-2019-thumbnail",
+      "label": "Eyes on Earth - National Land Cover Database 2019 thumbnail"
+    },
+    {
+      "url": "https://www.usgs.gov/media/audio/eyes-earth-episode-54-national-land-cover-database-2019",
+      "label": "Eyes on Earth Episode 54 - National Land Cover Database 2019"
+    },
+    {
+      "url": "https://www.usgs.gov/media/images/eyes-earth-national-land-cover-database-2019-thumbnail",
+      "label": "Eyes on Earth - National Land Cover Database 2019 thumbnail"
+    },
+    {
+      "url": "https://www.usgs.gov/media/audio/eyes-earth-episode-54-national-land-cover-database-2019",
+      "label": "Eyes on Earth Episode 54 - National Land Cover Database 2019"
+    },
+    {
+      "url": "https://www.usgs.gov/media/audio/eyes-earth-episode-54-national-land-cover-database-2019",
+      "label": "Eyes on Earth Episode 54 - National Land Cover Database 2019"
+    },
+    {
+      "url": "https://www.usgs.gov/mission-areas/core-science-systems",
+      "label": "Core Science Systems Mission Area"
+    },
+    {
+      "url": "https://www.usgs.gov/centers/eros",
+      "label": "Earth Resources Observation and Science (EROS) Center"
+    },
+    {
+      "url": "https://www.usgs.gov/media/images/eyes-earth-national-land-cover-database-2019-thumbnail",
+      "label": "Eyes on Earth - National Land Cover Database 2019 thumbnail"
+    },
+    {
+      "url": "https://www.usgs.gov/media/audio/eyes-earth-episode-54-national-land-cover-database-2019",
+      "label": "Eyes on Earth Episode 54 - National Land Cover Database 2019"
+    },
+    {
+      "url": "https://www.usgs.gov/media/audio/eyes-earth-episode-54-national-land-cover-database-2019",
+      "label": "Eyes on Earth Episode 54 - National Land Cover Database 2019"
+    },
+    {
+      "url": "https://www.usgs.gov/media/audio/eyes-earth-episode-54-national-land-cover-database-2019",
+      "label": "Eyes on Earth Episode 54 - National Land Cover Database 2019"
+    },
+    {
+      "url": "https://www.usgs.gov/media/audio/eyes-earth-episode-54-national-land-cover-database-2019",
+      "label": "Eyes on Earth Episode 54 - National Land Cover Database 2019"
+    },
+    {
+      "url": "https://www.usgs.gov/mission-areas/core-science-systems",
+      "label": "Core Science Systems Mission Area"
+    },
+    {
+      "url": "https://www.usgs.gov/centers/eros",
+      "label": "Earth Resources Observation and Science (EROS) Center"
+    },
+    {
+      "url": "https://www.usgs.gov/media/images/eyes-earth-episode-42-rangelands-us",
+      "label": "Eyes on Earth Episode 42 - Rangelands of the U.S."
+    },
+    {
+      "url": "https://www.usgs.gov/media/audio/eyes-earth-episode-42-rangelands-us",
+      "label": "Eyes on Earth Episode 42 – Rangelands of the U.S."
+    },
+    {
+      "url": "https://www.usgs.gov/media/images/eyes-earth-episode-42-rangelands-us",
+      "label": "Eyes on Earth Episode 42 - Rangelands of the U.S."
+    },
+    {
+      "url": "https://www.usgs.gov/media/audio/eyes-earth-episode-42-rangelands-us",
+      "label": "Eyes on Earth Episode 42 – Rangelands of the U.S."
+    },
+    {
+      "url": "https://www.usgs.gov/media/audio/eyes-earth-episode-42-rangelands-us",
+      "label": "Eyes on Earth Episode 42 – Rangelands of the U.S."
+    },
+    {
+      "url": "https://www.usgs.gov/mission-areas/core-science-systems",
+      "label": "Core Science Systems Mission Area"
+    },
+    {
+      "url": "https://www.usgs.gov/centers/eros",
+      "label": "Earth Resources Observation and Science (EROS) Center"
+    },
+    {
+      "url": "https://www.usgs.gov/landsat-missions",
+      "label": "Landsat Missions"
+    },
+    {
+      "url": "https://www.usgs.gov/media/images/eyes-earth-episode-42-rangelands-us",
+      "label": "Eyes on Earth Episode 42 - Rangelands of the U.S."
+    },
+    {
+      "url": "https://www.usgs.gov/media/audio/eyes-earth-episode-42-rangelands-us",
+      "label": "Eyes on Earth Episode 42 – Rangelands of the U.S."
+    },
+    {
+      "url": "https://www.usgs.gov/media/audio/eyes-earth-episode-42-rangelands-us",
+      "label": "Eyes on Earth Episode 42 – Rangelands of the U.S."
+    },
+    {
+      "url": "https://www.usgs.gov/media/audio/eyes-earth-episode-42-rangelands-us",
+      "label": "Eyes on Earth Episode 42 – Rangelands of the U.S."
+    },
+    {
+      "url": "https://www.usgs.gov/media/audio/eyes-earth-episode-42-rangelands-us",
+      "label": "Eyes on Earth Episode 42 – Rangelands of the U.S."
+    },
+    {
+      "url": "https://www.usgs.gov/mission-areas/core-science-systems",
+      "label": "Core Science Systems Mission Area"
+    },
+    {
+      "url": "https://www.usgs.gov/centers/eros",
+      "label": "Earth Resources Observation and Science (EROS) Center"
+    },
+    {
+      "url": "https://www.usgs.gov/landsat-missions",
+      "label": "Landsat Missions"
+    },
+    {
+      "url": "https://www.usgs.gov/media/images/eyes-earth-collin-homer",
+      "label": "Eyes on Earth - Collin Homer"
+    },
+    {
+      "url": "https://www.usgs.gov/media/audio/eyes-earth-episode-3-national-land-cover-database",
+      "label": "Eyes on Earth - Episode 3 - The National Land Cover Database"
+    },
+    {
+      "url": "https://www.usgs.gov/media/images/eyes-earth-collin-homer",
+      "label": "Eyes on Earth - Collin Homer"
+    },
+    {
+      "url": "https://www.usgs.gov/media/audio/eyes-earth-episode-3-national-land-cover-database",
+      "label": "Eyes on Earth - Episode 3 - The National Land Cover Database"
+    },
+    {
+      "url": "https://www.usgs.gov/media/audio/eyes-earth-episode-3-national-land-cover-database",
+      "label": "Eyes on Earth - Episode 3 - The National Land Cover Database"
+    },
+    {
+      "url": "https://www.usgs.gov/centers/eros",
+      "label": "Earth Resources Observation and Science (EROS) Center"
+    },
+    {
+      "url": "https://www.usgs.gov/media/images/eyes-earth-collin-homer",
+      "label": "Eyes on Earth - Collin Homer"
+    },
+    {
+      "url": "https://www.usgs.gov/media/audio/eyes-earth-episode-3-national-land-cover-database",
+      "label": "Eyes on Earth - Episode 3 - The National Land Cover Database"
+    },
+    {
+      "url": "https://www.usgs.gov/media/audio/eyes-earth-episode-3-national-land-cover-database",
+      "label": "Eyes on Earth - Episode 3 - The National Land Cover Database"
+    },
+    {
+      "url": "https://www.usgs.gov/media/audio/eyes-earth-episode-3-national-land-cover-database",
+      "label": "Eyes on Earth - Episode 3 - The National Land Cover Database"
+    },
+    {
+      "url": "https://www.usgs.gov/media/audio/eyes-earth-episode-3-national-land-cover-database",
+      "label": "Eyes on Earth - Episode 3 - The National Land Cover Database"
+    },
+    {
+      "url": "https://www.usgs.gov/centers/eros",
+      "label": "Earth Resources Observation and Science (EROS) Center"
+    },
+    {
+      "url": "https://www.usgs.gov/publications/thematic-accuracy-assessment-national-land-cover-database-nlcd2021-conterminous-united",
+      "label": "Thematic accuracy assessment of the National Land Cover Database (NLCD2021) for the conterminous United States Thematic accuracy assessment of the National Land Cover Database (NLCD2021) for the conterminous United States"
+    },
+    {
+      "url": "https://www.usgs.gov/centers/eros",
+      "label": "Earth Resources Observation and Science (EROS) Center"
+    },
+    {
+      "url": "https://www.usgs.gov/publications/thematic-accuracy-assessment-nlcd-2019-land-cover-conterminous-united-states",
+      "label": "Thematic accuracy assessment of the NLCD 2019 land cover for the conterminous United States Thematic accuracy assessment of the NLCD 2019 land cover for the conterminous United States"
+    },
+    {
+      "url": "https://www.usgs.gov/centers/eros",
+      "label": "Earth Resources Observation and Science (EROS) Center"
+    },
+    {
+      "url": "https://www.usgs.gov/centers/western-geographic-science-center",
+      "label": "Western Geographic Science Center"
+    },
+    {
+      "url": "https://www.usgs.gov/publications/national-land-cover-database-2019-a-comprehensive-strategy-creating-1986-2019-forest",
+      "label": "National Land Cover Database 2019: A comprehensive strategy for creating the 1986-2019 forest disturbance product National Land Cover Database 2019: A comprehensive strategy for creating the 1986-2019 forest disturbance product"
+    },
+    {
+      "url": "https://www.usgs.gov/centers/eros",
+      "label": "Earth Resources Observation and Science (EROS) Center"
+    },
+    {
+      "url": "https://www.usgs.gov/publications/national-land-cover-database-2019-a-new-strategy-creating-clean-leaf-and-leaf-landsat",
+      "label": "National Land Cover Database 2019: A new strategy for creating clean leaf-on and leaf-off Landsat composite images National Land Cover Database 2019: A new strategy for creating clean leaf-on and leaf-off Landsat composite images"
+    },
+    {
+      "url": "https://www.usgs.gov/programs/science-synthesis-analysis-and-research-program",
+      "label": "Science Synthesis, Analysis, and Research Program"
+    },
+    {
+      "url": "https://www.usgs.gov/centers/eros",
+      "label": "Earth Resources Observation and Science (EROS) Center"
+    },
+    {
+      "url": "https://www.usgs.gov/advanced-research-computing",
+      "label": "Advanced Research Computing (ARC)"
+    },
+    {
+      "url": "https://www.usgs.gov/publications/rangeland-fractional-components-across-western-united-states-1985-2018",
+      "label": "Rangeland fractional components across the western United States from 1985 to 2018 Rangeland fractional components across the western United States from 1985 to 2018"
+    },
+    {
+      "url": "https://www.usgs.gov/centers/eros",
+      "label": "Earth Resources Observation and Science (EROS) Center"
+    },
+    {
+      "url": "https://www.usgs.gov/publications/conterminous-united-states-land-cover-change-patterns-2001-2016-2016-national-land",
+      "label": "Conterminous United States land cover change patterns 2001–2016 from the 2016 National Land Cover Database Conterminous United States land cover change patterns 2001–2016 from the 2016 National Land Cover Database"
+    },
+    {
+      "url": "https://www.usgs.gov/centers/eros",
+      "label": "Earth Resources Observation and Science (EROS) Center"
+    },
+    {
+      "url": "https://www.usgs.gov/publications/accuracy-assessment-nlcd-2011-impervious-cover-data-chesapeake-bay-region-usa",
+      "label": "Accuracy assessment of NLCD 2011 impervious cover data for the Chesapeake Bay region, USA Accuracy assessment of NLCD 2011 impervious cover data for the Chesapeake Bay region, USA"
+    },
+    {
+      "url": "https://www.usgs.gov/centers/eros",
+      "label": "Earth Resources Observation and Science (EROS) Center"
+    },
+    {
+      "url": "https://www.usgs.gov/publications/thematic-accuracy-assessment-2011-national-land-cover-database-nlcd",
+      "label": "Thematic accuracy assessment of the 2011 National Land Cover Database (NLCD) Thematic accuracy assessment of the 2011 National Land Cover Database (NLCD)"
+    },
+    {
+      "url": "https://www.usgs.gov/centers/eros",
+      "label": "Earth Resources Observation and Science (EROS) Center"
+    },
+    {
+      "url": "https://www.usgs.gov/centers/geosciences-and-environmental-change-science-center",
+      "label": "Geosciences and Environmental Change Science Center"
+    },
+    {
+      "url": "https://www.usgs.gov/centers/western-geographic-science-center",
+      "label": "Western Geographic Science Center"
+    },
+    {
+      "url": "https://www.usgs.gov/publications/accuracy-assessment-nlcd-2006-land-cover-and-impervious-surface",
+      "label": "Accuracy assessment of NLCD 2006 land cover and impervious surface Accuracy assessment of NLCD 2006 land cover and impervious surface"
+    },
+    {
+      "url": "https://www.usgs.gov/centers/eros",
+      "label": "Earth Resources Observation and Science (EROS) Center"
+    },
+    {
+      "url": "https://www.usgs.gov/publications/thematic-accuracy-nlcd-2001-land-cover-conterminous-united-states",
+      "label": "Thematic accuracy of the NLCD 2001 land cover for the conterminous United States Thematic accuracy of the NLCD 2001 land cover for the conterminous United States"
+    },
+    {
+      "url": "https://www.usgs.gov/centers/eros",
+      "label": "Earth Resources Observation and Science (EROS) Center"
+    },
+    {
+      "url": "https://www.usgs.gov/publications/national-land-cover-database-2001-nlcd01-tree-canopy-layer-tile-4-southeast-united",
+      "label": "National Land Cover Database 2001 (NLCD01) Tree Canopy Layer Tile 4, Southeast United States: CNPY01_4 National Land Cover Database 2001 (NLCD01) Tree Canopy Layer Tile 4, Southeast United States: CNPY01_4"
+    },
+    {
+      "url": "https://www.usgs.gov/publications/comparison-nlcd-nwi-classifications-baldwin-and-mobile-counties-alabama",
+      "label": "Comparison of NLCD with NWI Classifications of Baldwin and Mobile Counties, Alabama Comparison of NLCD with NWI Classifications of Baldwin and Mobile Counties, Alabama"
+    },
+    {
+      "url": "https://www.usgs.gov/centers/eros/science/national-land-cover-database?page=0",
+      "label": "Current page 1"
+    },
+    {
+      "url": "https://www.usgs.gov/centers/eros/science/national-land-cover-database?page=1",
+      "label": "Page 2"
+    },
+    {
+      "url": "https://www.usgs.gov/centers/eros/science/national-land-cover-database?page=1",
+      "label": "Next page ››"
+    },
+    {
+      "url": "https://www.usgs.gov/centers/eros/science/national-land-cover-database?page=1",
+      "label": "Last page Last »"
+    },
+    {
+      "url": "https://www.usgs.gov/centers/eros/news/nlcds-path-early-landscape-snapshot-decades-change",
+      "label": ""
+    },
+    {
+      "url": "https://www.usgs.gov/centers/eros/news/nlcds-path-early-landscape-snapshot-decades-change",
+      "label": "NLCD’s Path from Early Landscape Snapshot to Decades of Change NLCD’s Path from Early Landscape Snapshot to Decades of Change"
+    },
+    {
+      "url": "https://www.usgs.gov/mission-areas/core-science-systems",
+      "label": "Core Science Systems Mission Area"
+    },
+    {
+      "url": "https://www.usgs.gov/programs/national-land-imaging-program",
+      "label": "National Land Imaging Program"
+    },
+    {
+      "url": "https://www.usgs.gov/centers/eros",
+      "label": "Earth Resources Observation and Science (EROS) Center"
+    },
+    {
+      "url": "https://www.usgs.gov/landsat-missions",
+      "label": "Landsat Missions"
+    },
+    {
+      "url": "https://www.usgs.gov/centers/eros/news/maximizing-accuracy-rangeland-data",
+      "label": "Maximizing Accuracy of Rangeland Data"
+    },
+    {
+      "url": "https://www.usgs.gov/centers/eros/news/maximizing-accuracy-rangeland-data",
+      "label": "Read Article"
+    },
+    {
+      "url": "https://www.usgs.gov/centers/eros/news/nlcd-2021-now-available",
+      "label": "NLCD 2021 Now Available"
+    },
+    {
+      "url": "https://www.usgs.gov/centers/eros/news/nlcd-2021-now-available",
+      "label": "Read Article"
+    },
+    {
+      "url": "https://www.usgs.gov/news/technical-announcement/new-land-cover-maps-capture-nearly-two-decades-change-across-us",
+      "label": "New Land Cover Maps Capture Nearly Two Decades of Change Across the U.S."
+    },
+    {
+      "url": "https://www.usgs.gov/news/technical-announcement/new-land-cover-maps-capture-nearly-two-decades-change-across-us",
+      "label": "Read Article"
+    },
+    {
+      "url": "https://www.usgs.gov/news/new-usgs-eros-tool-shows-county-county-change-across-united-states",
+      "label": "New USGS EROS Tool Shows County-By-County Change Across United States"
+    },
+    {
+      "url": "https://www.usgs.gov/news/new-usgs-eros-tool-shows-county-county-change-across-united-states",
+      "label": "Read Article"
+    },
+    {
+      "url": "https://www.usgs.gov/news/detecting-shrub-recovery-sagebrush-steppe-comparing-landsat-derived-maps-field-data-historical",
+      "label": "Detecting Shrub Recovery in Sagebrush Steppe: Comparing Landsat-Derived Maps with Field Data on Historical Wildfires"
+    },
+    {
+      "url": "https://www.usgs.gov/news/detecting-shrub-recovery-sagebrush-steppe-comparing-landsat-derived-maps-field-data-historical",
+      "label": "Read Article"
+    },
+    {
+      "url": "https://www.usgs.gov/news/eros-rangeland-tools-aid-western-us-land-managers",
+      "label": "EROS Rangeland Tools Aid Western U.S. Land Managers"
+    },
+    {
+      "url": "https://www.usgs.gov/news/eros-rangeland-tools-aid-western-us-land-managers",
+      "label": "Read Article"
+    },
+    {
+      "url": "https://www.usgs.gov/news/land-cover-partnership-releases-change-datasets-us-mexico-canada",
+      "label": "Land Cover Partnership Releases Change Datasets for U.S., Mexico, Canada"
+    },
+    {
+      "url": "https://www.usgs.gov/news/land-cover-partnership-releases-change-datasets-us-mexico-canada",
+      "label": "Read Article"
+    },
+    {
+      "url": "https://www.usgs.gov/news/rangeland-mapping-tools-take-users-back-time-across-western-us",
+      "label": "Rangeland Mapping Tools Take Users Back in Time Across Western U.S."
+    },
+    {
+      "url": "https://www.usgs.gov/news/rangeland-mapping-tools-take-users-back-time-across-western-us",
+      "label": "Read Article"
+    },
+    {
+      "url": "https://www.usgs.gov/news/nlcd-readies-improvements-upcoming-release-2019-product-suite",
+      "label": "NLCD Readies Improvements for Upcoming Release of 2019 Product Suite"
+    },
+    {
+      "url": "https://www.usgs.gov/news/nlcd-readies-improvements-upcoming-release-2019-product-suite",
+      "label": "Read Article"
+    },
+    {
+      "url": "https://www.usgs.gov/news/new-land-cover-maps-depict-15-years-alaska-change",
+      "label": "New Land Cover Maps Depict 15 Years of Alaska Change"
+    },
+    {
+      "url": "https://www.usgs.gov/news/new-land-cover-maps-depict-15-years-alaska-change",
+      "label": "Read Article"
+    },
+    {
+      "url": "https://www.usgs.gov/news/eros-contributes-new-land-cover-maps-us-canada-mexico",
+      "label": "EROS contributes to New Land Cover Maps for U.S., Canada, Mexico"
+    },
+    {
+      "url": "https://www.usgs.gov/news/eros-contributes-new-land-cover-maps-us-canada-mexico",
+      "label": "Read Article"
+    },
+    {
+      "url": "https://www.usgs.gov/news/new-nlcd-products-be-folded-esri-software-earth-engine",
+      "label": "New NLCD products to be folded into Esri software, Earth Engine"
+    },
+    {
+      "url": "https://www.usgs.gov/news/new-nlcd-products-be-folded-esri-software-earth-engine",
+      "label": "Read Article"
+    },
+    {
+      "url": "https://www.usgs.gov/centers/eros/science/national-land-cover-database?page=0",
+      "label": "Current page 1"
+    },
+    {
+      "url": "https://www.usgs.gov/centers/eros/science/national-land-cover-database?page=1",
+      "label": "Page 2"
+    },
+    {
+      "url": "https://www.usgs.gov/centers/eros/science/national-land-cover-database?page=1",
+      "label": "Next page ››"
+    },
+    {
+      "url": "https://www.usgs.gov/centers/eros/science/national-land-cover-database?page=1",
+      "label": "Last page Last »"
+    },
+    {
+      "url": "https://www.usgs.gov/annualnlcd",
+      "label": "Annual NLCD"
+    },
+    {
+      "url": "https://www.usgs.gov/media/images/national-land-cover-database-nlcd-2021-conterminous-us-land-cover",
+      "label": "Media"
+    },
+    {
+      "url": "https://www.usgs.gov/media/images/national-land-cover-database-nlcd-2021-conterminous-us-land-cover",
+      "label": "View Media Details"
+    },
+    {
+      "url": "https://www.sciencebase.gov/catalog/item/6345b637d34e342aee0863aa",
+      "label": "National Land Cover Database (NLCD) Products - ScienceBase-Catalog"
+    },
+    {
+      "url": "https://www.usgs.gov/centers/eros/science/national-land-cover-database",
+      "label": ""
+    },
+    {
+      "url": "https://www.usgs.gov/staff-profiles/jon-dewitz",
+      "label": "Jon Dewitz"
+    },
+    {
+      "url": "https://www.usgs.gov/centers/eros",
+      "label": "Earth Resources Observation and Science (EROS) Center"
+    },
+    {
+      "url": "mailto:dewitz@usgs.gov",
+      "label": "dewitz@usgs.gov"
+    },
+    {
+      "url": "tel:605-594-2715",
+      "label": "605-594-2715"
+    },
+    {
+      "url": "https://www.usgs.gov/search?keywords=Climate",
+      "label": "Climate"
+    },
+    {
+      "url": "https://www.usgs.gov/search?keywords=Information Systems",
+      "label": "Information Systems"
+    },
+    {
+      "url": "https://www.usgs.gov/search?keywords=Maps and Mapping",
+      "label": "Maps and Mapping"
+    },
+    {
+      "url": "https://www.usgs.gov/search?keywords=National Land Cover Database",
+      "label": "National Land Cover Database"
+    },
+    {
+      "url": "https://www.usgs.gov/search?keywords=NLCD",
+      "label": "NLCD"
+    },
+    {
+      "url": "https://www.usgs.gov/search?keywords=National Land Cover Dataset",
+      "label": "National Land Cover Dataset"
+    },
+    {
+      "url": "https://www.usgs.gov/search?keywords=earth resources observation and science center",
+      "label": "earth resources observation and science center"
+    },
+    {
+      "url": "https://www.usgs.gov/search?keywords=United States of America",
+      "label": "United States of America"
+    },
+    {
+      "url": "https://www.usgs.gov/search?keywords=Earth Resources Observation and Science (EROS) Center",
+      "label": "Earth Resources Observation and Science (EROS) Center"
+    },
+    {
+      "url": "https://www.usgs.gov/search?keywords=Land Cover",
+      "label": "Land Cover"
+    },
+    {
+      "url": "https://www.usgs.gov/search?keywords=Products and Datasets",
+      "label": "Products and Datasets"
+    },
+    {
+      "url": "https://www.usgs.gov/search?keywords=Integrated Land Change Monitoring",
+      "label": "Integrated Land Change Monitoring"
+    },
+    {
+      "url": "https://www.usgs.gov/centers/eros/science/national-land-cover-database",
+      "label": "View All"
+    },
+    {
+      "url": "https://www.usgs.gov/centers/eros/eyes-earth-episode-54-national-land-cover-database-2019",
+      "label": ""
+    },
+    {
+      "url": "https://www.usgs.gov/centers/eros/eyes-earth-episode-54-national-land-cover-database-2019",
+      "label": "Eyes on Earth Episode 54 – National Land Cover Database 2019 Eyes on Earth Episode 54 – National Land Cover Database 2019"
+    },
+    {
+      "url": "https://www.usgs.gov/centers/eros/eyes-earth-episode-54-national-land-cover-database-2019",
+      "label": "Eyes on Earth Episode 54 – National Land Cover Database 2019"
+    },
+    {
+      "url": "https://www.usgs.gov/centers/eros/eyes-earth-episode-54-national-land-cover-database-2019",
+      "label": "Learn More"
+    },
+    {
+      "url": "https://www.usgs.gov/centers/eros/eyes-earth-episode-42-rangelands-us",
+      "label": ""
+    },
+    {
+      "url": "https://www.usgs.gov/centers/eros/eyes-earth-episode-42-rangelands-us",
+      "label": "Eyes on Earth Episode 42 – Rangelands of the U.S. Eyes on Earth Episode 42 – Rangelands of the U.S."
+    },
+    {
+      "url": "https://www.usgs.gov/centers/eros/eyes-earth-episode-42-rangelands-us",
+      "label": "Eyes on Earth Episode 42 – Rangelands of the U.S."
+    },
+    {
+      "url": "https://www.usgs.gov/centers/eros/eyes-earth-episode-42-rangelands-us",
+      "label": "Learn More"
+    },
+    {
+      "url": "https://www.usgs.gov/special-topics/lcmap/science/lcmap-and-nlcd-complementary-data-understanding-geography-united",
+      "label": ""
+    },
+    {
+      "url": "https://www.usgs.gov/special-topics/lcmap/science/lcmap-and-nlcd-complementary-data-understanding-geography-united",
+      "label": "LCMAP and NLCD: Complementary Data for Understanding the Geography of the United States"
+    },
+    {
+      "url": "https://www.usgs.gov/mission-areas/core-science-systems",
+      "label": "Core Science Systems Mission Area"
+    },
+    {
+      "url": "https://www.usgs.gov/programs/national-land-imaging-program",
+      "label": "National Land Imaging Program"
+    },
+    {
+      "url": "https://www.usgs.gov/special-topics/lcmap",
+      "label": "Land Change Monitoring, Assessment, and Projection"
+    },
+    {
+      "url": "https://www.usgs.gov/special-topics/lcmap/science/lcmap-and-nlcd-complementary-data-understanding-geography-united",
+      "label": "LCMAP and NLCD: Complementary Data for Understanding the Geography of the United States"
+    },
+    {
+      "url": "https://www.usgs.gov/special-topics/lcmap/science/lcmap-and-nlcd-complementary-data-understanding-geography-united",
+      "label": "Learn More"
+    },
+    {
+      "url": "https://www.usgs.gov/centers/eros/eyes-earth-episode-3-national-land-cover-database",
+      "label": ""
+    },
+    {
+      "url": "https://www.usgs.gov/centers/eros/eyes-earth-episode-3-national-land-cover-database",
+      "label": "Eyes on Earth Episode 3 - National Land Cover Database Eyes on Earth Episode 3 - National Land Cover Database"
+    },
+    {
+      "url": "https://www.usgs.gov/centers/eros/eyes-earth-episode-3-national-land-cover-database",
+      "label": "Eyes on Earth Episode 3 - National Land Cover Database"
+    },
+    {
+      "url": "https://www.usgs.gov/centers/eros/eyes-earth-episode-3-national-land-cover-database",
+      "label": "Learn More"
+    },
+    {
+      "url": "https://www.usgs.gov/centers/eros/science/western-us-cheatgrass-and-shrubland-monitoring",
+      "label": ""
+    },
+    {
+      "url": "https://www.usgs.gov/centers/eros/science/western-us-cheatgrass-and-shrubland-monitoring",
+      "label": "Western U.S. Cheatgrass and Shrubland Monitoring"
+    },
+    {
+      "url": "https://www.usgs.gov/centers/eros",
+      "label": "Earth Resources Observation and Science (EROS) Center"
+    },
+    {
+      "url": "https://www.usgs.gov/centers/eros/science/western-us-cheatgrass-and-shrubland-monitoring",
+      "label": "Western U.S. Cheatgrass and Shrubland Monitoring"
+    },
+    {
+      "url": "https://www.usgs.gov/centers/eros/science/western-us-cheatgrass-and-shrubland-monitoring",
+      "label": "Learn More"
+    },
+    {
+      "url": "https://www.usgs.gov/centers/community-for-data-integration-cdi/science/national-land-cover-database-visualization-and",
+      "label": ""
+    },
+    {
+      "url": "https://www.usgs.gov/centers/community-for-data-integration-cdi/science/national-land-cover-database-visualization-and",
+      "label": "National Land Cover Database Visualization and Information Tool"
+    },
+    {
+      "url": "https://www.usgs.gov/centers/community-for-data-integration-cdi",
+      "label": "Community for Data Integration (CDI)"
+    },
+    {
+      "url": "https://www.usgs.gov/centers/community-for-data-integration-cdi/science/national-land-cover-database-visualization-and",
+      "label": "National Land Cover Database Visualization and Information Tool"
+    },
+    {
+      "url": "https://www.usgs.gov/centers/community-for-data-integration-cdi/science/national-land-cover-database-visualization-and",
+      "label": "Learn More"
+    },
+    {
+      "url": "https://www.usgs.gov/data/national-land-cover-database-nlcd-2016-shrubland-fractional-components-western-us-ver-30-july",
+      "label": "National Land Cover Database (NLCD) 2016 Shrubland Fractional Components for the Western U.S. (ver. 3.0, July 2020) National Land Cover Database (NLCD) 2016 Shrubland Fractional Components for the Western U.S. (ver. 3.0, July 2020)"
+    },
+    {
+      "url": "https://www.usgs.gov/centers/eros",
+      "label": "Earth Resources Observation and Science (EROS) Center"
+    },
+    {
+      "url": "https://www.usgs.gov/data/remote-sensing-shrubgrass-national-land-cover-database-nlcd-back-time-bit-products-western-us",
+      "label": "Remote Sensing Shrub/Grass National Land Cover Database (NLCD) Back-in-Time (BIT) Products for the Western U.S., 1985 - 2018 Remote Sensing Shrub/Grass National Land Cover Database (NLCD) Back-in-Time (BIT) Products for the Western U.S., 1985 - 2018"
+    },
+    {
+      "url": "https://www.usgs.gov/centers/eros",
+      "label": "Earth Resources Observation and Science (EROS) Center"
+    },
+    {
+      "url": "https://www.usgs.gov/data/non-native-and-synanthropic-bird-data-derived-2010-2012-breeding-bird-survey-and-associated",
+      "label": "Non-native and synanthropic bird data derived from 2010-2012 Breeding Bird Survey and associated landscape metrics from 2011 NLCD Non-native and synanthropic bird data derived from 2010-2012 Breeding Bird Survey and associated landscape metrics from 2011 NLCD"
+    },
+    {
+      "url": "https://www.usgs.gov/centers/fort-collins-science-center",
+      "label": "Fort Collins Science Center"
+    },
+    {
+      "url": "https://www.usgs.gov/node/279743",
+      "label": "National Land Cover Database (NLCD) National Land Cover Database (NLCD)"
+    },
+    {
+      "url": "https://www.usgs.gov/special-topics/drought",
+      "label": "Drought"
+    },
+    {
+      "url": "https://www.usgs.gov/media/images/dallas-ft-worth-nlcd-2016-impervious-descriptor-layer",
+      "label": "Dallas-Ft. Worth - NLCD 2016 Impervious Descriptor layer"
+    },
+    {
+      "url": "https://www.usgs.gov/media/before-after/mapping-roadways-landsat-scale",
+      "label": "Mapping Roadways at Landsat Scale"
+    },
+    {
+      "url": "https://www.usgs.gov/media/images/dallas-ft-worth-nlcd-2016-impervious-descriptor-layer",
+      "label": "Dallas-Ft. Worth - NLCD 2016 Impervious Descriptor layer"
+    },
+    {
+      "url": "https://www.usgs.gov/media/before-after/mapping-roadways-landsat-scale",
+      "label": "Mapping Roadways at Landsat Scale"
+    },
+    {
+      "url": "https://www.usgs.gov/media/before-after/mapping-roadways-landsat-scale",
+      "label": "Mapping Roadways at Landsat Scale"
+    },
+    {
+      "url": "https://www.usgs.gov/centers/eros",
+      "label": "Earth Resources Observation and Science (EROS) Center"
+    },
+    {
+      "url": "https://www.usgs.gov/media/images/dallas-ft-worth-nlcd-2016-impervious-descriptor-layer",
+      "label": "Dallas-Ft. Worth - NLCD 2016 Impervious Descriptor layer"
+    },
+    {
+      "url": "https://www.usgs.gov/media/before-after/mapping-roadways-landsat-scale",
+      "label": "Mapping Roadways at Landsat Scale"
+    },
+    {
+      "url": "https://www.usgs.gov/media/before-after/mapping-roadways-landsat-scale",
+      "label": "Mapping Roadways at Landsat Scale"
+    },
+    {
+      "url": "https://www.usgs.gov/media/before-after/mapping-roadways-landsat-scale",
+      "label": "Mapping Roadways at Landsat Scale"
+    },
+    {
+      "url": "https://www.usgs.gov/media/before-after/mapping-roadways-landsat-scale",
+      "label": "Mapping Roadways at Landsat Scale"
+    },
+    {
+      "url": "https://www.usgs.gov/centers/eros",
+      "label": "Earth Resources Observation and Science (EROS) Center"
+    },
+    {
+      "url": "https://www.usgs.gov/media/images/eyes-earth-national-land-cover-database-2019-thumbnail",
+      "label": "Eyes on Earth - National Land Cover Database 2019 thumbnail"
+    },
+    {
+      "url": "https://www.usgs.gov/media/audio/eyes-earth-episode-54-national-land-cover-database-2019",
+      "label": "Eyes on Earth Episode 54 - National Land Cover Database 2019"
+    },
+    {
+      "url": "https://www.usgs.gov/media/images/eyes-earth-national-land-cover-database-2019-thumbnail",
+      "label": "Eyes on Earth - National Land Cover Database 2019 thumbnail"
+    },
+    {
+      "url": "https://www.usgs.gov/media/audio/eyes-earth-episode-54-national-land-cover-database-2019",
+      "label": "Eyes on Earth Episode 54 - National Land Cover Database 2019"
+    },
+    {
+      "url": "https://www.usgs.gov/media/audio/eyes-earth-episode-54-national-land-cover-database-2019",
+      "label": "Eyes on Earth Episode 54 - National Land Cover Database 2019"
+    },
+    {
+      "url": "https://www.usgs.gov/mission-areas/core-science-systems",
+      "label": "Core Science Systems Mission Area"
+    },
+    {
+      "url": "https://www.usgs.gov/centers/eros",
+      "label": "Earth Resources Observation and Science (EROS) Center"
+    },
+    {
+      "url": "https://www.usgs.gov/media/images/eyes-earth-national-land-cover-database-2019-thumbnail",
+      "label": "Eyes on Earth - National Land Cover Database 2019 thumbnail"
+    },
+    {
+      "url": "https://www.usgs.gov/media/audio/eyes-earth-episode-54-national-land-cover-database-2019",
+      "label": "Eyes on Earth Episode 54 - National Land Cover Database 2019"
+    },
+    {
+      "url": "https://www.usgs.gov/media/audio/eyes-earth-episode-54-national-land-cover-database-2019",
+      "label": "Eyes on Earth Episode 54 - National Land Cover Database 2019"
+    },
+    {
+      "url": "https://www.usgs.gov/media/audio/eyes-earth-episode-54-national-land-cover-database-2019",
+      "label": "Eyes on Earth Episode 54 - National Land Cover Database 2019"
+    },
+    {
+      "url": "https://www.usgs.gov/media/audio/eyes-earth-episode-54-national-land-cover-database-2019",
+      "label": "Eyes on Earth Episode 54 - National Land Cover Database 2019"
+    },
+    {
+      "url": "https://www.usgs.gov/mission-areas/core-science-systems",
+      "label": "Core Science Systems Mission Area"
+    },
+    {
+      "url": "https://www.usgs.gov/centers/eros",
+      "label": "Earth Resources Observation and Science (EROS) Center"
+    },
+    {
+      "url": "https://www.usgs.gov/media/images/eyes-earth-episode-42-rangelands-us",
+      "label": "Eyes on Earth Episode 42 - Rangelands of the U.S."
+    },
+    {
+      "url": "https://www.usgs.gov/media/audio/eyes-earth-episode-42-rangelands-us",
+      "label": "Eyes on Earth Episode 42 – Rangelands of the U.S."
+    },
+    {
+      "url": "https://www.usgs.gov/media/images/eyes-earth-episode-42-rangelands-us",
+      "label": "Eyes on Earth Episode 42 - Rangelands of the U.S."
+    },
+    {
+      "url": "https://www.usgs.gov/media/audio/eyes-earth-episode-42-rangelands-us",
+      "label": "Eyes on Earth Episode 42 – Rangelands of the U.S."
+    },
+    {
+      "url": "https://www.usgs.gov/media/audio/eyes-earth-episode-42-rangelands-us",
+      "label": "Eyes on Earth Episode 42 – Rangelands of the U.S."
+    },
+    {
+      "url": "https://www.usgs.gov/mission-areas/core-science-systems",
+      "label": "Core Science Systems Mission Area"
+    },
+    {
+      "url": "https://www.usgs.gov/centers/eros",
+      "label": "Earth Resources Observation and Science (EROS) Center"
+    },
+    {
+      "url": "https://www.usgs.gov/landsat-missions",
+      "label": "Landsat Missions"
+    },
+    {
+      "url": "https://www.usgs.gov/media/images/eyes-earth-episode-42-rangelands-us",
+      "label": "Eyes on Earth Episode 42 - Rangelands of the U.S."
+    },
+    {
+      "url": "https://www.usgs.gov/media/audio/eyes-earth-episode-42-rangelands-us",
+      "label": "Eyes on Earth Episode 42 – Rangelands of the U.S."
+    },
+    {
+      "url": "https://www.usgs.gov/media/audio/eyes-earth-episode-42-rangelands-us",
+      "label": "Eyes on Earth Episode 42 – Rangelands of the U.S."
+    },
+    {
+      "url": "https://www.usgs.gov/media/audio/eyes-earth-episode-42-rangelands-us",
+      "label": "Eyes on Earth Episode 42 – Rangelands of the U.S."
+    },
+    {
+      "url": "https://www.usgs.gov/media/audio/eyes-earth-episode-42-rangelands-us",
+      "label": "Eyes on Earth Episode 42 – Rangelands of the U.S."
+    },
+    {
+      "url": "https://www.usgs.gov/mission-areas/core-science-systems",
+      "label": "Core Science Systems Mission Area"
+    },
+    {
+      "url": "https://www.usgs.gov/centers/eros",
+      "label": "Earth Resources Observation and Science (EROS) Center"
+    },
+    {
+      "url": "https://www.usgs.gov/landsat-missions",
+      "label": "Landsat Missions"
+    },
+    {
+      "url": "https://www.usgs.gov/media/images/eyes-earth-collin-homer",
+      "label": "Eyes on Earth - Collin Homer"
+    },
+    {
+      "url": "https://www.usgs.gov/media/audio/eyes-earth-episode-3-national-land-cover-database",
+      "label": "Eyes on Earth - Episode 3 - The National Land Cover Database"
+    },
+    {
+      "url": "https://www.usgs.gov/media/images/eyes-earth-collin-homer",
+      "label": "Eyes on Earth - Collin Homer"
+    },
+    {
+      "url": "https://www.usgs.gov/media/audio/eyes-earth-episode-3-national-land-cover-database",
+      "label": "Eyes on Earth - Episode 3 - The National Land Cover Database"
+    },
+    {
+      "url": "https://www.usgs.gov/media/audio/eyes-earth-episode-3-national-land-cover-database",
+      "label": "Eyes on Earth - Episode 3 - The National Land Cover Database"
+    },
+    {
+      "url": "https://www.usgs.gov/centers/eros",
+      "label": "Earth Resources Observation and Science (EROS) Center"
+    },
+    {
+      "url": "https://www.usgs.gov/media/images/eyes-earth-collin-homer",
+      "label": "Eyes on Earth - Collin Homer"
+    },
+    {
+      "url": "https://www.usgs.gov/media/audio/eyes-earth-episode-3-national-land-cover-database",
+      "label": "Eyes on Earth - Episode 3 - The National Land Cover Database"
+    },
+    {
+      "url": "https://www.usgs.gov/media/audio/eyes-earth-episode-3-national-land-cover-database",
+      "label": "Eyes on Earth - Episode 3 - The National Land Cover Database"
+    },
+    {
+      "url": "https://www.usgs.gov/media/audio/eyes-earth-episode-3-national-land-cover-database",
+      "label": "Eyes on Earth - Episode 3 - The National Land Cover Database"
+    },
+    {
+      "url": "https://www.usgs.gov/media/audio/eyes-earth-episode-3-national-land-cover-database",
+      "label": "Eyes on Earth - Episode 3 - The National Land Cover Database"
+    },
+    {
+      "url": "https://www.usgs.gov/centers/eros",
+      "label": "Earth Resources Observation and Science (EROS) Center"
+    },
+    {
+      "url": "https://www.usgs.gov/publications/thematic-accuracy-assessment-national-land-cover-database-nlcd2021-conterminous-united",
+      "label": "Thematic accuracy assessment of the National Land Cover Database (NLCD2021) for the conterminous United States Thematic accuracy assessment of the National Land Cover Database (NLCD2021) for the conterminous United States"
+    },
+    {
+      "url": "https://www.usgs.gov/centers/eros",
+      "label": "Earth Resources Observation and Science (EROS) Center"
+    },
+    {
+      "url": "https://www.usgs.gov/publications/thematic-accuracy-assessment-nlcd-2019-land-cover-conterminous-united-states",
+      "label": "Thematic accuracy assessment of the NLCD 2019 land cover for the conterminous United States Thematic accuracy assessment of the NLCD 2019 land cover for the conterminous United States"
+    },
+    {
+      "url": "https://www.usgs.gov/centers/eros",
+      "label": "Earth Resources Observation and Science (EROS) Center"
+    },
+    {
+      "url": "https://www.usgs.gov/centers/western-geographic-science-center",
+      "label": "Western Geographic Science Center"
+    },
+    {
+      "url": "https://www.usgs.gov/publications/national-land-cover-database-2019-a-comprehensive-strategy-creating-1986-2019-forest",
+      "label": "National Land Cover Database 2019: A comprehensive strategy for creating the 1986-2019 forest disturbance product National Land Cover Database 2019: A comprehensive strategy for creating the 1986-2019 forest disturbance product"
+    },
+    {
+      "url": "https://www.usgs.gov/centers/eros",
+      "label": "Earth Resources Observation and Science (EROS) Center"
+    },
+    {
+      "url": "https://www.usgs.gov/publications/national-land-cover-database-2019-a-new-strategy-creating-clean-leaf-and-leaf-landsat",
+      "label": "National Land Cover Database 2019: A new strategy for creating clean leaf-on and leaf-off Landsat composite images National Land Cover Database 2019: A new strategy for creating clean leaf-on and leaf-off Landsat composite images"
+    },
+    {
+      "url": "https://www.usgs.gov/programs/science-synthesis-analysis-and-research-program",
+      "label": "Science Synthesis, Analysis, and Research Program"
+    },
+    {
+      "url": "https://www.usgs.gov/centers/eros",
+      "label": "Earth Resources Observation and Science (EROS) Center"
+    },
+    {
+      "url": "https://www.usgs.gov/advanced-research-computing",
+      "label": "Advanced Research Computing (ARC)"
+    },
+    {
+      "url": "https://www.usgs.gov/publications/rangeland-fractional-components-across-western-united-states-1985-2018",
+      "label": "Rangeland fractional components across the western United States from 1985 to 2018 Rangeland fractional components across the western United States from 1985 to 2018"
+    },
+    {
+      "url": "https://www.usgs.gov/centers/eros",
+      "label": "Earth Resources Observation and Science (EROS) Center"
+    },
+    {
+      "url": "https://www.usgs.gov/publications/conterminous-united-states-land-cover-change-patterns-2001-2016-2016-national-land",
+      "label": "Conterminous United States land cover change patterns 2001–2016 from the 2016 National Land Cover Database Conterminous United States land cover change patterns 2001–2016 from the 2016 National Land Cover Database"
+    },
+    {
+      "url": "https://www.usgs.gov/centers/eros",
+      "label": "Earth Resources Observation and Science (EROS) Center"
+    },
+    {
+      "url": "https://www.usgs.gov/publications/accuracy-assessment-nlcd-2011-impervious-cover-data-chesapeake-bay-region-usa",
+      "label": "Accuracy assessment of NLCD 2011 impervious cover data for the Chesapeake Bay region, USA Accuracy assessment of NLCD 2011 impervious cover data for the Chesapeake Bay region, USA"
+    },
+    {
+      "url": "https://www.usgs.gov/centers/eros",
+      "label": "Earth Resources Observation and Science (EROS) Center"
+    },
+    {
+      "url": "https://www.usgs.gov/publications/thematic-accuracy-assessment-2011-national-land-cover-database-nlcd",
+      "label": "Thematic accuracy assessment of the 2011 National Land Cover Database (NLCD) Thematic accuracy assessment of the 2011 National Land Cover Database (NLCD)"
+    },
+    {
+      "url": "https://www.usgs.gov/centers/eros",
+      "label": "Earth Resources Observation and Science (EROS) Center"
+    },
+    {
+      "url": "https://www.usgs.gov/centers/geosciences-and-environmental-change-science-center",
+      "label": "Geosciences and Environmental Change Science Center"
+    },
+    {
+      "url": "https://www.usgs.gov/centers/western-geographic-science-center",
+      "label": "Western Geographic Science Center"
+    },
+    {
+      "url": "https://www.usgs.gov/publications/accuracy-assessment-nlcd-2006-land-cover-and-impervious-surface",
+      "label": "Accuracy assessment of NLCD 2006 land cover and impervious surface Accuracy assessment of NLCD 2006 land cover and impervious surface"
+    },
+    {
+      "url": "https://www.usgs.gov/centers/eros",
+      "label": "Earth Resources Observation and Science (EROS) Center"
+    },
+    {
+      "url": "https://www.usgs.gov/publications/thematic-accuracy-nlcd-2001-land-cover-conterminous-united-states",
+      "label": "Thematic accuracy of the NLCD 2001 land cover for the conterminous United States Thematic accuracy of the NLCD 2001 land cover for the conterminous United States"
+    },
+    {
+      "url": "https://www.usgs.gov/centers/eros",
+      "label": "Earth Resources Observation and Science (EROS) Center"
+    },
+    {
+      "url": "https://www.usgs.gov/publications/national-land-cover-database-2001-nlcd01-tree-canopy-layer-tile-4-southeast-united",
+      "label": "National Land Cover Database 2001 (NLCD01) Tree Canopy Layer Tile 4, Southeast United States: CNPY01_4 National Land Cover Database 2001 (NLCD01) Tree Canopy Layer Tile 4, Southeast United States: CNPY01_4"
+    },
+    {
+      "url": "https://www.usgs.gov/publications/comparison-nlcd-nwi-classifications-baldwin-and-mobile-counties-alabama",
+      "label": "Comparison of NLCD with NWI Classifications of Baldwin and Mobile Counties, Alabama Comparison of NLCD with NWI Classifications of Baldwin and Mobile Counties, Alabama"
+    },
+    {
+      "url": "https://www.usgs.gov/centers/eros/science/national-land-cover-database?page=0",
+      "label": "Current page 1"
+    },
+    {
+      "url": "https://www.usgs.gov/centers/eros/science/national-land-cover-database?page=1",
+      "label": "Page 2"
+    },
+    {
+      "url": "https://www.usgs.gov/centers/eros/science/national-land-cover-database?page=1",
+      "label": "Next page ››"
+    },
+    {
+      "url": "https://www.usgs.gov/centers/eros/science/national-land-cover-database?page=1",
+      "label": "Last page Last »"
+    },
+    {
+      "url": "https://www.usgs.gov/centers/eros/news/nlcds-path-early-landscape-snapshot-decades-change",
+      "label": ""
+    },
+    {
+      "url": "https://www.usgs.gov/centers/eros/news/nlcds-path-early-landscape-snapshot-decades-change",
+      "label": "NLCD’s Path from Early Landscape Snapshot to Decades of Change NLCD’s Path from Early Landscape Snapshot to Decades of Change"
+    },
+    {
+      "url": "https://www.usgs.gov/mission-areas/core-science-systems",
+      "label": "Core Science Systems Mission Area"
+    },
+    {
+      "url": "https://www.usgs.gov/programs/national-land-imaging-program",
+      "label": "National Land Imaging Program"
+    },
+    {
+      "url": "https://www.usgs.gov/centers/eros",
+      "label": "Earth Resources Observation and Science (EROS) Center"
+    },
+    {
+      "url": "https://www.usgs.gov/landsat-missions",
+      "label": "Landsat Missions"
+    },
+    {
+      "url": "https://www.usgs.gov/centers/eros/news/maximizing-accuracy-rangeland-data",
+      "label": "Maximizing Accuracy of Rangeland Data"
+    },
+    {
+      "url": "https://www.usgs.gov/centers/eros/news/maximizing-accuracy-rangeland-data",
+      "label": "Read Article"
+    },
+    {
+      "url": "https://www.usgs.gov/centers/eros/news/nlcd-2021-now-available",
+      "label": "NLCD 2021 Now Available"
+    },
+    {
+      "url": "https://www.usgs.gov/centers/eros/news/nlcd-2021-now-available",
+      "label": "Read Article"
+    },
+    {
+      "url": "https://www.usgs.gov/news/technical-announcement/new-land-cover-maps-capture-nearly-two-decades-change-across-us",
+      "label": "New Land Cover Maps Capture Nearly Two Decades of Change Across the U.S."
+    },
+    {
+      "url": "https://www.usgs.gov/news/technical-announcement/new-land-cover-maps-capture-nearly-two-decades-change-across-us",
+      "label": "Read Article"
+    },
+    {
+      "url": "https://www.usgs.gov/news/new-usgs-eros-tool-shows-county-county-change-across-united-states",
+      "label": "New USGS EROS Tool Shows County-By-County Change Across United States"
+    },
+    {
+      "url": "https://www.usgs.gov/news/new-usgs-eros-tool-shows-county-county-change-across-united-states",
+      "label": "Read Article"
+    },
+    {
+      "url": "https://www.usgs.gov/news/detecting-shrub-recovery-sagebrush-steppe-comparing-landsat-derived-maps-field-data-historical",
+      "label": "Detecting Shrub Recovery in Sagebrush Steppe: Comparing Landsat-Derived Maps with Field Data on Historical Wildfires"
+    },
+    {
+      "url": "https://www.usgs.gov/news/detecting-shrub-recovery-sagebrush-steppe-comparing-landsat-derived-maps-field-data-historical",
+      "label": "Read Article"
+    },
+    {
+      "url": "https://www.usgs.gov/news/eros-rangeland-tools-aid-western-us-land-managers",
+      "label": "EROS Rangeland Tools Aid Western U.S. Land Managers"
+    },
+    {
+      "url": "https://www.usgs.gov/news/eros-rangeland-tools-aid-western-us-land-managers",
+      "label": "Read Article"
+    },
+    {
+      "url": "https://www.usgs.gov/news/land-cover-partnership-releases-change-datasets-us-mexico-canada",
+      "label": "Land Cover Partnership Releases Change Datasets for U.S., Mexico, Canada"
+    },
+    {
+      "url": "https://www.usgs.gov/news/land-cover-partnership-releases-change-datasets-us-mexico-canada",
+      "label": "Read Article"
+    },
+    {
+      "url": "https://www.usgs.gov/news/rangeland-mapping-tools-take-users-back-time-across-western-us",
+      "label": "Rangeland Mapping Tools Take Users Back in Time Across Western U.S."
+    },
+    {
+      "url": "https://www.usgs.gov/news/rangeland-mapping-tools-take-users-back-time-across-western-us",
+      "label": "Read Article"
+    },
+    {
+      "url": "https://www.usgs.gov/news/nlcd-readies-improvements-upcoming-release-2019-product-suite",
+      "label": "NLCD Readies Improvements for Upcoming Release of 2019 Product Suite"
+    },
+    {
+      "url": "https://www.usgs.gov/news/nlcd-readies-improvements-upcoming-release-2019-product-suite",
+      "label": "Read Article"
+    },
+    {
+      "url": "https://www.usgs.gov/news/new-land-cover-maps-depict-15-years-alaska-change",
+      "label": "New Land Cover Maps Depict 15 Years of Alaska Change"
+    },
+    {
+      "url": "https://www.usgs.gov/news/new-land-cover-maps-depict-15-years-alaska-change",
+      "label": "Read Article"
+    },
+    {
+      "url": "https://www.usgs.gov/news/eros-contributes-new-land-cover-maps-us-canada-mexico",
+      "label": "EROS contributes to New Land Cover Maps for U.S., Canada, Mexico"
+    },
+    {
+      "url": "https://www.usgs.gov/news/eros-contributes-new-land-cover-maps-us-canada-mexico",
+      "label": "Read Article"
+    },
+    {
+      "url": "https://www.usgs.gov/news/new-nlcd-products-be-folded-esri-software-earth-engine",
+      "label": "New NLCD products to be folded into Esri software, Earth Engine"
+    },
+    {
+      "url": "https://www.usgs.gov/news/new-nlcd-products-be-folded-esri-software-earth-engine",
+      "label": "Read Article"
+    },
+    {
+      "url": "https://www.usgs.gov/centers/eros/science/national-land-cover-database?page=0",
+      "label": "Current page 1"
+    },
+    {
+      "url": "https://www.usgs.gov/centers/eros/science/national-land-cover-database?page=1",
+      "label": "Page 2"
+    },
+    {
+      "url": "https://www.usgs.gov/centers/eros/science/national-land-cover-database?page=1",
+      "label": "Next page ››"
+    },
+    {
+      "url": "https://www.usgs.gov/centers/eros/science/national-land-cover-database?page=1",
+      "label": "Last page Last »"
+    },
+    {
+      "url": "https://www.usgs.gov/centers/eros/science/national-land-cover-database",
+      "label": "Back to Top"
+    },
+    {
+      "url": "https://www.usgs.gov/accessibility",
+      "label": "Accessibility"
+    },
+    {
+      "url": "https://www.usgs.gov/foia",
+      "label": "FOIA"
+    },
+    {
+      "url": "https://www.usgs.gov/legal",
+      "label": "Site Policies"
+    },
+    {
+      "url": "https://www.doi.gov/privacy",
+      "label": "Privacy Policy"
+    },
+    {
+      "url": "https://www.usgs.gov/sitemap",
+      "label": "Site Map"
+    },
+    {
+      "url": "https://www.usgs.gov/doi-and-usgs-link-policies-apply",
+      "label": "DOI and USGS link policies apply"
+    },
+    {
+      "url": "https://www.doi.gov/pmb/eeo/reports-repository",
+      "label": "No FEAR Act"
+    },
+    {
+      "url": "https://www.usa.gov",
+      "label": "USA.gov"
+    },
+    {
+      "url": "https://www.usgs.gov/legal/usgs-vulnerability-disclosure-policy",
+      "label": "Vulnerability Disclosure"
+    },
+    {
+      "url": "https://www.usgs.gov/human-capital",
+      "label": "Careers and Employment"
+    },
+    {
+      "url": "https://www.usgs.gov/about/doing-business",
+      "label": "Doing Business"
+    },
+    {
+      "url": "https://www.usgs.gov/programs/emergency-management",
+      "label": "Emergency Management"
+    },
+    {
+      "url": "https://www.doi.gov/pmb/eeo",
+      "label": "Office of Civil Rights"
+    },
+    {
+      "url": "https://www.usgs.gov",
+      "label": ""
+    },
+    {
+      "url": "https://www.usgs.gov",
+      "label": "U.S. Geological Survey"
+    },
+    {
+      "url": "https://www.doi.gov",
+      "label": "U.S. Department of the Interior"
+    },
+    {
+      "url": "https://www.facebook.com/USGeologicalSurvey/",
+      "label": ""
+    },
+    {
+      "url": "https://twitter.com/USGS",
+      "label": ""
+    },
+    {
+      "url": "https://youtube.com/@usgs?sub_confirmation=1",
+      "label": ""
+    },
+    {
+      "url": "https://www.instagram.com/usgs/",
+      "label": ""
+    },
+    {
+      "url": "https://www.linkedin.com/company/usgs/",
+      "label": ""
+    },
+    {
+      "url": "https://answers.usgs.gov",
+      "label": "answers.usgs.gov"
+    },
+    {
+      "url": "https://www.usgs.gov/centers/eros/science/national-land-cover-database",
+      "label": "Was this page helpful?"
+    }
+  ],
+  "elapsed_seconds": 4.5
+}

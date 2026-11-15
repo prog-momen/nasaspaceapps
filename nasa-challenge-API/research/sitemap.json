@@ -1,0 +1,13 @@
+{
+  "id": "sitemap",
+  "url": "https://www.spaceappschallenge.org/sitemap.xml",
+  "checked_at": "2026-11-14T15:09:58.142632+00:00",
+  "tls_validation": false,
+  "status": 200,
+  "final_url": "https://www.spaceappschallenge.org/sitemap.xml",
+  "bytes": 755,
+  "content_type": "application/xml",
+  "sha256": "3a3c49e09532a2cffd040d9655aaa9da48429b9a80ac0934f086ef0ea4db16da",
+  "links": [],
+  "elapsed_seconds": 0.375
+}

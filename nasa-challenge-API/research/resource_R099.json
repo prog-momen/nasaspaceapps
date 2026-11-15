@@ -1,0 +1,13 @@
+{
+  "id": "resource_R099",
+  "url": "https://quickmap.lroc.asu.edu/",
+  "checked_at": "2026-11-14T15:15:22.951893+00:00",
+  "tls_validation": false,
+  "status": 200,
+  "final_url": "https://quickmap.lroc.im-ldi.com/",
+  "bytes": 8160,
+  "content_type": "text/html",
+  "sha256": "dcc94e36096df527b123f5d4dbf5cf1ed313a119d009ba02e173dfe815bb6f1e",
+  "links": [],
+  "elapsed_seconds": 3.329
+}

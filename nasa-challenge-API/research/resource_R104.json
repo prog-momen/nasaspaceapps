@@ -1,0 +1,146 @@
+{
+  "id": "resource_R104",
+  "url": "https://caltech-ipac.github.io/irsa-tutorials/spherex/",
+  "checked_at": "2026-11-14T15:15:23.770314+00:00",
+  "tls_validation": false,
+  "status": 200,
+  "final_url": "https://caltech-ipac.github.io/irsa-tutorials/spherex/",
+  "bytes": 76782,
+  "content_type": "text/html; charset=utf-8",
+  "sha256": "fcfdf5b990554fd20aa42dacfdbc276bbc082c4369c088d31c41afa2f1d20716",
+  "links": [
+    {
+      "url": "https://caltech-ipac.github.io/irsa-tutorials/spherex/#skip-to-frontmatter",
+      "label": "Skip to article frontmatter"
+    },
+    {
+      "url": "https://caltech-ipac.github.io/irsa-tutorials/spherex/#skip-to-article",
+      "label": "Skip to article content"
+    },
+    {
+      "url": "https://mystmd.org/guide/deployment#deploy-base-url",
+      "label": "the MyST Documentation"
+    },
+    {
+      "url": "https://caltech-ipac.github.io/irsa-tutorials/",
+      "label": "Made with MyST"
+    },
+    {
+      "url": "https://caltech-ipac.github.io/irsa-tutorials/",
+      "label": "IRSA Notebooks"
+    },
+    {
+      "url": "https://irsa.ipac.caltech.edu/irsa-contributed-notebooks/",
+      "label": "Contributed Notebooks"
+    },
+    {
+      "url": "https://caltech-ipac.github.io/irsa-tutorials/",
+      "label": "IRSA Notebooks"
+    },
+    {
+      "url": "https://irsa.ipac.caltech.edu/irsa-contributed-notebooks/",
+      "label": "Contributed Notebooks"
+    },
+    {
+      "url": "https://caltech-ipac.github.io/irsa-tutorials/",
+      "label": "IRSA Notebooks"
+    },
+    {
+      "url": "https://caltech-ipac.github.io/irsa-tutorials/spherex",
+      "label": "SPHEREx"
+    },
+    {
+      "url": "https://caltech-ipac.github.io/irsa-tutorials/spherex-intro",
+      "label": "Data Overview"
+    },
+    {
+      "url": "https://caltech-ipac.github.io/irsa-tutorials/spherex-cutouts",
+      "label": "Spectral Image Cutouts"
+    },
+    {
+      "url": "https://caltech-ipac.github.io/irsa-tutorials/spherex-psf",
+      "label": "PSF Models"
+    },
+    {
+      "url": "https://caltech-ipac.github.io/irsa-tutorials/spherex-source-discovery-tool-demo",
+      "label": "Source Discovery Tool"
+    },
+    {
+      "url": "https://caltech-ipac.github.io/irsa-tutorials/spherex-mosaic",
+      "label": "Mosaic Cube"
+    },
+    {
+      "url": "https://caltech-ipac.github.io/irsa-tutorials/spherex-hipscube",
+      "label": "HiPS All-Sky Cube"
+    },
+    {
+      "url": "https://caltech-ipac.github.io/irsa-tutorials/euclid",
+      "label": "Euclid"
+    },
+    {
+      "url": "https://caltech-ipac.github.io/irsa-tutorials/wise",
+      "label": "WISE"
+    },
+    {
+      "url": "https://caltech-ipac.github.io/irsa-tutorials/simulated",
+      "label": "Simulated Data"
+    },
+    {
+      "url": "https://caltech-ipac.github.io/irsa-tutorials/techniques",
+      "label": "Techniques & Tools"
+    },
+    {
+      "url": "https://mystmd.org/made-with-myst",
+      "label": "Made with MyST"
+    },
+    {
+      "url": "https://caltech-ipac.github.io/irsa-tutorials/",
+      "label": "IRSA Notebooks"
+    },
+    {
+      "url": "https://github.com/Caltech-IPAC/irsa-tutorials/blob/main/LICENSE",
+      "label": ""
+    },
+    {
+      "url": "https://github.com/Caltech-IPAC/irsa-tutorials/",
+      "label": ""
+    },
+    {
+      "url": "https://github.com/Caltech-IPAC/irsa-tutorials//edit/main/tutorials/spherex/spherex.md",
+      "label": ""
+    },
+    {
+      "url": "https://irsa.ipac.caltech.edu/Missions/spherex.html",
+      "label": "SPHEREx"
+    },
+    {
+      "url": "https://caltech-ipac.github.io/spherex-archive-documentation/spherex-data-products/",
+      "label": "Quick Release spectral image products"
+    },
+    {
+      "url": "https://caltech-ipac.github.io/irsa-tutorials/spherex-intro",
+      "label": "Data Overview →"
+    },
+    {
+      "url": "https://caltech-ipac.github.io/irsa-tutorials/spherex-cutouts",
+      "label": "Spectral Image Cutouts →"
+    },
+    {
+      "url": "https://caltech-ipac.github.io/irsa-tutorials/spherex-psf",
+      "label": "PSF Models →"
+    },
+    {
+      "url": "https://caltech-ipac.github.io/irsa-tutorials/spherex-source-discovery-tool-demo",
+      "label": "Source Discovery Tool →"
+    },
+    {
+      "url": "https://caltech-ipac.github.io/irsa-tutorials/spherex-mosaic",
+      "label": "Mosaic Cube →"
+    },
+    {
+      "url": "https://caltech-ipac.github.io/irsa-tutorials/spherex-hipscube",
+      "label": "HiPS All-Sky Cube →"
+    }
+  ],
+  "elapsed_seconds": 2.062
+}

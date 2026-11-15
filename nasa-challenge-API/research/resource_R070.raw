@@ -1,0 +1,320 @@
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<link rel="stylesheet" href="/css/global.css" type="text/css" /> 
+	
+<script language="javascript" type="text/javascript" src="/scripts/common.js"></script>
+	
+<link href="/VAM/Appearance/VAMStyleSheet.css" type="text/css" rel="stylesheet">
+	<title>CoCoRaHS - Community Collaborative Rain, Hail &amp; Snow Network</title>
+	<link rel="stylesheet" href="https://kendo.cdn.telerik.com/themes/10.0.1/default/default-main.css" />
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" type="text/javascript"></script>
+    <script src="https://kendo.cdn.telerik.com/2024.4.1112/js/kendo.all.min.js" type="text/javascript"></script>
+    <script src="/scripts/kendo-ui-license.js" type="text/javascript"></script>
+	<script src="https://cdn.jsdelivr.net/npm/luxon@3.5.0/build/global/luxon.min.js" type="text/javascript"></script>
+    <link
+        rel="stylesheet"
+        href="https://kendo.cdn.telerik.com/themes/10.0.1/default/default-ocean-blue.css"
+    />
+    <link rel="stylesheet" href="/css/date-selector.css" />
+	
+</head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-9GHG0R365P"></script>
+<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag() { dataLayer.push(arguments); }
+	gtag('js', new Date());
+
+	gtag('config', 'G-9GHG0R365P');
+</script>
+<body id="Body" bgcolor="#ffffff" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+	<form name="Form1" method="post" action="./" id="Form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="fSJxSsNtD0ZRtLxpCRiYJIPCcFebklvqr22H8JwU60BKgVk+9yg1UyVafTQeNB40Ob0GetUgNQ2Py9Seg9ULKsUZltE3kE0VioIETAFucjXa7UvyzjH3AiVg7mp4yjy+YK+jrHau7d84IfE1EHuJ17bjyk7Es4HJLoTV6EC83u03CLkbEBV+fKu/8ZBs89FzORVHVQiPqRlu2GwSeiGT4vwBEYNC4dfXO3pFvt37eePFdXVZXr9Zjqbsxzi+NhN8mZLkIljJo4pMw/qf0O/DOVrTzrdhOgoTHDGuzoZaeI4=" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="1118C827" />
+		
+		<table align="left" cellspacing="0" cellpadding="0" width="880" height="100%" border="0">
+			<tbody>
+				<tr>
+					<td valign="top" align="left" colspan="3" height="95" width="100%">
+						
+						<table width="100%" height="135" border="0" cellpadding="0" cellspacing="0">
+							<!-- WIDTH="875"  -->
+							
+								
+	<TR>
+		<TD width="135" height="135" ROWSPAN="4" vAlign="top" align="left">
+			<a href="/"><IMG SRC="/images/header_logo.gif" WIDTH="135" HEIGHT="140" border="0" ALT=""></a></TD>
+		<TD class="header_titlebar" height="51" COLSPAN="2" vAlign="top" align="left" >
+			<IMG border="0" SRC="/images/header_titlebar.gif" WIDTH="580" HEIGHT="51" ALT=""></TD>
+		<TD class="header_titlebar" height="51" valign="bottom"  style="padding-left: 10px;">
+	<!--	<div id="google_translate_element"></div><script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: 'en,es,fr', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, autoDisplay: false, gaTrack: true, gaId: 'UA-9079456-1'}, 'google_translate_element');
+}
+</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script> -->
+		<a href="https://cocorahs.blogspot.com/" title="Go to CoCoRaHS Blog" target="blog" ><img src="/images/icons/socialmedia/blogger_16.png" width="16" height="16" border="0"></a>&nbsp;<a href="https://www.facebook.com/CoCoRaHS" title="Go to CoCoRaHS Facebook page" target="facebook" ><img src="/images/icons/socialmedia/facebook_16.png" width="16" height="16" border="0"></a>&nbsp;<a href="https://www.youtube.com/cocorahs/" title="Go to CoCoRaHS YouTube Channel" target="youtube" ><img src="/images/icons/socialmedia/youtube_16.png"  width="16" height="16" border="0"></a></td>
+		<TD HEIGHT="83" width="82" ROWSPAN="2" vAlign="top" align="left">
+			<IMG SRC="/images/header_endcap.gif" WIDTH="82" HEIGHT="83" ALT=""></TD>
+	</TR>
+	<TR>
+		<TD class="header_menubar" style="padding-top: 0px;" width="52" HEIGHT="43" ROWSPAN="2" vAlign="top" align="left" ><IMG border="0" SRC="/images/header_titlebar_left.gif" WIDTH="52" HEIGHT="43" ALT=""></TD>
+		<TD height="32" class="header_menubar" vAlign="top" align="left" nowrap>
+			
+<div class="topmenu" nowrap >
+	<a href="/">Home</a> | 
+	<a href="/Content.aspx?page=countries">Countries</a> | 
+	<a href="/States.aspx">States</a> | 
+	<a href="/ViewData/">View Data</a> | 
+	<a href="/Maps/">Maps</a>
+	<img src="/images/spacer.gif" width="20" height="5" >
+		<a href="/Admin/MyDataEntry/">My Data Entry</a> | <a href="/Login.aspx">Login</a>
+</div>
+			</TD>
+		<TD class="header_menubar" vAlign=top align=center>
+			<IMG border="0" height=2 alt="" src="/images/spacer.gif" width=1>
+		</TD>	
+	</TR>
+
+
+
+
+
+							
+							<tr>
+								<!-- Page Title Area  -->
+								<td class="PageTitle" colspan="3" rowspan="2" valign="top">
+									<img src="../images/icons/icon_map_a_48x48.png" width="32" height="32" align="absmiddle" /> Maps 
+
+									<img height="22" alt="" border="0" src="/images/spacer.gif" width="1"></td>
+							</tr>
+							<tr>
+								<td valign="top" align="left" height="46">
+									<img border="0" style="width: 52px;" height="46" src="/images/spacer.gif" width="52"></td>
+							</tr>
+						</table>
+						
+					</td>
+				</tr>
+				<tr>
+					<td colspan="3" valign="top">
+						<table border="0" width="100%" cellspacing="0" cellpadding="0" id="tblMainBody">
+							<tr>
+								<td valign="top" width="200" height="500" align="left" style="width: 200px;">
+									
+									
+									
+										
+										
+<div class="MenuPanel">
+	<div class="MenuPanelHeader">Main Menu</div>
+	<div class="MenuPanelBody">
+		<ul class="MenuPanelList">
+			<li><a href="/" >Home</a></li>
+			<li><a href="/Content.aspx?page=aboutus" >About Us</a></li>
+			<li><a href="/Content.aspx?page=application">Join CoCoRaHS</a></li>			
+			<li><a href="/Content.aspx?page=contactus">Contact Us</a></li>
+			<li><a href="https://give.colostate.edu/cocorahs-2026" target="_blank">Donate</a></li>
+			
+		</ul>	
+	</div>
+	<div class="MenuPanelTitle">Resources</div>
+	<div class="MenuPanelBody">
+		<ul class="MenuPanelList">
+
+			<li><a href="/Content.aspx?page=Help">FAQ / Help</a></li>
+		<!--	<li><a href="/Content.aspx?page=training">Training</a></li> -->		
+			<li><a href="/Content.aspx?page=education">Education</a></li>	
+			<li><a href="/Content.aspx?page=training_slideshows">Training Slide-Shows</a></li>
+            <li><a href="http://www.youtube.com/cocorahs/" target="_blank">Videos</a></li>
+            <li><a href="/Content.aspx?page=condition">Condition Monitoring</a></li>
+			<!-- <li><a href="/Content.aspx?page=droughtimpactreports">Drought Impacts</a></li> -->
+			<li><a href="/Content.aspx?page=et">Evapotranspiration</a></li>	
+			<li><a href="/Content.aspx?page=soilmoisture">Soil Moisture</a></li>	
+			<li><a href="/Content.aspx?page=climate-normals">NCEI Normals</a></li>	
+				
+			<br><br>
+			<li><a href="/Content.aspx?page=coord">Volunteer Coordinators</a></li>
+			<li><a href="/Content.aspx?page=HailPadDropOff">Hail Pad <br>Distribution/Drop-off</a></li>
+			<li><a href="/Content.aspx?page=HelpNeeded">Help Needed</a></li>
+			<li><a href="/Content.aspx?page=PrintableForms">Printable Forms</a></li>			
+				<br><br>
+				
+		
+			<li><a href="/Content.aspx?page=catch" ><i>The Catch</i></a></li>
+			
+		<li><a href="/Content.aspx?page=mod&mod=1">The Squall Line</a></li>
+		<li><a href="/Content.aspx?page=publications">Publications</a></li>
+		<li><a href="http://cocorahs.blogspot.com/" target="_blank">CoCoRaHS Blog</a></li>		
+		<li><a href="/Content.aspx?page=groups" >Web Groups</a></li>
+		<li><a href="/Content.aspx?page=StateNewsletters">State Newsletters</a></li>
+		<li><a href="/Content.aspx?page=MasterGardener">Master Gardener Guide</a></li>		
+		<li><a href="/Content.aspx?page=50StatesClimates">State Climate Series</a></li>
+		<li><a href="/marchmadness.aspx">Rain Gauge Rally</a></li>
+		<li><a href="/Content.aspx?page=wxtalk">WxTalk Webinars</a></li>	
+<br><br>
+			<li><a href="/Content.aspx?page=sponsors">Sponsors</a></li>			
+		
+			<li><a href="/Content.aspx?page=links">Links</a></li>
+			<li><a href="/Content.aspx?page=store" target="_blank" >CoCoRaHS Store</a></li>
+
+		</ul>	
+	</div>
+	<div class="MenuPanelFooter">&nbsp;</div>
+</div>
+<div style="margin-left:15px;width: 170px; margin-top:8px;">
+	<a href="https://www.nws.noaa.gov/com/weatherreadynation/#.VOt1A3a3yB8" target="_blank"><img src="/images/amb_logo_140x89.png" width="140px" /></a><br />
+	<a href="https://www.cocorahs.org/Content.aspx?page=noaa" ><img height="147" src="/images/NOAAProductsLink.gif" width="140" border="0"></a><br /> 
+	<a href="/Content.aspx?page=CoCoRaHS_Uses" ><img src="/images/WhoUses140.png" border="0" width="140px"></a>
+</div>
+									
+
+									&nbsp;       
+										
+								</td>
+								<td id="tdMainBody" class="MainBody" valign="top" width="100%" height="100%" align="left">
+									
+									<div id="ValidationSummary1" class="ErrorBox" style="color:#C00000;background-color:Beige;border-color:#C00000;border-width:1px;border-style:Solid;width:500px;visibility:hidden;display:none;">
+
+</div>
+									
+	
+<table>
+	<tr>
+		<td>
+<fieldset style="width:330px;text-align:center;">
+	<legend style="text-align:left;"><h3> <a href="https://maps.cocorahs.org" target="_blank">Interactive</a> </h3></legend>
+	<a href="https://maps.cocorahs.org" target="_blank" ><img src="https://staticmaps.cocorahs.org/homepagemap" width="320" border="0" ></a>
+</fieldset>
+		</td>
+	</tr>
+	<tr>
+		<td>
+<fieldset style="width:330px;text-align:center;">
+	<legend style="text-align:left;"><h3> <a href="conditionmonitoring/" target="_blank" >Condition Monitoring</A> </h3></legend>
+	<a href="conditionmonitoring/" target="_blank" ><img src="conditionmonitoring/assets/help-cm-map.png" width="320" border="0" /></a>	
+</fieldset>
+		</td>
+	</tr>
+	<tr>
+		<td>
+<fieldset style="width:330px;height:225px;text-align:center;">
+	<legend style="text-align:left;"><h3> <a href="ViewMap.aspx">Static</a> </h3></legend>
+<a href="ViewMap.aspx?state=usa"><img src="GetMap.aspx?state=usa&amp;size=med" width="320" border="0" style="padding-top:10px;" ></a>		
+</fieldset>
+		</td>
+
+	</tr>
+	    <tr>
+		<td>
+<fieldset style="width:330px;height:350px;text-align:center;">
+	<legend style="text-align:left;"><h3> <a href="https://data.cocorahs.org/cocorahs/maps/"  target="_blank" >Google Map</a> </h3></legend>
+
+<img name="states_01_slices" src="../images/nationalimagemap.gif" width="480" height="330" border="0" usemap="#national_imgmap" alt="">
+<map name="national_imgmap">
+<area shape="poly" coords="1,0,48,20,110,32,152,34,180,36,228,34,237,32,244,28,249,33,283,38,328,48,352,85,349,97,366,89,371,81,371,74,377,66,386,66,390,54,399,43,417,37,422,29,433,-1" href="https://data.cocorahs.org/cocorahs/maps/?country=can" target="CoCoRaHSMap" title="Canada" alt="Canada" />
+<area shape="poly" coords="419,116,414,116,409,104,412,102,419,113,421,112,428,112,432,110,444,110,446,109,446,121,430,121" href="https://data.cocorahs.org/cocorahs/maps/?country=usa&state=de" target="CoCoRaHSMap" title="Delaware" alt="Delaware" >
+<area shape="poly" coords="425,35,428,28,427,14,429,7,435,8,438,6,443,6,447,20,457,27,457,32,449,38,446,42,440,48,438,56,433,53,429,42" href="https://data.cocorahs.org/cocorahs/maps/?country=usa&state=me" target="CoCoRaHSMap" title="Maine" alt="Maine" >
+<area shape="rect" coords="431,126,459,141" href="https://data.cocorahs.org/cocorahs/maps/?country=usa&state=md" target="CoCoRaHSMap" title="Maryland" alt="Maryland" >
+<area shape="rect" coords="426,96,442,108" href="https://data.cocorahs.org/cocorahs/maps/?country=usa&state=nj" target="CoCoRaHSMap" title="New Jersey" alt="New Jersey" >
+<area shape="rect" coords="437,85,454,97" href="https://data.cocorahs.org/cocorahs/maps/?country=usa&state=ct" target="CoCoRaHSMap" title="Connecticut" alt="Connecticut" >
+<area shape="rect" coords="454,43,473,56" href="https://data.cocorahs.org/cocorahs/maps/?country=usa&state=nh" target="CoCoRaHSMap" title="New Hampshire" alt="New Hampshire" >
+<area shape="rect" coords="389,27,407,40" href="https://data.cocorahs.org/cocorahs/maps/?country=usa&state=vt" target="CoCoRaHSMap" title="Vermont" alt="Vermont" >
+<area shape="poly" coords="422,39,424,35,425,35,433,54,438,58,434,60,433,62,426,63,424,61,424,47,425,44,424,41" href="https://data.cocorahs.org/cocorahs/maps/?country=usa&state=nh" target="CoCoRaHSMap" title="New Hampshire" alt="New Hampshire" >
+<area shape="poly" coords="419,73,433,70,434,78,420,85" href="https://data.cocorahs.org/cocorahs/maps/?country=usa&state=ct" target="CoCoRaHSMap" title="Connecticut" alt="Connecticut" >
+<area shape="rect" coords="98,261,194,327" href="https://data.cocorahs.org/cocorahs/maps/?country=usa&state=hi" target="CoCoRaHSMap" title="Hawaii" alt="Hawaii" >
+<area shape="poly" coords="371,109,373,115,380,113,381,116,389,112,396,112,390,115,384,127,382,127,378,138,373,141,366,141,360,137,360,132,361,129,360,125,364,120,370,114" href="https://data.cocorahs.org/cocorahs/maps/?country=usa&state=wv" target="CoCoRaHSMap" title="West Virginia" alt="West Virginia" >
+<area shape="poly" coords="409,43,422,39,424,42,424,45,423,48,423,61,426,64,419,65,416,60,412,55,413,49,410,47" href="https://data.cocorahs.org/cocorahs/maps/?country=usa&state=vt" target="CoCoRaHSMap" title="Vermont" alt="Vermont" >
+<area shape="poly" coords="261,168,299,164,300,169,304,169,294,196,296,201,296,203,271,205,270,199,265,199" href="https://data.cocorahs.org/cocorahs/maps/?country=usa&state=ar" target="CoCoRaHSMap" title="Arkansas" alt="Arkansas" >
+<area shape="poly" coords="419,65,433,62,438,59,439,63,447,64,453,63,458,59,473,59,475,68,457,68,448,68,444,70,440,73,437,71,435,69,420,73,419,69" href="https://data.cocorahs.org/cocorahs/maps/?country=usa&state=ma" target="CoCoRaHSMap" title="Massachusetts" alt="Massachusetts" >
+<area shape="poly" coords="334,101,344,98,350,100,361,93,367,91,370,106,369,115,362,122,360,126,360,130,358,132,356,130,353,131,352,131,349,131,339,128" href="https://data.cocorahs.org/cocorahs/maps/?country=usa&state=oh" target="CoCoRaHSMap" title="Ohio" alt="Ohio" >
+<area shape="poly" coords="86,31,93,32,92,44,102,57,101,70,106,70,106,76,112,83,125,83,123,110,107,109,87,107,78,106,81,84,78,80,86,68,84,63" href="https://data.cocorahs.org/cocorahs/maps/?country=usa&state=id" target="CoCoRaHSMap" title="Idaho" alt="Idaho" >
+<area shape="poly" coords="19,96,54,102,48,136,86,182,91,192,85,200,85,207,82,210,62,208,59,203,60,199,52,192,41,184,35,182,34,175,27,160,28,155,24,150,24,145,27,145,27,140,23,142,17,130,17,120,14,112,19,104" href="https://data.cocorahs.org/cocorahs/maps/?country=usa&state=ca" target="CoCoRaHSMap" title="California" alt="California" >
+<area shape="poly" coords="300,181,319,178,321,200,324,228,318,229,316,231,311,226,311,223,296,224,296,219,299,213,298,205,296,201,294,196,298,188" href="https://data.cocorahs.org/cocorahs/maps/?country=usa&state=ms" target="CoCoRaHSMap" title="Mississippi" alt="Mississippi" >
+<area shape="poly" coords="282,55,290,50,296,44,299,44,295,49,301,50,304,52,310,52,320,47,326,49,330,53,325,57,336,59,339,66,339,73,343,74,349,82,349,86,346,89,345,95,344,99,333,100,318,102,319,99,319,89,316,84,315,70,319,66,322,67,323,59,324,55,318,56,313,61,308,61,307,66,304,67,301,61,295,60,288,60" href="https://data.cocorahs.org/cocorahs/maps/?country=usa&state=mi" target="CoCoRaHSMap" title="Michigan" alt="Michigan" >
+<area shape="poly" coords="101,109,123,110,123,122,139,123,137,166,95,163,98,135" href="https://data.cocorahs.org/cocorahs/maps/?country=usa&state=ut" target="CoCoRaHSMap" title="Utah" alt="Utah" >
+<area shape="poly" coords="87,31,83,63,70,61,54,63,47,61,41,61,38,53,32,50,30,27,44,33,45,23,66,27" href="https://data.cocorahs.org/cocorahs/maps/?country=usa&state=wa" target="CoCoRaHSMap" title="Washington" alt="Washington" >
+<area shape="poly" coords="180,37,229,36,229,47,236,68,209,69,181,70" href="https://data.cocorahs.org/cocorahs/maps/?country=usa&state=nd" target="CoCoRaHSMap" title="North Dakota" alt="North Dakota" >
+<area shape="poly" coords="342,173,360,170,362,175,365,175,390,197,387,201,388,210,383,211,382,215,362,217,361,217,357,217,355,214,353,210,353,200,345,186,344,180" href="https://data.cocorahs.org/cocorahs/maps/?country=usa&state=ga" target="CoCoRaHSMap" title="Georgia" alt="Georgia" >
+<area shape="poly" coords="434,69,436,69,438,73,444,78,447,76,455,76,456,84,447,84,443,81,437,75,436,77,434,77,433,71" href="https://data.cocorahs.org/cocorahs/maps/?country=usa&state=ri" target="CoCoRaHSMap" title="Rhode Island" alt="Rhode Island" >
+<area shape="poly" coords="362,170,378,163,384,166,390,163,404,172,399,181,390,196,366,174,362,173" href="https://data.cocorahs.org/cocorahs/maps/?country=usa&state=sc" target="CoCoRaHSMap" title="South Carolina" alt="South Carolina" >
+<area shape="poly" coords="410,83,420,87,421,91,423,93,423,101,419,112,415,110,412,103,415,96,411,93" href="https://data.cocorahs.org/cocorahs/maps/?country=usa&state=nj" target="CoCoRaHSMap" title="New Jersey" alt="New Jersey" >
+<area shape="poly" coords="271,205,296,203,298,209,298,212,295,220,296,224,310,223,311,226,314,230,316,233,321,243,313,242,303,245,296,240,291,241,285,241,277,239,277,224,271,215" href="https://data.cocorahs.org/cocorahs/maps/?country=usa&state=la" target="CoCoRaHSMap" title="Louisiana" alt="Louisiana" >
+<area shape="poly" coords="19,96,54,102,77,106,80,84,78,80,85,70,85,68,83,63,70,61,54,63,48,61,42,61,39,59,38,54,31,51,19,86" href="https://data.cocorahs.org/cocorahs/maps/?country=usa&state=or" target="CoCoRaHSMap" title="Oregon" alt="Oregon" >
+<area shape="poly" coords="316,147,325,144,333,140,334,136,340,132,339,129,342,129,350,131,356,130,359,132,360,137,365,141,355,153,315,159,315,161,307,161,308,156,314,154" href="https://data.cocorahs.org/cocorahs/maps/?country=usa&state=ky" target="CoCoRaHSMap" title="Kentucky" alt="Kentucky" >
+<area shape="poly" coords="319,177,342,173,346,187,352,200,353,209,354,214,330,219,334,228,325,228,321,211" href="https://data.cocorahs.org/cocorahs/maps/?country=usa&state=al" target="CoCoRaHSMap" title="Alabama" alt="Alabama" >
+<area shape="poly" coords="331,220,355,214,357,218,383,215,382,211,389,210,413,251,412,265,405,269,385,250,381,243,379,233,355,231,342,227,333,227" href="https://data.cocorahs.org/cocorahs/maps/?country=usa&state=fl" target="CoCoRaHSMap" title="Florida" alt="Florida" >
+<area shape="poly" coords="370,86,373,72,392,66,392,55,397,47,410,42,411,47,413,50,412,54,419,65,421,86,434,79,436,82,422,90,420,87,410,82,406,79,374,88" href="https://data.cocorahs.org/cocorahs/maps/?country=usa&state=ny" target="CoCoRaHSMap" title="New York" alt="New York" >
+<area shape="poly" coords="370,150,387,146,419,136,429,148,407,173,393,164,389,164,384,165,379,163,361,169,352,170,358,163,363,157,368,154" href="https://data.cocorahs.org/cocorahs/maps/?country=usa&state=nc" target="CoCoRaHSMap" title="North Carolina" alt="North Carolina" >
+<area shape="poly" coords="239,96,279,90,281,98,286,100,289,105,290,110,285,113,285,119,282,123,249,125,240,105" href="https://data.cocorahs.org/cocorahs/maps/?country=usa&state=ia" target="CoCoRaHSMap" title="Iowa" alt="Iowa" >
+<area shape="poly" coords="181,70,235,69,236,73,238,74,238,96,239,105,232,102,224,100,182,102" href="https://data.cocorahs.org/cocorahs/maps/?country=usa&state=sd" target="CoCoRaHSMap" title="South Dakota" alt="South Dakota" >
+<area shape="poly" coords="307,162,315,161,316,159,371,150,368,154,363,157,353,167,353,171,300,180" href="https://data.cocorahs.org/cocorahs/maps/?country=usa&state=tn" target="CoCoRaHSMap" title="Tennessee" alt="Tennessee" >
+<area shape="poly" coords="267,58,276,53,282,55,289,60,301,61,304,67,308,66,309,73,308,98,286,100,282,98,279,87,273,82,267,78,265,71,265,67,267,65" href="https://data.cocorahs.org/cocorahs/maps/?country=usa&state=wi" target="CoCoRaHSMap" title="Wisconsin" alt="Wisconsin" >
+<area shape="poly" coords="53,102,100,109,94,172,88,173,86,182,48,136" href="https://data.cocorahs.org/cocorahs/maps/?country=usa&state=nv" target="CoCoRaHSMap" title="Nevada" alt="Nevada" >
+<area shape="rect" coords="4,223,89,327" href="https://data.cocorahs.org/cocorahs/maps/?country=usa&state=ak" target="CoCoRaHSMap" title="Alaska" alt="Alaska" >
+<area shape="poly" coords="93,32,180,37,180,81,126,79,126,81,113,83,107,76,107,70,101,71,103,57,93,44" href="https://data.cocorahs.org/cocorahs/maps/?country=usa&state=mt" target="CoCoRaHSMap" title="Montana" alt="Montana" >
+<area shape="poly" coords="286,100,307,97,313,106,317,138,312,155,303,156,303,152,295,147,296,139,292,139,283,129,283,124,285,119,285,113,289,110,289,105" href="https://data.cocorahs.org/cocorahs/maps/?country=usa&state=il" target="CoCoRaHSMap" title="Illinois" alt="Illinois" >
+<area shape="poly" coords="248,125,283,122,307,157,304,170,262,169,259,142" href="https://data.cocorahs.org/cocorahs/maps/?country=usa&state=mo" target="CoCoRaHSMap" title="Missouri" alt="Missouri" >
+<area shape="poly" coords="333,100,339,131,334,135,331,141,315,147,317,136,312,103" href="https://data.cocorahs.org/cocorahs/maps/?country=usa&state=in" target="CoCoRaHSMap" title="Indiana" alt="Indiana" >
+<area shape="circle" coords="402,113, 4" href="https://data.cocorahs.org/cocorahs/maps/?country=usa&state=dc" target="CoCoRaHSMap" title="District of Columbia" alt="District of Columbia" >
+<area shape="poly" coords="380,113,409,104,414,116,419,116,418,125,417,131,415,130,414,122,408,114,408,121,403,121,402,115,405,111,401,109,399,112,390,112,382,116" href="https://data.cocorahs.org/cocorahs/maps/?country=usa&state=md" target="CoCoRaHSMap" title="Maryland" alt="Maryland" >
+<area shape="poly" coords="357,153,365,142,373,141,379,138,383,126,390,115,397,114,401,116,402,122,407,123,411,127,418,136,383,148" href="https://data.cocorahs.org/cocorahs/maps/?country=usa&state=va" target="CoCoRaHSMap" title="Virginia" alt="Virginia" >
+<area shape="poly" coords="366,91,372,115,408,105,412,102,414,96,411,92,410,83,406,79,372,89,369,87" href="https://data.cocorahs.org/cocorahs/maps/?country=usa&state=pa" target="CoCoRaHSMap" title="Pennsylvania" alt="Pennsylvania" >
+<area shape="poly" coords="188,173,215,172,216,192,240,200,249,199,260,197,270,201,271,215,276,225,277,239,245,268,248,287,227,280,202,246,193,246,188,255,177,249,170,235,157,223,157,221,189,221" href="https://data.cocorahs.org/cocorahs/maps/?country=usa&state=tx" target="CoCoRaHSMap" title="Texas" alt="Texas" >
+<area shape="poly" coords="137,167,190,167,190,172,188,173,189,221,157,221,157,224,142,223,142,228,135,227" href="https://data.cocorahs.org/cocorahs/maps/?country=usa&state=nm" target="CoCoRaHSMap" title="New Mexico" alt="New Mexico" >
+<area shape="poly" coords="180,102,181,123,196,123,197,134,250,131,239,104,225,101" href="https://data.cocorahs.org/cocorahs/maps/?country=usa&state=ne" target="CoCoRaHSMap" title="Nebraska" alt="Nebraska" >
+<area shape="poly" coords="197,135,254,132,254,138,258,141,261,164,197,167" href="https://data.cocorahs.org/cocorahs/maps/?country=usa&state=ks" target="CoCoRaHSMap" title="Kansas" alt="Kansas" >
+<area shape="poly" coords="139,123,197,123,197,167,138,166" href="https://data.cocorahs.org/cocorahs/maps/?country=usa&state=co" target="CoCoRaHSMap" title="Colorado" alt="Colorado" >
+<area shape="poly" coords="126,79,180,81,180,123,123,122" href="https://data.cocorahs.org/cocorahs/maps/?country=usa&state=wy" target="CoCoRaHSMap" title="Wyoming" alt="Wyoming" >
+<area shape="poly" coords="189,167,261,164,265,198,258,197,249,199,238,199,215,192,214,173,190,172" href="https://data.cocorahs.org/cocorahs/maps/?country=usa&state=ok" target="CoCoRaHSMap" title="Oklahoma" alt="Oklahoma" >
+<area shape="poly" coords="239,95,279,90,272,82,266,79,264,68,267,64,267,58,277,46,286,39,245,29,230,36,230,45,237,68,234,69,235,73,238,75" href="https://data.cocorahs.org/cocorahs/maps/?country=usa&state=mn" target="CoCoRaHSMap" title="Minnesota" alt="Minnesota" >
+<area shape="poly" coords="95,163,138,166,134,228,113,228,83,210,85,207,85,200,91,192,86,184,88,178,88,173,92,173,95,171" href="https://data.cocorahs.org/cocorahs/maps/?country=usa&state=az" target="CoCoRaHSMap" title="Arizona" alt="Arizona" >
+<area shape="rect" coords="302,296,403,327" href="https://data.cocorahs.org/cocorahs/maps/?country=usa&state=pr" title="Puerto Rico" alt="Puerto Rico" />
+<area shape="rect" coords="409,296,475,327" href="https://data.cocorahs.org/cocorahs/maps/?country=usa&state=vi" title="Virgin Islands" alt="Virgin Islands" />
+</map> 		
+</fieldset>
+		</td>
+		<td>
+&nbsp;
+		</td>
+	</tr>
+</table>
+
+
+									<br />
+									
+								</td>
+
+								<td valign="top" width="5">
+									&nbsp;
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="3" height="20" align="center">
+						
+							<div id="Footer" style="font-size: smaller; text-align: center">
+								<hr width="100%" size="1">
+								<font face="Verdana, Arial, Helvetica, sans-serif" size="1">For questions or 
+										comments concerning this web page please contact <a href="mailto:info@cocorahs.org">info@cocorahs.org</a>.										
+										<br />
+									Unless otherwise noted, all content on the CoCoRaHS website is released under a <a rel="license" href="https://creativecommons.org/licenses/by/4.0/" target="_blank">Creative Commons Attribution 4.0 License</a>.
+				<br />
+									<a href="/Content.aspx?page=privacypolicy">Privacy Policy</a>&nbsp;&nbsp;<a href="/Content.aspx?page=datausagepolicy">Data Usage Policy</a>
+									<i>Copyright &copy; 1998-2025, Colorado Climate Center, All rights reserved.</i></font>
+							</div>
+						
+					</td>
+				</tr>
+			</tbody>
+		</table>
+		<br clear="all" />
+	</form>
+</body>
+</html>
+

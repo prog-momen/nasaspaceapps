@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"
+    />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16" />
+    <link rel="manifest" href="/manifest.json" crossorigin="use-credentials" />
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <meta name="msapplication-config" content="/browserconfig.xml" />
+    <meta name="theme-color" content="#3498db" />
+    <meta name="description" content="LROC QuickMap, a powerful map interface to browse Lunar data from NASA/LRO and other missions. Explore the Moon in both 2D and 3D. Developed by Applied Coherent Technology and customized for the LROC team at ASU" />
+    <title>QuickMap</title>
+    <style>
+      html {
+        height: 100%;
+        max-height: 100%;
+        margin: 0;
+        color: #ecf0f1;
+        font-family: "IBM Plex Sans Variable", "IBM Plex Sans", system-ui, sans-serif;
+      }
+      h1,
+      h2,
+      h3 {
+        font-weight: 100;
+      }
+      #root,
+      .rootNode {
+        height: 100%;
+        width: 100%;
+        background-color: #212328;
+      }
+      .SplashPage {
+        height: 100%;
+        width: 100%;
+        background-color: #212328;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+      }
+      .SplashLogo {
+        background-color: #242a32;
+        border-radius: 50%;
+        margin-top: 20px;
+      }
+      noscript {
+        background-color: #e74c3c;
+        color: #ecf0f1;
+        margin: 4px;
+        border-radius: 3px;
+        padding: 8px;
+      }
+    </style>
+    <script type="module" crossorigin src="/assets/index-DeMHb3Go.js"></script>
+    <link rel="modulepreload" crossorigin href="/assets/rolldown-runtime-DAXXjFlN.js">
+    <link rel="modulepreload" crossorigin href="/assets/react-Ck-HOATZ.js">
+    <link rel="modulepreload" crossorigin href="/assets/cesium-coIkr1E-.js">
+    <link rel="modulepreload" crossorigin href="/assets/openlayers-vbQbP9lQ.js">
+    <link rel="modulepreload" crossorigin href="/assets/lodash-mahzfpEr.js">
+    <link rel="stylesheet" crossorigin href="/assets/cesium-B1sGfVbI.css">
+    <link rel="stylesheet" crossorigin href="/assets/index-bUMoejPO.css">
+  </head>
+  <body
+    class="font-sans fixed w-full h-full overflow-hidden max-h-full m-0 text-qmdark-50"
+  >
+    <div id="root" class="rootNode w-full h-full">
+      <div class="SplashPage">
+        <svg
+          width="150"
+          height="50"
+          viewBox="0 0 1756 402"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+          id="ACTLogo"
+        >
+          <style>
+            @keyframes loadingTransition {
+              0% {
+                r: 2%;
+                filter: grayscale(100%);
+              }
+              50% {
+                r: 6%;
+                filter: grayscale(20%);
+              }
+              100% {
+                r: 2%;
+              }
+            }
+            #ACTLogo {
+              overflow: visible;
+            }
+            #ACTLogo.loading circle {
+              fill: #4078cc;
+              animation: loadingTransition 2s linear infinite;
+              r: 2%;
+            }
+            #ACTLogo.loading circle:nth-child(4) {
+              animation-delay: 0s;
+              animation-duration: 3s;
+            }
+            #ACTLogo.loading circle:nth-child(5) {
+              animation-delay: 0.5s;
+              animation-duration: 4s;
+              fill: #d9d5d1;
+            }
+            #ACTLogo.loading circle:nth-child(6) {
+              animation-delay: 1s;
+              animation-duration: 2s;
+              fill: #e97365;
+            }
+          </style>
+          <path
+            d="M559.724 394.714H580.54L631.634 266.033H773.561L823.709 394.714H875.276L727.198 22.3906H709.694L559.724 394.714ZM643.934 234.336L703.07 85.7849L760.788 234.336H643.934Z"
+            fill="white"
+          />
+          <path
+            d="M1322.29 297.257H1315.19C1290.12 372.952 1232.87 387.144 1179.89 387.144C1106.09 387.144 1033.7 333.685 1033.7 207.843C1033.7 81.5271 1107.03 28.0678 1180.83 28.0678C1233.82 28.0678 1290.59 49.83 1311.88 113.224H1318.98V50.3031C1278.76 27.1216 1233.35 13.875 1181.78 13.875C1060.67 13.875 976.458 92.8813 976.458 207.843C976.458 322.331 1060.67 401.337 1181.78 401.337C1227.2 401.337 1281.6 389.983 1322.29 358.759V297.257Z"
+            fill="white"
+          />
+          <path
+            d="M1755.23 38.9489V22.3906H1428.79V38.9489H1567.41V394.714H1616.61V38.9489H1755.23Z"
+            fill="white"
+          />
+          <circle
+            cx="355.08"
+            cy="25.0259"
+            r="24.2988"
+            transform="rotate(-180 355.08 25.0259)"
+            fill="white"
+          />
+          <circle
+            cx="24.6152"
+            cy="248.575"
+            r="24.2988"
+            transform="rotate(-180 24.6152 248.575)"
+            fill="white"
+          />
+          <circle
+            cx="219.006"
+            cy="345.77"
+            r="24.2988"
+            transform="rotate(-180 219.006 345.77)"
+            fill="white"
+          />
+        </svg>
+        <h1
+          style="
+            margin: 0px;
+            font-size: 1.875rem;
+            line-height: 2.25rem;
+            letter-spacing: 0.1em;
+          "
+        >
+          QuickMap
+        </h1>
+        <noscript> JavaScript must be enabled to run QuickMap </noscript>
+        <div
+          id="feature-error"
+          style="
+            display: none;
+            background-color: #e74c3c;
+            color: #ecf0f1;
+            margin: 4px;
+            border-radius: 3px;
+            padding: 8px;
+            max-width: 600px;
+            text-align: center;
+          "
+        ></div>
+      </div>
+    </div>
+    <script>
+      // Feature detection for OpenLayers and Cesium requirements
+      (function () {
+        var errors = [];
+
+        // Check for WebGL support (critical for Cesium)
+        function hasWebGL() {
+          try {
+            var canvas = document.createElement("canvas");
+            return !!(
+              window.WebGLRenderingContext &&
+              (canvas.getContext("webgl") ||
+                canvas.getContext("experimental-webgl"))
+            );
+          } catch (e) {
+            return false;
+          }
+        }
+
+        // Check for required JavaScript features
+        if (!window.Promise) errors.push("Promise API");
+        if (!hasWebGL()) errors.push("WebGL");
+        if (!window.Blob) errors.push("Blob API");
+        if (!window.ArrayBuffer) errors.push("ArrayBuffer");
+        if (!window.OffscreenCanvas) errors.push("OffscreenCanvas");
+
+        // Display error if features are missing
+        if (errors.length > 0) {
+          var errorElement = document.getElementById("feature-error");
+          errorElement.innerHTML =
+            "Your browser is missing required features: <strong>" +
+            errors.join(", ") +
+            "</strong>.<br>Please using latest versions of Chrome, Firefox, Edge, or Safari 17+.";
+          errorElement.style.display = "block";
+
+          // Remove the root ID so React can't mount
+          document.getElementById("root").removeAttribute("id");
+
+          // Remove the script tag that loads the React app by ID
+          var appScript = document.getElementById("react-app-script");
+          if (appScript) {
+            appScript.parentNode.removeChild(appScript);
+          }
+        } else {
+          // Apply loading animation to the logo
+          document.getElementById("ACTLogo").classList.add("loading");
+        }
+      })();
+    </script>
+  </body>
+</html>

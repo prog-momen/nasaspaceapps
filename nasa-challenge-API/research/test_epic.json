@@ -1,0 +1,13 @@
+{
+  "id": "test_epic",
+  "url": "https://epic.gsfc.nasa.gov/api/natural/date/2025-01-01",
+  "checked_at": "2026-11-14T15:12:44.026714+00:00",
+  "tls_validation": false,
+  "status": 200,
+  "final_url": "https://epic.gsfc.nasa.gov/api/natural/date/2025-01-01",
+  "bytes": 12783,
+  "content_type": "application/json",
+  "sha256": "70053ec658130e7b11fe95c19cede308eaf2b265e296eb0dcd69cea3c1d089fa",
+  "links": [],
+  "elapsed_seconds": 1.218
+}

@@ -1,0 +1,292 @@
+GLDAS Model Output | LDAS
+Skip to main content
+LDAS
+Land Data Assimilation System
+Main Menu
+GLDAS
+About
+News
+Specifications
+Parameters
+Elevation
+Soils
+Vegetation Class/Mask
+Vegetation Parameters
+LAI/Greenness
+Forcing Data
+Model Output
+Dataset
+Publications
+NLDAS
+About
+News
+Specifications
+Parameters
+Elevation
+Soils
+Vegetation Class
+Vegetation Parameters
+LAI/Greenness
+NLDAS-3
+NLDAS-2 Forcing
+NLDAS-2 Models
+Drought Monitor
+NLDAS-1 Forcing
+NLDAS-1 Models
+Presentations
+Publications
+NCA-LDAS
+About
+News
+Specifications
+Parameters
+Elevation
+Soils
+Vegetation Class
+Vegetation Parameters
+Other LSM Parameters
+Forcing Data
+Assimilated Data
+Model Output
+Presentations
+Publications
+FLDAS
+About
+News
+Specifications
+Parameters
+Elevation
+Soils
+Vegetation Class
+Vegetation Parameters
+LAI/Greenness
+Model Output
+FLDAS Global
+FLDAS Central Asia
+FLDAS Forecast
+Data Descriptor
+Presentations
+Publications
+WLDAS
+About
+Model Output
+News
+Parameters
+Publications and Presentations
+Specifications
+HydroGlobe
+About
+FAQ
+General
+GLDAS
+NLDAS
+NCA-LDAS
+FLDAS
+Get Data
+GLDAS Model Output
+GLDAS follows the ALMA definitions and conventions for the land surface model output variables outlined
+here
+.
+Descriptions are available at the GES DISC.
+GLDAS2 products
+GLDAS Land Surface Models
+Model Output Summary Table
+Name
+GRIB PDS IDs
+Description
+Units
+Time
+Swnet
+111
+Net short wave radiation flux
+W m-2
+average
+Lwnet
+112
+Net long-wave radiation flux
+W m-2
+average
+Qle
+121
+Latent heat net flux
+W m-2
+average
+Qh
+122
+Sensible heat net flux
+W m-2
+average
+Qg
+155
+Heat flux
+W m-2
+average
+Snowf
+131
+Snow precipitation rate
+kg m-2 s-1
+average
+Rainf
+132
+Rain precipitation rate
+kg m-2 s-1
+average
+Evap
+057
+Evapotranspiration
+kg m-2 s-1
+average
+Qs
+235
+Storm surface runoff
+kg m-2 per 3-hour or kg m-2 s-1
+accumulation or average
+Qsb
+234
+Baseflow-groundwater runoff
+kg m-2 per 3-hour or kg m-2 s-1
+accumulation or average
+Qsm
+099
+Snow melt
+kg m-2 per 3-hour or kg m-2 s-1 or kg m-2
+accumulation or average
+AvgSurfT
+138
+Average Surface Skin temperature
+K
+instantaneous
+Albedo
+Albedo
+%
+instantaneous
+SWE
+065
+Snow depth water equivalent
+kg m-2
+instantaneous
+SnowDepth
+Snow depth
+M
+instantaneous
+SoilMoist[depth]
+086
+Soil moisture
+kg m-2
+instantaneous
+SoilTMP[depth]
+085
+Soil temperature
+K
+instantaneous
+PotEvap
+Potential evaporation rate
+W m-2
+average
+ECanop
+Canopy water evaporation
+W m-2
+average
+Tveg
+Transpiration
+W m-2
+average
+ESoil
+Direct Evaporation from Bare Soil
+W m-2
+average
+RootMoist
+Root zone soil moisture
+kg m-2
+instantaneous
+CanopInt
+071
+Plant canopy surface water
+kg m-2
+instantaneous
+SnowT
+Snow surface temperature
+K
+average
+Acond
+Aerodynamic conductance
+m s-1
+average
+TWS
+Terrestrial water storage
+mm
+average
+GWS
+Ground water storage
+mm
+average
+Wind_f
+032
+Wind speed
+m/s
+instantaneous
+Rainf_f
+Total precipitation rate
+kg m-2 s-1
+instantaneous
+Tair_f
+011
+Temperature
+K
+instantaneous
+Qair_f
+051
+Specific humidity
+kg/kg
+instantaneous
+Psurf_f
+001
+Pressure
+Pa
+instantaneous
+SWdown_f
+204
+Downward   short-wave  radiation
+W m-2
+average or instantaneous
+LWdown_f
+205
+Downward    long-wave    radiation
+W m-2
+average or instantaneous
+*"_f" indicates forcing variables *Not all variables are available in all LSMs or in GLDAS1
+Get the Data
+LDAS datasets are available from the NASA GES DISC
+The NASA Goddard Earth Sciences Data and Information Services Center (GES DISC) provides access to LDAS datasets using multiple methods, including HTTPS, GDS, and the ability to subset spatially, temporally, and/or by variable:
+GLDAS
+NLDAS
+NCA-LDAS
+FLDAS
+WLDAS
+These datasets are also available via
+Giovanni
+. Giovanni is an online application developed by the GES DISC that allows researchers to rapidly explore data, so that spatial-temporal variability, anomalous conditions, and patterns of interest can be directly and easily analyzed online before optionally downloading the data. Supported download formats include NetCDF, GeoTIFF, and KMZ.
+Latest News
+NLDAS-2 data re-processed from 2022-08-01 to 2024-03-01
+NLDAS-2 datasets for all collections (FORA, FORB, MOS, NOAH, and VIC) were re-processed for the dates 2022-08-81 to 2024-03-01.
+NLDAS-2 GRIB-1 files no longer updated as of 1 August 2024
+The NLDAS Version 002 (GRIB-1) files are no longer being updated daily from the GES DISC starting from files valid at 23Z on August 1, 2024.
+Reprocessed FLDAS Data
+Output data for several FLDAS model runs and selected periods have been reprocessed.
+View All News
+Jump to Top
+Responsible
+NASA Official:
+Matt Rodell
+Web Developers:
+Nate Perrin, Susannah Pearce
+Curator:
+Rashida Holland
+Contact Us
+|
+Site Map
+|
+Privacy
+|
+Accessibility
+Last Updated: 09/24/2026

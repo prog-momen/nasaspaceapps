@@ -1,0 +1,18 @@
+{
+  "id": "resource_R028",
+  "url": "https://api.nasa.gov/",
+  "checked_at": "2026-11-14T15:15:11.506275+00:00",
+  "tls_validation": false,
+  "status": 200,
+  "final_url": "https://api.nasa.gov/",
+  "bytes": 4737,
+  "content_type": "text/html; charset=utf-8",
+  "sha256": "6f632c53dc1ac66334e4be7636dea8704d995b308c814ee30910d0e16cf84886",
+  "links": [
+    {
+      "url": "http://api.data.gov/",
+      "label": "api.data.gov"
+    }
+  ],
+  "elapsed_seconds": 1.969
+}

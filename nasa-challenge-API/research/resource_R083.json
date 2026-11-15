@@ -1,0 +1,214 @@
+{
+  "id": "resource_R083",
+  "url": "https://sma.nasa.gov/sma-disciplines/accllp/apollo-1",
+  "checked_at": "2026-11-14T15:15:20.937559+00:00",
+  "tls_validation": false,
+  "status": 200,
+  "final_url": "https://sma.nasa.gov/sma-disciplines/accllp/apollo-1",
+  "bytes": 77606,
+  "content_type": "text/html; charset=utf-8",
+  "sha256": "8b5c083f3f128a2bd68447aee6d3e9ce13447f08ca7c61766a4eb3793d3078d3",
+  "links": [
+    {
+      "url": "https://www.nasa.gov",
+      "label": ""
+    },
+    {
+      "url": "https://www.nasa.gov",
+      "label": "Visit nasa.gov"
+    },
+    {
+      "url": "https://sma.nasa.gov/sma-disciplines/accllp",
+      "label": "ACCLLP"
+    },
+    {
+      "url": "https://sma.nasa.gov/sma-disciplines/accllp/apollo-1#history",
+      "label": "History"
+    },
+    {
+      "url": "https://sma.nasa.gov/sma-disciplines/accllp/apollo-1#crew",
+      "label": "Crew"
+    },
+    {
+      "url": "https://sma.nasa.gov/sma-disciplines/accllp/apollo-1#mission",
+      "label": "AS-204 Mission"
+    },
+    {
+      "url": "https://sma.nasa.gov/sma-disciplines/accllp/apollo-1#accident",
+      "label": "Accident"
+    },
+    {
+      "url": "https://sma.nasa.gov/sma-disciplines/accllp/apollo-1#investigation",
+      "label": "Investigation"
+    },
+    {
+      "url": "https://sma.nasa.gov/sma-disciplines/accllp/apollo-1#lessonsLearned",
+      "label": "Lessons Learned"
+    },
+    {
+      "url": "https://sma.nasa.gov/sma-disciplines/accllp/apollo-1#memorials",
+      "label": "Memorials"
+    },
+    {
+      "url": "https://sma.nasa.gov/sma-disciplines/accllp/apollo-1#multimedia",
+      "label": "Multimedia and Resources"
+    },
+    {
+      "url": "https://www.nasa.gov/wp-content/uploads/2016/01/grissom_virgil.pdf?emrc=6f793c",
+      "label": "View Bio"
+    },
+    {
+      "url": "https://www.nasa.gov/wp-content/uploads/2016/01/white_edward.pdf",
+      "label": "View Bio"
+    },
+    {
+      "url": "https://www.nasa.gov/wp-content/uploads/2016/01/chaffee_roger_0.pdf",
+      "label": "View Bio"
+    },
+    {
+      "url": "https://sma.nasa.gov/sma-disciplines/accllp/apollo-1#sts-mission-modal",
+      "label": "Read Full Summary"
+    },
+    {
+      "url": "https://history.nasa.gov/Apollo204/content.html",
+      "label": "View Report"
+    },
+    {
+      "url": "https://www.nasa.gov/wp-content/uploads/static/history/Apollo204/bormanhouse1.pdf",
+      "label": "View"
+    },
+    {
+      "url": "https://www.nasa.gov/wp-content/uploads/static/history/Apollo204/bormanhouse2.pdf",
+      "label": "View"
+    },
+    {
+      "url": "https://www.nasa.gov/wp-content/uploads/static/history/Apollo204/bormansenate1.pdf",
+      "label": "View"
+    },
+    {
+      "url": "https://www.nasa.gov/wp-content/uploads/static/history/Apollo204/bormansenate2.pdf",
+      "label": "View"
+    },
+    {
+      "url": "https://www.nasa.gov/wp-content/uploads/static/history/Apollo204/bormansenate3.pdf",
+      "label": "View"
+    },
+    {
+      "url": "https://history.nasa.gov/SP-4029/Apollo_01a_Summary.htm#:~:text=APOLLO%201&text=The%20first%20manned%20Apollo%20mission,lunar%20landing%20program%20on%20hold",
+      "label": "View Resource"
+    },
+    {
+      "url": "https://history.nasa.gov/as204_senate_956.pdf",
+      "label": "View Resource"
+    },
+    {
+      "url": "https://history.nasa.gov/Apollo204/barron.html",
+      "label": "View Resource"
+    },
+    {
+      "url": "https://history.nasa.gov/Apollo204/baron.htm",
+      "label": "View Resource"
+    },
+    {
+      "url": "https://history.nasa.gov/Apollo204/phillip1.html",
+      "label": "View Resource"
+    },
+    {
+      "url": "https://history.nasa.gov/Apollo204/response.html",
+      "label": "Read Report"
+    },
+    {
+      "url": "https://history.nasa.gov/Apollo204/relations.html",
+      "label": "Read Report"
+    },
+    {
+      "url": "https://history.nasa.gov/Apollo204/summary.html",
+      "label": "Read Report"
+    },
+    {
+      "url": "https://www.nasa.gov/johnson/HWHAP/apollo-1-fire",
+      "label": "Listen to Podcast"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=fa7bXO9zPXo",
+      "label": "Watch Video"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=M0YB5r4vzVo",
+      "label": "Watch Video"
+    },
+    {
+      "url": "https://www.nasa.gov/feature/50-years-ago-apollo-flammability-tests",
+      "label": "Watch Video"
+    },
+    {
+      "url": "https://nsc.nasa.gov/docs_public/TEO_courses/SMA-OV-WBT-118/story.html",
+      "label": "Start Course"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=fa7bXO9zPXo",
+      "label": "Watch Video"
+    },
+    {
+      "url": "https://www.nasa.gov/feature/apollo-1-crew-honored-in-new-tribute-exhibit",
+      "label": "Learn More about Ad Astra Per Aspera"
+    },
+    {
+      "url": "https://ccspacemuseum.org/facilities/launch-complex-34/",
+      "label": "Learn More about Launch Complex 34 Memorial"
+    },
+    {
+      "url": "https://www.arlingtoncemetery.mil/Explore/Monuments-and-Memorials/Apollo-1",
+      "label": "Learn More about Apollo I Monument"
+    },
+    {
+      "url": "https://www.kennedyspacecenter.com/explore-attractions/heroes-and-legends/space-mirror-memorial",
+      "label": "Learn More about Space Mirror Museum"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=5erzr4Ez4pg",
+      "label": "Apollo I: Remembering the Crew"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=6Xh0PkFm7UI",
+      "label": "Remembering the Astronauts of Apollo I"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=lXxNO_NPP3w",
+      "label": "Apollo I Crew Members Honored With Monument"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=05xdq6W9kRs",
+      "label": "NASA Opens Tribute to Apollo I Crew"
+    },
+    {
+      "url": "https://history.nasa.gov/Apollo204/gallery.html",
+      "label": "Apollo I Gallery of Photos"
+    },
+    {
+      "url": "https://www.nasa.gov/feature/55-years-ago-three-months-until-apollo-1",
+      "label": "55 Years Ago: Three Months Until Apollo I"
+    },
+    {
+      "url": "https://www.nasa.gov/feature/55-years-ago-two-months-until-apollo-1",
+      "label": "55 Years Ago: Two Months Until Apollo I"
+    },
+    {
+      "url": "https://www.nasa.gov/feature/55-years-ago-final-preparations-for-the-planned-launch-of-apollo-1",
+      "label": "55 Years Ago: Final Preparations for the Planned Launch of Apollo I"
+    },
+    {
+      "url": "https://www.nasa.gov/feature/55-years-ago-tragedy-on-the-launch-pad",
+      "label": "55 Years Ago: Tragedy on the Launch Pad"
+    },
+    {
+      "url": "https://www.nasa.gov/image-feature/remembering-apollo-1",
+      "label": "Remembering Apollo I"
+    },
+    {
+      "url": "https://www.nasa.gov/press-release/nasa-pays-tribute-to-fallen-heroes-with-day-of-remembrance-0",
+      "label": "NASA Pays Tribute to Fallen Heroes With Day of Remembrance"
+    }
+  ],
+  "elapsed_seconds": 1.344
+}

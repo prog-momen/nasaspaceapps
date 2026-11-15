@@ -1,0 +1,14 @@
+{
+  "cache_hit": false,
+  "attempts": [
+    {
+      "http_status": 200,
+      "seconds": 0.894
+    }
+  ],
+  "retrieved_at": "2026-11-14T19:40:10+00:00",
+  "months": 540,
+  "months_different_from_direct_capture": 0,
+  "examples": [],
+  "requests_made": 1
+}

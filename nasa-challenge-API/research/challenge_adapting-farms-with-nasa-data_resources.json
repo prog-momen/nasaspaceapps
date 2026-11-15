@@ -1,0 +1,106 @@
+[
+  [
+    "https://www.earthdata.nasa.gov/data/platforms/space-based-platforms/smap",
+    "Soil Moisture Active Passive (SMAP)"
+  ],
+  [
+    "https://gpm.nasa.gov/data",
+    "Global Precipitation Measurement (GPM) & IMERG"
+  ],
+  [
+    "https://earthexplorer.usgs.gov/",
+    "Landsat"
+  ],
+  [
+    "https://lpdaac.usgs.gov/products/",
+    "MODIS"
+  ],
+  [
+    "https://search.earthdata.nasa.gov/search?q=VIIRS",
+    "VIIRS"
+  ],
+  [
+    "https://power.larc.nasa.gov/",
+    "NASA POWER"
+  ],
+  [
+    "https://www.earthdata.nasa.gov/data/instruments/srtm",
+    "Shuttle Radar Topography Mission (SRTM)"
+  ],
+  [
+    "https://ecostress.jpl.nasa.gov/data",
+    "ECOSTRESS"
+  ],
+  [
+    "https://www.nal.usda.gov/services/agdatacommons",
+    "USDA Ag Data Commons"
+  ],
+  [
+    "https://websoilsurvey.nrcs.usda.gov/app/",
+    "Web Soil Survey (WSS)"
+  ],
+  [
+    "https://nassgeodata.gmu.edu/CropScape/",
+    "Cropland Data Layer (CDL): CropScape"
+  ],
+  [
+    "https://prism.oregonstate.edu",
+    "PRISM Climate Data"
+  ],
+  [
+    "https://www.nrcs.usda.gov/resources/data-and-reports/soils",
+    "USDA NRCS SSURGO/STATSGO2"
+  ],
+  [
+    "https://naip-usdaonline.hub.arcgis.com/",
+    "National Agriculture Imagery Program (NAIP)"
+  ],
+  [
+    "https://www.usgs.gov/centers/eros/science/national-land-cover-database",
+    "USGS National Land Cover Database (NLCD)"
+  ],
+  [
+    "https://www.earthdata.nasa.gov/",
+    "NLDAS/GLDAS: Land Data Assimilation Systems"
+  ],
+  [
+    "https://gaez.fao.org",
+    "FAO Global Agro-Ecological Zones (GAEZ)"
+  ],
+  [
+    "https://www.cocorahs.org/Maps",
+    "CoCoRaHS"
+  ],
+  [
+    "https://waterdata.usgs.gov/nwis",
+    "USGS National Water Information Systems (NWIS)"
+  ],
+  [
+    "https://www.ams.usda.gov/market-news",
+    "USDA AMS Market News"
+  ],
+  [
+    "https://quickstats.nass.usda.gov",
+    "USDA NASS QuickStats"
+  ],
+  [
+    "https://openetdata.org",
+    "OpenET"
+  ],
+  [
+    "https://www.landfire.gov",
+    "USFS LANDFIRE"
+  ],
+  [
+    "https://gedi.umd.edu/data",
+    "Global Ecosystem Dynamics Investigation (GEDI)"
+  ],
+  [
+    "https://dataspace.copernicus.eu",
+    "Copernicus Sentinel-2: ESA:"
+  ],
+  [
+    "https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels?tab=overview",
+    "ERA5: ECMWF Reanalysis"
+  ]
+]

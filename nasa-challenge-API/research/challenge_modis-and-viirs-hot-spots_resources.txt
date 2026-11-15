@@ -1,0 +1,5 @@
+NASA does not endorse any non-U.S. Government entity and is not responsible for information contained on non-U.S. Government websites. For non-U.S. Government websites, participants must comply with any data use parameters of that specific website.
+NASA Data & Resources
+FIRMS NASA EARTHDATA: Fire Information for Resource Management System
+: 
+The Fire Information for Resource Management System (FIRMS) enables access to global near real-time satellite imagery, active fire/hotspots, and related products to identify the location, extent, and intensity of wildfire activity. FIRMS tools and applications provide geospatial data, products, and services to support the broader fire management community and to inform the general public. 

@@ -1,0 +1,1635 @@
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- Meta info -->
+		<meta charset="UTF-8">
+		<meta name="language" content="english">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+		<meta name="author" content="
+	
+		Greg Shirah
+	
+">
+		<meta
+			name="description"
+			content="This visualization shows sea surface current flows. The flows are colored by corresponding sea surface temperature data. This visualization is rendered for display on very high resolution devices like hyperwalls or for print media.This visualization was produced using model output from the joint MIT/JPL project entitled Estimating the Circulation and Climate of the Ocean, Phase II (ECCO2). ECCO2 uses the MIT general circulation model (MITgcm) to synthesize satellite and in-situ data of the global ocean and sea-ice at resolutions that begin to resolve ocean eddies and other narrow current systems, which transport heat and carbon in the oceans. The ECCO2 model simulates ocean flows at all depths, but only surface flows are used in this visualization. || "
+		>
+		<meta
+			name="keywords"
+			content="NASA, SVS, Scientific Visualization Studio, Scientific Visualization, Climate Variability and Change, Earth Science, Hyperwall, ocean circulation, ocean currents, Oceans, Physical oceanography, Presentation"
+		>
+
+		<!-- Open graph protocol properties --> 
+		<meta property="og:title" content="NASA Scientific Visualization Studio | Global Sea Surface Currents and Temperature">
+		<meta property="og:type" content="article">
+		<meta property="og:image" content="/vis/a000000/a003900/a003912/flat_global_ecco2_2028x1024.25000.jpg">
+		<meta property="og:description" content="This visualization shows sea surface current flows. The flows are colored by corresponding sea surface temperature data. This visualization is rendered for display on very high resolution devices like hyperwalls or for print media.This visualization was produced using model output from the joint MIT/JPL project entitled Estimating the Circulation and Climate of the Ocean, Phase II (ECCO2). ECCO2 uses the MIT general circulation model (MITgcm) to synthesize satellite and in-situ data of the global ocean and sea-ice at resolutions that begin to resolve ocean eddies and other narrow current systems, which transport heat and carbon in the oceans. The ECCO2 model simulates ocean flows at all depths, but only surface flows are used in this visualization. || ">
+		
+	<meta property="article:published_time" content="2012-03-16T10:00:00-04:00">
+	<meta property="article:modified_time" content="2025-02-18T00:01:26.447913-05:00">
+	
+	
+	
+	
+		<meta property="article:author" content="Greg Shirah">
+	
+	
+	
+		<meta property="article:tag" content="Climate Variability and Change">
+	
+		<meta property="article:tag" content="Earth Science">
+	
+		<meta property="article:tag" content="Hyperwall">
+	
+		<meta property="article:tag" content="ocean circulation">
+	
+		<meta property="article:tag" content="ocean currents">
+	
+		<meta property="article:tag" content="Oceans">
+	
+		<meta property="article:tag" content="Physical oceanography">
+	
+		<meta property="article:tag" content="Presentation">
+	
+
+		
+		<meta property="og:url" content="http://svs.gsfc.nasa.gov/3912">
+		<meta property="og:locale" content="en_US">
+		<meta property="og:site_name" content="NASA Scientific Visualization Studio">
+
+		<!-- json-ld properties -->
+		<script type="application/ld+json">
+			{"@context": "http://schema.org", "@type": "Article", "headline": "Global Sea Surface Currents and Temperature", "url": "http://svs.gsfc.nasa.gov/3912", "thumbnailUrl": "/vis/a000000/a003900/a003912/flat_global_ecco2_2028x1024.25000.jpg", "datePublished": "2012-03-16T10:00:00-04:00", "articleSection": "Visualization", "creator": ["Greg Shirah"], "keywords": ["Climate Variability and Change","Earth Science","Hyperwall","ocean circulation","ocean currents","Oceans","Physical oceanography","Presentation"]}
+		</script>
+
+		<!-- Icons -->
+		<link rel="icon" sizes="16x16" type="image/png" href="https://nasa.gov/wp-content/plugins/nasa-hds-core-setup/assets/favicons/favicon-16x16.png">
+		<link rel="icon" sizes="32x32" type="image/png" href="https://nasa.gov/wp-content/plugins/nasa-hds-core-setup/assets/favicons/favicon-32x32.png">
+		<link rel="icon" sizes="57x57" type="image/png" href="https://nasa.gov/wp-content/plugins/nasa-hds-core-setup/assets/favicons/favicon-57x57.png">
+		<link rel="icon" sizes="76x76" type="image/png" href="https://nasa.gov/wp-content/plugins/nasa-hds-core-setup/assets/favicons/favicon-76x76.png">
+		<link rel="icon" sizes="96x96" type="image/png" href="https://nasa.gov/wp-content/plugins/nasa-hds-core-setup/assets/favicons/favicon-96x96.png">
+		<link rel="icon" sizes="128x128" type="image/png" href="https://nasa.gov/wp-content/plugins/nasa-hds-core-setup/assets/favicons/favicon-128x128.png">
+		<link rel="icon" sizes="192x192" type="image/png" href="https://nasa.gov/wp-content/plugins/nasa-hds-core-setup/assets/favicons/favicon-192x192.png">
+		<link rel="icon" sizes="196x196" type="image/png" href="https://nasa.gov/wp-content/plugins/nasa-hds-core-setup/assets/favicons/favicon-196x196.png">
+		<link rel="icon" sizes="228x228" type="image/png" href="https://nasa.gov/wp-content/plugins/nasa-hds-core-setup/assets/favicons/favicon-228x228.png">
+
+		<!-- Tab title -->
+		<title>NASA SVS | Global Sea Surface Currents and Temperature</title>
+
+		<!-- Resources -->
+		<script
+			src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"
+			onerror="document.write(`<script src='/static/svs/js/jquery-3.6.0.min.js'>\x3C/script>`)"
+		>
+		</script>
+		<script
+			src="https://cdn.jsdelivr.net/npm/underscore@1.13.6/underscore-min.min.js"
+			onerror="document.write(`<script src='/static/svs/js/underscore-umd-min.js'>\x3C/script>`)"
+		>
+		</script>
+		
+	
+
+
+		<!-- Stylesheets -->
+		<link href="/static/svs/css/bootstrap.min.css" rel="stylesheet">
+		<link href="/static/svs/css/bootstrap-icons.min.css" rel="stylesheet">
+		<link href="/static/svs/css/style.css" rel="stylesheet">
+		
+	<link href="/static/detailspage/css/detailspage.css" rel="stylesheet">
+
+	</head>
+	<body>
+		<header>
+			<!-- Top navigation bar -->
+			<nav id="top-navbar" class="navbar navbar-expand-md navbar-dark position-fixed">
+				<div class="container-fluid">
+					<!-- NASA brand -->
+					<a class="navbar-brand p-0 m-0" href="https://www.nasa.gov/">
+						<img
+							src="/static/svs/images/nasa-meatball.svg"
+							alt="NASA Logo"
+							height="40px"
+						>
+					</a>
+
+					<span class="d-flex flex-nowrap overflow-hidden">
+						
+							<!-- SVS brand -->
+							<a class="navbar-brand py-0 px-2 m-0 svs-brand svs-brand-svs" href="/">Scientific Visualization Studio</a>
+						
+
+						
+							
+						
+					</span>
+
+					<!-- Toggle button for collapsed navbar links -->
+					<button
+						class="navbar-toggler ms-auto"
+						type="button"
+						data-bs-toggle="offcanvas"
+						data-bs-target="#navbar-offcanvas"
+						aria-controls="navbar-offcanvas"
+						aria-expanded="false"
+						aria-label="Toggle navigation"
+					>
+						<span class="navbar-toggler-icon"></span>
+					</button>
+
+					<!-- Nav links + search box -->
+					<div class="offcanvas offcanvas-end text-bg-dark flex-shrink-0 flex-grow-1" id="navbar-offcanvas">
+						<div class="offcanvas-header position-absolute top-0 end-0">
+							<button type="button" class="btn-close btn-close-white p-3" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+						</div>
+						<div class="offcanvas-body">
+							<ul class="navbar-nav ms-auto justify-content-end">
+								<!-- Nav links -->
+								
+									
+										
+									
+									<li class="nav-item">
+										<a class="nav-link" href="/gallery/the-galleries/"><span class="bi bi-images" aria-hidden="true"></span> Galleries</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="/help/"><span class="bi bi-question-circle" aria-hidden="true"></span> Help</a>
+									</li>
+								
+								
+								
+								
+									<!-- Search box -->
+									<form id="navbar_search_form" class="ps-0 ps-md-2" role="search" action="/search" method="get">
+										<div class="input-group flex-nowrap w-100">
+	
+		
+		<input
+			type="text"
+			id="navbar_search_box"
+			class="form-control ckempty border border-end-0  text-light bg-dark border-light"
+			name="search"
+			value=""
+			placeholder="Search..."
+			aria-label="Search..."
+		>
+		<label
+			for="navbar_search_box"
+			class="visually-hidden"
+		>
+			Search
+		</label>
+		<button
+			id="navbar_search_box_clear"
+			type="reset"
+			class="btn btn-primary border-start-0 border border-end-0 pe-1 bg-dark border-light"
+			title="Clear search text"
+			aria-label="Clear search text"
+			
+			onclick="$('#navbar_search_box').val('')"
+			
+		>
+			<span
+				class="bi bi-backspace text-light"
+				aria-hidden="true"
+			> </span>
+		</button>
+		<button
+			id="navbar_search_box_submit"
+			type="submit"
+			title="Search!"
+			aria-label="Search!"
+			class="btn btn-primary border border-start-0 pe-3 bg-dark border-light"
+		>
+			<span
+				class="bi bi-search text-light"
+				aria-hidden="true"
+			> </span>
+		</button>
+	
+</div>
+
+									</form>
+								
+							</ul>
+						</div>
+					</div>
+				</div>
+			</nav>
+		</header>
+		<main class="flex-fill">
+			<div id="alerts" class="position-fixed w-100 p-2" style="z-index: 999">
+				
+					
+
+
+				
+				
+					
+				
+			</div>
+			<div id="main-container" class="position-relative vstack container-md py-2">
+				
+	<article class="mt-2">
+		<!-- Header (Title, release date, etc.) -->
+		<section class="position-relative">
+			<!-- Navigation line -->
+			<nav class="row mb-2">
+				<div class="w-100 d-flex">
+					
+						
+							<span class="bi bi-chevron-left text-muted opacity-50" aria-hidden="true"></span>
+						
+						<a
+							href="/10931"
+							class="me-auto link text-muted opacity-50 text-truncate"
+							style="max-width: 30vw"
+							aria-label="Previous page"
+						>
+							10931: Moon Struck
+						</a>
+					
+					
+						<a
+							href="/10937"
+							class="ms-auto link text-muted opacity-50 text-truncate"
+							style="max-width: 30vw"
+							aria-label="Next page"
+						>
+							10937: RBSP Animation
+						</a>
+						
+						
+							<span class="bi bi-chevron-right text-muted opacity-50" aria-hidden="true"></span>
+						
+					
+					
+						<a
+							href="/15113"
+							class="link text-muted opacity-50 ms-3"
+							aria-label="Newest page"
+						><span class="bi bi-chevron-bar-right" aria-hidden="true"></span></a>
+					
+				</div>
+			</nav>
+
+			<!-- Alerts -->
+			
+			
+			
+
+			<!-- Title -->
+			<div class="row">
+				<h1 id="title" class="mb-0">Global Sea Surface Currents and Temperature</h1>
+			</div>
+
+			<!-- Release date + ID + social media icons -->
+			<div class="row">
+				<div class="hstack flex-wrap align-items-center">
+					<ul class="list-unstyled vstack gap-1 mb-1 justify-content-center">
+						
+						
+							<li class="mb-0 fs-5"><b>Released</b> Friday, March 16, 2012</li>
+						
+						
+					</ul>
+					<div>
+						<ul class="list-unstyled hstack gap-2 mb-1">
+							<li>
+								<span class="btn btn-secondary disabled">ID: 3912</span>
+							</li>
+							<li class="vr"></li>
+							
+
+							<li>
+								<a
+									href="/api/3912"
+									target="_blank"
+									class="btn btn-light btn-sm px-1"
+									title="View this page in our API"
+								> <span class="bi bi-file-earmark-code fs-4" aria-hidden="true"></span> </a>
+							</li>
+							<li class="vr"></li>
+							
+
+<li>
+	
+
+
+	<button
+		type="button"
+		class="svs-copy-link-to-this-page-button btn btn-light px-1 py-0 fs-4"
+		title="Copy a link to this page"
+		tabindex="0"
+		aria-label="Copy a link to this page"
+		data-copy-url="http://svs.gsfc.nasa.gov/3912"
+		data-bs-title="Copied!"
+		data-bs-trigger="manual"
+	><span class="bi bi-link-45deg" aria-hidden="true"></span></button>
+
+
+</li>
+<li>
+	<a
+		href="https://twitter.com/intent/tweet"
+		target="_blank"
+		class="btn btn-light btn-sm px-1"
+		title="Share this page on Twitter"
+	> <span class="bi bi-twitter fs-4" aria-hidden="true"></span> </a>
+</li>
+<li>
+	 <a
+	href="https://www.facebook.com/share.php?u=http%3A//svs.gsfc.nasa.gov/3912%3F"
+	target="_blank"
+	class="btn btn-light btn-sm px-1"
+	title="Share this page on Facebook"
+> <span class="bi bi-facebook fs-4" aria-hidden="true"></span> </a>
+</li>
+
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			<!-- Main credits -->
+			<div class="row">
+				<div class="hstack flex-wrap gap-3">
+					
+
+
+	<ul class="hstack list-unstyled gap-1 mb-0 hide-last-vr flex-wrap">
+		
+			
+				<li>
+					<ul class="hstack list-unstyled gap-1 mb-0 flex-wrap">
+						
+							<li class="fw-bold">
+								Visualizations by:
+							</li>
+						
+						
+							
+								<li>
+									<a href="/search?people=Greg%20Shirah" class="link fw-bold">Greg Shirah</a>
+								</li>
+							
+						
+					</ul>
+				</li>
+				<li class="vr" aria-hidden="true">
+				</li>
+			
+		
+	</ul>
+
+ <a href="#section_credits" class="link" onclick="$('#section_credits')[0].scrollTo({behavior: 'smooth'})"><span class="bi bi-arrow-bar-down me-1" aria-hidden="true"></span>View full credits</a>
+				</div>
+			</div>
+			<hr>
+		</section>
+
+		
+		
+			<!-- Media groups -->
+			<div class="vstack gap-3">
+				
+					
+						
+
+<section id="media_group_349712" ><div class="px-0 px-md-3 px-lg-4 mb-0-last-p"><!-- Description --><p>This visualization shows sea surface current flows. The flows are colored by corresponding sea surface temperature data. This visualization is rendered for display on very high resolution devices like hyperwalls or for print media.<p><p>This visualization was produced using model output from the joint MIT/JPL project entitled <a class="link" href="http://ecco2.org/">Estimating the Circulation and Climate of the Ocean, Phase II (ECCO2)</a>. ECCO2 uses the MIT general circulation model (MITgcm) to synthesize satellite and in-situ data of the global ocean and sea-ice at resolutions that begin to resolve ocean eddies and other narrow current systems, which transport heat and carbon in the oceans. The ECCO2 model simulates ocean flows at all depths, but only surface flows are used in this visualization.</p></div></section>
+
+					
+				
+					
+						
+
+<section id="media_group_349713" ><div class="card bg-gray-300 position-relative rounded overflow-hidden p-0"><!-- Content --><div class="card-body p-0"><div class="d-flex justify-content-center position-relative bg-dark"><!-- Video player --><video
+				controls
+				poster="/vis/a000000/a003900/a003912/flat_global_ecco2_2028x1024.25000.jpg"
+				preload="metadata"
+				class="img-fluid w-100"
+				style="min-height: 20vh; max-height: 65vh;"
+			><source
+						src="/vis/a000000/a003900/a003912/ecco2_sst_flow.webmhd.webm"
+						type="video/webm"
+					><source
+						src="/vis/a000000/a003900/a003912/ecco2_sst_flow.mp4"
+						type="video/mp4"
+					><source
+						src="/vis/a000000/a003900/a003912/flat_global_ecco2_2028x1024_comp_p30.mp4"
+						type="video/mp4"
+					><source
+						src="/vis/a000000/a003900/a003912/ecco2_sst_flow.m4v"
+						type="None"
+					><source
+						src="/vis/a000000/a003900/a003912/Oceanflows-UHD-2160.mp4"
+						type="video/mp4"
+					><p class="text-white">
+					Global sea surface currents colored by temperature.  These are the assembled (contiguous) versions of the animation.  There are several resolutions to choose from, some are cropped for various purposes.  The 6840x3420 version is the complete, full resolution visualization at the appropriate 2x1 aspect ratio and has not been cropped or resized.  The time range for these visualizations is from 2007-03-25T12:00Z to 2008-03-03T12:00Z.
+				</p></video></div><div class="p-2 p-md-3 mb-0-last-p clearfix"><div class="hstack gap-2 flex-wrap flex-lg-nowrap float-end"><ul class="hstack list-unstyled ms-auto gap-2 flex-shrink-0 mb-0"><li><button
+		type="button"
+		class="svs-copy-link-to-this-page-button btn btn-light px-1 py-0 fs-4 bg-transparent border-0"
+		title="Copy a link to this media item"
+		tabindex="0"
+		aria-label="Copy a link to this media item"
+		data-copy-url="{ current_url }#media_group_349713"
+		data-bs-title="Copied!"
+		data-bs-trigger="manual"
+	><span class="bi bi-link-45deg" aria-hidden="true"></span></button></li></ul><div class="vr"></div><!-- Download Options --><div class="dropdown flex-shrink-0"><button
+		class="btn btn-sm btn-secondary dropdown-toggle text-wrap"
+		data-bs-toggle="dropdown"
+		aria-expanded="false"
+		data-bs-popper-config='{"strategy":"fixed"}'
+	><span class="bi bi-download me-1" aria-hidden="true"></span> Download
+	</button><ul id="media_group_349713_download" class="dropdown-menu dropdown-menu-dark"><li id="media_group_349713_movies_download" class="dropdown-header"><h6 class="mb-0">Movies</h6></li><li><a id="media_group_349713_download_movies_0" class="dropdown-item" href="/vis/a000000/a003900/a003912/ecco2_sst_flow.webmhd.webm" target="_blank">
+									ecco2_sst_flow.webmhd.webm (960x540) [14.9 MB]
+								</a></li><li><a id="media_group_349713_download_movies_1" class="dropdown-item" href="/vis/a000000/a003900/a003912/ecco2_sst_flow.mp4" target="_blank">
+									ecco2_sst_flow.mp4 (2048x1024) [244.4 MB]
+								</a></li><li><a id="media_group_349713_download_movies_2" class="dropdown-item" href="/vis/a000000/a003900/a003912/flat_global_ecco2_2028x1024_comp_p30.mp4" target="_blank">
+									flat_global_ecco2_2028x1024_comp_p30.mp4 (2048x1024) [278.6 MB]
+								</a></li><li><a id="media_group_349713_download_movies_3" class="dropdown-item" href="/vis/a000000/a003900/a003912/ecco2_sst_flow.m4v" target="_blank">
+									ecco2_sst_flow.m4v (640x320) [12.1 MB]
+								</a></li><li><a id="media_group_349713_download_movies_4" class="dropdown-item" href="/vis/a000000/a003900/a003912/Oceanflows-UHD-2160.mp4" target="_blank">
+									Oceanflows-UHD-2160.mp4 (3840x2160) [324.0 MB]
+								</a></li><li><hr class="dropdown-divider"></li><li id="media_group_349713_frame sets_download" class="dropdown-header"><h6 class="mb-0">Frame sets</h6></li><li><a id="media_group_349713_download_frame sets_0" class="dropdown-item" href="/vis/a000000/a003900/a003912/frames/2048x1024_1x1_30p/orig/" target="_blank">
+									orig (2048x1024) [2002 Item(s)]
+								</a></li><li><a id="media_group_349713_download_frame sets_1" class="dropdown-item" href="/vis/a000000/a003900/a003912/frames/2048x1024_1x1_30p/with_colorbar/" target="_blank">
+									with_colorbar (2048x1024) [2002 Item(s)]
+								</a></li><li><a id="media_group_349713_download_frame sets_2" class="dropdown-item" href="/vis/a000000/a003900/a003912/frames/6840x3420_1x1_30p/" target="_blank">
+									6840x3420_1x1_30p (6840x3420) [2004 Item(s)]
+								</a></li><li><hr class="dropdown-divider"></li><li id="media_group_349713_images_download" class="dropdown-header"><h6 class="mb-0">Images</h6></li><li><a id="media_group_349713_download_images_0" class="dropdown-item" href="/vis/a000000/a003900/a003912/flat_global_ecco2_2028x1024.25000.jpg" target="_blank">
+									flat_global_ecco2_2028x1024.25000.jpg (2048x1024) [1002.0 KB]
+								</a></li><li><a id="media_group_349713_download_images_1" class="dropdown-item" href="/vis/a000000/a003900/a003912/flat_global_ecco2_2028x1024.25000_web.png" target="_blank">
+									flat_global_ecco2_2028x1024.25000_web.png (320x160) [77.5 KB]
+								</a></li><li><a id="media_group_349713_download_images_2" class="dropdown-item" href="/vis/a000000/a003900/a003912/flat_global_ecco2_2028x1024.25000_thm.png" target="_blank">
+									flat_global_ecco2_2028x1024.25000_thm.png (80x40) [5.7 KB]
+								</a></li><li><a id="media_group_349713_download_images_3" class="dropdown-item" href="/vis/a000000/a003900/a003912/flat_global_ecco2_2028x1024.25000_searchweb.png" target="_blank">
+									flat_global_ecco2_2028x1024.25000_searchweb.png (180x320) [77.4 KB]
+								</a></li><li><hr class="dropdown-divider"></li><li id="media_group_349713_hyperwall shows_download" class="dropdown-header"><h6 class="mb-0">Hyperwall shows</h6></li><li><a id="media_group_349713_download_hyperwall shows_0" class="dropdown-item" href="/vis/a000000/a001800/a001801/multiple-bigmovie.hwshow" target="_blank">
+									multiple-bigmovie.hwshow [222 bytes]
+								</a></li><li><hr class="dropdown-divider"></li><li id="media_group_349713_presentations_download" class="dropdown-header"><h6 class="mb-0">Presentations</h6></li><li><a id="media_group_349713_download_presentations_0" class="dropdown-item" href="/vis/a000000/a003900/a003912/the_motions_of_the_oceans.pptx" target="_blank">
+									the_motions_of_the_oceans.pptx [54.7 MB]
+								</a></li><li><a id="media_group_349713_download_presentations_1" class="dropdown-item" href="/vis/a000000/a003900/a003912/the_motions_of_the_oceans.key" target="_blank">
+									the_motions_of_the_oceans.key [54.9 MB]
+								</a></li><li><hr class="dropdown-divider"></li></ul></div></div><!-- Description --><p>Global sea surface currents colored by temperature.  These are the assembled (contiguous) versions of the animation.  There are several resolutions to choose from, some are cropped for various purposes.  The 6840x3420 version is the complete, full resolution visualization at the appropriate 2x1 aspect ratio and has not been cropped or resized.  The time range for these visualizations is from 2007-03-25T12:00Z to 2008-03-03T12:00Z.</p></div></div></div></section>
+
+					
+				
+					
+						
+
+<section id="media_group_349714" ><div class="card bg-gray-300 position-relative rounded overflow-hidden p-0"><!-- Content --><div class="card-body p-0"><div class="d-flex justify-content-center position-relative bg-dark"><!-- Image --><picture><source
+						srcset="/vis/a000000/a003900/a003912/ecco2_and_grid_crop1.png"
+						type="image/png"
+					><source
+						srcset="/vis/a000000/a003900/a003912/ecco2_and_grid_crop1.jpg"
+						type="image/jpeg"
+					><source
+						srcset="/vis/a000000/a003900/a003912/ecco2_and_grid_crop1.tif"
+						type="image/tiff"
+					><img
+					class="img-fluid w-100"
+					style="min-height: 20vh; max-height: 65vh;"
+					src="/static/svs/images/no_preview_web_black.png"
+					title="A cropped region in the Pacific illustrating the distribution of the actual flow vector data points relative to the flow curves. The white dots represent locations where the ECCO2 model defines the ocean current directions. Locations in between those locations are interpolated."
+					alt="A cropped region in the Pacific illustrating the distribution of the actual flow vector data points relative to the flow curves. The white dots represent locations where the ECCO2 model defines the ocean current directions. Locations in between those locations are interpolated."
+					loading="lazy"
+					type="image/png"
+				></picture></div><div class="p-2 p-md-3 mb-0-last-p clearfix"><div class="hstack gap-2 flex-wrap flex-lg-nowrap float-end"><ul class="hstack list-unstyled ms-auto gap-2 flex-shrink-0 mb-0"><li><button
+		type="button"
+		class="svs-copy-link-to-this-page-button btn btn-light px-1 py-0 fs-4 bg-transparent border-0"
+		title="Copy a link to this media item"
+		tabindex="0"
+		aria-label="Copy a link to this media item"
+		data-copy-url="{ current_url }#media_group_349714"
+		data-bs-title="Copied!"
+		data-bs-trigger="manual"
+	><span class="bi bi-link-45deg" aria-hidden="true"></span></button></li></ul><div class="vr"></div><!-- Download Options --><div class="dropdown flex-shrink-0"><button
+		class="btn btn-sm btn-secondary dropdown-toggle text-wrap"
+		data-bs-toggle="dropdown"
+		aria-expanded="false"
+		data-bs-popper-config='{"strategy":"fixed"}'
+	><span class="bi bi-download me-1" aria-hidden="true"></span> Download
+	</button><ul id="media_group_349714_download" class="dropdown-menu dropdown-menu-dark"><li id="media_group_349714_images_download" class="dropdown-header"><h6 class="mb-0">Images</h6></li><li><a id="media_group_349714_download_images_0" class="dropdown-item" href="/vis/a000000/a003900/a003912/ecco2_and_grid_crop1.png" target="_blank">
+									ecco2_and_grid_crop1.png (320x180) [133.1 KB]
+								</a></li><li><a id="media_group_349714_download_images_1" class="dropdown-item" href="/vis/a000000/a003900/a003912/ecco2_and_grid_crop1.jpg" target="_blank">
+									ecco2_and_grid_crop1.jpg (320x180) [77.0 KB]
+								</a></li><li><a id="media_group_349714_download_images_2" class="dropdown-item" href="/vis/a000000/a003900/a003912/ecco2_and_grid_crop1.tif" target="_blank">
+									ecco2_and_grid_crop1.tif (320x180) [167.2 KB]
+								</a></li><li><hr class="dropdown-divider"></li></ul></div></div><!-- Description --><p>A cropped region in the Pacific illustrating the distribution of the actual flow vector data points relative to the flow curves. The white dots represent locations where the ECCO2 model defines the ocean current directions. Locations in between those locations are interpolated.</p></div></div></div></section>
+
+					
+				
+					
+						
+
+<section id="media_group_349715" ><div class="card bg-gray-300 position-relative rounded overflow-hidden p-0"><!-- Content --><div class="card-body p-0"><div class="d-flex justify-content-center position-relative bg-dark"><!-- Image --><picture><source
+						srcset="/vis/a000000/a003900/a003912/ecco2_and_grid_crop2.png"
+						type="image/png"
+					><source
+						srcset="/vis/a000000/a003900/a003912/ecco2_and_grid_crop2.jpg"
+						type="image/jpeg"
+					><source
+						srcset="/vis/a000000/a003900/a003912/ecco2_and_grid_crop2.tif"
+						type="image/tiff"
+					><img
+					class="img-fluid w-100"
+					style="min-height: 20vh; max-height: 65vh;"
+					src="/static/svs/images/no_preview_web_black.png"
+					title="A cropped region in the Atlantic illustrating the distribution of the actual flow vector data points relative to the flow curves. The white dots represent locations where the ECCO2 model defines the ocean current directions. Locations in between those locations are interpolated.  Notice the irregular distribution of grid points (e.g., bright spot near the center).  This is due to the advanced cube-sphere distribution of the data points.  The bright spot is one of the cube-sphere corners."
+					alt="A cropped region in the Atlantic illustrating the distribution of the actual flow vector data points relative to the flow curves. The white dots represent locations where the ECCO2 model defines the ocean current directions. Locations in between those locations are interpolated.  Notice the irregular distribution of grid points (e.g., bright spot near the center).  This is due to the advanced cube-sphere distribution of the data points.  The bright spot is one of the cube-sphere corners."
+					loading="lazy"
+					type="image/png"
+				></picture></div><div class="p-2 p-md-3 mb-0-last-p clearfix"><div class="hstack gap-2 flex-wrap flex-lg-nowrap float-end"><ul class="hstack list-unstyled ms-auto gap-2 flex-shrink-0 mb-0"><li><button
+		type="button"
+		class="svs-copy-link-to-this-page-button btn btn-light px-1 py-0 fs-4 bg-transparent border-0"
+		title="Copy a link to this media item"
+		tabindex="0"
+		aria-label="Copy a link to this media item"
+		data-copy-url="{ current_url }#media_group_349715"
+		data-bs-title="Copied!"
+		data-bs-trigger="manual"
+	><span class="bi bi-link-45deg" aria-hidden="true"></span></button></li></ul><div class="vr"></div><!-- Download Options --><div class="dropdown flex-shrink-0"><button
+		class="btn btn-sm btn-secondary dropdown-toggle text-wrap"
+		data-bs-toggle="dropdown"
+		aria-expanded="false"
+		data-bs-popper-config='{"strategy":"fixed"}'
+	><span class="bi bi-download me-1" aria-hidden="true"></span> Download
+	</button><ul id="media_group_349715_download" class="dropdown-menu dropdown-menu-dark"><li id="media_group_349715_images_download" class="dropdown-header"><h6 class="mb-0">Images</h6></li><li><a id="media_group_349715_download_images_0" class="dropdown-item" href="/vis/a000000/a003900/a003912/ecco2_and_grid_crop2.png" target="_blank">
+									ecco2_and_grid_crop2.png (320x180) [141.4 KB]
+								</a></li><li><a id="media_group_349715_download_images_1" class="dropdown-item" href="/vis/a000000/a003900/a003912/ecco2_and_grid_crop2.jpg" target="_blank">
+									ecco2_and_grid_crop2.jpg (320x180) [77.8 KB]
+								</a></li><li><a id="media_group_349715_download_images_2" class="dropdown-item" href="/vis/a000000/a003900/a003912/ecco2_and_grid_crop2.tif" target="_blank">
+									ecco2_and_grid_crop2.tif (320x180) [183.9 KB]
+								</a></li><li><hr class="dropdown-divider"></li></ul></div></div><!-- Description --><p>A cropped region in the Atlantic illustrating the distribution of the actual flow vector data points relative to the flow curves. The white dots represent locations where the ECCO2 model defines the ocean current directions. Locations in between those locations are interpolated.  Notice the irregular distribution of grid points (e.g., bright spot near the center).  This is due to the advanced cube-sphere distribution of the data points.  The bright spot is one of the cube-sphere corners.</p></div></div></div></section>
+
+					
+				
+					
+						
+
+<section id="media_group_349716" ><div class="card bg-gray-300 position-relative rounded overflow-hidden p-0"><!-- Content --><div class="card-body p-0"><div class="d-flex justify-content-center position-relative bg-dark"><!-- Image --><picture><source
+						srcset="/vis/a000000/a003900/a003912/ecco2_and_grid.jpg"
+						type="image/jpeg"
+					><source
+						srcset="/vis/a000000/a003900/a003912/ecco2_and_grid_web.png"
+						type="image/png"
+					><source
+						srcset="/vis/a000000/a003900/a003912/ecco2_and_grid.tif"
+						type="image/tiff"
+					><img
+					class="img-fluid w-100"
+					style="min-height: 20vh; max-height: 65vh;"
+					src="/static/svs/images/no_preview_web_black.png"
+					title="Full resolution ECCO2 flow field illustrating the distribution of the actual flow vector data points relative to the flow curves. The white dots represent locations where the ECCO2 model defines the ocean current directions. Locations in between those locations are interpolated."
+					alt="Full resolution ECCO2 flow field illustrating the distribution of the actual flow vector data points relative to the flow curves. The white dots represent locations where the ECCO2 model defines the ocean current directions. Locations in between those locations are interpolated."
+					loading="lazy"
+					type="image/png"
+				></picture></div><div class="p-2 p-md-3 mb-0-last-p clearfix"><div class="hstack gap-2 flex-wrap flex-lg-nowrap float-end"><ul class="hstack list-unstyled ms-auto gap-2 flex-shrink-0 mb-0"><li><button
+		type="button"
+		class="svs-copy-link-to-this-page-button btn btn-light px-1 py-0 fs-4 bg-transparent border-0"
+		title="Copy a link to this media item"
+		tabindex="0"
+		aria-label="Copy a link to this media item"
+		data-copy-url="{ current_url }#media_group_349716"
+		data-bs-title="Copied!"
+		data-bs-trigger="manual"
+	><span class="bi bi-link-45deg" aria-hidden="true"></span></button></li></ul><div class="vr"></div><!-- Download Options --><div class="dropdown flex-shrink-0"><button
+		class="btn btn-sm btn-secondary dropdown-toggle text-wrap"
+		data-bs-toggle="dropdown"
+		aria-expanded="false"
+		data-bs-popper-config='{"strategy":"fixed"}'
+	><span class="bi bi-download me-1" aria-hidden="true"></span> Download
+	</button><ul id="media_group_349716_download" class="dropdown-menu dropdown-menu-dark"><li id="media_group_349716_images_download" class="dropdown-header"><h6 class="mb-0">Images</h6></li><li><a id="media_group_349716_download_images_0" class="dropdown-item" href="/vis/a000000/a003900/a003912/ecco2_and_grid.jpg" target="_blank">
+									ecco2_and_grid.jpg (6840x3420) [12.8 MB]
+								</a></li><li><a id="media_group_349716_download_images_1" class="dropdown-item" href="/vis/a000000/a003900/a003912/ecco2_and_grid_web.png" target="_blank">
+									ecco2_and_grid_web.png (320x160) [78.6 KB]
+								</a></li><li><a id="media_group_349716_download_images_2" class="dropdown-item" href="/vis/a000000/a003900/a003912/ecco2_and_grid.tif" target="_blank">
+									ecco2_and_grid.tif (6840x3420) [34.4 MB]
+								</a></li><li><hr class="dropdown-divider"></li></ul></div></div><!-- Description --><p>Full resolution ECCO2 flow field illustrating the distribution of the actual flow vector data points relative to the flow curves. The white dots represent locations where the ECCO2 model defines the ocean current directions. Locations in between those locations are interpolated.</p></div></div></div></section>
+
+					
+				
+					
+						
+
+<section id="media_group_349717" ><div class="card bg-gray-300 position-relative rounded overflow-hidden p-0"><!-- Content --><div class="card-body p-0"><div class="d-flex justify-content-center position-relative bg-dark"><!-- Video player --><video
+				controls
+				poster="/vis/a000000/a003900/a003912/global-5x3-3-montage.png"
+				preload="metadata"
+				class="img-fluid w-100"
+				style="min-height: 20vh; max-height: 65vh;"
+			><source
+						src="/vis/a000000/a003900/a003912/flat_global_ecco2_6840x3420_768p30-b1.webm"
+						type="video/webm"
+					><source
+						src="/vis/a000000/a003900/a003912/flat_global_ecco2_6840x3420_768p30-d1.mp4"
+						type="video/mp4"
+					><source
+						src="/vis/a000000/a003900/a003912/flat_global_ecco2_6840x3420_768p30-c1.mp4"
+						type="video/mp4"
+					><source
+						src="/vis/a000000/a003900/a003912/flat_global_ecco2_6840x3420_768p30-c2.mp4"
+						type="video/mp4"
+					><source
+						src="/vis/a000000/a003900/a003912/flat_global_ecco2_6840x3420_768p30-a1.mp4"
+						type="video/mp4"
+					><source
+						src="/vis/a000000/a003900/a003912/flat_global_ecco2_6840x3420_768p30-e3.mp4"
+						type="video/mp4"
+					><source
+						src="/vis/a000000/a003900/a003912/flat_global_ecco2_6840x3420_768p30-b1.mp4"
+						type="video/mp4"
+					><source
+						src="/vis/a000000/a003900/a003912/flat_global_ecco2_6840x3420_768p30-b2.mp4"
+						type="video/mp4"
+					><source
+						src="/vis/a000000/a003900/a003912/flat_global_ecco2_6840x3420_768p30-b3.mp4"
+						type="video/mp4"
+					><source
+						src="/vis/a000000/a003900/a003912/flat_global_ecco2_6840x3420_768p30-e1.mp4"
+						type="video/mp4"
+					><source
+						src="/vis/a000000/a003900/a003912/flat_global_ecco2_6840x3420_768p30-c3.mp4"
+						type="video/mp4"
+					><source
+						src="/vis/a000000/a003900/a003912/flat_global_ecco2_6840x3420_768p30-e2.mp4"
+						type="video/mp4"
+					><source
+						src="/vis/a000000/a003900/a003912/flat_global_ecco2_6840x3420_768p30-d3.mp4"
+						type="video/mp4"
+					><source
+						src="/vis/a000000/a003900/a003912/flat_global_ecco2_6840x3420_768p30-d2.mp4"
+						type="video/mp4"
+					><source
+						src="/vis/a000000/a003900/a003912/flat_global_ecco2_6840x3420_768p30-a3.mp4"
+						type="video/mp4"
+					><source
+						src="/vis/a000000/a003900/a003912/flat_global_ecco2_6840x3420_768p30-a2.mp4"
+						type="video/mp4"
+					><p class="text-white">
+					Sea surface currents and temperatures cropped, scaled, and diced for a 5x3 hyperwall.Date and time information for each frame can be found here. Individual cut-up frames and movie files are available for download.
+				</p></video></div><div class="p-2 p-md-3 mb-0-last-p clearfix"><div class="hstack gap-2 flex-wrap flex-lg-nowrap float-end"><ul class="hstack list-unstyled ms-auto gap-2 flex-shrink-0 mb-0"><li><button
+		type="button"
+		class="svs-copy-link-to-this-page-button btn btn-light px-1 py-0 fs-4 bg-transparent border-0"
+		title="Copy a link to this media item"
+		tabindex="0"
+		aria-label="Copy a link to this media item"
+		data-copy-url="{ current_url }#media_group_349717"
+		data-bs-title="Copied!"
+		data-bs-trigger="manual"
+	><span class="bi bi-link-45deg" aria-hidden="true"></span></button></li></ul><div class="vr"></div><!-- Download Options --><div class="dropdown flex-shrink-0"><button
+		class="btn btn-sm btn-secondary dropdown-toggle text-wrap"
+		data-bs-toggle="dropdown"
+		aria-expanded="false"
+		data-bs-popper-config='{"strategy":"fixed"}'
+	><span class="bi bi-download me-1" aria-hidden="true"></span> Download
+	</button><ul id="media_group_349717_download" class="dropdown-menu dropdown-menu-dark"><li id="media_group_349717_movies_download" class="dropdown-header"><h6 class="mb-0">Movies</h6></li><li><a id="media_group_349717_download_movies_0" class="dropdown-item" href="/vis/a000000/a003900/a003912/flat_global_ecco2_6840x3420_768p30-b1.webm" target="_blank">
+									flat_global_ecco2_6840x3420_768p30-b1.webm (1368x768) [8.0 MB]
+								</a></li><li><a id="media_group_349717_download_movies_1" class="dropdown-item" href="/vis/a000000/a003900/a003912/flat_global_ecco2_6840x3420_768p30-d1.mp4" target="_blank">
+									flat_global_ecco2_6840x3420_768p30-d1.mp4 (1368x768) [25.0 MB]
+								</a></li><li><a id="media_group_349717_download_movies_2" class="dropdown-item" href="/vis/a000000/a003900/a003912/flat_global_ecco2_6840x3420_768p30-c1.mp4" target="_blank">
+									flat_global_ecco2_6840x3420_768p30-c1.mp4 (1368x768) [184.5 MB]
+								</a></li><li><a id="media_group_349717_download_movies_3" class="dropdown-item" href="/vis/a000000/a003900/a003912/flat_global_ecco2_6840x3420_768p30-c2.mp4" target="_blank">
+									flat_global_ecco2_6840x3420_768p30-c2.mp4 (1368x768) [178.5 MB]
+								</a></li><li><a id="media_group_349717_download_movies_4" class="dropdown-item" href="/vis/a000000/a003900/a003912/flat_global_ecco2_6840x3420_768p30-a1.mp4" target="_blank">
+									flat_global_ecco2_6840x3420_768p30-a1.mp4 (1368x768) [268.7 MB]
+								</a></li><li><a id="media_group_349717_download_movies_5" class="dropdown-item" href="/vis/a000000/a003900/a003912/flat_global_ecco2_6840x3420_768p30-e3.mp4" target="_blank">
+									flat_global_ecco2_6840x3420_768p30-e3.mp4 (1368x768) [277.9 MB]
+								</a></li><li><a id="media_group_349717_download_movies_6" class="dropdown-item" href="/vis/a000000/a003900/a003912/flat_global_ecco2_6840x3420_768p30-b1.mp4" target="_blank">
+									flat_global_ecco2_6840x3420_768p30-b1.mp4 (1368x768) [203.4 MB]
+								</a></li><li><a id="media_group_349717_download_movies_7" class="dropdown-item" href="/vis/a000000/a003900/a003912/flat_global_ecco2_6840x3420_768p30-b2.mp4" target="_blank">
+									flat_global_ecco2_6840x3420_768p30-b2.mp4 (1368x768) [245.6 MB]
+								</a></li><li><a id="media_group_349717_download_movies_8" class="dropdown-item" href="/vis/a000000/a003900/a003912/flat_global_ecco2_6840x3420_768p30-b3.mp4" target="_blank">
+									flat_global_ecco2_6840x3420_768p30-b3.mp4 (1368x768) [276.6 MB]
+								</a></li><li><a id="media_group_349717_download_movies_9" class="dropdown-item" href="/vis/a000000/a003900/a003912/flat_global_ecco2_6840x3420_768p30-e1.mp4" target="_blank">
+									flat_global_ecco2_6840x3420_768p30-e1.mp4 (1368x768) [241.7 MB]
+								</a></li><li><a id="media_group_349717_download_movies_10" class="dropdown-item" href="/vis/a000000/a003900/a003912/flat_global_ecco2_6840x3420_768p30-c3.mp4" target="_blank">
+									flat_global_ecco2_6840x3420_768p30-c3.mp4 (1368x768) [311.7 MB]
+								</a></li><li><a id="media_group_349717_download_movies_11" class="dropdown-item" href="/vis/a000000/a003900/a003912/flat_global_ecco2_6840x3420_768p30-e2.mp4" target="_blank">
+									flat_global_ecco2_6840x3420_768p30-e2.mp4 (1368x768) [331.2 MB]
+								</a></li><li><a id="media_group_349717_download_movies_12" class="dropdown-item" href="/vis/a000000/a003900/a003912/flat_global_ecco2_6840x3420_768p30-d3.mp4" target="_blank">
+									flat_global_ecco2_6840x3420_768p30-d3.mp4 (1368x768) [346.5 MB]
+								</a></li><li><a id="media_group_349717_download_movies_13" class="dropdown-item" href="/vis/a000000/a003900/a003912/flat_global_ecco2_6840x3420_768p30-d2.mp4" target="_blank">
+									flat_global_ecco2_6840x3420_768p30-d2.mp4 (1368x768) [318.9 MB]
+								</a></li><li><a id="media_group_349717_download_movies_14" class="dropdown-item" href="/vis/a000000/a003900/a003912/flat_global_ecco2_6840x3420_768p30-a3.mp4" target="_blank">
+									flat_global_ecco2_6840x3420_768p30-a3.mp4 (1368x768) [328.2 MB]
+								</a></li><li><a id="media_group_349717_download_movies_15" class="dropdown-item" href="/vis/a000000/a003900/a003912/flat_global_ecco2_6840x3420_768p30-a2.mp4" target="_blank">
+									flat_global_ecco2_6840x3420_768p30-a2.mp4 (1368x768) [387.7 MB]
+								</a></li><li><hr class="dropdown-divider"></li><li id="media_group_349717_images_download" class="dropdown-header"><h6 class="mb-0">Images</h6></li><li><a id="media_group_349717_download_images_0" class="dropdown-item" href="/vis/a000000/a003900/a003912/global-5x3-3-montage.png" target="_blank">
+									global-5x3-3-montage.png (6840x2304) [24.0 MB]
+								</a></li><li><a id="media_group_349717_download_images_1" class="dropdown-item" href="/vis/a000000/a003900/a003912/global_5x3-3_hw_print.jpg" target="_blank">
+									global_5x3-3_hw_print.jpg (345x1024) [180.3 KB]
+								</a></li><li><hr class="dropdown-divider"></li><li id="media_group_349717_hyperwall shows_download" class="dropdown-header"><h6 class="mb-0">Hyperwall shows</h6></li><li><a id="media_group_349717_download_hyperwall shows_0" class="dropdown-item" href="/hyperwall/data/users/esokolow/sst.hwshow
+/svs/db/hyperwall/data/users/esokolow/test-multiple-movies.hwshow
+/svs/db/hyperwall/data/users/esokolow/test-multiple-movies.hwshow.hwshow" target="_blank">
+									test-multiple-movies.hwshow.hwshow
+								</a></li><li><a id="media_group_349717_download_hyperwall shows_1" class="dropdown-item" href="/hyperwall/data/users/esokolow/test-multiple-movies.hwshow
+/svs/db/hyperwall/data/users/esokolow/test-multiple-movies.hwshow.hwshow" target="_blank">
+									test-multiple-movies.hwshow.hwshow
+								</a></li><li><hr class="dropdown-divider"></li></ul></div></div><!-- Description --><p>Sea surface currents and temperatures cropped, scaled, and diced for a 5x3 hyperwall.<p><a class="link" href="/vis/a000000/a003900/a003912/flat_ecco2_dates.txt">Date and time information for each frame can be found here.</a> Individual cut-up frames and movie files are available for download.</p></div></div></div></section>
+
+					
+				
+					
+						
+
+<section id="media_group_349718" ><div class="card bg-gray-300 position-relative rounded overflow-hidden p-0"><!-- Content --><div class="card-body p-0"><div class="d-flex justify-content-center position-relative bg-dark"><!-- Image --><picture><source
+						srcset="/vis/a000000/a003900/a003912/atlantic-5x3-montage.png"
+						type="image/png"
+					><source
+						srcset="/vis/a000000/a003900/a003912/flat_atlantic_ecco2_6840x2304.23000_print.jpg"
+						type="image/jpeg"
+					><img
+					class="img-fluid w-100"
+					style="min-height: 20vh; max-height: 65vh;"
+					src="/static/svs/images/no_preview_web_black.png"
+					title="Sea Surface currents of the northern Atlantic Ocean. This version was produced for a 5x3 hyperwall."
+					alt="Sea Surface currents of the northern Atlantic Ocean. This version was produced for a 5x3 hyperwall."
+					loading="lazy"
+					type="image/png"
+				></picture></div><div class="p-2 p-md-3 mb-0-last-p clearfix"><div class="hstack gap-2 flex-wrap flex-lg-nowrap float-end"><ul class="hstack list-unstyled ms-auto gap-2 flex-shrink-0 mb-0"><li><button
+		type="button"
+		class="svs-copy-link-to-this-page-button btn btn-light px-1 py-0 fs-4 bg-transparent border-0"
+		title="Copy a link to this media item"
+		tabindex="0"
+		aria-label="Copy a link to this media item"
+		data-copy-url="{ current_url }#media_group_349718"
+		data-bs-title="Copied!"
+		data-bs-trigger="manual"
+	><span class="bi bi-link-45deg" aria-hidden="true"></span></button></li></ul><div class="vr"></div><!-- Download Options --><div class="dropdown flex-shrink-0"><button
+		class="btn btn-sm btn-secondary dropdown-toggle text-wrap"
+		data-bs-toggle="dropdown"
+		aria-expanded="false"
+		data-bs-popper-config='{"strategy":"fixed"}'
+	><span class="bi bi-download me-1" aria-hidden="true"></span> Download
+	</button><ul id="media_group_349718_download" class="dropdown-menu dropdown-menu-dark"><li id="media_group_349718_frame sets_download" class="dropdown-header"><h6 class="mb-0">Frame sets</h6></li><li><a id="media_group_349718_download_frame sets_0" class="dropdown-item" href="/vis/a000000/a003900/a003912/frames/6840x2304_1x1_30p/" target="_blank">
+									6840x2304_1x1_30p (6840x2304) [1751 Item(s)]
+								</a></li><li><hr class="dropdown-divider"></li><li id="media_group_349718_images_download" class="dropdown-header"><h6 class="mb-0">Images</h6></li><li><a id="media_group_349718_download_images_0" class="dropdown-item" href="/vis/a000000/a003900/a003912/atlantic-5x3-montage.png" target="_blank">
+									atlantic-5x3-montage.png (6840x2304) [19.1 MB]
+								</a></li><li><a id="media_group_349718_download_images_1" class="dropdown-item" href="/vis/a000000/a003900/a003912/flat_atlantic_ecco2_6840x2304.23000_print.jpg" target="_blank">
+									flat_atlantic_ecco2_6840x2304.23000_print.jpg (1024x344) [151.1 KB]
+								</a></li><li><hr class="dropdown-divider"></li></ul></div></div><!-- Description --><p>Sea Surface currents of the northern Atlantic Ocean. This version was produced for a 5x3 hyperwall.</p></div></div></div></section>
+
+					
+				
+					
+				
+					
+						
+
+<section id="media_group_349720" ><div class="card bg-gray-300 position-relative rounded overflow-hidden p-0"><!-- Content --><div class="card-body p-0"><div class="d-flex justify-content-center position-relative bg-dark"><!-- Image --><picture><source
+						srcset="/vis/a000000/a003900/a003912/sst_ecco2_cbar.png"
+						type="image/png"
+					><img
+					class="img-fluid w-100"
+					style="min-height: 20vh; max-height: 65vh;"
+					src="/static/svs/images/no_preview_web_black.png"
+					title="Sea surface temperature color bar (blue is 0 degrees C, green is 10-20 degrees C, yellow is about 25 degrees C, red is 32 degrees C)"
+					alt="Sea surface temperature color bar (blue is 0 degrees C, green is 10-20 degrees C, yellow is about 25 degrees C, red is 32 degrees C)"
+					loading="lazy"
+					type="image/png"
+				></picture></div><div class="p-2 p-md-3 mb-0-last-p clearfix"><div class="hstack gap-2 flex-wrap flex-lg-nowrap float-end"><ul class="hstack list-unstyled ms-auto gap-2 flex-shrink-0 mb-0"><li><button
+		type="button"
+		class="svs-copy-link-to-this-page-button btn btn-light px-1 py-0 fs-4 bg-transparent border-0"
+		title="Copy a link to this media item"
+		tabindex="0"
+		aria-label="Copy a link to this media item"
+		data-copy-url="{ current_url }#media_group_349720"
+		data-bs-title="Copied!"
+		data-bs-trigger="manual"
+	><span class="bi bi-link-45deg" aria-hidden="true"></span></button></li></ul><div class="vr"></div><!-- Download Options --><div class="dropdown flex-shrink-0"><button
+		class="btn btn-sm btn-secondary dropdown-toggle text-wrap"
+		data-bs-toggle="dropdown"
+		aria-expanded="false"
+		data-bs-popper-config='{"strategy":"fixed"}'
+	><span class="bi bi-download me-1" aria-hidden="true"></span> Download
+	</button><ul id="media_group_349720_download" class="dropdown-menu dropdown-menu-dark"><li id="media_group_349720_images_download" class="dropdown-header"><h6 class="mb-0">Images</h6></li><li><a id="media_group_349720_download_images_0" class="dropdown-item" href="/vis/a000000/a003900/a003912/sst_ecco2_cbar.png" target="_blank">
+									sst_ecco2_cbar.png (310x95) [8.7 KB]
+								</a></li><li><hr class="dropdown-divider"></li></ul></div></div><!-- Description --><p>Sea surface temperature color bar (blue is 0 degrees C, green is 10-20 degrees C, yellow is about 25 degrees C, red is 32 degrees C)</p></div></div></div></section>
+
+					
+				
+					
+						
+
+<section id="media_group_349721" ><div class="card bg-gray-300 position-relative rounded overflow-hidden p-0"><!-- Content --><div class="card-body p-0"><div class="d-flex justify-content-center position-relative bg-dark"><!-- Video player --><video
+				controls
+				poster="/vis/a000000/a003900/a003912/pacificcurrents.00000_print.jpg"
+				preload="metadata"
+				class="img-fluid w-100"
+				style="min-height: 20vh; max-height: 65vh;"
+			><source
+						src="/vis/a000000/a003900/a003912/pacificcurrents_1080p30.webm"
+						type="video/webm"
+					><source
+						src="/vis/a000000/a003900/a003912/pacificcurrents_no_overlay_1080p30_2.mp4"
+						type="video/mp4"
+					><source
+						src="/vis/a000000/a003900/a003912/pacificcurrents_1080p30.mp4"
+						type="video/mp4"
+					><p class="text-white">
+					This visualization shows the sea surface currents and temperatures in the eastern Pacific Ocean.
+				</p></video></div><div class="p-2 p-md-3 mb-0-last-p clearfix"><div class="hstack gap-2 flex-wrap flex-lg-nowrap float-end"><ul class="hstack list-unstyled ms-auto gap-2 flex-shrink-0 mb-0"><li><button
+		type="button"
+		class="svs-copy-link-to-this-page-button btn btn-light px-1 py-0 fs-4 bg-transparent border-0"
+		title="Copy a link to this media item"
+		tabindex="0"
+		aria-label="Copy a link to this media item"
+		data-copy-url="{ current_url }#media_group_349721"
+		data-bs-title="Copied!"
+		data-bs-trigger="manual"
+	><span class="bi bi-link-45deg" aria-hidden="true"></span></button></li></ul><div class="vr"></div><!-- Download Options --><div class="dropdown flex-shrink-0"><button
+		class="btn btn-sm btn-secondary dropdown-toggle text-wrap"
+		data-bs-toggle="dropdown"
+		aria-expanded="false"
+		data-bs-popper-config='{"strategy":"fixed"}'
+	><span class="bi bi-download me-1" aria-hidden="true"></span> Download
+	</button><ul id="media_group_349721_download" class="dropdown-menu dropdown-menu-dark"><li id="media_group_349721_movies_download" class="dropdown-header"><h6 class="mb-0">Movies</h6></li><li><a id="media_group_349721_download_movies_0" class="dropdown-item" href="/vis/a000000/a003900/a003912/pacificcurrents_1080p30.webm" target="_blank">
+									pacificcurrents_1080p30.webm (1920x1080) [8.6 MB]
+								</a></li><li><a id="media_group_349721_download_movies_1" class="dropdown-item" href="/vis/a000000/a003900/a003912/pacificcurrents_no_overlay_1080p30_2.mp4" target="_blank">
+									pacificcurrents_no_overlay_1080p30_2.mp4 (1920x1080) [264.5 MB]
+								</a></li><li><a id="media_group_349721_download_movies_2" class="dropdown-item" href="/vis/a000000/a003900/a003912/pacificcurrents_1080p30.mp4" target="_blank">
+									pacificcurrents_1080p30.mp4 (1920x1080) [475.2 MB]
+								</a></li><li><hr class="dropdown-divider"></li><li id="media_group_349721_frame sets_download" class="dropdown-header"><h6 class="mb-0">Frame sets</h6></li><li><a id="media_group_349721_download_frame sets_0" class="dropdown-item" href="/vis/a000000/a003900/a003912/frames/1920x1080_16x9_30p/pacific/" target="_blank">
+									pacific (1920x1080) [2002 Item(s)]
+								</a></li><li><a id="media_group_349721_download_frame sets_1" class="dropdown-item" href="/vis/a000000/a003900/a003912/frames/1920x1080_16x9_30p/pacific_bare/" target="_blank">
+									pacific_bare (1920x1080) [2002 Item(s)]
+								</a></li><li><hr class="dropdown-divider"></li><li id="media_group_349721_images_download" class="dropdown-header"><h6 class="mb-0">Images</h6></li><li><a id="media_group_349721_download_images_0" class="dropdown-item" href="/vis/a000000/a003900/a003912/pacificcurrents.00000_print.jpg" target="_blank">
+									pacificcurrents.00000_print.jpg (1024x576) [256.0 KB]
+								</a></li><li><hr class="dropdown-divider"></li></ul></div></div><!-- Description --><p>This visualization shows the sea surface currents and temperatures in the eastern Pacific Ocean.</p></div></div></div></section>
+
+					
+				
+			</div>
+			<hr>
+		
+
+		
+		
+			<section id="section_keywords" class="vstack gap-2">
+				
+					<!-- NASA science categories -->
+					<ul id="nasa_science_categories" class="list-unstyled hstack flex-wrap gap-2 mb-0">
+						
+							<li>
+								<a
+									href="/search?nasa_science_categories=Earth"
+									class="btn btn-primary hover-grow fw-bold"
+								>
+									<span class="bi bi-globe-americas me-1" aria-hidden="true"></span> Earth
+								</a>
+							</li>
+						
+					</ul>
+				
+
+				
+					<!-- Keywords -->
+					<ul id="keywords" class="list-unstyled hstack flex-wrap gap-2 mb-0">
+						
+							<li>
+								<a
+									href="/search?keywords=Climate Variability and Change"
+									class="btn btn-sm btn-secondary hover-grow"
+								>Climate Variability and Change</a>
+							</li>
+						
+							<li>
+								<a
+									href="/search?keywords=Earth Science"
+									class="btn btn-sm btn-secondary hover-grow"
+								>Earth Science</a>
+							</li>
+						
+							<li>
+								<a
+									href="/search?keywords=Hyperwall"
+									class="btn btn-sm btn-secondary hover-grow"
+								>Hyperwall</a>
+							</li>
+						
+							<li>
+								<a
+									href="/search?keywords=ocean circulation"
+									class="btn btn-sm btn-secondary hover-grow"
+								>ocean circulation</a>
+							</li>
+						
+							<li>
+								<a
+									href="/search?keywords=ocean currents"
+									class="btn btn-sm btn-secondary hover-grow"
+								>ocean currents</a>
+							</li>
+						
+							<li>
+								<a
+									href="/search?keywords=Oceans"
+									class="btn btn-sm btn-secondary hover-grow"
+								>Oceans</a>
+							</li>
+						
+							<li>
+								<a
+									href="/search?keywords=Physical oceanography"
+									class="btn btn-sm btn-secondary hover-grow"
+								>Physical oceanography</a>
+							</li>
+						
+							<li>
+								<a
+									href="/search?keywords=Presentation"
+									class="btn btn-sm btn-secondary hover-grow"
+								>Presentation</a>
+							</li>
+						
+					</ul>
+				
+			</section>
+			<hr>
+		
+
+		
+		
+			<section id="section_credits">
+				<h2 class="fs-3">Credits</h2>
+				
+					<!-- Credit header box -->
+					<div class="card p-3 mb-2 mb-0-last-p">
+						<p><b>Please give credit for this item to:</b><br /> NASA/Goddard Space Flight Center Scientific Visualization Studio</p>
+					</div>
+				
+				
+					<!-- Credit list -->
+					<ul class="list-unstyled vstack gap-2">
+						
+							<li class="row">
+								<div class="col-6 col-md-4 col-lg-3 text-end">
+									<h3 class="fs-6 mb-0 lh-base">
+										
+											Animators
+										
+									</h3>
+								</div>
+								<div class="col-6 col-md-8 col-lg-9 text-start border-start">
+									<ul class="list-unstyled">
+										
+											<li>
+												
+
+
+
+<a href="/search/?people=Greg%20Shirah" class="link">
+		Greg Shirah
+	</a>
+	
+		(NASA/GSFC)
+	
+	
+		<a href="https://orcid.org/0000-0002-7955-9573"><img
+				src="/static/detailspage/images/ORCID-iD_icon_vector.svg"
+				alt="ORCID logo. It consists of the text 'id' in lowercase inside of a green circle."
+				title="See this person's other publications"
+				class="bg-transparent"
+				style="height: 1.5rem; width: 1.5rem;"
+			></a>
+
+											</li>
+										
+											<li>
+												
+
+
+
+<a href="/search/?people=Horace%20Mitchell" class="link">
+		Horace Mitchell
+	</a>
+	
+		(NASA/GSFC)
+
+											</li>
+										
+											<li>
+												
+
+
+
+<a href="/search/?people=Eric%20Sokolowsky" class="link">
+		Eric Sokolowsky
+	</a>
+	
+		(Global Science and Technology, Inc.)
+
+											</li>
+										
+									</ul>
+								</div>
+							</li>
+						
+							<li class="row">
+								<div class="col-6 col-md-4 col-lg-3 text-end">
+									<h3 class="fs-6 mb-0 lh-base">
+										
+											Project support
+										
+									</h3>
+								</div>
+								<div class="col-6 col-md-8 col-lg-9 text-start border-start">
+									<ul class="list-unstyled">
+										
+											<li>
+												
+
+
+
+<a href="/search/?people=Eric%20Sokolowsky" class="link">
+		Eric Sokolowsky
+	</a>
+	
+		(Global Science and Technology, Inc.)
+
+											</li>
+										
+									</ul>
+								</div>
+							</li>
+						
+							<li class="row">
+								<div class="col-6 col-md-4 col-lg-3 text-end">
+									<h3 class="fs-6 mb-0 lh-base">
+										
+											Producer
+										
+									</h3>
+								</div>
+								<div class="col-6 col-md-8 col-lg-9 text-start border-start">
+									<ul class="list-unstyled">
+										
+											<li>
+												
+
+
+
+<a href="/search/?people=Michael%20Starobin" class="link">
+		Michael Starobin
+	</a>
+	
+		(HTSI)
+
+											</li>
+										
+									</ul>
+								</div>
+							</li>
+						
+							<li class="row">
+								<div class="col-6 col-md-4 col-lg-3 text-end">
+									<h3 class="fs-6 mb-0 lh-base">
+										
+											Scientists
+										
+									</h3>
+								</div>
+								<div class="col-6 col-md-8 col-lg-9 text-start border-start">
+									<ul class="list-unstyled">
+										
+											<li>
+												
+
+
+
+<a href="/search/?people=Hong%20Zhang" class="link">
+		Hong Zhang
+	</a>
+	
+		(UCLA)
+
+											</li>
+										
+											<li>
+												
+
+
+
+<a href="/search/?people=Dimitris%20Menemenlis" class="link">
+		Dimitris Menemenlis
+	</a>
+	
+		(NASA/JPL CalTech)
+
+											</li>
+										
+									</ul>
+								</div>
+							</li>
+						
+					</ul>
+				
+			</section>
+			<hr>
+		
+
+
+
+		
+			
+				<!-- Other misc. info -->
+				<section id="section_misc_info" class="row">
+					
+						<!-- Missions -->
+						<div class="col-12 col-md-6">
+							<h2 class="fs-3">Missions</h2>
+							This page is related to the following missions:
+							<ul class="mb-0">
+								
+									<li>
+										<a href="/search/?missions=Global%20Precipitation%20Measurement%20%28GPM%29" class="link">
+											Global Precipitation Measurement (GPM)
+										</a>
+									</li>
+								
+							</ul>
+						</div>
+					
+					
+						<!-- Series -->
+						<div class="col-12 col-md-6">
+							<h2 class="fs-3">Series</h2>
+							This page can be found in the following series:
+							<ul class="mb-0">
+								
+									<li>
+										<a href="/search/?series=Flows" class="link">
+											Flows
+										</a>
+									</li>
+								
+									<li>
+										<a href="/search/?series=Hyperwall" class="link">
+											Hyperwall
+										</a>
+									</li>
+								
+							</ul>
+						</div>
+					
+					
+				</section>
+				<hr>
+			
+		
+
+		
+		
+
+		
+		
+			<!-- Datasets -->
+			<section id="section_datasets" class="row">
+				<h2 class="fs-3">Datasets used</h2>
+				<ul class="list-unstyled  mx-0">
+					
+						
+							
+
+	<li class="dataset card p-3 mb-2">
+		<div class="card-title hstack flex-wrap">
+			<h2 class="fs-5 fw-normal search-text me-auto search-text mb-0">
+				GTOPO30 Topography and Bathymetry
+			</h2>
+			<span class="btn btn-sm btn-secondary disabled">ID: 274</span>
+		</div>
+
+		<div class="card-subtitle hstack flex-wrap hide-last-vr gap-2 search-text">
+			
+				<span>Type: Data Compilation</span> <span class="vr"></span>
+			
+			
+			
+				<span>Collected by: USGS</span>
+				<span class="vr"></span>
+			
+			
+				<span>Dates used: 3-2007 through 2-2008</span> <span class="vr"></span>
+			
+		</div>
+
+		<div class="card-body vstack p-2 gap-2">
+			
+			
+			
+			
+			<a href="/search/?datasets=274" class="link">See all pages that use this dataset<span class="bi bi-chevron-right mx-2" aria-hidden="true"></span></a>
+		</div>
+	</li>
+
+
+						
+							
+
+	<li class="dataset card p-3 mb-2">
+		<div class="card-title hstack flex-wrap">
+			<h2 class="fs-5 fw-normal search-text me-auto search-text mb-0">
+				ECCO2 (ECCO2 High Resolution Ocean and Sea Ice Model)
+			</h2>
+			<span class="btn btn-sm btn-secondary disabled">ID: 707</span>
+		</div>
+
+		<div class="card-subtitle hstack flex-wrap hide-last-vr gap-2 search-text">
+			
+				<span>Type: Model</span> <span class="vr"></span>
+			
+			
+			
+				<span>Collected by: NASA/JPL</span>
+				<span class="vr"></span>
+			
+			
+		</div>
+
+		<div class="card-body vstack p-2 gap-2">
+			
+			
+			
+			
+			<a href="/search/?datasets=707" class="link">See all pages that use this dataset<span class="bi bi-chevron-right mx-2" aria-hidden="true"></span></a>
+		</div>
+	</li>
+
+
+						
+					
+				</ul>
+				<p class="text-muted mb-0">
+					Note: While we identify the data sets used on this page, we do not store any further details, nor the data sets themselves on our site.
+				</p>
+			</section>
+			<hr>
+		
+
+		
+		
+
+		
+		
+			<!-- Related pages -->
+			<section id="section_related_pages">
+				
+
+<div class="row">
+	
+		<!-- Related pages -->
+		<div class="col-auto">
+			
+
+
+
+
+
+
+	
+		
+			<!-- Title -->
+			<h2 class="fs-3">Related</h2>
+		
+		
+		
+		<div class="position-relative">
+			<ul id="accordion_related_pages_related_card_gallery" class="list-unstyled hstack flex-wrap">
+				<!-- Pages -->
+				
+					
+
+
+
+
+<!-- Tile tile_details_page_10953 --><li
+			id="tile_details_page_10953"
+			class="tile-gallery-tile card flex-shrink-0 rounded overflow-hidden position-relative p-0 m-0"
+			style="width: 320px; max-width: 80vw; flex: none;"
+		><!-- Card header --><div
+					id="tile_details_page_10953_header"
+					class="position-relative"
+				><!-- Image topper --><a
+							href="/10953/"
+							title="Go to this page"
+							class="card-img-top bg-dark"
+						><div class="ratio ratio-16x9"><img
+									src="/vis/a010000/a010900/a010953/NEW_Atlantic_cover_1024x576.jpg"
+									alt="Earth, wind and water combine to create the world&#x27;s endless ocean currents."
+									style="object-fit: cover"
+									loading="lazy"
+								></div></a><!-- ID Badge --><span class="position-absolute top-0 start-0 badge bg-dark bg-opacity-75 fs-6 fw-normal rounded-0" style="border-bottom-right-radius: var(--bs-border-radius) !important;"> ID: 10953 </span></div><div
+					id="tile_details_page_10953_body"
+					class="position-absolute bottom-0 w-100"
+				><!-- Type badge --><span class="start-0 badge bg-dark bg-opacity-75 fs-6 fw-normal rounded-0" style="border-top-right-radius: var(--bs-border-radius) !important;"><span class="bi bi-person-video me-1" aria-hidden="true"></span> Produced Video
+							</span><!-- Card body --><div class="bg-dark bg-opacity-75 w-100 fs-6 text-white py-1 px-2"><div
+								style="max-height: 225px;"
+							><h3
+										id="tile_details_page_10953_body_title"
+										class="flex-shrink-0 mb-0 fs-6"
+									><a
+											href="/10953/"
+											title="Go to this page"
+											class="link link-light card-title overflow-hidden mb-0"
+											tabindex="-1"
+											style="display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 1;"
+										>
+											Swirling Seas
+										</a></h3></div></div></div></li>
+
+				
+			</ul>
+		</div>
+	
+
+
+		</div>
+	
+	
+	
+	
+	
+		<!-- Sources -->
+		<div class="col-auto">
+			
+
+
+
+
+
+
+	
+		
+			<!-- Title -->
+			<h2 class="fs-3">Sources</h2>
+		
+		
+		
+		<div class="position-relative">
+			<ul id="accordion_related_pages_sources_card_gallery" class="list-unstyled hstack flex-wrap">
+				<!-- Pages -->
+				
+					
+
+
+
+
+<!-- Tile tile_details_page_30701 --><li
+			id="tile_details_page_30701"
+			class="tile-gallery-tile card flex-shrink-0 rounded overflow-hidden position-relative p-0 m-0"
+			style="width: 320px; max-width: 80vw; flex: none;"
+		><!-- Card header --><div
+					id="tile_details_page_30701_header"
+					class="position-relative"
+				><!-- Image topper --><a
+							href="/30701/"
+							title="Go to this page"
+							class="card-img-top bg-dark"
+						><div class="ratio ratio-16x9"><img
+									src="/vis/a030000/a030700/a030701/R_beach_ball_flat_1080p.00001_print.jpg"
+									alt="Slices of Earth observational and modeling data"
+									style="object-fit: cover"
+									loading="lazy"
+								></div></a><!-- ID Badge --><span class="position-absolute top-0 start-0 badge bg-dark bg-opacity-75 fs-6 fw-normal rounded-0" style="border-bottom-right-radius: var(--bs-border-radius) !important;"> ID: 30701 </span></div><div
+					id="tile_details_page_30701_body"
+					class="position-absolute bottom-0 w-100"
+				><!-- Type badge --><span class="start-0 badge bg-dark bg-opacity-75 fs-6 fw-normal rounded-0" style="border-top-right-radius: var(--bs-border-radius) !important;"><span class="bi bi-grid-3x2-gap-fill me-1" aria-hidden="true"></span> Hyperwall Visual
+							</span><!-- Card body --><div class="bg-dark bg-opacity-75 w-100 fs-6 text-white py-1 px-2"><div
+								style="max-height: 225px;"
+							><h3
+										id="tile_details_page_30701_body_title"
+										class="flex-shrink-0 mb-0 fs-6"
+									><a
+											href="/30701/"
+											title="Go to this page"
+											class="link link-light card-title overflow-hidden mb-0"
+											tabindex="-1"
+											style="display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 1;"
+										>
+											Earth: A System of Systems
+										</a></h3></div></div></div></li>
+
+				
+			</ul>
+		</div>
+	
+
+
+		</div>
+	
+	
+		<!-- Products -->
+		<div class="col-auto">
+			
+
+
+
+
+
+
+	
+		
+			<!-- Title -->
+			<h2 class="fs-3">Used as a Source In</h2>
+		
+		
+		
+		<div class="position-relative">
+			<ul id="accordion_related_pages_products_card_gallery" class="list-unstyled hstack flex-wrap">
+				<!-- Pages -->
+				
+					
+
+
+
+
+<!-- Tile tile_details_page_12738 --><li
+			id="tile_details_page_12738"
+			class="tile-gallery-tile card flex-shrink-0 rounded overflow-hidden position-relative p-0 m-0"
+			style="width: 320px; max-width: 80vw; flex: none;"
+		><!-- Card header --><div
+					id="tile_details_page_12738_header"
+					class="position-relative"
+				><!-- Image topper --><a
+							href="/12738/"
+							title="Go to this page"
+							class="card-img-top bg-dark"
+						><div class="ratio ratio-16x9"><img
+									src="/vis/a010000/a012700/a012738/LARGE_MP4-12738_RapidIntensification_large.00084_print.jpg"
+									alt="Watch this video on the NASA Goddard YouTube channel.Complete transcript available.Music credits: &#x27;Micro Currents&#x27; by Jean-Patrick Voindrot [SACEM], &#x27;Sink Deep&#x27; by Andrew Michael Britton [PRS], David Stephen Goldsmith [PRS], Mikey Rowe [PRS] from Killer Tracks."
+									style="object-fit: cover"
+									loading="lazy"
+								></div></a><!-- ID Badge --><span class="position-absolute top-0 start-0 badge bg-dark bg-opacity-75 fs-6 fw-normal rounded-0" style="border-bottom-right-radius: var(--bs-border-radius) !important;"> ID: 12738 </span></div><div
+					id="tile_details_page_12738_body"
+					class="position-absolute bottom-0 w-100"
+				><!-- Type badge --><span class="start-0 badge bg-dark bg-opacity-75 fs-6 fw-normal rounded-0" style="border-top-right-radius: var(--bs-border-radius) !important;"><span class="bi bi-person-video me-1" aria-hidden="true"></span> Produced Video
+							</span><!-- Card body --><div class="bg-dark bg-opacity-75 w-100 fs-6 text-white py-1 px-2"><div
+								style="max-height: 225px;"
+							><h3
+										id="tile_details_page_12738_body_title"
+										class="flex-shrink-0 mb-0 fs-6"
+									><a
+											href="/12738/"
+											title="Go to this page"
+											class="link link-light card-title overflow-hidden mb-0"
+											tabindex="-1"
+											style="display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 1;"
+										>
+											Intense String of Hurricanes Seen From Space
+										</a></h3></div></div></div></li>
+
+				
+			</ul>
+		</div>
+	
+
+
+		</div>
+	
+</div>
+<hr>
+
+			</section>
+		
+
+		
+		<section id="release_time">
+			<h2 class="visually-hidden">Release date</h2>
+			<p class="text-muted mb-0">
+				
+					This page was originally published on Friday, March 16, 2012.
+					<br>
+				
+				This page was last updated on Tuesday, February 18, 2025 at 12:01 AM EST.
+			</p>
+		</section>
+		<hr>
+
+		
+		<section id="section_recommended_pages">
+			 
+
+
+
+<div id="recommended_pages" class="card-gallery-ajax-wrapper">
+	<input type="hidden" id="recommended_pages_var_can_load" value="true">
+	<input type="hidden" id="recommended_pages_var_is_loading" value="false" class="card-gallery-ajax-trigger">
+	<input type="hidden" id="recommended_pages_var_url" value="/api/detailspage/3912/recommended/display">
+	<input type="hidden" id="recommended_pages_var_params" value="">
+	
+		<!-- Title -->
+		<h2 class="fs-3">You may also like...</h2>
+	
+	
+	<div class="position-relative" style="height: 480px; width: 100%">
+		<div id="recommended_pages_results">
+			<!-- This gets filled in dynamically via. AJAX -->
+		</div>
+		<div id="recommended_pages_loader" class="w-100 h-100 position-relative rounded">
+			<div class="position-absolute w-100 h-100">
+				<div class="d-flex justify-content-center align-items-center h-100">
+					<div class="loader"></div>
+				</div>
+			</div>
+			<div class="placeholder-wave w-100 h-100">
+				<div class="card bg-gray-300 placeholder w-100 h-100"></div>
+			</div>
+		</div>
+		<div id="recommended_pages_no_results_warning" class="w-100 h-100 position-relative" style="display: none;">
+			<div class="d-flex justify-content-center align-items-center h-100">
+				<h4 class="fs-3 my-auto">No results.</h4>
+			</div>
+		</div>
+		<div id="recommended_pages_error_warning" class="w-100 h-100 position-relative" style="display: none;">
+			<div class="d-flex justify-content-center align-items-center h-100">
+				<h4 class="fs-3 my-auto">An error occurred. Please reload this page and try again.</h4>
+			</div>
+		</div>
+	</div>
+</div>
+
+		</section>
+	</article>
+
+			</div>
+		</main>
+		<footer>
+			<!-- Footer Javascript -->
+			
+				
+				<script id="_fed_an_ua_tag" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=NASA&subagency=GSFC&yt=true&dclink=true"></script>
+				<script id="parsely-cfg" src="https://cdn.parsely.com/keys/svs.gsfc.nasa.gov/p.js" async="" defer=""></script>
+			
+			<script
+				src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+				onerror="document.write(`<script src='/static/svs/js/bootstrap.bundle.min.js'>\x3C/script>`)"
+			></script>
+
+			<script src="/static/svs/js/script.js"></script>
+			
+	<script src="/static/svs/js/card-galleries.js"></script>
+
+
+			<!-- Bottom navigation bar -->
+			<nav id="bottom-navbar" class="navbar navbar-dark text-light">
+				<div class="container">
+					<div class="row w-100">
+						<!-- Brands -->
+						<div class="col-12 col-lg d-flex justify-content-center align-items-center">
+							<!-- NASA brand -->
+							<a href="https://www.nasa.gov/" class="link">
+								<img src="/static/svs/images/nasa-meatball.svg" height="60" alt="NASA Home Page">
+							</a>
+							<!-- USA.gov brand -->
+							<a
+								href="https://www.usa.gov/" class="link"
+							>
+								<img src="/static/svs/images/USAgov_logo.svg" height="60" alt="USA.gov Home Page">
+							</a>
+						</div>
+						<hr class="d-block d-lg-none my-2">
+						<div class="col-12 col-sm d-flex align-items-center">
+							<!-- Privacy and guidelines links -->
+							<div class="text-sm-end w-100">
+								
+									<div class="navbar-text">
+										<a href="https://www.nasa.gov/about/highlights/HP_Privacy.html" class="link link-light">Privacy Policy and Important Notices</a>
+										<br>
+										<a href="https://www.nasa.gov/multimedia/guidelines/index.html" class="link link-light">Reproduction Guidelines</a>
+									</div>
+								
+							</div>
+						</div>
+						<div class="col-auto d-none d-sm-flex align-items-center justify-content-center">
+							<div class="vr h-100 start-50"></div>
+						</div>
+						<div class="col-12 col-sm d-flex align-items-center">
+							<!-- Contact links -->
+							<div class="text-sm-start w-100">
+								
+									<div id="site-contacts" class="navbar-text">
+										<div>
+	NASA Official: <span class="email-link flex-nowrap" data-user="mark.u.subbarao" data-linktext="Mark SubbaRao"></span>
+</div>
+ <div>
+	Site Curator: <span class="email-link flex-nowrap" data-user="ella.kaplan" data-linktext="Ella Kaplan"></span>
+</div>
+
+									</div>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+			</nav>
+		</footer>
+	</body>
+</html>

@@ -1,0 +1,782 @@
+{
+  "id": "doc_mk",
+  "url": "https://github.com/mmhs013/pyMannKendall",
+  "checked_at": "2026-11-14T15:13:37.618510+00:00",
+  "tls_validation": false,
+  "status": 200,
+  "final_url": "https://github.com/mmhs013/pyMannKendall",
+  "bytes": 311078,
+  "content_type": "text/html; charset=utf-8",
+  "sha256": "20a734c45401a49002c3b8b29a9cae41b0122f3394d888ee66f92c20f0968f7a",
+  "links": [
+    {
+      "url": "https://github.com/mmhs013/pyMannKendall#start-of-content",
+      "label": "Skip to content"
+    },
+    {
+      "url": "https://github.com/",
+      "label": ""
+    },
+    {
+      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fmmhs013%2FpyMannKendall",
+      "label": "Sign in"
+    },
+    {
+      "url": "https://github.com/platform",
+      "label": "GitHubRepository hosting, code review, and collaboration"
+    },
+    {
+      "url": "https://github.com/features/copilot",
+      "label": "CopilotAI coding agent for tasks, projects, and automated work"
+    },
+    {
+      "url": "https://github.com/features/actions",
+      "label": "ActionsCI/CD and automation"
+    },
+    {
+      "url": "https://github.com/features/code-quality",
+      "label": "Code QualityQuality analysis, fixes, and enforcement"
+    },
+    {
+      "url": "https://github.com/features/codespaces",
+      "label": "CodespacesCloud development environments"
+    },
+    {
+      "url": "https://github.com/security/advanced-security/code-security",
+      "label": "Code SecurityVulnerability detection and remediation"
+    },
+    {
+      "url": "https://github.com/security/advanced-security/secret-protection",
+      "label": "Secret ProtectionSecret scanning and leak prevention"
+    },
+    {
+      "url": "https://github.com/features",
+      "label": "All Features"
+    },
+    {
+      "url": "https://docs.github.com/en",
+      "label": "Documentation"
+    },
+    {
+      "url": "https://learn.github.com/skills",
+      "label": "Training"
+    },
+    {
+      "url": "https://learn.github.com/credentials",
+      "label": "Certifications"
+    },
+    {
+      "url": "https://github.com/features/ai",
+      "label": "Build with Copilot"
+    },
+    {
+      "url": "https://docs.github.com/en/copilot/how-tos/copilot-on-github/customize-copilot/customize-copilot-overview",
+      "label": "Customize Copilot"
+    },
+    {
+      "url": "https://github.com/marketplace",
+      "label": "Integrations"
+    },
+    {
+      "url": "https://github.com/trending",
+      "label": "Trending repos"
+    },
+    {
+      "url": "https://github.com/open-source/sponsors",
+      "label": "GitHub Sponsors"
+    },
+    {
+      "url": "https://github.com/resources/articles",
+      "label": "Developer articles"
+    },
+    {
+      "url": "https://github.blog/changelog/",
+      "label": "ChangelogYour source for the latest features, improvements, and fixes across GitHub products, all in one place."
+    },
+    {
+      "url": "https://github.com/enterprise",
+      "label": "Enterprises"
+    },
+    {
+      "url": "https://github.com/team",
+      "label": "Team"
+    },
+    {
+      "url": "https://github.com/enterprise/startups",
+      "label": "Startups"
+    },
+    {
+      "url": "https://github.com/solutions/industry/nonprofits",
+      "label": "Nonprofits"
+    },
+    {
+      "url": "https://github.com/solutions/industry/healthcare",
+      "label": "Healthcare"
+    },
+    {
+      "url": "https://github.com/solutions/industry/financial-services",
+      "label": "Financial services"
+    },
+    {
+      "url": "https://github.com/solutions/industry/manufacturing",
+      "label": "Manufacturing"
+    },
+    {
+      "url": "https://github.com/solutions/industry/government",
+      "label": "Government"
+    },
+    {
+      "url": "https://github.com/solutions/industry",
+      "label": "See all industries"
+    },
+    {
+      "url": "https://github.com/why-github",
+      "label": "Why GitHub"
+    },
+    {
+      "url": "https://github.com/customer-stories",
+      "label": "Customer Stories"
+    },
+    {
+      "url": "https://github.com/solutions/executive-insights",
+      "label": "Business insights"
+    },
+    {
+      "url": "https://github.com/trust-center",
+      "label": "Trust Center"
+    },
+    {
+      "url": "https://github.com/security/advanced-security",
+      "label": "GitHub Advanced SecurityEnterprise-grade code security"
+    },
+    {
+      "url": "https://github.com/features/copilot/copilot-business",
+      "label": "Copilot for businessEnterprise-grade AI features"
+    },
+    {
+      "url": "https://github.com/enterprise/premium-support",
+      "label": "Premium SupportEnterprise-grade 24/7 support"
+    },
+    {
+      "url": "https://docs.github.com/en",
+      "label": "Documentation"
+    },
+    {
+      "url": "https://github.com/resources",
+      "label": "Resource center"
+    },
+    {
+      "url": "https://github.blog/",
+      "label": "Blog"
+    },
+    {
+      "url": "https://github.com/resources/events",
+      "label": "Events & webinars"
+    },
+    {
+      "url": "https://github.com/orgs/community/discussions",
+      "label": "Community Forum"
+    },
+    {
+      "url": "https://github.com/customer-stories",
+      "label": "Customer Stories"
+    },
+    {
+      "url": "https://github.com/marketplace",
+      "label": "Integrations"
+    },
+    {
+      "url": "https://help.github.com/",
+      "label": "Customer support"
+    },
+    {
+      "url": "https://learn.github.com/skills",
+      "label": "Training"
+    },
+    {
+      "url": "https://www.githubstatus.com/",
+      "label": "GitHub Status"
+    },
+    {
+      "url": "https://github.com/about",
+      "label": "About"
+    },
+    {
+      "url": "https://github.com/partners",
+      "label": "Partners"
+    },
+    {
+      "url": "https://github.blog/changelog/",
+      "label": "Changelog"
+    },
+    {
+      "url": "https://githubuniverse.com/",
+      "label": "GitHub UniverseThe event for developers, by developers — talks, workshops, and what’s next for GitHub."
+    },
+    {
+      "url": "https://github.com/pricing",
+      "label": "Pricing"
+    },
+    {
+      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fmmhs013%2FpyMannKendall",
+      "label": "Sign in"
+    },
+    {
+      "url": "https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E&source=header-repo&source_repo=mmhs013%2FpyMannKendall",
+      "label": "Sign up"
+    },
+    {
+      "url": "https://github.com/mmhs013/pyMannKendall",
+      "label": "Reload"
+    },
+    {
+      "url": "https://github.com/mmhs013/pyMannKendall",
+      "label": "Reload"
+    },
+    {
+      "url": "https://github.com/mmhs013/pyMannKendall",
+      "label": "Reload"
+    },
+    {
+      "url": "https://github.com/mmhs013",
+      "label": "mmhs013"
+    },
+    {
+      "url": "https://github.com/mmhs013/pyMannKendall",
+      "label": "pyMannKendall"
+    },
+    {
+      "url": "https://github.com/mmhs013/pyMannKendall",
+      "label": "Code"
+    },
+    {
+      "url": "https://github.com/mmhs013/pyMannKendall/issues",
+      "label": "Issues9 (9)"
+    },
+    {
+      "url": "https://github.com/mmhs013/pyMannKendall/pulls",
+      "label": "Pull requests3 (3)"
+    },
+    {
+      "url": "https://github.com/mmhs013/pyMannKendall/actions",
+      "label": "Actions"
+    },
+    {
+      "url": "https://github.com/mmhs013/pyMannKendall/projects",
+      "label": "Projects"
+    },
+    {
+      "url": "https://github.com/mmhs013/pyMannKendall/security",
+      "label": "Security and quality"
+    },
+    {
+      "url": "https://github.com/mmhs013/pyMannKendall/pulse",
+      "label": "Insights"
+    },
+    {
+      "url": "https://github.com/mmhs013/pyMannKendall",
+      "label": ""
+    },
+    {
+      "url": "https://github.com/mmhs013/pyMannKendall",
+      "label": "pyMannKendall"
+    },
+    {
+      "url": "https://github.com/login?return_to=%2Fmmhs013%2FpyMannKendall",
+      "label": "Notifications"
+    },
+    {
+      "url": "https://github.com/login?return_to=%2Fmmhs013%2FpyMannKendall",
+      "label": "Fork71 (71)"
+    },
+    {
+      "url": "https://github.com/login?return_to=%2Fmmhs013%2FpyMannKendall",
+      "label": "Star293 (293)"
+    },
+    {
+      "url": "https://github.com/topics/mann-kendall-tests",
+      "label": "mann-kendall-tests"
+    },
+    {
+      "url": "https://github.com/topics/mk-test",
+      "label": "mk-test"
+    },
+    {
+      "url": "https://github.com/topics/modified-mann-kendall-test",
+      "label": "modified-mann-kendall-test"
+    },
+    {
+      "url": "https://github.com/topics/python",
+      "label": "python"
+    },
+    {
+      "url": "https://github.com/topics/seasonal-mann-kendall",
+      "label": "seasonal-mann-kendall"
+    },
+    {
+      "url": "https://github.com/topics/trend-analysis",
+      "label": "trend-analysis"
+    },
+    {
+      "url": "https://github.com/mmhs013/pyMannKendall#readme-ov-file",
+      "label": "Readme"
+    },
+    {
+      "url": "https://github.com/mmhs013/pyMannKendall#MIT-1-ov-file",
+      "label": "MIT license"
+    },
+    {
+      "url": "https://github.com/mmhs013/pyMannKendall#coc-ov-file",
+      "label": "Code of conduct"
+    },
+    {
+      "url": "https://github.com/mmhs013/pyMannKendall#contributing-ov-file",
+      "label": "Contributing"
+    },
+    {
+      "url": "https://github.com/mmhs013/pyMannKendall/activity",
+      "label": "Activity"
+    },
+    {
+      "url": "https://github.com/mmhs013/pyMannKendall/forks",
+      "label": "71 forks"
+    },
+    {
+      "url": "https://github.com/contact/report-content?content_url=https%3A%2F%2Fgithub.com%2Fmmhs013%2FpyMannKendall&report=mmhs013+%28user%29",
+      "label": "Report repository"
+    },
+    {
+      "url": "https://github.com/mmhs013/pyMannKendall/branches",
+      "label": "Branches"
+    },
+    {
+      "url": "https://github.com/mmhs013/pyMannKendall/tags",
+      "label": "Tags"
+    },
+    {
+      "url": "https://github.com/mmhs013/pyMannKendall/branches",
+      "label": ""
+    },
+    {
+      "url": "https://github.com/mmhs013/pyMannKendall/tags",
+      "label": ""
+    },
+    {
+      "url": "https://github.com/mmhs013/pyMannKendall/commits/master/",
+      "label": "75 Commits"
+    },
+    {
+      "url": "https://github.com/mmhs013/pyMannKendall/commits/master/",
+      "label": ""
+    },
+    {
+      "url": "https://github.com/mmhs013/pyMannKendall/tree/master/Examples",
+      "label": "Examples"
+    },
+    {
+      "url": "https://github.com/mmhs013/pyMannKendall/tree/master/Examples",
+      "label": "Examples"
+    },
+    {
+      "url": "https://github.com/mmhs013/pyMannKendall/tree/master/Paper",
+      "label": "Paper"
+    },
+    {
+      "url": "https://github.com/mmhs013/pyMannKendall/tree/master/Paper",
+      "label": "Paper"
+    },
+    {
+      "url": "https://github.com/mmhs013/pyMannKendall/tree/master/pymannkendall",
+      "label": "pymannkendall"
+    },
+    {
+      "url": "https://github.com/mmhs013/pyMannKendall/tree/master/pymannkendall",
+      "label": "pymannkendall"
+    },
+    {
+      "url": "https://github.com/mmhs013/pyMannKendall/tree/master/tests",
+      "label": "tests"
+    },
+    {
+      "url": "https://github.com/mmhs013/pyMannKendall/tree/master/tests",
+      "label": "tests"
+    },
+    {
+      "url": "https://github.com/mmhs013/pyMannKendall/blob/master/.gitattributes",
+      "label": ".gitattributes"
+    },
+    {
+      "url": "https://github.com/mmhs013/pyMannKendall/blob/master/.gitattributes",
+      "label": ".gitattributes"
+    },
+    {
+      "url": "https://github.com/mmhs013/pyMannKendall/blob/master/.gitignore",
+      "label": ".gitignore"
+    },
+    {
+      "url": "https://github.com/mmhs013/pyMannKendall/blob/master/.gitignore",
+      "label": ".gitignore"
+    },
+    {
+      "url": "https://github.com/mmhs013/pyMannKendall/blob/master/.travis.yml",
+      "label": ".travis.yml"
+    },
+    {
+      "url": "https://github.com/mmhs013/pyMannKendall/blob/master/.travis.yml",
+      "label": ".travis.yml"
+    },
+    {
+      "url": "https://github.com/mmhs013/pyMannKendall/blob/master/CODE_OF_CONDUCT.md",
+      "label": "CODE_OF_CONDUCT.md"
+    },
+    {
+      "url": "https://github.com/mmhs013/pyMannKendall/blob/master/CODE_OF_CONDUCT.md",
+      "label": "CODE_OF_CONDUCT.md"
+    },
+    {
+      "url": "https://github.com/mmhs013/pyMannKendall/blob/master/CONTRIBUTING.md",
+      "label": "CONTRIBUTING.md"
+    },
+    {
+      "url": "https://github.com/mmhs013/pyMannKendall/blob/master/CONTRIBUTING.md",
+      "label": "CONTRIBUTING.md"
+    },
+    {
+      "url": "https://github.com/mmhs013/pyMannKendall/blob/master/LICENSE.txt",
+      "label": "LICENSE.txt"
+    },
+    {
+      "url": "https://github.com/mmhs013/pyMannKendall/blob/master/LICENSE.txt",
+      "label": "LICENSE.txt"
+    },
+    {
+      "url": "https://github.com/mmhs013/pyMannKendall/blob/master/MANIFEST.in",
+      "label": "MANIFEST.in"
+    },
+    {
+      "url": "https://github.com/mmhs013/pyMannKendall/blob/master/MANIFEST.in",
+      "label": "MANIFEST.in"
+    },
+    {
+      "url": "https://github.com/mmhs013/pyMannKendall/blob/master/README.md",
+      "label": "README.md"
+    },
+    {
+      "url": "https://github.com/mmhs013/pyMannKendall/blob/master/README.md",
+      "label": "README.md"
+    },
+    {
+      "url": "https://github.com/mmhs013/pyMannKendall/blob/master/requirements.txt",
+      "label": "requirements.txt"
+    },
+    {
+      "url": "https://github.com/mmhs013/pyMannKendall/blob/master/requirements.txt",
+      "label": "requirements.txt"
+    },
+    {
+      "url": "https://github.com/mmhs013/pyMannKendall/blob/master/setup.cfg",
+      "label": "setup.cfg"
+    },
+    {
+      "url": "https://github.com/mmhs013/pyMannKendall/blob/master/setup.cfg",
+      "label": "setup.cfg"
+    },
+    {
+      "url": "https://github.com/mmhs013/pyMannKendall/blob/master/setup.py",
+      "label": "setup.py"
+    },
+    {
+      "url": "https://github.com/mmhs013/pyMannKendall/blob/master/setup.py",
+      "label": "setup.py"
+    },
+    {
+      "url": "https://github.com/mmhs013/pyMannKendall/blob/master/versioneer.py",
+      "label": "versioneer.py"
+    },
+    {
+      "url": "https://github.com/mmhs013/pyMannKendall/blob/master/versioneer.py",
+      "label": "versioneer.py"
+    },
+    {
+      "url": "https://github.com/mmhs013/pyMannKendall",
+      "label": "README"
+    },
+    {
+      "url": "https://github.com/mmhs013/pyMannKendall",
+      "label": "Code of conduct"
+    },
+    {
+      "url": "https://github.com/mmhs013/pyMannKendall",
+      "label": "Contributing"
+    },
+    {
+      "url": "https://github.com/mmhs013/pyMannKendall",
+      "label": "MIT license"
+    },
+    {
+      "url": "https://github.com/mmhs013/pyMannKendall#pymannkendall",
+      "label": ""
+    },
+    {
+      "url": "https://travis-ci.com/mmhs013/pyMannKendall",
+      "label": ""
+    },
+    {
+      "url": "https://pypi.org/project/pymannkendall/",
+      "label": ""
+    },
+    {
+      "url": "https://pypi.org/project/pymannkendall/",
+      "label": ""
+    },
+    {
+      "url": "https://pypi.org/project/pymannkendall/",
+      "label": ""
+    },
+    {
+      "url": "https://pypi.org/project/pymannkendall/",
+      "label": ""
+    },
+    {
+      "url": "https://pepy.tech/project/pymannkendall",
+      "label": ""
+    },
+    {
+      "url": "https://anaconda.org/conda-forge/pymannkendall",
+      "label": ""
+    },
+    {
+      "url": "https://scholar.google.com/scholar?q=pyMannKendall%3A+a+python+package+for+non+parametric+Mann+Kendall+family+of+trend+tests.",
+      "label": ""
+    },
+    {
+      "url": "https://www.researchgate.net/publication/334688255_pyMannKendall_a_python_package_for_non_parametric_Mann_Kendall_family_of_trend_tests",
+      "label": ""
+    },
+    {
+      "url": "http://joss.theoj.org/papers/14903dbd55343be89105112e585d262a",
+      "label": ""
+    },
+    {
+      "url": "https://zenodo.org/badge/latestdoi/174495388",
+      "label": ""
+    },
+    {
+      "url": "https://github.com/mmhs013/pyMannKendall#what-is-the-mann-kendall-test-",
+      "label": ""
+    },
+    {
+      "url": "https://github.com/mmhs013/pyMannKendall#function-details",
+      "label": ""
+    },
+    {
+      "url": "https://github.com/mmhs013/pyMannKendall#dependencies",
+      "label": ""
+    },
+    {
+      "url": "https://www.numpy.org/",
+      "label": "numpy"
+    },
+    {
+      "url": "https://www.scipy.org/",
+      "label": "scipy"
+    },
+    {
+      "url": "https://github.com/mmhs013/pyMannKendall#installation",
+      "label": ""
+    },
+    {
+      "url": "https://github.com/mmhs013/pyMannKendall#tests",
+      "label": ""
+    },
+    {
+      "url": "https://travis-ci.org/mmhs013/pyMannKendall/",
+      "label": "here"
+    },
+    {
+      "url": "https://github.com/mmhs013/pyMannKendall#usage",
+      "label": ""
+    },
+    {
+      "url": "https://github.com/mmhs013/pyMannKendall/blob/master/Examples/Example_pyMannKendall.ipynb",
+      "label": "here"
+    },
+    {
+      "url": "https://github.com/mmhs013/pyMannKendall#citation",
+      "label": ""
+    },
+    {
+      "url": "https://scholar.google.com/scholar?q=pyMannKendall%3A+a+python+package+for+non+parametric+Mann+Kendall+family+of+trend+tests.",
+      "label": ""
+    },
+    {
+      "url": "https://www.researchgate.net/publication/334688255_pyMannKendall_a_python_package_for_non_parametric_Mann_Kendall_family_of_trend_tests",
+      "label": ""
+    },
+    {
+      "url": "https://doi.org/10.21105/joss.01556",
+      "label": "Hussain et al., (2019)"
+    },
+    {
+      "url": "https://doi.org/10.21105/joss.01556",
+      "label": "https://doi.org/10.21105/joss.01556"
+    },
+    {
+      "url": "https://github.com/mmhs013/pyMannKendall#contributions",
+      "label": ""
+    },
+    {
+      "url": "https://github.com/mmhs013/pyMannKendall/blob/master/CONTRIBUTING.md",
+      "label": "contribution guidelines"
+    },
+    {
+      "url": "https://github.com/mmhs013/pyMannKendall#code-of-conduct",
+      "label": ""
+    },
+    {
+      "url": "https://github.com/mmhs013/pyMannKendall/blob/master/CODE_OF_CONDUCT.md",
+      "label": "Code of Conduct"
+    },
+    {
+      "url": "https://github.com/mmhs013/pyMannKendall#references",
+      "label": ""
+    },
+    {
+      "url": "https://doi.org/10.1016/j.atmosres.2016.02.008",
+      "label": "10.1016/j.atmosres.2016.02.008"
+    },
+    {
+      "url": "https://www.wiley.com/en-us/Practical+Nonparametric+Statistics%2C+3rd+Edition-p-9780471160687",
+      "label": "Practical nonparametric statistics (2nd Ed.)"
+    },
+    {
+      "url": "https://doi.org/10.2307/2333424",
+      "label": "10.2307/2333424"
+    },
+    {
+      "url": "https://doi.org/10.1016/S0022-1694(97)00125-X",
+      "label": "10.1016/S0022-1694(97)00125-X"
+    },
+    {
+      "url": "https://doi.org/10.1021/es051650b",
+      "label": "10.1021/es051650b"
+    },
+    {
+      "url": "https://doi.org/10.1029/WR018i001p00107",
+      "label": "10.1029/WR018i001p00107"
+    },
+    {
+      "url": "https://doi.org/10.1080/03610918708812645",
+      "label": "10.1080/03610918708812645"
+    },
+    {
+      "url": "https://doi.org/1010.1002/env.507",
+      "label": "10.1002/env.507"
+    },
+    {
+      "url": "https://doi.org/10.2307/1907187",
+      "label": "10.2307/1907187"
+    },
+    {
+      "url": "https://doi.org/10.1080/01621459.1968.10480934",
+      "label": "10.1080/01621459.1968.10480934"
+    },
+    {
+      "url": "https://doi.org/10.1023/B:WARM.0000043140.61082.60",
+      "label": "10.1023/B:WARM.0000043140.61082.60"
+    },
+    {
+      "url": "https://doi.org/10.1029/2001WR000861",
+      "label": "10.1029/2001WR000861"
+    },
+    {
+      "url": "https://doi.org/10.1002/hyp.1095",
+      "label": "10.1002/hyp.1095"
+    },
+    {
+      "url": "https://github.com/topics/mann-kendall-tests",
+      "label": "mann-kendall-tests"
+    },
+    {
+      "url": "https://github.com/topics/mk-test",
+      "label": "mk-test"
+    },
+    {
+      "url": "https://github.com/topics/modified-mann-kendall-test",
+      "label": "modified-mann-kendall-test"
+    },
+    {
+      "url": "https://github.com/topics/python",
+      "label": "python"
+    },
+    {
+      "url": "https://github.com/topics/seasonal-mann-kendall",
+      "label": "seasonal-mann-kendall"
+    },
+    {
+      "url": "https://github.com/topics/trend-analysis",
+      "label": "trend-analysis"
+    },
+    {
+      "url": "https://github.com/mmhs013/pyMannKendall#readme-ov-file",
+      "label": "Readme"
+    },
+    {
+      "url": "https://github.com/mmhs013/pyMannKendall#MIT-1-ov-file",
+      "label": "MIT license"
+    },
+    {
+      "url": "https://github.com/mmhs013/pyMannKendall#coc-ov-file",
+      "label": "Code of conduct"
+    },
+    {
+      "url": "https://github.com/mmhs013/pyMannKendall#contributing-ov-file",
+      "label": "Contributing"
+    },
+    {
+      "url": "https://github.com/mmhs013/pyMannKendall/activity",
+      "label": "Activity"
+    },
+    {
+      "url": "https://github.com/mmhs013/pyMannKendall/forks",
+      "label": "71 forks"
+    },
+    {
+      "url": "https://github.com/contact/report-content?content_url=https%3A%2F%2Fgithub.com%2Fmmhs013%2FpyMannKendall&report=mmhs013+%28user%29",
+      "label": "Report repository"
+    },
+    {
+      "url": "https://github.com",
+      "label": ""
+    },
+    {
+      "url": "https://docs.github.com/site-policy/github-terms/github-terms-of-service",
+      "label": "Terms"
+    },
+    {
+      "url": "https://docs.github.com/site-policy/privacy-policies/github-privacy-statement",
+      "label": "Privacy"
+    },
+    {
+      "url": "https://github.com/security",
+      "label": "Security"
+    },
+    {
+      "url": "https://www.githubstatus.com/",
+      "label": "Status"
+    },
+    {
+      "url": "https://github.community/",
+      "label": "Community"
+    },
+    {
+      "url": "https://docs.github.com/",
+      "label": "Docs"
+    },
+    {
+      "url": "https://support.github.com?tags=dotcom-footer",
+      "label": "Contact"
+    }
+  ],
+  "elapsed_seconds": 2.282
+}

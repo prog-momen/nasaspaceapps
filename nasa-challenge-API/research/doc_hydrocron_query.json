@@ -1,0 +1,154 @@
+{
+  "id": "doc_hydrocron_query",
+  "url": "https://podaac.github.io/hydrocron/timeseries/",
+  "checked_at": "2026-11-14T15:13:33.467621+00:00",
+  "tls_validation": false,
+  "status": 200,
+  "final_url": "https://podaac.github.io/hydrocron/timeseries/",
+  "bytes": 173275,
+  "content_type": "text/html; charset=utf-8",
+  "sha256": "02e713852c64b9fd9ea3c6ccf8fa2fdaf998a3036da5567d6e7e4c60aae46e0d",
+  "links": [
+    {
+      "url": "https://podaac.github.io/hydrocron/timeseries/#skip-to-frontmatter",
+      "label": "Skip to article frontmatter"
+    },
+    {
+      "url": "https://podaac.github.io/hydrocron/timeseries/#skip-to-article",
+      "label": "Skip to article content"
+    },
+    {
+      "url": "https://mystmd.org/guide/deployment#deploy-base-url",
+      "label": "the MyST Documentation"
+    },
+    {
+      "url": "https://podaac.github.io/hydrocron/",
+      "label": "Made with MyST"
+    },
+    {
+      "url": "https://podaac.github.io/hydrocron/",
+      "label": "Hydrocron"
+    },
+    {
+      "url": "https://podaac.github.io/hydrocron/timeseries",
+      "label": "timeseries"
+    },
+    {
+      "url": "https://github.com/podaac/hydrocron",
+      "label": ""
+    },
+    {
+      "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Content_negotiation",
+      "label": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Content_negotiation"
+    },
+    {
+      "url": "https://podaac.github.io/hydrocron/timeseries/#request-headers",
+      "label": "¶"
+    },
+    {
+      "url": "https://podaac.github.io/hydrocron/timeseries/#accept",
+      "label": "¶"
+    },
+    {
+      "url": "https://podaac.github.io/hydrocron/timeseries/#request-parameters",
+      "label": "¶"
+    },
+    {
+      "url": "https://podaac.github.io/hydrocron/timeseries/#feature",
+      "label": "¶"
+    },
+    {
+      "url": "https://podaac.github.io/hydrocron/timeseries/#feature-id",
+      "label": "¶"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/pocloud-swot-l2-hr-riversp-d-d",
+      "label": "SWOT Product Description Document for the L2_HR_RiverSP Dataset"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/pocloud-swot-l2-hr-lakesp-d-d",
+      "label": "SWOT Product Description Document for the L2_HR_LakeSP Dataset"
+    },
+    {
+      "url": "https://podaac.github.io/hydrocron/timeseries/#start-time-string-required-yes",
+      "label": "¶"
+    },
+    {
+      "url": "https://podaac.github.io/hydrocron/timeseries/#end-time-string-required-yes",
+      "label": "¶"
+    },
+    {
+      "url": "https://podaac.github.io/hydrocron/timeseries/#output-string-required-no",
+      "label": "¶"
+    },
+    {
+      "url": "https://podaac.github.io/hydrocron/timeseries/#filename-string-required-no",
+      "label": "¶"
+    },
+    {
+      "url": "https://podaac.github.io/hydrocron/timeseries/#compact-string-required-no",
+      "label": "¶"
+    },
+    {
+      "url": "https://podaac.github.io/hydrocron/timeseries/#collection-name",
+      "label": "¶"
+    },
+    {
+      "url": "https://podaac.github.io/hydrocron/user-guide/discharge",
+      "label": "discharge guide"
+    },
+    {
+      "url": "https://podaac.github.io/hydrocron/timeseries/#fields",
+      "label": "¶"
+    },
+    {
+      "url": "https://podaac.github.io/hydrocron/user-guide/fields",
+      "label": "Fields"
+    },
+    {
+      "url": "https://podaac.github.io/hydrocron/user-guide/discharge",
+      "label": "discharge guide"
+    },
+    {
+      "url": "https://podaac.github.io/hydrocron/timeseries/#response-format",
+      "label": "¶"
+    },
+    {
+      "url": "https://podaac.github.io/hydrocron/timeseries/#default",
+      "label": "¶"
+    },
+    {
+      "url": "https://podaac.github.io/hydrocron/timeseries/#application-geo-json",
+      "label": "¶"
+    },
+    {
+      "url": "https://podaac.github.io/hydrocron/timeseries/#text-csv",
+      "label": "¶"
+    },
+    {
+      "url": "https://podaac.github.io/hydrocron/timeseries/#csv-file-download",
+      "label": "¶"
+    },
+    {
+      "url": "https://podaac.github.io/hydrocron/timeseries/#response-codes",
+      "label": "¶"
+    },
+    {
+      "url": "https://podaac.github.io/hydrocron/timeseries/#api-keys",
+      "label": "¶"
+    },
+    {
+      "url": "https://github.com/podaac/hydrocron/issues",
+      "label": "GitHub issue"
+    },
+    {
+      "url": "https://podaac.github.io/hydrocron/timeseries/#how-to-use-an-api-key-in-requests",
+      "label": "¶"
+    },
+    {
+      "url": "https://podaac.github.io/hydrocron/hydrocron-tutorial",
+      "label": "GETTING STARTEDTutorial"
+    }
+  ],
+  "elapsed_seconds": 2.844
+}

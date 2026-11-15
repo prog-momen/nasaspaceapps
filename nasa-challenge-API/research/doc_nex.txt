@@ -1,0 +1,134 @@
+NASA Earth Exchange Global Daily Downscaled Projections (NEX-GDDP-CMIP6) – NCCS
+Skip to content
+To support NASA’s Earth Modeling Nexus, NCCS is becoming Earth Modeling Nexus Core Computing (Nexus Compute). We are in the process of migrating the NCCS site to the Nexus Compute webpage from now until end of 2026. Thank you for your patience as we make this transition.
+Read more
+×
+High Performance Computing For Science
+Search
+Search
+Users
+Users Home
+Account Help
+Eligibility & Setup Process
+Account Closure
+Instructionals
+Systems
+Using Discover
+Using Explore/ADAPT
+Services
+Using Cron on Discover
+Using Cron on ADAPT
+File Transfer
+GitLab
+Prism GPU Cluster
+Guacamole
+Glossary
+Jupyterhub
+MobaXterm
+Performance Analysis Tools
+OPeNDAP Servers
+Policeme
+Putty
+Slurm
+Video Collection
+Systems
+Explore/ADAPT
+Using Explore/ADAPT
+Prism GPU Cluster
+Case Studies
+NCCS Account Information
+Discover
+SCU Hardware Info
+Using Discover
+Case Studies
+Account Info
+Storage Systems
+CSS Data Collections
+Data Management Plans (DMPs)
+DataPortal
+Data Sharing & Tools
+Data Collections
+Hyperwall
+Services
+Supercomputing
+Data Sharing & Tools
+Data Collections
+Sharing Research
+DataPortal
+FAQ
+About Us
+Contact Us
+Case Studies
+NCCS Emblem
+Nexus Compute Transition
+NASA Earth Exchange Global Daily Downscaled Projections (NEX-GDDP-CMIP6)
+The NEX-GDDP-CMIP6 dataset is comprised of global downscaled climate scenarios derived from the General Circulation Model (GCM) runs conducted under the Coupled Model Intercomparison Project Phase 6 (CMIP6) and across all four “Tier 1” greenhouse gas emissions scenarios known as Shared Socioeconomic Pathways (SSPs). The CMIP6 GCM runs were developed in support of the Sixth Assessment Report of the Intergovernmental Panel on Climate Change (IPCC AR6). This dataset includes downscaled projections from ScenarioMIP model runs for which daily scenarios were produced and distributed through the Earth System Grid Federation. The purpose of this dataset is to provide a set of global, high resolution, bias-corrected climate change projections that can be used to evaluate climate change impacts on processes that are sensitive to finer-scale climate gradients and the effects of local topography on climate conditions.
+Users are encouraged to review the technote, provided alongside the data set, where more detailed information, references and acknowledgements can be found.
+tech note (v1 data)
+tech note (v2 data)
+Data Access
+Data Service Name: Amazon Web Services (AWS) Simple Storage Service (S3)
+Dataset Entry:
+https://registry.opendata.aws/nex-gddp-cmip6/
+Data Access URL:
+S3://NEX-GDDP-CMIP6
+Data Service Name:
+NCCS THREDDS
+Data Service Information: Search, Subset, Download, Visualize
+Data Service Access URL:
+NCCS THREADDS NEX-GDDP-CMIP6
+Making a Spatial Subset
+Browse for your dataset at our
+THREDDS entry point
+. For example, under
+NEX-GDDP-CMIP6
+for model ACCESS-CM2, a historical run of variable pr (precipitation) from the year 2014 yields the URL:
+https://ds.nccs.nasa.gov/thredds/catalog/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/historical/r1i1p1f1/pr/catalog.html?dataset=AMES/NEX/GDDP-CMIP6/ACCESS-CM2/historical/r1i1p1f1/pr/pr_day_ACCESS-CM2_historical_r1i1p1f1_gn_2014.nc
+(To reproduce this URL, follow the path GDDP-CMIP6/ACCESS-CM2/historical/r1i1p1f1/pr/, then select the year.)
+Under “Access”, select option 3, NetcdfSubset.
+Now you must select your variables:
+Check the box “pr” (for precipitation).
+Uncheck “Disable Horizontal Subsetting” in both the “Lat/lon subset” and the “Coordinate subset” tabs.
+Enter your lat_min, lat_max, lon_min, and lon_max.
+You may also need to check “Add Lat/Lon variables” at the bottom.
+Once your variables are configured, you can copy the “NCCS Request URL” at the bottom into your scripts; for example, using wget for a subset of this dataset in the DC area:
+wget "https://ds.nccs.nasa.gov/thredds/ncss/grid/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/historical/r1i1p1f1/pr/pr_day_ACCESS-CM2_historical_r1i1p1f1_gn_2014.nc?var=pr&north=39&west=-77&east=76&south=38.7&horizStride=1&time_start=2014-01-01T12:00:00Z&time_end=2014-12-31T12:00:00Z&&&accept=netcdf3&addLatLon=true"
+Note:
+When using wget, you must put quotations (“”) around the URL.
+Contact
+Dr. Bridget Thrasher and Dr. Ian Brosnan, NASA NEX
+Website:
+NASA NEX
+Data Support Contact:
+NCCS Support
+Summary
+Short Name: NEX-GDDP-CMIP6
+Version: 1.0, 1.1, and 1.2
+Format: netCDF4
+Coverage:
+West Bounding Coordinate: 180° W
+East Bounding Coordinate: 180° E
+North Bounding Coordinate: 90° N
+South Bounding Coordinate: 60° S
+Data Resolution:
+Latitude Resolution: 0.25 degrees (25 km)
+Longitude Resolution: 0.25 degrees (25 km)
+Temporal Resolution: daily
+Total Dataset Size: 38 TB
+NCCS Contacts
+Curator: Rey Presno
+NASA Official: Ellen Salmon
+Acting High-Performance Computing Lead
+GSFC Code 606.2
+NASA Privacy Policy & Important Notices
+NASA Accessibility Statement
+CISTO
+About Us
+The purpose of the NCCS is to enhance NASA capabilities in Earth Science, with an emphasis on weather and climate prediction, and to enable future scientific discoveries that will benefit humankind.
+Contact Us
+NASA Center for Climate Simulation
+Building 28 Goddard Space Flight Center
+Greenbelt, Maryland 20771
+(301) 286-9120
+NCCS User Service Group
+Copyright © 2026 NASA Center for Climate Simulation. All Rights Reserved

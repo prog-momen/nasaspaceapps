@@ -1,0 +1,289 @@
+{
+    "id": 5313,
+    "url": "http://svs.gsfc.nasa.gov/5313/",
+    "page_type": "Visualization",
+    "title": "Change in Night Lights between 2012 and 2023 - EIC Version",
+    "description": "This global, flat map view of night lights data begins with a time series depicting annual averages from 2012 to 2023. The lights then fade away to reveal night lights change between 2012 and 2023, with regions of more light depicted in purple and regions with less light depicted in orange. The sequence then repeats with pop-out, zoomed-in views of India, Ukraine, Western Europe, and the Eastern Mediterranean region. || nightlights_flat_series_and_change_wZooms_13_EIC.02599_print.jpg (1024x288) [62.0 KB] || nightlights_flat_series_and_change_wZooms_13_EIC.02599_searchweb.png (320x180) [49.9 KB] || nightlights_flat_series_and_change_wZooms_13_EIC.02599_thm.png (80x40) [4.6 KB] || nightlights_2012-2023_change_flat_eic [0 Item(s)] || nightlights_flat_series_and_change_wZooms_13_EIC_2160p30_h265.mp4 (7680x2160) [32.7 MB] || nightlights_flat_series_and_change_wZooms_13_EIC_prores.mov (7680x2160) [4.0 GB] || ",
+    "release_date": "2024-06-14T00:00:00-04:00",
+    "update_date": "2024-06-14T15:53:06.224162-04:00",
+    "main_image": {
+        "id": 1093572,
+        "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005300/a005313/nightlights_flat_series_and_change_wZooms_13_EIC.02599_print.jpg",
+        "filename": "nightlights_flat_series_and_change_wZooms_13_EIC.02599_print.jpg",
+        "media_type": "Image",
+        "alt_text": "This global, flat map view of night lights data begins with a time series depicting annual averages from 2012 to 2023. The lights then fade away to reveal night lights change between 2012 and 2023, with regions of more light depicted in purple and regions with less light depicted in orange. The sequence then repeats with pop-out, zoomed-in views of India, Ukraine, Western Europe, and the Eastern Mediterranean region.",
+        "width": 1024,
+        "height": 288,
+        "pixels": 294912
+    },
+    "main_video": null,
+    "main_credits": {
+        "Visualizations by": [
+            {
+                "name": "Kel Elkins",
+                "employer": "USRA"
+            }
+        ]
+    },
+    "progress": "Complete",
+    "media_groups": [
+        {
+            "id": 374656,
+            "url": "http://svs.gsfc.nasa.gov/5313/#media_group_374656",
+            "widget": "Video player",
+            "title": "",
+            "caption": "",
+            "description": "This global, flat map view of night lights data begins with a time series depicting annual averages from 2012 to 2023. The lights then fade away to reveal night lights change between 2012 and 2023, with regions of more light depicted in purple and regions with less light depicted in orange. The sequence then repeats with pop-out, zoomed-in views of India, Ukraine, Western Europe, and the Eastern Mediterranean region.",
+            "items": [
+                {
+                    "id": 430486,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 1093572,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005300/a005313/nightlights_flat_series_and_change_wZooms_13_EIC.02599_print.jpg",
+                        "filename": "nightlights_flat_series_and_change_wZooms_13_EIC.02599_print.jpg",
+                        "media_type": "Image",
+                        "alt_text": "This global, flat map view of night lights data begins with a time series depicting annual averages from 2012 to 2023. The lights then fade away to reveal night lights change between 2012 and 2023, with regions of more light depicted in purple and regions with less light depicted in orange. The sequence then repeats with pop-out, zoomed-in views of India, Ukraine, Western Europe, and the Eastern Mediterranean region.",
+                        "width": 1024,
+                        "height": 288,
+                        "pixels": 294912
+                    }
+                },
+                {
+                    "id": 430484,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 1093570,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005300/a005313/nightlights_flat_series_and_change_wZooms_13_EIC.02599_searchweb.png",
+                        "filename": "nightlights_flat_series_and_change_wZooms_13_EIC.02599_searchweb.png",
+                        "media_type": "Image",
+                        "alt_text": "This global, flat map view of night lights data begins with a time series depicting annual averages from 2012 to 2023. The lights then fade away to reveal night lights change between 2012 and 2023, with regions of more light depicted in purple and regions with less light depicted in orange. The sequence then repeats with pop-out, zoomed-in views of India, Ukraine, Western Europe, and the Eastern Mediterranean region.",
+                        "width": 320,
+                        "height": 180,
+                        "pixels": 57600
+                    }
+                },
+                {
+                    "id": 430485,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 1093571,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005300/a005313/nightlights_flat_series_and_change_wZooms_13_EIC.02599_thm.png",
+                        "filename": "nightlights_flat_series_and_change_wZooms_13_EIC.02599_thm.png",
+                        "media_type": "Image",
+                        "alt_text": "This global, flat map view of night lights data begins with a time series depicting annual averages from 2012 to 2023. The lights then fade away to reveal night lights change between 2012 and 2023, with regions of more light depicted in purple and regions with less light depicted in orange. The sequence then repeats with pop-out, zoomed-in views of India, Ukraine, Western Europe, and the Eastern Mediterranean region.",
+                        "width": 80,
+                        "height": 40,
+                        "pixels": 3200
+                    }
+                },
+                {
+                    "id": 430481,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 1093567,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005300/a005313/frames/7680x2160_32x9_30p/nightlights_2012-2023_change_flat_eic/",
+                        "filename": "nightlights_2012-2023_change_flat_eic",
+                        "media_type": "Frames",
+                        "alt_text": "This global, flat map view of night lights data begins with a time series depicting annual averages from 2012 to 2023. The lights then fade away to reveal night lights change between 2012 and 2023, with regions of more light depicted in purple and regions with less light depicted in orange. The sequence then repeats with pop-out, zoomed-in views of India, Ukraine, Western Europe, and the Eastern Mediterranean region.",
+                        "width": 0,
+                        "height": 0,
+                        "pixels": null
+                    }
+                },
+                {
+                    "id": 430482,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 1093568,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005300/a005313/nightlights_flat_series_and_change_wZooms_13_EIC_2160p30_h265.mp4",
+                        "filename": "nightlights_flat_series_and_change_wZooms_13_EIC_2160p30_h265.mp4",
+                        "media_type": "Movie",
+                        "alt_text": "This global, flat map view of night lights data begins with a time series depicting annual averages from 2012 to 2023. The lights then fade away to reveal night lights change between 2012 and 2023, with regions of more light depicted in purple and regions with less light depicted in orange. The sequence then repeats with pop-out, zoomed-in views of India, Ukraine, Western Europe, and the Eastern Mediterranean region.",
+                        "width": 0,
+                        "height": 0,
+                        "pixels": null
+                    }
+                },
+                {
+                    "id": 430483,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 1093569,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005300/a005313/nightlights_flat_series_and_change_wZooms_13_EIC_prores.mov",
+                        "filename": "nightlights_flat_series_and_change_wZooms_13_EIC_prores.mov",
+                        "media_type": "Movie",
+                        "alt_text": "This global, flat map view of night lights data begins with a time series depicting annual averages from 2012 to 2023. The lights then fade away to reveal night lights change between 2012 and 2023, with regions of more light depicted in purple and regions with less light depicted in orange. The sequence then repeats with pop-out, zoomed-in views of India, Ukraine, Western Europe, and the Eastern Mediterranean region.",
+                        "width": 0,
+                        "height": 0,
+                        "pixels": null
+                    }
+                }
+            ],
+            "extra_data": {}
+        },
+        {
+            "id": 374646,
+            "url": "http://svs.gsfc.nasa.gov/5313/#media_group_374646",
+            "widget": "Basic text with HTML",
+            "title": "",
+            "caption": "",
+            "description": "Discover the pivotal role of NASA's Black Marble in bridging scientific discovery and actionable environmental stewardship. By capturing Earth's night lights, Black Marble reveals both the planet's beauty and the profound impact of human activities. This webpage showcases newly developed nighttime light maps comparing changes observed from 2012 to 2023, offering a decade-long perspective on urban growth, infrastructure development, and the socioeconomic dynamics of communities worldwide. This data empowers users to foster informed, sustainable practices that enhance community resilience and mitigate the adverse effects of climate change. By illuminating the intricate interplay between human activity and the environment, Black Marble underpins a human-centered approach to environmental change, promoting a future where scientific innovation leads to tangible, positive impacts on global sustainability.<br><br>This version is specifically formatted for the NASA Earth Information Center (EIC), which has a wider-than-standard video aspect ratio.   The original version of this visualization, and many other night lights visualizations, are available here:  <a href=\"https://svs.gsfc.nasa.gov/5276/\" target=\"_blank\">https://svs.gsfc.nasa.gov/5276/</a>",
+            "items": [],
+            "extra_data": {}
+        }
+    ],
+    "studio": "svs",
+    "funding_sources": [
+        "ESE"
+    ],
+    "credits": [
+        {
+            "role": "Visualizer",
+            "people": [
+                {
+                    "name": "Kel Elkins",
+                    "employer": "USRA"
+                }
+            ]
+        },
+        {
+            "role": "Scientist",
+            "people": [
+                {
+                    "name": "Zhuosen Wang",
+                    "employer": "University of Maryland"
+                },
+                {
+                    "name": "Miguel Román",
+                    "employer": "Leidos"
+                },
+                {
+                    "name": "Ranjay Shrestha",
+                    "employer": "SSAI"
+                },
+                {
+                    "name": "Srija Chakraborty",
+                    "employer": "USRA"
+                },
+                {
+                    "name": "Virginia Kalb",
+                    "employer": "NASA"
+                }
+            ]
+        }
+    ],
+    "missions": [],
+    "series": [],
+    "tapes": [],
+    "papers": [],
+    "datasets": [
+        {
+            "name": "Black Marble: Next Generation",
+            "common_name": "Black Marble",
+            "platform": "Suomi NPP",
+            "sensor": "VIIRS",
+            "type": "Other",
+            "organizations": [
+                "NASA/NOAA"
+            ],
+            "description": "Earth at night imagery",
+            "credit": "NASA Earth Observatory images by Joshua Stevens, using Suomi NPP VIIRS data from Miguel Román, NASA GSFC.",
+            "url": "https://visibleearth.nasa.gov/images/144898/earth-at-night-black-marble-2016-color-maps/144947l",
+            "date_range": null
+        }
+    ],
+    "nasa_science_categories": [
+        "Earth"
+    ],
+    "keywords": [
+        "Black Marble",
+        "Earth",
+        "Night",
+        "Night lights",
+        "VIIRS"
+    ],
+    "recommended_pages": [],
+    "related": [],
+    "sources": [],
+    "products": [],
+    "newer_versions": [],
+    "older_versions": [],
+    "alternate_versions": [
+        {
+            "id": 5475,
+            "url": "http://svs.gsfc.nasa.gov/5475/",
+            "page_type": "Visualization",
+            "title": "SOS - Change in Night Lights between 2012 and 2023",
+            "description": "This animation of the Earth at night showcases NASA's Black Marble data. The animation begins by showing annual averages of nighttime lights from 2012 to 2023. The lights then fade away to reveal how night lights changed between 2012 and 2023, with regions of more light depicted in purple and regions with less light depicted in orange. ||",
+            "release_date": "2025-05-16T13:00:00-04:00",
+            "update_date": "2025-05-16T13:44:11.005348-04:00",
+            "main_image": {
+                "id": 1155247,
+                "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005400/a005475/nightlights_2012-2024_KSC_SOS_04_plus2_0900_2k.png",
+                "filename": "nightlights_2012-2024_KSC_SOS_04_plus2_0900_2k.png",
+                "media_type": "Image",
+                "alt_text": "Flat map (equirectangular) view of NASA’s Black Marble data, showing annual averages of nighttime lights from 2012 to 2023.",
+                "width": 2048,
+                "height": 1024,
+                "pixels": 2097152
+            }
+        },
+        {
+            "id": 5477,
+            "url": "http://svs.gsfc.nasa.gov/5477/",
+            "page_type": "Visualization",
+            "title": "SOS - Day/Night cycle with Blue Marble and Black Marble Nightlights",
+            "description": "This animation shows daylight and nighttime cycles of Earth over a three-day period in 2024 as the planet spins on it’s axis.",
+            "release_date": "2025-05-16T13:00:00-04:00",
+            "update_date": "2025-05-16T14:08:34.396288-04:00",
+            "main_image": {
+                "id": 1092753,
+                "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005200/a005276/nightlights_flat_series_stills_only_lights.2023_web.jpg",
+                "filename": "nightlights_flat_series_stills_only_lights.2023_web.jpg",
+                "media_type": "Image",
+                "alt_text": "Time series view (2012-2023) of night lights on a black background.",
+                "width": 2048,
+                "height": 1152,
+                "pixels": 2359296
+            }
+        },
+        {
+            "id": 5276,
+            "url": "http://svs.gsfc.nasa.gov/5276/",
+            "page_type": "Visualization",
+            "title": "Change in Night Lights between 2012 and 2023",
+            "description": "This global, flat map view of night lights data begins with a time series depicting annual averages from 2012 to 2023.  The lights then fade away to reveal night lights change between 2012 and 2023, with regions of more light depicted in purple and regions with less light depicted in orange.  The sequence then repeats with two pop-out, zoomed-in views of India and Ukraine.",
+            "release_date": "2024-05-27T00:00:00-04:00",
+            "update_date": "2025-06-23T13:11:46.115566-04:00",
+            "main_image": {
+                "id": 1092427,
+                "url": "http://svs.gsfc.nasa.gov/vis/a000000/a005200/a005276/nightlights_2012-2023_change_flat.02599_print.jpg",
+                "filename": "nightlights_2012-2023_change_flat.02599_print.jpg",
+                "media_type": "Image",
+                "alt_text": "This global, flat map view of night lights data begins with a time series depicting annual averages from 2012 to 2023.  The lights then fade away to reveal night lights change between 2012 and 2023, with regions of more light depicted in purple and regions with less light depicted in orange.  The sequence then repeats with two pop-out, zoomed-in views of India and Ukraine. ",
+                "width": 1024,
+                "height": 576,
+                "pixels": 589824
+            }
+        }
+    ]
+}

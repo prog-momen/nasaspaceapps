@@ -1,0 +1,13 @@
+{
+  "id": "doc_hydrology",
+  "url": "https://disc.gsfc.nasa.gov/information/tools?title=Hydrology%20Time%20Series",
+  "checked_at": "2026-11-14T15:12:44.767146+00:00",
+  "tls_validation": false,
+  "status": 200,
+  "final_url": "https://disc.gsfc.nasa.gov/information/tools?title=Hydrology%20Time%20Series",
+  "bytes": 2828,
+  "content_type": "text/html; charset=UTF-8",
+  "sha256": "a10b966a94e6093b3e483538d9f23cfb21e413bd238c18a1819be9152685ced9",
+  "links": [],
+  "elapsed_seconds": 0.812
+}

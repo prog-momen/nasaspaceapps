@@ -1,0 +1,129 @@
+[
+  {
+    "endpoint": "/api/rag/health",
+    "http_status": 200,
+    "body": {
+      "status": "ok",
+      "components": {
+        "embedding_model": "intfloat/multilingual-e5-small",
+        "embedding_dim": 384,
+        "collections": {
+          "earth_knowledge": 878,
+          "gemini_platform": 241
+        },
+        "index_ready": true,
+        "gemini_model": "gemini-3.5-flash-lite",
+        "gemini_key_configured": true,
+        "relevance_threshold": 0.79,
+        "usage_today": {
+          "date": "2026-11-14",
+          "requests": 53,
+          "prompt_tokens": 51137,
+          "output_tokens": 4661,
+          "models": {
+            "gemini-3.6-flash": {
+              "requests": 15,
+              "prompt_tokens": 8478,
+              "output_tokens": 837
+            },
+            "gemini-3.1-flash-lite": {
+              "requests": 18,
+              "prompt_tokens": 19021,
+              "output_tokens": 1559
+            },
+            "gemini-3.8-flash": {
+              "requests": 1,
+              "prompt_tokens": 0,
+              "output_tokens": 0
+            },
+            "gemini-3.5-flash": {
+              "requests": 1,
+              "prompt_tokens": 0,
+              "output_tokens": 0
+            },
+            "gemini-3.5-flash-lite": {
+              "requests": 18,
+              "prompt_tokens": 23638,
+              "output_tokens": 2265
+            }
+          }
+        }
+      },
+      "problems": []
+    }
+  },
+  {
+    "endpoint": "/api/analysis/trend",
+    "variable_requested": "air_temperature",
+    "http_status": 200,
+    "seconds": 0.035,
+    "answer_source": null,
+    "fallback_reason": null,
+    "answer_type": null,
+    "tool_status": "ok",
+    "source_cache_hit": true,
+    "valid_months": 252,
+    "reason_code": null,
+    "retrieval": null,
+    "llm": null
+  },
+  {
+    "endpoint": "/api/analysis/trend/ask",
+    "variable_requested": null,
+    "http_status": 200,
+    "seconds": 0.438,
+    "answer_source": "template",
+    "fallback_reason": "budget",
+    "answer_type": null,
+    "tool_status": "ok",
+    "source_cache_hit": true,
+    "valid_months": 252,
+    "reason_code": null,
+    "retrieval": null,
+    "llm": {
+      "error_kind": "budget",
+      "attempts": []
+    }
+  },
+  {
+    "endpoint": "/api/rag/query",
+    "variable_requested": null,
+    "http_status": 200,
+    "seconds": 0.352,
+    "answer_source": "template",
+    "fallback_reason": "budget",
+    "answer_type": "tool_analysis",
+    "tool_status": "ok",
+    "source_cache_hit": true,
+    "valid_months": 252,
+    "reason_code": null,
+    "retrieval": {
+      "collection": "earth_knowledge",
+      "best_dense_score": 0.8016,
+      "threshold": 0.79,
+      "candidates": 36,
+      "filters": {},
+      "filter_fallback": false,
+      "returned": 5
+    },
+    "llm": {
+      "error_kind": "budget",
+      "attempts": []
+    }
+  },
+  {
+    "endpoint": "/api/analysis/trend",
+    "variable_requested": "land_surface_temperature",
+    "http_status": 200,
+    "seconds": 0.003,
+    "answer_source": null,
+    "fallback_reason": null,
+    "answer_type": null,
+    "tool_status": "data_source_unavailable",
+    "source_cache_hit": null,
+    "valid_months": null,
+    "reason_code": "SOURCE_REQUIRES_CREDENTIALS",
+    "retrieval": null,
+    "llm": null
+  }
+]

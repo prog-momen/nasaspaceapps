@@ -1,0 +1,32 @@
+reconstructed request params: {'parameters': 'T2M', 'community': 'AG', 'longitude': '-62.2159', 'latitude': '-3.4653', 'start': '2005', 'end': '2025', 'format': 'JSON'}
+cache file for these params: power_702c64c372f45239a168258a.json | exists: True
+cached at (UTC): 2026-11-14T19:37:36+00:00 | payload grid cell [lon,lat,elev]: [-62.216, -3.465, 42.12] | header: {'start': '20050101', 'end': '20251231', 'sources': ['MERRA2'], 'fill_value': -999.0, 'time_standard': 'LST', 'api': {'version': 'v2.10.0', 'name': 'POWER Monthly and Annual API'}}
+{
+ "requested": {
+  "start_year": 2005,
+  "end_year": 2025
+ },
+ "actual": {
+  "first": "2005-01",
+  "last": "2025-12"
+ },
+ "units": "°C",
+ "valid_months": 252,
+ "missing": 0,
+ "invalid": 0,
+ "aggregation": "annual",
+ "n_used": 21,
+ "test": "Mann-Kendall (original)",
+ "tau": 0.2381,
+ "p": 0.139,
+ "alpha": 0.05,
+ "sen": {
+  "value": 0.03801,
+  "unit": "°C/year",
+  "ci_low": -0.01375,
+  "ci_high": 0.07976,
+  "ci_level": 0.95,
+  "n_pair_slopes": 210
+ },
+ "variance_factor": 1.0
+}

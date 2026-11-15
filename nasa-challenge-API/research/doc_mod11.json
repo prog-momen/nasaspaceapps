@@ -1,0 +1,2038 @@
+{
+  "id": "doc_mod11",
+  "url": "https://lpdaac.usgs.gov/products/mod11c3v061/",
+  "checked_at": "2026-11-14T15:12:45.987532+00:00",
+  "tls_validation": false,
+  "status": 200,
+  "final_url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mod11c3-061",
+  "bytes": 341455,
+  "content_type": "text/html; charset=UTF-8",
+  "sha256": "0382fe61058e83e4ac145e4742dc843da968753424d48e8c8d0540827eac384c",
+  "links": [
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mod11c3-061#main-content",
+      "label": "Skip to main content"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/alerts-outages/earthdata-forum-down-maintenance-october-27-2026",
+      "label": "See the alert"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/alerts-outages/reminder-new-suomi-npp-observations-cease-november-2-2026",
+      "label": "Suomi NPP data announcement"
+    },
+    {
+      "url": "https://www.nasa.gov/",
+      "label": ""
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/",
+      "label": ""
+    },
+    {
+      "url": "https://www.nasa.gov/",
+      "label": ""
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/",
+      "label": ""
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/search",
+      "label": ""
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/",
+      "label": "Home"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data",
+      "label": "Data"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog",
+      "label": "Data Catalog"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/alerts-outages",
+      "label": "Data Alerts and Outages"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/projects",
+      "label": "Projects"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/projects/lance",
+      "label": "Land, Atmosphere Near real-time Capability for Earth observation (LANCE)"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/projects/hls",
+      "label": "Harmonized Landsat and Sentinel-2 (HLS)"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/projects/arset",
+      "label": "Applied Remote Sensing Training Program (ARSET)"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/platforms",
+      "label": "Platforms"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/instruments",
+      "label": "Instruments"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/space-geodesy-techniques",
+      "label": "Space Geodesy Techniques"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/tools",
+      "label": "Data Tools"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/tools/earthdata-search",
+      "label": "Earthdata Search"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/tools/worldview",
+      "label": "Worldview"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/tools/firms",
+      "label": "Fire Information for Resource Management System (FIRMS)"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/tools/vertex",
+      "label": "Vertex"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/tools/giovanni",
+      "label": "Giovanni"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/tools/appeears",
+      "label": "Application for Extracting and Exploring Analysis Ready Samples (AppEEARS)"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/tools/veda",
+      "label": "Visualization, Exploration, and Data Analysis (VEDA)"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/tools/ocean-color-level-3-4-browser",
+      "label": "Ocean Color Level 3 and 4 Browser"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/topics",
+      "label": "Topics"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/topics/atmosphere",
+      "label": "Atmosphere"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/topics/biosphere",
+      "label": "Biosphere"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/topics/climate-indicators",
+      "label": "Climate Indicators"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/topics/cryosphere",
+      "label": "Cryosphere"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/topics/human-dimensions",
+      "label": "Human Dimensions"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/topics/land-surface",
+      "label": "Land Surface"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/topics/ocean",
+      "label": "Ocean"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/topics/solid-earth",
+      "label": "Solid Earth"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/topics/sun-earth-interactions",
+      "label": "Sun-Earth Interactions"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/topics/terrestrial-hydrosphere",
+      "label": "Terrestrial Hydrosphere"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/topics/glossary",
+      "label": "View All Topics"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/learn",
+      "label": "Learn"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/learn/earth-observation-data-basics",
+      "label": "Earth Observation Data Basics"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/learn/gis",
+      "label": "GIS Resources"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/learn/data-in-action",
+      "label": "Data in Action"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/learn/data-recipes",
+      "label": "Data Recipes"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/learn/trainings",
+      "label": "Trainings"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/learn/tutorials",
+      "label": "Tutorials"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/learn/webinars",
+      "label": "Webinars"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/learn/Publications",
+      "label": "Publications"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/centers",
+      "label": "Centers"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mod11c3-061",
+      "label": "Distributed Active Archive Centers (DAACs)"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/centers/asf-daac",
+      "label": "Alaska Satellite Facility (ASF) DAAC"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/centers/asdc-daac",
+      "label": "Atmospheric Science Data Center (ASDC)"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/centers/cddis-daac",
+      "label": "Crustal Dynamics Data Information System (CDDIS)"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/centers/ghrc-daac",
+      "label": "Global Hydrometeorology Resource Center (GHRC) DAAC"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/centers/gesdisc-daac",
+      "label": "Goddard Earth Sciences Data and Information Services Center (GES DISC)"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/centers/lp-daac",
+      "label": "Land Processes (LP) DAAC"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/centers/laads-daac",
+      "label": "Level 1 and Atmosphere Archive and Distribution System (LAADS) DAAC"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/centers/nsidc-daac",
+      "label": "National Snow and Ice Data Center (NSIDC) DAAC"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/centers/ornl-daac",
+      "label": "Oak Ridge National Laboratory (ORNL) DAAC"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/centers/ob-daac",
+      "label": "Ocean Biology DAAC (OB.DAAC)"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/centers/po-daac",
+      "label": "Physical Oceanography DAAC (PO.DAAC)"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/",
+      "label": "Science Investigator-led Processing Systems (SIPS)"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/centers/modaps-sips",
+      "label": "MODIS Adaptive Processing System (MODAPS) SIPS"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/centers/odps-sips",
+      "label": "Ocean SIPS"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/centers/mls-sips",
+      "label": "Microwave Limb Sounder (MLS) SIPS"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/centers/omi-sips",
+      "label": "Ozone Monitoring Instrument (OMI) SIPS"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/centers/atmosphere-sips",
+      "label": "Atmosphere SIPS"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/centers/land-sips",
+      "label": "Land SIPS"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/centers/omps-sips",
+      "label": "Ozone Mapping and Profiler Suite SIPS"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/centers/sounder-sips",
+      "label": "Sounder SIPS"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/centers/sdrc",
+      "label": "Suborbital Data Resource Center"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/engage",
+      "label": "Engage"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/engage/open-data-services-software",
+      "label": "Open Data, Services, and Software Policies"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/engage/data-management-guidance/create-maintain-open-science-data-management-plan",
+      "label": "Open Science and Data Management Plan"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mod11c3-061",
+      "label": "For Researchers and Grantees"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/engage/data-management-guidance",
+      "label": "Data Management Guidance"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/engage/open-data-services-software/data-rights-related-issues",
+      "label": "Data Rights and Related Issues"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/engage/open-data-services-software-policies/data-use-guidance",
+      "label": "Data Use Guidance"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mod11c3-061",
+      "label": "For Developers"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/engage/open-data-services-software/earthdata-developer-portal",
+      "label": "APIs"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/about/esdis/eosdis/cmr",
+      "label": "Common Metadata Repository"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mod11c3-061",
+      "label": "For Data Providers"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/engage/submit-data",
+      "label": "Adding New Data"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/engage/submit-data/doi-process",
+      "label": "DOI Process"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/engage/submit-data/standards-templates",
+      "label": "Standards"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/about",
+      "label": "About"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/about/program-leadership",
+      "label": "ESDS Leadership"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/about/program-leadership/organization-chart",
+      "label": "Organizational Chart"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/about/multi-mission-data-processing-system-study",
+      "label": "Multi-Mission Data Processing System Study"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/about/esdis",
+      "label": "Earth Science Data and Information System (ESDIS) Project"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/about/esds-digital-strategy-user-development-team",
+      "label": "ESDS Digital Strategy and User Development Team"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/about/egist",
+      "label": "Earth Science Data Systems Geographic Information Systems Team (EGIST)"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/about/competitive-programs",
+      "label": "Competitive Programs"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/news",
+      "label": "News & Events"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/news",
+      "label": "News"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/events",
+      "label": "Events"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/news/wordview-archive",
+      "label": "Worldview Image of the Week"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/news/feature-articles",
+      "label": "Feature Articles"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/news/data-user-stories",
+      "label": "Data User Stories"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/news/blog",
+      "label": "Earthdata Blog"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/alerts-outages",
+      "label": "Data Alerts System"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/subscribe",
+      "label": "Subscribe to the Earthdata Newsletter"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data",
+      "label": "Data"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog",
+      "label": "Data Catalog"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/alerts-outages",
+      "label": "Data Alerts and Outages"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/projects",
+      "label": "Projects"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/projects/lance",
+      "label": "Land, Atmosphere Near real-time Capability for Earth observation (LANCE)"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/projects/hls",
+      "label": "Harmonized Landsat and Sentinel-2 (HLS)"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/projects/arset",
+      "label": "Applied Remote Sensing Training Program (ARSET)"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/platforms",
+      "label": "Platforms"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/instruments",
+      "label": "Instruments"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/space-geodesy-techniques",
+      "label": "Space Geodesy Techniques"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/tools",
+      "label": "Data Tools"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/tools/earthdata-search",
+      "label": "Earthdata Search"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/tools/worldview",
+      "label": "Worldview"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/tools/firms",
+      "label": "Fire Information for Resource Management System (FIRMS)"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/tools/vertex",
+      "label": "Vertex"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/tools/giovanni",
+      "label": "Giovanni"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/tools/appeears",
+      "label": "Application for Extracting and Exploring Analysis Ready Samples (AppEEARS)"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/tools/veda",
+      "label": "Visualization, Exploration, and Data Analysis (VEDA)"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/tools/ocean-color-level-3-4-browser",
+      "label": "Ocean Color Level 3 and 4 Browser"
+    },
+    {
+      "url": "https://forum.earthdata.nasa.gov/",
+      "label": "Get help from experienced data users and managers on Earthdata Forum"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/topics",
+      "label": "Data Pathfinders by Topic"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/topics/atmosphere",
+      "label": ""
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/topics/atmosphere",
+      "label": "Atmosphere"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/topics/biosphere",
+      "label": ""
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/topics/biosphere",
+      "label": "Biosphere"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/topics/climate-indicators",
+      "label": ""
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/topics/climate-indicators",
+      "label": "Climate Indicators"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/topics/cryosphere",
+      "label": ""
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/topics/cryosphere",
+      "label": "Cryosphere"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/topics/human-dimensions",
+      "label": ""
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/topics/human-dimensions",
+      "label": "Human Dimensions"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/topics/land-surface",
+      "label": ""
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/topics/land-surface",
+      "label": "Land Surface"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/topics/ocean",
+      "label": ""
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/topics/ocean",
+      "label": "Ocean"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/topics/solid-earth",
+      "label": ""
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/topics/solid-earth",
+      "label": "Solid Earth"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/topics/sun-earth-interactions",
+      "label": ""
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/topics/sun-earth-interactions",
+      "label": "Sun-Earth Interactions"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/topics/terrestrial-hydrosphere",
+      "label": ""
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/topics/terrestrial-hydrosphere",
+      "label": "Terrestrial Hydrosphere"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/topics/atmosphere/air-quality",
+      "label": "Air Quality"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/topics/human-dimensions/agriculture-production",
+      "label": "Agriculture Production"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/topics/human-dimensions/natural-hazards",
+      "label": "Natural Hazards"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/topics/ocean/water-quality",
+      "label": "Water Quality"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/topics/human-dimensions/climate-resilience",
+      "label": "Climate Resilience"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/topics/glossary",
+      "label": "View all Topics"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/learn",
+      "label": "Learn"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/learn/earth-observation-data-basics",
+      "label": "Earth Observation Data Basics"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/learn/gis",
+      "label": "GIS Resources"
+    },
+    {
+      "url": "https://forum.earthdata.nasa.gov/",
+      "label": "Data Support"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/learn/data-in-action",
+      "label": "Data in Action"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/learn/data-recipes",
+      "label": "Data Recipes"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/learn/trainings",
+      "label": "Trainings"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/learn/tutorials",
+      "label": "Tutorials"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/learn/webinars",
+      "label": "Webinars"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/learn/publications",
+      "label": "Publications"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/centers",
+      "label": "Centers"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/centers/asf-daac",
+      "label": "Alaska Satellite Facility (ASF) DAAC"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/centers/asdc-daac",
+      "label": "Atmospheric Science Data Center (ASDC)"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/centers/cddis-daac",
+      "label": "Crustal Dynamics Data Information System (CDDIS)"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/centers/ghrc-daac",
+      "label": "Global Hydrometeorology Resource Center (GHRC) DAAC"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/centers/gesdisc-daac",
+      "label": "Goddard Earth Sciences Data and Information Services Center (GES DISC)"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/centers/lp-daac",
+      "label": "Land Processes (LP) DAAC"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/centers/laads-daac",
+      "label": "Level 1 and Atmosphere Archive and Distribution System (LAADS) DAAC"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/centers/nsidc-daac",
+      "label": "National Snow and Ice Data Center (NSIDC) DAAC"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/centers/ornl-daac",
+      "label": "Oak Ridge National Laboratory (ORNL) DAAC"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/centers/ob-daac",
+      "label": "Ocean Biology DAAC (OB.DAAC)"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/centers/po-daac",
+      "label": "Physical Oceanography DAAC (PO.DAAC)"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/centers/modaps-sips",
+      "label": "MODIS Adaptive Processing System (MODAPS) SIPS"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/centers/odps-sips",
+      "label": "Ocean SIPS"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/centers/mls-sips",
+      "label": "Microwave Limb Sounder (MLS) SIPS"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/centers/omi-sips",
+      "label": "Ozone Monitoring Instrument (OMI) SIPS"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/centers/atmosphere-sips",
+      "label": "Atmosphere SIPS"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/centers/land-sips",
+      "label": "Land SIPS"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/centers/omps-sips",
+      "label": "Ozone Mapping and Profiler Suite SIPS"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/centers/sounder-sips",
+      "label": "Sounder SIPS"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/centers/sdrc",
+      "label": "Suborbital Data Resource Center"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/engage",
+      "label": "Engage"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/engage/open-data-services-software",
+      "label": "Open Data, Services, and Software Policies"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/engage/data-management-guidance/create-maintain-open-science-data-management-plan",
+      "label": "Open Science and Data Management Plan"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/engage/data-management-guidance",
+      "label": "Data Management Guidance"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/engage/open-data-services-software/data-rights-related-issues",
+      "label": "Data Rights and Related Issues"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/engage/open-data-services-software-policies/data-use-guidance",
+      "label": "Data Use Guidance"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/engage/open-data-services-software/earthdata-developer-portal",
+      "label": "APIs"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/about/esdis/eosdis/cmr",
+      "label": "Common Metadata Repository"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/engage/submit-data",
+      "label": "Adding New Data"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/engage/submit-data/doi-process",
+      "label": "DOI Process"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/engage/submit-data/standards-templates",
+      "label": "Standards"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/about",
+      "label": "About"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/about/program-leadership",
+      "label": "ESDS Leadership"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/about/program-leadership/organization-chart",
+      "label": "Organizational Chart"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/about/multi-mission-data-processing-system-study",
+      "label": "Multi-Mission Data Processing System Study"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/contact",
+      "label": "Contact Us"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/about/esdis",
+      "label": "Earth Science Data and Information System (ESDIS) Project"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/about/esds-digital-strategy-user-development-team",
+      "label": "ESDS Digital Strategy and User Development Team"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/about/egist",
+      "label": "Earth Science Data Systems Geographic Information Systems Team (EGIST)"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/about/competitive-programs",
+      "label": "Competitive Programs"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/about/data-metrics",
+      "label": "Program Performance and Metrics"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/news",
+      "label": "News"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/events",
+      "label": "Events"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/news/wordview-archive",
+      "label": "Worldview Image of the Week"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/alerts-outages",
+      "label": "Data Alerts System"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/subscribe",
+      "label": "Subscribe to the Earthdata Newsletter"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/news/feature-articles",
+      "label": "Feature Articles"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/news/data-user-stories",
+      "label": "Data User Stories"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/news/blog",
+      "label": "Earthdata Blog"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/news/worldview-image-archive/atmospheric-river-season-pacific-northwest",
+      "label": ""
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/news/worldview-image-archive/atmospheric-river-season-pacific-northwest",
+      "label": "Atmospheric River Season for the Pacific Northwest"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/events/earthaccess-hackathon-agu-2026",
+      "label": ""
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/events/earthaccess-hackathon-agu-2026",
+      "label": "earthaccess Hackathon at AGU 2026"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/",
+      "label": "Home"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data",
+      "label": "Find Data"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog",
+      "label": "Data Catalog"
+    },
+    {
+      "url": "https://doi.org/10.5067/MODIS/MOD11C3.061",
+      "label": "https://doi.org/10.5067/MODIS/MOD11C3.061"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mod11c3-061#citation-formatter-block",
+      "label": "Citation"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/node/16999/dataset/data-alert-history",
+      "label": ""
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mod11c3-061",
+      "label": ""
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mod11c3-061",
+      "label": "Facebook"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mod11c3-061",
+      "label": ""
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mod11c3-061#421023468-collapsible-field-items",
+      "label": ""
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mod11c3-061#1675082005-collapsible-field-items",
+      "label": ""
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mod11c3-061#949635583-collapsible-field-items",
+      "label": ""
+    },
+    {
+      "url": "https://lpdaac.usgs.gov/documents/715/MOD11_User_Guide_V61.pdf",
+      "label": "User Guide"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mod11c3-061#main-content",
+      "label": ""
+    },
+    {
+      "url": "https://doi.org/10.5067/MODIS/MOD11C1.061",
+      "label": "MOD11C1"
+    },
+    {
+      "url": "https://landweb.modaps.eosdis.nasa.gov/knownissue?sensor=MODIS&sat=Terra&as=61",
+      "label": "MODIS/VIIRS Land Quality Assessment website"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mod11c3-061#927523232-collapsible-field-items",
+      "label": ""
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mod11c3-061#1098996603-collapsible-field-items",
+      "label": ""
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/platforms/space-based-platforms/terra",
+      "label": "Terra"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mod11c3-061#717158587-collapsible-field-items",
+      "label": ""
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/instruments/modis",
+      "label": "MODIS"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mod11c3-061#96899300-collapsible-field-items",
+      "label": ""
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mod11c3-061#790286602-collapsible-field-items",
+      "label": ""
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mod11c3-061#1780299032-collapsible-field-items",
+      "label": ""
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mod11c3-061#1503606789-collapsible-field-items",
+      "label": ""
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mod11c3-061#990465683-collapsible-field-items",
+      "label": ""
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mod11c3-061#578501103-collapsible-field-items",
+      "label": ""
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/topics/land-surface/land-surface-temperature",
+      "label": "Land Surface Temperature"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mod11c3-061#1324704058-collapsible-field-items",
+      "label": ""
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/engage/open-data-services-software-policies/data-use-guidance",
+      "label": "EOSDIS Data Use and Citation Guidance"
+    },
+    {
+      "url": "https://forum.earthdata.nasa.gov/",
+      "label": "Get help on Earthdata Forum"
+    },
+    {
+      "url": "https://lpdaac.usgs.gov/documents/715/MOD11_User_Guide_V61.pdf",
+      "label": "The technical information in the User's Guide enables users to interpret and use the data products."
+    },
+    {
+      "url": "https://lpdaac.usgs.gov/documents/119/MOD11_ATBD.pdf",
+      "label": "The ATBD provides physical theory and mathematical procedures for the calculations used to produce the data products."
+    },
+    {
+      "url": "https://landweb.modaps.eosdis.nasa.gov",
+      "label": "The LDOPE Land Product Quality Assessment website provides known issues, maneuvers, and product quality of the land products."
+    },
+    {
+      "url": "https://modis-land.gsfc.nasa.gov/MODLAND_val.html",
+      "label": "Validation at stage 2 has been achieved for all MODIS Land Surface Temperature and Emissivity products."
+    },
+    {
+      "url": "https://modis-land.gsfc.nasa.gov/ValStatus.php?ProductID=MOD11",
+      "label": "Further details regarding MODIS land product validation for the MOD11 data products are available from the MODIS Land Team Validation site."
+    },
+    {
+      "url": "https://ladsweb.modaps.eosdis.nasa.gov/filespec/MODIS/61/MOD11C3",
+      "label": "The File Specification provides a description of the product file including Scientific Data Sets and their attributes."
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/learn",
+      "label": "View All Learning Resources"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/news",
+      "label": "View All News & Events"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/learn/tutorials/get-started-modis-land-surface-temperature-data-part-3-interpreting-quality-information",
+      "label": ""
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/learn/tutorials/get-started-modis-land-surface-temperature-data-part-3-interpreting-quality-information",
+      "label": "Get Started with MODIS Land Surface Temperature Data Part 3: Interpreting Quality Information"
+    },
+    {
+      "url": "https://forum.earthdata.nasa.gov/",
+      "label": "Get help on Earthdata Forum"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mod11c3-061?search_fulltext=&order=title&sort=asc",
+      "label": "Title"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mod11c3-061?search_fulltext=&order=field_article_author&sort=asc",
+      "label": "Authors"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mod11c3-061?search_fulltext=&order=field_publication_date&sort=asc",
+      "label": "Year Sort ascending"
+    },
+    {
+      "url": "https://doi.org/10.1007/S00704-026-06130-0",
+      "label": "Recent changes in antarctic surface air temperature based on the fusion of satellite and in-situ measurements"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-myd11c3-006",
+      "label": "MODIS/Aqua Land Surface Temperature/Emissivity Monthly L3 Global 0.05Deg CMG V006"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mod11c3-006",
+      "label": "MODIS/Terra Land Surface Temperature/Emissivity Monthly L3 Global 0.05Deg CMG V006"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mod11c3-061",
+      "label": "MODIS/Terra Land Surface Temperature/Emissivity Monthly L3 Global 0.05Deg CMG V061"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-myd11c3-061",
+      "label": "MODIS/Aqua Land Surface Temperature/Emissivity Monthly L3 Global 0.05Deg CMG V061"
+    },
+    {
+      "url": "https://doi.org/10.1038/S41467-025-67082-Z",
+      "label": "Global risk pooling mitigates financial risk from drought in hydropower-dependent countries"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/nsidc-cprd-mod10cm-61",
+      "label": "MODIS/Terra Snow Cover Monthly L3 Global 0.05Deg CMG V061"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mod13c2-006",
+      "label": "MODIS/Terra Vegetation Indices Monthly L3 Global 0.05Deg CMG V006"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mod13c2-061",
+      "label": "MODIS/Terra Vegetation Indices Monthly L3 Global 0.05Deg CMG V061"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mod11c3-006",
+      "label": "MODIS/Terra Land Surface Temperature/Emissivity Monthly L3 Global 0.05Deg CMG V006"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mod11c3-061",
+      "label": "MODIS/Terra Land Surface Temperature/Emissivity Monthly L3 Global 0.05Deg CMG V061"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/ges-disc-gpm-3imerghhl-07",
+      "label": "GPM IMERG Late Precipitation L3 Half Hourly 0.1 degree x 0.1 degree V07 (GPM_3IMERGHHL)"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/ges-disc-gpm-3imergm-07",
+      "label": "GPM IMERG Final Precipitation L3 1 month 0.1 degree x 0.1 degree V07 (GPM_3IMERGM)"
+    },
+    {
+      "url": "https://doi.org/10.1155/TBED/1152849",
+      "label": "Host Community Traits Driving Crimean-Congo Hemorrhagic Fever Virus"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mod13q1-061",
+      "label": "MODIS/Terra Vegetation Indices 16-Day L3 Global 250m SIN Grid V061"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mod13q1-006",
+      "label": "MODIS/Terra Vegetation Indices 16-Day L3 Global 250m SIN Grid V006"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mod11c3-006",
+      "label": "MODIS/Terra Land Surface Temperature/Emissivity Monthly L3 Global 0.05Deg CMG V006"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mod11c3-061",
+      "label": "MODIS/Terra Land Surface Temperature/Emissivity Monthly L3 Global 0.05Deg CMG V061"
+    },
+    {
+      "url": "https://doi.org/10.1038/S41598-026-36781-Y",
+      "label": "Evaporative cooling exceeded albedo-induced warming in greening areas of global drylands"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mcd12c1-006",
+      "label": "MODIS/Terra+Aqua Land Cover Type Yearly L3 Global 0.05Deg CMG V006"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mcd12c1-061",
+      "label": "MODIS/Terra+Aqua Land Cover Type Yearly L3 Global 0.05Deg CMG V061"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mod13c2-006",
+      "label": "MODIS/Terra Vegetation Indices Monthly L3 Global 0.05Deg CMG V006"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mod13c2-061",
+      "label": "MODIS/Terra Vegetation Indices Monthly L3 Global 0.05Deg CMG V061"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-myd11c3-006",
+      "label": "MODIS/Aqua Land Surface Temperature/Emissivity Monthly L3 Global 0.05Deg CMG V006"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mod11c3-006",
+      "label": "MODIS/Terra Land Surface Temperature/Emissivity Monthly L3 Global 0.05Deg CMG V006"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mod11c3-061",
+      "label": "MODIS/Terra Land Surface Temperature/Emissivity Monthly L3 Global 0.05Deg CMG V061"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-myd11c3-061",
+      "label": "MODIS/Aqua Land Surface Temperature/Emissivity Monthly L3 Global 0.05Deg CMG V061"
+    },
+    {
+      "url": "https://doi.org/10.1038/S41467-026-73063-7",
+      "label": "Vegetation responses to air dryness amplify future land surface warming"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/ges-disc-airs3stm-7.0",
+      "label": "Aqua/AIRS L3 Monthly Standard Physical Retrieval (AIRS-only) 1 degree x 1 degree V7.0"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/ges-disc-airs3stm-006",
+      "label": "AIRS/Aqua L3 Monthly Standard Physical Retrieval (AIRS-only) 1 degree x 1 degree V006 (AIRS3STM)"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mod11c3-061",
+      "label": "MODIS/Terra Land Surface Temperature/Emissivity Monthly L3 Global 0.05Deg CMG V061"
+    },
+    {
+      "url": "https://doi.org/10.1038/S41467-026-71480-2",
+      "label": "The safety margin of small-scale tree cover loss in global fragmented forests"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mod15a2h-061",
+      "label": "MODIS/Terra Leaf Area Index/FPAR 8-Day L4 Global 500m SIN Grid V061"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mod13q1-061",
+      "label": "MODIS/Terra Vegetation Indices 16-Day L3 Global 250m SIN Grid V061"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mcd12c1-061",
+      "label": "MODIS/Terra+Aqua Land Cover Type Yearly L3 Global 0.05Deg CMG V061"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mod11c3-061",
+      "label": "MODIS/Terra Land Surface Temperature/Emissivity Monthly L3 Global 0.05Deg CMG V061"
+    },
+    {
+      "url": "https://doi.org/10.1088/1748-9326/AE687E",
+      "label": "Aerosol and non-aerosol drivers of regional trends in top-of-atmosphere Albedo over 2002-2020"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/laads-mod04-l2-6.1",
+      "label": "MODIS/Terra Aerosol 5-Min L2 Swath 10km"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mcd43c3-061",
+      "label": "MODIS/Terra+Aqua BRDF/Albedo Albedo Daily L3 Global 0.05Deg CMG V061"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mcd43c3-006",
+      "label": "MODIS/Terra+Aqua BRDF/Albedo Albedo Daily L3 Global 0.05Deg CMG V006"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mod11c3-006",
+      "label": "MODIS/Terra Land Surface Temperature/Emissivity Monthly L3 Global 0.05Deg CMG V006"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mod11c3-061",
+      "label": "MODIS/Terra Land Surface Temperature/Emissivity Monthly L3 Global 0.05Deg CMG V061"
+    },
+    {
+      "url": "https://doi.org/10.5194/ESD-17-651-2026",
+      "label": "Improving terrestrial carbon flux simulations with machine learning and global Earth observations"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mod11c3-006",
+      "label": "MODIS/Terra Land Surface Temperature/Emissivity Monthly L3 Global 0.05Deg CMG V006"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mod11c3-061",
+      "label": "MODIS/Terra Land Surface Temperature/Emissivity Monthly L3 Global 0.05Deg CMG V061"
+    },
+    {
+      "url": "https://doi.org/10.1038/S41467-026-77464-6",
+      "label": "Phenological fluctuations induce seasonal asymmetric warming in boreal forests"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mcd18a1-062",
+      "label": "MODIS/Terra+Aqua Surface Radiation Daily/3-Hour L3 Global 1km SIN Grid V062"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mod16a2gf-006",
+      "label": "MODIS/Terra Net Evapotranspiration Gap-Filled 8-Day L4 Global 500m SIN Grid V006"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mod11c3-061",
+      "label": "MODIS/Terra Land Surface Temperature/Emissivity Monthly L3 Global 0.05Deg CMG V061"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mcd12q1-061",
+      "label": "MODIS/Terra+Aqua Land Cover Type Yearly L3 Global 500m SIN Grid V061"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mod16a2gf-061",
+      "label": "MODIS/Terra Net Evapotranspiration Gap-Filled 8-Day L4 Global 500m SIN Grid V061"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mcd18a1-006",
+      "label": "MODIS/Terra+Aqua Surface Radiation Daily/3-Hour L3 Global 5km SIN Grid V006"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mod11c3-006",
+      "label": "MODIS/Terra Land Surface Temperature/Emissivity Monthly L3 Global 0.05Deg CMG V006"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mod15a2h-061",
+      "label": "MODIS/Terra Leaf Area Index/FPAR 8-Day L4 Global 500m SIN Grid V061"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mcd43a3-006",
+      "label": "MODIS/Terra+Aqua BRDF/Albedo Albedo Daily L3 Global - 500m V006"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mcd43a3-061",
+      "label": "MODIS/Terra+Aqua BRDF/Albedo Albedo Daily L3 Global - 500m V061"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mcd18a1-061",
+      "label": "MODIS/Terra+Aqua Surface Radiation Daily/3-Hour L3 Global 1km SIN Grid V061"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mod15a2h-006",
+      "label": "MODIS/Terra Leaf Area Index/FPAR 8-Day L4 Global 500m SIN Grid V006"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mcd12q1-006",
+      "label": "MODIS/Terra+Aqua Land Cover Type Yearly L3 Global 500m SIN Grid V006"
+    },
+    {
+      "url": "https://doi.org/10.1016/J.ECOLIND.2026.115065",
+      "label": "A framework for effective long-term conservation in a changing climate"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mod09q1-006",
+      "label": "MODIS/Terra Surface Reflectance 8-Day L3 Global 250m SIN Grid V006"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mod11c3-006",
+      "label": "MODIS/Terra Land Surface Temperature/Emissivity Monthly L3 Global 0.05Deg CMG V006"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mod11c3-061",
+      "label": "MODIS/Terra Land Surface Temperature/Emissivity Monthly L3 Global 0.05Deg CMG V061"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mod09q1-061",
+      "label": "MODIS/Terra Surface Reflectance 8-Day L3 Global 250m SIN Grid V061"
+    },
+    {
+      "url": "https://doi.org/10.1016/J.SCS.2026.107535",
+      "label": "Moving beyond exposure: a globally comparable framework for heat risk assessment in cities"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mod13q1-061",
+      "label": "MODIS/Terra Vegetation Indices 16-Day L3 Global 250m SIN Grid V061"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mod11c3-061",
+      "label": "MODIS/Terra Land Surface Temperature/Emissivity Monthly L3 Global 0.05Deg CMG V061"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mod13q1-006",
+      "label": "MODIS/Terra Vegetation Indices 16-Day L3 Global 250m SIN Grid V006"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mod11c3-006",
+      "label": "MODIS/Terra Land Surface Temperature/Emissivity Monthly L3 Global 0.05Deg CMG V006"
+    },
+    {
+      "url": "https://doi.org/10.1029/2026EF008774",
+      "label": "Decadal amplification of wildfireinduced perturbations in summer surface energy partitioning across the boreal forest biome"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mod11c3-061",
+      "label": "MODIS/Terra Land Surface Temperature/Emissivity Monthly L3 Global 0.05Deg CMG V061"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mcd43a3-061",
+      "label": "MODIS/Terra+Aqua BRDF/Albedo Albedo Daily L3 Global - 500m V061"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mod11c3-006",
+      "label": "MODIS/Terra Land Surface Temperature/Emissivity Monthly L3 Global 0.05Deg CMG V006"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mcd43a3-006",
+      "label": "MODIS/Terra+Aqua BRDF/Albedo Albedo Daily L3 Global - 500m V006"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mod13a3-006",
+      "label": "MODIS/Terra Vegetation Indices Monthly L3 Global 1km SIN Grid V006"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mcd12q1-006",
+      "label": "MODIS/Terra+Aqua Land Cover Type Yearly L3 Global 500m SIN Grid V006"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mod16a2gf-061",
+      "label": "MODIS/Terra Net Evapotranspiration Gap-Filled 8-Day L4 Global 500m SIN Grid V061"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/nsidc-cprd-mod10a1-61",
+      "label": "MODIS/Terra Snow Cover Daily L3 Global 500m SIN Grid V061"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mod13a3-061",
+      "label": "MODIS/Terra Vegetation Indices Monthly L3 Global 1km SIN Grid V061"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mcd12q1-061",
+      "label": "MODIS/Terra+Aqua Land Cover Type Yearly L3 Global 500m SIN Grid V061"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mod16a2gf-006",
+      "label": "MODIS/Terra Net Evapotranspiration Gap-Filled 8-Day L4 Global 500m SIN Grid V006"
+    },
+    {
+      "url": "https://doi.org/10.1007/978-3-032-16577-0_41",
+      "label": "From Rasters to Social Ecological Gradients over a Research Network"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mod11c3-061",
+      "label": "MODIS/Terra Land Surface Temperature/Emissivity Monthly L3 Global 0.05Deg CMG V061"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mod13c2-061",
+      "label": "MODIS/Terra Vegetation Indices Monthly L3 Global 0.05Deg CMG V061"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/sedac-ciesin-sedac-gpwv4-popdens-r11-4.11",
+      "label": "Gridded Population of the World, Version 4 (GPWv4): Population Density, Revision 11"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mod11c3-006",
+      "label": "MODIS/Terra Land Surface Temperature/Emissivity Monthly L3 Global 0.05Deg CMG V006"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mod13c2-006",
+      "label": "MODIS/Terra Vegetation Indices Monthly L3 Global 0.05Deg CMG V006"
+    },
+    {
+      "url": "https://doi.org/10.1038/S43247-026-03884-3",
+      "label": "Human activity increases Arctic fire occurrence within and near lit areas"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mod11c3-061",
+      "label": "MODIS/Terra Land Surface Temperature/Emissivity Monthly L3 Global 0.05Deg CMG V061"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/ornl-cloud-co2fluxes-arctic-boreal-domain-2377-1",
+      "label": "Machine learning-based Arctic-boreal terrestrial ecosystem CO2 fluxes, 2001-2020"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mod11c3-006",
+      "label": "MODIS/Terra Land Surface Temperature/Emissivity Monthly L3 Global 0.05Deg CMG V006"
+    },
+    {
+      "url": "https://doi.org/10.5194/EO-1-59-2026",
+      "label": "Assessing Earth's skin temperature trends: consistent signals from IASI, MODIS, ESA CCI and ERA5"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mod11c3-061",
+      "label": "MODIS/Terra Land Surface Temperature/Emissivity Monthly L3 Global 0.05Deg CMG V061"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mod11c3-006",
+      "label": "MODIS/Terra Land Surface Temperature/Emissivity Monthly L3 Global 0.05Deg CMG V006"
+    },
+    {
+      "url": "https://doi.org/10.3390/LAND14071443",
+      "label": "Analyses of MODIS land cover/use and wildfires in Italian regions since 2001"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/ges-disc-gpm-3imergm-07",
+      "label": "GPM IMERG Final Precipitation L3 1 month 0.1 degree x 0.1 degree V07 (GPM_3IMERGM)"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mcd12q1-061",
+      "label": "MODIS/Terra+Aqua Land Cover Type Yearly L3 Global 500m SIN Grid V061"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mcd12q1-006",
+      "label": "MODIS/Terra+Aqua Land Cover Type Yearly L3 Global 500m SIN Grid V006"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mod13q1-061",
+      "label": "MODIS/Terra Vegetation Indices 16-Day L3 Global 250m SIN Grid V061"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mod13q1-006",
+      "label": "MODIS/Terra Vegetation Indices 16-Day L3 Global 250m SIN Grid V006"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mod11c3-006",
+      "label": "MODIS/Terra Land Surface Temperature/Emissivity Monthly L3 Global 0.05Deg CMG V006"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mod11c3-061",
+      "label": "MODIS/Terra Land Surface Temperature/Emissivity Monthly L3 Global 0.05Deg CMG V061"
+    },
+    {
+      "url": "https://doi.org/10.1038/S43247-025-03048-9",
+      "label": "Biodiversity regulates the asymmetric influence of forest cover gain and loss on land surface temperature"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mcd12c1-006",
+      "label": "MODIS/Terra+Aqua Land Cover Type Yearly L3 Global 0.05Deg CMG V006"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mcd12c1-061",
+      "label": "MODIS/Terra+Aqua Land Cover Type Yearly L3 Global 0.05Deg CMG V061"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mod11c3-006",
+      "label": "MODIS/Terra Land Surface Temperature/Emissivity Monthly L3 Global 0.05Deg CMG V006"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mod11c3-061",
+      "label": "MODIS/Terra Land Surface Temperature/Emissivity Monthly L3 Global 0.05Deg CMG V061"
+    },
+    {
+      "url": "https://doi.org/10.1038/S41559-025-02776-7",
+      "label": "Pervasive but biome-dependent relationship between fragmentation and resilience in forests"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mcd43a3-006",
+      "label": "MODIS/Terra+Aqua BRDF/Albedo Albedo Daily L3 Global - 500m V006"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-gfcc30tc-003",
+      "label": "Global Forest Cover Change Tree Cover Multi-Year Global 30m V003"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mcd43a3-061",
+      "label": "MODIS/Terra+Aqua BRDF/Albedo Albedo Daily L3 Global - 500m V061"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mod11c3-061",
+      "label": "MODIS/Terra Land Surface Temperature/Emissivity Monthly L3 Global 0.05Deg CMG V061"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mcd15a3h-061",
+      "label": "MODIS/Terra+Aqua Leaf Area Index/FPAR 4-Day L4 Global 500m SIN Grid V061"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mcd12c1-061",
+      "label": "MODIS/Terra+Aqua Land Cover Type Yearly L3 Global 0.05Deg CMG V061"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mod11c3-006",
+      "label": "MODIS/Terra Land Surface Temperature/Emissivity Monthly L3 Global 0.05Deg CMG V006"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mcd12c1-006",
+      "label": "MODIS/Terra+Aqua Land Cover Type Yearly L3 Global 0.05Deg CMG V006"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mod13c2-006",
+      "label": "MODIS/Terra Vegetation Indices Monthly L3 Global 0.05Deg CMG V006"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mod13c2-061",
+      "label": "MODIS/Terra Vegetation Indices Monthly L3 Global 0.05Deg CMG V061"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mcd15a3h-006",
+      "label": "MODIS/Terra+Aqua Leaf Area Index/FPAR 4-Day L4 Global 500m SIN Grid V006"
+    },
+    {
+      "url": "https://doi.org/10.1038/S41598-025-15731-0",
+      "label": "Local hourly trends in near-surface and land surface temperatures"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mod11c3-006",
+      "label": "MODIS/Terra Land Surface Temperature/Emissivity Monthly L3 Global 0.05Deg CMG V006"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mod11c3-061",
+      "label": "MODIS/Terra Land Surface Temperature/Emissivity Monthly L3 Global 0.05Deg CMG V061"
+    },
+    {
+      "url": "https://doi.org/10.1038/S43247-025-02350-W",
+      "label": "Optimal spatiotemporal thinning schemes combined with wood vaulting could maximize the forest biomass carbon sink in China"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mcd64a1-061",
+      "label": "MODIS/Terra+Aqua Direct Broadcast Burned Area Monthly L3 Global 500m SIN Grid V061"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mcd64a1-006",
+      "label": "MODIS/Terra+Aqua Direct Broadcast Burned Area Monthly L3 Global 500m SIN Grid V006"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mod11c3-006",
+      "label": "MODIS/Terra Land Surface Temperature/Emissivity Monthly L3 Global 0.05Deg CMG V006"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mod11c3-061",
+      "label": "MODIS/Terra Land Surface Temperature/Emissivity Monthly L3 Global 0.05Deg CMG V061"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/ges-disc-gpm-3imerghhl-07",
+      "label": "GPM IMERG Late Precipitation L3 Half Hourly 0.1 degree x 0.1 degree V07 (GPM_3IMERGHHL)"
+    },
+    {
+      "url": "https://doi.org/10.1007/S10651-025-00661-X",
+      "label": "Mapping the spatio-temporal distribution of burned areas in the Amazon"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mcd64a1-006",
+      "label": "MODIS/Terra+Aqua Direct Broadcast Burned Area Monthly L3 Global 500m SIN Grid V006"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mcd12c1-006",
+      "label": "MODIS/Terra+Aqua Land Cover Type Yearly L3 Global 0.05Deg CMG V006"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mcd12c1-061",
+      "label": "MODIS/Terra+Aqua Land Cover Type Yearly L3 Global 0.05Deg CMG V061"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/ges-disc-gpm-3imerghh-07",
+      "label": "GPM IMERG Final Precipitation L3 Half Hourly 0.1 degree x 0.1 degree V07 (GPM_3IMERGHH)"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/ges-disc-fldas-noah01-c-gl-m-001",
+      "label": "FLDAS Noah Land Surface Model L4 Global Monthly 0.1 x 0.1 degree (MERRA-2 and CHIRPS) V001 (FLDAS_NOAH01_C_GL_M)"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mcd64a1-061",
+      "label": "MODIS/Terra+Aqua Direct Broadcast Burned Area Monthly L3 Global 500m SIN Grid V061"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/ges-disc-gpm-3imergm-07",
+      "label": "GPM IMERG Final Precipitation L3 1 month 0.1 degree x 0.1 degree V07 (GPM_3IMERGM)"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mod11c3-006",
+      "label": "MODIS/Terra Land Surface Temperature/Emissivity Monthly L3 Global 0.05Deg CMG V006"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/ges-disc-gpm-3imerghhl-07",
+      "label": "GPM IMERG Late Precipitation L3 Half Hourly 0.1 degree x 0.1 degree V07 (GPM_3IMERGHHL)"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mod11c3-061",
+      "label": "MODIS/Terra Land Surface Temperature/Emissivity Monthly L3 Global 0.05Deg CMG V061"
+    },
+    {
+      "url": "https://doi.org/10.1111/GCB.70675",
+      "label": "FreezeThaw Dynamics Reshape Climatic Control of Spring Phenology Across Northern Ecosystems"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mcd12q1-061",
+      "label": "MODIS/Terra+Aqua Land Cover Type Yearly L3 Global 500m SIN Grid V061"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mcd12q1-006",
+      "label": "MODIS/Terra+Aqua Land Cover Type Yearly L3 Global 500m SIN Grid V006"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mod11c3-006",
+      "label": "MODIS/Terra Land Surface Temperature/Emissivity Monthly L3 Global 0.05Deg CMG V006"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mod11c3-061",
+      "label": "MODIS/Terra Land Surface Temperature/Emissivity Monthly L3 Global 0.05Deg CMG V061"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/nsidc-cprd-nsidc-0477-4",
+      "label": "MEaSUREs Global Record of Daily Landscape Freeze/Thaw Status V004"
+    },
+    {
+      "url": "https://doi.org/10.1029/2025EF006385",
+      "label": "Latitudinal and Seasonal Asymmetry in Land Surface Temperature Responses"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mod16a3gf-061",
+      "label": "MODIS/Terra Net Evapotranspiration Gap-Filled Yearly L4 Global 500m SIN Grid V061"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/ges-disc-gldas-noah025-m-2.1",
+      "label": "GLDAS Noah Land Surface Model L4 monthly 0.25 x 0.25 degree V2.1 (GLDAS_NOAH025_M)"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mcd12c1-061",
+      "label": "MODIS/Terra+Aqua Land Cover Type Yearly L3 Global 0.05Deg CMG V061"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mcd43c3-006",
+      "label": "MODIS/Terra+Aqua BRDF/Albedo Albedo Daily L3 Global 0.05Deg CMG V006"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mod16a2gf-006",
+      "label": "MODIS/Terra Net Evapotranspiration Gap-Filled 8-Day L4 Global 500m SIN Grid V006"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mod11c3-006",
+      "label": "MODIS/Terra Land Surface Temperature/Emissivity Monthly L3 Global 0.05Deg CMG V006"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mod11c3-061",
+      "label": "MODIS/Terra Land Surface Temperature/Emissivity Monthly L3 Global 0.05Deg CMG V061"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mod16a2gf-061",
+      "label": "MODIS/Terra Net Evapotranspiration Gap-Filled 8-Day L4 Global 500m SIN Grid V061"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mod16a3gf-006",
+      "label": "MODIS/Terra Net Evapotranspiration Gap-Filled Yearly L4 Global 500m SIN Grid V006"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mcd12c1-006",
+      "label": "MODIS/Terra+Aqua Land Cover Type Yearly L3 Global 0.05Deg CMG V006"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mcd43c3-061",
+      "label": "MODIS/Terra+Aqua BRDF/Albedo Albedo Daily L3 Global 0.05Deg CMG V061"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mod13c2-061",
+      "label": "MODIS/Terra Vegetation Indices Monthly L3 Global 0.05Deg CMG V061"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mod13c2-006",
+      "label": "MODIS/Terra Vegetation Indices Monthly L3 Global 0.05Deg CMG V006"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/ges-disc-gldas-noah025-m-2.0",
+      "label": "GLDAS Noah Land Surface Model L4 monthly 0.25 x 0.25 degree V2.0 (GLDAS_NOAH025_M)"
+    },
+    {
+      "url": "https://doi.org/10.1016/J.JHYDROL.2025.133825",
+      "label": "Improving satellite remote sensing estimates of the global terrestrial"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mod11c3-006",
+      "label": "MODIS/Terra Land Surface Temperature/Emissivity Monthly L3 Global 0.05Deg CMG V006"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mod11c3-061",
+      "label": "MODIS/Terra Land Surface Temperature/Emissivity Monthly L3 Global 0.05Deg CMG V061"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mod13c2-006",
+      "label": "MODIS/Terra Vegetation Indices Monthly L3 Global 0.05Deg CMG V006"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mod13c2-061",
+      "label": "MODIS/Terra Vegetation Indices Monthly L3 Global 0.05Deg CMG V061"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/nsidc-cprd-mod10cm-61",
+      "label": "MODIS/Terra Snow Cover Monthly L3 Global 0.05Deg CMG V061"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/pocloud-tellus-grac-l3-csr-rl06-lnd-v04-rl06v04",
+      "label": "CSR TELLUS GRACE Level-3 Monthly Land Water-Equivalent-Thickness Surface Mass Anomaly Release 6.0 version 04"
+    },
+    {
+      "url": "https://doi.org/10.1029/2025GL118453",
+      "label": "Impacts of Vegetation Greening on Summer Mean and Extreme Land Surface"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mcd12c1-006",
+      "label": "MODIS/Terra+Aqua Land Cover Type Yearly L3 Global 0.05Deg CMG V006"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mcd12c1-061",
+      "label": "MODIS/Terra+Aqua Land Cover Type Yearly L3 Global 0.05Deg CMG V061"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mod11c3-006",
+      "label": "MODIS/Terra Land Surface Temperature/Emissivity Monthly L3 Global 0.05Deg CMG V006"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mod11c3-061",
+      "label": "MODIS/Terra Land Surface Temperature/Emissivity Monthly L3 Global 0.05Deg CMG V061"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-myd11c3-061",
+      "label": "MODIS/Aqua Land Surface Temperature/Emissivity Monthly L3 Global 0.05Deg CMG V061"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-myd11c3-006",
+      "label": "MODIS/Aqua Land Surface Temperature/Emissivity Monthly L3 Global 0.05Deg CMG V006"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mod11c3-061?page=1%2C0",
+      "label": "Load More"
+    },
+    {
+      "url": "https://forum.earthdata.nasa.gov/viewforum.php?f=7",
+      "label": "Earthdata Forum."
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mod11c3-061?title=&order=value&sort=desc",
+      "label": "Name Sort descending"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mod11c3-061?title=&order=value_1&sort=asc",
+      "label": "Description"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mod11c3-061?title=&order=value_2&sort=asc",
+      "label": "Units"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mod11c3-061?title=&order=value_3&sort=asc",
+      "label": "Data Type"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mod11c3-061?title=&order=value_5&sort=asc",
+      "label": "Scale Factor"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/",
+      "label": ""
+    },
+    {
+      "url": "https://www.facebook.com/nasaearth",
+      "label": ""
+    },
+    {
+      "url": "https://www.instagram.com/nasa/",
+      "label": ""
+    },
+    {
+      "url": "https://x.com/nasaearth",
+      "label": ""
+    },
+    {
+      "url": "https://www.youtube.com/@NASAEarthdata",
+      "label": ""
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data",
+      "label": "Find Data"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog",
+      "label": "Data Catalog"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/tools",
+      "label": "Data Tools"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/platforms",
+      "label": "Platforms"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/instruments",
+      "label": "Instruments"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/space-geodesy-techniques",
+      "label": "Space Geodesy Techniques"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/projects",
+      "label": "Projects"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/alerts-outages",
+      "label": "Data Alerts and Outages"
+    },
+    {
+      "url": "http://urs.earthdata.nasa.gov/",
+      "label": "Earthdata Login"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/topics",
+      "label": "Data Pathfinders by Topic"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/topics/atmosphere",
+      "label": "Atmosphere"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/topics/biosphere",
+      "label": "Biosphere"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/topics/climate-indicators",
+      "label": "Climate Indicators"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/topics/cryosphere",
+      "label": "Cryosphere"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/topics/human-dimensions",
+      "label": "Human Dimensions"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/topics/land-surface",
+      "label": "Land Surface"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/topics/ocean",
+      "label": "Ocean"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/topics/solid-earth",
+      "label": "Solid Earth"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/topics/sun-earth-interactions",
+      "label": "Sun-Earth Interactions"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/topics/terrestrial-hydrosphere",
+      "label": "Terrestrial Hydrosphere"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/learn",
+      "label": "Learn"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/learn/earth-observation-data-basics",
+      "label": "Earth Observation Data Basics"
+    },
+    {
+      "url": "https://forum.earthdata.nasa.gov",
+      "label": "Earthdata Forum"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/learn/webinars",
+      "label": "Webinars"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/learn/trainings",
+      "label": "Trainings"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/learn/tutorials",
+      "label": "Tutorials"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/learn/data-in-action",
+      "label": "Data in Action"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/learn/data-recipes",
+      "label": "Data Recipes"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/learn/gis",
+      "label": "GIS Resources"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/learn/gis/storymaps",
+      "label": "StoryMaps"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/learn/publications",
+      "label": "Publications"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/centers",
+      "label": "Centers"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/centers/asf-daac",
+      "label": "ASF DAAC"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/centers/asdc-daac",
+      "label": "ASDC"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/centers/cddis-daac",
+      "label": "CDDIS"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/centers/ghrc-daac",
+      "label": "GHRC DAAC"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/centers/gesdisc-daac",
+      "label": "GES DISC"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/centers/lp-daac",
+      "label": "LP DAAC"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/centers/laads-daac",
+      "label": "LAADS DAAC"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/centers/nsidc-daac",
+      "label": "NSIDC DAAC"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/centers/ornl-daac",
+      "label": "ORNL DAAC"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/centers/ob-daac",
+      "label": "OB.DAAC"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/centers/po-daac",
+      "label": "PO.DAAC"
+    },
+    {
+      "url": "https://sealevel.nasa.gov",
+      "label": "Sea Level Change Portal"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/centers/sdrc",
+      "label": "Suborbital Data Resource Center"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/engage",
+      "label": "Engage"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/engage/data-management-guidance",
+      "label": "Data Management Guidance for ESD-funded Researchers"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/engage/open-data-services-software",
+      "label": "Open Data, Services, and Software Policies"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/engage/partnerships",
+      "label": "Public and Private Partnerships"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/engage/memberships-affiliations",
+      "label": "Memberships and Affiliations"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/news",
+      "label": "News"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/events",
+      "label": "Events"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/subscribe",
+      "label": "Newsletter"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/contact",
+      "label": "Contact"
+    },
+    {
+      "url": "https://www.nasa.gov/nasa-web-privacy-policy-and-important-notices/",
+      "label": "Web Privacy Policy"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/engage/open-data-services-software-policies/data-information-guidance",
+      "label": "Data and Information Guidance"
+    },
+    {
+      "url": "https://www.nasa.gov/audience/formedia/features/communication_policy.html",
+      "label": "Communications Policy"
+    },
+    {
+      "url": "https://www.nasa.gov/foia/",
+      "label": "FOIA"
+    },
+    {
+      "url": "https://www.nasa.gov/accessibility/",
+      "label": "Accessibility"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/sitemap.xml",
+      "label": "Sitemap"
+    },
+    {
+      "url": "https://www.usa.gov/",
+      "label": "USA.gov"
+    }
+  ],
+  "elapsed_seconds": 2.188
+}

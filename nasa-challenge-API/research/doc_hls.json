@@ -1,0 +1,110 @@
+{
+  "id": "doc_hls",
+  "url": "https://hls.gsfc.nasa.gov/products/",
+  "checked_at": "2026-11-14T15:13:41.329571+00:00",
+  "tls_validation": false,
+  "status": 200,
+  "final_url": "https://hls.gsfc.nasa.gov/products-description/",
+  "bytes": 45260,
+  "content_type": "text/html; charset=UTF-8",
+  "sha256": "0ad39650aa809ed5807576eba19edd382210234e5a90a90133bd7794b05e999d",
+  "links": [
+    {
+      "url": "https://hls.gsfc.nasa.gov/",
+      "label": "Home"
+    },
+    {
+      "url": "https://hls.gsfc.nasa.gov/about-hls/",
+      "label": "About HLS"
+    },
+    {
+      "url": "https://hls.gsfc.nasa.gov/algorithms/",
+      "label": "Algorithms"
+    },
+    {
+      "url": "https://hls.gsfc.nasa.gov/data-products/",
+      "label": "Data Products"
+    },
+    {
+      "url": "https://hls.gsfc.nasa.gov/data-access-and-tools/",
+      "label": "Data Access and Tools"
+    },
+    {
+      "url": "https://hls.gsfc.nasa.gov/publications/",
+      "label": "Publications"
+    },
+    {
+      "url": "https://hls.gsfc.nasa.gov/products-description/#content",
+      "label": "Skip to content"
+    },
+    {
+      "url": "https://hls.gsfc.nasa.gov/",
+      "label": ""
+    },
+    {
+      "url": "https://hls.gsfc.nasa.gov/",
+      "label": "Home"
+    },
+    {
+      "url": "https://hls.gsfc.nasa.gov/about-hls/",
+      "label": "About HLS"
+    },
+    {
+      "url": "https://hls.gsfc.nasa.gov/algorithms/",
+      "label": "Algorithms"
+    },
+    {
+      "url": "https://hls.gsfc.nasa.gov/data-products/",
+      "label": "Data Products"
+    },
+    {
+      "url": "https://hls.gsfc.nasa.gov/data-access-and-tools/",
+      "label": "Data Access and Tools"
+    },
+    {
+      "url": "https://hls.gsfc.nasa.gov/publications/",
+      "label": "Publications"
+    },
+    {
+      "url": "https://hls.gsfc.nasa.gov/products-description/s30/",
+      "label": "S30"
+    },
+    {
+      "url": "https://hls.gsfc.nasa.gov/products-description/l30/",
+      "label": "L30"
+    },
+    {
+      "url": "https://hls.gsfc.nasa.gov/product-description/tiling-system/",
+      "label": "tiling system"
+    },
+    {
+      "url": "mailto:christopher.s.neigh@nasa.gov",
+      "label": "Chris Neigh"
+    },
+    {
+      "url": "mailto:ross.k.walter@nasa.gov",
+      "label": "Ross Walter"
+    },
+    {
+      "url": "mailto:ross.k.walter@nasa.gov",
+      "label": "Ross Walter"
+    },
+    {
+      "url": "http://www.nasa.gov/about/highlights/HP_Privacy.html",
+      "label": "Privacy Policy & Important Notices"
+    },
+    {
+      "url": "https://hls.gsfc.nasa.gov/",
+      "label": "Contact Us"
+    },
+    {
+      "url": "https://www.wpzoom.com/themes/inspiro/?utm_source=inspiro-lite&utm_medium=theme&utm_campaign=inspiro-lite-footer",
+      "label": "Inspiro Theme"
+    },
+    {
+      "url": "https://www.wpzoom.com/",
+      "label": "WPZOOM"
+    }
+  ],
+  "elapsed_seconds": 4.422
+}

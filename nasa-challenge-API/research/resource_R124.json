@@ -1,0 +1,274 @@
+{
+  "id": "resource_R124",
+  "url": "https://svs.gsfc.nasa.gov/5669/",
+  "checked_at": "2026-11-14T15:15:29.463513+00:00",
+  "tls_validation": false,
+  "status": 200,
+  "final_url": "https://svs.gsfc.nasa.gov/5669/",
+  "bytes": 63011,
+  "content_type": "text/html; charset=utf-8",
+  "sha256": "04f862e31137cf317ae3634b6873285ad73679a2dab1a7864d464332a0f7105c",
+  "links": [
+    {
+      "url": "https://www.nasa.gov/",
+      "label": ""
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/",
+      "label": "Scientific Visualization Studio"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/gallery/the-galleries/",
+      "label": "Galleries"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/help/",
+      "label": "Help"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/5661",
+      "label": "5661: NISAR Reveals Major Flooding In Mozambique"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/5670",
+      "label": "5670: High-Resolution True Color Earth Imagery Sim..."
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/15113",
+      "label": ""
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/api/5669",
+      "label": ""
+    },
+    {
+      "url": "https://twitter.com/intent/tweet",
+      "label": ""
+    },
+    {
+      "url": "https://www.facebook.com/share.php?u=http%3A//svs.gsfc.nasa.gov/5669/%3F",
+      "label": ""
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/search?people=Joseph%20V.%20Ardizzone",
+      "label": "Joseph V. Ardizzone"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/search?people=Helen-Nicole%20Kostis",
+      "label": "Helen-Nicole Kostis"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/search?people=Lesley%20Ott",
+      "label": "Lesley Ott"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/5669/#section_credits",
+      "label": "View full credits"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a005600/a005669/Aerosols_2025-08-19T20_00_00_1920x1080.png",
+      "label": "Aerosols_2025-08-19T20_00_00_1920x1080.png (1920x1080) [2.6 MB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a005600/a005669/Aerosols_2025-08-19T20_00_00_3840x2160.png",
+      "label": "Aerosols_2025-08-19T20_00_00_3840x2160.png (3840x2160) [8.8 MB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a005600/a005669/Aerosols_2025-08-19T20_00_00_5760x3240.png",
+      "label": "Aerosols_2025-08-19T20_00_00_5760x3240.png (5760x3240) [16.9 MB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a005600/a005669/Aerosols_2025-08-19T20_00_00_7680x4320.png",
+      "label": "Aerosols_2025-08-19T20_00_00_7680x4320.png (7680x4320) [23.5 MB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a005600/a005669/Aerosols_2025-08-19T20_00_00_1500x1179_72dpi.png",
+      "label": "Aerosols_2025-08-19T20_00_00_1500x1179_72dpi.png (1500x1179) [2.2 MB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a005600/a005669/Aerosols_2025-08-19T20_00_00_4200x3300_300dpi.png",
+      "label": "Aerosols_2025-08-19T20_00_00_4200x3300_300dpi.png (4200x3300) [12.9 MB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a005600/a005669/Aerosols_cbar.png",
+      "label": "Aerosols_cbar.png (1500x300) [37.8 KB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/search?nasa_science_categories=Earth",
+      "label": "Earth"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/search?keywords=Aerosol Optical Depth/Thickness",
+      "label": "Aerosol Optical Depth/Thickness"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/search?keywords=GEOS",
+      "label": "GEOS"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/search?keywords=Models",
+      "label": "Models"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/search/?people=Joseph%20V.%20Ardizzone",
+      "label": "Joseph V. Ardizzone"
+    },
+    {
+      "url": "https://orcid.org/0009-0004-8486-2472",
+      "label": ""
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/search/?people=Helen-Nicole%20Kostis",
+      "label": "Helen-Nicole Kostis"
+    },
+    {
+      "url": "https://orcid.org/0009-0002-7913-1128",
+      "label": ""
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/search/?people=Lesley%20Ott",
+      "label": "Lesley Ott"
+    },
+    {
+      "url": "https://orcid.org/0000-0002-0035-9625",
+      "label": ""
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/search/?datasets=1258",
+      "label": "See all pages that use this dataset"
+    },
+    {
+      "url": "https://zenodo.org/records/21893141",
+      "label": "10.5281/zenodo.21893141"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/14899/",
+      "label": ""
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/14899/",
+      "label": "Inside the Visualization: Aerosols"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/5572/",
+      "label": ""
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/5572/",
+      "label": "GEOS Aerosols"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/5552/",
+      "label": ""
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/5552/",
+      "label": "Science On A Sphere: Aerosols in the Air"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/5533/",
+      "label": ""
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/5533/",
+      "label": "Air Quality Model Runs"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/5518/",
+      "label": ""
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/5518/",
+      "label": "Science On A Sphere: Air Quality Model Runs"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/5147/",
+      "label": ""
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/5147/",
+      "label": "GEOS-FP Near-Surface Temperature"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/5148/",
+      "label": ""
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/5148/",
+      "label": "GEOS-FP Near-Surface Wind Speed"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/5149/",
+      "label": ""
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/5149/",
+      "label": "GEOS-FP Precipitation and Clouds"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/5150/",
+      "label": ""
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/5150/",
+      "label": "GEOS-FP Near-Surface Humidity"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/5151/",
+      "label": ""
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/5151/",
+      "label": "Particulate Matter (PM) 2.5"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/5152/",
+      "label": ""
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/5152/",
+      "label": "Near surface Ozone (O3)"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/5153/",
+      "label": ""
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/5153/",
+      "label": "Carbon Monoxide (CO)"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/5154/",
+      "label": ""
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/5154/",
+      "label": "Nitrogen Oxides (NOx)"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/5552/",
+      "label": ""
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/5552/",
+      "label": "Science On A Sphere: Aerosols in the Air"
+    },
+    {
+      "url": "https://www.nasa.gov/",
+      "label": ""
+    },
+    {
+      "url": "https://www.usa.gov/",
+      "label": ""
+    },
+    {
+      "url": "https://www.nasa.gov/about/highlights/HP_Privacy.html",
+      "label": "Privacy Policy and Important Notices"
+    },
+    {
+      "url": "https://www.nasa.gov/multimedia/guidelines/index.html",
+      "label": "Reproduction Guidelines"
+    }
+  ],
+  "elapsed_seconds": 0.953
+}

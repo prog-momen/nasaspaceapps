@@ -1,0 +1,30 @@
+{
+  "id": "resource_R098",
+  "url": "https://mars.nasa.gov/mars2020/multimedia/raw-images/",
+  "checked_at": "2026-11-14T15:15:22.785701+00:00",
+  "tls_validation": false,
+  "status": 200,
+  "final_url": "https://mars.nasa.gov/mars2020/multimedia/raw-images/",
+  "bytes": 11916,
+  "content_type": "text/html;charset=UTF-8",
+  "sha256": "0de4a06637f13a1d78748120c56f853699e33f37171c4efa329e55cbde6e0749",
+  "links": [
+    {
+      "url": "https://mars.nasa.gov/mars2020/multimedia/raw-images/image-of-the-week/",
+      "label": "Image of the Week"
+    },
+    {
+      "url": "https://mars.nasa.gov/mars2020/multimedia/raw-images/?rawid=SIF_1934_0838664054_968EBY_N0894246SRLC08062_0000LMJ",
+      "label": "Full image and caption"
+    },
+    {
+      "url": "https://mars.nasa.gov/mars2020/multimedia/raw-images/image-of-the-week/",
+      "label": "Image of the Week gallery"
+    },
+    {
+      "url": "https://mars.nasa.gov/mars2020/multimedia/raw-images/#raw-images",
+      "label": "View More Images"
+    }
+  ],
+  "elapsed_seconds": 0.391
+}

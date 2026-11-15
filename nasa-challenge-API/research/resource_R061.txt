@@ -1,0 +1,143 @@
+Ag Data Commons User Guide | National Agricultural Library
+Skip to main content
+An official website of the United States government
+Here's how you know
+Here's how you know
+dot gov icon
+Official websites use .gov
+A
+.gov
+website belongs to an official government organization in the United States.
+https icon
+Secure .gov websites use HTTPS
+A
+lock
+(
+) or
+https://
+means you’ve safely connected to the .gov website. Share sensitive information only on official, secure websites.
+USDA Logo
+National Agricultural Library
+U.S. Department of Agriculture
+Menu
+Close
+Ask A Question
+Contact Us
+DigiTop
+Site Search
+Search
+Home
+Topics
+Animal Health and Welfare
+Economics, Business, and Trade
+Farms and Agricultural Production Systems
+Human Nutrition and Food Safety
+Natural Resources, Conservation, and Environment
+Plant Production and Gardening
+Rural Development and Communities
+All Topics
+Research Tools
+NAL SEARCH
+PubAg
+Ag Data Commons
+AGRICOLA
+NALT Concept Space
+Food Data Central
+Food Safety Research Projects Database
+Manuscript Collections Search
+All Research Tools
+Collections
+Digital Collections
+Exhibits
+Special Collections
+Stories From the Collection
+Government Documents
+All Collections
+Data
+Data Management Planning Services
+Create a DMP
+DMP Feedback and Review
+Find a Data Repository
+Data Management Glossary
+Data Management Videos
+Services
+Public Access and Open Science at USDA
+Data Management Planning
+Ag Data Commons User Guide
+DigiTop
+Borrow Materials
+Reference and Research
+All Services
+About Us
+About the Library
+Events
+Program Areas
+Contact Us
+Home
+Services
+Ag Data Commons User Guide
+Ag Data Commons User Guide
+What is Ag Data Commons
+The
+Ag Data Commons
+is a research data catalog and repository for public access to data produced during research funded or co-funded by the United States Department of Agriculture.
+In accordance with the USDA Public Access DR, all USDA-funded researchers must ensure that a catalog record indicating the point of public access to their data is created in the Ag Data Commons. Supplementary repository service is optional and is open to data without a community- or subject-specific home.
+Through the Ag Data Commons, the USDA National Agricultural Library (NAL) provides services to make USDA-funded research data systems and data products Findable, Accessible, Interoperable, and Reusable (FAIR).  Each submitted dataset goes through a review by Ag Data Commons data curators -- NAL metadata librarians who ensure completeness and accuracy of the submission before approving it for publication.
+Eligibility for submissions to the Ag Data Commons
+If you are thinking about sharing your research output through the Ag Data Commons, please make sure that your submission meets the following conditions:
+1.
+USDA-funding
+. A submission must satisfy at least one of the two USDA-funding criteria:
+a. One of the co-authors of the data product is affiliated with USDA, or
+b. It was produced as a result of a research project funded or co-funded by USDA, for example through NIFA grant or through an agency-approved research project.
+2.
+Content type
+. The item(s) considered for submission must fall into one of the following types:
+a. Data (e.g. tabular data, genomic sequences, multimedia materials)
+b. Data product (e.g., database)*
+c. Non-executable software created to help users process or model data*.
+3.
+Level of access
+- public. Your submission must contain only data and/or data products intended for public access. The Ag Data Commons does not accept datasets with Personally Identifiable Information (PII).
+*See
+Ag Data Commons Collection Policy
+for details about these content types.
+Account creation
+After verifying that your submission is eligible to deposit in the Ag Data Commons, you can create an account. Note that a user account is only required to submit data resources to the Ag Data Commons. Those wishing to view or download data do not require accounts.
+To create an account, select “
+Log In
+” at the upper right corner of the Ag Data Commons home page. You will be prompted to select the user type for your account. Options include:
+Customer:
+Use this option for non-federal users (e.g., university partners, grant recipients, etc.). You can use Login.gov or eAuth to log into your account.
+USDA Employee/Contractor:
+Use this option if you work directly for the USDA. You can use your PIV card, USDA MobileLinc, or USDA Work Account through Microsoft to log into your account.
+Other Federal Employee/Contractor:
+Use this option if you work for a federal department outside the USDA. You can use your PIC/CAC PIN or Login.gov to log into your account.
+Your account will be automatically created the first time you log in.
+New users will start with zero storage capacity and need to request storage space from the curation team to upload dataset files. The Data Submission Manual provides instructions on this process.  A curator will review your request and may follow up with you for additional information before granting the request.
+More on Ag Data Commons
+Data Submission Manual
+Ag Data Commons Collection Policies
+Ag Data Commons Portal [agdatacommons.nal.usda.gov]
+Ag Data Commons Usage Statistics [agdatacommons.nal.usda.gov]
+View Articles Citing Ag Data Commons [zotero.org]
+Ag Data Commons Dashboard: Trend in Citations to ADC
+Page Content Curated By
+Knowledge Services Division (KSD)
+Home
+Sitemap
+Facebook
+Twitter
+YouTube
+Policies and Links
+Plain Writing
+FOIA
+Accessibility Statement
+Privacy Policy
+Non-Discrimination Statement
+Office of the Assistant Secretary for Civil Rights (OASCR)
+Information Quality
+Agricultural Research Service
+USDA.gov
+USA.gov
+WhiteHouse.gov

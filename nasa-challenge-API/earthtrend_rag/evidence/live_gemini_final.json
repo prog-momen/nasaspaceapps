@@ -1,0 +1,46 @@
+{
+  "model_configured": "gemini-3.5-flash-lite",
+  "fallbacks": [],
+  "max_attempts": 1,
+  "declared_budget_http": 3,
+  "runs": [
+    {
+      "name": "function_calling_amazon",
+      "ok_call": true,
+      "seconds": 3.1,
+      "http_requests": 2,
+      "tool_executions": 1,
+      "tool_args": [
+        {
+          "start_year": 2005,
+          "variable": "air_temperature",
+          "region": "الأمازون",
+          "end_year": 2025
+        }
+      ],
+      "answer_source": "gemini",
+      "status": "ok",
+      "fallback_reason": null,
+      "model": "gemini-3.5-flash-lite",
+      "warnings": [],
+      "power_cache_hit": true,
+      "p": 0.139,
+      "sen": 0.03801,
+      "answer_head": "بناءً على تحليلات بيانات NASA EarthTrend Explorer (مجموعة بيانات MERRA2 عبر NASA/POWER)، بالنسبة لمتغير \"درجة حرارة الهواء على ارتفاع 2 م\" في المكان: الأمازون (نقطة ممثلة: lat: -3.4653, lon: -62.2159)، خلال الفترة الفعلية من 2005-01 إلى 2025-12 (21 قراءة سنوية"
+    },
+    {
+      "name": "ambiguous_period",
+      "ok_call": false,
+      "kind": "budget",
+      "http_requests": 0,
+      "tool_executions": 0,
+      "attempts": [
+        {
+          "model": "gemini-3.5-flash-lite",
+          "skipped": "local daily request cap reached"
+        }
+      ]
+    }
+  ],
+  "total_http_requests": 2
+}

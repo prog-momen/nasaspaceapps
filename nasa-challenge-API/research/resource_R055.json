@@ -1,0 +1,98 @@
+{
+  "id": "resource_R055",
+  "url": "https://earthexplorer.usgs.gov/",
+  "checked_at": "2026-11-14T15:15:15.837099+00:00",
+  "tls_validation": false,
+  "status": 200,
+  "final_url": "https://earthexplorer.usgs.gov/",
+  "bytes": 94475,
+  "content_type": "text/html; charset=UTF-8",
+  "sha256": "9b3c467b7110e84c01dc177636131aaf2263dab72d62887e8f0afcf2b0ac5f9b",
+  "links": [
+    {
+      "url": "https://www.usgs.gov",
+      "label": ""
+    },
+    {
+      "url": "https://earthexplorer.usgs.gov/",
+      "label": "EarthExplorer"
+    },
+    {
+      "url": "https://earthexplorer.usgs.gov/help/help/",
+      "label": "Help"
+    },
+    {
+      "url": "https://earthexplorer.usgs.gov/feedback",
+      "label": "Feedback"
+    },
+    {
+      "url": "https://earthexplorer.usgs.gov/login",
+      "label": "Login"
+    },
+    {
+      "url": "https://earthexplorer.usgs.gov/help/searchCriteria",
+      "label": "help documentation"
+    },
+    {
+      "url": "https://earthexplorer.usgs.gov/",
+      "label": ""
+    },
+    {
+      "url": "https://earthexplorer.usgs.gov/",
+      "label": ""
+    },
+    {
+      "url": "https://earthexplorer.usgs.gov/",
+      "label": "(all)"
+    },
+    {
+      "url": "https://earthexplorer.usgs.gov/help/prefilter",
+      "label": "What's This?"
+    },
+    {
+      "url": "https://earthexplorer.usgs.gov/",
+      "label": ""
+    },
+    {
+      "url": "https://www.doi.gov/privacy",
+      "label": "DOI Privacy Policy"
+    },
+    {
+      "url": "https://www.usgs.gov/policies-and-notices",
+      "label": "Legal"
+    },
+    {
+      "url": "https://www.usgs.gov/accessibility-and-us-geological-survey",
+      "label": "Accessibility"
+    },
+    {
+      "url": "https://www.usgs.gov/sitemap",
+      "label": "Site Map"
+    },
+    {
+      "url": "https://answers.usgs.gov/",
+      "label": "Contact USGS"
+    },
+    {
+      "url": "https://www.doi.gov/",
+      "label": "U.S. Department of the Interior"
+    },
+    {
+      "url": "https://www.doioig.gov/",
+      "label": "DOI Inspector General"
+    },
+    {
+      "url": "https://www.whitehouse.gov/",
+      "label": "White House"
+    },
+    {
+      "url": "https://www.doi.gov/pmb/eeo/no-fear-act",
+      "label": "No Fear Act"
+    },
+    {
+      "url": "https://www.usgs.gov/foia",
+      "label": "FOIA"
+    }
+  ],
+  "elapsed_seconds": 1.781
+}

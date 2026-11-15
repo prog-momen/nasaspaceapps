@@ -1,0 +1,622 @@
+{
+  "id": "resource_R022",
+  "url": "https://www.statsig.com/perspectives/a-comprehensive-guide-to-statistical-significance",
+  "checked_at": "2026-11-14T15:15:10.587156+00:00",
+  "tls_validation": false,
+  "status": 200,
+  "final_url": "https://www.statsig.com/perspectives/a-comprehensive-guide-to-statistical-significance",
+  "bytes": 445106,
+  "content_type": "text/html; charset=utf-8",
+  "sha256": "98fe8f12b375aef7abea5a006a4d39da6aa577a0eea3492c8bfa47ef20383103",
+  "links": [
+    {
+      "url": "https://www.statsig.com/",
+      "label": ""
+    },
+    {
+      "url": "https://docs.statsig.com",
+      "label": "Docs"
+    },
+    {
+      "url": "https://www.statsig.com/pricing",
+      "label": "Pricing"
+    },
+    {
+      "url": "https://console.statsig.com/",
+      "label": "Sign In"
+    },
+    {
+      "url": "https://www.statsig.com/contact/us",
+      "label": "Talk to Sales"
+    },
+    {
+      "url": "https://www.statsig.com/",
+      "label": ""
+    },
+    {
+      "url": "https://www.statsig.com/experimentation",
+      "label": "Experimentation"
+    },
+    {
+      "url": "https://www.statsig.com/featureflags",
+      "label": "Feature Flags"
+    },
+    {
+      "url": "https://www.statsig.com/analytics",
+      "label": "Product Analytics"
+    },
+    {
+      "url": "https://www.statsig.com/session-replay",
+      "label": "Session Replay"
+    },
+    {
+      "url": "https://www.statsig.com/web-analytics",
+      "label": "Web Analytics"
+    },
+    {
+      "url": "https://www.statsig.com/infra-analytics",
+      "label": "Infra Analytics"
+    },
+    {
+      "url": "https://www.statsig.com/sidecar",
+      "label": "Marketing Experiments"
+    },
+    {
+      "url": "https://www.statsig.com/agent-experimentation",
+      "label": "Agent Experimentation"
+    },
+    {
+      "url": "https://www.statsig.com/warehouse",
+      "label": "Warehouse Native"
+    },
+    {
+      "url": "https://docs.statsig.com/infrastructure/introduction",
+      "label": "Infrastructure"
+    },
+    {
+      "url": "https://docs.statsig.com/sdks/getting-started",
+      "label": "SDKs"
+    },
+    {
+      "url": "https://www.statsig.com/integrations",
+      "label": "Integrations"
+    },
+    {
+      "url": "https://www.statsig.com/roles/developers",
+      "label": "Engineering"
+    },
+    {
+      "url": "https://www.statsig.com/roles/devops",
+      "label": "Dev Ops"
+    },
+    {
+      "url": "https://www.statsig.com/roles/data-science",
+      "label": "Data Science"
+    },
+    {
+      "url": "https://www.statsig.com/roles/product-management",
+      "label": "Product Management"
+    },
+    {
+      "url": "https://www.statsig.com/verticals/gaming",
+      "label": "Gaming"
+    },
+    {
+      "url": "https://www.statsig.com/verticals/b2b",
+      "label": "B2B Saas"
+    },
+    {
+      "url": "https://www.statsig.com/verticals/ecomm",
+      "label": "E-Commerce"
+    },
+    {
+      "url": "https://www.statsig.com/startups",
+      "label": "Startups"
+    },
+    {
+      "url": "https://www.statsig.com/blog",
+      "label": "Blog"
+    },
+    {
+      "url": "https://www.statsig.com/customers",
+      "label": "Customer Stories"
+    },
+    {
+      "url": "https://www.statsig.com/partners",
+      "label": "Partner Program"
+    },
+    {
+      "url": "https://www.statsig.com/updates",
+      "label": "Product Updates"
+    },
+    {
+      "url": "https://www.statsig.com/slack",
+      "label": "Support"
+    },
+    {
+      "url": "https://www.statsig.com/calculator",
+      "label": "Sample Size Calculator"
+    },
+    {
+      "url": "https://www.statsig.com/lite",
+      "label": "Statsig Lite"
+    },
+    {
+      "url": "https://learn.statsig.com/certifications",
+      "label": "Statsig University"
+    },
+    {
+      "url": "https://docs.statsig.com",
+      "label": "Docs"
+    },
+    {
+      "url": "https://www.statsig.com/pricing",
+      "label": "Pricing"
+    },
+    {
+      "url": "https://console.statsig.com/",
+      "label": "Sign In"
+    },
+    {
+      "url": "https://www.statsig.com/contact/us",
+      "label": "Talk to Sales"
+    },
+    {
+      "url": "https://www.statsig.com/experimentation",
+      "label": "Experimentation"
+    },
+    {
+      "url": "https://www.statsig.com/featureflags",
+      "label": "Feature Flags"
+    },
+    {
+      "url": "https://www.statsig.com/analytics",
+      "label": "Product Analytics"
+    },
+    {
+      "url": "https://www.statsig.com/session-replay",
+      "label": "Session Replay"
+    },
+    {
+      "url": "https://www.statsig.com/web-analytics",
+      "label": "Web Analytics"
+    },
+    {
+      "url": "https://www.statsig.com/infra-analytics",
+      "label": "Infra Analytics"
+    },
+    {
+      "url": "https://www.statsig.com/sidecar",
+      "label": "Marketing Experiments"
+    },
+    {
+      "url": "https://www.statsig.com/agent-experimentation",
+      "label": "Agent Experimentation"
+    },
+    {
+      "url": "https://www.statsig.com/warehouse",
+      "label": "Warehouse Native"
+    },
+    {
+      "url": "https://docs.statsig.com/infrastructure/introduction",
+      "label": "Infrastructure"
+    },
+    {
+      "url": "https://docs.statsig.com/sdks/getting-started",
+      "label": "SDKs"
+    },
+    {
+      "url": "https://www.statsig.com/integrations",
+      "label": "Integrations"
+    },
+    {
+      "url": "https://www.statsig.com/roles/developers",
+      "label": "Engineering"
+    },
+    {
+      "url": "https://www.statsig.com/roles/devops",
+      "label": "Dev Ops"
+    },
+    {
+      "url": "https://www.statsig.com/roles/data-science",
+      "label": "Data Science"
+    },
+    {
+      "url": "https://www.statsig.com/roles/product-management",
+      "label": "Product Management"
+    },
+    {
+      "url": "https://www.statsig.com/verticals/gaming",
+      "label": "Gaming"
+    },
+    {
+      "url": "https://www.statsig.com/verticals/b2b",
+      "label": "B2B Saas"
+    },
+    {
+      "url": "https://www.statsig.com/verticals/ecomm",
+      "label": "E-Commerce"
+    },
+    {
+      "url": "https://www.statsig.com/startups",
+      "label": "Startups"
+    },
+    {
+      "url": "https://www.statsig.com/blog",
+      "label": "Blog"
+    },
+    {
+      "url": "https://www.statsig.com/customers",
+      "label": "Customer Stories"
+    },
+    {
+      "url": "https://www.statsig.com/partners",
+      "label": "Partner Program"
+    },
+    {
+      "url": "https://www.statsig.com/updates",
+      "label": "Product Updates"
+    },
+    {
+      "url": "https://www.statsig.com/slack",
+      "label": "Support"
+    },
+    {
+      "url": "https://www.statsig.com/calculator",
+      "label": "Sample Size Calculator"
+    },
+    {
+      "url": "https://www.statsig.com/lite",
+      "label": "Statsig Lite"
+    },
+    {
+      "url": "https://learn.statsig.com/certifications",
+      "label": "Statsig University"
+    },
+    {
+      "url": "https://www.statsig.com/perspectives",
+      "label": "Back to Perspectives home"
+    },
+    {
+      "url": "https://www.statsig.com/blog/author/bell-statistics",
+      "label": ""
+    },
+    {
+      "url": "https://www.statsig.com/blog/author/bell-statistics",
+      "label": "Allon Korem"
+    },
+    {
+      "url": "https://www.linkedin.com/company/bell-statistics/",
+      "label": ""
+    },
+    {
+      "url": "https://www.bellstatistics.com/",
+      "label": ""
+    },
+    {
+      "url": "https://www.statsig.com/blog/cuped",
+      "label": "CUPED explained"
+    },
+    {
+      "url": "https://statsig.com/analytics",
+      "label": "data-driven decision making"
+    },
+    {
+      "url": "https://statsig.com/experimentation",
+      "label": "statistical tests"
+    },
+    {
+      "url": "https://www.statsig.com/glossary/multiple-hypothesis-testing",
+      "label": "Multiple Hypothesis Testing"
+    },
+    {
+      "url": "https://www.statsig.com/glossary/statistical-significance",
+      "label": "significance level"
+    },
+    {
+      "url": "https://statsig.com/warehouse",
+      "label": "experiment"
+    },
+    {
+      "url": "https://statsig.com/session-replay",
+      "label": "experimental results"
+    },
+    {
+      "url": "https://docs.statsig.com/stats-engine/confidence-intervals",
+      "label": "Confidence intervals"
+    },
+    {
+      "url": "https://www.statsig.com/blog/95-percent-confidence-interval",
+      "label": "interpreting p-values and confidence intervals"
+    },
+    {
+      "url": "https://www.statsig.com/perspectives/type-one-error",
+      "label": "Type I error"
+    },
+    {
+      "url": "https://www.statsig.com/perspectives/recognizing-type-two-error-costs",
+      "label": "Type II error"
+    },
+    {
+      "url": "https://statsig.com/analytics",
+      "label": "confidence intervals"
+    },
+    {
+      "url": "https://statsig.com/warehouse",
+      "label": "explaining statistical significance"
+    },
+    {
+      "url": "https://statsig.com/contact/?utm_content=questions",
+      "label": "Ask the pros"
+    },
+    {
+      "url": "https://www.statsig.com/perspectives/type-one-error",
+      "label": "Type I error"
+    },
+    {
+      "url": "https://statsig.com/analytics",
+      "label": "clarity and transparency are crucial"
+    },
+    {
+      "url": "https://statsig.com/experimentation",
+      "label": "limitations or potential confounding factors"
+    },
+    {
+      "url": "https://statsig.com/featureflags",
+      "label": "Practical significance"
+    },
+    {
+      "url": "https://statsig.com/session-replay",
+      "label": "explaining statistical significance to non-technical audiences"
+    },
+    {
+      "url": "https://statsig.com/warehouse",
+      "label": "frame the results in terms of their potential impact on the company's goals or bottom line"
+    },
+    {
+      "url": "https://statsig.com/startups",
+      "label": "statistical significance is just one piece of the puzzle"
+    },
+    {
+      "url": "https://statsig.com/contact/demo?utm_content=inline_cta",
+      "label": "Grab a Demo"
+    },
+    {
+      "url": "https://www.statsig.com/perspectives/a-comprehensive-guide-to-statistical-significance",
+      "label": "https://www.statsig.com/perspectives/a-comprehensive-guide-to-statistical-significance"
+    },
+    {
+      "url": "https://www.statsig.com/blog/sequential-testing-explained",
+      "label": ""
+    },
+    {
+      "url": "https://www.statsig.com/blog/tag/Experimentation",
+      "label": "EXPERIMENTATION"
+    },
+    {
+      "url": "https://www.statsig.com/blog/sequential-testing-explained",
+      "label": "Sequential testing explained: Benefits, tradeoffs, and practical uses Elaine Li Wed Oct 28 2026 Sequential testing can help you make earlier A/B test decisions, but it isn’t right for every experiment. Here’s how it works and how to use it in Statsig."
+    },
+    {
+      "url": "https://www.statsig.com/blog/how-statsig-mcp-v3-expanded-while-shrinking",
+      "label": ""
+    },
+    {
+      "url": "https://www.statsig.com/blog/tag/AI",
+      "label": "AI"
+    },
+    {
+      "url": "https://www.statsig.com/blog/how-statsig-mcp-v3-expanded-while-shrinking",
+      "label": "How Statsig MCP v3 expanded capabilities while shrinking context Harman Kaur Thu Oct 22 2026 Statsig’s MCP has reached a smaller interface with broader capabilities and finer access controls. Here’s how we got there, and why that’s important."
+    },
+    {
+      "url": "https://www.statsig.com/blog/running-faster-tests-part-3",
+      "label": ""
+    },
+    {
+      "url": "https://www.statsig.com/blog/tag/Experimentation",
+      "label": "EXPERIMENTATION"
+    },
+    {
+      "url": "https://www.statsig.com/blog/running-faster-tests-part-3",
+      "label": "Running faster tests: Shift your targets (Part 3) Akhil Prakash Wed Oct 21 2026 In Part 3 of our 4-part series, learn techniques to target users that can lead to shorter experiments."
+    },
+    {
+      "url": "https://www.statsig.com/blog/color-commentary-sep-2026",
+      "label": ""
+    },
+    {
+      "url": "https://www.statsig.com/blog/tag/featured",
+      "label": "FEATURED"
+    },
+    {
+      "url": "https://www.statsig.com/blog/tag/Statsig",
+      "label": "STATSIG"
+    },
+    {
+      "url": "https://www.statsig.com/blog/color-commentary-sep-2026",
+      "label": "New features, new ways to learn | Color commentary, Sep 2026 Eric Metelka Fri Oct 16 2026 September's features help increase the rate of your learning as your speed of shipping accelerates. Here's why we shipped what we did."
+    },
+    {
+      "url": "https://www.statsig.com/blog/introducing-statsig-mcp-v3",
+      "label": ""
+    },
+    {
+      "url": "https://www.statsig.com/blog/tag/Statsig",
+      "label": "STATSIG"
+    },
+    {
+      "url": "https://www.statsig.com/blog/tag/AI",
+      "label": "AI"
+    },
+    {
+      "url": "https://www.statsig.com/blog/introducing-statsig-mcp-v3",
+      "label": "Introducing Statsig MCP v3 Madelyn Tarr Wed Oct 07 2026 We’re launching Statsig MCP v3 this week, making your agentic experience stronger, safer, and more efficient. Here's how."
+    },
+    {
+      "url": "https://www.statsig.com/blog/more-comparisons-more-problems",
+      "label": ""
+    },
+    {
+      "url": "https://www.statsig.com/blog/tag/Experimentation",
+      "label": "EXPERIMENTATION"
+    },
+    {
+      "url": "https://www.statsig.com/blog/more-comparisons-more-problems",
+      "label": "Multiple comparisons: More comparisons, more problems Matthew Rogers Tue Sep 29 2026 The multiple comparisons problem is one of the most common pitfalls in A/B testing. Here’s what it is, why it matters, and how to guard against it with Statsig."
+    },
+    {
+      "url": "https://www.statsig.com/privacy",
+      "label": "Privacy Policy"
+    },
+    {
+      "url": "https://www.statsig.com/featureflags",
+      "label": "Feature Management"
+    },
+    {
+      "url": "https://www.statsig.com/experimentation",
+      "label": "Experimentation"
+    },
+    {
+      "url": "https://www.statsig.com/warehouse",
+      "label": "Data Warehouse"
+    },
+    {
+      "url": "https://www.statsig.com/analytics",
+      "label": "Product Analytics"
+    },
+    {
+      "url": "https://www.statsig.com/session-replay",
+      "label": "Session Replay"
+    },
+    {
+      "url": "https://www.statsig.com/sidecar",
+      "label": "Marketing Experiments"
+    },
+    {
+      "url": "https://www.statsig.com/web-analytics",
+      "label": "Web Analytics"
+    },
+    {
+      "url": "https://console.statsig.com/demo",
+      "label": "Test Drive Now"
+    },
+    {
+      "url": "https://www.statsig.com/productobservability",
+      "label": "Product Observability"
+    },
+    {
+      "url": "https://www.statsig.com/how",
+      "label": "How It Works"
+    },
+    {
+      "url": "https://www.statsig.com/articles/build-vs-buy",
+      "label": "Build vs Buy"
+    },
+    {
+      "url": "https://www.statsig.com/pricing",
+      "label": "Pricing"
+    },
+    {
+      "url": "https://www.statsig.com/customers",
+      "label": "Customer Stories"
+    },
+    {
+      "url": "https://www.statsig.com/testimonials",
+      "label": "Testimonials"
+    },
+    {
+      "url": "https://docs.statsig.com",
+      "label": "Docs"
+    },
+    {
+      "url": "https://github.com/statsig-io",
+      "label": "Code"
+    },
+    {
+      "url": "https://www.statsig.com/blog",
+      "label": "Blog"
+    },
+    {
+      "url": "https://www.statsig.com/updates",
+      "label": "Product Updates"
+    },
+    {
+      "url": "https://www.statsig.com/calculator",
+      "label": "A/B Test Calculator"
+    },
+    {
+      "url": "https://www.statsig.com/integrations",
+      "label": "Integrations"
+    },
+    {
+      "url": "https://statsig.com/slack",
+      "label": "Join Community"
+    },
+    {
+      "url": "https://www.statsig.com/el/events",
+      "label": "Events"
+    },
+    {
+      "url": "https://github.com/statsig-io/statsig-feedback/issues",
+      "label": "Feedback"
+    },
+    {
+      "url": "https://status.statsig.com/",
+      "label": "Status"
+    },
+    {
+      "url": "https://www.statsig.com/company",
+      "label": "About Us"
+    },
+    {
+      "url": "https://www.statsig.com/careers",
+      "label": "Careers"
+    },
+    {
+      "url": "https://www.statsig.com/pets",
+      "label": "Pets"
+    },
+    {
+      "url": "https://www.statsig.com/terms",
+      "label": "Terms"
+    },
+    {
+      "url": "https://www.statsig.com/privacy",
+      "label": "Privacy Policy"
+    },
+    {
+      "url": "https://www.statsig.com/contact/us",
+      "label": "Contact Us"
+    },
+    {
+      "url": "https://www.statsig.com/badges",
+      "label": ""
+    },
+    {
+      "url": "https://facebook.com/statsig",
+      "label": ""
+    },
+    {
+      "url": "https://x.com/statsig",
+      "label": ""
+    },
+    {
+      "url": "https://instagram.com/statsig_hq/",
+      "label": ""
+    },
+    {
+      "url": "https://linkedin.com/company/statsig",
+      "label": ""
+    },
+    {
+      "url": "https://github.com/statsig-io/",
+      "label": ""
+    },
+    {
+      "url": "https://www.statsig.com/pets",
+      "label": ""
+    }
+  ],
+  "elapsed_seconds": 1.063
+}

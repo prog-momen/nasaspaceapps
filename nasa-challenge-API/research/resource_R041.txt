@@ -1,0 +1,22 @@
+Earthdata Search
+Earthdata Search uses JavaScript
+Please use a JavaScript-aware browser and make sure
+                    JavaScript is enabled.
+Your browser is out of date
+In order to use Earthdata Search, you must upgrade your web browser.
+Alternatively, you can
+Earthdata Access
+.
+To upgrade your browser, click on the icons below
+                    to go to the download page.
+Chrome
+Firefox
+Safari
+Opera
+Internet Explorer
+v26.2.3-3
+NASA Official: Doug Newman
+FOIA
+NASA Privacy Policy
+USA.gov
+Earthdata Access: A Section 508 accessible alternative

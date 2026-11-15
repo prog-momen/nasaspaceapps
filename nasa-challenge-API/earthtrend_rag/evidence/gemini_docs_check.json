@@ -1,0 +1,43 @@
+{
+  "checked_at_utc": "2026-11-14T19:44:26+00:00",
+  "configured_models": [
+    "gemini-3.5-flash-lite",
+    "gemini-3.1-flash-lite",
+    "gemini-3.8-flash"
+  ],
+  "models": {
+    "gemini-3.5-flash-lite": {
+      "docs_function_calling": "supported",
+      "docs_stable": true,
+      "docs_free_tier_input_price": "Free of charge",
+      "docs_free_tier_prompts_used_to_improve_products": "Yes",
+      "in_account_model_list": true,
+      "supports_generateContent": true
+    },
+    "gemini-3.1-flash-lite": {
+      "docs_function_calling": "supported",
+      "docs_stable": true,
+      "docs_free_tier_input_price": "Free of charge",
+      "docs_free_tier_prompts_used_to_improve_products": "Yes",
+      "in_account_model_list": true,
+      "supports_generateContent": true
+    },
+    "gemini-3.8-flash": {
+      "docs_function_calling": "supported",
+      "docs_stable": true,
+      "docs_free_tier_input_price": "Free of charge",
+      "docs_free_tier_prompts_used_to_improve_products": "Yes",
+      "in_account_model_list": true,
+      "supports_generateContent": true
+    }
+  },
+  "rate_limits_page": {
+    "says_limits_vary_by_model_and_tier": true,
+    "daily_quota_resets": "midnight Pacific time",
+    "per_project_not_per_key": true,
+    "free_tier_numbers_published_in_docs": false,
+    "where_to_see_actual_limits": "https://aistudio.google.com/rate-limit (account-specific); also announced inside 429 errors",
+    "note": "the docs publish no free-tier RPD table for these models; the only hard numbers seen were inside 429 responses (20/day for gemini-3.8-flash and gemini-3.6-flash). Do not generalise."
+  },
+  "account_model_list_ok": true
+}

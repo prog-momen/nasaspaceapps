@@ -1,0 +1,310 @@
+{
+  "id": "doc_earthaccess",
+  "url": "https://earthaccess.readthedocs.io/en/latest/",
+  "checked_at": "2026-11-14T15:12:45.987532+00:00",
+  "tls_validation": false,
+  "status": 200,
+  "final_url": "https://earthaccess.readthedocs.io/en/latest/",
+  "bytes": 53330,
+  "content_type": "text/html; charset=utf-8",
+  "sha256": "abe672eafec77f961bc508d624a55a5ae666984c7b455b6f015c4b0e0fac82a7",
+  "links": [
+    {
+      "url": "https://earthaccess.readthedocs.io/en/latest/#welcome-to-earthaccess",
+      "label": "Skip to content"
+    },
+    {
+      "url": "https://earthaccess.readthedocs.io/en/latest/",
+      "label": ""
+    },
+    {
+      "url": "https://github.com/earthaccess-dev/earthaccess",
+      "label": "earthaccess-dev/earthaccess"
+    },
+    {
+      "url": "https://earthaccess.readthedocs.io/en/latest/",
+      "label": "Overview"
+    },
+    {
+      "url": "https://earthaccess.readthedocs.io/en/latest/api/",
+      "label": "API reference"
+    },
+    {
+      "url": "https://earthaccess.readthedocs.io/en/latest/user/",
+      "label": "User guide"
+    },
+    {
+      "url": "https://earthaccess.readthedocs.io/en/latest/contributor/",
+      "label": "Contributor guide"
+    },
+    {
+      "url": "https://earthaccess.readthedocs.io/en/latest/",
+      "label": ""
+    },
+    {
+      "url": "https://github.com/earthaccess-dev/earthaccess",
+      "label": "earthaccess-dev/earthaccess"
+    },
+    {
+      "url": "https://earthaccess.readthedocs.io/en/latest/",
+      "label": "Overview"
+    },
+    {
+      "url": "https://earthaccess.readthedocs.io/en/latest/calendar/",
+      "label": "Community calendar"
+    },
+    {
+      "url": "https://earthaccess.readthedocs.io/en/latest/resources/",
+      "label": "External resources"
+    },
+    {
+      "url": "https://earthaccess.readthedocs.io/en/latest/about-us/",
+      "label": "About us"
+    },
+    {
+      "url": "https://earthaccess.readthedocs.io/en/latest/supported-by/",
+      "label": "Supported by"
+    },
+    {
+      "url": "https://earthaccess.readthedocs.io/en/latest/governance/decisions/231-aws-us-west-2-checking-method/",
+      "label": "#231 AWS us-west-2 checking method"
+    },
+    {
+      "url": "https://earthaccess.readthedocs.io/en/latest/governance/decisions/929-move-repository/",
+      "label": "#929 Move or fork to independent organization"
+    },
+    {
+      "url": "https://earthaccess.readthedocs.io/en/latest/api/",
+      "label": "API reference"
+    },
+    {
+      "url": "https://earthaccess.readthedocs.io/en/latest/api/collections/collections-query/",
+      "label": "Collection queries"
+    },
+    {
+      "url": "https://earthaccess.readthedocs.io/en/latest/api/collections/collections/",
+      "label": "Collection results"
+    },
+    {
+      "url": "https://earthaccess.readthedocs.io/en/latest/api/collections/collections-services/",
+      "label": "Collection services"
+    },
+    {
+      "url": "https://earthaccess.readthedocs.io/en/latest/api/granules/granules-query/",
+      "label": "Granule queries"
+    },
+    {
+      "url": "https://earthaccess.readthedocs.io/en/latest/api/granules/granules/",
+      "label": "Granule results"
+    },
+    {
+      "url": "https://earthaccess.readthedocs.io/en/latest/api/store/store/",
+      "label": "Store"
+    },
+    {
+      "url": "https://earthaccess.readthedocs.io/en/latest/api/auth/auth/",
+      "label": "Auth"
+    },
+    {
+      "url": "https://earthaccess.readthedocs.io/en/latest/user/",
+      "label": "User guide"
+    },
+    {
+      "url": "https://earthaccess.readthedocs.io/en/latest/user/quick-start/",
+      "label": "Quick start"
+    },
+    {
+      "url": "https://earthaccess.readthedocs.io/en/latest/user/howto/authenticate/",
+      "label": "Authenticate with Earthdata Login"
+    },
+    {
+      "url": "https://earthaccess.readthedocs.io/en/latest/user/howto/authenticate-with-environment-variables/",
+      "label": "Authenticate with Earthdata Login using environment variables"
+    },
+    {
+      "url": "https://earthaccess.readthedocs.io/en/latest/user/howto/authenticate-using-a-netrc/",
+      "label": "Authenticate with Earthdata Login using `.netrc`"
+    },
+    {
+      "url": "https://earthaccess.readthedocs.io/en/latest/user/howto/search-datasets-using-keywords/",
+      "label": "Search for datasets using keywords"
+    },
+    {
+      "url": "https://earthaccess.readthedocs.io/en/latest/user/howto/search-datasets-by-instrument/",
+      "label": "Search for datasets by instrument"
+    },
+    {
+      "url": "https://earthaccess.readthedocs.io/en/latest/user/howto/search-data-datasets-by-timerange/",
+      "label": "Search for data by temporal range"
+    },
+    {
+      "url": "https://earthaccess.readthedocs.io/en/latest/user/howto/search-data-datasets-using-polygon/",
+      "label": "Search for data using a polygon"
+    },
+    {
+      "url": "https://earthaccess.readthedocs.io/en/latest/user/howto/download-to-local-machine/",
+      "label": "Download data to a local machine"
+    },
+    {
+      "url": "https://earthaccess.readthedocs.io/en/latest/user/howto/stream-data-to-xarray/",
+      "label": "Stream data directly to xarray"
+    },
+    {
+      "url": "https://earthaccess.readthedocs.io/en/latest/user/howto/get-urls-for-granules/",
+      "label": "Get URLs for granules"
+    },
+    {
+      "url": "https://earthaccess.readthedocs.io/en/latest/user/howto/get-opendap-links/",
+      "label": "Get OPeNDAP URLs for granules"
+    },
+    {
+      "url": "https://earthaccess.readthedocs.io/en/latest/user/howto/search-services/",
+      "label": "Search for services"
+    },
+    {
+      "url": "https://earthaccess.readthedocs.io/en/latest/user/tutorials/emit-earthaccess/",
+      "label": "Streaming data from NASA's Earth Surface Minteral Dust Source Investigation (EMIT)"
+    },
+    {
+      "url": "https://earthaccess.readthedocs.io/en/latest/user/tutorials/virtual_dataset_tutorial_with_TEMPO_Level3/",
+      "label": "Using virtual dataset capability to work with TEMPO Level 3 data"
+    },
+    {
+      "url": "https://earthaccess.readthedocs.io/en/latest/user/explanation/authenticate/",
+      "label": "Authentication"
+    },
+    {
+      "url": "https://earthaccess.readthedocs.io/en/latest/user/explanation/status/",
+      "label": "Status"
+    },
+    {
+      "url": "https://earthaccess.readthedocs.io/en/latest/user/explanation/search/",
+      "label": "Search"
+    },
+    {
+      "url": "https://earthaccess.readthedocs.io/en/latest/user/explanation/access/",
+      "label": "Access"
+    },
+    {
+      "url": "https://earthaccess.readthedocs.io/en/latest/user/explanation/backwards-compatibility/",
+      "label": "Backwards compatibility"
+    },
+    {
+      "url": "https://earthaccess.readthedocs.io/en/latest/user/explanation/fsspec/",
+      "label": "Remote files and fsspec caching"
+    },
+    {
+      "url": "https://earthaccess.readthedocs.io/en/latest/user/reference/glossary/nasa-glossary/",
+      "label": "NASA glossary"
+    },
+    {
+      "url": "https://earthaccess.readthedocs.io/en/latest/user/reference/glossary/cloud-glossary/",
+      "label": "Cloud computing terminology"
+    },
+    {
+      "url": "https://earthaccess.readthedocs.io/en/latest/contributor/",
+      "label": "Contributor guide"
+    },
+    {
+      "url": "https://earthaccess.readthedocs.io/en/latest/contributor/code-of-conduct/",
+      "label": "Code of conduct"
+    },
+    {
+      "url": "https://earthaccess.readthedocs.io/en/latest/contributor/ai-policy/",
+      "label": "AI policy"
+    },
+    {
+      "url": "https://earthaccess.readthedocs.io/en/latest/contributor/howto/development/",
+      "label": "Setup dev environment"
+    },
+    {
+      "url": "https://earthaccess.readthedocs.io/en/latest/contributor/howto/pr-guide/",
+      "label": "Create a Pull Request (PR)"
+    },
+    {
+      "url": "https://earthaccess.readthedocs.io/en/latest/contributor/howto/releasing/",
+      "label": "Release a version"
+    },
+    {
+      "url": "https://earthaccess.readthedocs.io/en/latest/contributor/howto/maintainers-guide/",
+      "label": "Be a maintainer"
+    },
+    {
+      "url": "https://earthaccess.readthedocs.io/en/latest/contributor/howto/triaging/",
+      "label": "Triage issues"
+    },
+    {
+      "url": "https://earthaccess.readthedocs.io/en/latest/contributor/explanation/integration-tests/",
+      "label": "Integration tests"
+    },
+    {
+      "url": "https://earthaccess.readthedocs.io/en/latest/contributor/reference/naming-convention/",
+      "label": "Naming conventions"
+    },
+    {
+      "url": "https://earthaccess.readthedocs.io/en/latest/contributor/reference/documentation-style-guide/",
+      "label": "Documentation style guide"
+    },
+    {
+      "url": "https://earthaccess.readthedocs.io/en/latest/contributor/reference/code-style-guide/",
+      "label": "Code style guide"
+    },
+    {
+      "url": "https://github.com/earthaccess-dev/earthaccess/edit/main/docs/index.md",
+      "label": ""
+    },
+    {
+      "url": "https://github.com/earthaccess-dev/earthaccess/raw/main/docs/index.md",
+      "label": ""
+    },
+    {
+      "url": "https://earthaccess.readthedocs.io/en/latest/user/quick-start/",
+      "label": "quick start guide"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/centers",
+      "label": "NASA DAACs"
+    },
+    {
+      "url": "https://cmr.earthdata.nasa.gov/search/site/docs/search/api.html",
+      "label": "CMR"
+    },
+    {
+      "url": "https://github.com/fsspec/filesystem_spec",
+      "label": "fsspec"
+    },
+    {
+      "url": "https://urs.earthdata.nasa.gov",
+      "label": "NASA Earthdata Login (EDL)"
+    },
+    {
+      "url": "https://earthaccess.readthedocs.io/en/latest/LICENSE.txt",
+      "label": "MIT license"
+    },
+    {
+      "url": "https://earthaccess.readthedocs.io/en/latest/contributor/",
+      "label": "Contributing Guide"
+    },
+    {
+      "url": "https://www.nasa.gov/",
+      "label": "NASA"
+    },
+    {
+      "url": "https://openscapes.org/",
+      "label": "Openscapes"
+    },
+    {
+      "url": "https://nsidc.org/",
+      "label": "NSIDC"
+    },
+    {
+      "url": "https://earthaccess.readthedocs.io/en/latest/supported-by/",
+      "label": "See all supporters"
+    },
+    {
+      "url": "https://squidfunk.github.io/mkdocs-material/",
+      "label": "Material for MkDocs"
+    }
+  ],
+  "elapsed_seconds": 0.578
+}

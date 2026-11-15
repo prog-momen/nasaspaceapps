@@ -1,0 +1,1026 @@
+<!DOCTYPE html>
+<html  lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+<noscript><style>form.antibot * :not(.antibot-message) { display: none !important; }</style>
+</noscript><meta name="description" content="Precipitation data from the GPM and TRMM missions are made available free to the public in a variety of formats from several sources at NASA Goddard Space Flight Center. This section outlines the different types of data available, the levels of processing, the sources to download the data, and some helpful tips for utilizing precipitation data in your research." />
+<link rel="canonical" href="https://gpm.nasa.gov/data" />
+<meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="icon" href="/themes/custom/pmm_bs/favicon.ico" type="image/vnd.microsoft.icon" />
+
+    <title>Data | NASA Global Precipitation Measurement Mission</title>
+    <link rel="stylesheet" media="all" href="/sites/default/files/css/css_E_R0xWIJ24tu01XFn-BrsBns0Bj5famoxhcr72qFRo0.css?delta=0&amp;language=en&amp;theme=pmm_bs&amp;include=eJyFjVsSgjAMRTcUyJKYlAaptk1NWhFXL-Mo-OP4kzk5eVwX6bHiaAZOpFpVKjgpJV5EL4cbCimdNpgNd9kd8sdm6UaJLeW_864uAqMoo9dWKPZ0pjvwvcaQLx_3buF8bazr0MJA43bjg2TcCRL7QCicHPt-Ek1UKyt8xb7fHaZvuTQXg83swVphnTbGkEMFW61yQkfGcAu8GL5qn8S3yE8bGn3z" />
+<link rel="stylesheet" media="all" href="/modules/contrib/bootstrap_paragraphs/css/bootstrap-paragraphs-columns.min.css?tn0aql" />
+<link rel="stylesheet" media="all" href="/modules/contrib/bootstrap_paragraphs/css/bootstrap-paragraphs-columns-two.min.css?tn0aql" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_97ygrntv91ta-eyjsyNBGsqni7JogAa0WScXsDkPB80.css?delta=3&amp;language=en&amp;theme=pmm_bs&amp;include=eJyFjVsSgjAMRTcUyJKYlAaptk1NWhFXL-Mo-OP4kzk5eVwX6bHiaAZOpFpVKjgpJV5EL4cbCimdNpgNd9kd8sdm6UaJLeW_864uAqMoo9dWKPZ0pjvwvcaQLx_3buF8bazr0MJA43bjg2TcCRL7QCicHPt-Ek1UKyt8xb7fHaZvuTQXg83swVphnTbGkEMFW61yQkfGcAu8GL5qn8S3yE8bGn3z" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_zuSCDMysTVcyDpjCi_1s2HfdHamNrZVSiOyMBPDEv34.css?delta=4&amp;language=en&amp;theme=pmm_bs&amp;include=eJyFjVsSgjAMRTcUyJKYlAaptk1NWhFXL-Mo-OP4kzk5eVwX6bHiaAZOpFpVKjgpJV5EL4cbCimdNpgNd9kd8sdm6UaJLeW_864uAqMoo9dWKPZ0pjvwvcaQLx_3buF8bazr0MJA43bjg2TcCRL7QCicHPt-Ek1UKyt8xb7fHaZvuTQXg83swVphnTbGkEMFW61yQkfGcAu8GL5qn8S3yE8bGn3z" />
+
+    
+    <script language="javascript" id="_fed_an_ua_tag" src="//dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=NASA&subagency=GSFC&dclink=true"></script>
+  </head>
+  <body class="page-node--2510 path-node page-node-type-article-d8 has-glyphicons">
+    <a href="#main-content" class="visually-hidden focusable skip-link">
+      Skip to main content
+    </a>
+    
+      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+              <header class="navbar navbar-default container" id="navbar" role="banner">
+            <div class="navbar-header">
+          <div class="region region-navigation">
+    <section id="block-pmm-bs-nasalogo" class="block block-block-content block-block-contentfc73ed9a-d1e7-41ad-b9e6-343bc8412d8a clearfix">
+  
+    
+
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"><p><a href="https://www.nasa.gov/"><img alt="NASA" data-entity-type="" data-entity-uuid="" src="/themes/custom/pmm_bs/images/nasa-logo-large-v1.png" title="NASA" /></a></p>
+</div>
+      
+  </section>
+
+<section id="block-pmm-bs-pmmtitlesearchcontact" class="block block-block-content block-block-content03773018-4112-4fc1-9706-442b205de520 clearfix">
+  
+    
+
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"><div id="pmm-title">
+<div id="pmm-title-full"><a href="/"><img alt="Global Precipitation Measurement" data-entity-type="" data-entity-uuid="" src="/themes/custom/pmm_bs/images/gpm-title-large-v1.png" title="Global Precipitation Measurement" /> </a></div>
+
+<div id="pmm-title-mobile"><a href="/">GLOBAL<br />
+PRECIPITATION<br />
+MEASUREMENT</a></div>
+</div>
+
+<div id="search-contact-box">
+<div id="search-box"><a href="/search">SEARCH <img alt="Search" data-entity-type="" data-entity-uuid="" src="/themes/custom/pmm_bs/images/search-icon-v1.png" /></a></div>
+
+<div id="contact-box"><a href="/data/ask-a-question">QUESTIONS <img alt="Search" data-entity-type="" data-entity-uuid="" src="/themes/custom/pmm_bs/images/contact-icon-v1.png" /></a></div>
+</div>
+</div>
+      
+  </section>
+
+<section id="block-pmm-bs-mainmenu" class="block block-superfish block-superfishmain-menu clearfix">
+  
+    
+
+      
+<ul id="superfish-main-menu" class="menu sf-menu sf-main-menu sf-horizontal sf-style-none superfish-pmm">
+  
+<li id="main-menu-menu-link-contentd4b73e64-2f02-40eb-ae18-e58040513a08" class="sf-depth-1 menuparent"><a href="/missions" title="Learn about NASA&#039;s Precipitation Measurement Missions" class="sf-depth-1 menuparent">Missions</a><ul class="sf-multicolumn"><li class="sf-multicolumn-wrapper "><ol><li id="main-menu-menu-link-content65ec9ac6-2351-4104-8667-656d789541af" class="sf-depth-2 sf-multicolumn-column menuparent"><div class="sf-multicolumn-column"><a href="/missions/GPM" title="The Global Precipitation Measurement Mission (GPM)" class="sf-depth-2 menuparent">GPM</a><ol><li id="main-menu-menu-link-contentb01bd830-36bf-4630-aa32-b2b6c9730da4" class="sf-depth-3 sf-no-children"><a href="/missions/GPM/core-observatory" class="sf-depth-3">GPM Core Observatory</a></li><li id="main-menu-menu-link-content8371c0a5-6824-439d-aaf6-58f8209e089f" class="sf-depth-3 sf-no-children"><a href="/missions/GPM/GMI" class="sf-depth-3">GPM Microwave Imager (GMI)</a></li><li id="main-menu-menu-link-content9bf6c78c-891d-494d-baf0-8bfb12176db3" class="sf-depth-3 sf-no-children"><a href="/missions/GPM/DPR" title="Dual-frequency Precipitation Radar (DPR)" class="sf-depth-3">Dual-frequency Precipitation Radar (DPR)</a></li><li id="main-menu-menu-link-content62a71de7-e3c9-495a-917f-801d0806faf6" class="sf-depth-3 sf-no-children"><a href="/missions/GPM/constellation" class="sf-depth-3">GPM Constellation</a></li><li id="main-menu-menu-link-contentd1cf3ea7-fd85-474b-930a-92764f6f3f72" class="sf-depth-3 sf-no-children"><a href="/missions/GPM/launch" class="sf-depth-3">Launch</a></li><li id="main-menu-menu-link-content58a6f585-e699-485c-a030-4513f819537d" class="sf-depth-3 sf-no-children"><a href="/missions/gpm/10-year-anniversary" title="GPM 10 Year Anniversary" class="sf-depth-3">GPM 10 Year Anniversary</a></li></ol></div></li><li id="main-menu-menu-link-content1c4e40eb-c48f-4418-bfa0-6fd9f72ce25a" class="sf-depth-2 sf-multicolumn-column menuparent"><div class="sf-multicolumn-column"><a href="/missions/trmm" title="The Tropical Rainfall Measuring Mission (TRMM)" class="sf-depth-2 menuparent">TRMM</a><ol><li id="main-menu-menu-link-contentc573a3ff-07ea-4a53-a79b-00cf3dd49205" class="sf-depth-3 sf-no-children"><a href="/missions/TRMM/satellite" class="sf-depth-3">Spacecraft and Instruments</a></li></ol></div></li><li id="main-menu-menu-link-contenta968fd40-955d-41ac-aa72-3d59a813f158" class="sf-depth-2 sf-no-children"><a href="/extreme-weather-news" title="Extreme Weather News" class="sf-depth-2">Extreme Weather News</a></li><li id="main-menu-menu-link-content9803eeec-316f-4745-952b-67caa3fc6c92" class="sf-depth-2 sf-no-children"><a href="/missions/articles" title="Mission Articles" class="sf-depth-2">Articles</a></li></ol></li></ul></li><li id="main-menu-menu-link-contentb6f2c802-d480-4da9-a00d-0dd28ec8ce21" class="active-trail sf-depth-1 menuparent"><a href="/data" title="Learn how to access and process GPM precipitation data." class="is-active sf-depth-1 menuparent">Data</a><ul class="sf-multicolumn"><li class="sf-multicolumn-wrapper "><ol><li id="main-menu-menu-link-content90bf7d7e-6c76-49b6-a91c-415fbd8c9531" class="sf-depth-2 sf-no-children"><a href="/data/directory" class="sf-depth-2">Data Directory</a></li><li id="main-menu-menu-link-contentfbc5c6cb-3e0f-4fc0-87c2-2204effa060a" class="sf-depth-2 sf-no-children"><a href="/data/sources" title="Description of the various sources for downloading and viewing GPM data. " class="sf-depth-2">Data Sources</a></li><li id="main-menu-menu-link-contente23a09c9-75f6-431a-a071-3f4a7d8e799d" class="sf-depth-2 sf-no-children"><a href="/data/news" title="News and updates about PMM data products." class="sf-depth-2">Data News</a></li><li id="main-menu-menu-link-content1c7fe289-138a-4ea0-ac4f-cff7e11ed991" class="sf-depth-2 sf-no-children"><a href="/data/faq" title="Data Frequently Asked Questions" class="sf-depth-2">Data FAQ</a></li><li id="main-menu-menu-link-content8b15ac80-3538-461e-b79d-8659e383b871" class="sf-depth-2 sf-no-children"><a href="/data/policy" class="sf-depth-2">Data Policy</a></li><li id="main-menu-menu-link-contentf6473fdd-7625-4d39-9683-d8952f497db6" class="sf-depth-2 sf-no-children"><a href="/data/training" class="sf-depth-2">Training</a></li><li id="main-menu-menu-link-content4995dcd7-6104-4ce3-a595-e76fbb5d5e3e" class="sf-depth-2 sf-no-children"><a href="/data/tutorials" class="sf-depth-2">Tutorials</a></li><li id="main-menu-menu-link-content635f3585-b68f-416c-a158-2cb09ae81d50" class="sf-depth-2 sf-no-children"><a href="/data/ground-validation" class="sf-depth-2">Ground Validation Data</a></li><li id="main-menu-menu-link-content48d6ad69-bc47-4fc2-9cf2-2cd71867731b" class="sf-depth-2 sf-multicolumn-column menuparent"><div class="sf-multicolumn-column"><a href="/data/imerg" title="IMERG: Integrated Multi-satellitE Retrievals for GPM" class="sf-depth-2 menuparent">IMERG</a><ol><li id="main-menu-menu-link-contentf5b2f8c7-b51b-4209-ae7f-ec2036b49f52" class="sf-depth-3 sf-no-children"><a href="/data/imerg/precipitation-climatology" class="sf-depth-3">Precipitation Climatology</a></li><li id="main-menu-menu-link-contentcac92ce4-4e3c-48f1-beb9-f7404e5f50ca" class="sf-depth-3 sf-no-children"><a href="/data/imerg/seasonal-precipitation-variations" title="Seasonal Precipitation Variations" class="sf-depth-3">Seasonal Precipitation Variations</a></li></ol></div></li><li id="main-menu-menu-link-content4afc1aa0-c6b3-4f09-8949-45f365e68f87" class="sf-depth-2 sf-multicolumn-column menuparent"><div class="sf-multicolumn-column"><a href="/data/visualization" class="sf-depth-2 menuparent">Visualization</a><ol><li id="main-menu-menu-link-content650da21b-2492-46be-93fb-349b6cc2d098" class="sf-depth-3 sf-no-children"><a href="/data/visualization/global-viewer" class="sf-depth-3">IMERG Global Viewer</a></li><li id="main-menu-menu-link-content802f3a7e-94d1-4ffc-9739-d23839c6df07" class="sf-depth-3 sf-no-children"><a href="/data/visualization/worldview" class="sf-depth-3">NASA Worldview</a></li><li id="main-menu-menu-link-content23cd6dae-8e01-4d7e-ac67-9db16aa1e897" class="sf-depth-3 sf-no-children"><a href="/data/visualization/precip-apps" class="sf-depth-3">Precipitation &amp; Applications Viewer</a></li><li id="main-menu-menu-link-contentf54b5387-395e-49e3-af79-999477b6298f" class="sf-depth-3 sf-no-children"><a href="/data/visualizations/rain-global" class="sf-depth-3">RAIN Global Viewer</a></li></ol></div></li><li id="main-menu-menu-link-content376dee91-d349-4adf-bf7d-1ba083db830e" class="sf-depth-2 sf-no-children"><a href="/data/articles" class="sf-depth-2">Articles</a></li></ol></li></ul></li><li id="main-menu-menu-link-content1b020faa-cd07-4b3e-a090-032c1d8b864d" class="sf-depth-1 menuparent"><a href="/applications" title="Learn about the various societal applications of GPM data." class="sf-depth-1 menuparent">Applications</a><ul class="sf-multicolumn"><li class="sf-multicolumn-wrapper "><ol><li id="main-menu-menu-link-contentc099620c-5a46-486a-ae7b-c4adc2740b4d" class="sf-depth-2 sf-no-children"><a href="/applications/ecology" class="sf-depth-2">Ecology</a></li><li id="main-menu-menu-link-content0462cb40-d7f3-428a-8003-c1dcffc18333" class="sf-depth-2 sf-no-children"><a href="/applications/water" class="sf-depth-2">Water &amp; Agriculture</a></li><li id="main-menu-menu-link-contentbe9dd28a-0b01-47e6-a461-e1d1225c289d" class="sf-depth-2 sf-no-children"><a href="/applications/energy" class="sf-depth-2">Energy</a></li><li id="main-menu-menu-link-content8643abd3-7efb-4ab0-8d22-f0dcbbcb7329" class="sf-depth-2 sf-multicolumn-column menuparent"><div class="sf-multicolumn-column"><a href="/applications/weather" class="sf-depth-2 menuparent">Weather</a><ol><li id="main-menu-menu-link-content8d5500a4-1446-418a-b1f0-ba173741d9c5" class="sf-depth-3 sf-no-children"><a href="/applications/weather/news" title="Extreme Weather News" class="sf-depth-3">Extreme Weather News</a></li></ol></div></li><li id="main-menu-menu-link-contentb7e7ed33-c69c-4dff-bee5-8971300f7f59" class="sf-depth-2 sf-multicolumn-column menuparent"><div class="sf-multicolumn-column"><a href="/applications/health" title="Using GPM Data for Development and Public Health" class="sf-depth-2 menuparent">Health</a><ol><li id="main-menu-menu-link-contentd2080832-c044-4a32-9713-a65c26892e6d" class="sf-depth-3 sf-no-children"><a href="/applications/disease-initiative" class="sf-depth-3">Disease Initiative</a></li></ol></div></li><li id="main-menu-menu-link-content91f54e3a-ac92-4f93-82a4-174e5f06df68" class="sf-depth-2 sf-no-children"><a href="/applications/disasters" title="Using GPM Data for Disasters and Risk Management" class="sf-depth-2">Disasters</a></li><li id="main-menu-menu-link-contentc54fba92-0b44-42e9-bb9e-b9ecd5210b9b" class="sf-depth-2 sf-multicolumn-column menuparent"><div class="sf-multicolumn-column"><a href="/applications/landslides" class="sf-depth-2 menuparent">Landslides</a><ol><li id="main-menu-menu-link-contenta06243f1-cc57-4428-901d-8bdb6c2b2e53" class="sf-depth-3 sf-no-children"><a href="/applications/landslides/coolr" class="sf-depth-3">COOLR</a></li><li id="main-menu-menu-link-contentf44b246f-92f8-4e8c-b6cb-c77c07375c06" class="sf-depth-3 sf-no-children"><a href="/applications/landslides/reporter" class="sf-depth-3">Landslide Reporter</a></li><li id="main-menu-menu-link-content66396ed6-4e6b-475a-98bb-924cc059361c" class="sf-depth-3 sf-no-children"><a href="/applications/landslides/reporter-faq" class="sf-depth-3">Landslide Reporter FAQ</a></li></ol></div></li><li id="main-menu-menu-link-content0509a016-6697-42e9-bdb7-679b8e6af6bf" class="sf-depth-2 sf-no-children"><a href="/applications/whos-using-gpm-data" class="sf-depth-2">Who&#039;s Using GPM Data</a></li><li id="main-menu-menu-link-contentdd50c198-fd20-4bed-a420-78971bb31064" class="sf-depth-2 sf-no-children"><a href="/applications/highlights" title="GPM Applications Highlights" class="sf-depth-2">Applications Highlights</a></li><li id="main-menu-menu-link-content388a6f55-2c7a-4896-9df9-fdcb6de206d3" class="sf-depth-2 sf-no-children"><a href="/applications/articles" title="Applications Articles" class="sf-depth-2">Articles</a></li></ol></li></ul></li><li id="main-menu-menu-link-contentdea1078e-5e44-4f26-a374-80ff31da4d50" class="sf-depth-1 menuparent"><a href="/science" title="Learn about precipitation science and research." class="sf-depth-1 menuparent">Science</a><ul class="sf-multicolumn"><li class="sf-multicolumn-wrapper "><ol><li id="main-menu-menu-link-contentabe4c867-1be3-411b-8748-26fa6f868bff" class="sf-depth-2 sf-multicolumn-column menuparent"><div class="sf-multicolumn-column"><a href="/science/research-topics" class="sf-depth-2 menuparent">Research Topics</a><ol><li id="main-menu-menu-link-content24ef77b0-337d-4b55-9d54-0e25d318a493" class="sf-depth-3 sf-no-children"><a href="/science/research-topics#stormstructureandmesoscaledynamics" title="Storm Structure and Mesoscale Dynamics" class="sf-depth-3">Storm Structure and Mesoscale Dynamics</a></li><li id="main-menu-menu-link-contente2d4ff03-4fbc-40cc-b61b-21806cf98cbb" class="sf-depth-3 sf-no-children"><a href="/science/research-topics#theglobalwatercycle" title=" The Global Water Cycle" class="sf-depth-3">The Global Water Cycle</a></li><li id="main-menu-menu-link-content919c4cda-910a-475f-9e92-5ac7a45c9251" class="sf-depth-3 sf-no-children"><a href="/science/research-topics#climateanalysis" title="Climate Analysis" class="sf-depth-3">Climate Analysis</a></li><li id="main-menu-menu-link-contentd0531c9a-ba69-4103-a87a-aedf12b0d07b" class="sf-depth-3 sf-no-children"><a href="/science/research-topics#precipitationmicrophysics" title="Precipitation Microphysics" class="sf-depth-3">Precipitation Microphysics</a></li></ol></div></li><li id="main-menu-menu-link-content7acd4b99-ba4b-4152-88a6-a9fd1c266d7d" class="sf-depth-2 sf-multicolumn-column menuparent"><div class="sf-multicolumn-column"><a href="/science/ground-validation" class="sf-depth-2 menuparent">Ground Validation</a><ol><li id="main-menu-menu-link-contenta9e9a6a3-d4ae-4953-9c49-bbd31148d072" class="sf-depth-3 sf-no-children"><a href="/science/ground-validation/field-campaigns" class="sf-depth-3">Field Campaigns</a></li><li id="main-menu-menu-link-content1a63b10b-f754-472d-a2d5-b69ab81f18d1" class="sf-depth-3 sf-no-children"><a href="/science/ground-validation/ground-and-airborne-instruments" class="sf-depth-3">Ground and Airborne Instruments</a></li><li id="main-menu-menu-link-contenta4a3ba12-d949-4e7f-a767-520c3c212390" class="sf-depth-3 sf-no-children"><a href="/science/ground-validation/validation" class="sf-depth-3">Validation</a></li></ol></div></li><li id="main-menu-menu-link-content336bcb1b-3056-4c2b-8e7e-ef281b58bfb6" class="sf-depth-2 sf-no-children"><a href="/science/precipitation-algorithms" class="sf-depth-2">Precipitation Algorithms</a></li><li id="main-menu-menu-link-content917d0fad-e5f8-4b34-817f-b4f13c4650b6" class="sf-depth-2 sf-no-children"><a href="/science/meetings" title="A list of PMM meetings" class="sf-depth-2">Meetings</a></li><li id="main-menu-menu-link-content9acb7ca6-5ae4-4e4b-8e57-636ee6baed57" class="sf-depth-2 sf-no-children"><a href="/science/pmm-science-team" title="Learn about the Precipitation Measurement Missions Science Team" class="sf-depth-2">PMM Science Team</a></li><li id="main-menu-menu-link-content20390a98-b36e-4fd8-a77b-8f59af8ec386" class="sf-depth-2 sf-no-children"><a href="/science/articles" class="sf-depth-2">Articles</a></li></ol></li></ul></li><li id="main-menu-menu-link-content8c2af902-020f-4af4-b96f-96a4f18dbe99" class="sf-depth-1 menuparent"><a href="/resources" title="Various resources related the the Precipitation Measurement Missions." class="sf-depth-1 menuparent">Resources</a><ul class="sf-multicolumn"><li class="sf-multicolumn-wrapper "><ol><li id="main-menu-menu-link-contentd08c85b9-ae17-4aca-8621-8b011ffa6f35" class="sf-depth-2 sf-no-children"><a href="/resources/faq" title="Frequently Asked Questions" class="sf-depth-2">Frequently Asked Questions</a></li><li id="main-menu-menu-link-contentc84d3d7e-648d-4d78-8fe4-a08e459cff15" class="sf-depth-2 sf-no-children"><a href="/resources/images" title="A gallery of PMM images" class="sf-depth-2">Image Gallery</a></li><li id="main-menu-menu-link-contentc77f2d3c-7b88-4823-a51b-3c8568424451" class="sf-depth-2 sf-no-children"><a href="/resources/videos" title="A gallery of PMM videos" class="sf-depth-2">Video Gallery</a></li><li id="main-menu-views-viewviewsdocuments-listpage-1" class="sf-depth-2 sf-no-children"><a href="/resources/documents" class="sf-depth-2">Documents</a></li><li id="main-menu-views-viewviewspublications-listpage-2" class="sf-depth-2 sf-no-children"><a href="/resources/gpm-publications" class="sf-depth-2">GPM Refereed Publications</a></li><li id="main-menu-menu-link-content9513cdf6-3c8c-499b-8434-079dae4541e5" class="sf-depth-2 sf-no-children"><a href="/resources/trmm-publications" title="TRMM Refereed Publications" class="sf-depth-2">TRMM Refereed Publications</a></li><li id="main-menu-menu-link-content78f49e9c-42cf-4ef8-b2b1-1ebaef4d34dd" class="sf-depth-2 sf-no-children"><a href="/resources/3Dprinting" class="sf-depth-2">3D Printed GPM Precipitation Data</a></li><li id="main-menu-menu-link-content3487b31c-f29c-4789-abc1-6231ff3043b6" class="sf-depth-2 sf-no-children"><a href="/resources/media" title="Media &amp; Press Resources" class="sf-depth-2">Media &amp; Press Resources</a></li><li id="main-menu-menu-link-content80cc489e-d688-4194-a552-53062fa7db2d" class="sf-depth-2 sf-no-children"><a href="/resources/glossary" title="A glossary of Earth science terms related to precipitation " class="sf-depth-2">Glossary</a></li><li id="main-menu-menu-link-content3cf1305c-9438-49ba-8b45-dd354190d7c6" class="sf-depth-2 sf-no-children"><a href="/resources/articles" title="All Articles" class="sf-depth-2">All Articles</a></li></ol></li></ul></li><li id="main-menu-menu-link-content0e29419e-3b0e-49c0-b9a6-9b8d59f1ac6c" class="sf-depth-1 menuparent"><a href="https://gpm.nasa.gov/education" title="NASA Precipitation Education" class="sf-depth-1 sf-external menuparent">Education</a><ul class="sf-multicolumn"><li class="sf-multicolumn-wrapper "><ol><li id="main-menu-menu-link-contentf7e5bbd1-1b1d-4523-9e01-15e52ea34f8f" class="sf-depth-2 sf-no-children"><a href="https://gpm.nasa.gov/education/water-cycle" title="Precipitation Education - The Water Cycle" class="sf-depth-2 sf-external">Water Cycle</a></li><li id="main-menu-menu-link-content5769099d-4fc8-4c0a-b615-c9492dfb644b" class="sf-depth-2 sf-no-children"><a href="https://gpm.nasa.gov/education/weather-climate" title="Precipitation Education - Weather and Climate" class="sf-depth-2 sf-external">Weather &amp; Climate</a></li><li id="main-menu-menu-link-content3d9f19e5-5be2-45c4-90be-7ca760e15057" class="sf-depth-2 sf-no-children"><a href="https://gpm.nasa.gov/education/societal-applications" title="NASA Precipitation Education - Societal Applications" class="sf-depth-2 sf-external">Societal Applications</a></li><li id="main-menu-menu-link-content67798c93-4170-4f4d-a773-7fac45bb7d2b" class="sf-depth-2 sf-no-children"><a href="https://gpm.nasa.gov/education/technology" title="NASA Precipitation Education - Technology" class="sf-depth-2 sf-external">Technology</a></li></ol></li></ul></li>
+</ul>
+
+  </section>
+
+
+  </div>
+
+                      </div>
+
+                      </header>
+  
+  <div role="main" class="main-container container js-quickedit-main-content">
+    <div class="row">
+
+                              <div class="col-sm-12" role="heading">
+              <div class="region region-header">
+        <ol class="breadcrumb">
+          <li >
+                  <a href="/">Home</a>
+              </li>
+          <li >
+                  Data
+              </li>
+      </ol>
+
+
+  </div>
+
+          </div>
+              
+            
+                  <section class="col-sm-9">
+
+                                      <div class="highlighted">  <div class="region region-highlighted">
+    <div data-drupal-messages-fallback class="hidden"></div>
+
+  </div>
+</div>
+                  
+                
+                          <a id="main-content"></a>
+            <div class="region region-content">
+      <div data-history-node-id="2510" class="row bs-1col node node--type-article-d8 node--view-mode-full">
+  
+  <div class="col-sm-12 bs-region bs-region--main">
+    
+            <div class="field field--name-field-article-main-image-media field--type-entity-reference field--label-hidden field--item"><div>
+  
+  
+            <div class="field field--name-field-media-image field--type-image field--label-hidden field--item">    <picture>
+                  <source srcset="/sites/default/files/styles/article_top_image_large/public/2020-02/IMERG_example_1_24_20.jpg?itok=9icKF4oH 1x" media="all and (min-width: 727px)" type="image/jpeg" width="1298" height="650"/>
+              <source srcset="/sites/default/files/styles/article_top_tablet/public/2020-02/IMERG_example_1_24_20.jpg?itok=1X2QrSUO 1x" media="all and (max-width: 726px)" type="image/jpeg" width="726" height="550"/>
+                  <img loading="lazy" width="1298" height="650" src="/sites/default/files/styles/article_top_image_large/public/2020-02/IMERG_example_1_24_20.jpg?itok=9icKF4oH" alt="IMERG Early Run Example January 24th, 2020" class="img-responsive" />
+
+  </picture>
+
+</div>
+      
+</div>
+</div>
+      
+            <div class="field field--name-node-title field--type-ds field--label-hidden field--item"><h2 class="main-title">
+  Data
+</h2>
+</div>
+      
+<div  class="node-body">
+    
+            <div class="field field--name-node-post-date field--type-ds field--label-hidden field--item">Thursday, September 13, 2018</div>
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"></div>
+      
+      <div>
+
+
+
+
+
+
+    
+
+
+
+  
+<div class="paragraph paragraph--type--bp-columns-two-uneven paragraph--view-mode--default paragraph--id--366 paragraph--style--66-33">
+  <div class="paragraph__column">
+        <div class="paragraph--type--bp-columns-two-uneven__2col-column1">
+    <div>
+
+
+
+
+
+
+
+<div class="paragraph paragraph--type--bp-simple paragraph--view-mode--default paragraph--id--363">
+  <div class="paragraph__column">
+        
+            <div class="field field--name-bp-text field--type-text-long field--label-hidden field--item"><p>Precipitation data from the GPM and TRMM missions are made available free to the public in a variety of formats from several sources at NASA Goddard Space Flight Center. This section outlines the different types of data available, the levels of processing, the sources to download the data, and some helpful tips for utilizing precipitation data in your research.</p>
+
+<h3 class="sectionHeader">Beginner Resources</h3>
+
+<h4><a href="/data/training">Training</a></h4>
+
+<h4><a href="/data/tutorials">Tutorials</a></h4>
+
+<h4><a href="/data/visualization">Data Visualization</a></h4>
+
+<h4><a href="/data/faq">Data FAQ</a></h4>
+
+<h4><a href="/data/imerg">Learn about IMERG</a></h4>
+
+<p>&nbsp;</p>
+
+<div class="row bs-1col media media--type-remote-video media--view-mode-full-no-caption" data-align="center">
+  
+  <div class="col-sm-12 bs-region bs-region--main">
+    
+            <div class="field field--name-field-media-oembed-video field--type-string field--label-hidden field--item"><iframe src="https://gpm.nasa.gov/media/oembed?url=https%3A//www.youtube.com/watch%3Fv%3DPPs3O2UwbhU&amp;max_width=0&amp;max_height=0&amp;hash=_ZriLLpG-mOVepyFeCdFzhDX3ZXuM18L_1INAQn7beM" width="200" height="113" class="media-oembed-content" loading="eager" title="NASA | The Data Downpour"></iframe>
+</div>
+      
+  </div>
+</div>
+
+
+</div>
+      
+  </div>
+</div>
+</div>
+  </div><div class="paragraph--type--bp-columns-two-uneven__2col-column2">
+    <div>
+
+
+
+
+
+
+
+<div class="paragraph paragraph--type--bp-column-wrapper paragraph--view-mode--default paragraph--id--365">
+  <div class="paragraph__column">
+        
+      <div>
+
+
+
+    
+
+
+  
+<div class="paragraph paragraph--type--bp-simple paragraph--view-mode--default paragraph--id--364 paragraph--color paragraph--color--info">
+  <div class="paragraph__column">
+        
+            <div class="field field--name-bp-text field--type-text-long field--label-hidden field--item"><div id="sectionsMenu">Sections</div></div>
+      
+  </div>
+</div>
+</div>
+      <div>
+
+
+
+    
+
+
+  
+<div class="paragraph paragraph--type--bp-simple paragraph--view-mode--default paragraph--id--367 paragraph--color paragraph--color--primary">
+  <div class="paragraph__column">
+        
+            <div class="field field--name-bp-text field--type-text-long field--label-hidden field--item"><h2>GPM Data Resources</h2>
+
+<h4><strong><a href="/data/directory">Data Directory (Downloads &amp; Documentation)</a></strong></h4>
+
+<h4><a href="/data/policy">Data Usage Policy</a></h4>
+
+<h4><a href="https://pps.gsfc.nasa.gov">NASA Precipitation Processing System</a></h4>
+
+<h4><a href="/data/ground-validation">Ground Validation Data</a></h4>
+
+<h4>&nbsp;</h4>
+</div>
+      
+  </div>
+</div>
+</div>
+  
+  </div>
+</div>
+</div>
+  </div>
+  </div>
+</div>
+</div>
+      <div>
+
+
+
+
+
+
+
+<div class="paragraph paragraph--type--bp-simple paragraph--view-mode--default paragraph--id--330">
+  <div class="paragraph__column">
+        
+            <div class="field field--name-bp-text field--type-text-long field--label-hidden field--item"><h3 class="sectionHeader"><a name="data-policy"></a>Frequently Asked Questions</h3>
+</div>
+      
+  </div>
+</div>
+</div>
+      <div>
+
+
+
+    
+
+
+  
+<div class="paragraph paragraph--type--bp-view paragraph--view-mode--default paragraph--id--336 paragraph--color paragraph--color--primary">
+  <div class="paragraph__column">
+        
+      <div class="field field--name-bp-view field--type-viewsreference field--label-hidden field--items">
+              <div class="field--item"><div class="views-element-container form-group"><div class="view view-data-faq-frontpage view-id-data_faq_frontpage view-display-id-block_1 js-view-dom-id-9c742dc4eaeba28037a1e75b06711ea375586d0a340f7dbe058d272ff9adb861">
+  
+    
+      
+      <div class="view-content">
+            <div>
+          <div>
+    <div class="views-field views-field-title views-accordion-header js-views-accordion-header-9c742dc4eaeba28037a1e75b06711ea375586d0a340f7dbe058d272ff9adb861"><span class="field-content">How do I get precipitation data for my specific location? </span></div><div class="views-field views-field-body"><div class="field-content"><p>There are several sources for downloading and viewing data which allow you to subset the data to only include specific parameters and/or geographic locations. These include the&nbsp;<a href="https://disc.gsfc.nasa.gov/datasets?page=1&amp;project=GPM">GES DISC</a>,&nbsp;<a href="http://giovanni.gsfc.nasa.gov/giovanni/">Giovanni</a>&nbsp;and&nbsp;<a href="https://storm.pps.eosdis.nasa.gov/storm/">STORM</a>. In Giovanni&nbsp;you can obtain data for a specific country, U.S. state, or watershed by using the "Show Shapes"&nbsp;option in the "Select Region"&nbsp;pane.</p>
+</div></div>
+  </div>
+      <div>
+    <div class="views-field views-field-title views-accordion-header js-views-accordion-header-9c742dc4eaeba28037a1e75b06711ea375586d0a340f7dbe058d272ff9adb861"><span class="field-content">What happened to the TRMM Multi-satellite Precipitation Analysis (TMPA / 3B4x) data products? </span></div><div class="views-field views-field-body"><div class="field-content"><p>The TRMM satellilte has been decommissioned and stopped collecting data in April 2015. The transition from the Tropical Rainfall Measuring Mission (TRMM) data products to the Global Precipitation Measurement (GPM) mission products has completed as of August 2019. The GPM IMERG dataset now includes TRMM-era data from June 2000 to the present, and other TRMM-era data has been reprocessed with GPM-era algorithms and is now available on the GPM FTP servers. TMPA data production&nbsp;ended as of&nbsp;December 31st, 2019 and the TRMMOpen FTP server has been shut down. Historical TMPA data is still available to download from the NASA GES DISC at:&nbsp;<a href="https://disc.gsfc.nasa.gov/datasets?keywords=TMPA&amp;page=1">https://disc.gsfc.nasa.gov/datasets?keywords=TMPA&amp;page=1</a></p>
+
+<p><a href="https://pmm-dev.pps.eosdis.nasa.gov/resources/documents/transition-multi-satellite-products-trmm-gpm-tmpa-imerg">Click here for more details on the transition from TMPA to IMERG.&nbsp;</a></p>
+</div></div>
+  </div>
+      <div>
+    <div class="views-field views-field-title views-accordion-header js-views-accordion-header-9c742dc4eaeba28037a1e75b06711ea375586d0a340f7dbe058d272ff9adb861"><span class="field-content">Am I allowed to use GPM data for my research?</span></div><div class="views-field views-field-body"><div class="field-content"><p>Yes, in line with NASA's general data policy. Please refer to the <a href="/data/policy">GPM Data Policy</a> for further details.</p>
+</div></div>
+  </div>
+      <div>
+    <div class="views-field views-field-title views-accordion-header js-views-accordion-header-9c742dc4eaeba28037a1e75b06711ea375586d0a340f7dbe058d272ff9adb861"><span class="field-content">How do I give credit for using GPM data?</span></div><div class="views-field views-field-body"><div class="field-content"><p>The data set source should be acknowledged when the data are used. One standard format for a formal reference is:</p><p>Dataset authors/producers, data release date: Dataset title, version. Data archive/distributor, access date in standard AMS format, data locator/identifier (doi or URL).</p><p>For example:</p><p>G.J. Huffman, D.T. Bolvin, R. Joyce, E.J. Nelkin, J. Tan, D. Braithwaite, K. Hsu, O.A. Kelley, P. Nguyen, S. Sorooshian, D.C. Watters, B.J. West, P. Xie, 2023: Integrated Multi-satellitE Retrievals for GPM (IMERG), version 07. NASA's Precipitation Processing Center, accessed 6 April 2026, <a href="https://arthurhouhttps.pps.eosdis.nasa.gov/gpmdata/">https://arthurhouhttps.pps.eosdis.nasa.gov/gpmdata/</a></p><p>For more details on citation format, please refer to the American Meteorological Society Data Archiving and Citation guidelines: <a href="http://www2.ametsoc.org/ams/index.cfm/publications/authors/journal-and-bams-authors/journal-and-bams-authors-guide/data-archiving-and-citation/">http://www2.ametsoc.org/ams/index.cfm/publications/authors/journal-and-…</a></p></div></div>
+  </div>
+      <div>
+    <div class="views-field views-field-title views-accordion-header js-views-accordion-header-9c742dc4eaeba28037a1e75b06711ea375586d0a340f7dbe058d272ff9adb861"><span class="field-content">Where can I find detailed documentation on the precipitation algorithms?</span></div><div class="views-field views-field-body"><div class="field-content"><p>Browse our directory of GPM data products (<a href="https://gpm.nasa.gov/data/directory">https://gpm.nasa.gov/data/directory</a>) to locate your desired algorithm, then click on the links in the algorithm description under "Documentation". All documentation is also available at the Precipitation Processing System website (<a href="https://pps.gsfc.nasa.gov/">https://pps.gsfc.nasa.gov/</a>). Note that "GPM data products" includes data from both the GPM and TRMM eras, uniformly processed using the most current GPM-based algorithms.</p></div></div>
+  </div>
+      <div>
+    <div class="views-field views-field-title views-accordion-header js-views-accordion-header-9c742dc4eaeba28037a1e75b06711ea375586d0a340f7dbe058d272ff9adb861"><span class="field-content">What is the spatial and temporal resolution of GPM data?</span></div><div class="views-field views-field-body"><div class="field-content"><p>The resolution of Level 0, 1, and 2 data is determined by the footprint size and observation interval of the sensors involved. &nbsp;Level 3 products are given a grid spacing that is driven by the typical footprint size of the input data sets.</p>
+
+<p>For our popular multi-satellite GPM IMERG data products, the spatial resolution&nbsp;is 0.1° x 0.1° (or roughly 10km x 10km)&nbsp;with a 30 minute temporal resolution.</p>
+
+<p>Visit the directory of&nbsp;<a href="/data/directory">GPM &amp; TRMM data products</a> for details on the resolution of each specific products.</p>
+</div></div>
+  </div>
+      <div>
+    <div class="views-field views-field-title views-accordion-header js-views-accordion-header-9c742dc4eaeba28037a1e75b06711ea375586d0a340f7dbe058d272ff9adb861"><span class="field-content">Can I use images or videos from this site or other NASA websites? </span></div><div class="views-field views-field-body"><div class="field-content"><p>For questions about permission for using NASA images and videos, please refer to&nbsp;<a href="https://www.nasa.gov/nasa-brand-center/images-and-media/">NASA's official Media Usage Guidelines</a>. For questions about specific images, please call 202-358-1900. For questions about specific video, please call 202-358-0309</p></div></div>
+  </div>
+      <div>
+    <div class="views-field views-field-title views-accordion-header js-views-accordion-header-9c742dc4eaeba28037a1e75b06711ea375586d0a340f7dbe058d272ff9adb861"><span class="field-content">Is it possible to subset GPM data?</span></div><div class="views-field views-field-body"><div class="field-content"><p>There are several sources for downloading and viewing data which allow you to subset the data to only include specific parameters and/or geographic locations. These include the&nbsp;<a href="https://disc.gsfc.nasa.gov/datasets?page=1&amp;project=GPM">GES DISC</a>,&nbsp;<a href="http://giovanni.gsfc.nasa.gov/giovanni/">Giovanni</a>&nbsp;and&nbsp;<a href="https://storm.pps.eosdis.nasa.gov/storm/">STORM</a>. In Giovanni&nbsp;you can obtain data for a specific country, U.S. state, or watershed by using the "Show Shapes"&nbsp;option in the "Select Region"&nbsp;pane.</p>
+</div></div>
+  </div>
+      <div>
+    <div class="views-field views-field-title views-accordion-header js-views-accordion-header-9c742dc4eaeba28037a1e75b06711ea375586d0a340f7dbe058d272ff9adb861"><span class="field-content">What is the difference between &quot;Near Real-time&quot; (NRT) and &quot;Production&quot; / &quot;Research&quot; data?</span></div><div class="views-field views-field-body"><div class="field-content"><p>GPM data products can be divided into two groups (near real-time and production) depending on how soon they are created after the satellite collects the observations. For applications such as weather, flood, and crop forecasting that need precipitation estimates as soon as possible, near real-time data products are most appropriate. For all other applications, production data products are generally the best data sets to use because additional or improved inputs are used to increase accuracy. These other inputs are only made available several days, or in some cases, several months, after the satellite observations are taken, and the production data sets are computed after all data have arrived, making possible a more careful analysis.</p><p>For the GPM IMERG dataset, IMERG Early and Late Runs are the near real-time products, while IMERG Final Run is the research / production product.</p></div></div>
+  </div>
+
+  </div>
+
+    </div>
+  
+          </div>
+</div>
+</div>
+          </div>
+  
+  </div>
+</div>
+</div>
+      <div>
+
+
+
+
+
+
+
+<div class="paragraph paragraph--type--bp-simple paragraph--view-mode--default paragraph--id--338">
+  <div class="paragraph__column">
+        
+            <div class="field field--name-bp-text field--type-text-long field--label-hidden field--item"><p><a href="/resources/faq">View the full list of frequently asked questions.</a></p>
+
+<h2>&nbsp;</h2>
+
+<h3 class="sectionHeader">Data News</h3>
+</div>
+      
+  </div>
+</div>
+</div>
+      <div>
+
+
+
+
+
+
+
+<div class="paragraph paragraph--type--bp-view paragraph--view-mode--default paragraph--id--337">
+  <div class="paragraph__column">
+        
+      <div class="field field--name-bp-view field--type-viewsreference field--label-hidden field--items">
+              <div class="field--item"><div class="views-element-container form-group"><div class="view view-data-news view-id-data_news view-display-id-block_2 js-view-dom-id-86f20bad7607c56de054c8d9f234e2535640c1ff7b2b56772784f6843596861a">
+  
+    
+      
+      <div class="view-content">
+          <div class="views-row"><div class="views-field views-field-field-post-date"><div class="field-content"><time datetime="2026-08-19T16:00:00Z">Wednesday, August 19, 2026</time>
+</div></div><div class="views-field views-field-title"><h3 class="field-content"><a href="/data/news/new-wsf-m1-mwi-nrt-files-available" hreflang="en">New WSF-M1 MWI NRT Files Available</a></h3></div><div class="views-field views-field-body"><div class="field-content">  Effective August 12, 2026 PPS made available NRT data from the DOD WSF-M1 MWI instrument. Both intercalibrated 1C granules and GPROF precipitation retrieval files are available to users. The WSF NRT granules are about 15 mins long. Some are shorter because of the way they are delivered to NRT. Please note that 1C granules are not the same as the DOD provided SDR product that provide the basis for the intercalibration. 1C products have fewer parameters in them than the original SDR. Only those needed for the precipitation retrieval are included. NOAA is the official distributor of the WSF SDR...
+
+</div></div></div>
+    <div class="views-row"><div class="views-field views-field-field-post-date"><div class="field-content"><time datetime="2026-08-06T16:00:00Z">Thursday, August 6, 2026</time>
+</div></div><div class="views-field views-field-title"><h3 class="field-content"><a href="/data/news/update-imerg-v08-transition-schedule-aug-2026" hreflang="en">Update to the IMERG V08 Transition Schedule, Aug. 2026</a></h3></div><div class="views-field views-field-body"><div class="field-content">  This is an update to the IMERG V08 transition schedule posted on April 28, 2026, at <a href="https://gpm.nasa.gov/data/news/imerg-v08-transition-schedule">https://gpm.nasa.gov/data/news/imerg-v08-transition-schedule</a>. At this moment, the IMERG development team is still waiting for V08 of one of the parent products to IMERG to be finalized. Until this parent product becomes available, the team cannot assess its full impact on IMERG V08 and move towards a complete reprocessing of the record starting 1998. Therefore, at this stage, it seems more likely that IMERG V08 Final Run will be released in the fall of 2026, though this projection assumes that the parent...
+
+</div></div></div>
+    <div class="views-row"><div class="views-field views-field-field-post-date"><div class="field-content"><time datetime="2026-04-28T16:00:00Z">Tuesday, April 28, 2026</time>
+</div></div><div class="views-field views-field-title"><h3 class="field-content"><a href="/data/news/imerg-v08-transition-schedule" hreflang="en">IMERG V08 Transition Schedule</a></h3></div><div class="views-field views-field-body"><div class="field-content">  For the Final Run, the V07 record ends in September 2025 because the parent products feeding into the IMERG algorithm (CORRA and GPROF) are being upgraded to V08. If processing were to go beyond September, the Final record would have to use V08 inputs instead of V07 inputs. Since the IMERG V07 code is configured with the expectation of V07 inputs, this would introduce potential discontinuities in the Final record. The IMERG V08 Final Run is planned for release in the summer of 2026, though this timeline assumes that V08 of the parent products behaves within expected bounds. When this release...
+
+</div></div></div>
+    <div class="views-row"><div class="views-field views-field-field-post-date"><div class="field-content"><time datetime="2026-01-08T17:00:00Z">Thursday, January 8, 2026</time>
+</div></div><div class="views-field views-field-title"><h3 class="field-content"><a href="/data/news/upcoming-gpm-near-real-time-maintenance" hreflang="en">Upcoming GPM Near Real-time Maintenance</a></h3></div><div class="views-field views-field-body"><div class="field-content">  On Tuesday, 20 January 2026, NASA's Precipitation Processing System (PPS) will temporarily shutdown the GPM Near Real-time (NRT) system at 18:00 EST (23:00 UTC). This is necessary to complete the move of data from the current high-speed storage system (not currently under maintenance) to the new storage system that is under maintenance. It will take approximately 14 hours to finalize the synchronization of the data from the old storage to the new one. During this 14 hours no new data will be produced or ingested. While user access to the file server (jsimpson.pps.eosdis.nasa.gov and...
+
+</div></div></div>
+    <div class="views-row"><div class="views-field views-field-field-post-date"><div class="field-content"><time datetime="2025-07-30T16:00:00Z">Wednesday, July 30, 2025</time>
+</div></div><div class="views-field views-field-title"><h3 class="field-content"><a href="/data/news/ssmis-data-collection-continue-2026" hreflang="en">SSMIS Data Collection to Continue into 2026</a></h3></div><div class="views-field views-field-body"><div class="field-content">  Department of Defense officials have reached an agreement to continue sharing DMSP SSMIS data until the sensor fails, or until the program formally ends (currently planned for September 2026). This decision puts off for now the impacts that the previously announced SSMIS shutdown would have had on the IMERG product.
+
+</div></div></div>
+
+    </div>
+  
+        <nav class="pager-nav text-center" role="navigation" aria-labelledby="pagination-heading">
+    <h4 id="pagination-heading" class="visually-hidden">Pagination</h4>
+    <ul class="pagination js-pager__items">
+
+            
+            
+            
+                    <li class="pager__item is-active active">
+                                          <a href="?page=0" title="Current page" aria-current="page">
+            <span class="visually-hidden">
+              Current page
+            </span>1</a>
+        </li>
+              <li class="pager__item">
+                                          <a href="?page=1" title="Go to page 2">
+            <span class="visually-hidden">
+              Page
+            </span>2</a>
+        </li>
+              <li class="pager__item">
+                                          <a href="?page=2" title="Go to page 3">
+            <span class="visually-hidden">
+              Page
+            </span>3</a>
+        </li>
+              <li class="pager__item">
+                                          <a href="?page=3" title="Go to page 4">
+            <span class="visually-hidden">
+              Page
+            </span>4</a>
+        </li>
+              <li class="pager__item">
+                                          <a href="?page=4" title="Go to page 5">
+            <span class="visually-hidden">
+              Page
+            </span>5</a>
+        </li>
+              <li class="pager__item">
+                                          <a href="?page=5" title="Go to page 6">
+            <span class="visually-hidden">
+              Page
+            </span>6</a>
+        </li>
+              <li class="pager__item">
+                                          <a href="?page=6" title="Go to page 7">
+            <span class="visually-hidden">
+              Page
+            </span>7</a>
+        </li>
+              <li class="pager__item">
+                                          <a href="?page=7" title="Go to page 8">
+            <span class="visually-hidden">
+              Page
+            </span>8</a>
+        </li>
+              <li class="pager__item">
+                                          <a href="?page=8" title="Go to page 9">
+            <span class="visually-hidden">
+              Page
+            </span>9</a>
+        </li>
+      
+                    <li class="page-item" role="presentation"><span class="page-link">&hellip;</span></li>
+      
+                    <li class="pager__item pager__item--next">
+          <a href="?page=1" title="Go to next page" rel="next">
+            <span class="visually-hidden">Next page</span>
+            <span aria-hidden="true">Next ›</span>
+          </a>
+        </li>
+      
+                  <li class="pager__item pager__item--last">
+        <a href="?page=38" title="Go to last page" rel="last">
+          <span class="visually-hidden">Last page</span>
+          <span aria-hidden="true">Last »</span>
+        </a>
+      </li>
+      
+    </ul>
+  </nav>
+
+          </div>
+</div>
+</div>
+          </div>
+  
+  </div>
+</div>
+</div>
+      <div>
+
+
+
+
+
+
+
+<div class="paragraph paragraph--type--bp-view paragraph--view-mode--default paragraph--id--357">
+  <div class="paragraph__column">
+        
+      <div class="field field--name-bp-view field--type-viewsreference field--label-hidden field--items">
+              <div class="field--item"><div class="views-element-container form-group"><div class="viewsreference--view-title">
+    Related Articles
+</div>
+<div class="view view-articles-list-filtered view-id-articles_list_filtered view-display-id-block_1 js-view-dom-id-b7baeb11bc7273849c8357be7a0049cafff09d6ca543e81cb31002e6226e08fa">
+  
+    
+      
+      <div class="view-content">
+          <div class="views-row"><div data-history-node-id="6771" class="row bs-1col node node--type-article-d8 node--view-mode-teaser">
+  
+  <div class="col-sm-12 bs-region bs-region--main">
+    
+            <div class="field field--name-node-title field--type-ds field--label-hidden field--item"><h3>
+  <a href="/data/articles/El-Nino-Sep-2026-update" hreflang="en">Global Precipitation During July to September of the 2026-27 El Niño</a>
+</h3>
+</div>
+      
+            <div class="field field--name-field-article-main-image-media field--type-entity-reference field--label-hidden field--item">  <a href="/data/articles/El-Nino-Sep-2026-update" hreflang="en"><img loading="lazy" src="/sites/default/files/styles/teaser_image/public/2026-10/ninoPercentDeviationJulSep2026.cover2_.jpg?itok=6lH2UcDl" width="400" height="400" alt="Percent Deviation (large)" class="img-responsive" />
+
+</a>
+</div>
+      
+            <div class="field field--name-node-post-date field--type-ds field--label-hidden field--item">Monday, October 12, 2026</div>
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field--item">  El Niño events occur every two to seven years, and they are driven by feedback between ocean currents and the circulation of the atmosphere over the tropical Pacific Ocean. Variation in ocean temperature and wind patterns drives variation in the rain and snow that falls over the tropical Pacific and elsewhere in the world. Many forecasts have been issued for the El Niño that started in the summer of 2026, and past El Niños have been extensively discussed during the months leading up to this one. One way that NASA contributes to the conversation is to provide, in near real time, estimates of
+
+  <div class="more-link"><a href="/data/articles/El-Nino-Sep-2026-update" class="more-link" aria-label="Read more about Global Precipitation During July to September of the 2026-27 El Niño" hreflang="en">Read More</a></div>
+</div>
+      
+  </div>
+</div>
+
+</div>
+    <div class="views-row"><div data-history-node-id="6768" class="row bs-1col node node--type-article-d8 node--view-mode-teaser">
+  
+  <div class="col-sm-12 bs-region bs-region--main">
+    
+            <div class="field field--name-node-title field--type-ds field--label-hidden field--item"><h3>
+  <a href="/data/oscillations-global-precipitation" hreflang="en">Oscillations in Global Precipitation</a>
+</h3>
+</div>
+      
+            <div class="field field--name-field-article-main-image-media field--type-entity-reference field--label-hidden field--item">  <a href="/data/oscillations-global-precipitation" hreflang="en"><img loading="lazy" src="/sites/default/files/styles/teaser_image/public/2026-08/oscillationCover.png?itok=S4cylvbn" width="400" height="400" alt="MJO Phase 1 precipitation anomaly from IMERG" class="img-responsive" />
+
+</a>
+</div>
+      
+            <div class="field field--name-node-post-date field--type-ds field--label-hidden field--item">Wednesday, August 5, 2026</div>
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field--item">  Whether or not it rains a week from now where you live may seem mostly random, but a long enough data record will likely reveal rainfall patterns that repeat over hours, months, or years. Atmospheric scientists describe some of these repeating patterns as cycles and others as oscillations. There are annual and daily precipitation cycles tied to the variation of the sun's path across the sky [1]. An example of precipitation affected by time of day is that summer thunderstorms occur predominantly in afternoon or early evening along the East Coast of the United States. An example of seasonal
+
+  <div class="more-link"><a href="/data/oscillations-global-precipitation" class="more-link" aria-label="Read more about Oscillations in Global Precipitation" hreflang="en">Read More</a></div>
+</div>
+      
+  </div>
+</div>
+
+</div>
+    <div class="views-row"><div data-history-node-id="5905" class="row bs-1col node node--type-article-d8 node--view-mode-teaser">
+  
+  <div class="col-sm-12 bs-region bs-region--main">
+    
+            <div class="field field--name-node-title field--type-ds field--label-hidden field--item"><h3>
+  <a href="/data/articles/natural-cycles-global-precipitation" hreflang="en">Natural Cycles in Global Precipitation</a>
+</h3>
+</div>
+      
+            <div class="field field--name-field-article-main-image-media field--type-entity-reference field--label-hidden field--item">  <a href="/data/articles/natural-cycles-global-precipitation" hreflang="en"><img loading="lazy" src="/sites/default/files/styles/teaser_image/public/2026-03/annual.dayOfYear000.wideCrop.jpg?itok=2-oArh79" width="400" height="400" alt="IMERG Precipitation Anomaly for Day of Year 1 to 30" class="img-responsive" />
+
+</a>
+</div>
+      
+            <div class="field field--name-node-post-date field--type-ds field--label-hidden field--item">Friday, March 27, 2026</div>
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field--item">  In many places, the amount of that rain falls on a particular day or hour is influenced by multiple natural cycles that exist simultaneously on different time scales. One such cycle repeats every 24 hours, and another repeats every year. The global extent of these cycles can be studied using NASA's IMERG precipitation estimates that have been generated for 1998 to the present. Most of Earth's precipitation falls as rain, and the rest falls as snow, hail, or other forms of precipitation. The length of IMERG's data record makes it possible to average out some of the random error and unrelated
+
+  <div class="more-link"><a href="/data/articles/natural-cycles-global-precipitation" class="more-link" aria-label="Read more about Natural Cycles in Global Precipitation" hreflang="en">Read More</a></div>
+</div>
+      
+  </div>
+</div>
+
+</div>
+    <div class="views-row"><div data-history-node-id="4512" class="row bs-1col node node--type-article-d8 node--view-mode-teaser">
+  
+  <div class="col-sm-12 bs-region bs-region--main">
+    
+            <div class="field field--name-node-title field--type-ds field--label-hidden field--item"><h3>
+  <a href="/data/articles/globalRainfallAtYourFingertips" hreflang="en">27 Years of Global Rainfall at Your Fingertips</a>
+</h3>
+</div>
+      
+            <div class="field field--name-field-article-main-image-media field--type-entity-reference field--label-hidden field--item">  <a href="/data/articles/globalRainfallAtYourFingertips" hreflang="en"><img loading="lazy" src="/sites/default/files/styles/teaser_image/public/2025-07/harveyComposite.png?itok=dTi6xf5E" width="400" height="400" alt="IMERG Hurricane Harvey (2024) 30-minute summary" class="img-responsive" />
+
+</a>
+</div>
+      
+            <div class="field field--name-node-post-date field--type-ds field--label-hidden field--item">Thursday, July 24, 2025</div>
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field--item">  NASA's Worldview website now allows you to explore global estimates of rainfall and snowfall from 1998 to the present at 30-minute intervals. Researchers and application developers have been using this dataset since 2014 (Portier 2024; Portier et al. 2023), but now it is also available as images in Worldview.
+
+  <div class="more-link"><a href="/data/articles/globalRainfallAtYourFingertips" class="more-link" aria-label="Read more about 27 Years of Global Rainfall at Your Fingertips" hreflang="en">Read More</a></div>
+</div>
+      
+  </div>
+</div>
+
+</div>
+    <div class="views-row"><div data-history-node-id="3729" class="row bs-1col node node--type-article-d8 node--view-mode-teaser">
+  
+  <div class="col-sm-12 bs-region bs-region--main">
+    
+            <div class="field field--name-node-title field--type-ds field--label-hidden field--item"><h3>
+  <a href="/data/articles/explore-20-years-rain-and-snowfall-data-nasas-precipitation-missions" hreflang="en">Explore 20 Years of Rain and Snowfall Data from NASA’s Precipitation Missions</a>
+</h3>
+</div>
+      
+            <div class="field field--name-field-article-main-image-media field--type-entity-reference field--label-hidden field--item">  <a href="/data/articles/explore-20-years-rain-and-snowfall-data-nasas-precipitation-missions" hreflang="en"><img loading="lazy" src="/sites/default/files/styles/teaser_image/public/2020-06/grand_average_climatology2_black_print.jpg?itok=d7PcnUt9" width="400" height="400" alt="IMERG Grand Average Climatology 2001 - 2019" class="img-responsive" />
+
+</a>
+</div>
+      
+            <div class="field field--name-node-post-date field--type-ds field--label-hidden field--item">Wednesday, September 9, 2020</div>
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field--item">  A new data product merges data from the Tropical Rainfall Measuring Mission (TRMM) and the Global Precipitation Measurement (GPM) mission, giving meteorologists and researchers access to a 20-year precipitation record. How much rain and snow fall on Earth in any given year? NASA scientists are answering this question more accurately than ever before and observing precipitation in the most remote places on Earth. And it’s all thanks to an international constellation of satellites. At any given time, instruments onboard about a dozen satellites contribute to a record of the world’s rain and snow
+
+  <div class="more-link"><a href="/data/articles/explore-20-years-rain-and-snowfall-data-nasas-precipitation-missions" class="more-link" aria-label="Read more about Explore 20 Years of Rain and Snowfall Data from NASA’s Precipitation Missions" hreflang="en">Read More</a></div>
+</div>
+      
+  </div>
+</div>
+
+</div>
+    <div class="views-row"><div data-history-node-id="3194" class="row bs-1col node node--type-article node--view-mode-teaser">
+  
+  <div class="col-sm-12 bs-region bs-region--main">
+    
+            <div class="field field--name-node-title field--type-ds field--label-hidden field--item"><h3>
+  <a href="/applications/using-imerg-long-term-precipitation-data-applications" hreflang="en">Using the IMERG Long-term Precipitation Dataset for Applications </a>
+</h3>
+</div>
+      
+            <div class="field field--name-field-article-main-image field--type-image field--label-hidden field--item">  <a href="/applications/using-imerg-long-term-precipitation-data-applications" hreflang="en"><img loading="lazy" src="/sites/default/files/styles/teaser_image/public/article_main_images/imerg-applications-tool.png?itok=uU9roMMn" width="400" height="400" alt="Using the IMERG Long-term Precipitation Data for Applications " class="img-responsive" />
+
+</a>
+</div>
+      
+            <div class="field field--name-node-post-date field--type-ds field--label-hidden field--item">Thursday, October 17, 2019</div>
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field--item">  A long precipitation data set like the new GPM IMERG V06 product is valuable for many applications and for decision-making. Accurate and reliable precipitation records are not only crucial to understanding trends and variability but also for water management resources and food security, ecological management, and weather, climate and hydrological forecasting. Here we present a few highlights showcasing how GPM IMERG is helping a variety of end users make decisions that will benefit society for years to come. GPM IMERG Data Used for Wind Energy Map of average precipitation in north-central...
+
+  <div class="more-link"><a href="/applications/using-imerg-long-term-precipitation-data-applications" class="more-link" aria-label="Read more about Using the IMERG Long-term Precipitation Dataset for Applications " hreflang="en">Read More</a></div>
+</div>
+      
+  </div>
+</div>
+
+</div>
+    <div class="views-row"><div data-history-node-id="1569" class="row bs-1col node node--type-article node--view-mode-teaser">
+  
+  <div class="col-sm-12 bs-region bs-region--main">
+    
+            <div class="field field--name-node-title field--type-ds field--label-hidden field--item"><h3>
+  <a href="/data/art-creating-digital-hurricanes" hreflang="und">The Art of Creating Digital Hurricanes</a>
+</h3>
+</div>
+      
+            <div class="field field--name-field-article-main-image field--type-image field--label-hidden field--item">  <a href="/data/art-creating-digital-hurricanes" hreflang="und"><img loading="lazy" src="/sites/default/files/styles/teaser_image/public/article_main_images/Screenshot%20at%20May%2025%2016-39-44.png?itok=MkKUidg8" width="400" height="400" alt="Creating Digital Hurricanes" class="img-responsive" />
+
+</a>
+</div>
+      
+            <div class="field field--name-node-post-date field--type-ds field--label-hidden field--item">Wednesday, May 25, 2016</div>
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field--item">  Every day, scientists at NASA work on creating better hurricanes – on a computer screen. At NASA’s Goddard Space Flight Center in Greenbelt, Maryland, a team of scientists spends its days incorporating millions of atmospheric observations, sophisticated graphic tools and lines of computer code to create computer models simulating the weather and climate conditions responsible for hurricanes. Scientists use these models to study the complex environment and structure of tropical storms and hurricanes. Getting the simulations right has huge societal implications, which is why one Goddard...
+
+  <div class="more-link"><a href="/data/art-creating-digital-hurricanes" class="more-link" aria-label="Read more about The Art of Creating Digital Hurricanes" hreflang="und">Read More</a></div>
+</div>
+      
+  </div>
+</div>
+
+</div>
+    <div class="views-row"><div data-history-node-id="1418" class="row bs-1col node node--type-article node--view-mode-teaser">
+  
+  <div class="col-sm-12 bs-region bs-region--main">
+    
+            <div class="field field--name-node-title field--type-ds field--label-hidden field--item"><h3>
+  <a href="/data/articles/evolution-nasa-precipitation-data" hreflang="und">The Evolution of NASA Precipitation Data</a>
+</h3>
+</div>
+      
+            <div class="field field--name-field-article-main-image field--type-image field--label-hidden field--item">  <a href="/data/articles/evolution-nasa-precipitation-data" hreflang="und"><img loading="lazy" src="/sites/default/files/styles/teaser_image/public/article_main_images/gonzalo-still-0730-print-web-lg.jpg?itok=_t0vO9VM" width="400" height="400" alt="The Evolution of NASA Precipitation Data" class="img-responsive" />
+
+</a>
+</div>
+      
+            <div class="field field--name-node-post-date field--type-ds field--label-hidden field--item">Tuesday, September 29, 2015</div>
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field--item">  NASA’s global precipitation data and data processing systems have come a long way from the launch of TRMM in 1997 to the ongoing GPM mission. Just before midnight Eastern Daylight Time on June 15, 2015, a fireball appeared over central Africa, streaked across Madagascar, and tracked across the uninhabited Southern Indian Ocean. This was the fiery end of the joint NASA/Japan Aerospace Exploration Agency (JAXA) Tropical Rainfall Measuring Mission (TRMM). TRMM’s homecoming after more than 17 years in orbit also marked the end of the first major satellite mission specifically designed to gather...
+
+  <div class="more-link"><a href="/data/articles/evolution-nasa-precipitation-data" class="more-link" aria-label="Read more about The Evolution of NASA Precipitation Data" hreflang="und">Read More</a></div>
+</div>
+      
+  </div>
+</div>
+
+</div>
+    <div class="views-row"><div data-history-node-id="1268" class="row bs-1col node node--type-article node--view-mode-teaser">
+  
+  <div class="col-sm-12 bs-region bs-region--main">
+    
+            <div class="field field--name-node-title field--type-ds field--label-hidden field--item"><h3>
+  <a href="/missions/gpm-first-global-rainfall-snowfall-map" hreflang="und">GPM&#039;s First Global Rainfall and Snowfall Map</a>
+</h3>
+</div>
+      
+            <div class="field field--name-field-article-main-image field--type-image field--label-hidden field--item">  <a href="/missions/gpm-first-global-rainfall-snowfall-map" hreflang="und"><img loading="lazy" src="/sites/default/files/styles/teaser_image/public/article_main_images/IMERG%20screenshot_0.png?itok=RQmbyNw9" width="400" height="400" alt="GPM&#039;s First Global Rainfall and Snowfall Map" class="img-responsive" />
+
+</a>
+</div>
+      
+            <div class="field field--name-node-post-date field--type-ds field--label-hidden field--item">Thursday, March 12, 2015</div>
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field--item">  The Global Precipitation Measurement mission has produced its first global map of rainfall and snowfall. Like a lead violin tuning an orchestra, the GPM Core Observatory – launched one year ago on Feb. 27, 2014, as a collaboration between NASA and the Japan Aerospace Exploration Agency – acts as the standard to unify precipitation measurements from a network of 12 satellites. The result is NASA's Integrated Multi-satellite Retrievals for GPM data product, called IMERG, which combines all of these data from 12 satellites into a single, seamless map. The map covers more of the globe than any...
+
+  <div class="more-link"><a href="/missions/gpm-first-global-rainfall-snowfall-map" class="more-link" aria-label="Read more about GPM&amp;#039;s First Global Rainfall and Snowfall Map" hreflang="und">Read More</a></div>
+</div>
+      
+  </div>
+</div>
+
+</div>
+    <div class="views-row"><div data-history-node-id="1197" class="row bs-1col node node--type-article node--view-mode-teaser">
+  
+  <div class="col-sm-12 bs-region bs-region--main">
+    
+            <div class="field field--name-node-title field--type-ds field--label-hidden field--item"><h3>
+  <a href="/data/gpms-how-guide-global-rain-maps" hreflang="und">GPM&#039;s How-to Guide for Global Rain Maps</a>
+</h3>
+</div>
+      
+            <div class="field field--name-field-article-main-image field--type-image field--label-hidden field--item">  <a href="/data/gpms-how-guide-global-rain-maps" hreflang="und"><img loading="lazy" src="/sites/default/files/styles/teaser_image/public/article_main_images/gpm_data_downpour_thumb.jpg?itok=E5VGLM8X" width="400" height="400" alt="GPM&#039;s How-to Guide for Global Rain Maps" class="img-responsive" />
+
+</a>
+</div>
+      
+            <div class="field field--name-node-post-date field--type-ds field--label-hidden field--item">Thursday, September 4, 2014</div>
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field--item">  In a data-processing room at NASA’s Goddard Space Flight Center in Greenbelt, Maryland, racks of high-powered computers are making a set of maps. They're not the familiar satellite map of farms, forests and cities. Instead, the maps will show what's in the atmosphere above the ground -- falling rain and snow. The data come from the Global Precipitation Measurement mission, an international partnership led by NASA and the Japan Aerospace Exploration Agency. The GPM Core Observatory launched on Feb. 27, 2014, and after an initial check-out period, began its prime mission on May 29. The data...
+
+  <div class="more-link"><a href="/data/gpms-how-guide-global-rain-maps" class="more-link" aria-label="Read more about GPM&amp;#039;s How-to Guide for Global Rain Maps" hreflang="und">Read More</a></div>
+</div>
+      
+  </div>
+</div>
+
+</div>
+
+    </div>
+  
+        <nav role="navigation" aria-labelledby="pagination-heading">
+    <h4 class="sr-only">Pagination</h4>
+    <ul class="pager js-pager__items">
+                    <li class="next">
+          <a href="/data?page=1" title="Go to next page" rel="next">
+            <span class="sr-only">Next page</span>
+            <span aria-hidden="true">&gt;&gt;</span>
+          </a>
+        </li>
+          </ul>
+  </nav>
+
+          </div>
+</div>
+</div>
+          </div>
+  
+  </div>
+</div>
+</div>
+  
+      <div class="field field--name-field-hide-fields field--type-entity-reference field--label-hidden field--items">
+              <div class="field--item"><div>
+  
+      <h2><a href="/taxonomy/term/1347">
+            <div class="field field--name-name field--type-string field--label-hidden field--item">Hide Body</div>
+      </a></h2>
+    
+  
+            <div class="field field--name-description field--type-text-long field--label-hidden field--item"><style type="text/css">.node .field--name-body{
+display:none;
+}
+.node .view .field--name-body{
+display:block;
+}
+</style>
+</div>
+      
+</div>
+</div>
+              <div class="field--item"><div>
+  
+      <h2><a href="/taxonomy/term/1346">
+            <div class="field field--name-name field--type-string field--label-hidden field--item">Hide Date</div>
+      </a></h2>
+    
+  
+            <div class="field field--name-description field--type-text-long field--label-hidden field--item"><style type="text/css">.node .field--name-node-changed-date,
+.node-body > .field--name-node-post-date,
+.node .view .field--name-node-changed-date{
+display:none;
+}
+</style>
+</div>
+      
+</div>
+</div>
+          </div>
+  
+  </div>
+  </div>
+</div>
+
+
+
+  </div>
+
+              </section>
+
+                              <aside class="col-sm-3" role="complementary">
+              <div class="region region-sidebar-second">
+    <nav role="navigation" aria-labelledby="block-pmm-bs-mainmenu-3-menu" id="block-pmm-bs-mainmenu-3">
+      
+  <h2 id="block-pmm-bs-mainmenu-3-menu">Data</h2>
+  
+
+        
+      <ul class="menu menu--main-menu nav">
+                      <li class="first">
+                                        <a href="/data/directory" data-drupal-link-system-path="node/2971">Data Directory</a>
+              </li>
+                      <li>
+                                        <a href="/data/sources" title="Description of the various sources for downloading and viewing GPM data. " data-drupal-link-system-path="data/sources">Data Sources</a>
+              </li>
+                      <li>
+                                        <a href="/data/news" title="News and updates about PMM data products." data-drupal-link-system-path="node/3180">Data News</a>
+              </li>
+                      <li>
+                                        <a href="/data/faq" title="Data Frequently Asked Questions" data-drupal-link-system-path="data/faq">Data FAQ</a>
+              </li>
+                      <li>
+                                        <a href="/data/policy" data-drupal-link-system-path="node/3170">Data Policy</a>
+              </li>
+                      <li>
+                                        <a href="/data/training" data-drupal-link-system-path="node/2523">Training</a>
+              </li>
+                      <li>
+                                        <a href="/data/tutorials" data-drupal-link-system-path="node/3169">Tutorials</a>
+              </li>
+                      <li>
+                                        <a href="/data/ground-validation" data-drupal-link-system-path="node/3349">Ground Validation Data</a>
+              </li>
+                      <li class="expanded dropdown">
+                                                                    <a href="/data/imerg" title="IMERG: Integrated Multi-satellitE Retrievals for GPM" class="dropdown-toggle" data-toggle="dropdown" data-drupal-link-system-path="node/3250">IMERG <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                      <li class="first">
+                                        <a href="/data/imerg/precipitation-climatology" data-drupal-link-system-path="node/3321">Precipitation Climatology</a>
+              </li>
+                      <li class="last">
+                                        <a href="/data/imerg/seasonal-precipitation-variations" title="Seasonal Precipitation Variations" data-drupal-link-system-path="node/3329">Seasonal Precipitation Variations</a>
+              </li>
+        </ul>
+  
+              </li>
+                      <li class="expanded dropdown">
+                                                                    <a href="/data/visualization" class="dropdown-toggle" data-toggle="dropdown" data-drupal-link-system-path="node/3160">Visualization <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                      <li class="first">
+                                        <a href="/data/visualization/global-viewer" data-drupal-link-system-path="node/3159">IMERG Global Viewer</a>
+              </li>
+                      <li>
+                                        <a href="/data/visualization/worldview" data-drupal-link-system-path="node/3351">NASA Worldview</a>
+              </li>
+                      <li>
+                                        <a href="/data/visualization/precip-apps" data-drupal-link-system-path="node/4504">Precipitation &amp; Applications Viewer</a>
+              </li>
+                      <li class="last">
+                                        <a href="/data/visualizations/rain-global" data-drupal-link-system-path="node/4515">RAIN Global Viewer</a>
+              </li>
+        </ul>
+  
+              </li>
+                      <li class="last">
+                                        <a href="/data/articles" data-drupal-link-system-path="node/3247">Articles</a>
+              </li>
+        </ul>
+  
+
+  </nav>
+<section id="block-pmm-bs-entityviewcontent" class="block block-ctools block-entity-viewnode clearfix">
+  
+    
+
+      <div data-history-node-id="2510" class="row bs-1col node node--type-article-d8 node--view-mode-sidebar-top">
+  
+  <div class="col-sm-12 bs-region bs-region--main">
+    
+  </div>
+</div>
+
+
+  </section>
+
+<section id="block-followus" class="block block-block-content block-block-content59b85017-9fe5-402b-afb8-3fed7981e19c clearfix">
+  
+    
+
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"><h4>Connect With Us</h4><div><a href="https://twitter.com/NASAEarth"><img alt="" data-entity-type="" data-entity-uuid="" src="/themes/custom/pmm_bs/images/X_icon_2_sm.png"></a> <a href="https://facebook.com/NASAEarth"><img alt="" data-entity-type="" data-entity-uuid="" src="/themes/custom/pmm_bs/images/facebook-icon.png"></a> <a href="http://www.youtube.com/playlist?list=PL_8hVmWnP_O258ZS4-HKumKTfX7f72LHA"><img class="youtube" alt="" data-entity-type="" data-entity-uuid="" src="/themes/custom/pmm_bs/images/youtube-icon.png"></a></div></div>
+      
+  </section>
+
+<section id="block-pmm-bs-contactus" class="block block-block-content block-block-content0a90f2d7-bcdf-46be-af28-b78c12eec77c clearfix">
+  
+    
+
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"><div class="click-div" onclick="window.location=&apos;/form/ask-a-question&apos;"><div>Ask A Question</div><div>&nbsp;</div></div></div>
+      
+  </section>
+
+<section id="block-pmm-bs-entityviewcontent-2" class="block block-ctools block-entity-viewnode clearfix">
+  
+    
+
+      <div data-history-node-id="2510" class="row bs-1col node node--type-article-d8 node--view-mode-sidebar-bottom">
+  
+  <div class="col-sm-12 bs-region bs-region--main">
+    
+            <div class="field field--name-field-custom-sidebar-bottom field--type-text-long field--label-hidden field--item"><h2>Other NASA Data Resources</h2>
+
+<h4><a href="https://earthdata.nasa.gov/">NASA Earthdata</a></h4>
+
+<h4><a href="https://arset.gsfc.nasa.gov/home">NASA&nbsp;ARSET: Applied Remote Sensing Training</a></h4>
+
+<h4><a href="https://disasters.nasa.gov">NASA Earth Applied Sciences Disasters Program</a></h4>
+
+<h4><a href="https://worldview.earthdata.nasa.gov">NASA Worldview</a></h4>
+</div>
+      
+  </div>
+</div>
+
+
+  </section>
+
+
+  </div>
+
+          </aside>
+                  </div>
+  </div>
+
+      <footer class="footer container" role="contentinfo">
+        <div class="region region-footer">
+    <section id="block-pmm-bs-footernasa" class="block block-block-content block-block-content15be9b68-d149-479f-8619-2fbf79144161 clearfix">
+  
+    
+
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"><div id="footer_goddard"><a href="http://www.nasa.gov/centers/goddard/home/index.html"><img alt="Goddard Space Flight Center Logo" data-entity-type="" data-entity-uuid="" src="/themes/custom/pmm_bs/images/goddard-logo-v1.png" /></a></div>
+
+<ul id="footer_info1">
+	<li>NASA Official:&nbsp;<a href="/contact">George Huffman</a></li>
+	<li>NASA HQ: <a href="/contact">Will McCarty</a></li>
+	<li>Web Curator: <a href="/contact">Charles Cosner</a></li>
+	<li>Webmaster: <a href="/contact">Jacob Reed</a></li>
+</ul>
+
+<ul id="footer_info2">
+	<li>+ <a href="http://www.nasa.gov/about/highlights/HP_Privacy.html">Privacy Policy</a>&nbsp;&amp; <a href=" https://www.nasa.gov/accessibility/">Accessibility</a></li>
+	<li>+ <a href="/image-use-policy">NASA Image Use Policy</a></li>
+	<li>+ <a href="/data/ask-a-question">Ask a Question</a></li>
+	<li>+ <a href="/sitemap">Site Map</a></li>
+</ul>
+
+<ul id="footer_info3">
+	<li>+ <a href="http://science.gsfc.nasa.gov/sed/index.cfm?fuseAction=home.main&amp;&amp;navOrgCode=610">Earth Science Division</a></li>
+	<li>+ <a href="http://www.nasa.gov/centers/goddard/home/index.html">Goddard Space Flight Center</a></li>
+	<li>+ <a href="http://www.nasa.gov">NASA.gov</a></li>
+	<li>+ <a href="http://www.usa.gov">USA.gov</a></li>
+</ul>
+
+<div id="footer_nasa"><a href="http://www.nasa.gov/"><img alt="NASA Logo" data-entity-type="" data-entity-uuid="" src="/themes/custom/pmm_bs/images/nasa-logo-large-v1.png" /></a></div>
+</div>
+      
+  </section>
+
+
+  </div>
+
+    </footer>
+  
+  </div>
+
+    
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"","currentPath":"node\/2510","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"ajaxPageState":{"libraries":"eJyFkeFuwyAMhF8IwiNFJjiNV8AIm7TZ0y_dsiSaUu0POn_nOyHwET4X54k7-ICn8cwqWqG4XfWlYk-Z9GQWLjxjPRFljkrFnGJQ4baKSY4ue8A3m8UOHFvK__pWH2zwqZHy3YXaCsRuG03CQOAYk8fQjVwTqK63PfVsgYN0LZfmI8mEwZSUei9upKelBDe0oktE-eVCAT1UmzC3nSkN98VmmFfHSCtYx7XM7eqK9dPrFSkrZr30JUGMMlTEfO2_lDQv79zCQkq8phdRTM6DoJkJH-K-z59fP4PEocVtp4dh4BrWvPszd7v6AvMV5Zo","theme":"pmm_bs","theme_token":null},"ajaxTrustedUrl":[],"data":{"extlink":{"extTarget":true,"extTargetAppendNewWindowLabel":"(opens in a new window)","extTargetNoOverride":true,"extNofollow":false,"extTitleNoOverride":false,"extNoreferrer":false,"extFollowNoOverride":false,"extClass":"0","extLabel":"(link is external)","extImgClass":false,"extSubdomains":true,"extExclude":"","extInclude":"","extCssExclude":"","extCssInclude":"","extCssExplicit":"","extAlert":true,"extAlertText":"This link will take you to an external web site. NASA is not responsible for their content.","extHideIcons":false,"mailtoClass":"0","telClass":"","mailtoLabel":"(link sends email)","telLabel":"(link is a phone number)","extUseFontAwesome":false,"extIconPlacement":"append","extPreventOrphan":false,"extFaLinkClasses":"fa fa-external-link","extFaMailtoClasses":"fa fa-envelope-o","extAdditionalLinkClasses":"","extAdditionalMailtoClasses":"","extAdditionalTelClasses":"","extFaTelClasses":"fa fa-phone","whitelistedDomains":[],"extExcludeNoreferrer":""}},"bootstrap":{"forms_has_error_value_toggle":1,"modal_animation":1,"modal_backdrop":"true","modal_focus_input":1,"modal_keyboard":1,"modal_select_text":1,"modal_show":1,"modal_size":"","popover_enabled":1,"popover_animation":1,"popover_auto_close":1,"popover_container":"body","popover_content":"","popover_delay":"0","popover_html":0,"popover_placement":"right","popover_selector":"","popover_title":"","popover_trigger":"click","tooltip_enabled":1,"tooltip_animation":1,"tooltip_container":"body","tooltip_delay":"0","tooltip_html":0,"tooltip_placement":"auto left","tooltip_selector":"","tooltip_trigger":"hover"},"field_group":{"html_element":{"mode":"default","context":"view","settings":{"classes":"node-body","id":"","element":"div","show_label":false,"label_element":"h3","attributes":"","effect":"none","speed":"fast"}}},"views":{"ajax_path":"\/views\/ajax","ajaxViews":{"views_dom_id:b7baeb11bc7273849c8357be7a0049cafff09d6ca543e81cb31002e6226e08fa":{"view_name":"articles_list_filtered","view_display_id":"block_1","view_args":"data","view_path":"\/node\/2510","view_base_path":null,"view_dom_id":"b7baeb11bc7273849c8357be7a0049cafff09d6ca543e81cb31002e6226e08fa","pager_element":0,"viewsreference":{"compressed":"eJxdj9sKwjAMQP8lz32Yior7mZLRWANtLW2cjLF_N3WwiQ8hl5MTyAwOBaGfQVgCQQ8HMIDFvyIl0faLFwOUcAjkbCURTr425WdtK812aM2qZixKrAbLZGXKjeoQfcH8gP8FdopP5-sO7kzB2YSxiUO2I9N7p4VGrvxMq3g5djdlq8JC0ToK7cNu-QDMflHp"}},"views_dom_id:86f20bad7607c56de054c8d9f234e2535640c1ff7b2b56772784f6843596861a":{"view_name":"data_news","view_display_id":"block_2","view_args":"","view_path":"\/node\/2510","view_base_path":null,"view_dom_id":"86f20bad7607c56de054c8d9f234e2535640c1ff7b2b56772784f6843596861a","pager_element":0,"viewsreference":{"compressed":"eJxdj9EKwyAMRf8lzz6UFbbhz0iKmQuoE007Sum_VxEm7CEk5NwTyAEWBUEfICyeQMMECjC7NVAU0HH1_lRAERdP1hQS4ehKE0ZojOp3pveqJsyVmFosu5E9NVqX6DKmN_wH2FY8z48BXkzemoihiUsyG9N30EwbF_7ELt5v07OyrrBQMJZ8-286L5lLUcI"}}}},"views_accordion":{"9c742dc4eaeba28037a1e75b06711ea375586d0a340f7dbe058d272ff9adb861":{"usegroupheader":false,"collapsible":1,"rowstartopen":false,"animated":false,"duration":false,"heightStyle":"content","event":"click","useHeaderIcons":1,"iconHeader":"ui-icon-triangle-1-e","iconActiveHeader":"ui-icon-triangle-1-s","display":".js-view-dom-id-9c742dc4eaeba28037a1e75b06711ea375586d0a340f7dbe058d272ff9adb861","header":".js-views-accordion-header-9c742dc4eaeba28037a1e75b06711ea375586d0a340f7dbe058d272ff9adb861"}},"superfish":{"superfish-main-menu":{"id":"superfish-main-menu","sf":{"animation":{"opacity":"show","height":"show"},"speed":"fast","autoArrows":false},"plugins":{"smallscreen":{"mode":"window_width","title":"Main Menu"},"supposition":true,"supersubs":true}}},"user":{"uid":0,"permissionsHash":"b9cbfc9dff3bceca56086ee63eb64967a07d3e37d50ad597d3d7e42034286019"}}</script>
+<script src="/sites/default/files/js/js_wQVfK9AU0AkURcLijhc5oWeb-q8sIxh6ITZnyMa26Bc.js?scope=footer&amp;delta=0&amp;language=en&amp;theme=pmm_bs&amp;include=eJx1kN0OgzAIRl-o2kdqqOJkawsp6HRPP_dnlsXdkPN9hwtCTHBbfSRu4QyLi8ymVkH8TkEqBipkX1JYeMb61RhzMhKHiyUqF9_XSSC17-gk5xDVD7Q0lOGEjdqaUD-9Uo8RapOxTHtn1F3WpsC8GaeTYB1IR7_TURfGx11UDIsdes2QknYVsRz7B-kU9Z8VVjLi4mbCq_rnfP3uiQG6jmu_Lfif3O50B7AjlJk"></script>
+
+  </body>
+</html>
+

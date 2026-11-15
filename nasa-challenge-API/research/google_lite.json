@@ -1,0 +1,13 @@
+{
+  "id": "google_lite",
+  "url": "https://aistudio.google.com/docs/models/gemini-3.5-flash-lite",
+  "checked_at": "2026-11-14T15:12:48.095584+00:00",
+  "tls_validation": false,
+  "status": 200,
+  "final_url": "https://aistudio.google.com/docs/models/gemini-3.5-flash-lite",
+  "bytes": 39562,
+  "content_type": "text/html; charset=utf-8",
+  "sha256": "7ace3663b3cbdf19952f50a4281bb3802c7dcb153c0768f341053777a045175f",
+  "links": [],
+  "elapsed_seconds": 0.562
+}

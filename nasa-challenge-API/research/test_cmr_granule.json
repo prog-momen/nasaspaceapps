@@ -1,0 +1,13 @@
+{
+  "id": "test_cmr_granule",
+  "url": "https://cmr.earthdata.nasa.gov/search/granules.json?short_name=MOD11C3&version=061&temporal=2025-01-01T00%3A00%3A00Z,2025-01-31T23%3A59%3A59Z&page_size=1",
+  "checked_at": "2026-11-14T15:12:43.500811+00:00",
+  "tls_validation": false,
+  "status": 400,
+  "final_url": "https://cmr.earthdata.nasa.gov/search/granules.json?short_name=MOD11C3&version=061&temporal=2025-01-01T00%3A00%3A00Z,2025-01-31T23%3A59%3A59Z&page_size=1",
+  "bytes": 142,
+  "content_type": "application/json",
+  "sha256": "456a07a72598d3defc1c4afd0e13b4324289d3e7c5a238b525cf3efe5cc39f81",
+  "links": [],
+  "elapsed_seconds": 0.469
+}

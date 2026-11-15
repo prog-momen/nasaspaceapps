@@ -1,0 +1,322 @@
+{
+  "id": "doc_horizons",
+  "url": "https://ssd-api.jpl.nasa.gov/doc/horizons.html",
+  "checked_at": "2026-11-14T15:13:37.004178+00:00",
+  "tls_validation": false,
+  "status": 200,
+  "final_url": "https://ssd-api.jpl.nasa.gov/doc/horizons.html",
+  "bytes": 112553,
+  "content_type": "text/html",
+  "sha256": "6ca45d9c222d6e5c425ae3e0a3c44225cf8b6d30c4a14892b0f1157b0ab4cfe4",
+  "links": [
+    {
+      "url": "https://ssd-api.jpl.nasa.gov/doc/horizons.html",
+      "label": "×"
+    },
+    {
+      "url": "http://www.enable-javascript.com",
+      "label": "these instructions"
+    },
+    {
+      "url": "https://www.nasa.gov/",
+      "label": ""
+    },
+    {
+      "url": "http://www.jpl.nasa.gov/",
+      "label": ""
+    },
+    {
+      "url": "http://www.caltech.edu/",
+      "label": ""
+    },
+    {
+      "url": "https://ssd-api.jpl.nasa.gov/",
+      "label": ""
+    },
+    {
+      "url": "https://ssd-api.jpl.nasa.gov/",
+      "label": ""
+    },
+    {
+      "url": "https://ssd-api.jpl.nasa.gov/about/",
+      "label": "About"
+    },
+    {
+      "url": "https://ssd-api.jpl.nasa.gov/doc/",
+      "label": "Documents"
+    },
+    {
+      "url": "https://ssd-api.jpl.nasa.gov/doc/horizons.html#change_log",
+      "label": "change log"
+    },
+    {
+      "url": "https://ssd.jpl.nasa.gov/horizons/",
+      "label": "Horizons system"
+    },
+    {
+      "url": "https://ssd-api.jpl.nasa.gov/doc/horizons_file.html",
+      "label": "file-based Horizons API"
+    },
+    {
+      "url": "https://ssd.jpl.nasa.gov/ftp/ssd/horizons_batch.txt",
+      "label": "Horizons batch example/instructions"
+    },
+    {
+      "url": "https://ssd-api.jpl.nasa.gov/doc/horizons.html",
+      "label": ""
+    },
+    {
+      "url": "https://ssd-api.jpl.nasa.gov/doc/horizons.html#encode",
+      "label": "require URL encoding"
+    },
+    {
+      "url": "https://ssd-api.jpl.nasa.gov/doc/horizons.html#common",
+      "label": "Common Parameters"
+    },
+    {
+      "url": "https://ssd-api.jpl.nasa.gov/doc/horizons.html#specific",
+      "label": "Ephemeris-Specific Parameters"
+    },
+    {
+      "url": "https://ssd-api.jpl.nasa.gov/doc/horizons.html#spk",
+      "label": "SPK File Parameters"
+    },
+    {
+      "url": "https://ssd-api.jpl.nasa.gov/doc/horizons.html#ca",
+      "label": "Close-Approach Table Parameters"
+    },
+    {
+      "url": "https://ssd.jpl.nasa.gov/horizons/manual.html",
+      "label": "Horizons documentation"
+    },
+    {
+      "url": "https://ssd.jpl.nasa.gov/ftp/ssd/horizons_batch.txt",
+      "label": "Horizons batch example"
+    },
+    {
+      "url": "https://ssd-api.jpl.nasa.gov/doc/horizons.html",
+      "label": ""
+    },
+    {
+      "url": "https://ssd-api.jpl.nasa.gov/doc/horizons.html#command",
+      "label": "details below"
+    },
+    {
+      "url": "https://ssd.jpl.nasa.gov/horizons/manual.html#select",
+      "label": "link"
+    },
+    {
+      "url": "https://ssd-api.jpl.nasa.gov/doc/horizons.html#ephem_type",
+      "label": "details below"
+    },
+    {
+      "url": "https://ssd-api.jpl.nasa.gov/doc/horizons.html",
+      "label": ""
+    },
+    {
+      "url": "https://ssd-api.jpl.nasa.gov/doc/horizons.html#center",
+      "label": "details below"
+    },
+    {
+      "url": "https://ssd.jpl.nasa.gov/horizons/manual.html#center",
+      "label": "link"
+    },
+    {
+      "url": "https://ssd.jpl.nasa.gov/horizons/manual.html#center",
+      "label": "link"
+    },
+    {
+      "url": "https://ssd.jpl.nasa.gov/horizons/manual.html#center",
+      "label": "link"
+    },
+    {
+      "url": "https://ssd.jpl.nasa.gov/horizons/manual.html#time",
+      "label": "link"
+    },
+    {
+      "url": "https://ssd.jpl.nasa.gov/horizons/manual.html#time",
+      "label": "link"
+    },
+    {
+      "url": "https://ssd-api.jpl.nasa.gov/doc/horizons.html#stepping",
+      "label": "details below"
+    },
+    {
+      "url": "https://ssd.jpl.nasa.gov/horizons/manual.html#time",
+      "label": "link"
+    },
+    {
+      "url": "https://ssd-api.jpl.nasa.gov/doc/horizons.html#tlist",
+      "label": "details below"
+    },
+    {
+      "url": "https://ssd.jpl.nasa.gov/horizons/manual.html#output",
+      "label": "link"
+    },
+    {
+      "url": "https://ssd.jpl.nasa.gov/horizons/manual.html#obsquan",
+      "label": "link"
+    },
+    {
+      "url": "https://ssd.jpl.nasa.gov/horizons/manual.html#frames",
+      "label": "link"
+    },
+    {
+      "url": "https://ssd-api.jpl.nasa.gov/doc/horizons.html#vec_table",
+      "label": "details below"
+    },
+    {
+      "url": "https://ssd.jpl.nasa.gov/horizons/manual.html#output",
+      "label": "link"
+    },
+    {
+      "url": "https://ssd-api.jpl.nasa.gov/doc/horizons.html",
+      "label": ""
+    },
+    {
+      "url": "https://ssd.jpl.nasa.gov/horizons/manual.html#spk",
+      "label": "Horizons documentation"
+    },
+    {
+      "url": "https://ssd-api.jpl.nasa.gov/doc/horizons.html#spk_file",
+      "label": "SPK file output"
+    },
+    {
+      "url": "https://ssd.jpl.nasa.gov/horizons/manual.html#time",
+      "label": "link"
+    },
+    {
+      "url": "https://ssd.jpl.nasa.gov/horizons/manual.html#time",
+      "label": "link"
+    },
+    {
+      "url": "https://ssd-api.jpl.nasa.gov/doc/horizons.html",
+      "label": ""
+    },
+    {
+      "url": "https://ssd.jpl.nasa.gov/horizons/manual.html#ca",
+      "label": "Horizons documentation"
+    },
+    {
+      "url": "https://ssd-api.jpl.nasa.gov/doc/horizons.html",
+      "label": ""
+    },
+    {
+      "url": "https://ssd.jpl.nasa.gov/horizons/manual.html#user",
+      "label": "Horizons documentation"
+    },
+    {
+      "url": "https://ssd-api.jpl.nasa.gov/doc/horizons.html",
+      "label": ""
+    },
+    {
+      "url": "https://ssd-api.jpl.nasa.gov/doc/horizons.html",
+      "label": ""
+    },
+    {
+      "url": "https://ssd.jpl.nasa.gov/horizons/manual.html#search",
+      "label": "Horizons documentation"
+    },
+    {
+      "url": "https://ssd-api.jpl.nasa.gov/doc/horizons.html#sb",
+      "label": "heliocentric ecliptic small-body osculating elements"
+    },
+    {
+      "url": "https://ssd-api.jpl.nasa.gov/doc/horizons.html#tle",
+      "label": "TLEs"
+    },
+    {
+      "url": "https://ssd.jpl.nasa.gov/horizons/manual.html#select",
+      "label": "Horizons documentation"
+    },
+    {
+      "url": "https://ssd-api.jpl.nasa.gov/doc/horizons.html",
+      "label": ""
+    },
+    {
+      "url": "https://ssd.jpl.nasa.gov/horizons/manual.html#center",
+      "label": "Horizons documentation"
+    },
+    {
+      "url": "https://ssd-api.jpl.nasa.gov/doc/horizons.html",
+      "label": ""
+    },
+    {
+      "url": "https://ssd-api.jpl.nasa.gov/doc/horizons.html",
+      "label": ""
+    },
+    {
+      "url": "https://ssd-api.jpl.nasa.gov/doc/horizons_file.html",
+      "label": "file-based Horizons API"
+    },
+    {
+      "url": "https://ssd-api.jpl.nasa.gov/doc/horizons.html",
+      "label": ""
+    },
+    {
+      "url": "https://ssd-api.jpl.nasa.gov/doc/horizons.html",
+      "label": ""
+    },
+    {
+      "url": "https://ssd.jpl.nasa.gov/horizons/manual.html#tles",
+      "label": "Horizons documentation"
+    },
+    {
+      "url": "https://ssd.jpl.nasa.gov/horizons/manual.html",
+      "label": "Horizons system documentation"
+    },
+    {
+      "url": "https://ssd.jpl.nasa.gov/horizons/manual.html",
+      "label": "Horizons documentation"
+    },
+    {
+      "url": "https://ssd-api.jpl.nasa.gov/doc/horizons.html",
+      "label": ""
+    },
+    {
+      "url": "https://ssd-api.jpl.nasa.gov/doc/horizons.html",
+      "label": ""
+    },
+    {
+      "url": "https://ssd-api.jpl.nasa.gov/doc/horizons.html#encode",
+      "label": "encode special characters"
+    },
+    {
+      "url": "https://ssd-api.jpl.nasa.gov/doc/horizons.html",
+      "label": ""
+    },
+    {
+      "url": "https://datatracker.ietf.org/doc/html/rfc3875#section-2.3",
+      "label": "section 2.3 of RFC3975"
+    },
+    {
+      "url": "https://ssd-api.jpl.nasa.gov/doc/horizons.html#request",
+      "label": "HTTP Request"
+    },
+    {
+      "url": "https://ssd-api.jpl.nasa.gov/doc/horizons.html",
+      "label": ""
+    },
+    {
+      "url": "http://www.jpl.nasa.gov/copyrights.php",
+      "label": "Privacy"
+    },
+    {
+      "url": "https://ssd-api.jpl.nasa.gov/doc/horizons.html",
+      "label": "|"
+    },
+    {
+      "url": "http://www.jpl.nasa.gov/imagepolicy",
+      "label": "Image Policy"
+    },
+    {
+      "url": "http://www.jpl.nasa.gov/copyrights.php",
+      "label": "Privacy"
+    },
+    {
+      "url": "http://www.jpl.nasa.gov/imagepolicy",
+      "label": "Image Policy"
+    }
+  ],
+  "elapsed_seconds": 3.734
+}

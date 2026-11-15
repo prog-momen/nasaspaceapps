@@ -1,0 +1,234 @@
+{
+  "id": "resource_R070",
+  "url": "https://www.cocorahs.org/Maps",
+  "checked_at": "2026-11-14T15:15:18.717652+00:00",
+  "tls_validation": false,
+  "status": 200,
+  "final_url": "https://www.cocorahs.org/Maps/",
+  "bytes": 26186,
+  "content_type": "text/html; charset=utf-8",
+  "sha256": "2bbfff1f2036d452cd395b0525aeb61d7cf2c4b5d528b3abd055e9f6ea5ad2de",
+  "links": [
+    {
+      "url": "https://www.cocorahs.org/",
+      "label": ""
+    },
+    {
+      "url": "https://cocorahs.blogspot.com/",
+      "label": ""
+    },
+    {
+      "url": "https://www.facebook.com/CoCoRaHS",
+      "label": ""
+    },
+    {
+      "url": "https://www.youtube.com/cocorahs/",
+      "label": ""
+    },
+    {
+      "url": "https://www.cocorahs.org/",
+      "label": "Home"
+    },
+    {
+      "url": "https://www.cocorahs.org/Content.aspx?page=countries",
+      "label": "Countries"
+    },
+    {
+      "url": "https://www.cocorahs.org/States.aspx",
+      "label": "States"
+    },
+    {
+      "url": "https://www.cocorahs.org/ViewData/",
+      "label": "View Data"
+    },
+    {
+      "url": "https://www.cocorahs.org/Maps/",
+      "label": "Maps"
+    },
+    {
+      "url": "https://www.cocorahs.org/Admin/MyDataEntry/",
+      "label": "My Data Entry"
+    },
+    {
+      "url": "https://www.cocorahs.org/Login.aspx",
+      "label": "Login"
+    },
+    {
+      "url": "https://www.cocorahs.org/",
+      "label": "Home"
+    },
+    {
+      "url": "https://www.cocorahs.org/Content.aspx?page=aboutus",
+      "label": "About Us"
+    },
+    {
+      "url": "https://www.cocorahs.org/Content.aspx?page=application",
+      "label": "Join CoCoRaHS"
+    },
+    {
+      "url": "https://www.cocorahs.org/Content.aspx?page=contactus",
+      "label": "Contact Us"
+    },
+    {
+      "url": "https://give.colostate.edu/cocorahs-2026",
+      "label": "Donate"
+    },
+    {
+      "url": "https://www.cocorahs.org/Content.aspx?page=Help",
+      "label": "FAQ / Help"
+    },
+    {
+      "url": "https://www.cocorahs.org/Content.aspx?page=education",
+      "label": "Education"
+    },
+    {
+      "url": "https://www.cocorahs.org/Content.aspx?page=training_slideshows",
+      "label": "Training Slide-Shows"
+    },
+    {
+      "url": "http://www.youtube.com/cocorahs/",
+      "label": "Videos"
+    },
+    {
+      "url": "https://www.cocorahs.org/Content.aspx?page=condition",
+      "label": "Condition Monitoring"
+    },
+    {
+      "url": "https://www.cocorahs.org/Content.aspx?page=et",
+      "label": "Evapotranspiration"
+    },
+    {
+      "url": "https://www.cocorahs.org/Content.aspx?page=soilmoisture",
+      "label": "Soil Moisture"
+    },
+    {
+      "url": "https://www.cocorahs.org/Content.aspx?page=climate-normals",
+      "label": "NCEI Normals"
+    },
+    {
+      "url": "https://www.cocorahs.org/Content.aspx?page=coord",
+      "label": "Volunteer Coordinators"
+    },
+    {
+      "url": "https://www.cocorahs.org/Content.aspx?page=HailPadDropOff",
+      "label": "Hail Pad Distribution/Drop-off"
+    },
+    {
+      "url": "https://www.cocorahs.org/Content.aspx?page=HelpNeeded",
+      "label": "Help Needed"
+    },
+    {
+      "url": "https://www.cocorahs.org/Content.aspx?page=PrintableForms",
+      "label": "Printable Forms"
+    },
+    {
+      "url": "https://www.cocorahs.org/Content.aspx?page=catch",
+      "label": "The Catch"
+    },
+    {
+      "url": "https://www.cocorahs.org/Content.aspx?page=mod&mod=1",
+      "label": "The Squall Line"
+    },
+    {
+      "url": "https://www.cocorahs.org/Content.aspx?page=publications",
+      "label": "Publications"
+    },
+    {
+      "url": "http://cocorahs.blogspot.com/",
+      "label": "CoCoRaHS Blog"
+    },
+    {
+      "url": "https://www.cocorahs.org/Content.aspx?page=groups",
+      "label": "Web Groups"
+    },
+    {
+      "url": "https://www.cocorahs.org/Content.aspx?page=StateNewsletters",
+      "label": "State Newsletters"
+    },
+    {
+      "url": "https://www.cocorahs.org/Content.aspx?page=MasterGardener",
+      "label": "Master Gardener Guide"
+    },
+    {
+      "url": "https://www.cocorahs.org/Content.aspx?page=50StatesClimates",
+      "label": "State Climate Series"
+    },
+    {
+      "url": "https://www.cocorahs.org/marchmadness.aspx",
+      "label": "Rain Gauge Rally"
+    },
+    {
+      "url": "https://www.cocorahs.org/Content.aspx?page=wxtalk",
+      "label": "WxTalk Webinars"
+    },
+    {
+      "url": "https://www.cocorahs.org/Content.aspx?page=sponsors",
+      "label": "Sponsors"
+    },
+    {
+      "url": "https://www.cocorahs.org/Content.aspx?page=links",
+      "label": "Links"
+    },
+    {
+      "url": "https://www.cocorahs.org/Content.aspx?page=store",
+      "label": "CoCoRaHS Store"
+    },
+    {
+      "url": "https://www.nws.noaa.gov/com/weatherreadynation/#.VOt1A3a3yB8",
+      "label": ""
+    },
+    {
+      "url": "https://www.cocorahs.org/Content.aspx?page=noaa",
+      "label": ""
+    },
+    {
+      "url": "https://www.cocorahs.org/Content.aspx?page=CoCoRaHS_Uses",
+      "label": ""
+    },
+    {
+      "url": "https://maps.cocorahs.org",
+      "label": "Interactive"
+    },
+    {
+      "url": "https://maps.cocorahs.org",
+      "label": ""
+    },
+    {
+      "url": "https://www.cocorahs.org/Maps/conditionmonitoring/",
+      "label": "Condition Monitoring"
+    },
+    {
+      "url": "https://www.cocorahs.org/Maps/conditionmonitoring/",
+      "label": ""
+    },
+    {
+      "url": "https://www.cocorahs.org/Maps/ViewMap.aspx",
+      "label": "Static"
+    },
+    {
+      "url": "https://www.cocorahs.org/Maps/ViewMap.aspx?state=usa",
+      "label": ""
+    },
+    {
+      "url": "https://data.cocorahs.org/cocorahs/maps/",
+      "label": "Google Map"
+    },
+    {
+      "url": "mailto:info@cocorahs.org",
+      "label": "info@cocorahs.org"
+    },
+    {
+      "url": "https://creativecommons.org/licenses/by/4.0/",
+      "label": "Creative Commons Attribution 4.0 License"
+    },
+    {
+      "url": "https://www.cocorahs.org/Content.aspx?page=privacypolicy",
+      "label": "Privacy Policy"
+    },
+    {
+      "url": "https://www.cocorahs.org/Content.aspx?page=datausagepolicy",
+      "label": "Data Usage Policy"
+    }
+  ],
+  "elapsed_seconds": 1.984
+}

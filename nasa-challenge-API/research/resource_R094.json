@@ -1,0 +1,13 @@
+{
+  "id": "resource_R094",
+  "url": "https://opensciencedata.esa.int/?utm_source=%27chatgpt.com%27",
+  "checked_at": "2026-11-14T15:15:22.385624+00:00",
+  "tls_validation": false,
+  "status": 200,
+  "final_url": "https://opensciencedata.esa.int/?utm_source=%27chatgpt.com%27",
+  "bytes": 975,
+  "content_type": "text/html",
+  "sha256": "8f0dc479402ace97b39960469618309b93014eb18dee63dda29447acdfd1249c",
+  "links": [],
+  "elapsed_seconds": 0.562
+}

@@ -1,0 +1,1633 @@
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- Meta info -->
+		<meta charset="UTF-8">
+		<meta name="language" content="english">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+		<meta name="author" content="NASA Scientific Visualization Studio">
+		<meta
+			name="description"
+			content="
+	Scientific Vizualisation Studio – Tutorials, Links, and Other Helpful Information
+"
+		>
+		<meta
+			name="keywords"
+			content="NASA, SVS, Scientific Visualization Studio, Scientific Visualization, 
+	help, tutorials, links
+"
+		>
+
+		<!-- Open graph protocol properties --> 
+		<meta property="og:title" content="Scientific Visualization Studio">
+		<meta property="og:type" content="website">
+		<meta property="og:image" content="/static/svs/images/nasa-meatball.svg">
+		<meta property="og:description" content="The NASA Scientific Visualization Studio works closely with scientists in the creation of visualizations, animations, and images in order to promote a greater understanding of Earth and Space Science research activities at NASA and within the academic research community supported by NASA.">
+		
+		
+		
+		<meta property="og:url" content="http://svs.gsfc.nasa.gov/help/">
+		<meta property="og:locale" content="en_US">
+		<meta property="og:site_name" content="NASA Scientific Visualization Studio">
+
+		<!-- json-ld properties -->
+		<script type="application/ld+json">
+			{"@context": "http://schema.org", "@type": "WebPage", "headline": "Help", "url": "http://svs.gsfc.nasa.gov/help/", "thumbnailUrl": "/static/svs/images/nasa-meatball.svg"}
+		</script>
+
+		<!-- Icons -->
+		<link rel="icon" sizes="16x16" type="image/png" href="https://nasa.gov/wp-content/plugins/nasa-hds-core-setup/assets/favicons/favicon-16x16.png">
+		<link rel="icon" sizes="32x32" type="image/png" href="https://nasa.gov/wp-content/plugins/nasa-hds-core-setup/assets/favicons/favicon-32x32.png">
+		<link rel="icon" sizes="57x57" type="image/png" href="https://nasa.gov/wp-content/plugins/nasa-hds-core-setup/assets/favicons/favicon-57x57.png">
+		<link rel="icon" sizes="76x76" type="image/png" href="https://nasa.gov/wp-content/plugins/nasa-hds-core-setup/assets/favicons/favicon-76x76.png">
+		<link rel="icon" sizes="96x96" type="image/png" href="https://nasa.gov/wp-content/plugins/nasa-hds-core-setup/assets/favicons/favicon-96x96.png">
+		<link rel="icon" sizes="128x128" type="image/png" href="https://nasa.gov/wp-content/plugins/nasa-hds-core-setup/assets/favicons/favicon-128x128.png">
+		<link rel="icon" sizes="192x192" type="image/png" href="https://nasa.gov/wp-content/plugins/nasa-hds-core-setup/assets/favicons/favicon-192x192.png">
+		<link rel="icon" sizes="196x196" type="image/png" href="https://nasa.gov/wp-content/plugins/nasa-hds-core-setup/assets/favicons/favicon-196x196.png">
+		<link rel="icon" sizes="228x228" type="image/png" href="https://nasa.gov/wp-content/plugins/nasa-hds-core-setup/assets/favicons/favicon-228x228.png">
+
+		<!-- Tab title -->
+		<title>NASA SVS | Tutorials, Links, and Other Helpful Information</title>
+
+		<!-- Resources -->
+		<script
+			src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"
+			onerror="document.write(`<script src='/static/svs/js/jquery-3.6.0.min.js'>\x3C/script>`)"
+		>
+		</script>
+		<script
+			src="https://cdn.jsdelivr.net/npm/underscore@1.13.6/underscore-min.min.js"
+			onerror="document.write(`<script src='/static/svs/js/underscore-umd-min.js'>\x3C/script>`)"
+		>
+		</script>
+		
+		
+
+		<!-- Stylesheets -->
+		<link href="/static/svs/css/bootstrap.min.css" rel="stylesheet">
+		<link href="/static/svs/css/bootstrap-icons.min.css" rel="stylesheet">
+		<link href="/static/svs/css/style.css" rel="stylesheet">
+		
+		
+	</head>
+	<body>
+		<header>
+			<!-- Top navigation bar -->
+			<nav id="top-navbar" class="navbar navbar-expand-md navbar-dark position-fixed">
+				<div class="container-fluid">
+					<!-- NASA brand -->
+					<a class="navbar-brand p-0 m-0" href="https://www.nasa.gov/">
+						<img
+							src="/static/svs/images/nasa-meatball.svg"
+							alt="NASA Logo"
+							height="40px"
+						>
+					</a>
+
+					<span class="d-flex flex-nowrap overflow-hidden">
+						
+							<!-- SVS brand -->
+							<a class="navbar-brand py-0 px-2 m-0 svs-brand svs-brand-svs" href="/">Scientific Visualization Studio</a>
+						
+
+						
+							
+						
+					</span>
+
+					<!-- Toggle button for collapsed navbar links -->
+					<button
+						class="navbar-toggler ms-auto"
+						type="button"
+						data-bs-toggle="offcanvas"
+						data-bs-target="#navbar-offcanvas"
+						aria-controls="navbar-offcanvas"
+						aria-expanded="false"
+						aria-label="Toggle navigation"
+					>
+						<span class="navbar-toggler-icon"></span>
+					</button>
+
+					<!-- Nav links + search box -->
+					<div class="offcanvas offcanvas-end text-bg-dark flex-shrink-0 flex-grow-1" id="navbar-offcanvas">
+						<div class="offcanvas-header position-absolute top-0 end-0">
+							<button type="button" class="btn-close btn-close-white p-3" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+						</div>
+						<div class="offcanvas-body">
+							<ul class="navbar-nav ms-auto justify-content-end">
+								<!-- Nav links -->
+								
+									
+										
+									
+									<li class="nav-item">
+										<a class="nav-link" href="/gallery/the-galleries/"><span class="bi bi-images" aria-hidden="true"></span> Galleries</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="/help/"><span class="bi bi-question-circle" aria-hidden="true"></span> Help</a>
+									</li>
+								
+								
+								
+								
+									<!-- Search box -->
+									<form id="navbar_search_form" class="ps-0 ps-md-2" role="search" action="/search" method="get">
+										<div class="input-group flex-nowrap w-100">
+	
+		
+		<input
+			type="text"
+			id="navbar_search_box"
+			class="form-control ckempty border border-end-0  text-light bg-dark border-light"
+			name="search"
+			value=""
+			placeholder="Search..."
+			aria-label="Search..."
+		>
+		<label
+			for="navbar_search_box"
+			class="visually-hidden"
+		>
+			Search
+		</label>
+		<button
+			id="navbar_search_box_clear"
+			type="reset"
+			class="btn btn-primary border-start-0 border border-end-0 pe-1 bg-dark border-light"
+			title="Clear search text"
+			aria-label="Clear search text"
+			
+			onclick="$('#navbar_search_box').val('')"
+			
+		>
+			<span
+				class="bi bi-backspace text-light"
+				aria-hidden="true"
+			> </span>
+		</button>
+		<button
+			id="navbar_search_box_submit"
+			type="submit"
+			title="Search!"
+			aria-label="Search!"
+			class="btn btn-primary border border-start-0 pe-3 bg-dark border-light"
+		>
+			<span
+				class="bi bi-search text-light"
+				aria-hidden="true"
+			> </span>
+		</button>
+	
+</div>
+
+									</form>
+								
+							</ul>
+						</div>
+					</div>
+				</div>
+			</nav>
+		</header>
+		<main class="flex-fill">
+			<div id="alerts" class="position-fixed w-100 p-2" style="z-index: 999">
+				
+					
+
+
+				
+				
+					
+				
+			</div>
+			<div id="main-container" class="position-relative vstack container py-2">
+				
+	<h1 id="title">Tutorials, Links, and Other Helpful Information</h1>
+	<span class="text-muted"><b>Last updated</b> March 27th, 2024</span>
+	<hr>
+	<div class="row">
+		<!-- Table of Contents -->
+		<div class="col-12 col-md-4 col-lg-3 pb-3">
+			<div class="card p-3 content-sticky-top">
+				<h2 class="fs-5">Contents</h2>
+				<nav id="help-sidebar" class="nav nav-pills flex-column flex-nowrap" style="max-height: 50vh; overflow-y: auto">
+					
+					<a href="#faq" class="nav-link nav-link-relative">Frequently Asked Questions</a>
+					<a href="#multimedia-content" class="nav-link nav-link-relative">Multimedia Content</a>
+					<nav class="nav nav-pills flex-column ms-3">
+						<a href="#multimedia-videos" class="nav-link nav-link-relative my-1 py-1"><small>Videos</small></a>
+						<a href="#multimedia-images" class="nav-link nav-link-relative my-1 py-1"><small>Images</small></a>
+						<a href="#multimedia-frames" class="nav-link nav-link-relative my-1 py-1"><small>Frames</small></a>
+					</nav>
+					<a href="#apis" class="nav-link nav-link-relative">Using our APIs</a>
+					<nav class="nav nav-pills flex-column ms-3">
+						<a href="#apis-search" class="nav-link nav-link-relative my-1 py-1"><small>Search API</small></a>
+						<a href="#apis-page" class="nav-link nav-link-relative my-1 py-1"><small>Page API</small></a>
+						<nav class="nav nav-pills flex-column ms-3">
+							<a href="#apis-page-visualization-pages" class="nav-link nav-link-relative my-1 py-1"><small>Visualization Pages</small></a>
+							<a href="#apis-page-gallery-pages" class="nav-link nav-link-relative my-1 py-1"><small>Gallery Pages</small></a>
+						</nav>
+						<a href="#apis-dialamoon" class="nav-link nav-link-relative my-1 py-1"><small>Dial-A-Moon API</small></a>
+						<a href="#apis-media-group-items" class="nav-link nav-link-relative my-1 py-1"><small>Media Group Items</small></a>
+						<a href="#apis-media-items" class="nav-link nav-link-relative my-1 py-1"><small>Media Items</small></a>
+					</nav>
+					<a href="#further-assistance" class="nav-link nav-link-relative">Further Assistance</a>
+					
+				</nav>
+			</div>
+		</div>
+
+		<!-- Help Sections -->
+		<article class="col-12 col-md-8 col-lg-9" data-bs-spy="scroll" data-bs-target="#help-sidebar">
+			<section id="faq">
+				<h2>Frequently Asked Questions 
+
+
+	<button
+		type="button"
+		class="svs-copy-link-to-this-page-button btn btn-light px-1 py-0 fs-4"
+		title="Copy a link to this section"
+		tabindex="0"
+		aria-label="Copy a link to this section"
+		data-copy-url="http://svs.gsfc.nasa.gov/help/#faq"
+		data-bs-title="Copied!"
+		data-bs-trigger="manual"
+	><span class="bi bi-link-45deg" aria-hidden="true"></span></button>
+
+</h2>
+
+				<div class="accordion mb-2" id="faq">
+					
+						<div class="accordion-item">
+							<h3 id="faq_heading_1" class="accordion-header">
+								<button
+									class="accordion-button collapsed"
+									type="button"
+									data-bs-toggle="collapse"
+									data-bs-target="#faq_collapse_1"
+									aria-expanded="false"
+									aria-controls="faq_collapse_1"
+								>
+									<b>Can I use your visualizations?</b>
+								</button>
+							</h3>
+							<div
+								id="faq_collapse_1"
+								class="accordion-collapse collapse"
+								aria-labelledby="faq_heading_1"
+								data-bs-parent="#faq"
+							>
+								<div class="accordion-body pb-0">
+									<p>All of our content is in the public domain (unless otherwise noted), meaning that it is free to download, use, and redistribute for whatever purposes you see fit. For more information, see <a class="link" href="https://www.nasa.gov/multimedia/guidelines/index.html">NASA’s media usage guidelines</a>.</p>
+<p><em>Note</em>: some of our visualizations feature licensed music, which is <strong>not</strong> in the public domain. In these instances, the visualizations themselves are still in the public domain, meaning you're allowed to use them without the associated audio tracks. Individual visualizations will make note of this where applicable.</p>
+								</div>
+							</div>
+						</div>
+					
+						<div class="accordion-item">
+							<h3 id="faq_heading_2" class="accordion-header">
+								<button
+									class="accordion-button collapsed"
+									type="button"
+									data-bs-toggle="collapse"
+									data-bs-target="#faq_collapse_2"
+									aria-expanded="false"
+									aria-controls="faq_collapse_2"
+								>
+									<b>What formats do you release visualizations in?</b>
+								</button>
+							</h3>
+							<div
+								id="faq_collapse_2"
+								class="accordion-collapse collapse"
+								aria-labelledby="faq_heading_2"
+								data-bs-parent="#faq"
+							>
+								<div class="accordion-body pb-0">
+									<ul>
+<li><strong>Videos</strong> – Primarily <code>.mp4</code> and <code>.webm</code>. Some of our older content is also available in <code>.mpg</code> and <code>.dv</code>.</li>
+<li><strong>Frames</strong> – Most of our visualizations are accompanied by directories containing individual frames. These are generally released as <code>.exr</code> or <code>.tiff</code>.</li>
+<li><strong>Images</strong> – <code>.jpg</code>, <code>.png</code>, or <code>.tiff</code>.</li>
+</ul>
+								</div>
+							</div>
+						</div>
+					
+						<div class="accordion-item">
+							<h3 id="faq_heading_3" class="accordion-header">
+								<button
+									class="accordion-button collapsed"
+									type="button"
+									data-bs-toggle="collapse"
+									data-bs-target="#faq_collapse_3"
+									aria-expanded="false"
+									aria-controls="faq_collapse_3"
+								>
+									<b>What software do you use to make your visualizations?</b>
+								</button>
+							</h3>
+							<div
+								id="faq_collapse_3"
+								class="accordion-collapse collapse"
+								aria-labelledby="faq_heading_3"
+								data-bs-parent="#faq"
+							>
+								<div class="accordion-body pb-0">
+									<p>The exact software used for visualizations varies from visualizer to visualizer, but here are some popular ones:</p>
+<ul>
+<li><strong>3D modeling / animation</strong> – Maya, Houdini</li>
+<li><strong>Rendering</strong> – Pixar Renderman, SideFX Mantra</li>
+<li><strong>Scripting</strong> – Python / C / IDL / C++</li>
+</ul>
+<p><em>Fun fact!</em> We were very early adopters of Python. Some of our early visualizations (2000 ~ 2002) were written in Python 1.6. The SVS was also a fairly early adopter of Renderman.  Our first Renderman visualization (released in 2002) was created using BMRT (Blue Moon Rendering Tools), a Renderman compliant renderer.</p>
+								</div>
+							</div>
+						</div>
+					
+				</div>
+			</section>
+
+			<section id="multimedia-content">
+				<h2>Multimedia Content 
+
+
+	<button
+		type="button"
+		class="svs-copy-link-to-this-page-button btn btn-light px-1 py-0 fs-4"
+		title="Copy a link to this section"
+		tabindex="0"
+		aria-label="Copy a link to this section"
+		data-copy-url="http://svs.gsfc.nasa.gov/help/#multimedia-content"
+		data-bs-title="Copied!"
+		data-bs-trigger="manual"
+	><span class="bi bi-link-45deg" aria-hidden="true"></span></button>
+
+</h2>
+
+				<section id="multimedia-videos">
+					<h3>Videos 
+
+
+	<button
+		type="button"
+		class="svs-copy-link-to-this-page-button btn btn-light px-1 py-0 fs-4"
+		title="Copy a link to this section"
+		tabindex="0"
+		aria-label="Copy a link to this section"
+		data-copy-url="http://svs.gsfc.nasa.gov/help/#multimedia-videos"
+		data-bs-title="Copied!"
+		data-bs-trigger="manual"
+	><span class="bi bi-link-45deg" aria-hidden="true"></span></button>
+
+</h3>
+
+					<h4>File Formats</h4>
+					<p>
+						Our videos are primarily released in <code>.mp4</code> and <code>.webm</code>. Both of these file formats are supported in all modern web browsers. If you're having issues viewing either of these, we'd recommend either downloading the videos and attempting to preview them with your media viewer of choice, or trying to view the page in a different browser.
+					</p>
+					<p>
+						Some of our older content is also available in <code>.mpg</code> and <code>.dv</code>. While these formats are not supported for web display, we have retroactively generated <code>.webm</code> copies of these visualizations, which should display without any issues. <code>.mpg</code> and <code>.dv</code> are generally still supported in desktop media viewer applications, and you may have luck downloading them.
+					</p>
+
+					<h4>Resolutions</h4>
+					<p>
+						In most cases, our newer visualizations are created in 4K (3840 x 2160) at either 30 or 60 frames per second. All of our newer visualizations, and <i>most</i> of our older visualizations, are also published in HD (1920 x 1080 or 1280 x 720; 30fps / 60fps). Some of our oldest work is also published in NTSC (720 x 480; 29.97fps).
+					</p>
+				</section>
+
+				<section id="multimedia-images">
+					<h3>Images 
+
+
+	<button
+		type="button"
+		class="svs-copy-link-to-this-page-button btn btn-light px-1 py-0 fs-4"
+		title="Copy a link to this section"
+		tabindex="0"
+		aria-label="Copy a link to this section"
+		data-copy-url="http://svs.gsfc.nasa.gov/help/#multimedia-images"
+		data-bs-title="Copied!"
+		data-bs-trigger="manual"
+	><span class="bi bi-link-45deg" aria-hidden="true"></span></button>
+
+</h3>
+
+					<h4>File Formats</h4>
+					<p>
+						Out images are primarily released in <code>.jpg</code>, <code>.jpeg</code>, or <code>.png</code>. These are pretty universally supported, so you should (hopefully) have no issue viewing any of these.
+					</p>
+					<p>
+						We also occasionally release some of our higher-resolution content in <code>.tif</code>, <code>.tiff</code>, or <code>.exr</code>. These files on the site are generally accompanied by more-compatible (albeit, lower-resolution) versions in more common formats. These are likely what your web browser displays on pages containing images with these file extensions.
+					</p>
+					<p>
+						<code>.tif</code> and <code>.tiff</code> files are commonly supported by desktop image viewers, but not web browsers (save for Safari on Apple devices). As a result, we'd recommend downloading them and previewing them in a desktop image viewer.
+					</p>
+					<p>
+						Likewise, <code>.exr</code> files are commonly supported by desktop image viewers, but not web browsers.
+					</p>
+
+					<h4>Resolutions</h4>
+					<p>
+						Much like our videos, the vast majority of our newer visualizations are published in 4K, with smaller resolutions being available through the "downloads" dropdown menu. All of our newer content, and <i>most</i> of our older content, is also published in HD.
+					</p>
+				</section>
+
+				<section id="multimedia-frames">
+					<h3>Frames 
+
+
+	<button
+		type="button"
+		class="svs-copy-link-to-this-page-button btn btn-light px-1 py-0 fs-4"
+		title="Copy a link to this section"
+		tabindex="0"
+		aria-label="Copy a link to this section"
+		data-copy-url="http://svs.gsfc.nasa.gov/help/#multimedia-frames"
+		data-bs-title="Copied!"
+		data-bs-trigger="manual"
+	><span class="bi bi-link-45deg" aria-hidden="true"></span></button>
+
+</h3>
+
+					<p>
+						In addition to making compiled versions of our videos available, we commonly include links to directories containing all of the individual frames that make up those visualizations. These directories can be found linked in the "downloads" menu, under the "frames" heading.
+					<p>
+
+					<h4>File Formats</h4>
+					<p>
+						Our frames are generally released in <code>.exr</code>, <code>.tif</code>, and <code>.tiff</code>. For more information about handling these file types, see the <a href="#multimedia-images">images</a> section.
+					</p>
+
+					<h4>Downloading</h4>
+					<p>
+						Understandably, it is desirable to fetch more than one frame at a time. There are currently two recommended tools for downloading multiple frames from our site:
+					</p>
+
+					<h5>1. DownThemAll</h5>
+					<p>
+						(available for <a href="https://addons.mozilla.org/en-US/firefox/addon/downthemall/">Firefox</a> and <a href="https://chrome.google.com/webstore/detail/downthemall/nljkibfhlpcnanjgbnlnbjecgicbjkge">Chromium-based</a> (e.g. Google Chrome or Microsoft Edge) browsers.
+					</p>
+					<p>
+						For instructions on using this extension, see its <a href="https://about.downthemall.org/4.0/">website</a> .
+					</p>
+
+					<h5 id="dof-using-curl">2. Using curl on the command line</h5>
+					<p>
+						If you do not already have curl installed on your system, download it <a target="_blank" href="https://curl.haxx.se/download.html">here</a> . <br> Basic command usage:
+					</p>
+					<pre>prompt> curl [options] url</pre>
+					<ul>
+						<li><b>url</b> - the url you want to download. You can specify a numeric sequence using a range of numbers between brackets (see the example below).
+						</li>
+						<li>
+							<b>[options]</b> - a variety of option flags. We suggest using the options '-LO' which will follow links and will store your downloaded frames in the current directory as their original file names.
+						</li>
+					</ul>
+					<p>For example, suppose we wish to download a frame sequence from animation ID 3032 which is located at:</p>
+					<pre>
+						<a target="_blank" href="https://svs.gsfc.nasa.gov/vis/a000000/a003000/a003032/frames/1024x512/">https://svs.gsfc.nasa.gov/vis/a000000/a003000/a003032/frames/1024x512/</a>
+					</pre>
+					<p>
+						The frame files have the form <code>cld_f.nnnn.png</code>, where <code>nnnn</code> are the frame numbers ranging from <code>0060</code> to <code>0119</code>. In the directory where you wish to place the frames, execute the following command:
+					</p>
+					<pre>prompt> curl -LO "https://sfc.nasa.gov/vis/a000000/a003000/a003032/frames/1024x512/cld_f.[0060-0119].png"</pre>
+					<p>This command will download each specified file in the given sequence if it exists.</p>
+
+					<div class="alert alert-warning" role="alert">
+						<strong>Warning!</strong> Please exercise caution when specifying a range with non-significant leading zeroes. For example, if specifying <b>cld_f.[0060-0119].png</b> does not work, try specifying <b>cld_f.0[060-119].png</b> instead.
+					</div>
+				</section>
+			</section>
+
+			<section id="apis">
+				<h2>Using our APIs 
+
+
+	<button
+		type="button"
+		class="svs-copy-link-to-this-page-button btn btn-light px-1 py-0 fs-4"
+		title="Copy a link to this section"
+		tabindex="0"
+		aria-label="Copy a link to this section"
+		data-copy-url="http://svs.gsfc.nasa.gov/help/#apis"
+		data-bs-title="Copied!"
+		data-bs-trigger="manual"
+	><span class="bi bi-link-45deg" aria-hidden="true"></span></button>
+
+</h2>
+
+				<p>
+					In order to make our content more publicly accessible, and allow for automatic querying of our multimedia collection, the SVS has a number of free, publicly-available web APIs. All of our APIs can be accessed by sending <code>GET</code> requests to specific URLs on this site. These requests can be further customized through the usage of URL parameters. Their responses are sent back as <code>JSON</code> dictionaries.
+				</p>
+
+				<p>
+					If you have additional questions as to how to use any of the following APIs, contact <span class="email-link" data-user="ella.kaplan" data-domain="nasa" data-suffix="gov" data-linktext="Ella Kaplan" data-subject="SVS API Inquiry (from help page)"></span> directly.
+				</p>
+
+				<section id="apis-search">
+					<h3>Search API 
+
+
+	<button
+		type="button"
+		class="svs-copy-link-to-this-page-button btn btn-light px-1 py-0 fs-4"
+		title="Copy a link to this section"
+		tabindex="0"
+		aria-label="Copy a link to this section"
+		data-copy-url="http://svs.gsfc.nasa.gov/help/#apis-search"
+		data-bs-title="Copied!"
+		data-bs-trigger="manual"
+	><span class="bi bi-link-45deg" aria-hidden="true"></span></button>
+
+</h3>
+
+					<p>
+						The search API allows for automatic querying of our <a href="/search">search page</a> .
+					</p>
+					<p>
+						The basic format for a search API call is: <br> <code>https://svs.gsfc.nasa.gov/api/search/?{url parameters}</code>
+					</p>
+
+					<h4>Filtering Results</h4>
+					<p>
+						Any <code>GET</code> request that is performed by the SVS search can be executed in our API by prepending <code>/api</code> to the beginning of the URL. Generally, we recommend performing a search through the search page, and then trying to perform it through the API. On the search page, there is a shortcut to the API with the current search parameters that can be found by clicking on the small file-with-brackets icon (<span class="bi bi-file-earmark-code mx-1" aria-hidden="true"></span>) to the right of the result count.
+					</p>
+					<div class="alert alert-info">
+						<p>
+							<b>Example</b>: let's say we wanted to search for all of the visualizations containing the word <i>Apollo</i>.
+						</p>
+						<p>
+							Searching that phrase on the search page results in the following URL: <br> <code>https://svs.gsfc.nasa.gov/search?search=Apollo</code> ( <a href="https://svs.gsfc.nasa.gov/search?search=Apollo" target="_blank"><span class="bi bi-box-arrow-up-right mx-1" title="Open this url in a new tab"></span></a> )
+						</p>
+						<p class="mb-0">
+							We would be able to perform the exact same search through the API by sending a request to the following URL: <br> <code>https://svs.gsfc.nasa.gov/api/search/?search=Apollo</code> ( <a href="https://svs.gsfc.nasa.gov/api/search/?search=Apollo" target="_blank"><span class="bi bi-box-arrow-up-right mx-1" title="Open this url in a new tab"></span></a> )
+						</p>
+					</div>
+
+					<h4>Limiting results</h4>
+					<p>
+						By default, the API will return 100 results at a time. You can reduce the number of stories returned by providing the <code>limit</code> parameter.
+					</p>
+					<p>
+						The maximum limit that can be specified is 2000. Specify <code>limit=none</code> or <code>limit=all</code> to view all of the results, though the maximum limit still applies.
+					</p>
+					<div class="alert alert-info">
+						<p>
+							<b>Example</b>: let's say we wanted to obtain the 15 most recently published visualizations related to the James Webb Space Telescope.
+						</p>
+						<p class="mb-0">
+							We would be able to do so by sending a request to the following URL: <br> <code>https://svs.gsfc.nasa.gov/api/search/?missions=James+Webb+Space+Telescope&limit=15</code> ( <a href="https://svs.gsfc.nasa.gov/api/search/?missions=James+Webb+Space+Telescope&limit=15" target="_blank"><span class="bi bi-box-arrow-up-right mx-1" title="Open this url in a new tab"></span></a> )
+						</p>
+					</div>
+
+					<h4>Pagination</h4>
+					<p>
+						The API will return at most the number of stories specified in the <code>limit</code> parameter, which again defaults to 100. The total number of results will be given in the <code>count</code> field. To obtain subsequent "pages" of stories, provide the <code>offset</code> and <code>limit</code> parameters.
+					</p>
+					<p>
+						For convenience, this "next" URL will be given in the <code>next</code> field. <code>next</code> will be <code>null</code> if you are already viewing all of the results, or the last page of the results.
+					</p>
+					<p>
+						Similarly, there is a <code>previous</code> field which gives the URL for the previous page of results, if applicable.
+					</p>
+					<div class="alert alert-info">
+						<p>
+							<b>Example</b>: let's say we wanted to obtain the <b>next</b> 15 visualizations from the previous example.
+						</p>
+						<p class="mb-0">
+							We would be able to do so by sending a request to the following URL: <br> <code>https://svs.gsfc.nasa.gov/api/search/?limit=15&missions=James+Webb+Space+Telescope&offset=15</code> ( <a href="https://svs.gsfc.nasa.gov/api/search/?limit=15&missions=James+Webb+Space+Telescope&offset=15" target="_blank"><span class="bi bi-box-arrow-up-right mx-1" title="Open this url in a new tab"></span></a> )
+						</p>
+					</div>
+
+					<h4>Data Specification</h4>
+					<p>
+						As an example, consider the following request: <br> <code>https://svs.gsfc.nasa.gov/search/?studio=SVS&made_for=EIC</code> ( <a href="https://svs.gsfc.nasa.gov/api/search/?studio=SVS&made_for=EIC" target="_blank"><span class="bi bi-box-arrow-up-right mx-1" title="Open this url in a new tab"></span></a> )
+					</p>
+					<p>
+						At the time this documentation was written, this request would return the following <code>JSON</code> data:
+					</p>
+					<pre>
+{
+    "count": 19,
+    "next": null,
+    "previous": null,
+    "results": [
+		{
+			"id": 5126,
+			"url": "https://svs.gsfc.nasa.gov/5126/",
+			"result_type": "Visualization",
+			"release_date": "2023-07-07T00:00:00-04:00",
+			"title": "NOAA Annual Greenhouse Gas Index",
+			"description": "This visualization of the NOAA Annual Greenhouse Gas Index shows the relative warming contribution from various greenhouse gasses (1979-2022). The donut chart shows 2022 AGGI data. || The NOAA Annual Greenhouse Gas Index (AGGI) tracks the increasing amount of heat being added to the atmosphere by human-related greenhouse gas (GHG) emissions. It is based on the highest quality measurements of GHGs in the atmosphere from sites around the world. This visualization contains data from 1979-2022. The quantity plotted is the global radiative forcing, which is a measure of how much each component is warming the Earth. The 'other' category includes hydrofluorocarbons (HFCs), Chlorofluorocarbons (CFCs), and hydrochlorofluorocarbons (HCFCs). The donut chart shows the 2022 data. This visualization, aimed at showing the relative contributions of each gas, leaves off the scale and units. In 2022 the total radiative forcing was 3.4 Watts per meter squared. || ",
+			"hits": 63
+		},
+		{
+			"id": 5121,
+			"url": "https://svs.gsfc.nasa.gov/5121/",
+			"result_type": "Visualization",
+			"release_date": "2023-06-30T00:00:00-04:00",
+			"title": "ODIAC: a map of human made carbon dioxide emissions",
+			"description": "ODIAC (Open-source Data Inventory for Anthropogenic CO2) map for December 2021. || The Open-source Data Inventory for Anthropogenic CO2 (A.K.A. ODIAC) is a global high-resolution (1x1km) emission data product for fossil fuel carbon dioxide (CO2) emission. ODIAC was originally designed and developed under the Greenhouse gas Observing SATellite (GOSAT) project at Japan’s National Institute for Environmental Studies (NIES). Since then, ODIAC has been maintained at the Universities Space Research Association (USRA) in collaboration with NASA, NIES and the Appalachian State University. ODIAC pioneered the combined use of space-based nighttime light data and individual power plant emission/location profiles to estimate the global spatial extent of fossil fuel CO2 emissions. ODIAC has been a key input data for NASA’s carbon modeling. ODIAC has been also widely used in the international science research community for a variety of applications across key policy relevant scales (global to local). || ",
+			"hits": 146
+		},
+		.
+		.
+		.
+	]
+},
+					</pre>
+					<span class="text-muted"><b>Note:</b> only the first two results are included for brevity.</span>
+					<p>
+						The response will always contain the following fields:
+					</p>
+					<ul>
+						<li>
+							<code>count</code> - The total number of results for the given query, regardless of which page or how many results are currently being shown.
+						</li>
+						<li>
+							<code>next</code> - The URL that will display the next page of results, using the same <code>limit</code> as the current request. This field will be null if all of the results are being shown, or if the final page of results is being shown.
+						</li>
+						<li>
+							<code>previous</code> - The URL that will display the previous page of results, using the same <code>limit</code> as the current request. This field will be null if all of the results are being shown, or if the first page of results is being shown.
+						</li>
+						<li>
+							<code>results</code> - An array of results objects (see below).
+						</li>
+					</ul>
+					<p>
+						Each individual result object contains the following fields:
+					</p>
+					<ul>
+						<li>
+							<code>id</code> - The ID of the page that this result represents.
+						</li>
+						<li>
+							<code>url</code> - The URL that this result links to.
+						</li>
+						<li>
+							<code>result_type</code> - The type of result that this is.
+						</li>
+						<li>
+							<code>release_date</code> - The date and time that this result was released.
+						</li>
+						<li>
+							<code>title</code> - The title of this result.
+						</li>
+						<li>
+							<code>description</code> - A (brief) description of this result.
+						</li>
+						<li>
+							<code>hits</code> - The total number of views that the page this result represents has gotten over the past 10 days. <b>Note</b>: this number is updated daily between 2:00am ~ 4:00am ET
+						</li>
+					</ul>
+				</section>
+				<section id="apis-page">
+					<h3>Page API 
+
+
+	<button
+		type="button"
+		class="svs-copy-link-to-this-page-button btn btn-light px-1 py-0 fs-4"
+		title="Copy a link to this section"
+		tabindex="0"
+		aria-label="Copy a link to this section"
+		data-copy-url="http://svs.gsfc.nasa.gov/help/#apis-page"
+		data-bs-title="Copied!"
+		data-bs-trigger="manual"
+	><span class="bi bi-link-45deg" aria-hidden="true"></span></button>
+
+</h3>
+
+					<p>
+						The page API provides more detailed information on specific site pages. Whereas the search API's results provide a broad overview of a page, the page API provides the full breadth of information that the SVS has available for any given page. This allows for automatic querying of datasets, keywords, credit information, and many <i>many</i> more pieces of metadata about our visualizations.
+					</p>
+					<p class="mb-0">
+						Currently, the page API supports:
+					</p>
+					<ul>
+						<li>
+							<b>Visualization pages</b> (e.g <a href="https://svs.gsfc.nasa.gov/5101/" target="_blank">https://svs.gsfc.nasa.gov/5101/<span class="bi bi-box-arrow-up-right mx-1" title="Open this url in a new tab"></span></a> )
+						</li>
+						<li>
+							<b>Gallery pages</b> (e.g <a href="https://svs.gsfc.nasa.gov/gallery/the-galleries/" target="_blank">https://svs.gsfc.nasa.gov/new/gallery/<span class="bi bi-box-arrow-up-right mx-1" title="Open this url in a new tab"></span></a> )
+						</li>
+					</ul>
+					<p>
+						The basic format for a page API call is: <br> <code>https://svs.gsfc.nasa.gov/api/{page ID}/</code> <br>
+					</p>
+					<p>
+						The page ID for any given page can be found by looking for the "ID: XXXXX" box, located just underneath the page's title. For visualization pages, this can also be found in the URL. Additionally, there is a link to the API on relevant pages, available by clicking on the small file-with-brackets icon (<span class="bi bi-file-earmark-code mx-1" aria-hidden="true"></span>) located next to the "ID: XXXXX" box.
+					</p>
+					<div class="alert alert-info">
+						<p>
+							<b>Example</b>: let's say we wanted to get information on the visualization <i>5101: Sea Surface Temperature (SST) - Near Real Time</i>.
+						</p>
+						<p>
+							Visiting the page for that visualization results in the following URL: <br> <code>https://svs.gsfc.nasa.gov/5101/</code> ( <a href="https://svs.gsfc.nasa.gov/5101" target="_blank"><span class="bi bi-box-arrow-up-right mx-1" title="Open this url in a new tab"></span></a> )
+						</p>
+						<p class="mb-0">
+							We would be able access that page in the API by visiting the following URL: <br> <code>https://svs.gsfc.nasa.gov/api/5101/</code> ( <a href="https://svs.gsfc.nasa.gov/api/5101/" target="_blank"><span class="bi bi-box-arrow-up-right mx-1" title="Open this url in a new tab"></span></a> )
+						</p>
+					</div>
+
+					<h4>Data Specification</h4>
+					<p>
+						As an example, consider the following request: <br> <code>https://svs.gsfc.nasa.gov/api/5101/</code> ( <a href="https://svs.gsfc.nasa.gov/api/5101/" target="_blank"><span class="bi bi-box-arrow-up-right mx-1" title="Open this url in a new tab"></span></a> )
+					</p>
+					<p>
+						At the time this documentation was written, this request would return the following <code>JSON</code> data:
+					</p>
+					<pre style="max-height: 50vh">
+{
+	"id": 5101,
+	"url": "https://svs.gsfc.nasa.gov/5101/",
+	"page_type": "Visualization",
+	"title": "Sea Surface Temperature (SST) - Near Real Time",
+	"description": "An equirectangular view of sea surface temperature (SST) data for the past two and half years, updated daily to include the latest available data. || This visualization shows Sea Surface Temperature (SST) data from the Jet Propulsion Laboratory (JPL) Multi-scale Ultra-high Resolution (MUR) Sea Surface Temperature Analysis.  This visualization is updated once a day to include the latest available data. || ",
+	"release_date": "2023-05-08T00:00:00-04:00",
+	"update_date": "2023-09-06T09:01:42.770455-04:00",
+	"main_image": {
+		"id": 855019,
+		"url": "https://svs.gsfc.nasa.gov/vis/a000000/a005100/a005101/sst_mur_colobar_print.jpg",
+		"filename": "sst_mur_colobar_print.jpg",
+		"media_type": "Image",
+		"alt_text": "Sea Surface Temperature color bar.  Color range is light blue - white - orange - red.  -10 to 40 degrees Celsius",
+		"width": 1024,
+		"height": 576,
+		"pixels": 589824
+	},
+	"main_video": {
+		"id": 855700,
+		"url": "https://svs.gsfc.nasa.gov/vis/a000000/a005100/a005101/sst_30_sec_robinson_4096x2048_2x1_30p.mp4",
+		"filename": "sst_30_sec_robinson_4096x2048_2x1_30p.mp4",
+		"media_type": "Movie",
+		"alt_text": "A view of sea surface temperature (SST) data for the past two and half years, updated daily to include the latest available data.  This version is a robinson projection. ",
+		"width": 4096,
+		"height": 2048,
+		"pixels": 8388608,
+		"audio_track": null,
+		"captions": null
+	},
+	"progress": "Complete",
+	"media_groups": [
+		{
+			"id": 312499,
+			"url": "https://svs.gsfc.nasa.gov/5101#media_group_312499",
+			"widget": "Video player",
+			"title": "",
+			"caption": "",
+			"description": "An equirectangular view of sea surface temperature (SST) data for the past two and half years, updated daily to include the latest available data.  ",
+			"items": [
+				{
+					"id": 206430,
+					"item_type": "media",
+					"extra_data": null,
+					"title": null,
+					"caption": null,
+					"media": {
+						"id": 855015,
+						"url": "https://svs.gsfc.nasa.gov/vis/a000000/a005100/a005101/sst_mur_print.jpg",
+						"filename": "sst_mur_print.jpg",
+						"media_type": "Image",
+						"alt_text": "An equirectangular view of sea surface temperature (SST) data for the past two and half years, updated daily to include the latest available data.  ",
+						"width": 1024,
+						"height": 512,
+						"pixels": 524288
+					}
+				},
+				{
+					"id": 206431,
+					"item_type": "media",
+					"extra_data": null,
+					"title": null,
+					"caption": null,
+					"media": {
+						"id": 855014,
+						"url": "https://svs.gsfc.nasa.gov/vis/a000000/a005100/a005101/sst_mur_searchweb.png",
+						"filename": "sst_mur_searchweb.png",
+						"media_type": "Image",
+						"alt_text": "An equirectangular view of sea surface temperature (SST) data for the past two and half years, updated daily to include the latest available data.  ",
+						"width": 320,
+						"height": 180,
+						"pixels": 57600
+					}
+				},
+				.
+				.
+				.
+			],
+			"extra_data": {}
+		},
+		{
+			"id": 312498,
+			"url": "https://svs.gsfc.nasa.gov/5101#media_group_312498",
+			"widget": "Basic text with HTML",
+			"title": "",
+			"caption": "",
+			"description": "This visualization shows Sea Surface Temperature (SST) data from the Jet Propulsion Laboratory (JPL) Multi-scale Ultra-high Resolution (MUR) Sea Surface Temperature Analysis.  This visualization is updated once a day to include the latest available data.",
+			"media": [],
+			"extra_data": {}
+		},
+		{
+			"id": 312500,
+			"url": "https://svs.gsfc.nasa.gov/5101#media_group_312500",
+			"widget": "Single image",
+			"title": "",
+			"caption": "",
+			"description": "An equirectangular view of the most recent sea surface temperature (SST) data available (still image). ",
+			"items": [
+				{
+					"id": 206435,
+					"item_type": "media",
+					"extra_data": null,
+					"title": null,
+					"caption": null,
+					"instance": {
+						"id": 856705,
+						"url": "https://svs.gsfc.nasa.gov/vis/a000000/a005100/a005101/sst_mur_most_recent_print.jpg",
+						"filename": "sst_mur_most_recent_print.jpg",
+						"media_type": "Image",
+						"alt_text": "An equirectangular view of the most recent sea surface temperature (SST) data available (still image). ",
+						"width": 1024,
+						"height": 512,
+						"pixels": 524288
+					}
+				},
+				{
+					"id": 206434,
+					"item_type": "media",
+					"extra_data": null,
+					"title": null,
+					"caption": null,
+					"instance": {
+						"id": 856704,
+						"url": "https://svs.gsfc.nasa.gov/vis/a000000/a005100/a005101/sst_mur_most_recent.exr",
+						"filename": "sst_mur_most_recent.exr",
+						"media_type": "Image",
+						"alt_text": "An equirectangular view of the most recent sea surface temperature (SST) data available (still image). ",
+						"width": 4096,
+						"height": 2048,
+						"pixels": 8388608
+					}
+				}
+			],
+			"extra_data": {}
+		},
+		.
+		.
+		.
+	],
+	"studio": "SVS",
+	"funding_sources": [
+		"ESE"
+	],
+	"credits": [
+		{
+			"role": "Visualizer",
+			"people": [
+				{
+					"name": "Kel Elkins",
+					"employer": "USRA"
+				},
+				{
+					"name": "Greg Shirah",
+					"employer": "NASA/GSFC"
+				}
+			]
+		},
+		{
+			"role": "Technical support",
+			"people": [
+				{
+					"name": "Laurence Schuler",
+					"employer": "ADNET Systems, Inc."
+				},
+				{
+					"name": "Ian Jones",
+					"employer": "ADNET Systems, Inc."
+				}
+			]
+		}
+	],
+	"missions": [],
+	"series": [],
+	"tapes": [],
+	"papers": [],
+	"datasets": [
+		{
+			"name": "Multi-scale Ultra-high Resolution (MUR) Sea Surface Temperature (SST) Analysis",
+			"common_name": "MUR SST",
+			"platform": null,
+			"sensor": null,
+			"type": "Analysis",
+			"organization": "JPL PO DAAC",
+			"description": null,
+			"credit": null,
+			"url": null,
+			"date_range": null,
+		}
+	],
+	"nasa_science_categories": [
+		"Earth"
+	],
+	"keywords": [
+		"Earth Information Center",
+		"Earth Science",
+		"Ocean",
+		"Ocean Temperature",
+		"Oceans",
+		"Physical oceanography",
+		"sea surface temperature"
+	],
+	"recommended_pages": [],
+	"related": [
+		{
+			"id": 4809,
+			"url": "https://svs.gsfc.nasa.gov/4809/",
+			"page_type": "Visualization",
+			"title": "Earth Day 2020: Sea Surface Temperature (SST) from January 2016 through March 2020",
+			"description": "Sea Surface Temperature - composited version with all layers includedThis video is also available on our YouTube channel. || ",
+			"release_date": "2020-04-21T00:00:00-04:00",
+			"update_date": "2023-09-07T00:18:08.898152-04:00",
+			"main_image": {
+				"url": "https://svs.gsfc.nasa.gov/vis/a000000/a004800/a004809/sst_comp_layer.1300_print.jpg",
+				"filename": "sst_comp_layer.1300_print.jpg",
+				"media_type": "Image",
+				"alt_text": "Sea Surface Temperature - composited version with all layers includedThis video is also available on our YouTube channel.",
+				"width": 1024,
+				"height": 576,
+				"pixels": 589824
+			}
+		}
+	],
+	"sources": [],
+	"products": [],
+	"newer_versions": [],
+	"older_versions": [],
+	"alternate_versions": []
+}
+					</pre>
+					<small class="text-muted"><b>Note:</b> this is a fairly large block of text. You may need to scroll to see the whole thing.</small>
+					<p>
+						The response will always contain the following fields:
+					</p>
+					<ul>
+						<li>
+							<code>id</code> - The page ID of the requested item.
+						</li>
+						<li>
+							<code>url</code> - The url that this page can be found at.
+						</li>
+						<li>
+							<code>page_type</code> - What type of page this is.
+						</li>
+					</ul>
+					<p>
+						This response will also contain extra fields that vary depending on the type of page requested.
+					</p>
+
+					<section id="apis-page-visualization-pages">
+						<h5>Visualization pages 
+
+
+	<button
+		type="button"
+		class="svs-copy-link-to-this-page-button btn btn-light px-1 py-0 fs-4"
+		title="Copy a link to this section"
+		tabindex="0"
+		aria-label="Copy a link to this section"
+		data-copy-url="http://svs.gsfc.nasa.gov/help/#apis-page-visualization-pages"
+		data-bs-title="Copied!"
+		data-bs-trigger="manual"
+	><span class="bi bi-link-45deg" aria-hidden="true"></span></button>
+
+</h5>
+						<ul>
+							<li>
+								<code>title</code> - The title of the visualization.
+							</li>
+							<li>
+								<code>description</code> - A brief description of the visualization.
+							</li>
+							<li>
+								<code>release_date</code> - The date and time this visualization was <i>released</i>. This timestamp is in ISO 8601.
+							</li>
+							<li>
+								<code>update_date</code> - The date and time this visualization was last <i>updated</i>. This timestamp is in ISO 8601.
+							</li>
+							<li>
+								<code>main_image</code> - The media item that's been selected to be the "main" image for this visualization. This is also used as the thumbnail for this item in a variety of places across the site. <br> For more information on media items, see the section on <a href="#apis-media-items">media items</a> .
+							</li>
+							<li>
+								<code>main_video</code> - The media item that's been selected to be the "main" video for this visualization. This is mostly used on other sites, if they link to SVS visualizations. <br> For more information on media items, see the section on <a href="#apis-media-items">media items</a> .
+							</li>
+							<li>
+								<code>progress</code> - What stage this visualization is at in the development process. This will always be <code>Complete</code> for visualizations publicly released on this site.
+							</li>
+							<li>
+								<code>media_groups</code> - Media items and blocks of text on the SVS website are organized into groups for display purposes. These are essentially the "blocks" that compose a visualization page.
+								<ul>
+									<li>
+										<code>id</code> - The ID of this media group.
+									</li>
+									<li>
+										<code>url</code> - A link to this particular media group.
+									</li>
+									<li>
+										<code>widget</code> - The widget used for this media item.
+									</li>
+									<li>
+										<code>title</code> - The title of this media group.
+									</li>
+									<li>
+										<code>caption</code> - The caption of this media group. In a standard media group, this is rendered just below the media display, and to the right of the "downloads" button.
+									</li>
+									<li>
+										<code>description</code> - The description of this media group. This is where the vast majority of the text in a media group is stored.
+									</li>
+									<li>
+										<code>items</code> - A list of items contained in this media group. <br> For more information on media group items, see the section on <a href="#apis-media-group-items">media group items</a> .
+									</li>
+									<li>
+										<code>extra_data</code> - Additional data used the generate the media group. The most common piece of information contained in this block is <code>page_list</code>, which is a full list of pages linked to this media group.
+									</li>
+								</ul>
+							</li>
+							<li>
+								<code>studio</code> - A string which indicates which studio created the material, or what product the material was created for. <code>studio</code> will always be one of the following:
+								<ul>
+									<li>
+										<code>SVS</code> - The material was created directly by NASA Scientific Visualization Studio.
+									</li>
+									<li>
+										<code>GMS</code> - The material was created by NASA's Goddard Media Studios.
+									</li>
+									<li>
+										<code>CILab</code> - The material was created by NASA's Conceptual Image Lab.
+									</li>
+									<li>
+										<code>HW</code> - The material was created or formatted explicity for the NASA Hyperwall.
+									</li>
+								</ul>
+							</li>
+							<li>
+								<code>funding_sources</code> - A list of sources that funded the creation of this visualization.
+							</li>
+							<li>
+								<code>credits</code> - A list of credits for this visualization.
+								<ul>
+									<li>
+										<code>role</code> - The name of the role that this chunk of credits is for.
+									</li>
+									<li>
+										<code>people</code> - A list of people who are credited with this role.
+										<ul>
+											<li>
+												<code>name</code> - This person's name.
+											</li>
+											<li>
+												<code>employer</code> - This person's employer, when this page was published.
+											</li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+							<li>
+								<code>missions</code> - A list of missions that this visualization is associated with.
+							</li>
+							<li>
+								<code>series</code> - A list of series (sets of visualizations) that this visualization is associated with.
+							</li>
+							<li>
+								<code>tapes</code> - A list of tapes that this visualization appeared on.
+							</li>
+							<li>
+								<code>papers</code> - A list of research papers associated with this visualization.
+							</li>
+							<li>
+								<code>datasets</code> - A list of datasets used in the creation of this visualization.
+								<ul>
+									<li>
+										<code>name</code> - The full name of this dataset.
+									</li>
+									<li>
+										<code>common_name</code> - A more common name for this dataset (if applicable).
+									</li>
+									<li>
+										<code>platform</code> - The location where this dataset was collected from. It's easiest to think of "where this dataset was collected from <i>physically</i>". Often, this is the name of a particular mission (e.g. <i>TERRA</i>, <i>SDO</i>, <i>OSIRIS-REx</i>, etc.)
+									</li>
+									<li>
+										<code>sensor</code> - The sensor this dataset was collected with (if applicable).
+									</li>
+									<li>
+										<code>type</code> - What type of dataset this is.
+									</li>
+									<li>
+										<code>organization</code> - The organization responsible for maintaining this dataset (if applicable).
+									</li>
+									<li>
+										<code>description</code> - A description of this dataset.
+									</li>
+									<li>
+										<code>credit</code> - Who should be credited for this dataset.
+									</li>
+									<li>
+										<code>url</code> - A URL that this dataset can be found at (if applicable).
+									</li>
+									<li>
+										<code>date_range</code> - The range of dates used from this dataset. <br> <b>Note</b>: this value is specific to this visualization. Different visualizations can use different ranges of data from the same dataset.
+									</li>
+								</ul>
+							</li>
+							<li>
+								<code>nasa_science_categories</code> - The NASA Science Categories that this visualization belongs to.
+							</li>
+							<li>
+								<code>keywords</code> - A list of keywords associated with this visualization.
+							</li>
+							<li>
+								<code>recommended_pages</code> - A list of pages (on our site) recommended by this page's author
+							</li>
+							<li>
+								<code>related</code> - A list of pages (on our site) considered to be "related" to this page.
+							</li>
+							<li>
+								<code>sources</code> - A list of pages (on our site) used as sources for this page.
+							</li>
+							<li>
+								<code>products</code> - A list of pages (on our site) that use this page as a source.
+							</li>
+							<li>
+								<code>newer_versions</code> - A list of pages (on our site) that are newer versions of this page.
+							</li>
+							<li>
+								<code>older_versions</code> - A list of pages (on our site) that are older versions of this page.
+							</li>
+							<li>
+								<code>alternate_versions</code> - A list of pages (on our site) that are considered to be alternate versions of this page. These are usually versions of the page in a different language, a different part of the world, or a different viewpoint.
+							</li>
+						</ul>
+					</section>
+
+					<section id="apis-page-gallery-pages">
+						<h5>Gallery pages 
+
+
+	<button
+		type="button"
+		class="svs-copy-link-to-this-page-button btn btn-light px-1 py-0 fs-4"
+		title="Copy a link to this section"
+		tabindex="0"
+		aria-label="Copy a link to this section"
+		data-copy-url="http://svs.gsfc.nasa.gov/help/#apis-page-gallery-pages"
+		data-bs-title="Copied!"
+		data-bs-trigger="manual"
+	><span class="bi bi-link-45deg" aria-hidden="true"></span></button>
+
+</h5>
+						<ul>
+							<li>
+								<code>title</code> - The title of this gallery.
+							</li>
+							<li>
+								<code>description</code> - A brief description of this gallery.
+							</li>
+							<li>
+								<code>release_date</code> - The date and time this gallery was <i>released</i>. This timestamp is in ISO 8601.
+							</li>
+							<li>
+								<code>update_date</code> - The date and time this gallery was last <i>updated</i>. This timestamp is in ISO 8601.
+							</li>
+							<li>
+								<code>main_image</code> - The media item that's been selected to be the "main" image for this page. This is also used as the thumbnail for this item in a variety of places across the site. <br> For more information on media items, see the section on <a href="#apis-media-items">media items</a> .
+							</li>
+							<li>
+								<code>media_groups</code> - Media items and blocks of text on the SVS website are organized into groups for display purposes. These are essentially the "blocks" that compose a visualization page.
+								<ul>
+									<li>
+										<code>id</code> - The ID of this media group.
+									</li>
+									<li>
+										<code>url</code> - A link to this particular media group.
+									</li>
+									<li>
+										<code>widget</code> - The widget used for this media item.
+									</li>
+									<li>
+										<code>title</code> - The title of this media group.
+									</li>
+									<li>
+										<code>caption</code> - The caption of this media group. In a standard media group, this is rendered just below the media display, and to the right of the "downloads" button.
+									</li>
+									<li>
+										<code>description</code> - The description of this media group. This is where the vast majority of the text in a media group is stored.
+									</li>
+									<li>
+										<code>items</code> - A list of items contained in this media group. <br> For more information on media group items, see the section on <a href="#apis-media-group-items">media group items</a> .
+									</li>
+									<li>
+										<code>extra_data</code> - Additional data used the generate the media group. The most common piece of information contained in this block is <code>page_list</code>, which is a full list of pages linked to this media group.
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</section>
+				</section>
+				<section id="apis-dialamoon">
+					<h3>Dial-A-Moon API 
+
+
+	<button
+		type="button"
+		class="svs-copy-link-to-this-page-button btn btn-light px-1 py-0 fs-4"
+		title="Copy a link to this section"
+		tabindex="0"
+		aria-label="Copy a link to this section"
+		data-copy-url="http://svs.gsfc.nasa.gov/help/#apis-dialamoon"
+		data-bs-title="Copied!"
+		data-bs-trigger="manual"
+	><span class="bi bi-link-45deg" aria-hidden="true"></span></button>
+
+</h3>
+
+					<p>
+						The Dial-A-Moon API is used to power the Dial-A-Moons (e.g. on <a href="https://svs.gsfc.nasa.gov/5048">#5048</a> ) across the SVS site. It also serves as a useful resource for getting astronomical information about the Moon for a given date.
+					</p>
+					<p>
+						If you have any questions <b>specifically</b> about the data returned by this API, please contact <span class="email-link" data-user="ernest.t.wright" data-domain="nasa" data-suffix="gov" data-linktext="Ernie Wright" data-subject="Dial-A-Moon Inquiry (from help page)"></span>. For general API inquiries, please contact <span class="email-link" data-user="ella.kaplan" data-domain="nasa" data-suffix="gov" data-linktext="Ella Kaplan" data-subject="SVS API Inquiry (from help page)"></span>.
+					</p>
+					<p>
+						<b>Note:</b> the Dial-A-Moon API has a couple of specific restrictions:
+					</p>
+					<ul>
+						<li>Data is only available in 1-hour increments, except during eclipses, where it switches to 1-minute increments.</li>
+						<li>The earliest data available is January 1st, 2011, 00:00 UTC.</li>
+						<li>The latest data available is December 31st, 23:00 UTC for the current year. We add in the next year of data when the yearly <i>Moon Phase and Libration</i> visualization comes out, which has historically happened in November.</li>
+					</ul>
+					<p>
+						The basic format for a Dial-A-Moon API call is: <br> <code>https://svs.gsfc.nasa.gov/api/dialamoon/{UTC timestamp in YYYY-MM-DDTHH:MM}</code> <br>
+						<small class="text-muted"><b>Note:</b> there is always a letter <code>T</code> in between the date and time, and it is not something that should be converted.</small>
+					</p>
+					<div class="alert alert-info">
+						<p class="mb-0">
+							<b>Example</b>: the Dial-A-Moon API call for January 2nd, 2023 at 03:00 UTC is: <br> <code>https://svs.gsfc.nasa.gov/api/dialamoon/2023-01-02T03:00</code> ( <a href="https://svs.gsfc.nasa.gov/api/dialamoon/2023-01-02T03:00" target="_blank"><span class="bi bi-box-arrow-up-right mx-1" title="Open this url in a new tab"></span></a> )
+						</p>
+					</div>
+					<h4>Data Specification</h4>
+					<p>
+						As an example, consider the following request: <br> <code>https://svs.gsfc.nasa.gov/api/dialamoon/2023-07-12T15:37</code> ( <a href="https://svs.gsfc.nasa.gov/api/dialamoon/2023-07-12T15:37" target="_blank"><span class="bi bi-box-arrow-up-right mx-1" title="Open this url in a new tab"></span></a> ) <br>
+						<small class="text-muted"><b>Note:</b> even though the time requested is 15:37 UTC, the API will always round that to the closest point it has data for. In this case, 15:37 becomes 16:00. This is also true during eclipses, where the increments switch to 1 minute instead of 1 hour.</small>
+					</p>
+					<pre>
+{
+    "image": {
+        "url": "https://svs.gsfc.nasa.gov/vis/a000000/a005000/a005048/frames/730x730_1x1_30p/moon.4625.jpg",
+        "filename": "frames/730x730_1x1_30p/moon.4625.jpg",
+        "media_type": "Image",
+        "alt_text": "An image of the moon, as it would appear on 2023-07-12 16:00:00+00:00. (Frame: 4625)",
+        "width": 730,
+        "height": 730,
+        "pixels": 532900
+    },
+    "image_highres": {
+        "url": "https://svs.gsfc.nasa.gov/vis/a000000/a005000/a005048/frames/5760x3240_16x9_30p/fancy/comp.4625.tif",
+        "filename": "frames/5760x3240_16x9_30p/fancy/comp.4625.tif",
+        "media_type": "Image",
+        "alt_text": "An image of the moon, as it would appear on 2023-07-12 16:00:00+00:00. (Frame: 4625)",
+        "width": 5760,
+        "height": 3240,
+        "pixels": 18662400
+    },
+    "su_image": {
+        "url": "https://svs.gsfc.nasa.gov/vis/a000000/a005000/a005049/frames/730x730_1x1_30p/moon.4625.jpg",
+        "filename": "frames/730x730_1x1_30p/moon.4625.jpg",
+        "media_type": "Image",
+        "alt_text": "An image of the moon, as it would appear on 2023-07-12 16:00:00+00:00. (Frame: 4625)",
+        "width": 730,
+        "height": 730,
+        "pixels": 532900
+    },
+    "su_image_highres": {
+        "url": "https://svs.gsfc.nasa.gov/vis/a000000/a005000/a005049/frames/5760x3240_16x9_30p/fancy/comp.4625.tif",
+        "filename": "frames/5760x3240_16x9_30p/fancy/comp.4625.tif",
+        "media_type": "Image",
+        "alt_text": "An image of the moon, as it would appear on 2023-07-12 16:00:00+00:00. (Frame: 4625)",
+        "width": 5760,
+        "height": 3240,
+        "pixels": 18662400
+    },
+    "time": "2023-07-12T16:00",
+    "phase": 23.81,
+    "obscuration": 0.0,
+    "age": 24.474,
+    "diameter": 1845.5,
+    "distance": 388369.0,
+    "j2000_ra": 3.2364,
+    "j2000_dec": 19.875,
+    "subsolar_lon": -115.103,
+    "subsolar_lat": 1.525,
+    "subearth_lon": 6.457,
+    "subearth_lat": -2.417,
+    "posangle": 346.15
+}
+					</pre>
+					<p>The response will always contain the following fields:</p>
+					<ul>
+						<li>
+							<code>image</code> - An image of the Moon at the requested timestamp. This follows the same format as the <a href="#apis-media-items">media items</a> from the visualization page API.
+						</li>
+						<li>
+							<code>image_highres</code> - A higher resolution image of the Moon (often annotated with some additional information) at the requested timestamp. This follows the same format as the <a href="#apis-media-items">media items</a> from the visualization page API.
+						</li>
+						<li>
+							<code>su_image</code> - The south-up version of <code>image</code>.
+						</li>
+						<li>
+							<code>su_image_highres</code> - The south-up version of <code>image_highres</code>.
+						</li>
+						<li>
+							<code>time</code> - The timestamp corresponding to the data fetched.
+						</li>
+						<li>
+							<code>phase</code> - The illuminated percentage of the Moon, as seen from Earth. <code>0.00</code> represents a new moon and <code>100.00</code> represents a full moon.
+						</li>
+						<li>
+							<code>obscuration</code> - The percentage of the Moon inside the Earth's umbra shadow. <br> <b>Note:</b> this is only used during Eclipses, and is <code>0.0</code> during all other times.
+						</li>
+						<li>
+							<code>age</code> - The age (in days) since the start of the current lunar cycle.
+						</li>
+						<li>
+							<code>diameter</code> - The current diameter (in arcseconds) of the Moon, as it appears from Earth.
+						</li>
+						<li>
+							<code>distance</code> - The distance of the Moon (in kilometers) from Earth.
+						</li>
+						<li>
+							<code>j2000_ra</code> - The <a href="https://en.wikipedia.org/wiki/Right_ascension" target="_blank">J2000 right ascension</a> (in degrees) of the Moon at the requested timestamp.
+						</li>
+						<li>
+							<code>j2000_dec</code> - The <a href="https://en.wikipedia.org/wiki/Declination" target="_blank">J2000 declination</a> (in degrees) of the Moon at the requested timestamp.
+						</li>
+						<li>
+							<code>subsolar_lon</code>, <code>subsolar_lat</code> - The longitude and latitude (in degrees) of the <a href="https://en.wikipedia.org/wiki/Subsolar_point" target="_blank">subsolar point</a> on the Moon at the requested timestamp. This can be thought of as the point on the Moon where the <i>Sun</i> is directly overhead.
+						</li>
+						<li>
+							<code>subearth_lon</code>, <code>subearth_lat</code> - Like the subsolar point, but for the Earth instead of the Sun. These angles define the <a href="https://en.wikipedia.org/wiki/Libration" target="_blank">libration</a> in longitude and latitude (in degrees).
+						</li>
+						<li>
+							<code>posangle</code> - The <a href="https://en.wikipedia.org/wiki/Phase_angle_(astronomy)" target="_blank">position angle</a> of the north polar axis. This is the tilt of the Moon relative to its line of right ascension, or the north celestial pole, measured counterclockwise.
+						</li>
+					</ul>
+				</section>
+				<section id="apis-media-group-items">
+					<h3>Media Group Items 
+
+
+	<button
+		type="button"
+		class="svs-copy-link-to-this-page-button btn btn-light px-1 py-0 fs-4"
+		title="Copy a link to this section"
+		tabindex="0"
+		aria-label="Copy a link to this section"
+		data-copy-url="http://svs.gsfc.nasa.gov/help/#apis-instance-group-items"
+		data-bs-title="Copied!"
+		data-bs-trigger="manual"
+	><span class="bi bi-link-45deg" aria-hidden="true"></span></button>
+
+</h3>
+					<p>
+						Media group items do not have their own API, but are formatted the same across other APIs that use them. This section is intended to serve as a data specification for that common format.
+					</p>
+					<p>
+						All media group items contain the following parameters:
+					</p>
+					<ul>
+						<li>
+							<code>id</code> - The id number of this media group item.
+						</li>
+						<li>
+							<code>item_type</code> - A string indicating the type of this media group item. <code>item_type</code> will always be one of the following:
+							<ul>
+								<li>
+									<code>media</code> - A media item. For more information on media items, see the section on <a href="#apis-media-items">media items</a> .
+								</li>
+								<li>
+									<code>media_group</code> - Another media group.
+								</li>
+								<li>
+									<code>link</code> - A link to another page.
+								</li>
+								<li>
+									<code>details_page</code> - A visualization page.
+								</li>
+								<li>
+									<code>gallery_page</code> - A gallery page.
+								</li>
+							</ul>
+						</li>
+						<li>
+							<code>instance</code> - A summary of the actual object this media group item points to.
+						</li>
+					</ul>
+					<p>
+						<code>media</code> and <code>link</code> items contain the following extra fields:
+					</p>
+					<ul>
+						<li>
+							<code>title</code> - An optional title used when displaying this item.
+						</li>
+						<li>
+							<code>caption</code> - An optional caption used when displaying this item.
+						</li>
+					</ul>
+					<p>
+						<code>link</code> items also contain an additional extra field:
+					</p>
+					<ul>
+						<li>
+							<code>target</code> - The URL that this item points to.
+						</li>
+					</ul>
+				</section>
+				<section id="apis-media-items">
+					<h3>Media Items 
+
+
+	<button
+		type="button"
+		class="svs-copy-link-to-this-page-button btn btn-light px-1 py-0 fs-4"
+		title="Copy a link to this section"
+		tabindex="0"
+		aria-label="Copy a link to this section"
+		data-copy-url="http://svs.gsfc.nasa.gov/help/#apis-instance-items"
+		data-bs-title="Copied!"
+		data-bs-trigger="manual"
+	><span class="bi bi-link-45deg" aria-hidden="true"></span></button>
+
+</h3>
+					<p>
+						Media items do not have their own API, but are formatted the same across other APIs that use them. This section is intended to serve as a data specification for that common format.
+					</p>
+					<ul>
+						<li>
+							<code>id</code> - The id number of this media item.
+						</li>
+						<li>
+							<code>url</code> - The url that this media item can be found at.
+						</li>
+						<li>
+							<code>filename</code> - The filename of this media item.
+						</li>
+						<li>
+							<code>media_type</code> - A string indicating the type of this media item. <code>media_type</code> will always be one of the following:
+							<ul>
+								<li>
+									<code>Image</code> - An image file.
+								</li>
+								<li>
+									<code>Movie</code> - A video file.
+								</li>
+								<li>
+									<code>Frames</code> - A set of images that are individual frames from a particular video. <b>Note:</b> despite being treated as individual media items, <code>Frames</code> are actually <i>groups</i> of individual images.
+								</li>
+								<li>
+									<code>Captions</code> - A set of captions for a particular video.
+								</li>
+								<li>
+									<code>Audio</code> - An audio file.
+								</li>
+								<li>
+									<code>Presentation</code> - A presentation file (usually PowerPoint or <code>.pdf</code>).
+								</li>
+								<li>
+									<code>File</code> - A file that can't be categorized into one of the other media types.
+								</li>
+							</ul>
+						</li>
+						<li>
+							<code>alt_text</code> - Alt text for this media item.
+						</li>
+					</ul>
+					<p>
+						Some items (e.g. images, movies, and frames) also contain the following extra information:
+					</p>
+					<ul>
+						<li>
+							<code>width</code> - The width of this item (in pixels).
+						</li>
+						<li>
+							<code>height</code> - The height of this item (in pixels).
+						</li>
+						<li>
+							<code>pixels</code> - The total number of pixels in this image (<code>= width x height</code>).
+						</li>
+					</ul>
+				</section>
+			</section>
+
+			<section id="further-assistance">
+				<h2>Further Assistance 
+
+
+	<button
+		type="button"
+		class="svs-copy-link-to-this-page-button btn btn-light px-1 py-0 fs-4"
+		title="Copy a link to this section"
+		tabindex="0"
+		aria-label="Copy a link to this section"
+		data-copy-url="http://svs.gsfc.nasa.gov/help/#further-assistance"
+		data-bs-title="Copied!"
+		data-bs-trigger="manual"
+	><span class="bi bi-link-45deg" aria-hidden="true"></span></button>
+
+</h2>
+
+				
+				<p>
+					Still have a question regarding svs.gsfc.nasa.gov? <span class="email-link" data-user="ella.kaplan" data-linktext="Contact us!" data-domain="nasa" data-suffix="gov"></span>
+				</p>
+			</section>
+		</article>
+	</div>
+
+			</div>
+		</main>
+		<footer>
+			<!-- Footer Javascript -->
+			
+				
+				<script id="_fed_an_ua_tag" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=NASA&subagency=GSFC&yt=true&dclink=true"></script>
+				<script id="parsely-cfg" src="https://cdn.parsely.com/keys/svs.gsfc.nasa.gov/p.js" async="" defer=""></script>
+			
+			<script
+				src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+				onerror="document.write(`<script src='/static/svs/js/bootstrap.bundle.min.js'>\x3C/script>`)"
+			></script>
+
+			<script src="/static/svs/js/script.js"></script>
+			
+				
+			
+
+			<!-- Bottom navigation bar -->
+			<nav id="bottom-navbar" class="navbar navbar-dark text-light">
+				<div class="container">
+					<div class="row w-100">
+						<!-- Brands -->
+						<div class="col-12 col-lg d-flex justify-content-center align-items-center">
+							<!-- NASA brand -->
+							<a href="https://www.nasa.gov/" class="link">
+								<img src="/static/svs/images/nasa-meatball.svg" height="60" alt="NASA Home Page">
+							</a>
+							<!-- USA.gov brand -->
+							<a
+								href="https://www.usa.gov/" class="link"
+							>
+								<img src="/static/svs/images/USAgov_logo.svg" height="60" alt="USA.gov Home Page">
+							</a>
+						</div>
+						<hr class="d-block d-lg-none my-2">
+						<div class="col-12 col-sm d-flex align-items-center">
+							<!-- Privacy and guidelines links -->
+							<div class="text-sm-end w-100">
+								
+									<div class="navbar-text">
+										<a href="https://www.nasa.gov/about/highlights/HP_Privacy.html" class="link link-light">Privacy Policy and Important Notices</a>
+										<br>
+										<a href="https://www.nasa.gov/multimedia/guidelines/index.html" class="link link-light">Reproduction Guidelines</a>
+									</div>
+								
+							</div>
+						</div>
+						<div class="col-auto d-none d-sm-flex align-items-center justify-content-center">
+							<div class="vr h-100 start-50"></div>
+						</div>
+						<div class="col-12 col-sm d-flex align-items-center">
+							<!-- Contact links -->
+							<div class="text-sm-start w-100">
+								
+									<div id="site-contacts" class="navbar-text">
+										<div>
+	NASA Official: <span class="email-link flex-nowrap" data-user="mark.u.subbarao" data-linktext="Mark SubbaRao"></span>
+</div>
+ <div>
+	Site Curator: <span class="email-link flex-nowrap" data-user="ella.kaplan" data-linktext="Ella Kaplan"></span>
+</div>
+
+									</div>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+			</nav>
+		</footer>
+	</body>
+</html>

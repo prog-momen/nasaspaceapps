@@ -1,0 +1,345 @@
+{
+ "threshold": 0.79,
+ "embedder": "intfloat/multilingual-e5-small",
+ "before_gate": {
+  "answerable_accepted": 14,
+  "answerable_rejected": 0,
+  "unanswerable_accepted(false)": 6,
+  "unanswerable_rejected": 4
+ },
+ "after_gate": {
+  "answerable_accepted": 14,
+  "answerable_rejected": 0,
+  "unanswerable_accepted(false)": 0,
+  "unanswerable_rejected": 10
+ },
+ "rows": [
+  {
+   "set": "answerable",
+   "direct_excerpts": 1,
+   "q": "Does FIRMS need a MAP_KEY?",
+   "best_dense": 0.834,
+   "kept_before_gate": 5,
+   "kept_after_gate": 5,
+   "unknown_identifiers": [],
+   "accepted_before": true,
+   "accepted_after": true,
+   "top": [
+    "MAP_KEY is read on the Backend; do not print the resulting URL.",
+    "NASA | LANCE | FIRMS"
+   ]
+  },
+  {
+   "set": "answerable",
+   "direct_excerpts": 1,
+   "q": "هل يحتاج FIRMS إلى مفتاح؟",
+   "best_dense": 0.818,
+   "kept_before_gate": 4,
+   "kept_after_gate": 1,
+   "unknown_identifiers": [],
+   "accepted_before": true,
+   "accepted_after": true,
+   "top": [
+    "EarthTrend Explorer — مرجع APIs والأدوات لعام 2026 > 8. اختيارات النسخة الأولى وما يؤجل > MVP"
+   ]
+  },
+  {
+   "set": "answerable",
+   "direct_excerpts": 1,
+   "q": "What is NASA POWER?",
+   "best_dense": 0.829,
+   "kept_before_gate": 1,
+   "kept_after_gate": 1,
+   "unknown_identifiers": [],
+   "accepted_before": true,
+   "accepted_after": true,
+   "top": [
+    "NASA SVS | Earth Information Center (EIC)"
+   ]
+  },
+  {
+   "set": "answerable",
+   "direct_excerpts": 5,
+   "q": "ما هو NASA POWER؟",
+   "best_dense": 0.843,
+   "kept_before_gate": 5,
+   "kept_after_gate": 5,
+   "unknown_identifiers": [],
+   "accepted_before": true,
+   "accepted_after": true,
+   "top": [
+    "مرجع التنفيذ المختصر — Be An Earth System Trend Detective! > 2. أصغر حل يحقق جوهر التحدي > مسار بيانات موصى به للنسخة الأولية: NASA POWER",
+    "مرجع التنفيذ المختصر — Be An Earth System Trend Detective! > 3. التحليل الإحصائي الذي يجب أن يظهر للمستخدم > آلية المشروع لمعالجة الفجوات الزمنية"
+   ]
+  },
+  {
+   "set": "answerable",
+   "direct_excerpts": 1,
+   "q": "What does T2M mean in NASA POWER?",
+   "best_dense": 0.828,
+   "kept_before_gate": 1,
+   "kept_after_gate": 1,
+   "unknown_identifiers": [],
+   "accepted_before": true,
+   "accepted_after": true,
+   "top": [
+    "EarthTrend Explorer — مرجع APIs والأدوات لعام 2026 > 9. الدليل التفصيلي لجميع الأدوات والموديلات المستخدمة والمقترحة > 9.2 بطاقات APIs والخدمات > S05 — NASA POWER"
+   ]
+  },
+  {
+   "set": "answerable",
+   "direct_excerpts": 0,
+   "q": "Which POWER parameter is bias-corrected precipitation?",
+   "best_dense": 0.851,
+   "kept_before_gate": 1,
+   "kept_after_gate": 2,
+   "unknown_identifiers": [],
+   "accepted_before": true,
+   "accepted_after": true,
+   "top": [
+    "Proposed, not executed: > 9.3 تفاصيل المنتجات وقراءة الوحدات",
+    "EarthTrend Explorer — مرجع APIs والأدوات لعام 2026 > 3. كتالوج APIs ومصادر البيانات > 3.2 قائمة المنتجات المرشحة"
+   ]
+  },
+  {
+   "set": "answerable",
+   "direct_excerpts": 2,
+   "q": "What is NASA GIBS used for?",
+   "best_dense": 0.843,
+   "kept_before_gate": 2,
+   "kept_after_gate": 2,
+   "unknown_identifiers": [],
+   "accepted_before": true,
+   "accepted_after": true,
+   "top": [
+    "Harmony Documentation",
+    "Harmony Documentation"
+   ]
+  },
+  {
+   "set": "answerable",
+   "direct_excerpts": 5,
+   "q": "What is Earthdata Login used for?",
+   "best_dense": 0.858,
+   "kept_before_gate": 5,
+   "kept_after_gate": 5,
+   "unknown_identifiers": [],
+   "accepted_before": true,
+   "accepted_after": true,
+   "top": [
+    "Proposed, not executed: > 9.6 بنية التشغيل > Earthdata Login / secrets handling",
+    "{"
+   ]
+  },
+  {
+   "set": "answerable",
+   "direct_excerpts": 2,
+   "q": "What temporal resolutions does NASA POWER provide?",
+   "best_dense": 0.822,
+   "kept_before_gate": 2,
+   "kept_after_gate": 2,
+   "unknown_identifiers": [],
+   "accepted_before": true,
+   "accepted_after": true,
+   "top": [
+    "مرجع التنفيذ المختصر — Be An Earth System Trend Detective! > 2. أصغر حل يحقق جوهر التحدي > مسار بيانات موصى به للنسخة الأولية: NASA POWER",
+    "Land Processes Distributed Active Archive Center | NASA Earthdata"
+   ]
+  },
+  {
+   "set": "answerable",
+   "direct_excerpts": 5,
+   "q": "What are the MODIS land surface temperature products?",
+   "best_dense": 0.892,
+   "kept_before_gate": 5,
+   "kept_after_gate": 5,
+   "unknown_identifiers": [],
+   "accepted_before": true,
+   "accepted_after": true,
+   "top": [
+    "MODIS/Terra Land Surface Temperature/Emissivity Monthly L3 Global 0.05Deg CMG V061 | NASA Earthdata",
+    "MODIS/Terra Land Surface Temperature/Emissivity Monthly L3 Global 0.05Deg CMG V061 | NASA Earthdata"
+   ]
+  },
+  {
+   "set": "answerable",
+   "direct_excerpts": 1,
+   "q": "What is the FIRMS area API day range limit?",
+   "best_dense": 0.841,
+   "kept_before_gate": 4,
+   "kept_after_gate": 3,
+   "unknown_identifiers": [],
+   "accepted_before": true,
+   "accepted_after": true,
+   "top": [
+    "EarthTrend Explorer — مرجع APIs والأدوات لعام 2026 > 9. الدليل التفصيلي لجميع الأدوات والموديلات المستخدمة والمقترحة > 9.2 بطاقات APIs والخدمات > S06 — FIRMS",
+    "NASA | LANCE | FIRMS"
+   ]
+  },
+  {
+   "set": "answerable",
+   "direct_excerpts": 4,
+   "q": "What is Copernicus Sentinel-2?",
+   "best_dense": 0.858,
+   "kept_before_gate": 5,
+   "kept_after_gate": 5,
+   "unknown_identifiers": [],
+   "accepted_before": true,
+   "accepted_after": true,
+   "top": [
+    "Product Description – Harmonized Landsat Sentinel-2",
+    "Search API Keywords & Endpoints - ASF SAR Data Search Manual"
+   ]
+  },
+  {
+   "set": "answerable",
+   "direct_excerpts": 5,
+   "q": "ما هو GIBS؟",
+   "best_dense": 0.834,
+   "kept_before_gate": 5,
+   "kept_after_gate": 5,
+   "unknown_identifiers": [],
+   "accepted_before": true,
+   "accepted_after": true,
+   "top": [
+    "MAP_KEY is read on the Backend; do not print the resulting URL. > S07 — Worldview / GIBS",
+    "MAP_KEY is read on the Backend; do not print the resulting URL. > S07 — Worldview / GIBS"
+   ]
+  },
+  {
+   "set": "answerable",
+   "direct_excerpts": 2,
+   "q": "كيف أحصل على بيانات MODIS؟",
+   "best_dense": 0.845,
+   "kept_before_gate": 5,
+   "kept_after_gate": 2,
+   "unknown_identifiers": [],
+   "accepted_before": true,
+   "accepted_after": true,
+   "top": [
+    "MAP_KEY is read on the Backend; do not print the resulting URL.",
+    "EarthTrend Explorer — مرجع APIs والأدوات لعام 2026 > 8. اختيارات النسخة الأولى وما يؤجل > MVP"
+   ]
+  },
+  {
+   "set": "unanswerable",
+   "direct_excerpts": 0,
+   "q": "What is the airspeed velocity of a swallow?",
+   "best_dense": 0.831,
+   "kept_before_gate": 5,
+   "kept_after_gate": 0,
+   "unknown_identifiers": [],
+   "accepted_before": true,
+   "accepted_after": false,
+   "top": []
+  },
+  {
+   "set": "unanswerable",
+   "direct_excerpts": 0,
+   "q": "Who won the 2022 World Cup?",
+   "best_dense": 0.789,
+   "kept_before_gate": 1,
+   "kept_after_gate": 0,
+   "unknown_identifiers": [],
+   "accepted_before": false,
+   "accepted_after": false,
+   "top": []
+  },
+  {
+   "set": "unanswerable",
+   "direct_excerpts": 0,
+   "q": "What is the price of Bitcoin today?",
+   "best_dense": 0.812,
+   "kept_before_gate": 5,
+   "kept_after_gate": 0,
+   "unknown_identifiers": [],
+   "accepted_before": true,
+   "accepted_after": false,
+   "top": []
+  },
+  {
+   "set": "unanswerable",
+   "direct_excerpts": 0,
+   "q": "How do I bake sourdough bread?",
+   "best_dense": 0.81,
+   "kept_before_gate": 1,
+   "kept_after_gate": 0,
+   "unknown_identifiers": [],
+   "accepted_before": true,
+   "accepted_after": false,
+   "top": []
+  },
+  {
+   "set": "unanswerable",
+   "direct_excerpts": 0,
+   "q": "What is the capital of Australia?",
+   "best_dense": 0.768,
+   "kept_before_gate": 0,
+   "kept_after_gate": 0,
+   "unknown_identifiers": [],
+   "accepted_before": false,
+   "accepted_after": false,
+   "top": []
+  },
+  {
+   "set": "unanswerable",
+   "direct_excerpts": 0,
+   "q": "ما عاصمة فرنسا؟",
+   "best_dense": 0.729,
+   "kept_before_gate": 0,
+   "kept_after_gate": 0,
+   "unknown_identifiers": [],
+   "accepted_before": false,
+   "accepted_after": false,
+   "top": []
+  },
+  {
+   "set": "unanswerable",
+   "direct_excerpts": 0,
+   "q": "What is the rate limit of the FIRMS XYZ-9000 sensor?",
+   "best_dense": 0.824,
+   "kept_before_gate": 4,
+   "kept_after_gate": 0,
+   "unknown_identifiers": [],
+   "accepted_before": true,
+   "accepted_after": false,
+   "top": []
+  },
+  {
+   "set": "unanswerable",
+   "direct_excerpts": 0,
+   "q": "Explain quantum chromodynamics.",
+   "best_dense": 0.836,
+   "kept_before_gate": 4,
+   "kept_after_gate": 0,
+   "unknown_identifiers": [],
+   "accepted_before": true,
+   "accepted_after": false,
+   "top": []
+  },
+  {
+   "set": "unanswerable",
+   "direct_excerpts": 0,
+   "q": "Recommend a good movie about space.",
+   "best_dense": 0.809,
+   "kept_before_gate": 5,
+   "kept_after_gate": 0,
+   "unknown_identifiers": [],
+   "accepted_before": true,
+   "accepted_after": false,
+   "top": []
+  },
+  {
+   "set": "unanswerable",
+   "direct_excerpts": 0,
+   "q": "كيف أطبخ الكبسة؟",
+   "best_dense": 0.789,
+   "kept_before_gate": 0,
+   "kept_after_gate": 0,
+   "unknown_identifiers": [],
+   "accepted_before": false,
+   "accepted_after": false,
+   "top": []
+  }
+ ]
+}

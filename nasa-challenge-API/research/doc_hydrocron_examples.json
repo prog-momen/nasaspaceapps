@@ -1,0 +1,158 @@
+{
+  "id": "doc_hydrocron_examples",
+  "url": "https://podaac.github.io/hydrocron/examples/",
+  "checked_at": "2026-11-14T15:13:33.467621+00:00",
+  "tls_validation": false,
+  "status": 200,
+  "final_url": "https://podaac.github.io/hydrocron/examples/",
+  "bytes": 171433,
+  "content_type": "text/html; charset=utf-8",
+  "sha256": "313315d174789e48919a94dfdc78250f20f6bb43f949c2714ed3129158a8bbbf",
+  "links": [
+    {
+      "url": "https://podaac.github.io/hydrocron/examples/#skip-to-frontmatter",
+      "label": "Skip to article frontmatter"
+    },
+    {
+      "url": "https://podaac.github.io/hydrocron/examples/#skip-to-article",
+      "label": "Skip to article content"
+    },
+    {
+      "url": "https://mystmd.org/guide/deployment#deploy-base-url",
+      "label": "the MyST Documentation"
+    },
+    {
+      "url": "https://podaac.github.io/hydrocron/",
+      "label": "Made with MyST"
+    },
+    {
+      "url": "https://podaac.github.io/hydrocron/",
+      "label": "Hydrocron"
+    },
+    {
+      "url": "https://podaac.github.io/hydrocron/overview",
+      "label": "Overview"
+    },
+    {
+      "url": "https://podaac.github.io/hydrocron/user-guide/start",
+      "label": "User Guide"
+    },
+    {
+      "url": "https://podaac.github.io/hydrocron/examples",
+      "label": "Examples"
+    },
+    {
+      "url": "https://podaac.github.io/hydrocron/hydrocron-tutorial",
+      "label": "Tutorial"
+    },
+    {
+      "url": "https://github.com/podaac/hydrocron",
+      "label": ""
+    },
+    {
+      "url": "https://podaac.github.io/hydrocron/examples/#get-time-series-geojson-for-river-reach",
+      "label": "¶"
+    },
+    {
+      "url": "https://soto.podaac.earthdatacloud.nasa.gov/hydrocron/v1/timeseries?feature=Reach&feature_id=78340600051&output=geojson&start_time=2024-01-25T00:00:00Z&end_time=2024-03-29T00:00:00Z&fields=reach_id,time_str,wse,slope",
+      "label": "https://soto.podaac.earthdatacloud.nasa.gov/hydrocron/v1/timeseries?feature=Reach&feature_id=78340600051&output=geojson&start_time=2024-01-25T00:00:00Z&end_time=2024-03-29T00:00:00Z&fields=reach_id,time_str,wse,slope"
+    },
+    {
+      "url": "https://podaac.github.io/hydrocron/examples/#get-time-series-geojson-for-river-reach-with-discharge",
+      "label": "¶"
+    },
+    {
+      "url": "https://soto.podaac.earthdatacloud.nasa.gov/hydrocron/v1/timeseries?collection_name=SWOT_L2_HR_RiverSP_2.0&feature=Reach&feature_id=18180900091&start_time=2025-04-01T00:00:00%2b00:00&end_time=2025-10-30T00:00:00%2b00:00&output=geojson&fields=reach_id,time_str,wse,sos_consensus_q,sos_hivdi_q,sos_metroman_q,sos_momma_q,sos_sad_q,sos_sic4dvar_q,sos_lakeflow_q,swot_discharge_reanalysis",
+      "label": "https://soto.podaac.earthdatacloud.nasa.gov/hydrocron/v1/timeseries?collection_name=SWOT_L2_HR_RiverSP_2.0&feature=Reach&feature_id=18180900091&start_time=2025-04-01T00:00:00%2b00:00&end_time=2025-10-30T00:00:00%2b00:00&output=geojson&fields=reach_id,time_str,wse,sos_consensus_q,sos_hivdi_q,sos_metroman_q,sos_momma_q,sos_sad_q,sos_sic4dvar_q,sos_lakeflow_q,swot_discharge_reanalysis"
+    },
+    {
+      "url": "https://podaac.github.io/hydrocron/examples/#get-time-series-geojson-for-river-node",
+      "label": "¶"
+    },
+    {
+      "url": "https://soto.podaac.earthdatacloud.nasa.gov/hydrocron/v1/timeseries?feature=Node&feature_id=44404000150591&start_time=2024-01-02T00:00:00Z&end_time=2024-02-10T00:00:00Z&output=geojson&fields=reach_id,node_id,time_str,wse",
+      "label": "https://soto.podaac.earthdatacloud.nasa.gov/hydrocron/v1/timeseries?feature=Node&feature_id=44404000150591&start_time=2024-01-02T00:00:00Z&end_time=2024-02-10T00:00:00Z&output=geojson&fields=reach_id,node_id,time_str,wse"
+    },
+    {
+      "url": "https://podaac.github.io/hydrocron/examples/#get-time-series-geojson-for-a-lake",
+      "label": "¶"
+    },
+    {
+      "url": "https://soto.podaac.earthdatacloud.nasa.gov/hydrocron/v1/timeseries?feature=PriorLake&feature_id=6350036102&start_time=2024-07-20T00:00:00Z&end_time=2024-07-26T00:00:00Z&fields=lake_id,time_str,wse,area_total,quality_f,collection_shortname,crid,PLD_version,range_start_time&output=geojson",
+      "label": "https://soto.podaac.earthdatacloud.nasa.gov/hydrocron/v1/timeseries?feature=PriorLake&feature_id=6350036102&start_time=2024-07-20T00:00:00Z&end_time=2024-07-26T00:00:00Z&fields=lake_id,time_str,wse,area_total,quality_f,collection_shortname,crid,PLD_version,range_start_time&output=geojson"
+    },
+    {
+      "url": "https://podaac.github.io/hydrocron/examples/#get-time-series-csv-for-river-reach",
+      "label": "¶"
+    },
+    {
+      "url": "https://soto.podaac.earthdatacloud.nasa.gov/hydrocron/v1/timeseries?feature=Reach&feature_id=78340600051&output=csv&start_time=2024-01-25T00:00:00Z&end_time=2024-03-29T00:00:00Z&fields=reach_id,time_str,wse,slope",
+      "label": "https://soto.podaac.earthdatacloud.nasa.gov/hydrocron/v1/timeseries?feature=Reach&feature_id=78340600051&output=csv&start_time=2024-01-25T00:00:00Z&end_time=2024-03-29T00:00:00Z&fields=reach_id,time_str,wse,slope"
+    },
+    {
+      "url": "https://podaac.github.io/hydrocron/examples/#get-time-series-csv-for-river-reach-with-discharge",
+      "label": "¶"
+    },
+    {
+      "url": "https://soto.podaac.earthdatacloud.nasa.gov/hydrocron/v1/timeseries?collection_name=SWOT_L2_HR_RiverSP_2.0&feature=Reach&feature_id=18180900091&start_time=2025-04-01T00:00:00%2b00:00&end_time=2025-10-30T00:00:00%2b00:00&output=csv&fields=reach_id,time_str,wse,sos_consensus_q,sos_hivdi_q,sos_metroman_q,sos_momma_q,sos_sad_q,sos_sic4dvar_q,sos_lakeflow_q,swot_discharge_reanalysis",
+      "label": "https://soto.podaac.earthdatacloud.nasa.gov/hydrocron/v1/timeseries?collection_name=SWOT_L2_HR_RiverSP_2.0&feature=Reach&feature_id=18180900091&start_time=2025-04-01T00:00:00%2b00:00&end_time=2025-10-30T00:00:00%2b00:00&output=csv&fields=reach_id,time_str,wse,sos_consensus_q,sos_hivdi_q,sos_metroman_q,sos_momma_q,sos_sad_q,sos_sic4dvar_q,sos_lakeflow_q,swot_discharge_reanalysis"
+    },
+    {
+      "url": "https://podaac.github.io/hydrocron/examples/#get-time-series-csv-for-river-node",
+      "label": "¶"
+    },
+    {
+      "url": "https://soto.podaac.earthdatacloud.nasa.gov/hydrocron/v1/timeseries?feature=Node&feature_id=44404000150591&start_time=2024-01-02T00:00:00Z&end_time=2024-02-10T00:00:00Z&output=csv&fields=node_id,reach_id,time_str,wse,geometry",
+      "label": "https://soto.podaac.earthdatacloud.nasa.gov/hydrocron/v1/timeseries?feature=Node&feature_id=44404000150591&start_time=2024-01-02T00:00:00Z&end_time=2024-02-10T00:00:00Z&output=csv&fields=node_id,reach_id,time_str,wse,geometry"
+    },
+    {
+      "url": "https://podaac.github.io/hydrocron/examples/#get-time-series-csv-for-lake",
+      "label": "¶"
+    },
+    {
+      "url": "https://soto.podaac.earthdatacloud.nasa.gov/hydrocron/v1/timeseries?feature=PriorLake&feature_id=6350036102&start_time=2024-07-20T00:00:00Z&end_time=2024-07-26T00:00:00Z&fields=lake_id,time_str,wse,area_total,quality_f,collection_shortname,crid,PLD_version,range_start_time&output=csv",
+      "label": "https://soto.podaac.earthdatacloud.nasa.gov/hydrocron/v1/timeseries?feature=PriorLake&feature_id=6350036102&start_time=2024-07-20T00:00:00Z&end_time=2024-07-26T00:00:00Z&fields=lake_id,time_str,wse,area_total,quality_f,collection_shortname,crid,PLD_version,range_start_time&output=csv"
+    },
+    {
+      "url": "https://podaac.github.io/hydrocron/examples/#accept-headers",
+      "label": "¶"
+    },
+    {
+      "url": "https://podaac.github.io/hydrocron/timeseries",
+      "label": "documentation on the timeseries endpoint"
+    },
+    {
+      "url": "https://podaac.github.io/hydrocron/examples/#get-time-series-for-application-geo-json-accept-header",
+      "label": "¶"
+    },
+    {
+      "url": "https://podaac.github.io/hydrocron/examples/#get-time-series-for-text-csv-accept-header",
+      "label": "¶"
+    },
+    {
+      "url": "https://podaac.github.io/hydrocron/examples/#compact-request",
+      "label": "¶"
+    },
+    {
+      "url": "https://podaac.github.io/hydrocron/examples/#get-time-series-for-application-json-with-compact-true",
+      "label": "¶"
+    },
+    {
+      "url": "https://podaac.github.io/hydrocron/examples/#get-time-series-for-application-geo-json",
+      "label": "¶"
+    },
+    {
+      "url": "https://podaac.github.io/hydrocron/examples/#get-time-series-for-application-geo-json-with-compact-false",
+      "label": "¶"
+    },
+    {
+      "url": "https://podaac.github.io/hydrocron/user-guide/sword-versions",
+      "label": "GETTING STARTEDSWORD Version Differences"
+    },
+    {
+      "url": "https://podaac.github.io/hydrocron/hydrocron-tutorial",
+      "label": "GETTING STARTEDTutorial"
+    }
+  ],
+  "elapsed_seconds": 2.844
+}

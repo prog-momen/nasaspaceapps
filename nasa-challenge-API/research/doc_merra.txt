@@ -1,0 +1,91 @@
+GMAO - Modern-Era Retrospective analysis for Research and Applications, Version 2
+Earth Sciences Division
+Sciences and Exploration
+Reanalysis
+Long-term, model-based analyses of multiple datasets using a fixed assimilation system are a major focus in the GMAO. Building on the success of the atmospheric reanalyses conducted with GEOS, current research and development activities are directed at producing a major Earth System Reanalysis, including atmosphere, land, ocean, and ice.
+Weather Analysis & Prediction
+To support NASA's satellite missions and field experiments, GMAO generates near-real-time atmospheric products using GEOS and distributes them to a broad community of users.
+Seasonal-Decadal Analysis & Prediction
+GMAO uses coupled Earth-System models and analyses, along with a broad range of satellite observations, to study and predict phenomena that evolve on seasonal to decadal timescales.
+Global Mesoscale Modeling
+Current computing capacity enables GMAO to simulate the entire globe at spatial resolutions previously only possible with regional models. These “global mesoscale model” simulations serve for forefront evaluations of model performance and form the basis for Observing System Simulation Experiments.
+Observing System Science
+GMAO's mission to provide modeling support for NASA's satellite observations encompasses the need to examine the impacts of different observation types in weather and climate prediction. It also requires the ability to simulate potential new observation types, in order to assess their cost benefit, based on their likely impacts on prediction.
+Explore
+GMAO Mission
+GMAO Products
+GMAO News
+NASA Mission Support
+Field Campaign Support
+Multi-Partner Projects
+Research Briefs
+Animations
+Science Snapshots
+GEOS Systems
+Publications
+Seminars & Workshops
+Staff Directory
+Contact Information
+Employment
+Intranet (internal)
+Extranet (login required)
+Modern-Era Retrospective analysis for Research and Applications, Version 2
+Home
+GMAO Products
+MERRA-2
+Modern-Era Retrospective analysis for Research and Applications, Version 2
+The Modern-Era Retrospective analysis for Research and Applications, Version 2 (MERRA-2) provides data beginning in 1980. It was introduced to replace the original MERRA dataset because of the advances made in the assimilation system that enable assimilation of modern hyperspectral radiance and microwave observations, along with GPS-Radio Occultation datasets. It also uses NASA's ozone profile observations that began in late 2004. Additional advances in both the GEOS model and the GSI assimilation system are included in MERRA-2. Spatial resolution remains about the same (about 50 km in the latitudinal direction) as in MERRA.
+
+Along with the enhancements in the meteorological assimilation, MERRA-2 takes some significant steps towards GMAO’s target of an Earth System reanalysis. MERRA-2 is the first long-term global reanalysis to assimilate space-based observations of aerosols and represent their interactions with other physical processes in the climate system. MERRA-2 includes a representation of ice sheets over (say) Greenland and Antarctica.
+Data Access
+System Characteristics
+WMO Data Access
+Citing MERRA-2 Data
+Documentation
+WMO Climate Reanalysis
+MERRA-2 AMIP
+Highlights
+Images
+Videos
+FAQ
+Publications
+Mailing List
+User Metrics
+Diagnostic Feedback
+GMAO Reanalysis Page
+Related Information
+GMAO Reanalysis Products
+View current GMAO production status.
+Modern-Era Retrospective analysis for Research and Applications - early 21st Century (MERRA-21C)
+GEOS Sub-seasonal to Seasonal Prediction system, Version 3 (GEOS-S2S-3)
+GEOS FP (GEOS FP)
+Goddard Earth Observing System (GEOS) for Instrument Teams (GEOS IT)
+GEOS FP-IT (GEOS FP-IT)
+GEOS Composition Forecasts (GEOS-CF)
+GEOS Near-Real Time Data Products (GEOS Near-Real Time Data Products)
+GEOS Sub-seasonal to Seasonal Project, Version 2 (GEOS-S2S-2)
+GEOS Experimental Seasonal Forecasts (GEOS-S2S-1)
+Atmosphere-Ocean General Circulation Model (AOGCM)
+Modern-Era Retrospective analysis for Research and Applications (MERRA)
+MERRA-Land (MERRA-Land)
+Modern Era Retrospective analysis for Research and Applications Aerosol Reanalysis (MERRAero)
+MERRA-NOBM (MERRA-NOBM)
+Non-hydrostatic 7 km Global Mesoscale Simulation (7km-G5NR)
+Hurricane and Severe Storm Sentinel (HS3) Forecast Support (HS3)
+DISCOVER-AQ 2014 Campaign GEOS-5 Forecasting Support (DISCOVER-AQ)
+DYAMOND Phase II (DYAMOND Phase II)
+Observing System Simulation Experiments (OSSEs)
+SMAP Level-4 Products (SMAP L4)
+Privacy Policy & Important Notices
+NASA's Accessibility Statement
+Contact Us
+Website Question & Feedback
+Responsible NASA Official:
+Steven Pawson
+Web Curator:
+Thang H Do
+Page Last Updated:
+08/27/2026
+×
+Close
+Submit

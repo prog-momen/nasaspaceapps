@@ -1,0 +1,150 @@
+{
+  "note": "Includes preserved concurrent edits and debug repairs. No environment or secret files included.",
+  "files": [
+    {
+      "path": "app\\config.py",
+      "before_sha256": "864a17494edeefa58b974ed7196fbab5f7d7083a8e52d528901e8865fb49f228",
+      "after_sha256": "b8ead62af8c34a7d281b0abaac6cef5e079692ee5d2fd110e22ff294653520a2"
+    },
+    {
+      "path": "app\\diagnose.py",
+      "before_sha256": null,
+      "after_sha256": "e69076a931824a2976500d99337c3318fa8cb5a783b74d3004cffbb603a0864d"
+    },
+    {
+      "path": "app\\reliability.py",
+      "before_sha256": null,
+      "after_sha256": "94b56f36b1ee03e0d5d9c6846896853a23d99fc90e57a292624ab0a9f6248508"
+    },
+    {
+      "path": "app\\agent\\deterministic.py",
+      "before_sha256": null,
+      "after_sha256": "37d269aea790e0cf4e73c5fb00ff8c87cfe4656d0fcee7738e55eb7f1730a5d2"
+    },
+    {
+      "path": "app\\agent\\trend_agent.py",
+      "before_sha256": "df3aaadb774a640ba0bc30cd8526391fa2e9bb2198fb8d77dd2bf567c7ec7358",
+      "after_sha256": "329d3a51febe95af73fa0992adb09bc5ecb9c3db0837d09a40aca1d6d9d84769"
+    },
+    {
+      "path": "app\\analysis\\catalog.py",
+      "before_sha256": "d7d2d2667375113169a412655244ea84075868c13e2fac3fc48acd93347e3cb5",
+      "after_sha256": "40fedf527de5599cde2480cfcb16f3c3f6b419fe00b3a0842e4084262428e1f0"
+    },
+    {
+      "path": "app\\analysis\\stats.py",
+      "before_sha256": "76b0af4d3f7d52e4a8dfdce245b7643eab2bc5d514d2d97fd0decc80781f1839",
+      "after_sha256": "f8e3ebbc915d384303b657f33099778cd7dac52c340aca02d3e61dbbd0d06c41"
+    },
+    {
+      "path": "app\\analysis\\timeseries.py",
+      "before_sha256": "2bcc5e633fa59252fdda7441645373fbcc73a9f21677162aefa98d063187bd53",
+      "after_sha256": "1b797f778408456baf261e72d7d2a02f10cf64dbecdfa9260e87cdc1408bf300"
+    },
+    {
+      "path": "app\\analysis\\trend.py",
+      "before_sha256": "693e84c78f190d68a19abc314b2b3841a3bd42b9930ee703f44ebe4b45e7bdda",
+      "after_sha256": "69e4da52dd0be957717b6920962351681973d69d270ed3a8668fe6886e514c93"
+    },
+    {
+      "path": "app\\api\\main.py",
+      "before_sha256": "fbb0be44dca33a460a51962871170183b31d9d1bc9ad142db838ac11d4b1ec29",
+      "after_sha256": "97d309028f693bb0f1a0deb2e4305a19ced4c92f0cabfbd8205fc2ab796ad09f"
+    },
+    {
+      "path": "app\\api\\schemas.py",
+      "before_sha256": "7a393d8cd2f01abca6a2e1c10d586595cc991fc02e9b647ee1044d143280ffdd",
+      "after_sha256": "c33f650621a65ba3a54f9732dcae492d8f56df790c24c78ae979fbe7bda87c0d"
+    },
+    {
+      "path": "app\\data_sources\\power.py",
+      "before_sha256": "54f1c9334fedfeaa22beb8184d96dd70dc9391b84d8d3311bc874918a81c05c9",
+      "after_sha256": "b6df55e0db7ab58c32655d7444f76306998914a0d71a6ca4939770972748852f"
+    },
+    {
+      "path": "app\\llm\\gemini_client.py",
+      "before_sha256": "e0f96e80f554282077f6456abf99a6e143797dd554087d8c485bd13a4dd0b2c6",
+      "after_sha256": "5d61af43932c2b7d9791a701417d15192d69a00782bb5b99477d1efcbaf5a4d2"
+    },
+    {
+      "path": "app\\rag\\pipeline.py",
+      "before_sha256": "1d51ee7409dd46fa838671b58ab5c481b387fcbbe24a204d81386efe23292ed9",
+      "after_sha256": "ac4a45e983081f5a8d02777b49850db376935815a936b343d9bf88474d67f52b"
+    },
+    {
+      "path": "app\\rag\\service.py",
+      "before_sha256": "0d646ce3f8780c687678ea46160ddecb5691a6ee1cf9c268a4a82caa16f8dc14",
+      "after_sha256": "6930b56c481663185a6e999482248c81b82a970b9f119c3babc2350b897f36d0"
+    },
+    {
+      "path": "app\\tools\\trend_tool.py",
+      "before_sha256": "5ec85016de557a03051237e5a2a975521eec01eb5f737819ac2c549ad14c8f25",
+      "after_sha256": "b2a6fb6ce07d4b2291f653031d11a4c6d49dc575645db53f6950a6fc13b2473f"
+    },
+    {
+      "path": "tests\\test_debug_regressions.py",
+      "before_sha256": null,
+      "after_sha256": "17e803c117bc2e7c52391b57f4fcfb45fe2e5f96b1feb5a5bf2cc3ebc6e500c1"
+    },
+    {
+      "path": "tests\\test_followup_hardening.py",
+      "before_sha256": null,
+      "after_sha256": "604e0ceec2262b309c8f3a14cd13c5400a24fa953c45e869d370b2ea2814c57c"
+    },
+    {
+      "path": "tests\\test_gemini_client.py",
+      "before_sha256": "dbf35d8aefe46b97c84e65965099f4f8b7548c223bdea5c8f05d8a7e1b983791",
+      "after_sha256": "469da7fe96738b169a86341af4206405359b013f2dd9be7eec10c2a1e096a6c4"
+    },
+    {
+      "path": "tests\\test_pipeline_api.py",
+      "before_sha256": "10656b07952953ac7422dff07aa4568c5b9a7141ce50cf27464990360fcf5ac0",
+      "after_sha256": "44e4e84a4237d8a6da811a05998c825e5b8e6218f24524aab360011b8a3e6534"
+    },
+    {
+      "path": "tests\\test_trend_agent.py",
+      "before_sha256": "548cbc10f5494157a8222db4d3f84fa6d7749dc1efaa7c635fa866d0e45f8237",
+      "after_sha256": "fc17403724dd336379f7b04bea021da8e2c8f5280259a702705285f951ef5451"
+    },
+    {
+      "path": "tests\\integration\\conftest.py",
+      "before_sha256": "2ef96cdb6418b6a2fc9a938c3040d7ad80ba60b18af72f52094357f7ee86dc28",
+      "after_sha256": "bbe6ea0f0ded279b56cfe81cf43fdeaea8c15832f65da757f0bd0dce6c761ac2"
+    },
+    {
+      "path": "tests\\integration\\test_real_stack.py",
+      "before_sha256": "6df43ac633ad911e9e8877be5e769561d7b2c7bc487e37c96d37d5a0f9416b3a",
+      "after_sha256": "7abc60ccb0c4eaf818f2f7801e10314df4db6449e3b46bd98daa9e83e958cef0"
+    },
+    {
+      "path": "tests\\integration\\test_real_trend.py",
+      "before_sha256": "6f85f7d571af42919427d617f59b9b00f4e945570e24b1252fc9beafb6d6ac36",
+      "after_sha256": "d5e1383a85c1319dd236138221ec3d193a74c48cd6d4f8d033dd33ae9cbf461b"
+    },
+    {
+      "path": "docs\\DEBUG_REPORT_AR.md",
+      "before_sha256": null,
+      "after_sha256": "d690132a057e91e8387ba7d2e8d087174d624cd5672acee0de3e470892776a8e"
+    },
+    {
+      "path": "docs\\EVALUATION.md",
+      "before_sha256": "76d4f35793d4ebb0d819e4c2e3fc1547e15f063c5137f1ae31aeb897367eb4bc",
+      "after_sha256": "5e648130d04d6897878f7870ccffae958f06f7d68c28c1ddf3e575cbe8d1fb7e"
+    },
+    {
+      "path": "docs\\GEMINI_RELIABILITY.md",
+      "before_sha256": null,
+      "after_sha256": "973f7980c92511597a7aecdacbc1338aad027028ebfba99a3e63bc7b9d3a03c2"
+    },
+    {
+      "path": "README.md",
+      "before_sha256": "4389f76868cbee0868d738b5cb82fb5117d7e9a3b0e8382862c3084e17c39bfc",
+      "after_sha256": "9154ca319302199ef6a456def1f91b0db5c4e9debbac0e506054d6d928df6a5d"
+    },
+    {
+      "path": "requirements.txt",
+      "before_sha256": "74ca4c9ea672896df032928715017995bed92db2c45ea293aa465fe6f0e78c1a",
+      "after_sha256": "13ccfb32a62439e1a2e82567260213fc14ff8f9a653471e8f34fc6b734d88293"
+    }
+  ]
+}

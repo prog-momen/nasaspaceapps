@@ -1,0 +1,1226 @@
+{
+  "id": "doc_sarimax",
+  "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.html",
+  "checked_at": "2026-11-14T15:13:38.999534+00:00",
+  "tls_validation": false,
+  "status": 200,
+  "final_url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.html",
+  "bytes": 124187,
+  "content_type": "text/html; charset=utf-8",
+  "sha256": "f7e8871624f303290b44c05e4b7a37e02db2c2dca1c26113c009b56c812f40c3",
+  "links": [
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.html#main-content",
+      "label": "Skip to main content"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/index.html",
+      "label": "statsmodels"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/install.html",
+      "label": "Installing"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/gettingstarted.html",
+      "label": "Getting started"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/user-guide.html",
+      "label": "User Guide"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/examples/index.html",
+      "label": "Examples"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/api.html",
+      "label": "API Reference"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/about.html",
+      "label": "About statsmodels"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/dev/index.html",
+      "label": "Developer Page"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/release/index.html",
+      "label": "Release 0.15.0"
+    },
+    {
+      "url": "https://github.com/statsmodels/statsmodels/",
+      "label": "GitHub"
+    },
+    {
+      "url": "https://pypi.org/project/statsmodels/",
+      "label": "PyPI"
+    },
+    {
+      "url": "https://doi.org/10.5281/zenodo.593847",
+      "label": "DOI"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/install.html",
+      "label": "Installing"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/gettingstarted.html",
+      "label": "Getting started"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/user-guide.html",
+      "label": "User Guide"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/examples/index.html",
+      "label": "Examples"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/api.html",
+      "label": "API Reference"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/about.html",
+      "label": "About statsmodels"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/dev/index.html",
+      "label": "Developer Page"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/release/index.html",
+      "label": "Release 0.15.0"
+    },
+    {
+      "url": "https://github.com/statsmodels/statsmodels/",
+      "label": "GitHub"
+    },
+    {
+      "url": "https://pypi.org/project/statsmodels/",
+      "label": "PyPI"
+    },
+    {
+      "url": "https://doi.org/10.5281/zenodo.593847",
+      "label": "DOI"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/endog_exog.html",
+      "label": "endog, exog, what’s that?"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/api-structure.html",
+      "label": "Import Paths and Structure"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/example_formulas.html",
+      "label": "Fitting models using R-style formulas"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/pitfalls.html",
+      "label": "Pitfalls"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/regression.html",
+      "label": "Linear Regression"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/glm.html",
+      "label": "Generalized Linear Models"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/gee.html",
+      "label": "Generalized Estimating Equations"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/gam.html",
+      "label": "Generalized Additive Models (GAM)"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/rlm.html",
+      "label": "Robust Linear Models"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/mixed_linear.html",
+      "label": "Linear Mixed Effects Models"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/discretemod.html",
+      "label": "Regression with Discrete Dependent Variable"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/mixed_glm.html",
+      "label": "Generalized Linear Mixed Effects Models"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/anova.html",
+      "label": "ANOVA"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/other_models.html",
+      "label": "Other Models othermod"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/tsa.html",
+      "label": "Time Series analysis tsa"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/statespace.html",
+      "label": "Time Series Analysis by State Space Methods statespace"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.html",
+      "label": "statsmodels.tsa.statespace.sarimax.SARIMAX"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.clone.html",
+      "label": "statsmodels.tsa.statespace.sarimax.SARIMAX.clone"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.filter.html",
+      "label": "statsmodels.tsa.statespace.sarimax.SARIMAX.filter"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.fit.html",
+      "label": "statsmodels.tsa.statespace.sarimax.SARIMAX.fit"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.fit_constrained.html",
+      "label": "statsmodels.tsa.statespace.sarimax.SARIMAX.fit_constrained"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.fix_params.html",
+      "label": "statsmodels.tsa.statespace.sarimax.SARIMAX.fix_params"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.from_formula.html",
+      "label": "statsmodels.tsa.statespace.sarimax.SARIMAX.from_formula"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.handle_params.html",
+      "label": "statsmodels.tsa.statespace.sarimax.SARIMAX.handle_params"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.hessian.html",
+      "label": "statsmodels.tsa.statespace.sarimax.SARIMAX.hessian"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.impulse_responses.html",
+      "label": "statsmodels.tsa.statespace.sarimax.SARIMAX.impulse_responses"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.information.html",
+      "label": "statsmodels.tsa.statespace.sarimax.SARIMAX.information"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.initialize.html",
+      "label": "statsmodels.tsa.statespace.sarimax.SARIMAX.initialize"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.initialize_approximate_diffuse.html",
+      "label": "statsmodels.tsa.statespace.sarimax.SARIMAX.initialize_approximate_diffuse"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.initialize_default.html",
+      "label": "statsmodels.tsa.statespace.sarimax.SARIMAX.initialize_default"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.initialize_known.html",
+      "label": "statsmodels.tsa.statespace.sarimax.SARIMAX.initialize_known"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.initialize_statespace.html",
+      "label": "statsmodels.tsa.statespace.sarimax.SARIMAX.initialize_statespace"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.initialize_stationary.html",
+      "label": "statsmodels.tsa.statespace.sarimax.SARIMAX.initialize_stationary"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.loglike.html",
+      "label": "statsmodels.tsa.statespace.sarimax.SARIMAX.loglike"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.loglikeobs.html",
+      "label": "statsmodels.tsa.statespace.sarimax.SARIMAX.loglikeobs"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.observed_information_matrix.html",
+      "label": "statsmodels.tsa.statespace.sarimax.SARIMAX.observed_information_matrix"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.opg_information_matrix.html",
+      "label": "statsmodels.tsa.statespace.sarimax.SARIMAX.opg_information_matrix"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.predict.html",
+      "label": "statsmodels.tsa.statespace.sarimax.SARIMAX.predict"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.prepare_data.html",
+      "label": "statsmodels.tsa.statespace.sarimax.SARIMAX.prepare_data"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.score.html",
+      "label": "statsmodels.tsa.statespace.sarimax.SARIMAX.score"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.score_obs.html",
+      "label": "statsmodels.tsa.statespace.sarimax.SARIMAX.score_obs"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.set_conserve_memory.html",
+      "label": "statsmodels.tsa.statespace.sarimax.SARIMAX.set_conserve_memory"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.set_filter_method.html",
+      "label": "statsmodels.tsa.statespace.sarimax.SARIMAX.set_filter_method"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.set_inversion_method.html",
+      "label": "statsmodels.tsa.statespace.sarimax.SARIMAX.set_inversion_method"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.set_smoother_output.html",
+      "label": "statsmodels.tsa.statespace.sarimax.SARIMAX.set_smoother_output"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.set_stability_method.html",
+      "label": "statsmodels.tsa.statespace.sarimax.SARIMAX.set_stability_method"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.simulate.html",
+      "label": "statsmodels.tsa.statespace.sarimax.SARIMAX.simulate"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.simulation_smoother.html",
+      "label": "statsmodels.tsa.statespace.sarimax.SARIMAX.simulation_smoother"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.smooth.html",
+      "label": "statsmodels.tsa.statespace.sarimax.SARIMAX.smooth"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.transform_jacobian.html",
+      "label": "statsmodels.tsa.statespace.sarimax.SARIMAX.transform_jacobian"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.transform_params.html",
+      "label": "statsmodels.tsa.statespace.sarimax.SARIMAX.transform_params"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.untransform_params.html",
+      "label": "statsmodels.tsa.statespace.sarimax.SARIMAX.untransform_params"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.update.html",
+      "label": "statsmodels.tsa.statespace.sarimax.SARIMAX.update"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.endog_names.html",
+      "label": "statsmodels.tsa.statespace.sarimax.SARIMAX.endog_names"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.exog_names.html",
+      "label": "statsmodels.tsa.statespace.sarimax.SARIMAX.exog_names"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.initial_design.html",
+      "label": "statsmodels.tsa.statespace.sarimax.SARIMAX.initial_design"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.initial_selection.html",
+      "label": "statsmodels.tsa.statespace.sarimax.SARIMAX.initial_selection"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.initial_state_intercept.html",
+      "label": "statsmodels.tsa.statespace.sarimax.SARIMAX.initial_state_intercept"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.initial_transition.html",
+      "label": "statsmodels.tsa.statespace.sarimax.SARIMAX.initial_transition"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.initial_variance.html",
+      "label": "statsmodels.tsa.statespace.sarimax.SARIMAX.initial_variance"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.initialization.html",
+      "label": "statsmodels.tsa.statespace.sarimax.SARIMAX.initialization"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.loglikelihood_burn.html",
+      "label": "statsmodels.tsa.statespace.sarimax.SARIMAX.loglikelihood_burn"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.model_latex_names.html",
+      "label": "statsmodels.tsa.statespace.sarimax.SARIMAX.model_latex_names"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.model_names.html",
+      "label": "statsmodels.tsa.statespace.sarimax.SARIMAX.model_names"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.model_orders.html",
+      "label": "statsmodels.tsa.statespace.sarimax.SARIMAX.model_orders"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.param_names.html",
+      "label": "statsmodels.tsa.statespace.sarimax.SARIMAX.param_names"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.param_terms.html",
+      "label": "statsmodels.tsa.statespace.sarimax.SARIMAX.param_terms"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.params_complete.html",
+      "label": "statsmodels.tsa.statespace.sarimax.SARIMAX.params_complete"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.start_params.html",
+      "label": "statsmodels.tsa.statespace.sarimax.SARIMAX.start_params"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.state_names.html",
+      "label": "statsmodels.tsa.statespace.sarimax.SARIMAX.state_names"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.tolerance.html",
+      "label": "statsmodels.tsa.statespace.sarimax.SARIMAX.tolerance"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAXResults.html",
+      "label": "statsmodels.tsa.statespace.sarimax.SARIMAXResults"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.structural.UnobservedComponents.html",
+      "label": "statsmodels.tsa.statespace.structural.UnobservedComponents"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.structural.UnobservedComponentsResults.html",
+      "label": "statsmodels.tsa.statespace.structural.UnobservedComponentsResults"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.varmax.VARMAX.html",
+      "label": "statsmodels.tsa.statespace.varmax.VARMAX"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.varmax.VARMAXResults.html",
+      "label": "statsmodels.tsa.statespace.varmax.VARMAXResults"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.dynamic_factor_mq.DynamicFactorMQ.html",
+      "label": "statsmodels.tsa.statespace.dynamic_factor_mq.DynamicFactorMQ"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.dynamic_factor_mq.DynamicFactorMQResults.html",
+      "label": "statsmodels.tsa.statespace.dynamic_factor_mq.DynamicFactorMQResults"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.dynamic_factor.DynamicFactor.html",
+      "label": "statsmodels.tsa.statespace.dynamic_factor.DynamicFactor"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.dynamic_factor.DynamicFactorResults.html",
+      "label": "statsmodels.tsa.statespace.dynamic_factor.DynamicFactorResults"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.exponential_smoothing.ExponentialSmoothing.html",
+      "label": "statsmodels.tsa.statespace.exponential_smoothing.ExponentialSmoothing"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.exponential_smoothing.ExponentialSmoothingResults.html",
+      "label": "statsmodels.tsa.statespace.exponential_smoothing.ExponentialSmoothingResults"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.mlemodel.MLEModel.html",
+      "label": "statsmodels.tsa.statespace.mlemodel.MLEModel"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.mlemodel.MLEResults.html",
+      "label": "statsmodels.tsa.statespace.mlemodel.MLEResults"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.mlemodel.PredictionResults.html",
+      "label": "statsmodels.tsa.statespace.mlemodel.PredictionResults"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.news.NewsResults.html",
+      "label": "statsmodels.tsa.statespace.news.NewsResults"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.representation.Representation.html",
+      "label": "statsmodels.tsa.statespace.representation.Representation"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.representation.FrozenRepresentation.html",
+      "label": "statsmodels.tsa.statespace.representation.FrozenRepresentation"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.initialization.Initialization.html",
+      "label": "statsmodels.tsa.statespace.initialization.Initialization"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.kalman_filter.KalmanFilter.html",
+      "label": "statsmodels.tsa.statespace.kalman_filter.KalmanFilter"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.kalman_filter.FilterResults.html",
+      "label": "statsmodels.tsa.statespace.kalman_filter.FilterResults"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.kalman_filter.PredictionResults.html",
+      "label": "statsmodels.tsa.statespace.kalman_filter.PredictionResults"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.kalman_smoother.KalmanSmoother.html",
+      "label": "statsmodels.tsa.statespace.kalman_smoother.KalmanSmoother"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.kalman_smoother.SmootherResults.html",
+      "label": "statsmodels.tsa.statespace.kalman_smoother.SmootherResults"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.simulation_smoother.SimulationSmoother.html",
+      "label": "statsmodels.tsa.statespace.simulation_smoother.SimulationSmoother"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.simulation_smoother.SimulationSmoothResults.html",
+      "label": "statsmodels.tsa.statespace.simulation_smoother.SimulationSmoothResults"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.cfa_simulation_smoother.CFASimulationSmoother.html",
+      "label": "statsmodels.tsa.statespace.cfa_simulation_smoother.CFASimulationSmoother"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.tools.companion_matrix.html",
+      "label": "statsmodels.tsa.statespace.tools.companion_matrix"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.tools.diff.html",
+      "label": "statsmodels.tsa.statespace.tools.diff"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.tools.is_invertible.html",
+      "label": "statsmodels.tsa.statespace.tools.is_invertible"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.tools.constrain_stationary_univariate.html",
+      "label": "statsmodels.tsa.statespace.tools.constrain_stationary_univariate"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.tools.unconstrain_stationary_univariate.html",
+      "label": "statsmodels.tsa.statespace.tools.unconstrain_stationary_univariate"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.tools.constrain_stationary_multivariate.html",
+      "label": "statsmodels.tsa.statespace.tools.constrain_stationary_multivariate"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.tools.unconstrain_stationary_multivariate.html",
+      "label": "statsmodels.tsa.statespace.tools.unconstrain_stationary_multivariate"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.tools.validate_matrix_shape.html",
+      "label": "statsmodels.tsa.statespace.tools.validate_matrix_shape"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.tools.validate_vector_shape.html",
+      "label": "statsmodels.tsa.statespace.tools.validate_vector_shape"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/vector_ar.html",
+      "label": "Vector Autoregressions tsa.vector_ar"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/duration.html",
+      "label": "Methods for Survival and Duration Analysis"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/nonparametric.html",
+      "label": "Nonparametric Methods nonparametric"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/gmm.html",
+      "label": "Generalized Method of Moments gmm"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/miscmodels.html",
+      "label": "Other Models miscmodels"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/multivariate.html",
+      "label": "Multivariate Statistics multivariate"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/stats.html",
+      "label": "Statistics stats"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/contingency_tables.html",
+      "label": "Contingency tables"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/imputation.html",
+      "label": "Multiple Imputation with Chained Equations"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/treatment.html",
+      "label": "Treatment Effects treatment"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/emplike.html",
+      "label": "Empirical Likelihood emplike"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/distributions.html",
+      "label": "Distributions"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/graphics.html",
+      "label": "Graphics"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/iolib.html",
+      "label": "Input-Output iolib"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/tools.html",
+      "label": "Tools"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/large_data.html",
+      "label": "Working with Large Data Sets"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/optimization.html",
+      "label": "Optimization"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/datasets/index.html",
+      "label": "The Datasets Package"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/sandbox.html",
+      "label": "Sandbox"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/index.html",
+      "label": ""
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/user-guide.html",
+      "label": "User Guide"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/statespace.html",
+      "label": "Time Series Analysis by State Space Methods statespace"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.html#statsmodels-tsa-statespace-sarimax-sarimax",
+      "label": "#"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/_modules/statsmodels/tsa/statespace/sarimax.html#SARIMAX",
+      "label": "[source]"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.html#statsmodels.tsa.statespace.sarimax.SARIMAX",
+      "label": "#"
+    },
+    {
+      "url": "https://numpy.org/doc/stable/glossary.html#term-array_like",
+      "label": "array_like"
+    },
+    {
+      "url": "https://numpy.org/doc/stable/glossary.html#term-array_like",
+      "label": "array_like"
+    },
+    {
+      "url": "https://docs.python.org/3/glossary.html#term-iterable",
+      "label": "iterable"
+    },
+    {
+      "url": "https://docs.python.org/3/glossary.html#term-iterable",
+      "label": "iterable"
+    },
+    {
+      "url": "https://docs.python.org/3/glossary.html#term-iterable",
+      "label": "iterable"
+    },
+    {
+      "url": "https://docs.python.org/3/glossary.html#term-iterable",
+      "label": "iterable"
+    },
+    {
+      "url": "https://docs.python.org/3/library/stdtypes.html#bltin-boolean-values",
+      "label": "bool"
+    },
+    {
+      "url": "https://docs.python.org/3/library/stdtypes.html#bltin-boolean-values",
+      "label": "bool"
+    },
+    {
+      "url": "https://docs.python.org/3/library/stdtypes.html#bltin-boolean-values",
+      "label": "bool"
+    },
+    {
+      "url": "https://docs.python.org/3/library/stdtypes.html#bltin-boolean-values",
+      "label": "bool"
+    },
+    {
+      "url": "https://docs.python.org/3/library/stdtypes.html#bltin-boolean-values",
+      "label": "bool"
+    },
+    {
+      "url": "https://docs.python.org/3/library/stdtypes.html#bltin-boolean-values",
+      "label": "bool"
+    },
+    {
+      "url": "https://docs.python.org/3/library/stdtypes.html#bltin-boolean-values",
+      "label": "bool"
+    },
+    {
+      "url": "https://docs.python.org/3/library/stdtypes.html#bltin-boolean-values",
+      "label": "bool"
+    },
+    {
+      "url": "https://docs.python.org/3/library/functions.html#int",
+      "label": "int"
+    },
+    {
+      "url": "https://docs.python.org/3/library/stdtypes.html#bltin-boolean-values",
+      "label": "bool"
+    },
+    {
+      "url": "https://numpy.org/doc/stable/glossary.html#term-array_like",
+      "label": "array_like"
+    },
+    {
+      "url": "https://docs.python.org/3/library/datetime.html#module-datetime",
+      "label": "datetime"
+    },
+    {
+      "url": "https://docs.python.org/3/library/stdtypes.html#str",
+      "label": "str"
+    },
+    {
+      "url": "https://docs.python.org/3/library/stdtypes.html#str",
+      "label": "str"
+    },
+    {
+      "url": "https://docs.python.org/3/library/stdtypes.html#bltin-boolean-values",
+      "label": "bool"
+    },
+    {
+      "url": "https://docs.python.org/3/library/stdtypes.html#bltin-boolean-values",
+      "label": "bool"
+    },
+    {
+      "url": "https://docs.python.org/3/library/stdtypes.html#bltin-boolean-values",
+      "label": "bool"
+    },
+    {
+      "url": "https://docs.python.org/3/library/stdtypes.html#bltin-boolean-values",
+      "label": "bool"
+    },
+    {
+      "url": "https://docs.python.org/3/library/stdtypes.html#bltin-boolean-values",
+      "label": "bool"
+    },
+    {
+      "url": "https://docs.python.org/3/library/stdtypes.html#bltin-boolean-values",
+      "label": "bool"
+    },
+    {
+      "url": "https://docs.python.org/3/library/stdtypes.html#bltin-boolean-values",
+      "label": "bool"
+    },
+    {
+      "url": "https://docs.python.org/3/library/stdtypes.html#bltin-boolean-values",
+      "label": "bool"
+    },
+    {
+      "url": "https://docs.python.org/3/library/stdtypes.html#bltin-boolean-values",
+      "label": "bool"
+    },
+    {
+      "url": "https://docs.python.org/3/library/stdtypes.html#bltin-boolean-values",
+      "label": "bool"
+    },
+    {
+      "url": "https://docs.python.org/3/library/stdtypes.html#bltin-boolean-values",
+      "label": "bool"
+    },
+    {
+      "url": "https://docs.python.org/3/glossary.html#term-iterable",
+      "label": "iterable"
+    },
+    {
+      "url": "https://numpy.org/doc/stable/reference/generated/numpy.ndarray.html#numpy.ndarray",
+      "label": "ndarray"
+    },
+    {
+      "url": "https://numpy.org/doc/stable/reference/generated/numpy.ndarray.html#numpy.ndarray",
+      "label": "ndarray"
+    },
+    {
+      "url": "https://numpy.org/doc/stable/reference/generated/numpy.ndarray.html#numpy.ndarray",
+      "label": "ndarray"
+    },
+    {
+      "url": "https://numpy.org/doc/stable/reference/generated/numpy.ndarray.html#numpy.ndarray",
+      "label": "ndarray"
+    },
+    {
+      "url": "https://numpy.org/doc/stable/reference/generated/numpy.ndarray.html#numpy.ndarray",
+      "label": "ndarray"
+    },
+    {
+      "url": "https://docs.python.org/3/library/functions.html#int",
+      "label": "int"
+    },
+    {
+      "url": "https://docs.python.org/3/library/functions.html#int",
+      "label": "int"
+    },
+    {
+      "url": "https://docs.python.org/3/library/functions.html#int",
+      "label": "int"
+    },
+    {
+      "url": "https://docs.python.org/3/library/functions.html#int",
+      "label": "int"
+    },
+    {
+      "url": "https://docs.python.org/3/library/functions.html#int",
+      "label": "int"
+    },
+    {
+      "url": "https://docs.python.org/3/library/functions.html#int",
+      "label": "int"
+    },
+    {
+      "url": "https://docs.python.org/3/library/functions.html#int",
+      "label": "int"
+    },
+    {
+      "url": "https://docs.python.org/3/library/functions.html#int",
+      "label": "int"
+    },
+    {
+      "url": "https://docs.python.org/3/library/functions.html#int",
+      "label": "int"
+    },
+    {
+      "url": "https://docs.python.org/3/library/functions.html#int",
+      "label": "int"
+    },
+    {
+      "url": "https://docs.python.org/3/library/functions.html#int",
+      "label": "int"
+    },
+    {
+      "url": "https://docs.python.org/3/library/functions.html#int",
+      "label": "int"
+    },
+    {
+      "url": "https://docs.python.org/3/library/functions.html#int",
+      "label": "int"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.clone.html#statsmodels.tsa.statespace.sarimax.SARIMAX.clone",
+      "label": "clone"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.filter.html#statsmodels.tsa.statespace.sarimax.SARIMAX.filter",
+      "label": "filter"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.fit.html#statsmodels.tsa.statespace.sarimax.SARIMAX.fit",
+      "label": "fit"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.fit_constrained.html#statsmodels.tsa.statespace.sarimax.SARIMAX.fit_constrained",
+      "label": "fit_constrained"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.fix_params.html#statsmodels.tsa.statespace.sarimax.SARIMAX.fix_params",
+      "label": "fix_params"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.from_formula.html#statsmodels.tsa.statespace.sarimax.SARIMAX.from_formula",
+      "label": "from_formula"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.handle_params.html#statsmodels.tsa.statespace.sarimax.SARIMAX.handle_params",
+      "label": "handle_params"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.hessian.html#statsmodels.tsa.statespace.sarimax.SARIMAX.hessian",
+      "label": "hessian"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.impulse_responses.html#statsmodels.tsa.statespace.sarimax.SARIMAX.impulse_responses",
+      "label": "impulse_responses"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.information.html#statsmodels.tsa.statespace.sarimax.SARIMAX.information",
+      "label": "information"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.initialize.html#statsmodels.tsa.statespace.sarimax.SARIMAX.initialize",
+      "label": "initialize"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.initialize_approximate_diffuse.html#statsmodels.tsa.statespace.sarimax.SARIMAX.initialize_approximate_diffuse",
+      "label": "initialize_approximate_diffuse"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.initialize_default.html#statsmodels.tsa.statespace.sarimax.SARIMAX.initialize_default",
+      "label": "initialize_default"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.initialize_known.html#statsmodels.tsa.statespace.sarimax.SARIMAX.initialize_known",
+      "label": "initialize_known"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.initialize_statespace.html#statsmodels.tsa.statespace.sarimax.SARIMAX.initialize_statespace",
+      "label": "initialize_statespace"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.initialize_stationary.html#statsmodels.tsa.statespace.sarimax.SARIMAX.initialize_stationary",
+      "label": "initialize_stationary"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.loglike.html#statsmodels.tsa.statespace.sarimax.SARIMAX.loglike",
+      "label": "loglike"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.loglikeobs.html#statsmodels.tsa.statespace.sarimax.SARIMAX.loglikeobs",
+      "label": "loglikeobs"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.observed_information_matrix.html#statsmodels.tsa.statespace.sarimax.SARIMAX.observed_information_matrix",
+      "label": "observed_information_matrix"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.opg_information_matrix.html#statsmodels.tsa.statespace.sarimax.SARIMAX.opg_information_matrix",
+      "label": "opg_information_matrix"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.predict.html#statsmodels.tsa.statespace.sarimax.SARIMAX.predict",
+      "label": "predict"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.prepare_data.html#statsmodels.tsa.statespace.sarimax.SARIMAX.prepare_data",
+      "label": "prepare_data"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.score.html#statsmodels.tsa.statespace.sarimax.SARIMAX.score",
+      "label": "score"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.score_obs.html#statsmodels.tsa.statespace.sarimax.SARIMAX.score_obs",
+      "label": "score_obs"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.set_conserve_memory.html#statsmodels.tsa.statespace.sarimax.SARIMAX.set_conserve_memory",
+      "label": "set_conserve_memory"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.set_filter_method.html#statsmodels.tsa.statespace.sarimax.SARIMAX.set_filter_method",
+      "label": "set_filter_method"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.set_inversion_method.html#statsmodels.tsa.statespace.sarimax.SARIMAX.set_inversion_method",
+      "label": "set_inversion_method"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.set_smoother_output.html#statsmodels.tsa.statespace.sarimax.SARIMAX.set_smoother_output",
+      "label": "set_smoother_output"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.set_stability_method.html#statsmodels.tsa.statespace.sarimax.SARIMAX.set_stability_method",
+      "label": "set_stability_method"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.simulate.html#statsmodels.tsa.statespace.sarimax.SARIMAX.simulate",
+      "label": "simulate"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.simulation_smoother.html#statsmodels.tsa.statespace.sarimax.SARIMAX.simulation_smoother",
+      "label": "simulation_smoother"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.smooth.html#statsmodels.tsa.statespace.sarimax.SARIMAX.smooth",
+      "label": "smooth"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.transform_jacobian.html#statsmodels.tsa.statespace.sarimax.SARIMAX.transform_jacobian",
+      "label": "transform_jacobian"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.transform_params.html#statsmodels.tsa.statespace.sarimax.SARIMAX.transform_params",
+      "label": "transform_params"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.untransform_params.html#statsmodels.tsa.statespace.sarimax.SARIMAX.untransform_params",
+      "label": "untransform_params"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.update.html#statsmodels.tsa.statespace.sarimax.SARIMAX.update",
+      "label": "update"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.html#rbf3abd773875-1",
+      "label": "[1]"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.html#id1",
+      "label": "1"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.clone.html#statsmodels.tsa.statespace.sarimax.SARIMAX.clone",
+      "label": "clone"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.filter.html#statsmodels.tsa.statespace.sarimax.SARIMAX.filter",
+      "label": "filter"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.fit.html#statsmodels.tsa.statespace.sarimax.SARIMAX.fit",
+      "label": "fit"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.fit_constrained.html#statsmodels.tsa.statespace.sarimax.SARIMAX.fit_constrained",
+      "label": "fit_constrained"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.fix_params.html#statsmodels.tsa.statespace.sarimax.SARIMAX.fix_params",
+      "label": "fix_params"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.from_formula.html#statsmodels.tsa.statespace.sarimax.SARIMAX.from_formula",
+      "label": "from_formula"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.handle_params.html#statsmodels.tsa.statespace.sarimax.SARIMAX.handle_params",
+      "label": "handle_params"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.hessian.html#statsmodels.tsa.statespace.sarimax.SARIMAX.hessian",
+      "label": "hessian"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.impulse_responses.html#statsmodels.tsa.statespace.sarimax.SARIMAX.impulse_responses",
+      "label": "impulse_responses"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.information.html#statsmodels.tsa.statespace.sarimax.SARIMAX.information",
+      "label": "information"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.initialize.html#statsmodels.tsa.statespace.sarimax.SARIMAX.initialize",
+      "label": "initialize"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.initialize_approximate_diffuse.html#statsmodels.tsa.statespace.sarimax.SARIMAX.initialize_approximate_diffuse",
+      "label": "initialize_approximate_diffuse"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.initialize_default.html#statsmodels.tsa.statespace.sarimax.SARIMAX.initialize_default",
+      "label": "initialize_default"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.initialize_known.html#statsmodels.tsa.statespace.sarimax.SARIMAX.initialize_known",
+      "label": "initialize_known"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.initialize_statespace.html#statsmodels.tsa.statespace.sarimax.SARIMAX.initialize_statespace",
+      "label": "initialize_statespace"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.initialize_stationary.html#statsmodels.tsa.statespace.sarimax.SARIMAX.initialize_stationary",
+      "label": "initialize_stationary"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.loglike.html#statsmodels.tsa.statespace.sarimax.SARIMAX.loglike",
+      "label": "loglike"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.loglikeobs.html#statsmodels.tsa.statespace.sarimax.SARIMAX.loglikeobs",
+      "label": "loglikeobs"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.observed_information_matrix.html#statsmodels.tsa.statespace.sarimax.SARIMAX.observed_information_matrix",
+      "label": "observed_information_matrix"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.opg_information_matrix.html#statsmodels.tsa.statespace.sarimax.SARIMAX.opg_information_matrix",
+      "label": "opg_information_matrix"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.predict.html#statsmodels.tsa.statespace.sarimax.SARIMAX.predict",
+      "label": "predict"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.prepare_data.html#statsmodels.tsa.statespace.sarimax.SARIMAX.prepare_data",
+      "label": "prepare_data"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.score.html#statsmodels.tsa.statespace.sarimax.SARIMAX.score",
+      "label": "score"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.score_obs.html#statsmodels.tsa.statespace.sarimax.SARIMAX.score_obs",
+      "label": "score_obs"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.set_conserve_memory.html#statsmodels.tsa.statespace.sarimax.SARIMAX.set_conserve_memory",
+      "label": "set_conserve_memory"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.set_filter_method.html#statsmodels.tsa.statespace.sarimax.SARIMAX.set_filter_method",
+      "label": "set_filter_method"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.set_inversion_method.html#statsmodels.tsa.statespace.sarimax.SARIMAX.set_inversion_method",
+      "label": "set_inversion_method"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.set_smoother_output.html#statsmodels.tsa.statespace.sarimax.SARIMAX.set_smoother_output",
+      "label": "set_smoother_output"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.set_stability_method.html#statsmodels.tsa.statespace.sarimax.SARIMAX.set_stability_method",
+      "label": "set_stability_method"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.simulate.html#statsmodels.tsa.statespace.sarimax.SARIMAX.simulate",
+      "label": "simulate"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.simulation_smoother.html#statsmodels.tsa.statespace.sarimax.SARIMAX.simulation_smoother",
+      "label": "simulation_smoother"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.smooth.html#statsmodels.tsa.statespace.sarimax.SARIMAX.smooth",
+      "label": "smooth"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.transform_jacobian.html#statsmodels.tsa.statespace.sarimax.SARIMAX.transform_jacobian",
+      "label": "transform_jacobian"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.transform_params.html#statsmodels.tsa.statespace.sarimax.SARIMAX.transform_params",
+      "label": "transform_params"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.untransform_params.html#statsmodels.tsa.statespace.sarimax.SARIMAX.untransform_params",
+      "label": "untransform_params"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.update.html#statsmodels.tsa.statespace.sarimax.SARIMAX.update",
+      "label": "update"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.endog_names.html#statsmodels.tsa.statespace.sarimax.SARIMAX.endog_names",
+      "label": "endog_names"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.exog_names.html#statsmodels.tsa.statespace.sarimax.SARIMAX.exog_names",
+      "label": "exog_names"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.initial_design.html#statsmodels.tsa.statespace.sarimax.SARIMAX.initial_design",
+      "label": "initial_design"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.initial_selection.html#statsmodels.tsa.statespace.sarimax.SARIMAX.initial_selection",
+      "label": "initial_selection"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.initial_state_intercept.html#statsmodels.tsa.statespace.sarimax.SARIMAX.initial_state_intercept",
+      "label": "initial_state_intercept"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.initial_transition.html#statsmodels.tsa.statespace.sarimax.SARIMAX.initial_transition",
+      "label": "initial_transition"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.initial_variance.html#statsmodels.tsa.statespace.sarimax.SARIMAX.initial_variance",
+      "label": "initial_variance"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.initialization.html#statsmodels.tsa.statespace.sarimax.SARIMAX.initialization",
+      "label": "initialization"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.loglikelihood_burn.html#statsmodels.tsa.statespace.sarimax.SARIMAX.loglikelihood_burn",
+      "label": "loglikelihood_burn"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.model_latex_names.html#statsmodels.tsa.statespace.sarimax.SARIMAX.model_latex_names",
+      "label": "model_latex_names"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.model_names.html#statsmodels.tsa.statespace.sarimax.SARIMAX.model_names",
+      "label": "model_names"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.model_orders.html#statsmodels.tsa.statespace.sarimax.SARIMAX.model_orders",
+      "label": "model_orders"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.param_names.html#statsmodels.tsa.statespace.sarimax.SARIMAX.param_names",
+      "label": "param_names"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.param_terms.html#statsmodels.tsa.statespace.sarimax.SARIMAX.param_terms",
+      "label": "param_terms"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.params_complete.html#statsmodels.tsa.statespace.sarimax.SARIMAX.params_complete",
+      "label": "params_complete"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.start_params.html#statsmodels.tsa.statespace.sarimax.SARIMAX.start_params",
+      "label": "start_params"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.state_names.html#statsmodels.tsa.statespace.sarimax.SARIMAX.state_names",
+      "label": "state_names"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.tolerance.html#statsmodels.tsa.statespace.sarimax.SARIMAX.tolerance",
+      "label": "tolerance"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/statespace.html",
+      "label": "previous Time Series Analysis by State Space Methods statespace"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.clone.html",
+      "label": "next statsmodels.tsa.statespace.sarimax.SARIMAX.clone"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.html#statsmodels.tsa.statespace.sarimax.SARIMAX",
+      "label": "SARIMAX"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/_sources/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.rst.txt",
+      "label": "Show Source"
+    },
+    {
+      "url": "https://www.sphinx-doc.org/",
+      "label": "Sphinx"
+    },
+    {
+      "url": "https://pydata-sphinx-theme.readthedocs.io/en/stable/index.html",
+      "label": "PyData Sphinx Theme"
+    }
+  ],
+  "elapsed_seconds": 3.922
+}

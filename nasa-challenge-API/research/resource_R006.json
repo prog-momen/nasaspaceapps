@@ -1,0 +1,1114 @@
+{
+  "id": "resource_R006",
+  "url": "https://science.nasa.gov/mission/mars-pathfinder/",
+  "checked_at": "2026-11-14T15:15:08.847786+00:00",
+  "tls_validation": false,
+  "status": 200,
+  "final_url": "https://science.nasa.gov/mission/mars-pathfinder/",
+  "bytes": 309837,
+  "content_type": "text/html; charset=UTF-8",
+  "sha256": "4f283b999e3ab9d8cfe157c22d953b51c4cb6b4759544c793688b42525b3bd91",
+  "links": [
+    {
+      "url": "https://www.nasa.gov",
+      "label": ""
+    },
+    {
+      "url": "https://www.nasa.gov",
+      "label": ""
+    },
+    {
+      "url": "https://www.nasa.gov/news/",
+      "label": "News & Events"
+    },
+    {
+      "url": "https://www.nasa.gov/news/recently-published/",
+      "label": "Recently Published"
+    },
+    {
+      "url": "https://www.nasa.gov/plus/",
+      "label": "Video Series on NASA+"
+    },
+    {
+      "url": "https://www.nasa.gov/podcasts-and-audio/",
+      "label": "Podcasts & Audio"
+    },
+    {
+      "url": "https://www.nasa.gov/nasa-blogs/",
+      "label": "Blogs"
+    },
+    {
+      "url": "https://www.nasa.gov/newsletters/",
+      "label": "Newsletters"
+    },
+    {
+      "url": "https://www.nasa.gov/socialmedia/",
+      "label": "Social Media"
+    },
+    {
+      "url": "https://www.nasa.gov/news/nasa-media-contacts/",
+      "label": "Media Resources"
+    },
+    {
+      "url": "https://www.nasa.gov/multimedia/",
+      "label": "Multimedia"
+    },
+    {
+      "url": "https://plus.nasa.gov/",
+      "label": "NASA+"
+    },
+    {
+      "url": "https://www.nasa.gov/images/",
+      "label": "Images"
+    },
+    {
+      "url": "https://www.nasa.gov/live",
+      "label": "NASA Live"
+    },
+    {
+      "url": "https://www.nasa.gov/apps/",
+      "label": "NASA Apps"
+    },
+    {
+      "url": "https://www.nasa.gov/podcasts/",
+      "label": "Podcasts"
+    },
+    {
+      "url": "https://www.nasa.gov/image-of-the-day/",
+      "label": "Image of the Day"
+    },
+    {
+      "url": "https://www.nasa.gov/ebooks/",
+      "label": "e-Books"
+    },
+    {
+      "url": "https://science.nasa.gov/3d-resources/",
+      "label": "3D Resources"
+    },
+    {
+      "url": "https://www.nasa.gov/nasa-interactive-features/",
+      "label": "Interactives"
+    },
+    {
+      "url": "https://www.nasa.gov/learning-resources/search/?terms=8058%2C8059%2C8061%2C8062%2C8068",
+      "label": "STEM Multimedia"
+    },
+    {
+      "url": "https://www.nasa.gov/nasa-brand-center/",
+      "label": "NASA Brand & Usage Guidelines"
+    },
+    {
+      "url": "https://plus.nasa.gov/",
+      "label": "NASA+"
+    },
+    {
+      "url": "https://science.nasa.gov/?search=Artemis",
+      "label": "Artemis"
+    },
+    {
+      "url": "https://science.nasa.gov/?search=ISS",
+      "label": "ISS"
+    },
+    {
+      "url": "https://science.nasa.gov/?search=Roman",
+      "label": "Roman"
+    },
+    {
+      "url": "https://science.nasa.gov/?search=Webb",
+      "label": "Webb"
+    },
+    {
+      "url": "https://science.nasa.gov/?search=Quesst",
+      "label": "Quesst"
+    },
+    {
+      "url": "https://science.nasa.gov/?search=Moon%20Base",
+      "label": "Moon Base"
+    },
+    {
+      "url": "https://science.nasa.gov/a-to-z-topics-listing/",
+      "label": "View All Topics A-Z"
+    },
+    {
+      "url": "https://science.nasa.gov/",
+      "label": "Home"
+    },
+    {
+      "url": "https://science.nasa.gov/nasa-missions/",
+      "label": "Missions"
+    },
+    {
+      "url": "https://science.nasa.gov/humans-in-space/",
+      "label": "Humans in Space"
+    },
+    {
+      "url": "https://science.nasa.gov/earth/",
+      "label": "Earth"
+    },
+    {
+      "url": "https://science.nasa.gov/solar-system/",
+      "label": "The Solar System"
+    },
+    {
+      "url": "https://science.nasa.gov/universe/",
+      "label": "The Universe"
+    },
+    {
+      "url": "https://science.nasa.gov/",
+      "label": "Science"
+    },
+    {
+      "url": "https://science.nasa.gov/aeronautics/",
+      "label": "Aeronautics"
+    },
+    {
+      "url": "https://science.nasa.gov/technology/",
+      "label": "Technology"
+    },
+    {
+      "url": "https://science.nasa.gov/learning-resources/",
+      "label": "Learning Resources"
+    },
+    {
+      "url": "https://science.nasa.gov/about/",
+      "label": "About NASA"
+    },
+    {
+      "url": "https://science.nasa.gov/es/",
+      "label": "Español"
+    },
+    {
+      "url": "https://science.nasa.gov/mission/mars-pathfinder/",
+      "label": "News & Events"
+    },
+    {
+      "url": "https://science.nasa.gov/mission/mars-pathfinder/",
+      "label": "Multimedia"
+    },
+    {
+      "url": "https://plus.nasa.gov/",
+      "label": "NASA+"
+    },
+    {
+      "url": "https://www.nasa.gov/news-release/nasa-invites-media-public-to-join-voyager-1-one-light-day-activities/",
+      "label": "3 min readNASA Invites Media, Public to Join Voyager 1 One-Light Day Activitiesarticle4 days ago"
+    },
+    {
+      "url": "https://science.nasa.gov/science-research/heliophysics/nasas-escapade-completes-powered-earth-flybys-now-en-route-to-mars/",
+      "label": "5 min readNASA’s ESCAPADE Completes Powered Earth Flybys, Now En Route to Marsarticle5 days ago"
+    },
+    {
+      "url": "https://science.nasa.gov/solar-system/skywatching/whats-up-november-2026-skywatching-tips-from-nasa/",
+      "label": "4 min readWhat’s Up: November 2026 Skywatching Tips from NASAarticle2 weeks ago"
+    },
+    {
+      "url": "https://science.nasa.gov/nasa-missions/",
+      "label": "Missions"
+    },
+    {
+      "url": "https://www.nasa.gov/missions/",
+      "label": "Search All NASA Missions"
+    },
+    {
+      "url": "https://www.nasa.gov/a-to-z-of-nasa-missions/",
+      "label": "A to Z List of Missions"
+    },
+    {
+      "url": "https://www.nasa.gov/events/",
+      "label": "Upcoming Launches and Landings"
+    },
+    {
+      "url": "https://www.nasa.gov/humans-in-space/spaceships-and-rockets/",
+      "label": "Spaceships and Rockets"
+    },
+    {
+      "url": "https://www.nasa.gov/communicating-with-missions/",
+      "label": "Communicating with Missions"
+    },
+    {
+      "url": "https://www.nasa.gov/humans-in-space/artemis/",
+      "label": "Artemis"
+    },
+    {
+      "url": "https://science.nasa.gov/mission/webb/",
+      "label": "James Webb Space Telescope"
+    },
+    {
+      "url": "https://science.nasa.gov/mission/hubble/",
+      "label": "Hubble Space Telescope"
+    },
+    {
+      "url": "https://www.nasa.gov/international-space-station/",
+      "label": "International Space Station"
+    },
+    {
+      "url": "https://science.nasa.gov/mission/osiris-rex/",
+      "label": "OSIRIS-REx"
+    },
+    {
+      "url": "https://science.nasa.gov/humans-in-space/",
+      "label": "Humans in Space"
+    },
+    {
+      "url": "https://www.nasa.gov/humans-in-space/why-go-to-space/",
+      "label": "Why Go to Space"
+    },
+    {
+      "url": "https://www.nasa.gov/humans-in-space/astronauts/",
+      "label": "Astronauts"
+    },
+    {
+      "url": "https://www.nasa.gov/humans-in-space/commercial-space/",
+      "label": "Commercial Space"
+    },
+    {
+      "url": "https://www.nasa.gov/humans-in-space/destinations/",
+      "label": "Destinations"
+    },
+    {
+      "url": "https://www.nasa.gov/humans-in-space/spaceships-and-rockets/",
+      "label": "Spaceships and Rockets"
+    },
+    {
+      "url": "https://www.nasa.gov/humans-in-space/living-in-space/",
+      "label": "Living in Space"
+    },
+    {
+      "url": "https://science.nasa.gov/earth/",
+      "label": "Earth"
+    },
+    {
+      "url": "https://science.nasa.gov/earth/explore/",
+      "label": "Explore Earth Science"
+    },
+    {
+      "url": "https://science.nasa.gov/climate-change/",
+      "label": "Climate Change"
+    },
+    {
+      "url": "https://science.nasa.gov/earth/facts/",
+      "label": "Earth, Our Planet"
+    },
+    {
+      "url": "https://science.nasa.gov/earth/in-action/",
+      "label": "Earth Science in Action"
+    },
+    {
+      "url": "https://science.nasa.gov/earth/multimedia/",
+      "label": "Earth Multimedia"
+    },
+    {
+      "url": "https://science.nasa.gov/earth/data/",
+      "label": "Earth Data"
+    },
+    {
+      "url": "https://science.nasa.gov/earth-science/",
+      "label": "Earth Science Researchers"
+    },
+    {
+      "url": "https://science.nasa.gov/solar-system/",
+      "label": "The Solar System"
+    },
+    {
+      "url": "https://science.nasa.gov/sun/",
+      "label": "The Sun"
+    },
+    {
+      "url": "https://science.nasa.gov/mercury/",
+      "label": "Mercury"
+    },
+    {
+      "url": "https://science.nasa.gov/venus/",
+      "label": "Venus"
+    },
+    {
+      "url": "https://science.nasa.gov/earth/",
+      "label": "Earth"
+    },
+    {
+      "url": "https://science.nasa.gov/moon/",
+      "label": "The Moon"
+    },
+    {
+      "url": "https://science.nasa.gov/mars/",
+      "label": "Mars"
+    },
+    {
+      "url": "https://science.nasa.gov/jupiter/",
+      "label": "Jupiter"
+    },
+    {
+      "url": "https://science.nasa.gov/saturn/",
+      "label": "Saturn"
+    },
+    {
+      "url": "https://science.nasa.gov/uranus/",
+      "label": "Uranus"
+    },
+    {
+      "url": "https://science.nasa.gov/neptune/",
+      "label": "Neptune"
+    },
+    {
+      "url": "https://science.nasa.gov/dwarf-planets/",
+      "label": "Pluto & Dwarf Planets"
+    },
+    {
+      "url": "https://science.nasa.gov/asteroids-comets-meteors/",
+      "label": "Asteroids, Comets & Meteors"
+    },
+    {
+      "url": "https://science.nasa.gov/solar-system/kuiper-belt/",
+      "label": "The Kuiper Belt"
+    },
+    {
+      "url": "https://science.nasa.gov/solar-system/oort-cloud/",
+      "label": "The Oort Cloud"
+    },
+    {
+      "url": "https://science.nasa.gov/skywatching/",
+      "label": "Skywatching"
+    },
+    {
+      "url": "https://science.nasa.gov/universe/",
+      "label": "The Universe"
+    },
+    {
+      "url": "https://science.nasa.gov/exoplanets/",
+      "label": "Exoplanets"
+    },
+    {
+      "url": "https://science.nasa.gov/universe/search-for-life/",
+      "label": "The Search for Life in the Universe"
+    },
+    {
+      "url": "https://science.nasa.gov/universe/stars/",
+      "label": "Stars"
+    },
+    {
+      "url": "https://science.nasa.gov/universe/galaxies/",
+      "label": "Galaxies"
+    },
+    {
+      "url": "https://science.nasa.gov/universe/black-holes/",
+      "label": "Black Holes"
+    },
+    {
+      "url": "https://science.nasa.gov/universe/the-big-bang/",
+      "label": "The Big Bang"
+    },
+    {
+      "url": "https://science.nasa.gov/dark-matter/",
+      "label": "Dark Matter"
+    },
+    {
+      "url": "https://science.nasa.gov/dark-energy/",
+      "label": "Dark Energy"
+    },
+    {
+      "url": "https://science.nasa.gov/",
+      "label": "Science"
+    },
+    {
+      "url": "https://science.nasa.gov/earth-science/",
+      "label": "Earth Science"
+    },
+    {
+      "url": "https://science.nasa.gov/planetary-science/",
+      "label": "Planetary Science"
+    },
+    {
+      "url": "https://science.nasa.gov/astrophysics/",
+      "label": "Astrophysics & Space Science"
+    },
+    {
+      "url": "https://science.nasa.gov/heliophysics/",
+      "label": "The Sun & Heliophysics"
+    },
+    {
+      "url": "https://science.nasa.gov/biological-physical/",
+      "label": "Biological & Physical Sciences"
+    },
+    {
+      "url": "https://science.nasa.gov/lunar-science/",
+      "label": "Lunar Science"
+    },
+    {
+      "url": "https://science.nasa.gov/citizen-science/",
+      "label": "Citizen Science"
+    },
+    {
+      "url": "https://science.nasa.gov/astromaterials/",
+      "label": "Astromaterials"
+    },
+    {
+      "url": "https://www.nasa.gov/aeronautics-research/",
+      "label": "Aeronautics Research"
+    },
+    {
+      "url": "https://www.nasa.gov/human-space-travel-research/",
+      "label": "Human Space Travel Research"
+    },
+    {
+      "url": "https://science.nasa.gov/aeronautics/",
+      "label": "Aeronautics"
+    },
+    {
+      "url": "https://www.nasa.gov/aeronautics/science-in-the-air/",
+      "label": "Science in the Air"
+    },
+    {
+      "url": "https://www.nasa.gov/aeronautics/aircraft/",
+      "label": "NASA Aircraft"
+    },
+    {
+      "url": "https://www.nasa.gov/aeronautics/flight-innovation/",
+      "label": "Flight Innovation"
+    },
+    {
+      "url": "https://www.nasa.gov/aeronautics/supersonic-flight/",
+      "label": "Supersonic Flight"
+    },
+    {
+      "url": "https://www.nasa.gov/aeronautics/air-traffic-solutions/",
+      "label": "Air Traffic Solutions"
+    },
+    {
+      "url": "https://www.nasa.gov/aeronautics/green-aero-tech/",
+      "label": "Green Aviation Tech"
+    },
+    {
+      "url": "https://www.nasa.gov/aeronautics/drones-and-you/",
+      "label": "Drones & You"
+    },
+    {
+      "url": "https://science.nasa.gov/technology/",
+      "label": "Technology"
+    },
+    {
+      "url": "https://www.nasa.gov/technology-transfer-spinoffs/",
+      "label": "Technology Transfer & Spinoffs"
+    },
+    {
+      "url": "https://www.nasa.gov/space-travel-technology/",
+      "label": "Space Travel Technology"
+    },
+    {
+      "url": "https://www.nasa.gov/space-living-technology/",
+      "label": "Technology Living in Space"
+    },
+    {
+      "url": "https://www.nasa.gov/manufacturing-and-materials/",
+      "label": "Manufacturing and Materials"
+    },
+    {
+      "url": "https://www.nasa.gov/robotics/",
+      "label": "Robotics"
+    },
+    {
+      "url": "https://www.nasa.gov/science-instruments/",
+      "label": "Science Instruments"
+    },
+    {
+      "url": "https://www.nasa.gov/computing/",
+      "label": "Computing"
+    },
+    {
+      "url": "https://science.nasa.gov/learning-resources/",
+      "label": "Learning Resources"
+    },
+    {
+      "url": "https://www.nasa.gov/learning-resources/for-kids-and-students/",
+      "label": "For Kids and Students"
+    },
+    {
+      "url": "https://www.nasa.gov/learning-resources/for-educators/",
+      "label": "For Educators"
+    },
+    {
+      "url": "https://www.nasa.gov/learning-resources/colleges-and-universities/",
+      "label": "For Colleges and Universities"
+    },
+    {
+      "url": "https://www.nasa.gov/learning-resources/for-professionals/",
+      "label": "For Professionals"
+    },
+    {
+      "url": "https://science.nasa.gov/for-everyone/",
+      "label": "Science for Everyone"
+    },
+    {
+      "url": "https://www.nasa.gov/learning-resources/requests-for-exhibits-artifacts-or-speakers/",
+      "label": "Requests for Exhibits, Artifacts, or Speakers"
+    },
+    {
+      "url": "https://www.nasa.gov/learning-resources/stem-engagement-at-nasa/",
+      "label": "STEM Engagement at NASA"
+    },
+    {
+      "url": "https://science.nasa.gov/about/",
+      "label": "About NASA"
+    },
+    {
+      "url": "https://www.nasa.gov/nasa-impacts/",
+      "label": "NASA's Impacts"
+    },
+    {
+      "url": "https://www.nasa.gov/nasa-centers-and-facilities/",
+      "label": "Centers and Facilities"
+    },
+    {
+      "url": "https://www.nasa.gov/nasa-directorates/",
+      "label": "Directorates"
+    },
+    {
+      "url": "https://www.nasa.gov/nasa-organization/",
+      "label": "Organizations"
+    },
+    {
+      "url": "https://www.nasa.gov/people-of-nasa/",
+      "label": "People of NASA"
+    },
+    {
+      "url": "https://www.nasa.gov/careers/",
+      "label": "Careers"
+    },
+    {
+      "url": "https://www.nasa.gov/learning-resources/nasa-internship-programs/",
+      "label": "Internships"
+    },
+    {
+      "url": "https://www.nasa.gov/history/",
+      "label": "Our History"
+    },
+    {
+      "url": "https://www.nasa.gov/doing-business-with-nasa/",
+      "label": "Doing Business with NASA"
+    },
+    {
+      "url": "https://www.nasa.gov/get-involved/",
+      "label": "Get Involved"
+    },
+    {
+      "url": "https://www.nasa.gov/contact-nasa/",
+      "label": "Contact"
+    },
+    {
+      "url": "https://science.nasa.gov/es/",
+      "label": "NASA en Español"
+    },
+    {
+      "url": "https://ciencia.nasa.gov/",
+      "label": "Ciencia"
+    },
+    {
+      "url": "https://www.nasa.gov/espanol/aeronautica-en-espanol/",
+      "label": "Aeronáutica"
+    },
+    {
+      "url": "https://ciencia.nasa.gov/tierra",
+      "label": "Ciencias Terrestres"
+    },
+    {
+      "url": "https://ciencia.nasa.gov/sistema-solar",
+      "label": "Sistema Solar"
+    },
+    {
+      "url": "https://ciencia.nasa.gov/universo",
+      "label": "Universo"
+    },
+    {
+      "url": "https://science.nasa.gov/news/",
+      "label": "News & Events"
+    },
+    {
+      "url": "https://www.nasa.gov/news/recently-published/",
+      "label": "Recently Published"
+    },
+    {
+      "url": "https://www.nasa.gov/plus/",
+      "label": "Video Series on NASA+"
+    },
+    {
+      "url": "https://www.nasa.gov/podcasts-and-audio/",
+      "label": "Podcasts & Audio"
+    },
+    {
+      "url": "https://www.nasa.gov/nasa-blogs/",
+      "label": "Blogs"
+    },
+    {
+      "url": "https://www.nasa.gov/newsletters/",
+      "label": "Newsletters"
+    },
+    {
+      "url": "https://www.nasa.gov/socialmedia/",
+      "label": "Social Media"
+    },
+    {
+      "url": "https://www.nasa.gov/news/nasa-media-contacts/",
+      "label": "Media Resources"
+    },
+    {
+      "url": "https://science.nasa.gov/multimedia/",
+      "label": "Multimedia"
+    },
+    {
+      "url": "https://plus.nasa.gov/",
+      "label": "NASA+"
+    },
+    {
+      "url": "https://www.nasa.gov/images/",
+      "label": "Images"
+    },
+    {
+      "url": "https://www.nasa.gov/live",
+      "label": "NASA Live"
+    },
+    {
+      "url": "https://www.nasa.gov/apps/",
+      "label": "NASA Apps"
+    },
+    {
+      "url": "https://www.nasa.gov/podcasts/",
+      "label": "Podcasts"
+    },
+    {
+      "url": "https://www.nasa.gov/image-of-the-day/",
+      "label": "Image of the Day"
+    },
+    {
+      "url": "https://www.nasa.gov/ebooks/",
+      "label": "e-Books"
+    },
+    {
+      "url": "https://science.nasa.gov/3d-resources/",
+      "label": "3D Resources"
+    },
+    {
+      "url": "https://www.nasa.gov/nasa-interactive-features/",
+      "label": "Interactives"
+    },
+    {
+      "url": "https://www.nasa.gov/learning-resources/search/?terms=8058%2C8059%2C8061%2C8062%2C8068",
+      "label": "STEM Multimedia"
+    },
+    {
+      "url": "https://www.nasa.gov/nasa-brand-center/",
+      "label": "NASA Brand & Usage Guidelines"
+    },
+    {
+      "url": "https://www.nasa.gov/news-release/nasa-invites-media-public-to-join-voyager-1-one-light-day-activities/",
+      "label": "3 min read NASA Invites Media, Public to Join Voyager 1 One-Light Day Activities article 4 days ago"
+    },
+    {
+      "url": "https://science.nasa.gov/missions/chandra/nasas-chandra-finds-source-of-stars-mysterious-outbursts/",
+      "label": "6 min read NASA’s Chandra Finds Source of Star’s Mysterious Outbursts article 5 days ago"
+    },
+    {
+      "url": "https://science.nasa.gov/missions/hubble/nasas-hubble-offers-cosmic-sampler-of-targets-for-roman/",
+      "label": "5 min read NASA’s Hubble Offers Cosmic Sampler of Targets for Roman article 2 days ago"
+    },
+    {
+      "url": "https://www.nasa.gov/learning-resources/nasa-astronauts-to-answer-questions-from-florida-students-2/",
+      "label": "2 min read NASA Astronauts to Answer Questions from Florida Students article 1 week ago"
+    },
+    {
+      "url": "https://www.nasa.gov/learning-resources/nasa-astronaut-stem-creator-connect-with-students-for-stem-day/",
+      "label": "2 min read NASA Astronaut, STEM Creator Connect with Students for STEM Day article 2 weeks ago"
+    },
+    {
+      "url": "https://www.nasa.gov/humans-in-space/commercial-space/nasas-isam-state-of-play-the-industry-standard-for-space-servicing-assembly-and-manufacturing/",
+      "label": "3 min read NASA’s ISAM State of Play: The Industry Standard for Space Servicing, Assembly, and Manufacturing article 2 weeks ago"
+    },
+    {
+      "url": "https://science.nasa.gov/earth/earth-observatory/a-global-rebound-for-mangroves/",
+      "label": "5 min read A Global Rebound for Mangroves article 1 day ago"
+    },
+    {
+      "url": "https://science.nasa.gov/earth/earth-observatory/scotlands-flow-country/",
+      "label": "3 min read Scotland’s Flow Country article 2 days ago"
+    },
+    {
+      "url": "https://science.nasa.gov/mission/strive/",
+      "label": "3 min read STRIVE article 3 days ago"
+    },
+    {
+      "url": "https://science.nasa.gov/science-research/heliophysics/nasas-escapade-completes-powered-earth-flybys-now-en-route-to-mars/",
+      "label": "5 min read NASA’s ESCAPADE Completes Powered Earth Flybys, Now En Route to Mars article 5 days ago"
+    },
+    {
+      "url": "https://www.nasa.gov/mission/promise/",
+      "label": "5 min read PROMISE article 7 days ago"
+    },
+    {
+      "url": "https://science.nasa.gov/solar-system/skywatching/whats-up-november-2026-skywatching-tips-from-nasa/",
+      "label": "4 min read What’s Up: November 2026 Skywatching Tips from NASA article 2 weeks ago"
+    },
+    {
+      "url": "https://science.nasa.gov/missions/hubble/nasas-hubble-offers-cosmic-sampler-of-targets-for-roman/",
+      "label": "5 min read NASA’s Hubble Offers Cosmic Sampler of Targets for Roman article 2 days ago"
+    },
+    {
+      "url": "https://science.nasa.gov/missions/lisa/gravitational-waves-can-reveal-new-worlds/",
+      "label": "5 min read NASA Scientists Show How Gravitational Waves Can Reveal New Worlds article 4 days ago"
+    },
+    {
+      "url": "https://science.nasa.gov/missions/chandra/nasas-chandra-finds-source-of-stars-mysterious-outbursts/",
+      "label": "6 min read NASA’s Chandra Finds Source of Star’s Mysterious Outbursts article 5 days ago"
+    },
+    {
+      "url": "https://science.nasa.gov/earth/earth-observatory/a-global-rebound-for-mangroves/",
+      "label": "5 min read A Global Rebound for Mangroves article 1 day ago"
+    },
+    {
+      "url": "https://science.nasa.gov/missions/hubble/nasas-hubble-offers-cosmic-sampler-of-targets-for-roman/",
+      "label": "5 min read NASA’s Hubble Offers Cosmic Sampler of Targets for Roman article 2 days ago"
+    },
+    {
+      "url": "https://science.nasa.gov/earth/earth-observatory/scotlands-flow-country/",
+      "label": "3 min read Scotland’s Flow Country article 2 days ago"
+    },
+    {
+      "url": "https://www.nasa.gov/centers-and-facilities/armstrong/through-nasas-lens-capturing-space-shuttle-endeavours-move-to-la/",
+      "label": "3 min read Through NASA’s Lens: Capturing Space Shuttle Endeavour’s Move to LA article 2 days ago"
+    },
+    {
+      "url": "https://www.nasa.gov/general/max-power-nasas-inaugural-aerospace-expo-ignites-americas-future/",
+      "label": "4 min read MAX POWER: NASA’s Inaugural Aerospace Expo Ignites America’s Future article 5 days ago"
+    },
+    {
+      "url": "https://www.nasa.gov/centers-and-facilities/armstrong/nasa-navigation-experiment-shows-promise-for-planetary-landings/",
+      "label": "3 min read NASA Navigation Experiment Shows Promise for Planetary Landings article 1 week ago"
+    },
+    {
+      "url": "https://www.nasa.gov/centers-and-facilities/armstrong/nasa-navigation-experiment-shows-promise-for-planetary-landings/",
+      "label": "3 min read NASA Navigation Experiment Shows Promise for Planetary Landings article 1 week ago"
+    },
+    {
+      "url": "https://www.nasa.gov/technology/high-speed-intelligent-robust-autonomous-terrain-exploration/",
+      "label": "2 min read High-speed Intelligent Robust Autonomous Terrain Exploration article 1 week ago"
+    },
+    {
+      "url": "https://science.nasa.gov/earth/earth-observatory/the-pacifics-busy-storm-season/",
+      "label": "5 min read The Pacific’s Busy Storm Season article 2 weeks ago"
+    },
+    {
+      "url": "https://www.nasa.gov/learning-resources/nasa-astronauts-to-answer-questions-from-florida-students-2/",
+      "label": "2 min read NASA Astronauts to Answer Questions from Florida Students article 1 week ago"
+    },
+    {
+      "url": "https://www.nasa.gov/learning-resources/nasa-space-grant-students-fuel-agencys-inspiration-tour/",
+      "label": "4 min read NASA Space Grant Students Fuel Agency’s Inspiration Tour article 1 week ago"
+    },
+    {
+      "url": "https://www.nasa.gov/learning-resources/nasa-astronaut-stem-creator-connect-with-students-for-stem-day/",
+      "label": "2 min read NASA Astronaut, STEM Creator Connect with Students for STEM Day article 2 weeks ago"
+    },
+    {
+      "url": "https://www.nasa.gov/news-release/nasa-invites-media-public-to-join-voyager-1-one-light-day-activities/",
+      "label": "3 min read NASA Invites Media, Public to Join Voyager 1 One-Light Day Activities article 4 days ago"
+    },
+    {
+      "url": "https://www.nasa.gov/news-release/nasa-announces-1-million-to-students-for-moon-base-challenge/",
+      "label": "3 min read NASA Announces $1 Million to Students for Moon Base Challenge article 6 days ago"
+    },
+    {
+      "url": "https://science.nasa.gov/blogs/honors/2026/10/15/time-best-inventions-of-2026/",
+      "label": "1 min read TIME Best Inventions of 2026 article 4 weeks ago"
+    },
+    {
+      "url": "https://www.nasa.gov/es/la-nasa-anuncia-la-cobertura-de-la-mision-lunar-artemis-ii/",
+      "label": "11 min read La NASA anuncia la cobertura de la misión lunar Artemis II article 8 months ago"
+    },
+    {
+      "url": "https://www.nasa.gov/es/agenda-diaria-de-la-mision-a-la-luna-de-artemis-ii-de-la-nasa/",
+      "label": "15 min read Agenda diaria de la misión a la Luna de Artemis II de la NASA article 8 months ago"
+    },
+    {
+      "url": "https://www.nasa.gov/humans-in-space/astronauts/la-nasa-refuerza-artemis-anade-una-mision-y-perfecciona-su-arquitectura-general/",
+      "label": "6 min read La NASA refuerza Artemis: añade una misión y perfecciona su arquitectura general article 9 months ago"
+    },
+    {
+      "url": "https://science.nasa.gov/mars/",
+      "label": "Mars Home"
+    },
+    {
+      "url": "https://science.nasa.gov/mars/facts/",
+      "label": "Facts"
+    },
+    {
+      "url": "https://science.nasa.gov/planetary-science/programs/mars-exploration/",
+      "label": "Overview"
+    },
+    {
+      "url": "https://science.nasa.gov/planetary-science/programs/mars-exploration/rover-basics/",
+      "label": "Rover Basics"
+    },
+    {
+      "url": "https://science.nasa.gov/planetary-science/programs/mars-exploration/mars-science-objectives/",
+      "label": "Mars Exploration Science Objectives"
+    },
+    {
+      "url": "https://science.nasa.gov/planetary-science/programs/mars-exploration/mission-timeline/",
+      "label": "Mission Timeline Summary"
+    },
+    {
+      "url": "https://science.nasa.gov/planetary-science/programs/mars-exploration/mission-timeline/how-we-land-on-mars/",
+      "label": "How We Land on Mars"
+    },
+    {
+      "url": "https://science.nasa.gov/mission/mars-2020-perseverance/",
+      "label": "Mars Perseverance Rover"
+    },
+    {
+      "url": "https://science.nasa.gov/mission/msl-curiosity/",
+      "label": "Mars Curiosity Rover"
+    },
+    {
+      "url": "https://science.nasa.gov/mission/mars-reconnaissance-orbiter/",
+      "label": "Mars Reconnaissance Orbiter"
+    },
+    {
+      "url": "https://science.nasa.gov/mission/odyssey/",
+      "label": "Mars Odyssey"
+    },
+    {
+      "url": "https://science.nasa.gov/mars/mars-relay-network-update/",
+      "label": "Mars Relay Network"
+    },
+    {
+      "url": "https://science.nasa.gov/planetary-science/programs/mars-exploration/#missions",
+      "label": "More Mars Missions"
+    },
+    {
+      "url": "https://science.nasa.gov/mars/resources/?categories=1961&exclude_child_pages=false&layout=grid&listing_page=no&listing_page_category_id=1961&meta_fields=%7B%22types%22%3A%5B%22images%22%5D%7D&number_of_items=15&order=DESC&orderby=date&current_page=1&requesting_id=310905&science_only=false&show_content_type_tags=yes&show_excerpts=yes&show_pagination=true&show_readtime=no&show_thumbnails=yes&response_format=html&post_types=resource",
+      "label": "Images"
+    },
+    {
+      "url": "https://science.nasa.gov/mars/resources/?categories=1961&exclude_child_pages=false&layout=grid&listing_page=no&listing_page_category_id=1961&number_of_items=15&order=DESC&orderby=date&current_page=1&requesting_id=310905&science_only=false&show_content_type_tags=yes&show_excerpts=yes&show_pagination=true&show_readtime=no&show_thumbnails=yes&response_format=html&post_types=resource&meta_fields=%7B%22types%22%3A%5B%22videos%22%5D%7D",
+      "label": "Video"
+    },
+    {
+      "url": "https://science.nasa.gov/mars/resources/?categories=1961&exclude_child_pages=false&layout=grid&listing_page=no&listing_page_category_id=1961&number_of_items=15&order=DESC&orderby=date&current_page=1&requesting_id=310905&science_only=false&show_content_type_tags=yes&show_excerpts=yes&show_pagination=true&show_readtime=no&show_thumbnails=yes&response_format=html&post_types=resource&meta_fields=%7B%22types%22%3A%5B%22audio%22%5D%7D",
+      "label": "Audio"
+    },
+    {
+      "url": "https://science.nasa.gov/solar-system/resources/resource-packages/mars-resources/",
+      "label": "More Resources"
+    },
+    {
+      "url": "https://science.nasa.gov/mars/stories/",
+      "label": "Latest Mars Articles"
+    },
+    {
+      "url": "https://science.nasa.gov/mars/the-mars-report/",
+      "label": "The Mars Report"
+    },
+    {
+      "url": "https://science.nasa.gov/mars/the-mars-report/",
+      "label": "Newsletter Home"
+    },
+    {
+      "url": "https://science.nasa.gov/solar-system/",
+      "label": "The Solar System"
+    },
+    {
+      "url": "https://science.nasa.gov/wp-content/uploads/2024/03/mars-pathfinder-presidential-panorama-lg.jpg",
+      "label": ""
+    },
+    {
+      "url": "https://science.nasa.gov/wp-content/uploads/2024/08/5277460495-c6d046d5a9-o.jpg",
+      "label": ""
+    },
+    {
+      "url": "https://science.nasa.gov/wp-content/uploads/2017/12/pia00621-pathfinder-and-sojourner-with-airbags-deflated.jpg",
+      "label": ""
+    },
+    {
+      "url": "https://assets.science.nasa.gov/content/dam/science/psd/solar/2023/09/p/i/a/0/PIA01551-1.jpg",
+      "label": ""
+    },
+    {
+      "url": "https://science.nasa.gov/wp-content/uploads/2024/03/pia00609-1e7c7c.jpg",
+      "label": ""
+    },
+    {
+      "url": "https://assets.science.nasa.gov/content/dam/science/psd/mars/resources/detail_files/8/8782_mars-rover-pathfinder-sol14_S0050J-full2.gif",
+      "label": ""
+    },
+    {
+      "url": "https://science.nasa.gov/mission/mars-pathfinder/stories/",
+      "label": "All Mars Pathfinder News"
+    },
+    {
+      "url": "https://www.nasa.gov/general/establishing-crew-exposure-limits-of-martian-dust/",
+      "label": "Article5 Min ReadEstablishing Crew Exposure Limits of Martian Dust"
+    },
+    {
+      "url": "https://www.nasa.gov/podcasts/curious-universe/catching-up-with-perseverance/",
+      "label": "37 Min ReadCatching Up With Perseverance on Mars"
+    },
+    {
+      "url": "https://www.nasa.gov/solar-system/planets/mars/advances-in-nasa-imaging-changed-how-world-sees-mars/",
+      "label": "6 Min ReadAdvances in NASA Imaging Changed How World Sees MarsArticle"
+    },
+    {
+      "url": "https://www.nasa.gov/missions/mars-2020-perseverance/perseverance-rover/perseverance-rover-witnesses-one-martian-dust-devil-eating-another/",
+      "label": "5 Min ReadPerseverance Rover Witnesses One Martian Dust Devil Eating AnotherArticle"
+    },
+    {
+      "url": "https://www.nasa.gov/solar-system/screening-soon-the-pathfinders-trains-lens-on-mars/",
+      "label": "2 Min ReadScreening Soon: ‘The Pathfinders’ Trains Lens on MarsArticle"
+    },
+    {
+      "url": "https://science.nasa.gov/james-webb-space-telescope/",
+      "label": "James Webb Space Telescope Webb is the premier observatory of the next decade, serving thousands of astronomers worldwide. It studies every phase in the…"
+    },
+    {
+      "url": "https://science.nasa.gov/perseverance-rover/",
+      "label": "Perseverance Rover This rover and its aerial sidekick were assigned to study the geology of Mars and seek signs of ancient microbial…"
+    },
+    {
+      "url": "https://science.nasa.gov/parker-solar-probe/",
+      "label": "Parker Solar Probe On a mission to “touch the Sun,” NASA's Parker Solar Probe became the first spacecraft to fly through the corona…"
+    },
+    {
+      "url": "https://science.nasa.gov/juno/",
+      "label": "Juno NASA’s Juno spacecraft entered orbit around Jupiter in 2016, the first explorer to peer below the planet's dense clouds to…"
+    },
+    {
+      "url": "https://www.nasa.gov/about/",
+      "label": "About NASA's Mission"
+    },
+    {
+      "url": "https://www.nasa.gov/get-involved/",
+      "label": "Join Us"
+    },
+    {
+      "url": "https://www.nasa.gov",
+      "label": "Home"
+    },
+    {
+      "url": "https://www.nasa.gov/news/",
+      "label": "News & Events"
+    },
+    {
+      "url": "https://www.nasa.gov/multimedia/",
+      "label": "Multimedia"
+    },
+    {
+      "url": "https://plus.nasa.gov/",
+      "label": "NASA+"
+    },
+    {
+      "url": "https://www.nasa.gov/nasa-missions/",
+      "label": "Missions"
+    },
+    {
+      "url": "https://www.nasa.gov/humans-in-space/",
+      "label": "Humans in Space"
+    },
+    {
+      "url": "https://science.nasa.gov/earth/",
+      "label": "Earth"
+    },
+    {
+      "url": "https://science.nasa.gov/solar-system/",
+      "label": "The Solar System"
+    },
+    {
+      "url": "https://science.nasa.gov/universe/",
+      "label": "The Universe"
+    },
+    {
+      "url": "https://science.nasa.gov/",
+      "label": "Science"
+    },
+    {
+      "url": "https://www.nasa.gov/aeronautics/",
+      "label": "Aeronautics"
+    },
+    {
+      "url": "https://www.nasa.gov/technology/",
+      "label": "Technology"
+    },
+    {
+      "url": "https://www.nasa.gov/learning-resources/",
+      "label": "Learning Resources"
+    },
+    {
+      "url": "https://www.nasa.gov/about/",
+      "label": "About NASA"
+    },
+    {
+      "url": "https://www.nasa.gov/es/",
+      "label": "NASA en Español"
+    },
+    {
+      "url": "https://www.facebook.com/NASA",
+      "label": ""
+    },
+    {
+      "url": "https://www.instagram.com/nasa/",
+      "label": ""
+    },
+    {
+      "url": "https://x.com/NASA",
+      "label": ""
+    },
+    {
+      "url": "https://www.youtube.com/@NASA",
+      "label": ""
+    },
+    {
+      "url": "https://www.nasa.gov/social-media/",
+      "label": "More NASA Social Accounts"
+    },
+    {
+      "url": "https://www.nasa.gov/nasa-newsletters/",
+      "label": "NASA Newsletters"
+    },
+    {
+      "url": "https://www.nasa.gov/sitemap/",
+      "label": "Sitemap"
+    },
+    {
+      "url": "https://www.nasa.gov/news/nasa-media-contacts/",
+      "label": "For Media"
+    },
+    {
+      "url": "https://www.nasa.gov/nasa-web-privacy-policy-and-important-notices/",
+      "label": "Privacy Policy"
+    },
+    {
+      "url": "https://www.nasa.gov/foia/",
+      "label": "FOIA"
+    },
+    {
+      "url": "https://www.nasa.gov/no-fear-act/",
+      "label": "No FEAR Act"
+    },
+    {
+      "url": "http://oig.nasa.gov/",
+      "label": "Office of the IG"
+    },
+    {
+      "url": "https://www.nasa.gov/budgets-plans-and-reports/",
+      "label": "Budget & Annual Reports"
+    },
+    {
+      "url": "https://www.nasa.gov/organizations/budget-annual-reports/agency-financial-reports/",
+      "label": "Agency Financial Reports"
+    },
+    {
+      "url": "https://www.nasa.gov/contact-nasa/",
+      "label": "Contact NASA"
+    },
+    {
+      "url": "https://www.nasa.gov/accessibility/",
+      "label": "Accessibility"
+    }
+  ],
+  "elapsed_seconds": 0.531
+}

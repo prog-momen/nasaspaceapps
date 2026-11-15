@@ -1,0 +1,334 @@
+{
+  "id": "resource_R076",
+  "url": "https://gedi.umd.edu/data",
+  "checked_at": "2026-11-14T15:15:19.206855+00:00",
+  "tls_validation": false,
+  "status": 200,
+  "final_url": "https://gedi.umd.edu/data-collection-started/",
+  "bytes": 62395,
+  "content_type": "text/html; charset=UTF-8",
+  "sha256": "591ced0479e96feb06783ae3c186ffb5a7356845ffdfe96e19600972f669a3fc",
+  "links": [
+    {
+      "url": "https://gedi.umd.edu/",
+      "label": "GEDI"
+    },
+    {
+      "url": "https://gedi.umd.edu/data-collection-started/",
+      "label": "Mission"
+    },
+    {
+      "url": "https://gedi.umd.edu/category/mission-status/",
+      "label": "Mission Status"
+    },
+    {
+      "url": "https://gedi.umd.edu/mission/mission-overview/",
+      "label": "Mission Overview"
+    },
+    {
+      "url": "https://gedi.umd.edu/mission/technology/",
+      "label": "Technology"
+    },
+    {
+      "url": "https://gedi.umd.edu/mission/timeline/",
+      "label": "Timeline"
+    },
+    {
+      "url": "https://gedi.umd.edu/mission/mission-team/",
+      "label": "Mission Team"
+    },
+    {
+      "url": "https://gedi.umd.edu/data-collection-started/",
+      "label": "Instrument"
+    },
+    {
+      "url": "https://gedi.umd.edu/instrument/instrument-overview/",
+      "label": "Instrument Overview"
+    },
+    {
+      "url": "https://gedi.umd.edu/instrument/specifications/",
+      "label": "Specifications"
+    },
+    {
+      "url": "https://gedi.umd.edu/instrument/launch/",
+      "label": "Launch"
+    },
+    {
+      "url": "https://gedi.umd.edu/data-collection-started/",
+      "label": "Science"
+    },
+    {
+      "url": "https://gedi.umd.edu/science/objectives-overview/",
+      "label": "Science Overview"
+    },
+    {
+      "url": "https://gedi.umd.edu/data-collection-started/",
+      "label": "Publications"
+    },
+    {
+      "url": "https://gedi.umd.edu/science/publications/",
+      "label": "GEDI-Related Publications"
+    },
+    {
+      "url": "https://gedi.umd.edu/science/conference-proceedings/",
+      "label": "Conference Proceedings"
+    },
+    {
+      "url": "https://gedi.umd.edu/mission/competed-science-team/",
+      "label": "Competed Science Team"
+    },
+    {
+      "url": "https://gedi.umd.edu/data-collection-started/",
+      "label": "Applications"
+    },
+    {
+      "url": "https://gedi.umd.edu/applications/application-overview/",
+      "label": "Applications Overview"
+    },
+    {
+      "url": "https://gedi.umd.edu/applications/topography-and-surface-deformation/",
+      "label": "Topography and Surface Deformation"
+    },
+    {
+      "url": "https://gedi.umd.edu/applications/water-resources/",
+      "label": "Water Resources"
+    },
+    {
+      "url": "https://gedi.umd.edu/applications/weather-prediction/",
+      "label": "Weather Prediction"
+    },
+    {
+      "url": "https://gedi.umd.edu/applications/forest-management-and-carbon-cycling/",
+      "label": "Forest Management"
+    },
+    {
+      "url": "https://gedi.umd.edu/data-collection-started/",
+      "label": "Data Products"
+    },
+    {
+      "url": "https://gedi.umd.edu/dataproducts/products/",
+      "label": "Products Overview"
+    },
+    {
+      "url": "https://gedi.umd.edu/dataproducts/download/",
+      "label": "Access"
+    },
+    {
+      "url": "https://gedi.umd.edu/dataproducts/documents/",
+      "label": "ATBD Documents"
+    },
+    {
+      "url": "https://gedi.umd.edu/dataproducts/l4b-visualization/",
+      "label": "L4B visualization"
+    },
+    {
+      "url": "https://gedi.umd.edu/science/calibration-validation/",
+      "label": "Calibration/Validation"
+    },
+    {
+      "url": "https://gedi.umd.edu/dataproducts/resources-tutorials/",
+      "label": "Resources & Tutorials"
+    },
+    {
+      "url": "https://gedi.umd.edu/data-collection-started/",
+      "label": "Media"
+    },
+    {
+      "url": "https://gedi.umd.edu/gallery/",
+      "label": "Gallery"
+    },
+    {
+      "url": "https://gedi.umd.edu/category/latest-news/",
+      "label": "Latest News"
+    },
+    {
+      "url": "https://gedi.umd.edu/contact/",
+      "label": "Contact"
+    },
+    {
+      "url": "https://gedi.umd.edu/data-collection-started/",
+      "label": "Mission"
+    },
+    {
+      "url": "https://gedi.umd.edu/category/mission-status/",
+      "label": "Mission Status"
+    },
+    {
+      "url": "https://gedi.umd.edu/mission/mission-overview/",
+      "label": "Mission Overview"
+    },
+    {
+      "url": "https://gedi.umd.edu/mission/technology/",
+      "label": "Technology"
+    },
+    {
+      "url": "https://gedi.umd.edu/mission/timeline/",
+      "label": "Timeline"
+    },
+    {
+      "url": "https://gedi.umd.edu/mission/mission-team/",
+      "label": "Mission Team"
+    },
+    {
+      "url": "https://gedi.umd.edu/data-collection-started/",
+      "label": "Instrument"
+    },
+    {
+      "url": "https://gedi.umd.edu/instrument/instrument-overview/",
+      "label": "Instrument Overview"
+    },
+    {
+      "url": "https://gedi.umd.edu/instrument/specifications/",
+      "label": "Specifications"
+    },
+    {
+      "url": "https://gedi.umd.edu/instrument/launch/",
+      "label": "Launch"
+    },
+    {
+      "url": "https://gedi.umd.edu/data-collection-started/",
+      "label": "Science"
+    },
+    {
+      "url": "https://gedi.umd.edu/science/objectives-overview/",
+      "label": "Science Overview"
+    },
+    {
+      "url": "https://gedi.umd.edu/data-collection-started/",
+      "label": "Publications"
+    },
+    {
+      "url": "https://gedi.umd.edu/science/publications/",
+      "label": "GEDI-Related Publications"
+    },
+    {
+      "url": "https://gedi.umd.edu/science/conference-proceedings/",
+      "label": "Conference Proceedings"
+    },
+    {
+      "url": "https://gedi.umd.edu/mission/competed-science-team/",
+      "label": "Competed Science Team"
+    },
+    {
+      "url": "https://gedi.umd.edu/data-collection-started/",
+      "label": "Applications"
+    },
+    {
+      "url": "https://gedi.umd.edu/applications/application-overview/",
+      "label": "Applications Overview"
+    },
+    {
+      "url": "https://gedi.umd.edu/applications/topography-and-surface-deformation/",
+      "label": "Topography and Surface Deformation"
+    },
+    {
+      "url": "https://gedi.umd.edu/applications/water-resources/",
+      "label": "Water Resources"
+    },
+    {
+      "url": "https://gedi.umd.edu/applications/weather-prediction/",
+      "label": "Weather Prediction"
+    },
+    {
+      "url": "https://gedi.umd.edu/applications/forest-management-and-carbon-cycling/",
+      "label": "Forest Management"
+    },
+    {
+      "url": "https://gedi.umd.edu/data-collection-started/",
+      "label": "Data Products"
+    },
+    {
+      "url": "https://gedi.umd.edu/dataproducts/products/",
+      "label": "Products Overview"
+    },
+    {
+      "url": "https://gedi.umd.edu/dataproducts/download/",
+      "label": "Access"
+    },
+    {
+      "url": "https://gedi.umd.edu/dataproducts/documents/",
+      "label": "ATBD Documents"
+    },
+    {
+      "url": "https://gedi.umd.edu/dataproducts/l4b-visualization/",
+      "label": "L4B visualization"
+    },
+    {
+      "url": "https://gedi.umd.edu/science/calibration-validation/",
+      "label": "Calibration/Validation"
+    },
+    {
+      "url": "https://gedi.umd.edu/dataproducts/resources-tutorials/",
+      "label": "Resources & Tutorials"
+    },
+    {
+      "url": "https://gedi.umd.edu/data-collection-started/",
+      "label": "Media"
+    },
+    {
+      "url": "https://gedi.umd.edu/gallery/",
+      "label": "Gallery"
+    },
+    {
+      "url": "https://gedi.umd.edu/category/latest-news/",
+      "label": "Latest News"
+    },
+    {
+      "url": "https://gedi.umd.edu/contact/",
+      "label": "Contact"
+    },
+    {
+      "url": "https://twitter.com/share?url=https://gedi.umd.edu/data-collection-started/&text=Data+collection+started+&hashtags=",
+      "label": ""
+    },
+    {
+      "url": "http://www.facebook.com/sharer.php?u=https://gedi.umd.edu/data-collection-started/",
+      "label": ""
+    },
+    {
+      "url": "mailto:?Subject=Data collection started&Body=%20https://gedi.umd.edu/data-collection-started/",
+      "label": ""
+    },
+    {
+      "url": "https://gedi.umd.edu/category/latest-news/",
+      "label": "Latest News"
+    },
+    {
+      "url": "https://www.nasa.gov/feature/goddard/2019/return-of-gedi-s-first-data-shows-forests-topography",
+      "label": "NASA"
+    },
+    {
+      "url": "https://earthobservatory.nasa.gov/images/144818/return-of-the-gedis-first-data",
+      "label": "EarthObservatory"
+    },
+    {
+      "url": "https://phys.org/news/2019-02-gedi-instrument-forest.html",
+      "label": "phys"
+    },
+    {
+      "url": "https://today.cofc.edu/2019/04/10/barry-coyle-nasa-laser-gedi/",
+      "label": "CofC"
+    },
+    {
+      "url": "https://twitter.com/GEDI_Knights",
+      "label": ""
+    },
+    {
+      "url": "http://nasa.gov",
+      "label": ""
+    },
+    {
+      "url": "http://www.umd.edu",
+      "label": ""
+    },
+    {
+      "url": "https://www.hyperarts.com/design-programming-web-development/web-design-and-development-wordpress/",
+      "label": "WordPress Web Design and Development by HyperArts"
+    },
+    {
+      "url": "https://simplesharebuttons.com/plus/?utm_source=plus&utm_medium=plugin_powered_by&utm_campaign=powered_by&utm_content=plus_email",
+      "label": ""
+    }
+  ],
+  "elapsed_seconds": 3.844
+}

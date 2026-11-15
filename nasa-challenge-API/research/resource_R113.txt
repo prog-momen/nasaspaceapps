@@ -1,0 +1,396 @@
+Space mission concept development using concept maturity levels - JPL Open Repository
+Skip to main content
+Toggle navigation
+Search
+Search
+Support
+Please enable JavaScript in your browser. It is required to use most of the features of Dataverse.
+JPL Open Repository
+(JPL)
+Root
+>
+JPL Open Repository
+>
+Space mission concept development using concept maturity levels
+Version 2.0
+Wessen, Randii R.; Borden, Chester; Ziemer, John; Kwok, Johnny, 2013, "Space mission concept development using concept maturity levels",
+https://hdl.handle.net/2014/44299
+, AIAA SPACE 2013 Conference & Exposition, San Diego, California, September 10-12, 2013, JPL Open Repository
+Cite Dataset
+EndNote XML
+RIS
+BibTeX
+Learn about
+Data Citation Standards
+.
+Access Dataset
+Download Options
+Download
+                                                                        ZIP (1.4 MB)
+Contact Owner
+Share
+Dataset Metrics
+2,185 Downloads
+Description
+Over the past five years, pre-project formulation experts at the Jet Propulsion Laboratory (JPL) has developed and implemented a method for measuring and communicating the maturity of space mission concepts. Mission concept development teams use this method, and associated tools, prior to concepts entering their Formulation Phases (Phase A/B). The organizing structure is Concept Maturity Level (CML), which is a classification system for characterizing the various levels of a concept’s maturity. The key strength of CMLs is the ability to evolve mission concepts guided by an incremental set of assessment needs. The CML definitions have been expanded into a matrix form to identify the breadth and depth of analysis needed for a concept to reach a specific level of maturity. This matrix enables improved assessment and communication by addressing the fundamental dimensions (e.g., science objectives, mission design, technical risk, project organization, cost, export compliance, etc.) associated with mission concept evolution. JPL’s collaborative engineering, dedicated concept development, and proposal teams all use these and other CML-appropriate design tools to advance their mission concept designs. This paper focuses on mission concept’s early Pre-Phase A represented by CMLs 1- 4. The scope was limited due to the fact that CMLs 5 and 6 are already well defined based on the requirements documented in specific Announcement of Opportunities (AO) and Concept Study Report (CSR) guidelines, respectively, for competitive missions; and by NASA’s Procedural Requirements NPR 7120.5E document for Projects in their Formulation Phase.
+Subject
+Other
+License/Data Use Agreement
+CC0 1.0
+ui-button
+Files
+Metadata
+Terms
+1 File
+13-3547_A1b.pdf
+Adobe PDF
+- 1.4 MB
+Published Feb 8, 2022
+2,185 Downloads
+MD5: c857e45089e8bb1129dab7e56ac1ad08
+Preview "13-3547_A1b.pdf"
+Access File
+File Access
+Public
+Download Options
+Adobe PDF
+Download Metadata
+Data File Citation
+EndNote XML
+RIS
+BibTeX
+Explore Options
+Read Document
+Export Metadata
+OAI_ORE
+DataCite
+OpenAIRE
+Schema.org JSON-LD
+DDI
+Dublin Core
+DDI HTML Codebook
+JSON
+Citation Metadata
+Persistent Identifier
+hdl:2014/44299
+Publication Date
+2013-09-10
+Title
+Space mission concept development using concept maturity levels
+Author
+Wessen, Randii R. (Pasadena, CA : Jet Propulsion Laboratory, National Aeronautics and Space Administration, 2013)
+Borden, Chester (Pasadena, CA : Jet Propulsion Laboratory, National Aeronautics and Space Administration, 2013)
+Ziemer, John (Pasadena, CA : Jet Propulsion Laboratory, National Aeronautics and Space Administration, 2013)
+Kwok, Johnny (Pasadena, CA : Jet Propulsion Laboratory, National Aeronautics and Space Administration, 2013)
+Point of Contact
+Use email button above to contact.
+Wessen, Randii R.
+Description
+Over the past five years, pre-project formulation experts at the Jet Propulsion Laboratory (JPL) has developed and implemented a method for measuring and communicating the maturity of space mission concepts. Mission concept development teams use this method, and associated tools, prior to concepts entering their Formulation Phases (Phase A/B). The organizing structure is Concept Maturity Level (CML), which is a classification system for characterizing the various levels of a concept’s maturity. The key strength of CMLs is the ability to evolve mission concepts guided by an incremental set of assessment needs. The CML definitions have been expanded into a matrix form to identify the breadth and depth of analysis needed for a concept to reach a specific level of maturity. This matrix enables improved assessment and communication by addressing the fundamental dimensions (e.g., science objectives, mission design, technical risk, project organization, cost, export compliance, etc.) associated with mission concept evolution. JPL’s collaborative engineering, dedicated concept development, and proposal teams all use these and other CML-appropriate design tools to advance their mission concept designs. This paper focuses on mission concept’s early Pre-Phase A represented by CMLs 1- 4. The scope was limited due to the fact that CMLs 5 and 6 are already well defined based on the requirements documented in specific Announcement of Opportunities (AO) and Concept Study Report (CSR) guidelines, respectively, for competitive missions; and by NASA’s Procedural Requirements NPR 7120.5E document for Projects in their Formulation Phase.
+Subject
+Other
+Production Date
+2013-09-10
+Display Metadata
+Title
+Space mission concept development using concept maturity levels
+Author
+Wessen, Randii R.; Borden, Chester; Ziemer, John; Kwok, Johnny
+Abstract
+Over the past five years, pre-project formulation experts at the Jet Propulsion Laboratory (JPL) has developed and implemented a method for measuring and communicating the maturity of space mission concepts. Mission concept development teams use this method, and associated tools, prior to concepts entering their Formulation Phases (Phase A/B). The organizing structure is Concept Maturity Level (CML), which is a classification system for characterizing the various levels of a concept’s maturity. The key strength of CMLs is the ability to evolve mission concepts guided by an incremental set of assessment needs. The CML definitions have been expanded into a matrix form to identify the breadth and depth of analysis needed for a concept to reach a specific level of maturity. This matrix enables improved assessment and communication by addressing the fundamental dimensions (e.g., science objectives, mission design, technical risk, project organization, cost, export compliance, etc.) associated with mission concept evolution. JPL’s collaborative engineering, dedicated concept development, and proposal teams all use these and other CML-appropriate design tools to advance their mission concept designs. This paper focuses on mission concept’s early Pre-Phase A represented by CMLs 1- 4. The scope was limited due to the fact that CMLs 5 and 6 are already well defined based on the requirements documented in specific Announcement of Opportunities (AO) and Concept Study Report (CSR) guidelines, respectively, for competitive missions; and by NASA’s Procedural Requirements NPR 7120.5E document for Projects in their Formulation Phase.
+Meeting Start Date
+2013-09-10
+Publication Year
+2013
+Citation
+AIAA SPACE 2013 Conference & Exposition, San Diego, California, September 10-12, 2013
+JPL Clearance Number
+CL#13-3547
+Language
+English
+Persistent Identifier
+http://hdl.handle.net/2014/44299
+Publisher
+Pasadena, CA : Jet Propulsion Laboratory, National Aeronautics and Space Administration, 2013
+Document Type
+Meeting Paper
+TRS_Metadata_V2
+dc.contributor.author
+['Wessen, Randii R.', 'Borden, Chester', 'Ziemer, John', 'Kwok, Johnny']
+dc.date.accessioned
+2014-02-19T21:20:08Z
+dc.date.available
+2014-02-19T21:20:08Z
+dc.date.issued
+2013-09-10
+dc.description.abstract
+Over the past five years, pre-project formulation experts at the Jet Propulsion Laboratory (JPL) has developed and implemented a method for measuring and communicating the maturity of space mission concepts. Mission concept development teams use this method, and associated tools, prior to concepts entering their Formulation Phases (Phase A/B). The organizing structure is Concept Maturity Level (CML), which is a classification system for characterizing the various levels of a concept’s maturity. The key strength of CMLs is the ability to evolve mission concepts guided by an incremental set of assessment needs. The CML definitions have been expanded into a matrix form to identify the breadth and depth of analysis needed for a concept to reach a specific level of maturity. This matrix enables improved assessment and communication by addressing the fundamental dimensions (e.g., science objectives, mission design, technical risk, project organization, cost, export compliance, etc.) associated with mission concept evolution. JPL’s collaborative engineering, dedicated concept development, and proposal teams all use these and other CML-appropriate design tools to advance their mission concept designs. This paper focuses on mission concept’s early Pre-Phase A represented by CMLs 1- 4. The scope was limited due to the fact that CMLs 5 and 6 are already well defined based on the requirements documented in specific Announcement of Opportunities (AO) and Concept Study Report (CSR) guidelines, respectively, for competitive missions; and by NASA’s Procedural Requirements NPR 7120.5E document for Projects in their Formulation Phase.
+dc.description.sponsorship
+NASA/JPL
+dc.identifier.citation
+AIAA SPACE 2013 Conference & Exposition, San Diego, California, September 10-12, 2013
+dc.identifier.clearanceno
+CL#13-3547
+dc.identifier.uri
+http://hdl.handle.net/2014/44299
+dc.language.iso
+en_US
+dc.publisher
+Pasadena, CA : Jet Propulsion Laboratory, National Aeronautics and Space Administration, 2013
+dc.subject
+Concept Maturity Levels (CMLs)
+dc.title
+Space mission concept development using concept maturity levels
+dc.type
+Preprint
+Dataset Terms
+License/Data Use Agreement
+Our
+Community Norms
+as well as good scientific practices expect that proper credit is given via citation. Please use the data citation shown on the dataset page.
+CC0 1.0
+Edit File
+This file has already been deleted (or replaced) in the current version. It may not be edited.
+Close
+Restrict Access
+Restricting limits access to published files. People who want to use the restricted files can request access by default.
+If you disable request access, you must add information about access to the Terms of Access field.
+Learn about restricting files and dataset access in the
+User Guide
+.
+Request Access
+Enable access request
+You must enable request access or add terms of access to restrict file access.
+Terms of Access for Restricted Files
+Save Changes
+Cancel
+Edit Embargo
+The selected file or files have already been published. Contact an administrator to change the embargo date or reason of the file or files.
+Cancel
+Delete Files
+The file will be deleted after you click on the Delete button.
+Files will not be removed from previously published versions of the dataset.
+Delete
+Cancel
+Continue
+Cancel
+Select File(s)
+Please select one or more files.
+Close
+Share Dataset
+Share this dataset on your favorite social media networks.
+Close
+Dataset Citations
+Citations for this dataset are retrieved from Crossref via DataCite using Make Data Count standards. For more information about dataset metrics, please refer to the
+User Guide
+.
+Sorry, no citations were found.
+Close
+Restricted Files Selected
+The selected file(s) may not be downloaded because you have not been granted access.
+Close
+Download Options
+The files selected are too large to download as a ZIP.
+You can select individual files that are below the 100.0 MB download limit from the files table, or use the
+Data Access API
+for programmatic access to the files.
+Select File(s)
+Please select a file or files to be downloaded.
+Close
+Restricted Files Selected
+The restricted file(s) selected may not be downloaded because you have not been granted access.
+Click Continue to download the files you have access to download.
+Continue
+Cancel
+Delete Dataset
+Are you sure you want to delete this dataset and all of its files? You cannot undelete this dataset.
+Continue
+Cancel
+Delete Draft Version
+Are you sure you want to delete this draft version? Files will be reverted to the most recently published version. You cannot undelete this draft.
+Continue
+Cancel
+Unpublished Dataset Private URL
+Private URL can only be used with unpublished versions of datasets.
+Cancel
+Unpublished Dataset Private URL
+Are you sure you want to disable the Private URL? If you have shared the Private URL with others they will no longer be able to use it to access your unpublished dataset.
+Yes, Disable Private URL
+Cancel
+Delete Files
+The file(s) will be deleted after you click on the Delete button.
+Files will not be removed from previously published versions of the dataset.
+Delete
+Cancel
+Compute
+This dataset contains restricted files you may not compute on because you have not been granted access.
+Close
+Deaccession Dataset
+Are you sure you want to deaccession? The selected version(s) will no longer be viewable by the public.
+No
+Deaccession Dataset
+Are you sure you want to deaccession this dataset? It will no longer be viewable by the public.
+No
+Version Differences Details
+Please select two versions to view the differences.
+Close
+Version Differences Details
+Version:
+Last Updated:
+Version:
+Last Updated:
+Done
+Select File(s)
+Please select a file or files for access request.
+Close
+Select File(s)
+Embargoed files cannot be accessed. Please select an unembargoed file or files for your access request.
+Close
+Edit Tags
+Select existing file tags or create new tags to describe your files. Each file can have more than one tag.
+Save Changes
+Cancel
+Request Access
+You need to
+Log In
+to request access.
+Close
+Dataset Terms
+This dataset is made available under the following terms. Please confirm and/or complete the information needed below in order to continue.
+License/Data Use Agreement
+Our
+Community Norms
+as well as good scientific practices expect that proper credit is given via citation. Please use the data citation shown on the dataset page.
+CC0 1.0
+Accept
+Cancel
+Preview Guestbook
+Upon downloading files the guestbook asks for the following information.
+Guestbook Name
+Collected Data
+Account Information
+Close
+Package File Download
+Use the Download URL in a Wget command or a download manager to download this package file. Download via web browser is not recommended.
+User Guide - Downloading a Dataverse Package via URL
+Download URL
+http://dataverse.jpl.nasa.gov/api/access/datafile/
+Close
+Request Access
+Please confirm and/or complete the information needed below in order to request access to files in this dataset.
+Accept
+Cancel
+Compute Batch
+Clear Batch
+ui-button
+Dataset
+Persistent Identifier
+Change Compute Batch
+Compute Batch
+Cancel
+Submit for Review
+You will not be able to make changes to this dataset while it is in review.
+Submit
+Cancel
+Publish Dataset
+Are you sure you want to republish this dataset?
+Select if this is a minor or major version update.
+Minor Release (2.1)
+Major Release (3.0)
+Continue
+Cancel
+Publish Dataset
+This dataset cannot be published until
+JPL Open Repository
+is published by its administrator.
+Close
+Publish Dataset
+This dataset cannot be published until
+JPL Open Repository
+and
+Root
+are published.
+Close
+Return to Author
+Return this dataset to contributor for modification.
+Continue
+Cancel
+Copyright © 2026
+Powered by
+v. 5.14
+Admin Log In
+About JPL
+Who We Are
+Executive Council
+Directors
+Careers
+Internships
+The JPL Story
+JPL Achievements
+Documentary
+                                    Series
+Annual Reports
+Events
+Lecture Series
+Team Competitions
+Speakers Bureau
+Calendar
+Galleries
+Images
+Videos
+Audio
+Podcasts
+Apps
+Visions of the Future
+Slice of History
+Robotics at JPL
+Visit
+Public Tours
+Virtual Tour
+Directions and Maps
+Missions
+Current
+Past
+Future
+All
+News
+Earth
+Solar System
+Stars and
+                                    Galaxies
+Subscribe to JPL News
+Topics
+JPL Life
+Solar System
+Mars
+Earth
+Climate Change
+Exoplanets
+Stars and Galaxies
+Robotics
+More
+Asteroid Watch
+NASA's Eyes Visualizations
+Universe - Internal Newsletter
+Social Media
+NASA
+|
+Caltech
+|
+Image Policy
+|
+FAQ
+|
+Feedback
+Site Manager: Shan Malhotra
+Webmasters: Aaron Curtis, Syed Sadaqathullah
+Contact Root Support
+To
+Root Support
+From
+Subject
+Message
+Please fill this out to prove you are not a robot.
++  =
+Send Message
+Cancel

@@ -1,0 +1,111 @@
+Data — ECOSTRESS
+Home
+News
+Events
+Gallery
+Research
+Applications
+Mission
+Data
+Tutorials
+Other
+FAQs
+Team
+You are here:
+Home
+Data
+Data
+https://ecostress.jpl.nasa.gov/data
+https://ecostress.jpl.nasa.gov/logo.png
+Data
+Reprocessing Timeline
+In October 2022,  ECOSTRESS released Collection 2, which includes an updated radiometric vicarious calibration, improved geolocation flagging, improved cloud mask, and improvements and additions to evapotranspiration (ET) models. The team has also made available the inputs that were used in the ET models, for full transparency. These include normalized difference vegetation index (NDVI), and albedo derived from a data fusion between VIIRS and harmonized Landsat-Sentinel (HLS), as well as reanalysis data resampled to ECOSTRESS spatial resolution.
+Radiance, geolocation, land surface temperature & emissivity, and cloud products (level 1 and 2 products) have been available in Collection 2 since October 05, 2022. Higher level products (level 3 and 4) have been available in Collection 2 since January 18, 2024. The team produced Collection 1 for Level 1 and 2 data products until the Collection 2 reprocessing of Level 1 and Level 2 data products was complete so that users could continue to  evaluate a consistent time series. Collection 1 was discontinued in Calendar Year 2025. Collection 1 ended for level 3 and 4 products on December 31, 2022, due to the changing MODIS orbit and changes in Landsat data accessibility. The Collection 1 data availability dates and Collection 2 reprocessing dates are listed in the table below:
+Data Example
+NASA’s ECOSTRESS Maps LA’s Street Temperatures
+.
+Click on image to see larger version
+. - NASA/JPL-Caltech
+In this overlay image, retrieved land surface temperature (LST) from NASA’s Ecosystem Spaceborne Thermal Radiometer Experiment on Space Station (ECOSTRESS) was downscaled to a spatial resolution of 10m and overlaid on a street map of Los Angeles. The image was derived by taking an average of all clear-sky afternoon (1-4pm) imagery acquired by ECOSTRESS from 2018-2023. The LST represents the ‘skin’ temperature of the surface (that you would feel to the touch) and is usually much hotter than the surface air temperature that meteorologists report in a weather forecast.
+ECOSTRESS was launched to the international space station in 2018. Its primary mission is to identify plants’ thresholds for water use and water stress, giving insight into their ability to adapt to a warming climate. However, it has many other science uses including urban heat mitigation, wildfire mapping, water quality, and surface mineralogy. NASA’s Jet Propulsion Laboratory in Southern California built and manages the ECOSTRESS mission for the Earth Science Division in the Science Mission Directorate at NASA Headquarters in Washington. ECOSTRESS is an Earth Venture Instrument mission; the program is managed by NASA’s Earth System Science Pathfinder program at NASA's Langley Research Center in Hampton, Virginia
+Streets LA KMZ file (download)
+Streets LA Geotiff file (download)
+How to access data - Demo
+Get ECOSTRESS Data
+NASA Earthdata - "ECOSTRESS" Search
+LP DAAC subsetting tool - AppEEARS
+Click on:
+"point samples"
+or
+"area samples"
+Data Description and FAQ
+Preview of currently acquired data
+LP DAAC ECOSTRESS Swath 2 Grid Data Prep Script
+Documents
+Algorithm Theoretical Basis Documents (ATBDs)
+Product Specification Documents (PSDs)
+User Guide Products
+Combined Summary Table of ATDBs, PSDs, User Guides
+Radiometer Spectral Response Functions (SRF)
+SRF Graph
+SRF Data+Graph
+Science Data Products
+Science Data Products Summary Table
+Site Map
+Accessibility
+Contact
+Get the Newsletter
+Follow NASA
+All
+Home
+News
+Events
+Gallery
+Science
+Applications
+Instrument
+Mission
+Data
+Publications
+Doc-Media-Tools
+FAQ
+Team
+NASA/JPL Sites of Interest
+Cassini - Mission to Saturn
+Earth / Changing Environment
+Planetquest / Exoplanets
+Mars Exploration
+Mars Science Laboratory / Curiosity
+Rosetta - Understanding Comets
+Science and Technology
+Solar System Exploration
+Eyes on the Solar System
+Eyes on the Earth
+Eyes on Exoplanets
+Spitzer Space Telescope
+Follow JPL
+Facebook
+Twitter
+YouTube
+Flickr
+Instagram
+iTunes
+UStream
+Blog
+NASA
+NASA Water Cleanup
+FOIA
+NASA
+|
+Caltech
+|
+Privacy
+|
+Image Policy
+|
+FAQ
+|
+Feedback
+Site Manager: Simon Hook
+Webmasters: Gerardo Rivera
+Clearance number: CL#15-0759,18-2444

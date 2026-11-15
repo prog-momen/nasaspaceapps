@@ -1,0 +1,13 @@
+{
+  "id": "resource_R033",
+  "url": "https://trek.nasa.gov/mars/",
+  "checked_at": "2026-11-14T15:15:12.089177+00:00",
+  "tls_validation": false,
+  "status": 200,
+  "final_url": "https://trek.nasa.gov/mars/",
+  "bytes": 2488,
+  "content_type": "text/html",
+  "sha256": "13635e1d576bcae4d833fe6f7cb9c338ab05743b1ccafcea2e15e4ffb6d56947",
+  "links": [],
+  "elapsed_seconds": 0.625
+}

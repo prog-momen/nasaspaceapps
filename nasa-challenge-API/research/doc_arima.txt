@@ -1,0 +1,864 @@
+statsmodels.tsa.arima.model.ARIMA — statsmodels 0.15.0
+Skip to main content
+Back to top
+Ctrl
++
+K
+statsmodels
+Installing
+Getting started
+User Guide
+Examples
+More
+API Reference
+About statsmodels
+Developer Page
+Release 0.15.0
+Search
+Ctrl
++
+K
+Choose version
+System Settings
+Light
+Dark
+GitHub
+PyPI
+DOI
+Search
+Ctrl
++
+K
+Installing
+Getting started
+User Guide
+Examples
+API Reference
+About statsmodels
+Developer Page
+Release 0.15.0
+Choose version
+System Settings
+Light
+Dark
+GitHub
+PyPI
+DOI
+Collapse Sidebar
+Expand Sidebar
+Section Navigation
+endog
+,
+exog
+, what’s that?
+Import Paths and Structure
+Fitting models using R-style formulas
+Pitfalls
+Linear Regression
+Generalized Linear Models
+Generalized Estimating Equations
+Generalized Additive Models (GAM)
+Robust Linear Models
+Linear Mixed Effects Models
+Regression with Discrete Dependent Variable
+Generalized Linear Mixed Effects Models
+ANOVA
+Other Models
+othermod
+Time Series analysis
+tsa
+statsmodels.tsa.stattools.acovf
+statsmodels.tsa.stattools.acf
+statsmodels.tsa.stattools.AcfResult
+statsmodels.tsa.stattools.pacf
+statsmodels.tsa.stattools.PacfResult
+statsmodels.tsa.stattools.pacf_yw
+statsmodels.tsa.stattools.pacf_ols
+statsmodels.tsa.stattools.pacf_burg
+statsmodels.tsa.stattools.PacfBurgResult
+statsmodels.tsa.stattools.ccovf
+statsmodels.tsa.stattools.ccf
+statsmodels.tsa.stattools.CcfResult
+statsmodels.tsa.stattools.pccf
+statsmodels.tsa.stattools.PccfResult
+statsmodels.tsa.stattools.adfuller
+statsmodels.tsa.stattools.ADFullerResult
+statsmodels.tsa.stattools.kpss
+statsmodels.tsa.stattools.KPSSResult
+statsmodels.tsa.stattools.leybourne
+statsmodels.tsa.stattools.range_unit_root_test
+statsmodels.tsa.stattools.RURResult
+statsmodels.tsa.stattools.zivot_andrews
+statsmodels.tsa.stattools.coint
+statsmodels.tsa.stattools.CointResult
+statsmodels.tsa.stattools.bds
+statsmodels.tsa.stattools.block_jackknife
+statsmodels.tsa.stattools.JackknifeResult
+statsmodels.tsa.stattools.q_stat
+statsmodels.tsa.stattools.QStatResult
+statsmodels.tsa.stattools.breakvar_heteroskedasticity_test
+statsmodels.tsa.stattools.BreakvarHeteroskedasticityResult
+statsmodels.tsa.stattools.grangercausalitytests
+statsmodels.tsa.stattools.levinson_durbin
+statsmodels.tsa.stattools.LevinsonDurbinResult
+statsmodels.tsa.stattools.innovations_algo
+statsmodels.tsa.stattools.innovations_filter
+statsmodels.tsa.stattools.levinson_durbin_pacf
+statsmodels.tsa.stattools.LevinsonDurbinPacfResult
+statsmodels.tsa.stattools.arma_order_select_ic
+statsmodels.tsa.x13.x13_arima_select_order
+statsmodels.tsa.x13.x13_arima_analysis
+statsmodels.tsa.ar_model.AutoReg
+statsmodels.tsa.ar_model.AutoRegResults
+statsmodels.tsa.ar_model.ar_select_order
+statsmodels.tsa.ar_model.InformationCriteria
+statsmodels.tsa.arima.model.ARIMA
+statsmodels.tsa.arima.model.ARIMA.clone
+statsmodels.tsa.arima.model.ARIMA.filter
+statsmodels.tsa.arima.model.ARIMA.fit
+statsmodels.tsa.arima.model.ARIMA.fit_constrained
+statsmodels.tsa.arima.model.ARIMA.fix_params
+statsmodels.tsa.arima.model.ARIMA.from_formula
+statsmodels.tsa.arima.model.ARIMA.handle_params
+statsmodels.tsa.arima.model.ARIMA.hessian
+statsmodels.tsa.arima.model.ARIMA.impulse_responses
+statsmodels.tsa.arima.model.ARIMA.information
+statsmodels.tsa.arima.model.ARIMA.initialize
+statsmodels.tsa.arima.model.ARIMA.initialize_approximate_diffuse
+statsmodels.tsa.arima.model.ARIMA.initialize_default
+statsmodels.tsa.arima.model.ARIMA.initialize_known
+statsmodels.tsa.arima.model.ARIMA.initialize_statespace
+statsmodels.tsa.arima.model.ARIMA.initialize_stationary
+statsmodels.tsa.arima.model.ARIMA.loglike
+statsmodels.tsa.arima.model.ARIMA.loglikeobs
+statsmodels.tsa.arima.model.ARIMA.observed_information_matrix
+statsmodels.tsa.arima.model.ARIMA.opg_information_matrix
+statsmodels.tsa.arima.model.ARIMA.predict
+statsmodels.tsa.arima.model.ARIMA.prepare_data
+statsmodels.tsa.arima.model.ARIMA.score
+statsmodels.tsa.arima.model.ARIMA.score_obs
+statsmodels.tsa.arima.model.ARIMA.set_conserve_memory
+statsmodels.tsa.arima.model.ARIMA.set_filter_method
+statsmodels.tsa.arima.model.ARIMA.set_inversion_method
+statsmodels.tsa.arima.model.ARIMA.set_smoother_output
+statsmodels.tsa.arima.model.ARIMA.set_stability_method
+statsmodels.tsa.arima.model.ARIMA.simulate
+statsmodels.tsa.arima.model.ARIMA.simulation_smoother
+statsmodels.tsa.arima.model.ARIMA.smooth
+statsmodels.tsa.arima.model.ARIMA.transform_jacobian
+statsmodels.tsa.arima.model.ARIMA.transform_params
+statsmodels.tsa.arima.model.ARIMA.untransform_params
+statsmodels.tsa.arima.model.ARIMA.update
+statsmodels.tsa.arima.model.ARIMA.endog_names
+statsmodels.tsa.arima.model.ARIMA.exog_names
+statsmodels.tsa.arima.model.ARIMA.initial_design
+statsmodels.tsa.arima.model.ARIMA.initial_selection
+statsmodels.tsa.arima.model.ARIMA.initial_state_intercept
+statsmodels.tsa.arima.model.ARIMA.initial_transition
+statsmodels.tsa.arima.model.ARIMA.initial_variance
+statsmodels.tsa.arima.model.ARIMA.initialization
+statsmodels.tsa.arima.model.ARIMA.loglikelihood_burn
+statsmodels.tsa.arima.model.ARIMA.model_latex_names
+statsmodels.tsa.arima.model.ARIMA.model_names
+statsmodels.tsa.arima.model.ARIMA.model_orders
+statsmodels.tsa.arima.model.ARIMA.param_names
+statsmodels.tsa.arima.model.ARIMA.param_terms
+statsmodels.tsa.arima.model.ARIMA.params_complete
+statsmodels.tsa.arima.model.ARIMA.start_params
+statsmodels.tsa.arima.model.ARIMA.state_names
+statsmodels.tsa.arima.model.ARIMA.tolerance
+statsmodels.tsa.arima.model.ARIMAResults
+statsmodels.tsa.innovations.arma_innovations.arma_innovations
+statsmodels.tsa.innovations.arma_innovations.arma_loglike
+statsmodels.tsa.innovations.arma_innovations.arma_loglikeobs
+statsmodels.tsa.innovations.arma_innovations.arma_score
+statsmodels.tsa.innovations.arma_innovations.arma_scoreobs
+statsmodels.tsa.holtwinters.ExponentialSmoothing
+statsmodels.tsa.holtwinters.SimpleExpSmoothing
+statsmodels.tsa.holtwinters.Holt
+statsmodels.tsa.holtwinters.HoltWintersResults
+statsmodels.tsa.exponential_smoothing.ets.ETSModel
+statsmodels.tsa.exponential_smoothing.ets.ETSResults
+statsmodels.tsa.statespace.exponential_smoothing.ExponentialSmoothing
+statsmodels.tsa.statespace.exponential_smoothing.ExponentialSmoothingResults
+statsmodels.tsa.arima_process.ArmaProcess
+statsmodels.tsa.arima_process.ar2arma
+statsmodels.tsa.arima_process.arma2ar
+statsmodels.tsa.arima_process.arma2ma
+statsmodels.tsa.arima_process.arma_acf
+statsmodels.tsa.arima_process.arma_acovf
+statsmodels.tsa.arima_process.arma_generate_sample
+statsmodels.tsa.arima_process.arma_impulse_response
+statsmodels.tsa.arima_process.arma_pacf
+statsmodels.tsa.arima_process.arma_periodogram
+statsmodels.tsa.arima_process.deconvolve
+statsmodels.tsa.arima_process.index2lpol
+statsmodels.tsa.arima_process.lpol2index
+statsmodels.tsa.arima_process.lpol_fiar
+statsmodels.tsa.arima_process.lpol_fima
+statsmodels.tsa.arima_process.lpol_sdiff
+statsmodels.sandbox.tsa.fftarma.ArmaFft
+statsmodels.tsa.ardl.ARDL
+statsmodels.tsa.ardl.ARDLResults
+statsmodels.tsa.ardl.ardl_select_order
+statsmodels.tsa.ardl.ARDLOrderSelectionResults
+statsmodels.tsa.ardl.UECM
+statsmodels.tsa.ardl.UECMResults
+statsmodels.tsa.ardl.BoundsTestResult
+statsmodels.tsa.regime_switching.markov_regression.MarkovRegression
+statsmodels.tsa.regime_switching.markov_autoregression.MarkovAutoregression
+statsmodels.tsa.filters.bk_filter.bkfilter
+statsmodels.tsa.filters.hp_filter.hpfilter
+statsmodels.tsa.filters.cf_filter.cffilter
+statsmodels.tsa.filters.hamilton_filter.hamilton_filter
+statsmodels.tsa.filters.filtertools.CycleTrendResult
+statsmodels.tsa.filters.filtertools.convolution_filter
+statsmodels.tsa.filters.filtertools.recursive_filter
+statsmodels.tsa.filters.filtertools.miso_lfilter
+statsmodels.tsa.filters.filtertools.fftconvolve3
+statsmodels.tsa.filters.filtertools.fftconvolveinv
+statsmodels.tsa.seasonal.seasonal_decompose
+statsmodels.tsa.seasonal.STL
+statsmodels.tsa.seasonal.MSTL
+statsmodels.tsa.seasonal.DecomposeResult
+statsmodels.tsa.tsatools.add_lag
+statsmodels.tsa.tsatools.add_trend
+statsmodels.tsa.tsatools.detrend
+statsmodels.tsa.tsatools.lagmat
+statsmodels.tsa.tsatools.LagmatResult
+statsmodels.tsa.tsatools.lagmat2ds
+statsmodels.tsa.varma_process.VarmaPoly
+statsmodels.tsa.interp.denton.dentonm
+statsmodels.tsa.deterministic.DeterministicProcess
+statsmodels.tsa.deterministic.TimeTrend
+statsmodels.tsa.deterministic.Seasonality
+statsmodels.tsa.deterministic.Fourier
+statsmodels.tsa.deterministic.CalendarTimeTrend
+statsmodels.tsa.deterministic.CalendarSeasonality
+statsmodels.tsa.deterministic.CalendarFourier
+statsmodels.tsa.deterministic.DeterministicTerm
+statsmodels.tsa.deterministic.CalendarDeterministicTerm
+statsmodels.tsa.deterministic.FourierDeterministicTerm
+statsmodels.tsa.deterministic.TimeTrendDeterministicTerm
+statsmodels.tsa.forecasting.theta.ThetaModel
+statsmodels.tsa.forecasting.theta.ThetaModelResults
+statsmodels.tsa.forecasting.stl.STLForecast
+statsmodels.tsa.forecasting.stl.STLForecastResults
+statsmodels.tsa.base.prediction.PredictionResults
+Time Series Analysis by State Space Methods
+statespace
+Vector Autoregressions
+tsa.vector_ar
+Methods for Survival and Duration Analysis
+Nonparametric Methods
+nonparametric
+Generalized Method of Moments
+gmm
+Other Models
+miscmodels
+Multivariate Statistics
+multivariate
+Statistics
+stats
+Contingency tables
+Multiple Imputation with Chained Equations
+Treatment Effects
+treatment
+Empirical Likelihood
+emplike
+Distributions
+Graphics
+Input-Output
+iolib
+Tools
+Working with Large Data Sets
+Optimization
+The Datasets Package
+Sandbox
+User Guide
+Time Series analysis
+tsa
+statsmodels.tsa.arima.model.ARIMA
+statsmodels.tsa.arima.model.ARIMA
+#
+class
+statsmodels.tsa.arima.model.
+ARIMA
+(
+endog
+,
+exog
+=
+None
+,
+order
+=
+(0,
+0,
+0)
+,
+seasonal_order
+=
+(0,
+0,
+0,
+0)
+,
+trend
+=
+None
+,
+enforce_stationarity
+=
+True
+,
+enforce_invertibility
+=
+True
+,
+concentrate_scale
+=
+False
+,
+trend_offset
+=
+1
+,
+dates
+=
+None
+,
+freq
+=
+None
+,
+missing
+=
+'none'
+,
+validate_specification
+=
+True
+,
+validate_exog
+=
+True
+)
+[source]
+#
+Autoregressive Integrated Moving Average (ARIMA) model, and extensions
+This model is the basic interface for ARIMA-type models, including those
+with exogenous regressors and those with seasonal components. The most
+general form of the model is SARIMAX(p, d, q)x(P, D, Q, s). It also allows
+all specialized cases, including
+autoregressive models: AR(p)
+moving average models: MA(q)
+mixed autoregressive moving average models: ARMA(p, q)
+integration models: ARIMA(p, d, q)
+seasonal models: SARIMA(P, D, Q, s)
+regression with errors that follow one of the above ARIMA-type models
+Parameters
+:
+endog
+array_like
+The observed time-series process
+\(y\)
+.
+exog
+array_like
+,
+optional
+Array of exogenous regressors.
+order
+tuple
+,
+optional
+The (p,d,q) order of the model for the autoregressive, differences, and
+moving average components. d is always an integer, while p and q may
+either be integers or lists of integers specifying exactly which lag
+orders are included. The order of differences is to achieve
+stationarity in the context of a stochastic trend or seasonality.
+The default is (0, 0, 0).
+seasonal_order
+tuple
+,
+optional
+The (P,D,Q,s) order of the seasonal component of the model for the
+AR parameters, differences, MA parameters, and periodicity. D is a non-
+negative integer, and s is an integer strictly greater than one. P and
+Q may either be integers or lists of positive integers specifying
+exactly which lag orders are included. The default is (0, 0, 0, 0).
+trend
+{‘n’, ‘c’, ‘t’, ‘ct’, ‘ctt’}
+or
+array_like
+,
+optional
+Parameter controlling the deterministic trend. Can be specified as a
+string where ‘n’ indicates no trend, ‘c’ indicates a constant term,
+‘t’ indicates a linear trend in time, ‘ct’ includes both, and ‘ctt’
+includes a constant, linear trend, and squared time trend. Can also
+be specified as an array_like defining a polynomial, as in
+numpy.poly1d
+, where
+[1,1,0,1]
+would denote
+\(a + bt + ct^3\)
+.
+Default is ‘c’ for models without integration, and no trend for
+models with integration. Note that all trend terms are included in
+the model as exogenous regressors, which differs from how trends are
+included in
+SARIMAX
+models.  See the Notes section for a precise
+definition of the treatment of trend terms.
+enforce_stationarity
+bool
+,
+optional
+Whether or not to require the autoregressive parameters to correspond
+to a stationarity process. Default is True.
+enforce_invertibility
+bool
+,
+optional
+Whether or not to require the moving average parameters to correspond
+to an invertible process. Default is True.
+concentrate_scale
+bool
+,
+optional
+Whether or not to concentrate the scale (variance of the error term)
+out of the likelihood. This reduces the number of parameters by one.
+This is only applicable when considering estimation by numerical
+maximum likelihood. Default is False.
+trend_offset
+int
+,
+optional
+The offset at which to start time trend values. Default is 1, so that
+if
+trend=’t’
+the trend is equal to 1, 2, …, nobs. Typically is only
+set when the model created by extending a previous dataset.
+dates
+array_like
+of
+datetime
+,
+optional
+If no index is given by
+endog
+or
+exog
+, an array-like object of
+datetime objects can be provided.
+freq
+str
+,
+optional
+If no index is given by
+endog
+or
+exog
+, the frequency of the
+time-series may be specified here as a Pandas offset or offset string.
+missing
+str
+,
+optional
+Available options are ‘none’, ‘drop’, and ‘raise’. If ‘none’, no nan
+checking is done. If ‘drop’, any observations with nans are dropped.
+If ‘raise’, an error is raised. Default is ‘none’.
+validate_specification
+bool
+,
+optional
+Whether or not to validate the model specification. Default is True.
+validate_exog
+bool
+,
+optional
+Whether or not to check that
+exog
+does not duplicate a constant trend
+with a constant column. Has no effect unless
+validate_specification
+is True. Default is True.
+Attributes
+:
+endog_names
+Names of endogenous variables
+exog_names
+The names of the exogenous variables.
+initial_design
+Initial design matrix
+initial_selection
+Initial selection matrix
+initial_state_intercept
+Initial state intercept vector
+initial_transition
+Initial transition matrix
+initial_variance
+initialization
+loglikelihood_burn
+model_latex_names
+The latex names of all possible model parameters
+model_names
+The plain text names of all possible model parameters
+model_orders
+The orders of each of the polynomials in the model
+param_names
+List of human readable parameter names (for parameters actually
+param_terms
+List of parameters actually included in the model, in sorted order
+start_params
+Starting parameters for maximum likelihood estimation
+state_names
+(list of str) List of human readable names for unobserved states
+tolerance
+Methods
+clone
+(endog[, exog])
+Clone state space model with new data and optionally new specification
+filter
+(params[, transformed, ...])
+Kalman filtering
+fit
+([start_params, transformed, ...])
+Fit (estimate) the parameters of the model
+fit_constrained
+(constraints[, start_params])
+Fit the model with some parameters subject to equality constraints.
+fix_params
+(params)
+Fix parameters to specific values (context manager)
+from_formula
+(formula, data[, subset])
+Not implemented for state space models
+handle_params
+(params[, transformed, ...])
+Ensure model parameters satisfy shape and other requirements
+hessian
+(params, *args, **kwargs)
+Hessian matrix of the likelihood function, evaluated at the given parameters
+impulse_responses
+(params[, steps, impulse, ...])
+Impulse response function
+information
+(params)
+Fisher information matrix of model
+initialize
+()
+Initialize the SARIMAX model
+initialize_approximate_diffuse
+([variance])
+Initialize approximate diffuse
+initialize_default
+([...])
+Initialize default
+initialize_known
+(initial_state, ...)
+Initialize known
+initialize_statespace
+(**kwargs)
+Initialize the state space representation
+initialize_stationary
+()
+Initialize stationary
+loglike
+(params, *args, **kwargs)
+Loglikelihood evaluation
+loglikeobs
+(params[, transformed, ...])
+Loglikelihood evaluation
+observed_information_matrix
+(params[, ...])
+Observed information matrix
+opg_information_matrix
+(params[, ...])
+Outer product of gradients information matrix
+predict
+(params[, exog])
+After a model has been fit, predict returns the fitted values
+prepare_data
+()
+Prepare data for use in the state space representation
+score
+(params, *args, **kwargs)
+Compute the score function at params
+score_obs
+(params[, method, transformed, ...])
+Compute the score per observation, evaluated at params
+set_conserve_memory
+([conserve_memory])
+Set the memory conservation method
+set_filter_method
+([filter_method])
+Set the filtering method
+set_inversion_method
+([inversion_method])
+Set the inversion method
+set_smoother_output
+([smoother_output])
+Set the smoother output
+set_stability_method
+([stability_method])
+Set the numerical stability method
+simulate
+(params, nsimulations[, ...])
+Simulate a new time series following the state space model
+simulation_smoother
+([simulation_output])
+Retrieve a simulation smoother for the state space model.
+smooth
+(params[, transformed, ...])
+Kalman smoothing
+transform_jacobian
+(unconstrained[, ...])
+Jacobian matrix for the parameter transformation function
+transform_params
+(unconstrained)
+Transform unconstrained parameters used by the optimizer to constrained parameters used in likelihood evaluation
+untransform_params
+(constrained)
+Transform constrained parameters used in likelihood evaluation to unconstrained parameters used by the optimizer
+update
+(params[, transformed, ...])
+Update the parameters of the model
+Notes
+This model incorporates both exogenous regressors and trend components
+through “regression with ARIMA errors”. This differs from the
+specification estimated using
+SARIMAX
+which treats the trend
+components separately from any included exogenous regressors. The full
+specification of the model estimated here is:
+\[\begin{split}Y_{t}-\delta_{0}-\delta_{1}t-\ldots-\delta_{k}t^{k}-X_{t}\beta
+    & =\epsilon_{t} \\
+\left(1-L\right)^{d}\left(1-L^{s}\right)^{D}\Phi\left(L\right)
+\Phi_{s}\left(L\right)\epsilon_{t}
+    & =\Theta\left(L\right)\Theta_{s}\left(L\right)\eta_{t}\end{split}\]
+where
+\(\eta_t \sim WN(0,\sigma^2)\)
+is a white noise process, L
+is the lag operator, and
+\(G(L)\)
+are lag polynomials corresponding
+to the autoregressive (
+\(\Phi\)
+), seasonal autoregressive
+(
+\(\Phi_s\)
+), moving average (
+\(\Theta\)
+), and seasonal moving
+average components (
+\(\Theta_s\)
+).
+enforce_stationarity
+and
+enforce_invertibility
+are specified in the
+constructor because they affect loglikelihood computations, and so should
+not be changed on the fly. This is why they are not instead included as
+arguments to the
+fit
+method.
+See the notebook
+ARMA: Sunspots Data
+and
+ARMA: Artificial Data
+for an overview.
+Examples
+>>>
+mod
+=
+sm
+.
+tsa
+.
+arima
+.
+ARIMA
+(
+endog
+,
+order
+=
+(
+1
+,
+0
+,
+0
+))
+>>>
+res
+=
+mod
+.
+fit
+()
+>>>
+print
+(
+res
+.
+summary
+())
+Methods
+clone
+(endog[, exog])
+Clone state space model with new data and optionally new specification
+filter
+(params[, transformed, ...])
+Kalman filtering
+fit
+([start_params, transformed, ...])
+Fit (estimate) the parameters of the model
+fit_constrained
+(constraints[, start_params])
+Fit the model with some parameters subject to equality constraints.
+fix_params
+(params)
+Fix parameters to specific values (context manager)
+from_formula
+(formula, data[, subset])
+Not implemented for state space models
+handle_params
+(params[, transformed, ...])
+Ensure model parameters satisfy shape and other requirements
+hessian
+(params, *args, **kwargs)
+Hessian matrix of the likelihood function, evaluated at the given parameters
+impulse_responses
+(params[, steps, impulse, ...])
+Impulse response function
+information
+(params)
+Fisher information matrix of model
+initialize
+()
+Initialize the SARIMAX model
+initialize_approximate_diffuse
+([variance])
+Initialize approximate diffuse
+initialize_default
+([...])
+Initialize default
+initialize_known
+(initial_state, ...)
+Initialize known
+initialize_statespace
+(**kwargs)
+Initialize the state space representation
+initialize_stationary
+()
+Initialize stationary
+loglike
+(params, *args, **kwargs)
+Loglikelihood evaluation
+loglikeobs
+(params[, transformed, ...])
+Loglikelihood evaluation
+observed_information_matrix
+(params[, ...])
+Observed information matrix
+opg_information_matrix
+(params[, ...])
+Outer product of gradients information matrix
+predict
+(params[, exog])
+After a model has been fit, predict returns the fitted values
+prepare_data
+()
+Prepare data for use in the state space representation
+score
+(params, *args, **kwargs)
+Compute the score function at params
+score_obs
+(params[, method, transformed, ...])
+Compute the score per observation, evaluated at params
+set_conserve_memory
+([conserve_memory])
+Set the memory conservation method
+set_filter_method
+([filter_method])
+Set the filtering method
+set_inversion_method
+([inversion_method])
+Set the inversion method
+set_smoother_output
+([smoother_output])
+Set the smoother output
+set_stability_method
+([stability_method])
+Set the numerical stability method
+simulate
+(params, nsimulations[, ...])
+Simulate a new time series following the state space model
+simulation_smoother
+([simulation_output])
+Retrieve a simulation smoother for the state space model.
+smooth
+(params[, transformed, ...])
+Kalman smoothing
+transform_jacobian
+(unconstrained[, ...])
+Jacobian matrix for the parameter transformation function
+transform_params
+(unconstrained)
+Transform unconstrained parameters used by the optimizer to constrained parameters used in likelihood evaluation
+untransform_params
+(constrained)
+Transform constrained parameters used in likelihood evaluation to unconstrained parameters used by the optimizer
+update
+(params[, transformed, ...])
+Update the parameters of the model
+Properties
+endog_names
+Names of endogenous variables
+exog_names
+The names of the exogenous variables.
+initial_design
+Initial design matrix
+initial_selection
+Initial selection matrix
+initial_state_intercept
+Initial state intercept vector
+initial_transition
+Initial transition matrix
+initial_variance
+initialization
+loglikelihood_burn
+model_latex_names
+The latex names of all possible model parameters
+model_names
+The plain text names of all possible model parameters
+model_orders
+The orders of each of the polynomials in the model
+param_names
+List of human readable parameter names (for parameters actually included in the model)
+param_terms
+List of parameters actually included in the model, in sorted order
+params_complete
+start_params
+Starting parameters for maximum likelihood estimation
+state_names
+(list of str) List of human readable names for unobserved states
+tolerance
+previous
+statsmodels.tsa.ar_model.InformationCriteria.hqic
+next
+statsmodels.tsa.arima.model.ARIMA.clone
+On this page
+ARIMA
+Show Source
+© Copyright 2009-2025, Josef Perktold, Skipper Seabold, Jonathan Taylor, statsmodels-developers.
+Created using
+Sphinx
+9.1.0.
+Built with the
+PyData Sphinx Theme
+0.21.0.

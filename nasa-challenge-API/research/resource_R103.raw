@@ -1,0 +1,291 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"> 
+<head> 
+<title>IRSA - SPHEREx</title> 
+ 
+
+<link rel="stylesheet" type="text/css" media="screen,projection" href="/style.css" />
+<link rel="stylesheet" type="text/css" media="print" href="/print_style.css" />
+<link rel="stylesheet" type="text/css" media="screen,projection" href="/ui.css" />
+<script type="text/javascript" src="/ui_verbose.js"></script>
+
+<!--[if lt IE 7]>
+<style type="text/css" media="screen, projection">
+#irsa-menu li
+{
+float: left;
+height: 1%;
+}
+#irsa-menu a
+{
+height: 1%;
+}
+</style>
+<![endif]-->
+</head>
+<body >
+
+<div id="irsa-banner"   style= "min-width:768px; min-height:95px"></div>
+<script type="text/javascript" language='javascript' src='/frontpage/frontpage.nocache.js'> </script>
+
+<div id="content">
+<!--   #include virtual="/include/sysnotice.html"  -->
+ 
+ 
+ 
+
+<div class="webpage">
+
+<h1>SPHEREx: An All-Sky Spectral Survey</h1>
+
+<center>
+<table cellpadding=10>
+<tr>
+<td style="text-align:center" width="200"><a href="/applications/spherex"><img src="/images/icons/missions/SPHEREx_iconD.jpg" alt="" width="70" /></a>
+            <div><h3 style="border:none;"><a href="/applications/spherex">SPHEREx Data Explorer</a></h3></div></td>
+<td style="text-align:center" width="200"><a href="/data/SPHEREx/docs/overview_dr1.html"><img src="/images/icons/Documentation_blue.jpg" alt="" width="70" /></a>
+            <div><h3 style="border:none;"><a href="/data/SPHEREx/docs/overview_dr1.html">Documentation</a></h3></div></td>
+</tr>
+</table>
+</center>
+
+
+<h3>Mission Characteristics</h3>
+
+
+<table class="striped" align="center">
+<tr>
+    <td class="th"><b>Lifetime:</b></td>
+    <td class="tc">2025 - 2027 (planned)</td>
+</tr>
+<tr class="even">
+    <td class="th"><b>Wavelength:</b></td>
+    <td class="tc"> 0.75-1.1 microns, R=39<br />
+     1.1-1.6 microns, R=41<br />
+     1.6-2.4 microns, R=41<br />
+     2.4-3.8 microns, R=35<br />
+     3.8-4.4 microns, R=112<br />
+     4.4-5.0 microns, R=128 </td>
+</tr>
+<tr>
+    <td class="th"><b>Area Coverage (planned):</b></td>
+    <td class="tc">100% of sky</td>
+</tr>
+<tr class="even">
+    <td class="th"><b>Instruments:</b></td>
+    <td class="tc">
+        Wide Field Linear Variable Filter (LVF) Imaging Spectrograph
+    </td>
+</tr>
+<tr >
+    <td class="th"><b>Funding Agency:</b></td>
+    <td class="tc">
+        NASA
+    </td>
+</tr>
+<tr class="even">
+    <td class="th"><b>Contributing Institutions:</b></td>
+    <td class="tc">
+        JPL, Caltech, RIT, Harvard/CFA, Arizona State, University of Arizona, Ohio State University, KASI, UC Irvine, Johns Hopkins, ASIAA
+    </td>
+</tr>
+<tr>
+<td class="th"><b>Acknowledgement:</b></td>
+<td class="tc">
+Please include the following acknowledgement in any published material that makes use of SPHEREx data products:<br /><i>
+"This publication makes use of data products from the Spectro-Photometer for the History of the Universe, Epoch of Reionization and Ices Explorer (SPHEREx), which is a joint project of the Jet Propulsion Laboratory and the California Institute of Technology, and is funded by the National Aeronautics and Space Administration."</i>
+</td>
+</tr>
+
+<tr>
+    <td class="th"><b>Canonical Papers:</b></td>
+    <td class="tc">
+        Mission: <a href="https://ui.adsabs.harvard.edu/abs/2026ApJ...999..139B/abstract" target="_blank">Bock et al (2026)</a><br />
+        Pipeline: <a href="https://ui.adsabs.harvard.edu/abs/2026ApJS..285...67A/abstract" target="_blank">Akeson et al (2026)</a><br />
+        Sky Simulator: <a href="https://ui.adsabs.harvard.edu/abs/2025ApJS..281...10C/abstract" target="_blank">Crill et al. (2025)</a><br />
+        Instrument &amp; Calibration: <a href="https://ui.adsabs.harvard.edu/abs/2026arXiv260329835K/abstract" target="_blank">Korngut et al. (2026)</a><br />
+    </td>
+</tr>
+<tr class="even">
+    <td class="th"><b>SPHEREx Releases:</b></td>
+    <td class="tc">July 2025: <a href="/data/SPHEREx/docs/overview_qr.html">First Quick Release Products available at IRSA</a><br /> 
+	October 2025: <a href="/data/SPHEREx/docs/overview_qr.html">First reprocessed Quick Release Products (QR2) available at IRSA</a><br >
+    April 10, 2026: <a href="/data/SPHEREx/docs/psfhdrerr.html">QR2 headers updated to correct PSF extension header error (see documentation for details)</a><br />
+    September 2026: <a href="/data/SPHEREx/docs/overview_qr.html">First Quick Release 3 (QR3) Products available at IRSA</a><br />
+    November 2026: <a href="/data/SPHEREx/docs/overview_dr1.html">Data Release 1 (DR1) Products available at IRSA</a>
+    </td>
+</tr>
+</table>
+
+
+<h3>IRSA Services - SPHEREx Releases</h3>
+<table class="mission">
+<!--tr class="top">
+    <th><a href="/applications/spherex">SPHEREx Data Explorer</a></th>
+    <td>
+        Access SPHEREx data
+    </td>
+</tr-->
+<tr class="top">
+    <th><a href="/data/SPHEREx/docs/overview_dr1.html">SPHEREx Data Release 1</a></th>
+    <td>
+        Access DR1 data 
+    </td>
+</tr>
+<tr class="top">
+    <th><a href="/data/SPHEREx/docs/overview_qr.html">SPHEREx Quick Releases</a></th>
+    <td>
+        Access QR2 and QR3 data 
+    </td>
+</tr>
+<tr class="top">
+    <th><a href="/data/SPHEREx/SPLICES/">SPHEREx Target List of Ice Sources (SPLICES)</a></th>
+    <td>
+        Access SPLICES catalog
+    </td>
+</tr>
+<tr class="top">
+    <th><a href="/data/SPHEREx/docs/comet3iatlas/index.html">Comet 3I/ATLAS</a></th>
+    <td>
+        Access SPHEREx Spectral Images of Comet 3I/ATLAS
+    </td>
+</tr>
+<tr class="top">
+    <th><a href="/cloud_access/#spherex">Cloud Data Access</a></th>
+    <td>
+        Access SPHEREx data available on AWS S3 cloud storage.
+    </td>
+</tr>
+<tr class="top">
+    <th><a href="/applications/MOST">Moving Object Search Tool (MOST)</a></th>
+    <td>
+Determine the orbit for a given solar system object then find SPHEREx images that covered the object's predicted positions at their observation epochs.
+    </td>
+</tr>
+<!--tr class="top">
+    <th><a href="/cgi-bin/Gator/nph-scan?mission=irsa&amp;submit=Select&amp;projshort=SPHEREX">SPHEREx Catalog Search</a></th>
+    <td>
+        Access SPHEREx catalog and other tabular data products
+    </td>
+</tr-->
+</table>
+
+<h3>SPHEREx Science Tools</h3>
+<table class="mission">
+<tr class="top">
+    <th><a href="/applications/spherex/tool-spectrophotometry">Spectrophotometry Tool</a></th>
+    <td>
+        Extract spectra from SPHEREx Spectral Images using forced photometry. Read the <a href="/onlinehelp/spherex/#sp">Spectrophotometry Tool documentation</a> for detailed usage instructions, inputs, and outputs.
+    </td>
+</tr>
+<tr class="top">
+    <th><a href="/applications/spherex/tool-mosaic">Mosaic Tool</a></th>
+    <td>
+        Create custom multiwavelength mosaics from SPHEREx Spectral Images.
+    </td>
+</tr>
+<tr class="top">
+    <th><a href="/data/SPHEREx/docs/cutout_tool.html">Cutout Tool</a></th>
+    <td>
+        Extract spatial subsets from SPHEREx Spectral Image Multi-Extension FITS files.
+    </td>
+</tr>
+<tr class="top">
+    <th><a href="https://caltech-ipac.github.io/irsa-tutorials/spherex-source-discovery-tool-demo/">Source Discovery Tool</a></th>
+    <td>
+Identify and characterize significant detected sources within a user defined region using SPHEREx data alone, without requiring positional priors.
+    </td>
+</tr>
+</table>
+
+<h3>IRSA Documentation - SPHEREx Releases</h3>
+<table class="mission">
+<tr class="top">
+    <th><a href="/data/SPHEREx/docs/SPHEREx_Expsupp.pdf">Documentation</a></th>
+    <td>
+        SPHEREx Explanatory Supplement
+    </td>
+</tr>
+<tr class="top">
+    <th><a href="/spherex-archive-documentation/">SPHEREx Archive User Guide</a></th>
+    <td>
+        SPHEREx Archive User Guide
+    </td>
+</tr>
+<tr class="top">
+    <th><a href="/voapi.html">Program Interfaces</a></th>
+    <td>
+        Information on program-friendly data services
+    </td>
+</tr>
+<tr class="top">
+    <th><a href="/data/SPHEREx/docs/spherex_spectral_calibrations.html">Spectral Calibrations</a></th>
+    <td>
+        Access SPHEREx Spectral Channel Maps and Response Functions
+    </td>
+</tr>
+<!--tr class="top">
+    <th><a href="/docs/howto/tutorials.html">Tutorials</a></th>
+    <td>
+        Tutorial videos for SPHEREx services
+    </td>
+</tr-->
+</table>
+
+<h3>Other Resources</h3>
+<table class="mission">
+<tr class="top">
+    <th><a href="http://spherex.caltech.edu/">SPHEREx website</a></th>
+    <td>
+        SPHEREx Home Page 
+    </td>
+</tr>
+<tr class="top">
+    <th><a href="https://caltech-ipac.github.io/irsa-tutorials/spherex-intro/">Python Notebooks: Introduction</a></th>
+    <td>
+        Introduction to SPHEREx Spectral Images
+    </td>
+</tr>
+<tr >
+    <th><a href="https://caltech-ipac.github.io/irsa-tutorials/spherex-cutouts/">Python Notebooks: Cutouts</a></th>
+    <td>
+        SPHEREx Spectral Image Cutouts
+    </td>
+</tr>
+<tr >
+    <th><a href="https://caltech-ipac.github.io/irsa-tutorials/spherex-psf/">Python Notebooks: PSF</a></th>
+    <td>
+        SPHEREx PSF in Spectral Image Cutouts
+    </td>
+</tr>
+<tr >
+    <th><a href="https://caltech-ipac.github.io/irsa-tutorials/spherex-source-discovery-tool-demo/">Python Notebooks: Source Discovery Tool</a></th>
+    <td>
+        SPHEREx Source Discovery Tool
+    </td>
+</tr>
+<tr >
+    <th><a href="https://caltech-ipac.github.io/irsa-tutorials/spherex-mosaic/">Python Notebooks: Mosaic Cubes</a></th>
+    <td>
+        SPHEREx Mosaic Cubes
+    </td>
+</tr>
+<tr >
+    <th><a href="https://caltech-ipac.github.io/irsa-tutorials/spherex-hipscube/">Python Notebooks: HiPS Cubes</a></th>
+    <td>
+        SPHEREx HiPS Cubes
+    </td>
+</tr>
+</table>
+
+</div> <!-- end .webpage -->
+
+
+</div> <!-- end #content -->
+<div id="irsa-footer" style="position:absolute;left:0;right:0;margin-top:20px">
+<iframe src="/frontpage/footer.html" width="100%" frameborder=0 scrolling=0 seamless=1/>
+</div>  <!-- end #irsa-footer -->
+
+</body>
+</html>
+

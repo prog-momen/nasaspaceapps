@@ -1,0 +1,542 @@
+Soil Moisture Active Passive (SMAP) | NASA Earthdata
+Skip to main content
+Earthdata Forum is down due to unplanned maintenance. Please contact earthdata-support@nasa.gov with questions.
+See the alert
+Suomi NPP is no longer delivering new data. Users must transition to alternative products.
+Suomi NPP data announcement
+Home
+Data
+Data Catalog
+Data Alerts and Outages
+Projects
+Land, Atmosphere Near real-time Capability for Earth observation (LANCE)
+Harmonized Landsat and Sentinel-2 (HLS)
+Applied Remote Sensing Training Program (ARSET)
+Observation Methods
+Platforms
+Instruments
+Space Geodesy Techniques
+Data Tools
+Earthdata Search
+Worldview
+Fire Information for Resource Management System (FIRMS)
+Vertex
+Giovanni
+Application for Extracting and Exploring Analysis Ready Samples (AppEEARS)
+Visualization, Exploration, and Data Analysis (VEDA)
+Ocean Color Level 3 and 4 Browser
+Topics
+Atmosphere
+Biosphere
+Climate Indicators
+Cryosphere
+Human Dimensions
+Land Surface
+Ocean
+Solid Earth
+Sun-Earth Interactions
+Terrestrial Hydrosphere
+View All Topics
+Learn
+Earth Observation Data Basics
+GIS Resources
+Data in Action
+Data Recipes
+Trainings
+Tutorials
+Webinars
+Publications
+Centers
+Distributed Active Archive Centers (DAACs)
+Alaska Satellite Facility (ASF) DAAC
+Atmospheric Science Data Center (ASDC)
+Crustal Dynamics Data Information System (CDDIS)
+Global Hydrometeorology Resource Center (GHRC) DAAC
+Goddard Earth Sciences Data and Information Services Center (GES DISC)
+Land Processes (LP) DAAC
+Level 1 and Atmosphere Archive and Distribution System (LAADS) DAAC
+National Snow and Ice Data Center (NSIDC) DAAC
+Oak Ridge National Laboratory (ORNL) DAAC
+Ocean Biology DAAC (OB.DAAC)
+Physical Oceanography DAAC (PO.DAAC)
+Science Investigator-led Processing Systems (SIPS)
+MODIS Adaptive Processing System (MODAPS) SIPS
+Ocean SIPS
+Microwave Limb Sounder (MLS) SIPS
+Ozone Monitoring Instrument (OMI) SIPS
+Atmosphere SIPS
+Land SIPS
+Ozone Mapping and Profiler Suite SIPS
+Sounder SIPS
+Suborbital Data Resource Center
+Engage
+Open Data, Services, and Software Policies
+Open Science and Data Management Plan
+For Researchers and Grantees
+Data Management Guidance
+Data Rights and Related Issues
+Data Use Guidance
+For Developers
+APIs
+Common Metadata Repository
+For Data Providers
+Adding New Data
+DOI Process
+Standards
+About
+ESDS Leadership
+Organizational Chart
+Multi-Mission Data Processing System Study
+Earth Science Data and Information System (ESDIS) Project
+ESDS Digital Strategy and User Development Team
+Earth Science Data Systems Geographic Information Systems Team (EGIST)
+Competitive Programs
+News & Events
+News
+Events
+Worldview Image of the Week
+Feature Articles
+Data User Stories
+Earthdata Blog
+Data Alerts System
+Subscribe to the Earthdata Newsletter
+Data
+Toggle submenu
+Data
+Data Catalog
+Data Alerts and Outages
+Projects
+Land, Atmosphere Near real-time Capability for Earth observation (LANCE)
+Harmonized Landsat and Sentinel-2 (HLS)
+Applied Remote Sensing Training Program (ARSET)
+Observation Methods
+Platforms
+NASA operates state-of-the-art platforms that collect critical information about our home planet. Drill down to the data and tools you need by exploring platforms on Earth and in the sky.
+Instruments
+From the ground and into space, instruments aboard NASA platforms collect a vast array of Earth science data.
+Space Geodesy Techniques
+These data are used to support scientific and societal applications Earth observations, positioning, navigation, and timing.
+Data Tools
+Earthdata Search
+Worldview
+Fire Information for Resource Management System (FIRMS)
+Vertex
+Giovanni
+Application for Extracting and Exploring Analysis Ready Samples (AppEEARS)
+Visualization, Exploration, and Data Analysis (VEDA)
+Ocean Color Level 3 and 4 Browser
+?
+Get help from experienced data users and managers on Earthdata Forum
+Topics
+Toggle submenu
+Data Pathfinders by Topic
+Atmosphere
+The atmosphere is a gaseous envelope surrounding and protecting our planet from the intense radiation of the Sun.
+Biosphere
+The biosphere encompasses all life on Earth and extends from root systems to mountaintops and all depths of the ocean.
+Climate Indicators
+Climate Indicators hold key information for the most relevant domains of climate change: temperature and energy, atmospheric composition, ocean and water as well as the cryosphere.
+Cryosphere
+The cryosphere encompasses the frozen parts of Earth, including glaciers and ice sheets, sea ice, and any other frozen body of water.
+Human Dimensions
+The human dimensions discipline includes ways humans interact with the environment and how these interactions impact Earth’s systems.
+Land Surface
+The land surface discipline includes research into areas such as shrinking forests, warming land, and eroding soils.
+Ocean
+This vast, critical reservoir supports a diversity of life and helps regulate Earth’s climate.
+Solid Earth
+Processes occurring deep within Earth constantly are shaping landforms.
+Sun-Earth Interactions
+The Sun influences physical and chemical processes in Earth’s atmosphere.
+Terrestrial Hydrosphere
+The terrestrial hydrosphere includes water on the land surface and underground in the form of lakes, rivers, and groundwater along with total water storage.
+Featured Data Pathfinders by Topic
+Air Quality
+Agriculture Production
+Natural Hazards
+Water Quality
+Climate Resilience
+View all Topics
+Learn
+Toggle submenu
+Learn
+Earth Observation Data Basics
+Learn key terms and concepts like remote sensing and processing levels.
+GIS Resources
+Explore resources for the Geographic Information Systems (GIS) community, including StoryMaps.
+Data Support
+Connect with experienced data users and managers through the Earthdata Forum for help with datasets, tools, and services.
+Data in Action
+Data in Action demonstrates Earth science data applications with interactive explanations as to how the work was accomplished.
+Data Recipes
+Data Recipes are code-based instructions that help data scientists accomplish a specific task, such as converting data into a specific format for analysis or visualization.
+Trainings
+Trainings are interactive opportunities to develop technical skills with NASA Earth science data.
+Tutorials
+Tutorials are step by step “how to” content that cover a broad range of tasks, from data collection to visualization.
+Webinars
+Webinars are video seminars featuring experts in various disciplines who share their knowledge in a particular subject area, from data in the cloud to specific data tools.
+Publications
+Access publications citing NASA Earth science data.
+Centers
+Toggle submenu
+Centers
+Distributed Active Archive Centers (DAACs)
+Science Investigator-led Processing Systems (SIPS)
+Alaska Satellite Facility (ASF) DAAC
+Atmospheric Science Data Center (ASDC)
+Crustal Dynamics Data Information System (CDDIS)
+Global Hydrometeorology Resource Center (GHRC) DAAC
+Goddard Earth Sciences Data and Information Services Center (GES DISC)
+Land Processes (LP) DAAC
+Level 1 and Atmosphere Archive and Distribution System (LAADS) DAAC
+National Snow and Ice Data Center (NSIDC) DAAC
+Oak Ridge National Laboratory (ORNL) DAAC
+Ocean Biology DAAC (OB.DAAC)
+Physical Oceanography DAAC (PO.DAAC)
+MODIS Adaptive Processing System (MODAPS) SIPS
+Ocean SIPS
+Microwave Limb Sounder (MLS) SIPS
+Ozone Monitoring Instrument (OMI) SIPS
+Atmosphere SIPS
+Land SIPS
+Ozone Mapping and Profiler Suite SIPS
+Sounder SIPS
+Suborbital Data Resource Center
+All of the resources for the airborne and field data community within our program can be found here.
+Engage
+Toggle submenu
+Engage
+Open Data, Services, and Software Policies
+Open Science and Data Management Plan
+For Researchers and Grantees
+Data Management Guidance
+Data Rights and Related Issues
+Data Use Guidance
+For Developers
+APIs
+Common Metadata Repository
+For Data Providers
+Adding New Data
+DOI Process
+Standards
+About
+Toggle submenu
+About
+ESDS Leadership
+Meet the Earth Science Data Systems Program leadership team.
+Organizational Chart
+View the internal structure of the ESDS Program.
+Multi-Mission Data Processing System Study
+We are considering the right data processing system for open-source data.
+Contact Us
+Find the right contact for questions, feedback, or support related to NASA Earthdata.
+Earth Science Data and Information System (ESDIS) Project
+ESDS Digital Strategy and User Development Team
+Earth Science Data Systems Geographic Information Systems Team (EGIST)
+Competitive Programs
+Program Performance and Metrics
+Access overall ingest, archive, and distribution metrics for the ESDS program.
+News & Events
+Toggle submenu
+News
+View the latest updates from Earthdata.
+Events
+Sign up or watch a past recording of events covering Earth science data topics.
+Worldview Image of the Week
+Learn about the Earth through the lens of NASA’s Worldview.
+Data Alerts System
+Subscribe to the Earthdata Newsletter
+Feature Articles
+Read stories inspired by NASA Earth science data.
+Data User Stories
+Discover how people are researching with NASA Earth science data.
+Earthdata Blog
+Take a deeper dive into NASA Earth science data.
+Latest News
+2 MIN READ
+Atmospheric River Season for the Pacific Northwest
+Worldview Image of the Week
+Nov 13, 2026
+1 MIN READ
+earthaccess Hackathon at AGU 2026
+Event
+Nov 10, 2026
+Search
+Explore SMAP
+Overview
+Data and Tools
+Resources
+Publications
+Home
+Find Data
+Platforms
+Space-Based Platforms
+SMAP
+SMAP
+Soil Moisture Active Passive (SMAP)
+Near Real-Time Data Available
+State: Operational
+The Soil Moisture Active-Passive (SMAP) platform measures surface soil moisture and freeze-thaw state. These direct measurements improve our understanding of regional water cycles, ecosystem productivity, and processes that link the water, energy, and carbon cycles. Soil moisture information at high resolution enables improvements in weather, flood, and drought forecasts, and predictions of agricultural productivity and climate change.
+SMAP measures surface soil conditions everywhere on Earth every two to three days, distinguishing between ground that is frozen or thawed. In ground that is not frozen or covered in water, SMAP measures how much water is in the top layer of soil. This data is used to produce global maps of soil moisture.
+Learn more about SMAP
+Data
+209 Datasets
+View Data and Tools
+View data alert history
+Type
+Earth Observation Satellite
+Objective
+Measure global soil moisture, create global soil moisture maps, and determine the freeze or thaw state of the same area being mapped
+Launch
+January 31, 2015
+Data Center
+ASF DAAC
+NSIDC DAAC
+PO.DAAC
+Remote video URL
+This animation of sea surface salinity spans from April 1, 2015, to Aug. 27, 2024, based on the
+8-day running mean version 6.0 Level 3 SMAP dataset
+from Remote Sensing Systems (RSS). Credit: PO.DAAC
+Data Product Summary
+About SMAP Instruments
+Orbit Characteristics
+Data Acquisition
+Documentation
+Short Name
+Description
+Gridding (km)
+Latency*
+ATBD**
+Product Spec Doc
+Source
+L1A_Radar
+Raw radar data in time order (half orbit)
+–
+12 hrs
+n/a
+View
+ASF
+L1A_Radiometer
+Radiometer raw data in time order
+–
+12 hrs
+n/a
+NSIDC
+L1B_S0_LoRes
+Low-resolution radar σ ο in time order (half orbit)
+5×30
+12 hrs
+View
+View
+ASF
+Backscatter analysis document
+L1B_TB
+Radiometer TB in time order
+36×47
+12 hrs
+View
+NSIDC
+L1C_S0_HiRes
+High-resolution radar σ ο (half orbit gridded)
+1
+12 hrs
+View
+View
+ASF
+Backscatter analysis document
+(1-3)***
+L1C_TB
+Radiometer T B (half orbit, gridded)
+36
+12 hrs
+View
+NSIDC
+L2_SM_A
+Soil moisture (radar, half orbit)
+3
+24 hrs
+View
+NSIDC
+L2_SM_P
+Soil moisture (radiometer, half orbit)
+36
+24 hrs
+View
+NSIDC
+L2_SM_A/P
+Soil moisture (radar/radiometer, half orbit)
+9
+24 hrs
+View
+NSIDC
+L3_F/T_A
+Freeze-thaw state (radar, daily composite)
+3
+50 hrs
+View
+NSIDC
+L3_SM_A
+Soil moisture (radar, daily composite)
+3
+50 hrs
+View
+NSIDC
+L3_SM_P
+Soil moisture (radiometer, daily composite)
+36
+50 hrs
+View
+NSIDC
+L3_SM_A/P
+Soil moisture (radar/radiometer, daily composite)
+9
+50 hrs
+View
+NSIDC
+L4_SM
+Soil moisture (surface and root zone)
+9
+7 days
+View
+NSIDC
+L4_C
+Carbon net ecosystem exchange (NEE)
+9
+14 days
+View
+NSIDC
+SMAP is a remote-sensing observatory with two instruments — a synthetic aperture radar (SAR) and a radiometer — that map soil moisture and determine the freeze or thaw state of the area being mapped. Both instruments help map soil-moisture content, and unique properties of SAR enable the freeze-thaw mapping. Externally, the instruments share a common, 20-foot mesh antenna and a feed assembly. Inside the spacecraft, their electronics differ. When combined, the SMAP radar and radiometer deliver high-accuracy, high-resolution global maps of the Earth’s soil moisture and freeze-thaw state.
+The radar actively sends pulses of radio waves down to a spot on Earth and measures the echo that returns microseconds later. The strength and “shape” of the echoes can be interpreted to indicate the moisture level of the soil, even through moderate levels of vegetation. The radiometer passively detects radio waves emitted by the ground from the same small area. The strength of the emission indicates temperatures.
+The SMAP orbit is a 685-km altitude, near-polar, sun-synchronous, 6 a.m. / 6 p.m., eight-day, exact-repeat, frozen orbit.
+Near-polar orbit provides global land coverage up to high latitudes including all freeze-thaw regions of interest.
+Sun-synchrony provides observations of the surface close to the same local solar time each orbit throughout the mission, enhancing change-detection algorithms and scientific accuracy.
+Consistent 6 a.m. observation time is optimal because it minimizes the effect of Faraday rotation and impact on S/C design.
+Frozen orbit provides minimal altitude variation during an orbit, benefitting radar design and accuracy.
+685-km altitude is an exact 8-day repeat orbit, advantageous for radar change-detection algorithms.
+Orbit provides optimum coverage of global land area at 3-day average intervals, and coverage of land region above 45N at 2-day average intervals.
+Low-rate radiometer data and low-resolution radar data will be acquired continuously over fore and aft portions of the scan (full 360 degrees), as well as ascending and descending portions of the orbit.
+High-resolution radar data will be acquired to include at a minimum:
+360 degrees of the antenna scan (fore and aft looks) for the morning (6 a.m. equator crossing) half-orbit over the global land region (excluding the Antarctic)
+180 degrees of the antenna scan (fore look) for the evening (6 p.m. equator crossing) half-orbit over the boreal land region (north of 45 degrees N latitude)
+180 degrees of the antenna scan (fore look) for the morning half-orbit over the coastal ocean region (within 1,000 km of continental boundaries)
+The Science Operations Phase (SOP) begins after completion of the 90-day post-launch, in-orbit commissioning and lasts for three years. The first part of the SOP is the Calibration and Validation (Cal/Val) phase, which lasts for 12 months. Following the Cal/Val phase is the Routine Observations Phase (ROP), which lasts for 24 months.
+Current Dataset Versions
+JPL SMAP-SSS CAP V5.0 ATBD, Validation and Users Guide (.pdf)
+RSS SMAP-SSS V5.0 ATBD, Validation Analysis and Data Users Guide (.pdf)
+Prior Dataset Versions
+RSS SMAP-SSS V4.0 ATBD, Validation Analysis and Data Users Guide (.pdf)
+RSS SMAP-SSS V3.0 ATBD, Validation Analysis and Data Users Guide (.pdf)
+RSS SMAP-SSS V2.0 ATBD, Validation Analysis and Data Users Guide (.pdf)
+Release notes for RSS SMAP-SSS V2.0 70km datasets (.pdf)
+JPL SMAP-SSS CAP V4.3 ATBD, Validation and Users Guide (.pdf)
+JPL SMAP-SSS CAP V3.0 ATBD, Validation and Users Guide (.pdf)
+Other Technical Documents
+NASA SMAP Handbook
+NASA Salinity Dielectric Constant
+Documentation
+and
+Data
+Remote Sensing Systems SMAP Version 5 (V5) Level 2C science-grade processing algorithm for SSS retrievals
+Known Issues
+SMAP Radar Failure
+(July 7, 2015)
+Data Outages & Issues
+Instruments Aboard SMAP
+Instrument Name
+Operational Date(s)
+Spectral Resolution
+Type of Instrument
+Soil Moisture Active Passive L-Band Radar (
+SMAP L-Band Radar
+)
+January 31, 2015-July 7, 2015
+Imaging Radar
+Soil Moisture Active Passive L-Band Radiometer (
+SMAP L-Band Radiometer
+)
+January 31, 2015 - present
+Spectrometer/Radiometer
+Get Help
+QUESTIONS & SUPPORT
+Have a question?
+Get help with NASA Earth science data, datasets, tools, services, and metadata on the Earthdata Forum. Experienced staff in the data user community review and answer questions.
+Get help on Earthdata Forum
+Earthdata
+Forum
+Find Data
+By Platform
+Explore data collected by platforms in space, air, water, and land.
+By Topic
+Browse by topic to find relevant data, tools, learning resources, news, and more.
+Data Catalog
+Dive into one of the planet’s largest repositories of Earth science data.
+Data Tools
+Access a range of tools that enable data discovery, analysis, and visualization.
+Footer
+Find Data
+Data Catalog
+Data Tools
+Platforms
+Instruments
+Space Geodesy Techniques
+Projects
+Data Alerts and Outages
+Earthdata Login
+Data Pathfinders by Topic
+Atmosphere
+Biosphere
+Climate Indicators
+Cryosphere
+Human Dimensions
+Land Surface
+Ocean
+Solid Earth
+Sun-Earth Interactions
+Terrestrial Hydrosphere
+Learn
+Earth Observation Data Basics
+Earthdata Forum
+Webinars
+Trainings
+Tutorials
+Data in Action
+Data Recipes
+GIS Resources
+StoryMaps
+Publications
+Centers
+ASF DAAC
+ASDC
+CDDIS
+GHRC DAAC
+GES DISC
+LP DAAC
+LAADS DAAC
+NSIDC DAAC
+ORNL DAAC
+OB.DAAC
+PO.DAAC
+Sea Level Change Portal
+Suborbital Data Resource Center
+Engage
+Data Management Guidance for ESD-funded Researchers
+Open Data, Services, and Software Policies
+Public and Private Partnerships
+Memberships and Affiliations
+News
+Events
+Newsletter
+Contact
+Footer Submenu
+Web Privacy Policy
+Data and Information Guidance
+Communications Policy
+FOIA
+Accessibility
+Sitemap
+USA.gov
+Site last Updated:
+Nov. 6, 2026
+NASA Official:
+Katie Baynes

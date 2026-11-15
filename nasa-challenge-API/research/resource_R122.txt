@@ -1,0 +1,83 @@
+NASA SVS | Change in Night Lights between 2012 and 2023 - EIC Version
+Scientific Visualization Studio
+Galleries
+Help
+Search
+14601: From GOES to GeoXO: Past Highlights to Futu...
+5312: Slow Reveal Graphs: Global Mean Sea Level 19...
+Change in Night Lights between 2012 and 2023 - EIC Version
+Released
+Friday, June 14, 2024
+ID: 5313
+Visualizations by:
+Kel Elkins
+View full credits
+This global, flat map view of night lights data begins with a time series depicting annual averages from 2012 to 2023. The lights then fade away to reveal night lights change between 2012 and 2023, with regions of more light depicted in purple and regions with less light depicted in orange. The sequence then repeats with pop-out, zoomed-in views of India, Ukraine, Western Europe, and the Eastern Mediterranean region.
+Download
+Movies
+nightlights_flat_series_and_change_wZooms_13_EIC_2160p30_h265.mp4 [32.7 MB]
+nightlights_flat_series_and_change_wZooms_13_EIC_prores.mov [4.0 GB]
+Frame sets
+nightlights_2012-2023_change_flat_eic [131072 Item(s)]
+Images
+nightlights_flat_series_and_change_wZooms_13_EIC.02599_print.jpg (1024x288) [62.0 KB]
+nightlights_flat_series_and_change_wZooms_13_EIC.02599_searchweb.png (320x180) [49.9 KB]
+nightlights_flat_series_and_change_wZooms_13_EIC.02599_thm.png (80x40) [4.6 KB]
+This global, flat map view of night lights data begins with a time series depicting annual averages from 2012 to 2023. The lights then fade away to reveal night lights change between 2012 and 2023, with regions of more light depicted in purple and regions with less light depicted in orange. The sequence then repeats with pop-out, zoomed-in views of India, Ukraine, Western Europe, and the Eastern Mediterranean region.
+Discover the pivotal role of NASA's Black Marble in bridging scientific discovery and actionable environmental stewardship. By capturing Earth's night lights, Black Marble reveals both the planet's beauty and the profound impact of human activities. This webpage showcases newly developed nighttime light maps comparing changes observed from 2012 to 2023, offering a decade-long perspective on urban growth, infrastructure development, and the socioeconomic dynamics of communities worldwide. This data empowers users to foster informed, sustainable practices that enhance community resilience and mitigate the adverse effects of climate change. By illuminating the intricate interplay between human activity and the environment, Black Marble underpins a human-centered approach to environmental change, promoting a future where scientific innovation leads to tangible, positive impacts on global sustainability.
+This version is specifically formatted for the NASA Earth Information Center (EIC), which has a wider-than-standard video aspect ratio.   The original version of this visualization, and many other night lights visualizations, are available here:
+https://svs.gsfc.nasa.gov/5276/
+Earth
+Black Marble
+Earth
+Night
+Night lights
+VIIRS
+Credits
+Please give credit for this item to:
+NASA's Scientific Visualization Studio
+Visualizer
+Kel Elkins
+(USRA)
+Scientists
+Zhuosen Wang
+(University of Maryland)
+Miguel Román
+(Leidos)
+Ranjay Shrestha
+(SSAI)
+Srija Chakraborty
+(USRA)
+Virginia Kalb
+(NASA)
+Datasets used
+Black Marble (Black Marble: Next Generation) [Suomi NPP: VIIRS]
+ID: 1176
+Sensor: VIIRS
+Collected by: NASA/NOAA
+Earth at night imagery
+Credit: NASA Earth Observatory images by Joshua Stevens, using Suomi NPP VIIRS data from Miguel Román, NASA GSFC.
+This dataset can be found at:
+https://visibleearth.nasa.gov/images/144898/earth-at-night-black-marble-2016-color-maps/144947l
+See all pages that use this dataset
+Note: While we identify the data sets used on this page, we do not store any further details, nor the data sets themselves on our site.
+Alternate Versions
+ID: 5475
+Visualization
+SOS - Change in Night Lights between 2012 and 2023
+ID: 5477
+Visualization
+SOS - Day/Night cycle with Blue Marble and Black Marble Nightlights
+ID: 5276
+Visualization
+Change in Night Lights between 2012 and 2023
+Release date
+This page was originally published on Friday, June 14, 2024.
+This page was last updated on Friday, June 14, 2024 at 3:53 PM EDT.
+You may also like...
+No results.
+An error occurred. Please reload this page and try again.
+Privacy Policy and Important Notices
+Reproduction Guidelines
+NASA Official:
+Site Curator:

@@ -1,0 +1,190 @@
+{
+  "id": "resource_R122",
+  "url": "https://svs.gsfc.nasa.gov/5313/",
+  "checked_at": "2026-11-14T15:15:29.060157+00:00",
+  "tls_validation": false,
+  "status": 200,
+  "final_url": "https://svs.gsfc.nasa.gov/5313/",
+  "bytes": 36516,
+  "content_type": "text/html; charset=utf-8",
+  "sha256": "37830dcb7a552070e2b27c8560d62af31ec4febd9105ea7598b402781b0e0201",
+  "links": [
+    {
+      "url": "https://www.nasa.gov/",
+      "label": ""
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/",
+      "label": "Scientific Visualization Studio"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/gallery/the-galleries/",
+      "label": "Galleries"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/help/",
+      "label": "Help"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/14601",
+      "label": "14601: From GOES to GeoXO: Past Highlights to Futu..."
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/5312",
+      "label": "5312: Slow Reveal Graphs: Global Mean Sea Level 19..."
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/15113",
+      "label": ""
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/api/5313",
+      "label": ""
+    },
+    {
+      "url": "https://twitter.com/intent/tweet",
+      "label": ""
+    },
+    {
+      "url": "https://www.facebook.com/share.php?u=http%3A//svs.gsfc.nasa.gov/5313/%3F",
+      "label": ""
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/search?people=Kel%20Elkins",
+      "label": "Kel Elkins"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/5313/#section_credits",
+      "label": "View full credits"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a005300/a005313/nightlights_flat_series_and_change_wZooms_13_EIC_2160p30_h265.mp4",
+      "label": "nightlights_flat_series_and_change_wZooms_13_EIC_2160p30_h265.mp4 [32.7 MB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a005300/a005313/nightlights_flat_series_and_change_wZooms_13_EIC_prores.mov",
+      "label": "nightlights_flat_series_and_change_wZooms_13_EIC_prores.mov [4.0 GB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a005300/a005313/frames/7680x2160_32x9_30p/nightlights_2012-2023_change_flat_eic/",
+      "label": "nightlights_2012-2023_change_flat_eic [131072 Item(s)]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a005300/a005313/nightlights_flat_series_and_change_wZooms_13_EIC.02599_print.jpg",
+      "label": "nightlights_flat_series_and_change_wZooms_13_EIC.02599_print.jpg (1024x288) [62.0 KB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a005300/a005313/nightlights_flat_series_and_change_wZooms_13_EIC.02599_searchweb.png",
+      "label": "nightlights_flat_series_and_change_wZooms_13_EIC.02599_searchweb.png (320x180) [49.9 KB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a005300/a005313/nightlights_flat_series_and_change_wZooms_13_EIC.02599_thm.png",
+      "label": "nightlights_flat_series_and_change_wZooms_13_EIC.02599_thm.png (80x40) [4.6 KB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/5276/",
+      "label": "https://svs.gsfc.nasa.gov/5276/"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/search?nasa_science_categories=Earth",
+      "label": "Earth"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/search?keywords=Black Marble",
+      "label": "Black Marble"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/search?keywords=Earth",
+      "label": "Earth"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/search?keywords=Night",
+      "label": "Night"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/search?keywords=Night lights",
+      "label": "Night lights"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/search?keywords=VIIRS",
+      "label": "VIIRS"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/search/?people=Kel%20Elkins",
+      "label": "Kel Elkins"
+    },
+    {
+      "url": "https://orcid.org/0000-0002-0585-1619",
+      "label": ""
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/search/?people=Zhuosen%20Wang",
+      "label": "Zhuosen Wang"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/search/?people=Miguel%20Rom%C3%A1n",
+      "label": "Miguel Román"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/search/?people=Ranjay%20Shrestha",
+      "label": "Ranjay Shrestha"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/search/?people=Srija%20Chakraborty",
+      "label": "Srija Chakraborty"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/search/?people=Virginia%20Kalb",
+      "label": "Virginia Kalb"
+    },
+    {
+      "url": "https://visibleearth.nasa.gov/images/144898/earth-at-night-black-marble-2016-color-maps/144947l",
+      "label": "https://visibleearth.nasa.gov/images/144898/earth-at-night-black-marble-2016-color-maps/144947l"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/search/?datasets=1176",
+      "label": "See all pages that use this dataset"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/5475/",
+      "label": ""
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/5475/",
+      "label": "SOS - Change in Night Lights between 2012 and 2023"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/5477/",
+      "label": ""
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/5477/",
+      "label": "SOS - Day/Night cycle with Blue Marble and Black Marble Nightlights"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/5276/",
+      "label": ""
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/5276/",
+      "label": "Change in Night Lights between 2012 and 2023"
+    },
+    {
+      "url": "https://www.nasa.gov/",
+      "label": ""
+    },
+    {
+      "url": "https://www.usa.gov/",
+      "label": ""
+    },
+    {
+      "url": "https://www.nasa.gov/about/highlights/HP_Privacy.html",
+      "label": "Privacy Policy and Important Notices"
+    },
+    {
+      "url": "https://www.nasa.gov/multimedia/guidelines/index.html",
+      "label": "Reproduction Guidelines"
+    }
+  ],
+  "elapsed_seconds": 0.89
+}

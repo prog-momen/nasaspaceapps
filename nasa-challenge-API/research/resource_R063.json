@@ -1,0 +1,13 @@
+{
+  "id": "resource_R063",
+  "url": "https://nassgeodata.gmu.edu/CropScape/",
+  "checked_at": "2026-11-14T15:15:16.985981+00:00",
+  "tls_validation": false,
+  "status": 200,
+  "final_url": "https://cat.csiss.gmu.edu/CropSmart/signin?redirecturl=https://nassgeodata.gmu.edu/CropScape",
+  "bytes": 1037,
+  "content_type": "text/html; charset=utf-8",
+  "sha256": "7f9611baa76d0a8972cde3b41687af7bbd5a0ccdd216d908c9a657fd4658c2c1",
+  "links": [],
+  "elapsed_seconds": 2.219
+}

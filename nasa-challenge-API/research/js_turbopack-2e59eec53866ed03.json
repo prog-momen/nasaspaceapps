@@ -1,0 +1,13 @@
+{
+  "id": "js_turbopack-2e59eec53866ed03",
+  "url": "https://www.spaceappschallenge.org/_next/static/chunks/turbopack-2e59eec53866ed03.js",
+  "checked_at": "2026-11-14T15:09:15.842900+00:00",
+  "tls_validation": false,
+  "status": 200,
+  "final_url": "https://www.spaceappschallenge.org/_next/static/chunks/turbopack-2e59eec53866ed03.js",
+  "bytes": 10196,
+  "content_type": "application/javascript; charset=UTF-8",
+  "sha256": "cb0bca65ca4b6c4bcfa9092bbec33e4de25f593727e68f90226051622ccaed5c",
+  "links": [],
+  "elapsed_seconds": 0.281
+}

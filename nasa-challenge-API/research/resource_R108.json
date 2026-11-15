@@ -1,0 +1,502 @@
+{
+  "id": "resource_R108",
+  "url": "https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/",
+  "checked_at": "2026-11-14T15:15:25.326268+00:00",
+  "tls_validation": false,
+  "status": 200,
+  "final_url": "https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/",
+  "bytes": 22156,
+  "content_type": "text/html; charset=UTF-8",
+  "sha256": "29fe47ed351ce14489e40fa10838630f44be7d83a59f4009f9b2531a7f6fef07",
+  "links": [
+    {
+      "url": "https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/#wb-cont",
+      "label": "Skip to main content"
+    },
+    {
+      "url": "https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/#wb-info",
+      "label": "Skip to About this site"
+    },
+    {
+      "url": "https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/fr/",
+      "label": "Français fr"
+    },
+    {
+      "url": "https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/",
+      "label": "/ Centre canadien de données astronomiques"
+    },
+    {
+      "url": "https://www.canada.ca/en.html",
+      "label": "Canada.ca"
+    },
+    {
+      "url": "https://nrc.canada.ca/en",
+      "label": "National Research Council Canada"
+    },
+    {
+      "url": "https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/#mb-pnl",
+      "label": "Menus"
+    },
+    {
+      "url": "https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/#gc-mnu-tdp",
+      "label": "Telescope data"
+    },
+    {
+      "url": "https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/jwst/",
+      "label": "JWST"
+    },
+    {
+      "url": "https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/gemini/",
+      "label": "Gemini"
+    },
+    {
+      "url": "https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/cfht/",
+      "label": "CFHT"
+    },
+    {
+      "url": "https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/jcmt/",
+      "label": "JCMT"
+    },
+    {
+      "url": "https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/hst/",
+      "label": "HST"
+    },
+    {
+      "url": "https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/dao/",
+      "label": "DAO"
+    },
+    {
+      "url": "https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/drao/",
+      "label": "DRAO"
+    },
+    {
+      "url": "https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/omm/",
+      "label": "OMM"
+    },
+    {
+      "url": "https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/neossat/",
+      "label": "NEOSSat"
+    },
+    {
+      "url": "https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/brite/",
+      "label": "BRITE-Constellation"
+    },
+    {
+      "url": "https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/blast/",
+      "label": "BLAST"
+    },
+    {
+      "url": "https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/macho/",
+      "label": "MACHO"
+    },
+    {
+      "url": "https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/most/",
+      "label": "MOST"
+    },
+    {
+      "url": "https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/fuse/",
+      "label": "FUSE"
+    },
+    {
+      "url": "https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/ukirt/",
+      "label": "UKIRT"
+    },
+    {
+      "url": "https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/#gc-mnu-adp",
+      "label": "Advanced data products"
+    },
+    {
+      "url": "https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/megapipe/",
+      "label": "MegaPipe"
+    },
+    {
+      "url": "https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/scla/",
+      "label": "SCLA"
+    },
+    {
+      "url": "https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/racs/",
+      "label": "RACS"
+    },
+    {
+      "url": "https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/wallaby/",
+      "label": "WALLABY"
+    },
+    {
+      "url": "https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/possum/",
+      "label": "POSSUM"
+    },
+    {
+      "url": "https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/jcmt/scubalc.html",
+      "label": "SCUBA-LC"
+    },
+    {
+      "url": "https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/hsthla/",
+      "label": "HLA"
+    },
+    {
+      "url": "https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/iris/",
+      "label": "IRIS"
+    },
+    {
+      "url": "https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/cgps/",
+      "label": "CGPS"
+    },
+    {
+      "url": "https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/cfht/cfhtls.html",
+      "label": "CFHTLS"
+    },
+    {
+      "url": "https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/wirwolf/",
+      "label": "WIRWolf"
+    },
+    {
+      "url": "https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/vlass/",
+      "label": "VLASS"
+    },
+    {
+      "url": "https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/#gc-mnu-svc",
+      "label": "Services"
+    },
+    {
+      "url": "https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/meetings/",
+      "label": "Meetings"
+    },
+    {
+      "url": "https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/search/",
+      "label": "Advanced search"
+    },
+    {
+      "url": "https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/groups/",
+      "label": "Group management"
+    },
+    {
+      "url": "https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/community/",
+      "label": "Community"
+    },
+    {
+      "url": "https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/ssois/",
+      "label": "SSOIS"
+    },
+    {
+      "url": "https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/dss/",
+      "label": "DSS"
+    },
+    {
+      "url": "https://www.canfar.net/",
+      "label": "CANFAR"
+    },
+    {
+      "url": "https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/services/",
+      "label": "Web services"
+    },
+    {
+      "url": "https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/status/",
+      "label": "Service Status"
+    },
+    {
+      "url": "https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/search/",
+      "label": "Advanced search"
+    },
+    {
+      "url": "https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/#gc-mnu-hlp",
+      "label": "Help"
+    },
+    {
+      "url": "https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/doc/",
+      "label": "Documentation"
+    },
+    {
+      "url": "https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/contact.html",
+      "label": "Contact us"
+    },
+    {
+      "url": "https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/#gc-mnu-acc",
+      "label": ""
+    },
+    {
+      "url": "https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/auth/update.html",
+      "label": "Edit Profile"
+    },
+    {
+      "url": "https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/auth/resetPassword.html",
+      "label": "Reset Password"
+    },
+    {
+      "url": "https://cadc-west-01.canfar.net/cred/generate?daysValid=30",
+      "label": "Obtain a certificate"
+    },
+    {
+      "url": "https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/access/logout",
+      "label": "Sign out"
+    },
+    {
+      "url": "https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/login.html",
+      "label": "Sign in"
+    },
+    {
+      "url": "https://github.com/opencadc",
+      "label": "GitHub: OpenCADC"
+    },
+    {
+      "url": "https://amt.coretrustseal.org/certificates",
+      "label": "CoreTrustSealCoreTustSeal Certified"
+    },
+    {
+      "url": "https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/jwst/",
+      "label": "JWST"
+    },
+    {
+      "url": "https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/gemini/",
+      "label": "Gemini"
+    },
+    {
+      "url": "https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/cfht/",
+      "label": "CFHT"
+    },
+    {
+      "url": "https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/jcmt/",
+      "label": "JCMT"
+    },
+    {
+      "url": "https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/hst/",
+      "label": "HST"
+    },
+    {
+      "url": "https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/dao/",
+      "label": "DAO"
+    },
+    {
+      "url": "https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/drao/",
+      "label": "DRAO"
+    },
+    {
+      "url": "https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/omm/",
+      "label": "OMM"
+    },
+    {
+      "url": "https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/neossat/",
+      "label": "NEOSSat"
+    },
+    {
+      "url": "https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/brite/",
+      "label": "BRITE-Constellation"
+    },
+    {
+      "url": "https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/blast/",
+      "label": "BLAST"
+    },
+    {
+      "url": "https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/macho/",
+      "label": "MACHO"
+    },
+    {
+      "url": "https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/most/",
+      "label": "MOST"
+    },
+    {
+      "url": "https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/fuse/",
+      "label": "FUSE"
+    },
+    {
+      "url": "https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/ukirt/",
+      "label": "UKIRT"
+    },
+    {
+      "url": "https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/megapipe/",
+      "label": "MegaPipe"
+    },
+    {
+      "url": "https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/scla/",
+      "label": "SCLA"
+    },
+    {
+      "url": "https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/racs/",
+      "label": "RACS"
+    },
+    {
+      "url": "https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/wallaby/",
+      "label": "WALLABY"
+    },
+    {
+      "url": "https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/possum/",
+      "label": "POSSUM"
+    },
+    {
+      "url": "https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/jcmt/scubalc.html",
+      "label": "SCUBA-LC"
+    },
+    {
+      "url": "https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/hsthla/",
+      "label": "HLA"
+    },
+    {
+      "url": "https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/iris/",
+      "label": "IRIS"
+    },
+    {
+      "url": "https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/cgps/",
+      "label": "CGPS"
+    },
+    {
+      "url": "https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/cfht/cfhtls.html",
+      "label": "CFHTLS"
+    },
+    {
+      "url": "https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/wirwolf/",
+      "label": "WIRWolf"
+    },
+    {
+      "url": "https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/vlass/",
+      "label": "VLASS"
+    },
+    {
+      "url": "https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/meetings/",
+      "label": "Meetings"
+    },
+    {
+      "url": "https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/search/",
+      "label": "Advanced search"
+    },
+    {
+      "url": "https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/groups/",
+      "label": "Group management"
+    },
+    {
+      "url": "https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/community/",
+      "label": "Community"
+    },
+    {
+      "url": "https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/ssois/",
+      "label": "SSOIS"
+    },
+    {
+      "url": "https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/dss/",
+      "label": "DSS"
+    },
+    {
+      "url": "https://www.canfar.net/",
+      "label": "CANFAR"
+    },
+    {
+      "url": "https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/services/",
+      "label": "Web services"
+    },
+    {
+      "url": "https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/status/",
+      "label": "Service Status"
+    },
+    {
+      "url": "https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/about.html",
+      "label": "About the CADC"
+    },
+    {
+      "url": "https://www.canada.ca/en/contact.html",
+      "label": "All contacts"
+    },
+    {
+      "url": "https://www.canada.ca/en/government/dept.html",
+      "label": "Departments and agencies"
+    },
+    {
+      "url": "https://www.canada.ca/en/government/system.html",
+      "label": "About government"
+    },
+    {
+      "url": "https://www.canada.ca/en/services/jobs.html",
+      "label": "Jobs"
+    },
+    {
+      "url": "https://www.canada.ca/en/services/immigration-citizenship.html",
+      "label": "Immigration and citizenship"
+    },
+    {
+      "url": "https://travel.gc.ca/",
+      "label": "Travel and tourism"
+    },
+    {
+      "url": "https://www.canada.ca/en/services/business.html",
+      "label": "Business"
+    },
+    {
+      "url": "https://www.canada.ca/en/services/benefits.html",
+      "label": "Benefits"
+    },
+    {
+      "url": "https://www.canada.ca/en/services/health.html",
+      "label": "Health"
+    },
+    {
+      "url": "https://www.canada.ca/en/services/taxes.html",
+      "label": "Taxes"
+    },
+    {
+      "url": "https://www.canada.ca/en/services/environment.html",
+      "label": "Environment and natural resources"
+    },
+    {
+      "url": "https://www.canada.ca/en/services/defence.html",
+      "label": "National security and defence"
+    },
+    {
+      "url": "https://www.canada.ca/en/services/culture.html",
+      "label": "Culture, history and sport"
+    },
+    {
+      "url": "https://www.canada.ca/en/services/policing.html",
+      "label": "Policing, justice and emergencies"
+    },
+    {
+      "url": "https://www.canada.ca/en/services/transport.html",
+      "label": "Transport and infrastructure"
+    },
+    {
+      "url": "https://www.international.gc.ca/world-monde/index.aspx?lang=eng",
+      "label": "Canada and the world"
+    },
+    {
+      "url": "https://www.canada.ca/en/services/finance.html",
+      "label": "Money and finances"
+    },
+    {
+      "url": "https://www.canada.ca/en/services/science.html",
+      "label": "Science and innovation"
+    },
+    {
+      "url": "https://www.canada.ca/en/services/indigenous-peoples.html",
+      "label": "Indigenous Peoples"
+    },
+    {
+      "url": "https://www.canada.ca/en/services/veterans-military.html",
+      "label": "Veterans and military"
+    },
+    {
+      "url": "https://www.canada.ca/en/services/youth.html",
+      "label": "Youth"
+    },
+    {
+      "url": "https://www.canada.ca/en/services/life-events.html",
+      "label": "Manage life events"
+    },
+    {
+      "url": "https://www.canada.ca/en/social.html",
+      "label": "Social media"
+    },
+    {
+      "url": "https://www.canada.ca/en/mobile.html",
+      "label": "Mobile applications"
+    },
+    {
+      "url": "https://canada.ca/en/government/about-canada-ca.html",
+      "label": "About Canada.ca"
+    },
+    {
+      "url": "https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/",
+      "label": "Terms and conditions"
+    },
+    {
+      "url": "https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/",
+      "label": "Privacy"
+    }
+  ],
+  "elapsed_seconds": 2.75
+}

@@ -1,0 +1,246 @@
+[
+  {
+    "Path": "C:\\nasa challenge API\\earthtrend_rag\\app\\__init__.py",
+    "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "Path": "C:\\nasa challenge API\\earthtrend_rag\\app\\config.py",
+    "Hash": "864A17494EDEEFA58B974ED7196FBAB5F7D7083A8E52D528901E8865FB49F228"
+  },
+  {
+    "Path": "C:\\nasa challenge API\\earthtrend_rag\\app\\models.py",
+    "Hash": "5FE605BFA04582DB4E37FA056E95460EE73B38DF2C16FA438B5EC80BE7E9C889"
+  },
+  {
+    "Path": "C:\\nasa challenge API\\earthtrend_rag\\app\\agent\\__init__.py",
+    "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "Path": "C:\\nasa challenge API\\earthtrend_rag\\app\\agent\\trend_agent.py",
+    "Hash": "DF3AAADB774A640BA0BC30CD8526391FA2E9BB2198FB8D77DD2BF567C7EC7358"
+  },
+  {
+    "Path": "C:\\nasa challenge API\\earthtrend_rag\\app\\analysis\\__init__.py",
+    "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "Path": "C:\\nasa challenge API\\earthtrend_rag\\app\\analysis\\catalog.py",
+    "Hash": "D7D2D2667375113169A412655244EA84075868C13E2FAC3FC48ACD93347E3CB5"
+  },
+  {
+    "Path": "C:\\nasa challenge API\\earthtrend_rag\\app\\analysis\\stats.py",
+    "Hash": "76B0AF4D3F7D52E4A8DFDCE245B7643EAB2BC5D514D2D97FD0DECC80781F1839"
+  },
+  {
+    "Path": "C:\\nasa challenge API\\earthtrend_rag\\app\\analysis\\timeseries.py",
+    "Hash": "2BCC5E633FA59252FDDA7441645373FBCC73A9F21677162AEFA98D063187BD53"
+  },
+  {
+    "Path": "C:\\nasa challenge API\\earthtrend_rag\\app\\analysis\\trend.py",
+    "Hash": "693E84C78F190D68A19ABC314B2B3841A3BD42B9930EE703F44EBE4B45E7BDDA"
+  },
+  {
+    "Path": "C:\\nasa challenge API\\earthtrend_rag\\app\\api\\__init__.py",
+    "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "Path": "C:\\nasa challenge API\\earthtrend_rag\\app\\api\\main.py",
+    "Hash": "FBB0BE44DCA33A460A51962871170183B31D9D1BC9AD142DB838AC11D4B1EC29"
+  },
+  {
+    "Path": "C:\\nasa challenge API\\earthtrend_rag\\app\\api\\schemas.py",
+    "Hash": "7A393D8CD2F01ABCA6A2E1C10D586595CC991FC02E9B647EE1044D143280FFDD"
+  },
+  {
+    "Path": "C:\\nasa challenge API\\earthtrend_rag\\app\\chunking\\__init__.py",
+    "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "Path": "C:\\nasa challenge API\\earthtrend_rag\\app\\chunking\\chunker.py",
+    "Hash": "9971D860DA407D033A6C7E0823E1FA51C4EEA86FD3ED076C21B12799D59D5A07"
+  },
+  {
+    "Path": "C:\\nasa challenge API\\earthtrend_rag\\app\\chunking\\metadata.py",
+    "Hash": "B39E76BB572FFA609B5617A654712ADFAED3FE5059110FE56E873600956B806B"
+  },
+  {
+    "Path": "C:\\nasa challenge API\\earthtrend_rag\\app\\data_sources\\__init__.py",
+    "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "Path": "C:\\nasa challenge API\\earthtrend_rag\\app\\data_sources\\power.py",
+    "Hash": "54F1C9334FEDFEAA22BEB8184D96DD70DC9391B84D8D3311BC874918A81C05C9"
+  },
+  {
+    "Path": "C:\\nasa challenge API\\earthtrend_rag\\app\\embeddings\\__init__.py",
+    "Hash": "04460FBEEF9FBE83F782DC17B3DAB1304F6C1C8FCB3E7A14AA84DE7432C3EE1F"
+  },
+  {
+    "Path": "C:\\nasa challenge API\\earthtrend_rag\\app\\embeddings\\base.py",
+    "Hash": "841A36011E991F4BEFDF47BCF6FF5B745FF5A9B7BA807F970781BAF5D0248D47"
+  },
+  {
+    "Path": "C:\\nasa challenge API\\earthtrend_rag\\app\\evaluation\\__init__.py",
+    "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "Path": "C:\\nasa challenge API\\earthtrend_rag\\app\\evaluation\\answer_eval.py",
+    "Hash": "2EE4B78DD164C22389E7398A09F093CF95C148B2080FB541B98CD8B97EC91676"
+  },
+  {
+    "Path": "C:\\nasa challenge API\\earthtrend_rag\\app\\evaluation\\eval_set.json",
+    "Hash": "E6983DD5714A76969E186D15D61325270A132EC5EE642AA87609E5C78C8B9CE9"
+  },
+  {
+    "Path": "C:\\nasa challenge API\\earthtrend_rag\\app\\evaluation\\retrieval_eval.py",
+    "Hash": "4194495A39F7C21A06035410E943CF225CD0345555C777BB7B49C44EC14D1CAB"
+  },
+  {
+    "Path": "C:\\nasa challenge API\\earthtrend_rag\\app\\ingestion\\__init__.py",
+    "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "Path": "C:\\nasa challenge API\\earthtrend_rag\\app\\ingestion\\loaders.py",
+    "Hash": "CCB292CC47089E9D7C9588E7A6D0F9A51E0279D4F2F802754C16F4CCEB26C7FF"
+  },
+  {
+    "Path": "C:\\nasa challenge API\\earthtrend_rag\\app\\ingestion\\registry.py",
+    "Hash": "DCC5E210A476F0FF6BA0132EB3E6AF6E3BC94460F502D174653F4A55BC21FF3C"
+  },
+  {
+    "Path": "C:\\nasa challenge API\\earthtrend_rag\\app\\ingestion\\scrub.py",
+    "Hash": "354C77C61EDD544484585BAA5F328CC21FF9EF42DF5A8F0F3FD902C0BD2BF23F"
+  },
+  {
+    "Path": "C:\\nasa challenge API\\earthtrend_rag\\app\\ingestion\\service.py",
+    "Hash": "228A747E7F9B9617F9AD9AA1D9CFCBEAB1272CDB6639A66DCABEC04430AEF058"
+  },
+  {
+    "Path": "C:\\nasa challenge API\\earthtrend_rag\\app\\llm\\__init__.py",
+    "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "Path": "C:\\nasa challenge API\\earthtrend_rag\\app\\llm\\gemini_client.py",
+    "Hash": "E0F96E80F554282077F6456ABF99A6E143797DD554087D8C485BD13A4DD0B2C6"
+  },
+  {
+    "Path": "C:\\nasa challenge API\\earthtrend_rag\\app\\rag\\__init__.py",
+    "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "Path": "C:\\nasa challenge API\\earthtrend_rag\\app\\rag\\pipeline.py",
+    "Hash": "1D51EE7409DD46FA838671B58AB5C481B387FCBBE24A204D81386EFE23292ED9"
+  },
+  {
+    "Path": "C:\\nasa challenge API\\earthtrend_rag\\app\\rag\\prompts.py",
+    "Hash": "7D4698B96B6D08EB675503395F4DEDF6553E8FD8139B7D4CEA06B704B3D5F690"
+  },
+  {
+    "Path": "C:\\nasa challenge API\\earthtrend_rag\\app\\rag\\service.py",
+    "Hash": "0D646CE3F8780C687678EA46160DDECB5691A6EE1CF9C268A4A82CAA16F8DC14"
+  },
+  {
+    "Path": "C:\\nasa challenge API\\earthtrend_rag\\app\\retrieval\\__init__.py",
+    "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "Path": "C:\\nasa challenge API\\earthtrend_rag\\app\\retrieval\\intent.py",
+    "Hash": "F2A5517D2A301D8D9DDED1073A046B340D815289549EDC638A8EBFE7A09D331E"
+  },
+  {
+    "Path": "C:\\nasa challenge API\\earthtrend_rag\\app\\retrieval\\keyword.py",
+    "Hash": "F785F4D69CB5F70CB0DE7D705D50C93685AE3AF05A0B3EAEF689C165C8A23FBC"
+  },
+  {
+    "Path": "C:\\nasa challenge API\\earthtrend_rag\\app\\retrieval\\retriever.py",
+    "Hash": "B5F7FC7C454E7B3E8FD77BADA4606B9403AEFD507A89EB599FDE8FAEDAAB58BB"
+  },
+  {
+    "Path": "C:\\nasa challenge API\\earthtrend_rag\\app\\tools\\__init__.py",
+    "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "Path": "C:\\nasa challenge API\\earthtrend_rag\\app\\tools\\trend_tool.py",
+    "Hash": "5EC85016DE557A03051237E5A2A975521EEC01EB5F737819AC2C549AD14C8F25"
+  },
+  {
+    "Path": "C:\\nasa challenge API\\earthtrend_rag\\app\\vector_store\\__init__.py",
+    "Hash": "F8FD2C10AC82F5A18E8CA7A40A0B84F93DFCB33DC093DAE9002C1F946C4C5ACB"
+  },
+  {
+    "Path": "C:\\nasa challenge API\\earthtrend_rag\\app\\vector_store\\qdrant_store.py",
+    "Hash": "B7BA9C57C8EBC2B936BF60653F7A71D4C1E949628AFB9FB20D8918DD6BB6C589"
+  },
+  {
+    "Path": "C:\\nasa challenge API\\earthtrend_rag\\tests\\conftest.py",
+    "Hash": "143BE77046EA6208FE65DC01515CE52225F92958AC05FD172F90DC87422B626F"
+  },
+  {
+    "Path": "C:\\nasa challenge API\\earthtrend_rag\\tests\\test_chunking.py",
+    "Hash": "D2C179D56119FA0EEB60E2842D2962FADD9071189289CAC3D39C93157E7173CF"
+  },
+  {
+    "Path": "C:\\nasa challenge API\\earthtrend_rag\\tests\\test_gemini_client.py",
+    "Hash": "DBF35D8AEFE46B97C84E65965099F4F8B7548C223BDEA5C8F05D8A7E1B983791"
+  },
+  {
+    "Path": "C:\\nasa challenge API\\earthtrend_rag\\tests\\test_parsing_metadata.py",
+    "Hash": "6AA619D9E52FF3087E3B263435AB0BD05BF4984CB5E611FD1B6CD5CC3C828487"
+  },
+  {
+    "Path": "C:\\nasa challenge API\\earthtrend_rag\\tests\\test_pipeline_api.py",
+    "Hash": "10656B07952953AC7422DFF07AA4568C5B9A7141CE50CF27464990360FCF5AC0"
+  },
+  {
+    "Path": "C:\\nasa challenge API\\earthtrend_rag\\tests\\test_retrieval_intent.py",
+    "Hash": "EE2566AFDF2882B4BD9942305A22838DB163D0C68B166702B037BDE12FE268F1"
+  },
+  {
+    "Path": "C:\\nasa challenge API\\earthtrend_rag\\tests\\test_trend_agent.py",
+    "Hash": "548CBC10F5494157A8222DB4D3F84FA6D7749DC1EFAA7C635FA866D0E45F8237"
+  },
+  {
+    "Path": "C:\\nasa challenge API\\earthtrend_rag\\tests\\test_trend_stats.py",
+    "Hash": "98E10BF43684DF626AD596809BF205FE87017EE83F48015F3684976D6966E86B"
+  },
+  {
+    "Path": "C:\\nasa challenge API\\earthtrend_rag\\tests\\test_trend_tool.py",
+    "Hash": "A91193C77AB9E451F24F3D11A4B201BB29764E2F35183A4F6C32580A2803CBE6"
+  },
+  {
+    "Path": "C:\\nasa challenge API\\earthtrend_rag\\tests\\test_vector_store.py",
+    "Hash": "4F7031B41F471F0703C615517A863B68AC2544DEED5E87CC9BE9C637482D8DBF"
+  },
+  {
+    "Path": "C:\\nasa challenge API\\earthtrend_rag\\tests\\fixtures\\power_monthly_nablus_T2M_real_capture.json",
+    "Hash": "391FF7A495ED2D0FB612463529F5E892C772D543ED1ABBFCABB872995A573427"
+  },
+  {
+    "Path": "C:\\nasa challenge API\\earthtrend_rag\\tests\\integration\\__init__.py",
+    "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "Path": "C:\\nasa challenge API\\earthtrend_rag\\tests\\integration\\conftest.py",
+    "Hash": "2EF96CDB6418B6A2FC9A938C3040D7AD80BA60B18AF72F52094357F7EE86DC28"
+  },
+  {
+    "Path": "C:\\nasa challenge API\\earthtrend_rag\\tests\\integration\\test_real_stack.py",
+    "Hash": "6DF43AC633AD911E9E8877BE5E769561D7B2C7BC487E37C96D37D5A0F9416B3A"
+  },
+  {
+    "Path": "C:\\nasa challenge API\\earthtrend_rag\\tests\\integration\\test_real_trend.py",
+    "Hash": "6F85F7D571AF42919427D617F59B9B00F4E945570E24B1252FC9BEAFB6D6AC36"
+  },
+  {
+    "Path": "C:\\nasa challenge API\\earthtrend_rag\\docs\\ARCHITECTURE.md",
+    "Hash": "39E0F5D16E4C6118EA8BB848EBF6D5C779F86F524D92A8590D532B59E3EE457E"
+  },
+  {
+    "Path": "C:\\nasa challenge API\\earthtrend_rag\\docs\\EVALUATION.md",
+    "Hash": "76D4F35793D4EBB0D819E4C2E3FC1547E15F063C5137F1AE31AEB897367EB4BC"
+  },
+  {
+    "Path": "C:\\nasa challenge API\\earthtrend_rag\\docs\\TREND_ANALYSIS.md",
+    "Hash": "788367D765D99F48A4E3AB61961DBB2C67C359C054D8FD87835B5FAB9429B038"
+  }
+]

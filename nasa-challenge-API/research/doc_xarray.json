@@ -1,0 +1,1074 @@
+{
+  "id": "doc_xarray",
+  "url": "https://docs.xarray.dev/en/stable/user-guide/io.html",
+  "checked_at": "2026-11-14T15:13:39.690561+00:00",
+  "tls_validation": false,
+  "status": 200,
+  "final_url": "https://docs.xarray.dev/en/stable/user-guide/io.html",
+  "bytes": 394712,
+  "content_type": "text/html; charset=utf-8",
+  "sha256": "70cc65efb4259dec0a5b4171a0e2be6eebfa9d1a238eab7835251b53da6799d4",
+  "links": [
+    {
+      "url": "https://docs.xarray.dev/en/stable/user-guide/io.html#main-content",
+      "label": "Skip to main content"
+    },
+    {
+      "url": "https://ossci.zulipchat.com/",
+      "label": "OSSci Zulip"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/index.html",
+      "label": ""
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/getting-started-guide/index.html",
+      "label": "Get Started"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/user-guide/index.html",
+      "label": "User Guide"
+    },
+    {
+      "url": "https://tutorial.xarray.dev",
+      "label": "Tutorial"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/gallery.html",
+      "label": "Gallery"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/api.html",
+      "label": "API Reference"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/get-help/help-diagram.html",
+      "label": "Get Help"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/contribute/index.html",
+      "label": "Development"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/whats-new.html",
+      "label": "Release Notes"
+    },
+    {
+      "url": "https://github.com/pydata/xarray",
+      "label": "GitHub"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/getting-started-guide/index.html",
+      "label": "Get Started"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/user-guide/index.html",
+      "label": "User Guide"
+    },
+    {
+      "url": "https://tutorial.xarray.dev",
+      "label": "Tutorial"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/gallery.html",
+      "label": "Gallery"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/api.html",
+      "label": "API Reference"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/get-help/help-diagram.html",
+      "label": "Get Help"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/contribute/index.html",
+      "label": "Development"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/whats-new.html",
+      "label": "Release Notes"
+    },
+    {
+      "url": "https://github.com/pydata/xarray",
+      "label": "GitHub"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/user-guide/terminology.html",
+      "label": "Terminology"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/user-guide/data-structures.html",
+      "label": "Data Structures"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/user-guide/hierarchical-data.html",
+      "label": "Hierarchical data"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/user-guide/dask.html",
+      "label": "Parallel Computing with Dask"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/user-guide/indexing.html",
+      "label": "Indexing and selecting data"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/user-guide/combining.html",
+      "label": "Combining data"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/user-guide/reshaping.html",
+      "label": "Reshaping and reorganizing data"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/user-guide/computation.html",
+      "label": "Computation"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/user-guide/groupby.html",
+      "label": "GroupBy: Group and Bin Data"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/user-guide/interpolation.html",
+      "label": "Interpolating data"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/user-guide/io.html",
+      "label": "Reading and writing files"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/user-guide/complex-numbers.html",
+      "label": "Complex Numbers"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/user-guide/plotting.html",
+      "label": "Plotting"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/user-guide/pandas.html",
+      "label": "Working with pandas"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/user-guide/duckarrays.html",
+      "label": "Working with numpy-like arrays"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/user-guide/ecosystem.html",
+      "label": "Xarray related projects"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/user-guide/time-series.html",
+      "label": "Time series data"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/user-guide/weather-climate.html",
+      "label": "Weather and climate data"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/user-guide/options.html",
+      "label": "Configuration"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/user-guide/testing.html",
+      "label": "Testing your code"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/index.html",
+      "label": ""
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/user-guide/index.html",
+      "label": "User Guide"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/user-guide/io.html#reading-and-writing-files",
+      "label": "#"
+    },
+    {
+      "url": "https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html#io-pickle",
+      "label": "Pickling"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/user-guide/io.html#io-netcdf",
+      "label": "netCDF"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/internals/how-to-add-new-backend.html",
+      "label": "write your own"
+    },
+    {
+      "url": "https://tutorial.xarray.dev/advanced/backends/backends.html",
+      "label": "Xarray tutorial JupyterBook"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/user-guide/io.html#backend-selection",
+      "label": "#"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/generated/xarray.set_options.html#xarray.set_options",
+      "label": "set_options()"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/user-guide/options.html#options",
+      "label": "Configuration"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/user-guide/io.html#remote-url-resolution",
+      "label": "#"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/user-guide/io.html#io-netcdf",
+      "label": "netcdf4"
+    },
+    {
+      "url": "https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html#io-hdf5",
+      "label": "h5netcdf"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/user-guide/io.html#io-netcdf",
+      "label": "scipy"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/user-guide/io.html#io-opendap",
+      "label": "pydap"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/user-guide/io.html#io-zarr",
+      "label": "zarr"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/user-guide/io.html#local-file-resolution",
+      "label": "#"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/user-guide/io.html#io-netcdf",
+      "label": "netcdf4"
+    },
+    {
+      "url": "https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html#io-hdf5",
+      "label": "h5netcdf"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/user-guide/io.html#io-netcdf",
+      "label": "scipy"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/user-guide/io.html#io-zarr",
+      "label": "zarr"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/user-guide/io.html#netcdf",
+      "label": "#"
+    },
+    {
+      "url": "https://www.unidata.ucar.edu/software/netcdf/",
+      "label": "netCDF"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/generated/xarray.Dataset.html#xarray.Dataset",
+      "label": "Dataset"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/generated/xarray.Dataset.html#xarray.Dataset",
+      "label": "Dataset"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/user-guide/io.html#io-netcdf-groups",
+      "label": "Groups"
+    },
+    {
+      "url": "https://docs.unidata.ucar.edu/netcdf-c/current/faq.html",
+      "label": "netCDF FAQ"
+    },
+    {
+      "url": "https://github.com/Unidata/netcdf4-python",
+      "label": "netCDF4-Python"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/generated/xarray.Dataset.to_netcdf.html#xarray.Dataset.to_netcdf",
+      "label": "Dataset.to_netcdf()"
+    },
+    {
+      "url": "https://github.com/h5netcdf/h5netcdf",
+      "label": "h5netcdf"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/generated/xarray.open_dataset.html#xarray.open_dataset",
+      "label": "open_dataset()"
+    },
+    {
+      "url": "https://github.com/Unidata/netcdf4-python",
+      "label": "netCDF4"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/generated/xarray.open_dataset.html#xarray.open_dataset",
+      "label": "open_dataset()"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/generated/xarray.DataArray.to_netcdf.html#xarray.DataArray.to_netcdf",
+      "label": "DataArray.to_netcdf()"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/generated/xarray.open_dataarray.html#xarray.open_dataarray",
+      "label": "open_dataarray()"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/generated/xarray.Dataset.html#xarray.Dataset",
+      "label": "Dataset"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/generated/xarray.DataTree.html#xarray.DataTree",
+      "label": "DataTree"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/generated/xarray.DataTree.to_netcdf.html#xarray.DataTree.to_netcdf",
+      "label": "xarray.DataTree.to_netcdf()"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/generated/xarray.Dataset.html#xarray.Dataset",
+      "label": "Dataset"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/generated/xarray.Dataset.load.html#xarray.Dataset.load",
+      "label": "Dataset.load()"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/generated/xarray.Dataset.close.html#xarray.Dataset.close",
+      "label": "Dataset.close()"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/user-guide/dask.html#dask",
+      "label": "Parallel Computing with Dask"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/user-guide/io.html#groups",
+      "label": "#"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/generated/xarray.DataTree.html#xarray.DataTree",
+      "label": "xarray.DataTree"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/generated/xarray.open_datatree.html#xarray.open_datatree",
+      "label": "xarray.open_datatree()"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/generated/xarray.DataTree.to_netcdf.html#xarray.DataTree.to_netcdf",
+      "label": "xarray.DataTree.to_netcdf()"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/user-guide/data-structures.html",
+      "label": "xarray’s data model"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/user-guide/data-structures.html#data-structures",
+      "label": "DataTree’s data model"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/user-guide/io.html#reading-encoded-data",
+      "label": "#"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/generated/xarray.open_dataset.html#xarray.open_dataset",
+      "label": "open_dataset()"
+    },
+    {
+      "url": "https://cfconventions.org/",
+      "label": "CF conventions"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/generated/xarray.DataArray.encoding.html#xarray.DataArray.encoding",
+      "label": "DataArray.encoding"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/generated/xarray.DataArray.encoding.html#xarray.DataArray.encoding",
+      "label": "DataArray.encoding"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/generated/xarray.Dataset.to_netcdf.html#xarray.Dataset.to_netcdf",
+      "label": "Dataset.to_netcdf()"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/generated/xarray.Dataset.drop_encoding.html#xarray.Dataset.drop_encoding",
+      "label": "Dataset.drop_encoding()"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/generated/xarray.DataArray.drop_encoding.html#xarray.DataArray.drop_encoding",
+      "label": "DataArray.drop_encoding()"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/user-guide/io.html#reading-multi-file-datasets",
+      "label": "#"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/generated/xarray.concat.html#xarray.concat",
+      "label": "concat()"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/generated/xarray.merge.html#xarray.merge",
+      "label": "merge()"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/generated/xarray.combine_nested.html#xarray.combine_nested",
+      "label": "combine_nested()"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/generated/xarray.combine_by_coords.html#xarray.combine_by_coords",
+      "label": "combine_by_coords()"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/user-guide/combining.html#combining-data",
+      "label": "Combining data"
+    },
+    {
+      "url": "https://www.dask.org",
+      "label": "dask"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/generated/xarray.open_mfdataset.html#xarray.open_mfdataset",
+      "label": "open_mfdataset()"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/user-guide/combining.html#combining-multi",
+      "label": "Combining along multiple dimensions"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/user-guide/dask.html#dask-io",
+      "label": "Reading and writing data"
+    },
+    {
+      "url": "https://stephanhoyer.com/2015/06/11/xray-dask-out-of-core-labeled-arrays/",
+      "label": "blog post"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/generated/xarray.open_mfdataset.html#xarray.open_mfdataset",
+      "label": "open_mfdataset()"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/generated/xarray.open_mfdataset.html#xarray.open_mfdataset",
+      "label": "open_mfdataset()"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/generated/xarray.open_mfdataset.html#xarray.open_mfdataset",
+      "label": "open_mfdataset()"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/generated/xarray.open_mfdataset.html#xarray.open_mfdataset",
+      "label": "open_mfdataset()"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/user-guide/io.html#writing-encoded-data",
+      "label": "#"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/user-guide/io.html#scaling-and-type-conversions",
+      "label": "#"
+    },
+    {
+      "url": "https://cfconventions.org/cf-conventions/cf-conventions.html#packed-data",
+      "label": "CF Conventions on packed data"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/user-guide/io.html#string-encoding",
+      "label": "#"
+    },
+    {
+      "url": "https://github.com/Unidata/netcdf4-python/pull/665",
+      "label": "adopted by the netCDF4-Python library"
+    },
+    {
+      "url": "https://github.com/Unidata/netcdf-c/issues/402",
+      "label": "still under discussion"
+    },
+    {
+      "url": "https://docs.python.org/3/library/codecs.html#standard-encodings",
+      "label": "any string encoding recognized by Python"
+    },
+    {
+      "url": "https://utf8everywhere.org/",
+      "label": "we don’t recommend it"
+    },
+    {
+      "url": "https://github.com/pydata/xarray/issues/1647",
+      "label": "GH1647"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/user-guide/io.html#chunk-based-compression",
+      "label": "#"
+    },
+    {
+      "url": "https://unidata.github.io/netcdf4-python/#netCDF4.Dataset.createVariable",
+      "label": "documentation for createVariable"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/user-guide/io.html#time-units",
+      "label": "#"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/user-guide/io.html#coordinates",
+      "label": "#"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/user-guide/io.html#invalid-netcdf-files",
+      "label": "#"
+    },
+    {
+      "url": "https://github.com/h5netcdf/h5netcdf#invalid-netcdf-files",
+      "label": "h5netcdf documentation"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/generated/xarray.DataArray.to_netcdf.html#xarray.DataArray.to_netcdf",
+      "label": "DataArray.to_netcdf()"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/generated/xarray.Dataset.to_netcdf.html#xarray.Dataset.to_netcdf",
+      "label": "Dataset.to_netcdf()"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/user-guide/io.html#hdf5",
+      "label": "#"
+    },
+    {
+      "url": "https://www.hdfgroup.org/solutions/hdf5/",
+      "label": "HDF5"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/generated/xarray.Dataset.to_netcdf.html#xarray.Dataset.to_netcdf",
+      "label": "Dataset.to_netcdf()"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/user-guide/io.html#id1",
+      "label": "#"
+    },
+    {
+      "url": "https://www.h5py.org/",
+      "label": "h5py"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/user-guide/io.html#zarr",
+      "label": "#"
+    },
+    {
+      "url": "https://zarr.readthedocs.io/",
+      "label": "Zarr"
+    },
+    {
+      "url": "https://aws.amazon.com/s3/",
+      "label": "Amazon S3"
+    },
+    {
+      "url": "https://cloud.google.com/storage/",
+      "label": "Google Cloud Storage"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/user-guide/dask.html#dask",
+      "label": "in combination with dask"
+    },
+    {
+      "url": "https://docs.unidata.ucar.edu/nug/current/nczarr_head.html",
+      "label": "netCDF"
+    },
+    {
+      "url": "https://gdal.org/drivers/raster/zarr.html",
+      "label": "GDAL"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/internals/zarr-encoding-spec.html#zarr-encoding",
+      "label": "Zarr Encoding Specification"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/generated/xarray.Dataset.to_zarr.html#xarray.Dataset.to_zarr",
+      "label": "Dataset.to_zarr()"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/generated/xarray.Dataset.to_zarr.html#xarray.Dataset.to_zarr",
+      "label": "to_zarr()"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/generated/xarray.DataArray.to_zarr.html#xarray.DataArray.to_zarr",
+      "label": "DataArray.to_zarr()"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/generated/xarray.open_dataarray.html#xarray.open_dataarray",
+      "label": "open_dataarray()"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/generated/xarray.DataArray.to_netcdf.html#xarray.DataArray.to_netcdf",
+      "label": "DataArray.to_netcdf()"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/generated/xarray.DataArray.to_zarr.html#xarray.DataArray.to_zarr",
+      "label": "DataArray.to_zarr()"
+    },
+    {
+      "url": "https://docs.unidata.ucar.edu/nug/current/nczarr_head.html",
+      "label": "NCZarr"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/generated/xarray.open_zarr.html#xarray.open_zarr",
+      "label": "open_zarr()"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/user-guide/io.html#cloud-storage-buckets",
+      "label": "#"
+    },
+    {
+      "url": "https://github.com/fsspec/gcsfs",
+      "label": "gcsfs"
+    },
+    {
+      "url": "https://cloud.google.com/storage/",
+      "label": "Google Cloud Storage"
+    },
+    {
+      "url": "https://filesystem-spec.readthedocs.io/en/latest/",
+      "label": "fsspec"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/user-guide/io.html#distributed-writes",
+      "label": "#"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/user-guide/dask.html#dask",
+      "label": "dask"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/user-guide/io.html#zarr-compressors-and-filters",
+      "label": "#"
+    },
+    {
+      "url": "https://zarr.readthedocs.io/en/stable/user-guide/arrays.html#compressors",
+      "label": "options for compression and filtering possible with zarr"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/user-guide/io.html#modifying-existing-zarr-stores",
+      "label": "#"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/generated/xarray.Dataset.to_zarr.html#xarray.Dataset.to_zarr",
+      "label": "to_zarr()"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/user-guide/io.html#specifying-chunks-in-a-zarr-store",
+      "label": "#"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/generated/xarray.Dataset.to_zarr.html#xarray.Dataset.to_zarr",
+      "label": "Dataset.to_zarr()"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/user-guide/io.html#variable-sized-rectilinear-chunks",
+      "label": "#"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/generated/xarray.Dataset.to_zarr.html#xarray.Dataset.to_zarr",
+      "label": "Dataset.to_zarr()"
+    },
+    {
+      "url": "https://github.com/pydata/xarray/pull/11279",
+      "label": "GH11279"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/user-guide/io.html#id2",
+      "label": "#"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/generated/xarray.DataTree.html#xarray.DataTree",
+      "label": "xarray.DataTree"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/generated/xarray.open_datatree.html#xarray.open_datatree",
+      "label": "open_datatree()"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/generated/xarray.DataTree.to_zarr.html#xarray.DataTree.to_zarr",
+      "label": "xarray.DataTree.to_zarr()"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/user-guide/io.html#netcdf-group-warning",
+      "label": "unlike for netCDF files"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/user-guide/io.html#netcdf-root-group-note",
+      "label": "as for netCDF files"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/user-guide/io.html#consolidated-metadata",
+      "label": "#"
+    },
+    {
+      "url": "https://aws.amazon.com/s3/",
+      "label": "Amazon S3"
+    },
+    {
+      "url": "https://zarr.readthedocs.io/en/latest/user-guide/consolidated_metadata.html",
+      "label": "zarr docs on consolidating metadata"
+    },
+    {
+      "url": "https://zarr.readthedocs.io/en/stable/api/zarr/functions/consolidate_metadata/#zarr.consolidate_metadata",
+      "label": "zarr.consolidate_metadata()"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/user-guide/io.html#fill-values",
+      "label": "#"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/generated/xarray.open_zarr.html#xarray.open_zarr",
+      "label": "xarray.open_zarr()"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/user-guide/io.html#kerchunk",
+      "label": "#"
+    },
+    {
+      "url": "https://fsspec.github.io/kerchunk",
+      "label": "Kerchunk"
+    },
+    {
+      "url": "https://zarr.readthedocs.io/",
+      "label": "Zarr"
+    },
+    {
+      "url": "https://github.com/pydata/xarray-data",
+      "label": "here"
+    },
+    {
+      "url": "https://fsspec.github.io/kerchunk/spec.html",
+      "label": "specification"
+    },
+    {
+      "url": "https://github.com/zarr-developers/VirtualiZarr",
+      "label": "virtualizarr"
+    },
+    {
+      "url": "https://filesystem-spec.readthedocs.io/en/latest/api.html#fsspec.implementations.reference.ReferenceFileSystem.__init__",
+      "label": "configure fsspec"
+    },
+    {
+      "url": "https://projectpythia.org/kerchunk-cookbook/README.html",
+      "label": "project pythia kerchunk cookbook"
+    },
+    {
+      "url": "https://guide.cloudnativegeo.org/kerchunk/intro.html",
+      "label": "pangeo guide on kerchunk"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/user-guide/io.html#iris",
+      "label": "#"
+    },
+    {
+      "url": "https://scitools-iris.readthedocs.io",
+      "label": "Iris"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/user-guide/io.html#dataarray-to-iris-and-from-iris",
+      "label": "#"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/generated/xarray.DataArray.to_iris.html#xarray.DataArray.to_iris",
+      "label": "DataArray.to_iris()"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/generated/xarray.DataArray.from_iris.html#xarray.DataArray.from_iris",
+      "label": "DataArray.from_iris()"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/user-guide/io.html#ncdata",
+      "label": "#"
+    },
+    {
+      "url": "https://ncdata.readthedocs.io/en/latest/index.html",
+      "label": "Ncdata"
+    },
+    {
+      "url": "https://github.com/pp-mo/ncdata/tree/v0.1.2?tab=readme-ov-file#correct-a-miscoded-attribute-in-iris-input",
+      "label": "ncdata usage examples"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/user-guide/io.html#opendap",
+      "label": "#"
+    },
+    {
+      "url": "https://www.opendap.org/",
+      "label": "OPeNDAP"
+    },
+    {
+      "url": "https://www.prism.oregonstate.edu/",
+      "label": "PRISM"
+    },
+    {
+      "url": "https://iri.columbia.edu/",
+      "label": "IRI"
+    },
+    {
+      "url": "https://cfconventions.org/",
+      "label": "CF conventions"
+    },
+    {
+      "url": "https://docs.python-requests.org",
+      "label": "Requests"
+    },
+    {
+      "url": "https://pydap.github.io/pydap/en/notebooks/Authentication.html",
+      "label": "Requests"
+    },
+    {
+      "url": "https://pydap.github.io/pydap/en/faqs/dap2_or_dap4_url.html",
+      "label": "supports DAP4"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/user-guide/io.html#pickle",
+      "label": "#"
+    },
+    {
+      "url": "https://docs.python.org/3/library/multiprocessing.html#module-multiprocessing",
+      "label": "multiprocessing"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/user-guide/dask.html#dask",
+      "label": "Dask"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/generated/xarray.Dataset.load.html#xarray.Dataset.load",
+      "label": "Dataset.load()"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/generated/xarray.Dataset.compute.html#xarray.Dataset.compute",
+      "label": "Dataset.compute()"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/user-guide/io.html#dictionary",
+      "label": "#"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/generated/xarray.Dataset.to_dict.html#xarray.Dataset.to_dict",
+      "label": "Dataset.to_dict()"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/generated/xarray.Dataset.from_dict.html#xarray.Dataset.from_dict",
+      "label": "Dataset.from_dict()"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/user-guide/io.html#rasterio",
+      "label": "#"
+    },
+    {
+      "url": "https://rasterio.readthedocs.io/en/latest/",
+      "label": "rasterio"
+    },
+    {
+      "url": "https://corteva.github.io/rioxarray/stable/",
+      "label": "rioxarray"
+    },
+    {
+      "url": "https://corteva.github.io/rioxarray/stable/",
+      "label": "rioxarray"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/user-guide/io.html#grib-format-via-cfgrib",
+      "label": "#"
+    },
+    {
+      "url": "https://github.com/ecmwf/cfgrib",
+      "label": "cfgrib"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/generated/xarray.open_dataset.html#xarray.open_dataset",
+      "label": "open_dataset()"
+    },
+    {
+      "url": "https://github.com/ecmwf/cfgrib",
+      "label": "cfgrib"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/user-guide/io.html#csv-and-other-formats-supported-by-pandas",
+      "label": "#"
+    },
+    {
+      "url": "https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html",
+      "label": "IO tools"
+    },
+    {
+      "url": "https://xarray-extras.readthedocs.io/en/latest/api/csv.html",
+      "label": "xarray_extras"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/user-guide/io.html#third-party-libraries",
+      "label": "#"
+    },
+    {
+      "url": "https://xarray-mongodb.readthedocs.io/en/latest/",
+      "label": "xarray-mongodb"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/user-guide/interpolation.html",
+      "label": "previous Interpolating data"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/user-guide/complex-numbers.html",
+      "label": "next Complex Numbers"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/user-guide/io.html#backend-selection",
+      "label": "Backend Selection"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/user-guide/io.html#remote-url-resolution",
+      "label": "Remote URL Resolution"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/user-guide/io.html#local-file-resolution",
+      "label": "Local File Resolution"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/user-guide/io.html#netcdf",
+      "label": "netCDF"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/user-guide/io.html#groups",
+      "label": "Groups"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/user-guide/io.html#reading-encoded-data",
+      "label": "Reading encoded data"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/user-guide/io.html#reading-multi-file-datasets",
+      "label": "Reading multi-file datasets"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/user-guide/io.html#writing-encoded-data",
+      "label": "Writing encoded data"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/user-guide/io.html#scaling-and-type-conversions",
+      "label": "Scaling and type conversions"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/user-guide/io.html#string-encoding",
+      "label": "String encoding"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/user-guide/io.html#chunk-based-compression",
+      "label": "Chunk based compression"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/user-guide/io.html#time-units",
+      "label": "Time units"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/user-guide/io.html#coordinates",
+      "label": "Coordinates"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/user-guide/io.html#invalid-netcdf-files",
+      "label": "Invalid netCDF files"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/user-guide/io.html#hdf5",
+      "label": "HDF5"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/user-guide/io.html#id1",
+      "label": "Groups"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/user-guide/io.html#zarr",
+      "label": "Zarr"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/user-guide/io.html#cloud-storage-buckets",
+      "label": "Cloud Storage Buckets"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/user-guide/io.html#distributed-writes",
+      "label": "Distributed writes"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/user-guide/io.html#zarr-compressors-and-filters",
+      "label": "Zarr Compressors and Filters"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/user-guide/io.html#modifying-existing-zarr-stores",
+      "label": "Modifying existing Zarr stores"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/user-guide/io.html#specifying-chunks-in-a-zarr-store",
+      "label": "Specifying chunks in a zarr store"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/user-guide/io.html#variable-sized-rectilinear-chunks",
+      "label": "Variable-sized (rectilinear) chunks"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/user-guide/io.html#id2",
+      "label": "Groups"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/user-guide/io.html#consolidated-metadata",
+      "label": "Consolidated Metadata"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/user-guide/io.html#fill-values",
+      "label": "Fill Values"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/user-guide/io.html#kerchunk",
+      "label": "Kerchunk"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/user-guide/io.html#iris",
+      "label": "Iris"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/user-guide/io.html#dataarray-to-iris-and-from-iris",
+      "label": "DataArray to_iris and from_iris"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/user-guide/io.html#ncdata",
+      "label": "Ncdata"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/user-guide/io.html#opendap",
+      "label": "OPeNDAP"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/user-guide/io.html#pickle",
+      "label": "Pickle"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/user-guide/io.html#dictionary",
+      "label": "Dictionary"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/user-guide/io.html#rasterio",
+      "label": "Rasterio"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/user-guide/io.html#grib-format-via-cfgrib",
+      "label": "GRIB format via cfgrib"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/user-guide/io.html#csv-and-other-formats-supported-by-pandas",
+      "label": "CSV and other formats supported by pandas"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/user-guide/io.html#third-party-libraries",
+      "label": "Third party libraries"
+    },
+    {
+      "url": "https://github.com/pydata/xarray/edit/main/doc/user-guide/io.md",
+      "label": "Edit on GitHub"
+    },
+    {
+      "url": "https://www.sphinx-doc.org/",
+      "label": "Sphinx"
+    },
+    {
+      "url": "https://pydata-sphinx-theme.readthedocs.io/en/stable/index.html",
+      "label": "PyData Sphinx Theme"
+    }
+  ],
+  "elapsed_seconds": 1.641
+}

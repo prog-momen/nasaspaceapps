@@ -1,0 +1,13 @@
+{
+  "id": "resource_R096",
+  "url": "https://astrogeology-usgs.hub.arcgis.com/pages/interactive-maps-mars",
+  "checked_at": "2026-11-14T15:15:22.401152+00:00",
+  "tls_validation": false,
+  "status": 200,
+  "final_url": "https://astrogeology-usgs.hub.arcgis.com/pages/interactive-maps-mars",
+  "bytes": 114135,
+  "content_type": "text/html; charset=utf-8",
+  "sha256": "edd7fd2b7261f0037eac358d6acdc014d3b9e8a78b86fe27881cd1672e08f0a9",
+  "links": [],
+  "elapsed_seconds": 2.187
+}

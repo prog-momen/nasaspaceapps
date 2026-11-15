@@ -1,0 +1,266 @@
+{
+  "id": "resource_R064",
+  "url": "https://prism.oregonstate.edu",
+  "checked_at": "2026-11-14T15:15:17.222076+00:00",
+  "tls_validation": false,
+  "status": 200,
+  "final_url": "https://prism.oregonstate.edu",
+  "bytes": 26554,
+  "content_type": "text/html; charset=UTF-8",
+  "sha256": "5417f4985162750d4db9bba071775371f00ec13043ef0c4c5193f03d2347957a",
+  "links": [
+    {
+      "url": "https://prism.oregonstate.edu/",
+      "label": "Home"
+    },
+    {
+      "url": "https://prism.oregonstate.edu",
+      "label": "About"
+    },
+    {
+      "url": "https://prism.oregonstate.edu/overview",
+      "label": "PRISM Overview"
+    },
+    {
+      "url": "https://prism.oregonstate.edu/whatsnew",
+      "label": "What's New"
+    },
+    {
+      "url": "https://prism.oregonstate.edu/pubs",
+      "label": "Publications"
+    },
+    {
+      "url": "https://prism.oregonstate.edu/participate",
+      "label": "Citizen Science"
+    },
+    {
+      "url": "https://lists.engr.oregonstate.edu/mailman3/lists/prism-updates.lists.engr.oregonstate.edu",
+      "label": "Mailing List"
+    },
+    {
+      "url": "https://prism.oregonstate.edu",
+      "label": "Data Grids"
+    },
+    {
+      "url": "https://prism.oregonstate.edu/data",
+      "label": "Time Series Data"
+    },
+    {
+      "url": "https://prism.oregonstate.edu/normals",
+      "label": "1991-2020 Normals"
+    },
+    {
+      "url": "https://prism.oregonstate.edu/normals_other",
+      "label": "Other Normals"
+    },
+    {
+      "url": "https://data.prism.oregonstate.edu",
+      "label": "Data Directory"
+    },
+    {
+      "url": "https://prism.oregonstate.edu/data/supporting.php",
+      "label": "Supporting Datasets"
+    },
+    {
+      "url": "https://prism.oregonstate.edu/explorer",
+      "label": "Data Explorer"
+    },
+    {
+      "url": "https://prism.oregonstate.edu",
+      "label": "Map Graphics"
+    },
+    {
+      "url": "https://prism.oregonstate.edu/comparisons/anomalies.php",
+      "label": "Anomalies & Month-to-Date"
+    },
+    {
+      "url": "https://prism.oregonstate.edu/comparisons/drought.php",
+      "label": "Drought Indicator Tool"
+    },
+    {
+      "url": "https://prism.oregonstate.edu/graphics/gallery.php",
+      "label": "State Precipitation Maps"
+    },
+    {
+      "url": "https://prism.oregonstate.edu/graphics",
+      "label": "Daily Map Graphics Generator"
+    },
+    {
+      "url": "https://prism.oregonstate.edu/normals/animation.php",
+      "label": "Daily Normals Animations"
+    },
+    {
+      "url": "https://data.prism.oregonstate.edu/map_graphics",
+      "label": "Map Graphics Archive"
+    },
+    {
+      "url": "https://prism.oregonstate.edu",
+      "label": "Plant Hardiness"
+    },
+    {
+      "url": "https://prism.oregonstate.edu/phzm",
+      "label": "Current Version (2023)"
+    },
+    {
+      "url": "https://prism.oregonstate.edu/phzm/phzm_2012.php",
+      "label": "Prior Version (2012)"
+    },
+    {
+      "url": "https://prism.oregonstate.edu",
+      "label": "Documentation"
+    },
+    {
+      "url": "https://prism.oregonstate.edu/documents/PRISM_datasets.pdf",
+      "label": "PRISM Datasets (pdf)"
+    },
+    {
+      "url": "https://prism.oregonstate.edu/documents/PRISM_history.pdf",
+      "label": "PRISM History (pdf)"
+    },
+    {
+      "url": "https://prism.oregonstate.edu/methods",
+      "label": "PRISM Methods"
+    },
+    {
+      "url": "https://prism.oregonstate.edu/formats",
+      "label": "PRISM Data Formats"
+    },
+    {
+      "url": "https://prism.oregonstate.edu/downloads",
+      "label": "Bulk Data Download Info"
+    },
+    {
+      "url": "https://prism.oregonstate.edu/terms",
+      "label": "Terms of Use"
+    },
+    {
+      "url": "https://prism.oregonstate.edu",
+      "label": "Data Updates Calendar"
+    },
+    {
+      "url": "https://prism.oregonstate.edu/calendar",
+      "label": "Overview"
+    },
+    {
+      "url": "https://prism.oregonstate.edu/calendar/list.php",
+      "label": "Daily Data (list)"
+    },
+    {
+      "url": "https://prism.oregonstate.edu/calendar/grid.php",
+      "label": "Daily Data (tabular)"
+    },
+    {
+      "url": "https://prism.oregonstate.edu/calendar/month.php",
+      "label": "Monthly Data (tabular)"
+    },
+    {
+      "url": "https://prism.oregonstate.edu/issues",
+      "label": "Known Data Issues"
+    },
+    {
+      "url": "https://prism.oregonstate.edu/notices",
+      "label": "Data Notices Archive"
+    },
+    {
+      "url": "https://prism.oregonstate.edu/faq",
+      "label": "FAQ"
+    },
+    {
+      "url": "https://prism.oregonstate.edu/notices/notice_20261022.php",
+      "label": "Month-to-Date Anomaly map graphics now available"
+    },
+    {
+      "url": "https://prism.oregonstate.edu/notices/notice_20260908.php",
+      "label": "PRISM data now available in netCDF format"
+    },
+    {
+      "url": "https://prism.oregonstate.edu/comparisons/anomalies.php?var=ppt",
+      "label": "CONUS Month-to-Date Daily Precipitation"
+    },
+    {
+      "url": "https://prism.oregonstate.edu/comparisons/drought.php",
+      "label": "CONUS Month-to-Date Drought Indicator"
+    },
+    {
+      "url": "https://prism.oregonstate.edu/comparisons/anomalies.php?var=tmin",
+      "label": "CONUS Month-to-Date Daily Minimum Temperature"
+    },
+    {
+      "url": "https://prism.oregonstate.edu/comparisons/anomalies.php?var=tmean&comp=mtdanom",
+      "label": "CONUS Month-to-Date Daily Mean Temperature Anomaly"
+    },
+    {
+      "url": "https://prism.oregonstate.edu/comparisons/anomalies.php?var=tmax",
+      "label": "CONUS Month-to-Date Daily Maximum Temperature"
+    },
+    {
+      "url": "https://prism.oregonstate.edu/comparisons/anomalies.php?var=solslope",
+      "label": "CONUS Month-to-Date Average Daily Solar Irradiance (Sloped Surface)"
+    },
+    {
+      "url": "https://planthardiness.ars.usda.gov",
+      "label": "2023 USDA Plant Hardiness Zone Map"
+    },
+    {
+      "url": "https://prism.oregonstate.edu/data",
+      "label": "resulting datasets"
+    },
+    {
+      "url": "https://prism.oregonstate.edu/documents/PRISM_datasets.pdf",
+      "label": "detailed information"
+    },
+    {
+      "url": "https://prism.oregonstate.edu/downloads",
+      "label": "bulk gridded data downloads"
+    },
+    {
+      "url": "https://prism.oregonstate.edu/explorer",
+      "label": "fetch a data time series"
+    },
+    {
+      "url": "https://prism.oregonstate.edu/data",
+      "label": "Time Series Data"
+    },
+    {
+      "url": "https://prism.oregonstate.edu/normals",
+      "label": "30-Year Normals"
+    },
+    {
+      "url": "https://prism.oregonstate.edu/explorer",
+      "label": "Data Explorer"
+    },
+    {
+      "url": "https://prism.oregonstate.edu/downloads",
+      "label": "Bulk Data Downloads"
+    },
+    {
+      "url": "https://prism.oregonstate.edu/comparisons/anomalies.php",
+      "label": "Anomalies"
+    },
+    {
+      "url": "https://data.prism.oregonstate.edu",
+      "label": "Data Directory"
+    },
+    {
+      "url": "https://prism.oregonstate.edu/pubs",
+      "label": "Publications"
+    },
+    {
+      "url": "http://www.rma.usda.gov",
+      "label": "USDA Risk Management Agency"
+    },
+    {
+      "url": "mailto:prism-questions@nacse.org",
+      "label": "prism-questions@nacse.org"
+    },
+    {
+      "url": "http://www.nacse.org",
+      "label": "NACSE"
+    },
+    {
+      "url": "http://www.oregonstate.edu",
+      "label": "Oregon State University"
+    }
+  ],
+  "elapsed_seconds": 1.265
+}

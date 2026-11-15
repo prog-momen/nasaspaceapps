@@ -1,0 +1,22 @@
+NASA | LANCE | FIRMS
+API
+Service
+Description
+area
+Fire detection hotspots based on area, date and sensor in CSV format
+countries
+List of supported countries
+* Feature currently not available.
+country
+Fire detection hotspots based on country, date and sensor in CSV format
+* Feature currently not available.
+data_availability
+Date availability of SP and NRT data
+kml_fire_footprints
+KML fire detection footprints
+map_key
+Setup MAP_KEY
+missing_data
+View dates with missing satellite data
+API Code Examples
+API Version: 4.2.8

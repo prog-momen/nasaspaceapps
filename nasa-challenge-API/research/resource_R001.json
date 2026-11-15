@@ -1,0 +1,190 @@
+{
+  "id": "resource_R001",
+  "url": "https://nssdc.gsfc.nasa.gov/",
+  "checked_at": "2026-11-14T15:15:08.847786+00:00",
+  "tls_validation": false,
+  "status": 200,
+  "final_url": "https://nssdc.gsfc.nasa.gov/",
+  "bytes": 28345,
+  "content_type": "text/html; charset=UTF-8",
+  "sha256": "a295d61241244a9b000fe63bf8ed64bfd2a460b2f030a4fea7d06f5399d4a0ca",
+  "links": [
+    {
+      "url": "https://www.nasa.gov/",
+      "label": ""
+    },
+    {
+      "url": "https://nssdc.gsfc.nasa.gov/",
+      "label": "NSSDCA NASA Space Science Data Coordinated Archive"
+    },
+    {
+      "url": "https://nssdc.gsfc.nasa.gov/about/charter.html",
+      "label": "Mission"
+    },
+    {
+      "url": "https://nssdc.gsfc.nasa.gov/about/about_nssdc.html",
+      "label": "About"
+    },
+    {
+      "url": "https://nssdc.gsfc.nasa.gov/nssdc/nssdc_faq.html",
+      "label": "FAQs"
+    },
+    {
+      "url": "https://nssdc.gsfc.nasa.gov/search.html",
+      "label": "Search"
+    },
+    {
+      "url": "mailto:gsfc-dl-nssdca-contact-us@mail.nasa.gov?Subject=Feedback from NSSDCA Main Page",
+      "label": "Contact"
+    },
+    {
+      "url": "https://nssdc.gsfc.nasa.gov/",
+      "label": "Services"
+    },
+    {
+      "url": "https://nssdc.gsfc.nasa.gov/nmc/",
+      "label": "Master Catalog"
+    },
+    {
+      "url": "https://nssdc.gsfc.nasa.gov/nssdc/obtaining_data.html",
+      "label": "Obtaining Data"
+    },
+    {
+      "url": "https://nssdc.gsfc.nasa.gov/nssdc/submitting_data.html",
+      "label": "Submitting Data"
+    },
+    {
+      "url": "https://nssdc.gsfc.nasa.gov/archive/mou/",
+      "label": "Archive Support"
+    },
+    {
+      "url": "https://nssdc.gsfc.nasa.gov/nssdc/data_retention.html",
+      "label": "Data Retention"
+    },
+    {
+      "url": "https://nssdc.gsfc.nasa.gov/publication/",
+      "label": "Legacy Publications"
+    },
+    {
+      "url": "https://nssdc.gsfc.nasa.gov/",
+      "label": "NSSDCA"
+    },
+    {
+      "url": "https://nssdc.gsfc.nasa.gov/planetary/",
+      "label": "Planetary"
+    },
+    {
+      "url": "https://nssdc.gsfc.nasa.gov/astro/",
+      "label": "Astrophysics"
+    },
+    {
+      "url": "https://nssdc.gsfc.nasa.gov/space/",
+      "label": "Heliophysics"
+    },
+    {
+      "url": "https://nssdc.gsfc.nasa.gov/image/",
+      "label": "Images"
+    },
+    {
+      "url": "https://nssdc.gsfc.nasa.gov/planetary/index.html",
+      "label": "Solar System"
+    },
+    {
+      "url": "https://nssdc.gsfc.nasa.gov/space/index.html",
+      "label": "Heliophysics"
+    },
+    {
+      "url": "https://nssdc.gsfc.nasa.gov/astro/index.html",
+      "label": "Astrophysics"
+    },
+    {
+      "url": "https://nssdc.gsfc.nasa.gov/image/index.html",
+      "label": "Image Resources"
+    },
+    {
+      "url": "https://nssdc.gsfc.nasa.gov/nmc/",
+      "label": "Master Catalog"
+    },
+    {
+      "url": "https://nssdc.gsfc.nasa.gov/archive/mou/",
+      "label": "Archive Support"
+    },
+    {
+      "url": "https://nssdc.gsfc.nasa.gov/nssdc/obtaining_data.html",
+      "label": "Obtaining Data"
+    },
+    {
+      "url": "https://nssdc.gsfc.nasa.gov/nssdc/submitting_data.html",
+      "label": "Submitting Data"
+    },
+    {
+      "url": "https://nssdc.gsfc.nasa.gov/nssdc/data_retention.html",
+      "label": "Data Retention"
+    },
+    {
+      "url": "https://nssdc.gsfc.nasa.gov/publication/index.html",
+      "label": "Publications"
+    },
+    {
+      "url": "https://science.nasa.gov/apod/",
+      "label": "APOD Website"
+    },
+    {
+      "url": "mailto:thomas.h.morgan@nasa.gov",
+      "label": "thomas.h.morgan@nasa.gov"
+    },
+    {
+      "url": "mailto:larysa.a.paliashchuk@nasa.gov",
+      "label": "larysa.a.paliashchuk@nasa.gov"
+    },
+    {
+      "url": "mailto:scott.a.witschey@nasa.gov",
+      "label": "scott.a.witschey@nasa.gov"
+    },
+    {
+      "url": "https://www.nasa.gov/",
+      "label": "NASA"
+    },
+    {
+      "url": "https://www.nasa.gov/about/",
+      "label": "About NASA"
+    },
+    {
+      "url": "https://www.nasa.gov/foia/",
+      "label": "FOIA"
+    },
+    {
+      "url": "https://www.nasa.gov/no-fear-act/",
+      "label": "No FEAR Act"
+    },
+    {
+      "url": "https://www.nasa.gov/vulnerability-disclosure-policy/",
+      "label": "Vulnerability Disclosure Policy"
+    },
+    {
+      "url": "https://www.nasa.gov/privacy/",
+      "label": "Privacy Policy"
+    },
+    {
+      "url": "https://www.nasa.gov/general/accessibility/",
+      "label": "Accessibility"
+    },
+    {
+      "url": "mailto:gsfc-dl-nssdca-contact-us@mail.nasa.gov?Subject=Feedback from NSSDCA Main Page",
+      "label": "Contact NSSDCA"
+    },
+    {
+      "url": "mailto:thomas.h.morgan@nasa.gov",
+      "label": "Thomas Morgan"
+    },
+    {
+      "url": "mailto:larysa.a.paliashchuk@nasa.gov",
+      "label": "Larysa Paliashchuk"
+    },
+    {
+      "url": "mailto:scott.a.witschey@nasa.gov",
+      "label": "Scott Witschey"
+    }
+  ],
+  "elapsed_seconds": 1.593
+}

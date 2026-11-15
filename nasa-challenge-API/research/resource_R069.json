@@ -1,0 +1,13 @@
+{
+  "id": "resource_R069",
+  "url": "https://gaez.fao.org",
+  "checked_at": "2026-11-14T15:15:18.556987+00:00",
+  "tls_validation": false,
+  "status": 200,
+  "final_url": "https://gaez.fao.org",
+  "bytes": 70321,
+  "content_type": "text/html; charset=utf-8",
+  "sha256": "7d38169402a66a5756af73eb1dc3e42db6bcd973f5aa45b49746af5b348dcdfc",
+  "links": [],
+  "elapsed_seconds": 0.969
+}

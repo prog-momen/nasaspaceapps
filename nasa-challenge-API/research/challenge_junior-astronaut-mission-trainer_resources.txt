@@ -1,0 +1,27 @@
+NASA does not endorse any non-U.S. Government entity and is not responsible for information contained on non-U.S. Government websites. For non-U.S. Government websites, participants must comply with any data use parameters of that specific website.
+NASA Data & Resources
+NASA Open APIs
+:
+ NASA's central public API portal, providing free programmatic access to datasets including the Astronomy Picture of the Day (APOD), Mars Rover Photos, and the Space Weather Database (DONKI). A free API key (higher rate limits than the shared demo key) can be requested instantly and is a good starting point for any challenge team building a data-connected prototype.
+Space Weather Database Of Notifications, Knowledge, Information (DONKI)
+:
+ Real, regularly updated data on solar flares, coronal mass ejections, and other space weather events that drive radiation risk for astronauts and spacecraft. Useful for grounding any radiation-shielding, communications-disruption, or mission-risk mechanic in actual current conditions rather than invented numbers.
+NASA Open Science Data Repository (OSDR)
+:
+ (
+search API
+) NASA's public archive of space biology and astronaut health research, including studies on how spaceflight affects bone density, muscle mass, immune response, sleep, and more across many organisms. Searchable by keyword, making it well suited for tools that want to surface real published NASA science relevant to human health trade-offs in space.
+RadLab (OSDR Radiation Dosimetry Database)
+:
+ Real radiation dose measurements recorded by dosimetry instruments aboard the International Space Station, contributed by multiple international space agencies. Provides authentic astronaut radiation exposure data (e.g., absorbed dose rate) useful for any tool modeling shielding, health risk, or long-duration mission trade-offs.
+Mars Trek
+:
+ An interactive visualization and data-download portal for real Mars surface imagery, elevation, and terrain data compiled from NASA's Mars missions (including Curiosity and Perseverance). Useful for teams wanting real environmental or geographic data to ground a Mars outpost site or terrain visualization in actual surface conditions.
+Space Agency Partner Resources
+CSA (Canadian Space Agency)
+Space resources for STEM and youth organizations
+:
+ The CSA's Space Resources for STEM and Youth Organizations page provides free, bilingual tools and activities to help educators engage youth in space and STEM. Designed for museums, libraries, camps, after-school clubs, community groups, and outreach organizations, these resources support learning beyond the classroom.
+Food production on the moon and in remote areas
+:
+ This web package is a one-stop resource for educators and youth who want to learn about food in space. This toolkit aims to outline how food production in space can relate to the health and nutrition of astronauts as well as benefit humans on Earth.

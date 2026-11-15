@@ -1,0 +1,1916 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/eui.min.css">
+    <link rel="stylesheet" href="/css/default.css">
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+    <script language="javascript" id="_fed_an_ua_tag" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=NASA&subagency=GSFC&dclink=true"></script>
+    <link rel="stylesheet" href="/css/docs.css">
+    <link rel="stylesheet" href="/css/markdown-it-copy.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.7.0/build/styles/default.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.10/dist/clipboard.min.js"></script>
+    <title>Harmony Documentation</title>
+</head>
+<body>
+    <div id="earthdata-notification-banner"></div>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <div class="container-lg">
+                <a class="navbar-brand nasa" href="#">Earthdata Harmony</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                </div>
+            </div>
+        </nav>    <div class="hero-callout" style="background-color: #2276ac;">
+        <div class="container-lg">
+            <div class="row docs-title">
+                <h1 class="text-center text-light">Documentation</h1>
+            </div>
+            <!-- <div class="row pt-4 justify-content-center cta">
+            </div> -->
+        </div>
+    </div>
+    <div class="container-lg">
+        <div class="row pt-5 justify-content-center">
+            <h2 id="overview" tabindex="-1"><a class="header-anchor" href="#overview">§</a> Overview</h2>
+<p>Harmony provides access to services that can transform data from NASA's <a href="https://www.earthdata.nasa.gov/eosdis/">Earth Observing Systems Data and Information System (EOSDIS)</a> Distributed Active Archive Centers (DAAC).
+Transformations can be requested using one of two <a href="https://www.ogc.org/">Open Geospatial Consortium (OGC)</a> inspired APIs.</p>
+<p>Data processed by Harmony is staged in <a href="https://aws.com">AWS</a> S3 buckets owned by NASA or optionally in user owned S3 buckets. Harmony provides signed URLs or temporary access credentials to users for data staged in NASA S3 buckets.</p>
+<p>Data transformation requests are executed as <em>jobs</em> in Harmony. Harmony provides the ability for users to monitor and interact with long-running jobs, both programmatically through an API and via a web-based user interface.</p>
+<p><strong>This document describes the APIs and endpoints Harmony provides. You can use these APIs and endpoints to directly interact with Harmony, but the recommended official way to interact with Harmony is through <a href="https://github.com/nasa/harmony-py">Harmony-Py</a>.</strong></p>
+<p>This documentation covers the following:</p>
+<nav class="table-of-contents"><ul><li><a href="#overview"> Overview</a></li><li><a href="#getting-started"> Getting Started</a><ul><li><a href="#passing-credentials-with-curl"> Passing credentials with curl</a></li><li><a href="#passing-credentials-in-code"> Passing credentials in code</a></li></ul></li><li><a href="#using-the-service-apis"> Using the Service APIs</a><ul><li><a href="#ogc-coverages-request-parameters"> OGC Coverages Request Parameters</a><ul><li><a href="#url-path-parameters"> URL Path Parameters</a></li><li><a href="#query-parameters"> Query Parameters</a></li></ul></li><li><a href="#ogc-edr-request-parameters"> OGC EDR Request Parameters</a><ul><li><a href="#url-path-parameters-1"> URL Path Parameters</a></li><li><a href="#common-ogc-edr-query-parameters"> Common OGC EDR Query Parameters</a></li><li><a href="#harmony-extended-query-parameters-for-ogc-edr-routes"> Harmony Extended Query Parameters for OGC EDR Routes</a></li><li><a href="#ogc-edr-cube-subsetting-query-parameters"> OGC EDR Cube Subsetting Query Parameters</a></li><li><a href="#ogc-edr-area-subsetting-query-parameters"> OGC EDR Area Subsetting Query Parameters</a></li><li><a href="#ogc-edr-position-subsetting-query-parameters"> OGC EDR Position Subsetting Query Parameters</a></li><li><a href="#ogc-edr-trajectory-subsetting-query-parameters"> OGC EDR Trajectory Subsetting Query Parameters</a></li></ul></li><li><a href="#wms-requests"> WMS Requests</a><ul><li><a href="#url-path-parameters-2"> URL Path Parameters</a></li><li><a href="#common-query-parameters"> Common Query Parameters</a></li><li><a href="#query-parameters-for-getmap---standard-wms"> Query Parameters for GetMap - Standard WMS</a></li><li><a href="#additional-harmony-parameters-for-wms-requests"> Additional Harmony parameters for WMS requests</a></li></ul></li></ul></li><li><a href="#available-services"> Available Services</a><ul><li><a href="#service-versions"> Service Versions</a></li><li><a href="#service-capabilities"> Service Capabilities</a></li></ul></li><li><a href="#user-owned-buckets-for-harmony-output"> User Owned Buckets for Harmony Output</a></li><li><a href="#summary-of-available-endpoints"> Summary of Available Endpoints</a><ul><li><a href="#get-harmony-capabilities-for-the-provided-collection">  Get Harmony capabilities for the provided collection</a><ul><li><a href="#query-parameters-1">  Query Parameters</a></li><li><a href="#response">  Response</a><ul><li><a href="#version-3">  Version 3</a></li><li><a href="#version-2">  Version 2</a></li><li><a href="#version-1">  Version 1</a></li></ul></li><li><a href="#getting-harmony-capabilities-for-a-given-collection-by-collection-concept-id"> Getting Harmony capabilities for a given collection by collection concept id</a></li><li><a href="#getting-harmony-capabilities-for-a-given-collection-by-collection-short-name"> Getting Harmony capabilities for a given collection by collection short name</a></li></ul></li><li><a href="#monitoring-jobs-with-the-jobs-api-and-the-workflow-ui">   Monitoring Jobs with the Jobs API and the Workflow-UI</a><ul><li><a href="#getting-the-list-of-jobs-for-a-user"> Getting the list of jobs for a user</a><ul><li><a href="#query-parameters-2">  Query Parameters</a></li><li><a href="#response-1">  Response</a></li></ul></li><li><a href="#getting-job-status"> Getting job status</a><ul><li><a href="#response-2">  Response</a></li></ul></li><li><a href="#getting-status-for-multiple-jobs-at-once">  Getting status for multiple jobs at once</a><ul><li><a href="#response-3">  Response</a></li></ul></li><li><a href="#pausing-a-job"> Pausing a job</a></li><li><a href="#resuming-a-paused-job"> Resuming a paused job</a></li><li><a href="#canceling-a-job"> Canceling a job</a></li><li><a href="#skipping-preview"> Skipping preview</a></li></ul></li><li><a href="#inspecting-a-job's-steps-with-the-steps-api">   Inspecting a Job&#39;s Steps with the Steps API</a><ul><li><a href="#getting-the-steps-for-a-job"> Getting the steps for a job</a></li><li><a href="#resolving-a-work-item's-files">  Resolving a work item&#39;s files</a><ul><li><a href="#query-parameters-3">  Query Parameters</a></li><li><a href="#response-4">  Response</a><ul><li><a href="#step-fields">  Step fields</a></li><li><a href="#paging-fields">  Paging fields</a></li><li><a href="#work-item-fields">  Work item fields</a></li></ul></li></ul></li></ul></li><li><a href="#labeling-jobs">   Labeling Jobs</a></li><li><a href="#retrieving-stac-catalog-and-catalog-items-for-processed-data">  Retrieving STAC catalog and catalog items for processed data</a><ul><li><a href="#getting-the-stac-catalog-of-a-single-job"> Getting the STAC catalog of a single job</a></li><li><a href="#getting-the-stac-catalog-item-within-a-job's-stac-catalog"> Getting the STAC catalog item within a job&#39;s STAC catalog</a></li></ul></li><li><a href="#getting-in-region-s3-aws-access-keys-using-the-cloud-access-api">  Getting in region S3 AWS access keys using the cloud-access API</a><ul><li><a href="#get-aws-s3-access-credentials-as-json"> Get AWS S3 access credentials as JSON</a></li><li><a href="#get-aws-s3-access-credentials-as-a-shell-script-to-use-in-a-terminal"> Get AWS S3 access credentials as a shell script to use in a terminal</a></li></ul></li><li><a href="#getting-the-versions-of-images-used-in-each-of-the-harmony-backend-service-chains">  Getting the versions of images used in each of the Harmony backend service chains</a><ul><li><a href="#get-backend-service-version-information"> Get backend service version information</a></li></ul></li></ul></li></ul></nav><h2 id="getting-started" tabindex="-1"><a class="header-anchor" href="#getting-started">§</a> Getting Started</h2>
+<p>All users will need an <a href="https://urs.earthdata.nasa.gov">Earthdata Login</a> (EDL) account in order to access NASA data and services.
+Once a user has an EDL username and password they will need to use these when accessing Harmony.
+They can be used directly in a browser request (the browser will prompt for them), in another client like <a href="https://curl.se/">curl</a>, or in code.</p>
+<p>For <code>curl</code> or in code the easiest approach is to place your EDL credentials in a <a href="https://everything.curl.dev/usingcurl/netrc">.netrc file</a>.</p>
+<p>A sample <code>.netrc</code> file looks like this</p>
+<pre class="hljs"><code>
+machine urs.earthdata.nasa.gov login my-edl-user-name password my-edl-password
+
+</code><div class="m-mdic-copy-wrapper"><div class="u-mdic-copy-notify" id="j-notify-1794527095283-93636">COPIED</div><button class="u-mdic-copy-btn j-mdic-copy-btn" data-mdic-content="
+machine urs.earthdata.nasa.gov login my-edl-user-name password my-edl-password
+
+" data-mdic-attach-content="" data-mdic-notify-id="j-notify-1794527095283-93636" data-mdic-notify-delay="2000" data-mdic-copy-fail-text="copy fail" onclick="!function(t){const e={copy:(t='',e='')=>new Promise((c,o)=>{const n=document.createElement('textarea'),d=e?`\n\n${e}`:e;n.value=`${t}${d}`,document.body.appendChild(n),n.select();try{const t=document.execCommand('copy');document.body.removeChild(n),t?c():o()}catch(t){document.body.removeChild(n),o()}}),btnClick(t){const c=t&&t.dataset?t.dataset:{},o=c.mdicNotifyId,n=document.getElementById(o),d=c.mdicNotifyDelay,i=c.mdicCopyFailText;e.copy(c.mdicContent,c.mdicAttachContent).then(()=>{n.style.display='block',setTimeout(()=>{n.style.display='none'},d)}).catch(()=>{alert(i)})}};e.btnClick(t)}(this);">COPY</button></div></pre>
+<p><strong>Example 2</strong> - Sample .netrc file</p>
+<p>Make sure that this file is only readable by the current user or you will receive an error stating
+&quot;netrc access too permissive.&quot;</p>
+<pre class="hljs"><code>$ chmod 0600 ~/.netrc
+</code><div class="m-mdic-copy-wrapper"><div class="u-mdic-copy-notify" id="j-notify-1794527095283-46569">COPIED</div><button class="u-mdic-copy-btn j-mdic-copy-btn" data-mdic-content="$ chmod 0600 ~/.netrc
+" data-mdic-attach-content="" data-mdic-notify-id="j-notify-1794527095283-46569" data-mdic-notify-delay="2000" data-mdic-copy-fail-text="copy fail" onclick="!function(t){const e={copy:(t='',e='')=>new Promise((c,o)=>{const n=document.createElement('textarea'),d=e?`\n\n${e}`:e;n.value=`${t}${d}`,document.body.appendChild(n),n.select();try{const t=document.execCommand('copy');document.body.removeChild(n),t?c():o()}catch(t){document.body.removeChild(n),o()}}),btnClick(t){const c=t&&t.dataset?t.dataset:{},o=c.mdicNotifyId,n=document.getElementById(o),d=c.mdicNotifyDelay,i=c.mdicCopyFailText;e.copy(c.mdicContent,c.mdicAttachContent).then(()=>{n.style.display='block',setTimeout(()=>{n.style.display='none'},d)}).catch(()=>{alert(i)})}};e.btnClick(t)}(this);">COPY</button></div></pre>
+<p><strong>Example 3</strong> - Setting permissions on the .netrc file (Unix/macOS)</p>
+<p>Alternatively users can generate an EDL <a href="https://urs.earthdata.nasa.gov/documentation/for_users/user_token">bearer token</a> directly and pass this to Harmony using an <code>Authorization: Bearer</code> header.</p>
+<h4 id="passing-credentials-with-curl" tabindex="-1"><a class="header-anchor" href="#passing-credentials-with-curl">§</a> Passing credentials with curl</h4>
+<p>Use the <code>-n</code> flag to use your <code>.netrc</code> file with <code>curl</code>. You will
+also need to pass the <code>-L</code> flag (to handle the redirect from Harmony to EDL and back) and
+the <code>-b</code> and <code>-j</code> flags to properly handle cookies used during the authentication.</p>
+<pre class="hljs"><code>
+curl -Lnbj https://harmony.earthdata.nasa.gov/C1234208438-POCLOUD/ogc-api-coverages/1.0.0/collections/bathymetry/coverage/rangeset
+
+</code><div class="m-mdic-copy-wrapper"><div class="u-mdic-copy-notify" id="j-notify-1794527095283-14331">COPIED</div><button class="u-mdic-copy-btn j-mdic-copy-btn" data-mdic-content="
+curl -Lnbj https://harmony.earthdata.nasa.gov/C1234208438-POCLOUD/ogc-api-coverages/1.0.0/collections/bathymetry/coverage/rangeset
+
+" data-mdic-attach-content="" data-mdic-notify-id="j-notify-1794527095283-14331" data-mdic-notify-delay="2000" data-mdic-copy-fail-text="copy fail" onclick="!function(t){const e={copy:(t='',e='')=>new Promise((c,o)=>{const n=document.createElement('textarea'),d=e?`\n\n${e}`:e;n.value=`${t}${d}`,document.body.appendChild(n),n.select();try{const t=document.execCommand('copy');document.body.removeChild(n),t?c():o()}catch(t){document.body.removeChild(n),o()}}),btnClick(t){const c=t&&t.dataset?t.dataset:{},o=c.mdicNotifyId,n=document.getElementById(o),d=c.mdicNotifyDelay,i=c.mdicCopyFailText;e.copy(c.mdicContent,c.mdicAttachContent).then(()=>{n.style.display='block',setTimeout(()=>{n.style.display='none'},d)}).catch(()=>{alert(i)})}};e.btnClick(t)}(this);">COPY</button></div></pre>
+<p><strong>Example 4</strong> - Curl flags to handle EDL authentication when using a .netrc file</p>
+<p>To work directly with a bearer token from EDL you can use an <code>Authorization: Bearer my-bearer-token</code> header as follows:</p>
+<pre class="hljs"><code>
+curl -H &quot;Authorization: Bearer &lt;my-bearer-token&gt;&quot; https://harmony.earthdata.nasa.gov/C1234208438-POCLOUD/ogc-api-coverages/1.0.0/collections/bathymetry/coverage/rangeset
+
+</code><div class="m-mdic-copy-wrapper"><div class="u-mdic-copy-notify" id="j-notify-1794527095283-48552">COPIED</div><button class="u-mdic-copy-btn j-mdic-copy-btn" data-mdic-content="
+curl -H &quot;Authorization: Bearer &lt;my-bearer-token&gt;&quot; https://harmony.earthdata.nasa.gov/C1234208438-POCLOUD/ogc-api-coverages/1.0.0/collections/bathymetry/coverage/rangeset
+
+" data-mdic-attach-content="" data-mdic-notify-id="j-notify-1794527095283-48552" data-mdic-notify-delay="2000" data-mdic-copy-fail-text="copy fail" onclick="!function(t){const e={copy:(t='',e='')=>new Promise((c,o)=>{const n=document.createElement('textarea'),d=e?`\n\n${e}`:e;n.value=`${t}${d}`,document.body.appendChild(n),n.select();try{const t=document.execCommand('copy');document.body.removeChild(n),t?c():o()}catch(t){document.body.removeChild(n),o()}}),btnClick(t){const c=t&&t.dataset?t.dataset:{},o=c.mdicNotifyId,n=document.getElementById(o),d=c.mdicNotifyDelay,i=c.mdicCopyFailText;e.copy(c.mdicContent,c.mdicAttachContent).then(()=>{n.style.display='block',setTimeout(()=>{n.style.display='none'},d)}).catch(()=>{alert(i)})}};e.btnClick(t)}(this);">COPY</button></div></pre>
+<p><strong>Example 5</strong> - Using a bearer token with curl</p>
+<h4 id="passing-credentials-in-code" tabindex="-1"><a class="header-anchor" href="#passing-credentials-in-code">§</a> Passing credentials in code</h4>
+<p>The following Python example uses the <code>netrc</code>, <code>request</code>, and <code>cookiejar</code> libraries to set up authentication with EDL.
+<mark>No error handling is included in this example.</mark></p>
+<pre class="hljs"><code>
+<span class="hljs-keyword">import</span> netrc
+<span class="hljs-keyword">from</span> urllib <span class="hljs-keyword">import</span> request, parse
+<span class="hljs-keyword">from</span> http.cookiejar <span class="hljs-keyword">import</span> CookieJar
+
+<span class="hljs-keyword">def</span> <span class="hljs-title function_">setup_earthdata_login_auth</span>(<span class="hljs-params">endpoint</span>):
+    <span class="hljs-string">&quot;&quot;&quot;
+    Set up the request library so that it authenticates against the given Earthdata Login
+    endpoint and is able to track cookies between requests.  This uses the .netrc file.
+    &quot;&quot;&quot;</span>
+    username, _, password = netrc.netrc().authenticators(endpoint)
+    manager = request.HTTPPasswordMgrWithDefaultRealm()
+    manager.add_password(<span class="hljs-literal">None</span>, endpoint, username, password)
+    auth = request.HTTPBasicAuthHandler(manager)
+
+    jar = CookieJar()
+    processor = request.HTTPCookieProcessor(jar)
+    opener = request.build_opener(auth, processor)
+    request.install_opener(opener)
+
+setup_earthdata_login_auth(<span class="hljs-string">&#x27;urs.earthdata.nasa.gov&#x27;</span>)
+
+</code><div class="m-mdic-copy-wrapper"><div class="u-mdic-copy-notify" id="j-notify-1794527095283-96352">COPIED</div><button class="u-mdic-copy-btn j-mdic-copy-btn" data-mdic-content="
+import netrc
+from urllib import request, parse
+from http.cookiejar import CookieJar
+
+def setup_earthdata_login_auth(endpoint):
+    &quot;&quot;&quot;
+    Set up the request library so that it authenticates against the given Earthdata Login
+    endpoint and is able to track cookies between requests.  This uses the .netrc file.
+    &quot;&quot;&quot;
+    username, _, password = netrc.netrc().authenticators(endpoint)
+    manager = request.HTTPPasswordMgrWithDefaultRealm()
+    manager.add_password(None, endpoint, username, password)
+    auth = request.HTTPBasicAuthHandler(manager)
+
+    jar = CookieJar()
+    processor = request.HTTPCookieProcessor(jar)
+    opener = request.build_opener(auth, processor)
+    request.install_opener(opener)
+
+setup_earthdata_login_auth('urs.earthdata.nasa.gov')
+
+" data-mdic-attach-content="" data-mdic-notify-id="j-notify-1794527095283-96352" data-mdic-notify-delay="2000" data-mdic-copy-fail-text="copy fail" onclick="!function(t){const e={copy:(t='',e='')=>new Promise((c,o)=>{const n=document.createElement('textarea'),d=e?`\n\n${e}`:e;n.value=`${t}${d}`,document.body.appendChild(n),n.select();try{const t=document.execCommand('copy');document.body.removeChild(n),t?c():o()}catch(t){document.body.removeChild(n),o()}}),btnClick(t){const c=t&&t.dataset?t.dataset:{},o=c.mdicNotifyId,n=document.getElementById(o),d=c.mdicNotifyDelay,i=c.mdicCopyFailText;e.copy(c.mdicContent,c.mdicAttachContent).then(()=>{n.style.display='block',setTimeout(()=>{n.style.display='none'},d)}).catch(()=>{alert(i)})}};e.btnClick(t)}(this);">COPY</button></div></pre>
+<p><strong>Example 6</strong> - Authenticating in python</p>
+<p>The <code>username</code> and <code>password</code> can also be set directly instead of using a <code>.netrc</code> file.</p>
+<p>There is significant boiler-plate code involved in connecting to Harmony that can be avoided
+by using the <a href="https://github.com/nasa/harmony-py">harmony-py</a> library. The equivalent code
+using <code>harmony-py</code> (when using a <code>.netrc</code> file) can be as simple as</p>
+<pre class="hljs"><code>
+<span class="hljs-keyword">from</span> harmony <span class="hljs-keyword">import</span> Client
+
+harmony_client = Client() <span class="hljs-comment"># defaults to Harmony production endpoint</span>
+
+</code><div class="m-mdic-copy-wrapper"><div class="u-mdic-copy-notify" id="j-notify-1794527095284-50490">COPIED</div><button class="u-mdic-copy-btn j-mdic-copy-btn" data-mdic-content="
+from harmony import Client
+
+harmony_client = Client() # defaults to Harmony production endpoint
+
+" data-mdic-attach-content="" data-mdic-notify-id="j-notify-1794527095284-50490" data-mdic-notify-delay="2000" data-mdic-copy-fail-text="copy fail" onclick="!function(t){const e={copy:(t='',e='')=>new Promise((c,o)=>{const n=document.createElement('textarea'),d=e?`\n\n${e}`:e;n.value=`${t}${d}`,document.body.appendChild(n),n.select();try{const t=document.execCommand('copy');document.body.removeChild(n),t?c():o()}catch(t){document.body.removeChild(n),o()}}),btnClick(t){const c=t&&t.dataset?t.dataset:{},o=c.mdicNotifyId,n=document.getElementById(o),d=c.mdicNotifyDelay,i=c.mdicCopyFailText;e.copy(c.mdicContent,c.mdicAttachContent).then(()=>{n.style.display='block',setTimeout(()=>{n.style.display='none'},d)}).catch(()=>{alert(i)})}};e.btnClick(t)}(this);">COPY</button></div></pre>
+<p><strong>Example 7</strong> - Using <code>harmony-py</code> to create a client with <code>.netrc</code> EDL authentication</p>
+<p><code>harmony-py</code> provides many other conveniences when using Harmony services. For these reasons
+<mark><code>harmony-py</code> is the suggested way to access Harmony in code.</mark> For complete details see the
+<a href="https://harmony-py.readthedocs.io/en/latest/">documentation</a>.</p>
+<br>
+<br>
+<br>
+<h2 id="using-the-service-apis" tabindex="-1"><a class="header-anchor" href="#using-the-service-apis">§</a> Using the Service APIs</h2>
+<p>This section provides an introduction to the Harmony service APIs for launching services for collections using <a href="/docs/api">OGC Coverages API</a>, <a href="/docs/edr-api">OGC EDR API</a>, or WMS.</p>
+<p>Each API requires a CMR collection concept ID or short name, and transformations can be performed using
+one of the following endpoints ({collectionId} and {variable} are placeholders):</p>
+<pre class="hljs"><code>
+https://harmony.earthdata.nasa.gov/{collectionId}/ogc-api-coverages/1.0.0/{variable}/coverage/rangeset
+
+</code><div class="m-mdic-copy-wrapper"><div class="u-mdic-copy-notify" id="j-notify-1794527095285-78920">COPIED</div><button class="u-mdic-copy-btn j-mdic-copy-btn" data-mdic-content="
+https://harmony.earthdata.nasa.gov/{collectionId}/ogc-api-coverages/1.0.0/{variable}/coverage/rangeset
+
+" data-mdic-attach-content="" data-mdic-notify-id="j-notify-1794527095285-78920" data-mdic-notify-delay="2000" data-mdic-copy-fail-text="copy fail" onclick="!function(t){const e={copy:(t='',e='')=>new Promise((c,o)=>{const n=document.createElement('textarea'),d=e?`\n\n${e}`:e;n.value=`${t}${d}`,document.body.appendChild(n),n.select();try{const t=document.execCommand('copy');document.body.removeChild(n),t?c():o()}catch(t){document.body.removeChild(n),o()}}),btnClick(t){const c=t&&t.dataset?t.dataset:{},o=c.mdicNotifyId,n=document.getElementById(o),d=c.mdicNotifyDelay,i=c.mdicCopyFailText;e.copy(c.mdicContent,c.mdicAttachContent).then(()=>{n.style.display='block',setTimeout(()=>{n.style.display='none'},d)}).catch(()=>{alert(i)})}};e.btnClick(t)}(this);">COPY</button></div></pre>
+<p><strong>Example 8</strong> - OGC Coverages endpoint</p>
+<pre class="hljs"><code>
+https://harmony.earthdata.nasa.gov/ogc-api-edr/1.1.0/collections/{collectionId}/cube
+
+</code><div class="m-mdic-copy-wrapper"><div class="u-mdic-copy-notify" id="j-notify-1794527095285-10797">COPIED</div><button class="u-mdic-copy-btn j-mdic-copy-btn" data-mdic-content="
+https://harmony.earthdata.nasa.gov/ogc-api-edr/1.1.0/collections/{collectionId}/cube
+
+" data-mdic-attach-content="" data-mdic-notify-id="j-notify-1794527095285-10797" data-mdic-notify-delay="2000" data-mdic-copy-fail-text="copy fail" onclick="!function(t){const e={copy:(t='',e='')=>new Promise((c,o)=>{const n=document.createElement('textarea'),d=e?`\n\n${e}`:e;n.value=`${t}${d}`,document.body.appendChild(n),n.select();try{const t=document.execCommand('copy');document.body.removeChild(n),t?c():o()}catch(t){document.body.removeChild(n),o()}}),btnClick(t){const c=t&&t.dataset?t.dataset:{},o=c.mdicNotifyId,n=document.getElementById(o),d=c.mdicNotifyDelay,i=c.mdicCopyFailText;e.copy(c.mdicContent,c.mdicAttachContent).then(()=>{n.style.display='block',setTimeout(()=>{n.style.display='none'},d)}).catch(()=>{alert(i)})}};e.btnClick(t)}(this);">COPY</button></div></pre>
+<p><strong>Example 9</strong> - OGC EDR cube endpoint</p>
+<pre class="hljs"><code>
+https://harmony.earthdata.nasa.gov/ogc-api-edr/1.1.0/collections/{collectionId}/area
+
+</code><div class="m-mdic-copy-wrapper"><div class="u-mdic-copy-notify" id="j-notify-1794527095285-55599">COPIED</div><button class="u-mdic-copy-btn j-mdic-copy-btn" data-mdic-content="
+https://harmony.earthdata.nasa.gov/ogc-api-edr/1.1.0/collections/{collectionId}/area
+
+" data-mdic-attach-content="" data-mdic-notify-id="j-notify-1794527095285-55599" data-mdic-notify-delay="2000" data-mdic-copy-fail-text="copy fail" onclick="!function(t){const e={copy:(t='',e='')=>new Promise((c,o)=>{const n=document.createElement('textarea'),d=e?`\n\n${e}`:e;n.value=`${t}${d}`,document.body.appendChild(n),n.select();try{const t=document.execCommand('copy');document.body.removeChild(n),t?c():o()}catch(t){document.body.removeChild(n),o()}}),btnClick(t){const c=t&&t.dataset?t.dataset:{},o=c.mdicNotifyId,n=document.getElementById(o),d=c.mdicNotifyDelay,i=c.mdicCopyFailText;e.copy(c.mdicContent,c.mdicAttachContent).then(()=>{n.style.display='block',setTimeout(()=>{n.style.display='none'},d)}).catch(()=>{alert(i)})}};e.btnClick(t)}(this);">COPY</button></div></pre>
+<p><strong>Example 10</strong> - OGC EDR area endpoint</p>
+<pre class="hljs"><code>
+https://harmony.earthdata.nasa.gov/{collectionId}/wms
+
+</code><div class="m-mdic-copy-wrapper"><div class="u-mdic-copy-notify" id="j-notify-1794527095285-509">COPIED</div><button class="u-mdic-copy-btn j-mdic-copy-btn" data-mdic-content="
+https://harmony.earthdata.nasa.gov/{collectionId}/wms
+
+" data-mdic-attach-content="" data-mdic-notify-id="j-notify-1794527095285-509" data-mdic-notify-delay="2000" data-mdic-copy-fail-text="copy fail" onclick="!function(t){const e={copy:(t='',e='')=>new Promise((c,o)=>{const n=document.createElement('textarea'),d=e?`\n\n${e}`:e;n.value=`${t}${d}`,document.body.appendChild(n),n.select();try{const t=document.execCommand('copy');document.body.removeChild(n),t?c():o()}catch(t){document.body.removeChild(n),o()}}),btnClick(t){const c=t&&t.dataset?t.dataset:{},o=c.mdicNotifyId,n=document.getElementById(o),d=c.mdicNotifyDelay,i=c.mdicCopyFailText;e.copy(c.mdicContent,c.mdicAttachContent).then(()=>{n.style.display='block',setTimeout(()=>{n.style.display='none'},d)}).catch(()=>{alert(i)})}};e.btnClick(t)}(this);">COPY</button></div></pre>
+<p><strong>Example 11</strong> - WMS endpoint</p>
+<h4 id="ogc-coverages-request-parameters" tabindex="-1"><a class="header-anchor" href="#ogc-coverages-request-parameters">§</a> OGC Coverages Request Parameters</h4>
+<p>The primary Harmony services REST API conforms to the OGC Coverages API version 1.0.0.
+As such it accepts parameters in the URL path as well as query parameters.</p>
+<h5 id="url-path-parameters" tabindex="-1"><a class="header-anchor" href="#url-path-parameters">§</a> URL Path Parameters</h5>
+<table>
+<thead>
+<tr>
+<th>parameter</th>
+<th>description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>collection</td>
+<td>(required) This is the NASA EOSDIS collection or data product. There are two options for inputting a collection of interest:<br>1. Provide a concept ID, which is an ID provided in the Common Metadata Repository (CMR) metadata<br>2. Use the data product short name, e.g. SENTINEL-1_INTERFEROGRAMS. Must be URL encoded.</td>
+</tr>
+<tr>
+<td>variable</td>
+<td>(required) Names or concept ids of the UMM-Var variables to be retrieved, or &quot;all&quot; to retrieve all variables.<br> Multiple variables may be retrieved by separating them with a comma.<br>The psuedo-variable &quot;parameter_vars&quot; may be used, in which case the variables are specified using the <code>variable</code> query parameter or <code>variable</code> form data parameter. This is useful if you need to subset using many variables.</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p><strong>Table 1</strong> - Harmony OGC Coverages API URL path (required) parameters</p>
+<br>
+<br>
+<h5 id="query-parameters" tabindex="-1"><a class="header-anchor" href="#query-parameters">§</a> Query Parameters</h5>
+<table>
+<thead>
+<tr>
+<th>parameter</th>
+<th>description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>subset</td>
+<td>get a subset of the coverage by slicing or trimming along one axis. Harmony supports  the axes &quot;lat&quot; and &quot;lon&quot; for spatial subsetting, and &quot;time&quot; for temporal, regardless of the names of those axes in the data files. Harmony also supports arbitrary dimension names for subsetting on numeric ranges for that dimension.</td>
+</tr>
+<tr>
+<td>outputCrs</td>
+<td>reproject the output coverage to the given CRS. Recognizes CRS types that can be</td>
+</tr>
+<tr>
+<td>interpolation</td>
+<td>specify the interpolation method used during reprojection and scaling</td>
+</tr>
+<tr>
+<td>scaleExtent</td>
+<td>scale the resulting coverage along one axis to a given extent</td>
+</tr>
+<tr>
+<td>scaleSize</td>
+<td>scale the resulting coverage along one axis to a given size</td>
+</tr>
+<tr>
+<td>concatenate</td>
+<td>requests results to be concatenated into a single result</td>
+</tr>
+<tr>
+<td>granuleId</td>
+<td>the CMR Granule ID for the granule which should be retrieved</td>
+</tr>
+<tr>
+<td>granuleName</td>
+<td>passed to the CMR search as the readable_granule_name parameter. Supports * and ?  wildcards for multiple and single character matches. Wildcards can be used any place in the name, but leading wildcards are discouraged as they require a lot of resources for the underlying search</td>
+</tr>
+<tr>
+<td>grid</td>
+<td>the name of the output grid to use for regridding requests. The name must match the UMM</td>
+</tr>
+<tr>
+<td>point</td>
+<td>only collections that have a geometry that contains a spatial point are selected. The spatial point is provided as two numbers:<br>* Longitude, coordinate axis 1<br>* Latitude, coordinate axis 2<br>The coordinate reference system of the values is <a href="http://www.opengis.net/def/crs/OGC/1.3/CRS84">WGS84 longitude/latitude</a>.</td>
+</tr>
+<tr>
+<td>width</td>
+<td>number of columns to return in the output coverage</td>
+</tr>
+<tr>
+<td>height</td>
+<td>number of rows to return in the output coverage</td>
+</tr>
+<tr>
+<td>forceAsync</td>
+<td>if &quot;true&quot;, override the default API behavior and always treat the request as asynchronous</td>
+</tr>
+<tr>
+<td>format</td>
+<td>the mime-type of the output format to return</td>
+</tr>
+<tr>
+<td>label</td>
+<td>the label(s) to add for the job that runs the request. Multiple labels can be specified as a comma-separated list. A label can contain any characters except for commas up to a 255 character limit. Labels will be rejected if deemed inappropriate. Labels are always converted to lower case.</td>
+</tr>
+<tr>
+<td>maxResults</td>
+<td>limits the number of input files processed in the request</td>
+</tr>
+<tr>
+<td>skipPreview</td>
+<td>if &quot;true&quot;, override the default API behavior and never auto-pause jobs</td>
+</tr>
+<tr>
+<td>ignoreErrors</td>
+<td>if &quot;true&quot;, continue processing a request to completion even if some items fail. If &quot;false&quot; immediately fail the request. Defaults to true</td>
+</tr>
+<tr>
+<td>destinationUrl</td>
+<td>destination url specified by the client; currently only s3 link urls are supported (e.g. s3://my-bucket-name/mypath) and will result in the job being run asynchronously</td>
+</tr>
+<tr>
+<td>variable</td>
+<td>the variable(s) to be used for variable subsetting. Multiple variables can be specified as a comma-separated list. This parameter is only used if the url <code>variable</code> path element is &quot;parameter_vars&quot;</td>
+</tr>
+<tr>
+<td>average</td>
+<td>requests the data to be averaged over either time or area</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p><strong>Table 2</strong> - Harmony OGC Coverages API query parameters</p>
+<p>For <code>POST</code> requests the body should be <code>multipart/form-data</code> and may also contain</p>
+<ul>
+<li><code>shape</code>: perform a shapefile subsetting request on a supported collection by passing the path to a GeoJSON file (*.json or .geojson), an ESRI Shapefile (.zip or .shz), or a kml file (.kml) as the &quot;shape&quot; parameter</li>
+</ul>
+<p>A sample OGC Coverages request is as follows</p>
+<pre class="hljs"><code>
+curl -Lnbj &quot;https://harmony.earthdata.nasa.gov/C1234208438-POCLOUD/ogc-api-coverages/1.0.0/collections/bathymetry/coverage/rangeset?maxResults=1&quot;
+
+</code><div class="m-mdic-copy-wrapper"><div class="u-mdic-copy-notify" id="j-notify-1794527095285-50728">COPIED</div><button class="u-mdic-copy-btn j-mdic-copy-btn" data-mdic-content="
+curl -Lnbj &quot;https://harmony.earthdata.nasa.gov/C1234208438-POCLOUD/ogc-api-coverages/1.0.0/collections/bathymetry/coverage/rangeset?maxResults=1&quot;
+
+" data-mdic-attach-content="" data-mdic-notify-id="j-notify-1794527095285-50728" data-mdic-notify-delay="2000" data-mdic-copy-fail-text="copy fail" onclick="!function(t){const e={copy:(t='',e='')=>new Promise((c,o)=>{const n=document.createElement('textarea'),d=e?`\n\n${e}`:e;n.value=`${t}${d}`,document.body.appendChild(n),n.select();try{const t=document.execCommand('copy');document.body.removeChild(n),t?c():o()}catch(t){document.body.removeChild(n),o()}}),btnClick(t){const c=t&&t.dataset?t.dataset:{},o=c.mdicNotifyId,n=document.getElementById(o),d=c.mdicNotifyDelay,i=c.mdicCopyFailText;e.copy(c.mdicContent,c.mdicAttachContent).then(()=>{n.style.display='block',setTimeout(()=>{n.style.display='none'},d)}).catch(()=>{alert(i)})}};e.btnClick(t)}(this);">COPY</button></div></pre>
+<p><strong>Example 12</strong> - Curl command for an OGC Coverages request</p>
+<h4 id="ogc-edr-request-parameters" tabindex="-1"><a class="header-anchor" href="#ogc-edr-request-parameters">§</a> OGC EDR Request Parameters</h4>
+<p>The Harmony services REST API also conforms to the OGC EDR API version 1.1.0.
+As such it accepts parameters in the URL path as well as query parameters.
+Currently only the <code>/position</code>, <code>/cube</code>, <code>/trajectory</code> and <code>/area</code> routes are supported for spatial subsetting. Other EDR routes will be supported in the future.</p>
+<h5 id="url-path-parameters-1" tabindex="-1"><a class="header-anchor" href="#url-path-parameters-1">§</a> URL Path Parameters</h5>
+<table>
+<thead>
+<tr>
+<th>parameter</th>
+<th>description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>collection</td>
+<td>(required) This is the NASA EOSDIS collection or data product. There are two options for inputting a collection of interest:<br>1. Provide a concept ID, which is an ID provided in the Common Metadata Repository (CMR) metadata<br>2. Use the data product short name, e.g. SENTINEL-1_INTERFEROGRAMS. Must be URL encoded.</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p><strong>Table 3</strong> - Harmony OGC EDR API URL path (required) parameters</p>
+<br>
+<br>
+<h5 id="common-ogc-edr-query-parameters" tabindex="-1"><a class="header-anchor" href="#common-ogc-edr-query-parameters">§</a> Common OGC EDR Query Parameters</h5>
+<table>
+<thead>
+<tr>
+<th>parameter</th>
+<th>description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>z</td>
+<td>Define the vertical levels to return data from. The value will override any vertical values defined in the BBOX query parameter. A range to return data for all levels between and including 2 defined levels<br>i.e. z=minimum value/maximum value. For instance if all values between and including 10m and 100m<br>z=10/100<br>A list of height values can be specified, i.e. z=value1,value2,value3. For instance if values at 2m, 10m and 80m are required<br>z=2,10,80<br>An Arithmetic sequence using Recurring height intervals, the difference is the number of recurrences is defined at the start and the amount to increment the height by is defined at the end, i.e. z=Rn/min height/height interval. So if the request was for 20 height levels 50m apart starting at 100m:<br>z=R20/100/50<br>When not specified data from all available heights SHOULD be returned</td>
+</tr>
+<tr>
+<td>datetime</td>
+<td>Either a date-time or an interval. Date and time expressions adhere to RFC 3339. Intervals may be bounded or half-bounded (double-dots at start or end).<br>Examples:<br>* A date-time: &quot;2018-02-12T23:20:50Z&quot;<br>* A bounded interval: &quot;2018-02-12T00:00:00Z/2018-03-18T12:31:12Z&quot;<br>* Half-bounded intervals: &quot;2018-02-12T00:00:00Z/..&quot; or &quot;../2018-03-18T12:31:12Z&quot;<br>Only resources that have a temporal property that intersects the value of <code>datetime</code> are selected. If a feature has multiple temporal properties, it is the decision of the server whether only a single temporal property is used to determine the extent or all relevant temporal properties.</td>
+</tr>
+<tr>
+<td>parameter-name</td>
+<td>Names or concept ids of the UMM-Var variables to be retrieved. Without parameter-name or a value of &quot;all&quot; to retrieve all variables. <br> Multiple variables may be retrieved by separating them with a comma.</td>
+</tr>
+<tr>
+<td>crs</td>
+<td>reproject the output coverage to the given CRS. Recognizes CRS types that can be</td>
+</tr>
+<tr>
+<td>f</td>
+<td>the mime-type of the output format to return</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p><strong>Table 4</strong> - Harmony OGC EDR API query parameters common to all spatial subsetting routes</p>
+<h5 id="harmony-extended-query-parameters-for-ogc-edr-routes" tabindex="-1"><a class="header-anchor" href="#harmony-extended-query-parameters-for-ogc-edr-routes">§</a> Harmony Extended Query Parameters for OGC EDR Routes</h5>
+<table>
+<thead>
+<tr>
+<th>parameter</th>
+<th>description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>concatenate</td>
+<td>requests results to be concatenated into a single result</td>
+</tr>
+<tr>
+<td>forceAsync</td>
+<td>if &quot;true&quot;, override the default API behavior and always treat the request as asynchronous</td>
+</tr>
+<tr>
+<td>destinationUrl</td>
+<td>destination url specified by the client; currently only s3 link urls are supported (e.g. s3://my-bucket-name/mypath) and will result in the job being run asynchronously</td>
+</tr>
+<tr>
+<td>granuleId</td>
+<td>the CMR Granule ID for the granule which should be retrieved</td>
+</tr>
+<tr>
+<td>granuleName</td>
+<td>passed to the CMR search as the readable_granule_name parameter. Supports * and ?  wildcards for multiple and single character matches. Wildcards can be used any place in the name, but leading wildcards are discouraged as they require a lot of resources for the underlying search</td>
+</tr>
+<tr>
+<td>grid</td>
+<td>the name of the output grid to use for regridding requests. The name must match the UMM</td>
+</tr>
+<tr>
+<td>ignoreErrors</td>
+<td>if &quot;true&quot;, continue processing a request to completion even if some items fail. If &quot;false&quot; immediately fail the request. Defaults to true</td>
+</tr>
+<tr>
+<td>interpolation</td>
+<td>specify the interpolation method used during reprojection and scaling</td>
+</tr>
+<tr>
+<td>label</td>
+<td>the label(s) to add for the job that runs the request. Multiple labels can be specified as a comma-separated list. A label can contain any characters up to a 255 character limit, but if a label contains commas the request can only be a POST with with the label field in the body. It is best practice to avoid commas in labels. Labels will be rejected if deemed inappropriate. Labels are always converted to lower case.</td>
+</tr>
+<tr>
+<td>maxResults</td>
+<td>limits the number of input files processed in the request</td>
+</tr>
+<tr>
+<td>scaleExtent</td>
+<td>scale the resulting coverage along one axis to a given extent</td>
+</tr>
+<tr>
+<td>scaleSize</td>
+<td>scale the resulting coverage along one axis to a given size</td>
+</tr>
+<tr>
+<td>skipPreview</td>
+<td>if &quot;true&quot;, override the default API behavior and never auto-pause jobs</td>
+</tr>
+<tr>
+<td>subset</td>
+<td>get a subset of the coverage by slicing or trimming along one axis. Harmony supports arbitrary dimension names for subsetting on numeric ranges for that dimension.</td>
+</tr>
+<tr>
+<td>height</td>
+<td>number of rows to return in the output coverage</td>
+</tr>
+<tr>
+<td>width</td>
+<td>number of columns to return in the output coverage</td>
+</tr>
+<tr>
+<td>average</td>
+<td>requests the data to be averaged over either time or area</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p><strong>Table 5</strong> - Harmony extended parameters for all OGC EDR API routes</p>
+<h5 id="ogc-edr-cube-subsetting-query-parameters" tabindex="-1"><a class="header-anchor" href="#ogc-edr-cube-subsetting-query-parameters">§</a> OGC EDR Cube Subsetting Query Parameters</h5>
+<table>
+<thead>
+<tr>
+<th>parameter</th>
+<th>description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>bbox</td>
+<td>The bounding box is provided as four or six numbers, depending on whether the coordinate reference system includes a vertical axis (height or depth):<br>* Lower left corner, coordinate axis 1<br>* Lower left corner, coordinate axis 2<br>* Minimum value, coordinate axis 3 (optional)<br>* Upper right corner, coordinate axis 1<br>* Upper right corner, coordinate axis 2<br>* Maximum value, coordinate axis 3 (optional)<br>The coordinate reference system of the values is WGS 84 longitude/latitude (<a href="http://www.opengis.net/def/crs/OGC/1.3/CRS84">http://www.opengis.net/def/crs/OGC/1.3/CRS84</a>) unless a different coordinate reference system is specified in the parameter bbox-crs. For WGS 84 longitude/latitude the values are in most cases the sequence of minimum longitude, minimum latitude, maximum longitude and maximum latitude. However, in cases where the box spans the antimeridian the first value (west-most box edge) is larger than the third value (east-most box edge). If the vertical axis is included, the third and the sixth number are the bottom and the top of the 3-dimensional bounding box. If a feature has multiple spatial geometry properties, it is the decision of the server whether only a single spatial geometry property is used to determine the extent or all relevant geometries.</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p><strong>Table 6</strong> - OGC EDR API cube parameters</p>
+<p>A sample OGC EDR cube request is as follows</p>
+<pre class="hljs"><code>
+curl -Lnbj &quot;https://harmony.earthdata.nasa.gov/ogc-api-edr/1.1.0/collections/C1234208438-POCLOUD/cube?maxResults=1&amp;bbox=-140,20,-50,60&quot; -o output
+
+</code><div class="m-mdic-copy-wrapper"><div class="u-mdic-copy-notify" id="j-notify-1794527095285-26679">COPIED</div><button class="u-mdic-copy-btn j-mdic-copy-btn" data-mdic-content="
+curl -Lnbj &quot;https://harmony.earthdata.nasa.gov/ogc-api-edr/1.1.0/collections/C1234208438-POCLOUD/cube?maxResults=1&bbox=-140,20,-50,60&quot; -o output
+
+" data-mdic-attach-content="" data-mdic-notify-id="j-notify-1794527095285-26679" data-mdic-notify-delay="2000" data-mdic-copy-fail-text="copy fail" onclick="!function(t){const e={copy:(t='',e='')=>new Promise((c,o)=>{const n=document.createElement('textarea'),d=e?`\n\n${e}`:e;n.value=`${t}${d}`,document.body.appendChild(n),n.select();try{const t=document.execCommand('copy');document.body.removeChild(n),t?c():o()}catch(t){document.body.removeChild(n),o()}}),btnClick(t){const c=t&&t.dataset?t.dataset:{},o=c.mdicNotifyId,n=document.getElementById(o),d=c.mdicNotifyDelay,i=c.mdicCopyFailText;e.copy(c.mdicContent,c.mdicAttachContent).then(()=>{n.style.display='block',setTimeout(()=>{n.style.display='none'},d)}).catch(()=>{alert(i)})}};e.btnClick(t)}(this);">COPY</button></div></pre>
+<p><strong>Example 13</strong> - Curl command for an OGC EDR cube request</p>
+<h5 id="ogc-edr-area-subsetting-query-parameters" tabindex="-1"><a class="header-anchor" href="#ogc-edr-area-subsetting-query-parameters">§</a> OGC EDR Area Subsetting Query Parameters</h5>
+<table>
+<thead>
+<tr>
+<th>parameter</th>
+<th>description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>coords</td>
+<td>(required) A Well Known Text (WKT) POLYGON or MULTIPOLYGON string. Coordinates MUST be in counter-clockwise order.</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p><strong>Table 7</strong> - OGC EDR API area parameters</p>
+<p>A sample OGC EDR area request is as follows</p>
+<pre class="hljs"><code>
+curl -Lnbj &quot;https://harmony.earthdata.nasa.gov/ogc-api-edr/1.1.0/collections/C1234208438-POCLOUD/area?maxResults=1&amp;parameter-name=all&amp;coords=POLYGON%20%28%28-65.390625%20-13.239945%2C%20-29.882813%20-50.958427%2C%2017.929688%2030.145127%2C%20-65.390625%20-13.239945%29%29&quot; -o output
+
+</code><div class="m-mdic-copy-wrapper"><div class="u-mdic-copy-notify" id="j-notify-1794527095285-29303">COPIED</div><button class="u-mdic-copy-btn j-mdic-copy-btn" data-mdic-content="
+curl -Lnbj &quot;https://harmony.earthdata.nasa.gov/ogc-api-edr/1.1.0/collections/C1234208438-POCLOUD/area?maxResults=1&parameter-name=all&coords=POLYGON%20%28%28-65.390625%20-13.239945%2C%20-29.882813%20-50.958427%2C%2017.929688%2030.145127%2C%20-65.390625%20-13.239945%29%29&quot; -o output
+
+" data-mdic-attach-content="" data-mdic-notify-id="j-notify-1794527095285-29303" data-mdic-notify-delay="2000" data-mdic-copy-fail-text="copy fail" onclick="!function(t){const e={copy:(t='',e='')=>new Promise((c,o)=>{const n=document.createElement('textarea'),d=e?`\n\n${e}`:e;n.value=`${t}${d}`,document.body.appendChild(n),n.select();try{const t=document.execCommand('copy');document.body.removeChild(n),t?c():o()}catch(t){document.body.removeChild(n),o()}}),btnClick(t){const c=t&&t.dataset?t.dataset:{},o=c.mdicNotifyId,n=document.getElementById(o),d=c.mdicNotifyDelay,i=c.mdicCopyFailText;e.copy(c.mdicContent,c.mdicAttachContent).then(()=>{n.style.display='block',setTimeout(()=>{n.style.display='none'},d)}).catch(()=>{alert(i)})}};e.btnClick(t)}(this);">COPY</button></div></pre>
+<p><strong>Example 14</strong> - Curl command for an OGC EDR area request</p>
+<h5 id="ogc-edr-position-subsetting-query-parameters" tabindex="-1"><a class="header-anchor" href="#ogc-edr-position-subsetting-query-parameters">§</a> OGC EDR Position Subsetting Query Parameters</h5>
+<table>
+<thead>
+<tr>
+<th>parameter</th>
+<th>description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>coords</td>
+<td>(required) A Well Known Text (WKT) POINT or MULTIPOINT string.</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p><strong>Table 8</strong> - OGC EDR API position parameters</p>
+<p>A sample OGC EDR position request is as follows</p>
+<pre class="hljs"><code>
+curl -Lnbj &quot;https://harmony.earthdata.nasa.gov/ogc-api-edr/1.1.0/collections/C1234208438-POCLOUD/position?maxResults=1&amp;parameter-name=all&amp;coords=POINT%20(-40%2010)&quot; -o output
+
+</code><div class="m-mdic-copy-wrapper"><div class="u-mdic-copy-notify" id="j-notify-1794527095285-30215">COPIED</div><button class="u-mdic-copy-btn j-mdic-copy-btn" data-mdic-content="
+curl -Lnbj &quot;https://harmony.earthdata.nasa.gov/ogc-api-edr/1.1.0/collections/C1234208438-POCLOUD/position?maxResults=1&parameter-name=all&coords=POINT%20(-40%2010)&quot; -o output
+
+" data-mdic-attach-content="" data-mdic-notify-id="j-notify-1794527095285-30215" data-mdic-notify-delay="2000" data-mdic-copy-fail-text="copy fail" onclick="!function(t){const e={copy:(t='',e='')=>new Promise((c,o)=>{const n=document.createElement('textarea'),d=e?`\n\n${e}`:e;n.value=`${t}${d}`,document.body.appendChild(n),n.select();try{const t=document.execCommand('copy');document.body.removeChild(n),t?c():o()}catch(t){document.body.removeChild(n),o()}}),btnClick(t){const c=t&&t.dataset?t.dataset:{},o=c.mdicNotifyId,n=document.getElementById(o),d=c.mdicNotifyDelay,i=c.mdicCopyFailText;e.copy(c.mdicContent,c.mdicAttachContent).then(()=>{n.style.display='block',setTimeout(()=>{n.style.display='none'},d)}).catch(()=>{alert(i)})}};e.btnClick(t)}(this);">COPY</button></div></pre>
+<p><strong>Example 15</strong> - Curl command for an OGC EDR position request</p>
+<h5 id="ogc-edr-trajectory-subsetting-query-parameters" tabindex="-1"><a class="header-anchor" href="#ogc-edr-trajectory-subsetting-query-parameters">§</a> OGC EDR Trajectory Subsetting Query Parameters</h5>
+<table>
+<thead>
+<tr>
+<th>parameter</th>
+<th>description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>coords</td>
+<td>(required) A Well Known Text (WKT) LINESTRING or MULTILINESTRING string.</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p><strong>Table 9</strong> - OGC EDR API trajectory parameters</p>
+<p>A sample OGC EDR trajectory request is as follows</p>
+<pre class="hljs"><code>
+curl -Lnbj &quot;https://harmony.earthdata.nasa.gov/ogc-api-edr/1.1.0/collections/C1234208438-POCLOUD/trajectory?maxResults=1&amp;parameter-name=all&amp;coords=LINESTRING(-40%2010%2C%2030%2010)&quot; -o output
+
+</code><div class="m-mdic-copy-wrapper"><div class="u-mdic-copy-notify" id="j-notify-1794527095285-5159">COPIED</div><button class="u-mdic-copy-btn j-mdic-copy-btn" data-mdic-content="
+curl -Lnbj &quot;https://harmony.earthdata.nasa.gov/ogc-api-edr/1.1.0/collections/C1234208438-POCLOUD/trajectory?maxResults=1&parameter-name=all&coords=LINESTRING(-40%2010%2C%2030%2010)&quot; -o output
+
+" data-mdic-attach-content="" data-mdic-notify-id="j-notify-1794527095285-5159" data-mdic-notify-delay="2000" data-mdic-copy-fail-text="copy fail" onclick="!function(t){const e={copy:(t='',e='')=>new Promise((c,o)=>{const n=document.createElement('textarea'),d=e?`\n\n${e}`:e;n.value=`${t}${d}`,document.body.appendChild(n),n.select();try{const t=document.execCommand('copy');document.body.removeChild(n),t?c():o()}catch(t){document.body.removeChild(n),o()}}),btnClick(t){const c=t&&t.dataset?t.dataset:{},o=c.mdicNotifyId,n=document.getElementById(o),d=c.mdicNotifyDelay,i=c.mdicCopyFailText;e.copy(c.mdicContent,c.mdicAttachContent).then(()=>{n.style.display='block',setTimeout(()=>{n.style.display='none'},d)}).catch(()=>{alert(i)})}};e.btnClick(t)}(this);">COPY</button></div></pre>
+<p><strong>Example 16</strong> - Curl command for an OGC EDR trajectory request</p>
+<h4 id="wms-requests" tabindex="-1"><a class="header-anchor" href="#wms-requests">§</a> WMS Requests</h4>
+<p>Harmony provides an implementation of the <a href="https://www.ogc.org/standard/wms/">OGC Web Map Service (WMS) API</a> version 1.3.0. Harmony only supports the <code>GetCapabilities</code> and <code>GetMap</code> requests.</p>
+<p>The API uses both URL path and query parameters.</p>
+<h5 id="url-path-parameters-2" tabindex="-1"><a class="header-anchor" href="#url-path-parameters-2">§</a> URL Path Parameters</h5>
+<table>
+<thead>
+<tr>
+<th>parameter</th>
+<th>required</th>
+<th>description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>collection</td>
+<td>Y</td>
+<td>this parameter is the same as the <code>collection</code> parameter described in the OGC Coverages API above.</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p><strong>Table 10</strong> - Harmony WMS API URL path (required) parameters</p>
+<h5 id="common-query-parameters" tabindex="-1"><a class="header-anchor" href="#common-query-parameters">§</a> Common Query Parameters</h5>
+<table>
+<thead>
+<tr>
+<th>parameter</th>
+<th>required</th>
+<th>description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>service</td>
+<td>Y</td>
+<td>the service for the request. Must be equal to 'WMS'</td>
+</tr>
+<tr>
+<td>version</td>
+<td>Y</td>
+<td>the WMS version to use. Must be equal to '1.3.0'</td>
+</tr>
+<tr>
+<td>request</td>
+<td>Y</td>
+<td>the action being requested. Valid values are <code>GetCapabilities</code> and <code>GetMap</code></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p><strong>Table 11</strong> - Required query parameters for both <code>GetCapabilities</code> and <code>GetMap</code></p>
+<h5 id="query-parameters-for-getmap---standard-wms" tabindex="-1"><a class="header-anchor" href="#query-parameters-for-getmap---standard-wms">§</a> Query Parameters for GetMap - Standard WMS</h5>
+<table>
+<thead>
+<tr>
+<th>parameter</th>
+<th>required</th>
+<th>description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>layers</td>
+<td>Y</td>
+<td>comma-separated list of layer names to display on map</td>
+</tr>
+<tr>
+<td>bbox</td>
+<td>Y</td>
+<td>the bounding box for the map as comma separated values in WSEN order</td>
+</tr>
+<tr>
+<td>crs</td>
+<td>Y</td>
+<td>Spatial Reference System for map output. Value is in form EPSG:nnn</td>
+</tr>
+<tr>
+<td>format</td>
+<td>Y</td>
+<td>output format mime-type</td>
+</tr>
+<tr>
+<td>styles</td>
+<td>Y</td>
+<td>Styles in which layers are to be rendered. Value is a comma-separated list of style names, or empty if default styling is required. Style names may be empty in the list, to use default layer styling.</td>
+</tr>
+<tr>
+<td>width</td>
+<td>Y</td>
+<td>width in pixels of the output</td>
+</tr>
+<tr>
+<td>height</td>
+<td>Y</td>
+<td>height in pixels of the output</td>
+</tr>
+<tr>
+<td>bgcolor</td>
+<td>N</td>
+<td>Background color for the map image. Value is in the form RRGGBB. Default is FFFFFF (white).</td>
+</tr>
+<tr>
+<td>exceptions</td>
+<td>N</td>
+<td>Format in which to report exceptions. Default value is application/vnd.ogc.se_xml</td>
+</tr>
+<tr>
+<td>transparent</td>
+<td>N</td>
+<td>whether the output background should be transparent (<code>true</code> or <code>false</code>). default is <code>false</code></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p><strong>Table 12</strong> - Standard WMS query parameters for <code>GetMap</code></p>
+<h5 id="additional-harmony-parameters-for-wms-requests" tabindex="-1"><a class="header-anchor" href="#additional-harmony-parameters-for-wms-requests">§</a> Additional Harmony parameters for WMS requests</h5>
+<table>
+<thead>
+<tr>
+<th>parameter</th>
+<th>required</th>
+<th>description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>dpi</td>
+<td>N</td>
+<td>the dots-per-inch (DPI) resolution for image output</td>
+</tr>
+<tr>
+<td>map_resolution</td>
+<td>N</td>
+<td>the DPI resolution for image output</td>
+</tr>
+<tr>
+<td>granuleId</td>
+<td>N</td>
+<td>the CMR Granule ID for the granule of interest</td>
+</tr>
+<tr>
+<td>granuleName</td>
+<td>N</td>
+<td>passed to the CMR search as the readable_granule_name parameter. Supports * and ?  wildcards for multiple and single character matches. Wildcards can be used any place in the name, but leading wildcards are discouraged as they require a lot of resources for the underlying search</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p><strong>Table 13</strong> - Additional (non-OGC) query parameters for Harmony WMS queries</p>
+<p><code>GetCapabilities</code> requests return an XML document, while <code>GetMap</code> requests return an image.</p>
+<!--- LEAVING THIS HERE - UNCOMMENT/UPDATE WHEN WE GET WMS WORKING IN PROD
+Here is a sample `GetMap` request:
+
+```
+
+http://localhost:3000/C1233800302-EEDTEST/wms?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&BBOX=-180,-90,154.4170924291685765,90&CRS=CRS%3A84&WIDTH=2000&HEIGHT=1078&LAYERS=C1233800302-EEDTEST&STYLES&FORMAT=image%2Fpng&DPI=72&MAP_RESOLUTION=72&TRANSPARENT=TRUE&granuleId=G1233800343-EEDTEST
+
+```
+**Example {{exampleCounter}}** - A sample WMS request
+-->
+<br>
+<br>
+<h2 id="available-services" tabindex="-1"><a class="header-anchor" href="#available-services">§</a> Available Services</h2>
+<p>Harmony requests are declarative rather than imperative, so a request specifies the particular
+data of interest, time range of interest, spatial bounds of interest, desired output format, etc.
+Harmony then matches this declaration against available services and invokes the matching services
+on behalf of the user. All of which is to say <mark>the user does not request specific services directly</mark>.
+Despite this, it can be useful for a user to know what services are available, what their
+capabilities are, and which services can work together.</p>
+<h4 id="service-versions" tabindex="-1"><a class="header-anchor" href="#service-versions">§</a> Service Versions</h4>
+<p>Harmony services run in containers in pods in a Kubernetes cluster. It is not possible for users
+to interact directly with these pods, but it may be useful to know some of the details about
+the running versions. The specific docker image and
+tag for each service can be retrieved from the <a href="/versions">versions</a> route.</p>
+<h4 id="service-capabilities" tabindex="-1"><a class="header-anchor" href="#service-capabilities">§</a> Service Capabilities</h4>
+<p>The following tables provide an overview of the deployed services with a description of
+each and what capabilities they provide.</p>
+<div class="service_container"><p><span class="service_name">Name: </span>harmony/download<br>
+<span class="service_name">Description:</span><p>Service that performs no processing, it only returns download links for all of the matched granules from the CMR.</p>
+</p><table class="service_table"><tr><th colspan="8" class="table_title">Capabilities</th></tr><tr><th colspan="5">subsetting</th><th>concatenation</th><th>reprojection</th><th>output formats</th></tr><tr><th class="subheader">bounding box</td><th class="subheader">shape</td><th class="subheader">temporal</td><th class="subheader">variable</td><th class="subheader">multiple variable</td><td rowspan="2">N</td><td rowspan="2">N</td><td rowspan="2">application/netcdf</td></tr><tr><td>N</td><td>N</td><td>N</td><td>N</td><td>N</td><td colspan="3" class="filler_data"></td></tr></table></div><div class="service_container"><p><span class="service_name">Name: </span>asdc/casper<br>
+<span class="service_name">Description:</span><p>Service that converts a NetCDF file to one or more CSV files.</p>
+</p><table class="service_table"><tr><th colspan="8" class="table_title">Capabilities</th></tr><tr><th colspan="5">subsetting</th><th>concatenation</th><th>reprojection</th><th>output formats</th></tr><tr><th class="subheader">bounding box</td><th class="subheader">shape</td><th class="subheader">temporal</td><th class="subheader">variable</td><th class="subheader">multiple variable</td><td rowspan="2">N</td><td rowspan="2">N</td><td rowspan="2">text/csv</td></tr><tr><td>N</td><td>N</td><td>N</td><td>N</td><td>N</td><td colspan="3" class="filler_data"></td></tr></table></div><div class="service_container"><p><span class="service_name">Name: </span>giovanni-time-series-adapter<br>
+<span class="service_name">Description:</span><p>A service to compose the Giovanni URL for a time series and invoke Giovanni service to produce output file to visualize, analyze,
+and access vast amounts of Earth science remote sensing data without having to download the data.</p>
+</p><table class="service_table"><tr><th colspan="8" class="table_title">Capabilities</th></tr><tr><th colspan="5">subsetting</th><th>concatenation</th><th>reprojection</th><th>output formats</th></tr><tr><th class="subheader">bounding box</td><th class="subheader">shape</td><th class="subheader">temporal</td><th class="subheader">variable</td><th class="subheader">multiple variable</td><td rowspan="2">N</td><td rowspan="2">N</td><td rowspan="2">text/csv</td></tr><tr><td>N</td><td>N</td><td>Y</td><td>Y</td><td>N</td><td colspan="3" class="filler_data"></td></tr></table></div><div class="service_container"><p><span class="service_name">Name: </span>podaac/l2-subsetter<br>
+<span class="service_name">Description:</span><p>Implementation of the L2 swath subsetter based on python, xarray and netcdf4.</p>
+<ul>
+<li>Works with Trajectory (1D) and Along track/across track data.</li>
+<li>Works with NetCDF and HDF5 inputfiles</li>
+<li>Variable subsetting supported</li>
+<li>works with hierarchical groups
+Outputs netcdf4.</li>
+</ul>
+</p><table class="service_table"><tr><th colspan="8" class="table_title">Capabilities</th></tr><tr><th colspan="5">subsetting</th><th>concatenation</th><th>reprojection</th><th>output formats</th></tr><tr><th class="subheader">bounding box</td><th class="subheader">shape</td><th class="subheader">temporal</td><th class="subheader">variable</td><th class="subheader">multiple variable</td><td rowspan="2">N</td><td rowspan="2">N</td><td rowspan="2">application/netcdf</td></tr><tr><td>Y</td><td>Y</td><td>Y</td><td>Y</td><td>N</td><td colspan="3" class="filler_data"></td></tr></table></div><div class="service_container"><p><span class="service_name">Name: </span>podaac/concise<br>
+<span class="service_name">Description:</span><p>Service capabale of &quot;concatenating&quot; multiple netCDF files into a single netCDF files.
+The resulting file has an extra dimension with size equal to the number of input files where each slice in that dimension corresponds to the data from one of the inputs.</p>
+</p><table class="service_table"><tr><th colspan="8" class="table_title">Capabilities</th></tr><tr><th colspan="5">subsetting</th><th>concatenation</th><th>reprojection</th><th>output formats</th></tr><tr><th class="subheader">bounding box</td><th class="subheader">shape</td><th class="subheader">temporal</td><th class="subheader">variable</td><th class="subheader">multiple variable</td><td rowspan="2">DEFAULT</td><td rowspan="2">N</td><td rowspan="2">application/netcdf</td></tr><tr><td>N</td><td>N</td><td>N</td><td>N</td><td>N</td><td colspan="3" class="filler_data"></td></tr></table></div><div class="service_container"><p><span class="service_name">Name: </span>podaac/l2-subsetter-concise<br>
+<span class="service_name">Description:</span><h5>Chained Service of the PODAAC L2 swath subsetter and PODAAC concise services.</h5>
+<h6>PODAAC L2 swath subsetter</h6>
+<ul>
+<li>Works with Trajectory (1D) and Along track/across track data.</li>
+<li>Works with NetCDF and HDF5 inputfiles</li>
+<li>Variable subsetting supported</li>
+<li>works with hierarchical groups
+Outputs netcdf4.</li>
+</ul>
+<h6>PODAAC concise services</h6>
+<p>Service capabale of &quot;concatenating&quot; multiple netCDF files into a single netCDF files.
+The resulting file has an extra dimension with size equal to the number of input files where each slice in that dimension corresponds to the data from one of the inputs.</p>
+</p><table class="service_table"><tr><th colspan="8" class="table_title">Capabilities</th></tr><tr><th colspan="5">subsetting</th><th>concatenation</th><th>reprojection</th><th>output formats</th></tr><tr><th class="subheader">bounding box</td><th class="subheader">shape</td><th class="subheader">temporal</td><th class="subheader">variable</td><th class="subheader">multiple variable</td><td rowspan="2">DEFAULT</td><td rowspan="2">N</td><td rowspan="2">application/netcdf</td></tr><tr><td>Y</td><td>Y</td><td>Y</td><td>Y</td><td>N</td><td colspan="3" class="filler_data"></td></tr></table></div><div class="service_container"><p><span class="service_name">Name: </span>variable-only-opendap-subsetter<br>
+<span class="service_name">Description:</span><p>The Variable Only OPeNDAP Subsetter (VOSS) provides only variable subsetting.
+Accesses NetCDF-4 files and retrieves the requested list of variables,
+plus all those that are required to support meaningful downstream
+operations upon those data (e.g. associated coordinate variables).</p>
+</p><table class="service_table"><tr><th colspan="8" class="table_title">Capabilities</th></tr><tr><th colspan="5">subsetting</th><th>concatenation</th><th>reprojection</th><th>output formats</th></tr><tr><th class="subheader">bounding box</td><th class="subheader">shape</td><th class="subheader">temporal</td><th class="subheader">variable</td><th class="subheader">multiple variable</td><td rowspan="2">N</td><td rowspan="2">N</td><td rowspan="2">application/netcdf,application/x-netcdf4;profile=opendap_url</td></tr><tr><td>N</td><td>N</td><td>N</td><td>Y</td><td>N</td><td colspan="3" class="filler_data"></td></tr></table></div><div class="service_container"><p><span class="service_name">Name: </span>sds/trajectory-subsetter<br>
+<span class="service_name">Description:</span><p>A service that supports L2 segmented trajectory (<strong>not swath</strong>) data.
+Currently uses the same C++ binary as is on-premises in SDPS, to offer variable, temporal, bounding box spatial and polygon spatial subsetting.
+<strong>This subsetter also ensures valid segment indices and sizes following transformation.</strong></p>
+</p><table class="service_table"><tr><th colspan="8" class="table_title">Capabilities</th></tr><tr><th colspan="5">subsetting</th><th>concatenation</th><th>reprojection</th><th>output formats</th></tr><tr><th class="subheader">bounding box</td><th class="subheader">shape</td><th class="subheader">temporal</td><th class="subheader">variable</td><th class="subheader">multiple variable</td><td rowspan="2">N</td><td rowspan="2">N</td><td rowspan="2">application/x-hdf</td></tr><tr><td>Y</td><td>Y</td><td>Y</td><td>Y</td><td>N</td><td colspan="3" class="filler_data"></td></tr></table></div><div class="service_container"><p><span class="service_name">Name: </span>sds/HOSS-geographic<br>
+<span class="service_name">Description:</span><p>A service that currently supports L3/L4 geographically gridded collections, offering variable, temporal, named dimension, bounding box spatial and shape file spatial subsetting.</p>
+<p>Accesses NetCDF-4 files hosted in Hyrax cloud service (OPeNDAP), and retrieves the requested list of variables,
+plus all those that are required to support meaningful downstream operations upon those data (e.g. associated coordinate variables).</p>
+<p>This service is currently operated from the same HOSS Docker image as the variable-only-opendap-subsetter service.</p>
+</p><table class="service_table"><tr><th colspan="8" class="table_title">Capabilities</th></tr><tr><th colspan="5">subsetting</th><th>concatenation</th><th>reprojection</th><th>output formats</th></tr><tr><th class="subheader">bounding box</td><th class="subheader">shape</td><th class="subheader">temporal</td><th class="subheader">variable</td><th class="subheader">multiple variable</td><td rowspan="2">N</td><td rowspan="2">N</td><td rowspan="2">application/netcdf</td></tr><tr><td>Y</td><td>Y</td><td>Y</td><td>Y</td><td>N</td><td colspan="3" class="filler_data"></td></tr></table></div><div class="service_container"><p><span class="service_name">Name: </span>sds/HOSS-projection-gridded<br>
+<span class="service_name">Description:</span><p>A service that currently supports L3/L4 projection-gridded collections, offering variable, temporal, named dimension, bounding box spatial and shape file spatial subsetting.</p>
+<p>Accesses NetCDF-4 files hosted in Hyrax cloud service (OPeNDAP), and retrieves the requested list of variables,
+plus all those that are required to support meaningful downstream operations upon those data (e.g. associated coordinate variables).</p>
+<p>This service is currently operated from the same Docker image as the variable-only-opendap-subsetter service.</p>
+</p><table class="service_table"><tr><th colspan="8" class="table_title">Capabilities</th></tr><tr><th colspan="5">subsetting</th><th>concatenation</th><th>reprojection</th><th>output formats</th></tr><tr><th class="subheader">bounding box</td><th class="subheader">shape</td><th class="subheader">temporal</td><th class="subheader">variable</td><th class="subheader">multiple variable</td><td rowspan="2">N</td><td rowspan="2">N</td><td rowspan="2">application/netcdf</td></tr><tr><td>Y</td><td>Y</td><td>Y</td><td>Y</td><td>N</td><td colspan="3" class="filler_data"></td></tr></table></div><div class="service_container"><p><span class="service_name">Name: </span>sds/HOSS-regridder-reformatter<br>
+<span class="service_name">Description:</span><p>A service chain for applying the Harmony Metadata Annotator to HOSS/Maskfill
+output, producing CF compliant annotated NetCDF4 outputs. This service chain
+is also intended to be used for producing regridded outputs using the harmony-regridder
+and to produce GeoTIFF outputs using net2cog.</p>
+</p><table class="service_table"><tr><th colspan="8" class="table_title">Capabilities</th></tr><tr><th colspan="5">subsetting</th><th>concatenation</th><th>reprojection</th><th>output formats</th></tr><tr><th class="subheader">bounding box</td><th class="subheader">shape</td><th class="subheader">temporal</td><th class="subheader">variable</td><th class="subheader">multiple variable</td><td rowspan="2">N</td><td rowspan="2">Y</td><td rowspan="2">application/netcdf,image/tiff</td></tr><tr><td>Y</td><td>Y</td><td>Y</td><td>Y</td><td>N</td><td colspan="3" class="filler_data"></td></tr></table></div><div class="service_container"><p><span class="service_name">Name: </span>sds/hoss-opendap-url<br>
+<span class="service_name">Description:</span><p>The Harmony OPeNDAP URL Service (HOUSe) is a service chain that returns
+the OPeNDAP request URL created in a HOSS request instead of the subsetted
+granule. This limits the capabilities of HOUSe to things that can be
+directly requested from OPeNDAP in the form of array index ranges.</p>
+</p><table class="service_table"><tr><th colspan="8" class="table_title">Capabilities</th></tr><tr><th colspan="5">subsetting</th><th>concatenation</th><th>reprojection</th><th>output formats</th></tr><tr><th class="subheader">bounding box</td><th class="subheader">shape</td><th class="subheader">temporal</td><th class="subheader">variable</td><th class="subheader">multiple variable</td><td rowspan="2">N</td><td rowspan="2">N</td><td rowspan="2">application/x-netcdf4;profile=opendap_url</td></tr><tr><td>Y</td><td>N</td><td>N</td><td>Y</td><td>N</td><td colspan="3" class="filler_data"></td></tr></table></div><div class="service_container"><p><span class="service_name">Name: </span>sds/swath-projector<br>
+<span class="service_name">Description:</span><p>Takes NetCDF-4 input files and projects input swath variables to an output grid.
+Target CRS, output grid dimensions, extents and/or resolutions can be specified in the Harmony request.</p>
+</p><table class="service_table"><tr><th colspan="8" class="table_title">Capabilities</th></tr><tr><th colspan="5">subsetting</th><th>concatenation</th><th>reprojection</th><th>output formats</th></tr><tr><th class="subheader">bounding box</td><th class="subheader">shape</td><th class="subheader">temporal</td><th class="subheader">variable</td><th class="subheader">multiple variable</td><td rowspan="2">N</td><td rowspan="2">Y</td><td rowspan="2">application/netcdf</td></tr><tr><td>N</td><td>N</td><td>N</td><td>N</td><td>N</td><td colspan="3" class="filler_data"></td></tr></table></div><div class="service_container"><p><span class="service_name">Name: </span>ldds/subset-band-name<br>
+<span class="service_name">Description:</span><p>Subset by Band and Name service capable of subsetting HDF4/HDF-EOS2 SDS variables by name and band.</p>
+</p><table class="service_table"><tr><th colspan="8" class="table_title">Capabilities</th></tr><tr><th colspan="5">subsetting</th><th>concatenation</th><th>reprojection</th><th>output formats</th></tr><tr><th class="subheader">bounding box</td><th class="subheader">shape</td><th class="subheader">temporal</td><th class="subheader">variable</td><th class="subheader">multiple variable</td><td rowspan="2">N</td><td rowspan="2">N</td><td rowspan="2">application/x-hdf</td></tr><tr><td>N</td><td>N</td><td>N</td><td>Y</td><td>Y</td><td colspan="3" class="filler_data"></td></tr></table></div><div class="service_container"><p><span class="service_name">Name: </span>ldds/geoloco<br>
+<span class="service_name">Description:</span><p>Service capable of reprojecting, resampling, regridding, and spatial and SDS subsetting HDF4/HDF-EOS2 SDS variables.
+The wrapper also retrieves the geolocation file name from the input file Core Metadata and downloads it from S3.
+Works with L1B-L4 granules (L1B and L2 granule SDSs are automatically regridded with default setting granule resolution
+and geographic projection).</p>
+</p><table class="service_table"><tr><th colspan="8" class="table_title">Capabilities</th></tr><tr><th colspan="5">subsetting</th><th>concatenation</th><th>reprojection</th><th>output formats</th></tr><tr><th class="subheader">bounding box</td><th class="subheader">shape</td><th class="subheader">temporal</td><th class="subheader">variable</td><th class="subheader">multiple variable</td><td rowspan="2">N</td><td rowspan="2">Y</td><td rowspan="2">application/x-hdf</td></tr><tr><td>Y</td><td>N</td><td>N</td><td>Y</td><td>Y</td><td colspan="3" class="filler_data"></td></tr></table></div><div class="service_container"><p><span class="service_name">Name: </span>l2-subsetter-batchee-stitchee-concise<br>
+<span class="service_name">Description:</span><h5>Subsetter And Multi-dimensional Batched Aggregation in Harmony (SAMBAH)</h5>
+<p>Chained Service of the L2-subsetter, Batchee, STITCHEE, CONCISE, and CASPER services.
+Additional documentation <a href="https://stitchee.readthedocs.io/en/latest/sambah_readme/">here</a>.</p>
+<h6>L2 swath subsetter (L2-subsetter)</h6>
+<ul>
+<li>Works with trajectory (1D) and along track/across track data.</li>
+<li>Works with netCDF and HDF5 input files.</li>
+<li>Supports variable subsetting.</li>
+<li>Supports temporal subsetting.</li>
+<li>Supports shape subsetting</li>
+<li>Works with hierarchical groups.</li>
+<li>Outputs netCDF4.</li>
+</ul>
+<h6>Batchee</h6>
+<ul>
+<li>Service groups together filenames so that further operations (such as concatenation) can be performed separately on each group of files.</li>
+</ul>
+<h6>STITCH by Extending a dimEnsion (Stitchee)</h6>
+<ul>
+<li>Service concatenates a group of netCDF data files along an existing dimension.</li>
+</ul>
+<h6>CONCatenation SErvice (CONCISE)</h6>
+<ul>
+<li>Service capable of &quot;concatenating&quot; multiple netCDF files into a single netCDF file.
+The resulting file has an extra dimension with size equal to the number of input files, where each slice in that dimension corresponds to the data from one of the input files.</li>
+</ul>
+<h6>CASPER</h6>
+<ul>
+<li>Service that converts NetCDF file into CSV format by grouping the variables by their coordinates and outputs each group into a separate CSV file.</li>
+</ul>
+</p><table class="service_table"><tr><th colspan="8" class="table_title">Capabilities</th></tr><tr><th colspan="5">subsetting</th><th>concatenation</th><th>reprojection</th><th>output formats</th></tr><tr><th class="subheader">bounding box</td><th class="subheader">shape</td><th class="subheader">temporal</td><th class="subheader">variable</td><th class="subheader">multiple variable</td><td rowspan="2">Y</td><td rowspan="2">N</td><td rowspan="2">application/netcdf,text/csv</td></tr><tr><td>Y</td><td>Y</td><td>Y</td><td>Y</td><td>N</td><td colspan="3" class="filler_data"></td></tr></table></div><div class="service_container"><p><span class="service_name">Name: </span>asdc/imagenator_l2<br>
+<span class="service_name">Description:</span><p>Chain to create TEMPO L2 imagery for GIBS</p>
+</p><table class="service_table"><tr><th colspan="8" class="table_title">Capabilities</th></tr><tr><th colspan="5">subsetting</th><th>concatenation</th><th>reprojection</th><th>output formats</th></tr><tr><th class="subheader">bounding box</td><th class="subheader">shape</td><th class="subheader">temporal</td><th class="subheader">variable</td><th class="subheader">multiple variable</td><td rowspan="2">N</td><td rowspan="2">Y</td><td rowspan="2">image/png,image/jpeg</td></tr><tr><td>N</td><td>N</td><td>N</td><td>Y</td><td>N</td><td colspan="3" class="filler_data"></td></tr></table></div><div class="service_container"><p><span class="service_name">Name: </span>asdc/imagenator_l3<br>
+<span class="service_name">Description:</span><p>Chain to create TEMPO L3 imagery for GIBS</p>
+</p><table class="service_table"><tr><th colspan="8" class="table_title">Capabilities</th></tr><tr><th colspan="5">subsetting</th><th>concatenation</th><th>reprojection</th><th>output formats</th></tr><tr><th class="subheader">bounding box</td><th class="subheader">shape</td><th class="subheader">temporal</td><th class="subheader">variable</td><th class="subheader">multiple variable</td><td rowspan="2">N</td><td rowspan="2">Y</td><td rowspan="2">image/png,image/jpeg</td></tr><tr><td>N</td><td>N</td><td>N</td><td>Y</td><td>N</td><td colspan="3" class="filler_data"></td></tr></table></div><div class="service_container"><p><span class="service_name">Name: </span>sds/HyBIG<br>
+<span class="service_name">Description:</span><p>The Harmony Browse Image Generator (HyBIG) supports the conversion of
+GeoTIFF inputs to Global Imagery Browse Services (GIBS) compatible PNG or
+JPEG outputs. This includes, where necessary, conversion to a GIBS
+supported Coordinate Reference System (CRS). Other projections can be
+requested, but will not be compatible with GIBS.</p>
+</p><table class="service_table"><tr><th colspan="8" class="table_title">Capabilities</th></tr><tr><th colspan="5">subsetting</th><th>concatenation</th><th>reprojection</th><th>output formats</th></tr><tr><th class="subheader">bounding box</td><th class="subheader">shape</td><th class="subheader">temporal</td><th class="subheader">variable</td><th class="subheader">multiple variable</td><td rowspan="2">N</td><td rowspan="2">Y</td><td rowspan="2">image/png,image/jpeg</td></tr><tr><td>N</td><td>N</td><td>N</td><td>Y</td><td>N</td><td colspan="3" class="filler_data"></td></tr></table></div><div class="service_container"><p><span class="service_name">Name: </span>net2cog<br>
+<span class="service_name">Description:</span><p>Converts NetCDF files to COG. Includes extension for running in NASA Harmony. https://github.com/podaac/net2cog</p>
+</p><table class="service_table"><tr><th colspan="8" class="table_title">Capabilities</th></tr><tr><th colspan="5">subsetting</th><th>concatenation</th><th>reprojection</th><th>output formats</th></tr><tr><th class="subheader">bounding box</td><th class="subheader">shape</td><th class="subheader">temporal</td><th class="subheader">variable</td><th class="subheader">multiple variable</td><td rowspan="2">N</td><td rowspan="2">N</td><td rowspan="2">image/tiff</td></tr><tr><td>N</td><td>N</td><td>N</td><td>Y</td><td>N</td><td colspan="3" class="filler_data"></td></tr></table></div><div class="service_container"><p><span class="service_name">Name: </span>nasa/harmony-gdal-adapter<br>
+<span class="service_name">Description:</span><p>Service translating Harmony operations to GDAL commands.
+Supports spatial bounding box, variable, reprojection,
+and output to GeoTIFF.</p>
+</p><table class="service_table"><tr><th colspan="8" class="table_title">Capabilities</th></tr><tr><th colspan="5">subsetting</th><th>concatenation</th><th>reprojection</th><th>output formats</th></tr><tr><th class="subheader">bounding box</td><th class="subheader">shape</td><th class="subheader">temporal</td><th class="subheader">variable</td><th class="subheader">multiple variable</td><td rowspan="2">N</td><td rowspan="2">Y</td><td rowspan="2">image/tiff</td></tr><tr><td>Y</td><td>N</td><td>N</td><td>Y</td><td>Y</td><td colspan="3" class="filler_data"></td></tr></table></div><div class="service_container"><p><span class="service_name">Name: </span>giovanni-averaging-service<br>
+<span class="service_name">Description:</span><p>A service to compute averaging over specified dimensions on Zarr data on a Dask cluster running in Cloud Giovanni. A time-averaged map
+will produce a GEOTIFF and an area-averaged timeseries will produce a CSV.</p>
+</p><table class="service_table"><tr><th colspan="8" class="table_title">Capabilities</th></tr><tr><th colspan="5">subsetting</th><th>concatenation</th><th>reprojection</th><th>output formats</th></tr><tr><th class="subheader">bounding box</td><th class="subheader">shape</td><th class="subheader">temporal</td><th class="subheader">variable</td><th class="subheader">multiple variable</td><td rowspan="2">N</td><td rowspan="2">N</td><td rowspan="2">text/csv,image/tiff</td></tr><tr><td>Y</td><td>N</td><td>Y</td><td>Y</td><td>N</td><td colspan="3" class="filler_data"></td></tr></table></div><div class="service_container"><p><span class="service_name">Name: </span>asf/opera-rtc-s1-browse<br>
+<span class="service_name">Description:</span><p>Service that generates GIBS-compliant browse imagery for the OPERA_L2_RTC-S1 collection</p>
+</p><table class="service_table"><tr><th colspan="8" class="table_title">Capabilities</th></tr><tr><th colspan="5">subsetting</th><th>concatenation</th><th>reprojection</th><th>output formats</th></tr><tr><th class="subheader">bounding box</td><th class="subheader">shape</td><th class="subheader">temporal</td><th class="subheader">variable</td><th class="subheader">multiple variable</td><td rowspan="2">N</td><td rowspan="2">Y</td><td rowspan="2">image/png</td></tr><tr><td>N</td><td>N</td><td>N</td><td>N</td><td>N</td><td colspan="3" class="filler_data"></td></tr></table></div><div class="service_container"><p><span class="service_name">Name: </span>asf/nisar-py<br>
+<span class="service_name">Description:</span><p>Service that generates GIBS-compliant browse imagery for the NISAR_L2_GCOV_BETA_V1 collection</p>
+</p><table class="service_table"><tr><th colspan="8" class="table_title">Capabilities</th></tr><tr><th colspan="5">subsetting</th><th>concatenation</th><th>reprojection</th><th>output formats</th></tr><tr><th class="subheader">bounding box</td><th class="subheader">shape</td><th class="subheader">temporal</td><th class="subheader">variable</td><th class="subheader">multiple variable</td><td rowspan="2">N</td><td rowspan="2">Y</td><td rowspan="2">image/png</td></tr><tr><td>N</td><td>N</td><td>N</td><td>N</td><td>N</td><td colspan="3" class="filler_data"></td></tr></table></div><div class="service_container"><p><span class="service_name">Name: </span>sds/smap-l2-subsetter-net2cog<br>
+<span class="service_name">Description:</span><p>A service chain for subsetting SMAP L2 collections with the Trajectory
+Subsetter and reformatting that output to Cloud-Optimized GeoTIFF (COG).</p>
+<p>In GeoTIFF reformatting the SMAP L2 Gridder is called first to convert
+the output to NetCDF, which is then plugged into the Net2COG reformatter.</p>
+</p><table class="service_table"><tr><th colspan="8" class="table_title">Capabilities</th></tr><tr><th colspan="5">subsetting</th><th>concatenation</th><th>reprojection</th><th>output formats</th></tr><tr><th class="subheader">bounding box</td><th class="subheader">shape</td><th class="subheader">temporal</td><th class="subheader">variable</td><th class="subheader">multiple variable</td><td rowspan="2">N</td><td rowspan="2">Y</td><td rowspan="2">application/x-hdf,application/netcdf,image/tiff</td></tr><tr><td>Y</td><td>Y</td><td>N</td><td>Y</td><td>N</td><td colspan="3" class="filler_data"></td></tr></table></div><div class="service_container"><p><span class="service_name">Name: </span>harmony/service-example<br>
+<span class="service_name">Description:</span><p>Reference service that can be used to perform most operations supported by Harmony.
+Useful for testing new API features end-to-end on example data but not meant for production use.</p>
+</p><table class="service_table"><tr><th colspan="8" class="table_title">Capabilities</th></tr><tr><th colspan="5">subsetting</th><th>concatenation</th><th>reprojection</th><th>output formats</th></tr><tr><th class="subheader">bounding box</td><th class="subheader">shape</td><th class="subheader">temporal</td><th class="subheader">variable</td><th class="subheader">multiple variable</td><td rowspan="2">N</td><td rowspan="2">Y</td><td rowspan="2">image/tiff,image/png,image/gif</td></tr><tr><td>Y</td><td>N</td><td>N</td><td>Y</td><td>Y</td><td colspan="3" class="filler_data"></td></tr></table></div><br>
+<br>
+<h2 id="user-owned-buckets-for-harmony-output" tabindex="-1"><a class="header-anchor" href="#user-owned-buckets-for-harmony-output">§</a> User Owned Buckets for Harmony Output</h2>
+<p>Users may store Harmony output directly in their own S3 buckets by specifying the bucket/path
+in their requests with the <code>destinationUrl</code> parameter. For example</p>
+<pre class="hljs"><code>
+https://harmony.earthdata.nasa.gov/C1234208438-POCLOUD/ogc-api-coverages/1.0.0/collections/bathymetry/coverage/rangeset?concatenate=true&amp;subset=lon(-160%3A160)&amp;subset=lat(-80%3A80)&amp;skipPreview=true&amp;maxResults=1&amp;destinationUrl=3%3A%2F%2Fmy-staging-bucket
+
+</code><div class="m-mdic-copy-wrapper"><div class="u-mdic-copy-notify" id="j-notify-1794527095285-9105">COPIED</div><button class="u-mdic-copy-btn j-mdic-copy-btn" data-mdic-content="
+https://harmony.earthdata.nasa.gov/C1234208438-POCLOUD/ogc-api-coverages/1.0.0/collections/bathymetry/coverage/rangeset?concatenate=true&subset=lon(-160%3A160)&subset=lat(-80%3A80)&skipPreview=true&maxResults=1&destinationUrl=3%3A%2F%2Fmy-staging-bucket
+
+" data-mdic-attach-content="" data-mdic-notify-id="j-notify-1794527095285-9105" data-mdic-notify-delay="2000" data-mdic-copy-fail-text="copy fail" onclick="!function(t){const e={copy:(t='',e='')=>new Promise((c,o)=>{const n=document.createElement('textarea'),d=e?`\n\n${e}`:e;n.value=`${t}${d}`,document.body.appendChild(n),n.select();try{const t=document.execCommand('copy');document.body.removeChild(n),t?c():o()}catch(t){document.body.removeChild(n),o()}}),btnClick(t){const c=t&&t.dataset?t.dataset:{},o=c.mdicNotifyId,n=document.getElementById(o),d=c.mdicNotifyDelay,i=c.mdicCopyFailText;e.copy(c.mdicContent,c.mdicAttachContent).then(()=>{n.style.display='block',setTimeout(()=>{n.style.display='none'},d)}).catch(()=>{alert(i)})}};e.btnClick(t)}(this);">COPY</button></div></pre>
+<p><strong>Example 17</strong> - Request to store output in user owned S3 bucket</p>
+<p>would place the output in <code>s3://my-example-bucket</code>. Note that <mark>the value of <code>destinationUrl</code> must be a full S3 path and
+must be URL encoded.</mark></p>
+<p>Four things are required to enable Harmony to write to your bucket.</p>
+<ol>
+<li>The bucket must be in the same AWS region as Harmony, i.e., <code>us-west-2</code>.</li>
+<li>The bucket must have ACLs disabled. This is the default for S3 buckets.</li>
+<li>Harmony must have permission to write to the bucket.</li>
+<li>Harmony must have permission to check the bucket's location.</li>
+</ol>
+<p>Numbers three and four on the list can be accomplished by setting an appropriate bucket policy.
+You can obtain a bucket policy for your bucket using the policy generator at
+https://harmony.earthdata.nasa.gov/staging-bucket-policy and passing in the <code>bucketPath</code> query parameter. For example</p>
+<p><a href="https://harmony.earthdata.nasa.gov/staging-bucket-policy?bucketPath=my-example-bucket">https://harmony.earthdata.nasa.gov/staging-bucket-policy?bucketPath=my-example-bucket</a></p>
+<p>The <code>bucketPath</code> parameter can be one of the following</p>
+<ol>
+<li>A bucket name, e.g., <code>my-example-bucket</code></li>
+<li>A bucket name + path, e.g., <code>my-example-bucket/my/path</code></li>
+<li>A full S3 url with our without a path, e.g., <code>s3://my-example-bucket/my/path</code></li>
+</ol>
+<p>The third option is compatible with the <code>destinationUrl</code> parameter for requests.</p>
+<p>Bucket names must conform to the <a href="https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html">AWS bucket naming rules</a>. The path must conform to the <a href="https://docs.aws.amazon.com/AmazonS3/latest/userguide/object-keys.html">AWS object key naming guidelines</a>. Characters listed under &quot;Characters to Avoid&quot; are not supported.</p>
+<p>A sample policy generated by the endpoint is shown below:</p>
+<pre class="hljs"><code>
+<span class="hljs-punctuation">{</span>
+  <span class="hljs-attr">&quot;Version&quot;</span><span class="hljs-punctuation">:</span> <span class="hljs-string">&quot;2012-10-17&quot;</span><span class="hljs-punctuation">,</span>
+  <span class="hljs-attr">&quot;Statement&quot;</span><span class="hljs-punctuation">:</span> <span class="hljs-punctuation">[</span>
+    <span class="hljs-punctuation">{</span>
+      <span class="hljs-attr">&quot;Sid&quot;</span><span class="hljs-punctuation">:</span> <span class="hljs-string">&quot;write permission&quot;</span><span class="hljs-punctuation">,</span>
+      <span class="hljs-attr">&quot;Effect&quot;</span><span class="hljs-punctuation">:</span> <span class="hljs-string">&quot;Allow&quot;</span><span class="hljs-punctuation">,</span>
+      <span class="hljs-attr">&quot;Principal&quot;</span><span class="hljs-punctuation">:</span> <span class="hljs-punctuation">{</span>
+        <span class="hljs-attr">&quot;AWS&quot;</span><span class="hljs-punctuation">:</span> <span class="hljs-string">&quot;arn:aws:iam::123456789012:root&quot;</span>
+      <span class="hljs-punctuation">}</span><span class="hljs-punctuation">,</span>
+      <span class="hljs-attr">&quot;Action&quot;</span><span class="hljs-punctuation">:</span> <span class="hljs-string">&quot;s3:PutObject&quot;</span><span class="hljs-punctuation">,</span>
+      <span class="hljs-attr">&quot;Resource&quot;</span><span class="hljs-punctuation">:</span> <span class="hljs-string">&quot;arn:aws:s3:::my-bucket/*&quot;</span>
+    <span class="hljs-punctuation">}</span><span class="hljs-punctuation">,</span>
+    <span class="hljs-punctuation">{</span>
+      <span class="hljs-attr">&quot;Sid&quot;</span><span class="hljs-punctuation">:</span> <span class="hljs-string">&quot;get bucket location permission&quot;</span><span class="hljs-punctuation">,</span>
+      <span class="hljs-attr">&quot;Effect&quot;</span><span class="hljs-punctuation">:</span> <span class="hljs-string">&quot;Allow&quot;</span><span class="hljs-punctuation">,</span>
+      <span class="hljs-attr">&quot;Principal&quot;</span><span class="hljs-punctuation">:</span> <span class="hljs-punctuation">{</span>
+        <span class="hljs-attr">&quot;AWS&quot;</span><span class="hljs-punctuation">:</span> <span class="hljs-string">&quot;arn:aws:iam::123456789012:root&quot;</span>
+      <span class="hljs-punctuation">}</span><span class="hljs-punctuation">,</span>
+      <span class="hljs-attr">&quot;Action&quot;</span><span class="hljs-punctuation">:</span> <span class="hljs-string">&quot;s3:GetBucketLocation&quot;</span><span class="hljs-punctuation">,</span>
+      <span class="hljs-attr">&quot;Resource&quot;</span><span class="hljs-punctuation">:</span> <span class="hljs-string">&quot;arn:aws:s3:::my-bucket&quot;</span>
+    <span class="hljs-punctuation">}</span>
+  <span class="hljs-punctuation">]</span>
+<span class="hljs-punctuation">}</span>
+
+</code><div class="m-mdic-copy-wrapper"><div class="u-mdic-copy-notify" id="j-notify-1794527095285-51713">COPIED</div><button class="u-mdic-copy-btn j-mdic-copy-btn" data-mdic-content="
+{
+  &quot;Version&quot;: &quot;2012-10-17&quot;,
+  &quot;Statement&quot;: [
+    {
+      &quot;Sid&quot;: &quot;write permission&quot;,
+      &quot;Effect&quot;: &quot;Allow&quot;,
+      &quot;Principal&quot;: {
+        &quot;AWS&quot;: &quot;arn:aws:iam::123456789012:root&quot;
+      },
+      &quot;Action&quot;: &quot;s3:PutObject&quot;,
+      &quot;Resource&quot;: &quot;arn:aws:s3:::my-bucket/*&quot;
+    },
+    {
+      &quot;Sid&quot;: &quot;get bucket location permission&quot;,
+      &quot;Effect&quot;: &quot;Allow&quot;,
+      &quot;Principal&quot;: {
+        &quot;AWS&quot;: &quot;arn:aws:iam::123456789012:root&quot;
+      },
+      &quot;Action&quot;: &quot;s3:GetBucketLocation&quot;,
+      &quot;Resource&quot;: &quot;arn:aws:s3:::my-bucket&quot;
+    }
+  ]
+}
+
+" data-mdic-attach-content="" data-mdic-notify-id="j-notify-1794527095285-51713" data-mdic-notify-delay="2000" data-mdic-copy-fail-text="copy fail" onclick="!function(t){const e={copy:(t='',e='')=>new Promise((c,o)=>{const n=document.createElement('textarea'),d=e?`\n\n${e}`:e;n.value=`${t}${d}`,document.body.appendChild(n),n.select();try{const t=document.execCommand('copy');document.body.removeChild(n),t?c():o()}catch(t){document.body.removeChild(n),o()}}),btnClick(t){const c=t&&t.dataset?t.dataset:{},o=c.mdicNotifyId,n=document.getElementById(o),d=c.mdicNotifyDelay,i=c.mdicCopyFailText;e.copy(c.mdicContent,c.mdicAttachContent).then(()=>{n.style.display='block',setTimeout(()=>{n.style.display='none'},d)}).catch(()=>{alert(i)})}};e.btnClick(t)}(this);">COPY</button></div></pre>
+<p><strong>Example 18</strong> - Sample bucket policy to enable writing Harmony output</p>
+<br>
+<br>
+<h2 id="summary-of-available-endpoints" tabindex="-1"><a class="header-anchor" href="#summary-of-available-endpoints">§</a> Summary of Available Endpoints</h2>
+<p>All of the public endpoints for Harmony users other than the OGC Coverages, EDR, and WMS APIs are listed in the following table. The Coverages and WMS APIs are described in the <a href="#using-the-service-apis">Using the Service APIs section</a>.</p>
+<table>
+<thead>
+<tr>
+<th>route</th>
+<th>description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>/</td>
+<td>The Harmony landing page</td>
+</tr>
+<tr>
+<td>/capabilities</td>
+<td><a href="#capabilities-details">Get harmony capabilities for the provided collection</a></td>
+</tr>
+<tr>
+<td>/cloud-access</td>
+<td><a href="#cloud-access-details">Generates AWS credentials for accessing processed data in S3</a></td>
+</tr>
+<tr>
+<td>/docs</td>
+<td>These documentation pages</td>
+</tr>
+<tr>
+<td>/docs/api</td>
+<td>The Swagger documentation for the OGC Coverages API</td>
+</tr>
+<tr>
+<td>/docs/edr-api</td>
+<td>The Swagger documentation for the OGC EDR API</td>
+</tr>
+<tr>
+<td>/docs/capabilities-api</td>
+<td>The Swagger documentation for the collection capabilities API</td>
+</tr>
+<tr>
+<td>/jobs</td>
+<td><a href="#jobs-details">The jobs API for getting job status, pausing/continuing/canceling jobs</a></td>
+</tr>
+<tr>
+<td>/jobs/status</td>
+<td><a href="#bulk-job-status">Getting status for multiple jobs at once</a></td>
+</tr>
+<tr>
+<td>/jobs/&lt;JobID&gt;/steps</td>
+<td><a href="#jobs-steps">The introspection service for understanding a jobs steps and intermediate results</a></td>
+</tr>
+<tr>
+<td>/stac</td>
+<td><a href="#stac-details">The API for retrieving STAC catalog and catalog items for processed data</a></td>
+</tr>
+<tr>
+<td>/staging-bucket-policy</td>
+<td><a href="#user-owned-buckets-for-harmony-output">The policy generator for external (user) bucket storage</a></td>
+</tr>
+<tr>
+<td>/versions</td>
+<td><a href="#versions-details">Returns JSON indicating the image and tag each deployed service is running</a></td>
+</tr>
+<tr>
+<td>/service-image-tag</td>
+<td><a href="https://github.com/nasa/harmony/blob/main/docs/guides/managing-existing-services.md">The API for managing service image tags/versions</a></td>
+</tr>
+<tr>
+<td>/workflow-ui</td>
+<td>The Workflow UI for monitoring and interacting with running jobs</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p><strong>Table 14</strong> - Harmony routes other than OGC Coverages and WMS</p>
+<br>
+<br>
+<h3 id="get-harmony-capabilities-for-the-provided-collection" tabindex="-1"><a class="header-anchor" href="#get-harmony-capabilities-for-the-provided-collection">§</a> <a name="capabilities-details"></a> Get Harmony capabilities for the provided collection</h3>
+<p>Returns information related to what Harmony operations are supported for a given collection in JSON format. The collection can be identified by either collection concept id or short name.</p>
+<p>An <a href="https://harmony.earthdata.nasa.gov/docs/capabilities-api">OpenAPI/Swagger</a> description of the endpoint is available.</p>
+<p>A JSON Schema definition is available for each of the versions as well.</p>
+<ul><li><a href="https://harmony.earthdata.nasa.gov/schemas/collection-capabilities/v3/collection-capabilities-v3.json">Version 3</a></li><li><a href="https://harmony.earthdata.nasa.gov/schemas/collection-capabilities/v2/collection-capabilities-v2.json">Version 2</a></li><li><a href="https://harmony.earthdata.nasa.gov/schemas/collection-capabilities/v1/collection-capabilities-v1.json">Version 1</a></li></ul><h5 id="query-parameters-1" tabindex="-1"><a class="header-anchor" href="#query-parameters-1">§</a> <a name="query-parameters"></a> Query Parameters</h5>
+<p>Either <code>collectionId</code> or <code>shortName</code> must be provided.</p>
+<table>
+<thead>
+<tr>
+<th>parameter</th>
+<th>description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>collectionId</td>
+<td>Concept ID of the collection to retrieve capabilities for</td>
+</tr>
+<tr>
+<td>shortName</td>
+<td>Short name of the collection to retrieve capabilities for</td>
+</tr>
+<tr>
+<td>version</td>
+<td>(optional) The version of the capabilities result format. Currently 1, 2, and 3 are supported. Version 3 is the default.</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p><strong>Table 15</strong> - Harmony capabilities endpoint parameters</p>
+<h5 id="response" tabindex="-1"><a class="header-anchor" href="#response">§</a> <a name="response"></a> Response</h5>
+<p>The returned JSON response will have the configured capabilities in Harmony for the given collection in terms of supported features (e.g. variable subsetting, bounding box subsetting, concatenation, reprojection, etc.), the output formats, the list of Harmony services that are applicable for the collection, the list of variables that are associated with the collection and the version of the capabilities result format.</p>
+<h6 id="version-3" tabindex="-1"><a class="header-anchor" href="#version-3">§</a> <a name="response-v3"></a> Version 3</h6>
+<p>See below for the root level fields in the capabilities response and their descriptions for version 3:</p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>conceptId</td>
+<td>Concept ID of the collection.</td>
+</tr>
+<tr>
+<td>shortName</td>
+<td>Short name of the collection.</td>
+</tr>
+<tr>
+<td>summary</td>
+<td>A JSON object summarizing the Harmony capabilities available for the collection, including subsetting, reprojection, averaging, concatenation, and supported output formats. Some capabilities cannot be used together; see the <code>services</code> field to determine the capabilities supported by individual services and valid capability combinations.</td>
+</tr>
+<tr>
+<td>services</td>
+<td>A list of JSON objects describing the Harmony services applicable to the collection. Each service includes its name, reference URL, and the capabilities supported by that service.</td>
+</tr>
+<tr>
+<td>variables</td>
+<td>A list of JSON objects describing the variables associated with the collection.</td>
+</tr>
+<tr>
+<td>capabilitiesVersion</td>
+<td>The version identifier for the capabilities response format.</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p><strong>Table 16</strong> - Harmony capabilities endpoint response version 3 fields</p>
+<h6 id="version-2" tabindex="-1"><a class="header-anchor" href="#version-2">§</a> <a name="response-v2"></a> Version 2</h6>
+<p>See below for the root level fields in the capabilities response and their descriptions for version 2:</p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>conceptId</td>
+<td>Concept ID of the collection.</td>
+</tr>
+<tr>
+<td>shortName</td>
+<td>Short name of the collection.</td>
+</tr>
+<tr>
+<td>variableSubset</td>
+<td>(boolean) True if variable subsetting is supported by any of the Harmony services for the collection.</td>
+</tr>
+<tr>
+<td>bboxSubset</td>
+<td>(boolean) True if bounding box subsetting is supported by any of the Harmony services for the collection.</td>
+</tr>
+<tr>
+<td>shapeSubset</td>
+<td>(boolean) True if shape subsetting is supported by any of the Harmony services for the collection.</td>
+</tr>
+<tr>
+<td>temporalSubset</td>
+<td>(boolean) True if temporal subsetting is supported by any of the Harmony services for the collection.</td>
+</tr>
+<tr>
+<td>concatenate</td>
+<td>(boolean) True if concatenation is supported by any of the Harmony services for the collection.</td>
+</tr>
+<tr>
+<td>reproject</td>
+<td>(boolean) True if reprojection is supported by any of the Harmony services for the collection.</td>
+</tr>
+<tr>
+<td>outputFormats</td>
+<td>A list of supported output format MIME types for the collection.</td>
+</tr>
+<tr>
+<td>services</td>
+<td>A list of JSON objects describing the Harmony services applicable to the collection and their supported capabilities.</td>
+</tr>
+<tr>
+<td>variables</td>
+<td>A list of JSON objects describing the variables associated with the collection.</td>
+</tr>
+<tr>
+<td>capabilitiesVersion</td>
+<td>The version identifier for the capabilities response format.</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p><strong>Table 17</strong> - Harmony capabilities endpoint response version 2 fields</p>
+<h6 id="version-1" tabindex="-1"><a class="header-anchor" href="#version-1">§</a> <a name="response-v1"></a> Version 1</h6>
+<p>See below for the root level fields in the capabilities response and their descriptions for version 1:</p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>conceptId</td>
+<td>Concept ID of the collection.</td>
+</tr>
+<tr>
+<td>shortName</td>
+<td>Short name of the collection.</td>
+</tr>
+<tr>
+<td>variableSubset</td>
+<td>(boolean) True if variable subsetting is supported by any of the Harmony services for the collection.</td>
+</tr>
+<tr>
+<td>bboxSubset</td>
+<td>(boolean) True if bounding box subsetting is supported by any of the Harmony services for the collection.</td>
+</tr>
+<tr>
+<td>shapeSubset</td>
+<td>(boolean) True if shape subsetting is supported by any of the Harmony services for the collection.</td>
+</tr>
+<tr>
+<td>temporalSubset</td>
+<td>(boolean) True if temporal subsetting is supported by any of the Harmony services for the collection.</td>
+</tr>
+<tr>
+<td>concatenate</td>
+<td>(boolean) True if concatenation is supported by any of the Harmony services for the collection.</td>
+</tr>
+<tr>
+<td>reproject</td>
+<td>(boolean) True if reprojection is supported by any of the Harmony services for the collection.</td>
+</tr>
+<tr>
+<td>outputFormats</td>
+<td>A list of supported output format MIME types for the collection.</td>
+</tr>
+<tr>
+<td>services</td>
+<td>A list of JSON objects describing the Harmony services applicable to the collection and their supported capabilities.</td>
+</tr>
+<tr>
+<td>variables</td>
+<td>A list of variable names associated with the collection.</td>
+</tr>
+<tr>
+<td>capabilitiesVersion</td>
+<td>The version identifier for the capabilities response format.</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p><strong>Table 18</strong> - Harmony capabilities endpoint response version 1 fields</p>
+<h4 id="getting-harmony-capabilities-for-a-given-collection-by-collection-concept-id" tabindex="-1"><a class="header-anchor" href="#getting-harmony-capabilities-for-a-given-collection-by-collection-concept-id">§</a> Getting Harmony capabilities for a given collection by collection concept id</h4>
+<pre class="hljs"><code>
+https://harmony.earthdata.nasa.gov/capabilities?collectionId=&lt;collection-concept-id&gt;
+
+</code><div class="m-mdic-copy-wrapper"><div class="u-mdic-copy-notify" id="j-notify-1794527095286-3891">COPIED</div><button class="u-mdic-copy-btn j-mdic-copy-btn" data-mdic-content="
+https://harmony.earthdata.nasa.gov/capabilities?collectionId=&lt;collection-concept-id&gt;
+
+" data-mdic-attach-content="" data-mdic-notify-id="j-notify-1794527095286-3891" data-mdic-notify-delay="2000" data-mdic-copy-fail-text="copy fail" onclick="!function(t){const e={copy:(t='',e='')=>new Promise((c,o)=>{const n=document.createElement('textarea'),d=e?`\n\n${e}`:e;n.value=`${t}${d}`,document.body.appendChild(n),n.select();try{const t=document.execCommand('copy');document.body.removeChild(n),t?c():o()}catch(t){document.body.removeChild(n),o()}}),btnClick(t){const c=t&&t.dataset?t.dataset:{},o=c.mdicNotifyId,n=document.getElementById(o),d=c.mdicNotifyDelay,i=c.mdicCopyFailText;e.copy(c.mdicContent,c.mdicAttachContent).then(()=>{n.style.display='block',setTimeout(()=>{n.style.display='none'},d)}).catch(()=>{alert(i)})}};e.btnClick(t)}(this);">COPY</button></div></pre>
+<p><strong>Example 19</strong> - Getting Harmony capabilities for a given collection by collection concept id</p>
+<h4 id="getting-harmony-capabilities-for-a-given-collection-by-collection-short-name" tabindex="-1"><a class="header-anchor" href="#getting-harmony-capabilities-for-a-given-collection-by-collection-short-name">§</a> Getting Harmony capabilities for a given collection by collection short name</h4>
+<pre class="hljs"><code>
+https://harmony.earthdata.nasa.gov/capabilities?shortName=&lt;collection-short-name&gt;
+
+</code><div class="m-mdic-copy-wrapper"><div class="u-mdic-copy-notify" id="j-notify-1794527095286-76772">COPIED</div><button class="u-mdic-copy-btn j-mdic-copy-btn" data-mdic-content="
+https://harmony.earthdata.nasa.gov/capabilities?shortName=&lt;collection-short-name&gt;
+
+" data-mdic-attach-content="" data-mdic-notify-id="j-notify-1794527095286-76772" data-mdic-notify-delay="2000" data-mdic-copy-fail-text="copy fail" onclick="!function(t){const e={copy:(t='',e='')=>new Promise((c,o)=>{const n=document.createElement('textarea'),d=e?`\n\n${e}`:e;n.value=`${t}${d}`,document.body.appendChild(n),n.select();try{const t=document.execCommand('copy');document.body.removeChild(n),t?c():o()}catch(t){document.body.removeChild(n),o()}}),btnClick(t){const c=t&&t.dataset?t.dataset:{},o=c.mdicNotifyId,n=document.getElementById(o),d=c.mdicNotifyDelay,i=c.mdicCopyFailText;e.copy(c.mdicContent,c.mdicAttachContent).then(()=>{n.style.display='block',setTimeout(()=>{n.style.display='none'},d)}).catch(()=>{alert(i)})}};e.btnClick(t)}(this);">COPY</button></div></pre>
+<p><strong>Example 20</strong> - Getting Harmony capabilities for a given collection by collection short name</p>
+<h3 id="monitoring-jobs-with-the-jobs-api-and-the-workflow-ui" tabindex="-1"><a class="header-anchor" href="#monitoring-jobs-with-the-jobs-api-and-the-workflow-ui">§</a> <a name="jobs-details"></a>  Monitoring Jobs with the Jobs API and the Workflow-UI</h3>
+<p>Jobs can be monitored using the jobs API as well as with the <a href="/workflow-ui">Workflow-UI</a> web application.</p>
+<p>There are two set of jobs API endpoints with the same sub paths and parameters: one with path <code>jobs</code> to view and control the current user's own jobs; the other with <code>admin/jobs</code> path to view and control all users' jobs if the current user has admin permission to do so. For simplicity, we will only list the ones for regular user below.</p>
+<h4 id="getting-the-list-of-jobs-for-a-user" tabindex="-1"><a class="header-anchor" href="#getting-the-list-of-jobs-for-a-user">§</a> Getting the list of jobs for a user</h4>
+<pre class="hljs"><code>
+https://harmony.earthdata.nasa.gov/jobs
+
+</code><div class="m-mdic-copy-wrapper"><div class="u-mdic-copy-notify" id="j-notify-1794527095286-23243">COPIED</div><button class="u-mdic-copy-btn j-mdic-copy-btn" data-mdic-content="
+https://harmony.earthdata.nasa.gov/jobs
+
+" data-mdic-attach-content="" data-mdic-notify-id="j-notify-1794527095286-23243" data-mdic-notify-delay="2000" data-mdic-copy-fail-text="copy fail" onclick="!function(t){const e={copy:(t='',e='')=>new Promise((c,o)=>{const n=document.createElement('textarea'),d=e?`\n\n${e}`:e;n.value=`${t}${d}`,document.body.appendChild(n),n.select();try{const t=document.execCommand('copy');document.body.removeChild(n),t?c():o()}catch(t){document.body.removeChild(n),o()}}),btnClick(t){const c=t&&t.dataset?t.dataset:{},o=c.mdicNotifyId,n=document.getElementById(o),d=c.mdicNotifyDelay,i=c.mdicCopyFailText;e.copy(c.mdicContent,c.mdicAttachContent).then(()=>{n.style.display='block',setTimeout(()=>{n.style.display='none'},d)}).catch(()=>{alert(i)})}};e.btnClick(t)}(this);">COPY</button></div></pre>
+<p><strong>Example 21</strong> - Getting the user's list of jobs using the <code>jobs</code> API</p>
+<p>Returns the list of Harmony jobs submitted by the user. By default, 10 jobs are returned in the response. User can use the paging query parameters to page through the whole result set or/and change the number of jobs that will be returned in each page.</p>
+<h5 id="query-parameters-2" tabindex="-1"><a class="header-anchor" href="#query-parameters-2">§</a> <a name="query-parameters"></a> Query Parameters</h5>
+<table>
+<thead>
+<tr>
+<th>parameter</th>
+<th>description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>page</td>
+<td>Current page number</td>
+</tr>
+<tr>
+<td>limit</td>
+<td>Number of jobs in each page</td>
+</tr>
+<tr>
+<td>label</td>
+<td>Filters jobs to those which include at least one of the labels specified. Multiple labels can be specified using a comma-separated list.</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p><strong>Table 19</strong> - Harmony jobs endpoint parameters</p>
+<h5 id="response-1" tabindex="-1"><a class="header-anchor" href="#response-1">§</a> <a name="jobs-response"></a> Response</h5>
+<p>The returned JSON response will list the total number of jobs that belong to the user, details of the jobs on the current page and links to traverse to the previous, next, first or last pages of the result set:</p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>count</td>
+<td>Total number of jobs</td>
+</tr>
+<tr>
+<td>jobs</td>
+<td>A list of JSON objects with fields describe the job in details. For details, see <a href="#job-response">job status response</a>.</td>
+</tr>
+<tr>
+<td>links</td>
+<td>A list of links to traverse to the previous, next, first or last pages of the result set.</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p><strong>Table 20</strong> - Harmony jobs response fields</p>
+<h4 id="getting-job-status" tabindex="-1"><a class="header-anchor" href="#getting-job-status">§</a> Getting job status</h4>
+<p>Get details for a given job.</p>
+<pre class="hljs"><code>
+https://harmony.earthdata.nasa.gov/jobs/&lt;job-id&gt;
+
+</code><div class="m-mdic-copy-wrapper"><div class="u-mdic-copy-notify" id="j-notify-1794527095287-37190">COPIED</div><button class="u-mdic-copy-btn j-mdic-copy-btn" data-mdic-content="
+https://harmony.earthdata.nasa.gov/jobs/&lt;job-id&gt;
+
+" data-mdic-attach-content="" data-mdic-notify-id="j-notify-1794527095287-37190" data-mdic-notify-delay="2000" data-mdic-copy-fail-text="copy fail" onclick="!function(t){const e={copy:(t='',e='')=>new Promise((c,o)=>{const n=document.createElement('textarea'),d=e?`\n\n${e}`:e;n.value=`${t}${d}`,document.body.appendChild(n),n.select();try{const t=document.execCommand('copy');document.body.removeChild(n),t?c():o()}catch(t){document.body.removeChild(n),o()}}),btnClick(t){const c=t&&t.dataset?t.dataset:{},o=c.mdicNotifyId,n=document.getElementById(o),d=c.mdicNotifyDelay,i=c.mdicCopyFailText;e.copy(c.mdicContent,c.mdicAttachContent).then(()=>{n.style.display='block',setTimeout(()=>{n.style.display='none'},d)}).catch(()=>{alert(i)})}};e.btnClick(t)}(this);">COPY</button></div></pre>
+<p><strong>Example 22</strong> - Getting job status</p>
+<h5 id="response-2" tabindex="-1"><a class="header-anchor" href="#response-2">§</a> <a name="job-response"></a> Response</h5>
+<p>The returned JSON response list the details of the given job:</p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>username</td>
+<td>Username that owns the job</td>
+</tr>
+<tr>
+<td>status</td>
+<td>Status of the job</td>
+</tr>
+<tr>
+<td>message</td>
+<td>Processing message of the job</td>
+</tr>
+<tr>
+<td>progress</td>
+<td>Percentage of the job processing progress. <code>100</code> for a job that has been processed completely.</td>
+</tr>
+<tr>
+<td>createdAt</td>
+<td>Timestamp when the job was submitted to Harmony</td>
+</tr>
+<tr>
+<td>updatedAt</td>
+<td>Timestamp when the job was last updated in Harmony</td>
+</tr>
+<tr>
+<td>dataExpiration</td>
+<td>Timestamp when the result data of the job will be cleaned up from Harmony</td>
+</tr>
+<tr>
+<td>links</td>
+<td>A list of JSON objects with links to STAC catalog and result data of the job</td>
+</tr>
+<tr>
+<td>labels</td>
+<td>An array of labels used when making the request</td>
+</tr>
+<tr>
+<td>steps</td>
+<td>A link to the steps endpoint for this job-id</td>
+</tr>
+<tr>
+<td>serviceName</td>
+<td>the name of the service chain that was invoked by the request</td>
+</tr>
+<tr>
+<td>request</td>
+<td>The original request url of the job</td>
+</tr>
+<tr>
+<td>numInputGranules</td>
+<td>number of input granules in the job</td>
+</tr>
+<tr>
+<td>jobID</td>
+<td>ID of the job in Harmony</td>
+</tr>
+<tr>
+<td>errors</td>
+<td>an array of error object that occured. Only shown when at least one error occurs.</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p><strong>Table 21</strong> - Harmony job response fields</p>
+<h4 id="getting-status-for-multiple-jobs-at-once" tabindex="-1"><a class="header-anchor" href="#getting-status-for-multiple-jobs-at-once">§</a> <a name="bulk-job-status"></a> Getting status for multiple jobs at once</h4>
+<p>Clients that need to poll many jobs at once, for example after submitting a large batch of
+requests, can use the bulk status endpoint instead of making one request per job. It accepts up
+to <strong>2000</strong> job IDs in a single call and returns only the <code>jobID</code>, <code>status</code>, and
+<code>progress</code> for each job - not the full <a href="#job-response">job status response</a> (no <code>links</code>,
+<code>errors</code>, <code>message</code>, etc.).</p>
+<pre class="hljs"><code>
+https://harmony.earthdata.nasa.gov/jobs/status
+
+</code><div class="m-mdic-copy-wrapper"><div class="u-mdic-copy-notify" id="j-notify-1794527095287-30792">COPIED</div><button class="u-mdic-copy-btn j-mdic-copy-btn" data-mdic-content="
+https://harmony.earthdata.nasa.gov/jobs/status
+
+" data-mdic-attach-content="" data-mdic-notify-id="j-notify-1794527095287-30792" data-mdic-notify-delay="2000" data-mdic-copy-fail-text="copy fail" onclick="!function(t){const e={copy:(t='',e='')=>new Promise((c,o)=>{const n=document.createElement('textarea'),d=e?`\n\n${e}`:e;n.value=`${t}${d}`,document.body.appendChild(n),n.select();try{const t=document.execCommand('copy');document.body.removeChild(n),t?c():o()}catch(t){document.body.removeChild(n),o()}}),btnClick(t){const c=t&&t.dataset?t.dataset:{},o=c.mdicNotifyId,n=document.getElementById(o),d=c.mdicNotifyDelay,i=c.mdicCopyFailText;e.copy(c.mdicContent,c.mdicAttachContent).then(()=>{n.style.display='block',setTimeout(()=>{n.style.display='none'},d)}).catch(()=>{alert(i)})}};e.btnClick(t)}(this);">COPY</button></div></pre>
+<p><strong>Example 23</strong> - Getting status for multiple jobs at once</p>
+<p>This is a <code>POST</code> request with a JSON body containing the list of job IDs to check:</p>
+<pre class="hljs"><code><span class="hljs-punctuation">{</span>
+  <span class="hljs-attr">&quot;jobIDs&quot;</span><span class="hljs-punctuation">:</span> <span class="hljs-punctuation">[</span><span class="hljs-string">&quot;&lt;job-id-1&gt;&quot;</span><span class="hljs-punctuation">,</span> <span class="hljs-string">&quot;&lt;job-id-2&gt;&quot;</span><span class="hljs-punctuation">,</span> <span class="hljs-string">&quot;&lt;job-id-3&gt;&quot;</span><span class="hljs-punctuation">]</span>
+<span class="hljs-punctuation">}</span>
+</code><div class="m-mdic-copy-wrapper"><div class="u-mdic-copy-notify" id="j-notify-1794527095287-52001">COPIED</div><button class="u-mdic-copy-btn j-mdic-copy-btn" data-mdic-content="{
+  &quot;jobIDs&quot;: [&quot;&lt;job-id-1&gt;&quot;, &quot;&lt;job-id-2&gt;&quot;, &quot;&lt;job-id-3&gt;&quot;]
+}
+" data-mdic-attach-content="" data-mdic-notify-id="j-notify-1794527095287-52001" data-mdic-notify-delay="2000" data-mdic-copy-fail-text="copy fail" onclick="!function(t){const e={copy:(t='',e='')=>new Promise((c,o)=>{const n=document.createElement('textarea'),d=e?`\n\n${e}`:e;n.value=`${t}${d}`,document.body.appendChild(n),n.select();try{const t=document.execCommand('copy');document.body.removeChild(n),t?c():o()}catch(t){document.body.removeChild(n),o()}}),btnClick(t){const c=t&&t.dataset?t.dataset:{},o=c.mdicNotifyId,n=document.getElementById(o),d=c.mdicNotifyDelay,i=c.mdicCopyFailText;e.copy(c.mdicContent,c.mdicAttachContent).then(()=>{n.style.display='block',setTimeout(()=>{n.style.display='none'},d)}).catch(()=>{alert(i)})}};e.btnClick(t)}(this);">COPY</button></div></pre>
+<h5 id="response-3" tabindex="-1"><a class="header-anchor" href="#response-3">§</a> <a name="bulk-job-status-response"></a> Response</h5>
+<p>The returned JSON response lists the status and progress for each job that could be found, along
+with any requested job IDs that could not be found:</p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>jobStatuses</td>
+<td>A list of JSON objects, each with <code>jobID</code>, <code>status</code>, and <code>progress</code> for a job that was found.</td>
+</tr>
+<tr>
+<td>notFoundJobIDs</td>
+<td>A list of job IDs from the request that could not be found.</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p><strong>Table 22</strong> - Harmony bulk job status response fields</p>
+<p>A request for more than <strong>2000</strong> job IDs, an empty or missing <code>jobIDs</code> list, or
+a <code>jobIDs</code> list containing an ID that is not a valid job ID will result in an error response and
+no job statuses being returned.</p>
+<h4 id="pausing-a-job" tabindex="-1"><a class="header-anchor" href="#pausing-a-job">§</a> Pausing a job</h4>
+<p>User can pause a job with the following API call. The returned response is the same as the <a href="#job-response">job status response</a> with the job status as <code>paused</code>.</p>
+<pre class="hljs"><code>
+https://harmony.earthdata.nasa.gov/jobs/&lt;job-id&gt;/pause
+
+</code><div class="m-mdic-copy-wrapper"><div class="u-mdic-copy-notify" id="j-notify-1794527095287-64004">COPIED</div><button class="u-mdic-copy-btn j-mdic-copy-btn" data-mdic-content="
+https://harmony.earthdata.nasa.gov/jobs/&lt;job-id&gt;/pause
+
+" data-mdic-attach-content="" data-mdic-notify-id="j-notify-1794527095287-64004" data-mdic-notify-delay="2000" data-mdic-copy-fail-text="copy fail" onclick="!function(t){const e={copy:(t='',e='')=>new Promise((c,o)=>{const n=document.createElement('textarea'),d=e?`\n\n${e}`:e;n.value=`${t}${d}`,document.body.appendChild(n),n.select();try{const t=document.execCommand('copy');document.body.removeChild(n),t?c():o()}catch(t){document.body.removeChild(n),o()}}),btnClick(t){const c=t&&t.dataset?t.dataset:{},o=c.mdicNotifyId,n=document.getElementById(o),d=c.mdicNotifyDelay,i=c.mdicCopyFailText;e.copy(c.mdicContent,c.mdicAttachContent).then(()=>{n.style.display='block',setTimeout(()=>{n.style.display='none'},d)}).catch(()=>{alert(i)})}};e.btnClick(t)}(this);">COPY</button></div></pre>
+<p><strong>Example 24</strong> - Pausing a running job</p>
+<h4 id="resuming-a-paused-job" tabindex="-1"><a class="header-anchor" href="#resuming-a-paused-job">§</a> Resuming a paused job</h4>
+<p>User can resume a paused job with the following API call. The returned response is the same as the <a href="#job-response">job status response</a> with the job status as <code>running</code>.</p>
+<pre class="hljs"><code>
+https://harmony.earthdata.nasa.gov/jobs/&lt;job-id&gt;/resume
+
+</code><div class="m-mdic-copy-wrapper"><div class="u-mdic-copy-notify" id="j-notify-1794527095287-67586">COPIED</div><button class="u-mdic-copy-btn j-mdic-copy-btn" data-mdic-content="
+https://harmony.earthdata.nasa.gov/jobs/&lt;job-id&gt;/resume
+
+" data-mdic-attach-content="" data-mdic-notify-id="j-notify-1794527095287-67586" data-mdic-notify-delay="2000" data-mdic-copy-fail-text="copy fail" onclick="!function(t){const e={copy:(t='',e='')=>new Promise((c,o)=>{const n=document.createElement('textarea'),d=e?`\n\n${e}`:e;n.value=`${t}${d}`,document.body.appendChild(n),n.select();try{const t=document.execCommand('copy');document.body.removeChild(n),t?c():o()}catch(t){document.body.removeChild(n),o()}}),btnClick(t){const c=t&&t.dataset?t.dataset:{},o=c.mdicNotifyId,n=document.getElementById(o),d=c.mdicNotifyDelay,i=c.mdicCopyFailText;e.copy(c.mdicContent,c.mdicAttachContent).then(()=>{n.style.display='block',setTimeout(()=>{n.style.display='none'},d)}).catch(()=>{alert(i)})}};e.btnClick(t)}(this);">COPY</button></div></pre>
+<p><strong>Example 25</strong> - Resuming a paused job</p>
+<h4 id="canceling-a-job" tabindex="-1"><a class="header-anchor" href="#canceling-a-job">§</a> Canceling a job</h4>
+<p>User can cancel a job with the following API call. The returned response is the same as the <a href="#job-response">job status response</a> with the job status as <code>canceled</code>.</p>
+<pre class="hljs"><code>
+https://harmony.earthdata.nasa.gov/jobs/&lt;job-id&gt;/cancel
+
+</code><div class="m-mdic-copy-wrapper"><div class="u-mdic-copy-notify" id="j-notify-1794527095287-90696">COPIED</div><button class="u-mdic-copy-btn j-mdic-copy-btn" data-mdic-content="
+https://harmony.earthdata.nasa.gov/jobs/&lt;job-id&gt;/cancel
+
+" data-mdic-attach-content="" data-mdic-notify-id="j-notify-1794527095287-90696" data-mdic-notify-delay="2000" data-mdic-copy-fail-text="copy fail" onclick="!function(t){const e={copy:(t='',e='')=>new Promise((c,o)=>{const n=document.createElement('textarea'),d=e?`\n\n${e}`:e;n.value=`${t}${d}`,document.body.appendChild(n),n.select();try{const t=document.execCommand('copy');document.body.removeChild(n),t?c():o()}catch(t){document.body.removeChild(n),o()}}),btnClick(t){const c=t&&t.dataset?t.dataset:{},o=c.mdicNotifyId,n=document.getElementById(o),d=c.mdicNotifyDelay,i=c.mdicCopyFailText;e.copy(c.mdicContent,c.mdicAttachContent).then(()=>{n.style.display='block',setTimeout(()=>{n.style.display='none'},d)}).catch(()=>{alert(i)})}};e.btnClick(t)}(this);">COPY</button></div></pre>
+<p><strong>Example 26</strong> - Canceling a running job</p>
+<h4 id="skipping-preview" tabindex="-1"><a class="header-anchor" href="#skipping-preview">§</a> Skipping preview</h4>
+<p>Jobs involving many granules will by default pause automatically after the first few
+granules are processed. This allows the user to examine the output to make sure things
+look right before waiting for the entire job to complete. If things looks good, the
+user can resume the paused job, if not they can cancel the paused job.</p>
+<p><strong>Note:</strong> The current threshold in this environment for the number of granules that will trigger automatic pausing of a job is <strong>300</strong>.</p>
+<p>If a user wishes to skip this step they can pass the <code>skipPreview</code> flag mentioned in the
+<a href="#using-the-service-apis">Services API section</a>, or they can tell an already running job
+to skip the preview using the following:</p>
+<pre class="hljs"><code>
+https://harmony.earthdata.nasa.gov/jobs/&lt;job-id&gt;/skip-preview
+
+</code><div class="m-mdic-copy-wrapper"><div class="u-mdic-copy-notify" id="j-notify-1794527095287-10890">COPIED</div><button class="u-mdic-copy-btn j-mdic-copy-btn" data-mdic-content="
+https://harmony.earthdata.nasa.gov/jobs/&lt;job-id&gt;/skip-preview
+
+" data-mdic-attach-content="" data-mdic-notify-id="j-notify-1794527095287-10890" data-mdic-notify-delay="2000" data-mdic-copy-fail-text="copy fail" onclick="!function(t){const e={copy:(t='',e='')=>new Promise((c,o)=>{const n=document.createElement('textarea'),d=e?`\n\n${e}`:e;n.value=`${t}${d}`,document.body.appendChild(n),n.select();try{const t=document.execCommand('copy');document.body.removeChild(n),t?c():o()}catch(t){document.body.removeChild(n),o()}}),btnClick(t){const c=t&&t.dataset?t.dataset:{},o=c.mdicNotifyId,n=document.getElementById(o),d=c.mdicNotifyDelay,i=c.mdicCopyFailText;e.copy(c.mdicContent,c.mdicAttachContent).then(()=>{n.style.display='block',setTimeout(()=>{n.style.display='none'},d)}).catch(()=>{alert(i)})}};e.btnClick(t)}(this);">COPY</button></div></pre>
+<p><strong>Example 27</strong> - Skipping the preview on a many-granule job</p>
+<br>
+<br>
+<h3 id="inspecting-a-job's-steps-with-the-steps-api" tabindex="-1"><a class="header-anchor" href="#inspecting-a-job's-steps-with-the-steps-api">§</a> <a name="jobs-steps"></a>  Inspecting a Job's Steps with the Steps API</h3>
+<p>The steps API provides introspection into the workflow steps that make up a job and the work items each step processed. It is useful for understanding how a request was broken down across services and for inspecting the inputs and outputs of each step.</p>
+<p>As with the jobs API, there are two sets of steps API endpoints with the same sub paths and parameters: one with path <code>jobs</code> to view the current user's own jobs; the other with <code>admin/jobs</code> path to view all users' jobs if the current user has admin permission to do so. For simplicity, we will only list the ones for a regular user below.</p>
+<h4 id="getting-the-steps-for-a-job" tabindex="-1"><a class="header-anchor" href="#getting-the-steps-for-a-job">§</a> Getting the steps for a job</h4>
+<pre class="hljs"><code>
+https://harmony.earthdata.nasa.gov/jobs/&lt;job-id&gt;/steps
+
+</code><div class="m-mdic-copy-wrapper"><div class="u-mdic-copy-notify" id="j-notify-1794527095287-87773">COPIED</div><button class="u-mdic-copy-btn j-mdic-copy-btn" data-mdic-content="
+https://harmony.earthdata.nasa.gov/jobs/&lt;job-id&gt;/steps
+
+" data-mdic-attach-content="" data-mdic-notify-id="j-notify-1794527095287-87773" data-mdic-notify-delay="2000" data-mdic-copy-fail-text="copy fail" onclick="!function(t){const e={copy:(t='',e='')=>new Promise((c,o)=>{const n=document.createElement('textarea'),d=e?`\n\n${e}`:e;n.value=`${t}${d}`,document.body.appendChild(n),n.select();try{const t=document.execCommand('copy');document.body.removeChild(n),t?c():o()}catch(t){document.body.removeChild(n),o()}}),btnClick(t){const c=t&&t.dataset?t.dataset:{},o=c.mdicNotifyId,n=document.getElementById(o),d=c.mdicNotifyDelay,i=c.mdicCopyFailText;e.copy(c.mdicContent,c.mdicAttachContent).then(()=>{n.style.display='block',setTimeout(()=>{n.style.display='none'},d)}).catch(()=>{alert(i)})}};e.btnClick(t)}(this);">COPY</button></div></pre>
+<p><strong>Example 28</strong> - Getting the steps for a job</p>
+<p>Returns the workflow steps for the given job, along with the work items processed by each step. Each step's work items are paged independently: by default up to 50 are shown per step (configurable with <code>limit</code>), and each step is navigated with its own <code>step&lt;stepIndex&gt;Page</code> parameter. A step with more than one page of work items includes a <code>paging</code> object with links to the other pages.</p>
+<p>A work item can reference or produce a very large number of files - for example a query-cmr step that fans out to thousands of granules, or an aggregating step whose single input catalog lists many items. To keep the endpoint responsive, it does <strong>not</strong> read any files from storage. Instead, each work item has an <code>accessFilesUrl</code> link (see <a href="#step-work-item-response">work item fields</a>). The files themselves are resolved, and paged, only on demand by following this link - see <a href="#steps-resolve-files">Resolving a work item's files</a>.</p>
+<h4 id="resolving-a-work-item's-files" tabindex="-1"><a class="header-anchor" href="#resolving-a-work-item's-files">§</a> <a name="steps-resolve-files"></a> Resolving a work item's files</h4>
+<p>To see a work item's actual input and output files, you need to follow its <code>accessFilesUrl</code>, which is designed to make a request back to the steps endpoint scoped to that one work item and sets the <code>resolveFiles</code> parameter to <code>true</code>:</p>
+<pre class="hljs"><code>
+https://harmony.earthdata.nasa.gov/jobs/&lt;job-id&gt;/steps?workItem=&lt;id&gt;&amp;resolveFiles=true
+
+</code><div class="m-mdic-copy-wrapper"><div class="u-mdic-copy-notify" id="j-notify-1794527095287-46783">COPIED</div><button class="u-mdic-copy-btn j-mdic-copy-btn" data-mdic-content="
+https://harmony.earthdata.nasa.gov/jobs/&lt;job-id&gt;/steps?workItem=&lt;id&gt;&resolveFiles=true
+
+" data-mdic-attach-content="" data-mdic-notify-id="j-notify-1794527095287-46783" data-mdic-notify-delay="2000" data-mdic-copy-fail-text="copy fail" onclick="!function(t){const e={copy:(t='',e='')=>new Promise((c,o)=>{const n=document.createElement('textarea'),d=e?`\n\n${e}`:e;n.value=`${t}${d}`,document.body.appendChild(n),n.select();try{const t=document.execCommand('copy');document.body.removeChild(n),t?c():o()}catch(t){document.body.removeChild(n),o()}}),btnClick(t){const c=t&&t.dataset?t.dataset:{},o=c.mdicNotifyId,n=document.getElementById(o),d=c.mdicNotifyDelay,i=c.mdicCopyFailText;e.copy(c.mdicContent,c.mdicAttachContent).then(()=>{n.style.display='block',setTimeout(()=>{n.style.display='none'},d)}).catch(()=>{alert(i)})}};e.btnClick(t)}(this);">COPY</button></div></pre>
+<p><strong>Example 29</strong> - Resolving a work item's files</p>
+<p>When <code>resolveFiles=true</code> is supplied and one or more <code>workItem</code>s are given, each work item is returned with both its input and output files resolved inline:</p>
+<ul>
+<li><code>inputFiles</code> (and <code>inputFilesPaging</code>) are populated by reading a page of the work item's input STAC catalog items.</li>
+<li><code>outputFiles</code> (and <code>outputFilesPaging</code>) are populated by reading a page of the work item's output STAC catalogs.</li>
+</ul>
+<p>Each is paged independently to bound the number of reads: at most <code>wiLimit</code> items/catalogs (default 50, maximum 100) are read per request per input and output. Input pages are navigated with the work item's <code>workItem&lt;id&gt;InputPage</code> parameter and output pages with its <code>workItem&lt;id&gt;OutputPage</code> parameter, so the two catalogs can be paged independently. When necessary, an <code>inputFilesPaging</code> or <code>outputFilesPaging</code> object with links to the other pages is included.</p>
+<h5 id="query-parameters-3" tabindex="-1"><a class="header-anchor" href="#query-parameters-3">§</a> <a name="steps-query-parameters"></a> Query Parameters</h5>
+<p>Parameter names are case-insensitive (e.g. <code>step2Page</code>, <code>Step2Page</code>, and <code>STEP2PAGE</code> are equivalent).</p>
+<table>
+<thead>
+<tr>
+<th>parameter</th>
+<th>description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>step</td>
+<td>Limit the response to one or more steps by stepIndex, comma-separated (e.g. <code>step=1,2</code>). Each a positive integer.</td>
+</tr>
+<tr>
+<td>status</td>
+<td>Filter the work items shown to one or more statuses, comma-separated (e.g. <code>status=failed,warning</code>). Each one of <code>ready</code>, <code>queued</code>, <code>running</code>, <code>successful</code>, <code>failed</code>, <code>canceled</code>, or <code>warning</code>. Steps with no matching work items are omitted.</td>
+</tr>
+<tr>
+<td>workItem</td>
+<td>Limit the work items shown to one or more IDs, comma-separated (e.g. <code>workItem=123,124</code>). Each a positive integer.</td>
+</tr>
+<tr>
+<td>limit</td>
+<td>The number of work items to show per page for each step. Defaults to 50, maximum 1000.</td>
+</tr>
+<tr>
+<td>resolveFiles</td>
+<td>Resolves a work item's input and output files inline instead of returning an <code>accessFilesUrl</code> link. Set to <code>true</code>. Requires one or more <code>workItem</code>s; otherwise the request is rejected. See <a href="#steps-resolve-files">Resolving a work item's files</a>.</td>
+</tr>
+<tr>
+<td>wiLimit</td>
+<td>The page size used when resolving files: the number of input STAC items and output STAC catalogs read per page (each paged independently). Defaults to 50, maximum 100.</td>
+</tr>
+<tr>
+<td>step&lt;stepIndex&gt;Page</td>
+<td>The page of work items to show for the step with the given stepIndex, e.g. <code>step2Page=3</code>. A positive integer that defaults to 1; a page beyond the last page returns the last page. Each step pages independently, so multiple may be supplied.</td>
+</tr>
+<tr>
+<td>workItem&lt;id&gt;OutputPage</td>
+<td>The page of output files to show for the work item with the given id when <code>resolveFiles=true</code>, e.g. <code>workItem123OutputPage=2</code>. Output files are paged by STAC catalog (<code>wiLimit</code> per page). A positive integer that defaults to 1; a page beyond the last page returns the last page.</td>
+</tr>
+<tr>
+<td>workItem&lt;id&gt;InputPage</td>
+<td>The page of input files to show for the work item with the given id when <code>resolveFiles=true</code>, e.g. <code>workItem123InputPage=2</code>. Input files are paged by STAC item (<code>wiLimit</code> per page). A positive integer that defaults to 1; a page beyond the last page returns the last page.</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p><strong>Table 23</strong> - Harmony steps endpoint parameters</p>
+<h5 id="response-4" tabindex="-1"><a class="header-anchor" href="#response-4">§</a> <a name="steps-response"></a> Response</h5>
+<p>The returned JSON response describes the job and the list of its steps:</p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>jobID</td>
+<td>ID of the job in Harmony</td>
+</tr>
+<tr>
+<td>serviceName</td>
+<td>Name of the service that ran the job</td>
+</tr>
+<tr>
+<td>status</td>
+<td>Status of the job</td>
+</tr>
+<tr>
+<td>progress</td>
+<td>Percentage of the job processing progress. <code>100</code> for a job that has been processed completely.</td>
+</tr>
+<tr>
+<td>message</td>
+<td>Processing message of the job</td>
+</tr>
+<tr>
+<td>username</td>
+<td>Username that owns the job</td>
+</tr>
+<tr>
+<td>numInputGranules</td>
+<td>Number of input granules in the job</td>
+</tr>
+<tr>
+<td>request</td>
+<td>The original request url of the job</td>
+</tr>
+<tr>
+<td>steps</td>
+<td>A list of JSON objects describing the workflow steps. For details, see <a href="#step-response">step fields</a>.</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p><strong>Table 24</strong> - Harmony steps response fields</p>
+<h6 id="step-fields" tabindex="-1"><a class="header-anchor" href="#step-fields">§</a> <a name="step-response"></a> Step fields</h6>
+<p>Each entry in the <code>steps</code> list describes a single workflow step -- one service in a service chain:</p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>serviceID</td>
+<td>The service image name and tag service that ran this step</td>
+</tr>
+<tr>
+<td>stepIndex</td>
+<td>The position of this step in the workflow, starting at <code>1</code></td>
+</tr>
+<tr>
+<td>workItemCount</td>
+<td>The total number of work items in this step</td>
+</tr>
+<tr>
+<td>statuses</td>
+<td>A map of work item status to the number of work items in that status for the whole step. Only statuses with at least one work item appear.</td>
+</tr>
+<tr>
+<td>workItems</td>
+<td>A list of JSON objects describing the work items for this step. For details, see <a href="#step-work-item-response">work item fields</a>.</td>
+</tr>
+<tr>
+<td>paging</td>
+<td>Present when the step has more than one page of work items. For details, see <a href="#step-paging-response">paging fields</a>.</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p><strong>Table 25</strong> - Harmony step fields</p>
+<h6 id="paging-fields" tabindex="-1"><a class="header-anchor" href="#paging-fields">§</a> <a name="step-paging-response"></a> Paging fields</h6>
+<p>The <code>paging</code> object lets you navigate a step's work items one page at a time:</p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>currentPage</td>
+<td>The page of work items currently shown for this step.</td>
+</tr>
+<tr>
+<td>lastPage</td>
+<td>The index of the last available page.</td>
+</tr>
+<tr>
+<td>total</td>
+<td>The total number of work items for this step, after any <code>status</code> or <code>workItem</code> filter.</td>
+</tr>
+<tr>
+<td>links</td>
+<td>Navigation links, each with <code>rel</code> (one of <code>first</code>, <code>prev</code>, <code>self</code>, <code>next</code>, <code>last</code>), <code>href</code>, <code>title</code>, and <code>type</code>. Links that do not apply (e.g. <code>next</code> on the last page) are omitted.</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p><strong>Table 26</strong> - Harmony step paging fields</p>
+<h6 id="work-item-fields" tabindex="-1"><a class="header-anchor" href="#work-item-fields">§</a> <a name="step-work-item-response"></a> Work item fields</h6>
+<p>Each entry in a step's <code>workItems</code> list describes a single work item. The default (link-only) response carries <code>id</code>, <code>status</code>, <code>retryCount</code>, and the <code>accessFilesUrl</code> field. The <code>inputFiles</code> / <code>outputFiles</code> fields and their paging appear only when <a href="#steps-resolve-files">resolving a work item's files</a>:</p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>id</td>
+<td>ID of the work item in Harmony</td>
+</tr>
+<tr>
+<td>status</td>
+<td>Status of the work item</td>
+</tr>
+<tr>
+<td>retryCount</td>
+<td>The number of times the work item has been retried</td>
+</tr>
+<tr>
+<td>accessFilesUrl</td>
+<td>A link that resolves this work item's input and output files, or <code>null</code> if there is nothing to resolve (no input catalog and the work item has not yet completed). Follow it (equivalently, pass the query string <code>workItem=&lt;id&gt;&amp;resolveFiles=true</code>) to get the files.</td>
+</tr>
+<tr>
+<td>inputFiles</td>
+<td>A list of links to the input files for the current input-file page. Files unable be turned into a public link are shown as <code>&lt;private file location&gt;</code>.</td>
+</tr>
+<tr>
+<td>inputFilesPaging</td>
+<td>Present when needed. Navigate the pages with the <code>workItem&lt;id&gt;InputPage</code> parameter. Same shape as a step's <code>paging</code> object — see <a href="#step-paging-response">paging fields</a> (here <code>total</code> is the work item's number of input STAC items).</td>
+</tr>
+<tr>
+<td>outputFiles</td>
+<td>A list of links to the output files for the current output-file page, or empty if it produced no output. Files unable be turned into a public link are shown as <code>&lt;private file location&gt;</code>.</td>
+</tr>
+<tr>
+<td>outputFilesPaging</td>
+<td>Present when needed. Navigate the pages with the <code>workItem&lt;id&gt;OutputPage</code> parameter. Same shape as a step's <code>paging</code> object — see <a href="#step-paging-response">paging fields</a> (here <code>total</code> is the work item's number of output STAC catalogs).</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p><strong>Table 27</strong> - Harmony work item fields</p>
+<br>
+<br>
+<h3 id="labeling-jobs" tabindex="-1"><a class="header-anchor" href="#labeling-jobs">§</a> <a name="job-labels"></a>  Labeling Jobs</h3>
+<p>Labels can be applied to a job when a Harmony request is made using the <code>label</code> parameter documented
+in the <a href="#using-the-service-apis">Services API section</a>. After a request is made the labels can be viewed in the
+job status page and in the workflow-ui.</p>
+<p>Labels can be added to existing jobs by the job owner using an HTTP PUT request and specifying the job IDs and labels in the body of the PUT. An EDL bearer token must be provided and a <code>Content-Type: application/json</code> header. A <code>curl</code> example that adds two labels to two different jobs follows:</p>
+<pre class="hljs"><code>curl -bj https://harmony.earthdata.nasa.gov/labels -XPUT -d '{&quot;jobID&quot;: [&quot;&lt;YOUR FIRST JOB ID&gt;&quot;, &quot;&lt;YOUR SECOND JOB ID&gt;&quot;], &quot;label&quot;: [&quot;foo&quot;, &quot;bar&quot;]}'  -H &quot;Content-Type: application/json&quot; -H &quot;Authorization: bearer &lt;YOUR BEARER TOKEN&gt;&quot;
+</code><div class="m-mdic-copy-wrapper"><div class="u-mdic-copy-notify" id="j-notify-1794527095287-79387">COPIED</div><button class="u-mdic-copy-btn j-mdic-copy-btn" data-mdic-content="curl -bj https://harmony.earthdata.nasa.gov/labels -XPUT -d '{&quot;jobID&quot;: [&quot;&lt;YOUR FIRST JOB ID&gt;&quot;, &quot;&lt;YOUR SECOND JOB ID&gt;&quot;], &quot;label&quot;: [&quot;foo&quot;, &quot;bar&quot;]}'  -H &quot;Content-Type: application/json&quot; -H &quot;Authorization: bearer &lt;YOUR BEARER TOKEN&gt;&quot;
+" data-mdic-attach-content="" data-mdic-notify-id="j-notify-1794527095287-79387" data-mdic-notify-delay="2000" data-mdic-copy-fail-text="copy fail" onclick="!function(t){const e={copy:(t='',e='')=>new Promise((c,o)=>{const n=document.createElement('textarea'),d=e?`\n\n${e}`:e;n.value=`${t}${d}`,document.body.appendChild(n),n.select();try{const t=document.execCommand('copy');document.body.removeChild(n),t?c():o()}catch(t){document.body.removeChild(n),o()}}),btnClick(t){const c=t&&t.dataset?t.dataset:{},o=c.mdicNotifyId,n=document.getElementById(o),d=c.mdicNotifyDelay,i=c.mdicCopyFailText;e.copy(c.mdicContent,c.mdicAttachContent).then(()=>{n.style.display='block',setTimeout(()=>{n.style.display='none'},d)}).catch(()=>{alert(i)})}};e.btnClick(t)}(this);">COPY</button></div></pre>
+<p>Similarly, labels can be removed from one or more jobs using an HTTP DELETE:</p>
+<pre class="hljs"><code>curl -bj https://harmony.earthdata.nasa.gov/labels   -XDELETE -d '{&quot;jobID&quot;: [&quot;&lt;YOUR FIRST JOB ID&gt;&quot;, &quot;&lt;YOUR SECOND JOB ID&gt;&quot;], &quot;label&quot;: [&quot;foo&quot;]}'  -H &quot;Content-Type: application/json&quot; -H &quot;Authorization: bearer &lt;YOUR BEARER TOKEN&gt;&quot;
+</code><div class="m-mdic-copy-wrapper"><div class="u-mdic-copy-notify" id="j-notify-1794527095287-48955">COPIED</div><button class="u-mdic-copy-btn j-mdic-copy-btn" data-mdic-content="curl -bj https://harmony.earthdata.nasa.gov/labels   -XDELETE -d '{&quot;jobID&quot;: [&quot;&lt;YOUR FIRST JOB ID&gt;&quot;, &quot;&lt;YOUR SECOND JOB ID&gt;&quot;], &quot;label&quot;: [&quot;foo&quot;]}'  -H &quot;Content-Type: application/json&quot; -H &quot;Authorization: bearer &lt;YOUR BEARER TOKEN&gt;&quot;
+" data-mdic-attach-content="" data-mdic-notify-id="j-notify-1794527095287-48955" data-mdic-notify-delay="2000" data-mdic-copy-fail-text="copy fail" onclick="!function(t){const e={copy:(t='',e='')=>new Promise((c,o)=>{const n=document.createElement('textarea'),d=e?`\n\n${e}`:e;n.value=`${t}${d}`,document.body.appendChild(n),n.select();try{const t=document.execCommand('copy');document.body.removeChild(n),t?c():o()}catch(t){document.body.removeChild(n),o()}}),btnClick(t){const c=t&&t.dataset?t.dataset:{},o=c.mdicNotifyId,n=document.getElementById(o),d=c.mdicNotifyDelay,i=c.mdicCopyFailText;e.copy(c.mdicContent,c.mdicAttachContent).then(()=>{n.style.display='block',setTimeout(()=>{n.style.display='none'},d)}).catch(()=>{alert(i)})}};e.btnClick(t)}(this);">COPY</button></div></pre>
+<h3 id="retrieving-stac-catalog-and-catalog-items-for-processed-data" tabindex="-1"><a class="header-anchor" href="#retrieving-stac-catalog-and-catalog-items-for-processed-data">§</a> <a name="stac-details"></a> Retrieving STAC catalog and catalog items for processed data</h3>
+<p>Harmony uses <a href="https://stacspec.org/en">STAC catalog</a> to provide input and output, and communicate between services. The following endpoints provides access to the output STAC catalog and catalog items of a finished job.</p>
+<h4 id="getting-the-stac-catalog-of-a-single-job" tabindex="-1"><a class="header-anchor" href="#getting-the-stac-catalog-of-a-single-job">§</a> Getting the STAC catalog of a single job</h4>
+<pre class="hljs"><code>
+https://harmony.earthdata.nasa.gov/stac/&lt;job-id&gt;
+
+</code><div class="m-mdic-copy-wrapper"><div class="u-mdic-copy-notify" id="j-notify-1794527095287-44657">COPIED</div><button class="u-mdic-copy-btn j-mdic-copy-btn" data-mdic-content="
+https://harmony.earthdata.nasa.gov/stac/&lt;job-id&gt;
+
+" data-mdic-attach-content="" data-mdic-notify-id="j-notify-1794527095287-44657" data-mdic-notify-delay="2000" data-mdic-copy-fail-text="copy fail" onclick="!function(t){const e={copy:(t='',e='')=>new Promise((c,o)=>{const n=document.createElement('textarea'),d=e?`\n\n${e}`:e;n.value=`${t}${d}`,document.body.appendChild(n),n.select();try{const t=document.execCommand('copy');document.body.removeChild(n),t?c():o()}catch(t){document.body.removeChild(n),o()}}),btnClick(t){const c=t&&t.dataset?t.dataset:{},o=c.mdicNotifyId,n=document.getElementById(o),d=c.mdicNotifyDelay,i=c.mdicCopyFailText;e.copy(c.mdicContent,c.mdicAttachContent).then(()=>{n.style.display='block',setTimeout(()=>{n.style.display='none'},d)}).catch(()=>{alert(i)})}};e.btnClick(t)}(this);">COPY</button></div></pre>
+<p><strong>Example 30</strong> - Getting the STAC catalog of a single job</p>
+<h4 id="getting-the-stac-catalog-item-within-a-job's-stac-catalog" tabindex="-1"><a class="header-anchor" href="#getting-the-stac-catalog-item-within-a-job's-stac-catalog">§</a> Getting the STAC catalog item within a job's STAC catalog</h4>
+<p>The <code>&lt;item-index&gt;</code> is the index of the STAC catalog item within the job's output STAC catalog. It starts at 0.</p>
+<pre class="hljs"><code>
+https://harmony.earthdata.nasa.gov/stac/&lt;job-id&gt;/&lt;item-index&gt;
+
+</code><div class="m-mdic-copy-wrapper"><div class="u-mdic-copy-notify" id="j-notify-1794527095287-17907">COPIED</div><button class="u-mdic-copy-btn j-mdic-copy-btn" data-mdic-content="
+https://harmony.earthdata.nasa.gov/stac/&lt;job-id&gt;/&lt;item-index&gt;
+
+" data-mdic-attach-content="" data-mdic-notify-id="j-notify-1794527095287-17907" data-mdic-notify-delay="2000" data-mdic-copy-fail-text="copy fail" onclick="!function(t){const e={copy:(t='',e='')=>new Promise((c,o)=>{const n=document.createElement('textarea'),d=e?`\n\n${e}`:e;n.value=`${t}${d}`,document.body.appendChild(n),n.select();try{const t=document.execCommand('copy');document.body.removeChild(n),t?c():o()}catch(t){document.body.removeChild(n),o()}}),btnClick(t){const c=t&&t.dataset?t.dataset:{},o=c.mdicNotifyId,n=document.getElementById(o),d=c.mdicNotifyDelay,i=c.mdicCopyFailText;e.copy(c.mdicContent,c.mdicAttachContent).then(()=>{n.style.display='block',setTimeout(()=>{n.style.display='none'},d)}).catch(()=>{alert(i)})}};e.btnClick(t)}(this);">COPY</button></div></pre>
+<p><strong>Example 31</strong> - Getting the STAC catalog item within a job's STAC catalog</p>
+<h3 id="getting-in-region-s3-aws-access-keys-using-the-cloud-access-api" tabindex="-1"><a class="header-anchor" href="#getting-in-region-s3-aws-access-keys-using-the-cloud-access-api">§</a> <a name="cloud-access-details"></a> Getting in region S3 AWS access keys using the cloud-access API</h3>
+<p>Harmony supports analysis in place without forcing a user to download the outputs from their requests. The results for each harmony request are stored in an AWS S3 bucket in the us-west-2 region. In order to access these results natively in S3, the user can get temporary AWS access credentials using the harmony cloud-access endpoints. Note that data can only be accessed from within the us-west-2 region.</p>
+<h4 id="get-aws-s3-access-credentials-as-json" tabindex="-1"><a class="header-anchor" href="#get-aws-s3-access-credentials-as-json">§</a> Get AWS S3 access credentials as JSON</h4>
+<pre class="hljs"><code>
+https://harmony.earthdata.nasa.gov/cloud-access
+
+</code><div class="m-mdic-copy-wrapper"><div class="u-mdic-copy-notify" id="j-notify-1794527095287-24023">COPIED</div><button class="u-mdic-copy-btn j-mdic-copy-btn" data-mdic-content="
+https://harmony.earthdata.nasa.gov/cloud-access
+
+" data-mdic-attach-content="" data-mdic-notify-id="j-notify-1794527095287-24023" data-mdic-notify-delay="2000" data-mdic-copy-fail-text="copy fail" onclick="!function(t){const e={copy:(t='',e='')=>new Promise((c,o)=>{const n=document.createElement('textarea'),d=e?`\n\n${e}`:e;n.value=`${t}${d}`,document.body.appendChild(n),n.select();try{const t=document.execCommand('copy');document.body.removeChild(n),t?c():o()}catch(t){document.body.removeChild(n),o()}}),btnClick(t){const c=t&&t.dataset?t.dataset:{},o=c.mdicNotifyId,n=document.getElementById(o),d=c.mdicNotifyDelay,i=c.mdicCopyFailText;e.copy(c.mdicContent,c.mdicAttachContent).then(()=>{n.style.display='block',setTimeout(()=>{n.style.display='none'},d)}).catch(()=>{alert(i)})}};e.btnClick(t)}(this);">COPY</button></div></pre>
+<p><strong>Example 32</strong> - Getting AWS S3 access credentials as JSON using the <code>cloud-access</code> API</p>
+<p>The returned JSON response returns fields required to set the AWS S3 access credentials:</p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>AccessKeyId</td>
+<td>The AWS access key ID.</td>
+</tr>
+<tr>
+<td>SecretAccessKey</td>
+<td>The AWS secret access key.</td>
+</tr>
+<tr>
+<td>SessionToken</td>
+<td>The AWS session token associated with the access keys.</td>
+</tr>
+<tr>
+<td>Expiration</td>
+<td>The date and time when the access credentials expire.</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p><strong>Table 28</strong> - Harmony cloud-access response fields</p>
+<h4 id="get-aws-s3-access-credentials-as-a-shell-script-to-use-in-a-terminal" tabindex="-1"><a class="header-anchor" href="#get-aws-s3-access-credentials-as-a-shell-script-to-use-in-a-terminal">§</a> Get AWS S3 access credentials as a shell script to use in a terminal</h4>
+<pre class="hljs"><code>
+https://harmony.earthdata.nasa.gov/cloud-access.sh
+
+</code><div class="m-mdic-copy-wrapper"><div class="u-mdic-copy-notify" id="j-notify-1794527095287-90186">COPIED</div><button class="u-mdic-copy-btn j-mdic-copy-btn" data-mdic-content="
+https://harmony.earthdata.nasa.gov/cloud-access.sh
+
+" data-mdic-attach-content="" data-mdic-notify-id="j-notify-1794527095287-90186" data-mdic-notify-delay="2000" data-mdic-copy-fail-text="copy fail" onclick="!function(t){const e={copy:(t='',e='')=>new Promise((c,o)=>{const n=document.createElement('textarea'),d=e?`\n\n${e}`:e;n.value=`${t}${d}`,document.body.appendChild(n),n.select();try{const t=document.execCommand('copy');document.body.removeChild(n),t?c():o()}catch(t){document.body.removeChild(n),o()}}),btnClick(t){const c=t&&t.dataset?t.dataset:{},o=c.mdicNotifyId,n=document.getElementById(o),d=c.mdicNotifyDelay,i=c.mdicCopyFailText;e.copy(c.mdicContent,c.mdicAttachContent).then(()=>{n.style.display='block',setTimeout(()=>{n.style.display='none'},d)}).catch(()=>{alert(i)})}};e.btnClick(t)}(this);">COPY</button></div></pre>
+<p><strong>Example 33</strong> - Getting a shell script that can be sourced to set AWS S3 credentials</p>
+<h3 id="getting-the-versions-of-images-used-in-each-of-the-harmony-backend-service-chains" tabindex="-1"><a class="header-anchor" href="#getting-the-versions-of-images-used-in-each-of-the-harmony-backend-service-chains">§</a> <a name="versions-details"></a> Getting the versions of images used in each of the Harmony backend service chains</h3>
+<p>Using the <code>versions</code> endpoint, a user can get a list of all of the docker images and versions used in harmony backend service chains. Service providers use this endpoint to verify the versions of their services deployed to an environment.</p>
+<h4 id="get-backend-service-version-information" tabindex="-1"><a class="header-anchor" href="#get-backend-service-version-information">§</a> Get backend service version information</h4>
+<pre class="hljs"><code>
+https://harmony.earthdata.nasa.gov/versions
+
+</code><div class="m-mdic-copy-wrapper"><div class="u-mdic-copy-notify" id="j-notify-1794527095287-27358">COPIED</div><button class="u-mdic-copy-btn j-mdic-copy-btn" data-mdic-content="
+https://harmony.earthdata.nasa.gov/versions
+
+" data-mdic-attach-content="" data-mdic-notify-id="j-notify-1794527095287-27358" data-mdic-notify-delay="2000" data-mdic-copy-fail-text="copy fail" onclick="!function(t){const e={copy:(t='',e='')=>new Promise((c,o)=>{const n=document.createElement('textarea'),d=e?`\n\n${e}`:e;n.value=`${t}${d}`,document.body.appendChild(n),n.select();try{const t=document.execCommand('copy');document.body.removeChild(n),t?c():o()}catch(t){document.body.removeChild(n),o()}}),btnClick(t){const c=t&&t.dataset?t.dataset:{},o=c.mdicNotifyId,n=document.getElementById(o),d=c.mdicNotifyDelay,i=c.mdicCopyFailText;e.copy(c.mdicContent,c.mdicAttachContent).then(()=>{n.style.display='block',setTimeout(()=>{n.style.display='none'},d)}).catch(()=>{alert(i)})}};e.btnClick(t)}(this);">COPY</button></div></pre>
+<p><strong>Example 34</strong> - Getting backend service versions using the <code>versions</code> API</p>
+<p>The returned JSON response is an array of service version information with the following fields:</p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>name</td>
+<td>The name of the backend service chain as defined in <a href="https://github.com/nasa/harmony/blob/main/config/services-uat.yml">services-uat.yml</a>.</td>
+</tr>
+<tr>
+<td>images</td>
+<td>An array of the images used in the service chain.</td>
+</tr>
+</tbody>
+</table>
+<p>Each image has the following fields:</p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>image</td>
+<td>The name of the docker image.</td>
+</tr>
+<tr>
+<td>tag</td>
+<td>The docker image tag.</td>
+</tr>
+<tr>
+<td>lastUpdated</td>
+<td>(optional) The time the image was last updated if available.</td>
+</tr>
+<tr>
+<td>imageDigest</td>
+<td>(optional) The image digest if available.</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p><strong>Table 29</strong> - Harmony versions response fields</p>
+
+        </div>
+    </div>
+    <footer>
+      <div class="container-lg">
+          <div class="row pt-3">
+              <div class="col-md-8">
+                  <ul class="list-inline">
+                      <li class="list-inline-item">NASA Official: Doug Newman</li>
+                      <li class="list-inline-item"><a href="http://www.nasa.gov/FOIA/index.html">FOIA</a></li>
+                      <li class="list-inline-item"><a href="http://www.nasa.gov/about/highlights/HP_Privacy.html">NASA Privacy Policy</a></li>
+                      <li class="list-inline-item"><a href="http://www.usa.gov/">USA.gov</a></li>
+                      <li class="list-inline-item"><a href="#" onclick="javascript:feedback.showForm();">Feedback</a></li>
+                  </ul>
+              </div>
+              <div class="col-md-4">
+                  <p class="text-right"><a href="/versions"><span class="badge bg-dark">v 1.1.514</span></a></p>
+              </div>
+          </div>
+      </div>
+    </footer>
+    <script type="text/javascript" src="https://status.earthdata.nasa.gov/assets/banner_widget.js"></script>
+    <script type="text/javascript" src="https://fbm.earthdata.nasa.gov/for/Harmony/feedback.js"></script>
+    <script type="text/javascript">feedback.init({showIcon: false});</script>    <script type="text/javascript">new ClipboardJS('.btn');</script>
+</body>
+</html>

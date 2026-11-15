@@ -1,0 +1,13 @@
+{
+  "id": "resource_R081",
+  "url": "https://www.youtube.com/watch?v=W1oXykoz9zg",
+  "checked_at": "2026-11-14T15:15:20.559659+00:00",
+  "tls_validation": false,
+  "status": 200,
+  "final_url": "https://www.youtube.com/watch?v=W1oXykoz9zg",
+  "bytes": 750000,
+  "content_type": "text/html; charset=utf-8",
+  "sha256": "0fedd4e5ebe0bc957386c5b9f97f5fda367bbe1135b5f1cd2cabfed4ce559b2c",
+  "links": [],
+  "elapsed_seconds": 0.469
+}

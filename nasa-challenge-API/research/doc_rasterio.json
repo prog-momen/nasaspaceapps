@@ -1,0 +1,298 @@
+{
+  "id": "doc_rasterio",
+  "url": "https://rasterio.readthedocs.io/en/stable/topics/reproject.html",
+  "checked_at": "2026-11-14T15:13:39.692073+00:00",
+  "tls_validation": false,
+  "status": 200,
+  "final_url": "https://rasterio.readthedocs.io/en/stable/topics/reproject.html",
+  "bytes": 35858,
+  "content_type": "text/html; charset=utf-8",
+  "sha256": "b6c42471a9fada85beb29c5acf141e74c1762050f049e0dcbf73a40dd911da80",
+  "links": [
+    {
+      "url": "https://rasterio.readthedocs.io/en/stable/index.html",
+      "label": "rasterio"
+    },
+    {
+      "url": "https://rasterio.readthedocs.io/en/stable/intro.html",
+      "label": "Introduction"
+    },
+    {
+      "url": "https://rasterio.readthedocs.io/en/stable/installation.html",
+      "label": "Installation"
+    },
+    {
+      "url": "https://rasterio.readthedocs.io/en/stable/quickstart.html",
+      "label": "Python Quickstart"
+    },
+    {
+      "url": "https://rasterio.readthedocs.io/en/stable/cli.html",
+      "label": "Command Line User Guide"
+    },
+    {
+      "url": "https://rasterio.readthedocs.io/en/stable/topics/index.html",
+      "label": "Advanced Topics"
+    },
+    {
+      "url": "https://rasterio.readthedocs.io/en/stable/topics/calc.html",
+      "label": "Using rio-calc"
+    },
+    {
+      "url": "https://rasterio.readthedocs.io/en/stable/topics/color.html",
+      "label": "Color"
+    },
+    {
+      "url": "https://rasterio.readthedocs.io/en/stable/topics/concurrency.html",
+      "label": "Concurrent processing"
+    },
+    {
+      "url": "https://rasterio.readthedocs.io/en/stable/topics/configuration.html",
+      "label": "GDAL Option Configuration"
+    },
+    {
+      "url": "https://rasterio.readthedocs.io/en/stable/topics/datasets.html",
+      "label": "Advanced Datasets"
+    },
+    {
+      "url": "https://rasterio.readthedocs.io/en/stable/topics/errors.html",
+      "label": "Error Handling"
+    },
+    {
+      "url": "https://rasterio.readthedocs.io/en/stable/topics/features.html",
+      "label": "Vector Features"
+    },
+    {
+      "url": "https://rasterio.readthedocs.io/en/stable/topics/fillnodata.html",
+      "label": "Filling nodata areas"
+    },
+    {
+      "url": "https://rasterio.readthedocs.io/en/stable/topics/georeferencing.html",
+      "label": "Georeferencing"
+    },
+    {
+      "url": "https://rasterio.readthedocs.io/en/stable/topics/image_options.html",
+      "label": "Options"
+    },
+    {
+      "url": "https://rasterio.readthedocs.io/en/stable/topics/image_processing.html",
+      "label": "Interoperability"
+    },
+    {
+      "url": "https://rasterio.readthedocs.io/en/stable/topics/masking-by-shapefile.html",
+      "label": "Masking a raster using a shapefile"
+    },
+    {
+      "url": "https://rasterio.readthedocs.io/en/stable/topics/masks.html",
+      "label": "Nodata Masks"
+    },
+    {
+      "url": "https://rasterio.readthedocs.io/en/stable/topics/memory-files.html",
+      "label": "In-Memory Files"
+    },
+    {
+      "url": "https://rasterio.readthedocs.io/en/stable/topics/migrating-to-v1.html",
+      "label": "Migrating to Rasterio 1.0"
+    },
+    {
+      "url": "https://rasterio.readthedocs.io/en/stable/topics/overviews.html",
+      "label": "Overviews"
+    },
+    {
+      "url": "https://rasterio.readthedocs.io/en/stable/topics/plotting.html",
+      "label": "Plotting"
+    },
+    {
+      "url": "https://rasterio.readthedocs.io/en/stable/topics/profiles.html",
+      "label": "Profiles and Writing Files"
+    },
+    {
+      "url": "https://rasterio.readthedocs.io/en/stable/topics/reading.html",
+      "label": "Reading Datasets"
+    },
+    {
+      "url": "https://rasterio.readthedocs.io/en/stable/topics/reproject.html",
+      "label": "Reprojection"
+    },
+    {
+      "url": "https://rasterio.readthedocs.io/en/stable/topics/reproject.html#estimating-optimal-output-shape",
+      "label": "Estimating optimal output shape"
+    },
+    {
+      "url": "https://rasterio.readthedocs.io/en/stable/topics/reproject.html#reprojecting-a-geotiff-dataset",
+      "label": "Reprojecting a GeoTIFF dataset"
+    },
+    {
+      "url": "https://rasterio.readthedocs.io/en/stable/topics/reproject.html#reprojecting-with-other-georeferencing-metadata",
+      "label": "Reprojecting with other georeferencing metadata"
+    },
+    {
+      "url": "https://rasterio.readthedocs.io/en/stable/topics/reproject.html#references",
+      "label": "References"
+    },
+    {
+      "url": "https://rasterio.readthedocs.io/en/stable/topics/resampling.html",
+      "label": "Resampling"
+    },
+    {
+      "url": "https://rasterio.readthedocs.io/en/stable/topics/switch.html",
+      "label": "Switching from GDAL’s Python bindings"
+    },
+    {
+      "url": "https://rasterio.readthedocs.io/en/stable/topics/tags.html",
+      "label": "Tagging datasets and bands"
+    },
+    {
+      "url": "https://rasterio.readthedocs.io/en/stable/topics/transforms.html",
+      "label": "Transforms"
+    },
+    {
+      "url": "https://rasterio.readthedocs.io/en/stable/topics/virtual-warping.html",
+      "label": "Virtual Warping"
+    },
+    {
+      "url": "https://rasterio.readthedocs.io/en/stable/topics/vsi.html",
+      "label": "Virtual Filesystems"
+    },
+    {
+      "url": "https://rasterio.readthedocs.io/en/stable/topics/windowed-rw.html",
+      "label": "Windowed reading and writing"
+    },
+    {
+      "url": "https://rasterio.readthedocs.io/en/stable/topics/writing.html",
+      "label": "Writing Datasets"
+    },
+    {
+      "url": "https://rasterio.readthedocs.io/en/stable/api/index.html",
+      "label": "Rasterio API Reference"
+    },
+    {
+      "url": "https://rasterio.readthedocs.io/en/stable/contributing.html",
+      "label": "Contributing"
+    },
+    {
+      "url": "https://rasterio.readthedocs.io/en/stable/faq.html",
+      "label": "Frequently Asked Questions"
+    },
+    {
+      "url": "https://rasterio.readthedocs.io/en/stable/index.html",
+      "label": "rasterio"
+    },
+    {
+      "url": "https://rasterio.readthedocs.io/en/stable/index.html",
+      "label": ""
+    },
+    {
+      "url": "https://rasterio.readthedocs.io/en/stable/topics/index.html",
+      "label": "Advanced Topics"
+    },
+    {
+      "url": "https://rasterio.readthedocs.io/en/stable/_sources/topics/reproject.rst.txt",
+      "label": "View page source"
+    },
+    {
+      "url": "https://rasterio.readthedocs.io/en/stable/topics/reproject.html#reprojection",
+      "label": ""
+    },
+    {
+      "url": "https://rasterio.readthedocs.io/en/stable/api/rasterio.warp.html#rasterio.warp.reproject",
+      "label": "rasterio.warp.reproject()"
+    },
+    {
+      "url": "https://rasterio.readthedocs.io/en/stable/topics/reproject.html#id3",
+      "label": "[1]"
+    },
+    {
+      "url": "https://rasterio.readthedocs.io/en/stable/api/rasterio.warp.html#rasterio.warp.reproject",
+      "label": "rasterio.warp.reproject()"
+    },
+    {
+      "url": "https://github.com/rasterio/rasterio/blob/master/examples/reproject.py",
+      "label": "examples/reproject.py"
+    },
+    {
+      "url": "https://a.tiles.mapbox.com/v3/sgillies.hfek2oko/page.html?secure=1#6/0.000/0.033",
+      "label": "https://a.tiles.mapbox.com/v3/sgillies.hfek2oko/page.html?secure=1#6/0.000/0.033"
+    },
+    {
+      "url": "https://rasterio.readthedocs.io/en/stable/topics/reproject.html#estimating-optimal-output-shape",
+      "label": ""
+    },
+    {
+      "url": "https://rasterio.readthedocs.io/en/stable/api/rasterio.warp.html#rasterio.warp.calculate_default_transform",
+      "label": "rasterio.warp.calculate_default_transform()"
+    },
+    {
+      "url": "https://rasterio.readthedocs.io/en/stable/topics/reproject.html#reprojecting-a-geotiff-dataset",
+      "label": ""
+    },
+    {
+      "url": "https://rasterio.readthedocs.io/en/stable/api/rasterio.warp.html#rasterio.warp.transform_bounds",
+      "label": "transform_bounds()"
+    },
+    {
+      "url": "https://rasterio.readthedocs.io/en/stable/api/rasterio.warp.html#rasterio.warp.calculate_default_transform",
+      "label": "calculate_default_transform()"
+    },
+    {
+      "url": "https://rasterio.readthedocs.io/en/stable/cli.html#warp",
+      "label": "here"
+    },
+    {
+      "url": "https://rasterio.readthedocs.io/en/stable/api/rasterio.warp.html#rasterio.warp.reproject",
+      "label": "reproject()"
+    },
+    {
+      "url": "https://rasterio.readthedocs.io/en/stable/topics/reproject.html#reprojecting-with-other-georeferencing-metadata",
+      "label": ""
+    },
+    {
+      "url": "https://rasterio.readthedocs.io/en/stable/topics/georeferencing.html",
+      "label": "Georeferencing"
+    },
+    {
+      "url": "https://rasterio.readthedocs.io/en/stable/topics/reproject.html#id4",
+      "label": "[2]"
+    },
+    {
+      "url": "https://rasterio.readthedocs.io/en/stable/topics/reproject.html#references",
+      "label": ""
+    },
+    {
+      "url": "https://rasterio.readthedocs.io/en/stable/topics/reproject.html#id1",
+      "label": "1"
+    },
+    {
+      "url": "https://docs.scipy.org/doc/scipy/reference/generated/scipy.ndimage.geometric_transform.html#scipy.ndimage.geometric_transform",
+      "label": "https://docs.scipy.org/doc/scipy/reference/generated/scipy.ndimage.geometric_transform.html#scipy.ndimage.geometric_transform"
+    },
+    {
+      "url": "https://rasterio.readthedocs.io/en/stable/topics/reproject.html#id2",
+      "label": "2"
+    },
+    {
+      "url": "http://geotiff.maptools.org/rpc_prop.html",
+      "label": "http://geotiff.maptools.org/rpc_prop.html"
+    },
+    {
+      "url": "https://rasterio.readthedocs.io/en/stable/topics/reading.html",
+      "label": "Previous"
+    },
+    {
+      "url": "https://rasterio.readthedocs.io/en/stable/topics/resampling.html",
+      "label": "Next"
+    },
+    {
+      "url": "https://www.sphinx-doc.org/",
+      "label": "Sphinx"
+    },
+    {
+      "url": "https://github.com/readthedocs/sphinx_rtd_theme",
+      "label": "theme"
+    },
+    {
+      "url": "https://readthedocs.org",
+      "label": "Read the Docs"
+    }
+  ],
+  "elapsed_seconds": 1.204
+}

@@ -1,0 +1,13 @@
+{
+  "id": "resource_R073",
+  "url": "https://quickstats.nass.usda.gov",
+  "checked_at": "2026-11-14T15:15:19.129325+00:00",
+  "tls_validation": false,
+  "status": 200,
+  "final_url": "https://quickstats.nass.usda.gov",
+  "bytes": 150223,
+  "content_type": "text/html",
+  "sha256": "18ca2578f7d2f5860ee005c1a3befe1b3e070c80f42c33851d443263393b8fc7",
+  "links": [],
+  "elapsed_seconds": 1.062
+}

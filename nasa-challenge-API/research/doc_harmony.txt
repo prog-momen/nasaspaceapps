@@ -1,0 +1,2205 @@
+Harmony Documentation
+Earthdata Harmony
+Documentation
+§
+Overview
+Harmony provides access to services that can transform data from NASA's
+Earth Observing Systems Data and Information System (EOSDIS)
+Distributed Active Archive Centers (DAAC).
+Transformations can be requested using one of two
+Open Geospatial Consortium (OGC)
+inspired APIs.
+Data processed by Harmony is staged in
+AWS
+S3 buckets owned by NASA or optionally in user owned S3 buckets. Harmony provides signed URLs or temporary access credentials to users for data staged in NASA S3 buckets.
+Data transformation requests are executed as
+jobs
+in Harmony. Harmony provides the ability for users to monitor and interact with long-running jobs, both programmatically through an API and via a web-based user interface.
+This document describes the APIs and endpoints Harmony provides. You can use these APIs and endpoints to directly interact with Harmony, but the recommended official way to interact with Harmony is through
+Harmony-Py
+.
+This documentation covers the following:
+Overview
+Getting Started
+Passing credentials with curl
+Passing credentials in code
+Using the Service APIs
+OGC Coverages Request Parameters
+URL Path Parameters
+Query Parameters
+OGC EDR Request Parameters
+URL Path Parameters
+Common OGC EDR Query Parameters
+Harmony Extended Query Parameters for OGC EDR Routes
+OGC EDR Cube Subsetting Query Parameters
+OGC EDR Area Subsetting Query Parameters
+OGC EDR Position Subsetting Query Parameters
+OGC EDR Trajectory Subsetting Query Parameters
+WMS Requests
+URL Path Parameters
+Common Query Parameters
+Query Parameters for GetMap - Standard WMS
+Additional Harmony parameters for WMS requests
+Available Services
+Service Versions
+Service Capabilities
+User Owned Buckets for Harmony Output
+Summary of Available Endpoints
+Get Harmony capabilities for the provided collection
+Query Parameters
+Response
+Version 3
+Version 2
+Version 1
+Getting Harmony capabilities for a given collection by collection concept id
+Getting Harmony capabilities for a given collection by collection short name
+Monitoring Jobs with the Jobs API and the Workflow-UI
+Getting the list of jobs for a user
+Query Parameters
+Response
+Getting job status
+Response
+Getting status for multiple jobs at once
+Response
+Pausing a job
+Resuming a paused job
+Canceling a job
+Skipping preview
+Inspecting a Job's Steps with the Steps API
+Getting the steps for a job
+Resolving a work item's files
+Query Parameters
+Response
+Step fields
+Paging fields
+Work item fields
+Labeling Jobs
+Retrieving STAC catalog and catalog items for processed data
+Getting the STAC catalog of a single job
+Getting the STAC catalog item within a job's STAC catalog
+Getting in region S3 AWS access keys using the cloud-access API
+Get AWS S3 access credentials as JSON
+Get AWS S3 access credentials as a shell script to use in a terminal
+Getting the versions of images used in each of the Harmony backend service chains
+Get backend service version information
+§
+Getting Started
+All users will need an
+Earthdata Login
+(EDL) account in order to access NASA data and services.
+Once a user has an EDL username and password they will need to use these when accessing Harmony.
+They can be used directly in a browser request (the browser will prompt for them), in another client like
+curl
+, or in code.
+For
+curl
+or in code the easiest approach is to place your EDL credentials in a
+.netrc file
+.
+A sample
+.netrc
+file looks like this
+machine urs.earthdata.nasa.gov login my-edl-user-name password my-edl-password
+COPIED
+COPY
+Example 2
+- Sample .netrc file
+Make sure that this file is only readable by the current user or you will receive an error stating
+"netrc access too permissive."
+$ chmod 0600 ~/.netrc
+COPIED
+COPY
+Example 3
+- Setting permissions on the .netrc file (Unix/macOS)
+Alternatively users can generate an EDL
+bearer token
+directly and pass this to Harmony using an
+Authorization: Bearer
+header.
+§
+Passing credentials with curl
+Use the
+-n
+flag to use your
+.netrc
+file with
+curl
+. You will
+also need to pass the
+-L
+flag (to handle the redirect from Harmony to EDL and back) and
+the
+-b
+and
+-j
+flags to properly handle cookies used during the authentication.
+curl -Lnbj https://harmony.earthdata.nasa.gov/C1234208438-POCLOUD/ogc-api-coverages/1.0.0/collections/bathymetry/coverage/rangeset
+COPIED
+COPY
+Example 4
+- Curl flags to handle EDL authentication when using a .netrc file
+To work directly with a bearer token from EDL you can use an
+Authorization: Bearer my-bearer-token
+header as follows:
+curl -H "Authorization: Bearer <my-bearer-token>" https://harmony.earthdata.nasa.gov/C1234208438-POCLOUD/ogc-api-coverages/1.0.0/collections/bathymetry/coverage/rangeset
+COPIED
+COPY
+Example 5
+- Using a bearer token with curl
+§
+Passing credentials in code
+The following Python example uses the
+netrc
+,
+request
+, and
+cookiejar
+libraries to set up authentication with EDL.
+No error handling is included in this example.
+import
+netrc
+from
+urllib
+import
+request, parse
+from
+http.cookiejar
+import
+CookieJar
+def
+setup_earthdata_login_auth
+(
+endpoint
+):
+"""
+    Set up the request library so that it authenticates against the given Earthdata Login
+    endpoint and is able to track cookies between requests.  This uses the .netrc file.
+    """
+username, _, password = netrc.netrc().authenticators(endpoint)
+    manager = request.HTTPPasswordMgrWithDefaultRealm()
+    manager.add_password(
+None
+, endpoint, username, password)
+    auth = request.HTTPBasicAuthHandler(manager)
+
+    jar = CookieJar()
+    processor = request.HTTPCookieProcessor(jar)
+    opener = request.build_opener(auth, processor)
+    request.install_opener(opener)
+
+setup_earthdata_login_auth(
+'urs.earthdata.nasa.gov'
+)
+COPIED
+COPY
+Example 6
+- Authenticating in python
+The
+username
+and
+password
+can also be set directly instead of using a
+.netrc
+file.
+There is significant boiler-plate code involved in connecting to Harmony that can be avoided
+by using the
+harmony-py
+library. The equivalent code
+using
+harmony-py
+(when using a
+.netrc
+file) can be as simple as
+from
+harmony
+import
+Client
+
+harmony_client = Client()
+# defaults to Harmony production endpoint
+COPIED
+COPY
+Example 7
+- Using
+harmony-py
+to create a client with
+.netrc
+EDL authentication
+harmony-py
+provides many other conveniences when using Harmony services. For these reasons
+harmony-py
+is the suggested way to access Harmony in code.
+For complete details see the
+documentation
+.
+§
+Using the Service APIs
+This section provides an introduction to the Harmony service APIs for launching services for collections using
+OGC Coverages API
+,
+OGC EDR API
+, or WMS.
+Each API requires a CMR collection concept ID or short name, and transformations can be performed using
+one of the following endpoints ({collectionId} and {variable} are placeholders):
+https://harmony.earthdata.nasa.gov/{collectionId}/ogc-api-coverages/1.0.0/{variable}/coverage/rangeset
+COPIED
+COPY
+Example 8
+- OGC Coverages endpoint
+https://harmony.earthdata.nasa.gov/ogc-api-edr/1.1.0/collections/{collectionId}/cube
+COPIED
+COPY
+Example 9
+- OGC EDR cube endpoint
+https://harmony.earthdata.nasa.gov/ogc-api-edr/1.1.0/collections/{collectionId}/area
+COPIED
+COPY
+Example 10
+- OGC EDR area endpoint
+https://harmony.earthdata.nasa.gov/{collectionId}/wms
+COPIED
+COPY
+Example 11
+- WMS endpoint
+§
+OGC Coverages Request Parameters
+The primary Harmony services REST API conforms to the OGC Coverages API version 1.0.0.
+As such it accepts parameters in the URL path as well as query parameters.
+§
+URL Path Parameters
+parameter
+description
+collection
+(required) This is the NASA EOSDIS collection or data product. There are two options for inputting a collection of interest:
+1. Provide a concept ID, which is an ID provided in the Common Metadata Repository (CMR) metadata
+2. Use the data product short name, e.g. SENTINEL-1_INTERFEROGRAMS. Must be URL encoded.
+variable
+(required) Names or concept ids of the UMM-Var variables to be retrieved, or "all" to retrieve all variables.
+Multiple variables may be retrieved by separating them with a comma.
+The psuedo-variable "parameter_vars" may be used, in which case the variables are specified using the
+variable
+query parameter or
+variable
+form data parameter. This is useful if you need to subset using many variables.
+Table 1
+- Harmony OGC Coverages API URL path (required) parameters
+§
+Query Parameters
+parameter
+description
+subset
+get a subset of the coverage by slicing or trimming along one axis. Harmony supports  the axes "lat" and "lon" for spatial subsetting, and "time" for temporal, regardless of the names of those axes in the data files. Harmony also supports arbitrary dimension names for subsetting on numeric ranges for that dimension.
+outputCrs
+reproject the output coverage to the given CRS. Recognizes CRS types that can be
+interpolation
+specify the interpolation method used during reprojection and scaling
+scaleExtent
+scale the resulting coverage along one axis to a given extent
+scaleSize
+scale the resulting coverage along one axis to a given size
+concatenate
+requests results to be concatenated into a single result
+granuleId
+the CMR Granule ID for the granule which should be retrieved
+granuleName
+passed to the CMR search as the readable_granule_name parameter. Supports * and ?  wildcards for multiple and single character matches. Wildcards can be used any place in the name, but leading wildcards are discouraged as they require a lot of resources for the underlying search
+grid
+the name of the output grid to use for regridding requests. The name must match the UMM
+point
+only collections that have a geometry that contains a spatial point are selected. The spatial point is provided as two numbers:
+* Longitude, coordinate axis 1
+* Latitude, coordinate axis 2
+The coordinate reference system of the values is
+WGS84 longitude/latitude
+.
+width
+number of columns to return in the output coverage
+height
+number of rows to return in the output coverage
+forceAsync
+if "true", override the default API behavior and always treat the request as asynchronous
+format
+the mime-type of the output format to return
+label
+the label(s) to add for the job that runs the request. Multiple labels can be specified as a comma-separated list. A label can contain any characters except for commas up to a 255 character limit. Labels will be rejected if deemed inappropriate. Labels are always converted to lower case.
+maxResults
+limits the number of input files processed in the request
+skipPreview
+if "true", override the default API behavior and never auto-pause jobs
+ignoreErrors
+if "true", continue processing a request to completion even if some items fail. If "false" immediately fail the request. Defaults to true
+destinationUrl
+destination url specified by the client; currently only s3 link urls are supported (e.g. s3://my-bucket-name/mypath) and will result in the job being run asynchronously
+variable
+the variable(s) to be used for variable subsetting. Multiple variables can be specified as a comma-separated list. This parameter is only used if the url
+variable
+path element is "parameter_vars"
+average
+requests the data to be averaged over either time or area
+Table 2
+- Harmony OGC Coverages API query parameters
+For
+POST
+requests the body should be
+multipart/form-data
+and may also contain
+shape
+: perform a shapefile subsetting request on a supported collection by passing the path to a GeoJSON file (*.json or .geojson), an ESRI Shapefile (.zip or .shz), or a kml file (.kml) as the "shape" parameter
+A sample OGC Coverages request is as follows
+curl -Lnbj "https://harmony.earthdata.nasa.gov/C1234208438-POCLOUD/ogc-api-coverages/1.0.0/collections/bathymetry/coverage/rangeset?maxResults=1"
+COPIED
+COPY
+Example 12
+- Curl command for an OGC Coverages request
+§
+OGC EDR Request Parameters
+The Harmony services REST API also conforms to the OGC EDR API version 1.1.0.
+As such it accepts parameters in the URL path as well as query parameters.
+Currently only the
+/position
+,
+/cube
+,
+/trajectory
+and
+/area
+routes are supported for spatial subsetting. Other EDR routes will be supported in the future.
+§
+URL Path Parameters
+parameter
+description
+collection
+(required) This is the NASA EOSDIS collection or data product. There are two options for inputting a collection of interest:
+1. Provide a concept ID, which is an ID provided in the Common Metadata Repository (CMR) metadata
+2. Use the data product short name, e.g. SENTINEL-1_INTERFEROGRAMS. Must be URL encoded.
+Table 3
+- Harmony OGC EDR API URL path (required) parameters
+§
+Common OGC EDR Query Parameters
+parameter
+description
+z
+Define the vertical levels to return data from. The value will override any vertical values defined in the BBOX query parameter. A range to return data for all levels between and including 2 defined levels
+i.e. z=minimum value/maximum value. For instance if all values between and including 10m and 100m
+z=10/100
+A list of height values can be specified, i.e. z=value1,value2,value3. For instance if values at 2m, 10m and 80m are required
+z=2,10,80
+An Arithmetic sequence using Recurring height intervals, the difference is the number of recurrences is defined at the start and the amount to increment the height by is defined at the end, i.e. z=Rn/min height/height interval. So if the request was for 20 height levels 50m apart starting at 100m:
+z=R20/100/50
+When not specified data from all available heights SHOULD be returned
+datetime
+Either a date-time or an interval. Date and time expressions adhere to RFC 3339. Intervals may be bounded or half-bounded (double-dots at start or end).
+Examples:
+* A date-time: "2018-02-12T23:20:50Z"
+* A bounded interval: "2018-02-12T00:00:00Z/2018-03-18T12:31:12Z"
+* Half-bounded intervals: "2018-02-12T00:00:00Z/.." or "../2018-03-18T12:31:12Z"
+Only resources that have a temporal property that intersects the value of
+datetime
+are selected. If a feature has multiple temporal properties, it is the decision of the server whether only a single temporal property is used to determine the extent or all relevant temporal properties.
+parameter-name
+Names or concept ids of the UMM-Var variables to be retrieved. Without parameter-name or a value of "all" to retrieve all variables.
+Multiple variables may be retrieved by separating them with a comma.
+crs
+reproject the output coverage to the given CRS. Recognizes CRS types that can be
+f
+the mime-type of the output format to return
+Table 4
+- Harmony OGC EDR API query parameters common to all spatial subsetting routes
+§
+Harmony Extended Query Parameters for OGC EDR Routes
+parameter
+description
+concatenate
+requests results to be concatenated into a single result
+forceAsync
+if "true", override the default API behavior and always treat the request as asynchronous
+destinationUrl
+destination url specified by the client; currently only s3 link urls are supported (e.g. s3://my-bucket-name/mypath) and will result in the job being run asynchronously
+granuleId
+the CMR Granule ID for the granule which should be retrieved
+granuleName
+passed to the CMR search as the readable_granule_name parameter. Supports * and ?  wildcards for multiple and single character matches. Wildcards can be used any place in the name, but leading wildcards are discouraged as they require a lot of resources for the underlying search
+grid
+the name of the output grid to use for regridding requests. The name must match the UMM
+ignoreErrors
+if "true", continue processing a request to completion even if some items fail. If "false" immediately fail the request. Defaults to true
+interpolation
+specify the interpolation method used during reprojection and scaling
+label
+the label(s) to add for the job that runs the request. Multiple labels can be specified as a comma-separated list. A label can contain any characters up to a 255 character limit, but if a label contains commas the request can only be a POST with with the label field in the body. It is best practice to avoid commas in labels. Labels will be rejected if deemed inappropriate. Labels are always converted to lower case.
+maxResults
+limits the number of input files processed in the request
+scaleExtent
+scale the resulting coverage along one axis to a given extent
+scaleSize
+scale the resulting coverage along one axis to a given size
+skipPreview
+if "true", override the default API behavior and never auto-pause jobs
+subset
+get a subset of the coverage by slicing or trimming along one axis. Harmony supports arbitrary dimension names for subsetting on numeric ranges for that dimension.
+height
+number of rows to return in the output coverage
+width
+number of columns to return in the output coverage
+average
+requests the data to be averaged over either time or area
+Table 5
+- Harmony extended parameters for all OGC EDR API routes
+§
+OGC EDR Cube Subsetting Query Parameters
+parameter
+description
+bbox
+The bounding box is provided as four or six numbers, depending on whether the coordinate reference system includes a vertical axis (height or depth):
+* Lower left corner, coordinate axis 1
+* Lower left corner, coordinate axis 2
+* Minimum value, coordinate axis 3 (optional)
+* Upper right corner, coordinate axis 1
+* Upper right corner, coordinate axis 2
+* Maximum value, coordinate axis 3 (optional)
+The coordinate reference system of the values is WGS 84 longitude/latitude (
+http://www.opengis.net/def/crs/OGC/1.3/CRS84
+) unless a different coordinate reference system is specified in the parameter bbox-crs. For WGS 84 longitude/latitude the values are in most cases the sequence of minimum longitude, minimum latitude, maximum longitude and maximum latitude. However, in cases where the box spans the antimeridian the first value (west-most box edge) is larger than the third value (east-most box edge). If the vertical axis is included, the third and the sixth number are the bottom and the top of the 3-dimensional bounding box. If a feature has multiple spatial geometry properties, it is the decision of the server whether only a single spatial geometry property is used to determine the extent or all relevant geometries.
+Table 6
+- OGC EDR API cube parameters
+A sample OGC EDR cube request is as follows
+curl -Lnbj "https://harmony.earthdata.nasa.gov/ogc-api-edr/1.1.0/collections/C1234208438-POCLOUD/cube?maxResults=1&bbox=-140,20,-50,60" -o output
+COPIED
+COPY
+Example 13
+- Curl command for an OGC EDR cube request
+§
+OGC EDR Area Subsetting Query Parameters
+parameter
+description
+coords
+(required) A Well Known Text (WKT) POLYGON or MULTIPOLYGON string. Coordinates MUST be in counter-clockwise order.
+Table 7
+- OGC EDR API area parameters
+A sample OGC EDR area request is as follows
+curl -Lnbj "https://harmony.earthdata.nasa.gov/ogc-api-edr/1.1.0/collections/C1234208438-POCLOUD/area?maxResults=1&parameter-name=all&coords=POLYGON%20%28%28-65.390625%20-13.239945%2C%20-29.882813%20-50.958427%2C%2017.929688%2030.145127%2C%20-65.390625%20-13.239945%29%29" -o output
+COPIED
+COPY
+Example 14
+- Curl command for an OGC EDR area request
+§
+OGC EDR Position Subsetting Query Parameters
+parameter
+description
+coords
+(required) A Well Known Text (WKT) POINT or MULTIPOINT string.
+Table 8
+- OGC EDR API position parameters
+A sample OGC EDR position request is as follows
+curl -Lnbj "https://harmony.earthdata.nasa.gov/ogc-api-edr/1.1.0/collections/C1234208438-POCLOUD/position?maxResults=1&parameter-name=all&coords=POINT%20(-40%2010)" -o output
+COPIED
+COPY
+Example 15
+- Curl command for an OGC EDR position request
+§
+OGC EDR Trajectory Subsetting Query Parameters
+parameter
+description
+coords
+(required) A Well Known Text (WKT) LINESTRING or MULTILINESTRING string.
+Table 9
+- OGC EDR API trajectory parameters
+A sample OGC EDR trajectory request is as follows
+curl -Lnbj "https://harmony.earthdata.nasa.gov/ogc-api-edr/1.1.0/collections/C1234208438-POCLOUD/trajectory?maxResults=1&parameter-name=all&coords=LINESTRING(-40%2010%2C%2030%2010)" -o output
+COPIED
+COPY
+Example 16
+- Curl command for an OGC EDR trajectory request
+§
+WMS Requests
+Harmony provides an implementation of the
+OGC Web Map Service (WMS) API
+version 1.3.0. Harmony only supports the
+GetCapabilities
+and
+GetMap
+requests.
+The API uses both URL path and query parameters.
+§
+URL Path Parameters
+parameter
+required
+description
+collection
+Y
+this parameter is the same as the
+collection
+parameter described in the OGC Coverages API above.
+Table 10
+- Harmony WMS API URL path (required) parameters
+§
+Common Query Parameters
+parameter
+required
+description
+service
+Y
+the service for the request. Must be equal to 'WMS'
+version
+Y
+the WMS version to use. Must be equal to '1.3.0'
+request
+Y
+the action being requested. Valid values are
+GetCapabilities
+and
+GetMap
+Table 11
+- Required query parameters for both
+GetCapabilities
+and
+GetMap
+§
+Query Parameters for GetMap - Standard WMS
+parameter
+required
+description
+layers
+Y
+comma-separated list of layer names to display on map
+bbox
+Y
+the bounding box for the map as comma separated values in WSEN order
+crs
+Y
+Spatial Reference System for map output. Value is in form EPSG:nnn
+format
+Y
+output format mime-type
+styles
+Y
+Styles in which layers are to be rendered. Value is a comma-separated list of style names, or empty if default styling is required. Style names may be empty in the list, to use default layer styling.
+width
+Y
+width in pixels of the output
+height
+Y
+height in pixels of the output
+bgcolor
+N
+Background color for the map image. Value is in the form RRGGBB. Default is FFFFFF (white).
+exceptions
+N
+Format in which to report exceptions. Default value is application/vnd.ogc.se_xml
+transparent
+N
+whether the output background should be transparent (
+true
+or
+false
+). default is
+false
+Table 12
+- Standard WMS query parameters for
+GetMap
+§
+Additional Harmony parameters for WMS requests
+parameter
+required
+description
+dpi
+N
+the dots-per-inch (DPI) resolution for image output
+map_resolution
+N
+the DPI resolution for image output
+granuleId
+N
+the CMR Granule ID for the granule of interest
+granuleName
+N
+passed to the CMR search as the readable_granule_name parameter. Supports * and ?  wildcards for multiple and single character matches. Wildcards can be used any place in the name, but leading wildcards are discouraged as they require a lot of resources for the underlying search
+Table 13
+- Additional (non-OGC) query parameters for Harmony WMS queries
+GetCapabilities
+requests return an XML document, while
+GetMap
+requests return an image.
+§
+Available Services
+Harmony requests are declarative rather than imperative, so a request specifies the particular
+data of interest, time range of interest, spatial bounds of interest, desired output format, etc.
+Harmony then matches this declaration against available services and invokes the matching services
+on behalf of the user. All of which is to say
+the user does not request specific services directly
+.
+Despite this, it can be useful for a user to know what services are available, what their
+capabilities are, and which services can work together.
+§
+Service Versions
+Harmony services run in containers in pods in a Kubernetes cluster. It is not possible for users
+to interact directly with these pods, but it may be useful to know some of the details about
+the running versions. The specific docker image and
+tag for each service can be retrieved from the
+versions
+route.
+§
+Service Capabilities
+The following tables provide an overview of the deployed services with a description of
+each and what capabilities they provide.
+Name:
+harmony/download
+Description:
+Service that performs no processing, it only returns download links for all of the matched granules from the CMR.
+Capabilities
+subsetting
+concatenation
+reprojection
+output formats
+bounding box
+shape
+temporal
+variable
+multiple variable
+N
+N
+application/netcdf
+N
+N
+N
+N
+N
+Name:
+asdc/casper
+Description:
+Service that converts a NetCDF file to one or more CSV files.
+Capabilities
+subsetting
+concatenation
+reprojection
+output formats
+bounding box
+shape
+temporal
+variable
+multiple variable
+N
+N
+text/csv
+N
+N
+N
+N
+N
+Name:
+giovanni-time-series-adapter
+Description:
+A service to compose the Giovanni URL for a time series and invoke Giovanni service to produce output file to visualize, analyze,
+and access vast amounts of Earth science remote sensing data without having to download the data.
+Capabilities
+subsetting
+concatenation
+reprojection
+output formats
+bounding box
+shape
+temporal
+variable
+multiple variable
+N
+N
+text/csv
+N
+N
+Y
+Y
+N
+Name:
+podaac/l2-subsetter
+Description:
+Implementation of the L2 swath subsetter based on python, xarray and netcdf4.
+Works with Trajectory (1D) and Along track/across track data.
+Works with NetCDF and HDF5 inputfiles
+Variable subsetting supported
+works with hierarchical groups
+Outputs netcdf4.
+Capabilities
+subsetting
+concatenation
+reprojection
+output formats
+bounding box
+shape
+temporal
+variable
+multiple variable
+N
+N
+application/netcdf
+Y
+Y
+Y
+Y
+N
+Name:
+podaac/concise
+Description:
+Service capabale of "concatenating" multiple netCDF files into a single netCDF files.
+The resulting file has an extra dimension with size equal to the number of input files where each slice in that dimension corresponds to the data from one of the inputs.
+Capabilities
+subsetting
+concatenation
+reprojection
+output formats
+bounding box
+shape
+temporal
+variable
+multiple variable
+DEFAULT
+N
+application/netcdf
+N
+N
+N
+N
+N
+Name:
+podaac/l2-subsetter-concise
+Description:
+Chained Service of the PODAAC L2 swath subsetter and PODAAC concise services.
+PODAAC L2 swath subsetter
+Works with Trajectory (1D) and Along track/across track data.
+Works with NetCDF and HDF5 inputfiles
+Variable subsetting supported
+works with hierarchical groups
+Outputs netcdf4.
+PODAAC concise services
+Service capabale of "concatenating" multiple netCDF files into a single netCDF files.
+The resulting file has an extra dimension with size equal to the number of input files where each slice in that dimension corresponds to the data from one of the inputs.
+Capabilities
+subsetting
+concatenation
+reprojection
+output formats
+bounding box
+shape
+temporal
+variable
+multiple variable
+DEFAULT
+N
+application/netcdf
+Y
+Y
+Y
+Y
+N
+Name:
+variable-only-opendap-subsetter
+Description:
+The Variable Only OPeNDAP Subsetter (VOSS) provides only variable subsetting.
+Accesses NetCDF-4 files and retrieves the requested list of variables,
+plus all those that are required to support meaningful downstream
+operations upon those data (e.g. associated coordinate variables).
+Capabilities
+subsetting
+concatenation
+reprojection
+output formats
+bounding box
+shape
+temporal
+variable
+multiple variable
+N
+N
+application/netcdf,application/x-netcdf4;profile=opendap_url
+N
+N
+N
+Y
+N
+Name:
+sds/trajectory-subsetter
+Description:
+A service that supports L2 segmented trajectory (
+not swath
+) data.
+Currently uses the same C++ binary as is on-premises in SDPS, to offer variable, temporal, bounding box spatial and polygon spatial subsetting.
+This subsetter also ensures valid segment indices and sizes following transformation.
+Capabilities
+subsetting
+concatenation
+reprojection
+output formats
+bounding box
+shape
+temporal
+variable
+multiple variable
+N
+N
+application/x-hdf
+Y
+Y
+Y
+Y
+N
+Name:
+sds/HOSS-geographic
+Description:
+A service that currently supports L3/L4 geographically gridded collections, offering variable, temporal, named dimension, bounding box spatial and shape file spatial subsetting.
+Accesses NetCDF-4 files hosted in Hyrax cloud service (OPeNDAP), and retrieves the requested list of variables,
+plus all those that are required to support meaningful downstream operations upon those data (e.g. associated coordinate variables).
+This service is currently operated from the same HOSS Docker image as the variable-only-opendap-subsetter service.
+Capabilities
+subsetting
+concatenation
+reprojection
+output formats
+bounding box
+shape
+temporal
+variable
+multiple variable
+N
+N
+application/netcdf
+Y
+Y
+Y
+Y
+N
+Name:
+sds/HOSS-projection-gridded
+Description:
+A service that currently supports L3/L4 projection-gridded collections, offering variable, temporal, named dimension, bounding box spatial and shape file spatial subsetting.
+Accesses NetCDF-4 files hosted in Hyrax cloud service (OPeNDAP), and retrieves the requested list of variables,
+plus all those that are required to support meaningful downstream operations upon those data (e.g. associated coordinate variables).
+This service is currently operated from the same Docker image as the variable-only-opendap-subsetter service.
+Capabilities
+subsetting
+concatenation
+reprojection
+output formats
+bounding box
+shape
+temporal
+variable
+multiple variable
+N
+N
+application/netcdf
+Y
+Y
+Y
+Y
+N
+Name:
+sds/HOSS-regridder-reformatter
+Description:
+A service chain for applying the Harmony Metadata Annotator to HOSS/Maskfill
+output, producing CF compliant annotated NetCDF4 outputs. This service chain
+is also intended to be used for producing regridded outputs using the harmony-regridder
+and to produce GeoTIFF outputs using net2cog.
+Capabilities
+subsetting
+concatenation
+reprojection
+output formats
+bounding box
+shape
+temporal
+variable
+multiple variable
+N
+Y
+application/netcdf,image/tiff
+Y
+Y
+Y
+Y
+N
+Name:
+sds/hoss-opendap-url
+Description:
+The Harmony OPeNDAP URL Service (HOUSe) is a service chain that returns
+the OPeNDAP request URL created in a HOSS request instead of the subsetted
+granule. This limits the capabilities of HOUSe to things that can be
+directly requested from OPeNDAP in the form of array index ranges.
+Capabilities
+subsetting
+concatenation
+reprojection
+output formats
+bounding box
+shape
+temporal
+variable
+multiple variable
+N
+N
+application/x-netcdf4;profile=opendap_url
+Y
+N
+N
+Y
+N
+Name:
+sds/swath-projector
+Description:
+Takes NetCDF-4 input files and projects input swath variables to an output grid.
+Target CRS, output grid dimensions, extents and/or resolutions can be specified in the Harmony request.
+Capabilities
+subsetting
+concatenation
+reprojection
+output formats
+bounding box
+shape
+temporal
+variable
+multiple variable
+N
+Y
+application/netcdf
+N
+N
+N
+N
+N
+Name:
+ldds/subset-band-name
+Description:
+Subset by Band and Name service capable of subsetting HDF4/HDF-EOS2 SDS variables by name and band.
+Capabilities
+subsetting
+concatenation
+reprojection
+output formats
+bounding box
+shape
+temporal
+variable
+multiple variable
+N
+N
+application/x-hdf
+N
+N
+N
+Y
+Y
+Name:
+ldds/geoloco
+Description:
+Service capable of reprojecting, resampling, regridding, and spatial and SDS subsetting HDF4/HDF-EOS2 SDS variables.
+The wrapper also retrieves the geolocation file name from the input file Core Metadata and downloads it from S3.
+Works with L1B-L4 granules (L1B and L2 granule SDSs are automatically regridded with default setting granule resolution
+and geographic projection).
+Capabilities
+subsetting
+concatenation
+reprojection
+output formats
+bounding box
+shape
+temporal
+variable
+multiple variable
+N
+Y
+application/x-hdf
+Y
+N
+N
+Y
+Y
+Name:
+l2-subsetter-batchee-stitchee-concise
+Description:
+Subsetter And Multi-dimensional Batched Aggregation in Harmony (SAMBAH)
+Chained Service of the L2-subsetter, Batchee, STITCHEE, CONCISE, and CASPER services.
+Additional documentation
+here
+.
+L2 swath subsetter (L2-subsetter)
+Works with trajectory (1D) and along track/across track data.
+Works with netCDF and HDF5 input files.
+Supports variable subsetting.
+Supports temporal subsetting.
+Supports shape subsetting
+Works with hierarchical groups.
+Outputs netCDF4.
+Batchee
+Service groups together filenames so that further operations (such as concatenation) can be performed separately on each group of files.
+STITCH by Extending a dimEnsion (Stitchee)
+Service concatenates a group of netCDF data files along an existing dimension.
+CONCatenation SErvice (CONCISE)
+Service capable of "concatenating" multiple netCDF files into a single netCDF file.
+The resulting file has an extra dimension with size equal to the number of input files, where each slice in that dimension corresponds to the data from one of the input files.
+CASPER
+Service that converts NetCDF file into CSV format by grouping the variables by their coordinates and outputs each group into a separate CSV file.
+Capabilities
+subsetting
+concatenation
+reprojection
+output formats
+bounding box
+shape
+temporal
+variable
+multiple variable
+Y
+N
+application/netcdf,text/csv
+Y
+Y
+Y
+Y
+N
+Name:
+asdc/imagenator_l2
+Description:
+Chain to create TEMPO L2 imagery for GIBS
+Capabilities
+subsetting
+concatenation
+reprojection
+output formats
+bounding box
+shape
+temporal
+variable
+multiple variable
+N
+Y
+image/png,image/jpeg
+N
+N
+N
+Y
+N
+Name:
+asdc/imagenator_l3
+Description:
+Chain to create TEMPO L3 imagery for GIBS
+Capabilities
+subsetting
+concatenation
+reprojection
+output formats
+bounding box
+shape
+temporal
+variable
+multiple variable
+N
+Y
+image/png,image/jpeg
+N
+N
+N
+Y
+N
+Name:
+sds/HyBIG
+Description:
+The Harmony Browse Image Generator (HyBIG) supports the conversion of
+GeoTIFF inputs to Global Imagery Browse Services (GIBS) compatible PNG or
+JPEG outputs. This includes, where necessary, conversion to a GIBS
+supported Coordinate Reference System (CRS). Other projections can be
+requested, but will not be compatible with GIBS.
+Capabilities
+subsetting
+concatenation
+reprojection
+output formats
+bounding box
+shape
+temporal
+variable
+multiple variable
+N
+Y
+image/png,image/jpeg
+N
+N
+N
+Y
+N
+Name:
+net2cog
+Description:
+Converts NetCDF files to COG. Includes extension for running in NASA Harmony. https://github.com/podaac/net2cog
+Capabilities
+subsetting
+concatenation
+reprojection
+output formats
+bounding box
+shape
+temporal
+variable
+multiple variable
+N
+N
+image/tiff
+N
+N
+N
+Y
+N
+Name:
+nasa/harmony-gdal-adapter
+Description:
+Service translating Harmony operations to GDAL commands.
+Supports spatial bounding box, variable, reprojection,
+and output to GeoTIFF.
+Capabilities
+subsetting
+concatenation
+reprojection
+output formats
+bounding box
+shape
+temporal
+variable
+multiple variable
+N
+Y
+image/tiff
+Y
+N
+N
+Y
+Y
+Name:
+giovanni-averaging-service
+Description:
+A service to compute averaging over specified dimensions on Zarr data on a Dask cluster running in Cloud Giovanni. A time-averaged map
+will produce a GEOTIFF and an area-averaged timeseries will produce a CSV.
+Capabilities
+subsetting
+concatenation
+reprojection
+output formats
+bounding box
+shape
+temporal
+variable
+multiple variable
+N
+N
+text/csv,image/tiff
+Y
+N
+Y
+Y
+N
+Name:
+asf/opera-rtc-s1-browse
+Description:
+Service that generates GIBS-compliant browse imagery for the OPERA_L2_RTC-S1 collection
+Capabilities
+subsetting
+concatenation
+reprojection
+output formats
+bounding box
+shape
+temporal
+variable
+multiple variable
+N
+Y
+image/png
+N
+N
+N
+N
+N
+Name:
+asf/nisar-py
+Description:
+Service that generates GIBS-compliant browse imagery for the NISAR_L2_GCOV_BETA_V1 collection
+Capabilities
+subsetting
+concatenation
+reprojection
+output formats
+bounding box
+shape
+temporal
+variable
+multiple variable
+N
+Y
+image/png
+N
+N
+N
+N
+N
+Name:
+sds/smap-l2-subsetter-net2cog
+Description:
+A service chain for subsetting SMAP L2 collections with the Trajectory
+Subsetter and reformatting that output to Cloud-Optimized GeoTIFF (COG).
+In GeoTIFF reformatting the SMAP L2 Gridder is called first to convert
+the output to NetCDF, which is then plugged into the Net2COG reformatter.
+Capabilities
+subsetting
+concatenation
+reprojection
+output formats
+bounding box
+shape
+temporal
+variable
+multiple variable
+N
+Y
+application/x-hdf,application/netcdf,image/tiff
+Y
+Y
+N
+Y
+N
+Name:
+harmony/service-example
+Description:
+Reference service that can be used to perform most operations supported by Harmony.
+Useful for testing new API features end-to-end on example data but not meant for production use.
+Capabilities
+subsetting
+concatenation
+reprojection
+output formats
+bounding box
+shape
+temporal
+variable
+multiple variable
+N
+Y
+image/tiff,image/png,image/gif
+Y
+N
+N
+Y
+Y
+§
+User Owned Buckets for Harmony Output
+Users may store Harmony output directly in their own S3 buckets by specifying the bucket/path
+in their requests with the
+destinationUrl
+parameter. For example
+https://harmony.earthdata.nasa.gov/C1234208438-POCLOUD/ogc-api-coverages/1.0.0/collections/bathymetry/coverage/rangeset?concatenate=true&subset=lon(-160%3A160)&subset=lat(-80%3A80)&skipPreview=true&maxResults=1&destinationUrl=3%3A%2F%2Fmy-staging-bucket
+COPIED
+COPY
+Example 17
+- Request to store output in user owned S3 bucket
+would place the output in
+s3://my-example-bucket
+. Note that
+the value of
+destinationUrl
+must be a full S3 path and
+must be URL encoded.
+Four things are required to enable Harmony to write to your bucket.
+The bucket must be in the same AWS region as Harmony, i.e.,
+us-west-2
+.
+The bucket must have ACLs disabled. This is the default for S3 buckets.
+Harmony must have permission to write to the bucket.
+Harmony must have permission to check the bucket's location.
+Numbers three and four on the list can be accomplished by setting an appropriate bucket policy.
+You can obtain a bucket policy for your bucket using the policy generator at
+https://harmony.earthdata.nasa.gov/staging-bucket-policy and passing in the
+bucketPath
+query parameter. For example
+https://harmony.earthdata.nasa.gov/staging-bucket-policy?bucketPath=my-example-bucket
+The
+bucketPath
+parameter can be one of the following
+A bucket name, e.g.,
+my-example-bucket
+A bucket name + path, e.g.,
+my-example-bucket/my/path
+A full S3 url with our without a path, e.g.,
+s3://my-example-bucket/my/path
+The third option is compatible with the
+destinationUrl
+parameter for requests.
+Bucket names must conform to the
+AWS bucket naming rules
+. The path must conform to the
+AWS object key naming guidelines
+. Characters listed under "Characters to Avoid" are not supported.
+A sample policy generated by the endpoint is shown below:
+{
+"Version"
+:
+"2012-10-17"
+,
+"Statement"
+:
+[
+{
+"Sid"
+:
+"write permission"
+,
+"Effect"
+:
+"Allow"
+,
+"Principal"
+:
+{
+"AWS"
+:
+"arn:aws:iam::123456789012:root"
+}
+,
+"Action"
+:
+"s3:PutObject"
+,
+"Resource"
+:
+"arn:aws:s3:::my-bucket/*"
+}
+,
+{
+"Sid"
+:
+"get bucket location permission"
+,
+"Effect"
+:
+"Allow"
+,
+"Principal"
+:
+{
+"AWS"
+:
+"arn:aws:iam::123456789012:root"
+}
+,
+"Action"
+:
+"s3:GetBucketLocation"
+,
+"Resource"
+:
+"arn:aws:s3:::my-bucket"
+}
+]
+}
+COPIED
+COPY
+Example 18
+- Sample bucket policy to enable writing Harmony output
+§
+Summary of Available Endpoints
+All of the public endpoints for Harmony users other than the OGC Coverages, EDR, and WMS APIs are listed in the following table. The Coverages and WMS APIs are described in the
+Using the Service APIs section
+.
+route
+description
+/
+The Harmony landing page
+/capabilities
+Get harmony capabilities for the provided collection
+/cloud-access
+Generates AWS credentials for accessing processed data in S3
+/docs
+These documentation pages
+/docs/api
+The Swagger documentation for the OGC Coverages API
+/docs/edr-api
+The Swagger documentation for the OGC EDR API
+/docs/capabilities-api
+The Swagger documentation for the collection capabilities API
+/jobs
+The jobs API for getting job status, pausing/continuing/canceling jobs
+/jobs/status
+Getting status for multiple jobs at once
+/jobs/<JobID>/steps
+The introspection service for understanding a jobs steps and intermediate results
+/stac
+The API for retrieving STAC catalog and catalog items for processed data
+/staging-bucket-policy
+The policy generator for external (user) bucket storage
+/versions
+Returns JSON indicating the image and tag each deployed service is running
+/service-image-tag
+The API for managing service image tags/versions
+/workflow-ui
+The Workflow UI for monitoring and interacting with running jobs
+Table 14
+- Harmony routes other than OGC Coverages and WMS
+§
+Get Harmony capabilities for the provided collection
+Returns information related to what Harmony operations are supported for a given collection in JSON format. The collection can be identified by either collection concept id or short name.
+An
+OpenAPI/Swagger
+description of the endpoint is available.
+A JSON Schema definition is available for each of the versions as well.
+Version 3
+Version 2
+Version 1
+§
+Query Parameters
+Either
+collectionId
+or
+shortName
+must be provided.
+parameter
+description
+collectionId
+Concept ID of the collection to retrieve capabilities for
+shortName
+Short name of the collection to retrieve capabilities for
+version
+(optional) The version of the capabilities result format. Currently 1, 2, and 3 are supported. Version 3 is the default.
+Table 15
+- Harmony capabilities endpoint parameters
+§
+Response
+The returned JSON response will have the configured capabilities in Harmony for the given collection in terms of supported features (e.g. variable subsetting, bounding box subsetting, concatenation, reprojection, etc.), the output formats, the list of Harmony services that are applicable for the collection, the list of variables that are associated with the collection and the version of the capabilities result format.
+§
+Version 3
+See below for the root level fields in the capabilities response and their descriptions for version 3:
+field
+description
+conceptId
+Concept ID of the collection.
+shortName
+Short name of the collection.
+summary
+A JSON object summarizing the Harmony capabilities available for the collection, including subsetting, reprojection, averaging, concatenation, and supported output formats. Some capabilities cannot be used together; see the
+services
+field to determine the capabilities supported by individual services and valid capability combinations.
+services
+A list of JSON objects describing the Harmony services applicable to the collection. Each service includes its name, reference URL, and the capabilities supported by that service.
+variables
+A list of JSON objects describing the variables associated with the collection.
+capabilitiesVersion
+The version identifier for the capabilities response format.
+Table 16
+- Harmony capabilities endpoint response version 3 fields
+§
+Version 2
+See below for the root level fields in the capabilities response and their descriptions for version 2:
+field
+description
+conceptId
+Concept ID of the collection.
+shortName
+Short name of the collection.
+variableSubset
+(boolean) True if variable subsetting is supported by any of the Harmony services for the collection.
+bboxSubset
+(boolean) True if bounding box subsetting is supported by any of the Harmony services for the collection.
+shapeSubset
+(boolean) True if shape subsetting is supported by any of the Harmony services for the collection.
+temporalSubset
+(boolean) True if temporal subsetting is supported by any of the Harmony services for the collection.
+concatenate
+(boolean) True if concatenation is supported by any of the Harmony services for the collection.
+reproject
+(boolean) True if reprojection is supported by any of the Harmony services for the collection.
+outputFormats
+A list of supported output format MIME types for the collection.
+services
+A list of JSON objects describing the Harmony services applicable to the collection and their supported capabilities.
+variables
+A list of JSON objects describing the variables associated with the collection.
+capabilitiesVersion
+The version identifier for the capabilities response format.
+Table 17
+- Harmony capabilities endpoint response version 2 fields
+§
+Version 1
+See below for the root level fields in the capabilities response and their descriptions for version 1:
+field
+description
+conceptId
+Concept ID of the collection.
+shortName
+Short name of the collection.
+variableSubset
+(boolean) True if variable subsetting is supported by any of the Harmony services for the collection.
+bboxSubset
+(boolean) True if bounding box subsetting is supported by any of the Harmony services for the collection.
+shapeSubset
+(boolean) True if shape subsetting is supported by any of the Harmony services for the collection.
+temporalSubset
+(boolean) True if temporal subsetting is supported by any of the Harmony services for the collection.
+concatenate
+(boolean) True if concatenation is supported by any of the Harmony services for the collection.
+reproject
+(boolean) True if reprojection is supported by any of the Harmony services for the collection.
+outputFormats
+A list of supported output format MIME types for the collection.
+services
+A list of JSON objects describing the Harmony services applicable to the collection and their supported capabilities.
+variables
+A list of variable names associated with the collection.
+capabilitiesVersion
+The version identifier for the capabilities response format.
+Table 18
+- Harmony capabilities endpoint response version 1 fields
+§
+Getting Harmony capabilities for a given collection by collection concept id
+https://harmony.earthdata.nasa.gov/capabilities?collectionId=<collection-concept-id>
+COPIED
+COPY
+Example 19
+- Getting Harmony capabilities for a given collection by collection concept id
+§
+Getting Harmony capabilities for a given collection by collection short name
+https://harmony.earthdata.nasa.gov/capabilities?shortName=<collection-short-name>
+COPIED
+COPY
+Example 20
+- Getting Harmony capabilities for a given collection by collection short name
+§
+Monitoring Jobs with the Jobs API and the Workflow-UI
+Jobs can be monitored using the jobs API as well as with the
+Workflow-UI
+web application.
+There are two set of jobs API endpoints with the same sub paths and parameters: one with path
+jobs
+to view and control the current user's own jobs; the other with
+admin/jobs
+path to view and control all users' jobs if the current user has admin permission to do so. For simplicity, we will only list the ones for regular user below.
+§
+Getting the list of jobs for a user
+https://harmony.earthdata.nasa.gov/jobs
+COPIED
+COPY
+Example 21
+- Getting the user's list of jobs using the
+jobs
+API
+Returns the list of Harmony jobs submitted by the user. By default, 10 jobs are returned in the response. User can use the paging query parameters to page through the whole result set or/and change the number of jobs that will be returned in each page.
+§
+Query Parameters
+parameter
+description
+page
+Current page number
+limit
+Number of jobs in each page
+label
+Filters jobs to those which include at least one of the labels specified. Multiple labels can be specified using a comma-separated list.
+Table 19
+- Harmony jobs endpoint parameters
+§
+Response
+The returned JSON response will list the total number of jobs that belong to the user, details of the jobs on the current page and links to traverse to the previous, next, first or last pages of the result set:
+field
+description
+count
+Total number of jobs
+jobs
+A list of JSON objects with fields describe the job in details. For details, see
+job status response
+.
+links
+A list of links to traverse to the previous, next, first or last pages of the result set.
+Table 20
+- Harmony jobs response fields
+§
+Getting job status
+Get details for a given job.
+https://harmony.earthdata.nasa.gov/jobs/<job-id>
+COPIED
+COPY
+Example 22
+- Getting job status
+§
+Response
+The returned JSON response list the details of the given job:
+field
+description
+username
+Username that owns the job
+status
+Status of the job
+message
+Processing message of the job
+progress
+Percentage of the job processing progress.
+100
+for a job that has been processed completely.
+createdAt
+Timestamp when the job was submitted to Harmony
+updatedAt
+Timestamp when the job was last updated in Harmony
+dataExpiration
+Timestamp when the result data of the job will be cleaned up from Harmony
+links
+A list of JSON objects with links to STAC catalog and result data of the job
+labels
+An array of labels used when making the request
+steps
+A link to the steps endpoint for this job-id
+serviceName
+the name of the service chain that was invoked by the request
+request
+The original request url of the job
+numInputGranules
+number of input granules in the job
+jobID
+ID of the job in Harmony
+errors
+an array of error object that occured. Only shown when at least one error occurs.
+Table 21
+- Harmony job response fields
+§
+Getting status for multiple jobs at once
+Clients that need to poll many jobs at once, for example after submitting a large batch of
+requests, can use the bulk status endpoint instead of making one request per job. It accepts up
+to
+2000
+job IDs in a single call and returns only the
+jobID
+,
+status
+, and
+progress
+for each job - not the full
+job status response
+(no
+links
+,
+errors
+,
+message
+, etc.).
+https://harmony.earthdata.nasa.gov/jobs/status
+COPIED
+COPY
+Example 23
+- Getting status for multiple jobs at once
+This is a
+POST
+request with a JSON body containing the list of job IDs to check:
+{
+"jobIDs"
+:
+[
+"<job-id-1>"
+,
+"<job-id-2>"
+,
+"<job-id-3>"
+]
+}
+COPIED
+COPY
+§
+Response
+The returned JSON response lists the status and progress for each job that could be found, along
+with any requested job IDs that could not be found:
+field
+description
+jobStatuses
+A list of JSON objects, each with
+jobID
+,
+status
+, and
+progress
+for a job that was found.
+notFoundJobIDs
+A list of job IDs from the request that could not be found.
+Table 22
+- Harmony bulk job status response fields
+A request for more than
+2000
+job IDs, an empty or missing
+jobIDs
+list, or
+a
+jobIDs
+list containing an ID that is not a valid job ID will result in an error response and
+no job statuses being returned.
+§
+Pausing a job
+User can pause a job with the following API call. The returned response is the same as the
+job status response
+with the job status as
+paused
+.
+https://harmony.earthdata.nasa.gov/jobs/<job-id>/pause
+COPIED
+COPY
+Example 24
+- Pausing a running job
+§
+Resuming a paused job
+User can resume a paused job with the following API call. The returned response is the same as the
+job status response
+with the job status as
+running
+.
+https://harmony.earthdata.nasa.gov/jobs/<job-id>/resume
+COPIED
+COPY
+Example 25
+- Resuming a paused job
+§
+Canceling a job
+User can cancel a job with the following API call. The returned response is the same as the
+job status response
+with the job status as
+canceled
+.
+https://harmony.earthdata.nasa.gov/jobs/<job-id>/cancel
+COPIED
+COPY
+Example 26
+- Canceling a running job
+§
+Skipping preview
+Jobs involving many granules will by default pause automatically after the first few
+granules are processed. This allows the user to examine the output to make sure things
+look right before waiting for the entire job to complete. If things looks good, the
+user can resume the paused job, if not they can cancel the paused job.
+Note:
+The current threshold in this environment for the number of granules that will trigger automatic pausing of a job is
+300
+.
+If a user wishes to skip this step they can pass the
+skipPreview
+flag mentioned in the
+Services API section
+, or they can tell an already running job
+to skip the preview using the following:
+https://harmony.earthdata.nasa.gov/jobs/<job-id>/skip-preview
+COPIED
+COPY
+Example 27
+- Skipping the preview on a many-granule job
+§
+Inspecting a Job's Steps with the Steps API
+The steps API provides introspection into the workflow steps that make up a job and the work items each step processed. It is useful for understanding how a request was broken down across services and for inspecting the inputs and outputs of each step.
+As with the jobs API, there are two sets of steps API endpoints with the same sub paths and parameters: one with path
+jobs
+to view the current user's own jobs; the other with
+admin/jobs
+path to view all users' jobs if the current user has admin permission to do so. For simplicity, we will only list the ones for a regular user below.
+§
+Getting the steps for a job
+https://harmony.earthdata.nasa.gov/jobs/<job-id>/steps
+COPIED
+COPY
+Example 28
+- Getting the steps for a job
+Returns the workflow steps for the given job, along with the work items processed by each step. Each step's work items are paged independently: by default up to 50 are shown per step (configurable with
+limit
+), and each step is navigated with its own
+step<stepIndex>Page
+parameter. A step with more than one page of work items includes a
+paging
+object with links to the other pages.
+A work item can reference or produce a very large number of files - for example a query-cmr step that fans out to thousands of granules, or an aggregating step whose single input catalog lists many items. To keep the endpoint responsive, it does
+not
+read any files from storage. Instead, each work item has an
+accessFilesUrl
+link (see
+work item fields
+). The files themselves are resolved, and paged, only on demand by following this link - see
+Resolving a work item's files
+.
+§
+Resolving a work item's files
+To see a work item's actual input and output files, you need to follow its
+accessFilesUrl
+, which is designed to make a request back to the steps endpoint scoped to that one work item and sets the
+resolveFiles
+parameter to
+true
+:
+https://harmony.earthdata.nasa.gov/jobs/<job-id>/steps?workItem=<id>&resolveFiles=true
+COPIED
+COPY
+Example 29
+- Resolving a work item's files
+When
+resolveFiles=true
+is supplied and one or more
+workItem
+s are given, each work item is returned with both its input and output files resolved inline:
+inputFiles
+(and
+inputFilesPaging
+) are populated by reading a page of the work item's input STAC catalog items.
+outputFiles
+(and
+outputFilesPaging
+) are populated by reading a page of the work item's output STAC catalogs.
+Each is paged independently to bound the number of reads: at most
+wiLimit
+items/catalogs (default 50, maximum 100) are read per request per input and output. Input pages are navigated with the work item's
+workItem<id>InputPage
+parameter and output pages with its
+workItem<id>OutputPage
+parameter, so the two catalogs can be paged independently. When necessary, an
+inputFilesPaging
+or
+outputFilesPaging
+object with links to the other pages is included.
+§
+Query Parameters
+Parameter names are case-insensitive (e.g.
+step2Page
+,
+Step2Page
+, and
+STEP2PAGE
+are equivalent).
+parameter
+description
+step
+Limit the response to one or more steps by stepIndex, comma-separated (e.g.
+step=1,2
+). Each a positive integer.
+status
+Filter the work items shown to one or more statuses, comma-separated (e.g.
+status=failed,warning
+). Each one of
+ready
+,
+queued
+,
+running
+,
+successful
+,
+failed
+,
+canceled
+, or
+warning
+. Steps with no matching work items are omitted.
+workItem
+Limit the work items shown to one or more IDs, comma-separated (e.g.
+workItem=123,124
+). Each a positive integer.
+limit
+The number of work items to show per page for each step. Defaults to 50, maximum 1000.
+resolveFiles
+Resolves a work item's input and output files inline instead of returning an
+accessFilesUrl
+link. Set to
+true
+. Requires one or more
+workItem
+s; otherwise the request is rejected. See
+Resolving a work item's files
+.
+wiLimit
+The page size used when resolving files: the number of input STAC items and output STAC catalogs read per page (each paged independently). Defaults to 50, maximum 100.
+step<stepIndex>Page
+The page of work items to show for the step with the given stepIndex, e.g.
+step2Page=3
+. A positive integer that defaults to 1; a page beyond the last page returns the last page. Each step pages independently, so multiple may be supplied.
+workItem<id>OutputPage
+The page of output files to show for the work item with the given id when
+resolveFiles=true
+, e.g.
+workItem123OutputPage=2
+. Output files are paged by STAC catalog (
+wiLimit
+per page). A positive integer that defaults to 1; a page beyond the last page returns the last page.
+workItem<id>InputPage
+The page of input files to show for the work item with the given id when
+resolveFiles=true
+, e.g.
+workItem123InputPage=2
+. Input files are paged by STAC item (
+wiLimit
+per page). A positive integer that defaults to 1; a page beyond the last page returns the last page.
+Table 23
+- Harmony steps endpoint parameters
+§
+Response
+The returned JSON response describes the job and the list of its steps:
+field
+description
+jobID
+ID of the job in Harmony
+serviceName
+Name of the service that ran the job
+status
+Status of the job
+progress
+Percentage of the job processing progress.
+100
+for a job that has been processed completely.
+message
+Processing message of the job
+username
+Username that owns the job
+numInputGranules
+Number of input granules in the job
+request
+The original request url of the job
+steps
+A list of JSON objects describing the workflow steps. For details, see
+step fields
+.
+Table 24
+- Harmony steps response fields
+§
+Step fields
+Each entry in the
+steps
+list describes a single workflow step -- one service in a service chain:
+field
+description
+serviceID
+The service image name and tag service that ran this step
+stepIndex
+The position of this step in the workflow, starting at
+1
+workItemCount
+The total number of work items in this step
+statuses
+A map of work item status to the number of work items in that status for the whole step. Only statuses with at least one work item appear.
+workItems
+A list of JSON objects describing the work items for this step. For details, see
+work item fields
+.
+paging
+Present when the step has more than one page of work items. For details, see
+paging fields
+.
+Table 25
+- Harmony step fields
+§
+Paging fields
+The
+paging
+object lets you navigate a step's work items one page at a time:
+field
+description
+currentPage
+The page of work items currently shown for this step.
+lastPage
+The index of the last available page.
+total
+The total number of work items for this step, after any
+status
+or
+workItem
+filter.
+links
+Navigation links, each with
+rel
+(one of
+first
+,
+prev
+,
+self
+,
+next
+,
+last
+),
+href
+,
+title
+, and
+type
+. Links that do not apply (e.g.
+next
+on the last page) are omitted.
+Table 26
+- Harmony step paging fields
+§
+Work item fields
+Each entry in a step's
+workItems
+list describes a single work item. The default (link-only) response carries
+id
+,
+status
+,
+retryCount
+, and the
+accessFilesUrl
+field. The
+inputFiles
+/
+outputFiles
+fields and their paging appear only when
+resolving a work item's files
+:
+field
+description
+id
+ID of the work item in Harmony
+status
+Status of the work item
+retryCount
+The number of times the work item has been retried
+accessFilesUrl
+A link that resolves this work item's input and output files, or
+null
+if there is nothing to resolve (no input catalog and the work item has not yet completed). Follow it (equivalently, pass the query string
+workItem=<id>&resolveFiles=true
+) to get the files.
+inputFiles
+A list of links to the input files for the current input-file page. Files unable be turned into a public link are shown as
+<private file location>
+.
+inputFilesPaging
+Present when needed. Navigate the pages with the
+workItem<id>InputPage
+parameter. Same shape as a step's
+paging
+object — see
+paging fields
+(here
+total
+is the work item's number of input STAC items).
+outputFiles
+A list of links to the output files for the current output-file page, or empty if it produced no output. Files unable be turned into a public link are shown as
+<private file location>
+.
+outputFilesPaging
+Present when needed. Navigate the pages with the
+workItem<id>OutputPage
+parameter. Same shape as a step's
+paging
+object — see
+paging fields
+(here
+total
+is the work item's number of output STAC catalogs).
+Table 27
+- Harmony work item fields
+§
+Labeling Jobs
+Labels can be applied to a job when a Harmony request is made using the
+label
+parameter documented
+in the
+Services API section
+. After a request is made the labels can be viewed in the
+job status page and in the workflow-ui.
+Labels can be added to existing jobs by the job owner using an HTTP PUT request and specifying the job IDs and labels in the body of the PUT. An EDL bearer token must be provided and a
+Content-Type: application/json
+header. A
+curl
+example that adds two labels to two different jobs follows:
+curl -bj https://harmony.earthdata.nasa.gov/labels -XPUT -d '{"jobID": ["<YOUR FIRST JOB ID>", "<YOUR SECOND JOB ID>"], "label": ["foo", "bar"]}'  -H "Content-Type: application/json" -H "Authorization: bearer <YOUR BEARER TOKEN>"
+COPIED
+COPY
+Similarly, labels can be removed from one or more jobs using an HTTP DELETE:
+curl -bj https://harmony.earthdata.nasa.gov/labels   -XDELETE -d '{"jobID": ["<YOUR FIRST JOB ID>", "<YOUR SECOND JOB ID>"], "label": ["foo"]}'  -H "Content-Type: application/json" -H "Authorization: bearer <YOUR BEARER TOKEN>"
+COPIED
+COPY
+§
+Retrieving STAC catalog and catalog items for processed data
+Harmony uses
+STAC catalog
+to provide input and output, and communicate between services. The following endpoints provides access to the output STAC catalog and catalog items of a finished job.
+§
+Getting the STAC catalog of a single job
+https://harmony.earthdata.nasa.gov/stac/<job-id>
+COPIED
+COPY
+Example 30
+- Getting the STAC catalog of a single job
+§
+Getting the STAC catalog item within a job's STAC catalog
+The
+<item-index>
+is the index of the STAC catalog item within the job's output STAC catalog. It starts at 0.
+https://harmony.earthdata.nasa.gov/stac/<job-id>/<item-index>
+COPIED
+COPY
+Example 31
+- Getting the STAC catalog item within a job's STAC catalog
+§
+Getting in region S3 AWS access keys using the cloud-access API
+Harmony supports analysis in place without forcing a user to download the outputs from their requests. The results for each harmony request are stored in an AWS S3 bucket in the us-west-2 region. In order to access these results natively in S3, the user can get temporary AWS access credentials using the harmony cloud-access endpoints. Note that data can only be accessed from within the us-west-2 region.
+§
+Get AWS S3 access credentials as JSON
+https://harmony.earthdata.nasa.gov/cloud-access
+COPIED
+COPY
+Example 32
+- Getting AWS S3 access credentials as JSON using the
+cloud-access
+API
+The returned JSON response returns fields required to set the AWS S3 access credentials:
+field
+description
+AccessKeyId
+The AWS access key ID.
+SecretAccessKey
+The AWS secret access key.
+SessionToken
+The AWS session token associated with the access keys.
+Expiration
+The date and time when the access credentials expire.
+Table 28
+- Harmony cloud-access response fields
+§
+Get AWS S3 access credentials as a shell script to use in a terminal
+https://harmony.earthdata.nasa.gov/cloud-access.sh
+COPIED
+COPY
+Example 33
+- Getting a shell script that can be sourced to set AWS S3 credentials
+§
+Getting the versions of images used in each of the Harmony backend service chains
+Using the
+versions
+endpoint, a user can get a list of all of the docker images and versions used in harmony backend service chains. Service providers use this endpoint to verify the versions of their services deployed to an environment.
+§
+Get backend service version information
+https://harmony.earthdata.nasa.gov/versions
+COPIED
+COPY
+Example 34
+- Getting backend service versions using the
+versions
+API
+The returned JSON response is an array of service version information with the following fields:
+field
+description
+name
+The name of the backend service chain as defined in
+services-uat.yml
+.
+images
+An array of the images used in the service chain.
+Each image has the following fields:
+field
+description
+image
+The name of the docker image.
+tag
+The docker image tag.
+lastUpdated
+(optional) The time the image was last updated if available.
+imageDigest
+(optional) The image digest if available.
+Table 29
+- Harmony versions response fields
+NASA Official: Doug Newman
+FOIA
+NASA Privacy Policy
+USA.gov
+Feedback
+v 1.1.514

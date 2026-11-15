@@ -1,0 +1,49 @@
+NASA Giovanni
+Giovanni
+BETA
+The bridge between data and science
+0
+Help
+User Guide
+Earthdata Forum
+Login
+Plot Type
+Map
+Time Series
+Variables
+Select a Variable
+Location / Region
+Date Range
+Generate Plot
+Login Required
+Please log in to your NASA Earthdata account to create plots
+                        and access data.
+Login to NASA Earthdata
+Welcome to Giovanni
+BETA
+Giovanni allows you to analyze and visualize geophysical
+                    measurements like rainfall, soil moisture, and temperature. This
+beta release
+takes
+                    advantage of cloud optimizations to improve performance and the
+                    overall user experience. If you are trying out this release,
+                    please consider providing feedback by sending email to our
+Help Desk
+. We'd
+                    love to hear from you!
+NOTE:
+This release has limited cloud 'credits' so it is
+                    possible you will experience abrupt "out of credit" errors when
+                    using Giovanni. If this happens, please contact the
+Help Desk
+and we
+                    will increase your credit limit. Apologies and please bear with us
+                    as we improve the management of cloud credit quotas.
+Here are some ways to start
+Create Map
+Create Time-Series
+Read User Guide
+Do not show this again
+Skip
+Loading alerts...
+Close

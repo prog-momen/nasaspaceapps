@@ -1,0 +1,406 @@
+{
+  "id": "resource_R035",
+  "url": "https://www.asc-csa.gc.ca/eng/youth-educators/toolkits/food-production/",
+  "checked_at": "2026-11-14T15:15:12.655499+00:00",
+  "tls_validation": false,
+  "status": 200,
+  "final_url": "https://www.asc-csa.gc.ca/eng/youth-educators/toolkits/food-production/",
+  "bytes": 26133,
+  "content_type": "text/html;charset=UTF-8",
+  "sha256": "c1a1131cbcd804856f27bf93a86afa083cdfb7d536fa1cafa532282e6a921f90",
+  "links": [
+    {
+      "url": "https://www.asc-csa.gc.ca/eng/youth-educators/toolkits/food-production/#wb-cont",
+      "label": "Skip to main content"
+    },
+    {
+      "url": "https://www.asc-csa.gc.ca/eng/youth-educators/toolkits/food-production/#wb-info",
+      "label": "Skip to \"About government\""
+    },
+    {
+      "url": "https://www.asc-csa.gc.ca/fra/jeunes-educateurs/trousses/production-alimentaire/",
+      "label": "Français fr"
+    },
+    {
+      "url": "https://www.canada.ca/en.html",
+      "label": "/ Gouvernement du Canada"
+    },
+    {
+      "url": "https://www.canada.ca/en/services/jobs.html",
+      "label": "Jobs and the workplace"
+    },
+    {
+      "url": "https://www.canada.ca/en/services/immigration-citizenship.html",
+      "label": "Immigration and citizenship"
+    },
+    {
+      "url": "https://travel.gc.ca/",
+      "label": "Travel and tourism"
+    },
+    {
+      "url": "https://www.canada.ca/en/services/business.html",
+      "label": "Business and industry"
+    },
+    {
+      "url": "https://www.canada.ca/en/services/benefits.html",
+      "label": "Benefits"
+    },
+    {
+      "url": "https://www.canada.ca/en/services/health.html",
+      "label": "Health"
+    },
+    {
+      "url": "https://www.canada.ca/en/services/taxes.html",
+      "label": "Taxes"
+    },
+    {
+      "url": "https://www.canada.ca/en/services/environment.html",
+      "label": "Environment and natural resources"
+    },
+    {
+      "url": "https://www.canada.ca/en/services/defence.html",
+      "label": "National security and defence"
+    },
+    {
+      "url": "https://www.canada.ca/en/services/culture.html",
+      "label": "Culture, history and sport"
+    },
+    {
+      "url": "https://www.canada.ca/en/services/policing.html",
+      "label": "Policing, justice and emergencies"
+    },
+    {
+      "url": "https://www.canada.ca/en/services/transport.html",
+      "label": "Transport and infrastructure"
+    },
+    {
+      "url": "https://international.gc.ca/world-monde/index.aspx?lang=eng",
+      "label": "Canada and the world"
+    },
+    {
+      "url": "https://www.canada.ca/en/services/finance.html",
+      "label": "Money and finances"
+    },
+    {
+      "url": "https://www.canada.ca/en/services/science.html",
+      "label": "Science and innovation"
+    },
+    {
+      "url": "https://www.canada.ca/en/index.html",
+      "label": "Canada.ca"
+    },
+    {
+      "url": "https://www.asc-csa.gc.ca/eng/",
+      "label": "Canadian Space Agency"
+    },
+    {
+      "url": "https://www.asc-csa.gc.ca/eng/audiences.asp",
+      "label": "Audiences"
+    },
+    {
+      "url": "https://www.asc-csa.gc.ca/eng/youth-educators/",
+      "label": "Youth and educators"
+    },
+    {
+      "url": "https://www.asc-csa.gc.ca/eng/youth-educators/toolkits/",
+      "label": "Toolkits"
+    },
+    {
+      "url": "https://www.asc-csa.gc.ca/eng/youth-educators/toolkits/food-production/#top",
+      "label": "Top of page"
+    },
+    {
+      "url": "https://www.asc-csa.gc.ca/eng/multimedia/search/image/watch/15548",
+      "label": ""
+    },
+    {
+      "url": "https://www.asc-csa.gc.ca/eng/astronauts/living-in-space/eating-in-space.asp",
+      "label": "Eating in space"
+    },
+    {
+      "url": "https://letstalkscience.ca/news-media/growing-food-in-space-how-canada-tackling-food-security-on-earth-and-beyond",
+      "label": "Growing food in space: How Canada is tackling food security on Earth and beyond - An article by the Canadian Space Agency (CSA) for Let's Talk Science"
+    },
+    {
+      "url": "https://www.asc-csa.gc.ca/eng/sciences/food-production/",
+      "label": "Food in space: the challenges"
+    },
+    {
+      "url": "https://www.asc-csa.gc.ca/eng/sciences/food-production/growing-healthy-food-in-space-and-remote-areas.asp",
+      "label": "Growing healthy food in space and in remote areas"
+    },
+    {
+      "url": "https://www.asc-csa.gc.ca/eng/sciences/food-production/deep-space-food-challenge.asp",
+      "label": "Deep Space Food Challenge"
+    },
+    {
+      "url": "https://www.asc-csa.gc.ca/eng/satellites/everyday-lives/agriculture-in-the-satellite-age.asp",
+      "label": "Agriculture in the satellite age"
+    },
+    {
+      "url": "https://www.asc-csa.gc.ca/eng/youth-educators/activities/fitness-and-nutrition/",
+      "label": "Food and nutrition-related activities and experiments (for Grades 6 to 9)"
+    },
+    {
+      "url": "https://www.asc-csa.gc.ca/eng/youth-educators/activities/fitness-and-nutrition/interplanetary-farming.asp",
+      "label": "Interplanetary Farming"
+    },
+    {
+      "url": "https://www.asc-csa.gc.ca/eng/youth-educators/activities/fitness-and-nutrition/master-chef-mars.asp",
+      "label": "Master Chef: Mars"
+    },
+    {
+      "url": "https://www.asc-csa.gc.ca/eng/youth-educators/activities/fitness-and-nutrition/close-encounters-of-the-tasty-kind.asp",
+      "label": "Close Encounters of the Tasty Kind"
+    },
+    {
+      "url": "https://www.asc-csa.gc.ca/eng/youth-educators/activities/fitness-and-nutrition/healthy-meals-in-microgravity.asp",
+      "label": "Healthy Meals in Microgravity"
+    },
+    {
+      "url": "https://www.asc-csa.gc.ca/eng/youth-educators/activities/fitness-and-nutrition/iss-ingredients-reading-food-labels.asp",
+      "label": "ISS Ingredients: Reading Food Labels"
+    },
+    {
+      "url": "https://www.asc-csa.gc.ca/eng/youth-educators/activities/fitness-and-nutrition/keeping-food-safe-on-earth-and-in-space.asp",
+      "label": "Keeping Food Safe on Earth and in Space"
+    },
+    {
+      "url": "https://www.asc-csa.gc.ca/eng/youth-educators/activities/fitness-and-nutrition/o-canada-food-on-the-international-space-station.asp",
+      "label": "O Canada! Food on the International Space Station"
+    },
+    {
+      "url": "https://www.asc-csa.gc.ca/eng/youth-educators/activities/fitness-and-nutrition/soaring-in-space-with-canada-food-guide.asp",
+      "label": "Soaring in Space with Canada's Food Guide"
+    },
+    {
+      "url": "https://www.asc-csa.gc.ca/eng/youth-educators/activities/fitness-and-nutrition/space-jam-an-astronaut-lunch.asp",
+      "label": "Space Jam! An Astronaut Lunch"
+    },
+    {
+      "url": "https://www.asc-csa.gc.ca/eng/youth-educators/tomatosphere.asp",
+      "label": "Tomatosphere"
+    },
+    {
+      "url": "https://www.asc-csa.gc.ca/eng/youth-educators/activities/tomatosphere-adventure-minecraft-education-game-featuring-extraterrestrial-agriculture.asp",
+      "label": "Tomatosphere Adventure (Minecraft)"
+    },
+    {
+      "url": "https://ingeniumcanada.org/aviation/education/health-in-space",
+      "label": "Digital learning kit and experiments"
+    },
+    {
+      "url": "https://www.asc-csa.gc.ca/eng/satellites/radarsat/activities/game.asp",
+      "label": "Mission: Agriculture – RADARSAT Constellation Mission digital game"
+    },
+    {
+      "url": "https://www.asc-csa.gc.ca/eng/multimedia/search/image/15774",
+      "label": "Astronaut food – What do explorers eat?"
+    },
+    {
+      "url": "https://www.asc-csa.gc.ca/eng/multimedia/search/?type=1amp;&search=food",
+      "label": "Images of space food"
+    },
+    {
+      "url": "https://www.asc-csa.gc.ca/eng/multimedia/search/video/19463",
+      "label": "Knowing where your food comes from"
+    },
+    {
+      "url": "https://www.asc-csa.gc.ca/eng/multimedia/search/video/19261",
+      "label": "My job? Growing food in space"
+    },
+    {
+      "url": "https://www.asc-csa.gc.ca/eng/multimedia/search/video/19232",
+      "label": "My job? Creating menus for astronauts"
+    },
+    {
+      "url": "https://www.asc-csa.gc.ca/eng/multimedia/search/video/18430",
+      "label": "Using challenges of space food production to help grow food on Earth"
+    },
+    {
+      "url": "https://www.asc-csa.gc.ca/eng/multimedia/search/video/18323",
+      "label": "Chili for space"
+    },
+    {
+      "url": "https://www.asc-csa.gc.ca/eng/multimedia/search/video/18317",
+      "label": "How do astronauts season their meals in space?"
+    },
+    {
+      "url": "https://www.asc-csa.gc.ca/eng/multimedia/search/video/18312",
+      "label": "On the menu in orbit"
+    },
+    {
+      "url": "https://www.asc-csa.gc.ca/eng/multimedia/search/video/17836",
+      "label": "Chris Hadfield's space kitchen"
+    },
+    {
+      "url": "https://www.asc-csa.gc.ca/eng/multimedia/search/video/17868",
+      "label": "Dessert in space"
+    },
+    {
+      "url": "https://www.asc-csa.gc.ca/eng/multimedia/search/video/17842",
+      "label": "Space spinach strikes back"
+    },
+    {
+      "url": "https://www.asc-csa.gc.ca/eng/multimedia/search/video/17876",
+      "label": "Water recycling on the ISS"
+    },
+    {
+      "url": "https://www.asc-csa.gc.ca/eng/youth-educators/toolkits/",
+      "label": "Toolkits for educators and youth"
+    },
+    {
+      "url": "https://www.asc-csa.gc.ca/eng/astronauts/living-in-space/",
+      "label": "Living in space"
+    },
+    {
+      "url": "https://www.asc-csa.gc.ca/eng/astronauts/about-the-job/",
+      "label": "About being an astronaut"
+    },
+    {
+      "url": "https://www.facebook.com/canadianspaceagency/",
+      "label": "Facebook: CanadianSpaceAgency"
+    },
+    {
+      "url": "https://x.com/csa_asc",
+      "label": "X: @csa_asc"
+    },
+    {
+      "url": "https://www.youtube.com/canadianspaceagency",
+      "label": "Youtube: canadianspaceagency"
+    },
+    {
+      "url": "https://www.instagram.com/canadianspaceagency/",
+      "label": "Instagram: canadianspaceagency"
+    },
+    {
+      "url": "https://www.linkedin.com/company/9441729",
+      "label": "Linkedin: Canadian Space Agency"
+    },
+    {
+      "url": "https://www.asc-csa.gc.ca/rss/default_eng.xml",
+      "label": "RSS"
+    },
+    {
+      "url": "https://www.asc-csa.gc.ca/eng/contact.asp",
+      "label": "Contact the CSA"
+    },
+    {
+      "url": "https://www.asc-csa.gc.ca/eng/about/",
+      "label": "About the CSA"
+    },
+    {
+      "url": "https://www.asc-csa.gc.ca/eng/terms.asp",
+      "label": "Notices and copyright"
+    },
+    {
+      "url": "https://www.canada.ca/en/contact.html",
+      "label": "All contacts"
+    },
+    {
+      "url": "https://www.canada.ca/en/government/dept.html",
+      "label": "Departments and agencies"
+    },
+    {
+      "url": "https://www.canada.ca/en/government/system.html",
+      "label": "About government"
+    },
+    {
+      "url": "https://www.canada.ca/en/services/jobs.html",
+      "label": "Jobs"
+    },
+    {
+      "url": "https://www.canada.ca/en/services/immigration-citizenship.html",
+      "label": "Immigration and citizenship"
+    },
+    {
+      "url": "https://travel.gc.ca/",
+      "label": "Travel and tourism"
+    },
+    {
+      "url": "https://www.canada.ca/en/services/business.html",
+      "label": "Business"
+    },
+    {
+      "url": "https://www.canada.ca/en/services/benefits.html",
+      "label": "Benefits"
+    },
+    {
+      "url": "https://www.canada.ca/en/services/health.html",
+      "label": "Health"
+    },
+    {
+      "url": "https://www.canada.ca/en/services/taxes.html",
+      "label": "Taxes"
+    },
+    {
+      "url": "https://www.canada.ca/en/services/environment.html",
+      "label": "Environment and natural resources"
+    },
+    {
+      "url": "https://www.canada.ca/en/services/defence.html",
+      "label": "National security and defence"
+    },
+    {
+      "url": "https://www.canada.ca/en/services/culture.html",
+      "label": "Culture, history and sport"
+    },
+    {
+      "url": "https://www.canada.ca/en/services/policing.html",
+      "label": "Policing, justice and emergencies"
+    },
+    {
+      "url": "https://www.canada.ca/en/services/transport.html",
+      "label": "Transport and infrastructure"
+    },
+    {
+      "url": "https://www.international.gc.ca/world-monde/index.aspx?lang=eng",
+      "label": "Canada and the world"
+    },
+    {
+      "url": "https://www.canada.ca/en/services/finance.html",
+      "label": "Money and finances"
+    },
+    {
+      "url": "https://www.canada.ca/en/services/science.html",
+      "label": "Science and innovation"
+    },
+    {
+      "url": "https://www.canada.ca/en/services/indigenous-peoples.html",
+      "label": "Indigenous Peoples"
+    },
+    {
+      "url": "https://www.canada.ca/en/services/veterans-military.html",
+      "label": "Veterans and military"
+    },
+    {
+      "url": "https://www.canada.ca/en/services/youth.html",
+      "label": "Youth"
+    },
+    {
+      "url": "https://www.canada.ca/en/services/life-events.html",
+      "label": "Manage life events"
+    },
+    {
+      "url": "https://www.canada.ca/en/social.html",
+      "label": "Social media"
+    },
+    {
+      "url": "https://www.canada.ca/en/mobile.html",
+      "label": "Mobile applications"
+    },
+    {
+      "url": "https://canada.ca/en/government/about-canada-ca.html",
+      "label": "About Canada.ca"
+    },
+    {
+      "url": "https://www.canada.ca/en/transparency/terms.html",
+      "label": "Terms and conditions"
+    },
+    {
+      "url": "https://www.canada.ca/en/transparency/privacy.html",
+      "label": "Privacy"
+    }
+  ],
+  "elapsed_seconds": 0.937
+}

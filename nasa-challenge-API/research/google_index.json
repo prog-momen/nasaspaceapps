@@ -1,0 +1,13 @@
+{
+  "id": "google_index",
+  "url": "https://aistudio.google.com/llms.txt",
+  "checked_at": "2026-11-14T15:09:15.013146+00:00",
+  "tls_validation": false,
+  "status": 200,
+  "final_url": "https://aistudio.google.com/llms.txt",
+  "bytes": 69554,
+  "content_type": "text/plain; charset=utf-8",
+  "sha256": "96a0829d9e7b7837ed90c9ae0e60e94e699d58349e802edae9538894cec34ed9",
+  "links": [],
+  "elapsed_seconds": 0.562
+}

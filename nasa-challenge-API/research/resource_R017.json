@@ -1,0 +1,13 @@
+{
+  "id": "resource_R017",
+  "url": "https://appeears.earthdatacloud.nasa.gov/",
+  "checked_at": "2026-11-14T15:15:10.450279+00:00",
+  "tls_validation": false,
+  "status": 200,
+  "final_url": "https://appeears.earthdatacloud.nasa.gov/",
+  "bytes": 8759,
+  "content_type": "text/html; charset=utf-8",
+  "sha256": "e00e0e02cec5080b7f79e8e0d9851030525f8a7f02bff55f7b7c9396074cd9dc",
+  "links": [],
+  "elapsed_seconds": 0.485
+}

@@ -1,0 +1,54 @@
+{
+  "model": "gemini-3.5-flash-lite",
+  "total_http_requests": 4,
+  "turns": [
+    {
+      "message": "هل ارتفعت حرارة الهواء في نابلس بين 2005 و2025؟",
+      "http_requests": 2,
+      "seconds": 2.7,
+      "status": "ok",
+      "answer_source": "gemini",
+      "selected_by": "gemini_function_calling",
+      "fallback_reason": null,
+      "tool": "analyze_trend",
+      "tool_args": {
+        "variable": "air_temperature",
+        "region": "Nablus, Palestine",
+        "latitude": 32.2211,
+        "longitude": 35.2544,
+        "start_year": 2005,
+        "end_year": 2025
+      },
+      "tool_status": "ok",
+      "cache": "hit",
+      "live": false,
+      "location": "Nablus, Palestine",
+      "warnings": [],
+      "answer_head": "تم الاستعلام عن حرارة الهواء على ارتفاع 2 متر (T2M) في نابلس، فلسطين، للفترة من 2005-01 إلى 2025-12 باستخدام بيانات سنوية (التغطية الفعلية: 21 سنة مستخدمة، 252 شهراً صالحاً، 0 أشهر مفقودة). جاءت الإجا"
+    },
+    {
+      "message": "وماذا عن القاهرة؟",
+      "http_requests": 2,
+      "seconds": 4.2,
+      "status": "ok",
+      "answer_source": "gemini",
+      "selected_by": "gemini_function_calling",
+      "fallback_reason": null,
+      "tool": "analyze_trend",
+      "tool_args": {
+        "variable": "air_temperature",
+        "region": "Cairo, Egypt",
+        "latitude": 30.0444,
+        "longitude": 31.2357,
+        "start_year": 2005,
+        "end_year": 2025
+      },
+      "tool_status": "ok",
+      "cache": "miss",
+      "live": true,
+      "location": "Cairo, Egypt",
+      "warnings": [],
+      "answer_head": "تم الاستعلام عن الاتجاه التاريخي لدرجة حرارة الهواء على ارتفاع 2 متر (T2M) في القاهرة، مصر. غطت البيانات الفترة من 2005-01 إلى 2025-12 بتجميع سنوي. \n\nتم الحصول على هذه البيانات من مكالمة مباشرة (live "
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+﻿<script>window.location="catalogoSaocomInfo.html"</script>
+<!doctype html>
+<html lang="es">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">	
+        <meta content="text/html; charset=utf-8" http-equiv="content-type">        
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <meta property="og:url" content="/catalogo/catalogo.html">
+        <meta property="og:type" content="article">
+        <meta property="og:title" content="Catálogo de imágenes y productos">
+        <meta property="og:description" content="Catálogo de imágenes y productos de CONAE.">
+        <meta property="og:locale" content="es_AR">
+
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:title" content="Catálogo de imágenes y productos">
+        <meta name="twitter:description" content="Catálogo de imágenes y productos de CONAE.">        
+		
+		<title>Comisión Nacional de Actividades Espaciales - Catálogo de Imágenes y Productos</title>
+		
+		<link href="/poncho/node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet">				
+        <link href="/poncho/css/roboto-fontface.css" rel="stylesheet">
+        <link href="/poncho/css/poncho.css" rel="stylesheet">
+		<link href="/poncho/css/icono-arg.css" rel="stylesheet">		
+        <link href="/poncho/css/font-awesome.min.css" rel="Stylesheet" />
+    	<link rel="shortcut icon" href="/poncho/favicon.ico" type="image/ico" />				
+		
+    <!--[if lt IE 8]>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/json2/20121008/json2.js"></script>
+    <![endif]-->		
+	
+    </head>    
+    <body>
+
+	<header id="divEncabezado"> 
+	</header>				
+
+	<main role="main"> 		
+
+	    <section class="jumbotron" style="background-image: url('img/imgAtajoSat.jpg');">
+		    <div class="jumbotron_bar">
+		    <div class="container">
+			    <div class="row">
+			    <div class="col-md-12">
+				    <ol class="breadcrumb pull-left">
+				    <li><a href="https://www.argentina.gob.ar/">Inicio</a></li>
+				    <li><a href="https://www.argentina.gob.ar/ciencia">Ministerio de Ciencia, Tecnología e Innovación Productiva</a></li>
+				    <li><a href="http://www.conae.gov.ar">Comisión Nacional de Actividades Espaciales</a></li>
+				    <li><a href="catalogo.html">Catálogo de Imágenes y Productos</a></li>
+				    <li><a href="catalogoSat.html">Satélites</a></li>			
+				    <li class="active">Catálogo SAOCOM 1A - Información General</li>
+				    </ol>
+			    </div>
+			    </div>
+		    </div>
+		    </div>
+		    <div class="jumbotron_body">
+		    <div class="container">
+			    <div class="row">
+			    <div class="col-xs-12 col-md-8 col-md-offset-2 text-center">
+				    <h1>Catálogo SAOCOM 1A<br>Información General</h1>
+			    </div>
+			    </div>
+		    </div>
+		    </div>
+		    <div class="overlay"></div>
+	    </section>
+
+     <div class="container">
+
+      <section>
+        <article class="content_format row">
+
+          <div class="col-md-8 col-md-offset-2">
+            <div class="row">
+              <div class="col-md-12">
+        <p>El Catálogo SAOCOM es de libre acceso y sin registración previa se le permitirá la búsqueda de productos disponibles y la visualización de las vistas en miniatura (<i>thumbnails</i>) de los mismos. Para acceder a otras funcionalidades (descarga de productos, pedidos de procesamiento o gestión de nuevas adquisiciones) es necesario estar registrado, tener un Convenio con CONAE y firmar la licencia correspondiente de uso de los productos SAOCOM.</p>
+        <p>Si usted <b>no es un usuario registrado de CONAE</b> puede registrarse a través de cualquiera de las siguientes opciones:</p>
+        <ol><li>En el Catálogo SAOCOM seleccione la opción "<b>Login</b>"; luego ingrese en "<b>Register</b>", y complete los campos solicitados.</li>
+        <li>Ingrese a la página de Catálogos de Imágenes y Productos de la CONAE (<a href="https://catalogos.conae.gov.ar/catalogo/catalogo.html" target="_blank">https://catalogos.conae.gov.ar/catalogo/catalogo.html</a>), luego acceda a la opción Registro de Usuarios: <b>Regístrese</b>, y complete los campos solicitados. </li></ol>
+        <p>Si <b>usted es un usuario registrado de CONAE</b> y está interesado en productos SAOCOM, ingrese a la página de Catálogos de Imágenes y Productos de la CONAE (<a href="https://catalogos.conae.gov.ar/catalogo/catalogo.html" target="_blank">https://catalogos.conae.gov.ar/catalogo/catalogo.html</a>), luego acceda a la opción Registro de Usuarios: <b>Actualizar mis datos</b>, ingrese con su usuario y contraseña y complete los campos correspondientes que se le presentarán.
+        </p>
+        <h4>AVISO</h4>
+        <p>Estimado Usuario,<br /><br />
+            Si Ud. cuenta con la habilitación de los permisos correspondientes podrá realizar su planificación para capturas de imágenes del satélite SAOCOM-1A sobre su zona de interés, y dentro de la cuota asignada.<br /><br />
+            Sin embargo, tenga en cuenta que CONAE no puede garantizar que dichas capturas sean efectuadas y no se responsabiliza por la no realización de las mismas.<br /><br />
+            Al respecto, la cancelación de un pedido puede deberse a múltiples causas. Ante esta eventualidad se le enviará un e-mail de notificación, en cuyo caso deberá realizar su pedido nuevamente.
+        </p>
+        <p>Por otra parte, tenga en cuenta que su solicitud podría entrar en conflicto con otros pedidos realizados sobre la misma zona o en otros modos de adquisición. Por este motivo, le recomendamos que, si fueran de su interés, descargue las imágenes que ya fueron adquiridas (archivo) y/o contemple la posibilidad de suscribirse a un pedido de adquisición existente sobre su área de interés. Esto último permite que los interesados compartan el costo (en términos de cuota), con lo cual se favorece no sólo a los usuarios, sino también al sistema SAOCOM en las diversas etapas del proceso de gestión de pedidos, permitiendo un uso más eficiente de los recursos disponibles.</p>
+        <br>
+            <center>
+	            <a href="https://catalog.saocom.conae.gov.ar/catalog" target="_blank" class="btn btn-primary" role="button" aria-pressed="true">Ir a Catálogo de Imágenes</a><br>
+	            <a href="catalogoSatSaocomAdel.html" class="btn btn-primary" role="button" aria-pressed="true">Ir a Productos de Prueba SAOCOM</a><br>								
+            </center>
+            </div>
+           </div>		 
+
+     </div>
+     </article>
+     </section>
+     </div>
+
+	<section id="divContacto" class="modulo-contacto">
+	</section>		
+	<script type="text/javascript" src="/poncho/node_modules/jquery/dist/jquery.min.js"></script>
+	<script type="text/javascript" src="/poncho/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>		
+
+ </main>
+
+   	<div id="divPie">
+    </div>				
+
+
+	<script language="javascript">
+	    $(document).ready(function () {
+	        $('#divEncabezado').load('https://catalogos5.conae.gov.ar/poncho/encabezado.html');
+	        $('#divContacto').load('contacto.html');
+	        $('#divPie').load('https://catalogos5.conae.gov.ar/poncho/pie.html');
+	    });		
+	</script>	
+
+ </body>
+	
+</html>

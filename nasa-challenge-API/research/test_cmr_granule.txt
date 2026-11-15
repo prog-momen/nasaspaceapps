@@ -1,0 +1,1 @@
+{"errors":["Parameter [short_name] was not recognized.","Parameter [version] was not recognized.","Parameter [temporal] was not recognized."]}

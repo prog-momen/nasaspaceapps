@@ -1,0 +1,234 @@
+{
+  "id": "resource_R075",
+  "url": "https://www.landfire.gov",
+  "checked_at": "2026-11-14T15:15:19.205310+00:00",
+  "tls_validation": false,
+  "status": 200,
+  "final_url": "https://www.landfire.gov",
+  "bytes": 37976,
+  "content_type": "text/html; charset=utf-8",
+  "sha256": "7644de120da3caad70c29ba58e7df3decd3830a86531c40e22353356a90abfbc",
+  "links": [
+    {
+      "url": "https://www.landfire.gov#main-content",
+      "label": "Skip to main content"
+    },
+    {
+      "url": "https://www.landfire.gov/",
+      "label": ""
+    },
+    {
+      "url": "https://www.landfire.gov/",
+      "label": "Home"
+    },
+    {
+      "url": "https://www.landfire.gov/about-landfire",
+      "label": "About"
+    },
+    {
+      "url": "https://www.landfire.gov/data",
+      "label": "Get Data"
+    },
+    {
+      "url": "https://www.landfire.gov/resources",
+      "label": "Resources"
+    },
+    {
+      "url": "https://www.landfire.gov/outreach",
+      "label": "Outreach"
+    },
+    {
+      "url": "https://www.landfire.gov/help",
+      "label": "Help"
+    },
+    {
+      "url": "https://www.landfire.gov/",
+      "label": "Home"
+    },
+    {
+      "url": "https://www.landfire.gov/about-landfire",
+      "label": "About"
+    },
+    {
+      "url": "https://www.landfire.gov/data",
+      "label": "Get Data"
+    },
+    {
+      "url": "https://www.landfire.gov/resources",
+      "label": "Resources"
+    },
+    {
+      "url": "https://www.landfire.gov/outreach",
+      "label": "Outreach"
+    },
+    {
+      "url": "https://www.landfire.gov/help",
+      "label": "Help"
+    },
+    {
+      "url": "https://www.landfire.gov/reference",
+      "label": "Reference"
+    },
+    {
+      "url": "https://www.landfire.gov/disturbance",
+      "label": "Disturbance"
+    },
+    {
+      "url": "https://www.landfire.gov/vegetation",
+      "label": "Vegetation"
+    },
+    {
+      "url": "https://www.landfire.gov/fuel",
+      "label": "Fuel"
+    },
+    {
+      "url": "https://www.landfire.gov/fire-regime",
+      "label": "Historic Fire Regime"
+    },
+    {
+      "url": "https://www.landfire.gov/topographic",
+      "label": "Topographic"
+    },
+    {
+      "url": "https://www.landfire.gov/data-downloads/documents/LANDFIRE%20LFRDB%20New%20Plots%20Added.pdf",
+      "label": "View New Plots Document"
+    },
+    {
+      "url": "https://www.landfire.gov/data/FullExtentDownloads?field_version_target_id=49&tid=All&field_region_id_target_id=4",
+      "label": "View Data"
+    },
+    {
+      "url": "https://www.landfire.gov/data/FullExtentDownloads?field_version_target_id=49&tid=5&field_region_id_target_id=All",
+      "label": "View AK & CONUS Disturbance Data"
+    },
+    {
+      "url": "https://www.landfire.gov/data/FullExtentDownloads?field_version_target_id=49&tid=50&field_region_id_target_id=All",
+      "label": "View Seasonal Fuel Data"
+    },
+    {
+      "url": "https://www.landfire.gov/about-landfire",
+      "label": ""
+    },
+    {
+      "url": "https://www.landfire.gov/about-landfire",
+      "label": "Learn More"
+    },
+    {
+      "url": "https://www.landfire.gov/data",
+      "label": ""
+    },
+    {
+      "url": "https://www.landfire.gov/data",
+      "label": "Browse Data"
+    },
+    {
+      "url": "https://www.landfire.gov/resources",
+      "label": ""
+    },
+    {
+      "url": "https://www.landfire.gov/resources",
+      "label": "View Resources"
+    },
+    {
+      "url": "https://www.landfire.gov/data/alerts",
+      "label": "See More Alerts"
+    },
+    {
+      "url": "https://www.landfire.gov/data/FullExtentDownloads?field_version_target_id=49&tid=All&field_region_id_target_id=4",
+      "label": "2025 Full Extent CONUS products release"
+    },
+    {
+      "url": "https://www.landfire.gov/reference/lfrdb",
+      "label": "LFRDB update"
+    },
+    {
+      "url": "https://www.landfire.gov/data/FullExtentDownloads?field_version_target_id=49&tid=5&field_region_id_target_id=All",
+      "label": "2025 Fall Seasonal Fuels and AK & CONUS Annual Disturbance updates are available."
+    },
+    {
+      "url": "https://www.landfire.gov/data/FullExtentDownloads?field_version_target_id=49&tid=All&field_region_id_target_id=4",
+      "label": "2025 Summer Seasonal Fuels and NW GeoArea Vegetation, Fuel, and Preliminary Annual Disturbance product updates are available."
+    },
+    {
+      "url": "https://www.landfire.gov/data/FullExtentDownloads?field_version_target_id=49&tid=All&field_region_id_target_id=1",
+      "label": "2025 Spring Seasonal Fuels and AK Vegetation, Fuel, and Preliminary Annual Disturbance product updates are available."
+    },
+    {
+      "url": "https://www.landfire.gov/data/FullExtentDownloads?field_version_target_id=49&field_theme_target_id=All&field_region_id_target_id=4",
+      "label": "2025 SW Vegetation, Fuel, and Preliminary Annual Disturbance update is available."
+    },
+    {
+      "url": "https://www.landfire.gov/fuel/seasonal_fuels",
+      "label": "Early Spring Seasonal Fuels FBFM40 product for the LF 2025 Update is available."
+    },
+    {
+      "url": "https://www.landfire.gov/disturbance/hdist",
+      "label": "Historical Disturbance products retired."
+    },
+    {
+      "url": "https://www.linkedin.com/company/landfire/?viewAsMember=true",
+      "label": ""
+    },
+    {
+      "url": "https://www.youtube.com/user/LANDFIREvideo",
+      "label": ""
+    },
+    {
+      "url": "https://www.landfire.gov/contact",
+      "label": ""
+    },
+    {
+      "url": "https://www.landfire.gov/viewer",
+      "label": "LF Map Viewer"
+    },
+    {
+      "url": "https://www.landfire.gov/data/FullExtentDownloads",
+      "label": "Full Extent Downloads"
+    },
+    {
+      "url": "https://lfps.usgs.gov/",
+      "label": "LF Product Service (LFPS)"
+    },
+    {
+      "url": "https://www.landfire.gov/data/lf_stream",
+      "label": "WCS/WMS Services"
+    },
+    {
+      "url": "https://www.youtube.com/user/landfirevideo",
+      "label": "LF YouTube"
+    },
+    {
+      "url": "https://landfire.us9.list-manage.com/subscribe?u=25aeabb346a09aaf1c528f007&id=2f025aaae2",
+      "label": "LF News"
+    },
+    {
+      "url": "https://www.landfire.gov/help",
+      "label": "LF Help"
+    },
+    {
+      "url": "https://www.landfire.gov/faqs",
+      "label": "FAQs"
+    },
+    {
+      "url": "https://www.landfire.gov/data-downloads/documents/LF_Data_Dictionary.pdf",
+      "label": "LF Dictionary"
+    },
+    {
+      "url": "https://pubs.usgs.gov/publication/ofr20231045",
+      "label": "LF Technical Documentation"
+    },
+    {
+      "url": "https://www.landfire.gov/data-downloads/documents/LF_Definitions_Quality_and_Standards_Annual_Report.pdf",
+      "label": "Data and Metadata Standards"
+    },
+    {
+      "url": "https://www.landfire.gov/policies#DOI",
+      "label": "DOI Policies"
+    },
+    {
+      "url": "https://www.landfire.gov/policies#USDA",
+      "label": "USDA Policies"
+    }
+  ],
+  "elapsed_seconds": 1.344
+}

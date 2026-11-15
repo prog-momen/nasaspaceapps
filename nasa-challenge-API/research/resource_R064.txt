@@ -1,0 +1,94 @@
+PRISM Group at Oregon State University
+Home
+About
+PRISM Overview
+What's New
+Publications
+Citizen Science
+Mailing List
+Data Grids
+Time Series Data
+1991-2020 Normals
+Other Normals
+Data Directory
+Supporting Datasets
+Data Explorer
+Map Graphics
+Anomalies & Month-to-Date
+Drought Indicator Tool
+State Precipitation Maps
+Daily Map Graphics Generator
+Daily Normals Animations
+Map Graphics Archive
+Plant Hardiness
+Current Version (2023)
+Prior Version (2012)
+Documentation
+PRISM Datasets (pdf)
+PRISM History (pdf)
+PRISM Methods
+PRISM Data Formats
+Bulk Data Download Info
+Terms of Use
+Data Updates Calendar
+Overview
+Daily Data (list)
+Daily Data (tabular)
+Monthly Data (tabular)
+Known Data Issues
+Data Notices Archive
+FAQ
+PRISM Weather Data
+PRISM Map Graphics Announcement (2026-10-22):
+Month-to-Date Anomaly map graphics now available
+PRISM Data Announcement (2026-09-08):
+PRISM data now available in netCDF format
+CONUS Month-to-Date Daily Precipitation
+CONUS Month-to-Date Drought Indicator
+CONUS Month-to-Date Daily Minimum Temperature
+CONUS Month-to-Date Daily Mean Temperature Anomaly
+CONUS Month-to-Date Daily Maximum Temperature
+CONUS Month-to-Date Average Daily Solar Irradiance (Sloped Surface)
+2023 USDA Plant Hardiness Zone Map
+Previous
+Next
+The
+PRISM Group
+gathers weather observations from a wide range of monitoring networks, applies sophisticated quality control measures and mapping methods, and develops spatial datasets to reveal
+short- and long-term weather patterns
+.
+The
+resulting datasets
+incorporate a variety of modeling techniques and are available at multiple spatial/temporal resolutions, covering
+1895 to the present
+(
+detailed information
+).
+We offer these datasets to the public free of charge and provide mutiple options for
+bulk gridded data downloads
+, as well as the ability to
+fetch a data time series
+for a single grid cell across any number of days/months/years.
+Key website sections:
+Time Series Data
+—  Download PRISM time series data grids covering daily (1981-present), monthly (1895-present), and annual (1895-present) temporal periods. Both 4km and 800m spatial resolutions available.
+30-Year Normals
+—  Download PRISM 30-year normals grids. At the end of each decade, average values for all variables are computed over the preceding 30 years. The current set of 30-year normals covers the period 1991-2020.
+Data Explorer
+—  Retrieve and download 4km and 800m time series data for point locations. Our bulk option allows up to 500 points in a single request.
+Bulk Data Downloads
+—  Access to web services and FTP resources for downloading PRISM data in bulk.
+Anomalies
+—  View "anomaly" map graphics that represent how observed values deviate from long-term conditions.
+Data Directory
+—  Web-browseable reflection of our FTP server that includes all PRISM time series and normals data, a map graphics archive, and prior versions of PRISM data.
+Publications
+—  Full listing of PRISM-related peer reviewed publications, with links to download journal articles.
+This website is supported by the
+USDA Risk Management Agency
+Questions to
+prism-questions@nacse.org
+© 2026 Northwest Alliance for Computational Science & Engineering (
+NACSE
+), based at
+Oregon State University

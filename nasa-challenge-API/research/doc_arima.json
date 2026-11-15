@@ -1,0 +1,1490 @@
+{
+  "id": "doc_arima",
+  "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.html",
+  "checked_at": "2026-11-14T15:13:38.622181+00:00",
+  "tls_validation": false,
+  "status": 200,
+  "final_url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.html",
+  "bytes": 120017,
+  "content_type": "text/html; charset=utf-8",
+  "sha256": "83280f6f111c0279c65f65bb4e1994f95272ebb33941790b109b46306e232e9b",
+  "links": [
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.html#main-content",
+      "label": "Skip to main content"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/index.html",
+      "label": "statsmodels"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/install.html",
+      "label": "Installing"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/gettingstarted.html",
+      "label": "Getting started"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/user-guide.html",
+      "label": "User Guide"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/examples/index.html",
+      "label": "Examples"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/api.html",
+      "label": "API Reference"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/about.html",
+      "label": "About statsmodels"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/dev/index.html",
+      "label": "Developer Page"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/release/index.html",
+      "label": "Release 0.15.0"
+    },
+    {
+      "url": "https://github.com/statsmodels/statsmodels/",
+      "label": "GitHub"
+    },
+    {
+      "url": "https://pypi.org/project/statsmodels/",
+      "label": "PyPI"
+    },
+    {
+      "url": "https://doi.org/10.5281/zenodo.593847",
+      "label": "DOI"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/install.html",
+      "label": "Installing"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/gettingstarted.html",
+      "label": "Getting started"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/user-guide.html",
+      "label": "User Guide"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/examples/index.html",
+      "label": "Examples"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/api.html",
+      "label": "API Reference"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/about.html",
+      "label": "About statsmodels"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/dev/index.html",
+      "label": "Developer Page"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/release/index.html",
+      "label": "Release 0.15.0"
+    },
+    {
+      "url": "https://github.com/statsmodels/statsmodels/",
+      "label": "GitHub"
+    },
+    {
+      "url": "https://pypi.org/project/statsmodels/",
+      "label": "PyPI"
+    },
+    {
+      "url": "https://doi.org/10.5281/zenodo.593847",
+      "label": "DOI"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/endog_exog.html",
+      "label": "endog, exog, what’s that?"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/api-structure.html",
+      "label": "Import Paths and Structure"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/example_formulas.html",
+      "label": "Fitting models using R-style formulas"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/pitfalls.html",
+      "label": "Pitfalls"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/regression.html",
+      "label": "Linear Regression"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/glm.html",
+      "label": "Generalized Linear Models"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/gee.html",
+      "label": "Generalized Estimating Equations"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/gam.html",
+      "label": "Generalized Additive Models (GAM)"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/rlm.html",
+      "label": "Robust Linear Models"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/mixed_linear.html",
+      "label": "Linear Mixed Effects Models"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/discretemod.html",
+      "label": "Regression with Discrete Dependent Variable"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/mixed_glm.html",
+      "label": "Generalized Linear Mixed Effects Models"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/anova.html",
+      "label": "ANOVA"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/other_models.html",
+      "label": "Other Models othermod"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/tsa.html",
+      "label": "Time Series analysis tsa"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.stattools.acovf.html",
+      "label": "statsmodels.tsa.stattools.acovf"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.stattools.acf.html",
+      "label": "statsmodels.tsa.stattools.acf"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.stattools.AcfResult.html",
+      "label": "statsmodels.tsa.stattools.AcfResult"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.stattools.pacf.html",
+      "label": "statsmodels.tsa.stattools.pacf"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.stattools.PacfResult.html",
+      "label": "statsmodels.tsa.stattools.PacfResult"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.stattools.pacf_yw.html",
+      "label": "statsmodels.tsa.stattools.pacf_yw"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.stattools.pacf_ols.html",
+      "label": "statsmodels.tsa.stattools.pacf_ols"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.stattools.pacf_burg.html",
+      "label": "statsmodels.tsa.stattools.pacf_burg"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.stattools.PacfBurgResult.html",
+      "label": "statsmodels.tsa.stattools.PacfBurgResult"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.stattools.ccovf.html",
+      "label": "statsmodels.tsa.stattools.ccovf"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.stattools.ccf.html",
+      "label": "statsmodels.tsa.stattools.ccf"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.stattools.CcfResult.html",
+      "label": "statsmodels.tsa.stattools.CcfResult"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.stattools.pccf.html",
+      "label": "statsmodels.tsa.stattools.pccf"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.stattools.PccfResult.html",
+      "label": "statsmodels.tsa.stattools.PccfResult"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.stattools.adfuller.html",
+      "label": "statsmodels.tsa.stattools.adfuller"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.stattools.ADFullerResult.html",
+      "label": "statsmodels.tsa.stattools.ADFullerResult"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.stattools.kpss.html",
+      "label": "statsmodels.tsa.stattools.kpss"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.stattools.KPSSResult.html",
+      "label": "statsmodels.tsa.stattools.KPSSResult"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.stattools.leybourne.html",
+      "label": "statsmodels.tsa.stattools.leybourne"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.stattools.range_unit_root_test.html",
+      "label": "statsmodels.tsa.stattools.range_unit_root_test"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.stattools.RURResult.html",
+      "label": "statsmodels.tsa.stattools.RURResult"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.stattools.zivot_andrews.html",
+      "label": "statsmodels.tsa.stattools.zivot_andrews"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.stattools.coint.html",
+      "label": "statsmodels.tsa.stattools.coint"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.stattools.CointResult.html",
+      "label": "statsmodels.tsa.stattools.CointResult"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.stattools.bds.html",
+      "label": "statsmodels.tsa.stattools.bds"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.stattools.block_jackknife.html",
+      "label": "statsmodels.tsa.stattools.block_jackknife"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.stattools.JackknifeResult.html",
+      "label": "statsmodels.tsa.stattools.JackknifeResult"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.stattools.q_stat.html",
+      "label": "statsmodels.tsa.stattools.q_stat"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.stattools.QStatResult.html",
+      "label": "statsmodels.tsa.stattools.QStatResult"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.stattools.breakvar_heteroskedasticity_test.html",
+      "label": "statsmodels.tsa.stattools.breakvar_heteroskedasticity_test"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.stattools.BreakvarHeteroskedasticityResult.html",
+      "label": "statsmodels.tsa.stattools.BreakvarHeteroskedasticityResult"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.stattools.grangercausalitytests.html",
+      "label": "statsmodels.tsa.stattools.grangercausalitytests"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.stattools.levinson_durbin.html",
+      "label": "statsmodels.tsa.stattools.levinson_durbin"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.stattools.LevinsonDurbinResult.html",
+      "label": "statsmodels.tsa.stattools.LevinsonDurbinResult"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.stattools.innovations_algo.html",
+      "label": "statsmodels.tsa.stattools.innovations_algo"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.stattools.innovations_filter.html",
+      "label": "statsmodels.tsa.stattools.innovations_filter"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.stattools.levinson_durbin_pacf.html",
+      "label": "statsmodels.tsa.stattools.levinson_durbin_pacf"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.stattools.LevinsonDurbinPacfResult.html",
+      "label": "statsmodels.tsa.stattools.LevinsonDurbinPacfResult"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.stattools.arma_order_select_ic.html",
+      "label": "statsmodels.tsa.stattools.arma_order_select_ic"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.x13.x13_arima_select_order.html",
+      "label": "statsmodels.tsa.x13.x13_arima_select_order"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.x13.x13_arima_analysis.html",
+      "label": "statsmodels.tsa.x13.x13_arima_analysis"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.ar_model.AutoReg.html",
+      "label": "statsmodels.tsa.ar_model.AutoReg"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.ar_model.AutoRegResults.html",
+      "label": "statsmodels.tsa.ar_model.AutoRegResults"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.ar_model.ar_select_order.html",
+      "label": "statsmodels.tsa.ar_model.ar_select_order"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.ar_model.InformationCriteria.html",
+      "label": "statsmodels.tsa.ar_model.InformationCriteria"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.html",
+      "label": "statsmodels.tsa.arima.model.ARIMA"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.clone.html",
+      "label": "statsmodels.tsa.arima.model.ARIMA.clone"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.filter.html",
+      "label": "statsmodels.tsa.arima.model.ARIMA.filter"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.fit.html",
+      "label": "statsmodels.tsa.arima.model.ARIMA.fit"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.fit_constrained.html",
+      "label": "statsmodels.tsa.arima.model.ARIMA.fit_constrained"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.fix_params.html",
+      "label": "statsmodels.tsa.arima.model.ARIMA.fix_params"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.from_formula.html",
+      "label": "statsmodels.tsa.arima.model.ARIMA.from_formula"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.handle_params.html",
+      "label": "statsmodels.tsa.arima.model.ARIMA.handle_params"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.hessian.html",
+      "label": "statsmodels.tsa.arima.model.ARIMA.hessian"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.impulse_responses.html",
+      "label": "statsmodels.tsa.arima.model.ARIMA.impulse_responses"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.information.html",
+      "label": "statsmodels.tsa.arima.model.ARIMA.information"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.initialize.html",
+      "label": "statsmodels.tsa.arima.model.ARIMA.initialize"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.initialize_approximate_diffuse.html",
+      "label": "statsmodels.tsa.arima.model.ARIMA.initialize_approximate_diffuse"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.initialize_default.html",
+      "label": "statsmodels.tsa.arima.model.ARIMA.initialize_default"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.initialize_known.html",
+      "label": "statsmodels.tsa.arima.model.ARIMA.initialize_known"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.initialize_statespace.html",
+      "label": "statsmodels.tsa.arima.model.ARIMA.initialize_statespace"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.initialize_stationary.html",
+      "label": "statsmodels.tsa.arima.model.ARIMA.initialize_stationary"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.loglike.html",
+      "label": "statsmodels.tsa.arima.model.ARIMA.loglike"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.loglikeobs.html",
+      "label": "statsmodels.tsa.arima.model.ARIMA.loglikeobs"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.observed_information_matrix.html",
+      "label": "statsmodels.tsa.arima.model.ARIMA.observed_information_matrix"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.opg_information_matrix.html",
+      "label": "statsmodels.tsa.arima.model.ARIMA.opg_information_matrix"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.predict.html",
+      "label": "statsmodels.tsa.arima.model.ARIMA.predict"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.prepare_data.html",
+      "label": "statsmodels.tsa.arima.model.ARIMA.prepare_data"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.score.html",
+      "label": "statsmodels.tsa.arima.model.ARIMA.score"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.score_obs.html",
+      "label": "statsmodels.tsa.arima.model.ARIMA.score_obs"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.set_conserve_memory.html",
+      "label": "statsmodels.tsa.arima.model.ARIMA.set_conserve_memory"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.set_filter_method.html",
+      "label": "statsmodels.tsa.arima.model.ARIMA.set_filter_method"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.set_inversion_method.html",
+      "label": "statsmodels.tsa.arima.model.ARIMA.set_inversion_method"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.set_smoother_output.html",
+      "label": "statsmodels.tsa.arima.model.ARIMA.set_smoother_output"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.set_stability_method.html",
+      "label": "statsmodels.tsa.arima.model.ARIMA.set_stability_method"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.simulate.html",
+      "label": "statsmodels.tsa.arima.model.ARIMA.simulate"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.simulation_smoother.html",
+      "label": "statsmodels.tsa.arima.model.ARIMA.simulation_smoother"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.smooth.html",
+      "label": "statsmodels.tsa.arima.model.ARIMA.smooth"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.transform_jacobian.html",
+      "label": "statsmodels.tsa.arima.model.ARIMA.transform_jacobian"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.transform_params.html",
+      "label": "statsmodels.tsa.arima.model.ARIMA.transform_params"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.untransform_params.html",
+      "label": "statsmodels.tsa.arima.model.ARIMA.untransform_params"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.update.html",
+      "label": "statsmodels.tsa.arima.model.ARIMA.update"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.endog_names.html",
+      "label": "statsmodels.tsa.arima.model.ARIMA.endog_names"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.exog_names.html",
+      "label": "statsmodels.tsa.arima.model.ARIMA.exog_names"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.initial_design.html",
+      "label": "statsmodels.tsa.arima.model.ARIMA.initial_design"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.initial_selection.html",
+      "label": "statsmodels.tsa.arima.model.ARIMA.initial_selection"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.initial_state_intercept.html",
+      "label": "statsmodels.tsa.arima.model.ARIMA.initial_state_intercept"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.initial_transition.html",
+      "label": "statsmodels.tsa.arima.model.ARIMA.initial_transition"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.initial_variance.html",
+      "label": "statsmodels.tsa.arima.model.ARIMA.initial_variance"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.initialization.html",
+      "label": "statsmodels.tsa.arima.model.ARIMA.initialization"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.loglikelihood_burn.html",
+      "label": "statsmodels.tsa.arima.model.ARIMA.loglikelihood_burn"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.model_latex_names.html",
+      "label": "statsmodels.tsa.arima.model.ARIMA.model_latex_names"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.model_names.html",
+      "label": "statsmodels.tsa.arima.model.ARIMA.model_names"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.model_orders.html",
+      "label": "statsmodels.tsa.arima.model.ARIMA.model_orders"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.param_names.html",
+      "label": "statsmodels.tsa.arima.model.ARIMA.param_names"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.param_terms.html",
+      "label": "statsmodels.tsa.arima.model.ARIMA.param_terms"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.params_complete.html",
+      "label": "statsmodels.tsa.arima.model.ARIMA.params_complete"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.start_params.html",
+      "label": "statsmodels.tsa.arima.model.ARIMA.start_params"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.state_names.html",
+      "label": "statsmodels.tsa.arima.model.ARIMA.state_names"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.tolerance.html",
+      "label": "statsmodels.tsa.arima.model.ARIMA.tolerance"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMAResults.html",
+      "label": "statsmodels.tsa.arima.model.ARIMAResults"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.innovations.arma_innovations.arma_innovations.html",
+      "label": "statsmodels.tsa.innovations.arma_innovations.arma_innovations"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.innovations.arma_innovations.arma_loglike.html",
+      "label": "statsmodels.tsa.innovations.arma_innovations.arma_loglike"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.innovations.arma_innovations.arma_loglikeobs.html",
+      "label": "statsmodels.tsa.innovations.arma_innovations.arma_loglikeobs"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.innovations.arma_innovations.arma_score.html",
+      "label": "statsmodels.tsa.innovations.arma_innovations.arma_score"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.innovations.arma_innovations.arma_scoreobs.html",
+      "label": "statsmodels.tsa.innovations.arma_innovations.arma_scoreobs"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.holtwinters.ExponentialSmoothing.html",
+      "label": "statsmodels.tsa.holtwinters.ExponentialSmoothing"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.holtwinters.SimpleExpSmoothing.html",
+      "label": "statsmodels.tsa.holtwinters.SimpleExpSmoothing"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.holtwinters.Holt.html",
+      "label": "statsmodels.tsa.holtwinters.Holt"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.holtwinters.HoltWintersResults.html",
+      "label": "statsmodels.tsa.holtwinters.HoltWintersResults"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.exponential_smoothing.ets.ETSModel.html",
+      "label": "statsmodels.tsa.exponential_smoothing.ets.ETSModel"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.exponential_smoothing.ets.ETSResults.html",
+      "label": "statsmodels.tsa.exponential_smoothing.ets.ETSResults"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.exponential_smoothing.ExponentialSmoothing.html",
+      "label": "statsmodels.tsa.statespace.exponential_smoothing.ExponentialSmoothing"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.exponential_smoothing.ExponentialSmoothingResults.html",
+      "label": "statsmodels.tsa.statespace.exponential_smoothing.ExponentialSmoothingResults"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima_process.ArmaProcess.html",
+      "label": "statsmodels.tsa.arima_process.ArmaProcess"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima_process.ar2arma.html",
+      "label": "statsmodels.tsa.arima_process.ar2arma"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima_process.arma2ar.html",
+      "label": "statsmodels.tsa.arima_process.arma2ar"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima_process.arma2ma.html",
+      "label": "statsmodels.tsa.arima_process.arma2ma"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima_process.arma_acf.html",
+      "label": "statsmodels.tsa.arima_process.arma_acf"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima_process.arma_acovf.html",
+      "label": "statsmodels.tsa.arima_process.arma_acovf"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima_process.arma_generate_sample.html",
+      "label": "statsmodels.tsa.arima_process.arma_generate_sample"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima_process.arma_impulse_response.html",
+      "label": "statsmodels.tsa.arima_process.arma_impulse_response"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima_process.arma_pacf.html",
+      "label": "statsmodels.tsa.arima_process.arma_pacf"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima_process.arma_periodogram.html",
+      "label": "statsmodels.tsa.arima_process.arma_periodogram"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima_process.deconvolve.html",
+      "label": "statsmodels.tsa.arima_process.deconvolve"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima_process.index2lpol.html",
+      "label": "statsmodels.tsa.arima_process.index2lpol"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima_process.lpol2index.html",
+      "label": "statsmodels.tsa.arima_process.lpol2index"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima_process.lpol_fiar.html",
+      "label": "statsmodels.tsa.arima_process.lpol_fiar"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima_process.lpol_fima.html",
+      "label": "statsmodels.tsa.arima_process.lpol_fima"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima_process.lpol_sdiff.html",
+      "label": "statsmodels.tsa.arima_process.lpol_sdiff"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.sandbox.tsa.fftarma.ArmaFft.html",
+      "label": "statsmodels.sandbox.tsa.fftarma.ArmaFft"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.ardl.ARDL.html",
+      "label": "statsmodels.tsa.ardl.ARDL"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.ardl.ARDLResults.html",
+      "label": "statsmodels.tsa.ardl.ARDLResults"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.ardl.ardl_select_order.html",
+      "label": "statsmodels.tsa.ardl.ardl_select_order"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.ardl.ARDLOrderSelectionResults.html",
+      "label": "statsmodels.tsa.ardl.ARDLOrderSelectionResults"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.ardl.UECM.html",
+      "label": "statsmodels.tsa.ardl.UECM"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.ardl.UECMResults.html",
+      "label": "statsmodels.tsa.ardl.UECMResults"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.ardl.BoundsTestResult.html",
+      "label": "statsmodels.tsa.ardl.BoundsTestResult"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.regime_switching.markov_regression.MarkovRegression.html",
+      "label": "statsmodels.tsa.regime_switching.markov_regression.MarkovRegression"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.regime_switching.markov_autoregression.MarkovAutoregression.html",
+      "label": "statsmodels.tsa.regime_switching.markov_autoregression.MarkovAutoregression"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.filters.bk_filter.bkfilter.html",
+      "label": "statsmodels.tsa.filters.bk_filter.bkfilter"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.filters.hp_filter.hpfilter.html",
+      "label": "statsmodels.tsa.filters.hp_filter.hpfilter"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.filters.cf_filter.cffilter.html",
+      "label": "statsmodels.tsa.filters.cf_filter.cffilter"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.filters.hamilton_filter.hamilton_filter.html",
+      "label": "statsmodels.tsa.filters.hamilton_filter.hamilton_filter"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.filters.filtertools.CycleTrendResult.html",
+      "label": "statsmodels.tsa.filters.filtertools.CycleTrendResult"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.filters.filtertools.convolution_filter.html",
+      "label": "statsmodels.tsa.filters.filtertools.convolution_filter"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.filters.filtertools.recursive_filter.html",
+      "label": "statsmodels.tsa.filters.filtertools.recursive_filter"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.filters.filtertools.miso_lfilter.html",
+      "label": "statsmodels.tsa.filters.filtertools.miso_lfilter"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.filters.filtertools.fftconvolve3.html",
+      "label": "statsmodels.tsa.filters.filtertools.fftconvolve3"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.filters.filtertools.fftconvolveinv.html",
+      "label": "statsmodels.tsa.filters.filtertools.fftconvolveinv"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.seasonal.seasonal_decompose.html",
+      "label": "statsmodels.tsa.seasonal.seasonal_decompose"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.seasonal.STL.html",
+      "label": "statsmodels.tsa.seasonal.STL"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.seasonal.MSTL.html",
+      "label": "statsmodels.tsa.seasonal.MSTL"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.seasonal.DecomposeResult.html",
+      "label": "statsmodels.tsa.seasonal.DecomposeResult"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.tsatools.add_lag.html",
+      "label": "statsmodels.tsa.tsatools.add_lag"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.tsatools.add_trend.html",
+      "label": "statsmodels.tsa.tsatools.add_trend"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.tsatools.detrend.html",
+      "label": "statsmodels.tsa.tsatools.detrend"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.tsatools.lagmat.html",
+      "label": "statsmodels.tsa.tsatools.lagmat"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.tsatools.LagmatResult.html",
+      "label": "statsmodels.tsa.tsatools.LagmatResult"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.tsatools.lagmat2ds.html",
+      "label": "statsmodels.tsa.tsatools.lagmat2ds"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.varma_process.VarmaPoly.html",
+      "label": "statsmodels.tsa.varma_process.VarmaPoly"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.interp.denton.dentonm.html",
+      "label": "statsmodels.tsa.interp.denton.dentonm"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.deterministic.DeterministicProcess.html",
+      "label": "statsmodels.tsa.deterministic.DeterministicProcess"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.deterministic.TimeTrend.html",
+      "label": "statsmodels.tsa.deterministic.TimeTrend"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.deterministic.Seasonality.html",
+      "label": "statsmodels.tsa.deterministic.Seasonality"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.deterministic.Fourier.html",
+      "label": "statsmodels.tsa.deterministic.Fourier"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.deterministic.CalendarTimeTrend.html",
+      "label": "statsmodels.tsa.deterministic.CalendarTimeTrend"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.deterministic.CalendarSeasonality.html",
+      "label": "statsmodels.tsa.deterministic.CalendarSeasonality"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.deterministic.CalendarFourier.html",
+      "label": "statsmodels.tsa.deterministic.CalendarFourier"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.deterministic.DeterministicTerm.html",
+      "label": "statsmodels.tsa.deterministic.DeterministicTerm"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.deterministic.CalendarDeterministicTerm.html",
+      "label": "statsmodels.tsa.deterministic.CalendarDeterministicTerm"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.deterministic.FourierDeterministicTerm.html",
+      "label": "statsmodels.tsa.deterministic.FourierDeterministicTerm"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.deterministic.TimeTrendDeterministicTerm.html",
+      "label": "statsmodels.tsa.deterministic.TimeTrendDeterministicTerm"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.forecasting.theta.ThetaModel.html",
+      "label": "statsmodels.tsa.forecasting.theta.ThetaModel"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.forecasting.theta.ThetaModelResults.html",
+      "label": "statsmodels.tsa.forecasting.theta.ThetaModelResults"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.forecasting.stl.STLForecast.html",
+      "label": "statsmodels.tsa.forecasting.stl.STLForecast"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.forecasting.stl.STLForecastResults.html",
+      "label": "statsmodels.tsa.forecasting.stl.STLForecastResults"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.base.prediction.PredictionResults.html",
+      "label": "statsmodels.tsa.base.prediction.PredictionResults"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/statespace.html",
+      "label": "Time Series Analysis by State Space Methods statespace"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/vector_ar.html",
+      "label": "Vector Autoregressions tsa.vector_ar"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/duration.html",
+      "label": "Methods for Survival and Duration Analysis"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/nonparametric.html",
+      "label": "Nonparametric Methods nonparametric"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/gmm.html",
+      "label": "Generalized Method of Moments gmm"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/miscmodels.html",
+      "label": "Other Models miscmodels"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/multivariate.html",
+      "label": "Multivariate Statistics multivariate"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/stats.html",
+      "label": "Statistics stats"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/contingency_tables.html",
+      "label": "Contingency tables"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/imputation.html",
+      "label": "Multiple Imputation with Chained Equations"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/treatment.html",
+      "label": "Treatment Effects treatment"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/emplike.html",
+      "label": "Empirical Likelihood emplike"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/distributions.html",
+      "label": "Distributions"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/graphics.html",
+      "label": "Graphics"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/iolib.html",
+      "label": "Input-Output iolib"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/tools.html",
+      "label": "Tools"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/large_data.html",
+      "label": "Working with Large Data Sets"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/optimization.html",
+      "label": "Optimization"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/datasets/index.html",
+      "label": "The Datasets Package"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/sandbox.html",
+      "label": "Sandbox"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/index.html",
+      "label": ""
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/user-guide.html",
+      "label": "User Guide"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/tsa.html",
+      "label": "Time Series analysis tsa"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.html#statsmodels-tsa-arima-model-arima",
+      "label": "#"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/_modules/statsmodels/tsa/arima/model.html#ARIMA",
+      "label": "[source]"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.html#statsmodels.tsa.arima.model.ARIMA",
+      "label": "#"
+    },
+    {
+      "url": "https://numpy.org/doc/stable/glossary.html#term-array_like",
+      "label": "array_like"
+    },
+    {
+      "url": "https://numpy.org/doc/stable/glossary.html#term-array_like",
+      "label": "array_like"
+    },
+    {
+      "url": "https://docs.python.org/3/library/stdtypes.html#tuple",
+      "label": "tuple"
+    },
+    {
+      "url": "https://docs.python.org/3/library/stdtypes.html#tuple",
+      "label": "tuple"
+    },
+    {
+      "url": "https://numpy.org/doc/stable/glossary.html#term-array_like",
+      "label": "array_like"
+    },
+    {
+      "url": "https://docs.python.org/3/library/stdtypes.html#bltin-boolean-values",
+      "label": "bool"
+    },
+    {
+      "url": "https://docs.python.org/3/library/stdtypes.html#bltin-boolean-values",
+      "label": "bool"
+    },
+    {
+      "url": "https://docs.python.org/3/library/stdtypes.html#bltin-boolean-values",
+      "label": "bool"
+    },
+    {
+      "url": "https://docs.python.org/3/library/functions.html#int",
+      "label": "int"
+    },
+    {
+      "url": "https://numpy.org/doc/stable/glossary.html#term-array_like",
+      "label": "array_like"
+    },
+    {
+      "url": "https://docs.python.org/3/library/datetime.html#module-datetime",
+      "label": "datetime"
+    },
+    {
+      "url": "https://docs.python.org/3/library/stdtypes.html#str",
+      "label": "str"
+    },
+    {
+      "url": "https://docs.python.org/3/library/stdtypes.html#str",
+      "label": "str"
+    },
+    {
+      "url": "https://docs.python.org/3/library/stdtypes.html#bltin-boolean-values",
+      "label": "bool"
+    },
+    {
+      "url": "https://docs.python.org/3/library/stdtypes.html#bltin-boolean-values",
+      "label": "bool"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.endog_names.html#statsmodels.tsa.arima.model.ARIMA.endog_names",
+      "label": "endog_names"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.exog_names.html#statsmodels.tsa.arima.model.ARIMA.exog_names",
+      "label": "exog_names"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.initial_design.html#statsmodels.tsa.arima.model.ARIMA.initial_design",
+      "label": "initial_design"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.initial_selection.html#statsmodels.tsa.arima.model.ARIMA.initial_selection",
+      "label": "initial_selection"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.initial_state_intercept.html#statsmodels.tsa.arima.model.ARIMA.initial_state_intercept",
+      "label": "initial_state_intercept"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.initial_transition.html#statsmodels.tsa.arima.model.ARIMA.initial_transition",
+      "label": "initial_transition"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.model_latex_names.html#statsmodels.tsa.arima.model.ARIMA.model_latex_names",
+      "label": "model_latex_names"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.model_names.html#statsmodels.tsa.arima.model.ARIMA.model_names",
+      "label": "model_names"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.model_orders.html#statsmodels.tsa.arima.model.ARIMA.model_orders",
+      "label": "model_orders"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.param_names.html#statsmodels.tsa.arima.model.ARIMA.param_names",
+      "label": "param_names"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.param_terms.html#statsmodels.tsa.arima.model.ARIMA.param_terms",
+      "label": "param_terms"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.start_params.html#statsmodels.tsa.arima.model.ARIMA.start_params",
+      "label": "start_params"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.state_names.html#statsmodels.tsa.arima.model.ARIMA.state_names",
+      "label": "state_names"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.clone.html#statsmodels.tsa.arima.model.ARIMA.clone",
+      "label": "clone"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.filter.html#statsmodels.tsa.arima.model.ARIMA.filter",
+      "label": "filter"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.fit.html#statsmodels.tsa.arima.model.ARIMA.fit",
+      "label": "fit"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.fit_constrained.html#statsmodels.tsa.arima.model.ARIMA.fit_constrained",
+      "label": "fit_constrained"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.fix_params.html#statsmodels.tsa.arima.model.ARIMA.fix_params",
+      "label": "fix_params"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.from_formula.html#statsmodels.tsa.arima.model.ARIMA.from_formula",
+      "label": "from_formula"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.handle_params.html#statsmodels.tsa.arima.model.ARIMA.handle_params",
+      "label": "handle_params"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.hessian.html#statsmodels.tsa.arima.model.ARIMA.hessian",
+      "label": "hessian"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.impulse_responses.html#statsmodels.tsa.arima.model.ARIMA.impulse_responses",
+      "label": "impulse_responses"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.information.html#statsmodels.tsa.arima.model.ARIMA.information",
+      "label": "information"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.initialize.html#statsmodels.tsa.arima.model.ARIMA.initialize",
+      "label": "initialize"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.initialize_approximate_diffuse.html#statsmodels.tsa.arima.model.ARIMA.initialize_approximate_diffuse",
+      "label": "initialize_approximate_diffuse"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.initialize_default.html#statsmodels.tsa.arima.model.ARIMA.initialize_default",
+      "label": "initialize_default"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.initialize_known.html#statsmodels.tsa.arima.model.ARIMA.initialize_known",
+      "label": "initialize_known"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.initialize_statespace.html#statsmodels.tsa.arima.model.ARIMA.initialize_statespace",
+      "label": "initialize_statespace"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.initialize_stationary.html#statsmodels.tsa.arima.model.ARIMA.initialize_stationary",
+      "label": "initialize_stationary"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.loglike.html#statsmodels.tsa.arima.model.ARIMA.loglike",
+      "label": "loglike"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.loglikeobs.html#statsmodels.tsa.arima.model.ARIMA.loglikeobs",
+      "label": "loglikeobs"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.observed_information_matrix.html#statsmodels.tsa.arima.model.ARIMA.observed_information_matrix",
+      "label": "observed_information_matrix"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.opg_information_matrix.html#statsmodels.tsa.arima.model.ARIMA.opg_information_matrix",
+      "label": "opg_information_matrix"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.predict.html#statsmodels.tsa.arima.model.ARIMA.predict",
+      "label": "predict"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.prepare_data.html#statsmodels.tsa.arima.model.ARIMA.prepare_data",
+      "label": "prepare_data"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.score.html#statsmodels.tsa.arima.model.ARIMA.score",
+      "label": "score"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.score_obs.html#statsmodels.tsa.arima.model.ARIMA.score_obs",
+      "label": "score_obs"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.set_conserve_memory.html#statsmodels.tsa.arima.model.ARIMA.set_conserve_memory",
+      "label": "set_conserve_memory"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.set_filter_method.html#statsmodels.tsa.arima.model.ARIMA.set_filter_method",
+      "label": "set_filter_method"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.set_inversion_method.html#statsmodels.tsa.arima.model.ARIMA.set_inversion_method",
+      "label": "set_inversion_method"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.set_smoother_output.html#statsmodels.tsa.arima.model.ARIMA.set_smoother_output",
+      "label": "set_smoother_output"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.set_stability_method.html#statsmodels.tsa.arima.model.ARIMA.set_stability_method",
+      "label": "set_stability_method"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.simulate.html#statsmodels.tsa.arima.model.ARIMA.simulate",
+      "label": "simulate"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.simulation_smoother.html#statsmodels.tsa.arima.model.ARIMA.simulation_smoother",
+      "label": "simulation_smoother"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.smooth.html#statsmodels.tsa.arima.model.ARIMA.smooth",
+      "label": "smooth"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.transform_jacobian.html#statsmodels.tsa.arima.model.ARIMA.transform_jacobian",
+      "label": "transform_jacobian"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.transform_params.html#statsmodels.tsa.arima.model.ARIMA.transform_params",
+      "label": "transform_params"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.untransform_params.html#statsmodels.tsa.arima.model.ARIMA.untransform_params",
+      "label": "untransform_params"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.update.html#statsmodels.tsa.arima.model.ARIMA.update",
+      "label": "update"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/examples/notebooks/generated/tsa_arma_0.html",
+      "label": "ARMA: Sunspots Data"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/examples/notebooks/generated/tsa_arma_1.html",
+      "label": "ARMA: Artificial Data"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.clone.html#statsmodels.tsa.arima.model.ARIMA.clone",
+      "label": "clone"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.filter.html#statsmodels.tsa.arima.model.ARIMA.filter",
+      "label": "filter"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.fit.html#statsmodels.tsa.arima.model.ARIMA.fit",
+      "label": "fit"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.fit_constrained.html#statsmodels.tsa.arima.model.ARIMA.fit_constrained",
+      "label": "fit_constrained"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.fix_params.html#statsmodels.tsa.arima.model.ARIMA.fix_params",
+      "label": "fix_params"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.from_formula.html#statsmodels.tsa.arima.model.ARIMA.from_formula",
+      "label": "from_formula"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.handle_params.html#statsmodels.tsa.arima.model.ARIMA.handle_params",
+      "label": "handle_params"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.hessian.html#statsmodels.tsa.arima.model.ARIMA.hessian",
+      "label": "hessian"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.impulse_responses.html#statsmodels.tsa.arima.model.ARIMA.impulse_responses",
+      "label": "impulse_responses"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.information.html#statsmodels.tsa.arima.model.ARIMA.information",
+      "label": "information"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.initialize.html#statsmodels.tsa.arima.model.ARIMA.initialize",
+      "label": "initialize"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.initialize_approximate_diffuse.html#statsmodels.tsa.arima.model.ARIMA.initialize_approximate_diffuse",
+      "label": "initialize_approximate_diffuse"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.initialize_default.html#statsmodels.tsa.arima.model.ARIMA.initialize_default",
+      "label": "initialize_default"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.initialize_known.html#statsmodels.tsa.arima.model.ARIMA.initialize_known",
+      "label": "initialize_known"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.initialize_statespace.html#statsmodels.tsa.arima.model.ARIMA.initialize_statespace",
+      "label": "initialize_statespace"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.initialize_stationary.html#statsmodels.tsa.arima.model.ARIMA.initialize_stationary",
+      "label": "initialize_stationary"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.loglike.html#statsmodels.tsa.arima.model.ARIMA.loglike",
+      "label": "loglike"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.loglikeobs.html#statsmodels.tsa.arima.model.ARIMA.loglikeobs",
+      "label": "loglikeobs"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.observed_information_matrix.html#statsmodels.tsa.arima.model.ARIMA.observed_information_matrix",
+      "label": "observed_information_matrix"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.opg_information_matrix.html#statsmodels.tsa.arima.model.ARIMA.opg_information_matrix",
+      "label": "opg_information_matrix"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.predict.html#statsmodels.tsa.arima.model.ARIMA.predict",
+      "label": "predict"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.prepare_data.html#statsmodels.tsa.arima.model.ARIMA.prepare_data",
+      "label": "prepare_data"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.score.html#statsmodels.tsa.arima.model.ARIMA.score",
+      "label": "score"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.score_obs.html#statsmodels.tsa.arima.model.ARIMA.score_obs",
+      "label": "score_obs"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.set_conserve_memory.html#statsmodels.tsa.arima.model.ARIMA.set_conserve_memory",
+      "label": "set_conserve_memory"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.set_filter_method.html#statsmodels.tsa.arima.model.ARIMA.set_filter_method",
+      "label": "set_filter_method"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.set_inversion_method.html#statsmodels.tsa.arima.model.ARIMA.set_inversion_method",
+      "label": "set_inversion_method"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.set_smoother_output.html#statsmodels.tsa.arima.model.ARIMA.set_smoother_output",
+      "label": "set_smoother_output"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.set_stability_method.html#statsmodels.tsa.arima.model.ARIMA.set_stability_method",
+      "label": "set_stability_method"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.simulate.html#statsmodels.tsa.arima.model.ARIMA.simulate",
+      "label": "simulate"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.simulation_smoother.html#statsmodels.tsa.arima.model.ARIMA.simulation_smoother",
+      "label": "simulation_smoother"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.smooth.html#statsmodels.tsa.arima.model.ARIMA.smooth",
+      "label": "smooth"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.transform_jacobian.html#statsmodels.tsa.arima.model.ARIMA.transform_jacobian",
+      "label": "transform_jacobian"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.transform_params.html#statsmodels.tsa.arima.model.ARIMA.transform_params",
+      "label": "transform_params"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.untransform_params.html#statsmodels.tsa.arima.model.ARIMA.untransform_params",
+      "label": "untransform_params"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.update.html#statsmodels.tsa.arima.model.ARIMA.update",
+      "label": "update"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.endog_names.html#statsmodels.tsa.arima.model.ARIMA.endog_names",
+      "label": "endog_names"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.exog_names.html#statsmodels.tsa.arima.model.ARIMA.exog_names",
+      "label": "exog_names"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.initial_design.html#statsmodels.tsa.arima.model.ARIMA.initial_design",
+      "label": "initial_design"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.initial_selection.html#statsmodels.tsa.arima.model.ARIMA.initial_selection",
+      "label": "initial_selection"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.initial_state_intercept.html#statsmodels.tsa.arima.model.ARIMA.initial_state_intercept",
+      "label": "initial_state_intercept"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.initial_transition.html#statsmodels.tsa.arima.model.ARIMA.initial_transition",
+      "label": "initial_transition"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.initial_variance.html#statsmodels.tsa.arima.model.ARIMA.initial_variance",
+      "label": "initial_variance"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.initialization.html#statsmodels.tsa.arima.model.ARIMA.initialization",
+      "label": "initialization"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.loglikelihood_burn.html#statsmodels.tsa.arima.model.ARIMA.loglikelihood_burn",
+      "label": "loglikelihood_burn"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.model_latex_names.html#statsmodels.tsa.arima.model.ARIMA.model_latex_names",
+      "label": "model_latex_names"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.model_names.html#statsmodels.tsa.arima.model.ARIMA.model_names",
+      "label": "model_names"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.model_orders.html#statsmodels.tsa.arima.model.ARIMA.model_orders",
+      "label": "model_orders"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.param_names.html#statsmodels.tsa.arima.model.ARIMA.param_names",
+      "label": "param_names"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.param_terms.html#statsmodels.tsa.arima.model.ARIMA.param_terms",
+      "label": "param_terms"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.params_complete.html#statsmodels.tsa.arima.model.ARIMA.params_complete",
+      "label": "params_complete"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.start_params.html#statsmodels.tsa.arima.model.ARIMA.start_params",
+      "label": "start_params"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.state_names.html#statsmodels.tsa.arima.model.ARIMA.state_names",
+      "label": "state_names"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.tolerance.html#statsmodels.tsa.arima.model.ARIMA.tolerance",
+      "label": "tolerance"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.ar_model.InformationCriteria.hqic.html",
+      "label": "previous statsmodels.tsa.ar_model.InformationCriteria.hqic"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.clone.html",
+      "label": "next statsmodels.tsa.arima.model.ARIMA.clone"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.html#statsmodels.tsa.arima.model.ARIMA",
+      "label": "ARIMA"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/_sources/generated/statsmodels.tsa.arima.model.ARIMA.rst.txt",
+      "label": "Show Source"
+    },
+    {
+      "url": "https://www.sphinx-doc.org/",
+      "label": "Sphinx"
+    },
+    {
+      "url": "https://pydata-sphinx-theme.readthedocs.io/en/stable/index.html",
+      "label": "PyData Sphinx Theme"
+    }
+  ],
+  "elapsed_seconds": 2.844
+}

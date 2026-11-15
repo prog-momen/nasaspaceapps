@@ -1,0 +1,52 @@
+General Mission Analysis Tool (GMAT) Version R2025a(GSC-19468-1) | NASA Software Catalog
+Patent Portfolio
+Software Catalog
+Spinoff
+Virtual Events
+Contact
+Resources
+Features
+How to License
+Technology Transfer University
+Technology Transfer Metrics
+Blog
+Inventors Hall of Fame
+Remote Sensing Toolkit
+Assistive Technologies
+Satellite Servicing Technologies
+NASA’s Technology Transfer Program Strategic Framework
+Video Series
+Advancing Commercial Space
+Log In
+General Mission Analysis Tool (GMAT) Version R2025a(GSC-19468-1)
+design and integration tools
+General Mission Analysis Tool (GMAT) Version R2025a
+(GSC-19468-1)
+Overview
+The General Mission Analysis Tool (GMAT) is the world's only enterprise, multi-mission, open source software system for space mission design, optimization, and navigation. The system supports missions in flight regimes ranging from low Earth orbit to lunar, libration point, and deep space missions.  GMAT is developed by a team of NASA, private industry, public, and private contributors and is used for real-world mission support, engineering studies, as a tool for education, and public engagement.
+Download Now
+Software Details
+Category
+Design and Integration Tools
+Reference Number
+GSC-19468-1
+Release Type
+Open Source
+Operating System
+Windows, Linux, Mac OS
+Contact Us About This Technology
+hq-dl-t2-ops-center@mail.nasa.gov
+Stay up to date, follow NASA's Technology Transfer Program on:
+Join our Newsletter
+facebook
+twitter
+linkedin
+youtube
+National Aeronautics and Space Administration
+NASA Official: Dan Lockney
+Privacy Policy
+Accessibility
+Contact Us
+NASA Technology Transfer Tag Line
+NASA Technology Transfer Logo
+Bringing NASA Technology Down to Earth

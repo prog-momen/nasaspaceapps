@@ -1,0 +1,282 @@
+{
+  "id": "resource_R129",
+  "url": "https://svs.gsfc.nasa.gov/4960/",
+  "checked_at": "2026-11-14T15:15:29.944719+00:00",
+  "tls_validation": false,
+  "status": 200,
+  "final_url": "https://svs.gsfc.nasa.gov/4960/",
+  "bytes": 47258,
+  "content_type": "text/html; charset=utf-8",
+  "sha256": "594c8a9230926f8fce0f1fd3068222075d8e2c8c0d777fd923df197fd9a02916",
+  "links": [
+    {
+      "url": "https://www.nasa.gov/",
+      "label": ""
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/",
+      "label": "Scientific Visualization Studio"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/gallery/the-galleries/",
+      "label": "Galleries"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/help/",
+      "label": "Help"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/13375",
+      "label": "13375: The James Webb Space Telescope at L2"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/4965",
+      "label": "4965: NASA's GPM satellite tracks Typhoon Surigae ..."
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/15113",
+      "label": ""
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/api/4960",
+      "label": ""
+    },
+    {
+      "url": "https://twitter.com/intent/tweet",
+      "label": ""
+    },
+    {
+      "url": "https://www.facebook.com/share.php?u=http%3A//svs.gsfc.nasa.gov/4960/%3F",
+      "label": ""
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/search?people=Greg%20Shirah",
+      "label": "Greg Shirah"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/search?people=Jefferson%20Beck",
+      "label": "Jefferson Beck"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/4960/#section_credits",
+      "label": "View full credits"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a004900/a004960/atmos_rivers_narrated_HD.webm",
+      "label": "atmos_rivers_narrated_HD.webm (1920x1080) [68.6 MB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a004900/a004960/atmos_rivers_narrated_HD.mp4",
+      "label": "atmos_rivers_narrated_HD.mp4 (1920x1080) [410.9 MB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a004900/a004960/atmos_rivers_narrated_4k.mp4",
+      "label": "atmos_rivers_narrated_4k.mp4 (3840x2160) [646.9 MB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a004900/a004960/frames/7680x2160_32_9_30p/",
+      "label": "7680x2160_32_9_30p (7680x2160) [1798 Item(s)]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a004900/a004960/atmos_river_narrated_4k.en_US.srt",
+      "label": "atmos_river_narrated_4k.en_US.srt [6.3 KB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a004900/a004960/atmos_river_narrated_4k.en_US.vtt",
+      "label": "atmos_river_narrated_4k.en_US.vtt [6.3 KB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a004900/a004960/atmos_rivers_4k.en_US.vtt",
+      "label": "atmos_rivers_4k.en_US.vtt [6.3 KB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a004900/a004960/atmos_rivers_narrated_4k.00090_print.jpg",
+      "label": "atmos_rivers_narrated_4k.00090_print.jpg (1024x576) [88.5 KB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a004900/a004960/atmos_rivers_narrated_4k.00090_print_searchweb.png",
+      "label": "atmos_rivers_narrated_4k.00090_print_searchweb.png (320x180) [46.0 KB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a004900/a004960/atmos_river_HD.webm",
+      "label": "atmos_river_HD.webm (1920x1080) [69.5 MB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a004900/a004960/atmos_river_HD.mp4",
+      "label": "atmos_river_HD.mp4 (1920x1080) [789.4 MB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a004900/a004960/atmos_river_4k.mp4",
+      "label": "atmos_river_4k.mp4 (3840x2160) [2.6 GB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a004900/a004960/frames/3840x2160_16x9_60p/",
+      "label": "3840x2160_16x9_60p (3840x2160) [17485 Item(s)]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a004900/a004960/frames/9600x3240_16x9_30p/",
+      "label": "9600x3240_16x9_30p (9600x3240) [8741 Item(s)]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a004900/a004960/frames/7680x2160_32_9_30p/",
+      "label": "7680x2160_32_9_30p (7680x2160) [1798 Item(s)]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a004900/a004960/atmos_river.0324_rfm23_2021-11-29_1351.04370_print.jpg",
+      "label": "atmos_river.0324_rfm23_2021-11-29_1351.04370_print.jpg (1024x576) [239.9 KB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a004900/a004960/atmos_river_HD.hwshow",
+      "label": "atmos_river_HD.hwshow [191 bytes]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a004900/a004960/atmos_river.hwshow",
+      "label": "atmos_river.hwshow [180 bytes]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a004900/a004960/atmo_rivers_cbars01.png",
+      "label": "atmo_rivers_cbars01.png (1683x1859) [462.3 KB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a004900/a004960/atmo_rivers_cbars01_print.jpg",
+      "label": "atmo_rivers_cbars01_print.jpg (1024x1131) [91.0 KB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a004900/a004960/atmo_rivers_cbars01_thm.png",
+      "label": "atmo_rivers_cbars01_thm.png (80x40) [4.3 KB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a004900/a004960/atmos_river_DATE_ONLY_HD.webm",
+      "label": "atmos_river_DATE_ONLY_HD.webm (1920x1080) [60.1 MB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a004900/a004960/atmos_river_DATE_ONLY_HD.mp4",
+      "label": "atmos_river_DATE_ONLY_HD.mp4 (1920x1080) [6.6 MB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a004900/a004960/frames/1920x1080_16x9_60p/atmos_river_DATE_ONLY_rfm23_2021-12-10_1233/",
+      "label": "atmos_river_DATE_ONLY_rfm23_2021-12-10_1233 (1920x1080) [17501 Item(s)]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a004900/a004960/atmos_river_DATE_ONLY.06300_print.jpg",
+      "label": "atmos_river_DATE_ONLY.06300_print.jpg (1024x576) [7.6 KB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/search?nasa_science_categories=Earth",
+      "label": "Earth"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/search?keywords=Atmosphere",
+      "label": "Atmosphere"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/search?keywords=Atmospheric science",
+      "label": "Atmospheric science"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/search?keywords=Atmospheric Water Vapor",
+      "label": "Atmospheric Water Vapor"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/search?keywords=Atmospheric Winds",
+      "label": "Atmospheric Winds"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/search?keywords=Earth",
+      "label": "Earth"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/search?keywords=Earth Science",
+      "label": "Earth Science"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/search?keywords=Hyperwall",
+      "label": "Hyperwall"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/search?keywords=precipitation",
+      "label": "precipitation"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/search?keywords=Precipitation Rate",
+      "label": "Precipitation Rate"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/search/?people=Greg%20Shirah",
+      "label": "Greg Shirah"
+    },
+    {
+      "url": "https://orcid.org/0000-0002-7955-9573",
+      "label": ""
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/search/?people=Horace%20Mitchell",
+      "label": "Horace Mitchell"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/search/?people=Cindy%20Starr",
+      "label": "Cindy Starr"
+    },
+    {
+      "url": "https://orcid.org/0009-0000-7078-9033",
+      "label": ""
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/search/?people=Kel%20Elkins",
+      "label": "Kel Elkins"
+    },
+    {
+      "url": "https://orcid.org/0000-0002-0585-1619",
+      "label": ""
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/search/?people=Allison%20Collow",
+      "label": "Allison Collow"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/search/?people=Natalie%20Thomas",
+      "label": "Natalie Thomas"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/search/?people=Michael%20Bosilovich",
+      "label": "Michael Bosilovich"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/search/?people=Jefferson%20Beck",
+      "label": "Jefferson Beck"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/search/?people=LK%20Ward",
+      "label": "LK Ward"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/search/?datasets=274",
+      "label": "See all pages that use this dataset"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/search/?datasets=959",
+      "label": "See all pages that use this dataset"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/search/?datasets=1134",
+      "label": "See all pages that use this dataset"
+    },
+    {
+      "url": "https://www.nasa.gov/",
+      "label": ""
+    },
+    {
+      "url": "https://www.usa.gov/",
+      "label": ""
+    },
+    {
+      "url": "https://www.nasa.gov/about/highlights/HP_Privacy.html",
+      "label": "Privacy Policy and Important Notices"
+    },
+    {
+      "url": "https://www.nasa.gov/multimedia/guidelines/index.html",
+      "label": "Reproduction Guidelines"
+    }
+  ],
+  "elapsed_seconds": 0.844
+}

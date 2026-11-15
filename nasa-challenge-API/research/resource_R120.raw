@@ -1,0 +1,1834 @@
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- Meta info -->
+		<meta charset="UTF-8">
+		<meta name="language" content="english">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+		<meta name="author" content="NASA Scientific Visualization Studio">
+		<meta
+			name="description"
+			content="For more than 50 years, NASA satellites have provided data on Earth&#x27;s land, water, air, temperature, and climate. The Earth Information Center (EIC) allows visitors to see how our planet is changing in nine key areas: sea level change, air quality, biodiversity, wildfires, greenhouse gases, energy, disasters, water resources, and agriculture. This information supports decision makers in developing the tools they need to mitigate, adapt, and respond to our changing planet.
+
+Drawing from insight provided by NASA centers from coast to coast, and in close coordination with other government agencies, industry partners and communities, the Earth Information Center delivers critical data directly into the hands of people in ways that they can immediately use. 
+
+Through the Earth Information Center discover how NASA sees the unseen and consider why this information matters to us all.
+
+This gallery consists of content used in the hyperwall display in the Earth Information Center at NASA Headquarters."
+		>
+		<meta
+			name="keywords"
+			content="NASA, SVS, Scientific Visualization Studio, Scientific Visualization, Gallery"
+		>
+
+		<!-- Open graph protocol properties --> 
+		<meta property="og:title" content="NASA Scientific Visualization Studio | Earth Information Center (EIC)">
+		<meta property="og:type" content="article">
+		<meta property="og:image" content="/vis/a000000/a005100/a005148/MC02_stage3_GMAO_near_surface_wind_2048x1024_en.00001_searchweb.png">
+		<meta property="og:description" content="For more than 50 years, NASA satellites have provided data on Earth&#x27;s land, water, air, temperature, and climate. The Earth Information Center (EIC) allows visitors to see how our planet is changing in nine key areas: sea level change, air quality, biodiversity, wildfires, greenhouse gases, energy, disasters, water resources, and agriculture. This information supports decision makers in developing the tools they need to mitigate, adapt, and respond to our changing planet.
+
+Drawing from insight provided by NASA centers from coast to coast, and in close coordination with other government agencies, industry partners and communities, the Earth Information Center delivers critical data directly into the hands of people in ways that they can immediately use. 
+
+Through the Earth Information Center discover how NASA sees the unseen and consider why this information matters to us all.
+
+This gallery consists of content used in the hyperwall display in the Earth Information Center at NASA Headquarters.">
+		
+	<meta property="article:published_time" content="2023-06-07T00:00:00-04:00">
+
+		
+		<meta property="og:url" content="http://svs.gsfc.nasa.gov/gallery/earth-information-center/">
+		<meta property="og:locale" content="en_US">
+		<meta property="og:site_name" content="NASA Scientific Visualization Studio">
+
+		<!-- json-ld properties -->
+		<script type="application/ld+json">
+			{"@context": "http://schema.org", "@type": "Article", "headline": "Earth Information Center (EIC)", "url": "http://svs.gsfc.nasa.gov/gallery/earth-information-center/", "thumbnailUrl": "/vis/a000000/a005100/a005148/MC02_stage3_GMAO_near_surface_wind_2048x1024_en.00001_searchweb.png", "datePublished": "2023-06-07T00:00:00-04:00", "articleSection": "Gallery"}
+		</script>
+
+		<!-- Icons -->
+		<link rel="icon" sizes="16x16" type="image/png" href="https://nasa.gov/wp-content/plugins/nasa-hds-core-setup/assets/favicons/favicon-16x16.png">
+		<link rel="icon" sizes="32x32" type="image/png" href="https://nasa.gov/wp-content/plugins/nasa-hds-core-setup/assets/favicons/favicon-32x32.png">
+		<link rel="icon" sizes="57x57" type="image/png" href="https://nasa.gov/wp-content/plugins/nasa-hds-core-setup/assets/favicons/favicon-57x57.png">
+		<link rel="icon" sizes="76x76" type="image/png" href="https://nasa.gov/wp-content/plugins/nasa-hds-core-setup/assets/favicons/favicon-76x76.png">
+		<link rel="icon" sizes="96x96" type="image/png" href="https://nasa.gov/wp-content/plugins/nasa-hds-core-setup/assets/favicons/favicon-96x96.png">
+		<link rel="icon" sizes="128x128" type="image/png" href="https://nasa.gov/wp-content/plugins/nasa-hds-core-setup/assets/favicons/favicon-128x128.png">
+		<link rel="icon" sizes="192x192" type="image/png" href="https://nasa.gov/wp-content/plugins/nasa-hds-core-setup/assets/favicons/favicon-192x192.png">
+		<link rel="icon" sizes="196x196" type="image/png" href="https://nasa.gov/wp-content/plugins/nasa-hds-core-setup/assets/favicons/favicon-196x196.png">
+		<link rel="icon" sizes="228x228" type="image/png" href="https://nasa.gov/wp-content/plugins/nasa-hds-core-setup/assets/favicons/favicon-228x228.png">
+
+		<!-- Tab title -->
+		<title>NASA SVS | Earth Information Center (EIC)</title>
+
+		<!-- Resources -->
+		<script
+			src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"
+			onerror="document.write(`<script src='/static/svs/js/jquery-3.6.0.min.js'>\x3C/script>`)"
+		>
+		</script>
+		<script
+			src="https://cdn.jsdelivr.net/npm/underscore@1.13.6/underscore-min.min.js"
+			onerror="document.write(`<script src='/static/svs/js/underscore-umd-min.js'>\x3C/script>`)"
+		>
+		</script>
+		
+	<script src="/static/svs/js/card-galleries.js"></script>
+	
+
+
+		<!-- Stylesheets -->
+		<link href="/static/svs/css/bootstrap.min.css" rel="stylesheet">
+		<link href="/static/svs/css/bootstrap-icons.min.css" rel="stylesheet">
+		<link href="/static/svs/css/style.css" rel="stylesheet">
+		
+		
+	</head>
+	<body>
+		<header>
+			<!-- Top navigation bar -->
+			<nav id="top-navbar" class="navbar navbar-expand-md navbar-dark position-fixed">
+				<div class="container-fluid">
+					<!-- NASA brand -->
+					<a class="navbar-brand p-0 m-0" href="https://www.nasa.gov/">
+						<img
+							src="/static/svs/images/nasa-meatball.svg"
+							alt="NASA Logo"
+							height="40px"
+						>
+					</a>
+
+					<span class="d-flex flex-nowrap overflow-hidden">
+						
+							<!-- SVS brand -->
+							<a class="navbar-brand py-0 px-2 m-0 svs-brand svs-brand-svs" href="/">Scientific Visualization Studio</a>
+						
+
+						
+							
+						
+					</span>
+
+					<!-- Toggle button for collapsed navbar links -->
+					<button
+						class="navbar-toggler ms-auto"
+						type="button"
+						data-bs-toggle="offcanvas"
+						data-bs-target="#navbar-offcanvas"
+						aria-controls="navbar-offcanvas"
+						aria-expanded="false"
+						aria-label="Toggle navigation"
+					>
+						<span class="navbar-toggler-icon"></span>
+					</button>
+
+					<!-- Nav links + search box -->
+					<div class="offcanvas offcanvas-end text-bg-dark flex-shrink-0 flex-grow-1" id="navbar-offcanvas">
+						<div class="offcanvas-header position-absolute top-0 end-0">
+							<button type="button" class="btn-close btn-close-white p-3" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+						</div>
+						<div class="offcanvas-body">
+							<ul class="navbar-nav ms-auto justify-content-end">
+								<!-- Nav links -->
+								
+									
+										
+									
+									<li class="nav-item">
+										<a class="nav-link" href="/gallery/the-galleries/"><span class="bi bi-images" aria-hidden="true"></span> Galleries</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="/help/"><span class="bi bi-question-circle" aria-hidden="true"></span> Help</a>
+									</li>
+								
+								
+								
+								
+									<!-- Search box -->
+									<form id="navbar_search_form" class="ps-0 ps-md-2" role="search" action="/search" method="get">
+										<div class="input-group flex-nowrap w-100">
+	
+		
+		<input
+			type="text"
+			id="navbar_search_box"
+			class="form-control ckempty border border-end-0  text-light bg-dark border-light"
+			name="search"
+			value=""
+			placeholder="Search..."
+			aria-label="Search..."
+		>
+		<label
+			for="navbar_search_box"
+			class="visually-hidden"
+		>
+			Search
+		</label>
+		<button
+			id="navbar_search_box_clear"
+			type="reset"
+			class="btn btn-primary border-start-0 border border-end-0 pe-1 bg-dark border-light"
+			title="Clear search text"
+			aria-label="Clear search text"
+			
+			onclick="$('#navbar_search_box').val('')"
+			
+		>
+			<span
+				class="bi bi-backspace text-light"
+				aria-hidden="true"
+			> </span>
+		</button>
+		<button
+			id="navbar_search_box_submit"
+			type="submit"
+			title="Search!"
+			aria-label="Search!"
+			class="btn btn-primary border border-start-0 pe-3 bg-dark border-light"
+		>
+			<span
+				class="bi bi-search text-light"
+				aria-hidden="true"
+			> </span>
+		</button>
+	
+</div>
+
+									</form>
+								
+							</ul>
+						</div>
+					</div>
+				</div>
+			</nav>
+		</header>
+		<main class="flex-fill">
+			<div id="alerts" class="position-fixed w-100 p-2" style="z-index: 999">
+				
+					
+
+
+				
+				
+					
+				
+			</div>
+			<div id="main-container" class="position-relative vstack container-xl py-2">
+				
+	<article>
+		<!-- Header (Title, release date, etc.) -->
+		<section>
+			<!-- Alerts -->
+			
+
+			<!-- Title -->
+			<div class="row">
+				<h1 id="title" class="mb-0">Earth Information Center (EIC)</h1>
+			</div>
+
+			<!-- Release date + ID + social media icons -->
+			<div class="row">
+				<div class="hstack flex-wrap align-items-center">
+					<ul class="list-unstyled vstack gap-1 mb-1 justify-content-center">
+						
+							
+							
+								<li class="mb-0 fs-5"><b>Released</b> Wednesday, June 7th, 2023</li>
+							
+							
+								<li class="mb-0 fs-5"><b>Updated</b> Wednesday, July 30th, 2025 at 12:00AM</li>
+							
+						
+					</ul>
+					<div>
+						<ul class="list-unstyled hstack gap-2 mb-1">
+							<li>
+								<span class="btn btn-secondary disabled">ID: 40467</span>
+							</li>
+							<li class="vr"></li>
+							
+							<li>
+								<a
+									href="/api/40467"
+									target="_blank"
+									class="btn btn-light btn-sm px-1"
+									title="View this page in our API"
+								> <span class="bi bi-file-earmark-code fs-4" aria-hidden="true"></span> </a>
+							</li>
+							<li class="vr"></li>
+							
+
+<li>
+	
+
+
+	<button
+		type="button"
+		class="svs-copy-link-to-this-page-button btn btn-light px-1 py-0 fs-4"
+		title="Copy a link to this page"
+		tabindex="0"
+		aria-label="Copy a link to this page"
+		data-copy-url="http://svs.gsfc.nasa.gov/gallery/earth-information-center/"
+		data-bs-title="Copied!"
+		data-bs-trigger="manual"
+	><span class="bi bi-link-45deg" aria-hidden="true"></span></button>
+
+
+</li>
+<li>
+	<a
+		href="https://twitter.com/intent/tweet"
+		target="_blank"
+		class="btn btn-light btn-sm px-1"
+		title="Share this page on Twitter"
+	> <span class="bi bi-twitter fs-4" aria-hidden="true"></span> </a>
+</li>
+<li>
+	 <a
+	href="https://www.facebook.com/share.php?u=http%3A//svs.gsfc.nasa.gov/gallery/earth-information-center/%3F"
+	target="_blank"
+	class="btn btn-light btn-sm px-1"
+	title="Share this page on Facebook"
+> <span class="bi bi-facebook fs-4" aria-hidden="true"></span> </a>
+</li>
+
+						</ul>
+					</div>
+				</div>
+			</div>
+			<hr>
+		</section>
+
+		<div class="row">
+			<!-- Table of Contents -->
+			<div class="col-12 col-md-4 col-lg-3 pb-3">
+				<nav id="gallery-toc" class="card p-3 content-sticky-top">
+					<h2 class="fs-5">Contents</h2>
+					<nav class="nav nav-pills flex-column flex-nowrap" style="max-height: 50vh; overflow-y: auto">
+						
+							
+								
+									<a class="nav-link nav-link-relative" href="#media_group_371615">Overview</a>
+								
+							
+						
+							
+								
+									<a class="nav-link nav-link-relative" href="#media_group_371616">EIC Dashboards</a>
+								
+							
+						
+							
+								
+									<a class="nav-link nav-link-relative" href="#media_group_371617">EIC Videos</a>
+								
+							
+						
+							
+								
+									<a class="nav-link nav-link-relative" href="#media_group_371618">EIC Beauty Pieces</a>
+								
+							
+						
+							
+								
+									<a class="nav-link nav-link-relative" href="#media_group_371619">Media Resources</a>
+								
+							
+						
+							
+								
+									<a class="nav-link nav-link-relative" href="#media_group_372474">Daily Visualizations</a>
+								
+							
+						
+					</nav>
+				</nav>
+			</div>
+
+			<!-- Content -->
+			<div class="col-12 col-md-8 col-lg-9" data-bs-spy="scroll" data-bs-target="#gallery-toc" data-bs-smooth-scroll="true">
+				
+				
+					<!-- Media groups -->
+					<div class="vstack gap-3">
+						
+							
+								
+
+<section id="media_group_371615" ><!-- Title --><h2 class="fs-3">Overview</h2><div class="px-0 px-md-3 px-lg-4 mb-0-last-p fs-5"><!-- Description --><p>For more than 50 years, NASA satellites have provided data on Earth's land, water, air, temperature, and climate. The <a class="link" href="https://science.nasa.gov/earth-science/earth-information-center">Earth Information Center (EIC) </a>allows visitors to see how our planet is changing in nine key areas: sea level change, air quality, biodiversity, wildfires, greenhouse gases, energy, disasters, water resources, and agriculture. This information supports decision makers in developing the tools they need to mitigate, adapt, and respond to our changing planet.</p><p>Drawing from insight provided by NASA centers from coast to coast, and in close coordination with other government agencies, industry partners and communities, the Earth Information Center delivers critical data directly into the hands of people in ways that they can immediately use. 
+
+<p><p>Through the Earth Information Center discover how NASA sees the unseen and consider why this information matters to us all.
+
+<p>This gallery consists of content used in the hyperwall display in the Earth Information Center at NASA Headquarters.
+			
+		</div></section>
+
+							
+						
+							
+								
+
+<section id="media_group_371616" ><!-- Title --><h2 class="fs-3">EIC Dashboards</h2><div class="position-relative"><ul id="media_group_371616" class="gallery card-gallery gap-2 list-unstyled"><button
+						id="media_group_371616_scroll_left"
+						type="button"
+						class="gallery-scroll-left btn btn-dark border-0 px-0 h-100"
+						aria-hidden="true"
+						tabindex="-1"
+						style="display: none"
+					><span class="bi bi-chevron-compact-left fs-1 mx-0"></span></button><button
+						id="media_group_371616_scroll_right"
+						type="button"
+						class="gallery-scroll-right btn btn-dark border-0 px-0 h-100"
+						aria-hidden="true"
+						tabindex="-1"
+						style="display: none"
+					><span class="bi bi-chevron-compact-right fs-1 mx-0"></span></button><!-- Items --><!-- Card card_gallery_page_40509 --><li
+			id="card_gallery_page_40509"
+			class="card-gallery-card card flex-shrink-0 rounded overflow-hidden position-relative p-0 m-0 bg-gray-300"
+			style="width: 320px; max-width: 80vw; flex: none;"
+		><!-- Header --><div
+					id="card_gallery_page_40509_header"
+					class="position-relative"
+				><!-- Image topper --><a
+							href="/gallery/earth-now-dashboard/"
+							title="Go to this page"
+							class="card-img-top bg-dark"
+						><div class="ratio ratio-16x9"><img
+									src="/vis/a000000/a005100/a005148/MC02_stage3_GMAO_near_surface_wind_2048x1024_en.00001_searchweb.png"
+									alt="NASA satellites provide data on Earth&#x27;s land, ecosystems, water, air temperature, and climate - and have done so for more than 50 years. Earth information from space supports decision makers, partners, and people in developing the tools they need to mitigate, adapth, and respond to our changing planet.
+
+The visualizations featured on this dashboard show the latest imagery available."
+									style="object-fit: cover"
+									loading="lazy"
+								></div></a><!-- ID Badge --><span class="position-absolute top-0 start-0 badge bg-dark bg-opacity-75 fs-6 fw-normal rounded-0" style="border-bottom-right-radius: var(--bs-border-radius) !important;"> ID: 40509 </span><!-- Type badge --><span class="position-absolute bottom-0 start-0 badge bg-dark bg-opacity-75 fs-6 fw-normal rounded-0" style="border-top-right-radius: var(--bs-border-radius) !important;"><span class="bi bi-images me-1" aria-hidden="true"></span> Gallery
+							</span></div><!-- Body --><div
+					id="card_gallery_page_40509_body"
+					class="card-body vstack gap-1 p-2"
+					style="height: 270px;"
+				><!-- Title --><h3
+								id="card_gallery_page_40509_body_title"
+								class="flex-shrink-0 mb-0 fs-5"
+							><a
+									href="/gallery/earth-now-dashboard/"
+									title="Go to this page"
+									class="link-unstyled card-title overflow-hidden mb-0"
+									tabindex="-1"
+									style="display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2;"
+								>
+									Earth Now Dashboard
+								</a></h3><div class="hstack list-unstyled gap-2 hide-last-vr"><!-- Release date --><span class="card-text">
+						October 16, 2023
+						
+					</span><span class="vr"></span></div><div class="overflow-hidden"><p
+				id="card_gallery_page_40509_body_description"
+				class="text-clamp card-text mb-0"
+				style="display: -webkit-box; -webkit-box-orient: vertical;"
+			>
+				NASA satellites provide data on Earth's land, ecosystems, water, air temperature, and climate - and have done so for more than 50 years. Earth information from space supports decision makers, partners, and people in developing the tools they need to mitigate, adapth, and respond to our changing planet.
+The visualizations featured on this dashboard show the latest imagery available.
+			</p></div><a
+						id="card_gallery_page_40509_body_link_button"
+						href="/gallery/earth-now-dashboard/"
+						title="Go to this page"
+						class="flex-shrink-0 btn btn-outline-primary border-0 bg-transparent w-100 mt-auto py-0"
+						tabindex="-1"
+					>
+						Go to this page <span class="bi bi-chevron-right mx-2" aria-hidden="true"></span></a></div></li><!-- Card card_gallery_page_40473 --><li
+			id="card_gallery_page_40473"
+			class="card-gallery-card card flex-shrink-0 rounded overflow-hidden position-relative p-0 m-0 bg-gray-300"
+			style="width: 320px; max-width: 80vw; flex: none;"
+		><!-- Header --><div
+					id="card_gallery_page_40473_header"
+					class="position-relative"
+				><!-- Image topper --><a
+							href="/gallery/climate-vital-signs-dashboard/"
+							title="Go to this page"
+							class="card-img-top bg-dark"
+						><div class="ratio ratio-16x9"><img
+									src="/vis/a000000/a005000/a005057/GISTEMP_Spiral_60sec_C.01400_searchweb.png"
+									alt="The NASA climate spiral 1880-2022. This version is in Celsius; see below for an alternate version in Fahrenheit. Both a 30 fps, 60 second duration video and 60 fps, 30 second duration video are available."
+									style="object-fit: cover"
+									loading="lazy"
+								></div></a><!-- ID Badge --><span class="position-absolute top-0 start-0 badge bg-dark bg-opacity-75 fs-6 fw-normal rounded-0" style="border-bottom-right-radius: var(--bs-border-radius) !important;"> ID: 40473 </span><!-- Type badge --><span class="position-absolute bottom-0 start-0 badge bg-dark bg-opacity-75 fs-6 fw-normal rounded-0" style="border-top-right-radius: var(--bs-border-radius) !important;"><span class="bi bi-images me-1" aria-hidden="true"></span> Gallery
+							</span></div><!-- Body --><div
+					id="card_gallery_page_40473_body"
+					class="card-body vstack gap-1 p-2"
+					style="height: 270px;"
+				><!-- Title --><h3
+								id="card_gallery_page_40473_body_title"
+								class="flex-shrink-0 mb-0 fs-5"
+							><a
+									href="/gallery/climate-vital-signs-dashboard/"
+									title="Go to this page"
+									class="link-unstyled card-title overflow-hidden mb-0"
+									tabindex="-1"
+									style="display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2;"
+								>
+									Climate Vital Signs Dashboard
+								</a></h3><div class="hstack list-unstyled gap-2 hide-last-vr"><!-- Release date --><span class="card-text">
+						June 7, 2023
+						
+					</span><span class="vr"></span></div><div class="overflow-hidden"><p
+				id="card_gallery_page_40473_body_description"
+				class="text-clamp card-text mb-0"
+				style="display: -webkit-box; -webkit-box-orient: vertical;"
+			>
+				NASA monitors the health of our planet to benefit human kind. Our missions track key climate indicators and we share these with the world.
+			</p></div><a
+						id="card_gallery_page_40473_body_link_button"
+						href="/gallery/climate-vital-signs-dashboard/"
+						title="Go to this page"
+						class="flex-shrink-0 btn btn-outline-primary border-0 bg-transparent w-100 mt-auto py-0"
+						tabindex="-1"
+					>
+						Go to this page <span class="bi bi-chevron-right mx-2" aria-hidden="true"></span></a></div></li><!-- Card card_gallery_page_40477 --><li
+			id="card_gallery_page_40477"
+			class="card-gallery-card card flex-shrink-0 rounded overflow-hidden position-relative p-0 m-0 bg-gray-300"
+			style="width: 320px; max-width: 80vw; flex: none;"
+		><!-- Header --><div
+					id="card_gallery_page_40477_header"
+					class="position-relative"
+				><!-- Image topper --><a
+							href="/gallery/greenhouse-gases-dashboard/"
+							title="Go to this page"
+							class="card-img-top bg-dark"
+						><div class="ratio ratio-16x9"><img
+									src="/vis/a000000/a004900/a004983/CO2Volumetric_9600x3240_30fps.02582_searchweb.png"
+									alt="Data visualization in wide aspect ratio and 9600x3240 resolution,  featuring volumetric carbon dioxide on a global scale for the period June 1, 2020 - July 31, 2021. This set of frames can be shown on 5x3 hyperwalls and wide aspect ratio displays. Lower resolution movies are provided for preview."
+									style="object-fit: cover"
+									loading="lazy"
+								></div></a><!-- ID Badge --><span class="position-absolute top-0 start-0 badge bg-dark bg-opacity-75 fs-6 fw-normal rounded-0" style="border-bottom-right-radius: var(--bs-border-radius) !important;"> ID: 40477 </span><!-- Type badge --><span class="position-absolute bottom-0 start-0 badge bg-dark bg-opacity-75 fs-6 fw-normal rounded-0" style="border-top-right-radius: var(--bs-border-radius) !important;"><span class="bi bi-images me-1" aria-hidden="true"></span> Gallery
+							</span></div><!-- Body --><div
+					id="card_gallery_page_40477_body"
+					class="card-body vstack gap-1 p-2"
+					style="height: 270px;"
+				><!-- Title --><h3
+								id="card_gallery_page_40477_body_title"
+								class="flex-shrink-0 mb-0 fs-5"
+							><a
+									href="/gallery/greenhouse-gases-dashboard/"
+									title="Go to this page"
+									class="link-unstyled card-title overflow-hidden mb-0"
+									tabindex="-1"
+									style="display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2;"
+								>
+									Greenhouse Gases Dashboard
+								</a></h3><div class="hstack list-unstyled gap-2 hide-last-vr"><!-- Release date --><span class="card-text">
+						June 7, 2023
+						
+					</span><span class="vr"></span></div><div class="overflow-hidden"><p
+				id="card_gallery_page_40477_body_description"
+				class="text-clamp card-text mb-0"
+				style="display: -webkit-box; -webkit-box-orient: vertical;"
+			>
+				NASA and its partner agencies track greenhouse gases for space, air, and ground. our scientists model the flow of these gases around our planet.
+			</p></div><a
+						id="card_gallery_page_40477_body_link_button"
+						href="/gallery/greenhouse-gases-dashboard/"
+						title="Go to this page"
+						class="flex-shrink-0 btn btn-outline-primary border-0 bg-transparent w-100 mt-auto py-0"
+						tabindex="-1"
+					>
+						Go to this page <span class="bi bi-chevron-right mx-2" aria-hidden="true"></span></a></div></li><!-- Card card_gallery_page_40479 --><li
+			id="card_gallery_page_40479"
+			class="card-gallery-card card flex-shrink-0 rounded overflow-hidden position-relative p-0 m-0 bg-gray-300"
+			style="width: 320px; max-width: 80vw; flex: none;"
+		><!-- Header --><div
+					id="card_gallery_page_40479_header"
+					class="position-relative"
+				><!-- Image topper --><a
+							href="/gallery/carbon-dioxide-sources-sinks/"
+							title="Go to this page"
+							class="card-img-top bg-dark"
+						><div class="ratio ratio-16x9"><img
+									src="/vis/a000000/a005100/a005110/JanToDec2021_TaggedCO2_4-20-2023a_co2_foursources_sphere_americas_decal.00001_searchweb.png"
+									alt="Carbon dioxide (CO2) is the most prevalent greenhouse gas driving global climate change. However, its increase in the atmosphere would be even more rapid without land and ocean carbon sinks, which collectively absorb about half of human emissions every year.  Advanced computer modeling techniques in NASA&#x27;s Global Modeling and Assimilation Office allow us to disentangle the influences of sources and sinks and to better understand where carbon is coming from and going to."
+									style="object-fit: cover"
+									loading="lazy"
+								></div></a><!-- ID Badge --><span class="position-absolute top-0 start-0 badge bg-dark bg-opacity-75 fs-6 fw-normal rounded-0" style="border-bottom-right-radius: var(--bs-border-radius) !important;"> ID: 40479 </span><!-- Type badge --><span class="position-absolute bottom-0 start-0 badge bg-dark bg-opacity-75 fs-6 fw-normal rounded-0" style="border-top-right-radius: var(--bs-border-radius) !important;"><span class="bi bi-images me-1" aria-hidden="true"></span> Gallery
+							</span></div><!-- Body --><div
+					id="card_gallery_page_40479_body"
+					class="card-body vstack gap-1 p-2"
+					style="height: 270px;"
+				><!-- Title --><h3
+								id="card_gallery_page_40479_body_title"
+								class="flex-shrink-0 mb-0 fs-5"
+							><a
+									href="/gallery/carbon-dioxide-sources-sinks/"
+									title="Go to this page"
+									class="link-unstyled card-title overflow-hidden mb-0"
+									tabindex="-1"
+									style="display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2;"
+								>
+									Carbon Dioxide Sources and Sinks
+								</a></h3><div class="hstack list-unstyled gap-2 hide-last-vr"><!-- Release date --><span class="card-text">
+						June 7, 2023
+						
+					</span><span class="vr"></span></div><div class="overflow-hidden"><p
+				id="card_gallery_page_40479_body_description"
+				class="text-clamp card-text mb-0"
+				style="display: -webkit-box; -webkit-box-orient: vertical;"
+			>
+				NASA models the flow of carbon dioxide; its emission, its transport around the globe, and its absorption by the ocean and biosphere.
+			</p></div><a
+						id="card_gallery_page_40479_body_link_button"
+						href="/gallery/carbon-dioxide-sources-sinks/"
+						title="Go to this page"
+						class="flex-shrink-0 btn btn-outline-primary border-0 bg-transparent w-100 mt-auto py-0"
+						tabindex="-1"
+					>
+						Go to this page <span class="bi bi-chevron-right mx-2" aria-hidden="true"></span></a></div></li><!-- Card card_gallery_page_40529 --><li
+			id="card_gallery_page_40529"
+			class="card-gallery-card card flex-shrink-0 rounded overflow-hidden position-relative p-0 m-0 bg-gray-300"
+			style="width: 320px; max-width: 80vw; flex: none;"
+		><!-- Header --><div
+					id="card_gallery_page_40529_header"
+					class="position-relative"
+				><!-- Image topper --><a
+							href="/gallery/air-quality-dashboard/"
+							title="Go to this page"
+							class="card-img-top bg-dark"
+						><div class="ratio ratio-16x9"><img
+									src="/vis/a000000/a005100/a005175/tempo_no2_north-america.02402_searchweb.png"
+									alt="In this visualization, high levels of nitrogen dioxide can be seen over multiple urban areas across the U.S., Canada, Mexico and the Caribbean. As the day progresses, the morning pollution often dissipates. Later in the afternoon, it will rise again as the cities enter their second rush hour of the day. Because TEMPO uses visible sunlight to make measurements, it cannot see pollution below clouds or at night. Cloudy areas appear as missing data in the visualization. This visualization shows data from August 28-31, 2023."
+									style="object-fit: cover"
+									loading="lazy"
+								></div></a><!-- ID Badge --><span class="position-absolute top-0 start-0 badge bg-dark bg-opacity-75 fs-6 fw-normal rounded-0" style="border-bottom-right-radius: var(--bs-border-radius) !important;"> ID: 40529 </span><!-- Type badge --><span class="position-absolute bottom-0 start-0 badge bg-dark bg-opacity-75 fs-6 fw-normal rounded-0" style="border-top-right-radius: var(--bs-border-radius) !important;"><span class="bi bi-images me-1" aria-hidden="true"></span> Gallery
+							</span></div><!-- Body --><div
+					id="card_gallery_page_40529_body"
+					class="card-body vstack gap-1 p-2"
+					style="height: 270px;"
+				><!-- Title --><h3
+								id="card_gallery_page_40529_body_title"
+								class="flex-shrink-0 mb-0 fs-5"
+							><a
+									href="/gallery/air-quality-dashboard/"
+									title="Go to this page"
+									class="link-unstyled card-title overflow-hidden mb-0"
+									tabindex="-1"
+									style="display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2;"
+								>
+									Air Quality Dashboard
+								</a></h3><div class="hstack list-unstyled gap-2 hide-last-vr"><!-- Release date --><span class="card-text">
+						December 4, 2024
+						
+					</span><span class="vr"></span></div><div class="overflow-hidden"><p
+				id="card_gallery_page_40529_body_description"
+				class="text-clamp card-text mb-0"
+				style="display: -webkit-box; -webkit-box-orient: vertical;"
+			>
+				NASA's fleet of Earth observing satellites monitor our planet's oceans, biosphere, and atmosphere. Instruments onboard satellites observe air pollutants around the world. The data collected are used by air quality experts and researchers studying the impact of air pollution on human health.
+			</p></div><a
+						id="card_gallery_page_40529_body_link_button"
+						href="/gallery/air-quality-dashboard/"
+						title="Go to this page"
+						class="flex-shrink-0 btn btn-outline-primary border-0 bg-transparent w-100 mt-auto py-0"
+						tabindex="-1"
+					>
+						Go to this page <span class="bi bi-chevron-right mx-2" aria-hidden="true"></span></a></div></li><!-- Card card_gallery_page_40531 --><li
+			id="card_gallery_page_40531"
+			class="card-gallery-card card flex-shrink-0 rounded overflow-hidden position-relative p-0 m-0 bg-gray-300"
+			style="width: 320px; max-width: 80vw; flex: none;"
+		><!-- Header --><div
+					id="card_gallery_page_40531_header"
+					class="position-relative"
+				><!-- Image topper --><a
+							href="/gallery/wildland-fires/"
+							title="Go to this page"
+							class="card-img-top bg-dark"
+						><div class="ratio ratio-16x9"><img
+									src="/vis/a000000/a005300/a005315/FWI_forecast_latest_searchweb.png"
+									alt="Climate change continues to cause longer fire seasons and more severe wildfires. NASA&#x27;s Earth observing satellites and its robust network of interagency partners work together to help communities manage the impacts of fire, and reduce risks before, during and after fire events."
+									style="object-fit: cover"
+									loading="lazy"
+								></div></a><!-- ID Badge --><span class="position-absolute top-0 start-0 badge bg-dark bg-opacity-75 fs-6 fw-normal rounded-0" style="border-bottom-right-radius: var(--bs-border-radius) !important;"> ID: 40531 </span><!-- Type badge --><span class="position-absolute bottom-0 start-0 badge bg-dark bg-opacity-75 fs-6 fw-normal rounded-0" style="border-top-right-radius: var(--bs-border-radius) !important;"><span class="bi bi-images me-1" aria-hidden="true"></span> Gallery
+							</span></div><!-- Body --><div
+					id="card_gallery_page_40531_body"
+					class="card-body vstack gap-1 p-2"
+					style="height: 270px;"
+				><!-- Title --><h3
+								id="card_gallery_page_40531_body_title"
+								class="flex-shrink-0 mb-0 fs-5"
+							><a
+									href="/gallery/wildland-fires/"
+									title="Go to this page"
+									class="link-unstyled card-title overflow-hidden mb-0"
+									tabindex="-1"
+									style="display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2;"
+								>
+									Wildland Fires Dashboard
+								</a></h3><div class="hstack list-unstyled gap-2 hide-last-vr"><!-- Release date --><span class="card-text">
+						December 4, 2024
+						
+					</span><span class="vr"></span></div><div class="overflow-hidden"><p
+				id="card_gallery_page_40531_body_description"
+				class="text-clamp card-text mb-0"
+				style="display: -webkit-box; -webkit-box-orient: vertical;"
+			>
+				Climate change continues to cause longer fire seasons and more severe wildfires. NASA's Earth observing satellites and its robust network of interagency partners work together to help communities manage the impacts of fire, and reduce risks before, during and after fire events.
+			</p></div><a
+						id="card_gallery_page_40531_body_link_button"
+						href="/gallery/wildland-fires/"
+						title="Go to this page"
+						class="flex-shrink-0 btn btn-outline-primary border-0 bg-transparent w-100 mt-auto py-0"
+						tabindex="-1"
+					>
+						Go to this page <span class="bi bi-chevron-right mx-2" aria-hidden="true"></span></a></div></li></ul></div></section>
+
+							
+						
+							
+								
+
+<section id="media_group_371617" ><!-- Title --><h2 class="fs-3">EIC Videos</h2><!-- Description --><p>Videos produced for NASA's Earth Information Center.</p><div class="position-relative"><ul id="media_group_371617" class="gallery card-gallery gap-2 list-unstyled"><button
+						id="media_group_371617_scroll_left"
+						type="button"
+						class="gallery-scroll-left btn btn-dark border-0 px-0 h-100"
+						aria-hidden="true"
+						tabindex="-1"
+						style="display: none"
+					><span class="bi bi-chevron-compact-left fs-1 mx-0"></span></button><button
+						id="media_group_371617_scroll_right"
+						type="button"
+						class="gallery-scroll-right btn btn-dark border-0 px-0 h-100"
+						aria-hidden="true"
+						tabindex="-1"
+						style="display: none"
+					><span class="bi bi-chevron-compact-right fs-1 mx-0"></span></button><!-- Items --><!-- Card card_gallery_page_40487 --><li
+			id="card_gallery_page_40487"
+			class="card-gallery-card card flex-shrink-0 rounded overflow-hidden position-relative p-0 m-0 bg-gray-300"
+			style="width: 320px; max-width: 80vw; flex: none;"
+		><!-- Header --><div
+					id="card_gallery_page_40487_header"
+					class="position-relative"
+				><!-- Image topper --><a
+							href="/gallery/nasaand-hurricanes/"
+							title="Go to this page"
+							class="card-img-top bg-dark"
+						><div class="ratio ratio-16x9"><img
+									src="/vis/a000000/a004900/a004983/CO2Volumetric_9600x3240_30fps.02582_searchweb.png"
+									alt="Data visualization in wide aspect ratio and 9600x3240 resolution,  featuring volumetric carbon dioxide on a global scale for the period June 1, 2020 - July 31, 2021. This set of frames can be shown on 5x3 hyperwalls and wide aspect ratio displays. Lower resolution movies are provided for preview."
+									style="object-fit: cover"
+									loading="lazy"
+								></div></a><!-- ID Badge --><span class="position-absolute top-0 start-0 badge bg-dark bg-opacity-75 fs-6 fw-normal rounded-0" style="border-bottom-right-radius: var(--bs-border-radius) !important;"> ID: 40487 </span><!-- Type badge --><span class="position-absolute bottom-0 start-0 badge bg-dark bg-opacity-75 fs-6 fw-normal rounded-0" style="border-top-right-radius: var(--bs-border-radius) !important;"><span class="bi bi-images me-1" aria-hidden="true"></span> Gallery
+							</span></div><!-- Body --><div
+					id="card_gallery_page_40487_body"
+					class="card-body vstack gap-1 p-2"
+					style="height: 270px;"
+				><!-- Title --><h3
+								id="card_gallery_page_40487_body_title"
+								class="flex-shrink-0 mb-0 fs-5"
+							><a
+									href="/gallery/nasaand-hurricanes/"
+									title="Go to this page"
+									class="link-unstyled card-title overflow-hidden mb-0"
+									tabindex="-1"
+									style="display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2;"
+								>
+									NASA and Hurricanes
+								</a></h3><div class="hstack list-unstyled gap-2 hide-last-vr"><!-- Release date --><span class="card-text">
+						June 8, 2023
+						
+					</span><span class="vr"></span></div><div class="overflow-hidden"><p
+				id="card_gallery_page_40487_body_description"
+				class="text-clamp card-text mb-0"
+				style="display: -webkit-box; -webkit-box-orient: vertical;"
+			>
+				Hurricanes are getting stronger due to climate change warming the air and oceans. NASA atmospheric scientist Mara Fuentes says NASA sees deep into hurricanes to better their power, track storms through the night, and precisely map flooding in real time. NASA shares this information with partners like NOAA for weather forecasts and FEME to support emergency responders. Before, during, and after a hurricane, NASA data is put to use by decision makers to make critical decisions.
+			</p></div><a
+						id="card_gallery_page_40487_body_link_button"
+						href="/gallery/nasaand-hurricanes/"
+						title="Go to this page"
+						class="flex-shrink-0 btn btn-outline-primary border-0 bg-transparent w-100 mt-auto py-0"
+						tabindex="-1"
+					>
+						Go to this page <span class="bi bi-chevron-right mx-2" aria-hidden="true"></span></a></div></li><!-- Card card_gallery_page_40484 --><li
+			id="card_gallery_page_40484"
+			class="card-gallery-card card flex-shrink-0 rounded overflow-hidden position-relative p-0 m-0 bg-gray-300"
+			style="width: 320px; max-width: 80vw; flex: none;"
+		><!-- Header --><div
+					id="card_gallery_page_40484_header"
+					class="position-relative"
+				><!-- Image topper --><a
+							href="/gallery/nasaand-agriculture/"
+							title="Go to this page"
+							class="card-img-top bg-dark"
+						><div class="ratio ratio-16x9"><img
+									src="/vis/a010000/a014300/a014367/0613_Ag_Water__Main_Screen__FInal_Export.00001_searchweb.png"
+									alt="Complete transcript available. Music credit: “The Grand Journey” from Universal Production Music This video can be freely shared and downloaded. While the video in its entirety can be shared without permission, some individual imagery provided by Pond5.com is obtained through permission and may not be excised or remixed in other products. For more information on NASA’s media guidelines, visit https://www.nasa.gov/multimedia/guidelines/index.html"
+									style="object-fit: cover"
+									loading="lazy"
+								></div></a><!-- ID Badge --><span class="position-absolute top-0 start-0 badge bg-dark bg-opacity-75 fs-6 fw-normal rounded-0" style="border-bottom-right-radius: var(--bs-border-radius) !important;"> ID: 40484 </span><!-- Type badge --><span class="position-absolute bottom-0 start-0 badge bg-dark bg-opacity-75 fs-6 fw-normal rounded-0" style="border-top-right-radius: var(--bs-border-radius) !important;"><span class="bi bi-images me-1" aria-hidden="true"></span> Gallery
+							</span></div><!-- Body --><div
+					id="card_gallery_page_40484_body"
+					class="card-body vstack gap-1 p-2"
+					style="height: 270px;"
+				><!-- Title --><h3
+								id="card_gallery_page_40484_body_title"
+								class="flex-shrink-0 mb-0 fs-5"
+							><a
+									href="/gallery/nasaand-agriculture/"
+									title="Go to this page"
+									class="link-unstyled card-title overflow-hidden mb-0"
+									tabindex="-1"
+									style="display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2;"
+								>
+									NASA and Agriculture Video
+								</a></h3><div class="hstack list-unstyled gap-2 hide-last-vr"><!-- Release date --><span class="card-text">
+						June 8, 2023
+						
+					</span><span class="vr"></span></div><div class="overflow-hidden"><p
+				id="card_gallery_page_40484_body_description"
+				class="text-clamp card-text mb-0"
+				style="display: -webkit-box; -webkit-box-orient: vertical;"
+			>
+				The farmers responsible for the food that reaches your plate need a lot of a very precious and limited resource, water. NASA works with farmers like Dwane Roth of Kansas to help them track their water use. Roth says that farmers like him are seeing more frequent, hotter days with less rain. “We need to grow more with less and get as much out of each drop of water we can,” he says. NASA helps to promote the use of Earth observations to strengthen food security. One solution is OpenET, a system that puts near-real-time water data into the hands of farmers in the United States.
+			</p></div><a
+						id="card_gallery_page_40484_body_link_button"
+						href="/gallery/nasaand-agriculture/"
+						title="Go to this page"
+						class="flex-shrink-0 btn btn-outline-primary border-0 bg-transparent w-100 mt-auto py-0"
+						tabindex="-1"
+					>
+						Go to this page <span class="bi bi-chevron-right mx-2" aria-hidden="true"></span></a></div></li><!-- Card card_details_page_14700 --><li
+			id="card_details_page_14700"
+			class="card-gallery-card card flex-shrink-0 rounded overflow-hidden position-relative p-0 m-0 bg-gray-300"
+			style="width: 320px; max-width: 80vw; flex: none;"
+		><!-- Header --><div
+					id="card_details_page_14700_header"
+					class="position-relative"
+				><!-- Image topper --><a
+							href="/14700/"
+							title="Go to this page"
+							class="card-img-top bg-dark"
+						><div class="ratio ratio-16x9"><img
+									src="/vis/a010000/a014700/a014700/Screenshot_2024-10-03_at_11.46.44_AM.png"
+									alt="Complete transcript available.Full 8K resolution. Optimized for Earth Information Center display.Music Credit: “Lion Track,” “Atmospheres Instrumental,” and “Fast Progress Instrumental” from Universal Production Music.This video can be freely shared and downloaded. While the video in its entirety can be shared without permission, some individual imagery provided by Sahara Conservation and Pond5 is obtained through permission and may not be excised or remixed in other products. For more information on NASA’s media guidelines, visit https://www.nasa.gov/multimedia/guidelines/index.html"
+									style="object-fit: cover"
+									loading="lazy"
+								></div></a><!-- ID Badge --><span class="position-absolute top-0 start-0 badge bg-dark bg-opacity-75 fs-6 fw-normal rounded-0" style="border-bottom-right-radius: var(--bs-border-radius) !important;"> ID: 14700 </span><!-- Type badge --><span class="position-absolute bottom-0 start-0 badge bg-dark bg-opacity-75 fs-6 fw-normal rounded-0" style="border-top-right-radius: var(--bs-border-radius) !important;"><span class="bi bi-person-video me-1" aria-hidden="true"></span> Produced Video
+							</span></div><!-- Body --><div
+					id="card_details_page_14700_body"
+					class="card-body vstack gap-1 p-2"
+					style="height: 270px;"
+				><!-- Title --><h3
+								id="card_details_page_14700_body_title"
+								class="flex-shrink-0 mb-0 fs-5"
+							><a
+									href="/14700/"
+									title="Go to this page"
+									class="link-unstyled card-title overflow-hidden mb-0"
+									tabindex="-1"
+									style="display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2;"
+								>
+									NASA + The Smithsonian: Biodiversity
+								</a></h3><div class="hstack list-unstyled gap-2 hide-last-vr"><!-- Release date --><span class="card-text">
+						October 8, 2024
+						
+					</span><span class="vr"></span><!-- NASA Science categories --><a
+							href="/search/?nasa_science_categories=Earth"
+							class="link-primary"
+							tabindex="-1"
+							title="NASA Science Category: Earth"
+						><span class="bi bi-globe-americas" aria-hidden="true"></span></a><span class="vr"></span></div><div class="overflow-hidden"><p
+				id="card_details_page_14700_body_description"
+				class="text-clamp card-text mb-0"
+				style="display: -webkit-box; -webkit-box-orient: vertical;"
+			>
+				Biodiverse ecosystems need protection. Through fieldwork, coordination with local partners, and satellite observations, NASA and the Smithsonian are working hard to protect them. Using NASA Earth science satellite and other data, the Goodall Institute puts imagery and data into the hands of local communities to drive conservation efforts. The Scimitar-horned oryx went from extinct in the wild to endangered in the wild thanks to the Smithsonian’s work with partners to re-introduce the species.
+			</p></div><a
+						id="card_details_page_14700_body_link_button"
+						href="/14700/"
+						title="Go to this page"
+						class="flex-shrink-0 btn btn-outline-primary border-0 bg-transparent w-100 mt-auto py-0"
+						tabindex="-1"
+					>
+						Go to this page <span class="bi bi-chevron-right mx-2" aria-hidden="true"></span></a></div></li><!-- Card card_details_page_14606 --><li
+			id="card_details_page_14606"
+			class="card-gallery-card card flex-shrink-0 rounded overflow-hidden position-relative p-0 m-0 bg-gray-300"
+			style="width: 320px; max-width: 80vw; flex: none;"
+		><!-- Header --><div
+					id="card_details_page_14606_header"
+					class="position-relative"
+				><!-- Image topper --><a
+							href="/14606/"
+							title="Go to this page"
+							class="card-img-top bg-dark"
+						><div class="ratio ratio-16x9"><img
+									src="/vis/a010000/a014600/a014606/EIC_NASAandFire_Main_Image_4K.jpg"
+									alt="Full 8K resolution. Optimized for Earth Information Center display.
+
+Music credit: &quot;Magical Moments by Liam Joseph Hennessy [ PRS ]&quot; and “Strategy Meeting by Brice Davoli [ SACEM ]”  from Universal Production MusicThis video can be freely shared and downloaded at https://svs.gsfc.nasa.gov/14606. While the video in its entirety can be shared without permission, the music and some individual imagery may have been obtained through permission and may not be excised or remixed in other products. Specific details on such imagery may be found here: https://svs.gsfc.nasa.gov/14606. For more information on NASA’s media guidelines, visit https://nasa.gov/multimedia/guidelines."
+									style="object-fit: cover"
+									loading="lazy"
+								></div></a><!-- ID Badge --><span class="position-absolute top-0 start-0 badge bg-dark bg-opacity-75 fs-6 fw-normal rounded-0" style="border-bottom-right-radius: var(--bs-border-radius) !important;"> ID: 14606 </span><!-- Type badge --><span class="position-absolute bottom-0 start-0 badge bg-dark bg-opacity-75 fs-6 fw-normal rounded-0" style="border-top-right-radius: var(--bs-border-radius) !important;"><span class="bi bi-person-video me-1" aria-hidden="true"></span> Produced Video
+							</span></div><!-- Body --><div
+					id="card_details_page_14606_body"
+					class="card-body vstack gap-1 p-2"
+					style="height: 270px;"
+				><!-- Title --><h3
+								id="card_details_page_14606_body_title"
+								class="flex-shrink-0 mb-0 fs-5"
+							><a
+									href="/14606/"
+									title="Go to this page"
+									class="link-unstyled card-title overflow-hidden mb-0"
+									tabindex="-1"
+									style="display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2;"
+								>
+									NASA and Fire
+								</a></h3><div class="hstack list-unstyled gap-2 hide-last-vr"><!-- Release date --><span class="card-text">
+						July 29, 2024
+						
+							<br><small class="text-muted">(updated September 15, 2025 at 5:43 PM EDT)</small></span><span class="vr"></span><!-- NASA Science categories --><a
+							href="/search/?nasa_science_categories=Earth"
+							class="link-primary"
+							tabindex="-1"
+							title="NASA Science Category: Earth"
+						><span class="bi bi-globe-americas" aria-hidden="true"></span></a><span class="vr"></span></div><div class="overflow-hidden"><p
+				id="card_details_page_14606_body_description"
+				class="text-clamp card-text mb-0"
+				style="display: -webkit-box; -webkit-box-orient: vertical;"
+			>
+				Wildland fires, which are natural and essential for many ecosystems, have increased in frequency and size due to longer fire seasons, climate change, and the expanding interface between communities and wild vegetation. Using fire strategically—through prescribed burns and natural ignitions—can mitigate future severe fires that might burn more intensely under hotter, drier conditions.
+			</p></div><a
+						id="card_details_page_14606_body_link_button"
+						href="/14606/"
+						title="Go to this page"
+						class="flex-shrink-0 btn btn-outline-primary border-0 bg-transparent w-100 mt-auto py-0"
+						tabindex="-1"
+					>
+						Go to this page <span class="bi bi-chevron-right mx-2" aria-hidden="true"></span></a></div></li><!-- Card card_details_page_14696 --><li
+			id="card_details_page_14696"
+			class="card-gallery-card card flex-shrink-0 rounded overflow-hidden position-relative p-0 m-0 bg-gray-300"
+			style="width: 320px; max-width: 80vw; flex: none;"
+		><!-- Header --><div
+					id="card_details_page_14696_header"
+					class="position-relative"
+				><!-- Image topper --><a
+							href="/14696/"
+							title="Go to this page"
+							class="card-img-top bg-dark"
+						><div class="ratio ratio-16x9"><img
+									src="/vis/a010000/a014600/a014696/Smithsonian_GHG_searchweb.png"
+									alt="Full 8K resolution. Optimized for Earth Information Center display at the National Museum of Natural History (Smithsonian).Universal Production Music France: &quot;Human Endeavor&quot; by Oliver Grim, Koka Media; &quot;Accuracy&quot; by Laurent Levesque.Universal Production Music: &quot;Feelings of Pride&quot; by Kathryn Louise Maclennan, Label-Aurora Production Music.This video can be freely shared and downloaded. While the video in its entirety can be shared without permission, some individual imagery provided by Pond5, Shutterstock and Smithsonian is obtained through permission and may not be excised or remixed in other products. For more information on NASA’s media guidelines, visit https://www.nasa.gov/multimedia/guidelines/index.htmlComplete transcript available.Watch this video on the NASA Scientific Visualization Studio YouTube channel."
+									style="object-fit: cover"
+									loading="lazy"
+								></div></a><!-- ID Badge --><span class="position-absolute top-0 start-0 badge bg-dark bg-opacity-75 fs-6 fw-normal rounded-0" style="border-bottom-right-radius: var(--bs-border-radius) !important;"> ID: 14696 </span><!-- Type badge --><span class="position-absolute bottom-0 start-0 badge bg-dark bg-opacity-75 fs-6 fw-normal rounded-0" style="border-top-right-radius: var(--bs-border-radius) !important;"><span class="bi bi-person-video me-1" aria-hidden="true"></span> Produced Video
+							</span></div><!-- Body --><div
+					id="card_details_page_14696_body"
+					class="card-body vstack gap-1 p-2"
+					style="height: 270px;"
+				><!-- Title --><h3
+								id="card_details_page_14696_body_title"
+								class="flex-shrink-0 mb-0 fs-5"
+							><a
+									href="/14696/"
+									title="Go to this page"
+									class="link-unstyled card-title overflow-hidden mb-0"
+									tabindex="-1"
+									style="display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2;"
+								>
+									NASA + Smithsonian and Greenhouse Gases
+								</a></h3><div class="hstack list-unstyled gap-2 hide-last-vr"><!-- Release date --><span class="card-text">
+						October 8, 2024
+						
+					</span><span class="vr"></span><!-- NASA Science categories --><a
+							href="/search/?nasa_science_categories=Earth"
+							class="link-primary"
+							tabindex="-1"
+							title="NASA Science Category: Earth"
+						><span class="bi bi-globe-americas" aria-hidden="true"></span></a><span class="vr"></span></div><div class="overflow-hidden"><p
+				id="card_details_page_14696_body_description"
+				class="text-clamp card-text mb-0"
+				style="display: -webkit-box; -webkit-box-orient: vertical;"
+			>
+				Full 8K resolution. Optimized for Earth Information Center display at the National Museum of Natural History (Smithsonian).Universal Production Music France: "Human Endeavor" by Oliver Grim, Koka Media; "Accuracy" by Laurent Levesque.Universal Production Music: "Feelings of Pride" by Kathryn Louise Maclennan, Label-Aurora Production Music.This video can be freely shared and downloaded. While the video in its entirety can be shared without permission, some individual imagery provided by Pond5, Shutterstock and Smithsonian is obtained through permission and may not be excised or remixed in other products. For more information on NASA’s media guidelines, visit https://www.nasa.gov/multimedia/guidelines/index.htmlComplete transcript available.Watch this video on the NASA Scientific Visualization Studio YouTube channel. || Smithsonian_GHG.png (3825x1076) [2.8 MB] || Smithsonian_GHG_searchweb.png (320x180) [63.7 KB] || Smithsonian_GHG_thm.png (80x40) [6.2 KB] || GHG_Smithsonian.en_US.srt [5.8 KB] || GHG_Smithsonian.en_US.vtt [5.5 KB] || Smithsonian_GHG_v5_small.mp4 (7680x2160) [472.3 MB] || Smithsonian_GHG_v5_medium.mp4 (7680x2160) [859.9 MB] || Smithsonian_GHG_v5_h.264.mp4 (7680x2160) [4.5 GB] || 
+			</p></div><a
+						id="card_details_page_14696_body_link_button"
+						href="/14696/"
+						title="Go to this page"
+						class="flex-shrink-0 btn btn-outline-primary border-0 bg-transparent w-100 mt-auto py-0"
+						tabindex="-1"
+					>
+						Go to this page <span class="bi bi-chevron-right mx-2" aria-hidden="true"></span></a></div></li><!-- Card card_details_page_14568 --><li
+			id="card_details_page_14568"
+			class="card-gallery-card card flex-shrink-0 rounded overflow-hidden position-relative p-0 m-0 bg-gray-300"
+			style="width: 320px; max-width: 80vw; flex: none;"
+		><!-- Header --><div
+					id="card_details_page_14568_header"
+					class="position-relative"
+				><!-- Image topper --><a
+							href="/14568/"
+							title="Go to this page"
+							class="card-img-top bg-dark"
+						><div class="ratio ratio-16x9"><img
+									src="/vis/a010000/a014500/a014568/GHGMain_print.jpg"
+									alt="Full 8K resolution. Optimized for Earth Information Center display.Universal Production Music: &quot;Passing By&quot; by Miguel D&#x27;Oliveira, &quot;Simple Story&quot; by Fred Dubois, and &quot;Whispers of Hope&quot; by Sam Connelly, This video can be freely shared and downloaded. While the video in its entirety can be shared without permission, some individual imagery provided by Pond5 and The Raleigh Drone Company is obtained through permission and may not be excised or remixed in other products. For more information on NASA’s media guidelines, visit https://www.nasa.gov/multimedia/guidelines/index.html"
+									style="object-fit: cover"
+									loading="lazy"
+								></div></a><!-- ID Badge --><span class="position-absolute top-0 start-0 badge bg-dark bg-opacity-75 fs-6 fw-normal rounded-0" style="border-bottom-right-radius: var(--bs-border-radius) !important;"> ID: 14568 </span><!-- Type badge --><span class="position-absolute bottom-0 start-0 badge bg-dark bg-opacity-75 fs-6 fw-normal rounded-0" style="border-top-right-radius: var(--bs-border-radius) !important;"><span class="bi bi-person-video me-1" aria-hidden="true"></span> Produced Video
+							</span></div><!-- Body --><div
+					id="card_details_page_14568_body"
+					class="card-body vstack gap-1 p-2"
+					style="height: 270px;"
+				><!-- Title --><h3
+								id="card_details_page_14568_body_title"
+								class="flex-shrink-0 mb-0 fs-5"
+							><a
+									href="/14568/"
+									title="Go to this page"
+									class="link-unstyled card-title overflow-hidden mb-0"
+									tabindex="-1"
+									style="display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2;"
+								>
+									Tracking the Greenhouse Gas Methane, Earth Information Center Videos
+								</a></h3><div class="hstack list-unstyled gap-2 hide-last-vr"><!-- Release date --><span class="card-text">
+						April 18, 2024
+						
+					</span><span class="vr"></span><!-- NASA Science categories --><a
+							href="/search/?nasa_science_categories=Earth"
+							class="link-primary"
+							tabindex="-1"
+							title="NASA Science Category: Earth"
+						><span class="bi bi-globe-americas" aria-hidden="true"></span></a><span class="vr"></span></div><div class="overflow-hidden"><p
+				id="card_details_page_14568_body_description"
+				class="text-clamp card-text mb-0"
+				style="display: -webkit-box; -webkit-box-orient: vertical;"
+			>
+				Full 8K resolution. Optimized for Earth Information Center display.Universal Production Music: "Passing By" by Miguel D'Oliveira, "Simple Story" by Fred Dubois, and "Whispers of Hope" by Sam Connelly, This video can be freely shared and downloaded. While the video in its entirety can be shared without permission, some individual imagery provided by Pond5 and The Raleigh Drone Company is obtained through permission and may not be excised or remixed in other products. For more information on NASA’s media guidelines, visit https://www.nasa.gov/multimedia/guidelines/index.html || GHGMain.png (7680x2160) [5.4 MB] || GHGMain_print.jpg (1024x288) [68.0 KB] || GHGMain_searchweb.png (320x180) [64.0 KB] || GHGMain_thm.png (80x40) [6.8 KB] || GHG.en_US.srt [4.0 KB] || GHG.en_US.vtt [3.8 KB] || GHG_Main_7680x2160.mp4 (7680x2160) [586.6 MB] || GHG_Main.mp4 (7680x2160) [1.1 GB] || GHG_Main_h.264.mov (7680x2160) [1.1 GB] || 
+			</p></div><a
+						id="card_details_page_14568_body_link_button"
+						href="/14568/"
+						title="Go to this page"
+						class="flex-shrink-0 btn btn-outline-primary border-0 bg-transparent w-100 mt-auto py-0"
+						tabindex="-1"
+					>
+						Go to this page <span class="bi bi-chevron-right mx-2" aria-hidden="true"></span></a></div></li><!-- Card card_details_page_14507 --><li
+			id="card_details_page_14507"
+			class="card-gallery-card card flex-shrink-0 rounded overflow-hidden position-relative p-0 m-0 bg-gray-300"
+			style="width: 320px; max-width: 80vw; flex: none;"
+		><!-- Header --><div
+					id="card_details_page_14507_header"
+					class="position-relative"
+				><!-- Image topper --><a
+							href="/14507/"
+							title="Go to this page"
+							class="card-img-top bg-dark"
+						><div class="ratio ratio-16x9"><img
+									src="/vis/a010000/a014500/a014507/JGI_NASA_chmpanzees_final_web.00030_print.jpg"
+									alt="Full 8K resolution. Optimized for Earth Information Center display.This video can be freely shared and downloaded. While the video in its entirety can be shared without permission, some individual imagery provided by the Jane Goodall Institute (JGI) is obtained through permission and may not be excised or remixed in other products. For more information on NASA’s media guidelines, visit https://www.nasa.gov/multimedia/guidelines/index.htmlComplete transcript available."
+									style="object-fit: cover"
+									loading="lazy"
+								></div></a><!-- ID Badge --><span class="position-absolute top-0 start-0 badge bg-dark bg-opacity-75 fs-6 fw-normal rounded-0" style="border-bottom-right-radius: var(--bs-border-radius) !important;"> ID: 14507 </span><!-- Type badge --><span class="position-absolute bottom-0 start-0 badge bg-dark bg-opacity-75 fs-6 fw-normal rounded-0" style="border-top-right-radius: var(--bs-border-radius) !important;"><span class="bi bi-person-video me-1" aria-hidden="true"></span> Produced Video
+							</span></div><!-- Body --><div
+					id="card_details_page_14507_body"
+					class="card-body vstack gap-1 p-2"
+					style="height: 270px;"
+				><!-- Title --><h3
+								id="card_details_page_14507_body_title"
+								class="flex-shrink-0 mb-0 fs-5"
+							><a
+									href="/14507/"
+									title="Go to this page"
+									class="link-unstyled card-title overflow-hidden mb-0"
+									tabindex="-1"
+									style="display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2;"
+								>
+									NASA Joins the Jane Goodall Institute to Conserve Chimpanzee Habitat, Earth Information Center Videos
+								</a></h3><div class="hstack list-unstyled gap-2 hide-last-vr"><!-- Release date --><span class="card-text">
+						April 18, 2024
+						
+							<br><small class="text-muted">(updated September 16, 2025 at 9:59 AM EDT)</small></span><span class="vr"></span><!-- NASA Science categories --><a
+							href="/search/?nasa_science_categories=Earth"
+							class="link-primary"
+							tabindex="-1"
+							title="NASA Science Category: Earth"
+						><span class="bi bi-globe-americas" aria-hidden="true"></span></a><span class="vr"></span></div><div class="overflow-hidden"><p
+				id="card_details_page_14507_body_description"
+				class="text-clamp card-text mb-0"
+				style="display: -webkit-box; -webkit-box-orient: vertical;"
+			>
+				After years of forest loss, chimpanzee habitats are recovering. This is, in part, due to a collaboration between NASA and the Jane Goodall Institute (JGI). Using NASA Earth science satellite and other data, the Goodall Institute puts data into the hands of local communities to drive conservation across Africa’s equatorial forest belt.
+			</p></div><a
+						id="card_details_page_14507_body_link_button"
+						href="/14507/"
+						title="Go to this page"
+						class="flex-shrink-0 btn btn-outline-primary border-0 bg-transparent w-100 mt-auto py-0"
+						tabindex="-1"
+					>
+						Go to this page <span class="bi bi-chevron-right mx-2" aria-hidden="true"></span></a></div></li><!-- Card card_details_page_14713 --><li
+			id="card_details_page_14713"
+			class="card-gallery-card card flex-shrink-0 rounded overflow-hidden position-relative p-0 m-0 bg-gray-300"
+			style="width: 320px; max-width: 80vw; flex: none;"
+		><!-- Header --><div
+					id="card_details_page_14713_header"
+					class="position-relative"
+				><!-- Image topper --><a
+							href="/14713/"
+							title="Go to this page"
+							class="card-img-top bg-dark"
+						><div class="ratio ratio-16x9"><img
+									src="/vis/a010000/a014700/a014713/EIC_SeaLevelRise_2560x720.png"
+									alt=""
+									style="object-fit: cover"
+									loading="lazy"
+								></div></a><!-- ID Badge --><span class="position-absolute top-0 start-0 badge bg-dark bg-opacity-75 fs-6 fw-normal rounded-0" style="border-bottom-right-radius: var(--bs-border-radius) !important;"> ID: 14713 </span><!-- Type badge --><span class="position-absolute bottom-0 start-0 badge bg-dark bg-opacity-75 fs-6 fw-normal rounded-0" style="border-top-right-radius: var(--bs-border-radius) !important;"><span class="bi bi-person-video me-1" aria-hidden="true"></span> Produced Video
+							</span></div><!-- Body --><div
+					id="card_details_page_14713_body"
+					class="card-body vstack gap-1 p-2"
+					style="height: 270px;"
+				><!-- Title --><h3
+								id="card_details_page_14713_body_title"
+								class="flex-shrink-0 mb-0 fs-5"
+							><a
+									href="/14713/"
+									title="Go to this page"
+									class="link-unstyled card-title overflow-hidden mb-0"
+									tabindex="-1"
+									style="display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2;"
+								>
+									Building Coastal Resilience with NASA Data
+								</a></h3><div class="hstack list-unstyled gap-2 hide-last-vr"><!-- Release date --><span class="card-text">
+						January 7, 2025
+						
+							<br><small class="text-muted">(updated September 15, 2025 at 9:55 PM EDT)</small></span><span class="vr"></span><!-- NASA Science categories --><a
+							href="/search/?nasa_science_categories=Earth"
+							class="link-primary"
+							tabindex="-1"
+							title="NASA Science Category: Earth"
+						><span class="bi bi-globe-americas" aria-hidden="true"></span></a><span class="vr"></span></div><div class="overflow-hidden"><p
+				id="card_details_page_14713_body_description"
+				class="text-clamp card-text mb-0"
+				style="display: -webkit-box; -webkit-box-orient: vertical;"
+			>
+				The city of Mobile, AL is working with NASA’s Sea Level Change Team to plan for future infrastructure projects and to protect Mobile’s coastal resources. As sea levels change globally, coastal cities feel the effects of more frequent and more severe storms and flooding. NASA’s sea level change data helps Mobile and other coastal communities plan for a more resilient future.
+			</p></div><a
+						id="card_details_page_14713_body_link_button"
+						href="/14713/"
+						title="Go to this page"
+						class="flex-shrink-0 btn btn-outline-primary border-0 bg-transparent w-100 mt-auto py-0"
+						tabindex="-1"
+					>
+						Go to this page <span class="bi bi-chevron-right mx-2" aria-hidden="true"></span></a></div></li></ul></div></section>
+
+							
+						
+							
+								
+
+<section id="media_group_371618" ><!-- Title --><h2 class="fs-3">EIC Beauty Pieces</h2><div class="position-relative"><ul id="media_group_371618" class="gallery card-gallery gap-2 list-unstyled"><button
+						id="media_group_371618_scroll_left"
+						type="button"
+						class="gallery-scroll-left btn btn-dark border-0 px-0 h-100"
+						aria-hidden="true"
+						tabindex="-1"
+						style="display: none"
+					><span class="bi bi-chevron-compact-left fs-1 mx-0"></span></button><button
+						id="media_group_371618_scroll_right"
+						type="button"
+						class="gallery-scroll-right btn btn-dark border-0 px-0 h-100"
+						aria-hidden="true"
+						tabindex="-1"
+						style="display: none"
+					><span class="bi bi-chevron-compact-right fs-1 mx-0"></span></button><!-- Items --><!-- Card media_group_item_412538 --><li
+			id="media_group_item_412538"
+			class="card-gallery-card card flex-shrink-0 rounded overflow-hidden position-relative p-0 m-0 bg-gray-300"
+			style="width: 320px; max-width: 80vw; flex: none;"
+		><!-- Header --><div
+					id="media_group_item_412538_header"
+					class="position-relative"
+				><!-- Image topper --><a
+							href="/3912/#media_group_349716"
+							title="Go to this section"
+							class="card-img-top bg-dark"
+						><div class="ratio ratio-16x9"><img
+									src="/vis/a000000/a003900/a003912/flat_global_ecco2_2028x1024.25000_searchweb.png"
+									alt="This visualization shows sea surface current flows. The flows are colored by corresponding sea surface temperature data. This visualization is rendered for display on very high resolution devices like hyperwalls or for print media.This visualization was produced using model output from the joint MIT/JPL project entitled Estimating the Circulation and Climate of the Ocean, Phase II (ECCO2). ECCO2 uses the MIT general circulation model (MITgcm) to synthesize satellite and in-situ data of the global ocean and sea-ice at resolutions that begin to resolve ocean eddies and other narrow current systems, which transport heat and carbon in the oceans. The ECCO2 model simulates ocean flows at all depths, but only surface flows are used in this visualization."
+									style="object-fit: cover"
+									loading="lazy"
+								></div></a><!-- Type badge --><span class="position-absolute bottom-0 start-0 badge bg-dark bg-opacity-75 fs-6 fw-normal rounded-0" style="border-top-right-radius: var(--bs-border-radius) !important;"><span class="bi bi-view-list me-1"></span>Section</span></span></div><!-- Body --><div
+					id="media_group_item_412538_body"
+					class="card-body vstack gap-1 p-2"
+					style="height: 270px;"
+				><!-- Title --><h3
+								id="media_group_item_412538_body_title"
+								class="flex-shrink-0 mb-0 fs-5"
+							><a
+									href="/3912/#media_group_349716"
+									title="Go to this section"
+									class="link-unstyled card-title overflow-hidden mb-0"
+									tabindex="-1"
+									style="display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2;"
+								>
+									Global Sea Surface Currents and Temperature
+								</a></h3><!-- Description --><div class="overflow-hidden"><p
+									id="media_group_item_412538_body_description"
+									class="text-clamp position-relative overflow-hidden card-text"
+									style="display: -webkit-box; -webkit-box-orient: vertical;"
+								>
+									This visualization shows sea surface current flows. The flows are colored by corresponding sea surface temperature data. This visualization is rendered for display on very high resolution devices like hyperwalls or for print media.This visualization was produced using model output from the joint MIT/JPL project entitled <a class="link" href="http://ecco2.org/">Estimating the Circulation and Climate of the Ocean, Phase II (ECCO2)</a>. ECCO2 uses the MIT general circulation model (MITgcm) to synthesize satellite and in-situ data of the global ocean and sea-ice at resolutions that begin to resolve ocean eddies and other narrow current systems, which transport heat and carbon in the oceans. The ECCO2 model simulates ocean flows at all depths, but only surface flows are used in this visualization.
+								</p></div><a
+						id="media_group_item_412538_body_link_button"
+						href="/3912/#media_group_349716"
+						title="Go to this section"
+						class="flex-shrink-0 btn btn-outline-primary border-0 bg-transparent w-100 mt-auto py-0"
+						tabindex="-1"
+					>
+						Go to this section <span class="bi bi-chevron-right mx-2" aria-hidden="true"></span></a></div></li><!-- Card card_details_page_4950 --><li
+			id="card_details_page_4950"
+			class="card-gallery-card card flex-shrink-0 rounded overflow-hidden position-relative p-0 m-0 bg-gray-300"
+			style="width: 320px; max-width: 80vw; flex: none;"
+		><!-- Header --><div
+					id="card_details_page_4950_header"
+					class="position-relative"
+				><!-- Image topper --><a
+							href="/4950/"
+							title="Go to this page"
+							class="card-img-top bg-dark"
+						><div class="ratio ratio-16x9"><img
+									src="/vis/a000000/a004900/a004950/GEDI_global.0900_print.jpg"
+									alt="This visualization depicts a global view of forest height data collected by the GEDI instrument aboard the International Space Station.  Brown and dark green represent shorter vegetation.  Bright green and white represent taller vegetation.  This visualization uses data collected between April 2018 and April 2019. Height is exaggerated to depict variation at this scale. This version has no on screen color bar."
+									style="object-fit: cover"
+									loading="lazy"
+								></div></a><!-- ID Badge --><span class="position-absolute top-0 start-0 badge bg-dark bg-opacity-75 fs-6 fw-normal rounded-0" style="border-bottom-right-radius: var(--bs-border-radius) !important;"> ID: 4950 </span><!-- Type badge --><span class="position-absolute bottom-0 start-0 badge bg-dark bg-opacity-75 fs-6 fw-normal rounded-0" style="border-top-right-radius: var(--bs-border-radius) !important;"><span class="bi bi-pie-chart-fill me-1" aria-hidden="true"></span> Visualization
+							</span></div><!-- Body --><div
+					id="card_details_page_4950_body"
+					class="card-body vstack gap-1 p-2"
+					style="height: 270px;"
+				><!-- Title --><h3
+								id="card_details_page_4950_body_title"
+								class="flex-shrink-0 mb-0 fs-5"
+							><a
+									href="/4950/"
+									title="Go to this page"
+									class="link-unstyled card-title overflow-hidden mb-0"
+									tabindex="-1"
+									style="display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2;"
+								>
+									GEDI Forest Height
+								</a></h3><div class="hstack list-unstyled gap-2 hide-last-vr"><!-- Release date --><span class="card-text">
+						October 29, 2021
+						
+					</span><span class="vr"></span><!-- NASA Science categories --><a
+							href="/search/?nasa_science_categories=Earth"
+							class="link-primary"
+							tabindex="-1"
+							title="NASA Science Category: Earth"
+						><span class="bi bi-globe-americas" aria-hidden="true"></span></a><span class="vr"></span></div><div class="overflow-hidden"><p
+				id="card_details_page_4950_body_description"
+				class="text-clamp card-text mb-0"
+				style="display: -webkit-box; -webkit-box-orient: vertical;"
+			>
+				This visualization depicts a global view of forest height data collected by the GEDI instrument aboard the International Space Station.  Brown and dark green represent shorter vegetation.  Bright green and white represent taller vegetation.  This visualization uses data collected between April 2019 and April 2020. Height is exaggerated to depict variation at this scale.Coming soon to our YouTube channel. || GEDI_global_w_colorbar_0900_print.jpg (1024x576) [83.4 KB] || GEDI_global_w_colorbar_0900_searchweb.png (320x180) [42.8 KB] || GEDI_global_w_colorbar_0900_thm.png (80x40) [4.0 KB] || GEDI_global_w_colorbar_1080p60.mp4 (1920x1080) [17.7 MB] || GEDI_global_w_colorbar_1080p60.webm (1920x1080) [6.0 MB] || GEDI_global_w_colorbar (3840x2160) [0 Item(s)] || GEDI_global_w_colorbar_2160p30.mp4 (3840x2160) [61.5 MB] || GEDI_global_w_colorbar_2160p60.mp4 (3840x2160) [65.5 MB] || captions_silent.31845.en_US.srt [43 bytes] || 
+			</p></div><a
+						id="card_details_page_4950_body_link_button"
+						href="/4950/"
+						title="Go to this page"
+						class="flex-shrink-0 btn btn-outline-primary border-0 bg-transparent w-100 mt-auto py-0"
+						tabindex="-1"
+					>
+						Go to this page <span class="bi bi-chevron-right mx-2" aria-hidden="true"></span></a></div></li><!-- Card card_details_page_4993 --><li
+			id="card_details_page_4993"
+			class="card-gallery-card card flex-shrink-0 rounded overflow-hidden position-relative p-0 m-0 bg-gray-300"
+			style="width: 320px; max-width: 80vw; flex: none;"
+		><!-- Header --><div
+					id="card_details_page_4993_header"
+					class="position-relative"
+				><!-- Image topper --><a
+							href="/4993/"
+							title="Go to this page"
+							class="card-img-top bg-dark"
+						><div class="ratio ratio-16x9"><img
+									src="/vis/a000000/a004900/a004993/Dixie_fire_2021.7135_print.jpg"
+									alt="This image shows the spread of the Dixie fire between July 14 and October 22, 2021, with the fire line for each 12-hour step in time shown in a different color."
+									style="object-fit: cover"
+									loading="lazy"
+								></div></a><!-- ID Badge --><span class="position-absolute top-0 start-0 badge bg-dark bg-opacity-75 fs-6 fw-normal rounded-0" style="border-bottom-right-radius: var(--bs-border-radius) !important;"> ID: 4993 </span><!-- Type badge --><span class="position-absolute bottom-0 start-0 badge bg-dark bg-opacity-75 fs-6 fw-normal rounded-0" style="border-top-right-radius: var(--bs-border-radius) !important;"><span class="bi bi-pie-chart-fill me-1" aria-hidden="true"></span> Visualization
+							</span></div><!-- Body --><div
+					id="card_details_page_4993_body"
+					class="card-body vstack gap-1 p-2"
+					style="height: 270px;"
+				><!-- Title --><h3
+								id="card_details_page_4993_body_title"
+								class="flex-shrink-0 mb-0 fs-5"
+							><a
+									href="/4993/"
+									title="Go to this page"
+									class="link-unstyled card-title overflow-hidden mb-0"
+									tabindex="-1"
+									style="display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2;"
+								>
+									Spread of the Dixie Fire - 2021
+								</a></h3><div class="hstack list-unstyled gap-2 hide-last-vr"><!-- Release date --><span class="card-text">
+						June 1, 2022
+						
+					</span><span class="vr"></span><!-- NASA Science categories --><a
+							href="/search/?nasa_science_categories=Earth"
+							class="link-primary"
+							tabindex="-1"
+							title="NASA Science Category: Earth"
+						><span class="bi bi-globe-americas" aria-hidden="true"></span></a><span class="vr"></span></div><div class="overflow-hidden"><p
+				id="card_details_page_4993_body_description"
+				class="text-clamp card-text mb-0"
+				style="display: -webkit-box; -webkit-box-orient: vertical;"
+			>
+				This visualization shows the spread of the Dixie fire between July 14 and October 22, 2021, updated every 12 hours based on new satellite active fire detections. The yellow outlines track the position of the active fire lines for the last 60 hours, with the latest location of the fire front in the brightest shade of yellow. The red points show the location of active fire detections, while the grey region shows the estimated total area burned. The graph shows the cumulative burned area in square kilometers.Coming soon to our YouTube channel. || Dixie_fire_2021.7135_print.jpg (1024x576) [369.5 KB] || Dixie_fire_2021.7135_searchweb.png (320x180) [139.8 KB] || Dixie_fire_2021.7135_thm.png (80x40) [8.3 KB] || Dixie_fire_2021_p30_1080p30.mp4 (1920x1080) [172.9 MB] || Dixie_fire_2021_1080p60.mp4 (1920x1080) [190.8 MB] || 3840x2160_16x9_60p (3840x2160) [0 Item(s)] || captions_silent.32827.en_US.srt [43 bytes] || Dixie_fire_2021_p30_2160p30.mp4 (3840x2160) [477.6 MB] || Dixie_fire_2021_2160p60.mp4 (3840x2160) [513.8 MB] || Dixie_fire_2021_p30_1080p30.mp4.hwshow || Dixie_fire_animation_only_2021_1080p60.hwshow || 
+			</p></div><a
+						id="card_details_page_4993_body_link_button"
+						href="/4993/"
+						title="Go to this page"
+						class="flex-shrink-0 btn btn-outline-primary border-0 bg-transparent w-100 mt-auto py-0"
+						tabindex="-1"
+					>
+						Go to this page <span class="bi bi-chevron-right mx-2" aria-hidden="true"></span></a></div></li><!-- Card card_details_page_4960 --><li
+			id="card_details_page_4960"
+			class="card-gallery-card card flex-shrink-0 rounded overflow-hidden position-relative p-0 m-0 bg-gray-300"
+			style="width: 320px; max-width: 80vw; flex: none;"
+		><!-- Header --><div
+					id="card_details_page_4960_header"
+					class="position-relative"
+				><!-- Image topper --><a
+							href="/4960/"
+							title="Go to this page"
+							class="card-img-top bg-dark"
+						><div class="ratio ratio-16x9"><img
+									src="/vis/a000000/a004900/a004960/atmos_rivers_narrated_4k.00090_print.jpg"
+									alt="Narrated atmospheric rivers movieComing soon to our YouTube channel."
+									style="object-fit: cover"
+									loading="lazy"
+								></div></a><!-- ID Badge --><span class="position-absolute top-0 start-0 badge bg-dark bg-opacity-75 fs-6 fw-normal rounded-0" style="border-bottom-right-radius: var(--bs-border-radius) !important;"> ID: 4960 </span><!-- Type badge --><span class="position-absolute bottom-0 start-0 badge bg-dark bg-opacity-75 fs-6 fw-normal rounded-0" style="border-top-right-radius: var(--bs-border-radius) !important;"><span class="bi bi-pie-chart-fill me-1" aria-hidden="true"></span> Visualization
+							</span></div><!-- Body --><div
+					id="card_details_page_4960_body"
+					class="card-body vstack gap-1 p-2"
+					style="height: 270px;"
+				><!-- Title --><h3
+								id="card_details_page_4960_body_title"
+								class="flex-shrink-0 mb-0 fs-5"
+							><a
+									href="/4960/"
+									title="Go to this page"
+									class="link-unstyled card-title overflow-hidden mb-0"
+									tabindex="-1"
+									style="display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2;"
+								>
+									A 3D View of an Atmospheric River from an Earth System Model
+								</a></h3><div class="hstack list-unstyled gap-2 hide-last-vr"><!-- Release date --><span class="card-text">
+						January 25, 2022
+						
+					</span><span class="vr"></span><!-- NASA Science categories --><a
+							href="/search/?nasa_science_categories=Earth"
+							class="link-primary"
+							tabindex="-1"
+							title="NASA Science Category: Earth"
+						><span class="bi bi-globe-americas" aria-hidden="true"></span></a><span class="vr"></span></div><div class="overflow-hidden"><p
+				id="card_details_page_4960_body_description"
+				class="text-clamp card-text mb-0"
+				style="display: -webkit-box; -webkit-box-orient: vertical;"
+			>
+				Narrated atmospheric rivers movie. || atmos_rivers_narrated_4k.00090_print.jpg (1024x576) [88.5 KB] || atmos_rivers_narrated_4k.00090_print_searchweb.png (320x180) [46.0 KB] || atmos_rivers_narrated_HD.webm (1920x1080) [68.6 MB] || atmos_rivers_narrated_HD.mp4 (1920x1080) [410.9 MB] || atmos_river_narrated_4k.en_US.srt [6.3 KB] || atmos_river_narrated_4k.en_US.vtt [6.3 KB] || atmos_rivers_4k.en_US.vtt [6.3 KB] || atmos_rivers_narrated_4k.mp4 (3840x2160) [646.9 MB] ||
+			</p></div><a
+						id="card_details_page_4960_body_link_button"
+						href="/4960/"
+						title="Go to this page"
+						class="flex-shrink-0 btn btn-outline-primary border-0 bg-transparent w-100 mt-auto py-0"
+						tabindex="-1"
+					>
+						Go to this page <span class="bi bi-chevron-right mx-2" aria-hidden="true"></span></a></div></li><!-- Card card_details_page_5011 --><li
+			id="card_details_page_5011"
+			class="card-gallery-card card flex-shrink-0 rounded overflow-hidden position-relative p-0 m-0 bg-gray-300"
+			style="width: 320px; max-width: 80vw; flex: none;"
+		><!-- Header --><div
+					id="card_details_page_5011_header"
+					class="position-relative"
+				><!-- Image topper --><a
+							href="/5011/"
+							title="Go to this page"
+							class="card-img-top bg-dark"
+						><div class="ratio ratio-16x9"><img
+									src="/vis/a000000/a005000/a005011/iss_lightning_preview.jpg"
+									alt="Lightning events detected by the LIS sensor on the ISS between January 2017 and July 2023 using a 10-day roving window. Data is from the quality controlled science dataset. Available resolution in the download menu are 1920x1080, 3840x2160 (4k), and 7680x2160 (created for EIC display)."
+									style="object-fit: cover"
+									loading="lazy"
+								></div></a><!-- ID Badge --><span class="position-absolute top-0 start-0 badge bg-dark bg-opacity-75 fs-6 fw-normal rounded-0" style="border-bottom-right-radius: var(--bs-border-radius) !important;"> ID: 5011 </span><!-- Type badge --><span class="position-absolute bottom-0 start-0 badge bg-dark bg-opacity-75 fs-6 fw-normal rounded-0" style="border-top-right-radius: var(--bs-border-radius) !important;"><span class="bi bi-pie-chart-fill me-1" aria-hidden="true"></span> Visualization
+							</span></div><!-- Body --><div
+					id="card_details_page_5011_body"
+					class="card-body vstack gap-1 p-2"
+					style="height: 270px;"
+				><!-- Title --><h3
+								id="card_details_page_5011_body_title"
+								class="flex-shrink-0 mb-0 fs-5"
+							><a
+									href="/5011/"
+									title="Go to this page"
+									class="link-unstyled card-title overflow-hidden mb-0"
+									tabindex="-1"
+									style="display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2;"
+								>
+									Lightning Events Detected from the International Space Station (ISS) 2017-2023
+								</a></h3><div class="hstack list-unstyled gap-2 hide-last-vr"><!-- Release date --><span class="card-text">
+						October 19, 2023
+						
+					</span><span class="vr"></span><!-- NASA Science categories --><a
+							href="/search/?nasa_science_categories=Earth"
+							class="link-primary"
+							tabindex="-1"
+							title="NASA Science Category: Earth"
+						><span class="bi bi-globe-americas" aria-hidden="true"></span></a><span class="vr"></span></div><div class="overflow-hidden"><p
+				id="card_details_page_5011_body_description"
+				class="text-clamp card-text mb-0"
+				style="display: -webkit-box; -webkit-box-orient: vertical;"
+			>
+				Lightning events detected by the LIS sensor on the ISS between January 2017 and July 2023 using a 10-day roving window. Data is from the quality controlled science dataset. Available resolution in the download menu are 1920x1080, 3840x2160 (4k), and 7680x2160 (created for EIC display). || iss_lightning_preview.jpg (1024x576) [260.7 KB] || iss_lightning_preview_searchweb.png (320x180) [59.3 KB] || iss_lightning_preview_thm.png (80x40) [4.9 KB] || iss_lightning_sphere_07312023.mp4 (1920x1080) [127.0 MB] || iss_lightning_sphere_07312023_60p4k.mp4 (3840x2160) [414.2 MB] || iss_lightning_eic_display_2160p30_h2652.mp4 (7680x2160) [579.9 MB] || iss_lightning_sphere_07312023.mp4.hwshow || 
+			</p></div><a
+						id="card_details_page_5011_body_link_button"
+						href="/5011/"
+						title="Go to this page"
+						class="flex-shrink-0 btn btn-outline-primary border-0 bg-transparent w-100 mt-auto py-0"
+						tabindex="-1"
+					>
+						Go to this page <span class="bi bi-chevron-right mx-2" aria-hidden="true"></span></a></div></li><!-- Card card_details_page_5313 --><li
+			id="card_details_page_5313"
+			class="card-gallery-card card flex-shrink-0 rounded overflow-hidden position-relative p-0 m-0 bg-gray-300"
+			style="width: 320px; max-width: 80vw; flex: none;"
+		><!-- Header --><div
+					id="card_details_page_5313_header"
+					class="position-relative"
+				><!-- Image topper --><a
+							href="/5313/"
+							title="Go to this page"
+							class="card-img-top bg-dark"
+						><div class="ratio ratio-16x9"><img
+									src="/vis/a000000/a005300/a005313/nightlights_flat_series_and_change_wZooms_13_EIC.02599_print.jpg"
+									alt="This global, flat map view of night lights data begins with a time series depicting annual averages from 2012 to 2023. The lights then fade away to reveal night lights change between 2012 and 2023, with regions of more light depicted in purple and regions with less light depicted in orange. The sequence then repeats with pop-out, zoomed-in views of India, Ukraine, Western Europe, and the Eastern Mediterranean region."
+									style="object-fit: cover"
+									loading="lazy"
+								></div></a><!-- ID Badge --><span class="position-absolute top-0 start-0 badge bg-dark bg-opacity-75 fs-6 fw-normal rounded-0" style="border-bottom-right-radius: var(--bs-border-radius) !important;"> ID: 5313 </span><!-- Type badge --><span class="position-absolute bottom-0 start-0 badge bg-dark bg-opacity-75 fs-6 fw-normal rounded-0" style="border-top-right-radius: var(--bs-border-radius) !important;"><span class="bi bi-pie-chart-fill me-1" aria-hidden="true"></span> Visualization
+							</span></div><!-- Body --><div
+					id="card_details_page_5313_body"
+					class="card-body vstack gap-1 p-2"
+					style="height: 270px;"
+				><!-- Title --><h3
+								id="card_details_page_5313_body_title"
+								class="flex-shrink-0 mb-0 fs-5"
+							><a
+									href="/5313/"
+									title="Go to this page"
+									class="link-unstyled card-title overflow-hidden mb-0"
+									tabindex="-1"
+									style="display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2;"
+								>
+									Change in Night Lights between 2012 and 2023 - EIC Version
+								</a></h3><div class="hstack list-unstyled gap-2 hide-last-vr"><!-- Release date --><span class="card-text">
+						June 14, 2024
+						
+					</span><span class="vr"></span><!-- NASA Science categories --><a
+							href="/search/?nasa_science_categories=Earth"
+							class="link-primary"
+							tabindex="-1"
+							title="NASA Science Category: Earth"
+						><span class="bi bi-globe-americas" aria-hidden="true"></span></a><span class="vr"></span></div><div class="overflow-hidden"><p
+				id="card_details_page_5313_body_description"
+				class="text-clamp card-text mb-0"
+				style="display: -webkit-box; -webkit-box-orient: vertical;"
+			>
+				This global, flat map view of night lights data begins with a time series depicting annual averages from 2012 to 2023. The lights then fade away to reveal night lights change between 2012 and 2023, with regions of more light depicted in purple and regions with less light depicted in orange. The sequence then repeats with pop-out, zoomed-in views of India, Ukraine, Western Europe, and the Eastern Mediterranean region. || nightlights_flat_series_and_change_wZooms_13_EIC.02599_print.jpg (1024x288) [62.0 KB] || nightlights_flat_series_and_change_wZooms_13_EIC.02599_searchweb.png (320x180) [49.9 KB] || nightlights_flat_series_and_change_wZooms_13_EIC.02599_thm.png (80x40) [4.6 KB] || nightlights_2012-2023_change_flat_eic [0 Item(s)] || nightlights_flat_series_and_change_wZooms_13_EIC_2160p30_h265.mp4 (7680x2160) [32.7 MB] || nightlights_flat_series_and_change_wZooms_13_EIC_prores.mov (7680x2160) [4.0 GB] || 
+			</p></div><a
+						id="card_details_page_5313_body_link_button"
+						href="/5313/"
+						title="Go to this page"
+						class="flex-shrink-0 btn btn-outline-primary border-0 bg-transparent w-100 mt-auto py-0"
+						tabindex="-1"
+					>
+						Go to this page <span class="bi bi-chevron-right mx-2" aria-hidden="true"></span></a></div></li><!-- Card card_details_page_5196 --><li
+			id="card_details_page_5196"
+			class="card-gallery-card card flex-shrink-0 rounded overflow-hidden position-relative p-0 m-0 bg-gray-300"
+			style="width: 320px; max-width: 80vw; flex: none;"
+		><!-- Header --><div
+					id="card_details_page_5196_header"
+					class="position-relative"
+				><!-- Image topper --><a
+							href="/5196/"
+							title="Go to this page"
+							class="card-img-top bg-dark"
+						><div class="ratio ratio-16x9"><img
+									src="/vis/a000000/a005100/a005196/dyamondPointCloud_12-1-2023b_dyamond_co2_anim_globe_orbit_3x3Hyperwall.00200_print.jpg"
+									alt="Global CO2 ppm for January-March of 2020. This camera move orbits the Earth from a distance."
+									style="object-fit: cover"
+									loading="lazy"
+								></div></a><!-- ID Badge --><span class="position-absolute top-0 start-0 badge bg-dark bg-opacity-75 fs-6 fw-normal rounded-0" style="border-bottom-right-radius: var(--bs-border-radius) !important;"> ID: 5196 </span><!-- Type badge --><span class="position-absolute bottom-0 start-0 badge bg-dark bg-opacity-75 fs-6 fw-normal rounded-0" style="border-top-right-radius: var(--bs-border-radius) !important;"><span class="bi bi-pie-chart-fill me-1" aria-hidden="true"></span> Visualization
+							</span></div><!-- Body --><div
+					id="card_details_page_5196_body"
+					class="card-body vstack gap-1 p-2"
+					style="height: 270px;"
+				><!-- Title --><h3
+								id="card_details_page_5196_body_title"
+								class="flex-shrink-0 mb-0 fs-5"
+							><a
+									href="/5196/"
+									title="Go to this page"
+									class="link-unstyled card-title overflow-hidden mb-0"
+									tabindex="-1"
+									style="display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2;"
+								>
+									DYAMOND Global Carbon Dioxide
+								</a></h3><div class="hstack list-unstyled gap-2 hide-last-vr"><!-- Release date --><span class="card-text">
+						July 22, 2024
+						
+					</span><span class="vr"></span><!-- NASA Science categories --><a
+							href="/search/?nasa_science_categories=Earth"
+							class="link-primary"
+							tabindex="-1"
+							title="NASA Science Category: Earth"
+						><span class="bi bi-globe-americas" aria-hidden="true"></span></a><span class="vr"></span></div><div class="overflow-hidden"><p
+				id="card_details_page_5196_body_description"
+				class="text-clamp card-text mb-0"
+				style="display: -webkit-box; -webkit-box-orient: vertical;"
+			>
+				Global CO2 ppm for January-March of 2020. This camera move orbits the Earth from a distance. || dyamondPointCloud_12-1-2023b_dyamond_co2_anim_globe_orbit_3x3Hyperwall.00200_print.jpg (1024x576) [46.2 KB] || dyamondPointCloud_12-1-2023b_dyamond_co2_anim_globe_orbit_3x3Hyperwall.00200_searchweb.png (320x180) [31.3 KB] || dyamondPointCloud_12-1-2023b_dyamond_co2_anim_globe_orbit_3x3Hyperwall.00200_web.png (320x180) [31.3 KB] || dyamondPointCloud_12-1-2023b_dyamond_co2_anim_globe_orbit_3x3Hyperwall.00200_thm.png (80x40) [3.0 KB] || dyamondPointCloud_12-1-2023b_dyamond_co2_anim_globe_orbit_1080p30_h265.mp4 (1920x1080) [6.9 MB] || dyamondPointCloud_12-1-2023b_dyamond_co2_anim_globe_orbit_3x3Hyperwall (5760x3240) [0 Item(s)] || dyamondPointCloud_12-1-2023b_dyamond_co2_anim_globe_orbit_2160p30.mp4 (3840x2160) [68.4 MB] || 
+			</p></div><a
+						id="card_details_page_5196_body_link_button"
+						href="/5196/"
+						title="Go to this page"
+						class="flex-shrink-0 btn btn-outline-primary border-0 bg-transparent w-100 mt-auto py-0"
+						tabindex="-1"
+					>
+						Go to this page <span class="bi bi-chevron-right mx-2" aria-hidden="true"></span></a></div></li><!-- Card card_details_page_5425 --><li
+			id="card_details_page_5425"
+			class="card-gallery-card card flex-shrink-0 rounded overflow-hidden position-relative p-0 m-0 bg-gray-300"
+			style="width: 320px; max-width: 80vw; flex: none;"
+		><!-- Header --><div
+					id="card_details_page_5425_header"
+					class="position-relative"
+				><!-- Image topper --><a
+							href="/5425/"
+							title="Go to this page"
+							class="card-img-top bg-dark"
+						><div class="ratio ratio-16x9"><img
+									src="/vis/a000000/a005400/a005425/perpetual_ocean2_CLOSE_093_4k_clean_noDate.00000_print.jpg"
+									alt="This is the &#x27;beauty shot version&#x27; of Perpetual Ocean 2: Western Boundary Currents.  The visualization starts with a rotating globe showing ocean currents.  The camera then zooms into the Kuroshio current, moves over the Indian Ocean to the Agulhas Current, then over to the Gulf Stream.The colors used to color the flow in this version where chosen to provide a pleasing look.  The flows from the surface down to 600 meters deep are all white.   Flows below 600 meters depth use the blue-cyan-white color table below."
+									style="object-fit: cover"
+									loading="lazy"
+								></div></a><!-- ID Badge --><span class="position-absolute top-0 start-0 badge bg-dark bg-opacity-75 fs-6 fw-normal rounded-0" style="border-bottom-right-radius: var(--bs-border-radius) !important;"> ID: 5425 </span><!-- Type badge --><span class="position-absolute bottom-0 start-0 badge bg-dark bg-opacity-75 fs-6 fw-normal rounded-0" style="border-top-right-radius: var(--bs-border-radius) !important;"><span class="bi bi-pie-chart-fill me-1" aria-hidden="true"></span> Visualization
+							</span></div><!-- Body --><div
+					id="card_details_page_5425_body"
+					class="card-body vstack gap-1 p-2"
+					style="height: 270px;"
+				><!-- Title --><h3
+								id="card_details_page_5425_body_title"
+								class="flex-shrink-0 mb-0 fs-5"
+							><a
+									href="/5425/"
+									title="Go to this page"
+									class="link-unstyled card-title overflow-hidden mb-0"
+									tabindex="-1"
+									style="display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2;"
+								>
+									Perpetual Ocean 2: Western Boundary Currents
+								</a></h3><div class="hstack list-unstyled gap-2 hide-last-vr"><!-- Release date --><span class="card-text">
+						February 27, 2025
+						
+					</span><span class="vr"></span><!-- NASA Science categories --><a
+							href="/search/?nasa_science_categories=Earth"
+							class="link-primary"
+							tabindex="-1"
+							title="NASA Science Category: Earth"
+						><span class="bi bi-globe-americas" aria-hidden="true"></span></a><span class="vr"></span></div><div class="overflow-hidden"><p
+				id="card_details_page_5425_body_description"
+				class="text-clamp card-text mb-0"
+				style="display: -webkit-box; -webkit-box-orient: vertical;"
+			>
+				This is the 'beauty shot version' of Perpetual Ocean 2: Western Boundary Currents.  The visualization starts with a rotating globe showing ocean currents.  The camera then zooms into the Kuroshio current, moves over the Indian Ocean to the Agulhas Current, then over to the Gulf Stream. The flows from the surface down to 600 meters deep are all white.   Flows below 600 meters depth use the blue-cyan-white color table below.
+			</p></div><a
+						id="card_details_page_5425_body_link_button"
+						href="/5425/"
+						title="Go to this page"
+						class="flex-shrink-0 btn btn-outline-primary border-0 bg-transparent w-100 mt-auto py-0"
+						tabindex="-1"
+					>
+						Go to this page <span class="bi bi-chevron-right mx-2" aria-hidden="true"></span></a></div></li><!-- Card card_details_page_5533 --><li
+			id="card_details_page_5533"
+			class="card-gallery-card card flex-shrink-0 rounded overflow-hidden position-relative p-0 m-0 bg-gray-300"
+			style="width: 320px; max-width: 80vw; flex: none;"
+		><!-- Header --><div
+					id="card_details_page_5533_header"
+					class="position-relative"
+				><!-- Image topper --><a
+							href="/5533/"
+							title="Go to this page"
+							class="card-img-top bg-dark"
+						><div class="ratio ratio-16x9"><img
+									src="/vis/a000000/a005500/a005533/AirQuality_Sphere_1920x1080_0000.png"
+									alt=""
+									style="object-fit: cover"
+									loading="lazy"
+								></div></a><!-- ID Badge --><span class="position-absolute top-0 start-0 badge bg-dark bg-opacity-75 fs-6 fw-normal rounded-0" style="border-bottom-right-radius: var(--bs-border-radius) !important;"> ID: 5533 </span><!-- Type badge --><span class="position-absolute bottom-0 start-0 badge bg-dark bg-opacity-75 fs-6 fw-normal rounded-0" style="border-top-right-radius: var(--bs-border-radius) !important;"><span class="bi bi-pie-chart-fill me-1" aria-hidden="true"></span> Visualization
+							</span></div><!-- Body --><div
+					id="card_details_page_5533_body"
+					class="card-body vstack gap-1 p-2"
+					style="height: 270px;"
+				><!-- Title --><h3
+								id="card_details_page_5533_body_title"
+								class="flex-shrink-0 mb-0 fs-5"
+							><a
+									href="/5533/"
+									title="Go to this page"
+									class="link-unstyled card-title overflow-hidden mb-0"
+									tabindex="-1"
+									style="display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2;"
+								>
+									Air Quality Model Runs
+								</a></h3><div class="hstack list-unstyled gap-2 hide-last-vr"><!-- Release date --><span class="card-text">
+						May 5, 2025
+						
+					</span><span class="vr"></span><!-- NASA Science categories --><a
+							href="/search/?nasa_science_categories=Earth"
+							class="link-primary"
+							tabindex="-1"
+							title="NASA Science Category: Earth"
+						><span class="bi bi-globe-americas" aria-hidden="true"></span></a><span class="vr"></span></div><div class="overflow-hidden"><p
+				id="card_details_page_5533_body_description"
+				class="text-clamp card-text mb-0"
+				style="display: -webkit-box; -webkit-box-orient: vertical;"
+			>
+				NASA utilizes satellite instruments and models to monitor sources of air pollutants and their movement through the atmosphere. This visualization shows concentrations of air pollutants, such as Particulate Matter (PM2.5, fine particles smaller than 2.5 micrometers), Ozone (O<sub>3</sub>), Carbon Monoxide (CO), and Nitrogen Oxides (NO<sub>x</sub>) as they are tracked from NASA's Goddard Earth Observing System Composition Forecasting (GEOS-CF) system.
+			</p></div><a
+						id="card_details_page_5533_body_link_button"
+						href="/5533/"
+						title="Go to this page"
+						class="flex-shrink-0 btn btn-outline-primary border-0 bg-transparent w-100 mt-auto py-0"
+						tabindex="-1"
+					>
+						Go to this page <span class="bi bi-chevron-right mx-2" aria-hidden="true"></span></a></div></li></ul></div></section>
+
+							
+						
+							
+								
+
+<section id="media_group_371619" ><!-- Title --><h2 class="fs-3">Media Resources</h2><div class="position-relative"><ul id="media_group_371619" class="gallery card-gallery gap-2 list-unstyled"><button
+						id="media_group_371619_scroll_left"
+						type="button"
+						class="gallery-scroll-left btn btn-dark border-0 px-0 h-100"
+						aria-hidden="true"
+						tabindex="-1"
+						style="display: none"
+					><span class="bi bi-chevron-compact-left fs-1 mx-0"></span></button><button
+						id="media_group_371619_scroll_right"
+						type="button"
+						class="gallery-scroll-right btn btn-dark border-0 px-0 h-100"
+						aria-hidden="true"
+						tabindex="-1"
+						style="display: none"
+					><span class="bi bi-chevron-compact-right fs-1 mx-0"></span></button><!-- Items --><!-- Card card_details_page_14371 --><li
+			id="card_details_page_14371"
+			class="card-gallery-card card flex-shrink-0 rounded overflow-hidden position-relative p-0 m-0 bg-gray-300"
+			style="width: 320px; max-width: 80vw; flex: none;"
+		><!-- Header --><div
+					id="card_details_page_14371_header"
+					class="position-relative"
+				><!-- Image topper --><a
+							href="/14371/"
+							title="Go to this page"
+							class="card-img-top bg-dark"
+						><div class="ratio ratio-16x9"><img
+									src="/vis/a010000/a014300/a014371/Thumbnail2-3_print.jpg"
+									alt="Earth Information Center media resource reel (10Mbps). Audio. TRT 13:06Includes footage of NASA worm logo exterior, Eyes on Earth display, hyperwall, Earth Pulse, and the immersive experience room."
+									style="object-fit: cover"
+									loading="lazy"
+								></div></a><!-- ID Badge --><span class="position-absolute top-0 start-0 badge bg-dark bg-opacity-75 fs-6 fw-normal rounded-0" style="border-bottom-right-radius: var(--bs-border-radius) !important;"> ID: 14371 </span><!-- Type badge --><span class="position-absolute bottom-0 start-0 badge bg-dark bg-opacity-75 fs-6 fw-normal rounded-0" style="border-top-right-radius: var(--bs-border-radius) !important;"><span class="bi bi-camera-reels-fill me-1" aria-hidden="true"></span> B-Roll
+							</span></div><!-- Body --><div
+					id="card_details_page_14371_body"
+					class="card-body vstack gap-1 p-2"
+					style="height: 270px;"
+				><!-- Title --><h3
+								id="card_details_page_14371_body_title"
+								class="flex-shrink-0 mb-0 fs-5"
+							><a
+									href="/14371/"
+									title="Go to this page"
+									class="link-unstyled card-title overflow-hidden mb-0"
+									tabindex="-1"
+									style="display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2;"
+								>
+									Earth Information Center Media B-Roll
+								</a></h3><div class="hstack list-unstyled gap-2 hide-last-vr"><!-- Release date --><span class="card-text">
+						June 21, 2023
+						
+					</span><span class="vr"></span><!-- NASA Science categories --><a
+							href="/search/?nasa_science_categories=Earth"
+							class="link-primary"
+							tabindex="-1"
+							title="NASA Science Category: Earth"
+						><span class="bi bi-globe-americas" aria-hidden="true"></span></a><span class="vr"></span></div><div class="overflow-hidden"><p
+				id="card_details_page_14371_body_description"
+				class="text-clamp card-text mb-0"
+				style="display: -webkit-box; -webkit-box-orient: vertical;"
+			>
+				The Earth Information Center is a physical and virtual space that showcases NASA Earth information and how our partners and everyday people use Earth observations to solve our planet’s most pressing issues.  It provides a view of our home planet down to local neighborhoods, from outer space. It shows how our planet is changing and provides easy-to-use information and resources we need to mitigate, adapt, and respond to climate change.  The Earth Information Center at NASA’s headquarters building is a physical space that includes various parts: an Earth Pulse sculpture of lights showing NASA Earth data, a Hyperwall that showcases awe-inspiring visualizations and stories told by people using NASA Earth data, the Space for Earth immersive experience surrounding you with science, and an Eyes on Earth interactive kiosk.Images of the June 21, 2023 ribbon cutting ceremony can be found on the NASA Flickr account || 
+			</p></div><a
+						id="card_details_page_14371_body_link_button"
+						href="/14371/"
+						title="Go to this page"
+						class="flex-shrink-0 btn btn-outline-primary border-0 bg-transparent w-100 mt-auto py-0"
+						tabindex="-1"
+					>
+						Go to this page <span class="bi bi-chevron-right mx-2" aria-hidden="true"></span></a></div></li></ul></div></section>
+
+							
+						
+							
+								
+
+<section id="media_group_372474" ><!-- Title --><h2 class="fs-3">Daily Visualizations</h2><div class="position-relative"><ul id="media_group_372474" class="gallery card-gallery gap-2 list-unstyled"><button
+						id="media_group_372474_scroll_left"
+						type="button"
+						class="gallery-scroll-left btn btn-dark border-0 px-0 h-100"
+						aria-hidden="true"
+						tabindex="-1"
+						style="display: none"
+					><span class="bi bi-chevron-compact-left fs-1 mx-0"></span></button><button
+						id="media_group_372474_scroll_right"
+						type="button"
+						class="gallery-scroll-right btn btn-dark border-0 px-0 h-100"
+						aria-hidden="true"
+						tabindex="-1"
+						style="display: none"
+					><span class="bi bi-chevron-compact-right fs-1 mx-0"></span></button><!-- Items --><!-- Card card_gallery_page_40512 --><li
+			id="card_gallery_page_40512"
+			class="card-gallery-card card flex-shrink-0 rounded overflow-hidden position-relative p-0 m-0 bg-gray-300"
+			style="width: 320px; max-width: 80vw; flex: none;"
+		><!-- Header --><div
+					id="card_gallery_page_40512_header"
+					class="position-relative"
+				><!-- Image topper --><a
+							href="/gallery/daily-visualizations/"
+							title="Go to this page"
+							class="card-img-top bg-dark"
+						><div class="ratio ratio-16x9"><img
+									src="/vis/a000000/a004200/a004285/imergert_1080p_30_searchweb.png"
+									alt="This gallery brings together the data visualizations that are updated daily for NASA&#x27;s Earth Information Center (EIC)."
+									style="object-fit: cover"
+									loading="lazy"
+								></div></a><!-- ID Badge --><span class="position-absolute top-0 start-0 badge bg-dark bg-opacity-75 fs-6 fw-normal rounded-0" style="border-bottom-right-radius: var(--bs-border-radius) !important;"> ID: 40512 </span><!-- Type badge --><span class="position-absolute bottom-0 start-0 badge bg-dark bg-opacity-75 fs-6 fw-normal rounded-0" style="border-top-right-radius: var(--bs-border-radius) !important;"><span class="bi bi-images me-1" aria-hidden="true"></span> Gallery
+							</span></div><!-- Body --><div
+					id="card_gallery_page_40512_body"
+					class="card-body vstack gap-1 p-2"
+					style="height: 270px;"
+				><!-- Title --><h3
+								id="card_gallery_page_40512_body_title"
+								class="flex-shrink-0 mb-0 fs-5"
+							><a
+									href="/gallery/daily-visualizations/"
+									title="Go to this page"
+									class="link-unstyled card-title overflow-hidden mb-0"
+									tabindex="-1"
+									style="display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2;"
+								>
+									Daily Visualizations
+								</a></h3><div class="hstack list-unstyled gap-2 hide-last-vr"><!-- Release date --><span class="card-text">
+						October 16, 2023
+						
+					</span><span class="vr"></span></div><div class="overflow-hidden"><p
+				id="card_gallery_page_40512_body_description"
+				class="text-clamp card-text mb-0"
+				style="display: -webkit-box; -webkit-box-orient: vertical;"
+			>
+				This gallery brings together the data visualizations that are updated daily for NASA's Earth Information Center (EIC).
+			</p></div><a
+						id="card_gallery_page_40512_body_link_button"
+						href="/gallery/daily-visualizations/"
+						title="Go to this page"
+						class="flex-shrink-0 btn btn-outline-primary border-0 bg-transparent w-100 mt-auto py-0"
+						tabindex="-1"
+					>
+						Go to this page <span class="bi bi-chevron-right mx-2" aria-hidden="true"></span></a></div></li></ul></div></section>
+
+							
+						
+					</div>
+					<hr>
+				
+			</div>
+		</div>
+	</article>
+
+			</div>
+		</main>
+		<footer>
+			<!-- Footer Javascript -->
+			
+				
+				<script id="_fed_an_ua_tag" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=NASA&subagency=GSFC&yt=true&dclink=true"></script>
+				<script id="parsely-cfg" src="https://cdn.parsely.com/keys/svs.gsfc.nasa.gov/p.js" async="" defer=""></script>
+			
+			<script
+				src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+				onerror="document.write(`<script src='/static/svs/js/bootstrap.bundle.min.js'>\x3C/script>`)"
+			></script>
+
+			<script src="/static/svs/js/script.js"></script>
+			
+				
+			
+
+			<!-- Bottom navigation bar -->
+			<nav id="bottom-navbar" class="navbar navbar-dark text-light">
+				<div class="container">
+					<div class="row w-100">
+						<!-- Brands -->
+						<div class="col-12 col-lg d-flex justify-content-center align-items-center">
+							<!-- NASA brand -->
+							<a href="https://www.nasa.gov/" class="link">
+								<img src="/static/svs/images/nasa-meatball.svg" height="60" alt="NASA Home Page">
+							</a>
+							<!-- USA.gov brand -->
+							<a
+								href="https://www.usa.gov/" class="link"
+							>
+								<img src="/static/svs/images/USAgov_logo.svg" height="60" alt="USA.gov Home Page">
+							</a>
+						</div>
+						<hr class="d-block d-lg-none my-2">
+						<div class="col-12 col-sm d-flex align-items-center">
+							<!-- Privacy and guidelines links -->
+							<div class="text-sm-end w-100">
+								
+									<div class="navbar-text">
+										<a href="https://www.nasa.gov/about/highlights/HP_Privacy.html" class="link link-light">Privacy Policy and Important Notices</a>
+										<br>
+										<a href="https://www.nasa.gov/multimedia/guidelines/index.html" class="link link-light">Reproduction Guidelines</a>
+									</div>
+								
+							</div>
+						</div>
+						<div class="col-auto d-none d-sm-flex align-items-center justify-content-center">
+							<div class="vr h-100 start-50"></div>
+						</div>
+						<div class="col-12 col-sm d-flex align-items-center">
+							<!-- Contact links -->
+							<div class="text-sm-start w-100">
+								
+									<div id="site-contacts" class="navbar-text">
+										<div>
+	NASA Official: <span class="email-link flex-nowrap" data-user="mark.u.subbarao" data-linktext="Mark SubbaRao"></span>
+</div>
+ <div>
+	Site Curator: <span class="email-link flex-nowrap" data-user="ella.kaplan" data-linktext="Ella Kaplan"></span>
+</div>
+
+									</div>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+			</nav>
+		</footer>
+	</body>
+</html>

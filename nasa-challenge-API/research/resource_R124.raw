@@ -1,0 +1,1574 @@
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- Meta info -->
+		<meta charset="UTF-8">
+		<meta name="language" content="english">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+		<meta name="author" content="
+	
+		Joseph V. Ardizzone,
+	
+		Helen-Nicole Kostis,
+	
+		 and Lesley Ott
+	
+">
+		<meta
+			name="description"
+			content="Aerosols are tiny solid or liquid particles that float in the atmosphere and can travel long distances, affecting air quality and visibility far from their sources. This visualization still, captured for August 19, 2025 (20:00 UTC), is based on NASA&#x27;s Goddard Earth Observing System (GEOS) model. The GEOS model delivers realistic, high-resolution weather and aerosol data that enable customized environmental prediction and advances in AI research."
+		>
+		<meta
+			name="keywords"
+			content="NASA, SVS, Scientific Visualization Studio, Scientific Visualization, Aerosol Optical Depth/Thickness, GEOS, Models"
+		>
+
+		<!-- Open graph protocol properties --> 
+		<meta property="og:title" content="NASA Scientific Visualization Studio | GEOS Aerosols (2025)">
+		<meta property="og:type" content="article">
+		<meta property="og:image" content="/vis/a000000/a005600/a005669/Aerosols_2025-08-19T20_00_00_1920x1080.png">
+		<meta property="og:description" content="Aerosols are tiny solid or liquid particles that float in the atmosphere and can travel long distances, affecting air quality and visibility far from their sources. This visualization still, captured for August 19, 2025 (20:00 UTC), is based on NASA&#x27;s Goddard Earth Observing System (GEOS) model. The GEOS model delivers realistic, high-resolution weather and aerosol data that enable customized environmental prediction and advances in AI research.">
+		
+	<meta property="article:published_time" content="2026-08-10T15:15:00-04:00">
+	<meta property="article:modified_time" content="2026-08-10T17:08:45.208253-04:00">
+	
+	
+	
+	
+		<meta property="article:author" content="Joseph V. Ardizzone">
+	
+		<meta property="article:author" content="Helen-Nicole Kostis">
+	
+		<meta property="article:author" content="Lesley Ott">
+	
+	
+	
+		<meta property="article:tag" content="Aerosol Optical Depth/Thickness">
+	
+		<meta property="article:tag" content="GEOS">
+	
+		<meta property="article:tag" content="Models">
+	
+
+		
+		<meta property="og:url" content="http://svs.gsfc.nasa.gov/5669/">
+		<meta property="og:locale" content="en_US">
+		<meta property="og:site_name" content="NASA Scientific Visualization Studio">
+
+		<!-- json-ld properties -->
+		<script type="application/ld+json">
+			{"@context": "http://schema.org", "@type": "Article", "headline": "GEOS Aerosols (2025)", "url": "http://svs.gsfc.nasa.gov/5669/", "thumbnailUrl": "/vis/a000000/a005600/a005669/Aerosols_2025-08-19T20_00_00_1920x1080.png", "datePublished": "2026-08-10T15:15:00-04:00", "articleSection": "Visualization", "creator": ["Joseph V. Ardizzone","Helen-Nicole Kostis","Lesley Ott"], "keywords": ["Aerosol Optical Depth/Thickness","GEOS","Models"]}
+		</script>
+
+		<!-- Icons -->
+		<link rel="icon" sizes="16x16" type="image/png" href="https://nasa.gov/wp-content/plugins/nasa-hds-core-setup/assets/favicons/favicon-16x16.png">
+		<link rel="icon" sizes="32x32" type="image/png" href="https://nasa.gov/wp-content/plugins/nasa-hds-core-setup/assets/favicons/favicon-32x32.png">
+		<link rel="icon" sizes="57x57" type="image/png" href="https://nasa.gov/wp-content/plugins/nasa-hds-core-setup/assets/favicons/favicon-57x57.png">
+		<link rel="icon" sizes="76x76" type="image/png" href="https://nasa.gov/wp-content/plugins/nasa-hds-core-setup/assets/favicons/favicon-76x76.png">
+		<link rel="icon" sizes="96x96" type="image/png" href="https://nasa.gov/wp-content/plugins/nasa-hds-core-setup/assets/favicons/favicon-96x96.png">
+		<link rel="icon" sizes="128x128" type="image/png" href="https://nasa.gov/wp-content/plugins/nasa-hds-core-setup/assets/favicons/favicon-128x128.png">
+		<link rel="icon" sizes="192x192" type="image/png" href="https://nasa.gov/wp-content/plugins/nasa-hds-core-setup/assets/favicons/favicon-192x192.png">
+		<link rel="icon" sizes="196x196" type="image/png" href="https://nasa.gov/wp-content/plugins/nasa-hds-core-setup/assets/favicons/favicon-196x196.png">
+		<link rel="icon" sizes="228x228" type="image/png" href="https://nasa.gov/wp-content/plugins/nasa-hds-core-setup/assets/favicons/favicon-228x228.png">
+
+		<!-- Tab title -->
+		<title>NASA SVS | GEOS Aerosols (2025)</title>
+
+		<!-- Resources -->
+		<script
+			src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"
+			onerror="document.write(`<script src='/static/svs/js/jquery-3.6.0.min.js'>\x3C/script>`)"
+		>
+		</script>
+		<script
+			src="https://cdn.jsdelivr.net/npm/underscore@1.13.6/underscore-min.min.js"
+			onerror="document.write(`<script src='/static/svs/js/underscore-umd-min.js'>\x3C/script>`)"
+		>
+		</script>
+		
+	
+
+
+		<!-- Stylesheets -->
+		<link href="/static/svs/css/bootstrap.min.css" rel="stylesheet">
+		<link href="/static/svs/css/bootstrap-icons.min.css" rel="stylesheet">
+		<link href="/static/svs/css/style.css" rel="stylesheet">
+		
+	<link href="/static/detailspage/css/detailspage.css" rel="stylesheet">
+
+	</head>
+	<body>
+		<header>
+			<!-- Top navigation bar -->
+			<nav id="top-navbar" class="navbar navbar-expand-md navbar-dark position-fixed">
+				<div class="container-fluid">
+					<!-- NASA brand -->
+					<a class="navbar-brand p-0 m-0" href="https://www.nasa.gov/">
+						<img
+							src="/static/svs/images/nasa-meatball.svg"
+							alt="NASA Logo"
+							height="40px"
+						>
+					</a>
+
+					<span class="d-flex flex-nowrap overflow-hidden">
+						
+							<!-- SVS brand -->
+							<a class="navbar-brand py-0 px-2 m-0 svs-brand svs-brand-svs" href="/">Scientific Visualization Studio</a>
+						
+
+						
+							
+						
+					</span>
+
+					<!-- Toggle button for collapsed navbar links -->
+					<button
+						class="navbar-toggler ms-auto"
+						type="button"
+						data-bs-toggle="offcanvas"
+						data-bs-target="#navbar-offcanvas"
+						aria-controls="navbar-offcanvas"
+						aria-expanded="false"
+						aria-label="Toggle navigation"
+					>
+						<span class="navbar-toggler-icon"></span>
+					</button>
+
+					<!-- Nav links + search box -->
+					<div class="offcanvas offcanvas-end text-bg-dark flex-shrink-0 flex-grow-1" id="navbar-offcanvas">
+						<div class="offcanvas-header position-absolute top-0 end-0">
+							<button type="button" class="btn-close btn-close-white p-3" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+						</div>
+						<div class="offcanvas-body">
+							<ul class="navbar-nav ms-auto justify-content-end">
+								<!-- Nav links -->
+								
+									
+										
+									
+									<li class="nav-item">
+										<a class="nav-link" href="/gallery/the-galleries/"><span class="bi bi-images" aria-hidden="true"></span> Galleries</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="/help/"><span class="bi bi-question-circle" aria-hidden="true"></span> Help</a>
+									</li>
+								
+								
+								
+								
+									<!-- Search box -->
+									<form id="navbar_search_form" class="ps-0 ps-md-2" role="search" action="/search" method="get">
+										<div class="input-group flex-nowrap w-100">
+	
+		
+		<input
+			type="text"
+			id="navbar_search_box"
+			class="form-control ckempty border border-end-0  text-light bg-dark border-light"
+			name="search"
+			value=""
+			placeholder="Search..."
+			aria-label="Search..."
+		>
+		<label
+			for="navbar_search_box"
+			class="visually-hidden"
+		>
+			Search
+		</label>
+		<button
+			id="navbar_search_box_clear"
+			type="reset"
+			class="btn btn-primary border-start-0 border border-end-0 pe-1 bg-dark border-light"
+			title="Clear search text"
+			aria-label="Clear search text"
+			
+			onclick="$('#navbar_search_box').val('')"
+			
+		>
+			<span
+				class="bi bi-backspace text-light"
+				aria-hidden="true"
+			> </span>
+		</button>
+		<button
+			id="navbar_search_box_submit"
+			type="submit"
+			title="Search!"
+			aria-label="Search!"
+			class="btn btn-primary border border-start-0 pe-3 bg-dark border-light"
+		>
+			<span
+				class="bi bi-search text-light"
+				aria-hidden="true"
+			> </span>
+		</button>
+	
+</div>
+
+									</form>
+								
+							</ul>
+						</div>
+					</div>
+				</div>
+			</nav>
+		</header>
+		<main class="flex-fill">
+			<div id="alerts" class="position-fixed w-100 p-2" style="z-index: 999">
+				
+					
+
+
+				
+				
+					
+				
+			</div>
+			<div id="main-container" class="position-relative vstack container-md py-2">
+				
+	<article class="mt-2">
+		<!-- Header (Title, release date, etc.) -->
+		<section class="position-relative">
+			<!-- Navigation line -->
+			<nav class="row mb-2">
+				<div class="w-100 d-flex">
+					
+						
+							<span class="bi bi-chevron-left text-muted opacity-50" aria-hidden="true"></span>
+						
+						<a
+							href="/5661"
+							class="me-auto link text-muted opacity-50 text-truncate"
+							style="max-width: 30vw"
+							aria-label="Previous page"
+						>
+							5661: NISAR Reveals Major Flooding In Mozambique
+						</a>
+					
+					
+						<a
+							href="/5670"
+							class="ms-auto link text-muted opacity-50 text-truncate"
+							style="max-width: 30vw"
+							aria-label="Next page"
+						>
+							5670: High-Resolution True Color Earth Imagery Sim...
+						</a>
+						
+						
+							<span class="bi bi-chevron-right text-muted opacity-50" aria-hidden="true"></span>
+						
+					
+					
+						<a
+							href="/15113"
+							class="link text-muted opacity-50 ms-3"
+							aria-label="Newest page"
+						><span class="bi bi-chevron-bar-right" aria-hidden="true"></span></a>
+					
+				</div>
+			</nav>
+
+			<!-- Alerts -->
+			
+			
+			
+
+			<!-- Title -->
+			<div class="row">
+				<h1 id="title" class="mb-0">GEOS Aerosols (2025)</h1>
+			</div>
+
+			<!-- Release date + ID + social media icons -->
+			<div class="row">
+				<div class="hstack flex-wrap align-items-center">
+					<ul class="list-unstyled vstack gap-1 mb-1 justify-content-center">
+						
+						
+							<li class="mb-0 fs-5"><b>Released</b> Monday, August 10, 2026</li>
+						
+						
+					</ul>
+					<div>
+						<ul class="list-unstyled hstack gap-2 mb-1">
+							<li>
+								<span class="btn btn-secondary disabled">ID: 5669</span>
+							</li>
+							<li class="vr"></li>
+							
+
+							<li>
+								<a
+									href="/api/5669"
+									target="_blank"
+									class="btn btn-light btn-sm px-1"
+									title="View this page in our API"
+								> <span class="bi bi-file-earmark-code fs-4" aria-hidden="true"></span> </a>
+							</li>
+							<li class="vr"></li>
+							
+
+<li>
+	
+
+
+	<button
+		type="button"
+		class="svs-copy-link-to-this-page-button btn btn-light px-1 py-0 fs-4"
+		title="Copy a link to this page"
+		tabindex="0"
+		aria-label="Copy a link to this page"
+		data-copy-url="http://svs.gsfc.nasa.gov/5669/"
+		data-bs-title="Copied!"
+		data-bs-trigger="manual"
+	><span class="bi bi-link-45deg" aria-hidden="true"></span></button>
+
+
+</li>
+<li>
+	<a
+		href="https://twitter.com/intent/tweet"
+		target="_blank"
+		class="btn btn-light btn-sm px-1"
+		title="Share this page on Twitter"
+	> <span class="bi bi-twitter fs-4" aria-hidden="true"></span> </a>
+</li>
+<li>
+	 <a
+	href="https://www.facebook.com/share.php?u=http%3A//svs.gsfc.nasa.gov/5669/%3F"
+	target="_blank"
+	class="btn btn-light btn-sm px-1"
+	title="Share this page on Facebook"
+> <span class="bi bi-facebook fs-4" aria-hidden="true"></span> </a>
+</li>
+
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			<!-- Main credits -->
+			<div class="row">
+				<div class="hstack flex-wrap gap-3">
+					
+
+
+	<ul class="hstack list-unstyled gap-1 mb-0 hide-last-vr flex-wrap">
+		
+			
+				<li>
+					<ul class="hstack list-unstyled gap-1 mb-0 flex-wrap">
+						
+							<li class="fw-bold">
+								Visualizations by:
+							</li>
+						
+						
+							
+								<li>
+									<a href="/search?people=Joseph%20V.%20Ardizzone" class="link fw-bold">Joseph V. Ardizzone</a>
+								</li>
+							
+								<li>
+									 and <a href="/search?people=Helen-Nicole%20Kostis" class="link fw-bold">Helen-Nicole Kostis</a>
+								</li>
+							
+						
+					</ul>
+				</li>
+				<li class="vr" aria-hidden="true">
+				</li>
+			
+		
+			
+				<li>
+					<ul class="hstack list-unstyled gap-1 mb-0 flex-wrap">
+						
+							<li class="fw-bold">
+								Scientific consulting by:
+							</li>
+						
+						
+							
+								<li>
+									<a href="/search?people=Lesley%20Ott" class="link fw-bold">Lesley Ott</a>
+								</li>
+							
+						
+					</ul>
+				</li>
+				<li class="vr" aria-hidden="true">
+				</li>
+			
+		
+	</ul>
+
+ <a href="#section_credits" class="link" onclick="$('#section_credits')[0].scrollTo({behavior: 'smooth'})"><span class="bi bi-arrow-bar-down me-1" aria-hidden="true"></span>View full credits</a>
+				</div>
+			</div>
+			<hr>
+		</section>
+
+		
+		
+			<!-- Media groups -->
+			<div class="vstack gap-3">
+				
+					
+						
+
+<section id="media_group_380698" ><div class="card bg-gray-300 position-relative rounded overflow-hidden p-0"><!-- Content --><div class="card-body p-0"><div class="d-flex justify-content-center position-relative bg-dark"><!-- Image --><picture><source
+						srcset="/vis/a000000/a005600/a005669/Aerosols_2025-08-19T20_00_00_1920x1080.png"
+						type="image/png"
+					><source
+						srcset="/vis/a000000/a005600/a005669/Aerosols_2025-08-19T20_00_00_3840x2160.png"
+						type="image/png"
+					><source
+						srcset="/vis/a000000/a005600/a005669/Aerosols_2025-08-19T20_00_00_5760x3240.png"
+						type="image/png"
+					><source
+						srcset="/vis/a000000/a005600/a005669/Aerosols_2025-08-19T20_00_00_7680x4320.png"
+						type="image/png"
+					><img
+					class="img-fluid w-100"
+					style="min-height: 20vh; max-height: 65vh;"
+					src="/static/svs/images/no_preview_web_black.png"
+					title="No description available."
+					alt="No description available."
+					loading="lazy"
+					type="image/png"
+				></picture></div><div class="p-2 p-md-3 mb-0-last-p clearfix"><div class="hstack gap-2 flex-wrap flex-lg-nowrap float-end"><ul class="hstack list-unstyled ms-auto gap-2 flex-shrink-0 mb-0"><li><button
+		type="button"
+		class="svs-copy-link-to-this-page-button btn btn-light px-1 py-0 fs-4 bg-transparent border-0"
+		title="Copy a link to this media item"
+		tabindex="0"
+		aria-label="Copy a link to this media item"
+		data-copy-url="{ current_url }#media_group_380698"
+		data-bs-title="Copied!"
+		data-bs-trigger="manual"
+	><span class="bi bi-link-45deg" aria-hidden="true"></span></button></li></ul><div class="vr"></div><!-- Download Options --><div class="dropdown flex-shrink-0"><button
+		class="btn btn-sm btn-secondary dropdown-toggle text-wrap"
+		data-bs-toggle="dropdown"
+		aria-expanded="false"
+		data-bs-popper-config='{"strategy":"fixed"}'
+	><span class="bi bi-download me-1" aria-hidden="true"></span> Download
+	</button><ul id="media_group_380698_download" class="dropdown-menu dropdown-menu-dark"><li id="media_group_380698_images_download" class="dropdown-header"><h6 class="mb-0">Images</h6></li><li><a id="media_group_380698_download_images_0" class="dropdown-item" href="/vis/a000000/a005600/a005669/Aerosols_2025-08-19T20_00_00_1920x1080.png" target="_blank">
+									Aerosols_2025-08-19T20_00_00_1920x1080.png (1920x1080) [2.6 MB]
+								</a></li><li><a id="media_group_380698_download_images_1" class="dropdown-item" href="/vis/a000000/a005600/a005669/Aerosols_2025-08-19T20_00_00_3840x2160.png" target="_blank">
+									Aerosols_2025-08-19T20_00_00_3840x2160.png (3840x2160) [8.8 MB]
+								</a></li><li><a id="media_group_380698_download_images_2" class="dropdown-item" href="/vis/a000000/a005600/a005669/Aerosols_2025-08-19T20_00_00_5760x3240.png" target="_blank">
+									Aerosols_2025-08-19T20_00_00_5760x3240.png (5760x3240) [16.9 MB]
+								</a></li><li><a id="media_group_380698_download_images_3" class="dropdown-item" href="/vis/a000000/a005600/a005669/Aerosols_2025-08-19T20_00_00_7680x4320.png" target="_blank">
+									Aerosols_2025-08-19T20_00_00_7680x4320.png (7680x4320) [23.5 MB]
+								</a></li><li><hr class="dropdown-divider"></li></ul></div></div><!-- Caption --><div class="text-muted"><p>Visualization still image showing aerosols as modeled by NASA's Goddard Earth Observing System (GEOS) on August 19, 2025 (20:00 UTC).</p><p>Aerosols are tiny solid or liquid particles suspended in the atmosphere that can travel vast distances, affecting air quality and visibility far from their original sources. This visualization is based on the GEOS model, which provides realistic, high-resolution weather and aerosol data that enables customized environmental prediction and advances in AI research.</p></div></div></div></div></section>
+
+					
+				
+					
+						
+
+<section id="media_group_380700" ><div class="px-0 px-md-3 px-lg-4 mb-0-last-p"><!-- Description --><p>NASA uses satellites, ground measurements, and powerful computer models to track tiny particles floating in our air called aerosols. These small solid or liquid particles can travel thousands of miles, affecting the air we breathe and how far we can see, even far from where they originated.</p><p>This visualization still, shows how these particles travel through Earth's atmosphere on August 19, 2025 (20:00 UTC) . Different colors represent different types of aerosols: sea salt (blue), dust (pink/magenta), smoke from fires (orange/red), and sulfates from pollution and volcanoes (green).</p><p>This visualization still image highlights several atmopsheric phenomena:</p><p><strong>Hurricane Erin</strong>: As the first Atlantic hurricane of the 2025 season, Erin is visible in the Atlantic Ocean pulling in dust from Africa. The storm's powerful winds churn up ocean water, creating sea salt particles visible as blue spirals. Although it steered clear of making a direct landfall, the hurricane delivered heavy rain and tropical storm conditions to coastal areas of Puerto Rico, the Turks and Caicos Islands, the Bahamas, and the U.S. Atlantic coast.</p><p><strong>Saharan Dust Journey</strong>: Desert dust from the Sahara travels all the way across the Atlantic Ocean, creating hazy skies in the Caribbean and affecting air quality as it reaches the United States.</p><p><strong>Volcanic Plumes</strong>: Hawaii's Kilauea Volcano released a narrow stream of sulfate particles moving westward, while Italy's Mount Etna created similar streams over southern Europe.</p><p><strong>Wildfire Smoke:</strong></p><ul><li>In southern Africa, seasonal agricultural burning created smoke that drifted over the Atlantic Ocean</li><li>Wildfires raged across multiple regions in Spain </li></ul><p>The swirling blue patterns over oceans show sea salt kicked up by strong winds.</p><p>This visualization still image highlights how our atmosphere connects distant parts of the world. What happens in one region—whether natural events or human activities—can affect weather patterns and air quality thousands of miles away. By tracking these movements, NASA helps communities prepare for changes in air quality and visibility while advancing our understanding of Earth's complex atmospheric system.</p><p>The visualization was developed using NASA’s Goddard Earth Observing System (GEOS), a complex modeling and data assimilation system that creates global analyses of the Earth System. GEOS integrates satellite observations, in situ measurements, and approximately one million weather observations collected hourly to inform its models. Through the GEOS Forward Processing (FP) product, the system generates both analyses and forecasts in near real-time. Images for this visualization were created by NASA’s Global Modeling and Assimilation Office (GMAO).</p></div></section>
+
+					
+				
+					
+						
+
+<section id="media_group_380699" ><!-- Title --><div class="p-2 p-md-3 mb-0"><h2 class="fs-3 mb-0">Print-Quality Version (14:11 Aspect Ratio)</h2></div><div class="card bg-gray-300 position-relative rounded overflow-hidden p-0"><!-- Content --><div class="card-body p-0"><div class="d-flex justify-content-center position-relative bg-dark"><!-- Image --><picture><source
+						srcset="/vis/a000000/a005600/a005669/Aerosols_2025-08-19T20_00_00_1500x1179_72dpi.png"
+						type="image/png"
+					><source
+						srcset="/vis/a000000/a005600/a005669/Aerosols_2025-08-19T20_00_00_4200x3300_300dpi.png"
+						type="image/png"
+					><img
+					class="img-fluid w-100"
+					style="min-height: 20vh; max-height: 65vh;"
+					src="/static/svs/images/no_preview_web_black.png"
+					title="No description available."
+					alt="No description available."
+					loading="lazy"
+					type="image/png"
+				></picture></div><div class="p-2 p-md-3 mb-0-last-p clearfix"><div class="hstack gap-2 flex-wrap flex-lg-nowrap float-end"><ul class="hstack list-unstyled ms-auto gap-2 flex-shrink-0 mb-0"><li><button
+		type="button"
+		class="svs-copy-link-to-this-page-button btn btn-light px-1 py-0 fs-4 bg-transparent border-0"
+		title="Copy a link to this media item"
+		tabindex="0"
+		aria-label="Copy a link to this media item"
+		data-copy-url="{ current_url }#media_group_380699"
+		data-bs-title="Copied!"
+		data-bs-trigger="manual"
+	><span class="bi bi-link-45deg" aria-hidden="true"></span></button></li></ul><div class="vr"></div><!-- Download Options --><div class="dropdown flex-shrink-0"><button
+		class="btn btn-sm btn-secondary dropdown-toggle text-wrap"
+		data-bs-toggle="dropdown"
+		aria-expanded="false"
+		data-bs-popper-config='{"strategy":"fixed"}'
+	><span class="bi bi-download me-1" aria-hidden="true"></span> Download
+	</button><ul id="media_group_380699_download" class="dropdown-menu dropdown-menu-dark"><li id="media_group_380699_images_download" class="dropdown-header"><h6 class="mb-0">Images</h6></li><li><a id="media_group_380699_download_images_0" class="dropdown-item" href="/vis/a000000/a005600/a005669/Aerosols_2025-08-19T20_00_00_1500x1179_72dpi.png" target="_blank">
+									Aerosols_2025-08-19T20_00_00_1500x1179_72dpi.png (1500x1179) [2.2 MB]
+								</a></li><li><a id="media_group_380699_download_images_1" class="dropdown-item" href="/vis/a000000/a005600/a005669/Aerosols_2025-08-19T20_00_00_4200x3300_300dpi.png" target="_blank">
+									Aerosols_2025-08-19T20_00_00_4200x3300_300dpi.png (4200x3300) [12.9 MB]
+								</a></li><li><hr class="dropdown-divider"></li></ul></div></div><!-- Caption --><div class="text-muted"><p>Visualization still image (14:11 aspect ratio) showing aerosols as modeled by NASA's Goddard Earth Observing System (GEOS) on August 19, 2025 (20:00 UTC).</p><p>Aerosols are tiny solid or liquid particles suspended in the atmosphere that can travel vast distances, affecting air quality and visibility far from their original sources. This visualization is based on the GEOS model, which provides realistic, high-resolution weather and aerosol data that enables customized environmental prediction and advances in AI research.</p><p><em>Note: A print-quality version (300 dpi) is available in this content block under "Download"</em></p></div></div></div></div></section>
+
+					
+				
+					
+						
+
+<section id="media_group_380701" ><div class="card bg-gray-300 position-relative rounded overflow-hidden p-0"><!-- Content --><div class="card-body p-0"><div class="d-flex justify-content-center position-relative bg-dark"><!-- Image --><picture><source
+						srcset="/vis/a000000/a005600/a005669/Aerosols_cbar.png"
+						type="image/png"
+					><img
+					class="img-fluid w-100"
+					style="min-height: 20vh; max-height: 65vh;"
+					src="/static/svs/images/no_preview_web_black.png"
+					title="No description available."
+					alt="No description available."
+					loading="lazy"
+					type="image/png"
+				></picture></div><div class="p-2 p-md-3 mb-0-last-p clearfix"><div class="hstack gap-2 flex-wrap flex-lg-nowrap float-end"><ul class="hstack list-unstyled ms-auto gap-2 flex-shrink-0 mb-0"><li><button
+		type="button"
+		class="svs-copy-link-to-this-page-button btn btn-light px-1 py-0 fs-4 bg-transparent border-0"
+		title="Copy a link to this media item"
+		tabindex="0"
+		aria-label="Copy a link to this media item"
+		data-copy-url="{ current_url }#media_group_380701"
+		data-bs-title="Copied!"
+		data-bs-trigger="manual"
+	><span class="bi bi-link-45deg" aria-hidden="true"></span></button></li></ul><div class="vr"></div><!-- Download Options --><div class="dropdown flex-shrink-0"><button
+		class="btn btn-sm btn-secondary dropdown-toggle text-wrap"
+		data-bs-toggle="dropdown"
+		aria-expanded="false"
+		data-bs-popper-config='{"strategy":"fixed"}'
+	><span class="bi bi-download me-1" aria-hidden="true"></span> Download
+	</button><ul id="media_group_380701_download" class="dropdown-menu dropdown-menu-dark"><li id="media_group_380701_images_download" class="dropdown-header"><h6 class="mb-0">Images</h6></li><li><a id="media_group_380701_download_images_0" class="dropdown-item" href="/vis/a000000/a005600/a005669/Aerosols_cbar.png" target="_blank">
+									Aerosols_cbar.png (1500x300) [37.8 KB]
+								</a></li><li><hr class="dropdown-divider"></li></ul></div></div><!-- Caption --><div class="text-muted"><p>Colorbar for the aerosols visualization.</p></div></div></div></div></section>
+
+					
+				
+			</div>
+			<hr>
+		
+
+		
+		
+			<section id="section_keywords" class="vstack gap-2">
+				
+					<!-- NASA science categories -->
+					<ul id="nasa_science_categories" class="list-unstyled hstack flex-wrap gap-2 mb-0">
+						
+							<li>
+								<a
+									href="/search?nasa_science_categories=Earth"
+									class="btn btn-primary hover-grow fw-bold"
+								>
+									<span class="bi bi-globe-americas me-1" aria-hidden="true"></span> Earth
+								</a>
+							</li>
+						
+					</ul>
+				
+
+				
+					<!-- Keywords -->
+					<ul id="keywords" class="list-unstyled hstack flex-wrap gap-2 mb-0">
+						
+							<li>
+								<a
+									href="/search?keywords=Aerosol Optical Depth/Thickness"
+									class="btn btn-sm btn-secondary hover-grow"
+								>Aerosol Optical Depth/Thickness</a>
+							</li>
+						
+							<li>
+								<a
+									href="/search?keywords=GEOS"
+									class="btn btn-sm btn-secondary hover-grow"
+								>GEOS</a>
+							</li>
+						
+							<li>
+								<a
+									href="/search?keywords=Models"
+									class="btn btn-sm btn-secondary hover-grow"
+								>Models</a>
+							</li>
+						
+					</ul>
+				
+			</section>
+			<hr>
+		
+
+		
+		
+			<section id="section_credits">
+				<h2 class="fs-3">Credits</h2>
+				
+					<!-- Credit header box -->
+					<div class="card p-3 mb-2 mb-0-last-p">
+						<p>NASA's Global Modeling Assimilation Office (GMAO) and NASA's Scientific Visualization Studio (SVS)</p>
+					</div>
+				
+				
+					<!-- Credit list -->
+					<ul class="list-unstyled vstack gap-2">
+						
+							<li class="row">
+								<div class="col-6 col-md-4 col-lg-3 text-end">
+									<h3 class="fs-6 mb-0 lh-base">
+										
+											Data visualizers
+										
+									</h3>
+								</div>
+								<div class="col-6 col-md-8 col-lg-9 text-start border-start">
+									<ul class="list-unstyled">
+										
+											<li>
+												
+
+
+
+<a href="/search/?people=Joseph%20V.%20Ardizzone" class="link">
+		Joseph V. Ardizzone
+	</a>
+	
+		(NASA/GSFC)
+	
+	
+		<a href="https://orcid.org/0009-0004-8486-2472"><img
+				src="/static/detailspage/images/ORCID-iD_icon_vector.svg"
+				alt="ORCID logo. It consists of the text 'id' in lowercase inside of a green circle."
+				title="See this person's other publications"
+				class="bg-transparent"
+				style="height: 1.5rem; width: 1.5rem;"
+			></a>
+
+											</li>
+										
+											<li>
+												
+
+
+
+<a href="/search/?people=Helen-Nicole%20Kostis" class="link">
+		Helen-Nicole Kostis
+	</a>
+	
+		(Science and Technology Corporation)
+	
+	
+		<a href="https://orcid.org/0009-0002-7913-1128"><img
+				src="/static/detailspage/images/ORCID-iD_icon_vector.svg"
+				alt="ORCID logo. It consists of the text 'id' in lowercase inside of a green circle."
+				title="See this person's other publications"
+				class="bg-transparent"
+				style="height: 1.5rem; width: 1.5rem;"
+			></a>
+
+											</li>
+										
+									</ul>
+								</div>
+							</li>
+						
+							<li class="row">
+								<div class="col-6 col-md-4 col-lg-3 text-end">
+									<h3 class="fs-6 mb-0 lh-base">
+										
+											Scientist
+										
+									</h3>
+								</div>
+								<div class="col-6 col-md-8 col-lg-9 text-start border-start">
+									<ul class="list-unstyled">
+										
+											<li>
+												
+
+
+
+<a href="/search/?people=Lesley%20Ott" class="link">
+		Lesley Ott
+	</a>
+	
+		(NASA/GSFC)
+	
+	
+		<a href="https://orcid.org/0000-0002-0035-9625"><img
+				src="/static/detailspage/images/ORCID-iD_icon_vector.svg"
+				alt="ORCID logo. It consists of the text 'id' in lowercase inside of a green circle."
+				title="See this person's other publications"
+				class="bg-transparent"
+				style="height: 1.5rem; width: 1.5rem;"
+			></a>
+
+											</li>
+										
+									</ul>
+								</div>
+							</li>
+						
+					</ul>
+				
+			</section>
+			<hr>
+		
+
+
+
+		
+
+		
+		
+
+		
+		
+			<!-- Datasets -->
+			<section id="section_datasets" class="row">
+				<h2 class="fs-3">Datasets used</h2>
+				<ul class="list-unstyled  mx-0">
+					
+						
+							
+
+	<li class="dataset card p-3 mb-2">
+		<div class="card-title hstack flex-wrap">
+			<h2 class="fs-5 fw-normal search-text me-auto search-text mb-0">
+				GEOS-FP 2Km Replay (GEOS Forward Processing 2Km Replay)
+			</h2>
+			<span class="btn btn-sm btn-secondary disabled">ID: 1258</span>
+		</div>
+
+		<div class="card-subtitle hstack flex-wrap hide-last-vr gap-2 search-text">
+			
+				<span>Type: Model</span> <span class="vr"></span>
+			
+			
+			
+			
+				<span>Dates used: August 19, 2025</span> <span class="vr"></span>
+			
+		</div>
+
+		<div class="card-body vstack p-2 gap-2">
+			
+			
+			
+			
+			<a href="/search/?datasets=1258" class="link">See all pages that use this dataset<span class="bi bi-chevron-right mx-2" aria-hidden="true"></span></a>
+		</div>
+	</li>
+
+
+						
+					
+				</ul>
+				<p class="text-muted mb-0">
+					Note: While we identify the data sets used on this page, we do not store any further details, nor the data sets themselves on our site.
+				</p>
+			</section>
+			<hr>
+		
+
+		
+		
+			<!-- Citing this page -->
+			<section id="section_citing" class="row">
+				<h2 class="fs-3">Citing this page</h2>
+				<p class="mb-0 text-muted">
+					DOI: <a href="https://zenodo.org/records/21893141" target="_blank" class="link">10.5281/zenodo.21893141</a>
+				</p>
+			</section>
+			<hr>
+		
+
+		
+		
+			<!-- Related pages -->
+			<section id="section_related_pages">
+				
+
+<div class="row">
+	
+		<!-- Related pages -->
+		<div class="col-auto">
+			
+
+
+
+
+
+
+	
+		
+			<!-- Title -->
+			<h2 class="fs-3">Related</h2>
+		
+		
+		
+		<div class="position-relative">
+			<ul id="accordion_related_pages_related_card_gallery" class="list-unstyled hstack flex-wrap">
+				<!-- Pages -->
+				
+					
+
+
+
+
+<!-- Tile tile_details_page_14899 --><li
+			id="tile_details_page_14899"
+			class="tile-gallery-tile card flex-shrink-0 rounded overflow-hidden position-relative p-0 m-0"
+			style="width: 320px; max-width: 80vw; flex: none;"
+		><!-- Card header --><div
+					id="tile_details_page_14899_header"
+					class="position-relative"
+				><!-- Image topper --><a
+							href="/14899/"
+							title="Go to this page"
+							class="card-img-top bg-dark"
+						><div class="ratio ratio-16x9"><img
+									src="/vis/a010000/a014800/a014899/YTframe_Design_DEMO_v01.jpg"
+									alt="Complete transcript available."
+									style="object-fit: cover"
+									loading="lazy"
+								></div></a><!-- ID Badge --><span class="position-absolute top-0 start-0 badge bg-dark bg-opacity-75 fs-6 fw-normal rounded-0" style="border-bottom-right-radius: var(--bs-border-radius) !important;"> ID: 14899 </span></div><div
+					id="tile_details_page_14899_body"
+					class="position-absolute bottom-0 w-100"
+				><!-- Type badge --><span class="start-0 badge bg-dark bg-opacity-75 fs-6 fw-normal rounded-0" style="border-top-right-radius: var(--bs-border-radius) !important;"><span class="bi bi-person-video me-1" aria-hidden="true"></span> Produced Video
+							</span><!-- Card body --><div class="bg-dark bg-opacity-75 w-100 fs-6 text-white py-1 px-2"><div
+								style="max-height: 225px;"
+							><h3
+										id="tile_details_page_14899_body_title"
+										class="flex-shrink-0 mb-0 fs-6"
+									><a
+											href="/14899/"
+											title="Go to this page"
+											class="link link-light card-title overflow-hidden mb-0"
+											tabindex="-1"
+											style="display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 1;"
+										>
+											Inside the Visualization: Aerosols
+										</a></h3></div></div></div></li>
+
+				
+					
+
+
+
+
+<!-- Tile tile_details_page_5572 --><li
+			id="tile_details_page_5572"
+			class="tile-gallery-tile card flex-shrink-0 rounded overflow-hidden position-relative p-0 m-0"
+			style="width: 320px; max-width: 80vw; flex: none;"
+		><!-- Card header --><div
+					id="tile_details_page_5572_header"
+					class="position-relative"
+				><!-- Image topper --><a
+							href="/5572/"
+							title="Go to this page"
+							class="card-img-top bg-dark"
+						><div class="ratio ratio-16x9"><img
+									src="/vis/a000000/a005500/a005572/Aerosols_1920x647_30p_0000.png"
+									alt=""
+									style="object-fit: cover"
+									loading="lazy"
+								></div></a><!-- ID Badge --><span class="position-absolute top-0 start-0 badge bg-dark bg-opacity-75 fs-6 fw-normal rounded-0" style="border-bottom-right-radius: var(--bs-border-radius) !important;"> ID: 5572 </span></div><div
+					id="tile_details_page_5572_body"
+					class="position-absolute bottom-0 w-100"
+				><!-- Type badge --><span class="start-0 badge bg-dark bg-opacity-75 fs-6 fw-normal rounded-0" style="border-top-right-radius: var(--bs-border-radius) !important;"><span class="bi bi-pie-chart-fill me-1" aria-hidden="true"></span> Visualization
+							</span><!-- Card body --><div class="bg-dark bg-opacity-75 w-100 fs-6 text-white py-1 px-2"><div
+								style="max-height: 225px;"
+							><h3
+										id="tile_details_page_5572_body_title"
+										class="flex-shrink-0 mb-0 fs-6"
+									><a
+											href="/5572/"
+											title="Go to this page"
+											class="link link-light card-title overflow-hidden mb-0"
+											tabindex="-1"
+											style="display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 1;"
+										>
+											GEOS Aerosols
+										</a></h3></div></div></div></li>
+
+				
+					
+
+
+
+
+<!-- Tile tile_details_page_5552 --><li
+			id="tile_details_page_5552"
+			class="tile-gallery-tile card flex-shrink-0 rounded overflow-hidden position-relative p-0 m-0"
+			style="width: 320px; max-width: 80vw; flex: none;"
+		><!-- Card header --><div
+					id="tile_details_page_5552_header"
+					class="position-relative"
+				><!-- Image topper --><a
+							href="/5552/"
+							title="Go to this page"
+							class="card-img-top bg-dark"
+						><div class="ratio ratio-16x9"><img
+									src="/vis/a000000/a005500/a005552/SOS_Aerosols_1024x512.png"
+									alt="Visualization of aerosols by NASA&#x27;s Goddard Earth Observing (GEOS) model."
+									style="object-fit: cover"
+									loading="lazy"
+								></div></a><!-- ID Badge --><span class="position-absolute top-0 start-0 badge bg-dark bg-opacity-75 fs-6 fw-normal rounded-0" style="border-bottom-right-radius: var(--bs-border-radius) !important;"> ID: 5552 </span></div><div
+					id="tile_details_page_5552_body"
+					class="position-absolute bottom-0 w-100"
+				><!-- Type badge --><span class="start-0 badge bg-dark bg-opacity-75 fs-6 fw-normal rounded-0" style="border-top-right-radius: var(--bs-border-radius) !important;"><span class="bi bi-pie-chart-fill me-1" aria-hidden="true"></span> Visualization
+							</span><!-- Card body --><div class="bg-dark bg-opacity-75 w-100 fs-6 text-white py-1 px-2"><div
+								style="max-height: 225px;"
+							><h3
+										id="tile_details_page_5552_body_title"
+										class="flex-shrink-0 mb-0 fs-6"
+									><a
+											href="/5552/"
+											title="Go to this page"
+											class="link link-light card-title overflow-hidden mb-0"
+											tabindex="-1"
+											style="display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 1;"
+										>
+											Science On A Sphere: Aerosols in the Air
+										</a></h3></div></div></div></li>
+
+				
+					
+
+
+
+
+<!-- Tile tile_details_page_5533 --><li
+			id="tile_details_page_5533"
+			class="tile-gallery-tile card flex-shrink-0 rounded overflow-hidden position-relative p-0 m-0"
+			style="width: 320px; max-width: 80vw; flex: none;"
+		><!-- Card header --><div
+					id="tile_details_page_5533_header"
+					class="position-relative"
+				><!-- Image topper --><a
+							href="/5533/"
+							title="Go to this page"
+							class="card-img-top bg-dark"
+						><div class="ratio ratio-16x9"><img
+									src="/vis/a000000/a005500/a005533/AirQuality_Sphere_1920x1080_0000.png"
+									alt=""
+									style="object-fit: cover"
+									loading="lazy"
+								></div></a><!-- ID Badge --><span class="position-absolute top-0 start-0 badge bg-dark bg-opacity-75 fs-6 fw-normal rounded-0" style="border-bottom-right-radius: var(--bs-border-radius) !important;"> ID: 5533 </span></div><div
+					id="tile_details_page_5533_body"
+					class="position-absolute bottom-0 w-100"
+				><!-- Type badge --><span class="start-0 badge bg-dark bg-opacity-75 fs-6 fw-normal rounded-0" style="border-top-right-radius: var(--bs-border-radius) !important;"><span class="bi bi-pie-chart-fill me-1" aria-hidden="true"></span> Visualization
+							</span><!-- Card body --><div class="bg-dark bg-opacity-75 w-100 fs-6 text-white py-1 px-2"><div
+								style="max-height: 225px;"
+							><h3
+										id="tile_details_page_5533_body_title"
+										class="flex-shrink-0 mb-0 fs-6"
+									><a
+											href="/5533/"
+											title="Go to this page"
+											class="link link-light card-title overflow-hidden mb-0"
+											tabindex="-1"
+											style="display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 1;"
+										>
+											Air Quality Model Runs
+										</a></h3></div></div></div></li>
+
+				
+					
+
+
+
+
+<!-- Tile tile_details_page_5518 --><li
+			id="tile_details_page_5518"
+			class="tile-gallery-tile card flex-shrink-0 rounded overflow-hidden position-relative p-0 m-0"
+			style="width: 320px; max-width: 80vw; flex: none;"
+		><!-- Card header --><div
+					id="tile_details_page_5518_header"
+					class="position-relative"
+				><!-- Image topper --><a
+							href="/5518/"
+							title="Go to this page"
+							class="card-img-top bg-dark"
+						><div class="ratio ratio-16x9"><img
+									src="/vis/a000000/a005500/a005518/AirQuality_1920x1080_preview.png"
+									alt=""
+									style="object-fit: cover"
+									loading="lazy"
+								></div></a><!-- ID Badge --><span class="position-absolute top-0 start-0 badge bg-dark bg-opacity-75 fs-6 fw-normal rounded-0" style="border-bottom-right-radius: var(--bs-border-radius) !important;"> ID: 5518 </span></div><div
+					id="tile_details_page_5518_body"
+					class="position-absolute bottom-0 w-100"
+				><!-- Type badge --><span class="start-0 badge bg-dark bg-opacity-75 fs-6 fw-normal rounded-0" style="border-top-right-radius: var(--bs-border-radius) !important;"><span class="bi bi-pie-chart-fill me-1" aria-hidden="true"></span> Visualization
+							</span><!-- Card body --><div class="bg-dark bg-opacity-75 w-100 fs-6 text-white py-1 px-2"><div
+								style="max-height: 225px;"
+							><h3
+										id="tile_details_page_5518_body_title"
+										class="flex-shrink-0 mb-0 fs-6"
+									><a
+											href="/5518/"
+											title="Go to this page"
+											class="link link-light card-title overflow-hidden mb-0"
+											tabindex="-1"
+											style="display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 1;"
+										>
+											Science On A Sphere: Air Quality Model Runs
+										</a></h3></div></div></div></li>
+
+				
+					
+
+
+
+
+<!-- Tile tile_details_page_5147 --><li
+			id="tile_details_page_5147"
+			class="tile-gallery-tile card flex-shrink-0 rounded overflow-hidden position-relative p-0 m-0"
+			style="width: 320px; max-width: 80vw; flex: none;"
+		><!-- Card header --><div
+					id="tile_details_page_5147_header"
+					class="position-relative"
+				><!-- Image topper --><a
+							href="/5147/"
+							title="Go to this page"
+							class="card-img-top bg-dark"
+						><div class="ratio ratio-16x9"><img
+									src="/vis/a000000/a005100/a005147/MC01_stage3_GMAO_near_surface_temperature_2048x1024_en.00001_print.jpg"
+									alt="Near surface temperature is calculated by sampling 3-D atmospheric fields from NASA’s GEOS-FP system 3 meters above Earth’s surface. GEOS-FP combines millions of weather observations with a predictive model to create a global best estimate of weather conditions that are used to begin a forecast."
+									style="object-fit: cover"
+									loading="lazy"
+								></div></a><!-- ID Badge --><span class="position-absolute top-0 start-0 badge bg-dark bg-opacity-75 fs-6 fw-normal rounded-0" style="border-bottom-right-radius: var(--bs-border-radius) !important;"> ID: 5147 </span></div><div
+					id="tile_details_page_5147_body"
+					class="position-absolute bottom-0 w-100"
+				><!-- Type badge --><span class="start-0 badge bg-dark bg-opacity-75 fs-6 fw-normal rounded-0" style="border-top-right-radius: var(--bs-border-radius) !important;"><span class="bi bi-pie-chart-fill me-1" aria-hidden="true"></span> Visualization
+							</span><!-- Card body --><div class="bg-dark bg-opacity-75 w-100 fs-6 text-white py-1 px-2"><div
+								style="max-height: 225px;"
+							><h3
+										id="tile_details_page_5147_body_title"
+										class="flex-shrink-0 mb-0 fs-6"
+									><a
+											href="/5147/"
+											title="Go to this page"
+											class="link link-light card-title overflow-hidden mb-0"
+											tabindex="-1"
+											style="display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 1;"
+										>
+											GEOS-FP Near-Surface Temperature
+										</a></h3></div></div></div></li>
+
+				
+					
+
+
+
+
+<!-- Tile tile_details_page_5148 --><li
+			id="tile_details_page_5148"
+			class="tile-gallery-tile card flex-shrink-0 rounded overflow-hidden position-relative p-0 m-0"
+			style="width: 320px; max-width: 80vw; flex: none;"
+		><!-- Card header --><div
+					id="tile_details_page_5148_header"
+					class="position-relative"
+				><!-- Image topper --><a
+							href="/5148/"
+							title="Go to this page"
+							class="card-img-top bg-dark"
+						><div class="ratio ratio-16x9"><img
+									src="/vis/a000000/a005100/a005148/MC02_stage3_GMAO_near_surface_wind_2048x1024_en.00001_print.jpg"
+									alt="Near-surface wind speed is calculated by sampling 3-D atmospheric fields from NASA’s GEOS-FP system 10 meters above Earth’s surface. GEOS-FP combines millions of weather observations with a predictive model to create a global best estimate of weather conditions that are used to begin a forecast."
+									style="object-fit: cover"
+									loading="lazy"
+								></div></a><!-- ID Badge --><span class="position-absolute top-0 start-0 badge bg-dark bg-opacity-75 fs-6 fw-normal rounded-0" style="border-bottom-right-radius: var(--bs-border-radius) !important;"> ID: 5148 </span></div><div
+					id="tile_details_page_5148_body"
+					class="position-absolute bottom-0 w-100"
+				><!-- Type badge --><span class="start-0 badge bg-dark bg-opacity-75 fs-6 fw-normal rounded-0" style="border-top-right-radius: var(--bs-border-radius) !important;"><span class="bi bi-pie-chart-fill me-1" aria-hidden="true"></span> Visualization
+							</span><!-- Card body --><div class="bg-dark bg-opacity-75 w-100 fs-6 text-white py-1 px-2"><div
+								style="max-height: 225px;"
+							><h3
+										id="tile_details_page_5148_body_title"
+										class="flex-shrink-0 mb-0 fs-6"
+									><a
+											href="/5148/"
+											title="Go to this page"
+											class="link link-light card-title overflow-hidden mb-0"
+											tabindex="-1"
+											style="display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 1;"
+										>
+											GEOS-FP Near-Surface Wind Speed
+										</a></h3></div></div></div></li>
+
+				
+					
+
+
+
+
+<!-- Tile tile_details_page_5149 --><li
+			id="tile_details_page_5149"
+			class="tile-gallery-tile card flex-shrink-0 rounded overflow-hidden position-relative p-0 m-0"
+			style="width: 320px; max-width: 80vw; flex: none;"
+		><!-- Card header --><div
+					id="tile_details_page_5149_header"
+					class="position-relative"
+				><!-- Image topper --><a
+							href="/5149/"
+							title="Go to this page"
+							class="card-img-top bg-dark"
+						><div class="ratio ratio-16x9"><img
+									src="/vis/a000000/a005100/a005149/MC03_stage3_GMAO_precipitation_2048x1024_en.00001_print.jpg"
+									alt="Precipitation and clouds are calculated using fields from NASA’s GEOS-FP system. GEOS-FP combines millions of weather observations with a predictive model to create a global best estimate of weather conditions, which can be used to estimate the formation of clouds along with rain and snowfall."
+									style="object-fit: cover"
+									loading="lazy"
+								></div></a><!-- ID Badge --><span class="position-absolute top-0 start-0 badge bg-dark bg-opacity-75 fs-6 fw-normal rounded-0" style="border-bottom-right-radius: var(--bs-border-radius) !important;"> ID: 5149 </span></div><div
+					id="tile_details_page_5149_body"
+					class="position-absolute bottom-0 w-100"
+				><!-- Type badge --><span class="start-0 badge bg-dark bg-opacity-75 fs-6 fw-normal rounded-0" style="border-top-right-radius: var(--bs-border-radius) !important;"><span class="bi bi-pie-chart-fill me-1" aria-hidden="true"></span> Visualization
+							</span><!-- Card body --><div class="bg-dark bg-opacity-75 w-100 fs-6 text-white py-1 px-2"><div
+								style="max-height: 225px;"
+							><h3
+										id="tile_details_page_5149_body_title"
+										class="flex-shrink-0 mb-0 fs-6"
+									><a
+											href="/5149/"
+											title="Go to this page"
+											class="link link-light card-title overflow-hidden mb-0"
+											tabindex="-1"
+											style="display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 1;"
+										>
+											GEOS-FP Precipitation and Clouds
+										</a></h3></div></div></div></li>
+
+				
+					
+
+
+
+
+<!-- Tile tile_details_page_5150 --><li
+			id="tile_details_page_5150"
+			class="tile-gallery-tile card flex-shrink-0 rounded overflow-hidden position-relative p-0 m-0"
+			style="width: 320px; max-width: 80vw; flex: none;"
+		><!-- Card header --><div
+					id="tile_details_page_5150_header"
+					class="position-relative"
+				><!-- Image topper --><a
+							href="/5150/"
+							title="Go to this page"
+							class="card-img-top bg-dark"
+						><div class="ratio ratio-16x9"><img
+									src="/vis/a000000/a005100/a005150/MC04_stage3_GMAO_near_surface_humidity_2048x1024.png"
+									alt=""
+									style="object-fit: cover"
+									loading="lazy"
+								></div></a><!-- ID Badge --><span class="position-absolute top-0 start-0 badge bg-dark bg-opacity-75 fs-6 fw-normal rounded-0" style="border-bottom-right-radius: var(--bs-border-radius) !important;"> ID: 5150 </span></div><div
+					id="tile_details_page_5150_body"
+					class="position-absolute bottom-0 w-100"
+				><!-- Type badge --><span class="start-0 badge bg-dark bg-opacity-75 fs-6 fw-normal rounded-0" style="border-top-right-radius: var(--bs-border-radius) !important;"><span class="bi bi-pie-chart-fill me-1" aria-hidden="true"></span> Visualization
+							</span><!-- Card body --><div class="bg-dark bg-opacity-75 w-100 fs-6 text-white py-1 px-2"><div
+								style="max-height: 225px;"
+							><h3
+										id="tile_details_page_5150_body_title"
+										class="flex-shrink-0 mb-0 fs-6"
+									><a
+											href="/5150/"
+											title="Go to this page"
+											class="link link-light card-title overflow-hidden mb-0"
+											tabindex="-1"
+											style="display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 1;"
+										>
+											GEOS-FP Near-Surface Humidity
+										</a></h3></div></div></div></li>
+
+				
+					
+
+
+
+
+<!-- Tile tile_details_page_5151 --><li
+			id="tile_details_page_5151"
+			class="tile-gallery-tile card flex-shrink-0 rounded overflow-hidden position-relative p-0 m-0"
+			style="width: 320px; max-width: 80vw; flex: none;"
+		><!-- Card header --><div
+					id="tile_details_page_5151_header"
+					class="position-relative"
+				><!-- Image topper --><a
+							href="/5151/"
+							title="Go to this page"
+							class="card-img-top bg-dark"
+						><div class="ratio ratio-16x9"><img
+									src="/vis/a000000/a005100/a005151/MC01_stage4_GMAO_pm25_2048x1024_en.00001_print.jpg"
+									alt="Near surface concentration of fine particular matter (PM2.5) estimated from NASA’s aerosol and weather fields produced by NASA’s GEOS-CF model."
+									style="object-fit: cover"
+									loading="lazy"
+								></div></a><!-- ID Badge --><span class="position-absolute top-0 start-0 badge bg-dark bg-opacity-75 fs-6 fw-normal rounded-0" style="border-bottom-right-radius: var(--bs-border-radius) !important;"> ID: 5151 </span></div><div
+					id="tile_details_page_5151_body"
+					class="position-absolute bottom-0 w-100"
+				><!-- Type badge --><span class="start-0 badge bg-dark bg-opacity-75 fs-6 fw-normal rounded-0" style="border-top-right-radius: var(--bs-border-radius) !important;"><span class="bi bi-pie-chart-fill me-1" aria-hidden="true"></span> Visualization
+							</span><!-- Card body --><div class="bg-dark bg-opacity-75 w-100 fs-6 text-white py-1 px-2"><div
+								style="max-height: 225px;"
+							><h3
+										id="tile_details_page_5151_body_title"
+										class="flex-shrink-0 mb-0 fs-6"
+									><a
+											href="/5151/"
+											title="Go to this page"
+											class="link link-light card-title overflow-hidden mb-0"
+											tabindex="-1"
+											style="display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 1;"
+										>
+											Particulate Matter (PM) 2.5
+										</a></h3></div></div></div></li>
+
+				
+					
+
+
+
+
+<!-- Tile tile_details_page_5152 --><li
+			id="tile_details_page_5152"
+			class="tile-gallery-tile card flex-shrink-0 rounded overflow-hidden position-relative p-0 m-0"
+			style="width: 320px; max-width: 80vw; flex: none;"
+		><!-- Card header --><div
+					id="tile_details_page_5152_header"
+					class="position-relative"
+				><!-- Image topper --><a
+							href="/5152/"
+							title="Go to this page"
+							class="card-img-top bg-dark"
+						><div class="ratio ratio-16x9"><img
+									src="/vis/a000000/a005100/a005152/MC02_stage4_GMAO_O3_2048x1024_en.00001_print.jpg"
+									alt="Near surface concentration of ozone (O3) estimated by NASA’s GEOS-CF model."
+									style="object-fit: cover"
+									loading="lazy"
+								></div></a><!-- ID Badge --><span class="position-absolute top-0 start-0 badge bg-dark bg-opacity-75 fs-6 fw-normal rounded-0" style="border-bottom-right-radius: var(--bs-border-radius) !important;"> ID: 5152 </span></div><div
+					id="tile_details_page_5152_body"
+					class="position-absolute bottom-0 w-100"
+				><!-- Type badge --><span class="start-0 badge bg-dark bg-opacity-75 fs-6 fw-normal rounded-0" style="border-top-right-radius: var(--bs-border-radius) !important;"><span class="bi bi-pie-chart-fill me-1" aria-hidden="true"></span> Visualization
+							</span><!-- Card body --><div class="bg-dark bg-opacity-75 w-100 fs-6 text-white py-1 px-2"><div
+								style="max-height: 225px;"
+							><h3
+										id="tile_details_page_5152_body_title"
+										class="flex-shrink-0 mb-0 fs-6"
+									><a
+											href="/5152/"
+											title="Go to this page"
+											class="link link-light card-title overflow-hidden mb-0"
+											tabindex="-1"
+											style="display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 1;"
+										>
+											Near surface Ozone (O3)
+										</a></h3></div></div></div></li>
+
+				
+					
+
+
+
+
+<!-- Tile tile_details_page_5153 --><li
+			id="tile_details_page_5153"
+			class="tile-gallery-tile card flex-shrink-0 rounded overflow-hidden position-relative p-0 m-0"
+			style="width: 320px; max-width: 80vw; flex: none;"
+		><!-- Card header --><div
+					id="tile_details_page_5153_header"
+					class="position-relative"
+				><!-- Image topper --><a
+							href="/5153/"
+							title="Go to this page"
+							class="card-img-top bg-dark"
+						><div class="ratio ratio-16x9"><img
+									src="/vis/a000000/a005100/a005153/MC03_stage4_GMAO_CO_2048x1024_en.00001_print.jpg"
+									alt="Near surface concentration of carbon monoxide (CO) estimated by NASA’s GEOS-CF model."
+									style="object-fit: cover"
+									loading="lazy"
+								></div></a><!-- ID Badge --><span class="position-absolute top-0 start-0 badge bg-dark bg-opacity-75 fs-6 fw-normal rounded-0" style="border-bottom-right-radius: var(--bs-border-radius) !important;"> ID: 5153 </span></div><div
+					id="tile_details_page_5153_body"
+					class="position-absolute bottom-0 w-100"
+				><!-- Type badge --><span class="start-0 badge bg-dark bg-opacity-75 fs-6 fw-normal rounded-0" style="border-top-right-radius: var(--bs-border-radius) !important;"><span class="bi bi-pie-chart-fill me-1" aria-hidden="true"></span> Visualization
+							</span><!-- Card body --><div class="bg-dark bg-opacity-75 w-100 fs-6 text-white py-1 px-2"><div
+								style="max-height: 225px;"
+							><h3
+										id="tile_details_page_5153_body_title"
+										class="flex-shrink-0 mb-0 fs-6"
+									><a
+											href="/5153/"
+											title="Go to this page"
+											class="link link-light card-title overflow-hidden mb-0"
+											tabindex="-1"
+											style="display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 1;"
+										>
+											Carbon Monoxide (CO)
+										</a></h3></div></div></div></li>
+
+				
+					
+
+
+
+
+<!-- Tile tile_details_page_5154 --><li
+			id="tile_details_page_5154"
+			class="tile-gallery-tile card flex-shrink-0 rounded overflow-hidden position-relative p-0 m-0"
+			style="width: 320px; max-width: 80vw; flex: none;"
+		><!-- Card header --><div
+					id="tile_details_page_5154_header"
+					class="position-relative"
+				><!-- Image topper --><a
+							href="/5154/"
+							title="Go to this page"
+							class="card-img-top bg-dark"
+						><div class="ratio ratio-16x9"><img
+									src="/vis/a000000/a005100/a005154/MC04_stage4_GMAO_NO2_2048x1024_en.00001_print.jpg"
+									alt="Near surface concentration of Nitrogen Oxides (NOx) estimated from concentrations of nitrogen oxide and nitrogen dioxide produced by NASA’s GEOS-CF model."
+									style="object-fit: cover"
+									loading="lazy"
+								></div></a><!-- ID Badge --><span class="position-absolute top-0 start-0 badge bg-dark bg-opacity-75 fs-6 fw-normal rounded-0" style="border-bottom-right-radius: var(--bs-border-radius) !important;"> ID: 5154 </span></div><div
+					id="tile_details_page_5154_body"
+					class="position-absolute bottom-0 w-100"
+				><!-- Type badge --><span class="start-0 badge bg-dark bg-opacity-75 fs-6 fw-normal rounded-0" style="border-top-right-radius: var(--bs-border-radius) !important;"><span class="bi bi-pie-chart-fill me-1" aria-hidden="true"></span> Visualization
+							</span><!-- Card body --><div class="bg-dark bg-opacity-75 w-100 fs-6 text-white py-1 px-2"><div
+								style="max-height: 225px;"
+							><h3
+										id="tile_details_page_5154_body_title"
+										class="flex-shrink-0 mb-0 fs-6"
+									><a
+											href="/5154/"
+											title="Go to this page"
+											class="link link-light card-title overflow-hidden mb-0"
+											tabindex="-1"
+											style="display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 1;"
+										>
+											Nitrogen Oxides (NOx)
+										</a></h3></div></div></div></li>
+
+				
+			</ul>
+		</div>
+	
+
+
+		</div>
+	
+	
+	
+	
+		<!-- Alternate versions -->
+		<div class="col-auto">
+			
+
+
+
+
+
+
+	
+		
+			<!-- Title -->
+			<h2 class="fs-3">Alternate Versions</h2>
+		
+		
+		
+		<div class="position-relative">
+			<ul id="accordion_related_pages_alternate_versions_card_gallery" class="list-unstyled hstack flex-wrap">
+				<!-- Pages -->
+				
+					
+
+
+
+
+<!-- Tile tile_details_page_5552 --><li
+			id="tile_details_page_5552"
+			class="tile-gallery-tile card flex-shrink-0 rounded overflow-hidden position-relative p-0 m-0"
+			style="width: 320px; max-width: 80vw; flex: none;"
+		><!-- Card header --><div
+					id="tile_details_page_5552_header"
+					class="position-relative"
+				><!-- Image topper --><a
+							href="/5552/"
+							title="Go to this page"
+							class="card-img-top bg-dark"
+						><div class="ratio ratio-16x9"><img
+									src="/vis/a000000/a005500/a005552/SOS_Aerosols_1024x512.png"
+									alt="Visualization of aerosols by NASA&#x27;s Goddard Earth Observing (GEOS) model."
+									style="object-fit: cover"
+									loading="lazy"
+								></div></a><!-- ID Badge --><span class="position-absolute top-0 start-0 badge bg-dark bg-opacity-75 fs-6 fw-normal rounded-0" style="border-bottom-right-radius: var(--bs-border-radius) !important;"> ID: 5552 </span></div><div
+					id="tile_details_page_5552_body"
+					class="position-absolute bottom-0 w-100"
+				><!-- Type badge --><span class="start-0 badge bg-dark bg-opacity-75 fs-6 fw-normal rounded-0" style="border-top-right-radius: var(--bs-border-radius) !important;"><span class="bi bi-pie-chart-fill me-1" aria-hidden="true"></span> Visualization
+							</span><!-- Card body --><div class="bg-dark bg-opacity-75 w-100 fs-6 text-white py-1 px-2"><div
+								style="max-height: 225px;"
+							><h3
+										id="tile_details_page_5552_body_title"
+										class="flex-shrink-0 mb-0 fs-6"
+									><a
+											href="/5552/"
+											title="Go to this page"
+											class="link link-light card-title overflow-hidden mb-0"
+											tabindex="-1"
+											style="display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 1;"
+										>
+											Science On A Sphere: Aerosols in the Air
+										</a></h3></div></div></div></li>
+
+				
+			</ul>
+		</div>
+	
+
+
+		</div>
+	
+	
+	
+</div>
+<hr>
+
+			</section>
+		
+
+		
+		<section id="release_time">
+			<h2 class="visually-hidden">Release date</h2>
+			<p class="text-muted mb-0">
+				
+					This page was originally published on Monday, August 10, 2026.
+					<br>
+				
+				This page was last updated on Monday, August 10, 2026 at 5:08 PM EDT.
+			</p>
+		</section>
+		<hr>
+
+		
+		<section id="section_recommended_pages">
+			 
+
+
+
+<div id="recommended_pages" class="card-gallery-ajax-wrapper">
+	<input type="hidden" id="recommended_pages_var_can_load" value="true">
+	<input type="hidden" id="recommended_pages_var_is_loading" value="false" class="card-gallery-ajax-trigger">
+	<input type="hidden" id="recommended_pages_var_url" value="/api/detailspage/5669/recommended/display">
+	<input type="hidden" id="recommended_pages_var_params" value="">
+	
+		<!-- Title -->
+		<h2 class="fs-3">You may also like...</h2>
+	
+	
+	<div class="position-relative" style="height: 480px; width: 100%">
+		<div id="recommended_pages_results">
+			<!-- This gets filled in dynamically via. AJAX -->
+		</div>
+		<div id="recommended_pages_loader" class="w-100 h-100 position-relative rounded">
+			<div class="position-absolute w-100 h-100">
+				<div class="d-flex justify-content-center align-items-center h-100">
+					<div class="loader"></div>
+				</div>
+			</div>
+			<div class="placeholder-wave w-100 h-100">
+				<div class="card bg-gray-300 placeholder w-100 h-100"></div>
+			</div>
+		</div>
+		<div id="recommended_pages_no_results_warning" class="w-100 h-100 position-relative" style="display: none;">
+			<div class="d-flex justify-content-center align-items-center h-100">
+				<h4 class="fs-3 my-auto">No results.</h4>
+			</div>
+		</div>
+		<div id="recommended_pages_error_warning" class="w-100 h-100 position-relative" style="display: none;">
+			<div class="d-flex justify-content-center align-items-center h-100">
+				<h4 class="fs-3 my-auto">An error occurred. Please reload this page and try again.</h4>
+			</div>
+		</div>
+	</div>
+</div>
+
+		</section>
+	</article>
+
+			</div>
+		</main>
+		<footer>
+			<!-- Footer Javascript -->
+			
+				
+				<script id="_fed_an_ua_tag" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=NASA&subagency=GSFC&yt=true&dclink=true"></script>
+				<script id="parsely-cfg" src="https://cdn.parsely.com/keys/svs.gsfc.nasa.gov/p.js" async="" defer=""></script>
+			
+			<script
+				src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+				onerror="document.write(`<script src='/static/svs/js/bootstrap.bundle.min.js'>\x3C/script>`)"
+			></script>
+
+			<script src="/static/svs/js/script.js"></script>
+			
+	<script src="/static/svs/js/card-galleries.js"></script>
+
+
+			<!-- Bottom navigation bar -->
+			<nav id="bottom-navbar" class="navbar navbar-dark text-light">
+				<div class="container">
+					<div class="row w-100">
+						<!-- Brands -->
+						<div class="col-12 col-lg d-flex justify-content-center align-items-center">
+							<!-- NASA brand -->
+							<a href="https://www.nasa.gov/" class="link">
+								<img src="/static/svs/images/nasa-meatball.svg" height="60" alt="NASA Home Page">
+							</a>
+							<!-- USA.gov brand -->
+							<a
+								href="https://www.usa.gov/" class="link"
+							>
+								<img src="/static/svs/images/USAgov_logo.svg" height="60" alt="USA.gov Home Page">
+							</a>
+						</div>
+						<hr class="d-block d-lg-none my-2">
+						<div class="col-12 col-sm d-flex align-items-center">
+							<!-- Privacy and guidelines links -->
+							<div class="text-sm-end w-100">
+								
+									<div class="navbar-text">
+										<a href="https://www.nasa.gov/about/highlights/HP_Privacy.html" class="link link-light">Privacy Policy and Important Notices</a>
+										<br>
+										<a href="https://www.nasa.gov/multimedia/guidelines/index.html" class="link link-light">Reproduction Guidelines</a>
+									</div>
+								
+							</div>
+						</div>
+						<div class="col-auto d-none d-sm-flex align-items-center justify-content-center">
+							<div class="vr h-100 start-50"></div>
+						</div>
+						<div class="col-12 col-sm d-flex align-items-center">
+							<!-- Contact links -->
+							<div class="text-sm-start w-100">
+								
+									<div id="site-contacts" class="navbar-text">
+										<div>
+	NASA Official: <span class="email-link flex-nowrap" data-user="mark.u.subbarao" data-linktext="Mark SubbaRao"></span>
+</div>
+ <div>
+	Site Curator: <span class="email-link flex-nowrap" data-user="ella.kaplan" data-linktext="Ella Kaplan"></span>
+</div>
+
+									</div>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+			</nav>
+		</footer>
+	</body>
+</html>

@@ -1,0 +1,21 @@
+{
+  "retrieved_at_utc": "2026-11-14T19:39:47+00:00",
+  "method": "GET",
+  "url_base": "https://power.larc.nasa.gov/api/temporal/monthly/point",
+  "params": {
+    "parameters": "T2M",
+    "community": "AG",
+    "longitude": "35.2000",
+    "latitude": "31.8000",
+    "start": "1981",
+    "end": "2025",
+    "format": "JSON"
+  },
+  "http_status": 200,
+  "content_type": "application/json",
+  "bytes": 9175,
+  "sha256": "5d2d82caa32f2a1a90bc319885127360a84553257854851364954688ec2aa1dd",
+  "elapsed_s": 0.75,
+  "requests_made": 1,
+  "note": "public endpoint, no credentials"
+}

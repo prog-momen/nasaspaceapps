@@ -1,0 +1,91 @@
+  
+<!DOCTYPE html>
+<!-- saved from url=(0027)https://earthdata.nasa.gov/ -->
+<html lang="en" xmlns:fb="http://ogp.me/ns/fb#" class="">
+    <head>  
+        <!-- Google Tag Manager -->
+            <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-WNP7MLF');</script>
+        <!-- End Google Tag Manager -->
+
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#630202"/>
+        <meta name='mobile-web-app-capable' content='yes'>
+        <meta name='apple-mobile-web-app-capable' content='yes'>
+        <meta name='application-name' content='NASA-FIRMS'>
+        <meta name='apple-mobile-web-app-status-bar-style' content='#630202'>
+        <meta name='apple-mobile-web-app-title' content='NASA Fire Info'>
+        <link rel='icon' sizes='192x192' href='/images/touch/icon-192x192.png'>
+        <link rel='apple-touch-icon' href='/images/touch/icon-192x192.png'>
+        <meta name='msapplication-TileImage' content='/images/touch/icon-144x144.png'>
+        <meta name='msapplication-TileColor' content='#630202'>
+        <meta name='theme-color' content='#630202'>
+        <meta property='og:title' content='NASA-FIRMS'>
+        <meta property='og:type' content='website'>
+        <meta property='og:image' content='/images/touch/icon-192x192.png'>
+        <meta property='og:url' content='https://firms.modaps.eosdis.nasa.gov/map/'>
+        <meta property='og:description' content='Fire Information for Resource Management System'>
+        <meta name='twitter:card' content='summary'>
+        <meta name='twitter:url' content='https://firms.modaps.eosdis.nasa.gov/map/'>
+        <meta name='twitter:title' content='NASA-FIRMS'>
+        <meta name='twitter:description' content='Fire Information for Resource Management System'>
+        <meta name='twitter:image' content='/images/touch/icon-192x192.png'>
+        <meta name='twitter:creator' content='@nasa'>
+        
+              <link rel="manifest" href="/content/manifest/firms.json">
+        <meta name="description" content="Global fire map and data. NASA | LANCE | Fire Information for Resource Management System provides near real-time active fire data 
+            from MODIS and VIIRS to meet the needs of firefighters, scientists and users interested in monitoring fires. 
+            Fire data is available for download or can be viewed through a map interface. Users can subscribe to email alerts bases on their area of interest.">
+        <meta name="keywords" content="fire, wildfire, fire map, map, archive fire data, fire email alerts, fire download, fire data download, California, USA, US, Canada, Indonesia, Australia, Asia, Africa, Amazon, Brazil, Europe, Siberia, Russia">
+      
+        <title>NASA | LANCE | FIRMS</title>
+        
+        <link rel="shortcut icon" href="/images/favicon.ico" type="image/vnd.microsoft.icon">
+        <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;400;600&display=swap" rel="stylesheet">
+        
+    </head>
+    <style> html { background: #222; font-size:10px; } </style>
+<link rel=stylesheet href=/dist/firms_index.8b08ecf7.css><script type=module src=/dist/firms_index.220a17fc.js></script><link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&amp;display=swap" rel=stylesheet>
+<body>
+	<div class="content">
+		<section class="mainSection">
+			<div id="content" class="">
+				<div class="pgHeader">API</div>
+				<div id="content_main">
+                    <table>
+						<tr><th>Service</th><th>Description</th></tr>
+                        <tr><td><a href="/api/area/">area</a></td><td>Fire detection hotspots based on area, date and sensor in CSV format</td></tr>
+						                        <tr><td>
+							<!--<a href="/api/countries/?format=html">countries</a>!-->
+							countries
+						</td>
+							<td>List of supported countries<br/>
+								<a href="https://firms.modaps.eosdis.nasa.gov/notifications/firms/outages.html">* Feature currently not available.</a>
+							</td></tr>
+                        <tr><td>
+							<!--<a href="/api/country/">country</a>-->
+							country
+							</td>
+							<td>Fire detection hotspots based on country, date and sensor in CSV format<br/>
+							<a href="https://firms.modaps.eosdis.nasa.gov/notifications/firms/outages.html">* Feature currently not available.</a>
+						</td></tr>
+						                        <tr><td><a href="/api/data_availability/">data_availability</a></td><td>Date availability of SP and NRT data</td></tr>
+                        <tr><td><a href="/api/kml_fire_footprints/">kml_fire_footprints</a></td><td>KML fire detection footprints</td></tr>
+						<tr><td><a href="/api/map_key/">map_key</a></td><td>Setup MAP_KEY</td></tr>
+						<tr><td><a href="/api/missing_data/">missing_data</a></td><td>View dates with missing satellite data</td></tr>
+						<!-- <tr><td><a href="/api/fire_statistics/">fire_statistics</a></td><td>View the statistics we have on Active Fire (AF) and Burned Area (BA)</td></tr> -->
+						<tr><td colspan="2"><a href="/academy/">API Code Examples</td></tr>
+						<tr><td colspan="2" style="font-size:14px">API Version: 4.2.8</td></tr>
+                    </table>
+                </div>
+            </div>
+		</section>
+	</div>
+</body>
+	<script src="https://fbm.earthdata.nasa.gov/for/firms/feedback.js"></script>
+
+    <!--googleon: all-->    
+    <script id="_fed_an_ua_tag" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=NASA&subagency=GSFC&dclink=true"></script>  
+
+</html>

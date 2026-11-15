@@ -1,0 +1,189 @@
+Content-Type: text/html
+Climate Explorer: Welcome to Climate Explorer
+Skip to content
+WMO
+European Climate Assessment & Dataset
+KNMI
+KNMI Climate Explorer
+Menu
+Home
+Help
+News
+About
+World weather
+Effects of ENSO
+Climate Change Atlas
+Cite Us!
+Kindly reminder: Support the KNMI Climate Explorer by citing it. Click here. Thank you!
+Home
+— Welcome to Climate Explorer:
+Welcome to Climate Explorer
+Please read:
+To tackle increasing web traffic from spambots blocking the server for legitimate users, we are asking users to now verify that they are human before using the Climate Explorer. 
+You will only have to do this once for a given computer or network. 
+This is not related to your user ID. 
+Please contact
+the administrator
+if you run into problems with this service, or wish to have your IP address manually added to our system.
+I verify that I am human:
+About the Climate Explorer
+The KNMI Climate Explorer is a web-based scientific analysis tool developed and maintained by the Royal Netherlands Meteorological Institute (KNMI).
+It is designed to help researchers, students, and climate analysts explore, analyze, and visualize climate data from a wide range of sources. The tool is freely accessible online and is widely used in climate science, especially for studying climate variability and change. The Climate Explorer is freely accessible and is widely used in climate science, especially for studying climate variability and change.
+The Climate Explorer is part of the WMO Regional Climate Centre at KNMI. It contains more than 10 TB of climate data and dozens of analysis tools to provide an interactive environment for climate data exploration and statistical analysis. These include
+Surface temperature records from weather stations worldwide
+Precipitation data
+Atmospheric pressure and wind observations
+Reanalysis of datasets (combined observations and model reconstructions of past weather)
+Outputs from global climate models (such as CMIP experiments)
+Future climate scenario simulations
+Much of the observational data is updated monthly, part of the
+daily data is updated every day. Other data is updated when needed. If
+you have an interesting dataset that you want us to consider for
+publishing on the KNMI Climate Explorer, please send us the URL of a
+CF-compliant netcdf
+file
+and a short description. Note that publishing is not guaranteed and is at the discretion of the maintainers.
+The Climate Explorer provides several built-in analysis tools for working directly with climate data in your browser.
+Users can generate time series to examine climate variability and trends, including anomaly calculations relative to a reference period.
+Analysis is available to compare average climate conditions during selected events or periods, such as extreme weather years or known climate phases.
+Trend analysis tools allow calculation of long-term changes, paired with significance testing to assess robustness.
+Results from all analyses can be visualized and downloaded for further use.
+The code of the KNMI Climate Explorer itself is freely available on
+GitLab
+.
+Your first time with the Climate Explorer
+New users are adviced to study the examples and the manual. There is also an old
+presentation
+available that gives an overview of the system, and a more recent
+video presentation
+focussing mainly on the Atlas.
+Trouet and van Oldenborgh
+(TRR, 2013) gives a useful overview and manual for paleo-climatologists and others who try to understand the influence of climate on their time series.
+In the Climate Explorer pages, the
+symbol indicates a help pop-up.  Below an alphabetical list of these pop-ups is given.  Please contact
+the administrator
+if the help text is confusing, or missing in a place where it is needed.
+Here we show three manuals used for presentations or workshops that guide the user through some parts of the Climate Explorer. Note that these manuals are not being updated on a regular basis.
+temperature data
+and
+precipitation data
+: 
+find and analyse for a point location: station data, gridded data, reanalysis data.
+assessing and downloading data
+:
+sign in; 
+assess data; 
+investigate time series; 
+create extremes series; 
+download (processed) data; 
+gridded data; 
+select subregion; 
+create time series of extreme index; 
+trend analysis.
+attribution protocol
+:
+Create map of the event; 
+Create map of rank; 
+Create climatology map; 
+Create time series from field; 
+Plot last N days; 
+Generate extreme time series;  
+Plot 15-year running standard deviation /dispersion; 
+Calculate trends in return times of extremes; 
+model evaluation and attribution; 
+synthesis of attribution results.
+Do not forget to cite the KNMI Climate Explorer in your publications!
+Citation of the Climate Explorer
+It is much easier for us to get funded to maintain the
+KNMI Climate Explorer if it is cited in scientific journals. Academic
+tradition requires you to cite works you base your article on. If you
+use the KNMI Climate Explorer to process data for an article in a
+scientific publication, please cite:
+KNMI Climate Explorer. c2022. de Bilt: Koninklijk Nederlands Meteorologisch Instituut (KNMI); [accessed 2025 Nov 17]. https://climexp.knmi.nl/start.cgi.
+This example (change the access date as needed) is based on the '
+Scientific Style and Format Citation Quick Guide
+' from the Council of
+Science Editors. Please adapt to your journal guidelines.
+In publications the original data source should also be cited. The Climate Explorer provides a link to a web page describing the data. If this link is broken, please
+let us know
+and we will try to fix it.
+Contact us!
+The support team of the KNMI Climate Explorer originally consisted of
+one research scientist
+, next to his day job 
+writing
+research 
+papers
+. He supported the Climate Explorer and related projects.
+The Climate Explorer relies on the users to report bugs, please mail
+the administrator
+when something does not work as advertised.
+Some restrictions are in force: the site does not remember how you filled out the forms, you cannot define your own indices, nor upload data into the Climate Explorer or handle large datasets. If you want to use these features please
+log in or register
+.
+Recent news
+This is an excerpt of our most recent news, announcements, and updates.
+News
+14-sep-2026
+Updated UK Met Office datasets CRUTEM (5.1), ISST2 (2.2), HadSST (4.2), HadNMAT2 (2.0.1)
+01-sep-2026
+Updated E-OBS global radiation to version 31
+01-sep-2026
+Updated E-OBS to version 33 (32 for wind speed, and global radiation remains at 30)
+01-sep-2026
+Upgraded CRU TS and scPDSI to their 4.10 version running up to 2025
+26-jan-2026
+Add global (0.5°) and regional (0.25°) daily
+dPET
+from Bristol University
+12-jan-2026
+Update and add new cyclones data sets from Colorado State University
+09-jan-2026
+Add global daily dPET derived from ERA5-Land from Bristol University (experimental, 0.5° only)
+30-oct-2025
+Climate Explorer experienced a server issue this morning. The issue has now been resolved and service has returned to normal.
+06-oct-2025
+Add E-OBS 0.1 degree
+06-oct-2025
+The cluster platform used by the Climate Explorer has been updated
+09-sep-2025
+Updated soil moisture from Land Data Assimilation System (FLDAS) up to last month
+09-jul-2025
+Climate Explorer has recently undergone maintenance and upgrades to allow future improvemenets. If you encounter any issues with the site, please report them to
+the administrator
+.
+26-may-2025
+Updated E-OBS to version 31 (30 for global radiation)
+19-may-2025
+Added HadEX3 analyses of extreme indices (replaces HadEx2)
+17-apr-2025
+A new side menu section Toolbox Attribution Studies has been added with the existing Attribution Runs feature and two new tools - Analogues and Synthesis.
+04-feb-2025
+We will soon be deploying a new IP whitelisting feature in an attempt to block automated spam traffic and hopefully improve performance for legitimate users. This will require you to click on a confirmation button. After clicking, you will not be asked again until you change network (e.g. connect to a VPN, travel to another location). We will not require any personal information during this process. Please report problems you encounter to
+the administrator
+.
+16-dec-2024
+Climate Change Atlas updated to include KNMI23 CMIP6 data and AR6 regions. You may have to refresh your browser to see the new version. Please report issues to the administrator.
+28-oct-2024
+Provide PDO from HadISST, COBE2 and ERSST5
+28-oct-2024
+Updated E-OBS to the Copernicus version 30.0e
+07-oct-2024
+Look and feel of side menu reworked. You may need to refresh your browser for the changes to take effect. Please report issues to the administrator.
+more...
+WMO
+Governance
+Partnerships
+Contact us
+Procurement
+Privacy policy
+Report fraud, corruption or abuse
+WMO Public
+                            site
+Disclaimer
+© 2026
+KNMI
+(results, code) /
+World Meteorological Organization (WMO)
+(design) /
+Winner of the EMS Technology Achievement Award 2021

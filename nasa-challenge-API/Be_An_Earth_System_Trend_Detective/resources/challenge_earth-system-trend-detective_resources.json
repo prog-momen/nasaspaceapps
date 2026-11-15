@@ -1,0 +1,54 @@
+[
+  [
+    "https://giovanni.gsfc.nasa.gov/",
+    "Giovanni"
+  ],
+  [
+    "https://disc.gsfc.nasa.gov/information/tools?title=Hydrology%20Time%20Series",
+    "Hydrology Time Series"
+  ],
+  [
+    "https://appeears.earthdatacloud.nasa.gov/",
+    "AppEEARS"
+  ],
+  [
+    "https://www.ncei.noaa.gov/cdo-web/",
+    "Climate Data Online (CDO)"
+  ],
+  [
+    "https://ntrs.nasa.gov/api/citations/20090042747/downloads/20090042747.pdf",
+    "Time-Series Analysis of Remotely-Sensed SeaWiFS Chlorophyll in River-Influenced Coastal Regions"
+  ],
+  [
+    "https://climexp.knmi.nl/",
+    "Royal Netherlands Meteorological Institute (KNMI) Climate Explorer"
+  ],
+  [
+    "https://medium.com/@snp.kriss/statistical-test-methods-to-detect-trends-in-time-series-data-b361a0ec530b",
+    "Statistical test methods to detect trends in time series data"
+  ],
+  [
+    "https://www.statsig.com/perspectives/a-comprehensive-guide-to-statistical-significance",
+    "A Comprehensive Guide to Statistical Significance"
+  ],
+  [
+    "https://donnees-data.asc-csa.gc.ca/en/dataset/rcm",
+    "Radarsat Constellation Mission (RCM) - Data"
+  ],
+  [
+    "http://geo.ca/",
+    "Geo.ca"
+  ],
+  [
+    "https://www.asc-csa.gc.ca/eng/satellites/swot/",
+    "SWOT Mission - Information"
+  ],
+  [
+    "https://www.asc-csa.gc.ca/eng/satellites/everyday-lives/monitoring-and-protecting-our-ecosystems-from-space.asp",
+    "Monitoring and protecting our ecosystem from space"
+  ],
+  [
+    "https://github.com/asc-csa/Synthetic_Aperture_Radar_Tutorial",
+    "Synthetic Aperture Radar python Tutorial"
+  ]
+]

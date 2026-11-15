@@ -1,0 +1,13 @@
+{
+  "id": "google_transcribe",
+  "url": "https://aistudio.google.com/docs/models/gemini-3.5-transcribe",
+  "checked_at": "2026-11-14T15:12:47.003191+00:00",
+  "tls_validation": false,
+  "status": 200,
+  "final_url": "https://aistudio.google.com/docs/models/gemini-3.5-transcribe",
+  "bytes": 43306,
+  "content_type": "text/html; charset=utf-8",
+  "sha256": "2ce39a786a29e9328ff634c8165a54e2940501816b794186f71649fe73150d03",
+  "links": [],
+  "elapsed_seconds": 0.75
+}

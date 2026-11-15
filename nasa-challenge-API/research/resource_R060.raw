@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-us" xml:lang="en-us">
+  <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <link rel="shortcut icon" href="/++theme++eco-booster/ico/favicon.png" />
+
+    <title>Data — ECOSTRESS</title>
+
+ <!--
+	//////////////////////////////////////////////////////
+
+	FREE HTML5 TEMPLATE
+	DESIGNED & DEVELOPED by FREEHTML5.CO
+
+	Website: 		http://freehtml5.co/
+	Email: 			info@freehtml5.co
+	Twitter: 		http://twitter.com/fh5co
+	Facebook: 		https://www.facebook.com/fh5co
+
+	//////////////////////////////////////////////////////
+	 -->
+	<!-- Google Webfonts -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,300,100,500" rel="stylesheet" type="text/css" />
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+
+  <link rel="stylesheet" href="/++theme++eco-booster/styles/main.css" />
+   <link rel="stylesheet" href="/++theme++eco-booster/styles/dygraph.css" />
+	<!-- Modernizr JS -->
+	<script src="/++theme++eco-booster/scripts/modernizr-2.6.2.min.js"></script>
+	  <!-- Dynamic Graphs JS -->
+    <script src="/++theme++eco-booster/scripts/dygraph.js"></script>
+	  <!-- Character Counter JS -->
+    <script src="/++theme++eco-booster/scripts/character_counter.js"></script>
+    	  <!-- Gallery App JS -->
+    <script src="/++theme++eco-booster/scripts/ecoapp_gallery.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="/++theme++eco-booster/scripts/respond.min.js"></script>
+	<![endif]-->
+
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+  <meta name="twitter:card" content="summary" /><meta property="og:site_name" content="ECOSTRESS" /><meta property="og:title" content="Data" /><meta property="og:type" content="website" /><meta property="og:description" content="" /><meta property="og:url" content="https://ecostress.jpl.nasa.gov/data" /><meta property="og:image" content="https://ecostress.jpl.nasa.gov/logo.png" /><meta property="og:image:type" content="image/png" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Plone - http://plone.com" /><link rel="stylesheet" href="https://ecostress.jpl.nasa.gov/++plone++production/++unique++2024-01-20T17:52:13.561322/default.css" data-bundle="production" /><link rel="stylesheet" href="https://ecostress.jpl.nasa.gov/++plone++static/++unique++2023-09-19%2016%3A54%3A20.002031/plone-fontello-compiled.css" data-bundle="plone-fontello" /><link rel="stylesheet" href="https://ecostress.jpl.nasa.gov/++plone++static/++unique++2023-09-19%2016%3A54%3A20.002031/plone-glyphicons-compiled.css" data-bundle="plone-glyphicons" /><link rel="stylesheet" href="https://ecostress.jpl.nasa.gov/custom.css?timestamp=2025-12-12 09:50:40.921288" data-bundle="custom-css" /><link rel="canonical" href="https://ecostress.jpl.nasa.gov/data" /><link rel="search" href="https://ecostress.jpl.nasa.gov/@@search" title="Search this site" /><script>PORTAL_URL = 'https://ecostress.jpl.nasa.gov';</script><script type="text/javascript" src="https://ecostress.jpl.nasa.gov/++plone++production/++unique++2024-01-20T17:52:13.561322/default.js" data-bundle="production"></script></head>
+
+  <body id="visual-portal-wrapper" class="frontend icons-on portaltype-document section-data site-ecostress subsection-products template-document_view thumbs-on userrole-anonymous viewpermission-view" dir="ltr" data-base-url="https://ecostress.jpl.nasa.gov/data/products" data-view-url="https://ecostress.jpl.nasa.gov/data/products" data-portal-url="https://ecostress.jpl.nasa.gov" data-i18ncatalogurl="https://ecostress.jpl.nasa.gov/plonejsi18n" data-pat-pickadate="{&quot;date&quot;: {&quot;selectYears&quot;: 200}, &quot;time&quot;: {&quot;interval&quot;: 5 } }" data-pat-plone-modal="{&quot;actionOptions&quot;: {&quot;displayInModal&quot;: false}}"><!-- plone toolbar --><section id="portal-toolbar"></section><div class="outer-wrapper">
+  	<!-- Page Header -->
+  	<header id="fh5co-header" role="banner">
+  		<div class="container">
+  		  
+  		</div>
+  		<nav class="navbar navbar-default" role="navigation">
+  			<div class="container-fluid">
+  				<div class="navbar-header">
+  					<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle" data-toggle="collapse" data-target="#fh5co-navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
+  					<a id="portal-logo" title="ECOSTRESS" href="https://ecostress.jpl.nasa.gov">
+    <img src="https://ecostress.jpl.nasa.gov/logo.png" alt="ECOSTRESS" title="ECOSTRESS" /></a>
+  				</div>
+  				<div class="visible-xs-block mobile-live-search">
+  				  
+  				</div>
+  				<div id="fh5co-navbar" class="navbar-collapse collapse">
+  					<ul class="nav navbar-right hidden-xs ">
+  					  <li>
+  					    
+  					  </li>
+  					</ul>
+  					<ul class="nav navbar-nav navbar-right">
+          <li class="index_html"><a href="https://ecostress.jpl.nasa.gov" class="state-None">Home</a></li><li class="news"><a href="https://ecostress.jpl.nasa.gov/news" class="state-published">News</a></li><li class="events"><a href="https://ecostress.jpl.nasa.gov/events" class="state-published">Events</a></li><li class="gallery"><a href="https://ecostress.jpl.nasa.gov/gallerylist" class="state-published">Gallery</a></li><li class="science"><a href="https://ecostress.jpl.nasa.gov/science" class="state-published">Research</a></li><li class="applications"><a href="https://ecostress.jpl.nasa.gov/apps" class="state-published">Applications</a></li><li class="mission"><a href="https://ecostress.jpl.nasa.gov/mission" class="state-published">Mission</a></li><li class="data"><a href="https://ecostress.jpl.nasa.gov/data" class="state-published">Data</a></li><li class="tutorials"><a href="https://ecostress.jpl.nasa.gov/tutorials" class="state-published">Tutorials</a></li><li class="documents"><a href="https://ecostress.jpl.nasa.gov/documents" class="state-published">Other</a></li><li class="faqs"><a href="../downloads/faq/ECOSTRESS_FAQ_20240401.pdf" class="state-published">FAQs</a></li><li class="team"><a href="https://ecostress.jpl.nasa.gov/team" class="state-published">Team</a></li>
+        </ul>
+  				</div>
+  			</div>
+  		</nav>
+  	</header>
+
+    <div id="above-content-wrapper">
+      <div id="above-content"><nav id="portal-breadcrumbs" class="plone-breadcrumb">
+  <div class="container">
+    <span id="breadcrumbs-you-are-here" class="hiddenStructure">You are here:</span>
+    <ol aria-labelledby="breadcrumbs-you-are-here">
+      <li id="breadcrumbs-home">
+        <a href="https://ecostress.jpl.nasa.gov">Home</a>
+      </li>
+      <li id="breadcrumbs-1">
+        
+          
+          <span id="breadcrumbs-current">Data</span>
+        
+      </li>
+    </ol>
+  </div>
+</nav>
+</div>
+    </div>
+		
+    
+    <div class="container">
+      <div class="row">
+        <aside id="global_statusmessage">
+      
+
+      <div>
+      </div>
+    </aside>
+      </div>
+      <main id="main-container" class="row row-offcanvas row-offcanvas-right">
+        <div id="column1-container">
+        </div>
+        
+    
+
+    <div class="col-xs-12 col-sm-12">
+      <div class="row">
+        <div class="box">
+          <div class="col-xs-12 col-sm-12">
+            <article id="content">
+
+          
+
+          <header>
+            <div id="viewlet-above-content-title"><span id="social-tags-body" style="display: none" itemscope="" itemtype="http://schema.org/WebPage">
+  <span itemprop="name">Data</span>
+  <span itemprop="description"></span>
+  <span itemprop="url">https://ecostress.jpl.nasa.gov/data</span>
+  <span itemprop="image">https://ecostress.jpl.nasa.gov/logo.png</span>
+</span>
+</div>
+            
+              <h1 class="documentFirstHeading">Data</h1>
+
+            
+            <div id="viewlet-below-content-title">
+
+</div>
+
+            
+              
+
+            
+          </header>
+
+          <div id="viewlet-above-content-body">
+</div>
+          <div id="content-core">
+            
+
+  <div id="parent-fieldname-text" class=""><h2 style="font-weight: 400;">Reprocessing Timeline</h2>
+<p style="font-weight: 400;">In October 2022,  ECOSTRESS released Collection 2, which includes an updated radiometric vicarious calibration, improved geolocation flagging, improved cloud mask, and improvements and additions to evapotranspiration (ET) models. The team has also made available the inputs that were used in the ET models, for full transparency. These include normalized difference vegetation index (NDVI), and albedo derived from a data fusion between VIIRS and harmonized Landsat-Sentinel (HLS), as well as reanalysis data resampled to ECOSTRESS spatial resolution. </p>
+<p style="font-weight: 400;">Radiance, geolocation, land surface temperature &amp; emissivity, and cloud products (level 1 and 2 products) have been available in Collection 2 since October 05, 2022. Higher level products (level 3 and 4) have been available in Collection 2 since January 18, 2024. The team produced Collection 1 for Level 1 and 2 data products until the Collection 2 reprocessing of Level 1 and Level 2 data products was complete so that users could continue to  evaluate a consistent time series. Collection 1 was discontinued in Calendar Year 2025. Collection 1 ended for level 3 and 4 products on December 31, 2022, due to the changing MODIS orbit and changes in Landsat data accessibility. The Collection 1 data availability dates and Collection 2 reprocessing dates are listed in the table below:</p>
+<p><img alt="collection comparision" src="../downloads/images/collection_comparison_v8.png" width="1100" /></p>
+<p><img alt="collection status sch" src="../downloads/images/collection_status-schedule_v15.png" width="1100" /></p>
+
+<h2 style="font-weight: 400;">Data Example</h2>
+<figure><a href="https://ecostress.jpl.nasa.gov/downloads/images/streetheat_la.png" title="Streets LA Heat"><img alt="Streets LA Heat" src="downloads/images/streetheat_la_ver3.png" style="width: 100%;" title="Streets LA Heat" /></a>
+<figcaption><em><i><span>NASA’s ECOSTRESS Maps LA’s Street Temperatures</span></i>. <strong>Click on image to see larger version</strong>. - NASA/JPL-Caltech</em></figcaption>
+</figure>
+<p style="font-weight: 400;">In this overlay image, retrieved land surface temperature (LST) from NASA’s Ecosystem Spaceborne Thermal Radiometer Experiment on Space Station (ECOSTRESS) was downscaled to a spatial resolution of 10m and overlaid on a street map of Los Angeles. The image was derived by taking an average of all clear-sky afternoon (1-4pm) imagery acquired by ECOSTRESS from 2018-2023. The LST represents the ‘skin’ temperature of the surface (that you would feel to the touch) and is usually much hotter than the surface air temperature that meteorologists report in a weather forecast.</p>
+<p><span style="font-weight: 400;">ECOSTRESS was launched to the international space station in 2018. Its primary mission is to identify plants’ thresholds for water use and water stress, giving insight into their ability to adapt to a warming climate. However, it has many other science uses including urban heat mitigation, wildfire mapping, water quality, and surface mineralogy. NASA’s Jet Propulsion Laboratory in Southern California built and manages the ECOSTRESS mission for the Earth Science Division in the Science Mission Directorate at NASA Headquarters in Washington. ECOSTRESS is an Earth Venture Instrument mission; the program is managed by NASA’s Earth System Science Pathfinder program at NASA's Langley Research Center in Hampton, Virginia</span></p>
+<ul>
+<li><a href="https://ecostress.jpl.nasa.gov/downloads/images/ECOSTRESS_LST_SummerDay_LosAngeles.kmz" title="Streets LA Heat">Streets LA KMZ file (download)</a></li>
+<li><a href="https://ecostress.jpl.nasa.gov/downloads/images/ECOSTRESS_LST_SummerDay_LosAngeles.tif" title="Streets LA Heat">Streets LA Geotiff file (download)</a></li>
+</ul>
+<p><span class="visualHighlight" style="text-decoration: underline;"><strong><br /><a href="https://ecostress.jpl.nasa.gov/downloads/other/ECOSTRESS_demo.pdf" rel="noopener" target="_blank" title="Access data">How to access data - Demo</a></strong></span></p>
+<h2 style="font-weight: 400;">Get ECOSTRESS Data</h2>
+<table class="plain" summary="Data Access">
+<tbody>
+<tr>
+<td><a class="external-link" href="https://search.earthdata.nasa.gov/search?q=ecostress&amp;ac=true" target="_self" title="NASA Earthdata">NASA Earthdata - "ECOSTRESS" Search</a></td>
+<td><a class="external-link" href="https://search.earthdata.nasa.gov/search?q=ecostress&amp;ac=true" target="_self" title="NASA Earthdata"><img alt="NASA Earthdata" height="120" src="../downloads/images/data2_image_v4.png" width="120" /></a></td>
+</tr>
+<tr>
+<td><a class="external-link" href="https://appeears.earthdatacloud.nasa.gov/" target="_self" title="AppEEARS">LP DAAC subsetting tool - AppEEARS </a><br /><br />Click on: <br /><br />"point samples" <br />or<br />"area samples"</td>
+<td><a class="external-link" href="https://appeears.earthdatacloud.nasa.gov/" target="_self" title="AppEEARS"><img alt="AppEEARS" height="120" src="../downloads/images/data3_image_v4.png" width="120" /></a></td>
+</tr>
+</tbody>
+</table>
+
+<p><a href="https://ecostress.jpl.nasa.gov/downloads/faq/ECOSTRESS_FAQ_20240401.pdf" title="FAQ-Data descripton">Data Description and FAQ</a></p>
+<p><a href="https://ecostress.jpl.nasa.gov/gmap/" title="First_light">Preview of currently acquired data</a></p>
+<p><a class="external-link" href="https://github.com/nasa/ECOSTRESS-Data-Resources/tree/main/python/scripts/ecostress_swath2grid" target="_new" title="">LP DAAC ECOSTRESS Swath 2 Grid Data Prep Script</a></p>
+<h3><span style="text-decoration: underline;">Documents</span></h3>
+<p style="padding-left: 30px;">Algorithm Theoretical Basis Documents (ATBDs) <br />Product Specification Documents (PSDs) <br />User Guide Products </p>
+<p style="padding-left: 30px;"><a href="https://ecostress.jpl.nasa.gov/data/atbds-summary-table">Combined Summary Table of ATDBs, PSDs, User Guides</a></p>
+<h3>Radiometer Spectral Response Functions (SRF)</h3>
+<p><a href="https://ecostress.jpl.nasa.gov/data/radiometer-spectral-response-functions">SRF Graph</a></p>
+<p><a href="https://ecostress.jpl.nasa.gov/downloads/srf/20180318-ECOSTRESS_SRF_v3.xlsx">SRF Data+Graph</a></p>
+<h3>Science Data Products</h3>
+<p><a href="https://ecostress.jpl.nasa.gov/data/science-data-products-summary-table">Science Data Products Summary Table</a></p></div>
+
+
+          </div>
+          <div id="viewlet-below-content-body">
+
+
+
+    <div class="visualClear"><!-- --></div>
+
+    <div class="documentActions">
+        
+
+        
+
+    </div>
+
+</div>
+
+          
+        </article>
+          </div>
+          <div class="clearFix"></div>
+        </div>
+      </div>
+      <section id="viewlet-below-content-body" class="row">
+        <div class="box">
+          <div class="col-xs-12 col-sm-12">
+            <div id="viewlet-below-content">
+
+
+
+
+</div>
+          </div>
+          <div class="clearFix"></div>
+        </div>
+      </section>
+    </div>
+  
+        <div id="column2-container">
+        </div>
+      </main>
+    </div>
+  </div><!-- Footer --><footer id="portal-footer-wrapper">
+      <ul id="portal-siteactions">
+
+    <li id="siteaction-sitemap"><a href="https://ecostress.jpl.nasa.gov/sitemap" title="Site Map">Site Map</a></li>
+    <li id="siteaction-accessibility"><a href="https://ecostress.jpl.nasa.gov/accessibility-info" title="Accessibility">Accessibility</a></li>
+    <li id="siteaction-contact"><a href="https://ecostress.jpl.nasa.gov/contact-info" title="Contact">Contact</a></li>
+</ul>
+        <footer class="clearfix" id="site_footer">
+          <section class="upper_footer">
+            <div class="grid_layout">
+              <div class="footer_newsletter">
+                <h2>Get the Newsletter</h2>
+                <form action="https://www.jpl.nasa.gov/signup/index.php" class="submit_newsletter" method="post" name="newsletter" id="newsletter">
+                  <input class="email_field" name="email_field" onblur="this.placeholder = 'enter email address'" onfocus="this.placeholder = ''" placeholder="enter email address" type="text" value="" />
+                  <input class="email_submit" type="submit" value="" />
+                </form>
+              </div>
+              <div class="share">
+                <h2>Follow NASA</h2>
+                <div class="social_icons">
+                  <!-- AddThis Button BEGIN -->
+                  
+                    <a href="//www.facebook.com/nasa" target="_blank" title="Follow on Facebook">
+                      <img alt="facebook icon" width="32" height="32" src="facebook.png" />
+                    </a>
+                    <a href="//twitter.com/nasa" target="_blank" title="Follow on Twitter">
+                      <img alt="twitter icon" width="32" height="32" src="new_x_icon.png" />
+                    </a>
+                    <a href="//www.youtube.com/NASA" target="_blank" title="Follow on YouTube">
+                      <img alt="youtube icon" width="32" height="32" src="youtube.png" />
+                    </a>
+                    <a href="//instagram.com/nasa" target="_blank" title="Follow on Instagram">
+                      <img alt="instagram icon" width="32" height="32" src="instagram.png" />
+                    </a>
+                    <a class="icon all_icon" href="https://www.jpl.nasa.gov/social/">
+                      <span>All</span>
+                    </a>
+                  
+                  <!-- AddThis Button END -->
+                </div>
+              </div>
+            </div>
+            <div class="gradient_line"></div>
+          </section>
+          <section class="sitemap">
+            <div class="grid_layout">
+              <div class="sitemap_directory">
+<!-- block 1 -->
+               <div class="sitemap_block">
+
+                  <div class="footer_sitemap_item">
+                    <h3 class="sitemap_title">
+                      <a href="/" title="Visit Home Page">Home</a>
+                    </h3>
+                  </div>
+
+                  <div class="footer_sitemap_item">
+                    <h3 class="sitemap_title">
+                      <a href="/news/" title="News">News</a>
+                    </h3>
+                  </div>
+
+                  <div class="footer_sitemap_item">
+                    <h3 class="sitemap_title">
+                      <a href="/events/" title="Events">Events</a>
+                    </h3>
+                  </div>
+
+                  <div class="footer_sitemap_item">
+                    <h3 class="sitemap_title">
+                      <a href="/gallery/" title="Gallery">Gallery</a>
+                    </h3>
+                  </div>
+
+                  <div class="footer_sitemap_item">
+                    <h3 class="sitemap_title">
+                      <a href="/science/" title="Science">Science</a>
+                    </h3>
+                  </div>
+
+
+                  <div class="footer_sitemap_item">
+                    <h3 class="sitemap_title">
+                      <a href="/applications/" title="Applications">Applications</a>
+                    </h3>
+                  </div>
+
+                  <div class="footer_sitemap_item">
+                    <h3 class="sitemap_title">
+                      <a href="/instrument/" title="Instrument">Instrument</a>
+                    </h3>
+                  </div>
+  
+                   <div class="footer_sitemap_item">
+                    <h3 class="sitemap_title">
+                      <a href="/mission/" title="Mission">Mission</a>
+                    </h3>
+                  </div>
+                  <div class="footer_sitemap_item">
+                    <h3 class="sitemap_title">
+                      <a href="/data/" title="Data">Data</a>
+                    </h3>
+                  </div>
+  
+                   <div class="footer_sitemap_item">
+                    <h3 class="sitemap_title">
+                      <a href="/publications/" title="Publications">Publications</a>
+                    </h3>
+                  </div>   
+                  <div class="footer_sitemap_item">
+                    <h3 class="sitemap_title">
+                      <a href="/documents/" title="Documents-Media-Tools">Doc-Media-Tools</a>
+                    </h3>
+                  </div>
+  
+                   <div class="footer_sitemap_item">
+                    <h3 class="sitemap_title">
+                      <a href="/downloads/faq/ECOSTRESS_FAQ_20240401.pdf" title="FAQ">FAQ</a>
+                    </h3>
+                  </div> 
+                 <div class="footer_sitemap_item">
+                    <h3 class="sitemap_title">
+                      <a href="/team/" title="Team">Team</a>
+                    </h3>
+                  </div> 
+                </div>
+<!-- block 2 -->
+                <div class="sitemap_block">
+                  <div class="footer_sitemap_item">
+                    <h3 class="sitemap_title">
+                      NASA/JPL Sites of Interest
+                    </h3>
+                    <ul class="subnav">
+                      <li>
+                        <a href="https://saturn.jpl.nasa.gov/index.cfm">Cassini - Mission to Saturn</a>
+                      </li>
+                      <li>
+                        <a href="https://www.climate.nasa.gov">Earth / Changing Environment</a>
+                      </li>
+                      <li>
+                        <a href="https://planetquest.jpl.nasa.gov">Planetquest / Exoplanets</a>
+                      </li>
+                      <li>
+                        <a href="https://marsprogram.jpl.nasa.gov/">Mars Exploration</a>
+                      </li>
+                      <li>
+                        <a href="https://marsprogram.jpl.nasa.gov/msl/">Mars Science Laboratory / Curiosity</a>
+                      </li>
+                      <li>
+                        <a href="https://rosetta.jpl.nasa.gov/">Rosetta - Understanding Comets</a>
+                      </li>
+                      <li>
+                        <a href="https://scienceandtechnology.jpl.nasa.gov/">Science and Technology</a>
+                      </li>
+                      <li>
+                        <a href="https://solarsystem.nasa.gov/">Solar System Exploration</a>
+                      </li>
+                      <li>
+                        <a href="https://eyes.nasa.gov/">Eyes on the Solar System</a>
+                      </li>
+                      <li>
+                        <a href="https://eyes.nasa.gov/earth/">Eyes on the Earth</a>
+                      </li>
+                      <li>
+                        <a href="https://eyes.nasa.gov/exoplanets/">Eyes on Exoplanets</a>
+                      </li>
+                      <li>
+                        <a href="https://www.spitzer.caltech.edu/">Spitzer Space Telescope</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+<!-- block 3 -->
+                <div class="sitemap_block">
+                  <div class="footer_sitemap_item">
+                    <h3 class="sitemap_title">
+                      Follow JPL
+                    </h3>
+                    <ul class="subnav">
+                      <li>
+                        <a href="http://www.facebook.com/NASAJPL">Facebook</a>
+                      </li>
+                      <li>
+                        <a href="http://twitter.com/NASAJPL">Twitter</a>
+                      </li>
+                      <li>
+                        <a href="http://www.youtube.com/user/JPLnews">YouTube</a>
+                      </li>
+                      <li>
+                        <a href="http://www.flickr.com/photos/nasa-jpl">Flickr</a>
+                      </li>
+                      <li>
+                        <a href="http://instagram.com/nasajpl">Instagram</a>
+                      </li>
+                      <li>
+                        <a href="http://itunes.apple.com/podcast/hd-nasas-jet-propulsion-laboratory/id262254981">iTunes</a>
+                      </li>
+                      <li>
+                        <a href="http://www.ustream.tv/nasajpl">UStream</a>
+                      </li>
+                      <li>
+                        <a href="https://blogs.jpl.nasa.gov">Blog</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="footer_sitemap_item">
+                    <h3 class="sitemap_title">
+                      NASA
+                    </h3>
+                    <ul class="subnav">
+                      <li>
+                        <a href="http://jplwater.nasa.gov">NASA Water Cleanup</a>
+                      </li>
+                      <li>
+                        <a href="http://www.hq.nasa.gov/office/pao/FOIA/agency/">FOIA</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="gradient_line"></div>
+          </section>
+          <section class="lower_footer">
+            <div class="nav_container">
+              <nav>
+                <ul>
+                  <li>
+                    <a href="http://www.nasa.gov/" target="_blank">NASA</a>
+                  </li>
+                  |
+                  <li>
+                    <a href="http://www.caltech.edu/" target="_blank">Caltech</a>
+                  </li>
+                  |
+                  <li>
+                    <a href="https://www.jpl.nasa.gov/copyrights.php" target="_blank">Privacy</a>
+                  </li>
+                  |
+                  <li>
+                    <a href="https://www.jpl.nasa.gov/imagepolicy">Image Policy</a>
+                  </li>
+                  |
+                  <li>
+                    <a href="https://www.jpl.nasa.gov/faq.php">FAQ</a>
+                  </li>
+                  |
+                  <li>
+                    <a href="https://www.jpl.nasa.gov/contact_JPL.php">Feedback</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+            <div class="credits">
+              <span class="credits_manager">Site Manager: Simon Hook</span>
+              <span class="credits_webmaster">Webmasters: Gerardo Rivera</span>
+              <span class="credits_webmaster">Clearance number: CL#15-0759,18-2444</span>
+            </div>
+          </section>
+        </footer>
+<div id="plone-analytics"><script id="_fed_an_ua_tag" type="text/javascript" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=NASA&amp;subagency=JPL_ecostress&amp;dclink=true&amp;sp=search,s,q&amp;sdor=false&amp;exts=tif,tiff"></script></div>
+
+    </footer><!-- Bootstrap --><script src="/++theme++eco-booster/scripts/bootstrap.min.js"></script><!-- Main JS --><script src="/++theme++eco-booster/scripts/main.js"></script></body>
+</html>

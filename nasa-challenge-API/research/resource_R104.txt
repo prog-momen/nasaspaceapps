@@ -1,0 +1,61 @@
+SPHEREx Tutorial Notebooks - IRSA Notebooks
+Skip to article frontmatter
+Skip to article content
+Site not loading correctly?
+This may be due to an incorrect
+BASE_URL
+configuration. See
+the MyST Documentation
+for reference.
+Open Menu
+Made with MyST
+IRSA Notebooks
+Contributed Notebooks
+Search
+CTRL
+⌘
+K
+IRSA Notebooks
+Contributed Notebooks
+IRSA Notebooks
+SPHEREx
+Data Overview
+Spectral Image Cutouts
+PSF Models
+Source Discovery Tool
+Mosaic Cube
+HiPS All-Sky Cube
+Euclid
+WISE
+COSMOS
+Spitzer
+ZTF
+Simulated Data
+Techniques & Tools
+Made with MyST
+IRSA Notebooks
+SPHEREx
+IRSA Notebooks
+Downloads
+Download
+SPHEREx Tutorial Notebooks
+SPHEREx
+(Spectro-Photometer for the History of the Universe, Epoch of Reionization, and Ices Explorer) is a NASA space mission designed to perform the first all-sky spectral survey in the near-infrared.
+SPHEREx observes the sky from roughly 0.75–5.0 µm using a single instrument that provides low-resolution spectroscopy (R ≈ 40–150) in hundreds of spectral channels for every point on the sky.
+Its science goals span cosmology, galaxy evolution, and the interstellar medium, enabling measurements of large-scale structure, the cosmic history of star formation, and the distribution of key molecules and ices in the Milky Way and nearby galaxies.
+SPHEREx data releases include weekly
+Quick Release spectral image products
+as well as periodic Data Releases (e.g., DR1) (multi-extension FITS files containing calibrated near-infrared surface brightness, variance, flags, modeled backgrounds, PSFs, and wavelength WCS) along with ancillary calibration and metadata files such as gain matrices, dark current maps, solid angle pixel maps, and detailed spectral WCS products for each detector.
+QR3 and DR1 supersede QR2, and SPHEREx recommends using QR3 and DR1 over QR2.
+Data Overview →
+Find Spectral Images that overlap a sky position and understand the structure of the Multi-Extension FITS files.
+Spectral Image Cutouts →
+Generate and work with spatial and spectral cutouts.
+PSF Models →
+Understand how SPHEREx point spread function (PSF) information is organized and accessed.
+Source Discovery Tool →
+Discover, extract, and visualize sources from SPHEREx Spectral Images.
+Mosaic Cube →
+Understand and analyze a SPHEREx Mosaic Cube downloaded from the SPHEREx Mosaic tool.
+HiPS All-Sky Cube →
+Explore the SPHEREx HiPS all-sky cube in Firefly, download its FITS cube tiles, and extract a quick-look spectrum.

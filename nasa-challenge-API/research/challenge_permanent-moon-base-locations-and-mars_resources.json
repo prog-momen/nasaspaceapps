@@ -1,0 +1,46 @@
+[
+  [
+    "https://search.earthdata.nasa.gov/?utm_source=%27chatgpt.com%27",
+    "NASA Earthdata Search"
+  ],
+  [
+    "https://worldview.earthdata.nasa.gov/index.html?utm_source=%27chatgpt.com%27",
+    "NASA Worldview"
+  ],
+  [
+    "https://pds.nasa.gov/?utm_source=%27chatgpt.com%27",
+    "NASA Planetary Data System (PDS)"
+  ],
+  [
+    "https://pds-geosciences.wustl.edu/missions/lro/?utm_source=%27chatgpt.com%27",
+    "NASA Lunar Reconnaissance Orbiter (LRO)"
+  ],
+  [
+    "https://pds-geosciences.wustl.edu/missions/lro/diviner.htm?utm_source=%27chatgpt.com%27",
+    "NASA LRO Diviner Lunar Data"
+  ],
+  [
+    "https://donnees-data.asc-csa.gc.ca/en/dataset/rcm",
+    "RADARSAT Constellation Mission (RCM) - Data"
+  ],
+  [
+    "https://donnees-data.asc-csa.gc.ca/en/dataset/radarsat1",
+    "RADARSAT 1 - Data"
+  ],
+  [
+    "https://github.com/asc-csa/Synthetic_Aperture_Radar_Tutorial",
+    "Synthetic Aperture Radar (SAR) Python Tutorial"
+  ],
+  [
+    "https://dataspace.copernicus.eu/?utm_source=%27chatgpt.com%27",
+    "Copernicus Data Space Ecosystem"
+  ],
+  [
+    "https://opensciencedata.esa.int/?utm_source=%27chatgpt.com%27",
+    "ESA Open Science Catalog"
+  ],
+  [
+    "https://gportal.jaxa.jp/gpr/index/index?utm_source=%27chatgpt.com%27",
+    "JAXA G-Portal"
+  ]
+]

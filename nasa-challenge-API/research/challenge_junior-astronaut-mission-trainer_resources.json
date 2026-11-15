@@ -1,0 +1,34 @@
+[
+  [
+    "https://api.nasa.gov/",
+    "NASA Open APIs"
+  ],
+  [
+    "https://ccmc.gsfc.nasa.gov/tools/DONKI/",
+    "Space Weather Database Of Notifications, Knowledge, Information (DONKI)"
+  ],
+  [
+    "https://osdr.nasa.gov/bio/repo/",
+    "NASA Open Science Data Repository (OSDR)"
+  ],
+  [
+    "https://osdr.nasa.gov/osdr/data/search?term=KEYWORD",
+    "search API"
+  ],
+  [
+    "https://visualization.osdr.nasa.gov/radlab/gui/data-api/",
+    "RadLab (OSDR Radiation Dosimetry Database)"
+  ],
+  [
+    "https://trek.nasa.gov/mars/",
+    "Mars Trek"
+  ],
+  [
+    "https://www.asc-csa.gc.ca/eng/youth-educators/resources-stem-and-youth-organizations.asp",
+    "Space resources for STEM and youth organizations"
+  ],
+  [
+    "https://www.asc-csa.gc.ca/eng/youth-educators/toolkits/food-production/",
+    "Food production on the moon and in remote areas"
+  ]
+]

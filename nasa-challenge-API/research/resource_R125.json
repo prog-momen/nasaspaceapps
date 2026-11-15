@@ -1,0 +1,294 @@
+{
+  "id": "resource_R125",
+  "url": "https://svs.gsfc.nasa.gov/5533/",
+  "checked_at": "2026-11-14T15:15:29.639642+00:00",
+  "tls_validation": false,
+  "status": 200,
+  "final_url": "https://svs.gsfc.nasa.gov/5533/",
+  "bytes": 56258,
+  "content_type": "text/html; charset=utf-8",
+  "sha256": "c2582d79e973e440bf36efe96bf30864ebedc096e21c2c9be566978542669015",
+  "links": [
+    {
+      "url": "https://www.nasa.gov/",
+      "label": ""
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/",
+      "label": "Scientific Visualization Studio"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/gallery/the-galleries/",
+      "label": "Galleries"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/help/",
+      "label": "Help"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/5518",
+      "label": "5518: Science On A Sphere: Air Quality Model Runs"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/31344",
+      "label": "31344: Herbig-Haro 49/50 Stellar Jets"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/15113",
+      "label": ""
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/api/5533",
+      "label": ""
+    },
+    {
+      "url": "https://twitter.com/intent/tweet",
+      "label": ""
+    },
+    {
+      "url": "https://www.facebook.com/share.php?u=http%3A//svs.gsfc.nasa.gov/5533/%3F",
+      "label": ""
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/search?people=Helen-Nicole%20Kostis",
+      "label": "Helen-Nicole Kostis"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/search?people=Joseph%20V.%20Ardizzone",
+      "label": "Joseph V. Ardizzone"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/search?people=Lesley%20Ott",
+      "label": "Lesley Ott"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/5533/#section_credits",
+      "label": "View full credits"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a005500/a005533/AirQuality_SphereWithLabels_5760x3240.mp4",
+      "label": "AirQuality_SphereWithLabels_5760x3240.mp4 (5760x3240) [285.8 MB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a005500/a005533/frames/5760x3240_16x9_30p/AirQuality_SphereWithLabels/",
+      "label": "AirQuality_SphereWithLabels (5760x3240) [1801 Item(s)]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a005500/a005533/AirQuality_Sphere_5760x3240_0000.png",
+      "label": "AirQuality_Sphere_5760x3240_0000.png (5760x3240) [6.8 MB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a005500/a005533/AirQuality_Sphere_1920x1080_0000.png",
+      "label": "AirQuality_Sphere_1920x1080_0000.png (1920x1080) [1.1 MB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a005500/a005533/AirQuality_MapWithLabels_5760x3240.mp4",
+      "label": "AirQuality_MapWithLabels_5760x3240.mp4 (5760x3240) [286.2 MB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a005500/a005533/frames/5760x3240_16x9_30p/AirQuality_MapWithLabels/",
+      "label": "AirQuality_MapWithLabels (5760x3240) [1800 Item(s)]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a005500/a005533/AirQuality_WithLabels_1920x1080_0000.png",
+      "label": "AirQuality_WithLabels_1920x1080_0000.png (1920x1080) [2.2 MB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a005500/a005533/AirQuality_WithLabels_5760x3240_0000.png",
+      "label": "AirQuality_WithLabels_5760x3240_0000.png (5760x3240) [9.4 MB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a005500/a005533/AirQuality_Sphere_5760x3240_long.mp4",
+      "label": "AirQuality_Sphere_5760x3240_long.mp4 (5760x3240) [361.2 MB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a005500/a005533/frames/5760x3240_16x9_30p/AirQuality_SphereWithLabels_long/",
+      "label": "AirQuality_SphereWithLabels_long (5760x3240) [3031 Item(s)]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a005500/a005533/AirQuality_SphereLong_5760x3240_3030.png",
+      "label": "AirQuality_SphereLong_5760x3240_3030.png (5760x3240) [5.9 MB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a005500/a005533/AirQuality_SphereLong_1920x1080_3030.png",
+      "label": "AirQuality_SphereLong_1920x1080_3030.png (1920x1080) [908.4 KB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a005500/a005533/EIC_AirQuality_Preview_3840x1080.mp4",
+      "label": "EIC_AirQuality_Preview_3840x1080.mp4 (3840x1080) [178.8 MB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a005500/a005533/EIC_AirQuality_NMNH_7680x2160.mp4",
+      "label": "EIC_AirQuality_NMNH_7680x2160.mp4 (7680x2160) [536.7 MB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a005500/a005533/frames/7680x2160_32x9_30p/",
+      "label": "7680x2160_32x9_30p (7680x2160) [4502 Item(s)]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a005500/a005533/AirQualityWithLabels_3840x1080_30fps_0000.png",
+      "label": "AirQualityWithLabels_3840x1080_30fps_0000.png (3840x1080) [2.7 MB]"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a005500/a005533/AirQualityWithLabels_7680x2160_30fps_0000.png",
+      "label": "AirQualityWithLabels_7680x2160_30fps_0000.png (7680x2160) [7.7 MB]"
+    },
+    {
+      "url": "https://gmao.gsfc.nasa.gov/gmao-products/geos-cf/",
+      "label": "https://gmao.gsfc.nasa.gov/gmao-products/geos-cf/"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/search?nasa_science_categories=Earth",
+      "label": "Earth"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/search?keywords=air quality",
+      "label": "air quality"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/search?keywords=Atmospheric Composition",
+      "label": "Atmospheric Composition"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/search?keywords=Earth Information Center",
+      "label": "Earth Information Center"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/search?keywords=GEOS",
+      "label": "GEOS"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/search?keywords=GMAO",
+      "label": "GMAO"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/search?keywords=Hyperwall",
+      "label": "Hyperwall"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/search/?people=Helen-Nicole%20Kostis",
+      "label": "Helen-Nicole Kostis"
+    },
+    {
+      "url": "https://orcid.org/0009-0002-7913-1128",
+      "label": ""
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/search/?people=Joseph%20V.%20Ardizzone",
+      "label": "Joseph V. Ardizzone"
+    },
+    {
+      "url": "https://orcid.org/0009-0004-8486-2472",
+      "label": ""
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/search/?people=Lesley%20Ott",
+      "label": "Lesley Ott"
+    },
+    {
+      "url": "https://orcid.org/0000-0002-0035-9625",
+      "label": ""
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/search/?people=Laurence%20Schuler",
+      "label": "Laurence Schuler"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/search/?people=Ian%20Jones",
+      "label": "Ian Jones"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/search/?people=Ella%20Kaplan",
+      "label": "Ella Kaplan"
+    },
+    {
+      "url": "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2020MS002413",
+      "label": "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2020MS002413"
+    },
+    {
+      "url": "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2021MS002852",
+      "label": "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2021MS002852"
+    },
+    {
+      "url": "https://gmao.gsfc.nasa.gov/pubs/docs/Knowland1446.pdf",
+      "label": "https://gmao.gsfc.nasa.gov/pubs/docs/Knowland1446.pdf"
+    },
+    {
+      "url": "https://portal.nccs.nasa.gov/datashare/gmao/geos-cf/v2/",
+      "label": "https://portal.nccs.nasa.gov/datashare/gmao/geos-cf/v2/"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/search/?datasets=1197",
+      "label": "See all pages that use this dataset"
+    },
+    {
+      "url": "https://zenodo.org/records/16782803",
+      "label": "10.5281/zenodo.16782803"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/5669/",
+      "label": ""
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/5669/",
+      "label": "GEOS Aerosols (2025)"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/5151/",
+      "label": ""
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/5151/",
+      "label": "Particulate Matter (PM) 2.5"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/5152/",
+      "label": ""
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/5152/",
+      "label": "Near surface Ozone (O3)"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/5153/",
+      "label": ""
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/5153/",
+      "label": "Carbon Monoxide (CO)"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/5154/",
+      "label": ""
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/5154/",
+      "label": "Nitrogen Oxides (NOx)"
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/5518/",
+      "label": ""
+    },
+    {
+      "url": "https://svs.gsfc.nasa.gov/5518/",
+      "label": "Science On A Sphere: Air Quality Model Runs"
+    },
+    {
+      "url": "https://www.nasa.gov/",
+      "label": ""
+    },
+    {
+      "url": "https://www.usa.gov/",
+      "label": ""
+    },
+    {
+      "url": "https://www.nasa.gov/about/highlights/HP_Privacy.html",
+      "label": "Privacy Policy and Important Notices"
+    },
+    {
+      "url": "https://www.nasa.gov/multimedia/guidelines/index.html",
+      "label": "Reproduction Guidelines"
+    }
+  ],
+  "elapsed_seconds": 0.984
+}

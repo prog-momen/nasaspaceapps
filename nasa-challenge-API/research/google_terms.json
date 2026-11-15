@@ -1,0 +1,13 @@
+{
+  "id": "google_terms",
+  "url": "https://aistudio.google.com/docs/terms",
+  "checked_at": "2026-11-14T15:12:48.324951+00:00",
+  "tls_validation": false,
+  "status": 200,
+  "final_url": "https://aistudio.google.com/docs/terms",
+  "bytes": 57581,
+  "content_type": "text/html; charset=utf-8",
+  "sha256": "628b2fe623a57f3a8ce01def6c06a38def1452389cd10fd916c3da018f3b3113",
+  "links": [],
+  "elapsed_seconds": 0.782
+}

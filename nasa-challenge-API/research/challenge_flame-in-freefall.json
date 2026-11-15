@@ -1,0 +1,162 @@
+{
+  "id": "challenge_flame-in-freefall",
+  "url": "https://www.spaceappschallenge.org/2026/challenges/flame-in-freefall/?tab=resources",
+  "checked_at": "2026-11-14T15:12:34.178090+00:00",
+  "tls_validation": false,
+  "status": 200,
+  "final_url": "https://www.spaceappschallenge.org/2026/challenges/flame-in-freefall/?tab=resources",
+  "bytes": 83911,
+  "content_type": "text/html; charset=utf-8",
+  "sha256": "3c443653b0c0c77813dba20edb3383d2dd4c4d5284ffdb176ca38bad2282279a",
+  "links": [
+    {
+      "url": "https://github.com/nasa/spaceapps",
+      "label": "Space Apps Connect"
+    },
+    {
+      "url": "https://www.spaceappschallenge.org/",
+      "label": ""
+    },
+    {
+      "url": "https://www.spaceappschallenge.org/about/",
+      "label": "About Us"
+    },
+    {
+      "url": "https://www.spaceappschallenge.org/about/results-and-metrics/",
+      "label": "Space Apps by the Numbers"
+    },
+    {
+      "url": "https://www.spaceappschallenge.org/meet-the-team/",
+      "label": "Meet the Team"
+    },
+    {
+      "url": "https://www.spaceappschallenge.org/brand/",
+      "label": "Brand Guidelines"
+    },
+    {
+      "url": "https://www.spaceappschallenge.org/blog/",
+      "label": "Blog"
+    },
+    {
+      "url": "https://www.spaceappschallenge.org/2025/",
+      "label": "2025"
+    },
+    {
+      "url": "https://www.spaceappschallenge.org/nasa-space-apps-2024/",
+      "label": "2024"
+    },
+    {
+      "url": "https://www.spaceappschallenge.org/2023/",
+      "label": "2023"
+    },
+    {
+      "url": "https://www.spaceappschallenge.org/contact-us/",
+      "label": "Contact Us"
+    },
+    {
+      "url": "https://www.spaceappschallenge.org/awards/",
+      "label": "Awards"
+    },
+    {
+      "url": "https://www.spaceappschallenge.org/awards/",
+      "label": "About Awards"
+    },
+    {
+      "url": "https://www.spaceappschallenge.org/2025/awards/global-winners/",
+      "label": "2025 Global Winners"
+    },
+    {
+      "url": "https://www.spaceappschallenge.org/2025/awards/global-finalists/",
+      "label": "2025 Global Finalists"
+    },
+    {
+      "url": "https://www.spaceappschallenge.org/2025/awards/honorable-mentions/",
+      "label": "2025 Honorable Mentions"
+    },
+    {
+      "url": "https://www.spaceappschallenge.org/2025/awards/global-nominees/",
+      "label": "2025 Global Nominees"
+    },
+    {
+      "url": "https://www.spaceappschallenge.org/2026/",
+      "label": "2026 Hackathon"
+    },
+    {
+      "url": "https://www.spaceappschallenge.org/2026/local-events/",
+      "label": "2026 Local Events"
+    },
+    {
+      "url": "https://www.spaceappschallenge.org/2026/challenges/",
+      "label": "2026 Challenges"
+    },
+    {
+      "url": "https://www.spaceappschallenge.org/2026/find-a-team/",
+      "label": "Find a Team"
+    },
+    {
+      "url": "https://www.spaceappschallenge.org/resources/",
+      "label": "Resources"
+    },
+    {
+      "url": "https://www.spaceappschallenge.org/resources/participant-faqs/",
+      "label": "Participant FAQs"
+    },
+    {
+      "url": "https://www.spaceappschallenge.org/resources/",
+      "label": "Participant Guides"
+    },
+    {
+      "url": "https://www.spaceappschallenge.org/2026/space-agency-partners/",
+      "label": "2026 Space Agency Partners"
+    },
+    {
+      "url": "https://science.nasa.gov/",
+      "label": "Science Mission Directorate"
+    },
+    {
+      "url": "https://www.boozallen.com/",
+      "label": "Booz Allen Hamilton"
+    },
+    {
+      "url": "https://www.mindgrub.com/",
+      "label": "Mindgrub"
+    },
+    {
+      "url": "https://www.secondmuse.com/",
+      "label": "SecondMuse"
+    },
+    {
+      "url": "https://www.nasa.gov/about/highlights/HP_Privacy.html",
+      "label": "Privacy Policy"
+    },
+    {
+      "url": "https://www.spaceappschallenge.org/legal/",
+      "label": "Legal"
+    },
+    {
+      "url": "https://www.spaceappschallenge.org/contact-us/",
+      "label": "Contact"
+    },
+    {
+      "url": "https://www.spaceappschallenge.org/resources/",
+      "label": "Resources"
+    },
+    {
+      "url": "https://www.facebook.com/spaceappschallenge",
+      "label": ""
+    },
+    {
+      "url": "https://www.twitter.com/spaceapps",
+      "label": ""
+    },
+    {
+      "url": "https://www.instagram.com/nasa_spaceapps",
+      "label": ""
+    },
+    {
+      "url": "https://www.youtube.com/nasaspaceappschallenge",
+      "label": ""
+    }
+  ],
+  "elapsed_seconds": 0.937
+}

@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <title>Moon Trek</title>
+        <meta name="description" content="Trek is a NASA web-based portal for exploration of Moon. This portal showcases data collected by NASA at various landing sites and features an easy-to-use browsing tool that provides layering and viewing of high resolution data.">
+        <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+        <link rel="stylesheet" href="app/resources/App.css?v=3.6.29-Moon">
+        <link rel="stylesheet" href="app/themes/theme.css?v=3.6.29-Moon">
+        <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:400,100,300,700|Roboto+Condensed:400,300|Roboto+Slab:400,100,300" type="text/css">
+        <link rel="icon" type="image/png" href="jpl/favicon/favicon-32x32.png" sizes="32x32">
+        <link rel="icon" type="image/png" href="jpl/favicon/favicon-96x96.png" sizes="96x96">
+        <link rel="icon" type="image/png" href="jpl/favicon/favicon-16x16.png" sizes="16x16">
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-MD19XN81GF"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-MD19XN81GF');
+        </script>
+        <script>
+            var dojoConfig = {
+                has: {
+                    "esri-featurelayer-webgl": 1
+                }
+            };
+        </script>
+        <script language="javascript">
+            //define the path to the configuration JSON file
+            var configURL = "jpl/config/config.json?_key=" + Math.random();
+            var configJson = undefined;
+            var format = undefined;
+            console.log("configURL", configURL);
+            var infoUrl;
+            var logoutUrl;
+
+            var configXhr = new XMLHttpRequest();
+            configXhr.addEventListener("load", readConfig);
+            configXhr.open('GET', configURL);
+            configXhr.send();
+
+            function readConfig() {
+                configJson = JSON.parse(this.responseText);
+                //console.log("configJson", configJson);
+
+                infoUrl = configJson.services.authInfo;
+                logoutUrl = configJson.services.authLogout;
+                console.log("infoUrl", infoUrl);
+                console.log("logoutUrl", logoutUrl);
+                var infoXhr = new XMLHttpRequest();
+                infoXhr.addEventListener("load", readInfo);
+                infoXhr.open('GET', infoUrl);
+                infoXhr.send();
+            }
+
+            function readInfo() {
+                try{
+                    var infoJson = JSON.parse(this.responseText);
+                    console.log("info normal. Loading normally.");
+                }
+                catch{
+                    console.error("info parse failed. Logging out");
+                    var logoutXhr = new XMLHttpRequest();
+                    logoutXhr.addEventListener("load", readLogout);
+                    logoutXhr.open('GET', logoutUrl);
+                    logoutXhr.send();
+                }
+            }
+
+            function readLogout(){
+                console.log("logout complete");
+            }
+
+
+
+
+
+
+            my_window = null;
+
+            function popupCenter(url, title, w, h)
+            {
+                var dualScreenLeft = window.screenLeft !==  undefined ? window.screenLeft : window.screenX;
+                var dualScreenTop = window.screenTop !==  undefined   ? window.screenTop  : window.screenY;
+
+                var width = window.innerWidth ? window.innerWidth : document.documentElement.clientWidth ? document.documentElement.clientWidth : screen.width;
+                var height = window.innerHeight ? window.innerHeight : document.documentElement.clientHeight ? document.documentElement.clientHeight : screen.height;
+
+                var systemZoom = width / window.screen.availWidth;
+                var left = (width - w) / 2 / systemZoom + dualScreenLeft
+                var top = (height - h) / 2 / systemZoom + dualScreenTop
+
+                my_window = window.open(url, '',
+                    `
+                        scrollbars=yes,
+                        width=${w / systemZoom},
+                        height=${h / systemZoom},
+                        top=${top},
+                        left=${left}
+                    `
+                );
+
+                if (window.focus) my_window.focus();
+
+                return my_window;
+            }
+
+            function check()
+            {
+                if(my_window && !my_window.closed)
+                    my_window.focus();
+            }
+
+            function closeLoginWin()
+            {
+                if (my_window)
+                    my_window.close();
+            }
+
+            function LayerViewer_filter() {
+                // Declare variables
+                var input, filter, ul, li, a, i, txtValue;
+                input = document.getElementById('layerViewer_filterInput');
+                filter = input.value.toUpperCase();
+                ul = document.getElementById("layerViewer_itemlistUL");
+                li = ul.getElementsByTagName('li');
+
+                // Loop through all list items, and hide those who don't match the search query
+                for (i = 0; i < li.length; i++) {
+                    a = li[i].getElementsByTagName("a")[0];
+                    txtValue = a.textContent || a.innerText;
+                    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                        li[i].style.display = "";
+                    } else {
+                        li[i].style.display = "none";
+                    }
+                }
+            }
+
+            function FeatureGroupLayerItem_filter() {
+                // Declare variables
+                var input, filter, ul, li, a, i, txtValue;
+                input = document.getElementById('featureGroupLayerItem_filterInput');
+                filter = input.value.toUpperCase();
+                ul = document.getElementById("featureGroupLayerItem_itemlistUL");
+                li = ul.getElementsByTagName('li');
+
+                // Loop through all list items, and hide those who don't match the search query
+                for (i = 0; i < li.length; i++) {
+                    a = li[i].getElementsByTagName("a")[0];
+                    txtValue = a.textContent || a.innerText;
+                    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                        li[i].style.display = "";
+                    } else {
+                        li[i].style.display = "none";
+                    }
+                }
+            }
+
+            window.onbeforeunload = function(){
+                return 'Are you sure you want to leave?'
+            }
+        </script>
+
+
+    </head>
+
+    <body class="claro" onclick="check();" onfocus="check();">
+        <div id="appLoadingDiv">
+            <div>
+                <h1 class="bigTitle">Moon Trek</h1>
+                <div class="loader col-centered"></div>
+
+            </div>
+            <br>
+
+            <div class="bottomLogo">
+                <img src="jpl/assets/images/nasajpl.png">
+
+            </div>
+
+        </div>
+
+        <div id="appDiv" class="hidden"></div>
+    </body>
+
+    <script type="text/javascript" djconfig="parseOnLoad: true, locale: location.hash.match(/locale=([\w\-]+)/) ? RegExp.$1 : 'en'"></script>
+    <script src="html2canvas/html2canvas.js"></script>
+    <script src="dojo/dojo.js?v=3.6.29.1-Moon"></script>
+    <script src="app/run.js?v=3.6.29-Moon"></script>
+    <script id="_fed_an_ua_tag" type="text/javascript" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=NASA&subagency=MarsTrek&dclink=true&sp=search,s,q&sdor=false&exts=tif,tiff"></script>
+</html>

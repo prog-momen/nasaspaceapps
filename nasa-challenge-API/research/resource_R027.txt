@@ -1,0 +1,375 @@
+GitHub - asc-csa/Synthetic_Aperture_Radar_Tutorial: 🛰 Ce script didacticiel contient des exemples d’utilisation d’images de missions RADARSAT en python et QGIS pour aider les utilisateurs à utiliser les données CSA en fonction de leurs besoins. 🛰 This tutorial script contains samples for using RADARSAT missions images in python and QGIS to help users to make use of CSA data based on their needs. · GitHub
+Skip to content
+Navigation Menu
+Sign in
+Products
+Platform
+GitHub
+Repository hosting, code review, and collaboration
+Copilot
+AI coding agent for tasks, projects, and automated work
+Build & Ship
+Actions
+CI/CD and automation
+Code Quality
+Quality analysis, fixes, and enforcement
+Codespaces
+Cloud development environments
+Secure
+Code Security
+Vulnerability detection and remediation
+Secret Protection
+Secret scanning and leak prevention
+All Features
+Developers
+Learn
+Documentation
+Training
+Certifications
+Build
+Build with Copilot
+Customize Copilot
+Integrations
+Explore
+Trending repos
+GitHub Sponsors
+Developer articles
+Changelog
+Changelog
+Your source for the latest features, improvements, and fixes across GitHub products, all in one place.
+Businesses
+By Stage
+Enterprises
+Team
+Startups
+Nonprofits
+By Industry
+Healthcare
+Financial services
+Manufacturing
+Government
+See all industries
+Evaluate GitHub
+Why GitHub
+Customer Stories
+Business insights
+Trust Center
+Add-ons
+GitHub Advanced Security
+Enterprise-grade code security
+Copilot for business
+Enterprise-grade AI features
+Premium Support
+Enterprise-grade 24/7 support
+Resources
+Learn & Connect
+Documentation
+Resource center
+Blog
+Events & webinars
+Community Forum
+Customer Stories
+Integrations
+Support
+Customer support
+Training
+GitHub Status
+Company
+About
+Partners
+Changelog
+GitHub Universe
+GitHub Universe
+The event for developers, by developers — talks, workshops, and what’s next for GitHub.
+Pricing
+Search
+/
+Sign in
+Sign up
+Appearance settings
+You signed in with another tab or window.
+Reload
+to refresh your session.
+You signed out in another tab or window.
+Reload
+to refresh your session.
+You switched accounts on another tab or window.
+Reload
+to refresh your session.
+Dismiss alert
+{{ message }}
+asc-csa
+Synthetic_Aperture_Radar_Tutorial
+Repository navigation
+Code
+Issues
+1
+(
+1
+)
+Pull requests
+Actions
+Projects
+Security and quality
+Insights
+More
+items
+Synthetic_Aperture_Radar_Tutorial
+Public
+Notifications
+You must be signed in to change notification settings
+Fork
+6
+(
+6
+)
+Star
+10
+(
+10
+)
+You must be signed in to star a repository
+About
+🛰 Ce script didacticiel contient des exemples d’utilisation d’images de missions RADARSAT en python et QGIS pour aider les utilisateurs à utiliser les données CSA en fonction de leurs besoins. 🛰 This tutorial script contains samples for using RADARSAT missions images in python and QGIS to help users to make use of CSA data based on their needs.
+Topics
+cartopy
+osgeo
+qgis
+synthetic-aperture-radar
+tutorial
+Resources
+Readme
+License
+Activity
+Custom properties
+Stars
+10
+stars
+Watchers
+2
+watching
+Forks
+6
+forks
+Report repository
+main
+Branches
+Tags
+Go to file
+Code
+Open more actions menu
+Latest commit
+History
+33 Commits
+33 Commits
+Folders and files
+Name
+Name
+Last commit message
+Last commit date
+Option 1 - QGIS
+Option 1 - QGIS
+Option 2 - Python
+Option 2 - Python
+LICENSE
+LICENSE
+README.md
+README.md
+View all files
+Repository files navigation
+README
+License
+More
+items
+Crédit d'image | Image credit:
+ASC-CSA
+Français
+|
+English (follows)
+Radar à synthèse d'ouverture (RSO) - Un tutoriel
+Description brève :
+Guide pour débutants sur le traçage de fichiers raster et de fichiers de formes des missions RADARSAT en Python et QGIS.
+À propos
+Radar à synthèse d'ouverture (RSO) - Un tutoriel
+est un guide pour débutants qui aide les utilisateurs à utiliser les données de mission RADARSAT pour le traçage de fichiers raster et de fichiers de formes en Python et QGIS. Il couvre :
+Utilisation de QGIS pour charger et visualiser des fichiers raster et vectoriels
+Traitement de données SAR avec Python via osgeo et cartopy
+Visualisation de données de feux de forêt de la Colombie-Britannique prises par RCM3
+Manipulation de fichiers de formes géographiques et de données raster
+Le tutoriel s'adresse aux débutants et offre un guide étape par étape pour guider les utilisateurs avec le traçage des fichiers raster et des fichiers de formes des missions RADARSAT en Python et QGIS. Sur cette page se trouvent les deux dossiers suivants :
+Option 1 - QGIS
+:
+Un fichier PDF avec un guide étape par étape sur l’utilisation de QGIS et le téléchargement d’un fichier raster et d’un fichier vectoriel.
+Un exemple de fichier raster tracé dans QGIS à partir de feux de forêt en Colombie-Britannique pris par RCM3 - OK2080033 (le lien se trouve ci-dessous).
+Option 2 - Python
+:
+Le carnet de notes Jupyter avec des exemples de traçage de fichiers raster via osgeo et cartopy.
+Note :
+Le fichier raster est basé sur les données RCM tirées du lien suivant :
+https://donnees-data.asc-csa.gc.ca/users/OpenData_DonneesOuvertes/pub/BC%20fires/
+Le fichier de formes est tiré du lien suivant :
+http://www.naturalearthdata.com/features/
+Ce tutoriel est fourni à des fins pédagogiques et expérimentales.
+Prérequis
+Python 3.8 ou plus récent
+Jupyter Notebook ou Jupyter Lab
+QGIS (pour l'Option 1)
+Bibliothèques Python : osgeo (GDAL), cartopy, matplotlib
+Connexion Internet (pour le téléchargement des données)
+Démarrage rapide
+📦
+Cloner le dépôt
+git clone https://github.com/asc-csa/Synthetic_Aperture_Radar_Tutorial.git
+cd
+Synthetic_Aperture_Radar_Tutorial
+🐍
+Créer un environnement
+#
+Avec virtualenv
+python -m venv env
+source
+env/bin/activate
+#
+Ou avec conda
+conda create -n sar_env python=3.8
+conda activate sar_env
+📥
+Installer les dépendances
+pip install -r requirements.txt
+🚀
+Lancer le tutoriel
+#
+Option 1 - QGIS : suivre le guide PDF
+#
+Option 2 - Python :
+jupyter notebook
+Remarque :
+Deux options sont disponibles - QGIS pour une approche GUI ou Python/Jupyter pour une approche programmatique.
+Astuces & Conseils
+QGIS :
+Téléchargez la version LTS pour une meilleure stabilité
+GDAL :
+Assurez-vous que GDAL est correctement installé pour la manipulation des rasters
+Données :
+Les fichiers exemple sont basés sur des données RCM réelles de feux de forêt en C.-B.
+Performance :
+Les fichiers raster peuvent être volumineux, assurez-vous d'avoir suffisamment d'espace de stockage
+Licence
+Ce projet est sous une licence MIT modifiée – voir le fichier
+LICENSE
+pour plus de détails.
+English
+|
+Français (précède)
+Synthetic Aperture Radar (SAR) - A tutorial
+Brief description:
+Beginner's guide to plotting RADARSAT mission raster and shapefiles in Python and QGIS.
+About
+Synthetic Aperture Radar (SAR) - A tutorial
+is a beginner's guide that helps users work with RADARSAT mission data for plotting raster files and shapefiles in Python and QGIS. It covers:
+Using QGIS to load and visualize raster and vector files
+Processing SAR data with Python via osgeo and cartopy
+Visualizing British Columbia wildfire data taken by RCM3
+Manipulating geographic shapefiles and raster data
+The tutorial is geared towards beginners and offers a step by step guide to direct users with plotting the raster files and shapefiles of RADARSAT missions in Python and QGIS. On this page the following two folders can be found:
+Option 1 - QGIS
+:
+A file with a step by step guide on using QGIS and uploading a raster and a vector file.
+An example of a plotted raster file in QGIS from British Columbia wildfires taken by RCM3 - OK2080033 (The link can be found below).
+Option 2 - Python
+:
+The Jupyter notebook with examples of plotting raster files via osgeo and cartopy.
+Note:
+The raster file is based on the RCM data from the following link:
+https://donnees-data.asc-csa.gc.ca/users/OpenData_DonneesOuvertes/pub/BC%20fires/
+The shapefile is taken from the following link:
+http://www.naturalearthdata.com/features/
+This tutorial is provided for educational and experimental purposes.
+Prerequisites
+Python 3.8 or newer
+Jupyter Notebook or Jupyter Lab
+QGIS (for Option 1)
+Python libraries: osgeo (GDAL), cartopy, matplotlib
+Internet connection (for data download)
+Quick Start
+📦
+Clone the repo
+git clone https://github.com/asc-csa/Synthetic_Aperture_Radar_Tutorial.git
+cd
+Synthetic_Aperture_Radar_Tutorial
+🐍
+Create environment
+#
+Using virtualenv
+python -m venv env
+source
+env/bin/activate
+#
+Or using conda
+conda create -n sar_env python=3.8
+conda activate sar_env
+📥
+Install dependencies
+pip install -r requirements.txt
+🚀
+Run the tutorial
+#
+Option 1 - QGIS: follow the PDF guide
+#
+Option 2 - Python:
+jupyter notebook
+Note:
+Two options are available - QGIS for a GUI approach or Python/Jupyter for a programmatic approach.
+Tips & Tricks
+QGIS:
+Download the LTS version for better stability
+GDAL:
+Ensure GDAL is properly installed for raster manipulation
+Data:
+Example files are based on real RCM data from B.C. wildfires
+Performance:
+Raster files can be large, ensure sufficient storage space
+License
+This project is licensed under a modified MIT license - see the
+LICENSE
+file for details.
+About
+🛰 Ce script didacticiel contient des exemples d’utilisation d’images de missions RADARSAT en python et QGIS pour aider les utilisateurs à utiliser les données CSA en fonction de leurs besoins. 🛰 This tutorial script contains samples for using RADARSAT missions images in python and QGIS to help users to make use of CSA data based on their needs.
+Topics
+cartopy
+osgeo
+qgis
+synthetic-aperture-radar
+tutorial
+Resources
+Readme
+License
+Activity
+Custom properties
+Stars
+10
+stars
+Watchers
+2
+watching
+Forks
+6
+forks
+Report repository
+Releases
+Packages
+Contributors
+Languages
+Footer
+© 2026 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Community
+Docs
+Contact
+Manage cookies
+Do not share my personal information
+You can’t perform that action at this time.

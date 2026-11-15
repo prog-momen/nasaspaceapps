@@ -1,0 +1,146 @@
+{
+  "id": "resource_R112",
+  "url": "https://software.nasa.gov/software/GSC-19468-1",
+  "checked_at": "2026-11-14T15:15:26.086246+00:00",
+  "tls_validation": false,
+  "status": 200,
+  "final_url": "https://software.nasa.gov/software/GSC-19468-1",
+  "bytes": 17711,
+  "content_type": "text/html; charset=utf-8",
+  "sha256": "cd0aab0eecb8b290a5355138c3dd3a69ba87c424432e9011b76608956a988580",
+  "links": [
+    {
+      "url": "https://technology.nasa.gov",
+      "label": ""
+    },
+    {
+      "url": "https://technology.nasa.gov/patents",
+      "label": "Patent Portfolio"
+    },
+    {
+      "url": "https://software.nasa.gov/",
+      "label": "Software Catalog"
+    },
+    {
+      "url": "https://spinoff.nasa.gov",
+      "label": "Spinoff"
+    },
+    {
+      "url": "https://technology.nasa.gov/virtual-events",
+      "label": "Virtual Events"
+    },
+    {
+      "url": "https://technology.nasa.gov/network",
+      "label": "Contact"
+    },
+    {
+      "url": "https://software.nasa.gov/software/GSC-19468-1",
+      "label": "Resources"
+    },
+    {
+      "url": "https://technology.nasa.gov/features",
+      "label": "Features"
+    },
+    {
+      "url": "https://technology.nasa.gov/license",
+      "label": "How to License"
+    },
+    {
+      "url": "https://technology.nasa.gov/t2u",
+      "label": "Technology Transfer University"
+    },
+    {
+      "url": "https://technology.nasa.gov/analytics",
+      "label": "Technology Transfer Metrics"
+    },
+    {
+      "url": "https://technology.nasa.gov/blog",
+      "label": "Blog"
+    },
+    {
+      "url": "https://technology.nasa.gov/ihof",
+      "label": "Inventors Hall of Fame"
+    },
+    {
+      "url": "https://software.nasa.gov/remotesensing",
+      "label": "Remote Sensing Toolkit"
+    },
+    {
+      "url": "https://technology.nasa.gov/assistive-technologies",
+      "label": "Assistive Technologies"
+    },
+    {
+      "url": "https://technology.nasa.gov/satellite-servicing",
+      "label": "Satellite Servicing Technologies"
+    },
+    {
+      "url": "https://technology.nasa.gov/strategic-framework",
+      "label": "NASA’s Technology Transfer Program Strategic Framework"
+    },
+    {
+      "url": "https://technology.nasa.gov/playlists",
+      "label": "Video Series"
+    },
+    {
+      "url": "https://technology.nasa.gov/advancing-commercial-space",
+      "label": "Advancing Commercial Space"
+    },
+    {
+      "url": "https://software.nasa.gov/login",
+      "label": "Log In"
+    },
+    {
+      "url": "https://software.nasa.gov/search",
+      "label": ""
+    },
+    {
+      "url": "https://www.nasa.gov",
+      "label": ""
+    },
+    {
+      "url": "https://sourceforge.net/projects/gmat/",
+      "label": "Download Now"
+    },
+    {
+      "url": "mailto:hq-dl-t2-ops-center@mail.nasa.gov",
+      "label": "hq-dl-t2-ops-center@mail.nasa.gov"
+    },
+    {
+      "url": "https://technology.nasa.gov/newsletter-registration",
+      "label": "Join our Newsletter"
+    },
+    {
+      "url": "https://www.facebook.com/NASATechnology",
+      "label": ""
+    },
+    {
+      "url": "https://x.com/NASA_Technology",
+      "label": ""
+    },
+    {
+      "url": "https://www.linkedin.com/company/nasa-technology-transfer-program",
+      "label": ""
+    },
+    {
+      "url": "https://www.youtube.com/nasaspacetech",
+      "label": ""
+    },
+    {
+      "url": "http://www.nasa.gov",
+      "label": ""
+    },
+    {
+      "url": "http://www.nasa.gov/about/highlights/HP_Privacy.html",
+      "label": "Privacy Policy"
+    },
+    {
+      "url": "https://www.nasa.gov/general/accessibility/",
+      "label": "Accessibility"
+    },
+    {
+      "url": "mailto:NHQ-DL-T2-Support@mail.nasa.gov",
+      "label": "Contact Us"
+    }
+  ],
+  "elapsed_seconds": 1.594
+}

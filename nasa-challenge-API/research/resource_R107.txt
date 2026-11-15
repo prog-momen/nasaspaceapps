@@ -1,0 +1,314 @@
+NEOSSat: observing asteroids, space debris and exoplanets | Canadian Space Agency
+Skip to main content
+Skip to "About government"
+Language selection
+Français
+fr
+/
+Gouvernement du Canada
+Search
+Search Canadian Space Agency
+Search
+Menu
+Main
+Menu
+Jobs and the workplace
+Immigration and citizenship
+Travel and tourism
+Business and industry
+Benefits
+Health
+Taxes
+Environment and natural resources
+National security and defence
+Culture, history and sport
+Policing, justice and emergencies
+Transport and infrastructure
+Canada and the world
+Money and finances
+Science and innovation
+You are here:
+Canada.ca
+Canadian Space Agency
+Discover the themes
+Satellites
+Top of page
+NEOSSat
+: observing asteroids, space debris and exoplanets
+NEOSSat
+:
+3D
+model. (Credit: Canadian Space Agency)
+Launch:
+February 25, 2013
+Status:
+Active
+Canada's agile space telescope
+NEOSSat
+is the world's first space telescope dedicated  to detecting and tracking asteroids, comets, satellites and space debris. The  suitcase-sized satellite orbits at an altitude of approximately 800 kilometres  above Earth. It circles the globe every 100 minutes, scanning space near the
+Sun
+to pinpoint asteroids and comets that may someday pass close  to
+Earth
+.
+NEOSSat
+is sweeping the skies observing satellites and  space debris as part of Canada's commitment to keeping space environment safe. It  can also reveal the presence of exoplanets around distant stars using light  intensity variation measurements.
+NEOSSat
+applies industry-leading reaction wheels  technology for which Canada has become known and has already demonstrated in  our very successful Microvariability and Oscillations of Stars (
+MOST
+)  satellite.
+Tracking asteroids and comets
+With
+NEOSSat
+, Canada is contributing to the  international effort to catalogue near-Earth asteroids and comets.
+Due to its lofty location, it is not limited by  the day-night cycle, unaffected by weather or atmospheric conditions, and can  operate 24/7. Therefore, it can look for near-Earth
+asteroids and comets
+that are difficult to spot using ground-based telescopes.
+Ok
+Comet C/2020-F3 (NEOWISE)  animation processed from
+NEOSSat
+images taken on
+July 23, 2020
+. (Credit: Canadian Space Agency [
+CSA
+])
+Space debris
+NEOSSat
+monitors orbiting space objects to help understand  their behaviour and conduct  research on techniques to reduce the risk of collisions. It is the first microsatellite  used for this purpose. Unlike ground-based telescopes,
+NEOSSat
+is able to:
+accurately track space objects not visible  from Canada
+collect data on emerging on-orbit situations
+As part of
+Defence Research  and Development Canada
+'s (
+DRDC
+) Space Domain Awareness project,
+NEOSSat
+'s High  Earth Orbit Space Surveillance (
+HEOSS
+) mission enables scientists to perform a  variety of experiments aimed at improving our understanding of both satellites  and space debris. The  information gathered by
+NEOSSat
+bolsters Canada's contribution to international  efforts to maintain the safety of Canadian and international space assets.
+NEOSSat
+image of
+RCM
+satellites on
+June 15, 2019
+, shortly after launch and before their  final orbital phasing. (Credits:
+DRDC
+,
+CSA
+)
+Monitoring planets around other stars
+How to find exoplanets
+Astronomers use
+NEOSSat
+to
+investigate subtle dimming of stars
+that
+reveals the presence of
+exoplanets
+as  they pass in front of their star.
+NEOSSat
+helps confirm the discovery of  these exoplanets and determine their orbital period, which complements the  science done with larger ground and space telescopes, such as
+NASA
+'s TESS  mission. This advances our understanding of exoplanets that will continue to be  studied by observatories such as the
+James Webb Space Telescope
+and Ariel, a European Space Agency mission.
+An
+exoplanet  is a planet that is outside our
+solar system
+. Exoplanets are found orbiting  a star other than our Sun. In the same way that our solar system contains eight  planets, other
+stars
+can have many exoplanets in orbit around them.
+An  artist's concept of exoplanet Kepler-186f. (Credit:
+NASA
+Ames/SETI Institute/
+JPL
+-Caltech)
+Ongoing space astronomy research and open data
+Astronomers  across Canada are using
+NEOSSat
+to:
+confirm the existence of exoplanets and better  understand them
+provide orbital data on near-Earth asteroids and  passing comets
+Since
+2019
+, we have provided Canadian  astronomers  with
+observation time
+on
+NEOSSat
+.
+All  astronomy data from
+NEOSSat
+is made available in accordance with
+Canada's Directive on Open Government
+. Images are downlinked, and  transmitted immediately to our
+Open data and information Portal
+, and archived by the National Research Council Canada as part of the
+Canadian Astronomy Data Centre
+.
+Space astronomy research projects
+Name of
+PI
+Institution
+GO cycle
+Project description
+Étienne Artigau
+Université de Montréal
+1
+Photometric Monitoring of Nearby M dwarfs: Disentangling Planets from  Activity
+David D. Balam
+National Research Council Canada/Dominion Astrophysical Observatory
+1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+Cycle 1: Astrometric Follow-up of
+NEOCP
+Asteroids and Comets
+Cycle 2, 3, 4, 5, 6, 7, 8, 9 and 10: Morphology and  Astrometry of Near-Sun Comets and Unusual Asteroids
+Aaron Boley
+University of British Columbia
+2
+TransitDot: Constraining Changes in Exoplanet Transits
+Emily Deibert
+University of Toronto
+1
+Constraining the Ephemerides of a Newly Discovered Young Planetary  System
+Chris Fox
+Western University
+1, 2, 3, 4, 5
+Cycle 1 and 2: Follow-up Transit Observations  of Confirmed TESS Exoplanet TOI-123b
+Cycle 3: Transit Observations of TESS Planet  Candidates TOI-1516b & TOI-2046b
+Cycle 4: Transit Observations of TESS Planet  Candidate TOI-2395.01 & Transit and Secondary Eclipse Observations of  WASP-43b
+Cycle 5: Transit Observations of TOI-2046.01 and TOI-2796.01
+Brett Gladman
+University of British Columbia
+1
+Fine time-scale monitoring of the first interstellar comet C/2019 Q4
+Samantha Lambier
+Western University
+5, 6
+Cycle 5: A
+NEOSSat
+Pilot to Measure Ultracool Dwarf Rotation Periods
+Cycle 6: Using
+NEOSSat
+to Discern Ultracool Dwarf  Rotation in Crowded TESS Fields
+Chris Mann
+Université de Montréal
+1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+Cycle 1, 2, and 3: Long-duration Exoplanet Transits
+Cycle 4: Catching an elusive re-transit of  TOI 2010.01 & Follow-up of warm/cool Jupiters
+Cycle 5 and 6: Follow-up of warm/cool Jupiters and  other long period exoplanets & catching an elusive re-transit of  TOI 2134.02
+Cycle 6: Transit recovery of extreme eccentricity  exoplanet
+Cycle 6: Revisit of HD 114082 to recover transit
+Cycle 6: Transit recovery of cold giant  planet TOI 429 b
+Cycle 7, 8, 9 and 10: Orbit refinement and alias confirmation for Long-period Exoplanets (ORACLE)
+Cycle 7 and 9: Revisit of TYC 8830 410 1 to monitor debris field dissipation
+Cycle  7: Uncovering the true period of the enigmatic V1298 Tau e
+Cycle  8: Transit recovery of
+HD
+114082 (ORACLE)
+Cycle  8: Alias search (ORACLE)
+Cycle  8: Transit recovery of long-period eccentric TIC33743172b (ORACLE)
+Jason Rowe
+Bishop's University
+1, 2, 3, 4, 5
+NEOSSat
+Observations of Transiting Exoplanets (NOTES) Survey
+Karun Thanjavur
+University of Victoria
+6, 7
+Cycle 6 and 7: Characterization of an Exoplanet Candidate Around an Unusual Variable Star, TOI 5375
+Paul Wiegert
+Western University
+1, 2, 4
+Cycle 1: Probing Activity on Near-Sun  Asteroids Near Perihelion
+Cycle 2: Observation of Periodic Near-Sun Objects & Tracing the Activity of Near-Sun Asteroid (3200) Phaethon Near Perihelion
+Cycle 4: Forward Scattering by comet C/2021 A1 (Leonard)
+Aidan MacDougall
+University of Waterloo
+7, 8
+Cycle 7 and 8: Confirming the variability of white dwarfs
+Michael Lesko
+University of Waterloo
+9, 10
+Cycle 9 and 10: The Impending Eruption of T CrB: Quantifying a Recurrent Nova in its Critical Phase
+Stanimir Metchev
+Western University
+9
+Cycle 9: Measuring the rotation of the brightest single ultracool dwarf in TESS
+Collaborators
+NEOSSat
+is  jointly funded by the
+CSA
+and
+DRDC
+.  The satellite was built by
+Microsat Systems  Canada
+Inc.
+, with support from  Spectral Applied Research and COM DEV International
+Ltd.
+(formerly Routes AstroEngineering). The
+CSA
+leads
+NEOSSat
+'s space astronomy mission, and
+DRDC
+is responsible for the
+HEOSS
+space  surveillance mission.
+Ok
+NEOSSat
+is used to observe near-Earth asteroids, comets, satellites and space debris, and to reveal the presence of exoplanets. (Credit:
+CSA
+)
+Explore further
+Satellites serving Earth
+Earth observation satellites
+Satellites
+Follow us
+Facebook: CanadianSpaceAgency
+X: @csa_asc
+Youtube: canadianspaceagency
+Instagram: canadianspaceagency
+Linkedin: Canadian Space Agency
+RSS
+Date modified:
+2026-03-20
+About this site
+Canadian Space Agency
+Contact the
+CSA
+About the
+CSA
+Notices and copyright
+Government of Canada
+All contacts
+Departments and agencies
+About government
+Themes and topics
+Jobs
+Immigration and citizenship
+Travel and tourism
+Business
+Benefits
+Health
+Taxes
+Environment and natural resources
+National security and defence
+Culture, history and sport
+Policing, justice and emergencies
+Transport and infrastructure
+Canada and the world
+Money and finances
+Science and innovation
+Indigenous Peoples
+Veterans and military
+Youth
+Manage life events
+Government of Canada Corporate
+Social media
+Mobile applications
+About Canada.ca
+Terms and conditions
+Privacy

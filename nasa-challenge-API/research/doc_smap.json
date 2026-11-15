@@ -1,0 +1,1090 @@
+{
+  "id": "doc_smap",
+  "url": "https://nsidc.org/data/spl3smp/versions/9",
+  "checked_at": "2026-11-14T15:13:41.453981+00:00",
+  "tls_validation": false,
+  "status": 200,
+  "final_url": "https://nsidc.org/data/spl3smp/versions/9",
+  "bytes": 135435,
+  "content_type": "text/html; charset=utf-8",
+  "sha256": "968040d8778319c407fb65166e0bb3243415ccc945ab5373fd29dce96c520684",
+  "links": [
+    {
+      "url": "https://nsidc.org/data/spl3smp/versions/9#off-canvas",
+      "label": "Menu"
+    },
+    {
+      "url": "https://nsidc.org/",
+      "label": "National Snow and Ice Data CenterNSIDC a part of CIRES at the University of Colorado Boulder"
+    },
+    {
+      "url": "https://nsidc.org/data/spl3smp/versions/9#main-content",
+      "label": "Skip to main content"
+    },
+    {
+      "url": "https://nsidc.org/news-analyses",
+      "label": "News & Analyses"
+    },
+    {
+      "url": "https://nsidc.org/news-analyses/news-stories",
+      "label": "News & Stories"
+    },
+    {
+      "url": "https://nsidc.org/sea-ice-today",
+      "label": "Sea Ice Today"
+    },
+    {
+      "url": "https://nsidc.org/ice-sheets-today",
+      "label": "Ice Sheets Today"
+    },
+    {
+      "url": "https://nsidc.org/snow-today",
+      "label": "Snow Today"
+    },
+    {
+      "url": "https://nsidc.org/news-analyses/about-our-analyses",
+      "label": "About our Analyses"
+    },
+    {
+      "url": "https://nsidc.org/news-analyses/multimedia",
+      "label": "Multimedia"
+    },
+    {
+      "url": "https://nsidc.org/data",
+      "label": "Data"
+    },
+    {
+      "url": "https://nsidc.org/data/explore-data",
+      "label": "Explore Data"
+    },
+    {
+      "url": "https://nsidc.org/data/visualize-data",
+      "label": "Visualize Data"
+    },
+    {
+      "url": "https://nsidc.org/data/submit-data",
+      "label": "Submit Data"
+    },
+    {
+      "url": "https://nsidc.org/data/user-resources",
+      "label": "User Resources"
+    },
+    {
+      "url": "https://nsidc.org/data/user-resources/get-started-nsidc-data",
+      "label": "Get Started with Data"
+    },
+    {
+      "url": "https://nsidc.org/data/user-resources/data-announcements",
+      "label": "Data Announcements"
+    },
+    {
+      "url": "https://nsidc.org/data/user-resources/help-center",
+      "label": "Help Center"
+    },
+    {
+      "url": "https://nsidc.org/data/user-resources/data-tools",
+      "label": "Data Tools"
+    },
+    {
+      "url": "https://nsidc.org/data/user-resources/documents",
+      "label": "Documents"
+    },
+    {
+      "url": "https://nsidc.org/data/user-resources/levels-service",
+      "label": "Levels of Service"
+    },
+    {
+      "url": "https://nsidc.org/data/user-resources/nasa-earthdata-forum",
+      "label": "NASA Earthdata Forum"
+    },
+    {
+      "url": "https://nsidc.org/data/data-programs",
+      "label": "Data Programs"
+    },
+    {
+      "url": "https://nsidc.org/data/data-programs/about-our-programs",
+      "label": "About our Programs"
+    },
+    {
+      "url": "https://nsidc.org/data/data-programs/nsidc-daac",
+      "label": "NASA National Snow and Ice Data Center Distributed Active Archive Center (NSIDC DAAC)"
+    },
+    {
+      "url": "https://nsidc.org/data/data-programs/noaa-nsidc",
+      "label": "NOAA at NSIDC"
+    },
+    {
+      "url": "https://nsidc.org/data/programs/eloka",
+      "label": "Exchange for Observations and Local Knowledge of the Arctic (ELOKA)"
+    },
+    {
+      "url": "https://nsidc.org/data/data-policies",
+      "label": "Data Policies"
+    },
+    {
+      "url": "https://nsidc.org/our-research",
+      "label": "Our Research"
+    },
+    {
+      "url": "https://nsidc.org/learn",
+      "label": "Learn"
+    },
+    {
+      "url": "https://nsidc.org/learn/what-cryosphere",
+      "label": "What is the Cryosphere?"
+    },
+    {
+      "url": "https://nsidc.org/learn/parts-cryosphere",
+      "label": "Parts of the Cryosphere"
+    },
+    {
+      "url": "https://nsidc.org/learn/parts-cryosphere/arctic-weather-and-climate",
+      "label": "Arctic Weather & Climate"
+    },
+    {
+      "url": "https://nsidc.org/learn/parts-cryosphere/frozen-ground-permafrost",
+      "label": "Frozen Ground & Permafrost"
+    },
+    {
+      "url": "https://nsidc.org/learn/parts-cryosphere/glaciers",
+      "label": "Glaciers"
+    },
+    {
+      "url": "https://nsidc.org/learn/parts-cryosphere/ice-sheets",
+      "label": "Ice Sheets"
+    },
+    {
+      "url": "https://nsidc.org/learn/parts-cryosphere/ice-shelves",
+      "label": "Ice Shelves"
+    },
+    {
+      "url": "https://nsidc.org/learn/parts-cryosphere/sea-ice",
+      "label": "Sea Ice"
+    },
+    {
+      "url": "https://nsidc.org/learn/parts-cryosphere/snow",
+      "label": "Snow"
+    },
+    {
+      "url": "https://nsidc.org/learn/ask-scientist",
+      "label": "Ask a Scientist"
+    },
+    {
+      "url": "https://nsidc.org/learn/cryosphere-glossary",
+      "label": "Cryosphere glossary"
+    },
+    {
+      "url": "https://nsidc.org/about",
+      "label": "About"
+    },
+    {
+      "url": "https://nsidc.org/about/about-nsidc",
+      "label": "About NSIDC"
+    },
+    {
+      "url": "https://nsidc.org/about/about-nsidc/what-we-do",
+      "label": "What We Do"
+    },
+    {
+      "url": "https://nsidc.org/about/about-nsidc/what-we-do/our-people",
+      "label": "Our People"
+    },
+    {
+      "url": "https://nsidc.org/about/about-nsidc/what-we-do/published-research",
+      "label": "Published Research"
+    },
+    {
+      "url": "https://nsidc.org/about/about-nsidc/what-we-do/our-history",
+      "label": "Our History"
+    },
+    {
+      "url": "https://nsidc.org/about/about-nsidc/what-we-do/careers",
+      "label": "Careers"
+    },
+    {
+      "url": "https://nsidc.org/about/about-nsidc/what-we-do/50th-anniversary",
+      "label": "50th Anniversary"
+    },
+    {
+      "url": "https://nsidc.org/about/media",
+      "label": "For the Media"
+    },
+    {
+      "url": "https://nsidc.org/about/contact-us",
+      "label": "Contact Us"
+    },
+    {
+      "url": "https://nsidc.org/about/data-use-and-copyright",
+      "label": "Citation Policies"
+    },
+    {
+      "url": "https://nsidc.org/about/protecting-your-privacy",
+      "label": "Protecting Your Privacy"
+    },
+    {
+      "url": "https://nsidc.org/about/land-acknowledgement",
+      "label": "Land Acknowledgement"
+    },
+    {
+      "url": "https://nsidc.org/search/node",
+      "label": "Search"
+    },
+    {
+      "url": "https://www.addtoany.com/share#url=https%3A%2F%2Fnsidc.org%2Fdata%2Fspl3smp%2Fversions%2F9&title=SMAP%20L3%20Radiometer%20Global%20Daily%2036%20km%20EASE-Grid%20Soil%20Moisture%2C%20Version%209",
+      "label": ""
+    },
+    {
+      "url": "https://nsidc.org/news-analyses",
+      "label": "News & Analyses"
+    },
+    {
+      "url": "https://nsidc.org/news-analyses/news-stories",
+      "label": "News & Stories"
+    },
+    {
+      "url": "https://nsidc.org/sea-ice-today",
+      "label": "Sea Ice Today"
+    },
+    {
+      "url": "https://nsidc.org/ice-sheets-today",
+      "label": "Ice Sheets Today"
+    },
+    {
+      "url": "https://nsidc.org/snow-today",
+      "label": "Snow Today"
+    },
+    {
+      "url": "https://nsidc.org/news-analyses/about-our-analyses",
+      "label": "About our Analyses"
+    },
+    {
+      "url": "https://nsidc.org/news-analyses/multimedia",
+      "label": "Multimedia"
+    },
+    {
+      "url": "https://nsidc.org/data",
+      "label": "Data"
+    },
+    {
+      "url": "https://nsidc.org/data/explore-data",
+      "label": "Explore Data"
+    },
+    {
+      "url": "https://nsidc.org/data/visualize-data",
+      "label": "Visualize Data"
+    },
+    {
+      "url": "https://nsidc.org/data/submit-data",
+      "label": "Submit Data"
+    },
+    {
+      "url": "https://nsidc.org/data/user-resources",
+      "label": "User Resources"
+    },
+    {
+      "url": "https://nsidc.org/data/user-resources/get-started-nsidc-data",
+      "label": "Get Started with Data"
+    },
+    {
+      "url": "https://nsidc.org/data/user-resources/data-announcements",
+      "label": "Data Announcements"
+    },
+    {
+      "url": "https://nsidc.org/data/user-resources/help-center",
+      "label": "Help Center"
+    },
+    {
+      "url": "https://nsidc.org/data/user-resources/data-tools",
+      "label": "Data Tools"
+    },
+    {
+      "url": "https://nsidc.org/data/user-resources/documents",
+      "label": "Documents"
+    },
+    {
+      "url": "https://nsidc.org/data/user-resources/levels-service",
+      "label": "Levels of Service"
+    },
+    {
+      "url": "https://nsidc.org/data/user-resources/nasa-earthdata-forum",
+      "label": "NASA Earthdata Forum"
+    },
+    {
+      "url": "https://nsidc.org/data/data-programs",
+      "label": "Data Programs"
+    },
+    {
+      "url": "https://nsidc.org/data/data-programs/about-our-programs",
+      "label": "About our Programs"
+    },
+    {
+      "url": "https://nsidc.org/data/data-programs/nsidc-daac",
+      "label": "NASA National Snow and Ice Data Center Distributed Active Archive Center (NSIDC DAAC)"
+    },
+    {
+      "url": "https://nsidc.org/data/data-programs/noaa-nsidc",
+      "label": "NOAA at NSIDC"
+    },
+    {
+      "url": "https://nsidc.org/data/programs/eloka",
+      "label": "Exchange for Observations and Local Knowledge of the Arctic (ELOKA)"
+    },
+    {
+      "url": "https://nsidc.org/data/data-policies",
+      "label": "Data Policies"
+    },
+    {
+      "url": "https://nsidc.org/our-research",
+      "label": "Our Research"
+    },
+    {
+      "url": "https://nsidc.org/learn",
+      "label": "Learn"
+    },
+    {
+      "url": "https://nsidc.org/learn/what-cryosphere",
+      "label": "What is the Cryosphere?"
+    },
+    {
+      "url": "https://nsidc.org/learn/parts-cryosphere",
+      "label": "Parts of the Cryosphere"
+    },
+    {
+      "url": "https://nsidc.org/learn/parts-cryosphere/arctic-weather-and-climate",
+      "label": "Arctic Weather & Climate"
+    },
+    {
+      "url": "https://nsidc.org/learn/parts-cryosphere/frozen-ground-permafrost",
+      "label": "Frozen Ground & Permafrost"
+    },
+    {
+      "url": "https://nsidc.org/learn/parts-cryosphere/glaciers",
+      "label": "Glaciers"
+    },
+    {
+      "url": "https://nsidc.org/learn/parts-cryosphere/ice-sheets",
+      "label": "Ice Sheets"
+    },
+    {
+      "url": "https://nsidc.org/learn/parts-cryosphere/ice-shelves",
+      "label": "Ice Shelves"
+    },
+    {
+      "url": "https://nsidc.org/learn/parts-cryosphere/sea-ice",
+      "label": "Sea Ice"
+    },
+    {
+      "url": "https://nsidc.org/learn/parts-cryosphere/snow",
+      "label": "Snow"
+    },
+    {
+      "url": "https://nsidc.org/learn/ask-scientist",
+      "label": "Ask a Scientist"
+    },
+    {
+      "url": "https://nsidc.org/learn/cryosphere-glossary",
+      "label": "Cryosphere glossary"
+    },
+    {
+      "url": "https://nsidc.org/about",
+      "label": "About"
+    },
+    {
+      "url": "https://nsidc.org/about/about-nsidc",
+      "label": "About NSIDC"
+    },
+    {
+      "url": "https://nsidc.org/about/about-nsidc/what-we-do",
+      "label": "What We Do"
+    },
+    {
+      "url": "https://nsidc.org/about/about-nsidc/what-we-do/our-people",
+      "label": "Our People"
+    },
+    {
+      "url": "https://nsidc.org/about/about-nsidc/what-we-do/published-research",
+      "label": "Published Research"
+    },
+    {
+      "url": "https://nsidc.org/about/about-nsidc/what-we-do/our-history",
+      "label": "Our History"
+    },
+    {
+      "url": "https://nsidc.org/about/about-nsidc/what-we-do/careers",
+      "label": "Careers"
+    },
+    {
+      "url": "https://nsidc.org/about/about-nsidc/what-we-do/50th-anniversary",
+      "label": "50th Anniversary"
+    },
+    {
+      "url": "https://nsidc.org/about/media",
+      "label": "For the Media"
+    },
+    {
+      "url": "https://nsidc.org/about/contact-us",
+      "label": "Contact Us"
+    },
+    {
+      "url": "https://nsidc.org/about/data-use-and-copyright",
+      "label": "Citation Policies"
+    },
+    {
+      "url": "https://nsidc.org/about/protecting-your-privacy",
+      "label": "Protecting Your Privacy"
+    },
+    {
+      "url": "https://nsidc.org/about/land-acknowledgement",
+      "label": "Land Acknowledgement"
+    },
+    {
+      "url": "https://nsidc.org/",
+      "label": "Home"
+    },
+    {
+      "url": "https://nsidc.org/data",
+      "label": "Data"
+    },
+    {
+      "url": "https://nsidc.org/data/spl3smp/versions/9",
+      "label": ""
+    },
+    {
+      "url": "https://doi.org/10.5067/4XXOGX0OOW1S",
+      "label": "https://doi.org/10.5067/4XXOGX0OOW1S"
+    },
+    {
+      "url": "https://data.crosscite.org/application/x-research-info-systems/10.5067/4XXOGX0OOW1S",
+      "label": "RIS"
+    },
+    {
+      "url": "https://data.crosscite.org/application/x-bibtex/10.5067/4XXOGX0OOW1S",
+      "label": "BIBTEX"
+    },
+    {
+      "url": "https://citation.doi.org",
+      "label": "DOI Citation Formatter website"
+    },
+    {
+      "url": "https://nsidc.org/about/data-use-and-copyright",
+      "label": "Citation Policies"
+    },
+    {
+      "url": "https://nsidc.org/data/level-of-service",
+      "label": "See All Level of Service Details"
+    },
+    {
+      "url": "https://nsidc.org/data/smap/version-history",
+      "label": "https://nsidc.org/data/smap/version-history"
+    },
+    {
+      "url": "https://nsidc.org/api/dataset/metadata/v2/oai?verb=GetRecord&metadataPrefix=dif&identifier=SPL3SMP.009",
+      "label": "View Metadata Record"
+    },
+    {
+      "url": "https://urs.earthdata.nasa.gov/",
+      "label": "Learn More"
+    },
+    {
+      "url": "https://nsidc.org/data/data-access-tool/SPL3SMP/versions/9/",
+      "label": "Data Access Tool"
+    },
+    {
+      "url": "https://nsidc.org/data/spl3smp/versions/9",
+      "label": ""
+    },
+    {
+      "url": "https://nsidc.org/data/data-access-tool/",
+      "label": "Search & DiscoverGet Data"
+    },
+    {
+      "url": "https://nsidc.org/support/how/search-filter-and-order-nsidc-data",
+      "label": "How to filter and order from a data set web page"
+    },
+    {
+      "url": "https://nsidc.org/data/user-resources/help-center/how-to-use-earthdata-download",
+      "label": "How to use Earthdata Download"
+    },
+    {
+      "url": "https://cmr.earthdata.nasa.gov/search/tools.umm_json?concept-id%5B%5D=TL4019511337-NSIDC_CPRD",
+      "label": "View Metadata"
+    },
+    {
+      "url": "https://search.earthdata.nasa.gov/search/granules?p=C2938664585-NSIDC_CPRD",
+      "label": "NASA Earthdata Search"
+    },
+    {
+      "url": "https://nsidc.org/data/spl3smp/versions/9",
+      "label": ""
+    },
+    {
+      "url": "https://search.earthdata.nasa.gov/search",
+      "label": "VisualizeSearch & DiscoverGet Data"
+    },
+    {
+      "url": "https://nsidc.org/support/how/search-order-and-customize-nsidc-daac-data-nasa-earthdata-search",
+      "label": "How to search, order, and customize data with NASA Earthdata Search"
+    },
+    {
+      "url": "https://cmr.earthdata.nasa.gov/virtual-directory/collections/C2938664585-NSIDC_CPRD",
+      "label": "HTTPS File System"
+    },
+    {
+      "url": "https://nsidc.org/data/user-resources/help-center/nasa-earthdata-cloud-data-access-guide#anchor-download-to-a-local-computer-from-earthdata-cloud",
+      "label": "Get Data"
+    },
+    {
+      "url": "https://nsidc.org/data/user-resources/help-center/nasa-earthdata-cloud-data-access-guide#anchor-download-to-a-local-computer-from-earthdata-cloud",
+      "label": ""
+    },
+    {
+      "url": "https://nsidc.org/data/user-resources/help-center/nasa-earthdata-cloud-data-access-guide#anchor-download-to-a-local-computer-from-earthdata-cloud",
+      "label": "NASA Earthdata Cloud Data Access Guide"
+    },
+    {
+      "url": "https://earthaccess.readthedocs.io/en/stable/",
+      "label": "earthaccess"
+    },
+    {
+      "url": "https://nsidc.org/data/spl3smp/versions/9",
+      "label": ""
+    },
+    {
+      "url": "https://earthaccess.readthedocs.io/en/stable/",
+      "label": "Get DataSearch & Discover"
+    },
+    {
+      "url": "https://github.com/earthaccess-dev/earthaccess",
+      "label": "GitHub Repository"
+    },
+    {
+      "url": "https://cmr.earthdata.nasa.gov/search/tools.umm_json?concept-id%5B%5D=TL3010466318-NSIDC_CPRD",
+      "label": "View Metadata"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs",
+      "label": "Harmony Transformation Services"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs",
+      "label": "CustomizeGet Data"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs",
+      "label": ""
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/docs",
+      "label": "NASA Earthdata Harmony documentation"
+    },
+    {
+      "url": "https://nsidc.org/data/user-resources/help-center/search-order-and-customize-nsidc-daac-data-nasa-earthdata-search",
+      "label": "Search, order and customize NSIDC DAAC data using NASA Earthdata Search"
+    },
+    {
+      "url": "https://nasa-openscapes.github.io/earthdata-cloud-cookbook/tutorials/Harmony.html",
+      "label": "Subsetting NASA Earthdata using Harmony (harmony-py)"
+    },
+    {
+      "url": "https://nsidc.org/data/user-resources/help-center/harmony-api-quickstart-guide-customizing-nasa-nsidc-daac-data-earthdata-cloud",
+      "label": "Harmony API Quickstart Guide: Customizing NASA NSIDC DAAC data in Earthdata Cloud"
+    },
+    {
+      "url": "https://worldview.earthdata.nasa.gov/?v=-193,-69,134,83&l=SMAP_L3_Passive_Brightness_Temp_V,SMAP_L3_Passive_Day_Soil_Moisture,SMAP_L3_Passive_Night_Soil_Moisture,SMAP_L3_Passive_Brightness_Temp_H,Coastlines_15m,MODIS_Terra_CorrectedReflectance_TrueColor&t=2015-03-31",
+      "label": "NASA Worldview"
+    },
+    {
+      "url": "https://nsidc.org/data/spl3smp/versions/9",
+      "label": ""
+    },
+    {
+      "url": "https://worldview.earthdata.nasa.gov/",
+      "label": "VisualizeSearch & DiscoverGet DataCustomizeGIS"
+    },
+    {
+      "url": "https://nsidc.org/support/how/visualize-and-download-nsidc-data-nasa-worldview",
+      "label": "How to visualize and download data with NASA Worldview"
+    },
+    {
+      "url": "https://nsidc.org/data/user-resources/help-center/nasa-earthdata-cloud-data-access-guide",
+      "label": "NASA Earthdata Cloud (AWS S3)"
+    },
+    {
+      "url": "https://nsidc.org/data/user-resources/help-center/nasa-earthdata-cloud-data-access-guide",
+      "label": "Get Data"
+    },
+    {
+      "url": "https://nsidc.org/data/user-resources/help-center/nasa-earthdata-cloud-data-access-guide",
+      "label": ""
+    },
+    {
+      "url": "https://nsidc.org/data/user-resources/help-center/nasa-earthdata-cloud-data-access-guide",
+      "label": "NASA Earthdata Cloud Data Access Guide"
+    },
+    {
+      "url": "https://data.nsidc.earthdatacloud.nasa.gov/s3credentials",
+      "label": "AWS S3 Credentials"
+    },
+    {
+      "url": "https://cmr.earthdata.nasa.gov/search/services.umm_json?concept-id%5B%5D=S2472217299-NSIDC_CPRD",
+      "label": "View Metadata"
+    },
+    {
+      "url": "https://appeears.earthdatacloud.nasa.gov/",
+      "label": "AppEEARS"
+    },
+    {
+      "url": "https://nsidc.org/data/spl3smp/versions/9",
+      "label": ""
+    },
+    {
+      "url": "https://appeears.earthdatacloud.nasa.gov/",
+      "label": "VisualizeAnalyzeGet DataSearch & DiscoverGISCustomize"
+    },
+    {
+      "url": "https://nsidc.org/support/how/extract-point-and-area-data-samples-using-appeears",
+      "label": "How to extract point and area data"
+    },
+    {
+      "url": "https://github.com/nsidc/NSIDC-Data-Tutorials/tree/main/notebooks/SMAP",
+      "label": "SMAP Python Notebooks"
+    },
+    {
+      "url": "https://nsidc.org/data/spl3smp/versions/9",
+      "label": ""
+    },
+    {
+      "url": "https://github.com/nsidc/NSIDC-Data-Tutorials/tree/main/notebooks/SMAP",
+      "label": "Get DataVisualize"
+    },
+    {
+      "url": "https://github.com/nsidc/NSIDC-Data-Tutorials/tree/main/notebooks/SMAP",
+      "label": "https://github.com/nsidc/NSIDC-Data-Tutorials/tree/main/notebooks/SMAP"
+    },
+    {
+      "url": "https://cmr.earthdata.nasa.gov/search/tools.umm_json?concept-id%5B%5D=TL3965403834-NSIDC_CPRD",
+      "label": "View Metadata"
+    },
+    {
+      "url": "https://nsidc.org/sites/default/files/documents/user-guide/spl3smp-v009-userguide.pdf",
+      "label": "SPL3SMP User Guide Version 9 [2023]"
+    },
+    {
+      "url": "https://nsidc.org/sites/default/files/l2_sm_p_atbd_rev_g_final_oct2021_0.pdf",
+      "label": "SPL2/3SMP/_E Algorithm Theoretical Basis Document [2021]"
+    },
+    {
+      "url": "https://nsidc.org/sites/default/files/d7255120smap20l3_sm_p20psd_version2080_final.pdf",
+      "label": "SPL3SMP Product Specification Document [2021]"
+    },
+    {
+      "url": "https://eepurl.com/idIjvL",
+      "label": "Subscribe to Our Newsletter"
+    },
+    {
+      "url": "https://www.facebook.com/nsidc",
+      "label": ""
+    },
+    {
+      "url": "https://www.flickr.com/photos/nsidc/albums",
+      "label": ""
+    },
+    {
+      "url": "https://www.youtube.com/channel/UCQxQlcjXuh32ctfX3QHiyRg",
+      "label": ""
+    },
+    {
+      "url": "https://www.twitter.com/NSIDC",
+      "label": ""
+    },
+    {
+      "url": "https://nsidc.org/news-analyses/news-stories",
+      "label": "News & Stories"
+    },
+    {
+      "url": "https://nsidc.org/learn",
+      "label": "Learn About Snow & Ice"
+    },
+    {
+      "url": "https://nsidc.org/news-analyses/about-our-analyses",
+      "label": "Current Conditions & Analyses"
+    },
+    {
+      "url": "https://nsidc.org/our-research/featured-projects",
+      "label": "Featured Research"
+    },
+    {
+      "url": "https://nsidc.org/about/about-nsidc/what-we-do/careers",
+      "label": "Careers"
+    },
+    {
+      "url": "https://nsidc.org/about/media",
+      "label": "For the Media"
+    },
+    {
+      "url": "https://nsidc.org/news-analyses",
+      "label": "Current Conditions & Analyses"
+    },
+    {
+      "url": "https://nsidc.org/data/explore-data",
+      "label": "Explore Data"
+    },
+    {
+      "url": "https://nsidc.org/data/user-resources/help-center",
+      "label": "Help Center"
+    },
+    {
+      "url": "https://nsidc.org/our-research",
+      "label": "Our Research"
+    },
+    {
+      "url": "https://nsidc.org/learn",
+      "label": "Snow, Ice & the Cryosphere"
+    },
+    {
+      "url": "https://nsidc.org/data/seaice_index",
+      "label": "Sea Ice Index"
+    },
+    {
+      "url": "https://nsidc.org/sea-ice-today",
+      "label": "Sea Ice Today - data & analyses"
+    },
+    {
+      "url": "https://nsidc.org/ice-sheets-today",
+      "label": "Ice Sheets Today - data & analyses"
+    },
+    {
+      "url": "https://nsidc.org/snow-today",
+      "label": "Snow Today - data & analyses"
+    },
+    {
+      "url": "https://nsidc.org/data/explore-data",
+      "label": "Explore Data"
+    },
+    {
+      "url": "https://nsidc.org/data/explore-data",
+      "label": "Explore Data"
+    },
+    {
+      "url": "https://nsidc.org/about/data-use-and-copyright",
+      "label": "Citation Policies"
+    },
+    {
+      "url": "https://nsidc.org/our-research",
+      "label": "NSIDC Research"
+    },
+    {
+      "url": "https://nsidc.org/our-research/scientists",
+      "label": "Our Scientists"
+    },
+    {
+      "url": "https://nsidc.org/data/submit-data",
+      "label": "Submit Data"
+    },
+    {
+      "url": "https://nsidc.org/news-analyses/news-stories",
+      "label": "News & Stories"
+    },
+    {
+      "url": "https://nsidc.org/learn",
+      "label": "Learn About Snow & Ice"
+    },
+    {
+      "url": "https://nsidc.org/news-analyses/about-our-analyses",
+      "label": "Current Conditions & Analyses"
+    },
+    {
+      "url": "https://nsidc.org/our-research/featured-projects",
+      "label": "Featured Research"
+    },
+    {
+      "url": "https://nsidc.org/about/about-nsidc/what-we-do/careers",
+      "label": "Careers"
+    },
+    {
+      "url": "https://nsidc.org/about/media",
+      "label": "For the Media"
+    },
+    {
+      "url": "https://nsidc.org/news-analyses",
+      "label": "Current Conditions & Analyses"
+    },
+    {
+      "url": "https://nsidc.org/data/explore-data",
+      "label": "Explore Data"
+    },
+    {
+      "url": "https://nsidc.org/data/user-resources/help-center",
+      "label": "Help Center"
+    },
+    {
+      "url": "https://nsidc.org/our-research",
+      "label": "Our Research"
+    },
+    {
+      "url": "https://nsidc.org/learn",
+      "label": "Snow, Ice & the Cryosphere"
+    },
+    {
+      "url": "https://nsidc.org/data/seaice_index",
+      "label": "Sea Ice Index"
+    },
+    {
+      "url": "https://nsidc.org/sea-ice-today",
+      "label": "Sea Ice Today - data & analyses"
+    },
+    {
+      "url": "https://nsidc.org/ice-sheets-today",
+      "label": "Ice Sheets Today - data & analyses"
+    },
+    {
+      "url": "https://nsidc.org/snow-today",
+      "label": "Snow Today - data & analyses"
+    },
+    {
+      "url": "https://nsidc.org/data/explore-data",
+      "label": "Explore Data"
+    },
+    {
+      "url": "https://nsidc.org/data/explore-data",
+      "label": "Explore Data"
+    },
+    {
+      "url": "https://nsidc.org/about/data-use-and-copyright",
+      "label": "Citation Policies"
+    },
+    {
+      "url": "https://nsidc.org/our-research",
+      "label": "NSIDC Research"
+    },
+    {
+      "url": "https://nsidc.org/our-research/scientists",
+      "label": "Our Scientists"
+    },
+    {
+      "url": "https://nsidc.org/data/submit-data",
+      "label": "Submit Data"
+    },
+    {
+      "url": "https://www.worlddatasystem.org/",
+      "label": ""
+    },
+    {
+      "url": "https://cires.colorado.edu/",
+      "label": ""
+    },
+    {
+      "url": "https://www.colorado.edu/",
+      "label": ""
+    },
+    {
+      "url": "http://www.nasa.gov",
+      "label": ""
+    },
+    {
+      "url": "https://nsidc.org/news-analyses",
+      "label": "News & Analyses"
+    },
+    {
+      "url": "https://nsidc.org/news-analyses/news-stories",
+      "label": "News & Stories"
+    },
+    {
+      "url": "https://nsidc.org/sea-ice-today",
+      "label": "Sea Ice Today"
+    },
+    {
+      "url": "https://nsidc.org/ice-sheets-today",
+      "label": "Ice Sheets Today"
+    },
+    {
+      "url": "https://nsidc.org/snow-today",
+      "label": "Snow Today"
+    },
+    {
+      "url": "https://nsidc.org/news-analyses/about-our-analyses",
+      "label": "About our Analyses"
+    },
+    {
+      "url": "https://nsidc.org/news-analyses/multimedia",
+      "label": "Multimedia"
+    },
+    {
+      "url": "https://nsidc.org/data",
+      "label": "Data"
+    },
+    {
+      "url": "https://nsidc.org/data/explore-data",
+      "label": "Explore Data"
+    },
+    {
+      "url": "https://nsidc.org/data/visualize-data",
+      "label": "Visualize Data"
+    },
+    {
+      "url": "https://nsidc.org/data/submit-data",
+      "label": "Submit Data"
+    },
+    {
+      "url": "https://nsidc.org/data/user-resources",
+      "label": "User Resources"
+    },
+    {
+      "url": "https://nsidc.org/data/user-resources/get-started-nsidc-data",
+      "label": "Get Started with Data"
+    },
+    {
+      "url": "https://nsidc.org/data/user-resources/data-announcements",
+      "label": "Data Announcements"
+    },
+    {
+      "url": "https://nsidc.org/data/user-resources/help-center",
+      "label": "Help Center"
+    },
+    {
+      "url": "https://nsidc.org/data/user-resources/data-tools",
+      "label": "Data Tools"
+    },
+    {
+      "url": "https://nsidc.org/data/user-resources/documents",
+      "label": "Documents"
+    },
+    {
+      "url": "https://nsidc.org/data/user-resources/levels-service",
+      "label": "Levels of Service"
+    },
+    {
+      "url": "https://nsidc.org/data/user-resources/nasa-earthdata-forum",
+      "label": "NASA Earthdata Forum"
+    },
+    {
+      "url": "https://nsidc.org/data/data-programs",
+      "label": "Data Programs"
+    },
+    {
+      "url": "https://nsidc.org/data/data-programs/about-our-programs",
+      "label": "About our Programs"
+    },
+    {
+      "url": "https://nsidc.org/data/data-programs/nsidc-daac",
+      "label": "NASA National Snow and Ice Data Center Distributed Active Archive Center (NSIDC DAAC)"
+    },
+    {
+      "url": "https://nsidc.org/data/data-programs/noaa-nsidc",
+      "label": "NOAA at NSIDC"
+    },
+    {
+      "url": "https://nsidc.org/data/programs/eloka",
+      "label": "Exchange for Observations and Local Knowledge of the Arctic (ELOKA)"
+    },
+    {
+      "url": "https://nsidc.org/data/data-policies",
+      "label": "Data Policies"
+    },
+    {
+      "url": "https://nsidc.org/our-research",
+      "label": "Our Research"
+    },
+    {
+      "url": "https://nsidc.org/learn",
+      "label": "Learn"
+    },
+    {
+      "url": "https://nsidc.org/learn/what-cryosphere",
+      "label": "What is the Cryosphere?"
+    },
+    {
+      "url": "https://nsidc.org/learn/parts-cryosphere",
+      "label": "Parts of the Cryosphere"
+    },
+    {
+      "url": "https://nsidc.org/learn/parts-cryosphere/arctic-weather-and-climate",
+      "label": "Arctic Weather & Climate"
+    },
+    {
+      "url": "https://nsidc.org/learn/parts-cryosphere/frozen-ground-permafrost",
+      "label": "Frozen Ground & Permafrost"
+    },
+    {
+      "url": "https://nsidc.org/learn/parts-cryosphere/glaciers",
+      "label": "Glaciers"
+    },
+    {
+      "url": "https://nsidc.org/learn/parts-cryosphere/ice-sheets",
+      "label": "Ice Sheets"
+    },
+    {
+      "url": "https://nsidc.org/learn/parts-cryosphere/ice-shelves",
+      "label": "Ice Shelves"
+    },
+    {
+      "url": "https://nsidc.org/learn/parts-cryosphere/sea-ice",
+      "label": "Sea Ice"
+    },
+    {
+      "url": "https://nsidc.org/learn/parts-cryosphere/snow",
+      "label": "Snow"
+    },
+    {
+      "url": "https://nsidc.org/learn/ask-scientist",
+      "label": "Ask a Scientist"
+    },
+    {
+      "url": "https://nsidc.org/learn/cryosphere-glossary",
+      "label": "Cryosphere glossary"
+    },
+    {
+      "url": "https://nsidc.org/about",
+      "label": "About"
+    },
+    {
+      "url": "https://nsidc.org/about/about-nsidc",
+      "label": "About NSIDC"
+    },
+    {
+      "url": "https://nsidc.org/about/about-nsidc/what-we-do",
+      "label": "What We Do"
+    },
+    {
+      "url": "https://nsidc.org/about/about-nsidc/what-we-do/our-people",
+      "label": "Our People"
+    },
+    {
+      "url": "https://nsidc.org/about/about-nsidc/what-we-do/published-research",
+      "label": "Published Research"
+    },
+    {
+      "url": "https://nsidc.org/about/about-nsidc/what-we-do/our-history",
+      "label": "Our History"
+    },
+    {
+      "url": "https://nsidc.org/about/about-nsidc/what-we-do/careers",
+      "label": "Careers"
+    },
+    {
+      "url": "https://nsidc.org/about/about-nsidc/what-we-do/50th-anniversary",
+      "label": "50th Anniversary"
+    },
+    {
+      "url": "https://nsidc.org/about/media",
+      "label": "For the Media"
+    },
+    {
+      "url": "https://nsidc.org/about/contact-us",
+      "label": "Contact Us"
+    },
+    {
+      "url": "https://nsidc.org/about/data-use-and-copyright",
+      "label": "Citation Policies"
+    },
+    {
+      "url": "https://nsidc.org/about/protecting-your-privacy",
+      "label": "Protecting Your Privacy"
+    },
+    {
+      "url": "https://nsidc.org/about/land-acknowledgement",
+      "label": "Land Acknowledgement"
+    }
+  ],
+  "elapsed_seconds": 5.391
+}

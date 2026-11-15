@@ -1,0 +1,402 @@
+{
+  "id": "resource_R029",
+  "url": "https://ccmc.gsfc.nasa.gov/tools/DONKI/",
+  "checked_at": "2026-11-14T15:15:11.648358+00:00",
+  "tls_validation": false,
+  "status": 200,
+  "final_url": "https://ccmc.gsfc.nasa.gov/tools/DONKI/",
+  "bytes": 59875,
+  "content_type": "text/html; charset=UTF-8",
+  "sha256": "598b8b6691ae08bb804dc4aeec04fa55c99a1bc44c6976cf97a4ff3dfc26f365",
+  "links": [
+    {
+      "url": "https://www.nasa.gov",
+      "label": ""
+    },
+    {
+      "url": "https://ccmc.gsfc.nasa.gov/",
+      "label": "Community Coordinated Modeling CenterCCMC"
+    },
+    {
+      "url": "https://ccmc.gsfc.nasa.gov/staff/",
+      "label": "Staff"
+    },
+    {
+      "url": "https://ccmc.gsfc.nasa.gov/news/",
+      "label": "News"
+    },
+    {
+      "url": "https://ccmc.gsfc.nasa.gov/ccmc-workshops/",
+      "label": "CCMC Workshops"
+    },
+    {
+      "url": "https://ccmc.gsfc.nasa.gov/history/",
+      "label": "History"
+    },
+    {
+      "url": "https://ccmc.gsfc.nasa.gov/logo/",
+      "label": "Logo"
+    },
+    {
+      "url": "https://ccmc.gsfc.nasa.gov/faq/",
+      "label": "FAQ"
+    },
+    {
+      "url": "https://ccmc.gsfc.nasa.gov/static/files/CONOPS_final.pdf",
+      "label": "Concept of Operations (2002)"
+    },
+    {
+      "url": "https://ccmc.gsfc.nasa.gov/models/?statuses=Production&statuses=Result+Only",
+      "label": "Model Catalog"
+    },
+    {
+      "url": "https://ccmc.gsfc.nasa.gov/model-onboarding/",
+      "label": "Model Onboarding"
+    },
+    {
+      "url": "https://ccmc.gsfc.nasa.gov/simulation-onboarding/",
+      "label": "Simulation Output Onboarding"
+    },
+    {
+      "url": "https://git.sciencecloud.nasa.gov/ccmc-share/modelwebarchive",
+      "label": "Model Web (legacy archive)"
+    },
+    {
+      "url": "https://ccmc.gsfc.nasa.gov/ror/index.php",
+      "label": "Runs-On-Request"
+    },
+    {
+      "url": "https://ccmc.gsfc.nasa.gov/tools/instant-run/",
+      "label": "Instant Run"
+    },
+    {
+      "url": "https://ccmc.gsfc.nasa.gov/tools/continuous-run/",
+      "label": "Continuous/Realtime Run"
+    },
+    {
+      "url": "https://ccmc.gsfc.nasa.gov/visualization/",
+      "label": "Visualization"
+    },
+    {
+      "url": "https://ccmc.gsfc.nasa.gov/publication-policy/",
+      "label": "Publications Policy"
+    },
+    {
+      "url": "https://ccmc.gsfc.nasa.gov/publications/",
+      "label": "Publications List"
+    },
+    {
+      "url": "https://ccmc.gsfc.nasa.gov/change-log/",
+      "label": "Change Log"
+    },
+    {
+      "url": "https://ccmc.gsfc.nasa.gov/iswat/",
+      "label": "ISWAT"
+    },
+    {
+      "url": "https://ccmc.gsfc.nasa.gov/challenges/",
+      "label": "Community Challenges"
+    },
+    {
+      "url": "https://ccmc.gsfc.nasa.gov/ccmc-studies/",
+      "label": "CCMC Led Studies"
+    },
+    {
+      "url": "https://ccmc.gsfc.nasa.gov/scoreboards/",
+      "label": "Scoreboards"
+    },
+    {
+      "url": "https://ccmc.gsfc.nasa.gov/tools/CAMEL/",
+      "label": "CAMEL"
+    },
+    {
+      "url": "https://ccmc.gsfc.nasa.gov/tools/ITMAP/",
+      "label": "ITMAP"
+    },
+    {
+      "url": "https://ccmc.gsfc.nasa.gov/nsf-science-support/",
+      "label": "NSF Science Support"
+    },
+    {
+      "url": "https://ccmc.gsfc.nasa.gov/community-workshops/",
+      "label": "Community Workshops"
+    },
+    {
+      "url": "https://ccmc.gsfc.nasa.gov/research-community-support/",
+      "label": "Research Community Support"
+    },
+    {
+      "url": "https://ccmc.gsfc.nasa.gov/missions/",
+      "label": "NASA Missions Support"
+    },
+    {
+      "url": "https://ccmc.gsfc.nasa.gov/executable-papers/",
+      "label": "Executable Papers"
+    },
+    {
+      "url": "https://ccmc.gsfc.nasa.gov/training/",
+      "label": "Training"
+    },
+    {
+      "url": "https://ccmc.gsfc.nasa.gov/swpc/",
+      "label": "CCMC-SWPC Partnership"
+    },
+    {
+      "url": "https://ccmc.gsfc.nasa.gov/ISEP/",
+      "label": "CCMC-SRAG-M2M Partnership for Human Exploration"
+    },
+    {
+      "url": "https://ccmc.gsfc.nasa.gov/mars/",
+      "label": "Mars Models and Products"
+    },
+    {
+      "url": "https://ccmc.gsfc.nasa.gov/training/",
+      "label": "Training"
+    },
+    {
+      "url": "https://ccmc.gsfc.nasa.gov/tools/",
+      "label": "CCMC Developed"
+    },
+    {
+      "url": "https://ccmc.gsfc.nasa.gov/community-tools/",
+      "label": "Community Developed"
+    },
+    {
+      "url": "https://ccmc.gsfc.nasa.gov/tools/API/",
+      "label": "CCMC APIs"
+    },
+    {
+      "url": "https://ccmc.gsfc.nasa.gov/faq/",
+      "label": "FAQ"
+    },
+    {
+      "url": "https://ccmc.gsfc.nasa.gov/contact/",
+      "label": "Contact"
+    },
+    {
+      "url": "https://ccmc.gsfc.nasa.gov/",
+      "label": "Home"
+    },
+    {
+      "url": "https://ccmc.gsfc.nasa.gov/tools",
+      "label": "CCMC Developed Web Apps/Tools"
+    },
+    {
+      "url": "https://ccmc.gsfc.nasa.gov/tools/DONKI/",
+      "label": ""
+    },
+    {
+      "url": "https://ccmc.gsfc.nasa.gov/DONKI/",
+      "label": "Go to DONKI Web App➞"
+    },
+    {
+      "url": "https://ccmc.gsfc.nasa.gov/DONKI/api",
+      "label": "DONKI-API doc➞"
+    },
+    {
+      "url": "https://ccmc.gsfc.nasa.gov/DONKI/guide",
+      "label": "User Guide➞"
+    },
+    {
+      "url": "https://ccmc.gsfc.nasa.gov/DONKI/",
+      "label": "DONKI"
+    },
+    {
+      "url": "https://science.gsfc.nasa.gov/m2m-swao",
+      "label": "M2M-SWAO"
+    },
+    {
+      "url": "https://ccmc.gsfc.nasa.gov/DONKI/",
+      "label": "DONKI Web Application"
+    },
+    {
+      "url": "https://ccmc.gsfc.nasa.gov/DONKI/api/",
+      "label": "DONKI Web API"
+    },
+    {
+      "url": "https://ccmc.gsfc.nasa.gov/news/major-updates/#donki--database-of-notifications--knowledge--information--system",
+      "label": "full announcement"
+    },
+    {
+      "url": "https://ccmc.gsfc.nasa.gov/DONKI/guide/",
+      "label": "DONKI User's Guide"
+    },
+    {
+      "url": "https://ccmc.gsfc.nasa.gov/DONKI/api/#description/introduction",
+      "label": "DONKI API Documentation"
+    },
+    {
+      "url": "https://ccmc.gsfc.nasa.gov/DONKI/api/",
+      "label": "API Documentation➞"
+    },
+    {
+      "url": "https://ccmc.gsfc.nasa.gov/publication-policy/",
+      "label": "publication policy"
+    },
+    {
+      "url": "https://www.spaceweather.gov/",
+      "label": "Space Weather Prediction Center"
+    },
+    {
+      "url": "https://science.gsfc.nasa.gov/m2m-swao",
+      "label": "the Moon-to-Mars (M2M) Space Weather Analysis Office"
+    },
+    {
+      "url": "https://doi.org/10.1002/2015JA021200",
+      "label": "https://doi.org/10.1002/2015JA021200"
+    },
+    {
+      "url": "https://ccmc.gsfc.nasa.gov/annex/",
+      "label": "CCMC-SWPC validation study of CME arrival time"
+    },
+    {
+      "url": "https://ccmc.gsfc.nasa.gov/DONKI-API/get/CMEAnalysis.txt?startDate=2012-01-01&endDate=2019-03-20&mostAccurateOnly=false&keyword=swpc_annex",
+      "label": "text"
+    },
+    {
+      "url": "https://ccmc.gsfc.nasa.gov/DONKI-API/get/CMEAnalysis/?startDate=2012-01-01&endDate=2019-03-20&mostAccurateOnly=false&keyword=swpc_annex",
+      "label": "JSON"
+    },
+    {
+      "url": "https://ccmc.gsfc.nasa.gov/challenges/sep/",
+      "label": "SEPVAL challenges"
+    },
+    {
+      "url": "https://lasp.colorado.edu/maven/",
+      "label": "MAVEN"
+    },
+    {
+      "url": "https://pds.nasa.gov/datasearch/data-search/",
+      "label": "Planetary Data System (PDS)"
+    },
+    {
+      "url": "https://doi.org/10.1002/swe.20058",
+      "label": "Evans, R. M., A. A. Pulkkinen, Y. Zheng, M. Leila Mays, A. Taktakishvili, M. M. Kuznetsova, and M. Hesse (2013), The SCORE Scale: A Coronal Mass Ejection Typiﬁcation System Based On Speed, Space Weather, 11, 333–334, doi:10.1002/swe.20058."
+    },
+    {
+      "url": "https://ccmc.gsfc.nasa.gov/tools/DONKI/#about",
+      "label": "About"
+    },
+    {
+      "url": "https://ccmc.gsfc.nasa.gov/tools/DONKI/#latest-news",
+      "label": "Latest News"
+    },
+    {
+      "url": "https://ccmc.gsfc.nasa.gov/tools/DONKI/#donki-webservice-api",
+      "label": "DONKI Webservice API"
+    },
+    {
+      "url": "https://ccmc.gsfc.nasa.gov/tools/DONKI/#donki-rules-of-the-road",
+      "label": "DONKI Rules-of-the-Road"
+    },
+    {
+      "url": "https://ccmc.gsfc.nasa.gov/tools/DONKI/#disclaimer",
+      "label": "Disclaimer"
+    },
+    {
+      "url": "https://ccmc.gsfc.nasa.gov/tools/DONKI/#catalogs-in-donki",
+      "label": "Catalogs in DONKI"
+    },
+    {
+      "url": "https://ccmc.gsfc.nasa.gov/tools/DONKI/#reference",
+      "label": "Reference"
+    },
+    {
+      "url": "https://ccmc.gsfc.nasa.gov/tools/DONKI/#about",
+      "label": "About"
+    },
+    {
+      "url": "https://ccmc.gsfc.nasa.gov/tools/DONKI/#latest-news",
+      "label": "Latest News"
+    },
+    {
+      "url": "https://ccmc.gsfc.nasa.gov/tools/DONKI/#donki-webservice-api",
+      "label": "DONKI Webservice API"
+    },
+    {
+      "url": "https://ccmc.gsfc.nasa.gov/tools/DONKI/#donki-rules-of-the-road",
+      "label": "DONKI Rules-of-the-Road"
+    },
+    {
+      "url": "https://ccmc.gsfc.nasa.gov/tools/DONKI/#disclaimer",
+      "label": "Disclaimer"
+    },
+    {
+      "url": "https://ccmc.gsfc.nasa.gov/tools/DONKI/#catalogs-in-donki",
+      "label": "Catalogs in DONKI"
+    },
+    {
+      "url": "https://ccmc.gsfc.nasa.gov/tools/DONKI/#reference",
+      "label": "Reference"
+    },
+    {
+      "url": "https://ccmc.gsfc.nasa.gov/tools/DONKI/",
+      "label": "Return to top"
+    },
+    {
+      "url": "https://www.nasa.gov/about/",
+      "label": "About NASA"
+    },
+    {
+      "url": "https://www.nasa.gov/accessibility/",
+      "label": "Accessibility"
+    },
+    {
+      "url": "https://www.nasa.gov/foia/",
+      "label": "FOIA"
+    },
+    {
+      "url": "https://www.nasa.gov/no-fear-act/",
+      "label": "No FEAR Act"
+    },
+    {
+      "url": "https://www.nasa.gov/privacy/",
+      "label": "Privacy Policy"
+    },
+    {
+      "url": "https://www.nasa.gov/vulnerability-disclosure-policy/",
+      "label": "Vulnerability Disclosure Policy"
+    },
+    {
+      "url": "mailto:tyler.j.schiewe@nasa.gov",
+      "label": "Site Curator: Tyler Schiewe"
+    },
+    {
+      "url": "mailto:m.leila.mays@nasa.gov",
+      "label": "NASA Official: Dr. Leila Mays"
+    },
+    {
+      "url": "https://nasa.gov",
+      "label": ""
+    },
+    {
+      "url": "https://nsf.gov",
+      "label": ""
+    },
+    {
+      "url": "http://www.afmc.af.mil/",
+      "label": ""
+    },
+    {
+      "url": "http://www.afosr.af.mil/",
+      "label": ""
+    },
+    {
+      "url": "http://www.wpafb.af.mil/AFRL/",
+      "label": ""
+    },
+    {
+      "url": "https://www.af.mil//",
+      "label": ""
+    },
+    {
+      "url": "https://swpc.noaa.gov",
+      "label": ""
+    },
+    {
+      "url": "https://www.onr.navy.mil/",
+      "label": ""
+    }
+  ],
+  "elapsed_seconds": 1.656
+}

@@ -1,0 +1,2057 @@
+National Land Cover Database | U.S. Geological Survey
+Skip to main content
+An official website of the United States government
+Here's how you know
+Here's how you know
+Official websites use .gov
+A
+.gov
+website belongs to an official government organization in the United States.
+Secure .gov websites use HTTPS
+A
+lock (
+)
+or
+https://
+means you’ve safely connected to the .gov website. Share sensitive information only on official, secure websites.
+U.S. Geological Survey
+Science
+Science Explorer
+Biology
+Climate
+Coasts
+Energy
+Environmental Health
+Geology
+Information Systems
+Maps and Mapping
+Minerals
+Methods and Analysis
+Natural Hazards
+Ocean
+Planetary Science
+Science Technology
+Water
+Mission Areas
+Core Science Systems
+Ecosystems
+Geology, Energy, and Minerals
+Natural Hazards
+Water Resources
+Programs
+Regions
+Northeast Region
+Southeast Region
+Midcontinent Region
+Rocky Mountain Region
+Southwest Region
+Alaska Region
+Northwest-Pacific Islands Region
+Science Centers
+Observatories
+Laboratories
+Frequently Asked Questions
+Educational Resources
+Special Topics
+Products
+Data
+Data Management
+Data Releases
+Real-time Data
+All Data
+Maps
+Geologic Maps
+Map Releases
+Topographic (Topo) Maps
+Volcanic Maps
+All Maps
+Multimedia Gallery
+Audio
+Images
+Stereograms
+Videos
+Webcams
+All Multimedia
+Publications
+Web Tools
+Alert and Notification Services
+APIs
+Data Access Tools
+Data Analysis Tools
+Data Visualizations
+Interactive Maps
+All Web Tools
+Software
+U.S. Board on Geographic Names
+The National Map
+USGS Library
+USGS Store
+Park Passes
+News
+News Releases
+National News Releases
+State News Releases
+All News Releases
+Featured Stories
+Science Snippets
+Technical Announcements
+Media Contacts
+Connect
+Headquarters
+12201 Sunrise Valley Drive  Reston, VA 20192
+Locations
+Staff Profiles
+Social Media
+Careers
+Contact Us
+Email
+USGS Store 1-888-275-8747
+About
+About Us
+Who We Are
+Our History
+Past Directors
+Survey Manual
+Key Officials
+Organizational Chart
+Organization
+Mission Areas
+Programs
+Regions
+Science Centers
+Observatories
+Laboratories
+Science Support Offices
+Congressional
+Statements
+Contacts
+Budget
+Careers and Employees
+Office of Civil Rights
+Doing Business
+Acquisition and Financial Assistance
+Emergency Management
+Facebook
+Twitter
+Linkedin
+Digg
+Reddit
+Pinterest
+Email
+Frequently Asked Questions
+Label
+Menu
+Label
+Close
+U.S. Geological Survey
+Science
+Science Explorer
+Mission Areas
+Programs
+Regions
+Science Centers
+Observatories
+Laboratories
+Frequently Asked Questions
+Educational Resources
+Special Topics
+Products
+Data
+Maps
+Multimedia Gallery
+Publications
+Web Tools
+Software
+U.S. Board on Geographic Names
+The National Map
+USGS Library
+USGS Store
+Park Passes
+News
+News Releases
+Featured Stories
+Science Snippets
+Technical Announcements
+Media Contacts
+Connect
+Headquarters
+Locations
+Staff Profiles
+Social Media
+Careers
+Contact Us
+About
+About Us
+Survey Manual
+Key Officials
+Organization
+Congressional
+Budget
+Careers and Employees
+Office of Civil Rights
+Doing Business
+Emergency Management
+Latest Earthquakes
+Share Social Media
+Facebook
+Twitter
+Linkedin
+Digg
+Reddit
+Pinterest
+Email
+Breadcrumb
+Earth Resources Observation and Science (EROS) Center
+Science
+National Land Cover Database
+Completed
+By
+Earth Resources Observation and Science (EROS) Center
+September 11, 2018
+Annual NLCD Now Available!
+Visit the Website
+Overview
+Science
+Data
+Multimedia
+Publications
+News
+EROS is central to the creation of the National Land Cover Database (NLCD) which stands as the definitive land cover database for the United States.
+NOTE: This webpage refers to the Legacy National Land Cover Database (NLCD). Please visit
+Annual NLCD
+for the latest release.
+Media
+Sources/Usage: Public Domain.
+View Media Details
+Map of the Conterminous U.S. showing the Land Cover layer from the NLCD 2021.
+Legacy NLCD includes map products characterizing land cover and land cover change across nine epochs from 2001 to 2021 (2001, 2004, 2006, 2008, 2011, 2013, 2016, 2019, and 2021) for the conterminous U.S. The 2021 suite of NLCD products follow the same protocols and procedures of the previously released NLCD epochs (2001-2019), are directly comparable to the 2019 release across the full time series, and are suitable for multi-temporal analysis. Science products and the change index, however, will need to be reacquired for the additional 2021 change information.
+The U.S. Geological Survey (USGS) works closely with the Multi-Resolution Land Characteristics (MRLC) Consortium—a collaborative group of federal agencies—to produce the National Land Cover Database (NLCD) for the conterminous U.S.  The MRLC, a consortium of federal agencies who coordinate and generate consistent and relevant land cover information at the national scale for a wide variety of environmental, land management, and modeling applications, have been providing the scientific community with detailed land cover products for more than 30 years. Over that time, NLCD has been one of the most widely used geospatial datasets in the U.S., serving as a basis for understanding the Nation’s landscapes in thousands of studies and applications, trusted by scientists, land managers, students, city planners, and many more as a definitive source of U.S. land cover.
+Specific map products include:
+Land cover
+– Conterminous U.S. land cover at a 30-meter spatial resolution with a 16-class legend based on a modified Anderson Level II classification system
+Land cover change index
+– Provides a simple and comprehensive way to visualize change that occurred across all the NLCD epochs of land cover
+Urban imperviousness
+– Indicates urban impervious surfaces as a percentage of developed surface over every 30-meter pixel in the Conterminous U.S.
+Urban impervious descriptor
+– Classifies specific types of roads, wind tower sites, building locations, and energy production sites to allow a deeper analysis of developed features
+NLCD Science Products
+Land Cover Change Disturbance Date
+– Identifies the first land cover classification change event between any two adjacent target years across all NLCD epochs at the 30-meter pixel level
+Forest Disturbance Date
+– Identifies the most recent year of forest disturbance between the years 1984–2021
+Land Cover Change Count
+– Calculates an integer count total of any change recorded between two consecutive epochs
+Land Cover with additional Forest Transition Classes
+– Delineates spectrally stable grass and shrub areas from those that are transitional forest classes, which tend to be represented by forest harvest, burns, regrowth, and other disturbances
+U.S. Forest Service Science Tree Canopy Cover
+– The original, unmasked Tree Cover Canopy data produced by the U.S. Forest Service, an MRLC partner
+For more information about Legacy NLCD visit the
+National Land Cover Database (NLCD) Products - ScienceBase-Catalog
+Study Area
+Contacts
+Jon Dewitz
+Physical Scientist
+Earth Resources Observation and Science (EROS) Center
+Email
+dewitz@usgs.gov
+Phone
+605-594-2715
+Explore Search
+Climate
+Information Systems
+Maps and Mapping
+National Land Cover Database
+NLCD
+National Land Cover Dataset
+earth resources observation and science center
+United States of America
+Earth Resources Observation and Science (EROS) Center
+Land Cover
+Products and Datasets
+Integrated Land Change Monitoring
+View All
+Below are other science projects associated with this project.
+Items per page
+6
+12
+Label
+Eyes on Earth Episode 54 – National Land Cover Database 2019
+Eyes on Earth Episode 54 – National Land Cover Database 2019
+Eyes on Earth is a podcast on remote sensing, Earth observation, land change and science, brought to you by the USGS Earth Resources Observation and Science (EROS) Center. In this episode, we learn about the latest land cover release from EROS.
+Eyes on Earth Episode 54 – National Land Cover Database 2019
+Eyes on Earth Episode 54 – National Land Cover Database 2019
+Eyes on Earth is a podcast on remote sensing, Earth observation, land change and science, brought to you by the USGS Earth Resources Observation and Science (EROS) Center. In this episode, we learn about the latest land cover release from EROS.
+Learn More
+Eyes on Earth Episode 42 – Rangelands of the U.S.
+Eyes on Earth Episode 42 – Rangelands of the U.S.
+Eyes on Earth is a podcast on remote sensing, Earth observation, land change and science, brought to you by the USGS Earth Resources Observation and Science (EROS) Center. In this episode, we hear how Landsat helps monitor vulnerable rangelands in the Western U.S.
+Eyes on Earth Episode 42 – Rangelands of the U.S.
+Eyes on Earth Episode 42 – Rangelands of the U.S.
+Eyes on Earth is a podcast on remote sensing, Earth observation, land change and science, brought to you by the USGS Earth Resources Observation and Science (EROS) Center. In this episode, we hear how Landsat helps monitor vulnerable rangelands in the Western U.S.
+Learn More
+May 26, 2020
+LCMAP and NLCD: Complementary Data for Understanding the Geography of the United States
+Land Change Monitoring, Assessment, and Projection (LCMAP) Collection 1 science products provide unprecedented monitoring of past changes occurring in land cover and condition across the conterminous U.S. over more than 30 years at an annual timestep.
+By
+Core Science Systems Mission Area
+,
+National Land Imaging Program
+,
+Land Change Monitoring, Assessment, and Projection
+LCMAP and NLCD: Complementary Data for Understanding the Geography of the United States
+May 26, 2020
+LCMAP and NLCD: Complementary Data for Understanding the Geography of the United States
+Land Change Monitoring, Assessment, and Projection (LCMAP) Collection 1 science products provide unprecedented monitoring of past changes occurring in land cover and condition across the conterminous U.S. over more than 30 years at an annual timestep.
+Learn More
+Eyes on Earth Episode 3 - National Land Cover Database
+Eyes on Earth Episode 3 - National Land Cover Database
+Eyes on Earth is a podcast on remote sensing, Earth observation, land change and science, brought to you by the USGS Earth Resources Observation and Science (EROS) Center. In this episode, we talk about the National Land Cover Database.
+Eyes on Earth Episode 3 - National Land Cover Database
+Eyes on Earth Episode 3 - National Land Cover Database
+Eyes on Earth is a podcast on remote sensing, Earth observation, land change and science, brought to you by the USGS Earth Resources Observation and Science (EROS) Center. In this episode, we talk about the National Land Cover Database.
+Learn More
+September 11, 2018
+Western U.S. Cheatgrass and Shrubland Monitoring
+The USGS Earth Resources Observation and Science (EROS) Center National Land Cover Database team in collaboration with the Bureau of Land Management (BLM) has produced the most comprehensive remote-sensing based quantification of western United States shrublands to date.
+By
+Earth Resources Observation and Science (EROS) Center
+Western U.S. Cheatgrass and Shrubland Monitoring
+September 11, 2018
+Western U.S. Cheatgrass and Shrubland Monitoring
+The USGS Earth Resources Observation and Science (EROS) Center National Land Cover Database team in collaboration with the Bureau of Land Management (BLM) has produced the most comprehensive remote-sensing based quantification of western United States shrublands to date.
+Learn More
+September 12, 2013
+National Land Cover Database Visualization and Information Tool
+The National Land Cover Database (NLCD) serves as the definitive Landsat-based, 30-meter resolution, land cover database for the Nation. NLCD supports a wide variety of Federal, State, local, and nongovernmental applications that seek to assess ecosystem status and health, understand the spatial patterns of biodiversity, predict effects of climate change, and develop land management...
+By
+Community for Data Integration (CDI)
+National Land Cover Database Visualization and Information Tool
+September 12, 2013
+National Land Cover Database Visualization and Information Tool
+The National Land Cover Database (NLCD) serves as the definitive Landsat-based, 30-meter resolution, land cover database for the Nation. NLCD supports a wide variety of Federal, State, local, and nongovernmental applications that seek to assess ecosystem status and health, understand the spatial patterns of biodiversity, predict effects of climate change, and develop land management policy
+Learn More
+Below are data or web applications associated with this project.
+Items per page
+6
+12
+Label
+August 5, 2020
+National Land Cover Database (NLCD) 2016 Shrubland Fractional Components for the Western U.S. (ver. 3.0, July 2020)
+National Land Cover Database (NLCD) 2016 Shrubland Fractional Components for the Western U.S. (ver. 3.0, July 2020)
+Quantifying Western U.S. shrublands as a series of fractional components with remote sensing provides a new way to understand these changing ecosystems. The USGS NLCD team in collaboration with the BLM has produced the most comprehensive remote sensing-based quantification of Western U.S. shrublands to date. Nine shrubland ecosystem components, including percent shrub, sagebrush...
+By
+Earth Resources Observation and Science (EROS) Center
+June 18, 2020
+Remote Sensing Shrub/Grass National Land Cover Database (NLCD) Back-in-Time (BIT) Products for the Western U.S., 1985 - 2018
+Remote Sensing Shrub/Grass National Land Cover Database (NLCD) Back-in-Time (BIT) Products for the Western U.S., 1985 - 2018
+The need to monitor change in sagebrush steppe is urgent due to the increasing impacts of climate change, shifting fire regimes, and management practices on ecosystem health. Remote sensing provides a cost-effective and reliable method for monitoring change through time and attributing changes to drivers. We report an automated method of mapping rangeland fractional component cover over...
+By
+Earth Resources Observation and Science (EROS) Center
+January 7, 2020
+Non-native and synanthropic bird data derived from 2010-2012 Breeding Bird Survey and associated landscape metrics from 2011 NLCD
+Non-native and synanthropic bird data derived from 2010-2012 Breeding Bird Survey and associated landscape metrics from 2011 NLCD
+Locations of and proportional abundance of non-native and synanthropic passerines were extracted from Breeding Bird Survey (BBS) data from 2010-2012. Information characterizing the spatial variation and the associated amount, aggregation, and diversity of developed and agricultural land cover types was extracted from the National Land Cover Datasets of 2011. Data supported analyses in...
+By
+Fort Collins Science Center
+National Land Cover Database (NLCD)
+National Land Cover Database (NLCD)
+The National Land Cover Database (NLCD) provides nation-wide data on land cover and land cover change at the Landsat Thematic Mapper (TM) 30-meter resolution. NLCD provides spatial reference and descriptive data for characteristics of the land surface such as thematic class (e.g., urban, agriculture, and forest), percent impervious surface, and percent tree canopy cover.
+By
+Drought
+Below are multimedia items associated with this project.
+Label
+List
+Grid
+Dallas-Ft. Worth - NLCD 2016 Impervious Descriptor layer
+Dallas-Ft. Worth - NLCD 2016 Impervious Descriptor layer
+Mapping Roadways at Landsat Scale
+Mapping Roadways at Landsat Scale
+Dallas-Ft. Worth - NLCD 2016 Impervious Descriptor layer
+Dallas-Ft. Worth - NLCD 2016 Impervious Descriptor layer
+October 15, 2021
+Mapping Roadways at Landsat Scale
+Mapping Roadways at Landsat Scale
+Mapping Roadways at Landsat Scale
+A satellite flying over this area northwest of Dallas, TX will capture a wide variety of urban and rural activity. The 80-odd square miles seen in the Landsat image on the left includes airports, dense urban centers, suburban and exurban neighborhoods, manufacturing and distribution centers, oil and gas production sites, lakes, forests, wetlands and more.
+By
+Earth Resources Observation and Science (EROS) Center
+Dallas-Ft. Worth - NLCD 2016 Impervious Descriptor layer
+Dallas-Ft. Worth - NLCD 2016 Impervious Descriptor layer
+October 15, 2021
+Mapping Roadways at Landsat Scale
+Mapping Roadways at Landsat Scale
+Mapping Roadways at Landsat Scale
+Mapping Roadways at Landsat Scale
+A satellite flying over this area northwest of Dallas, TX will capture a wide variety of urban and rural activity. The 80-odd square miles seen in the Landsat image on the left includes airports, dense urban centers, suburban and exurban neighborhoods, manufacturing and distribution centers, oil and gas production sites, lakes, forests, wetlands and more.
+By
+Earth Resources Observation and Science (EROS) Center
+Eyes on Earth - National Land Cover Database 2019 thumbnail
+Eyes on Earth - National Land Cover Database 2019 thumbnail
+Eyes on Earth Episode 54 - National Land Cover Database 2019
+Eyes on Earth Episode 54 - National Land Cover Database 2019
+Eyes on Earth - National Land Cover Database 2019 thumbnail
+Eyes on Earth - National Land Cover Database 2019 thumbnail
+July 12, 2021
+Eyes on Earth Episode 54 - National Land Cover Database 2019
+Eyes on Earth Episode 54 - National Land Cover Database 2019
+Eyes on Earth Episode 54 - National Land Cover Database 2019
+The National Land Cover Database, or NLCD, was the first and remains the most well-known set of satellite-based land cover mapping products released by EROS. It sorts the each 30-by-30-meter plot of land in the United States into a land cover class, such as cropland, pasture, high-intensity developed, deciduous forest, and the like.
+By
+Core Science Systems Mission Area
+,
+Earth Resources Observation and Science (EROS) Center
+Eyes on Earth - National Land Cover Database 2019 thumbnail
+Eyes on Earth - National Land Cover Database 2019 thumbnail
+July 12, 2021
+Eyes on Earth Episode 54 - National Land Cover Database 2019
+Eyes on Earth Episode 54 - National Land Cover Database 2019
+Eyes on Earth Episode 54 - National Land Cover Database 2019
+Eyes on Earth Episode 54 - National Land Cover Database 2019
+The National Land Cover Database, or NLCD, was the first and remains the most well-known set of satellite-based land cover mapping products released by EROS. It sorts the each 30-by-30-meter plot of land in the United States into a land cover class, such as cropland, pasture, high-intensity developed, deciduous forest, and the like.
+By
+Core Science Systems Mission Area
+,
+Earth Resources Observation and Science (EROS) Center
+Eyes on Earth Episode 42 - Rangelands of the U.S.
+Eyes on Earth Episode 42 - Rangelands of the U.S.
+Eyes on Earth Episode 42 – Rangelands of the U.S.
+Eyes on Earth Episode 42 – Rangelands of the U.S.
+Eyes on Earth Episode 42 - Rangelands of the U.S.
+Eyes on Earth Episode 42 - Rangelands of the U.S.
+January 25, 2021
+Eyes on Earth Episode 42 – Rangelands of the U.S.
+Eyes on Earth Episode 42 – Rangelands of the U.S.
+Eyes on Earth Episode 42 – Rangelands of the U.S.
+The extensive rangelands across the Western United States are threatened by invasive grasses, climate change, and altered fire regimes that can disturb the landscape. The largely semi-arid lands are also important for the survival of species that need undisturbed sagebrush ecosystems to thrive.
+By
+Core Science Systems Mission Area
+,
+Earth Resources Observation and Science (EROS) Center
+,
+Landsat Missions
+Eyes on Earth Episode 42 - Rangelands of the U.S.
+Eyes on Earth Episode 42 - Rangelands of the U.S.
+January 25, 2021
+Eyes on Earth Episode 42 – Rangelands of the U.S.
+Eyes on Earth Episode 42 – Rangelands of the U.S.
+Eyes on Earth Episode 42 – Rangelands of the U.S.
+Eyes on Earth Episode 42 – Rangelands of the U.S.
+The extensive rangelands across the Western United States are threatened by invasive grasses, climate change, and altered fire regimes that can disturb the landscape. The largely semi-arid lands are also important for the survival of species that need undisturbed sagebrush ecosystems to thrive.
+By
+Core Science Systems Mission Area
+,
+Earth Resources Observation and Science (EROS) Center
+,
+Landsat Missions
+Eyes on Earth - Collin Homer
+Eyes on Earth - Collin Homer
+Eyes on Earth - Episode 3 - The National Land Cover Database
+Eyes on Earth - Episode 3 - The National Land Cover Database
+Eyes on Earth - Collin Homer
+Eyes on Earth - Collin Homer
+September 16, 2019
+Eyes on Earth - Episode 3 - The National Land Cover Database
+Eyes on Earth - Episode 3 - The National Land Cover Database
+Eyes on Earth - Episode 3 - The National Land Cover Database
+Sorting Landsat data into an accurate and reliable record of land cover in the United States is one of the most important jobs at EROS. This episode of Eyes on Earth explores the what, how, and why of the National Land Cover Database (NLCD).
+By
+Earth Resources Observation and Science (EROS) Center
+Eyes on Earth - Collin Homer
+Eyes on Earth - Collin Homer
+September 16, 2019
+Eyes on Earth - Episode 3 - The National Land Cover Database
+Eyes on Earth - Episode 3 - The National Land Cover Database
+Eyes on Earth - Episode 3 - The National Land Cover Database
+Eyes on Earth - Episode 3 - The National Land Cover Database
+Sorting Landsat data into an accurate and reliable record of land cover in the United States is one of the most important jobs at EROS. This episode of Eyes on Earth explores the what, how, and why of the National Land Cover Database (NLCD).
+By
+Earth Resources Observation and Science (EROS) Center
+Here are the publications associated with the National Land Cover Database.
+Filter Total Items: 14
+Publication Type (field_pub_type)
+Type
+Article
+Book
+Book Chapter
+Conference Paper
+Extramural-Authored Publication Paper
+Newsletter
+Other
+Preprint
+Report
+Thesis
+Release Date (field_release_date)
+Year
+2026
+2025
+2024
+2023
+2022
+2021
+2020
+2019
+2018
+2017
+2016
+2015
+2014
+2013
+2012
+2011
+2010
+2009
+2008
+2007
+2006
+2005
+2004
+2003
+2002
+2001
+2000
+1999
+1998
+1997
+1996
+1995
+1994
+1993
+1992
+1991
+1990
+1989
+1988
+1987
+1986
+1985
+1984
+1983
+1982
+1981
+1980
+1979
+1978
+1977
+1976
+1975
+1974
+1973
+1972
+1971
+1970
+1969
+1968
+1967
+1966
+1965
+1964
+1963
+1962
+1961
+1960
+1959
+1958
+1957
+1956
+1955
+1954
+1953
+1952
+1951
+1950
+1949
+1948
+1947
+1946
+1945
+1944
+1943
+1942
+1941
+1940
+1939
+1938
+1937
+1936
+1935
+1934
+1933
+1932
+1931
+1930
+1929
+1928
+1927
+1926
+1925
+1924
+1923
+1922
+1921
+1920
+1919
+1918
+1917
+1916
+1915
+1914
+1913
+1912
+1911
+1910
+1909
+1908
+1907
+1906
+1905
+1904
+1903
+1902
+1901
+1900
+1899
+1898
+1897
+1896
+1895
+1894
+1893
+1892
+1891
+1890
+1889
+1888
+1887
+1886
+1885
+1884
+1883
+1882
+1881
+1880
+1879
+1878
+1877
+1876
+1875
+1874
+1873
+1872
+1871
+1870
+1869
+1868
+1867
+1866
+1865
+1864
+1863
+1862
+1861
+1860
+1859
+1858
+1857
+1856
+1855
+1854
+1853
+1852
+1851
+1850
+1849
+1848
+1847
+1846
+1845
+1844
+1843
+1842
+1841
+1840
+1839
+1838
+1837
+1836
+1835
+1834
+1833
+1832
+1831
+1830
+1829
+1828
+1827
+1826
+1825
+1824
+1823
+1822
+1821
+1820
+1819
+1818
+1817
+1816
+1815
+1814
+1813
+1812
+1811
+Items per page
+6
+12
+Label
+April 20, 2026
+Thematic accuracy assessment of the National Land Cover Database (NLCD2021) for the conterminous United States
+Thematic accuracy assessment of the National Land Cover Database (NLCD2021) for the conterminous United States
+The MultiResolution Land Characteristics (MRLC) consortium’s National Land Cover Database (NLCD) was established as an operational, stakeholder-oriented land cover monitoring program with the release of the NLCD2001 database. Both land cover and land cover change data became available with the release of NLCD2006. Here, we report the land cover and land cover change accuracies for...
+Authors
+James Wickham, Stephen V. Stehman, Daniel G. Sorenson, Leila Gass, Jon Dewitz, Johnathan Vasa Kilaru
+By
+Earth Resources Observation and Science (EROS) Center
+March 1, 2023
+Thematic accuracy assessment of the NLCD 2019 land cover for the conterminous United States
+Thematic accuracy assessment of the NLCD 2019 land cover for the conterminous United States
+The National Land Cover Database (NLCD), a product suite produced through the MultiResolution Land Characteristics (MRLC) consortium, is an operational land cover monitoring program. Starting from a base year of 2001, NLCD releases a land cover database every 2–3-years. The recent release of NLCD2019 extends the database to 18 years. We implemented a stratified random sample to collect...
+Authors
+James Wickham, Stephen V. Stehman, Daniel G. Sorenson, Leila Gass, Jon Dewitz
+By
+Earth Resources Observation and Science (EROS) Center
+,
+Western Geographic Science Center
+January 30, 2023
+National Land Cover Database 2019: A comprehensive strategy for creating the 1986-2019 forest disturbance product
+National Land Cover Database 2019: A comprehensive strategy for creating the 1986-2019 forest disturbance product
+The National Land Cover Database (NLCD) 2016 products show that, between 2001 and 2016, nearly half of the land cover change in the conterminous United States (CONUS) involved forested areas. To ensure the quality of NLCD land cover and land cover change products, it is important to accurately detect the location and time of forest disturbance. We designed a comprehensive strategy to...
+Authors
+Suming Jin, Jon Dewitz, Congcong Li, Daniel G. Sorenson, Zhe Zhu, Rakibul Shogib, Patrick Danielson, Brian Granneman, Catherine Costello, Adam Case, Leila Gass
+By
+Earth Resources Observation and Science (EROS) Center
+January 11, 2023
+National Land Cover Database 2019: A new strategy for creating clean leaf-on and leaf-off Landsat composite images
+National Land Cover Database 2019: A new strategy for creating clean leaf-on and leaf-off Landsat composite images
+National Land Cover Database (NLCD) 2019 is a new epoch of national land cover products for the conterminous United States. Image quality is fundamental to the quality of any land cover product. Image preprocessing has often taken a considerable proportion of overall time and effort for this kind of national project. An approach to prepare image inputs for NLCD 2019 production was...
+Authors
+Suming Jin, Jon Dewitz, Patrick Danielson, Brian Granneman, Catherine Costello, Zhe Zhu
+By
+Science Synthesis, Analysis, and Research Program
+,
+Earth Resources Observation and Science (EROS) Center
+,
+Advanced Research Computing (ARC)
+February 23, 2021
+Rangeland fractional components across the western United States from 1985 to 2018
+Rangeland fractional components across the western United States from 1985 to 2018
+Monitoring temporal dynamics of rangelands to detect and understand change in vegetation cover and composition provides a wealth of information to improve management and sustainability. Remote sensing allows the evaluation of both abrupt and gradual rangeland change at unprecedented spatial and temporal extents. Here, we describe the production of the National Land Cover Database (NLCD)...
+Authors
+Matthew B. Rigge, Collin Homer, Hua Shi, Debbie Meyer, Brett Bunde, Brian J. Granneman, Kory Postma, Patrick Danielson, Adam Case, George Z. Xian
+By
+Earth Resources Observation and Science (EROS) Center
+March 3, 2020
+Conterminous United States land cover change patterns 2001–2016 from the 2016 National Land Cover Database
+Conterminous United States land cover change patterns 2001–2016 from the 2016 National Land Cover Database
+The 2016 National Land Cover Database (NLCD) product suite (available on www.mrlc.gov), includes Landsat-based, 30 m resolution products over the conterminous (CONUS) United States (U.S.) for land cover, urban imperviousness, and tree, shrub, herbaceous and bare ground fractional percentages. The release of NLCD 2016 provides important new information on land change patterns across CONUS...
+Authors
+Collin G. Homer, Jon Dewitz, Suming Jin, George Z. Xian, Catherine Costello, Patrick Danielson, Leila Gass, Michelle Funk, James Wickham, Steven Stehman, Roger F. Auch, Kurt H. Riitters
+By
+Earth Resources Observation and Science (EROS) Center
+August 21, 2018
+Accuracy assessment of NLCD 2011 impervious cover data for the Chesapeake Bay region, USA
+Accuracy assessment of NLCD 2011 impervious cover data for the Chesapeake Bay region, USA
+The National Land Cover Database (NLCD) contains three eras (2001, 2006, 2011) of percentage urban impervious cover (%IC) at the native pixel size (30 m-x-30 m) of the Landsat Thematic Mapper satellite. These data are potentially valuable to environmental managers and stakeholders because of the utility of %IC as an indicator of watershed and aquatic condition, but lack an accuracy...
+Authors
+James Wickham, Nate Herold, Stephen V. Stehman, Collin Homer, George Z. Xian, Peter Claggett
+By
+Earth Resources Observation and Science (EROS) Center
+March 29, 2017
+Thematic accuracy assessment of the 2011 National Land Cover Database (NLCD)
+Thematic accuracy assessment of the 2011 National Land Cover Database (NLCD)
+Accuracy assessment is a standard protocol of National Land Cover Database (NLCD) mapping. Here we report agreement statistics between map and reference labels for NLCD 2011, which includes land cover for ca. 2001, ca. 2006, and ca. 2011. The two main objectives were assessment of agreement between map and reference labels for the three, single-date NLCD land cover products at Level II...
+Authors
+James Wickham, Stephen V. Stehman, Leila Gass, Jon Dewitz, Daniel G. Sorenson, Brian J. Granneman, Richard V. Poss, Lori Anne Baer
+By
+Earth Resources Observation and Science (EROS) Center
+,
+Geosciences and Environmental Change Science Center
+,
+Western Geographic Science Center
+January 9, 2013
+Accuracy assessment of NLCD 2006 land cover and impervious surface
+Accuracy assessment of NLCD 2006 land cover and impervious surface
+Release of NLCD 2006 provides the first wall-to-wall land-cover change database for the conterminous United States from Landsat Thematic Mapper (TM) data. Accuracy assessment of NLCD 2006 focused on four primary products: 2001 land cover, 2006 land cover, land-cover change between 2001 and 2006, and impervious surface change between 2001 and 2006. The accuracy assessment was conducted by...
+Authors
+James D. Wickham, Stephen V. Stehman, Leila Gass, Jon Dewitz, Joyce A. Fry, Timothy G. Wade
+By
+Earth Resources Observation and Science (EROS) Center
+January 1, 2010
+Thematic accuracy of the NLCD 2001 land cover for the conterminous United States
+Thematic accuracy of the NLCD 2001 land cover for the conterminous United States
+The land-cover thematic accuracy of NLCD 2001 was assessed from a probability-sample of 15,000 pixels. Nationwide, NLCD 2001 overall Anderson Level II and Level I accuracies were 78.7% and 85.3%, respectively. By comparison, overall accuracies at Level II and Level I for the NLCD 1992 were 58% and 80%. Forest and cropland were two classes showing substantial improvements in accuracy in...
+Authors
+J.D. Wickham, S.V. Stehman, J.A. Fry, J.H. Smith, Collin G. Homer
+By
+Earth Resources Observation and Science (EROS) Center
+January 1, 2010
+National Land Cover Database 2001 (NLCD01) Tree Canopy Layer Tile 4, Southeast United States: CNPY01_4
+National Land Cover Database 2001 (NLCD01) Tree Canopy Layer Tile 4, Southeast United States: CNPY01_4
+This 30-meter resolution data set represents the tree canopy layer for the conterminous United States for the 2001 time period. The data have been arranged into four tiles to facilitate timely display and manipulation within a Geographic Information System, browse graphic: nlcd01-partition.jpg The National Land Cover Data Set for 2001 was produced through a cooperative project conducted...
+Authors
+Andrew E. LaMotte, Michael Wieczorek
+April 11, 2009
+Comparison of NLCD with NWI Classifications of Baldwin and Mobile Counties, Alabama
+Comparison of NLCD with NWI Classifications of Baldwin and Mobile Counties, Alabama
+An assessment of the accuracy of National Land Cover Data 2001 as compared to National Wetlands Inventory mapping of Mobile and Baldwin Counties conducted by the U.S. Geological Survey's (USGS) National Wetlands Research Center (NWRC). Both classifications were checked against stratified randomly selected ground-based sites and with each other to compare the accuracy of the NLCD with NWI
+Authors
+Larry Handley, Chris Wells
+Pagination
+Current page
+1
+Page
+2
+Next page
+››
+Last page
+Last »
+Below are news stories associated with the National Land Cover Database.
+October 8, 2024
+NLCD’s Path from Early Landscape Snapshot to Decades of Change
+NLCD’s Path from Early Landscape Snapshot to Decades of Change
+The widely used National Land Cover Database (NLCD) has long been the foundational land cover source for scientists, resource managers, and decision-makers across the United States, trusted for its accurate and unbiased data. Here, we’re exploring the evolution of NLCD through its reinvention this year as Annual NLCD.
+By
+Core Science Systems Mission Area
+,
+National Land Imaging Program
+,
+Earth Resources Observation and Science (EROS) Center
+,
+Landsat Missions
+Filter Total Items: 14
+Content type
+Type
+News
+Newsletter
+Release Date (field_release_date)
+Year
+2026
+2025
+2024
+2023
+2022
+2021
+2020
+2019
+2018
+2017
+2016
+2015
+2014
+2013
+2012
+2011
+2010
+2009
+2008
+2007
+2006
+2005
+2004
+2003
+2002
+2001
+2000
+1999
+1998
+1997
+1996
+1995
+1994
+1993
+1992
+1991
+1990
+1989
+1988
+1987
+1986
+1985
+1984
+1983
+1982
+1981
+1980
+1979
+1978
+1977
+1976
+1975
+1974
+1973
+1972
+1971
+1970
+1969
+1968
+1967
+1966
+1965
+1964
+1963
+1962
+1961
+1960
+1959
+1958
+1957
+1956
+1955
+1954
+1953
+1952
+1951
+1950
+1949
+1948
+1947
+1946
+1945
+1944
+1943
+1942
+1941
+1940
+1939
+1938
+1937
+1936
+1935
+1934
+1933
+1932
+1931
+1930
+1929
+1928
+1927
+1926
+1925
+1924
+1923
+1922
+1921
+1920
+1919
+1918
+1917
+1916
+1915
+1914
+1913
+1912
+1911
+1910
+1909
+1908
+1907
+1906
+1905
+1904
+1903
+1902
+1901
+1900
+1899
+1898
+1897
+1896
+1895
+1894
+1893
+1892
+1891
+1890
+1889
+1888
+1887
+1886
+1885
+1884
+1883
+1882
+1881
+1880
+1879
+1878
+1877
+1876
+1875
+1874
+1873
+1872
+1871
+1870
+1869
+1868
+1867
+1866
+1865
+1864
+1863
+1862
+1861
+1860
+1859
+1858
+1857
+1856
+1855
+1854
+1853
+1852
+1851
+1850
+1849
+1848
+1847
+1846
+1845
+1844
+1843
+1842
+1841
+1840
+1839
+1838
+1837
+1836
+1835
+1834
+1833
+1832
+1831
+1830
+1829
+1828
+1827
+1826
+1825
+1824
+1823
+1822
+1821
+1820
+1819
+1818
+1817
+1816
+1815
+1814
+1813
+1812
+1811
+Items per page
+6
+12
+Label
+Maximizing Accuracy of Rangeland Data
+April 3, 2024
+Maximizing Accuracy of Rangeland Data
+Project Manager Matthew Rigge and the Rangeland Condition Monitoring Assessment and Projection (RCMAP) team take an almost businesslike approach to...
+Read Article
+NLCD 2021 Now Available
+July 31, 2023
+NLCD 2021 Now Available
+The U.S. Geological Survey (USGS), in association with the Multi-Resolution Land Characteristics (MRLC) Consortium, is pleased to announce the...
+Read Article
+New Land Cover Maps Capture Nearly Two Decades of Change Across the U.S.
+July 20, 2021
+New Land Cover Maps Capture Nearly Two Decades of Change Across the U.S.
+The U.S. Geological Survey recently released updated land cover maps for the conterminous United States that depict 18 years of change to the Nation’s...
+Read Article
+New USGS EROS Tool Shows County-By-County Change Across United States
+April 6, 2021
+New USGS EROS Tool Shows County-By-County Change Across United States
+The USGS Earth Resources Observation and Science (EROS) Center has released a new online tool to help the public better visualize county-by-county...
+Read Article
+Detecting Shrub Recovery in Sagebrush Steppe: Comparing Landsat-Derived Maps with Field Data on Historical Wildfires
+February 26, 2021
+Detecting Shrub Recovery in Sagebrush Steppe: Comparing Landsat-Derived Maps with Field Data on Historical Wildfires
+Sagebrush can be scarce after fires in a semiarid ecosystem and their paucity over vast burn areas creates challenges for detection by remote sensing...
+Read Article
+EROS Rangeland Tools Aid Western U.S. Land Managers
+January 27, 2021
+EROS Rangeland Tools Aid Western U.S. Land Managers
+The extensive rangelands across the Western United States are threatened by invasive grasses, climate change, and altered fire regimes that can...
+Read Article
+Land Cover Partnership Releases Change Datasets for U.S., Mexico, Canada
+November 18, 2020
+Land Cover Partnership Releases Change Datasets for U.S., Mexico, Canada
+The release of a change dataset for North America’s three largest countries will enable GIS researchers to more easily study continent-scale land use...
+Read Article
+Rangeland Mapping Tools Take Users Back in Time Across Western U.S.
+August 3, 2020
+Rangeland Mapping Tools Take Users Back in Time Across Western U.S.
+The USGS Earth Resources Observation and Science (EROS) Center and Department of Interior’s Bureau of Land Management have just released an...
+Read Article
+NLCD Readies Improvements for Upcoming Release of 2019 Product Suite
+July 27, 2020
+NLCD Readies Improvements for Upcoming Release of 2019 Product Suite
+The next edition of the National Land Cover Database (NLCD) will appear more quickly than previous editions, offer accuracy comparable to NLCD 2016...
+Read Article
+New Land Cover Maps Depict 15 Years of Alaska Change
+April 17, 2020
+New Land Cover Maps Depict 15 Years of Alaska Change
+The latest edition of the National Land Cover Database (NLCD 2016) for Alaska is now publicly available.
+Read Article
+EROS contributes to New Land Cover Maps for U.S., Canada, Mexico
+February 27, 2020
+EROS contributes to New Land Cover Maps for U.S., Canada, Mexico
+The three largest countries in North America share trade, climate and culture in a host of broad and specific ways. A new set of land cover maps for...
+Read Article
+New NLCD products to be folded into Esri software, Earth Engine
+May 24, 2019
+New NLCD products to be folded into Esri software, Earth Engine
+The National Land Cover Database (NLCD) 2016 product suite was recently released for bulk download on the Multi-Resolution Land Characteristics...
+Read Article
+Pagination
+Current page
+1
+Page
+2
+Next page
+››
+Last page
+Last »
+Overview
+EROS is central to the creation of the National Land Cover Database (NLCD) which stands as the definitive land cover database for the United States.
+NOTE: This webpage refers to the Legacy National Land Cover Database (NLCD). Please visit
+Annual NLCD
+for the latest release.
+Media
+Sources/Usage: Public Domain.
+View Media Details
+Map of the Conterminous U.S. showing the Land Cover layer from the NLCD 2021.
+Legacy NLCD includes map products characterizing land cover and land cover change across nine epochs from 2001 to 2021 (2001, 2004, 2006, 2008, 2011, 2013, 2016, 2019, and 2021) for the conterminous U.S. The 2021 suite of NLCD products follow the same protocols and procedures of the previously released NLCD epochs (2001-2019), are directly comparable to the 2019 release across the full time series, and are suitable for multi-temporal analysis. Science products and the change index, however, will need to be reacquired for the additional 2021 change information.
+The U.S. Geological Survey (USGS) works closely with the Multi-Resolution Land Characteristics (MRLC) Consortium—a collaborative group of federal agencies—to produce the National Land Cover Database (NLCD) for the conterminous U.S.  The MRLC, a consortium of federal agencies who coordinate and generate consistent and relevant land cover information at the national scale for a wide variety of environmental, land management, and modeling applications, have been providing the scientific community with detailed land cover products for more than 30 years. Over that time, NLCD has been one of the most widely used geospatial datasets in the U.S., serving as a basis for understanding the Nation’s landscapes in thousands of studies and applications, trusted by scientists, land managers, students, city planners, and many more as a definitive source of U.S. land cover.
+Specific map products include:
+Land cover
+– Conterminous U.S. land cover at a 30-meter spatial resolution with a 16-class legend based on a modified Anderson Level II classification system
+Land cover change index
+– Provides a simple and comprehensive way to visualize change that occurred across all the NLCD epochs of land cover
+Urban imperviousness
+– Indicates urban impervious surfaces as a percentage of developed surface over every 30-meter pixel in the Conterminous U.S.
+Urban impervious descriptor
+– Classifies specific types of roads, wind tower sites, building locations, and energy production sites to allow a deeper analysis of developed features
+NLCD Science Products
+Land Cover Change Disturbance Date
+– Identifies the first land cover classification change event between any two adjacent target years across all NLCD epochs at the 30-meter pixel level
+Forest Disturbance Date
+– Identifies the most recent year of forest disturbance between the years 1984–2021
+Land Cover Change Count
+– Calculates an integer count total of any change recorded between two consecutive epochs
+Land Cover with additional Forest Transition Classes
+– Delineates spectrally stable grass and shrub areas from those that are transitional forest classes, which tend to be represented by forest harvest, burns, regrowth, and other disturbances
+U.S. Forest Service Science Tree Canopy Cover
+– The original, unmasked Tree Cover Canopy data produced by the U.S. Forest Service, an MRLC partner
+For more information about Legacy NLCD visit the
+National Land Cover Database (NLCD) Products - ScienceBase-Catalog
+Study Area
+Contacts
+Jon Dewitz
+Physical Scientist
+Earth Resources Observation and Science (EROS) Center
+Email
+dewitz@usgs.gov
+Phone
+605-594-2715
+Explore Search
+Climate
+Information Systems
+Maps and Mapping
+National Land Cover Database
+NLCD
+National Land Cover Dataset
+earth resources observation and science center
+United States of America
+Earth Resources Observation and Science (EROS) Center
+Land Cover
+Products and Datasets
+Integrated Land Change Monitoring
+View All
+Science
+Below are other science projects associated with this project.
+Items per page
+6
+12
+Label
+Eyes on Earth Episode 54 – National Land Cover Database 2019
+Eyes on Earth Episode 54 – National Land Cover Database 2019
+Eyes on Earth is a podcast on remote sensing, Earth observation, land change and science, brought to you by the USGS Earth Resources Observation and Science (EROS) Center. In this episode, we learn about the latest land cover release from EROS.
+Eyes on Earth Episode 54 – National Land Cover Database 2019
+Eyes on Earth Episode 54 – National Land Cover Database 2019
+Eyes on Earth is a podcast on remote sensing, Earth observation, land change and science, brought to you by the USGS Earth Resources Observation and Science (EROS) Center. In this episode, we learn about the latest land cover release from EROS.
+Learn More
+Eyes on Earth Episode 42 – Rangelands of the U.S.
+Eyes on Earth Episode 42 – Rangelands of the U.S.
+Eyes on Earth is a podcast on remote sensing, Earth observation, land change and science, brought to you by the USGS Earth Resources Observation and Science (EROS) Center. In this episode, we hear how Landsat helps monitor vulnerable rangelands in the Western U.S.
+Eyes on Earth Episode 42 – Rangelands of the U.S.
+Eyes on Earth Episode 42 – Rangelands of the U.S.
+Eyes on Earth is a podcast on remote sensing, Earth observation, land change and science, brought to you by the USGS Earth Resources Observation and Science (EROS) Center. In this episode, we hear how Landsat helps monitor vulnerable rangelands in the Western U.S.
+Learn More
+May 26, 2020
+LCMAP and NLCD: Complementary Data for Understanding the Geography of the United States
+Land Change Monitoring, Assessment, and Projection (LCMAP) Collection 1 science products provide unprecedented monitoring of past changes occurring in land cover and condition across the conterminous U.S. over more than 30 years at an annual timestep.
+By
+Core Science Systems Mission Area
+,
+National Land Imaging Program
+,
+Land Change Monitoring, Assessment, and Projection
+LCMAP and NLCD: Complementary Data for Understanding the Geography of the United States
+May 26, 2020
+LCMAP and NLCD: Complementary Data for Understanding the Geography of the United States
+Land Change Monitoring, Assessment, and Projection (LCMAP) Collection 1 science products provide unprecedented monitoring of past changes occurring in land cover and condition across the conterminous U.S. over more than 30 years at an annual timestep.
+Learn More
+Eyes on Earth Episode 3 - National Land Cover Database
+Eyes on Earth Episode 3 - National Land Cover Database
+Eyes on Earth is a podcast on remote sensing, Earth observation, land change and science, brought to you by the USGS Earth Resources Observation and Science (EROS) Center. In this episode, we talk about the National Land Cover Database.
+Eyes on Earth Episode 3 - National Land Cover Database
+Eyes on Earth Episode 3 - National Land Cover Database
+Eyes on Earth is a podcast on remote sensing, Earth observation, land change and science, brought to you by the USGS Earth Resources Observation and Science (EROS) Center. In this episode, we talk about the National Land Cover Database.
+Learn More
+September 11, 2018
+Western U.S. Cheatgrass and Shrubland Monitoring
+The USGS Earth Resources Observation and Science (EROS) Center National Land Cover Database team in collaboration with the Bureau of Land Management (BLM) has produced the most comprehensive remote-sensing based quantification of western United States shrublands to date.
+By
+Earth Resources Observation and Science (EROS) Center
+Western U.S. Cheatgrass and Shrubland Monitoring
+September 11, 2018
+Western U.S. Cheatgrass and Shrubland Monitoring
+The USGS Earth Resources Observation and Science (EROS) Center National Land Cover Database team in collaboration with the Bureau of Land Management (BLM) has produced the most comprehensive remote-sensing based quantification of western United States shrublands to date.
+Learn More
+September 12, 2013
+National Land Cover Database Visualization and Information Tool
+The National Land Cover Database (NLCD) serves as the definitive Landsat-based, 30-meter resolution, land cover database for the Nation. NLCD supports a wide variety of Federal, State, local, and nongovernmental applications that seek to assess ecosystem status and health, understand the spatial patterns of biodiversity, predict effects of climate change, and develop land management...
+By
+Community for Data Integration (CDI)
+National Land Cover Database Visualization and Information Tool
+September 12, 2013
+National Land Cover Database Visualization and Information Tool
+The National Land Cover Database (NLCD) serves as the definitive Landsat-based, 30-meter resolution, land cover database for the Nation. NLCD supports a wide variety of Federal, State, local, and nongovernmental applications that seek to assess ecosystem status and health, understand the spatial patterns of biodiversity, predict effects of climate change, and develop land management policy
+Learn More
+Data
+Below are data or web applications associated with this project.
+Items per page
+6
+12
+Label
+August 5, 2020
+National Land Cover Database (NLCD) 2016 Shrubland Fractional Components for the Western U.S. (ver. 3.0, July 2020)
+National Land Cover Database (NLCD) 2016 Shrubland Fractional Components for the Western U.S. (ver. 3.0, July 2020)
+Quantifying Western U.S. shrublands as a series of fractional components with remote sensing provides a new way to understand these changing ecosystems. The USGS NLCD team in collaboration with the BLM has produced the most comprehensive remote sensing-based quantification of Western U.S. shrublands to date. Nine shrubland ecosystem components, including percent shrub, sagebrush...
+By
+Earth Resources Observation and Science (EROS) Center
+June 18, 2020
+Remote Sensing Shrub/Grass National Land Cover Database (NLCD) Back-in-Time (BIT) Products for the Western U.S., 1985 - 2018
+Remote Sensing Shrub/Grass National Land Cover Database (NLCD) Back-in-Time (BIT) Products for the Western U.S., 1985 - 2018
+The need to monitor change in sagebrush steppe is urgent due to the increasing impacts of climate change, shifting fire regimes, and management practices on ecosystem health. Remote sensing provides a cost-effective and reliable method for monitoring change through time and attributing changes to drivers. We report an automated method of mapping rangeland fractional component cover over...
+By
+Earth Resources Observation and Science (EROS) Center
+January 7, 2020
+Non-native and synanthropic bird data derived from 2010-2012 Breeding Bird Survey and associated landscape metrics from 2011 NLCD
+Non-native and synanthropic bird data derived from 2010-2012 Breeding Bird Survey and associated landscape metrics from 2011 NLCD
+Locations of and proportional abundance of non-native and synanthropic passerines were extracted from Breeding Bird Survey (BBS) data from 2010-2012. Information characterizing the spatial variation and the associated amount, aggregation, and diversity of developed and agricultural land cover types was extracted from the National Land Cover Datasets of 2011. Data supported analyses in...
+By
+Fort Collins Science Center
+National Land Cover Database (NLCD)
+National Land Cover Database (NLCD)
+The National Land Cover Database (NLCD) provides nation-wide data on land cover and land cover change at the Landsat Thematic Mapper (TM) 30-meter resolution. NLCD provides spatial reference and descriptive data for characteristics of the land surface such as thematic class (e.g., urban, agriculture, and forest), percent impervious surface, and percent tree canopy cover.
+By
+Drought
+Multimedia
+Below are multimedia items associated with this project.
+Label
+List
+Grid
+Dallas-Ft. Worth - NLCD 2016 Impervious Descriptor layer
+Dallas-Ft. Worth - NLCD 2016 Impervious Descriptor layer
+Mapping Roadways at Landsat Scale
+Mapping Roadways at Landsat Scale
+Dallas-Ft. Worth - NLCD 2016 Impervious Descriptor layer
+Dallas-Ft. Worth - NLCD 2016 Impervious Descriptor layer
+October 15, 2021
+Mapping Roadways at Landsat Scale
+Mapping Roadways at Landsat Scale
+Mapping Roadways at Landsat Scale
+A satellite flying over this area northwest of Dallas, TX will capture a wide variety of urban and rural activity. The 80-odd square miles seen in the Landsat image on the left includes airports, dense urban centers, suburban and exurban neighborhoods, manufacturing and distribution centers, oil and gas production sites, lakes, forests, wetlands and more.
+By
+Earth Resources Observation and Science (EROS) Center
+Dallas-Ft. Worth - NLCD 2016 Impervious Descriptor layer
+Dallas-Ft. Worth - NLCD 2016 Impervious Descriptor layer
+October 15, 2021
+Mapping Roadways at Landsat Scale
+Mapping Roadways at Landsat Scale
+Mapping Roadways at Landsat Scale
+Mapping Roadways at Landsat Scale
+A satellite flying over this area northwest of Dallas, TX will capture a wide variety of urban and rural activity. The 80-odd square miles seen in the Landsat image on the left includes airports, dense urban centers, suburban and exurban neighborhoods, manufacturing and distribution centers, oil and gas production sites, lakes, forests, wetlands and more.
+By
+Earth Resources Observation and Science (EROS) Center
+Eyes on Earth - National Land Cover Database 2019 thumbnail
+Eyes on Earth - National Land Cover Database 2019 thumbnail
+Eyes on Earth Episode 54 - National Land Cover Database 2019
+Eyes on Earth Episode 54 - National Land Cover Database 2019
+Eyes on Earth - National Land Cover Database 2019 thumbnail
+Eyes on Earth - National Land Cover Database 2019 thumbnail
+July 12, 2021
+Eyes on Earth Episode 54 - National Land Cover Database 2019
+Eyes on Earth Episode 54 - National Land Cover Database 2019
+Eyes on Earth Episode 54 - National Land Cover Database 2019
+The National Land Cover Database, or NLCD, was the first and remains the most well-known set of satellite-based land cover mapping products released by EROS. It sorts the each 30-by-30-meter plot of land in the United States into a land cover class, such as cropland, pasture, high-intensity developed, deciduous forest, and the like.
+By
+Core Science Systems Mission Area
+,
+Earth Resources Observation and Science (EROS) Center
+Eyes on Earth - National Land Cover Database 2019 thumbnail
+Eyes on Earth - National Land Cover Database 2019 thumbnail
+July 12, 2021
+Eyes on Earth Episode 54 - National Land Cover Database 2019
+Eyes on Earth Episode 54 - National Land Cover Database 2019
+Eyes on Earth Episode 54 - National Land Cover Database 2019
+Eyes on Earth Episode 54 - National Land Cover Database 2019
+The National Land Cover Database, or NLCD, was the first and remains the most well-known set of satellite-based land cover mapping products released by EROS. It sorts the each 30-by-30-meter plot of land in the United States into a land cover class, such as cropland, pasture, high-intensity developed, deciduous forest, and the like.
+By
+Core Science Systems Mission Area
+,
+Earth Resources Observation and Science (EROS) Center
+Eyes on Earth Episode 42 - Rangelands of the U.S.
+Eyes on Earth Episode 42 - Rangelands of the U.S.
+Eyes on Earth Episode 42 – Rangelands of the U.S.
+Eyes on Earth Episode 42 – Rangelands of the U.S.
+Eyes on Earth Episode 42 - Rangelands of the U.S.
+Eyes on Earth Episode 42 - Rangelands of the U.S.
+January 25, 2021
+Eyes on Earth Episode 42 – Rangelands of the U.S.
+Eyes on Earth Episode 42 – Rangelands of the U.S.
+Eyes on Earth Episode 42 – Rangelands of the U.S.
+The extensive rangelands across the Western United States are threatened by invasive grasses, climate change, and altered fire regimes that can disturb the landscape. The largely semi-arid lands are also important for the survival of species that need undisturbed sagebrush ecosystems to thrive.
+By
+Core Science Systems Mission Area
+,
+Earth Resources Observation and Science (EROS) Center
+,
+Landsat Missions
+Eyes on Earth Episode 42 - Rangelands of the U.S.
+Eyes on Earth Episode 42 - Rangelands of the U.S.
+January 25, 2021
+Eyes on Earth Episode 42 – Rangelands of the U.S.
+Eyes on Earth Episode 42 – Rangelands of the U.S.
+Eyes on Earth Episode 42 – Rangelands of the U.S.
+Eyes on Earth Episode 42 – Rangelands of the U.S.
+The extensive rangelands across the Western United States are threatened by invasive grasses, climate change, and altered fire regimes that can disturb the landscape. The largely semi-arid lands are also important for the survival of species that need undisturbed sagebrush ecosystems to thrive.
+By
+Core Science Systems Mission Area
+,
+Earth Resources Observation and Science (EROS) Center
+,
+Landsat Missions
+Eyes on Earth - Collin Homer
+Eyes on Earth - Collin Homer
+Eyes on Earth - Episode 3 - The National Land Cover Database
+Eyes on Earth - Episode 3 - The National Land Cover Database
+Eyes on Earth - Collin Homer
+Eyes on Earth - Collin Homer
+September 16, 2019
+Eyes on Earth - Episode 3 - The National Land Cover Database
+Eyes on Earth - Episode 3 - The National Land Cover Database
+Eyes on Earth - Episode 3 - The National Land Cover Database
+Sorting Landsat data into an accurate and reliable record of land cover in the United States is one of the most important jobs at EROS. This episode of Eyes on Earth explores the what, how, and why of the National Land Cover Database (NLCD).
+By
+Earth Resources Observation and Science (EROS) Center
+Eyes on Earth - Collin Homer
+Eyes on Earth - Collin Homer
+September 16, 2019
+Eyes on Earth - Episode 3 - The National Land Cover Database
+Eyes on Earth - Episode 3 - The National Land Cover Database
+Eyes on Earth - Episode 3 - The National Land Cover Database
+Eyes on Earth - Episode 3 - The National Land Cover Database
+Sorting Landsat data into an accurate and reliable record of land cover in the United States is one of the most important jobs at EROS. This episode of Eyes on Earth explores the what, how, and why of the National Land Cover Database (NLCD).
+By
+Earth Resources Observation and Science (EROS) Center
+Publications
+Here are the publications associated with the National Land Cover Database.
+Filter Total Items: 14
+Publication Type (field_pub_type)
+Type
+Article
+Book
+Book Chapter
+Conference Paper
+Extramural-Authored Publication Paper
+Newsletter
+Other
+Preprint
+Report
+Thesis
+Release Date (field_release_date)
+Year
+2026
+2025
+2024
+2023
+2022
+2021
+2020
+2019
+2018
+2017
+2016
+2015
+2014
+2013
+2012
+2011
+2010
+2009
+2008
+2007
+2006
+2005
+2004
+2003
+2002
+2001
+2000
+1999
+1998
+1997
+1996
+1995
+1994
+1993
+1992
+1991
+1990
+1989
+1988
+1987
+1986
+1985
+1984
+1983
+1982
+1981
+1980
+1979
+1978
+1977
+1976
+1975
+1974
+1973
+1972
+1971
+1970
+1969
+1968
+1967
+1966
+1965
+1964
+1963
+1962
+1961
+1960
+1959
+1958
+1957
+1956
+1955
+1954
+1953
+1952
+1951
+1950
+1949
+1948
+1947
+1946
+1945
+1944
+1943
+1942
+1941
+1940
+1939
+1938
+1937
+1936
+1935
+1934
+1933
+1932
+1931
+1930
+1929
+1928
+1927
+1926
+1925
+1924
+1923
+1922
+1921
+1920
+1919
+1918
+1917
+1916
+1915
+1914
+1913
+1912
+1911
+1910
+1909
+1908
+1907
+1906
+1905
+1904
+1903
+1902
+1901
+1900
+1899
+1898
+1897
+1896
+1895
+1894
+1893
+1892
+1891
+1890
+1889
+1888
+1887
+1886
+1885
+1884
+1883
+1882
+1881
+1880
+1879
+1878
+1877
+1876
+1875
+1874
+1873
+1872
+1871
+1870
+1869
+1868
+1867
+1866
+1865
+1864
+1863
+1862
+1861
+1860
+1859
+1858
+1857
+1856
+1855
+1854
+1853
+1852
+1851
+1850
+1849
+1848
+1847
+1846
+1845
+1844
+1843
+1842
+1841
+1840
+1839
+1838
+1837
+1836
+1835
+1834
+1833
+1832
+1831
+1830
+1829
+1828
+1827
+1826
+1825
+1824
+1823
+1822
+1821
+1820
+1819
+1818
+1817
+1816
+1815
+1814
+1813
+1812
+1811
+Items per page
+6
+12
+Label
+April 20, 2026
+Thematic accuracy assessment of the National Land Cover Database (NLCD2021) for the conterminous United States
+Thematic accuracy assessment of the National Land Cover Database (NLCD2021) for the conterminous United States
+The MultiResolution Land Characteristics (MRLC) consortium’s National Land Cover Database (NLCD) was established as an operational, stakeholder-oriented land cover monitoring program with the release of the NLCD2001 database. Both land cover and land cover change data became available with the release of NLCD2006. Here, we report the land cover and land cover change accuracies for...
+Authors
+James Wickham, Stephen V. Stehman, Daniel G. Sorenson, Leila Gass, Jon Dewitz, Johnathan Vasa Kilaru
+By
+Earth Resources Observation and Science (EROS) Center
+March 1, 2023
+Thematic accuracy assessment of the NLCD 2019 land cover for the conterminous United States
+Thematic accuracy assessment of the NLCD 2019 land cover for the conterminous United States
+The National Land Cover Database (NLCD), a product suite produced through the MultiResolution Land Characteristics (MRLC) consortium, is an operational land cover monitoring program. Starting from a base year of 2001, NLCD releases a land cover database every 2–3-years. The recent release of NLCD2019 extends the database to 18 years. We implemented a stratified random sample to collect...
+Authors
+James Wickham, Stephen V. Stehman, Daniel G. Sorenson, Leila Gass, Jon Dewitz
+By
+Earth Resources Observation and Science (EROS) Center
+,
+Western Geographic Science Center
+January 30, 2023
+National Land Cover Database 2019: A comprehensive strategy for creating the 1986-2019 forest disturbance product
+National Land Cover Database 2019: A comprehensive strategy for creating the 1986-2019 forest disturbance product
+The National Land Cover Database (NLCD) 2016 products show that, between 2001 and 2016, nearly half of the land cover change in the conterminous United States (CONUS) involved forested areas. To ensure the quality of NLCD land cover and land cover change products, it is important to accurately detect the location and time of forest disturbance. We designed a comprehensive strategy to...
+Authors
+Suming Jin, Jon Dewitz, Congcong Li, Daniel G. Sorenson, Zhe Zhu, Rakibul Shogib, Patrick Danielson, Brian Granneman, Catherine Costello, Adam Case, Leila Gass
+By
+Earth Resources Observation and Science (EROS) Center
+January 11, 2023
+National Land Cover Database 2019: A new strategy for creating clean leaf-on and leaf-off Landsat composite images
+National Land Cover Database 2019: A new strategy for creating clean leaf-on and leaf-off Landsat composite images
+National Land Cover Database (NLCD) 2019 is a new epoch of national land cover products for the conterminous United States. Image quality is fundamental to the quality of any land cover product. Image preprocessing has often taken a considerable proportion of overall time and effort for this kind of national project. An approach to prepare image inputs for NLCD 2019 production was...
+Authors
+Suming Jin, Jon Dewitz, Patrick Danielson, Brian Granneman, Catherine Costello, Zhe Zhu
+By
+Science Synthesis, Analysis, and Research Program
+,
+Earth Resources Observation and Science (EROS) Center
+,
+Advanced Research Computing (ARC)
+February 23, 2021
+Rangeland fractional components across the western United States from 1985 to 2018
+Rangeland fractional components across the western United States from 1985 to 2018
+Monitoring temporal dynamics of rangelands to detect and understand change in vegetation cover and composition provides a wealth of information to improve management and sustainability. Remote sensing allows the evaluation of both abrupt and gradual rangeland change at unprecedented spatial and temporal extents. Here, we describe the production of the National Land Cover Database (NLCD)...
+Authors
+Matthew B. Rigge, Collin Homer, Hua Shi, Debbie Meyer, Brett Bunde, Brian J. Granneman, Kory Postma, Patrick Danielson, Adam Case, George Z. Xian
+By
+Earth Resources Observation and Science (EROS) Center
+March 3, 2020
+Conterminous United States land cover change patterns 2001–2016 from the 2016 National Land Cover Database
+Conterminous United States land cover change patterns 2001–2016 from the 2016 National Land Cover Database
+The 2016 National Land Cover Database (NLCD) product suite (available on www.mrlc.gov), includes Landsat-based, 30 m resolution products over the conterminous (CONUS) United States (U.S.) for land cover, urban imperviousness, and tree, shrub, herbaceous and bare ground fractional percentages. The release of NLCD 2016 provides important new information on land change patterns across CONUS...
+Authors
+Collin G. Homer, Jon Dewitz, Suming Jin, George Z. Xian, Catherine Costello, Patrick Danielson, Leila Gass, Michelle Funk, James Wickham, Steven Stehman, Roger F. Auch, Kurt H. Riitters
+By
+Earth Resources Observation and Science (EROS) Center
+August 21, 2018
+Accuracy assessment of NLCD 2011 impervious cover data for the Chesapeake Bay region, USA
+Accuracy assessment of NLCD 2011 impervious cover data for the Chesapeake Bay region, USA
+The National Land Cover Database (NLCD) contains three eras (2001, 2006, 2011) of percentage urban impervious cover (%IC) at the native pixel size (30 m-x-30 m) of the Landsat Thematic Mapper satellite. These data are potentially valuable to environmental managers and stakeholders because of the utility of %IC as an indicator of watershed and aquatic condition, but lack an accuracy...
+Authors
+James Wickham, Nate Herold, Stephen V. Stehman, Collin Homer, George Z. Xian, Peter Claggett
+By
+Earth Resources Observation and Science (EROS) Center
+March 29, 2017
+Thematic accuracy assessment of the 2011 National Land Cover Database (NLCD)
+Thematic accuracy assessment of the 2011 National Land Cover Database (NLCD)
+Accuracy assessment is a standard protocol of National Land Cover Database (NLCD) mapping. Here we report agreement statistics between map and reference labels for NLCD 2011, which includes land cover for ca. 2001, ca. 2006, and ca. 2011. The two main objectives were assessment of agreement between map and reference labels for the three, single-date NLCD land cover products at Level II...
+Authors
+James Wickham, Stephen V. Stehman, Leila Gass, Jon Dewitz, Daniel G. Sorenson, Brian J. Granneman, Richard V. Poss, Lori Anne Baer
+By
+Earth Resources Observation and Science (EROS) Center
+,
+Geosciences and Environmental Change Science Center
+,
+Western Geographic Science Center
+January 9, 2013
+Accuracy assessment of NLCD 2006 land cover and impervious surface
+Accuracy assessment of NLCD 2006 land cover and impervious surface
+Release of NLCD 2006 provides the first wall-to-wall land-cover change database for the conterminous United States from Landsat Thematic Mapper (TM) data. Accuracy assessment of NLCD 2006 focused on four primary products: 2001 land cover, 2006 land cover, land-cover change between 2001 and 2006, and impervious surface change between 2001 and 2006. The accuracy assessment was conducted by...
+Authors
+James D. Wickham, Stephen V. Stehman, Leila Gass, Jon Dewitz, Joyce A. Fry, Timothy G. Wade
+By
+Earth Resources Observation and Science (EROS) Center
+January 1, 2010
+Thematic accuracy of the NLCD 2001 land cover for the conterminous United States
+Thematic accuracy of the NLCD 2001 land cover for the conterminous United States
+The land-cover thematic accuracy of NLCD 2001 was assessed from a probability-sample of 15,000 pixels. Nationwide, NLCD 2001 overall Anderson Level II and Level I accuracies were 78.7% and 85.3%, respectively. By comparison, overall accuracies at Level II and Level I for the NLCD 1992 were 58% and 80%. Forest and cropland were two classes showing substantial improvements in accuracy in...
+Authors
+J.D. Wickham, S.V. Stehman, J.A. Fry, J.H. Smith, Collin G. Homer
+By
+Earth Resources Observation and Science (EROS) Center
+January 1, 2010
+National Land Cover Database 2001 (NLCD01) Tree Canopy Layer Tile 4, Southeast United States: CNPY01_4
+National Land Cover Database 2001 (NLCD01) Tree Canopy Layer Tile 4, Southeast United States: CNPY01_4
+This 30-meter resolution data set represents the tree canopy layer for the conterminous United States for the 2001 time period. The data have been arranged into four tiles to facilitate timely display and manipulation within a Geographic Information System, browse graphic: nlcd01-partition.jpg The National Land Cover Data Set for 2001 was produced through a cooperative project conducted...
+Authors
+Andrew E. LaMotte, Michael Wieczorek
+April 11, 2009
+Comparison of NLCD with NWI Classifications of Baldwin and Mobile Counties, Alabama
+Comparison of NLCD with NWI Classifications of Baldwin and Mobile Counties, Alabama
+An assessment of the accuracy of National Land Cover Data 2001 as compared to National Wetlands Inventory mapping of Mobile and Baldwin Counties conducted by the U.S. Geological Survey's (USGS) National Wetlands Research Center (NWRC). Both classifications were checked against stratified randomly selected ground-based sites and with each other to compare the accuracy of the NLCD with NWI
+Authors
+Larry Handley, Chris Wells
+Pagination
+Current page
+1
+Page
+2
+Next page
+››
+Last page
+Last »
+News
+Below are news stories associated with the National Land Cover Database.
+October 8, 2024
+NLCD’s Path from Early Landscape Snapshot to Decades of Change
+NLCD’s Path from Early Landscape Snapshot to Decades of Change
+The widely used National Land Cover Database (NLCD) has long been the foundational land cover source for scientists, resource managers, and decision-makers across the United States, trusted for its accurate and unbiased data. Here, we’re exploring the evolution of NLCD through its reinvention this year as Annual NLCD.
+By
+Core Science Systems Mission Area
+,
+National Land Imaging Program
+,
+Earth Resources Observation and Science (EROS) Center
+,
+Landsat Missions
+Filter Total Items: 14
+Content type
+Type
+News
+Newsletter
+Release Date (field_release_date)
+Year
+2026
+2025
+2024
+2023
+2022
+2021
+2020
+2019
+2018
+2017
+2016
+2015
+2014
+2013
+2012
+2011
+2010
+2009
+2008
+2007
+2006
+2005
+2004
+2003
+2002
+2001
+2000
+1999
+1998
+1997
+1996
+1995
+1994
+1993
+1992
+1991
+1990
+1989
+1988
+1987
+1986
+1985
+1984
+1983
+1982
+1981
+1980
+1979
+1978
+1977
+1976
+1975
+1974
+1973
+1972
+1971
+1970
+1969
+1968
+1967
+1966
+1965
+1964
+1963
+1962
+1961
+1960
+1959
+1958
+1957
+1956
+1955
+1954
+1953
+1952
+1951
+1950
+1949
+1948
+1947
+1946
+1945
+1944
+1943
+1942
+1941
+1940
+1939
+1938
+1937
+1936
+1935
+1934
+1933
+1932
+1931
+1930
+1929
+1928
+1927
+1926
+1925
+1924
+1923
+1922
+1921
+1920
+1919
+1918
+1917
+1916
+1915
+1914
+1913
+1912
+1911
+1910
+1909
+1908
+1907
+1906
+1905
+1904
+1903
+1902
+1901
+1900
+1899
+1898
+1897
+1896
+1895
+1894
+1893
+1892
+1891
+1890
+1889
+1888
+1887
+1886
+1885
+1884
+1883
+1882
+1881
+1880
+1879
+1878
+1877
+1876
+1875
+1874
+1873
+1872
+1871
+1870
+1869
+1868
+1867
+1866
+1865
+1864
+1863
+1862
+1861
+1860
+1859
+1858
+1857
+1856
+1855
+1854
+1853
+1852
+1851
+1850
+1849
+1848
+1847
+1846
+1845
+1844
+1843
+1842
+1841
+1840
+1839
+1838
+1837
+1836
+1835
+1834
+1833
+1832
+1831
+1830
+1829
+1828
+1827
+1826
+1825
+1824
+1823
+1822
+1821
+1820
+1819
+1818
+1817
+1816
+1815
+1814
+1813
+1812
+1811
+Items per page
+6
+12
+Label
+Maximizing Accuracy of Rangeland Data
+April 3, 2024
+Maximizing Accuracy of Rangeland Data
+Project Manager Matthew Rigge and the Rangeland Condition Monitoring Assessment and Projection (RCMAP) team take an almost businesslike approach to...
+Read Article
+NLCD 2021 Now Available
+July 31, 2023
+NLCD 2021 Now Available
+The U.S. Geological Survey (USGS), in association with the Multi-Resolution Land Characteristics (MRLC) Consortium, is pleased to announce the...
+Read Article
+New Land Cover Maps Capture Nearly Two Decades of Change Across the U.S.
+July 20, 2021
+New Land Cover Maps Capture Nearly Two Decades of Change Across the U.S.
+The U.S. Geological Survey recently released updated land cover maps for the conterminous United States that depict 18 years of change to the Nation’s...
+Read Article
+New USGS EROS Tool Shows County-By-County Change Across United States
+April 6, 2021
+New USGS EROS Tool Shows County-By-County Change Across United States
+The USGS Earth Resources Observation and Science (EROS) Center has released a new online tool to help the public better visualize county-by-county...
+Read Article
+Detecting Shrub Recovery in Sagebrush Steppe: Comparing Landsat-Derived Maps with Field Data on Historical Wildfires
+February 26, 2021
+Detecting Shrub Recovery in Sagebrush Steppe: Comparing Landsat-Derived Maps with Field Data on Historical Wildfires
+Sagebrush can be scarce after fires in a semiarid ecosystem and their paucity over vast burn areas creates challenges for detection by remote sensing...
+Read Article
+EROS Rangeland Tools Aid Western U.S. Land Managers
+January 27, 2021
+EROS Rangeland Tools Aid Western U.S. Land Managers
+The extensive rangelands across the Western United States are threatened by invasive grasses, climate change, and altered fire regimes that can...
+Read Article
+Land Cover Partnership Releases Change Datasets for U.S., Mexico, Canada
+November 18, 2020
+Land Cover Partnership Releases Change Datasets for U.S., Mexico, Canada
+The release of a change dataset for North America’s three largest countries will enable GIS researchers to more easily study continent-scale land use...
+Read Article
+Rangeland Mapping Tools Take Users Back in Time Across Western U.S.
+August 3, 2020
+Rangeland Mapping Tools Take Users Back in Time Across Western U.S.
+The USGS Earth Resources Observation and Science (EROS) Center and Department of Interior’s Bureau of Land Management have just released an...
+Read Article
+NLCD Readies Improvements for Upcoming Release of 2019 Product Suite
+July 27, 2020
+NLCD Readies Improvements for Upcoming Release of 2019 Product Suite
+The next edition of the National Land Cover Database (NLCD) will appear more quickly than previous editions, offer accuracy comparable to NLCD 2016...
+Read Article
+New Land Cover Maps Depict 15 Years of Alaska Change
+April 17, 2020
+New Land Cover Maps Depict 15 Years of Alaska Change
+The latest edition of the National Land Cover Database (NLCD 2016) for Alaska is now publicly available.
+Read Article
+EROS contributes to New Land Cover Maps for U.S., Canada, Mexico
+February 27, 2020
+EROS contributes to New Land Cover Maps for U.S., Canada, Mexico
+The three largest countries in North America share trade, climate and culture in a host of broad and specific ways. A new set of land cover maps for...
+Read Article
+New NLCD products to be folded into Esri software, Earth Engine
+May 24, 2019
+New NLCD products to be folded into Esri software, Earth Engine
+The National Land Cover Database (NLCD) 2016 product suite was recently released for bulk download on the Multi-Resolution Land Characteristics...
+Read Article
+Pagination
+Current page
+1
+Page
+2
+Next page
+››
+Last page
+Last »
+Back to Top
+Accessibility
+FOIA
+Site Policies
+Privacy Policy
+Site Map
+DOI and USGS link policies apply
+No FEAR Act
+USA.gov
+Vulnerability Disclosure
+Careers and Employment
+Doing Business
+Emergency Management
+Office of Civil Rights
+U.S. Geological Survey
+U.S. Department of the Interior
+Contact USGS
+answers.usgs.gov
+Was this page helpful?

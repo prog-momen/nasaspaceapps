@@ -1,0 +1,132 @@
+Mission Design Lab | Goddard Engineering and Technology Directorate
+Skip to main content
+Skip to header right navigation
+Skip to after header navigation
+Skip to site footer
+Due to the lapse in federal government funding, NASA is not updating this website.
+Goddard Engineering and Technology Directorate
+Menu
+About ETD
+About ETD
+Images
+Multimedia
+Featured Stories
+Capabilities
+ETD Capabilities
+Capabilities Listing
+Facilities Listing
+core Flight System
+Flight Dynamics Facility
+Integrated Design Center
+In-Space Servicing, Assembly, and Manufacturing
+Partnerships
+Our Work
+Divisions
+Aerospace Flight Hardware & Technology
+Systems Architectures
+Careers
+Internships
+Integrated Design Center
+IDC Home
+Instrument Design Lab
+NASA DOME
+Mission Design Lab
+Mission Design Lab
+What the MDL Provides
+NASA’s Mission Design Lab (MDL) provides a collaborative engineering environment for the development of space flight designs and architecture concepts. The key components of the MDL (i.e. people, process, tools and facility) result in a responsive dynamic atmosphere that affords a unique opportunity for accelerated development of design products tailored to a customer’s needs.
+Engineers and science partners work to develop a mission concept in the Mission Design Lab
+Range of study options, to match best value to
+concept development needs
+or products can be tailored to support customer need
+Concept Maturity Levels
+(CMLs), initially defined by NASA’s Jet Propulsion Laboratory (JPL), provide a standardized tool to advance mission concept designs by assessing the current state of a concept and identifying remaining work to proceed to the next level.
+IDC studies can be tailored to support concept maturation from CML 1 through CML 4.
+Office Hours
+Timeframe: ~ 1 hr
+No/low prep
+Brainstorming Session
+Identify tall poles and key trade studies
+Recommend next steps and point of contact for early engineering support
+Concept Development
+Timeframe: A few half days
+Potential Products: Concept Feasibility, Risk assessment
+Scope informed by Concept Maturity Level (CML). A CML is a measure of how developed, tested, and ready a concept, idea, or technology is for implementation or deployment.
+Tailored Trade Study
+Timeframe: Variable
+Potential Products: Concept, ConOps, Resources Summary, Trade Tree, possible ROM cost*
+Scope informed by Concept Maturity Level (CML)
+Point Design Study
+Timeframe: 6 days
+Products: CAD, MEL, engineering models, CEMA cost
+Entry Criteria: “Pass” CML checklist
+MDL Capabilities
+Orbit view of space relay communications concept.
+The MDL provides specific engineering analysis and services for mission design and provides end-to-end mission design products with capabilities that include:
+LEO, GEO, libration, retrograde, drift away, lunar, and deep space orbit design
+Missions that entail single spacecraft, constellations, formation flying or distributed systems
+Ground system concept development including services, and products
+Launch vehicle accommodations
+End-of-Mission considerations including controlled and uncontrolled de-orbit, reconnaissance and landing, sample return, etc.
+MDL Disciplines
+During the study, each system/subsystem prepares material that addresses the requirements, baseline design, alternative designs & trade studies, functional diagrams, interfaces, detailed estimates of mass, power, and data rate, technical risk assessment, issues/concerns, recommendations, models, parametric/grassroots costs, and background information.
+MDL’s Discipline Engineering Team provides mission systems expertise across a very broad spectrum, including:
+Attitude Control
+Mission Cost
+Propulsion
+Avionics
+Mechanical Designer
+Reliability
+Flight Dynamics
+Flight Software
+Mechanical Systems
+Orbital Debris
+Radiation Environment
+Structural
+Communications
+Mission Operations
+Power Systems
+Thermal
+Sample MDL Products
+Spacecraft System Block Diagrams
+Orbit Analysis
+Communication and Ground System Analysis
+Launch Systems Accommodations​
+Spacecraft Master Equipment List (MEL)​
+Mechanical Packaging/CAD Model
+Observatory Concept 3D Models
+Doing Business with Goddard
+Goddard is committed to cultivating transformative collaborative relationships. We invite engagement from science researchers, aerospace professionals, academic partners, and curious minds across all disciplines.
+Let’s connect!
+Interested in partnering with us? Get started by filling out our Goddard Front Door Connection form.
+Connect with Us
+Have a general question for us?
+Go here
+to submit a general question for ETD.
+ABOUT ETD
+The Engineering and Technology Directorate at NASA Goddard designs, builds, and develops space flight technology for American leadership in space. The technical workforce brings this expertise to NASA’s portfolio and supports mission partnerships across the whole of government and industry.
+Learn More
+NASA.gov
+NASA Goddard
+News & Events
+NASA+
+EXPLORE ETD
+Featured Stories
+Internships
+FOLLOW
+X
+Facebook
+Flickr
+YouTube
+Instagram
+More NASA Social Accounts
+Page Last Updated:
+Jul 23, 2026
+Page Editor:
+ETD Web Team
+Responsible NASA Official:
+Dann Brown
+Sitemap
+FOIA
+Privacy
+Accessibility
+Contact ETD

@@ -1,0 +1,67 @@
+NASA SVS | Data Sonification: Caldwell 73
+Scientific Visualization Studio
+Galleries
+Help
+Search
+4880: COVID-19 Earth Observing Fleet
+13782: Hubble's 30th Anniversary Celebration
+Data Sonification: Caldwell 73
+Released
+Wednesday, December 23, 2020
+ID: 13786
+View full credits
+Located 40,000 light-years from Earth in the constellation Columba, this globular cluster is called Caldwell 73 or NGC 1851. A globular cluster is a spherical group of stars that are gravitationally bound to each other, with most of the stars concentrated at the cluster’s center.
+As the radar scans around in this sonification, the radius of the stars is mapped to pitch, so stars farther from the center are higher pitched. The entire image is converted to the sound of a choir, while the orange and red stars are represented by a marimba, and the blue stars are represented by a glockenspiel.
+Credit: SYSTEM Sounds (M. Russo, A. Santaguida)
+For more information about the Hubble Space Telescope and its images, visit
+https://nasa.gov/hubble
+.
+Master VersionHorizontal version. This is for use on any YouTube or non-YouTube platform where you want to display the video horizontally.
+Download
+Movies
+Caldwell73_2K_Final.mp4 (1920x1920) [73.9 MB]
+Caldwell73_2K_Final.webm (1920x1920) [5.6 MB]
+Captions
+CALDWELL73.en_US.SRT [49 bytes]
+Images
+print.jpg (1920x1080) [850.7 KB]
+wide.jpg (1920x1080) [850.7 KB]
+SW.jpg (320x180) [47.1 KB]
+Master Version
+Horizontal version. This is for use on any YouTube or non-YouTube platform where you want to display the video horizontally.
+Universe
+HST
+Hubble Space Telescope
+Sonification
+Credits
+Please give credit for this item to:
+NASA's Goddard Space Flight Center
+Technical support
+Aaron E. Lepsch
+(ADNET Systems, Inc.)
+Missions
+This page is related to the following missions:
+Hubble
+Related
+ID: 13999
+Produced Video
+Sonification of the Bubble Nebula
+ID: 13998
+Produced Video
+Sonification of the Butterfly Nebula
+ID: 13997
+Produced Video
+Sonification of NGC 2392
+ID: 13893
+Produced Video
+Sonification of Hubble Ultra Deep Field (2014)
+Release date
+This page was originally published on Wednesday, December 23, 2020.
+This page was last updated on Wednesday, May 3, 2023 at 1:44 PM EDT.
+You may also like...
+No results.
+An error occurred. Please reload this page and try again.
+Privacy Policy and Important Notices
+Reproduction Guidelines
+NASA Official:
+Site Curator:

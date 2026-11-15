@@ -1,0 +1,134 @@
+{
+  "id": "resource_R003",
+  "url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1971-063C",
+  "checked_at": "2026-11-14T15:15:08.847786+00:00",
+  "tls_validation": false,
+  "status": 200,
+  "final_url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1971-063C",
+  "bytes": 18674,
+  "content_type": "text/xml;charset=UTF-8",
+  "sha256": "9f4c83d3d9fa6a4ee35b2466509858fb5b7ad07235315ccab2eb495a949d3c23",
+  "links": [
+    {
+      "url": "http://www.nasa.gov/",
+      "label": ""
+    },
+    {
+      "url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/displayTrajectory.action?id=1971-063C",
+      "label": "Launch/Orbital information for Apollo 15 Lunar Module /ALSEP"
+    },
+    {
+      "url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/displayTelemetry.action?id=1971-063C",
+      "label": "Telecommunications information for Apollo 15 Lunar Module /ALSEP"
+    },
+    {
+      "url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/displayExperiment.action?spacecraftId=1971-063C",
+      "label": "Experiments on Apollo 15 Lunar Module /ALSEP"
+    },
+    {
+      "url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/displayDataset.action?spacecraftId=1971-063C",
+      "label": "Data collections from Apollo 15 Lunar Module /ALSEP"
+    },
+    {
+      "url": "mailto:gsfc-dl-nssdca-request@mail.nasa.gov?Subject=NMC+Comment%2FQuestion%3A+Apollo+15+Lunar+Module+%2FALSEP+%281971-063C%29",
+      "label": "Coordinated Request and User Support Office"
+    },
+    {
+      "url": "https://nssdc.gsfc.nasa.gov/image/spacecraft/apollo_lm_diagram.gif",
+      "label": ""
+    },
+    {
+      "url": "http://history.nasa.gov/diagrams/apollo.html",
+      "label": "NASA History Office"
+    },
+    {
+      "url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraftDisplay.do?id=1971-063A",
+      "label": "Apollo 15 Command Module"
+    },
+    {
+      "url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraftDisplay.do?id=1971-063D",
+      "label": "Apollo 15 Subsatellite"
+    },
+    {
+      "url": "https://nssdc.gsfc.nasa.gov/planetary/lunar/apollo_lrv.html",
+      "label": "Apollo Lunar Roving Vehicle"
+    },
+    {
+      "url": "https://nssdc.gsfc.nasa.gov/planetary/lunar/apollo15info.html",
+      "label": "Apollo 15 Page"
+    },
+    {
+      "url": "https://nssdc.gsfc.nasa.gov/planetary/lunar/lunar_sites.txt",
+      "label": "Apollo landing sites and ALSEP and LRRR locations"
+    },
+    {
+      "url": "https://nssdc.gsfc.nasa.gov/planetary/lunar/apollo.html",
+      "label": "Apollo Page"
+    },
+    {
+      "url": "https://nssdc.gsfc.nasa.gov/planetary/lunar/apollo11.html",
+      "label": "Lunar Science Page"
+    },
+    {
+      "url": "https://nssdc.gsfc.nasa.gov/planetary/planets/moonpage.html",
+      "label": "Moon Page"
+    },
+    {
+      "url": "https://nssdc.gsfc.nasa.gov/nmc/SpacecraftQuery.jsp",
+      "label": "Spacecraft"
+    },
+    {
+      "url": "https://nssdc.gsfc.nasa.gov/nmc/ExperimentQuery.jsp",
+      "label": "Experiments"
+    },
+    {
+      "url": "https://nssdc.gsfc.nasa.gov/nmc/DatasetQuery.jsp",
+      "label": "Data Collections"
+    },
+    {
+      "url": "https://nssdc.gsfc.nasa.gov/nmc/PersonQuery.jsp",
+      "label": "Personnel"
+    },
+    {
+      "url": "https://nssdc.gsfc.nasa.gov/nmc/PublicationQuery.jsp",
+      "label": "Publications"
+    },
+    {
+      "url": "https://nssdc.gsfc.nasa.gov/nmc/MapQuery.jsp",
+      "label": "Maps"
+    },
+    {
+      "url": "https://nssdc.gsfc.nasa.gov/nmc/NewDataQuery.jsp",
+      "label": "New/Updated Data"
+    },
+    {
+      "url": "https://nssdc.gsfc.nasa.gov/nmc/EventQuery.jsp",
+      "label": "Lunar/Planetary Events"
+    },
+    {
+      "url": "https://nssdc.gsfc.nasa.gov/image/spacecraft/apollo_15_lm.jpg",
+      "label": ""
+    },
+    {
+      "url": "http://www.usa.gov/",
+      "label": ""
+    },
+    {
+      "url": "http://www.nasa.gov/about/highlights/HP_Privacy.html",
+      "label": "Privacy Policy and Important Notices"
+    },
+    {
+      "url": "http://www.nasa.gov/",
+      "label": ""
+    },
+    {
+      "url": "mailto:gsfc-dl-nssdca-contact-us@mail.nasa.gov",
+      "label": "Thomas H. Morgan"
+    },
+    {
+      "url": "mailto:tiffany.r.holden@nasa.gov",
+      "label": "T. R. Holden"
+    }
+  ],
+  "elapsed_seconds": 1.672
+}

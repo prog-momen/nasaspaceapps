@@ -1,0 +1,292 @@
+Monitoring and protecting our ecosystems from space | Canadian Space Agency
+Skip to main content
+Skip to "About government"
+Language selection
+Français
+fr
+/
+Gouvernement du Canada
+Search
+Search Canadian Space Agency
+Search
+Menu
+Main
+Menu
+Jobs and the workplace
+Immigration and citizenship
+Travel and tourism
+Business and industry
+Benefits
+Health
+Taxes
+Environment and natural resources
+National security and defence
+Culture, history and sport
+Policing, justice and emergencies
+Transport and infrastructure
+Canada and the world
+Money and finances
+Science and innovation
+You are here:
+Canada.ca
+Canadian Space Agency
+Discover the themes
+Satellites
+Everyday lives
+Top of page
+Monitoring and protecting our ecosystems from space
+A  deer in Jasper, Alberta. (Credit: Edward Koorey)
+Using  satellites, we can monitor changes and promote the responsible use of land and  natural resources to protect our ecosystems. Earth's ecosystems are essential  to life as we know it, contributing to some of our most basic needs like water,  food and clean air.
+Satellites  are also useful for understanding and protecting Canadian biodiversity. For  example, remote sensing techniques provide important data on wildlife and  habitats, and Global Positioning System (
+GPS
+) devices can be used to track  different species.
+New
+Learn how satellite data is used in environmental monitoring in this
+report on the socio-economic benefits of space utilization
+.
+Ok
+From space, we observe Earth’s beauty, but also the changes that take place there. Satellites orbiting our planet help us better understand it in order to better protect it. (Credit: Canadian Space Agency)
+Which  satellites provide data that can be used to protect and monitor ecosystems?
+RADARSAT Constellation Mission and RADARSAT-2: To facilitate  marine surveillance, environmental monitoring, ice monitoring, disaster  management, resource management and mapping in Canada and around the world.
+SMOS
+: To map sea surface salinity, monitor soil moisture on a global scale, better understand the water       cycle, and map snow- and ice-covered areas.
+SWOT
+(in development): To observe ocean surfaces and measure how lakes, rivers,       reservoirs and oceans are changing over time.
+Why  use satellites to monitor and protect ecosystems?
+Monitoring  forests
+Satellites help monitor the health of our forests.
+Canada  has 347 million hectares of forest land, accounting for 9% of the global forest  cover and for 40% of the world's sustainably managed forests, according to Key facts about Canada's forests from Natural  Resources Canada. Remote  sensing technologies have long been used by
+Canadian Forest Service
+(
+CFS
+)  scientists to gather a variety of forest information as well as map disturbances  such as wildfire burn areas and help estimate wood stocks.
+Today,  the
+CFS
+works with the Canadian Space Agency (
+CSA
+) and other partners to  develop ways to use satellite and airborne data to map and classify Canada's  forests and to monitor their health, structure, biomass and natural  disturbances. Images produced with data from Earth observation satellites allow  us to see changes that have occurred in a given area, helping to identify  harvested areas and to determine major changes in forest density.
+RADARSAT satellites
+What are they used for?
+Capable of monitoring in any weather, day or night and through clouds, smoke and haze,
+RADARSAT-2
+can detect change over time, map biomass and uncover damage from forest fires, both current and from the last 80 years. The
+CFS
+also uses RADARSAT-2 data for vegetation-related mapping.
+The
+RADARSAT Constellation Mission
+(
+RCM
+), launched in
+June 2019
+, adds a new series of applications that come as the result of the constellation model.
+RCM
+data enables scientists to detect harvesting and monitor forest regeneration, as well as to optimize forest management in order to preserve biodiversity and resource supply and ensure sustainable development. It also allows for more accurate assessment of various forest features. The Government of Canada is gradually switching over from RADARSAT-2 data to
+RCM
+data.
+BioSpace: Biodiversity monitoring with Earth  observation data
+BioSpace
+is  a joint project of the
+CFS
+and the
+CSA
+. It uses satellite technology to collect  data on biodiversity and track its changes on a national scale. Capable of scanning  very large areas, the technology opens up many remote and previously  inaccessible regions. BioSpace permits scientists to study many species at the  same time without the need to travel to multiple locations, making monitoring  more affordable. Researchers can also pinpoint the areas where the most  critical changes are taking place, and can focus their on-site research  accordingly. By observing landscape indicators over time and across Canada,  BioSpace acts as a kind of national early warning system, highlighting where  the biggest threats to biodiversity are and where interventions should be focused.
+Using satellite imagery, Agriculture and  Agri-Food Canada produces a yearly crop inventory that can help farmers plan  better.
+Not just forests, but mines and agriculture
+Natural Resources Canada
+uses satellite  imagery along with ground validation data to map, monitor and characterize  Canada's landmass and ecosystems in support of responsible development of  natural resources, such as mineral exploitation.
+Radar technology is also currently used in the
+agriculture  sector
+to monitor crop growth and determine favourable conditions  for maximum yields.
+Agriculture and  Agri-Food Canada
+(
+AAFC
+) carries out Earth observation (
+EO
+) activities  to help understand the extent, health and diversity of Canada's agricultural  landscape, how the landscape is changing with respect to agricultural  production, and the state of Canadian agricultural production from pre-planning  conditions through to post-harvest conditions. For example,
+AAFC
+produces a  yearly crop inventory (digital maps) for all of Canada using
+RADARSAT-2
+and
+RCM
+data,  combined with other data sources such as optical images from Landsat 8,  ground-truth information provided by provincial crop insurance companies, and  point observations from the British Columbia Ministry of Agriculture and  regional
+AAFC
+colleagues.
+Keeping  an eye on protected areas and wildlife habitats
+Satellite  data helps conserve natural habitats of wildlife species. (Credit: Ryan Hagerty)
+Ecosystem  monitoring from space helps government agencies, such as
+Parks Canada
+,  better manage protected areas, plan bird conservation areas and map vital habitats  for wildlife species at risk.
+Helping monitor Canada's changing environment
+As a Resource Management Officer for Parks Canada, Brian Koonoo travels  extensively to the northern tundra to compile information about the changing  environment. Remaining abreast of weather conditions is a key challenge to  working in this potentially hazardous region where temperatures and conditions  can quickly change. Koonoo uses RADARSAT data to help identify the dangerous  parts of the tundra and permafrost areas and what the best routes might be.  RADARSAT data is an increasingly important part of that process, as climate  change has made traditional knowledge of the Arctic icescape less reliable.
+Read  Brian's full story
+.
+RADARSAT satellites
+What are they used for?
+Parks Canada uses RADARSAT-2 data, and is gradually transitioning to
+RCM
+data, to fulfill its mandate related to the conservation of natural and cultural resources of Canadian heritage sites under its purview.
+EO
+data is used for tracking the state and health of our national parks.
+RCM
+data allows Parks Canada to monitor changes in land use in and on the periphery of national parks. At the same time,
+RCM
+data is used to keep watch on the fragmentation of landscapes that may have an impact on the integrity of wildlife habitats and to track vegetation cover and related changes. This leads not only to preserved biodiversity, but also to better decision making in support of ecosystem conservation-related research, management and compliance programs.
+Ocean noise from maritime traffic makes it  difficult for maritime mammals, such as beluga whales, to communicate. (Credit: Yuan Yue)
+Space-based solutions to help whales
+Protecting the North Atlantic right whale
+The North Atlantic right whale (
+NARW
+) is an endangered species. They can get entangled in fishing gear and get hit by vessels.
+Under the
+smartWhales
+initiative, five companies are advancing innovative solutions, using satellite data, to help  detect and monitor the presence of
+NARW
+s in Canadian waters and predict their movements.
+Solutions
+such as these have the potential to help shape a better future for
+NARW
+s.
+Reducing the effect of ship noise on marine life
+Studies have shown that ocean noise from  maritime traffic makes it increasingly challenging for maritime mammals, such  as right whales, to communicate. In
+2016
+, the
+CSA
+funded
+a  project by JASCO Applied Sciences
+aimed at developing an innovative  solution for this global problem. JASCO proposed a space-based solution combining  Satellite-Automatic Identification System (
+S-AIS
+) data with proven acoustic  broadcast and ship noise models.
+For navigation safety, ships of certain sizes  and weights are required to be equipped with
+AIS
+, whose signals can be detected  by satellites, including M3MSat and soon the
+RCM
+, providing near-real-time data  on the vessels' locations. JASCO developed a modelling tool integrating data  from
+S-AIS
+, along with meteorological and water depth data. The study,  conducted in the area around the Saguenay–
+St.
+Lawrence Marine Park, a vital  habitat for beluga whales, demonstrated the possibility of performing real-time  management of marine traffic to reduce the effects of ship noise on marine  life.
+Classifying  and conserving wetlands
+Wetlands have been recognized as especially  valuable areas and are the only ecosystem designated for conservation by an international  convention, according to
+Water sources: wetlands
+from Environment  and Climate Change Canada.
+Submerged or saturated with water,
+wetlands
+cover about 14% of Canada's land area and are characterized by plants adapted  to wet soil conditions. There are different types of wetlands, from fresh and  salt water marshes to wooded swamps, bogs, peatlands and seasonally flooded  forests. Wetlands have many benefits, including absorbing the impact of large  waves or floods; filtering residues and toxic elements; supplying food and vital  habitat for many species of wildlife; and providing us with sources of food, energy  and building materials.
+Considered wasteland in the past, many wetlands  have been drained or filled in. Recently, however, the government has  recognized their value and made efforts to protect them. In order to conserve  and carefully use resources available in wetlands, it is necessary to map and  classify them. The
+Canadian  Wetland Inventory
+, established in 2002 by Ducks Unlimited Canada,
+Environment and  Climate Change Canada
+(
+ECCC
+), the
+CSA
+and the North American  Wetlands Conservation Council, relies on a combination of satellite imagery and  aerial photography.
+Peatlands  is a unique class of wetlands. They have many valuable functions, such as  storing carbon, providing habitat for several wildlife species, lessening the  impact of floods and droughts, and collecting and purifying water. Canada holds  close to 25% of the world's peatlands. When drained, peatlands turn into net  sources of greenhouse gases (
+GHGs
+). In recent years, peatland management and the  impact of climate change on them have become a concern. To sustainably manage  and conserve peatlands, an up-to-date peatland inventory is necessary, enabling  tracking of peatland loss and estimation of
+GHG
+emissions.
+RADARSAT satellites
+What are they used for?
+For  many years, optical satellites have been used to map wetlands. However, they  can only acquire images in daylight and can be hindered by cloud cover and  haze. Additionally, optical sensors cannot get through vegetation cover, which  often makes it difficult to differentiate one wetland type from another. Due to those limitations, many remote sensing scientists have begun combining optical  and radar satellite data to classify wetlands. Radar systems can penetrate  vegetation cover to some degree as well as provide information on such  conditions as soil moisture, helping classify different types of wetlands.
+RADARSAT-2  data has been successfully used to help map wetlands. Recent research conducted  by scientists at
+ECCC
+demonstrates the potential for
+RCM
+data to be used in  combination with optical satellite imagery to classify peatlands. In the  future, there is also potential to use the
+RCM
+for mapping seasonal changes in  wetlands.
+Mapping  Canada's coasts and monitoring them for changes and pollution
+The coast in Peggy's Cove, Nova Scotia.
+Canada has the longest coastline in the world,  measuring 243,042
+km
+on three oceans – Atlantic, Arctic and Pacific. The coasts'  unique biodiversity and resources contribute to Canada as a whole. Set between  the ocean and the land, coastlines are continually changing as a result of  climate change, natural processes and human activities.
+Mapping the coasts and detecting changes in them is  crucial for safe maritime navigation, coastal environmental protection,  sustainable resource management, and coastal development and planning.  Coastline changes may have a fundamental effect on the environment of the  coastal zone. Government agencies, such as
+ECCC
+and the Department of Fisheries  and Oceans (
+DFO
+), use satellite data to monitor coastal erosion, offshore  pollution, urbanization and a resulting loss of natural habitat.
+EO
+satellite data is used to detect oil  pollution in Canadian waters.
+RADARSAT satellites
+What are they used for?
+Since RADARSAT data is readily available in near real time, it is one of the best sources of information to use for coastal monitoring.
+DFO
+currently uses RADARSAT-2 data and is gradually transitioning to
+RCM
+data for research purposes and to support coastal mapping, improving safety in navigation of Canadian waters.
+ECCC
+is planning to use
+RCM
+data to assess impacts of both climate change and human activities,  particularly the construction of wharves and sediment removal, on coastlines.
+Enabled by
+CSA
+funding in the early 2000s, the Integrated Satellite Tracking of Pollution (
+ISTOP
+) Program, operated by
+ECCC
+together with Transport Canada, uses RADARSAT-2 data and is transitioning to
+RCM
+data to detect and report on illegal and accidental oil pollution in Canadian waters. This is part of an ongoing effort to minimize or eliminate coastal water pollution, which adversely affects marine birds, mammals and the ecosystems in which they live.
+Using RADARSAT-2 and
+RCM
+data, the Canadian Ice Service, part of
+ECCC
+, produces ice charts for clients such as the Canadian Coast Guard, which in turn distributes ice routing recommendations to mariners.
+Arctic shoreline  information on tides, coastal changes and access derived from satellite imagery  is used by the environmental agencies as well as industry and northern community  groups for on-site response and preparedness.
+Our  satellites at your service
+Wildfire  burn scars mapped by satellites
+Can  space technology help reduce chronic stress experienced by whales?
+Text version
+7 ways to monitor and protect our ecosystems with satellites
+Credit: Canadian Space Agency
+Explore further
+Agriculture  in the satellite age
+Using  satellites to protect and navigate Canada's waters
+Taking action on climate change
+Follow us
+Facebook: CanadianSpaceAgency
+X: @csa_asc
+Youtube: canadianspaceagency
+Instagram: canadianspaceagency
+Linkedin: Canadian Space Agency
+RSS
+Date modified:
+2022-04-22
+About this site
+Canadian Space Agency
+Contact the
+CSA
+About the
+CSA
+Notices and copyright
+Government of Canada
+All contacts
+Departments and agencies
+About government
+Themes and topics
+Jobs
+Immigration and citizenship
+Travel and tourism
+Business
+Benefits
+Health
+Taxes
+Environment and natural resources
+National security and defence
+Culture, history and sport
+Policing, justice and emergencies
+Transport and infrastructure
+Canada and the world
+Money and finances
+Science and innovation
+Indigenous Peoples
+Veterans and military
+Youth
+Manage life events
+Government of Canada Corporate
+Social media
+Mobile applications
+About Canada.ca
+Terms and conditions
+Privacy

@@ -1,0 +1,41 @@
+{
+	"title": "EONET Events",
+	"description": "Natural events from EONET.",
+	"link": "https://eonet.gsfc.nasa.gov/api/v3/events",
+	"events": [
+		{
+			"id": "EONET_26331",
+			"title": "Wildfire Red Hill, Perry, Mississippi",
+            "description": null,
+			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_26331",
+			"closed": null,
+				"categories": [
+					{
+					"id": "wildfires",
+					"title": "Wildfires"
+				}
+
+	    				],
+    			"sources": [
+					{
+					"id": "IRWIN",
+					"url": "https://irwin.doi.gov/observer/incidents/2026-MSMNF-000713"
+				}
+
+						
+			],
+					"geometry": [
+					{
+							"magnitudeValue": 519.00,
+					"magnitudeUnit": "acres",
+					"date": "2026-11-12T00:22:00Z",
+					"type": "Point", 
+							"coordinates": [ -89.063853, 31.130069 ]
+							}
+
+						
+			]
+		}
+
+		]
+}

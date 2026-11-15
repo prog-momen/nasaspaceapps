@@ -1,0 +1,13 @@
+{
+  "id": "test_gibs_tile",
+  "url": "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2025-01-01/250m/0/0/0.jpg",
+  "checked_at": "2026-11-14T15:12:43.932760+00:00",
+  "tls_validation": false,
+  "status": 200,
+  "final_url": "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2025-01-01/250m/0/0/0.jpg",
+  "bytes": 52966,
+  "content_type": "image/jpeg",
+  "sha256": "8314305dbb9d93484290f006bcacbace4a1320800b8daeb0338f5c262e7f50fd",
+  "links": [],
+  "elapsed_seconds": 0.687
+}

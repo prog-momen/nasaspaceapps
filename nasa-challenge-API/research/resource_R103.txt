@@ -1,0 +1,93 @@
+IRSA - SPHEREx
+SPHEREx: An All-Sky Spectral Survey
+SPHEREx Data Explorer
+Documentation
+Mission Characteristics
+Lifetime:
+2025 - 2027 (planned)
+Wavelength:
+0.75-1.1 microns, R=39
+1.1-1.6 microns, R=41
+1.6-2.4 microns, R=41
+2.4-3.8 microns, R=35
+3.8-4.4 microns, R=112
+4.4-5.0 microns, R=128
+Area Coverage (planned):
+100% of sky
+Instruments:
+Wide Field Linear Variable Filter (LVF) Imaging Spectrograph
+Funding Agency:
+NASA
+Contributing Institutions:
+JPL, Caltech, RIT, Harvard/CFA, Arizona State, University of Arizona, Ohio State University, KASI, UC Irvine, Johns Hopkins, ASIAA
+Acknowledgement:
+Please include the following acknowledgement in any published material that makes use of SPHEREx data products:
+"This publication makes use of data products from the Spectro-Photometer for the History of the Universe, Epoch of Reionization and Ices Explorer (SPHEREx), which is a joint project of the Jet Propulsion Laboratory and the California Institute of Technology, and is funded by the National Aeronautics and Space Administration."
+Canonical Papers:
+Mission:
+Bock et al (2026)
+Pipeline:
+Akeson et al (2026)
+Sky Simulator:
+Crill et al. (2025)
+Instrument & Calibration:
+Korngut et al. (2026)
+SPHEREx Releases:
+July 2025:
+First Quick Release Products available at IRSA
+October 2025:
+First reprocessed Quick Release Products (QR2) available at IRSA
+April 10, 2026:
+QR2 headers updated to correct PSF extension header error (see documentation for details)
+September 2026:
+First Quick Release 3 (QR3) Products available at IRSA
+November 2026:
+Data Release 1 (DR1) Products available at IRSA
+IRSA Services - SPHEREx Releases
+SPHEREx Data Release 1
+Access DR1 data
+SPHEREx Quick Releases
+Access QR2 and QR3 data
+SPHEREx Target List of Ice Sources (SPLICES)
+Access SPLICES catalog
+Comet 3I/ATLAS
+Access SPHEREx Spectral Images of Comet 3I/ATLAS
+Cloud Data Access
+Access SPHEREx data available on AWS S3 cloud storage.
+Moving Object Search Tool (MOST)
+Determine the orbit for a given solar system object then find SPHEREx images that covered the object's predicted positions at their observation epochs.
+SPHEREx Science Tools
+Spectrophotometry Tool
+Extract spectra from SPHEREx Spectral Images using forced photometry. Read the
+Spectrophotometry Tool documentation
+for detailed usage instructions, inputs, and outputs.
+Mosaic Tool
+Create custom multiwavelength mosaics from SPHEREx Spectral Images.
+Cutout Tool
+Extract spatial subsets from SPHEREx Spectral Image Multi-Extension FITS files.
+Source Discovery Tool
+Identify and characterize significant detected sources within a user defined region using SPHEREx data alone, without requiring positional priors.
+IRSA Documentation - SPHEREx Releases
+Documentation
+SPHEREx Explanatory Supplement
+SPHEREx Archive User Guide
+SPHEREx Archive User Guide
+Program Interfaces
+Information on program-friendly data services
+Spectral Calibrations
+Access SPHEREx Spectral Channel Maps and Response Functions
+Other Resources
+SPHEREx website
+SPHEREx Home Page
+Python Notebooks: Introduction
+Introduction to SPHEREx Spectral Images
+Python Notebooks: Cutouts
+SPHEREx Spectral Image Cutouts
+Python Notebooks: PSF
+SPHEREx PSF in Spectral Image Cutouts
+Python Notebooks: Source Discovery Tool
+SPHEREx Source Discovery Tool
+Python Notebooks: Mosaic Cubes
+SPHEREx Mosaic Cubes
+Python Notebooks: HiPS Cubes
+SPHEREx HiPS Cubes

@@ -1,0 +1,42 @@
+{
+  "id": "resource_R015",
+  "url": "https://giovanni.gsfc.nasa.gov/",
+  "checked_at": "2026-11-14T15:15:10.011339+00:00",
+  "tls_validation": false,
+  "status": 200,
+  "final_url": "https://giovanni.gsfc.nasa.gov/giovanni/",
+  "bytes": 20134,
+  "content_type": "text/html; charset=UTF-8",
+  "sha256": "d5c6343bd56d58d444e781ab3a5a234122ac366427ca9d44941f3f9eb4071ae8",
+  "links": [
+    {
+      "url": "https://giovanni.gsfc.nasa.gov/giovanni/doc/UsersManualworkingdocument.docx.html#h.net4655nyleb",
+      "label": "v 4.40"
+    },
+    {
+      "url": "https://giovanni.gsfc.nasa.gov/giovanni/doc/UsersManualworkingdocument.docx.html",
+      "label": "User Guide"
+    },
+    {
+      "url": "https://giovanni.gsfc.nasa.gov/giovanni/doc/glossary/Giovanni_Variable_Definitions_Glossary.html",
+      "label": "Glossary"
+    },
+    {
+      "url": "https://giovanni.gsfc.nasa.gov/giovanni/doc/UsersManualworkingdocument.docx.html#h.net4655nyleb",
+      "label": "Release Notes"
+    },
+    {
+      "url": "https://giovanni.gsfc.nasa.gov/giovanni/doc/UsersManualworkingdocument.docx.html#h.tsszt3qmsxfh",
+      "label": "Known Issues"
+    },
+    {
+      "url": "https://giovanni.gsfc.nasa.gov/giovanni/",
+      "label": "Browser Compatibility"
+    },
+    {
+      "url": "https://disc.gsfc.nasa.gov/information/publications?page=1&tags=service:giovanni",
+      "label": "Giovanni Publications"
+    }
+  ],
+  "elapsed_seconds": 1.953
+}

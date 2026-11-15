@@ -1,0 +1,845 @@
+
+<!DOCTYPE html>
+<html class="no-js" lang="en" dir="ltr">
+
+<head>
+
+<meta charset="utf-8">
+
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-SP0M01CHEV"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+
+		  gtag('config', 'G-SP0M01CHEV');
+		</script>
+		
+
+		<script src="https://assets.adobedtm.com/be5dfd287373/0127575cd23a/launch-f7c3e6060667.min.js"></script>
+
+	
+	
+
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+	
+
+    <!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+    wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html -->
+    <title>Moon exploration | Canadian Space Agency</title>
+	
+    <meta content="width=device-width,initial-scale=1" name="viewport">
+    <!-- Meta data -->
+	
+    <meta name="dcterms.description" content="The Moon represents a crucial stepping stone in humanity's quest to travel onwards to Mars.">
+	<meta name="description" content="The Moon represents a crucial stepping stone in humanity's quest to travel onwards to Mars.">
+	
+	<meta name="dcterms.creator" content="Canadian Space Agency">
+	<meta name="dcterms.title" content="Moon exploration">
+	<meta name="dcterms.issued" title="W3CDTF" content="2019-02-28">
+	<meta name="dcterms.modified" title="W3CDTF" content="2026-06-30">
+	<meta name="dcterms.subject" title="scheme" content="Moon exploration">
+ 	<meta name="dcterms.language" title="ISO639-2" content="eng">
+	<meta name="dcterms.accessRights" content="2">
+	
+	<meta name="gcaaterms.sitename" content="CSA-ASC">
+	
+	
+	
+		
+
+	<style>
+		header nav#wb-bc{
+			background-color: rgb(245, 245, 245);
+		}
+		
+		header nav#wb-bc > div{
+			border: none !important;
+		}
+		
+		header nav.wb-menu {
+			background-color:rgb(20, 96, 148); 
+			background-image:linear-gradient(rgb(20, 96, 148), rgb(35, 68, 126));
+			border-bottom: solid 4px rgb(204, 204, 204); 
+			border-top: solid 1px rgb(135, 174, 201);
+		}
+		
+		
+		
+		header nav#wb-sm > div, header nav.wb-menu .pnl-strt{
+			border-bottom:none !important; 
+			border-top:none !important;
+		}
+		
+		footer#wb-info > div > nav:before{
+			border-left: none !important;
+			border-right: none !important;
+		}
+	</style>
+
+   
+    
+	<link href="/dist/gcweb/v19.6.0/gcweb/assets/favicon.ico" rel="icon" type="image/x-icon">
+	<link rel="stylesheet" href="/dist/gcweb/v19.6.0/gcweb/css/theme.min.css">
+	<noscript><link rel="stylesheet" href="/dist/gcweb/v19.6.0/wet-boew/css/noscript.min.css"></noscript>
+
+
+
+	
+ 
+    <link rel="stylesheet" href="/css/institution-4.0.css?1794669323973">
+	<link rel="stylesheet" href="/css/institution/return-to-top.css">
+	<style>
+		#wb-sec .list-group .list-group .list-group .wb-navcurr.list-group-item {
+			background-color: #335075;
+		}
+	</style>
+	
+   
+    <meta property="fb:app_id" content="533670243330291">
+    
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.asc-csa.gc.ca/eng/astronomy/moon-exploration/">
+    <meta property="og:title" content="Moon exploration">
+    <meta property="og:description" content="The Moon represents a crucial stepping stone in humanity's quest to travel onwards to Mars.">
+    <meta property="og:image" content="https://www.asc-csa.gc.ca/images/astronomie/exploration-lune/explorer-la-lune-id-6601-og.jpg">
+    <meta property="og:site_name" content="Canadian Space Agency">
+	
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://www.asc-csa.gc.ca/eng/astronomy/moon-exploration/">
+    <meta name="twitter:image" content="https://www.asc-csa.gc.ca/images/astronomie/exploration-lune/explorer-la-lune-id-6601-og.jpg">
+    <meta name="twitter:title" content="Moon exploration">
+    <meta name="twitter:description" content="The Moon represents a crucial stepping stone in humanity's quest to travel onwards to Mars.">
+    <meta name="twitter:site" content="@csa_asc">
+    
+		
+	
+		<link rel="alternate" hreflang="en" href="https://www.asc-csa.gc.ca/eng/astronomy/moon-exploration/">
+		<link rel="alternate" hreflang="fr" href="https://www.asc-csa.gc.ca/fra/astronomie/exploration-lune/">
+		<link rel="alternate" hreflang="x-default" href="https://www.asc-csa.gc.ca/eng/astronomy/moon-exploration/">
+	
+																	  
+    <link rel="canonical" href="https://www.asc-csa.gc.ca/eng/astronomy/moon-exploration/">
+
+
+	
+<!-- InvitationManager Files -->
+<link rel="stylesheet" href="/dist/invitation-manager/Overlay.css">
+<!-- End InvitationManager Files --> 
+
+	
+<style>
+	.xxsmallview a[href='#og_data'],
+	.xsmallview a[href='#og_data']{
+		display: none;
+	}
+</style>
+    	<link href="/css/institution/missions/expedition58.css" media="screen, print" rel="stylesheet" type="text/css">
+    	
+    	<link rel="stylesheet" type="text/css" href="/js/institution/slick/slick.css">
+    	<link rel="stylesheet" type="text/css" href="/js/institution/slick/slick-theme.css">
+    	<link rel="stylesheet" href="/css/institution/home-page-videos.css">
+	
+
+</head>
+<body class="secondary" vocab="http://schema.org/" typeof="WebPage">
+			<nav>		
+			<ul id="wb-tphp">
+			   	<li class="wb-slc"><a class="wb-sl" href="#wb-cont">Skip to main content</a></li>
+			   	<li class="wb-slc visible-sm visible-md visible-lg"><a class="wb-sl" href="#wb-info">Skip to "About government"</a></li>
+			</ul>
+		</nav>
+		<header>
+			<div id="wb-bnr" class="container">
+				<div class="row">
+					<section id="wb-lng" class="col-xs-3 col-sm-12 pull-right text-right">
+						<h2 class="wb-inv">Language selection</h2>
+						<ul class="list-inline mrgn-bttm-0">
+							<li>
+								<a lang="fr" hreflang="fr" href="/fra/astronomie/exploration-lune/">
+								<span class="hidden-xs" translate="no">Français</span>
+								<abbr title="Français" translate="no" class="visible-xs h3 mrgn-tp-sm mrgn-bttm-0 text-uppercase">fr</abbr>
+								</a>
+							</li>
+						</ul>
+					</section>
+					<div class="brand col-xs-9 col-sm-5 col-md-4" property="publisher" typeof="GovernmentOrganization">
+						<a href="https://www.canada.ca/en.html" property="url">
+							<img src="/dist/gcweb/v19.6.0/gcweb/assets/sig-blk-en.svg" alt="Government of Canada" property="logo">
+								<span class="wb-inv"> /
+									<span lang="fr">Gouvernement du Canada</span>
+								</span></a>
+						<meta property="name" content="Government of Canada">
+						<meta property="areaServed" typeof="Country" content="Canada">
+						<link property="logo" href="/dist/gcweb/v19.6.0/gcweb/assets/wmms-blk.svg">
+					</div>
+					<section id="wb-srch" class="col-lg-offset-4 col-md-offset-4 col-sm-offset-2 col-xs-12 col-sm-5 col-md-4">
+						<h2>Search</h2>
+						<form action="//www.canada.ca/en/sr/srb/sra.html" method="get" name="cse-search-box" role="search">
+							<div class="form-group wb-srch-qry">
+								<label for="wb-srch-q" class="wb-inv">Search Canadian Space Agency</label>
+								<input name="dmn" value="asc-csa.gc.ca" type="hidden">
+								<input id="wb-srch-q" list="wb-srch-q-ac" class="wb-srch-q form-control" name="allq" type="search" value="" size="34" maxlength="170" placeholder="Search Canadian Space Agency">
+								<datalist id="wb-srch-q-ac"></datalist>
+							</div>
+							<div class="form-group submit">
+								<button type="submit" id="wb-srch-sub" class="btn btn-primary btn-small" name="wb-srch-sub">
+									<span class="glyphicon-search glyphicon"></span>
+									<span class="wb-inv">Search</span></button>
+							</div>
+						</form>
+					</section>
+				</div>
+			</div>
+			<hr>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8">
+						<nav class="gcweb-menu" typeof="SiteNavigationElement">
+
+							<h2 class="wb-inv">Menu</h2>
+							<button type="button" aria-haspopup="true" aria-expanded="false"><span class="wb-inv">Main </span>Menu <span class="expicon glyphicon glyphicon-chevron-down"></span></button>
+							<ul role="menu" aria-orientation="vertical" data-ajax-replace="//www.canada.ca/content/dam/canada/sitemenu/sitemenu-v2-en.html">
+								<li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/jobs.html">Jobs and the workplace</a></li>
+								<li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/immigration-citizenship.html">Immigration and citizenship</a></li>
+								<li role="presentation"><a role="menuitem" href="https://travel.gc.ca/">Travel and tourism</a></li>
+								<li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/business.html">Business and industry</a></li>
+								<li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/benefits.html">Benefits</a></li>
+								<li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/health.html">Health</a></li>
+								<li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/taxes.html">Taxes</a></li>
+								<li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/environment.html">Environment and natural resources</a></li>
+								<li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/defence.html">National security and defence</a></li>
+								<li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/culture.html">Culture, history and sport</a></li>
+								<li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/policing.html">Policing, justice and emergencies</a></li>
+								<li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/transport.html">Transport and infrastructure</a></li>
+								<li role="presentation"><a role="menuitem" href="https://international.gc.ca/world-monde/index.aspx?lang=eng">Canada and the world</a></li>
+								<li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/finance.html">Money and finances</a></li>
+								<li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/science.html">Science and innovation</a></li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</div>
+		   <nav id="wb-bc" property="breadcrumb">
+			  <h2>You are here:</h2>
+			  <div class="container">
+				 <ol class="breadcrumb" typeof="BreadcrumbList">
+					 <li property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" href="https://www.canada.ca/en/index.html"><span property="name">Canada.ca</span></a>
+<meta property="position" content="1"></li><li property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" href="/eng/"><span property="name">Canadian Space Agency</span></a>
+<meta property="position" content="2"></li><li property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" href="/eng/discover-the-themes.asp"><span property="name">Discover the themes</span></a>
+<meta property="position" content="3"></li>
+<li><a property="item" typeof="WebPage" href="/eng/sciences/"><span property="name">Science</span></a>
+<meta property="position" content="4"></li>
+<li property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" href="/eng/astronomy/"><span property="name">Astronomy</span></a>
+<meta property="position" content="4"></li>
+
+				 </ol>
+			  </div>
+		   </nav>
+		</header>
+		<main property="mainContentOfPage" typeof="WebPageElement" class="container-fluid" id="top">
+			<a href="#top" id="return-to-top" title="Top of page" class="hidden-print"><i class="fas fa-chevron-up"></i><span class="wb-inv">Top of page</span></a>
+    
+<!-- ***************************************************************************** -->
+<!-- DEBUT DU CONTENU -->
+<!-- ***************************************************************************** -->
+	
+<div class="con tainer">
+	<h1 property="name" id="wb-cont">Moon exploration</h1>
+</div>	
+	
+<div id="font">
+	<div id="banner" class="row mrgn-bttm-0 wb-mltmd hidden-xs">
+		<video id="banner-video" class="full-width mrgn-tp-0 mrgn-bttm-0" preload="metadata" title="Animation of the Moon" poster="/images/astronomie/exploration-lune/video-banner-poster.jpg" autoplay muted loop>
+			<source src="/videos/astronomie/moonanim-webbanner-04.mp4" type="video/mp4" />
+		</video>
+	</div>
+	
+	<div class="row brdr-bttm mrgn-tp-lg mrgn-bttm-lg">
+		<div class="container mrgn-tp-lg mrgn-bttm-lg">
+			<div class="col-md-10 col-md-offset-1">
+			<blockquote class="mrgn-bttm-lg" style="font-size: 1.2em">
+				<p>Countries from around the world are getting ready to send humans farther into our solar system, beyond the International Space Station. Nearly 400,000&nbsp;km away from our planet, the Moon represents a crucial stepping stone in humanity's quest to travel onwards to Mars.</p>
+			</blockquote>
+			</div>
+		</div>
+	</div>
+	
+	<section class="row brdr-bttm mrgn-tp-lg mrgn-bttm-lg">
+		<div class="container mrgn-bttm-lg">
+			<div class="col-md-12">
+				<h2 class="HKGrotest mrgn-bttm-lg text-muted">What's new?</h2>
+				<div class="clearfix"></div>
+				<div class="mrgn-tp-lg"></div>
+				<div class="row">
+					
+					<div class="news col-sm-4">
+						<div class="slick-news fnt-wht">
+							<img src="/images/actualites/nouvelles/2026-07-06-le-canada-honore-jeremy-hansen-id-19854-home.jpg" alt="" class="mrgn-bttm-0 img-responsive">
+							<p><a class="stretched-link" href="https://www.canada.ca/en/space-agency/news/2026/07/canada-recognizes-the-career-and-achievements-of-canadian-space-agency-astronaut-jeremy-hansen.html"><time>2026-07-06</time> - Canada recognizes the career and achievements of Canadian Space Agency astronaut Jeremy Hansen</a></p>
+						</div>
+					</div>
+
+					<div class="news col-sm-4">
+						<div class="slick-news fnt-wht">
+							<img src="/images/actualites/nouvelles/2026-06-30-video-fete-du-canada-id-20047-home.jpg" alt="" class="mrgn-bttm-0 img-responsive">
+							<p><a class="stretched-link" href="https://www.asc-csa.gc.ca/eng/multimedia/search/video/20047"><time>2026-06-30</time> - [Video] Happy Canada Day from Jeremy Hansen!</a></p>
+						</div>
+					</div>
+
+					<div class="news col-sm-4">
+						<div class="slick-news fnt-wht">
+							<img src="/images/missions/artemis-ii/cuisine-orion-home.jpg" alt="" class="mrgn-bttm-0 img-responsive">
+							<p><a class="stretched-link" href="https://www.asc-csa.gc.ca/eng/multimedia/search/video/20044"><time>2026-06-25</time> - [Video] Welcome to Artemis II's space kitchen!</a></p>
+						</div>
+					</div>
+				</div>
+				
+				<p class="text-right mrgn-tp-xl"><a href="/eng/news/articles/?search=Moon+exploration" class="btn btn-default btn-sm">More news<span class="wb-inv"> about Moon exploration</span></a></p>
+				<div class="clearfix mrgn-bttm-xl"></div>
+			</div>
+		</div>
+	</section>
+	<div class="clearfix mrgn-bttm-xl"></div>
+	
+	<section class="row">
+		<div class="container mrgn-bttm-lg">
+			<div class="row wb-eqht mrgn-bttm-lg">
+
+				<h2 class="HKGrotest mrgn-bttm-lg text-muted mrgn-lft-md">To know more</h2>
+				<div class="clearfix"></div>
+				<div class="mrgn-tp-lg"></div>
+				
+				
+				
+
+				<section class="col-lg-4 col-sm-6">
+
+					<figure class="thumbnail eqht-trgt">
+						<div class="img-container">
+							<a href="/eng/astronomy/moon-exploration/canada-role/">
+								<img src="/images/astronomie/exploration-lune/lune-section-info-role-du-canada.jpg" alt="Canada's role in Moon exploration" class="img-responsive">
+							</a>
+						</div>
+
+						<figcaption class="caption">
+							<h3 class="h5 mrgn-tp-sm"><a href="/eng/astronomy/moon-exploration/canada-role.asp">Canada's role in Moon exploration</a></h3>
+							<p>Canada is participating in major lunar exploration initiatives. </p>
+						</figcaption>
+					</figure>
+
+				</section>
+				
+				<section class="col-lg-4 col-sm-6">
+
+					<figure class="thumbnail eqht-trgt">
+						<div class="img-container">
+							<a href="/eng/canadarm3/">
+								<img src="https://www.asc-csa.gc.ca/images/recherche/tiles/32842320-4dcd-448f-9a98-30bc477c1430.jpg" alt="Canadarm3" class="img-responsive">
+							</a>
+						</div>
+
+						<figcaption class="caption">
+							<h3 class="h5 mrgn-tp-sm"><a href="/eng/canadarm3/">Canadarm3</a></h3>
+							<p>Gateway's robotic system</p>
+						</figcaption>
+					</figure>
+
+				</section>
+<section class="col-lg-4 col-sm-6">
+
+					<figure class="thumbnail eqht-trgt">
+						<div class="img-container">
+							<a href="/eng/astronomy/moon-exploration/gateway.asp">
+								<img src="https://www.asc-csa.gc.ca/images/recherche/tiles/00bab962-045f-4b22-b8be-9f7ea6454d61.jpg" alt="" class="img-responsive">
+							</a>
+						</div>
+
+						<figcaption class="caption">
+							<h3 class="h5 mrgn-tp-sm"><a href="/eng/astronomy/moon-exploration/gateway.asp">Gateway </a></h3>
+							<p>Gateway is the next major international collaboration in human space exploration. </p>
+						</figcaption>
+					</figure>
+
+				</section>
+					<section class="col-lg-4 col-sm-6">
+					<figure class="thumbnail eqht-trgt">
+						<div class="img-container"> <a href="/eng/astronomy/moon-exploration/canadian-utility-rover-on-the-moon.asp"> <img src="/images/astronomie/exploration-lune/lune-section-rover-id-18682.jpg" alt="Canadian utility rover" class="img-responsive"> </a> </div>
+						<figcaption class="caption">
+							<h3 class="h5 mrgn-tp-sm"><a href="/eng/astronomy/moon-exploration/canadian-utility-rover-on-the-moon.asp">Canadian utility rover</a></h3>
+							<p>Canada will develop a versatile utility rover for Moon exploration</p>
+						</figcaption>
+					</figure>
+				</section>
+				<section class="col-lg-4 col-sm-6">
+
+					<figure class="thumbnail eqht-trgt">
+						<div class="img-container">
+							<a href="/eng/astronomy/moon-exploration/artemis-missions.asp">
+								<img src="/images/astronomie/exploration-lune/missions-artemis-orion-id-17064.jpg" alt="The Artemis program" class="img-responsive">
+							</a>
+						</div>
+
+						<figcaption class="caption">
+							<h3 class="h5 mrgn-tp-sm"><a href="/eng/astronomy/moon-exploration/artemis-missions.asp">The Artemis campaign</a></h3>
+							<p>Canadian astronauts will be part of historic missions to the Moon.</p>
+						</figcaption>
+					</figure>
+
+				</section>
+					<section class="col-lg-4 col-sm-6">
+
+					<figure class="thumbnail eqht-trgt">
+						<div class="img-container">
+							<a href="/eng/astronomy/moon-exploration/from-apollo-to-artemis-the-evolution-of-crewed-lunar-missions.asp">
+								<img src="/images/astronomie/exploration-lune/lune-section-info-artemis-vs-apollo.jpg" alt="A bootprint on the gray surface of the Moon" class="img-responsive">
+							</a>
+						</div>
+
+						<figcaption class="caption">
+							<h3 class="h5 mrgn-tp-sm"><a href="/eng/astronomy/moon-exploration/from-apollo-to-artemis-the-evolution-of-crewed-lunar-missions.asp">From Apollo to Artemis</a></h3>
+							<p>The evolution of crewed lunar missions through the years.</p>
+						</figcaption>
+					</figure>
+
+				</section>
+				<section class="col-lg-4 col-sm-6">
+
+					<figure class="thumbnail eqht-trgt">
+						<div class="img-container">
+							<a href="/eng/astronomy/moon-exploration/the-future-of-space-exploration-beyond-the-international-space-station.asp">
+								<img src="/images/astronomie/exploration-lune/lune-section-info-futur.jpg" alt="The future of space exploration: beyond the International Space Station" class="img-responsive">
+							</a>
+						</div>
+
+						<figcaption class="caption">
+							<h3 class="h5 mrgn-tp-sm"><a href="/eng/astronomy/moon-exploration/the-future-of-space-exploration-beyond-the-international-space-station.asp">The future of space exploration: beyond the International Space Station</a></h3>
+							<p>Crews travelling farther from Earth will require more independence and autonomy.</p>
+						</figcaption>
+					</figure>
+
+				</section>
+	<section class="col-lg-4 col-sm-6">
+					<figure class="thumbnail eqht-trgt">
+						<div class="img-container"> <a href="/eng/funding-programs/programs/leap/"> <img src="/images/astronomie/exploration-lune/lune-section-pael.jpg" alt="Lunar Exploration Accelerator Program" class="img-responsive"> </a> </div>
+						<figcaption class="caption">
+							<h3 class="h5 mrgn-tp-sm"><a href="/eng/funding-programs/programs/leap/">Lunar Exploration Accelerator Program</a></h3>
+							<p><span title="Lunar Exploration Accelerator Program">LEAP</span> provides a wide range of opportunities for Canadian lunar science and technology activities.</p>
+						</figcaption>
+					</figure>
+				</section>
+
+
+				<section class="col-lg-4 col-sm-6">
+					<figure class="thumbnail eqht-trgt">
+						<div class="img-container"> <a href="/eng/transparency/consultations/consulting-canadians-framework-future-space-exploration-activities.asp"> <img src="/images/astronomie/exploration-lune/lune-section-consultation-canadienne-id-5985.jpg" alt="Consulting with Canadians" class="img-responsive"> </a> </div>
+						<figcaption class="caption">
+							<h3 class="h5 mrgn-tp-sm"><a href="/eng/transparency/consultations/consulting-canadians-framework-future-space-exploration-activities.asp">Consulting with Canadians</a></h3>
+							<p>The Government of Canada received  views from  Canadians regarding a framework for future space exploration activities.</p>
+						</figcaption>
+					</figure>
+				</section>
+
+					<section class="col-lg-4 col-sm-6">
+
+					<figure class="thumbnail eqht-trgt">
+						<div class="img-container">
+							<a href="/eng/news/articles/?search=moon"><img src="/images/missions/expedition58/nouvelles-ipad.jpg" class="full-width mrgn-bttm-0" alt="Tablet"></a>
+						</div>
+
+						<figcaption class="caption">
+
+							
+							<h3 class="h5 mrgn-tp-sm"><a href="/eng/news/articles/?search=moon">News</a></h3>
+							<p>What's new in Moon exploration.</p>
+						</figcaption>
+					</figure>
+
+				</section>
+	<section class="col-lg-4 col-sm-6">
+
+					<figure class="thumbnail eqht-trgt">
+						<div class="img-container">
+							<a href="/eng/astronomy/moon-exploration/multimedia/">
+								<img src="/images/missions/expedition58/multimedia.jpg" alt="" class="img-responsive">
+							</a>
+						</div>
+
+						<figcaption class="caption">
+							<h3 class="h5 mrgn-tp-sm"><a href="/eng/astronomy/moon-exploration/multimedia/">Multimedia</a></h3>
+							<p>Photos, videos, infographics and playlists.</p>
+						</figcaption>
+					</figure>
+				</section>
+	<section class="col-lg-4 col-sm-6">
+
+					<figure class="thumbnail eqht-trgt">
+						<div class="img-container">
+							<a href="/eng/astronomy/moon-exploration/information-kit.asp">
+								<img src="/images/astronomie/exploration-lune/lune-section-info-medias.jpg" alt="Information kit" class="img-responsive">
+							</a>
+						</div>
+
+						<figcaption class="caption">
+							<h3 class="h5 mrgn-tp-sm"><a href="/eng/astronomy/moon-exploration/information-kit.asp">Information kit</a></h3>
+							<p>News releases, backgrounder, images and videos.</p>
+						</figcaption>
+					</figure>
+
+				</section>
+	
+<section class="col-lg-4 col-sm-6">
+					<figure class="thumbnail eqht-trgt">
+						<div class="img-container"> <a href="/eng/speakers/kits/speakers-kit-moon-exploration.asp"> <img src="/images/astronomie/exploration-lune/lune-section-conferenciers-id-17191.jpg" alt="Speakers' kit" class="img-responsive"> </a> </div>
+						<figcaption class="caption">
+							<h3 class="h5 mrgn-tp-sm"><a href="/eng/speakers/kits/speakers-kit-moon-exploration.asp">Speakers' kit</a></h3>
+							<p>Presentation, virtual background, infographics and <span title="Frequently asked questions">FAQ</span> on Canada's role in Moon exploration. </p>
+						</figcaption>
+					</figure>
+				</section>
+			</div>
+		</div>
+	</section>
+<!-- 
+				 -->
+
+
+				
+	
+	<section class="row">
+		<div class="col-md-12">
+			<div class="row">
+				<div class="col-md-12" style="background: #000 url(/images/astronomie/exploration-lune/lune-banniere-infographie.jpg) no-repeat; background-position: top left; min-height:400px; background-size: cover;">
+				
+					
+					<div class="container">
+						
+						<div class="col-md-12">
+							<div class="row">
+								<div class="col-xs-8 col-xs-offset-2 col-sm-7 col-sm-offset-0 col-md-8 mrgn-tp-lg mrgn-bttm-lg">
+								
+									
+									<div style="z-index:1000; color: #d6d6d6; position: relative">
+										
+										<h2 class="mrgn-tp-md HKGrotest wb-inv">Download</h2>
+										
+										<div class="row mrgn-tp-md mrgn-bttm-md">
+											<a href="https://www.asc-csa.gc.ca/eng/multimedia/search/image/watch/17679" style="color:#fff">
+												<figure class="col-md-6 mrgn-bttm-md">
+
+													<img src="https://www.asc-csa.gc.ca/images/recherche/tiles/bf98d34a-3c88-4bbc-b2e1-643c91ed25e6.jpg" class="img-responsive" style="display:inline;" alt="">
+													<figcaption class="small">
+														Download the infographic "Artemis&nbsp;<abbr title="Two">II</abbr>: First crewed flight to the Moon since Apollo"
+													</figcaption>
+
+												</figure>
+											</a>
+											
+											<a href="https://www.asc-csa.gc.ca/eng/multimedia/search/image/watch/17200" style="color:#fff">
+												<figure class="col-md-6">
+
+													<img src="https://www.asc-csa.gc.ca/images/recherche/tiles/451de17a-c004-47a5-9644-fc2010244d8e.jpg" class="img-responsive" style="display:inline;" alt="">
+													<figcaption class="small">
+														Download the infographic "To the Moon!"
+													</figcaption>
+
+												</figure>
+											</a>
+											
+											<div class="clearfix mrgn-bttm-md"></div>
+											<a href="https://www.asc-csa.gc.ca/eng/multimedia/search/?type=1&amp;search=moon%20infographics" class="mrgn-tp-md mrgn-lft-md" style="color:#fff">
+												See all infographics
+											</a>
+											
+										</div>
+									</div>
+									<div class="pstn-tp-xs pstn-lft-xs opct-60" style="z-index:100;background-color: #444; height:100%; width:100%"></div>
+								</div>
+							</div>
+						</div>
+						
+					</div>
+				
+				</div>
+				
+			</div>
+		</div>
+	</section>
+	
+	
+	
+	<div class="row">
+		<div class="container">
+			<div class="row mrgn-tp-lg">
+				<section class="col-md-12 mrgn-bttm-lg mrgn-tp-lg">
+					
+					<figure class="wb-mltmd mrgn-bttm-lg">
+						
+						<figcaption class="mrgn-tp-md small">
+							<h2 class="HKGrotest text-muted mrgn-bttm-lg">Building on a lunar legacy: Canadian astronauts look towards a new chapter of Moon exploration</h2>
+						</figcaption>
+						
+						<div class="clearfix"></div>
+						<div class="mrgn-tp-lg"></div>
+
+						            <video data-id="18336" preload="metadata" title="Building on a lunar legacy: Canadian astronauts look towards a new chapter of Moon exploration" poster="/videos/recherche/1_mx7pigjh/thumbnails/1.jpg">
+                        <source src="/videos/recherche/1_mx7pigjh/1_2r38i4vq.webm" type="video/webm">
+                        <source src="/videos/recherche/1_mx7pigjh/1_j1zp695w.mp4" type="video/mp4">
+                                <track src="/videos/recherche/1_mx7pigjh/files/captions/1_ktl9r6c6.xml" kind="captions" data-type="application/ttml+xml" srclang="en" label="English">
+            </video>
+
+<span class="wb-inv">Ok</span>
+												
+						<p class="mrgn-tp-sm">Fifty years ago, Canadian expertise made humanity's first steps on the Moon possible. Now, Canadian astronauts reflect on that incredible lunar legacy, and look ahead to a future when Canadian astronauts could one day participate in a Moon mission. (Credits: Canadian Space Agency, <span title="National Aeronautics and Space Administration">NASA</span>, <span lang="fr">Héroux</span>-Devtek)</p>
+						<p><a href="https://www.asc-csa.gc.ca/eng/multimedia/search/video/18336#transcript">Transcription</a></p>
+
+					</figure>
+				</section>
+			</div>
+		</div>
+	</div>
+</div>
+	
+			
+
+	
+	
+<!-- ***************************************************************************** -->
+<!-- FIN DU CONTENU -->
+<!-- ***************************************************************************** -->
+    
+    <div class="pagedetails container">
+<div class="row">
+<div class="col-sm-6 col-md-5 col-lg-4">
+
+	<section class="gc-followus">
+		<h2>Follow us</h2>
+		<ul class="list-inline">
+			<li><a rel="external" class="facebook" href="https://www.facebook.com/canadianspaceagency/"><span class="wb-inv">Facebook: CanadianSpaceAgency</span></a></li>
+			<li><a rel="external" class="twitter" href="https://x.com/csa_asc"><span class="wb-inv">X: @csa_asc</span></a></li>
+			<li><a rel="external" class="youtube" href="https://www.youtube.com/canadianspaceagency"><span class="wb-inv">Youtube: canadianspaceagency</span></a></li>
+			<li><a rel="external" class="instagram" href="https://www.instagram.com/canadianspaceagency/"><span class="wb-inv">Instagram: canadianspaceagency</span></a></li>
+			<li><a rel="external" class="linkedin" href="https://www.linkedin.com/company/9441729"><span class="wb-inv">Linkedin: Canadian Space Agency</span></a></li>
+			<li><a class="rss" href="/rss/default_eng.xml"><span class="wb-inv">RSS</span></a></li>
+		</ul>
+	</section>
+	
+</div>
+	
+</div>
+
+</div>
+
+</main>
+
+
+<footer id="wb-info">
+    <h2 class="wb-inv">About this site</h2>
+    <div class="gc-contextual">
+        <div class="container">
+            <nav>
+                <h3>Canadian Space Agency</h3>
+                <ul class="list-col-xs-1 list-col-sm-2 list-col-md-3">
+                    <li><a href="/eng/contact.asp">Contact the <abbr title="Canadian Space Agency">CSA</abbr></a></li>
+					<li><a href="/eng/about/">About the <abbr title="Canadian Space Agency">CSA</abbr></a></li>
+					<li><a href="/eng/terms.asp">Notices and copyright</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <div class="gc-main-footer">
+        <div class="container">
+            <nav>
+                <h3>Government of Canada</h3>
+                <ul class="list-col-xs-1 list-col-sm-2 list-col-md-3">
+                    <li><a href="https://www.canada.ca/en/contact.html">All contacts</a></li>
+                    <li><a href="https://www.canada.ca/en/government/dept.html">Departments and agencies</a></li>
+                    <li><a href="https://www.canada.ca/en/government/system.html">About government</a></li>
+                </ul>
+                <h4><span class="wb-inv">Themes and topics</span></h4>
+                <ul class="list-unstyled colcount-sm-2 colcount-md-3">
+                    <li><a href="https://www.canada.ca/en/services/jobs.html">Jobs</a></li>
+                    <li><a href="https://www.canada.ca/en/services/immigration-citizenship.html">Immigration and citizenship</a></li>
+                    <li><a href="https://travel.gc.ca/">Travel and tourism</a></li>
+                    <li><a href="https://www.canada.ca/en/services/business.html">Business</a></li>
+                    <li><a href="https://www.canada.ca/en/services/benefits.html">Benefits</a></li>
+                    <li><a href="https://www.canada.ca/en/services/health.html">Health</a></li>
+                    <li><a href="https://www.canada.ca/en/services/taxes.html">Taxes</a></li>
+                    <li><a href="https://www.canada.ca/en/services/environment.html">Environment and natural resources</a></li>
+                    <li><a href="https://www.canada.ca/en/services/defence.html">National security and defence</a></li>
+                    <li><a href="https://www.canada.ca/en/services/culture.html">Culture, history and sport</a></li>
+                    <li><a href="https://www.canada.ca/en/services/policing.html">Policing, justice and emergencies</a></li>
+                    <li><a href="https://www.canada.ca/en/services/transport.html">Transport and infrastructure</a></li>
+                    <li><a href="https://www.international.gc.ca/world-monde/index.aspx?lang=eng">Canada and the world</a></li>
+                    <li><a href="https://www.canada.ca/en/services/finance.html">Money and finances</a></li>
+                    <li><a href="https://www.canada.ca/en/services/science.html">Science and innovation</a></li>
+                    <li><a href="https://www.canada.ca/en/services/indigenous-peoples.html">Indigenous Peoples</a></li>
+                    <li><a href="https://www.canada.ca/en/services/veterans-military.html">Veterans and military</a></li>
+                    <li><a href="https://www.canada.ca/en/services/youth.html">Youth</a></li>
+                    <li><a href="https://www.canada.ca/en/services/life-events.html">Manage life events</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <div class="gc-sub-footer">
+        <div class="container d-flex align-items-center">
+            <nav>
+                <h3 class="wb-inv">Government of Canada Corporate</h3>
+                <ul>
+                    <li><a href="https://www.canada.ca/en/social.html">Social media</a></li>
+                    <li><a href="https://www.canada.ca/en/mobile.html">Mobile applications</a></li>
+                    <li><a href="https://canada.ca/en/government/about-canada-ca.html">About Canada.ca</a></li>
+                    <li><a href="https://www.canada.ca/en/transparency/terms.html">Terms and conditions</a></li>
+                    <li><a href="https://www.canada.ca/en/transparency/privacy.html">Privacy</a></li>
+                </ul>
+            </nav>
+            <div class="wtrmrk align-self-end">
+                <img src="/dist/gcweb/v19.6.0/GCWeb/assets/wmms-blk.svg" alt="Symbol of the Government of Canada">
+            </div>
+        </div>
+    </div>
+</footer>
+	
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="/dist/gcweb/v19.6.0/wet-boew/js/wet-boew.min.js"></script>
+<script src="/dist/gcweb/v19.6.0/GCWeb/js/theme.min.js"></script>
+<script src="/js/institution/return-to-top.js"></script>
+
+<script>
+
+var invitation_file = "config.json";
+
+</script>
+	
+<!-- InvitationManager Files -->
+<script src="/dist/invitation-manager/Overlay.js"></script>
+<script src="/dist/invitation-manager/InvitationManager.js"></script>
+<!-- End InvitationManager Files -->
+	
+<link href="/dist/fontawesome/6.5.1/css/all.min.css" rel="stylesheet">
+<link href="/dist/fontawesome/5.14.0/css/all.min.css" rel="stylesheet">
+
+
+
+<script>
+	
+	var va = "/eng/multimedia/search/analytics";
+</script>
+<script src="/js/institution/recherche-video/analytics.js"></script>
+<script>
+	$(document).ready(function(){
+		var theme = getParameterByName('theme');
+		if(theme !== null){
+			$("a[href^='/']").each(function(){
+				if($(this).attr("href").indexOf("theme=") == -1){
+					if($(this).attr("href").indexOf("?") == -1){
+						$(this).attr("href", $(this).attr("href") + "?");
+					} else{
+						$(this).attr("href", $(this).attr("href") + "&");
+					}
+					$(this).attr("href", $(this).attr("href") + "theme=" + theme);
+				}
+					
+			})
+		}
+		
+		
+	});
+	
+	function getParameterByName(name, url) {
+		if (!url) url = window.location.href;
+		name = name.replace(/[\[\]]/g, "\\$&");
+		var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+			results = regex.exec(url);
+		if (!results) return null;
+		if (!results[2]) return '';
+		return decodeURIComponent(results[2].replace(/\+/g, " "));
+	}
+</script>
+	
+	<script type="text/javascript">_satellite.pageBottom();</script>
+	
+    
+    <script>
+		$(document).ready(function(){
+			$("#banner-video-control").on("click", ".pause, .play", function(e){
+				e.stopImmediatePropagation();
+				e.preventDefault();
+				
+				
+				if($(this).hasClass("pause")){
+					$(this).find(".action").text("Play");
+					$(this).removeClass("pause").addClass("play");
+					document.getElementById("banner-video").pause();
+					
+					$(this).find("span.icon").html("<i class=\"fa-regular fa-circle-play fa-2x\" style=\"vertical-align:middle;\"></i>");
+				}
+				else if($(this).hasClass("play")){
+					$(this).find(".action").text("Pause");
+					$(this).removeClass("play").addClass("pause");
+					document.getElementById("banner-video").play();
+					
+					$(this).find("span.icon").html("<i class=\"fa-regular fa-circle-pause fa-2x\" style=\"vertical-align:middle;\"></i>");
+				}
+				
+			});
+		});
+	</script>
+	
+	<script src="/js/institution/slick/slick.min.js"></script>
+  <script>
+    $(document).on('ready', function() {
+      $('.responsive').slick({
+    dots: true,
+    infinite: false,
+    speed: 300,
+    slidesToShow: 3,
+    slidesToScroll: 3,
+    responsive: [
+    {
+      breakpoint: 992,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2,
+        infinite: true,
+        dots: true
+      }
+    },
+    {
+      breakpoint: 768,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2
+      }
+    },
+	{
+      breakpoint: 650,
+
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
+  });
+    });
+  </script>
+</body>
+</html>

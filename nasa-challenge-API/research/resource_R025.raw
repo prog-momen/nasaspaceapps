@@ -1,0 +1,635 @@
+
+<!DOCTYPE html>
+<html class="no-js" lang="en" dir="ltr">
+
+<head>
+
+<meta charset="utf-8">
+
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-SP0M01CHEV"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+
+		  gtag('config', 'G-SP0M01CHEV');
+		</script>
+		
+
+		<script src="https://assets.adobedtm.com/be5dfd287373/0127575cd23a/launch-f7c3e6060667.min.js"></script>
+
+	
+	
+
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+	
+
+    <!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+    wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html -->
+    <title>The Surface Water and Ocean Topography (SWOT) mission | Canadian Space Agency</title>
+	
+    <meta content="width=device-width,initial-scale=1" name="viewport">
+    <!-- Meta data -->
+	
+    <meta name="dcterms.description" content="Canadian technology plays a key role in SWOT, a mission that surveys 90% of Earth’s surface water to better understand the dynamics of the world’s oceans and terrestrial surface water.">
+	<meta name="description" content="Canadian technology plays a key role in SWOT, a mission that surveys 90% of Earth’s surface water to better understand the dynamics of the world’s oceans and terrestrial surface water.">
+	
+	<meta name="dcterms.creator" content="Canadian Space Agency">
+	<meta name="dcterms.title" content="The Surface Water and Ocean Topography (SWOT) mission">
+	<meta name="dcterms.issued" title="W3CDTF" content="2017-01-16">
+	<meta name="dcterms.modified" title="W3CDTF" content="2024-10-22">
+	<meta name="dcterms.subject" title="scheme" content="The Surface Water and Ocean Topography (SWOT) mission">
+ 	<meta name="dcterms.language" title="ISO639-2" content="eng">
+	<meta name="dcterms.accessRights" content="2">
+	
+	<meta name="gcaaterms.sitename" content="CSA-ASC">
+	
+	
+	
+		
+
+   
+    
+	<link href="/dist/gcweb/v19.6.0/gcweb/assets/favicon.ico" rel="icon" type="image/x-icon">
+	<link rel="stylesheet" href="/dist/gcweb/v19.6.0/gcweb/css/theme.min.css">
+	<noscript><link rel="stylesheet" href="/dist/gcweb/v19.6.0/wet-boew/css/noscript.min.css"></noscript>
+
+
+
+	
+ 
+    <link rel="stylesheet" href="/css/institution-4.0.css?1794669311553">
+	<link rel="stylesheet" href="/css/institution/return-to-top.css">
+	<style>
+		#wb-sec .list-group .list-group .list-group .wb-navcurr.list-group-item {
+			background-color: #335075;
+		}
+	</style>
+	
+   
+    <meta property="fb:app_id" content="533670243330291">
+    
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.asc-csa.gc.ca/eng/satellites/swot/">
+    <meta property="og:title" content="The Surface Water and Ocean Topography (SWOT) mission">
+    <meta property="og:description" content="Canadian technology plays a key role in SWOT, a mission that surveys 90% of Earth’s surface water to better understand the dynamics of the world’s oceans and terrestrial surface water.">
+    <meta property="og:image" content="https://www.asc-csa.gc.ca/images/satellites/swot/swot-v2-og.jpg">
+    <meta property="og:site_name" content="Canadian Space Agency">
+	
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://www.asc-csa.gc.ca/eng/satellites/swot/">
+    <meta name="twitter:image" content="https://www.asc-csa.gc.ca/images/satellites/swot/swot-v2-og.jpg">
+    <meta name="twitter:title" content="The Surface Water and Ocean Topography (SWOT) mission">
+    <meta name="twitter:description" content="Canadian technology plays a key role in SWOT, a mission that surveys 90% of Earth’s surface water to better understand the dynamics of the world’s oceans and terrestrial surface water.">
+    <meta name="twitter:site" content="@csa_asc">
+    
+		
+	
+		<link rel="alternate" hreflang="en" href="https://www.asc-csa.gc.ca/eng/satellites/swot/">
+		<link rel="alternate" hreflang="fr" href="https://www.asc-csa.gc.ca/fra/satellites/swot/">
+		<link rel="alternate" hreflang="x-default" href="https://www.asc-csa.gc.ca/eng/satellites/swot/">
+	
+																	  
+    <link rel="canonical" href="https://www.asc-csa.gc.ca/eng/satellites/swot/">
+
+
+	
+<!-- InvitationManager Files -->
+<link rel="stylesheet" href="/dist/invitation-manager/Overlay.css">
+<!-- End InvitationManager Files --> 
+
+	
+<style>
+	.xxsmallview a[href='#og_data'],
+	.xsmallview a[href='#og_data']{
+		display: none;
+	}
+</style>
+    	<!--<link href="/css/nom.css" media="screen, print" rel="stylesheet" type="text/css">-->
+	
+
+</head>
+<body vocab="http://schema.org/" typeof="WebPage">
+			<nav>		
+			<ul id="wb-tphp">
+			   	<li class="wb-slc"><a class="wb-sl" href="#wb-cont">Skip to main content</a></li>
+			   	<li class="wb-slc visible-sm visible-md visible-lg"><a class="wb-sl" href="#wb-info">Skip to "About government"</a></li>
+			</ul>
+		</nav>
+		<header>
+			<div id="wb-bnr" class="container">
+				<div class="row">
+					<section id="wb-lng" class="col-xs-3 col-sm-12 pull-right text-right">
+						<h2 class="wb-inv">Language selection</h2>
+						<ul class="list-inline mrgn-bttm-0">
+							<li>
+								<a lang="fr" hreflang="fr" href="/fra/satellites/swot/">
+								<span class="hidden-xs" translate="no">Français</span>
+								<abbr title="Français" translate="no" class="visible-xs h3 mrgn-tp-sm mrgn-bttm-0 text-uppercase">fr</abbr>
+								</a>
+							</li>
+						</ul>
+					</section>
+					<div class="brand col-xs-9 col-sm-5 col-md-4" property="publisher" typeof="GovernmentOrganization">
+						<a href="https://www.canada.ca/en.html" property="url">
+							<img src="/dist/gcweb/v19.6.0/gcweb/assets/sig-blk-en.svg" alt="Government of Canada" property="logo">
+								<span class="wb-inv"> /
+									<span lang="fr">Gouvernement du Canada</span>
+								</span></a>
+						<meta property="name" content="Government of Canada">
+						<meta property="areaServed" typeof="Country" content="Canada">
+						<link property="logo" href="/dist/gcweb/v19.6.0/gcweb/assets/wmms-blk.svg">
+					</div>
+					<section id="wb-srch" class="col-lg-offset-4 col-md-offset-4 col-sm-offset-2 col-xs-12 col-sm-5 col-md-4">
+						<h2>Search</h2>
+						<form action="//www.canada.ca/en/sr/srb/sra.html" method="get" name="cse-search-box" role="search">
+							<div class="form-group wb-srch-qry">
+								<label for="wb-srch-q" class="wb-inv">Search Canadian Space Agency</label>
+								<input name="dmn" value="asc-csa.gc.ca" type="hidden">
+								<input id="wb-srch-q" list="wb-srch-q-ac" class="wb-srch-q form-control" name="allq" type="search" value="" size="34" maxlength="170" placeholder="Search Canadian Space Agency">
+								<datalist id="wb-srch-q-ac"></datalist>
+							</div>
+							<div class="form-group submit">
+								<button type="submit" id="wb-srch-sub" class="btn btn-primary btn-small" name="wb-srch-sub">
+									<span class="glyphicon-search glyphicon"></span>
+									<span class="wb-inv">Search</span></button>
+							</div>
+						</form>
+					</section>
+				</div>
+			</div>
+			<hr>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8">
+						<nav class="gcweb-menu" typeof="SiteNavigationElement">
+
+							<h2 class="wb-inv">Menu</h2>
+							<button type="button" aria-haspopup="true" aria-expanded="false"><span class="wb-inv">Main </span>Menu <span class="expicon glyphicon glyphicon-chevron-down"></span></button>
+							<ul role="menu" aria-orientation="vertical" data-ajax-replace="//www.canada.ca/content/dam/canada/sitemenu/sitemenu-v2-en.html">
+								<li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/jobs.html">Jobs and the workplace</a></li>
+								<li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/immigration-citizenship.html">Immigration and citizenship</a></li>
+								<li role="presentation"><a role="menuitem" href="https://travel.gc.ca/">Travel and tourism</a></li>
+								<li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/business.html">Business and industry</a></li>
+								<li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/benefits.html">Benefits</a></li>
+								<li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/health.html">Health</a></li>
+								<li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/taxes.html">Taxes</a></li>
+								<li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/environment.html">Environment and natural resources</a></li>
+								<li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/defence.html">National security and defence</a></li>
+								<li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/culture.html">Culture, history and sport</a></li>
+								<li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/policing.html">Policing, justice and emergencies</a></li>
+								<li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/transport.html">Transport and infrastructure</a></li>
+								<li role="presentation"><a role="menuitem" href="https://international.gc.ca/world-monde/index.aspx?lang=eng">Canada and the world</a></li>
+								<li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/finance.html">Money and finances</a></li>
+								<li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/science.html">Science and innovation</a></li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</div>
+		   <nav id="wb-bc" property="breadcrumb">
+			  <h2>You are here:</h2>
+			  <div class="container">
+				 <ol class="breadcrumb" typeof="BreadcrumbList">
+					 <li property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" href="https://www.canada.ca/en/index.html"><span property="name">Canada.ca</span></a>
+<meta property="position" content="1"></li><li property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" href="/eng/"><span property="name">Canadian Space Agency</span></a>
+<meta property="position" content="2"></li><li property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" href="/eng/discover-the-themes.asp"><span property="name">Discover the themes</span></a>
+<meta property="position" content="3"></li>
+<li property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" href="/eng/satellites/"><span property="name">Satellites</span></a>
+<meta property="position" content="4"></li>
+
+				 </ol>
+			  </div>
+		   </nav>
+		</header>
+		<main property="mainContentOfPage" typeof="WebPageElement" class="container" id="top">
+			<a href="#top" id="return-to-top" title="Top of page" class="hidden-print"><i class="fas fa-chevron-up"></i><span class="wb-inv">Top of page</span></a>
+
+<!-- ***************************************************************************** -->
+<!-- DEBUT DU CONTENU -->
+<!-- ***************************************************************************** -->
+
+
+<h1 property="name" id="wb-cont">The Surface Water and Ocean Topography (SWOT) mission</h1>
+
+
+
+<div class="row hidden-xs hidden-sm">
+	<div class="col-md-12 mrgn-bttm-lg">
+		<img alt="" src="/images/satellites/swot/swot-v2-ban.jpg" class="img-responsive full-width">
+	</div>
+</div>
+
+<ul class="list-unstyled">
+	<li><strong>Launch:</strong> <time datetime="2022-12-16">December&nbsp;16, 2022</time></li>
+    <li><strong>Mission status:</strong> Active</li>
+	<li><strong>Mission duration</strong>: 3&nbsp;years with possibility to extend</li>
+</ul>
+
+	
+<section>
+
+	<h2>An international mission</h2>
+
+	<p>The <a href="https://swot.jpl.nasa.gov/" rel="external"><span title="Surface Water and Ocean Topography">SWOT</span>  mission</a> is  providing us with new and detailed  information on one of the most important resources we share&nbsp;– water.</p>
+
+  <p>Led by <span title="National Aeronautics and Space Administration">NASA</span> and France's space agency (<abbr lang="fr" title="Centre national d'études spatiales">CNES</abbr>), in collaboration with the <abbr title="Canadian Space Agency">CSA</abbr> and the <abbr title="United Kingdom">UK</abbr> Space Agency, <span title="Surface Water and Ocean Topography">SWOT</span> surveys 90% of Earth's surface water, measuring changes in water surface elevation for lakes, rivers, reservoirs, and oceans over time.</p>
+    
+  <p>By using innovative technology, <span title="Surface Water and Ocean Topography">SWOT</span> measures ocean features at spatial scales up to 10&nbsp;times smaller than previous  technologies can. These precise measurements provide the  scientific community with a better understanding of the dynamics of the world's  oceans and terrestrial surface water, allowing them to address important global  issues like <a href="/eng/satellites/everyday-lives/climate-change.asp">climate  change</a> and improve our management of water as a strategic resource.</p>
+
+	<div class="row">
+		<div class="col-md-12 mrgn-tp-md">
+			<figure class="wb-mltmd"> 
+				            <video data-id="18132" preload="metadata" title="The Surface Water and Ocean Topography (SWOT) mission" poster="/videos/recherche/1_5rtl0btc/thumbnails/1.jpg">
+                        <source src="/videos/recherche/1_5rtl0btc/1_gg2zcozt.webm" type="video/webm">
+                        <source src="/videos/recherche/1_5rtl0btc/1_p4mxz5t7.mp4" type="video/mp4">
+                        </video>
+
+<span class="wb-inv">Ok</span>
+				<figcaption class="small mrgn-tp-sm">
+					<p>2017-01-16&nbsp;– This animation shows the <span title="Surface Water and Ocean Topography">SWOT</span> mission satellite collecting precise water level measurements. (Credits:&nbsp;<span title="National Aeronautics and Space Administration">NASA</span>, <abbr title="Jet Propulsion Laboratory">JPL</abbr>-Caltech)</p>
+				</figcaption>
+			</figure>
+		</div>
+	</div>
+
+
+</section>
+
+<section>
+	<h2>Canada's contribution</h2>
+
+	<p>Canada's participation in this mission brings significant benefits: it builds on the strength and expertise of our industry and its economic growth; it also represents an important gain in scientific knowledge.</p>
+	<section>
+		<h3>Technology</h3>
+
+	  <p>The Canadian Space Agency (<abbr>CSA</abbr>) accepted <span title="National Aeronautics and Space Administration">NASA</span>'s invitation to participate in the <span title="Surface Water and Ocean Topography">SWOT</span> mission by providing a key  component of the wide-swath radar instrument&nbsp;– a set of  <strong>extended interaction klystrons (<abbr>EIKs</abbr>)</strong>. This  is a modest contribution to this major <abbr title="American">US</abbr>$1.2<abbr title="Billion">B</abbr> investment <strong>but nevertheless  crucial</strong>, as the <abbr title="Extended interaction klystrons">EIKs</abbr> amplify the power needed by the wide-swath  instrument to generate the microwave pulses that are used to measure water  surface elevation. </p>
+
+		<p>Communications &amp; Power Industries Canada&nbsp;<span title="Incorporated">Inc.</span> is world-renowned for its expertise in  building this sophisticated device, as no other firms have a proven record of  building and flying space-grade <abbr title="Extended interaction klystrons">EIKs</abbr>. </p>
+
+	  <div class="row">
+			<div class="col-md-9 mrgn-tp-md">
+				<figure id="info-swot">
+					<a href="https://www.asc-csa.gc.ca/eng/multimedia/search/image/watch/17476"><img src="https://www.asc-csa.gc.ca/images/recherche/tiles/a829f8d8-6dae-42e6-a96f-ebd75cc882de.jpg" alt="Collecting surface water and ocean topography measurements from space" class="img-responsive full-width"></a>
+					<figcaption class="small mrgn-tp-sm">
+						<p><a href="https://www.asc-csa.gc.ca/eng/multimedia/search/image/17476#longdesc">Text version<span class="wb-inv"> of the infographic SWOT - Surface Water and Topography Mission</span></a></p>
+						<p><span title="Surface Water and Ocean Topography">SWOT</span> - Surface Water and Topography Mission infographic. (Credit: <abbr title="Canadian Space Agency">CSA</abbr>)</p>
+					</figcaption>
+				</figure>
+			</div>
+		</div>
+
+  </section>
+	<section>
+		<h3>Science</h3>
+
+		<p>Through this partnership, free access to <span title="Surface Water and Ocean Topography">SWOT</span> data can now improve many water-related services in Canada, including flood and water level monitoring. This effort will help with implementing sustainable water management policies.</p>
+		<div class="row">
+			<div class="col-md-9 mrgn-tp-md mrgn-bttm-md">
+				<figure id="info-suveying-earth">
+					<a href="https://www.asc-csa.gc.ca/eng/multimedia/search/image/watch/17552"><img src="https://www.asc-csa.gc.ca/images/recherche/tiles/705faa4b-081f-47a6-843f-f1c2c9dcdc1c.jpg" alt="Elements to be studied by Canadian scientists with SWOT mission data" class="img-responsive full-width"></a>
+					<figcaption class="small mrgn-tp-sm">
+						<p><a href="https://www.asc-csa.gc.ca/eng/multimedia/search/image/17552#longdesc">Text version<span class="wb-inv"> The <span title="Surface Water and Ocean Topography">SWOT</span> mission - surveying Earth's surface water to help adapt to climate change and improve water management - infographic</span></a></p>
+
+						<p>Infographic presenting elements to be studied by Canadian scientists with <span title="Surface Water and Ocean Topography">SWOT</span> mission data. (Credit: <abbr title="Canadian Space Agency">CSA</abbr>)</p>
+					</figcaption>
+				</figure>
+			</div>
+		</div>
+
+      <p>The <span title="Surface Water and Ocean Topography">SWOT</span> international science team, including Canadian scientists from Environment and Climate Change Canada and Fisheries and Oceans Canada, is pursuing <span title="Surface Water and Ocean Topography">SWOT</span> mission objectives and desired outcomes within two&nbsp;main areas of research, <strong>hydrology</strong> and <strong>oceanography</strong>, to enhance our understanding of:</p>
+		<ul>
+			<li>the water cycle across the country</li>
+			<li>sea level variations in Canadian waters</li>
+		</ul>
+		<section>
+			<h4>Hydrology</h4>
+			<div class="row">
+				<div class="col-md-12">
+				  <img src="/images/satellites/swot/swot-hydrologie-ban.jpg" alt="" class="img-responsive full-width">
+				</div>
+			</div>
+			<table class="table" id="tbl-hydrology">
+				<caption class="wb-inv">Mission objectives and desired outcomes for hydrology research</caption>
+				<thead>
+					<tr>
+						<th scope="col" class="col-sm-5">Mission objectives</th>
+						<th scope="col">Desired outcomes</th>
+						</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>
+							<ul class="lst-spcd">
+								<li>to measure the height and slope of fresh water bodies</li>
+								<li>to calculate the rate of water gained or lost in lakes, reservoirs and wetlands</li>
+								<li>to evaluate discharge variations in rivers and estuaries</li>
+							</ul>
+						</td>
+						<td><ul class="lst-spcd">
+							<li>to improve our estimation of surface water availability</li>
+							<li>to assist in understanding important water-related hazards, such as floods and droughts</li>
+							<li>to gain knowledge on the global water cycle</li>
+							</ul>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+
+		</section>
+		<section>
+			<h4>Oceanography</h4>
+
+		  <div class="row">
+				<div class="col-md-12">
+					<img src="/images/satellites/swot/swot-oceanographie-ban.jpg" alt="" class="img-responsive full-width">
+				</div>
+			</div>
+			<table class="table" id="tbl-oceanography">
+				<caption class="wb-inv">Mission objectives and desired outcomes for cceanography research</caption>
+				<thead>
+					<tr>
+					<th scope="col" class="col-sm-5">Mission objectives</th>
+					<th scope="col">Desired outcomes</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td><ul class="lst-spcd">
+							<li>to obtain precise measurements of ocean elevation features</li>
+							<li>to measure small- and medium-scale features of the ocean's surface such as eddies and fronts</li>
+						</ul></td>
+						<td><ul class="lst-spcd">
+							<li>to better understand small-scale ocean circulation, which transports half of the heat and carbon from the upper to the deep ocean, a critical process linked to global climate change</li>
+							<li>to help predict and  characterize tides and storm surge features</li>
+							<li>to improve ocean circulation numerical models leading to better prediction of ocean currents, weather and  climate important for navigation, fisheries and offshore commercial operations</li>
+						</ul></td>
+					</tr>
+				</tbody>
+			</table>
+		</section>
+	</section>
+</section>
+<section>
+	<h2>Benefits to Canadians</h2>
+
+	<p>The information received is greatly improving the delivery of services related to key national priorities <a href="/eng/satellites/everyday-lives/protect-canada-s-waters.asp">related to water</a>, such as marine safety and security, water management, responsible resource development, fisheries, climate change adaptation, marine transportation and sustainable development in the North. For example:</p>
+	<section>
+		<h3>Marine safety and security</h3>
+		<div class="row mrgn-bttm-md">
+			<div class="col-md-12">
+				<img src="/images/satellites/swot/swot-securite-marine-ban.jpg" alt="" class="img-responsive full-width">
+			</div>
+		</div>
+		<p>Example: Support the Canadian Coast Guard's search and rescue operations at sea by providing better information on water levelcurrents to more accurately forecast the water surface currents and the positions of drifting objects, ice and icebergs, oil spills or other potential contaminants.</p>
+	</section>
+
+	<section>
+		<h3>Water management</h3>
+		<div class="row mrgn-bttm-md">
+			<div class="col-md-12">
+				<img src="/images/satellites/swot/swot-gestion-eau-ban.jpg" alt="" class="img-responsive full-width">
+			</div>
+		</div>
+		<p>Example: Environment and Climate Change Canada, in cooperation with provincial and territorial  partners, monitors water level and flow at approximately 2500&nbsp;key locations on  lakes and rivers in Canada (<a href="https://www.canada.ca/en/environment-climate-change/services/water-overview/quantity/monitoring/survey.html">Water Survey of Canada</a>). Due  to the complexity and cost of operating ground-based hydrometric monitoring  gauges, especially in remote regions, this represents only a small fraction of  the total number of lakes and rivers in Canada. <span title="Surface Water and Ocean Topography">SWOT</span> provides coverage of most lakes and rivers up to four&nbsp;times every three&nbsp;weeks, including northern Canada, where  very few measurements were  taken previously. This global inventory of Canadian waters serves to improve our water management and assist in  prediction of floods and drought.</p>
+
+	</section>
+	<section>
+
+		<h3>Responsible resource development</h3>
+		<div class="row mrgn-bttm-md">
+			<div class="col-md-12">
+				<img src="/images/satellites/swot/swot-dev-ressources-ban.jpg" alt="" class="img-responsive full-width">
+			</div>
+		</div>
+
+		<p>Example: Measurements provided by <span title="Surface Water and Ocean Topography">SWOT</span> benefit user communities such as structural engineers who use hydrometric data to optimize the design of various types of structures such as bridges, culverts, pipeline crossings, dams, reservoirs, hydroelectric plants, dykes and other water-related structures.</p>
+	</section>
+	<section>
+		<h3>Conservation and protection</h3>
+		<div class="row mrgn-bttm-md">
+			<div class="col-md-12">
+				<img src="/images/satellites/swot/swot-conservation-protection-ban.jpg" alt="" class="img-responsive full-width">
+			</div>
+		</div>
+
+		<p>Example: Support sustainable management of fish habitat by providing relevant information derived from measuring water surface elevation of the oceans and freshwater water bodies such as major rivers and lakes. For example, these satellite-based measurements enable monitoring of streamflow in rivers and water storage in lakes, which are important parameters for fish migration and the availability of spawning and rearing habitat.</p>
+	</section>
+	<section>
+
+		<h3>Marine transportation</h3>
+		<div class="row mrgn-bttm-md">
+			<div class="col-md-12">
+				<img src="/images/satellites/swot/swot-transport-marin-ban.jpg" alt="" class="img-responsive full-width">
+			</div>
+		</div>
+
+		<p>Example: Provide optimized shipping routes based on accurate knowledge of marine currents, waves and water levels. These optimized shipping routes have demonstrated up to 8% savings on time and fuel for crossing the Atlantic, which represents a significant efficiency improvement for marine operators and reduces the risk of accidents.</p>
+	</section>
+	<section>
+		<h3>Sustainable development in the North</h3>
+		<div class="row mrgn-bttm-md">
+			<div class="col-md-12">
+				<img src="/images/satellites/swot/swot-dev-nord-ban.jpg" alt="" class="img-responsive full-width">
+			</div>
+		</div>
+
+		<p>Example: <span title="Surface Water and Ocean Topography">SWOT</span>'s high-valued data assists decision makers to better monitor the effects of climate change happening in the North. Information provided to the government on water quantity supports biodiversity and habitat assessments, as well as environmental prediction activities.</p>		
+  </section>
+</section>
+<section>
+	<h2>Participating universities</h2>
+	<ul>
+		<li><span lang="fr">Université de  Sherbrooke</span></li>
+		<li>University of  Toronto</li>
+		<li>McGill University</li>
+		<li>Dalhousie University</li>
+		<li>Wilfrid  Laurier University</li>
+		<li><span lang="fr">Université Laval </span></li>
+		<li>Guelph University </li>
+		<li>Concordia University </li>
+		<li><span lang="fr">Université du Québec à Rimouski</span></li>
+		<li>University of Victoria</li>
+	</ul>
+	
+</section>
+<section>
+	<h2>Explore further</h2>
+	<ul>
+        <li><a href="/eng/blog/2023/06/22/swot-unlocking-the-secrets-of-canada-s-oceans-lakes-and-rivers.asp"><span title="Surface Water and Ocean Topography">SWOT</span>: Unlocking the secrets of Canada's oceans, lakes, and rivers</a></li>
+        <li><a href="/eng/satellites/everyday-lives/climate-change.asp">Taking action on climate change</a></li>
+        <li><a href="/eng/satellites/earth-observation/">Earth observation satellites</a></li>
+	</ul>
+</section>
+
+
+<!-- ***************************************************************************** -->
+<!-- FIN DU CONTENU -->
+<!-- ***************************************************************************** -->
+
+    <div class="pagedetails">
+<div class="row">
+<div class="col-sm-6 col-md-5 col-lg-4">
+
+	<section class="gc-followus">
+		<h2>Follow us</h2>
+		<ul class="list-inline">
+			<li><a rel="external" class="facebook" href="https://www.facebook.com/canadianspaceagency/"><span class="wb-inv">Facebook: CanadianSpaceAgency</span></a></li>
+			<li><a rel="external" class="twitter" href="https://x.com/csa_asc"><span class="wb-inv">X: @csa_asc</span></a></li>
+			<li><a rel="external" class="youtube" href="https://www.youtube.com/canadianspaceagency"><span class="wb-inv">Youtube: canadianspaceagency</span></a></li>
+			<li><a rel="external" class="instagram" href="https://www.instagram.com/canadianspaceagency/"><span class="wb-inv">Instagram: canadianspaceagency</span></a></li>
+			<li><a rel="external" class="linkedin" href="https://www.linkedin.com/company/9441729"><span class="wb-inv">Linkedin: Canadian Space Agency</span></a></li>
+			<li><a class="rss" href="/rss/default_eng.xml"><span class="wb-inv">RSS</span></a></li>
+		</ul>
+	</section>
+	
+</div>
+	
+</div>
+
+<dl id="wb-dtmd">
+<dt>Date modified:&#32;</dt>
+<dd><time property="dateModified">2024-10-22</time></dd>
+</dl>
+
+</div>
+
+</main>
+
+
+<footer id="wb-info">
+    <h2 class="wb-inv">About this site</h2>
+    <div class="gc-contextual">
+        <div class="container">
+            <nav>
+                <h3>Canadian Space Agency</h3>
+                <ul class="list-col-xs-1 list-col-sm-2 list-col-md-3">
+                    <li><a href="/eng/contact.asp">Contact the <abbr title="Canadian Space Agency">CSA</abbr></a></li>
+					<li><a href="/eng/about/">About the <abbr title="Canadian Space Agency">CSA</abbr></a></li>
+					<li><a href="/eng/terms.asp">Notices and copyright</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <div class="gc-main-footer">
+        <div class="container">
+            <nav>
+                <h3>Government of Canada</h3>
+                <ul class="list-col-xs-1 list-col-sm-2 list-col-md-3">
+                    <li><a href="https://www.canada.ca/en/contact.html">All contacts</a></li>
+                    <li><a href="https://www.canada.ca/en/government/dept.html">Departments and agencies</a></li>
+                    <li><a href="https://www.canada.ca/en/government/system.html">About government</a></li>
+                </ul>
+                <h4><span class="wb-inv">Themes and topics</span></h4>
+                <ul class="list-unstyled colcount-sm-2 colcount-md-3">
+                    <li><a href="https://www.canada.ca/en/services/jobs.html">Jobs</a></li>
+                    <li><a href="https://www.canada.ca/en/services/immigration-citizenship.html">Immigration and citizenship</a></li>
+                    <li><a href="https://travel.gc.ca/">Travel and tourism</a></li>
+                    <li><a href="https://www.canada.ca/en/services/business.html">Business</a></li>
+                    <li><a href="https://www.canada.ca/en/services/benefits.html">Benefits</a></li>
+                    <li><a href="https://www.canada.ca/en/services/health.html">Health</a></li>
+                    <li><a href="https://www.canada.ca/en/services/taxes.html">Taxes</a></li>
+                    <li><a href="https://www.canada.ca/en/services/environment.html">Environment and natural resources</a></li>
+                    <li><a href="https://www.canada.ca/en/services/defence.html">National security and defence</a></li>
+                    <li><a href="https://www.canada.ca/en/services/culture.html">Culture, history and sport</a></li>
+                    <li><a href="https://www.canada.ca/en/services/policing.html">Policing, justice and emergencies</a></li>
+                    <li><a href="https://www.canada.ca/en/services/transport.html">Transport and infrastructure</a></li>
+                    <li><a href="https://www.international.gc.ca/world-monde/index.aspx?lang=eng">Canada and the world</a></li>
+                    <li><a href="https://www.canada.ca/en/services/finance.html">Money and finances</a></li>
+                    <li><a href="https://www.canada.ca/en/services/science.html">Science and innovation</a></li>
+                    <li><a href="https://www.canada.ca/en/services/indigenous-peoples.html">Indigenous Peoples</a></li>
+                    <li><a href="https://www.canada.ca/en/services/veterans-military.html">Veterans and military</a></li>
+                    <li><a href="https://www.canada.ca/en/services/youth.html">Youth</a></li>
+                    <li><a href="https://www.canada.ca/en/services/life-events.html">Manage life events</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <div class="gc-sub-footer">
+        <div class="container d-flex align-items-center">
+            <nav>
+                <h3 class="wb-inv">Government of Canada Corporate</h3>
+                <ul>
+                    <li><a href="https://www.canada.ca/en/social.html">Social media</a></li>
+                    <li><a href="https://www.canada.ca/en/mobile.html">Mobile applications</a></li>
+                    <li><a href="https://canada.ca/en/government/about-canada-ca.html">About Canada.ca</a></li>
+                    <li><a href="https://www.canada.ca/en/transparency/terms.html">Terms and conditions</a></li>
+                    <li><a href="https://www.canada.ca/en/transparency/privacy.html">Privacy</a></li>
+                </ul>
+            </nav>
+            <div class="wtrmrk align-self-end">
+                <img src="/dist/gcweb/v19.6.0/GCWeb/assets/wmms-blk.svg" alt="Symbol of the Government of Canada">
+            </div>
+        </div>
+    </div>
+</footer>
+	
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="/dist/gcweb/v19.6.0/wet-boew/js/wet-boew.min.js"></script>
+<script src="/dist/gcweb/v19.6.0/GCWeb/js/theme.min.js"></script>
+<script src="/js/institution/return-to-top.js"></script>
+
+<script>
+
+var invitation_file = "config.json";
+
+</script>
+	
+<!-- InvitationManager Files -->
+<script src="/dist/invitation-manager/Overlay.js"></script>
+<script src="/dist/invitation-manager/InvitationManager.js"></script>
+<!-- End InvitationManager Files -->
+	
+<link href="/dist/fontawesome/6.5.1/css/all.min.css" rel="stylesheet">
+<link href="/dist/fontawesome/5.14.0/css/all.min.css" rel="stylesheet">
+
+
+
+<script>
+	
+	var va = "/eng/multimedia/search/analytics";
+</script>
+<script src="/js/institution/recherche-video/analytics.js"></script>
+<script>
+	$(document).ready(function(){
+		var theme = getParameterByName('theme');
+		if(theme !== null){
+			$("a[href^='/']").each(function(){
+				if($(this).attr("href").indexOf("theme=") == -1){
+					if($(this).attr("href").indexOf("?") == -1){
+						$(this).attr("href", $(this).attr("href") + "?");
+					} else{
+						$(this).attr("href", $(this).attr("href") + "&");
+					}
+					$(this).attr("href", $(this).attr("href") + "theme=" + theme);
+				}
+					
+			})
+		}
+		
+		
+	});
+	
+	function getParameterByName(name, url) {
+		if (!url) url = window.location.href;
+		name = name.replace(/[\[\]]/g, "\\$&");
+		var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+			results = regex.exec(url);
+		if (!results) return null;
+		if (!results[2]) return '';
+		return decodeURIComponent(results[2].replace(/\+/g, " "));
+	}
+</script>
+	
+	<script type="text/javascript">_satellite.pageBottom();</script>
+	
+    
+</body>
+</html>

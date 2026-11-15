@@ -1,0 +1,562 @@
+{
+  "id": "resource_R113",
+  "url": "https://dataverse.jpl.nasa.gov/dataset.xhtml?persistentId=hdl:2014/44299",
+  "checked_at": "2026-11-14T15:15:26.273019+00:00",
+  "tls_validation": false,
+  "status": 200,
+  "final_url": "https://dataverse.jpl.nasa.gov/dataset.xhtml?persistentId=hdl:2014/44299",
+  "bytes": 179619,
+  "content_type": "text/html;charset=UTF-8",
+  "sha256": "dda7b6e50189af4f657a92884aee3fa321053fd80fcfcc81800d26d40ec71c2c",
+  "links": [
+    {
+      "url": "https://dataverse.jpl.nasa.gov/dataset.xhtml?persistentId=hdl:2014/44299#content",
+      "label": "Skip to main content"
+    },
+    {
+      "url": "https://dataverse.jpl.nasa.gov/",
+      "label": ""
+    },
+    {
+      "url": "https://dataverse.jpl.nasa.gov/dataset.xhtml?persistentId=hdl:2014/44299",
+      "label": "Search"
+    },
+    {
+      "url": "https://dataverse.jpl.nasa.gov/dataset.xhtml?persistentId=hdl:2014/44299",
+      "label": "Support"
+    },
+    {
+      "url": "https://dataverse.jpl.nasa.gov/dataverse/jor",
+      "label": "JPL Open Repository"
+    },
+    {
+      "url": "https://dataverse.jpl.nasa.gov/dataverse/root",
+      "label": "Root"
+    },
+    {
+      "url": "https://dataverse.jpl.nasa.gov/dataverse/jor",
+      "label": "JPL Open Repository"
+    },
+    {
+      "url": "https://hdl.handle.net/2014/44299",
+      "label": "https://hdl.handle.net/2014/44299"
+    },
+    {
+      "url": "https://dataverse.jpl.nasa.gov/dataset.xhtml?persistentId=hdl:2014/44299",
+      "label": "EndNote XML"
+    },
+    {
+      "url": "https://dataverse.jpl.nasa.gov/dataset.xhtml?persistentId=hdl:2014/44299",
+      "label": "RIS"
+    },
+    {
+      "url": "https://dataverse.jpl.nasa.gov/dataset.xhtml?persistentId=hdl:2014/44299",
+      "label": "BibTeX"
+    },
+    {
+      "url": "https://dataverse.org/best-practices/data-citation",
+      "label": "Data Citation Standards"
+    },
+    {
+      "url": "https://dataverse.jpl.nasa.gov/dataset.xhtml?persistentId=hdl:2014/44299",
+      "label": "Download ZIP (1.4 MB)"
+    },
+    {
+      "url": "https://dataverse.jpl.nasa.gov/dataset.xhtml?persistentId=hdl:2014/44299",
+      "label": "Contact Owner"
+    },
+    {
+      "url": "https://dataverse.jpl.nasa.gov/dataset.xhtml?persistentId=hdl:2014/44299",
+      "label": "Share"
+    },
+    {
+      "url": "http://creativecommons.org/publicdomain/zero/1.0",
+      "label": "CC0 1.0"
+    },
+    {
+      "url": "https://dataverse.jpl.nasa.gov/dataset.xhtml?persistentId=hdl:2014/44299#datasetForm:tabView:dataFilesTab",
+      "label": "Files"
+    },
+    {
+      "url": "https://dataverse.jpl.nasa.gov/dataset.xhtml?persistentId=hdl:2014/44299#datasetForm:tabView:metadataMapTab",
+      "label": "Metadata"
+    },
+    {
+      "url": "https://dataverse.jpl.nasa.gov/dataset.xhtml?persistentId=hdl:2014/44299#datasetForm:tabView:termsTab",
+      "label": "Terms"
+    },
+    {
+      "url": "https://dataverse.jpl.nasa.gov/file.xhtml?fileId=50237&version=2.0",
+      "label": "13-3547_A1b.pdf"
+    },
+    {
+      "url": "https://dataverse.jpl.nasa.gov/file.xhtml?fileId=50237&version=2.0&toolType=PREVIEW",
+      "label": "Preview \"13-3547_A1b.pdf\""
+    },
+    {
+      "url": "https://dataverse.jpl.nasa.gov/dataset.xhtml?persistentId=hdl:2014/44299",
+      "label": "Access File"
+    },
+    {
+      "url": "https://dataverse.jpl.nasa.gov/dataset.xhtml?persistentId=hdl:2014/44299",
+      "label": "Adobe PDF"
+    },
+    {
+      "url": "https://dataverse.jpl.nasa.gov/dataset.xhtml?persistentId=hdl:2014/44299",
+      "label": "Data File Citation"
+    },
+    {
+      "url": "https://dataverse.jpl.nasa.gov/dataset.xhtml?persistentId=hdl:2014/44299",
+      "label": "EndNote XML"
+    },
+    {
+      "url": "https://dataverse.jpl.nasa.gov/dataset.xhtml?persistentId=hdl:2014/44299",
+      "label": "RIS"
+    },
+    {
+      "url": "https://dataverse.jpl.nasa.gov/dataset.xhtml?persistentId=hdl:2014/44299",
+      "label": "BibTeX"
+    },
+    {
+      "url": "https://dataverse.jpl.nasa.gov/dataset.xhtml?persistentId=hdl:2014/44299",
+      "label": "Read Document"
+    },
+    {
+      "url": "http://dataverse.jpl.nasa.gov/api/datasets/export?exporter=OAI_ORE&persistentId=hdl%3A2014/44299",
+      "label": "OAI_ORE"
+    },
+    {
+      "url": "http://dataverse.jpl.nasa.gov/api/datasets/export?exporter=Datacite&persistentId=hdl%3A2014/44299",
+      "label": "DataCite"
+    },
+    {
+      "url": "http://dataverse.jpl.nasa.gov/api/datasets/export?exporter=oai_datacite&persistentId=hdl%3A2014/44299",
+      "label": "OpenAIRE"
+    },
+    {
+      "url": "http://dataverse.jpl.nasa.gov/api/datasets/export?exporter=schema.org&persistentId=hdl%3A2014/44299",
+      "label": "Schema.org JSON-LD"
+    },
+    {
+      "url": "http://dataverse.jpl.nasa.gov/api/datasets/export?exporter=ddi&persistentId=hdl%3A2014/44299",
+      "label": "DDI"
+    },
+    {
+      "url": "http://dataverse.jpl.nasa.gov/api/datasets/export?exporter=dcterms&persistentId=hdl%3A2014/44299",
+      "label": "Dublin Core"
+    },
+    {
+      "url": "http://dataverse.jpl.nasa.gov/api/datasets/export?exporter=html&persistentId=hdl%3A2014/44299",
+      "label": "DDI HTML Codebook"
+    },
+    {
+      "url": "http://dataverse.jpl.nasa.gov/api/datasets/export?exporter=dataverse_json&persistentId=hdl%3A2014/44299",
+      "label": "JSON"
+    },
+    {
+      "url": "https://dataverse.org/best-practices/dataverse-community-norms",
+      "label": "Community Norms"
+    },
+    {
+      "url": "http://creativecommons.org/publicdomain/zero/1.0",
+      "label": "CC0 1.0"
+    },
+    {
+      "url": "https://dataverse.jpl.nasa.gov/dataset.xhtml?persistentId=hdl:2014/44299",
+      "label": ""
+    },
+    {
+      "url": "https://dataverse.jpl.nasa.gov/dataset.xhtml?persistentId=hdl:2014/44299",
+      "label": ""
+    },
+    {
+      "url": "https://guides.dataverse.org/en/5.14/user/dataset-management.html#restricted-files-terms-of-access",
+      "label": "User Guide"
+    },
+    {
+      "url": "https://dataverse.jpl.nasa.gov/dataset.xhtml?persistentId=hdl:2014/44299",
+      "label": "Save Changes"
+    },
+    {
+      "url": "https://dataverse.jpl.nasa.gov/dataset.xhtml?persistentId=hdl:2014/44299",
+      "label": ""
+    },
+    {
+      "url": "https://dataverse.jpl.nasa.gov/dataset.xhtml?persistentId=hdl:2014/44299",
+      "label": ""
+    },
+    {
+      "url": "https://dataverse.jpl.nasa.gov/dataset.xhtml?persistentId=hdl:2014/44299",
+      "label": ""
+    },
+    {
+      "url": "https://dataverse.jpl.nasa.gov/dataset.xhtml?persistentId=hdl:2014/44299",
+      "label": ""
+    },
+    {
+      "url": "https://dataverse.jpl.nasa.gov/dataset.xhtml?persistentId=hdl:2014/44299",
+      "label": ""
+    },
+    {
+      "url": "https://dataverse.jpl.nasa.gov/dataset.xhtml?persistentId=hdl:2014/44299",
+      "label": ""
+    },
+    {
+      "url": "https://guides.dataverse.org/en/5.14/user/dataset-management.html#dataset-metrics-and-make-data-count",
+      "label": "User Guide"
+    },
+    {
+      "url": "https://dataverse.jpl.nasa.gov/dataset.xhtml?persistentId=hdl:2014/44299",
+      "label": ""
+    },
+    {
+      "url": "https://dataverse.jpl.nasa.gov/dataset.xhtml?persistentId=hdl:2014/44299",
+      "label": ""
+    },
+    {
+      "url": "https://guides.dataverse.org/en/5.14/api/dataaccess.html",
+      "label": "Data Access API"
+    },
+    {
+      "url": "https://dataverse.jpl.nasa.gov/dataset.xhtml?persistentId=hdl:2014/44299",
+      "label": ""
+    },
+    {
+      "url": "https://dataverse.jpl.nasa.gov/dataset.xhtml?persistentId=hdl:2014/44299",
+      "label": ""
+    },
+    {
+      "url": "https://dataverse.jpl.nasa.gov/dataset.xhtml?persistentId=hdl:2014/44299",
+      "label": ""
+    },
+    {
+      "url": "https://dataverse.jpl.nasa.gov/dataset.xhtml?persistentId=hdl:2014/44299",
+      "label": ""
+    },
+    {
+      "url": "https://dataverse.jpl.nasa.gov/dataset.xhtml?persistentId=hdl:2014/44299",
+      "label": ""
+    },
+    {
+      "url": "https://dataverse.jpl.nasa.gov/dataset.xhtml?persistentId=hdl:2014/44299",
+      "label": ""
+    },
+    {
+      "url": "https://dataverse.jpl.nasa.gov/dataset.xhtml?persistentId=hdl:2014/44299",
+      "label": ""
+    },
+    {
+      "url": "https://dataverse.jpl.nasa.gov/dataset.xhtml?persistentId=hdl:2014/44299",
+      "label": ""
+    },
+    {
+      "url": "https://dataverse.jpl.nasa.gov/dataset.xhtml?persistentId=hdl:2014/44299",
+      "label": ""
+    },
+    {
+      "url": "https://dataverse.jpl.nasa.gov/dataset.xhtml?persistentId=hdl:2014/44299",
+      "label": ""
+    },
+    {
+      "url": "https://dataverse.jpl.nasa.gov/dataset.xhtml?persistentId=hdl:2014/44299",
+      "label": ""
+    },
+    {
+      "url": "https://dataverse.jpl.nasa.gov/dataset.xhtml?persistentId=hdl:2014/44299",
+      "label": ""
+    },
+    {
+      "url": "https://dataverse.jpl.nasa.gov/dataset.xhtml?persistentId=hdl:2014/44299",
+      "label": ""
+    },
+    {
+      "url": "https://dataverse.jpl.nasa.gov/dataset.xhtml?persistentId=hdl:2014/44299",
+      "label": ""
+    },
+    {
+      "url": "https://dataverse.jpl.nasa.gov/dataset.xhtml?persistentId=hdl:2014/44299",
+      "label": ""
+    },
+    {
+      "url": "https://dataverse.jpl.nasa.gov/loginpage.xhtml?redirectPage=%2Fdataset.xhtml%3FpersistentId%3Dhdl%3A2014%2F44299",
+      "label": "Log In"
+    },
+    {
+      "url": "https://dataverse.jpl.nasa.gov/dataset.xhtml?persistentId=hdl:2014/44299",
+      "label": ""
+    },
+    {
+      "url": "https://dataverse.org/best-practices/dataverse-community-norms",
+      "label": "Community Norms"
+    },
+    {
+      "url": "http://creativecommons.org/publicdomain/zero/1.0",
+      "label": "CC0 1.0"
+    },
+    {
+      "url": "https://dataverse.jpl.nasa.gov/dataset.xhtml?persistentId=hdl:2014/44299",
+      "label": ""
+    },
+    {
+      "url": "https://dataverse.jpl.nasa.gov/dataset.xhtml?persistentId=hdl:2014/44299",
+      "label": ""
+    },
+    {
+      "url": "https://guides.dataverse.org/en/5.14/user/find-use-data.html#downloading-a-dataverse-package-via-url",
+      "label": "User Guide - Downloading a Dataverse Package via URL"
+    },
+    {
+      "url": "https://dataverse.jpl.nasa.gov/dataset.xhtml?persistentId=hdl:2014/44299",
+      "label": ""
+    },
+    {
+      "url": "https://dataverse.jpl.nasa.gov/dataset.xhtml?persistentId=hdl:2014/44299",
+      "label": ""
+    },
+    {
+      "url": "https://dataverse.jpl.nasa.gov/;jsessionid=aa0bae5ed16c1572a40ca40814ba",
+      "label": "Compute Batch"
+    },
+    {
+      "url": "https://dataverse.jpl.nasa.gov/dataset.xhtml?persistentId=hdl:2014/44299",
+      "label": ""
+    },
+    {
+      "url": "https://dataverse.jpl.nasa.gov/dataset.xhtml?persistentId=hdl:2014/44299",
+      "label": ""
+    },
+    {
+      "url": "https://dataverse.jpl.nasa.gov/dataset.xhtml?persistentId=hdl:2014/44299",
+      "label": ""
+    },
+    {
+      "url": "https://dataverse.jpl.nasa.gov/dataverse.xhtml?alias=jor",
+      "label": "JPL Open Repository"
+    },
+    {
+      "url": "https://dataverse.jpl.nasa.gov/dataset.xhtml?persistentId=hdl:2014/44299",
+      "label": ""
+    },
+    {
+      "url": "https://dataverse.jpl.nasa.gov/dataverse/jor",
+      "label": "JPL Open Repository"
+    },
+    {
+      "url": "https://dataverse.jpl.nasa.gov/dataverse/root",
+      "label": "Root"
+    },
+    {
+      "url": "https://dataverse.jpl.nasa.gov/dataset.xhtml?persistentId=hdl:2014/44299",
+      "label": ""
+    },
+    {
+      "url": "http://dataverse.org/",
+      "label": ""
+    },
+    {
+      "url": "https://dataverse.jpl.nasa.gov/loginpage.xhtml;jsessionid=aa0bae5ed16c1572a40ca40814ba?redirectPage=%2Fdataset.xhtml%3FpersistentId%3Dhdl%3A2014%2F44299",
+      "label": "Admin Log In"
+    },
+    {
+      "url": "https://jpl.nasa.gov/who-we-are",
+      "label": "Who We Are"
+    },
+    {
+      "url": "https://jpl.nasa.gov/who-we-are/executive-council",
+      "label": "Executive Council"
+    },
+    {
+      "url": "https://jpl.nasa.gov/who-we-are/faces-of-leadership-the-directors-of-jpl",
+      "label": "Directors"
+    },
+    {
+      "url": "https://www.jpl.jobs/",
+      "label": "Careers"
+    },
+    {
+      "url": "https://www.jpl.nasa.gov/edu/intern/",
+      "label": "Internships"
+    },
+    {
+      "url": "https://jpl.nasa.gov/who-we-are/history",
+      "label": "The JPL Story"
+    },
+    {
+      "url": "https://www.jpl.nasa.gov/timeline/",
+      "label": "JPL Achievements"
+    },
+    {
+      "url": "https://jpl.nasa.gov/who-we-are/documentary-series-jpl-and-the-space-age",
+      "label": "Documentary Series"
+    },
+    {
+      "url": "https://jpl.nasa.gov/who-we-are/jpl-annual-reports",
+      "label": "Annual Reports"
+    },
+    {
+      "url": "https://jpl.nasa.gov/jpl-and-the-community/lecture-series",
+      "label": "Lecture Series"
+    },
+    {
+      "url": "https://jpl.nasa.gov/jpl-and-the-community/team-competitions",
+      "label": "Team Competitions"
+    },
+    {
+      "url": "https://jpl.nasa.gov/jpl-and-the-community/jpl-speakers-bureau",
+      "label": "Speakers Bureau"
+    },
+    {
+      "url": "https://jpl.nasa.gov/events",
+      "label": "Calendar"
+    },
+    {
+      "url": "https://jpl.nasa.gov/images",
+      "label": "Images"
+    },
+    {
+      "url": "https://jpl.nasa.gov/videos",
+      "label": "Videos"
+    },
+    {
+      "url": "https://jpl.nasa.gov/audio",
+      "label": "Audio"
+    },
+    {
+      "url": "https://jpl.nasa.gov/podcasts",
+      "label": "Podcasts"
+    },
+    {
+      "url": "https://jpl.nasa.gov/apps",
+      "label": "Apps"
+    },
+    {
+      "url": "https://jpl.nasa.gov/galleries/visions-of-the-future",
+      "label": "Visions of the Future"
+    },
+    {
+      "url": "https://jpl.nasa.gov/who-we-are/slice-of-history",
+      "label": "Slice of History"
+    },
+    {
+      "url": "https://jpl.nasa.gov/robotics-at-jpl",
+      "label": "Robotics at JPL"
+    },
+    {
+      "url": "https://www.jpl.nasa.gov/events/tours/",
+      "label": "Public Tours"
+    },
+    {
+      "url": "https://www.jpl.nasa.gov/virtual-tour/",
+      "label": "Virtual Tour"
+    },
+    {
+      "url": "https://jpl.nasa.gov/jpl-and-the-community/directions-and-maps",
+      "label": "Directions and Maps"
+    },
+    {
+      "url": "https://www.jpl.nasa.gov/missions?mission_status=current",
+      "label": "Current"
+    },
+    {
+      "url": "https://www.jpl.nasa.gov/missions?mission_status=past",
+      "label": "Past"
+    },
+    {
+      "url": "https://www.jpl.nasa.gov/missions?mission_status=future",
+      "label": "Future"
+    },
+    {
+      "url": "https://jpl.nasa.gov/missions",
+      "label": "All"
+    },
+    {
+      "url": "https://www.jpl.nasa.gov/news?topics=Earth",
+      "label": "Earth"
+    },
+    {
+      "url": "https://www.jpl.nasa.gov/news?topics=Solar%20System",
+      "label": "Solar System"
+    },
+    {
+      "url": "https://www.jpl.nasa.gov/news?topics=Stars%20and%20Galaxies",
+      "label": "Stars and Galaxies"
+    },
+    {
+      "url": "https://www.jpl.nasa.gov/signup/",
+      "label": "Subscribe to JPL News"
+    },
+    {
+      "url": "https://jpl.nasa.gov/topics/jpl-life",
+      "label": "JPL Life"
+    },
+    {
+      "url": "https://jpl.nasa.gov/topics/solar-system",
+      "label": "Solar System"
+    },
+    {
+      "url": "https://jpl.nasa.gov/topics/mars",
+      "label": "Mars"
+    },
+    {
+      "url": "https://jpl.nasa.gov/topics/earth",
+      "label": "Earth"
+    },
+    {
+      "url": "https://jpl.nasa.gov/topics/climate-change",
+      "label": "Climate Change"
+    },
+    {
+      "url": "https://jpl.nasa.gov/topics/exoplanets",
+      "label": "Exoplanets"
+    },
+    {
+      "url": "https://jpl.nasa.gov/topics/stars-and-galaxies",
+      "label": "Stars and Galaxies"
+    },
+    {
+      "url": "https://jpl.nasa.gov/topics/robotics",
+      "label": "Robotics"
+    },
+    {
+      "url": "https://jpl.nasa.gov/asteroid-watch",
+      "label": "Asteroid Watch"
+    },
+    {
+      "url": "https://eyes.nasa.gov/",
+      "label": "NASA's Eyes Visualizations"
+    },
+    {
+      "url": "https://jpl.nasa.gov/who-we-are/universe",
+      "label": "Universe - Internal Newsletter"
+    },
+    {
+      "url": "https://jpl.nasa.gov/social",
+      "label": "Social Media"
+    },
+    {
+      "url": "http://www.nasa.gov/",
+      "label": "NASA"
+    },
+    {
+      "url": "http://www.caltech.edu/",
+      "label": "Caltech"
+    },
+    {
+      "url": "https://www.jpl.nasa.gov/jpl-image-use-policy",
+      "label": "Image Policy"
+    },
+    {
+      "url": "https://www.jpl.nasa.gov/frequently-asked-questions",
+      "label": "FAQ"
+    },
+    {
+      "url": "https://www.jpl.nasa.gov/contact-jpl",
+      "label": "Feedback"
+    },
+    {
+      "url": "https://dataverse.jpl.nasa.gov/dataset.xhtml?persistentId=hdl:2014/44299",
+      "label": ""
+    }
+  ],
+  "elapsed_seconds": 5.703
+}

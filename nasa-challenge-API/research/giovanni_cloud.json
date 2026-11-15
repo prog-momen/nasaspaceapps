@@ -1,0 +1,46 @@
+{
+  "id": "giovanni_cloud",
+  "url": "https://giovanni.earthdata.nasa.gov/",
+  "checked_at": "2026-11-14T15:12:44.468250+00:00",
+  "tls_validation": false,
+  "status": 200,
+  "final_url": "https://giovanni.earthdata.nasa.gov/",
+  "bytes": 23997,
+  "content_type": "text/html",
+  "sha256": "2248495f943bf5974d7f5eca7741dc961196cf6a9ffddb9743daec3d31610112",
+  "links": [
+    {
+      "url": "https://giovanni.earthdata.nasa.gov/",
+      "label": "User Guide"
+    },
+    {
+      "url": "https://forum.earthdata.nasa.gov/viewforum.php?f=7&tagMatch=all&DAAC=3&keywords=&",
+      "label": "Earthdata Forum"
+    },
+    {
+      "url": "https://giovanni.earthdata.nasa.gov/",
+      "label": "beta release"
+    },
+    {
+      "url": "https://giovanni.earthdata.nasa.gov/",
+      "label": "Help Desk"
+    },
+    {
+      "url": "https://giovanni.earthdata.nasa.gov/",
+      "label": "Help Desk"
+    },
+    {
+      "url": "https://giovanni.earthdata.nasa.gov/create-map",
+      "label": "Create Map"
+    },
+    {
+      "url": "https://giovanni.earthdata.nasa.gov/create-timeseries",
+      "label": "Create Time-Series"
+    },
+    {
+      "url": "https://giovanni.earthdata.nasa.gov/",
+      "label": "Read User Guide"
+    }
+  ],
+  "elapsed_seconds": 1.547
+}

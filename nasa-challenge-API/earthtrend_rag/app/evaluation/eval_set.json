@@ -1,0 +1,246 @@
+{
+  "_comment": "Evidence strings are exact substrings of the project's own files (core references / crawled docs). A retrieval hit = a retrieved chunk containing any evidence string.",
+  "answerable": [
+    {
+      "id": "A01",
+      "q": "ما معنى مفتاح الزمن YYYY13 في استجابة NASA POWER الشهرية؟",
+      "evidence": [
+        "YYYY13"
+      ],
+      "must_say": [
+        "13"
+      ]
+    },
+    {
+      "id": "A02",
+      "q": "ما الحد الأقصى لـ page_size في CMR؟",
+      "evidence": [
+        "page_size أقصاه 2000"
+      ],
+      "must_say": [
+        "2000"
+      ]
+    },
+    {
+      "id": "A03",
+      "q": "هل يحتاج FIRMS إلى مفتاح؟ وما اسمه؟",
+      "evidence": [
+        "MAP_KEY"
+      ],
+      "must_say": [
+        "MAP_KEY"
+      ]
+    },
+    {
+      "id": "A04",
+      "q": "How many requests per day does NOAA CDO allow per token?",
+      "evidence": [
+        "10,000 طلب"
+      ],
+      "must_say": [
+        "10,000"
+      ],
+      "lang": "en"
+    },
+    {
+      "id": "A05",
+      "q": "كيف أحوّل قيم LST_Day_CMG في MOD11C3 إلى درجات حرارة؟",
+      "evidence": [
+        "K = raw×0.02"
+      ],
+      "must_say": [
+        "0.02"
+      ]
+    },
+    {
+      "id": "A06",
+      "q": "هل LST في MODIS هي درجة حرارة الهواء؟",
+      "evidence": [
+        "LST سطح أرض لا حرارة هواء",
+        "ليس mean air temperature"
+      ],
+      "must_say": [
+        "هواء"
+      ]
+    },
+    {
+      "id": "A07",
+      "q": "Does a FIRMS hotspot measure burned area?",
+      "evidence": [
+        "burned area"
+      ],
+      "must_say": [
+        "burned"
+      ],
+      "lang": "en"
+    },
+    {
+      "id": "A08",
+      "q": "ما الدقة المكانية لمنتج SMAP SPL3SMP؟",
+      "evidence": [
+        "36 km"
+      ],
+      "must_say": [
+        "36"
+      ]
+    },
+    {
+      "id": "A09",
+      "q": "كم يوماً يمكن طلبه في DAY_RANGE عبر FIRMS API؟",
+      "evidence": [
+        "DAY_RANGE في الصفحة الحالية 1..5"
+      ],
+      "must_say": [
+        "5"
+      ]
+    },
+    {
+      "id": "A10",
+      "q": "كم معاملة (transactions) يسمح بها FIRMS كل 10 دقائق؟",
+      "evidence": [
+        "5000 transactions"
+      ],
+      "must_say": [
+        "5000"
+      ]
+    },
+    {
+      "id": "A11",
+      "q": "هل يستدعي Gemini واجهات NASA مباشرة؟",
+      "evidence": [
+        "Gemini لا يستدعي API NASA مباشرة"
+      ],
+      "must_say": [
+        "لا"
+      ]
+    },
+    {
+      "id": "A12",
+      "q": "ما القيمة التي توثق NASA أنها تمثل بيانات مفقودة في Projection API؟",
+      "evidence": [
+        "-999"
+      ],
+      "must_say": [
+        "-999"
+      ]
+    },
+    {
+      "id": "A13",
+      "q": "Why can't IMERG monthly precipitation be used directly as mm/month?",
+      "evidence": [
+        "mm/hr"
+      ],
+      "must_say": [
+        "mm/hr"
+      ],
+      "lang": "en"
+    },
+    {
+      "id": "A14",
+      "q": "هل يمكن الاعتماد على نقاط /openapi.json و/variables في Giovanni؟",
+      "evidence": [
+        "أعادا 403"
+      ],
+      "must_say": [
+        "403"
+      ]
+    },
+    {
+      "id": "A15",
+      "q": "ما نوع التوثيق الذي يحتاجه AppEEARS لتشغيل مهمة؟",
+      "evidence": [
+        "Earthdata Login"
+      ],
+      "must_say": [
+        "Earthdata"
+      ]
+    },
+    {
+      "id": "A16",
+      "q": "How do I run the original Mann-Kendall test with pyMannKendall?",
+      "evidence": [
+        "original_test"
+      ],
+      "must_say": [
+        "original_test"
+      ],
+      "lang": "en"
+    }
+  ],
+  "needs_tool": [
+    {
+      "id": "T01",
+      "q": "ما درجة الحرارة في القاهرة أمس؟",
+      "expect_kind": "needs_data"
+    },
+    {
+      "id": "T02",
+      "q": "What was the rainfall in Nablus in 2023?",
+      "expect_kind": "needs_data"
+    },
+    {
+      "id": "T03",
+      "q": "أعطني سلسلة الهطول الزمنية للأمازون عام 2020",
+      "expect_kind": "needs_data"
+    },
+    {
+      "id": "T04",
+      "q": "هل ترتفع درجات الحرارة في نابلس منذ 2005؟",
+      "expect_kind": "needs_analysis"
+    },
+    {
+      "id": "T05",
+      "q": "Is rainfall in Texas decreasing since 2010?",
+      "expect_kind": "needs_analysis"
+    },
+    {
+      "id": "T06",
+      "q": "توقع هطول الأمطار في الرياض عام 2027",
+      "expect_kind": "needs_forecast"
+    },
+    {
+      "id": "T07",
+      "q": "Will wildfires increase in California in 2030?",
+      "expect_kind": "needs_forecast"
+    }
+  ],
+  "conceptual_not_tool": [
+    {
+      "id": "C01",
+      "q": "ما هو اختبار Mann-Kendall وكيف يعمل؟"
+    },
+    {
+      "id": "C02",
+      "q": "Explain how ARIMA forecasting works"
+    },
+    {
+      "id": "C03",
+      "q": "ما الفرق بين MOD11A2 وMOD11C3؟"
+    }
+  ],
+  "insufficient": [
+    {
+      "id": "I01",
+      "q": "ما الدقة المكانية لمنتج الأضواء الليلية VNP46A1؟"
+    },
+    {
+      "id": "I02",
+      "q": "ما هو منتج MCD64A1 للمساحات المحروقة وما دقته؟"
+    },
+    {
+      "id": "I03",
+      "q": "من فاز بكأس العالم لكرة القدم؟"
+    },
+    {
+      "id": "I04",
+      "q": "What is the capital of France?"
+    }
+  ],
+  "documented_gap": [
+    {
+      "id": "G01",
+      "q": "ما عدد الطلبات في الدقيقة الذي يسمح به NASA POWER؟",
+      "note": "the reference explicitly says no overall RPM figure is documented; the answer must not invent a number"
+    }
+  ]
+}

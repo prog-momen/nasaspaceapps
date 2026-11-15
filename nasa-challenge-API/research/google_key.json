@@ -1,0 +1,13 @@
+{
+  "id": "google_key",
+  "url": "https://aistudio.google.com/docs/api-key",
+  "checked_at": "2026-11-14T15:12:48.095584+00:00",
+  "tls_validation": false,
+  "status": 200,
+  "final_url": "https://aistudio.google.com/docs/api-key",
+  "bytes": 52125,
+  "content_type": "text/html; charset=utf-8",
+  "sha256": "e5e54fb0c92341542079147634d8d92a7e8eb580a138c2028584ecd0bf14e6b4",
+  "links": [],
+  "elapsed_seconds": 0.718
+}

@@ -1,0 +1,62 @@
+{
+  "id": "resource_R115",
+  "url": "https://nasa.github.io/mission-viz/",
+  "checked_at": "2026-11-14T15:15:26.700007+00:00",
+  "tls_validation": false,
+  "status": 200,
+  "final_url": "https://nasa.github.io/mission-viz/",
+  "bytes": 3979,
+  "content_type": "text/html; charset=utf-8",
+  "sha256": "d923d74291c1d3f80c1da79b2490ee1144253e060261650849c4300e5595e160",
+  "links": [
+    {
+      "url": "https://github.com/nasa/mission-viz",
+      "label": "Repository https://github.com/nasa/mission-viz"
+    },
+    {
+      "url": "https://nasa.github.io/mission-viz/OntologyDrivenOrrery/An_Orrery_in_ThreeJS.html",
+      "label": "Ontology-based Orrery"
+    },
+    {
+      "url": "https://nasa.github.io/mission-viz/RMarkdown/ontology_based_orrery_generated_from_R_code.html",
+      "label": "Orrery and orbital parameters table"
+    },
+    {
+      "url": "https://nasa.github.io/mission-viz/X3Dom/InnerSolarSystem.html",
+      "label": "Orrery with Potentially Hazardous Asteroids"
+    },
+    {
+      "url": "https://nasa.github.io/mission-viz/X3Dom/20160129_Earth_MoonMission_X3D.html",
+      "label": "Earth Moon Mission Visualization"
+    },
+    {
+      "url": "https://nasa.github.io/mission-viz/RMarkdown/Elliptical_Orbit_Design.html",
+      "label": "How to design a 3D elliptical orbit"
+    },
+    {
+      "url": "https://nasa.github.io/mission-viz/X3Dom/WebMissionVisualizationTutorialSeries.html",
+      "label": "Web-based Space Mission Visualization Tutorial Series"
+    },
+    {
+      "url": "https://nasa.github.io/mission-viz/OntologyDrivenOrrery/20160830_Importing_the_SpaceSituationalAwarenessOntology_and_Exporting_JSONLD.pdf",
+      "label": "Importing data into an ontology and exporting JSON-LD"
+    },
+    {
+      "url": "https://nasa.github.io/mission-viz/RMarkdown/20180515_Generating_an_HTMLTable_and_3D_Plot_with_R_from_JSONLD.pdf",
+      "label": "Generate a table and 3D plot using R"
+    },
+    {
+      "url": "https://nasa.github.io/mission-viz/X3Dom/20150611_WebBasedMissionVisualizationSystem.pdf",
+      "label": "A vision for a community developed web-based orrery"
+    },
+    {
+      "url": "https://github.com/nasa/mission-viz/blob/main/OntologyDrivenOrrery/SSAO_Rovetto.owl",
+      "label": "Space Situational Awareness Ontology developed by Robert Rovetto"
+    },
+    {
+      "url": "https://ntrs.nasa.gov/api/citations/20210000030/downloads/NASA_TM_20210000030.pdf",
+      "label": "An Ontology-Based Virtual Orrery"
+    }
+  ],
+  "elapsed_seconds": 1.125
+}

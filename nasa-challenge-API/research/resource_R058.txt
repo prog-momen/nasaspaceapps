@@ -1,0 +1,59 @@
+NASA POWER | Homepage
+Skip to main content
+☰
+Access
+Access Data
+Access POWER's free, low-latency, high-accuracy, community-specific datasets offered in customizable units and formats.
+Engage
+Engage with POWER
+Learn about how POWER data and services are used and join us in POWERing the future of energy, infrastructure, and agroclimatology.
+Learn
+Learn About POWER
+Learn about POWER’s data methodology, view tutorials, and explore the parameter dictionary.
+About
+About POWER
+NASA POWER provides solar and meteorological data from satellite observations and models to help worldwide users respond to challenges and societal needs.
+Contact
+Search Content
+POWERing the Future of Energy, Infrastructure, and Agroclimatology
+Enabling NASA Earth observations, modeling, and analysis for decision-makers worldwide to address the most pressing challenges posed by our environment and make decisions that enhance societal well-being.
+Sign Up for Updates
+Search site content
+Search
+Parameters
+Explore our catalog of 300+ solar and meteorological data parameters.
+Documentation
+Review data methodology, tutorials, and publications citing POWER data.
+Impact Stories
+Dive into stories demonstrating POWER's impact worldwide.
+NASA Prediction Of Worldwide Energy Resources (POWER)
+POWER
+Access
+Data Access Viewer
+PaRameter Uncertainty ViEwer
+Application Programming Interface
+Direct Datastore Access
+Geospatial Data Services
+Engage
+Communities
+Impact Stories
+Global Community Summit
+Learn
+Documentation
+Methodology
+Frequent Questions
+Training and Tutorials
+Parameter Dictionary
+Dashboards
+About
+Team Members
+Team Publications
+Acknowledgements
+NASA Privacy Statement
+Disclaimer
+Accessibility
+Updated:
+NASA Official:
+Paul Stackhouse
+Contact:
+NASA POWER

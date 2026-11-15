@@ -1,0 +1,65 @@
+NISAR Data User Guide
+Skip to article frontmatter
+Skip to article content
+Site not loading correctly?
+This may be due to an incorrect
+BASE_URL
+configuration. See
+the MyST Documentation
+for reference.
+Open Menu
+NISAR Data User Guide
+Search
+CTRL
+⌘
+K
+NISAR Data User Guide
+About NISAR
+Available Data
+Data Products
+Accessing NISAR Data
+Using NISAR Data
+Tools and Services
+NISAR Tutorials
+Resources
+Applications
+Contact Information
+Downloads
+Download
+NISAR Data User Guide
+The joint NASA/ISRO Synthetic Aperture Radar (
+NISAR
+) platform supports an enhanced understanding of changes occurring on Earth through time. Data from the
+NISAR
+mission can be used to monitor ecosystems, ice masses, vegetation biomass, sea level, groundwater dynamics, geophysical processes, and natural hazards.
+NISAR
+’s dual-band radar systematically images the Earth’s surface, regardless of light or cloud conditions, and can measure surface deformation on the centimeter scale.
+All
+NISAR
+science data is freely available and open to the public, consistent with the long-standing NASA Earth Science open data policy.
+This guide aims to help those who research and monitor the Earth find all the information they need to know about accessing and working with
+NISAR
+data in one place.
+NISAR
+Satellite in Earth Orbit (Artist’s Concept). Credit: NASA/JPL-Caltech
+Citation
+¶
+To cite content from this user guide, use the reference below or refer to
+Kristenson
+et al.
+(2026)
+for more citation formats.
+References
+¶
+Kristenson, H., Smale, J., Johnston, A., Herrmann, J., Gens, R., Kennedy, J. H., White, J., Lewandowski, A., Larsen, L., Horn, W., Rosen, P., Lavalle, M., & Fattahi, H. (2026).
+NISAR Data User Guide
+. Zenodo.
+10.5281/ZENODO.20075813
+NISAR Data User Guide
+About NISAR
+Questions? Visit the
+Earthdata Forum
+or email
+ASF
+User Services at
+uso@asf.alaska.edu

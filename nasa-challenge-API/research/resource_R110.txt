@@ -1,0 +1,315 @@
+Open data and information Portal
+Skip to main content
+Skip to "About this site"
+Language selection
+Français
+fr
+Government of Canada /
+Gouvernement du Canada
+Search Canada.ca
+Search Canada.ca
+Search
+Menu
+Main
+Menu
+Jobs and the workplace
+Immigration and citizenship
+Travel and tourism
+Business and industry
+Benefits
+Health
+Taxes
+Environment and natural resources
+National security and defence
+Culture, history and sport
+Policing, justice and emergencies
+Transport and infrastructure
+Canada and the world
+Money and finances
+Science and innovation
+You are here:
+Canada.ca
+Canadian Space Agency
+Open data and information
+Portal
+NEOSSAT - Astronomy Data
+Have your say
+Rate this dataset from 1 to 5 stars
+1 out of 5
+2 out of 5
+3 out of 5
+4 out of 5
+5 out of 5
+5.0
+/ 5
+      (
+2
+votes)
+Additional information
+Contact email:
+gouvernementouvert-opengovernment@asc-csa.gc.ca
+Keywords:
+NEOSSat
+Satellite
+Comet
+Asteroid
+Astronomy
+Subject:
+Science and technology
+Audience:
+General public
+Scientists
+Homepage:
+https://www.asc-csa.gc.ca/eng/satellites/neossat/default.asp
+Maintenance and update frequency:
+As Needed
+Date published:
+2018-10-16 00:00:00
+Licence:
+Open Government Licence - Canada
+About this record
+Record ID:
+62d8033b-87b6-4322-8d5f-e26bebf934c1
+Metadata:
+Link to JSON format
+Dataset
+Groups
+NEOSSAT - Astronomy Data
+The dataset includes the astronomical images from the Near-Earth Object Surveillance Satellite (NEOSSat). NEOSSat was launched on February 25, 2013 and it is the first space satellite dedicated to detecting and tracking asteroids and satellites. The suitcase-sized NEOSSat orbits at an altitude of approximately 780 kilometres above the Earth, searching for near-Earth asteroids that are difficult to spot using ground-based telescopes. Because of its lofty location, it is not limited by the day-night cycle and can operate 24/7. It circles the globe every 100 minutes, and, in part due to its large baffle, is able to scan space near the Sun in order to detect asteroids that may someday pass close to Earth. Through NEOSSat, Canada is participating in the international effort of the world’s space agencies to catalogue the near-Earth population of asteroids and produce information that can be used to target new destinations for future space exploration missions.
+More information on NEOSSAT:
+http://asc-csa.gc.ca/eng/satellites/neossat/default.asp
+Resource list table
+Resource name
+Resource type
+Format
+Language
+Links
+CADC Data Archive
+Dataset
+Other
+other
+English
+French
+Download
+the resource named: CADC Data Archive (en, fr)
+Astronomy Data
+Dataset
+Other
+other
+No linguistic content; Not applicable
+Download
+the resource named: Astronomy Data (zxx)
+NEOSSat FITS Image User’s Guide
+Guide
+PDF
+PDF
+English
+Download
+the resource named: NEOSSat FITS Image User’s Guide (en)
+XML
+Dataset
+XML
+XML
+No linguistic content; Not applicable
+Download
+the resource named: XML (zxx)
+Data dictionary list table
+Dictionary name
+Language
+Links
+NEOSSat supporting document
+French
+Go to
+the data dictionary named: NEOSSat supporting document (fr)
+NEOSSat supporting document
+English
+Go to
+the data dictionary named: NEOSSat supporting document (en)
+NEOSSat Experience
+English
+Go to
+the data dictionary named: NEOSSat Experience (en)
+Tutorial list table
+Tutorial name
+Language
+Links
+Tutorial
+English
+French
+Go to
+the tutorial named: Tutorial (en, fr)
+Similar datasets
+Evaluation of the Near Earth Object Surveillance Satellite (NEOSSat) Project
+The Near Earth Object Surveillance Satellite (NEOSSat) project began in February 2005 with the signing of a Memorandum of Understanding (MOU) between the Canadian Space Agency (CSA) and the...
+THEMIS Mission (Time History of Events and Macroscale Interactions during Substorms)
+The Northern Lights are a fascinating natural phenomenon. These animated shows in the night sky have contributed to the mythology, folklore and art of many cultures and civilizations in the...
+WINDII Data Archive
+The Wind Imaging Interferometer (WINDII) was launched on NASA’s Upper Atmosphere Research Satellite on 12 September 1991 and operated until 2003. Its role in the mission was to measure vector winds...
+CASSIOPE Satellite Data on Earth’s Space Environment
+"The Canadian CASSIOPE satellite, operated by the University of Calgary, carries the Enhanced Polar Outflow Probe (e-POP) suite of scientific instruments to study the ionosphere, where space meets...
+Provide feedback on this dataset
+Name
+(optional)
+Email
+(optional)
+I am a
+(required)
+-- Select --
+Citizen
+Researcher
+Developer
+Government Employee
+Other
+Reason for feedback
+(required)
+-- Select --
+Data Quality
+Missing Data
+Broken Link
+Suggestion
+Other
+Feedback
+(required)
+Submit Feedback
+More on this record:
+Collection type
+Non-spatial data
+Title
+NEOSSAT - Astronomy Data
+Publisher - Organization Name at Publication
+Canadian Space Agency
+Publisher - Organization section name
+Creator
+Metadata contact
+Parent identifier
+Hierarchy level
+File Identifier
+Short Key
+Version
+Language Support
+English
+Language Support Specify
+Data Steward
+Viqar Abbasi
+Manager or Supervisor
+Michel Doyon
+DIIDS No
+ODI-2018-00307
+Directorate
+Space Utilization
+CSA Science category
+Science
+Portal type
+Open Data
+Dataset Status
+Completed Form (OD)
+Division
+UTIL - Satellite Operations, Infrastructure and Applications
+Data Owner
+CSA
+Security Classification
+Unclassified
+Data Owner (specify)
+Registered on the Open Data Site
+No
+Date released on open.canada.ca
+Data is publicly availible within another site
+Date published on another site
+Publisher
+Personal Information
+No
+Eligible for Release
+Yes
+Format of source data
+FITS
+Format of source data (details)
+Size of Dataset
+Contributor
+Contact email
+gouvernementouvert-opengovernment@asc-csa.gc.ca
+Description
+The dataset includes the astronomical images from the Near-Earth Object Surveillance Satellite (NEOSSat). NEOSSat was launched on February 25, 2013 and it is the first space satellite dedicated to detecting and tracking asteroids and satellites. The suitcase-sized NEOSSat orbits at an altitude of approximately 780 kilometres above the Earth, searching for near-Earth asteroids that are difficult to spot using ground-based telescopes. Because of its lofty location, it is not limited by the day-night cycle and can operate 24/7. It circles the globe every 100 minutes, and, in part due to its large baffle, is able to scan space near the Sun in order to detect asteroids that may someday pass close to Earth. Through NEOSSat, Canada is participating in the international effort of the world’s space agencies to catalogue the near-Earth population of asteroids and produce information that can be used to target new destinations for future space exploration missions.
+More information on NEOSSAT:
+http://asc-csa.gc.ca/eng/satellites/neossat/default.asp
+Keywords
+NEOSSat
+Satellite
+Comet
+Asteroid
+Astronomy
+Subject
+Science and technology
+Project
+Space astronomy
+Audience
+General public
+Scientists
+Place of Publication
+IMSO Approval
+Yes
+Access Restrictions
+Unrestricted
+Jurisdiction
+Federal
+Ready to Publish
+Yes
+Portal Release Date
+2018-10-30
+Spatial
+Geographic Region Name
+Time Period Coverage Start
+Time period coverage end
+Maintenance and update frequency
+As Needed
+Date published
+2018-10-16
+Date Modified
+Homepage
+https://www.asc-csa.gc.ca/eng/satellites/neossat/default.asp
+Homepage Link Language
+Data Visualisation
+Data Series Name
+Series Issue ID
+Digital Object Identifier (DOI)
+Position Name
+Role
+Contact Information
+Topic category
+Reference System Information
+Distributor
+Status
+Association Type
+Aggregate dataset identifier
+Spatial Representation Type
+Presentation Form
+Date modified:
+2026-06-12
+Government of Canada
+All contacts
+Departments and agencies
+About government
+Themes and topics
+Jobs
+Immigration and citizenship
+Travel and tourism
+Business
+Benefits
+Health
+Taxes
+Environment and natural resources
+National security and defence
+Culture, history and sport
+Policing, justice and emergencies
+Transport and infrastructure
+Canada and the world
+Money and finance
+Science and innovation
+Indigenous peoples
+Veterans and military
+Youth
+About this site
+Social media
+Mobile applications
+About Canada.ca
+Terms and conditions
+Privacy

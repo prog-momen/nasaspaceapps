@@ -1,0 +1,294 @@
+Open data and information Portal
+Skip to main content
+Skip to "About this site"
+Language selection
+Français
+fr
+Government of Canada /
+Gouvernement du Canada
+Search Canada.ca
+Search Canada.ca
+Search
+Menu
+Main
+Menu
+Jobs and the workplace
+Immigration and citizenship
+Travel and tourism
+Business and industry
+Benefits
+Health
+Taxes
+Environment and natural resources
+National security and defence
+Culture, history and sport
+Policing, justice and emergencies
+Transport and infrastructure
+Canada and the world
+Money and finances
+Science and innovation
+You are here:
+Canada.ca
+Canadian Space Agency
+Open data and information
+Portal
+RADARSAT Constellation Mission (RCM) Data
+Have your say
+Rate this dataset from 1 to 5 stars
+1 out of 5
+2 out of 5
+3 out of 5
+4 out of 5
+5 out of 5
+5.0
+/ 5
+      (
+2
+votes)
+Additional information
+Contact email:
+gouvernementouvert-opengovernment@asc-csa.gc.ca
+Keywords:
+RADARSAT
+Earth Observation
+Satellite
+Subject:
+Science and technology
+Maintenance and update frequency:
+Not Planned
+Date published:
+2021-01-26 00:00:00
+Licence:
+Open Government Licence - Canada
+About this record
+Record ID:
+07e083c2-ab5a-473e-80e8-2a7131bf24de
+Metadata:
+Link to JSON format
+Dataset
+Groups
+RADARSAT Constellation Mission (RCM) Data
+The RADARSAT Constellation Mission (RCM) is Canada's new generation of Earth observation satellites.The RCM includes a trio of Earth observation satellites, capable of scanning Earth day or night and in any weather conditions. The three-satellite configuration allows for daily revisits of Canada's vast territory and maritime approaches, as well as daily access to 90% of the world's surface and the Arctic up to four times a day. Over a dozen federal government departments already use RADARSAT data to deliver important services to Canadians.
+The RCM is designed to provide effective solutions in three main areas: 
+•Maritime surveillance (ice, surface wind, oil pollution and ship monitoring);
+•Disaster management (mitigation, warning, response and recovery); and
+•Ecosystem monitoring (agriculture, wetlands, forestry and coastal change monitoring).
+Certain RCM image products are freely and openly available to users outside the Government of Canada, subject to exceptions in terms of security, privacy and confidentiality. Public and vetted users can access RCM image products through the Earth Observation Data Management System at
+https://www.eodms-sgdot.nrcan-rncan.gc.ca/index_en.jsp
+.
+The Canadian Space Agency plans to disseminate some RCM-related resources such as acquisition plans and data packages. Consult them from this page.
+The use of each RCM image product must adhere to the accompanying User Licence. Please make sure to review the terms and conditions in the available resources before downloading the data. By downloading images, you confirm your adherence to the terms and conditions of the licence.
+Resource list table
+Resource name
+Resource type
+Format
+Language
+Links
+DATA Archive (EODMS)
+Website
+Other
+other
+English
+French
+Download
+the resource named: DATA Archive (EODMS) (en, fr)
+Data
+Dataset
+Other
+other
+English
+French
+Download
+the resource named: Data (en, fr)
+EO Visualization and Search Tutorial
+Guide
+Other
+other
+English
+French
+Download
+the resource named: EO Visualization and Search Tutorial (en, fr)
+SAR Data Tutorial
+Guide
+Other
+other
+English
+French
+Download
+the resource named: SAR Data Tutorial (en, fr)
+Similar datasets
+RADARSAT-1 - Heatmap of processed archived images
+RADARSAT-1, in operation from 1995 to 2013, is Canada's first earth observation satellite. Developed and operated by the Canadian Space Agency (CSA), it has provided essential information to...
+RADARSAT-1 Archive
+Launched in November 1995, RADARSAT-1 provided Canada and the world with an operational radar satellite system capable of timely delivery of large amounts of data. Equipped with a powerful...
+Audit of the Management Framework of the Earth Observation Mission Program – RADARSAT Constellation Mission (RCM)
+The objective of this audit is to determine whether a management framework is in place to enable the Program objectives to be achieved and, more specifically, to prevent cost increases, comply with...
+Surface Water and Ocean Topography (SWOT)
+The Surface Water and Ocean Topography (SWOT) mission provides valuable data and information about the world's oceans and its terrestrial surface water. SWOT is developed jointly by NASA and the...
+Provide feedback on this dataset
+Name
+(optional)
+Email
+(optional)
+I am a
+(required)
+-- Select --
+Citizen
+Researcher
+Developer
+Government Employee
+Other
+Reason for feedback
+(required)
+-- Select --
+Data Quality
+Missing Data
+Broken Link
+Suggestion
+Other
+Feedback
+(required)
+Submit Feedback
+More on this record:
+Collection type
+Geospatial data
+Title
+RADARSAT Constellation Mission (RCM) Data
+Publisher - Organization Name at Publication
+Canadian Space Agency
+Publisher - Organization section name
+Creator
+Metadata contact
+Parent identifier
+Hierarchy level
+File Identifier
+Short Key
+Version
+Language Support
+Bilingual
+Language Support Specify
+Data Steward
+Christine Giguère
+Manager or Supervisor
+Guennadi Kroupnik
+DIIDS No
+ODI-2018-00222
+Directorate
+Space Utilization
+CSA Science category
+Science
+Portal type
+Open Data
+Dataset Status
+Completed Form (OD)
+Division
+Data Owner
+CSA
+Security Classification
+Unclassified
+Data Owner (specify)
+CSA
+Registered on the Open Data Site
+No
+Date released on open.canada.ca
+Data is publicly availible within another site
+Date published on another site
+Publisher
+Personal Information
+No
+Eligible for Release
+Yes
+Format of source data
+Other
+Format of source data (details)
+Size of Dataset
+Contributor
+Contact email
+gouvernementouvert-opengovernment@asc-csa.gc.ca
+Description
+The RADARSAT Constellation Mission (RCM) is Canada's new generation of Earth observation satellites.The RCM includes a trio of Earth observation satellites, capable of scanning Earth day or night and in any weather conditions. The three-satellite configuration allows for daily revisits of Canada's vast territory and maritime approaches, as well as daily access to 90% of the world's surface and the Arctic up to four times a day. Over a dozen federal government departments already use RADARSAT data to deliver important services to Canadians.
+The RCM is designed to provide effective solutions in three main areas: 
+•Maritime surveillance (ice, surface wind, oil pollution and ship monitoring);
+•Disaster management (mitigation, warning, response and recovery); and
+•Ecosystem monitoring (agriculture, wetlands, forestry and coastal change monitoring).
+Certain RCM image products are freely and openly available to users outside the Government of Canada, subject to exceptions in terms of security, privacy and confidentiality. Public and vetted users can access RCM image products through the Earth Observation Data Management System at
+https://www.eodms-sgdot.nrcan-rncan.gc.ca/index_en.jsp
+.
+The Canadian Space Agency plans to disseminate some RCM-related resources such as acquisition plans and data packages. Consult them from this page.
+The use of each RCM image product must adhere to the accompanying User Licence. Please make sure to review the terms and conditions in the available resources before downloading the data. By downloading images, you confirm your adherence to the terms and conditions of the licence.
+Keywords
+RADARSAT
+Earth Observation
+Satellite
+Subject
+Science and technology
+Project
+Earth observation
+Audience
+Place of Publication
+IMSO Approval
+Yes
+Access Restrictions
+Unrestricted
+Jurisdiction
+Federal
+Ready to Publish
+Yes
+Portal Release Date
+Spatial
+Geographic Region Name
+Time Period Coverage Start
+Time period coverage end
+Maintenance and update frequency
+Not Planned
+Date published
+2021-01-26
+Date Modified
+Homepage
+Homepage Link Language
+Data Visualisation
+Data Series Name
+Series Issue ID
+Digital Object Identifier (DOI)
+Position Name
+Role
+Contact Information
+Topic category
+Reference System Information
+Distributor
+Status
+Association Type
+Aggregate dataset identifier
+Spatial Representation Type
+Presentation Form
+Date modified:
+2026-06-12
+Government of Canada
+All contacts
+Departments and agencies
+About government
+Themes and topics
+Jobs
+Immigration and citizenship
+Travel and tourism
+Business
+Benefits
+Health
+Taxes
+Environment and natural resources
+National security and defence
+Culture, history and sport
+Policing, justice and emergencies
+Transport and infrastructure
+Canada and the world
+Money and finance
+Science and innovation
+Indigenous peoples
+Veterans and military
+Youth
+About this site
+Social media
+Mobile applications
+About Canada.ca
+Terms and conditions
+Privacy

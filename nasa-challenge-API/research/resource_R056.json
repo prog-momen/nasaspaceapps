@@ -1,0 +1,1726 @@
+{
+  "id": "resource_R056",
+  "url": "https://lpdaac.usgs.gov/products/",
+  "checked_at": "2026-11-14T15:15:15.915600+00:00",
+  "tls_validation": false,
+  "status": 200,
+  "final_url": "https://www.earthdata.nasa.gov/centers/lp-daac",
+  "bytes": 198756,
+  "content_type": "text/html; charset=UTF-8",
+  "sha256": "11fbadf05f368e4fc9fcc286e31981d0d8acc9d09f7e574d16a24b55917a625c",
+  "links": [
+    {
+      "url": "https://www.earthdata.nasa.gov/centers/lp-daac#main-content",
+      "label": "Skip to main content"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/alerts-outages/earthdata-forum-down-maintenance-october-27-2026",
+      "label": "See the alert"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/alerts-outages/reminder-new-suomi-npp-observations-cease-november-2-2026",
+      "label": "Suomi NPP data announcement"
+    },
+    {
+      "url": "https://www.nasa.gov/",
+      "label": ""
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/",
+      "label": ""
+    },
+    {
+      "url": "https://www.nasa.gov/",
+      "label": ""
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/",
+      "label": ""
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/search",
+      "label": ""
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/",
+      "label": "Home"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data",
+      "label": "Data"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog",
+      "label": "Data Catalog"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/alerts-outages",
+      "label": "Data Alerts and Outages"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/projects",
+      "label": "Projects"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/projects/lance",
+      "label": "Land, Atmosphere Near real-time Capability for Earth observation (LANCE)"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/projects/hls",
+      "label": "Harmonized Landsat and Sentinel-2 (HLS)"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/projects/arset",
+      "label": "Applied Remote Sensing Training Program (ARSET)"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/platforms",
+      "label": "Platforms"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/instruments",
+      "label": "Instruments"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/space-geodesy-techniques",
+      "label": "Space Geodesy Techniques"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/tools",
+      "label": "Data Tools"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/tools/earthdata-search",
+      "label": "Earthdata Search"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/tools/worldview",
+      "label": "Worldview"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/tools/firms",
+      "label": "Fire Information for Resource Management System (FIRMS)"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/tools/vertex",
+      "label": "Vertex"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/tools/giovanni",
+      "label": "Giovanni"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/tools/appeears",
+      "label": "Application for Extracting and Exploring Analysis Ready Samples (AppEEARS)"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/tools/veda",
+      "label": "Visualization, Exploration, and Data Analysis (VEDA)"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/tools/ocean-color-level-3-4-browser",
+      "label": "Ocean Color Level 3 and 4 Browser"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/topics",
+      "label": "Topics"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/topics/atmosphere",
+      "label": "Atmosphere"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/topics/biosphere",
+      "label": "Biosphere"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/topics/climate-indicators",
+      "label": "Climate Indicators"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/topics/cryosphere",
+      "label": "Cryosphere"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/topics/human-dimensions",
+      "label": "Human Dimensions"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/topics/land-surface",
+      "label": "Land Surface"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/topics/ocean",
+      "label": "Ocean"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/topics/solid-earth",
+      "label": "Solid Earth"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/topics/sun-earth-interactions",
+      "label": "Sun-Earth Interactions"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/topics/terrestrial-hydrosphere",
+      "label": "Terrestrial Hydrosphere"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/topics/glossary",
+      "label": "View All Topics"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/learn",
+      "label": "Learn"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/learn/earth-observation-data-basics",
+      "label": "Earth Observation Data Basics"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/learn/gis",
+      "label": "GIS Resources"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/learn/data-in-action",
+      "label": "Data in Action"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/learn/data-recipes",
+      "label": "Data Recipes"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/learn/trainings",
+      "label": "Trainings"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/learn/tutorials",
+      "label": "Tutorials"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/learn/webinars",
+      "label": "Webinars"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/learn/Publications",
+      "label": "Publications"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/centers",
+      "label": "Centers"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/centers/lp-daac",
+      "label": "Distributed Active Archive Centers (DAACs)"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/centers/asf-daac",
+      "label": "Alaska Satellite Facility (ASF) DAAC"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/centers/asdc-daac",
+      "label": "Atmospheric Science Data Center (ASDC)"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/centers/cddis-daac",
+      "label": "Crustal Dynamics Data Information System (CDDIS)"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/centers/ghrc-daac",
+      "label": "Global Hydrometeorology Resource Center (GHRC) DAAC"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/centers/gesdisc-daac",
+      "label": "Goddard Earth Sciences Data and Information Services Center (GES DISC)"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/centers/lp-daac",
+      "label": "Land Processes (LP) DAAC"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/centers/laads-daac",
+      "label": "Level 1 and Atmosphere Archive and Distribution System (LAADS) DAAC"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/centers/nsidc-daac",
+      "label": "National Snow and Ice Data Center (NSIDC) DAAC"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/centers/ornl-daac",
+      "label": "Oak Ridge National Laboratory (ORNL) DAAC"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/centers/ob-daac",
+      "label": "Ocean Biology DAAC (OB.DAAC)"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/centers/po-daac",
+      "label": "Physical Oceanography DAAC (PO.DAAC)"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/",
+      "label": "Science Investigator-led Processing Systems (SIPS)"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/centers/modaps-sips",
+      "label": "MODIS Adaptive Processing System (MODAPS) SIPS"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/centers/odps-sips",
+      "label": "Ocean SIPS"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/centers/mls-sips",
+      "label": "Microwave Limb Sounder (MLS) SIPS"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/centers/omi-sips",
+      "label": "Ozone Monitoring Instrument (OMI) SIPS"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/centers/atmosphere-sips",
+      "label": "Atmosphere SIPS"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/centers/land-sips",
+      "label": "Land SIPS"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/centers/omps-sips",
+      "label": "Ozone Mapping and Profiler Suite SIPS"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/centers/sounder-sips",
+      "label": "Sounder SIPS"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/centers/sdrc",
+      "label": "Suborbital Data Resource Center"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/engage",
+      "label": "Engage"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/engage/open-data-services-software",
+      "label": "Open Data, Services, and Software Policies"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/engage/data-management-guidance/create-maintain-open-science-data-management-plan",
+      "label": "Open Science and Data Management Plan"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/centers/lp-daac",
+      "label": "For Researchers and Grantees"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/engage/data-management-guidance",
+      "label": "Data Management Guidance"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/engage/open-data-services-software/data-rights-related-issues",
+      "label": "Data Rights and Related Issues"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/engage/open-data-services-software-policies/data-use-guidance",
+      "label": "Data Use Guidance"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/centers/lp-daac",
+      "label": "For Developers"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/engage/open-data-services-software/earthdata-developer-portal",
+      "label": "APIs"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/about/esdis/eosdis/cmr",
+      "label": "Common Metadata Repository"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/centers/lp-daac",
+      "label": "For Data Providers"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/engage/submit-data",
+      "label": "Adding New Data"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/engage/submit-data/doi-process",
+      "label": "DOI Process"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/engage/submit-data/standards-templates",
+      "label": "Standards"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/about",
+      "label": "About"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/about/program-leadership",
+      "label": "ESDS Leadership"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/about/program-leadership/organization-chart",
+      "label": "Organizational Chart"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/about/multi-mission-data-processing-system-study",
+      "label": "Multi-Mission Data Processing System Study"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/about/esdis",
+      "label": "Earth Science Data and Information System (ESDIS) Project"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/about/esds-digital-strategy-user-development-team",
+      "label": "ESDS Digital Strategy and User Development Team"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/about/egist",
+      "label": "Earth Science Data Systems Geographic Information Systems Team (EGIST)"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/about/competitive-programs",
+      "label": "Competitive Programs"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/news",
+      "label": "News & Events"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/news",
+      "label": "News"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/events",
+      "label": "Events"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/news/wordview-archive",
+      "label": "Worldview Image of the Week"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/news/feature-articles",
+      "label": "Feature Articles"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/news/data-user-stories",
+      "label": "Data User Stories"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/news/blog",
+      "label": "Earthdata Blog"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/alerts-outages",
+      "label": "Data Alerts System"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/subscribe",
+      "label": "Subscribe to the Earthdata Newsletter"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data",
+      "label": "Data"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog",
+      "label": "Data Catalog"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/alerts-outages",
+      "label": "Data Alerts and Outages"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/projects",
+      "label": "Projects"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/projects/lance",
+      "label": "Land, Atmosphere Near real-time Capability for Earth observation (LANCE)"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/projects/hls",
+      "label": "Harmonized Landsat and Sentinel-2 (HLS)"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/projects/arset",
+      "label": "Applied Remote Sensing Training Program (ARSET)"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/platforms",
+      "label": "Platforms"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/instruments",
+      "label": "Instruments"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/space-geodesy-techniques",
+      "label": "Space Geodesy Techniques"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/tools",
+      "label": "Data Tools"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/tools/earthdata-search",
+      "label": "Earthdata Search"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/tools/worldview",
+      "label": "Worldview"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/tools/firms",
+      "label": "Fire Information for Resource Management System (FIRMS)"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/tools/vertex",
+      "label": "Vertex"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/tools/giovanni",
+      "label": "Giovanni"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/tools/appeears",
+      "label": "Application for Extracting and Exploring Analysis Ready Samples (AppEEARS)"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/tools/veda",
+      "label": "Visualization, Exploration, and Data Analysis (VEDA)"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/tools/ocean-color-level-3-4-browser",
+      "label": "Ocean Color Level 3 and 4 Browser"
+    },
+    {
+      "url": "https://forum.earthdata.nasa.gov/",
+      "label": "Get help from experienced data users and managers on Earthdata Forum"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/topics",
+      "label": "Data Pathfinders by Topic"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/topics/atmosphere",
+      "label": ""
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/topics/atmosphere",
+      "label": "Atmosphere"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/topics/biosphere",
+      "label": ""
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/topics/biosphere",
+      "label": "Biosphere"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/topics/climate-indicators",
+      "label": ""
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/topics/climate-indicators",
+      "label": "Climate Indicators"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/topics/cryosphere",
+      "label": ""
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/topics/cryosphere",
+      "label": "Cryosphere"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/topics/human-dimensions",
+      "label": ""
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/topics/human-dimensions",
+      "label": "Human Dimensions"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/topics/land-surface",
+      "label": ""
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/topics/land-surface",
+      "label": "Land Surface"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/topics/ocean",
+      "label": ""
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/topics/ocean",
+      "label": "Ocean"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/topics/solid-earth",
+      "label": ""
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/topics/solid-earth",
+      "label": "Solid Earth"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/topics/sun-earth-interactions",
+      "label": ""
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/topics/sun-earth-interactions",
+      "label": "Sun-Earth Interactions"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/topics/terrestrial-hydrosphere",
+      "label": ""
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/topics/terrestrial-hydrosphere",
+      "label": "Terrestrial Hydrosphere"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/topics/atmosphere/air-quality",
+      "label": "Air Quality"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/topics/human-dimensions/agriculture-production",
+      "label": "Agriculture Production"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/topics/human-dimensions/natural-hazards",
+      "label": "Natural Hazards"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/topics/ocean/water-quality",
+      "label": "Water Quality"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/topics/human-dimensions/climate-resilience",
+      "label": "Climate Resilience"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/topics/glossary",
+      "label": "View all Topics"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/learn",
+      "label": "Learn"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/learn/earth-observation-data-basics",
+      "label": "Earth Observation Data Basics"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/learn/gis",
+      "label": "GIS Resources"
+    },
+    {
+      "url": "https://forum.earthdata.nasa.gov/",
+      "label": "Data Support"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/learn/data-in-action",
+      "label": "Data in Action"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/learn/data-recipes",
+      "label": "Data Recipes"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/learn/trainings",
+      "label": "Trainings"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/learn/tutorials",
+      "label": "Tutorials"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/learn/webinars",
+      "label": "Webinars"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/learn/publications",
+      "label": "Publications"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/centers",
+      "label": "Centers"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/centers/asf-daac",
+      "label": "Alaska Satellite Facility (ASF) DAAC"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/centers/asdc-daac",
+      "label": "Atmospheric Science Data Center (ASDC)"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/centers/cddis-daac",
+      "label": "Crustal Dynamics Data Information System (CDDIS)"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/centers/ghrc-daac",
+      "label": "Global Hydrometeorology Resource Center (GHRC) DAAC"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/centers/gesdisc-daac",
+      "label": "Goddard Earth Sciences Data and Information Services Center (GES DISC)"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/centers/lp-daac",
+      "label": "Land Processes (LP) DAAC"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/centers/laads-daac",
+      "label": "Level 1 and Atmosphere Archive and Distribution System (LAADS) DAAC"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/centers/nsidc-daac",
+      "label": "National Snow and Ice Data Center (NSIDC) DAAC"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/centers/ornl-daac",
+      "label": "Oak Ridge National Laboratory (ORNL) DAAC"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/centers/ob-daac",
+      "label": "Ocean Biology DAAC (OB.DAAC)"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/centers/po-daac",
+      "label": "Physical Oceanography DAAC (PO.DAAC)"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/centers/modaps-sips",
+      "label": "MODIS Adaptive Processing System (MODAPS) SIPS"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/centers/odps-sips",
+      "label": "Ocean SIPS"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/centers/mls-sips",
+      "label": "Microwave Limb Sounder (MLS) SIPS"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/centers/omi-sips",
+      "label": "Ozone Monitoring Instrument (OMI) SIPS"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/centers/atmosphere-sips",
+      "label": "Atmosphere SIPS"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/centers/land-sips",
+      "label": "Land SIPS"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/centers/omps-sips",
+      "label": "Ozone Mapping and Profiler Suite SIPS"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/centers/sounder-sips",
+      "label": "Sounder SIPS"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/centers/sdrc",
+      "label": "Suborbital Data Resource Center"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/engage",
+      "label": "Engage"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/engage/open-data-services-software",
+      "label": "Open Data, Services, and Software Policies"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/engage/data-management-guidance/create-maintain-open-science-data-management-plan",
+      "label": "Open Science and Data Management Plan"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/engage/data-management-guidance",
+      "label": "Data Management Guidance"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/engage/open-data-services-software/data-rights-related-issues",
+      "label": "Data Rights and Related Issues"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/engage/open-data-services-software-policies/data-use-guidance",
+      "label": "Data Use Guidance"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/engage/open-data-services-software/earthdata-developer-portal",
+      "label": "APIs"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/about/esdis/eosdis/cmr",
+      "label": "Common Metadata Repository"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/engage/submit-data",
+      "label": "Adding New Data"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/engage/submit-data/doi-process",
+      "label": "DOI Process"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/engage/submit-data/standards-templates",
+      "label": "Standards"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/about",
+      "label": "About"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/about/program-leadership",
+      "label": "ESDS Leadership"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/about/program-leadership/organization-chart",
+      "label": "Organizational Chart"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/about/multi-mission-data-processing-system-study",
+      "label": "Multi-Mission Data Processing System Study"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/contact",
+      "label": "Contact Us"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/about/esdis",
+      "label": "Earth Science Data and Information System (ESDIS) Project"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/about/esds-digital-strategy-user-development-team",
+      "label": "ESDS Digital Strategy and User Development Team"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/about/egist",
+      "label": "Earth Science Data Systems Geographic Information Systems Team (EGIST)"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/about/competitive-programs",
+      "label": "Competitive Programs"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/about/data-metrics",
+      "label": "Program Performance and Metrics"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/news",
+      "label": "News"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/events",
+      "label": "Events"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/news/wordview-archive",
+      "label": "Worldview Image of the Week"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/alerts-outages",
+      "label": "Data Alerts System"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/subscribe",
+      "label": "Subscribe to the Earthdata Newsletter"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/news/feature-articles",
+      "label": "Feature Articles"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/news/data-user-stories",
+      "label": "Data User Stories"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/news/blog",
+      "label": "Earthdata Blog"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/news/worldview-image-archive/atmospheric-river-season-pacific-northwest",
+      "label": ""
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/news/worldview-image-archive/atmospheric-river-season-pacific-northwest",
+      "label": "Atmospheric River Season for the Pacific Northwest"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/events/earthaccess-hackathon-agu-2026",
+      "label": ""
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/events/earthaccess-hackathon-agu-2026",
+      "label": "earthaccess Hackathon at AGU 2026"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/centers/lp-daac",
+      "label": "Overview"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/centers/lp-daac/data-access-tools",
+      "label": "Data and Tools"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/centers/lp-daac/news",
+      "label": "News"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/centers/lp-daac/learn",
+      "label": "Learn"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/centers/lp-daac/publications",
+      "label": "Publications"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/centers/lp-daac/contact",
+      "label": "Contact"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/centers/lp-daac/people",
+      "label": "People"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/centers/lp-daac/preservation-documents",
+      "label": "Preservation Documents"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/",
+      "label": "Home"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/centers",
+      "label": "Centers"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/centers/lp-daac#main-content",
+      "label": ""
+    },
+    {
+      "url": "https://search.earthdata.nasa.gov/",
+      "label": "Earthdata Search"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/centers/lp-daac/data-access-tools",
+      "label": "data tools"
+    },
+    {
+      "url": "https://github.com/nasa/LPDAAC-Data-Resources",
+      "label": "GitHub"
+    },
+    {
+      "url": "https://appeears.earthdatacloud.nasa.gov/",
+      "label": "AppEEARS"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/centers/lp-daac/data-access-tools",
+      "label": "View Data and Tools"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/alerts-outages/content/data-alert-history/17370",
+      "label": "View data alert history"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/centers/lp-daac/people",
+      "label": "View All People"
+    },
+    {
+      "url": "https://eros.usgs.gov/",
+      "label": "USGS Earth Resources Observation and Science (EROS) Center"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/centers/lp-daac",
+      "label": ""
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/instruments/modis",
+      "label": "MODIS"
+    },
+    {
+      "url": "https://search.earthdata.nasa.gov/search?fi=MODIS&fdc=Land%2BProcess%2BDistributed%2BActive%2BArchive%2BCenter%2B%2528LPDAAC%2529",
+      "label": "MODIS products archived by LP DAAC"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/instruments/aster",
+      "label": "ASTER"
+    },
+    {
+      "url": "https://search.earthdata.nasa.gov/search?fi=ASTER&fdc=Land%2BProcess%2BDistributed%2BActive%2BArchive%2BCenter%2B%2528LPDAAC%2529",
+      "label": "ASTER products archived by LP DAAC"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/instruments/aster/aster-transition-resources",
+      "label": "ASTER Transition Resources"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/instruments/viirs",
+      "label": "VIIRS"
+    },
+    {
+      "url": "https://search.earthdata.nasa.gov/search?fi=VIIRS&fdc=Land%2BProcess%2BDistributed%2BActive%2BArchive%2BCenter%2B%2528LPDAAC%2529",
+      "label": "VIIRS products archived by LP DAAC"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/alerts-outages/reminder-new-suomi-npp-observations-cease-november-2-2026",
+      "label": "ceased on November 2, 2026 (2026/305)"
+    },
+    {
+      "url": "https://lpdaac.usgs.gov/documents/2548/Suomi_NPP_Land_Data_Transition_Table.pdf",
+      "label": "Suomi NPP VIIRS Land Data Transition Table"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/instruments/ecostress",
+      "label": "ECOSTRESS"
+    },
+    {
+      "url": "https://search.earthdata.nasa.gov/search?fi=ECOSTRESS&fdc=Land%2BProcess%2BDistributed%2BActive%2BArchive%2BCenter%2B%2528LPDAAC%2529",
+      "label": "ECOSTRESS products archived by LP DAAC"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/instruments/emit-imaging-spectrometer",
+      "label": "EMIT"
+    },
+    {
+      "url": "https://search.earthdata.nasa.gov/search?fi=EMIT%2BImaging%2BSpectrometer&fdc=Land%2BProcess%2BDistributed%2BActive%2BArchive%2BCenter%2B%2528LPDAAC%2529",
+      "label": "EMIT products archived by LP DAAC"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/instruments/gedi-lidar",
+      "label": "GEDI"
+    },
+    {
+      "url": "https://search.earthdata.nasa.gov/search?fi=GEDI&fdc=Land%2BProcess%2BDistributed%2BActive%2BArchive%2BCenter%2B%2528LPDAAC%2529",
+      "label": "GEDI products archived by LP DAAC"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/projects/hls",
+      "label": "HLS"
+    },
+    {
+      "url": "https://search.earthdata.nasa.gov/search?fdc=Land%2BProcess%2BDistributed%2BActive%2BArchive%2BCenter%2B%2528LPDAAC%2529&fpj=HLS",
+      "label": "HLS products archived by LP DAAC"
+    },
+    {
+      "url": "https://www.jpl.nasa.gov/go/opera",
+      "label": "OPERA"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/projects/nsite",
+      "label": "SNWG"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/projects/hls",
+      "label": "HLS"
+    },
+    {
+      "url": "https://www.jpl.nasa.gov/go/opera/products/dist-product-suite",
+      "label": "JPL product site"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/about/competitive-programs/measures",
+      "label": "MEaSUREs"
+    },
+    {
+      "url": "https://doi.org/10.5067/MEaSUREs/GFCC/GFCC30FCC.001",
+      "label": "GFCC30FCC.001"
+    },
+    {
+      "url": "https://doi.org/10.5067/MEaSUREs/GFCC/GFCC30SR.001",
+      "label": "GFCC30SR.001"
+    },
+    {
+      "url": "https://doi.org/10.5067/MEaSUREs/GFCC/GFCC30TC.003",
+      "label": "GFCC30TC.003"
+    },
+    {
+      "url": "https://doi.org/10.5067/MEaSUREs/GFCC/GFCC30WC.001",
+      "label": "GFCC30WC.001"
+    },
+    {
+      "url": "https://doi.org/10.5067/MEaSUREs/GFSAD/GFSAD1KCD.001",
+      "label": "GFSAD1KCD.001"
+    },
+    {
+      "url": "https://doi.org/10.5067/MEaSUREs/GFSAD/GFSAD1KCM.001",
+      "label": "GFSAD1KCM.001"
+    },
+    {
+      "url": "https://doi.org/10.5067/MEaSUREs/GFSAD/GFSAD30AFCE.001",
+      "label": "GFSAD30AFCE.001"
+    },
+    {
+      "url": "https://doi.org/10.5067/MEaSUREs/GFSAD/GFSAD30AUNZCNMOCE.001",
+      "label": "GFSAD30AUNZCNMOCE.001"
+    },
+    {
+      "url": "https://doi.org/10.5067/MEaSUREs/GFSAD/GFSAD30EUCEARUMECE.001",
+      "label": "GFSAD30EUCEARUMECE.001"
+    },
+    {
+      "url": "https://doi.org/10.5067/MEaSUREs/GFSAD/GFSAD30NACE.001",
+      "label": "GFSAD30NACE.001"
+    },
+    {
+      "url": "https://doi.org/10.5067/MEaSUREs/GFSAD/GFSAD30SAAFGIRCE.001",
+      "label": "GFSAD30SAAFGIRCE.001"
+    },
+    {
+      "url": "https://doi.org/10.5067/MEaSUREs/GFSAD/GFSAD30SACE.001",
+      "label": "GFSAD30SACE.001"
+    },
+    {
+      "url": "https://doi.org/10.5067/MEaSUREs/GFSAD/GFSAD30SEACE.001",
+      "label": "GFSAD30SEACE.001"
+    },
+    {
+      "url": "https://doi.org/10.5067/MEaSUREs/GFSAD/GFSAD30VAL.001",
+      "label": "GFSAD30VAL.001"
+    },
+    {
+      "url": "http://sites.bu.edu/measures/#:~:text=GLanCE%3A%20Global%20Land%20Cover%20mapping%20and%20Estimation&text=Welcome%20to%20the%20homepage%20for,cover%20change%20at%2030m%20resolution.",
+      "label": "GLanCE"
+    },
+    {
+      "url": "https://doi.org/10.5067/MEaSUREs/GLanCE/GLanCE30.001",
+      "label": "GLanCE30.001"
+    },
+    {
+      "url": "https://doi.org/10.5067/MEaSUREs/LSTE/CAM5K30CF.002",
+      "label": "CAM5K30CF.002"
+    },
+    {
+      "url": "https://doi.org/10.5067/MEaSUREs/LSTE/CAM5K30CF.003",
+      "label": "CAM5K30CF.003"
+    },
+    {
+      "url": "https://doi.org/10.5067/MEaSUREs/LSTE/CAM5K30CFCLIM.003",
+      "label": "CAM5K30CFCLIM.003"
+    },
+    {
+      "url": "https://doi.org/10.5067/MEaSUREs/LSTE/CAM5K30COVCLIM.003",
+      "label": "CAM5K30COVCLIM.003"
+    },
+    {
+      "url": "https://doi.org/10.5067/MEaSUREs/LSTE/CAM5K30EM.002",
+      "label": "CAM5K30EM.002"
+    },
+    {
+      "url": "https://doi.org/10.5067/MEaSUREs/LSTE/CAM5K30EM.003",
+      "label": "CAM5K30EM.003"
+    },
+    {
+      "url": "https://doi.org/10.5067/MEaSUREs/LSTE/CAM5K30EMCLIM.003",
+      "label": "CAM5K30EMCLIM.003"
+    },
+    {
+      "url": "https://doi.org/10.5067/MEaSUREs/LSTE/CAM5K30UC.003",
+      "label": "CAM5K30UC.003"
+    },
+    {
+      "url": "https://doi.org/10.5067/MEaSUREs/LSTE/CAM5K30UC.003",
+      "label": "CAM5K30UC.002"
+    },
+    {
+      "url": "https://doi.org/10.5067/MEaSUREs/LSTE/CAM5K30UCCLIM.003",
+      "label": "CAM5K30UCCLIM.003"
+    },
+    {
+      "url": "https://doi.org/10.5067/MEaSUREs/LSTE/GEOLST4KHR.002",
+      "label": "GEOLST4KHR.002"
+    },
+    {
+      "url": "https://doi.org/10.5067/MEaSUREs/LSTE/LEOLSTCMG30.002",
+      "label": "LEOLSTCMG30.002"
+    },
+    {
+      "url": "https://doi.org/10.5067/MEaSUREs/LSTE/LEOLSTCMG30.001",
+      "label": "LEOLSTCMG30.001"
+    },
+    {
+      "url": "https://doi.org/10.5067/MEaSUREs/NASADEM/NASADEM_HGT.001",
+      "label": "NASADEM_HGT.001"
+    },
+    {
+      "url": "https://doi.org/10.5067/MEaSUREs/NASADEM/NASADEM_SC.001",
+      "label": "NASADEM_SC.001"
+    },
+    {
+      "url": "https://doi.org/10.5067/MEaSUREs/NASADEM/NASADEM_SHHP.001",
+      "label": "NASADEM_SHHP.001"
+    },
+    {
+      "url": "https://doi.org/10.5067/MEaSUREs/NASADEM/NASADEM_SIM.001",
+      "label": "NASADEM_SIM.001"
+    },
+    {
+      "url": "https://doi.org/10.5067/MEaSUREs/NASADEM/NASADEM_SSP.001",
+      "label": "NASADEM_SSP.001"
+    },
+    {
+      "url": "https://doi.org/10.5067/MEaSUREs/SRTM/SRTMGL1.003",
+      "label": "SRTMGL1.003"
+    },
+    {
+      "url": "https://doi.org/10.5067/MEaSUREs/SRTM/SRTMGL1N.003",
+      "label": "SRTMGL1N.003"
+    },
+    {
+      "url": "https://doi.org/10.5067/MEaSUREs/SRTM/SRTMGL3.003",
+      "label": "SRTMGL3.003"
+    },
+    {
+      "url": "https://doi.org/10.5067/MEaSUREs/SRTM/SRTMGL30.003",
+      "label": "SRTMGL30.021"
+    },
+    {
+      "url": "https://doi.org/10.5067/MEaSUREs/SRTM/SRTMGL3N.003",
+      "label": "SRTMGL3N.003"
+    },
+    {
+      "url": "https://doi.org/10.5067/MEaSUREs/SRTM/SRTMGL3S.003",
+      "label": "SRTMGL3S.003"
+    },
+    {
+      "url": "https://doi.org/10.5067/MEaSUREs/SRTM/SRTMIMGM.003",
+      "label": "SRTMIMGM.003"
+    },
+    {
+      "url": "https://doi.org/10.5067/MEaSUREs/SRTM/SRTMIMGR.003",
+      "label": "SRTMIMGR.003"
+    },
+    {
+      "url": "https://doi.org/10.5067/MEaSUREs/SRTM/SRTMSWBD.003",
+      "label": "SRTMSWBD.003"
+    },
+    {
+      "url": "https://doi.org/10.5067/MEaSUREs/VCF/VCF5KYR.001",
+      "label": "VCF5KYR.001"
+    },
+    {
+      "url": "https://doi.org/10.5067/MEaSUREs/VIP/VIP01.004",
+      "label": "VIP01.004"
+    },
+    {
+      "url": "https://doi.org/10.5067/MEaSUREs/VIP/VIP07.004",
+      "label": "VIP07.004"
+    },
+    {
+      "url": "https://doi.org/10.5067/MEaSUREs/VIP/VIP15.004",
+      "label": "VIP15.004"
+    },
+    {
+      "url": "https://doi.org/10.5067/MEaSUREs/VIP/VIP30.004",
+      "label": "VIP30.004"
+    },
+    {
+      "url": "https://doi.org/10.5067/MEaSUREs/VIP/VIPPHEN_EVI2.004",
+      "label": "VIPPHEN_EVI2.004"
+    },
+    {
+      "url": "https://doi.org/10.5067/MEaSUREs/VIP/VIPPHEN_NDVI.004",
+      "label": "VIPPHEN_NDVI.004"
+    },
+    {
+      "url": "https://doi.org/10.5067/MEaSUREs/GWELD/GWELDMO.003",
+      "label": "GWELDMO.003"
+    },
+    {
+      "url": "https://doi.org/10.5067/MEaSUREs/GWELD/GWELDMO.031",
+      "label": "GWELDMO.031"
+    },
+    {
+      "url": "https://doi.org/10.5067/MEaSUREs/GWELD/GWELDMO.032",
+      "label": "GWELDMO.032"
+    },
+    {
+      "url": "https://doi.org/10.5067/MEaSUREs/GWELD/GWELDYR.003",
+      "label": "GWELDYR.003"
+    },
+    {
+      "url": "https://doi.org/10.5067/MEaSUREs/GWELD/GWELDYR.031",
+      "label": "GWELDYR.031"
+    },
+    {
+      "url": "https://doi.org/10.5067/MEaSUREs/GWELD/GWELDYR.032",
+      "label": "GWELDYR.032"
+    },
+    {
+      "url": "https://doi.org/10.5067/Community/Airborne/AEHYP1TPPOK.001",
+      "label": "AEHYP1TPPOK.001"
+    },
+    {
+      "url": "https://doi.org/10.5067/Community/Airborne/AEHYPCCMN300MM.001",
+      "label": "AEHYPCCMN300MM.001"
+    },
+    {
+      "url": "https://doi.org/10.5067/Community/Airborne/AEHYPICNE1M.001",
+      "label": "AEHYPICNE1M.001"
+    },
+    {
+      "url": "https://doi.org/10.5067/Community/Airborne/AEHYPWRNE1M.001",
+      "label": "AEHYPWRNE1M.001"
+    },
+    {
+      "url": "https://doi.org/10.5067/Community/ASTER_GED/AG100.003",
+      "label": "AG100.003"
+    },
+    {
+      "url": "https://doi.org/10.5067/Community/ASTER_GED/AG1km.003",
+      "label": "AG1km.003"
+    },
+    {
+      "url": "https://doi.org/10.5067/Community/ASTER_GED/AG5KMMOH.041",
+      "label": "AG5KMMOH.041"
+    },
+    {
+      "url": "https://doi.org/10.5067/Community/GHISA/GHISACASIA.001",
+      "label": "GHISACASIA.001"
+    },
+    {
+      "url": "https://doi.org/10.5067/Community/GHISA/GHISACONUS.001",
+      "label": "GHISACONUS.001"
+    },
+    {
+      "url": "https://gliht.gsfc.nasa.gov/",
+      "label": "G-LiHT"
+    },
+    {
+      "url": "https://doi.org/10.5067/Community/GLIHT/GLCHMK.001",
+      "label": "GLCHMK.001"
+    },
+    {
+      "url": "https://doi.org/10.5067/Community/GLIHT/GLCHMT.001",
+      "label": "GLCHMT.001"
+    },
+    {
+      "url": "https://doi.org/10.5067/Community/GLIHT/GLDSMT.001",
+      "label": "GLDSMT.001"
+    },
+    {
+      "url": "https://doi.org/10.5067/Community/GLIHT/GLDTMK.001",
+      "label": "GLDTMK.001"
+    },
+    {
+      "url": "https://doi.org/10.5067/Community/GLIHT/GLDTMT.001",
+      "label": "GLDTMT.001"
+    },
+    {
+      "url": "https://doi.org/10.5067/Community/GLIHT/GLHYANC.001",
+      "label": "GLHYANC.001"
+    },
+    {
+      "url": "https://doi.org/10.5067/Community/GLIHT/GLHYVI.001",
+      "label": "GLHYVI.001"
+    },
+    {
+      "url": "https://doi.org/10.5067/Community/GLIHT/GLLIDARPC.001",
+      "label": "GLLIDARPC.001"
+    },
+    {
+      "url": "https://doi.org/10.5067/Community/GLIHT/GLMETRICS.001",
+      "label": "GLMETRICS.001"
+    },
+    {
+      "url": "https://doi.org/10.5067/Community/GLIHT/GLORTHO.001",
+      "label": "GLORTHO.001"
+    },
+    {
+      "url": "https://doi.org/10.5067/Community/GLIHT/GLRADS.001",
+      "label": "GLRADS.001"
+    },
+    {
+      "url": "https://doi.org/10.5067/Community/GLIHT/GLREFL.001",
+      "label": "GLREFL.001"
+    },
+    {
+      "url": "https://doi.org/10.5067/Community/GLIHT/GLTRAJECTORY.001",
+      "label": "GLTRAJECTORY.001"
+    },
+    {
+      "url": "https://doi.org/10.5067/Community/Headwall/HWHYPCCMN1MM.001",
+      "label": "HWHYPCCMN1MM.001"
+    },
+    {
+      "url": "https://doi.org/10.5067/Community/LGRIP/LGRIP30.001",
+      "label": "LGRIP30.001"
+    },
+    {
+      "url": "https://doi.org/10.5067/Community/LGRIP/LGRIP30_L1_IRRI.002",
+      "label": "LGRIP30_L1_IRRI.002"
+    },
+    {
+      "url": "https://doi.org/10.5067/Community/LGRIP/LGRIP30_L1_RAIN.002",
+      "label": "LGRIP30_L1_RAIN.002"
+    },
+    {
+      "url": "https://doi.org/10.5067/Community/LGRIP/LGRIP30_L2_IRRI.002",
+      "label": "LGRIP30_L2_IRRI.002"
+    },
+    {
+      "url": "https://doi.org/10.5067/Community/LGRIP/LGRIP30_L2_RAIN.002",
+      "label": "LGRIP30_L2_RAIN.002"
+    },
+    {
+      "url": "https://doi.org/10.5067/Community/LGRIP/LGRIP30_L3.002",
+      "label": "LGRIP30_L3.002"
+    },
+    {
+      "url": "https://earth.gov/ghgcenter",
+      "label": "US GHG Center"
+    },
+    {
+      "url": "https://doi.org/10.5067/Community/LPJ-EOSIM/LPJ_EOSIM_L2_DCH4E.001",
+      "label": "LPJ_EOSIM_L2_DCH4E.001"
+    },
+    {
+      "url": "https://doi.org/10.5067/Community/LPJ-EOSIM/LPJ_EOSIM_L2_DCH4E_LL.001",
+      "label": "LPJ_EOSIM_L2_DCH4E_LL.001"
+    },
+    {
+      "url": "https://doi.org/10.5067/Community/LPJ-EOSIM/LPJ_EOSIM_L2_MCH4E.001",
+      "label": "LPJ_EOSIM_L2_MCH4E.001"
+    },
+    {
+      "url": "https://doi.org/10.5067/Community/LPJ-EOSIM/LPJ_EOSIM_L2_MCH4E_LL.001",
+      "label": "LPJ_EOSIM_L2_MCH4E_LL.001"
+    },
+    {
+      "url": "https://www.greencurrey.com/lpj-prosail",
+      "label": "LPJ-PROSAIL website"
+    },
+    {
+      "url": "https://doi.org/10.5067/Community/LPJ-PROSAIL/LPJ_L2_SSREF.001",
+      "label": "LPJ_L2_SSREF.001"
+    },
+    {
+      "url": "https://doi.org/10.5067/Community/LPJ-PROSAIL/LPJ_L2_SSREF.002",
+      "label": "LPJ_L2_SSREF.002"
+    },
+    {
+      "url": "https://doi.org/10.5067/Community/MuSLI/MSLSP30NA.011",
+      "label": "MSLSP30NA.011"
+    },
+    {
+      "url": "https://search.earthdata.nasa.gov/search",
+      "label": "NASA Earthdata Search"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/tools/appeears",
+      "label": "AppEEARS"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/centers/lp-daac/news",
+      "label": "News"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/centers/lp-daac/learn",
+      "label": "Learn"
+    },
+    {
+      "url": "https://forum.earthdata.nasa.gov/viewforum.php?f=7&&DAAC=5&Discipline=&Projects=&ServicesUsage=&keywords=&author=&startDate=&endDate=&bestAnswer=&noReplies=&tagMatch=any&searchWithin=&modClaim=",
+      "label": "Earthdata Forum."
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/centers/lp-daac/data-access-tools",
+      "label": "Data and Tools"
+    },
+    {
+      "url": "https://eros.usgs.gov/about-us",
+      "label": "EROS"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/platforms",
+      "label": "By Platform"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/topics",
+      "label": "By Topic"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog",
+      "label": "Data Catalog"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/tools",
+      "label": "Data Tools"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/",
+      "label": ""
+    },
+    {
+      "url": "https://www.facebook.com/nasaearth",
+      "label": ""
+    },
+    {
+      "url": "https://www.instagram.com/nasa/",
+      "label": ""
+    },
+    {
+      "url": "https://x.com/nasaearth",
+      "label": ""
+    },
+    {
+      "url": "https://www.youtube.com/@NASAEarthdata",
+      "label": ""
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data",
+      "label": "Find Data"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/catalog",
+      "label": "Data Catalog"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/tools",
+      "label": "Data Tools"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/platforms",
+      "label": "Platforms"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/instruments",
+      "label": "Instruments"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/space-geodesy-techniques",
+      "label": "Space Geodesy Techniques"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/projects",
+      "label": "Projects"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/data/alerts-outages",
+      "label": "Data Alerts and Outages"
+    },
+    {
+      "url": "http://urs.earthdata.nasa.gov/",
+      "label": "Earthdata Login"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/topics",
+      "label": "Data Pathfinders by Topic"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/topics/atmosphere",
+      "label": "Atmosphere"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/topics/biosphere",
+      "label": "Biosphere"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/topics/climate-indicators",
+      "label": "Climate Indicators"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/topics/cryosphere",
+      "label": "Cryosphere"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/topics/human-dimensions",
+      "label": "Human Dimensions"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/topics/land-surface",
+      "label": "Land Surface"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/topics/ocean",
+      "label": "Ocean"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/topics/solid-earth",
+      "label": "Solid Earth"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/topics/sun-earth-interactions",
+      "label": "Sun-Earth Interactions"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/topics/terrestrial-hydrosphere",
+      "label": "Terrestrial Hydrosphere"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/learn",
+      "label": "Learn"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/learn/earth-observation-data-basics",
+      "label": "Earth Observation Data Basics"
+    },
+    {
+      "url": "https://forum.earthdata.nasa.gov",
+      "label": "Earthdata Forum"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/learn/webinars",
+      "label": "Webinars"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/learn/trainings",
+      "label": "Trainings"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/learn/tutorials",
+      "label": "Tutorials"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/learn/data-in-action",
+      "label": "Data in Action"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/learn/data-recipes",
+      "label": "Data Recipes"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/learn/gis",
+      "label": "GIS Resources"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/learn/gis/storymaps",
+      "label": "StoryMaps"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/learn/publications",
+      "label": "Publications"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/centers",
+      "label": "Centers"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/centers/asf-daac",
+      "label": "ASF DAAC"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/centers/asdc-daac",
+      "label": "ASDC"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/centers/cddis-daac",
+      "label": "CDDIS"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/centers/ghrc-daac",
+      "label": "GHRC DAAC"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/centers/gesdisc-daac",
+      "label": "GES DISC"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/centers/lp-daac",
+      "label": "LP DAAC"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/centers/laads-daac",
+      "label": "LAADS DAAC"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/centers/nsidc-daac",
+      "label": "NSIDC DAAC"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/centers/ornl-daac",
+      "label": "ORNL DAAC"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/centers/ob-daac",
+      "label": "OB.DAAC"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/centers/po-daac",
+      "label": "PO.DAAC"
+    },
+    {
+      "url": "https://sealevel.nasa.gov",
+      "label": "Sea Level Change Portal"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/centers/sdrc",
+      "label": "Suborbital Data Resource Center"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/engage",
+      "label": "Engage"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/engage/data-management-guidance",
+      "label": "Data Management Guidance for ESD-funded Researchers"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/engage/open-data-services-software",
+      "label": "Open Data, Services, and Software Policies"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/engage/partnerships",
+      "label": "Public and Private Partnerships"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/engage/memberships-affiliations",
+      "label": "Memberships and Affiliations"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/news",
+      "label": "News"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/events",
+      "label": "Events"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/subscribe",
+      "label": "Newsletter"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/contact",
+      "label": "Contact"
+    },
+    {
+      "url": "https://www.nasa.gov/nasa-web-privacy-policy-and-important-notices/",
+      "label": "Web Privacy Policy"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/engage/open-data-services-software-policies/data-information-guidance",
+      "label": "Data and Information Guidance"
+    },
+    {
+      "url": "https://www.nasa.gov/audience/formedia/features/communication_policy.html",
+      "label": "Communications Policy"
+    },
+    {
+      "url": "https://www.nasa.gov/foia/",
+      "label": "FOIA"
+    },
+    {
+      "url": "https://www.nasa.gov/accessibility/",
+      "label": "Accessibility"
+    },
+    {
+      "url": "https://www.earthdata.nasa.gov/sitemap.xml",
+      "label": "Sitemap"
+    },
+    {
+      "url": "https://www.usa.gov/",
+      "label": "USA.gov"
+    }
+  ],
+  "elapsed_seconds": 1.578
+}

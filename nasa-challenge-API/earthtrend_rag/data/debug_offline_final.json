@@ -1,0 +1,119 @@
+{
+  "timestamp_utc": "2026-11-14T19:46:25.626593+00:00",
+  "python": "3.14.7 (tags/v3.14.7:823f032, Aug  5 2026, 10:51:32) [MSC v.1944 64 bit (AMD64)]",
+  "executable": "C:\\nasa challenge API\\earthtrend_rag\\.venv\\Scripts\\python.exe",
+  "versions": {
+    "google-genai": "3.3.0",
+    "httpx": "0.28.1",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "pymannkendall": "1.4.3",
+    "fastapi": "0.163.0",
+    "pydantic": "2.14.3",
+    "qdrant-client": "1.20.0",
+    "sentence-transformers": "6.3.0"
+  },
+  "settings": {
+    "gemini_model": "gemini-3.5-flash-lite",
+    "embedding_model": "intfloat/multilingual-e5-small",
+    "gemini_fallback_models": "gemini-3.1-flash-lite,gemini-3.8-flash",
+    "gemini_daily_cap_per_model": 18,
+    "gemini_request_timeout_s": 30.0,
+    "gemini_total_deadline_s": 75.0,
+    "gemini_max_attempts": 3,
+    "gemini_temperature": 0.1,
+    "gemini_max_output_tokens": 2048,
+    "request_total_deadline_s": 90.0,
+    "power_total_deadline_s": 30.0,
+    "power_connect_timeout_s": 5.0,
+    "power_read_timeout_s": 15.0,
+    "power_max_attempts": 2,
+    "log_level": "INFO",
+    "data_dir": "C:\\nasa challenge API\\earthtrend_rag\\data",
+    "trend_alpha": 0.05,
+    "trend_min_years": 10,
+    "trend_min_months_per_year": 9,
+    "trend_min_coverage": 0.6,
+    "top_k": 5,
+    "candidate_k": 20,
+    "min_dense_score": 0.35,
+    "hybrid_rrf_k": 60
+  },
+  "checks": [
+    {
+      "layer": "local_increasing",
+      "status": "PASS",
+      "reference": "pymannkendall.original_test",
+      "p": 9.709234566708394e-15,
+      "slope": 1.0,
+      "unit": "value/year"
+    },
+    {
+      "layer": "local_decreasing",
+      "status": "PASS",
+      "reference": "pymannkendall.original_test",
+      "p": 9.709234566708394e-15,
+      "slope": -1.0,
+      "unit": "value/year"
+    },
+    {
+      "layer": "local_constant",
+      "status": "PASS",
+      "reference": "pymannkendall.original_test",
+      "p": 1.0,
+      "slope": 0.0,
+      "unit": "value/year"
+    },
+    {
+      "layer": "local_invalid_inputs",
+      "status": "PASS",
+      "duplicate_policy": "reject",
+      "missing_policy": "screen then analyze",
+      "short_series": "reject"
+    },
+    {
+      "layer": "power_live",
+      "status": "NOT TESTED"
+    },
+    {
+      "layer": "gemini_text",
+      "status": "NOT TESTED"
+    },
+    {
+      "layer": "real_rag",
+      "status": "NOT TESTED"
+    }
+  ],
+  "credentials": {
+    "GEMINI_API_KEY": {
+      "process_present": false,
+      "env_file_present": true,
+      "app_loader_present": true
+    },
+    "EARTHDATA_USERNAME": {
+      "process_present": false,
+      "env_file_present": false
+    },
+    "EARTHDATA_PASSWORD": {
+      "process_present": false,
+      "env_file_present": false
+    },
+    "EARTHDATA_TOKEN": {
+      "process_present": false,
+      "env_file_present": false
+    },
+    "FIRMS_MAP_KEY": {
+      "process_present": false,
+      "env_file_present": false
+    },
+    "MAP_KEY": {
+      "process_present": false,
+      "env_file_present": false
+    },
+    "NASA_API_KEY": {
+      "process_present": false,
+      "env_file_present": false
+    }
+  },
+  "gemini_call_budget_used": 0
+}

@@ -1,0 +1,546 @@
+{
+  "id": "resource_R077",
+  "url": "https://dataspace.copernicus.eu",
+  "checked_at": "2026-11-14T15:15:19.521184+00:00",
+  "tls_validation": false,
+  "status": 200,
+  "final_url": "https://dataspace.copernicus.eu",
+  "bytes": 111397,
+  "content_type": "text/html; charset=UTF-8",
+  "sha256": "0fe0bea838ee7ec3f72675378593675602bfc8ad101b7a8b3d84ec5b819f4ca8",
+  "links": [
+    {
+      "url": "https://dataspace.copernicus.eu/",
+      "label": ""
+    },
+    {
+      "url": "https://dataspace.copernicus.eu/news",
+      "label": "News"
+    },
+    {
+      "url": "https://dataspace.copernicus.eu/copernicus-data-space-ecosystem-dashboard",
+      "label": "Dashboard"
+    },
+    {
+      "url": "https://dataspace.copernicus.eu/cases",
+      "label": "Cases"
+    },
+    {
+      "url": "https://dataspace.copernicus.eu/events",
+      "label": "Events"
+    },
+    {
+      "url": "https://dataspace.copernicus.eu/gallery",
+      "label": "Gallery"
+    },
+    {
+      "url": "https://dataspace.copernicus.eu/videos",
+      "label": "Videos"
+    },
+    {
+      "url": "https://dataspace.copernicus.eu/about",
+      "label": "About"
+    },
+    {
+      "url": "https://dataspace.copernicus.eu/about#contact-form",
+      "label": "Contact"
+    },
+    {
+      "url": "https://dataspace.copernicus.eu/data-collections/copernicus-sentinel-missions",
+      "label": "Copernicus Sentinel Missions"
+    },
+    {
+      "url": "https://dataspace.copernicus.eu/copernicus-services",
+      "label": "Copernicus Services"
+    },
+    {
+      "url": "https://dataspace.copernicus.eu/explore-data/data-collections/copernicus-contributing-missions",
+      "label": "Copernicus Contributing Missions"
+    },
+    {
+      "url": "https://dataspace.copernicus.eu/data-collections/federated-data-sets",
+      "label": "Federated Data Sets"
+    },
+    {
+      "url": "https://dataspace.copernicus.eu/data-collections/complementary-data",
+      "label": "Complementary Data"
+    },
+    {
+      "url": "https://browser.stac.dataspace.copernicus.eu/?.language=en",
+      "label": "STAC Browser"
+    },
+    {
+      "url": "https://dataspace.copernicus.eu/analyse/apis",
+      "label": "APIs"
+    },
+    {
+      "url": "https://dataspace.copernicus.eu/analyse/data-workspace",
+      "label": "Data Workspace"
+    },
+    {
+      "url": "https://dataspace.copernicus.eu/analyse/traceability",
+      "label": "Traceability"
+    },
+    {
+      "url": "https://dataspace.copernicus.eu/analyse/jupyterlab",
+      "label": "JupyterLab"
+    },
+    {
+      "url": "https://dataspace.copernicus.eu/analyse/openeo",
+      "label": "openEO"
+    },
+    {
+      "url": "https://shapps.dataspace.copernicus.eu/dashboard/#/",
+      "label": "Sentinel Hub"
+    },
+    {
+      "url": "https://dataspace.copernicus.eu/ecosystem/services",
+      "label": "SERVICES"
+    },
+    {
+      "url": "https://dataspace.copernicus.eu/ecosystem/about",
+      "label": "About the Ecosystem"
+    },
+    {
+      "url": "https://dataspace.copernicus.eu/ecosystem/services/about",
+      "label": "About the Ecosystem Services Registry"
+    },
+    {
+      "url": "https://dataspace.copernicus.eu/ecosystem/services/about#joinecosystem",
+      "label": "Join the Ecosystem"
+    },
+    {
+      "url": "https://browser.dataspace.copernicus.eu/",
+      "label": "Explore Data"
+    },
+    {
+      "url": "https://documentation.dataspace.copernicus.eu/FAQ.html",
+      "label": "FAQ"
+    },
+    {
+      "url": "https://documentation.dataspace.copernicus.eu/Home.html",
+      "label": "Documentation portal"
+    },
+    {
+      "url": "https://forum.dataspace.copernicus.eu/",
+      "label": "Community forum"
+    },
+    {
+      "url": "https://helpcenter.dataspace.copernicus.eu/hc/en-gb/requests/new",
+      "label": "Submit a request"
+    },
+    {
+      "url": "https://www.youtube.com/@copernicusdataspaceecosystem",
+      "label": "Video tutorials"
+    },
+    {
+      "url": "https://dataspace.copernicus.eu/data-availability",
+      "label": "Data Availability"
+    },
+    {
+      "url": "https://identity.dataspace.copernicus.eu/auth/realms/CDSE/account/#/personal-info",
+      "label": "Your profile"
+    },
+    {
+      "url": "https://marketplace-portal.dataspace.copernicus.eu/dashboard",
+      "label": "openEO Algorithm Plaza"
+    },
+    {
+      "url": "https://shapps.dataspace.copernicus.eu/dashboard/#/",
+      "label": "Sentinel Hub"
+    },
+    {
+      "url": "https://dataspace.copernicus.eu/news",
+      "label": "News"
+    },
+    {
+      "url": "https://dataspace.copernicus.eu/copernicus-data-space-ecosystem-dashboard",
+      "label": "Dashboard"
+    },
+    {
+      "url": "https://dataspace.copernicus.eu/cases",
+      "label": "Cases"
+    },
+    {
+      "url": "https://dataspace.copernicus.eu/events",
+      "label": "Events"
+    },
+    {
+      "url": "https://dataspace.copernicus.eu/gallery",
+      "label": "Gallery"
+    },
+    {
+      "url": "https://dataspace.copernicus.eu/videos",
+      "label": "Videos"
+    },
+    {
+      "url": "https://dataspace.copernicus.eu/about",
+      "label": "About"
+    },
+    {
+      "url": "https://dataspace.copernicus.eu/about#contact-form",
+      "label": "Contact"
+    },
+    {
+      "url": "https://dataspace.copernicus.eu/",
+      "label": ""
+    },
+    {
+      "url": "https://dataspace.copernicus.eu/data-collections",
+      "label": "DATA"
+    },
+    {
+      "url": "https://dataspace.copernicus.eu/data-collections/copernicus-sentinel-missions",
+      "label": "Copernicus Sentinel Missions Easy access to Earth observation data from the Copernicus Sentinel satellites."
+    },
+    {
+      "url": "https://dataspace.copernicus.eu/copernicus-services",
+      "label": "Copernicus Services Explore open datasets from the Copernicus Services to support environmental monitoring, disaster response, and climate analysis."
+    },
+    {
+      "url": "https://dataspace.copernicus.eu/explore-data/data-collections/copernicus-contributing-missions",
+      "label": "Copernicus Contributing Missions High-resolution data complements Sentinel for better Earth observation coverage."
+    },
+    {
+      "url": "https://dataspace.copernicus.eu/data-collections/federated-data-sets",
+      "label": "Federated Data Sets New datasets from European providers enrich the Copernicus Data Space Ecosystem."
+    },
+    {
+      "url": "https://dataspace.copernicus.eu/data-collections/complementary-data",
+      "label": "Complementary Data Access complementary data collections that enhance Earth observation workflows with high-resolution imagery and curated datasets."
+    },
+    {
+      "url": "https://browser.stac.dataspace.copernicus.eu/?.language=en",
+      "label": "STAC Browser Discover and search Earth observation data in the comprehensive and searchable STAC-compliant catalog."
+    },
+    {
+      "url": "https://dataspace.copernicus.eu/analyse",
+      "label": "ANALYSIS"
+    },
+    {
+      "url": "https://dataspace.copernicus.eu/analyse/apis",
+      "label": "APIs Use APIs like openEO for advanced data interaction."
+    },
+    {
+      "url": "https://dataspace.copernicus.eu/analyse/data-workspace",
+      "label": "Data Workspace Create EO products on demand with a user-friendly interface."
+    },
+    {
+      "url": "https://dataspace.copernicus.eu/analyse/traceability",
+      "label": "Traceability Track product integrity and availability from origin to download."
+    },
+    {
+      "url": "https://dataspace.copernicus.eu/analyse/jupyterlab",
+      "label": "JupyterLab Work with CDSE data instantly—no download required."
+    },
+    {
+      "url": "https://dataspace.copernicus.eu/analyse/openeo",
+      "label": "openEO Build, run, and monitor EO workflows through a visual dashboard."
+    },
+    {
+      "url": "https://shapps.dataspace.copernicus.eu/dashboard/#/",
+      "label": "Sentinel Hub Access and analyze Earth observation data without the need to develop or maintain their own infrastructure."
+    },
+    {
+      "url": "https://dataspace.copernicus.eu/ecosystem/services",
+      "label": "SERVICES"
+    },
+    {
+      "url": "https://dataspace.copernicus.eu/ecosystem/about",
+      "label": "ECOSYSTEM"
+    },
+    {
+      "url": "https://dataspace.copernicus.eu/ecosystem/about",
+      "label": "About the Ecosystem The Copernicus Data Space Ecosystem offers flexible access, integration, and deployment options to help users turn Sentinel data into actionable applications."
+    },
+    {
+      "url": "https://dataspace.copernicus.eu/ecosystem/services/about",
+      "label": "About the Ecosystem Services Registry The Ecosystem Services Registry offers flexible integration and federation options for both users and third-party providers to participate at varying levels based on their needs."
+    },
+    {
+      "url": "https://dataspace.copernicus.eu/ecosystem/services/about#joinecosystem",
+      "label": "Join the Ecosystem Join the Ecosystem Services Registry to increase the deployment and operation of your applications and services by making use of the Ecosystem resources."
+    },
+    {
+      "url": "https://browser.dataspace.copernicus.eu/",
+      "label": "Explore Data"
+    },
+    {
+      "url": "https://documentation.dataspace.copernicus.eu/FAQ.html",
+      "label": "FAQ"
+    },
+    {
+      "url": "https://documentation.dataspace.copernicus.eu/Home.html",
+      "label": "Documentation portal"
+    },
+    {
+      "url": "https://forum.dataspace.copernicus.eu/",
+      "label": "Community forum"
+    },
+    {
+      "url": "https://helpcenter.dataspace.copernicus.eu/hc/en-gb/requests/new",
+      "label": "Submit a request"
+    },
+    {
+      "url": "https://www.youtube.com/@copernicusdataspaceecosystem",
+      "label": "Video tutorials"
+    },
+    {
+      "url": "https://dataspace.copernicus.eu/data-availability",
+      "label": "Data Availability"
+    },
+    {
+      "url": "https://identity.dataspace.copernicus.eu/auth/realms/CDSE/account/#/personal-info",
+      "label": "Your profile Log in to your account to access all services or edit your profile."
+    },
+    {
+      "url": "https://marketplace-portal.dataspace.copernicus.eu/dashboard",
+      "label": "openEO Algorithm Plaza Log in to the openEO Algorithm Plaza and access ready-to-use algorithms that run directly on EO data."
+    },
+    {
+      "url": "https://shapps.dataspace.copernicus.eu/dashboard/#/",
+      "label": "Sentinel Hub Access the Sentinel Hub dashboard, monitor processing units and generate OAuth clients."
+    },
+    {
+      "url": "https://dataspace.copernicus.eu/browser",
+      "label": "Get started"
+    },
+    {
+      "url": "https://dataspace.copernicus.eu/events/wsi-webinar-applications-and-hands-training",
+      "label": "More about this event"
+    },
+    {
+      "url": "https://dataspace.copernicus.eu/news/2026-11-12-copernicus-sentinel-5-precursor-s5p-products-improvement-operational-switch",
+      "label": "November 12, 2026 Copernicus Sentinel-5 Precursor (S5P) products improvement - operational switch Data disruption General New feature Operational ESA news Sentinel-5P Read article"
+    },
+    {
+      "url": "https://dataspace.copernicus.eu/news/2026-11-9-upgrade-copernicus-browser-and-sentinel-hub-services",
+      "label": "November 9, 2026 Upgrade of Copernicus Browser and Sentinel Hub services from 10/11/2026 till 13/11/2026 General Service disruption System updates Batch processing API, Asynchronous Processing API, Batch Statistical API, new EO products, OGC Read article"
+    },
+    {
+      "url": "https://dataspace.copernicus.eu/news/2026-11-9-new-product-release-copernicus-land-monitoring-service-protected-areas-2021",
+      "label": "November 9, 2026 New product release: Copernicus Land Monitoring Service Protected Areas 2021 New data Copernicus Land Monitoring Service Read article"
+    },
+    {
+      "url": "https://dataspace.copernicus.eu/news",
+      "label": "Discover more news"
+    },
+    {
+      "url": "https://dataspace.copernicus.eu/cases/mapping-europes-hottest-neighbourhoods-how-treecity-uses-copernicus-data-space-ecosystem",
+      "label": "View this case in detail"
+    },
+    {
+      "url": "https://dataspace.copernicus.eu/cases/harnessing-copernicus-data-optimize-solar-energy-production-benban-solar-park",
+      "label": "View this case in detail"
+    },
+    {
+      "url": "https://dataspace.copernicus.eu/cases/satellite-pass-soil-sensor-fairgrow-brings-sentinel-2-small-growers-57-languages",
+      "label": "View this case in detail"
+    },
+    {
+      "url": "https://dataspace.copernicus.eu/cases/real-time-land-cover-monitoring-openeo",
+      "label": "View this case in detail"
+    },
+    {
+      "url": "https://dataspace.copernicus.eu/cases/advancing-dynamic-environmental-mapping-within-openeo",
+      "label": "View this case in detail"
+    },
+    {
+      "url": "https://browser.dataspace.copernicus.eu/",
+      "label": "Explore the data Copernicus Browser is a user-friendly web interface for viewing, analysing, and downloading satellite imagery directly from any web browser. get started"
+    },
+    {
+      "url": "https://dataspace.copernicus.eu/analyse/openeo",
+      "label": "openEO services openEO is an open-source API that simplifies cloud-based processing of Earth observation data. It provides a common language for accessing, sharing, and transforming satellite data into actionable insights. discover more"
+    },
+    {
+      "url": "https://dataspace.copernicus.eu/analyse/traceability",
+      "label": "Traceability The Traceability service ensures data integrity by allowing you to verify a product's authenticity, detect tampering, and check if it has been marked obsolete. discover more"
+    },
+    {
+      "url": "https://dataspace.copernicus.eu/analyse/data-workspace",
+      "label": "Data Workspace Data Workspace is a web application to generate on-demand Earth Observation products. It allows you to easily select processing algorithms and configure relevant parameters. read more"
+    },
+    {
+      "url": "https://dataspace.copernicus.eu/analyse/jupyterlab",
+      "label": "JupyterLab The JupyterLab service is a web-based public virtual machine environment that enables you to work directly with CDSE data and APIs without the need to download the data. discover more"
+    },
+    {
+      "url": "https://dataspace.copernicus.eu/analyse/apis",
+      "label": "Automate your analytics The CDSE provides a range of Application Programming Interfaces (APIs), including catalog access, product download, visualization, and processing services such as STAC, openEO, and Sentinel Hub APIs. explore the APIs"
+    },
+    {
+      "url": "https://dataspace.copernicus.eu/ecosystem/services",
+      "label": "Explore the services"
+    },
+    {
+      "url": "https://dataspace.copernicus.eu/ecosystem/services/t-cloud-public",
+      "label": "T Cloud Public T-Systems International GmbH"
+    },
+    {
+      "url": "https://dataspace.copernicus.eu/ecosystem/services/dunia",
+      "label": "Dunia GeoVille"
+    },
+    {
+      "url": "https://dataspace.copernicus.eu/ecosystem/services/terrascope",
+      "label": "Terrascope VITO Remote Sensing"
+    },
+    {
+      "url": "https://dataspace.copernicus.eu/ecosystem/services/s5p-pal",
+      "label": "S5P-PAL S[&]T NEW"
+    },
+    {
+      "url": "https://www.copernicus.eu/en",
+      "label": "Copernicus"
+    },
+    {
+      "url": "https://dataspace.copernicus.eu/gallery/2025-11-30-november-2026-desktop-background",
+      "label": "November 30, 2025 Climate November 2026 desktop background Air pollution and men's health Every November, the Movember campaign raises awareness of men's health, including mental health. While our health is influenced by genetics and… Read more"
+    },
+    {
+      "url": "https://www.t-systems.com",
+      "label": ""
+    },
+    {
+      "url": "https://cloudferro.com",
+      "label": ""
+    },
+    {
+      "url": "https://www.sinergise.com",
+      "label": ""
+    },
+    {
+      "url": "https://remotesensing.vito.be/",
+      "label": ""
+    },
+    {
+      "url": "https://www.dlr.de/",
+      "label": ""
+    },
+    {
+      "url": "https://www.acri-st.fr",
+      "label": ""
+    },
+    {
+      "url": "https://www.rheagroup.com",
+      "label": ""
+    },
+    {
+      "url": "https://dataspace.copernicus.eu/data-collections/copernicus-sentinel-missions",
+      "label": "Sentinel"
+    },
+    {
+      "url": "https://dataspace.copernicus.eu/copernicus-services",
+      "label": "Copernicus Services"
+    },
+    {
+      "url": "https://dataspace.copernicus.eu/data-collections/complementary-data",
+      "label": "Complementary data"
+    },
+    {
+      "url": "https://dataspace.copernicus.eu/data-collections/federated-data-sets",
+      "label": "Federated data sets"
+    },
+    {
+      "url": "https://dataspace.copernicus.eu/analyse/apis",
+      "label": "APIs"
+    },
+    {
+      "url": "https://dataspace.copernicus.eu/analyse/data-workspace",
+      "label": "Data Workspace"
+    },
+    {
+      "url": "https://dataspace.copernicus.eu/analyse/traceability",
+      "label": "Traceability"
+    },
+    {
+      "url": "https://dataspace.copernicus.eu/analyse/jupyterlab",
+      "label": "JupyterLab"
+    },
+    {
+      "url": "https://dataspace.copernicus.eu/analyse/openeo",
+      "label": "openEO"
+    },
+    {
+      "url": "https://dataspace.copernicus.eu/analyse/apis/sentinel-hub",
+      "label": "Sentinel Hub"
+    },
+    {
+      "url": "https://dataspace.copernicus.eu/ecosystem/services/about",
+      "label": "Services Registry"
+    },
+    {
+      "url": "https://helpcenter.dataspace.copernicus.eu/hc/en-gb/requests/new",
+      "label": "Support"
+    },
+    {
+      "url": "https://identity.dataspace.copernicus.eu/auth/realms/CDSE/protocol/openid-connect/auth?client_id=cdse-public&response_type=code&scope=openid&redirect_uri=https%3A//dataspace.copernicus.eu/account/confirmed/1883",
+      "label": "Login"
+    },
+    {
+      "url": "https://dataspace.copernicus.eu/news",
+      "label": "News"
+    },
+    {
+      "url": "https://dataspace.copernicus.eu/copernicus-data-space-ecosystem-dashboard",
+      "label": "Dashboard"
+    },
+    {
+      "url": "https://dataspace.copernicus.eu/events",
+      "label": "Events"
+    },
+    {
+      "url": "https://dataspace.copernicus.eu/gallery",
+      "label": "Gallery"
+    },
+    {
+      "url": "https://dataspace.copernicus.eu/videos",
+      "label": "Videos"
+    },
+    {
+      "url": "https://dataspace.copernicus.eu/about",
+      "label": "About"
+    },
+    {
+      "url": "https://dataspace.copernicus.eu/webform/newsletter",
+      "label": "Newsletter"
+    },
+    {
+      "url": "https://dataspace.copernicus.eu/about#contact-form",
+      "label": "about page"
+    },
+    {
+      "url": "https://www.linkedin.com/company/copernicus-data-space-ecosystem",
+      "label": ""
+    },
+    {
+      "url": "https://www.youtube.com/@copernicusdataspaceecosystem",
+      "label": ""
+    },
+    {
+      "url": "https://www.instagram.com/copernicus_eu",
+      "label": ""
+    },
+    {
+      "url": "https://dataspace.copernicus.eu/webform/newsletter",
+      "label": ""
+    },
+    {
+      "url": "https://dataspace.copernicus.eu/stay-informed/RSSfeeds",
+      "label": ""
+    },
+    {
+      "url": "https://dataspace.copernicus.eu/terms-and-conditions",
+      "label": "Terms and conditions"
+    },
+    {
+      "url": "https://dataspace.copernicus.eu/cookie-policy",
+      "label": "Cookie Policy"
+    },
+    {
+      "url": "https://dataspace.copernicus.eu/privacy-policy",
+      "label": "Privacy Policy"
+    }
+  ],
+  "elapsed_seconds": 0.468
+}

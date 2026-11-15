@@ -1,0 +1,13 @@
+{
+  "id": "test_giovanni_variables",
+  "url": "https://api.giovanni.earthdata.nasa.gov/variables",
+  "checked_at": "2026-11-14T15:13:36.318061+00:00",
+  "tls_validation": false,
+  "status": 403,
+  "final_url": "https://api.giovanni.earthdata.nasa.gov/variables",
+  "bytes": 42,
+  "content_type": "application/json",
+  "sha256": "f249b63cb2fcb66b47e86f906c98f8fd912e82dd035b4e53d7e72fc1960cfd16",
+  "links": [],
+  "elapsed_seconds": 0.813
+}

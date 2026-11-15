@@ -1,0 +1,1618 @@
+{
+  "id": "resource_R065",
+  "url": "https://www.nrcs.usda.gov/resources/data-and-reports/soils",
+  "checked_at": "2026-11-14T15:15:17.489216+00:00",
+  "tls_validation": false,
+  "status": 200,
+  "final_url": "https://www.nrcs.usda.gov/resources/data-and-reports/soils",
+  "bytes": 244113,
+  "content_type": "text/html; charset=utf-8",
+  "sha256": "c216b4ed7cf1b3143b33e268994cdeb0edbc2df8f4b889b123a9910062ecc8bb",
+  "links": [
+    {
+      "url": "https://www.nrcs.usda.gov/resources/data-and-reports/soils#main-content",
+      "label": "Skip to main content"
+    },
+    {
+      "url": "https://usda.gov",
+      "label": ""
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/",
+      "label": "Natural Resources Conservation Service U.S. Department of Agriculture"
+    },
+    {
+      "url": "https://public.govdelivery.com/accounts/usdafarmers/subscriber/new",
+      "label": "Subscribe"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/about",
+      "label": "About NRCS"
+    },
+    {
+      "url": "https://farmers.gov",
+      "label": "farmers.gov"
+    },
+    {
+      "url": "https://usda.gov",
+      "label": "USDA.gov"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/contact",
+      "label": "Contact Us"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/conservation-basics",
+      "label": "Conservation Basics"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/conservation-basics",
+      "label": "View All Conservation Basics"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/conservation-basics/soil",
+      "label": "Soil"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/conservation-basics/water",
+      "label": "Water"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/conservation-basics/plants",
+      "label": "Plants"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/conservation-basics/animals",
+      "label": "Animals"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/conservation-basics/land",
+      "label": "Land"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/conservation-basics/air",
+      "label": "Air"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/conservation-basics/energy",
+      "label": "Energy"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/conservation-basics/wildlife-habitat",
+      "label": "Wildlife Habitat"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/conservation-basics/invasive-species-and-pests",
+      "label": "Invasive Species and Pests"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/conservation-basics/soil/soil-science",
+      "label": "Featured Soil Science NRCS delivers science-based soil information to help farmers, ranchers, foresters, and other land managers effectively manage, conserve, and appraise their most valuable investment — the soil."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/getting-assistance",
+      "label": "Getting Assistance"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/getting-assistance",
+      "label": "View All Getting Assistance"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/getting-assistance/conservation-technical-assistance",
+      "label": "Conservation Technical Assistance Helps producers identify conservation objectives and a roadmap for conservation on their operation."
+    },
+    {
+      "url": "https://www.farmers.gov/conservation/concerns-tool",
+      "label": "Conservation Concerns Tool Use this tool to learn about natural resource concerns that may impact your ag operation (farmers.gov)."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/getting-assistance/technical-assistance/engineering",
+      "label": "Engineering NRCS applies sound engineering tools and principles to plan, design, and implement conservation practices and systems through delegated approval authority."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/getting-assistance/technical-assistance/technical-service-providers",
+      "label": "Technical Service Providers Technical service providers offer planning, design, and implementation services to agricultural producers on behalf of NRCS."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/getting-assistance/act-now",
+      "label": "Act Now Enables states to pre-approve applications when they meet or exceed a state's pre-determined minimum ranking score."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/getting-assistance/financial-help/applications-and-forms",
+      "label": "Applications and Forms Find more information on how to apply for NRCS conservation programs."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/getting-assistance/how-to-apply",
+      "label": "How to Apply Follow our step-by-step process to get started making improvements on your land with our one-on-one conservation assistance."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/getting-assistance/payment-schedules",
+      "label": "Payment Schedules Review the amount and availability of financial assistance for selected conservation practices in your state."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/application-cutoff-dates",
+      "label": "Ranking Dates Applications for NRCS conservation programs are ranked and funded at key times throughout the year."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/getting-assistance/financial-help/conservation-compliance",
+      "label": "Conservation Compliance: Wetlands and Highly Erodible Land Provisions To maintain eligibility for most USDA programs, producers must comply with wetland conservation provisions."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/cultural-resources",
+      "label": "Cultural Resources NRCS programs are administered following the National Historic Preservation Act and other laws."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/getting-assistance/compliance/environmental-compliance",
+      "label": "Environmental Compliance NRCS programs are administered following the National Environmental Policy Act."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/getting-assistance/disaster-recovery",
+      "label": "Disaster Recovery NRCS can help ag producers and communities recover when natural disasters strike."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/getting-assistance/other-topics/nutrient-management",
+      "label": "Nutrient Management This practice helps producers reduce input costs, maximize yields, and efficiently manage nutrients."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/conservation-basics/natural-resource-concerns/plants/organic",
+      "label": "Organic Agriculture Conservation and organics go hand-in-hand, and NRCS offers tools for organic farmers to improve their operations."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/getting-assistance/other-topics/urban-agriculture",
+      "label": "Urban Agriculture Conservation assistance is available for urban farmers, including high tunnels, soil health practices, composting and irrigation."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/Getting-Assistance/Other-Topics/2-cfr-400-nrcs-specific-approved-exceptions",
+      "label": "2 CFR 400 – NRCS SPECIFIC APPROVED EXCEPTIONS Pursuant to 2 CFR 415.1(e), the USDA Office of the Chief Financial Officer and the Office of Management and Budget have approved the Natural Resources Conservation Service (NRCS) establishment of two alternative exceptions to the requirement for competition in discretionary grant and cooperative agreement funding opportunities under 2 CFR parts 200 and 400."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/getting-assistance/conservation-technical-assistance",
+      "label": "Conservation Technical Assistance Helps producers identify conservation objectives and a roadmap for conservation on their operation."
+    },
+    {
+      "url": "https://www.farmers.gov/conservation/concerns-tool",
+      "label": "Conservation Concerns Tool Use this tool to learn about natural resource concerns that may impact your ag operation (farmers.gov)."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/getting-assistance/technical-assistance/engineering",
+      "label": "Engineering NRCS applies sound engineering tools and principles to plan, design, and implement conservation practices and systems through delegated approval authority."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/getting-assistance/technical-assistance/technical-service-providers",
+      "label": "Technical Service Providers Technical service providers offer planning, design, and implementation services to agricultural producers on behalf of NRCS."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/getting-assistance/act-now",
+      "label": "Act Now Enables states to pre-approve applications when they meet or exceed a state's pre-determined minimum ranking score."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/getting-assistance/financial-help/applications-and-forms",
+      "label": "Applications and Forms Find more information on how to apply for NRCS conservation programs."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/getting-assistance/how-to-apply",
+      "label": "How to Apply Follow our step-by-step process to get started making improvements on your land with our one-on-one conservation assistance."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/getting-assistance/payment-schedules",
+      "label": "Payment Schedules Review the amount and availability of financial assistance for selected conservation practices in your state."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/application-cutoff-dates",
+      "label": "Ranking Dates Applications for NRCS conservation programs are ranked and funded at key times throughout the year."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/getting-assistance/financial-help/conservation-compliance",
+      "label": "Conservation Compliance: Wetlands and Highly Erodible Land Provisions To maintain eligibility for most USDA programs, producers must comply with wetland conservation provisions."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/cultural-resources",
+      "label": "Cultural Resources NRCS programs are administered following the National Historic Preservation Act and other laws."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/getting-assistance/compliance/environmental-compliance",
+      "label": "Environmental Compliance NRCS programs are administered following the National Environmental Policy Act."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/getting-assistance/disaster-recovery",
+      "label": "Disaster Recovery NRCS can help ag producers and communities recover when natural disasters strike."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/getting-assistance/other-topics/nutrient-management",
+      "label": "Nutrient Management This practice helps producers reduce input costs, maximize yields, and efficiently manage nutrients."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/conservation-basics/natural-resource-concerns/plants/organic",
+      "label": "Organic Agriculture Conservation and organics go hand-in-hand, and NRCS offers tools for organic farmers to improve their operations."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/getting-assistance/other-topics/urban-agriculture",
+      "label": "Urban Agriculture Conservation assistance is available for urban farmers, including high tunnels, soil health practices, composting and irrigation."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/Getting-Assistance/Other-Topics/2-cfr-400-nrcs-specific-approved-exceptions",
+      "label": "2 CFR 400 – NRCS SPECIFIC APPROVED EXCEPTIONS Pursuant to 2 CFR 415.1(e), the USDA Office of the Chief Financial Officer and the Office of Management and Budget have approved the Natural Resources Conservation Service (NRCS) establishment of two alternative exceptions to the requirement for competition in discretionary grant and cooperative agreement funding opportunities under 2 CFR parts 200 and 400."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/getting-assistance/conservation-technical-assistance",
+      "label": "Featured Conservation Technical Assistance Conservation Technical Assistance (CTA) provides our nation’s farmers, ranchers and forestland owners with the knowledge and tools they need to conserve, maintain and restore the natural resources on their lands and improve the health of their operations for the future."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/state-offices",
+      "label": "State Offices"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/state-offices",
+      "label": "View All State Offices"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/state-offices",
+      "label": "State Offices Learn about the conservation needs and latest updates in your state, and access needed resources."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/state-technical-committees",
+      "label": "State Technical Committees Every state has an NRCS State Technical Committee. The State Technical Committee advises the State Conservationist on technical guidelines necessary to implement the conservation provisions of the Farm Bill."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/state-offices/contacts",
+      "label": "Contact Your State Office Find contact information for your state office location and employees."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/programs-initiatives",
+      "label": "Programs & Initiatives"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/programs-initiatives",
+      "label": "View All Programs & Initiatives"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/programs-initiatives/eqip-environmental-quality-incentives",
+      "label": "Environmental Quality Incentives Program Provides assistance to agricultural producers to address natural resource concerns."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/programs-initiatives/rcpp-regional-conservation-partnership-program",
+      "label": "Regional Conservation Partnership Program Brings together partners to expand the reach of NRCS conservation programs."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/programs-initiatives/cig-conservation-innovation-grants",
+      "label": "Conservation Innovation Grants Brings together partners to innovate on conservation approaches and technologies."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/programs-initiatives/csp-conservation-stewardship-program",
+      "label": "Conservation Stewardship Program Helps agricultural producers take their conservation efforts to the next level."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/programs-initiatives/vpa-hip-voluntary-public-access-and-habitat-incentive-program",
+      "label": "Voluntary Public Access and Habitat Incentive Program Helps state and tribal governments improve public access to private lands for recreation."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/programs-initiatives/ama-agricultural-management-assistance",
+      "label": "Agricultural Management Assistance Helps agricultural producers manage financial risk through diversification, marketing or natural resource conservation practices."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/programs-initiatives/wmpb-wetland-mitigation-banking-program",
+      "label": "Wetland Mitigation Banking Program Offers competitive grants to support wetland mitigation bank for agricultural producers."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/programs-initiatives/crp-conservation-reserve-program",
+      "label": "Conservation Reserve Program The Conservation Reserve Program (CRP) provides a yearly rental payment to farmers who remove environmentally sensitive land from agricultural production and plant species that will improve environmental health and quality."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/programs-initiatives/acep-agricultural-conservation-easement-program",
+      "label": "Agricultural Conservation Easement Program Helps producers protect wetlands, grasslands and farmlands for future generations."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/programs-initiatives/wre-wetland-reserve-easements",
+      "label": "Wetland Reserve Easements Helps private and tribal landowners protect, restore, and enhance wetlands degraded by agricultural uses."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/programs-initiatives/wrep-wetland-reserve-enhancement-partnership",
+      "label": "Wetland Reserve Enhancement Partnership Brings together partners and producers to protect wetlands."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/programs-initiatives/hfrp-healthy-forest-reserve-program",
+      "label": "Healthy Forests Reserve Program Helps landowners restore, enhance, and protect forestland resources on private and tribal lands and aids the recovery of endangered and threatened species."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/programs-initiatives/ale-agricultural-land-easements",
+      "label": "Agricultural Land Easements Helps private and tribal landowners, land trusts, and other entities protect croplands and grasslands on working farms and ranches."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/conservation-basics/natural-resource-concerns/land/easements/appraisal-submission-center",
+      "label": "Appraisal Submission Center Centralized point for submitting valuation reports and reviews for easement programs."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/programs-initiatives/ewp-emergency-watershed-protection",
+      "label": "Emergency Watershed Protection Assists communities recovering from natural disasters."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/programs-initiatives/watershed-prevention-and-flood-prevention",
+      "label": "Watershed and Flood Prevention Operation Offers assistance to communities to address watershed resource concerns."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/programs-initiatives/watershed-rehabilitation",
+      "label": "Watershed Rehabilitation Rehabilitates NRCS dams to comply with design safety performance standards."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/programs-initiatives/regenerative-pilot-program",
+      "label": "Regenerative Pilot Program Regenerative Agriculture is a conservation management approach that emphasizes natural resources through improved soil health, water management, and natural vitality for the productivity and prosperity of American agriculture and communities."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/programs-initiatives/eqip-landscape-conservation-initiatives",
+      "label": "Landscape Conservation Initiatives Accelerates conservation benefits through targeted efforts for water quality, water quantity and wildlife."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/programs-initiatives/glci-grazing-lands-conservation-initiative",
+      "label": "Grazing Lands Conservation Initiative Nationwide collaborative process working to maintain and improve the management, productivity, and health of privately owned grazing land."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/programs-initiatives/high-tunnel-initiative",
+      "label": "High Tunnel Provides targeted assistance to promote use of high tunnels, which offer many benefits including longer growing season."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/programs-initiatives/on-farm-energy-initiative",
+      "label": "On-Farm Energy Initiative Assistance to inventory and analyze farm systems that use energy and identify ways to improve efficiency through an Agricultural Energy Management Plan."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/programs-initiatives/eqip-organic-initiative",
+      "label": "Organic Initiative Voluntary conservation program that provides technical and financial assistance for organic farmers and ranchers, or those interested in transitioning to organic."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/programs-initiatives/sentinel-landscapes-initiative",
+      "label": "Sentinel Landscapes Initiative The Sentinel Landscapes Partnership is a coalition of federal agencies, state and local governments, and nongovernmental organizations that work with private landowners."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/programs-initiatives/eqip-environmental-quality-incentives",
+      "label": "Environmental Quality Incentives Program Provides assistance to agricultural producers to address natural resource concerns."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/programs-initiatives/rcpp-regional-conservation-partnership-program",
+      "label": "Regional Conservation Partnership Program Brings together partners to expand the reach of NRCS conservation programs."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/programs-initiatives/cig-conservation-innovation-grants",
+      "label": "Conservation Innovation Grants Brings together partners to innovate on conservation approaches and technologies."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/programs-initiatives/csp-conservation-stewardship-program",
+      "label": "Conservation Stewardship Program Helps agricultural producers take their conservation efforts to the next level."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/programs-initiatives/vpa-hip-voluntary-public-access-and-habitat-incentive-program",
+      "label": "Voluntary Public Access and Habitat Incentive Program Helps state and tribal governments improve public access to private lands for recreation."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/programs-initiatives/ama-agricultural-management-assistance",
+      "label": "Agricultural Management Assistance Helps agricultural producers manage financial risk through diversification, marketing or natural resource conservation practices."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/programs-initiatives/wmpb-wetland-mitigation-banking-program",
+      "label": "Wetland Mitigation Banking Program Offers competitive grants to support wetland mitigation bank for agricultural producers."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/programs-initiatives/crp-conservation-reserve-program",
+      "label": "Conservation Reserve Program The Conservation Reserve Program (CRP) provides a yearly rental payment to farmers who remove environmentally sensitive land from agricultural production and plant species that will improve environmental health and quality."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/programs-initiatives/acep-agricultural-conservation-easement-program",
+      "label": "Agricultural Conservation Easement Program Helps producers protect wetlands, grasslands and farmlands for future generations."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/programs-initiatives/wre-wetland-reserve-easements",
+      "label": "Wetland Reserve Easements Helps private and tribal landowners protect, restore, and enhance wetlands degraded by agricultural uses."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/programs-initiatives/wrep-wetland-reserve-enhancement-partnership",
+      "label": "Wetland Reserve Enhancement Partnership Brings together partners and producers to protect wetlands."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/programs-initiatives/hfrp-healthy-forest-reserve-program",
+      "label": "Healthy Forests Reserve Program Helps landowners restore, enhance, and protect forestland resources on private and tribal lands and aids the recovery of endangered and threatened species."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/programs-initiatives/ale-agricultural-land-easements",
+      "label": "Agricultural Land Easements Helps private and tribal landowners, land trusts, and other entities protect croplands and grasslands on working farms and ranches."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/conservation-basics/natural-resource-concerns/land/easements/appraisal-submission-center",
+      "label": "Appraisal Submission Center Centralized point for submitting valuation reports and reviews for easement programs."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/programs-initiatives/ewp-emergency-watershed-protection",
+      "label": "Emergency Watershed Protection Assists communities recovering from natural disasters."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/programs-initiatives/watershed-prevention-and-flood-prevention",
+      "label": "Watershed and Flood Prevention Operation Offers assistance to communities to address watershed resource concerns."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/programs-initiatives/watershed-rehabilitation",
+      "label": "Watershed Rehabilitation Rehabilitates NRCS dams to comply with design safety performance standards."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/programs-initiatives/regenerative-pilot-program",
+      "label": "Regenerative Pilot Program Regenerative Agriculture is a conservation management approach that emphasizes natural resources through improved soil health, water management, and natural vitality for the productivity and prosperity of American agriculture and communities."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/programs-initiatives/eqip-landscape-conservation-initiatives",
+      "label": "Landscape Conservation Initiatives Accelerates conservation benefits through targeted efforts for water quality, water quantity and wildlife."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/programs-initiatives/glci-grazing-lands-conservation-initiative",
+      "label": "Grazing Lands Conservation Initiative Nationwide collaborative process working to maintain and improve the management, productivity, and health of privately owned grazing land."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/programs-initiatives/high-tunnel-initiative",
+      "label": "High Tunnel Provides targeted assistance to promote use of high tunnels, which offer many benefits including longer growing season."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/programs-initiatives/on-farm-energy-initiative",
+      "label": "On-Farm Energy Initiative Assistance to inventory and analyze farm systems that use energy and identify ways to improve efficiency through an Agricultural Energy Management Plan."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/programs-initiatives/eqip-organic-initiative",
+      "label": "Organic Initiative Voluntary conservation program that provides technical and financial assistance for organic farmers and ranchers, or those interested in transitioning to organic."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/programs-initiatives/sentinel-landscapes-initiative",
+      "label": "Sentinel Landscapes Initiative The Sentinel Landscapes Partnership is a coalition of federal agencies, state and local governments, and nongovernmental organizations that work with private landowners."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/programs-initiatives/regional-conservation-partnership-program",
+      "label": "Featured Regional Conservation Partnership Program (RCPP) The Regional Conservation Partnership Program (RCPP) is a partner-driven approach to conservation that funds solutions to natural resource challenges on agricultural land."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/resources",
+      "label": "Resources"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/resources",
+      "label": "View All Resources"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/resources/guides-and-instructions/field-office-technical-guides",
+      "label": "Field Office Technical Guides"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/resources/guides-and-instructions/conservation-practice-standards",
+      "label": "Conservation Practice Standards"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/resources/guides-and-instructions/how-to-get-a-duns-number",
+      "label": "How to Get a DUNS Number"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/resources/guides-and-instructions/national-soil-survey-handbook",
+      "label": "National Soil Survey Handbook"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/resources/guides-and-instructions/keys-to-soil-taxonomy",
+      "label": "Keys to Soil Taxonomy"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/resources/guides-and-instructions/soil-survey-manual",
+      "label": "Soil Survey Manual"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/resources/guides-and-instructions/soil-taxonomy",
+      "label": "Soil Taxonomy"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/resources/guides-and-instructions/technical-soil-services-handbook",
+      "label": "Technical Soil Services Handbook"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/resources/tech-tools/technical-resource-library",
+      "label": "Technical Resource Library"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/resources/guides-and-instructions",
+      "label": "View All Guides and Instructions"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/resources/data-and-reports/web-soil-survey",
+      "label": "Web Soil Survey"
+    },
+    {
+      "url": "https://plants.usda.gov/",
+      "label": "PLANTS Database"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/resources/data-and-reports/rca-dataviewer",
+      "label": "RCA Dataviewer"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/resources/education-and-teaching-materials/soil-texture-calculator",
+      "label": "Soil Texture Calculator"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/resources/data-and-reports/official-soil-series-descriptions-osds",
+      "label": "Official Soil Series Descriptions"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/resources/data-and-reports/ssurgo/stats2go-metadata",
+      "label": "SSURGO/STATSGO2 Metadata"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/ceap",
+      "label": "Conservation Effects Assessment Project (CEAP)"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/resources/data-and-reports",
+      "label": "View All Data and Reports"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/resources/education-and-teaching-materials/what-is-soil",
+      "label": "What is Soil?"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/resources/education-and-teaching-materials/state-soils",
+      "label": "State Soils"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/resources/education-and-teaching-materials/soil-colors",
+      "label": "Soil Colors"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/resources/education-and-teaching-materials/soil-formation-classification",
+      "label": "Soil Formation and Classification"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/resources/education-and-teaching-materials",
+      "label": "View All Education and Teaching Materials"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/resources/tech-tools/windows-pesticide-screening-tool-win-pst",
+      "label": "WIN-PST"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/resources/tech-tools/wintr-20-system-controllereditor-version-3301",
+      "label": "WinTR-20"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/resources/tech-tools/wintr-55-small-watershed-hydrology-version-20000",
+      "label": "WinTR-55"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/resources?title=&resource_type=1970",
+      "label": "View All Tech Tools"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/resources/guides-and-instructions/field-office-technical-guides",
+      "label": "Field Office Technical Guides"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/resources/guides-and-instructions/conservation-practice-standards",
+      "label": "Conservation Practice Standards"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/resources/guides-and-instructions/how-to-get-a-duns-number",
+      "label": "How to Get a DUNS Number"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/resources/guides-and-instructions/national-soil-survey-handbook",
+      "label": "National Soil Survey Handbook"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/resources/guides-and-instructions/keys-to-soil-taxonomy",
+      "label": "Keys to Soil Taxonomy"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/resources/guides-and-instructions/soil-survey-manual",
+      "label": "Soil Survey Manual"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/resources/guides-and-instructions/soil-taxonomy",
+      "label": "Soil Taxonomy"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/resources/guides-and-instructions/technical-soil-services-handbook",
+      "label": "Technical Soil Services Handbook"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/resources/tech-tools/technical-resource-library",
+      "label": "Technical Resource Library"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/resources/guides-and-instructions",
+      "label": "View All Guides and Instructions"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/resources/data-and-reports/web-soil-survey",
+      "label": "Web Soil Survey"
+    },
+    {
+      "url": "https://plants.usda.gov/",
+      "label": "PLANTS Database"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/resources/data-and-reports/rca-dataviewer",
+      "label": "RCA Dataviewer"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/resources/education-and-teaching-materials/soil-texture-calculator",
+      "label": "Soil Texture Calculator"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/resources/data-and-reports/official-soil-series-descriptions-osds",
+      "label": "Official Soil Series Descriptions"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/resources/data-and-reports/ssurgo/stats2go-metadata",
+      "label": "SSURGO/STATSGO2 Metadata"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/ceap",
+      "label": "Conservation Effects Assessment Project (CEAP)"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/resources/data-and-reports",
+      "label": "View All Data and Reports"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/resources/education-and-teaching-materials/what-is-soil",
+      "label": "What is Soil?"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/resources/education-and-teaching-materials/state-soils",
+      "label": "State Soils"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/resources/education-and-teaching-materials/soil-colors",
+      "label": "Soil Colors"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/resources/education-and-teaching-materials/soil-formation-classification",
+      "label": "Soil Formation and Classification"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/resources/education-and-teaching-materials",
+      "label": "View All Education and Teaching Materials"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/resources/tech-tools/windows-pesticide-screening-tool-win-pst",
+      "label": "WIN-PST"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/resources/tech-tools/wintr-20-system-controllereditor-version-3301",
+      "label": "WinTR-20"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/resources/tech-tools/wintr-55-small-watershed-hydrology-version-20000",
+      "label": "WinTR-55"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/resources?title=&resource_type=1970",
+      "label": "View All Tech Tools"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/resources/guides-and-instructions/ag-innovators-guide",
+      "label": "Featured Ag Innovator’s Guide Tips for Recommending Innovation and New Technologies for Use in Conservation Assistance"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/news",
+      "label": "News & Events"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/news",
+      "label": "View All News & Events"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/news",
+      "label": "View All News"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/conservation-basics/animals/news/usda-awards-519-million-to-29-partnership-projects-to-combat-feral",
+      "label": "Featured USDA Awards $51.9 Million to 29 Partnership Projects to Combat Fe... Read more"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/events",
+      "label": "View All Events"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/application-cutoff-dates",
+      "label": "Featured Application Cutoff Dates Read more"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/conservation-basics",
+      "label": "Conservation Basics"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/conservation-basics",
+      "label": "View All Conservation Basics"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/conservation-basics/soil",
+      "label": "Soil"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/conservation-basics/water",
+      "label": "Water"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/conservation-basics/plants",
+      "label": "Plants"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/conservation-basics/animals",
+      "label": "Animals"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/conservation-basics/land",
+      "label": "Land"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/conservation-basics/air",
+      "label": "Air"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/conservation-basics/energy",
+      "label": "Energy"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/conservation-basics/wildlife-habitat",
+      "label": "Wildlife Habitat"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/conservation-basics/invasive-species-and-pests",
+      "label": "Invasive Species and Pests"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/conservation-basics/soil/soil-science",
+      "label": "Featured Soil Science NRCS delivers science-based soil information to help farmers, ranchers, foresters, and other land managers effectively manage, conserve, and appraise their most valuable investment — the soil."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/getting-assistance",
+      "label": "Getting Assistance"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/getting-assistance",
+      "label": "View All Getting Assistance"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/getting-assistance/conservation-technical-assistance",
+      "label": "Conservation Technical Assistance Helps producers identify conservation objectives and a roadmap for conservation on their operation."
+    },
+    {
+      "url": "https://www.farmers.gov/conservation/concerns-tool",
+      "label": "Conservation Concerns Tool Use this tool to learn about natural resource concerns that may impact your ag operation (farmers.gov)."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/getting-assistance/technical-assistance/engineering",
+      "label": "Engineering NRCS applies sound engineering tools and principles to plan, design, and implement conservation practices and systems through delegated approval authority."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/getting-assistance/technical-assistance/technical-service-providers",
+      "label": "Technical Service Providers Technical service providers offer planning, design, and implementation services to agricultural producers on behalf of NRCS."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/getting-assistance/act-now",
+      "label": "Act Now Enables states to pre-approve applications when they meet or exceed a state's pre-determined minimum ranking score."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/getting-assistance/financial-help/applications-and-forms",
+      "label": "Applications and Forms Find more information on how to apply for NRCS conservation programs."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/getting-assistance/how-to-apply",
+      "label": "How to Apply Follow our step-by-step process to get started making improvements on your land with our one-on-one conservation assistance."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/getting-assistance/payment-schedules",
+      "label": "Payment Schedules Review the amount and availability of financial assistance for selected conservation practices in your state."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/application-cutoff-dates",
+      "label": "Ranking Dates Applications for NRCS conservation programs are ranked and funded at key times throughout the year."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/getting-assistance/financial-help/conservation-compliance",
+      "label": "Conservation Compliance: Wetlands and Highly Erodible Land Provisions To maintain eligibility for most USDA programs, producers must comply with wetland conservation provisions."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/cultural-resources",
+      "label": "Cultural Resources NRCS programs are administered following the National Historic Preservation Act and other laws."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/getting-assistance/compliance/environmental-compliance",
+      "label": "Environmental Compliance NRCS programs are administered following the National Environmental Policy Act."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/getting-assistance/disaster-recovery",
+      "label": "Disaster Recovery NRCS can help ag producers and communities recover when natural disasters strike."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/getting-assistance/other-topics/nutrient-management",
+      "label": "Nutrient Management This practice helps producers reduce input costs, maximize yields, and efficiently manage nutrients."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/conservation-basics/natural-resource-concerns/plants/organic",
+      "label": "Organic Agriculture Conservation and organics go hand-in-hand, and NRCS offers tools for organic farmers to improve their operations."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/getting-assistance/other-topics/urban-agriculture",
+      "label": "Urban Agriculture Conservation assistance is available for urban farmers, including high tunnels, soil health practices, composting and irrigation."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/Getting-Assistance/Other-Topics/2-cfr-400-nrcs-specific-approved-exceptions",
+      "label": "2 CFR 400 – NRCS SPECIFIC APPROVED EXCEPTIONS Pursuant to 2 CFR 415.1(e), the USDA Office of the Chief Financial Officer and the Office of Management and Budget have approved the Natural Resources Conservation Service (NRCS) establishment of two alternative exceptions to the requirement for competition in discretionary grant and cooperative agreement funding opportunities under 2 CFR parts 200 and 400."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/getting-assistance/conservation-technical-assistance",
+      "label": "Conservation Technical Assistance Helps producers identify conservation objectives and a roadmap for conservation on their operation."
+    },
+    {
+      "url": "https://www.farmers.gov/conservation/concerns-tool",
+      "label": "Conservation Concerns Tool Use this tool to learn about natural resource concerns that may impact your ag operation (farmers.gov)."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/getting-assistance/technical-assistance/engineering",
+      "label": "Engineering NRCS applies sound engineering tools and principles to plan, design, and implement conservation practices and systems through delegated approval authority."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/getting-assistance/technical-assistance/technical-service-providers",
+      "label": "Technical Service Providers Technical service providers offer planning, design, and implementation services to agricultural producers on behalf of NRCS."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/getting-assistance/act-now",
+      "label": "Act Now Enables states to pre-approve applications when they meet or exceed a state's pre-determined minimum ranking score."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/getting-assistance/financial-help/applications-and-forms",
+      "label": "Applications and Forms Find more information on how to apply for NRCS conservation programs."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/getting-assistance/how-to-apply",
+      "label": "How to Apply Follow our step-by-step process to get started making improvements on your land with our one-on-one conservation assistance."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/getting-assistance/payment-schedules",
+      "label": "Payment Schedules Review the amount and availability of financial assistance for selected conservation practices in your state."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/application-cutoff-dates",
+      "label": "Ranking Dates Applications for NRCS conservation programs are ranked and funded at key times throughout the year."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/getting-assistance/financial-help/conservation-compliance",
+      "label": "Conservation Compliance: Wetlands and Highly Erodible Land Provisions To maintain eligibility for most USDA programs, producers must comply with wetland conservation provisions."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/cultural-resources",
+      "label": "Cultural Resources NRCS programs are administered following the National Historic Preservation Act and other laws."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/getting-assistance/compliance/environmental-compliance",
+      "label": "Environmental Compliance NRCS programs are administered following the National Environmental Policy Act."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/getting-assistance/disaster-recovery",
+      "label": "Disaster Recovery NRCS can help ag producers and communities recover when natural disasters strike."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/getting-assistance/other-topics/nutrient-management",
+      "label": "Nutrient Management This practice helps producers reduce input costs, maximize yields, and efficiently manage nutrients."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/conservation-basics/natural-resource-concerns/plants/organic",
+      "label": "Organic Agriculture Conservation and organics go hand-in-hand, and NRCS offers tools for organic farmers to improve their operations."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/getting-assistance/other-topics/urban-agriculture",
+      "label": "Urban Agriculture Conservation assistance is available for urban farmers, including high tunnels, soil health practices, composting and irrigation."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/Getting-Assistance/Other-Topics/2-cfr-400-nrcs-specific-approved-exceptions",
+      "label": "2 CFR 400 – NRCS SPECIFIC APPROVED EXCEPTIONS Pursuant to 2 CFR 415.1(e), the USDA Office of the Chief Financial Officer and the Office of Management and Budget have approved the Natural Resources Conservation Service (NRCS) establishment of two alternative exceptions to the requirement for competition in discretionary grant and cooperative agreement funding opportunities under 2 CFR parts 200 and 400."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/getting-assistance/conservation-technical-assistance",
+      "label": "Featured Conservation Technical Assistance Conservation Technical Assistance (CTA) provides our nation’s farmers, ranchers and forestland owners with the knowledge and tools they need to conserve, maintain and restore the natural resources on their lands and improve the health of their operations for the future."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/state-offices",
+      "label": "State Offices"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/state-offices",
+      "label": "View All State Offices"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/state-offices",
+      "label": "State Offices Learn about the conservation needs and latest updates in your state, and access needed resources."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/state-technical-committees",
+      "label": "State Technical Committees Every state has an NRCS State Technical Committee. The State Technical Committee advises the State Conservationist on technical guidelines necessary to implement the conservation provisions of the Farm Bill."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/state-offices/contacts",
+      "label": "Contact Your State Office Find contact information for your state office location and employees."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/programs-initiatives",
+      "label": "Programs & Initiatives"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/programs-initiatives",
+      "label": "View All Programs & Initiatives"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/programs-initiatives/eqip-environmental-quality-incentives",
+      "label": "Environmental Quality Incentives Program Provides assistance to agricultural producers to address natural resource concerns."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/programs-initiatives/rcpp-regional-conservation-partnership-program",
+      "label": "Regional Conservation Partnership Program Brings together partners to expand the reach of NRCS conservation programs."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/programs-initiatives/cig-conservation-innovation-grants",
+      "label": "Conservation Innovation Grants Brings together partners to innovate on conservation approaches and technologies."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/programs-initiatives/csp-conservation-stewardship-program",
+      "label": "Conservation Stewardship Program Helps agricultural producers take their conservation efforts to the next level."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/programs-initiatives/vpa-hip-voluntary-public-access-and-habitat-incentive-program",
+      "label": "Voluntary Public Access and Habitat Incentive Program Helps state and tribal governments improve public access to private lands for recreation."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/programs-initiatives/ama-agricultural-management-assistance",
+      "label": "Agricultural Management Assistance Helps agricultural producers manage financial risk through diversification, marketing or natural resource conservation practices."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/programs-initiatives/wmpb-wetland-mitigation-banking-program",
+      "label": "Wetland Mitigation Banking Program Offers competitive grants to support wetland mitigation bank for agricultural producers."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/programs-initiatives/crp-conservation-reserve-program",
+      "label": "Conservation Reserve Program The Conservation Reserve Program (CRP) provides a yearly rental payment to farmers who remove environmentally sensitive land from agricultural production and plant species that will improve environmental health and quality."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/programs-initiatives/acep-agricultural-conservation-easement-program",
+      "label": "Agricultural Conservation Easement Program Helps producers protect wetlands, grasslands and farmlands for future generations."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/programs-initiatives/wre-wetland-reserve-easements",
+      "label": "Wetland Reserve Easements Helps private and tribal landowners protect, restore, and enhance wetlands degraded by agricultural uses."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/programs-initiatives/wrep-wetland-reserve-enhancement-partnership",
+      "label": "Wetland Reserve Enhancement Partnership Brings together partners and producers to protect wetlands."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/programs-initiatives/hfrp-healthy-forest-reserve-program",
+      "label": "Healthy Forests Reserve Program Helps landowners restore, enhance, and protect forestland resources on private and tribal lands and aids the recovery of endangered and threatened species."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/programs-initiatives/ale-agricultural-land-easements",
+      "label": "Agricultural Land Easements Helps private and tribal landowners, land trusts, and other entities protect croplands and grasslands on working farms and ranches."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/conservation-basics/natural-resource-concerns/land/easements/appraisal-submission-center",
+      "label": "Appraisal Submission Center Centralized point for submitting valuation reports and reviews for easement programs."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/programs-initiatives/ewp-emergency-watershed-protection",
+      "label": "Emergency Watershed Protection Assists communities recovering from natural disasters."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/programs-initiatives/watershed-prevention-and-flood-prevention",
+      "label": "Watershed and Flood Prevention Operation Offers assistance to communities to address watershed resource concerns."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/programs-initiatives/watershed-rehabilitation",
+      "label": "Watershed Rehabilitation Rehabilitates NRCS dams to comply with design safety performance standards."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/programs-initiatives/regenerative-pilot-program",
+      "label": "Regenerative Pilot Program Regenerative Agriculture is a conservation management approach that emphasizes natural resources through improved soil health, water management, and natural vitality for the productivity and prosperity of American agriculture and communities."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/programs-initiatives/eqip-landscape-conservation-initiatives",
+      "label": "Landscape Conservation Initiatives Accelerates conservation benefits through targeted efforts for water quality, water quantity and wildlife."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/programs-initiatives/glci-grazing-lands-conservation-initiative",
+      "label": "Grazing Lands Conservation Initiative Nationwide collaborative process working to maintain and improve the management, productivity, and health of privately owned grazing land."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/programs-initiatives/high-tunnel-initiative",
+      "label": "High Tunnel Provides targeted assistance to promote use of high tunnels, which offer many benefits including longer growing season."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/programs-initiatives/on-farm-energy-initiative",
+      "label": "On-Farm Energy Initiative Assistance to inventory and analyze farm systems that use energy and identify ways to improve efficiency through an Agricultural Energy Management Plan."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/programs-initiatives/eqip-organic-initiative",
+      "label": "Organic Initiative Voluntary conservation program that provides technical and financial assistance for organic farmers and ranchers, or those interested in transitioning to organic."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/programs-initiatives/sentinel-landscapes-initiative",
+      "label": "Sentinel Landscapes Initiative The Sentinel Landscapes Partnership is a coalition of federal agencies, state and local governments, and nongovernmental organizations that work with private landowners."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/programs-initiatives/eqip-environmental-quality-incentives",
+      "label": "Environmental Quality Incentives Program Provides assistance to agricultural producers to address natural resource concerns."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/programs-initiatives/rcpp-regional-conservation-partnership-program",
+      "label": "Regional Conservation Partnership Program Brings together partners to expand the reach of NRCS conservation programs."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/programs-initiatives/cig-conservation-innovation-grants",
+      "label": "Conservation Innovation Grants Brings together partners to innovate on conservation approaches and technologies."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/programs-initiatives/csp-conservation-stewardship-program",
+      "label": "Conservation Stewardship Program Helps agricultural producers take their conservation efforts to the next level."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/programs-initiatives/vpa-hip-voluntary-public-access-and-habitat-incentive-program",
+      "label": "Voluntary Public Access and Habitat Incentive Program Helps state and tribal governments improve public access to private lands for recreation."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/programs-initiatives/ama-agricultural-management-assistance",
+      "label": "Agricultural Management Assistance Helps agricultural producers manage financial risk through diversification, marketing or natural resource conservation practices."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/programs-initiatives/wmpb-wetland-mitigation-banking-program",
+      "label": "Wetland Mitigation Banking Program Offers competitive grants to support wetland mitigation bank for agricultural producers."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/programs-initiatives/crp-conservation-reserve-program",
+      "label": "Conservation Reserve Program The Conservation Reserve Program (CRP) provides a yearly rental payment to farmers who remove environmentally sensitive land from agricultural production and plant species that will improve environmental health and quality."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/programs-initiatives/acep-agricultural-conservation-easement-program",
+      "label": "Agricultural Conservation Easement Program Helps producers protect wetlands, grasslands and farmlands for future generations."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/programs-initiatives/wre-wetland-reserve-easements",
+      "label": "Wetland Reserve Easements Helps private and tribal landowners protect, restore, and enhance wetlands degraded by agricultural uses."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/programs-initiatives/wrep-wetland-reserve-enhancement-partnership",
+      "label": "Wetland Reserve Enhancement Partnership Brings together partners and producers to protect wetlands."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/programs-initiatives/hfrp-healthy-forest-reserve-program",
+      "label": "Healthy Forests Reserve Program Helps landowners restore, enhance, and protect forestland resources on private and tribal lands and aids the recovery of endangered and threatened species."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/programs-initiatives/ale-agricultural-land-easements",
+      "label": "Agricultural Land Easements Helps private and tribal landowners, land trusts, and other entities protect croplands and grasslands on working farms and ranches."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/conservation-basics/natural-resource-concerns/land/easements/appraisal-submission-center",
+      "label": "Appraisal Submission Center Centralized point for submitting valuation reports and reviews for easement programs."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/programs-initiatives/ewp-emergency-watershed-protection",
+      "label": "Emergency Watershed Protection Assists communities recovering from natural disasters."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/programs-initiatives/watershed-prevention-and-flood-prevention",
+      "label": "Watershed and Flood Prevention Operation Offers assistance to communities to address watershed resource concerns."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/programs-initiatives/watershed-rehabilitation",
+      "label": "Watershed Rehabilitation Rehabilitates NRCS dams to comply with design safety performance standards."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/programs-initiatives/regenerative-pilot-program",
+      "label": "Regenerative Pilot Program Regenerative Agriculture is a conservation management approach that emphasizes natural resources through improved soil health, water management, and natural vitality for the productivity and prosperity of American agriculture and communities."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/programs-initiatives/eqip-landscape-conservation-initiatives",
+      "label": "Landscape Conservation Initiatives Accelerates conservation benefits through targeted efforts for water quality, water quantity and wildlife."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/programs-initiatives/glci-grazing-lands-conservation-initiative",
+      "label": "Grazing Lands Conservation Initiative Nationwide collaborative process working to maintain and improve the management, productivity, and health of privately owned grazing land."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/programs-initiatives/high-tunnel-initiative",
+      "label": "High Tunnel Provides targeted assistance to promote use of high tunnels, which offer many benefits including longer growing season."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/programs-initiatives/on-farm-energy-initiative",
+      "label": "On-Farm Energy Initiative Assistance to inventory and analyze farm systems that use energy and identify ways to improve efficiency through an Agricultural Energy Management Plan."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/programs-initiatives/eqip-organic-initiative",
+      "label": "Organic Initiative Voluntary conservation program that provides technical and financial assistance for organic farmers and ranchers, or those interested in transitioning to organic."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/programs-initiatives/sentinel-landscapes-initiative",
+      "label": "Sentinel Landscapes Initiative The Sentinel Landscapes Partnership is a coalition of federal agencies, state and local governments, and nongovernmental organizations that work with private landowners."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/programs-initiatives/regional-conservation-partnership-program",
+      "label": "Featured Regional Conservation Partnership Program (RCPP) The Regional Conservation Partnership Program (RCPP) is a partner-driven approach to conservation that funds solutions to natural resource challenges on agricultural land."
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/resources",
+      "label": "Resources"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/resources",
+      "label": "View All Resources"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/resources/guides-and-instructions/field-office-technical-guides",
+      "label": "Field Office Technical Guides"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/resources/guides-and-instructions/conservation-practice-standards",
+      "label": "Conservation Practice Standards"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/resources/guides-and-instructions/how-to-get-a-duns-number",
+      "label": "How to Get a DUNS Number"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/resources/guides-and-instructions/national-soil-survey-handbook",
+      "label": "National Soil Survey Handbook"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/resources/guides-and-instructions/keys-to-soil-taxonomy",
+      "label": "Keys to Soil Taxonomy"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/resources/guides-and-instructions/soil-survey-manual",
+      "label": "Soil Survey Manual"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/resources/guides-and-instructions/soil-taxonomy",
+      "label": "Soil Taxonomy"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/resources/guides-and-instructions/technical-soil-services-handbook",
+      "label": "Technical Soil Services Handbook"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/resources/tech-tools/technical-resource-library",
+      "label": "Technical Resource Library"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/resources/guides-and-instructions",
+      "label": "View All Guides and Instructions"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/resources/data-and-reports/web-soil-survey",
+      "label": "Web Soil Survey"
+    },
+    {
+      "url": "https://plants.usda.gov/",
+      "label": "PLANTS Database"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/resources/data-and-reports/rca-dataviewer",
+      "label": "RCA Dataviewer"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/resources/education-and-teaching-materials/soil-texture-calculator",
+      "label": "Soil Texture Calculator"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/resources/data-and-reports/official-soil-series-descriptions-osds",
+      "label": "Official Soil Series Descriptions"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/resources/data-and-reports/ssurgo/stats2go-metadata",
+      "label": "SSURGO/STATSGO2 Metadata"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/ceap",
+      "label": "Conservation Effects Assessment Project (CEAP)"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/resources/data-and-reports",
+      "label": "View All Data and Reports"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/resources/education-and-teaching-materials/what-is-soil",
+      "label": "What is Soil?"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/resources/education-and-teaching-materials/state-soils",
+      "label": "State Soils"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/resources/education-and-teaching-materials/soil-colors",
+      "label": "Soil Colors"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/resources/education-and-teaching-materials/soil-formation-classification",
+      "label": "Soil Formation and Classification"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/resources/education-and-teaching-materials",
+      "label": "View All Education and Teaching Materials"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/resources/tech-tools/windows-pesticide-screening-tool-win-pst",
+      "label": "WIN-PST"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/resources/tech-tools/wintr-20-system-controllereditor-version-3301",
+      "label": "WinTR-20"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/resources/tech-tools/wintr-55-small-watershed-hydrology-version-20000",
+      "label": "WinTR-55"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/resources?title=&resource_type=1970",
+      "label": "View All Tech Tools"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/resources/guides-and-instructions/field-office-technical-guides",
+      "label": "Field Office Technical Guides"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/resources/guides-and-instructions/conservation-practice-standards",
+      "label": "Conservation Practice Standards"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/resources/guides-and-instructions/how-to-get-a-duns-number",
+      "label": "How to Get a DUNS Number"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/resources/guides-and-instructions/national-soil-survey-handbook",
+      "label": "National Soil Survey Handbook"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/resources/guides-and-instructions/keys-to-soil-taxonomy",
+      "label": "Keys to Soil Taxonomy"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/resources/guides-and-instructions/soil-survey-manual",
+      "label": "Soil Survey Manual"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/resources/guides-and-instructions/soil-taxonomy",
+      "label": "Soil Taxonomy"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/resources/guides-and-instructions/technical-soil-services-handbook",
+      "label": "Technical Soil Services Handbook"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/resources/tech-tools/technical-resource-library",
+      "label": "Technical Resource Library"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/resources/guides-and-instructions",
+      "label": "View All Guides and Instructions"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/resources/data-and-reports/web-soil-survey",
+      "label": "Web Soil Survey"
+    },
+    {
+      "url": "https://plants.usda.gov/",
+      "label": "PLANTS Database"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/resources/data-and-reports/rca-dataviewer",
+      "label": "RCA Dataviewer"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/resources/education-and-teaching-materials/soil-texture-calculator",
+      "label": "Soil Texture Calculator"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/resources/data-and-reports/official-soil-series-descriptions-osds",
+      "label": "Official Soil Series Descriptions"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/resources/data-and-reports/ssurgo/stats2go-metadata",
+      "label": "SSURGO/STATSGO2 Metadata"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/ceap",
+      "label": "Conservation Effects Assessment Project (CEAP)"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/resources/data-and-reports",
+      "label": "View All Data and Reports"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/resources/education-and-teaching-materials/what-is-soil",
+      "label": "What is Soil?"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/resources/education-and-teaching-materials/state-soils",
+      "label": "State Soils"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/resources/education-and-teaching-materials/soil-colors",
+      "label": "Soil Colors"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/resources/education-and-teaching-materials/soil-formation-classification",
+      "label": "Soil Formation and Classification"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/resources/education-and-teaching-materials",
+      "label": "View All Education and Teaching Materials"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/resources/tech-tools/windows-pesticide-screening-tool-win-pst",
+      "label": "WIN-PST"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/resources/tech-tools/wintr-20-system-controllereditor-version-3301",
+      "label": "WinTR-20"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/resources/tech-tools/wintr-55-small-watershed-hydrology-version-20000",
+      "label": "WinTR-55"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/resources?title=&resource_type=1970",
+      "label": "View All Tech Tools"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/resources/guides-and-instructions/ag-innovators-guide",
+      "label": "Featured Ag Innovator’s Guide Tips for Recommending Innovation and New Technologies for Use in Conservation Assistance"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/news",
+      "label": "News & Events"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/news",
+      "label": "View All News & Events"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/news",
+      "label": "View All News"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/conservation-basics/animals/news/usda-awards-519-million-to-29-partnership-projects-to-combat-feral",
+      "label": "Featured USDA Awards $51.9 Million to 29 Partnership Projects to Combat Fe... Read more"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/events",
+      "label": "View All Events"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/application-cutoff-dates",
+      "label": "Featured Application Cutoff Dates Read more"
+    },
+    {
+      "url": "https://public.govdelivery.com/accounts/usdafarmers/subscriber/new",
+      "label": "Subscribe"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/about",
+      "label": "About NRCS"
+    },
+    {
+      "url": "https://farmers.gov",
+      "label": "farmers.gov"
+    },
+    {
+      "url": "https://usda.gov",
+      "label": "USDA.gov"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/contact",
+      "label": "Contact Us"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/",
+      "label": "Home"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/resources",
+      "label": "Resources"
+    },
+    {
+      "url": "http://websoilsurvey.nrcs.usda.gov/app/",
+      "label": "Web Soil Survey"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/conservation-basics/soil/soil-surveys-by-state",
+      "label": "Published Soil Surveys for Iowa"
+    },
+    {
+      "url": "http://soils.usda.gov/survey/printed_surveys/",
+      "label": "Available Soil Surveys and Formats"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/resources/data-and-reports/official-soil-series-descriptions-osds",
+      "label": "Soil Series Descriptions"
+    },
+    {
+      "url": "http://soilquality.org/",
+      "label": "Soil Quality for Environmental Health"
+    },
+    {
+      "url": "https://crops.extension.iastate.edu/soils",
+      "label": "Soil and Land Use"
+    },
+    {
+      "url": "https://www.extension.iastate.edu/agdm/wholefarm/html/c2-87.html",
+      "label": "Soil Survey & Digital Soil Data: Soil Suitabilities & Interpretation"
+    },
+    {
+      "url": "http://soils.usda.gov/education/",
+      "label": "Soils Education"
+    },
+    {
+      "url": "http://forces.si.edu/soils/",
+      "label": "Dig It! The Secrets of Soil"
+    },
+    {
+      "url": "http://youtu.be/ZlyDyQT6_WE",
+      "label": "How to Differentiate and Identify Soil Horizons"
+    },
+    {
+      "url": "http://vimeo.com/channels/soils101/page:1",
+      "label": "Soils 101"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/sites/default/files/2022-09/SoilWebApp2_FactSheet-19.pdf",
+      "label": "SoilWeb 2.0 App Fact Sheet"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/sites/default/files/2022-09/MLRAOffices.pdf",
+      "label": "Iowa MLRA Soil Survey Offices"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/sites/default/files/2022-09/Iowa_MLRA_map.pdf",
+      "label": "Major Land Resource Areas (MLRA) Regions Map of Iowa"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/sites/default/files/2022-09/IowaSoilRegionsMap.pdf",
+      "label": "Major Land Resource Area (MLRA) Regions Map of Iowa"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/sites/default/files/2022-09/IowaWoodlandSuitability.pdf",
+      "label": "Iowa Woodland Suitability Recommendations (by Soil Type)"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/sites/default/files/2022-09/IowaSoilSurveyCorrelationDatesMap.pdf",
+      "label": "Iowa Soil Survey Correlation Dates Map"
+    },
+    {
+      "url": "tel:515-284-4135",
+      "label": "515-284-4135"
+    },
+    {
+      "url": "mailto:patrick.chase@usda.gov",
+      "label": "patrick.chase@usda.gov"
+    },
+    {
+      "url": "https://usda.gov",
+      "label": ""
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/",
+      "label": "Natural Resources Conservation Service U.S. Department of Agriculture"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/resources/data-and-reports/soils",
+      "label": "Return to Top"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/resources/data-and-reports/soils",
+      "label": "Policies and Statements"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/foia",
+      "label": "FOIA"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/information-quality",
+      "label": "Information Quality"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/performace",
+      "label": "Our Performance"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/privacy",
+      "label": "Privacy Policy"
+    },
+    {
+      "url": "https://www.usda.gov/accessibility-statement",
+      "label": "Accessibility Statement"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/non-discrimination",
+      "label": "Non-Discrimination Statement"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/resources/data-and-reports/soils",
+      "label": "Related Sites"
+    },
+    {
+      "url": "https://usda.gov",
+      "label": "USDA.gov"
+    },
+    {
+      "url": "https://www.usda.gov/about-usda/general-information/staff-offices/office-inspector-general",
+      "label": "Office of the Inspector General"
+    },
+    {
+      "url": "https://usa.gov",
+      "label": "USA.gov"
+    },
+    {
+      "url": "https://whitehouse.gov",
+      "label": "WhiteHouse.gov"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/resources/data-and-reports/soils",
+      "label": "Resources"
+    },
+    {
+      "url": "https://intranet.usda.gov/FPAC/nrcs-resources",
+      "label": "OneFPAC - Employee Links"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/edirectives",
+      "label": "eDirectives"
+    },
+    {
+      "url": "https://www.usda.gov/glossary",
+      "label": "Glossary"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/no-fear-act",
+      "label": "No Fear Act Data"
+    },
+    {
+      "url": "https://www.usda.gov/open",
+      "label": "Open Government"
+    },
+    {
+      "url": "https://www.usda.gov/plain-writing",
+      "label": "Plain Writing"
+    },
+    {
+      "url": "https://usdaoig.oversight.gov/",
+      "label": "Report Fraud on USDA Contract"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/sitemap.xml",
+      "label": "Sitemap"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/resources/data-and-reports/soils",
+      "label": "Subscribe to our Newsletter"
+    },
+    {
+      "url": "mailto:askusda@usda.gov",
+      "label": ""
+    },
+    {
+      "url": "https://facebook.com/usdanrcs",
+      "label": ""
+    },
+    {
+      "url": "https://twitter.com/USDA_NRCS",
+      "label": ""
+    },
+    {
+      "url": "https://www.flickr.com/photos/usdagov/collections/72157624326158670/",
+      "label": ""
+    },
+    {
+      "url": "https://www.youtube.com/theusdanrcs",
+      "label": ""
+    },
+    {
+      "url": "https://www.linkedin.com/company/natural-resources-conservation-service/",
+      "label": ""
+    }
+  ],
+  "elapsed_seconds": 1.61
+}

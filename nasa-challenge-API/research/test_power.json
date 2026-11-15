@@ -1,0 +1,13 @@
+{
+  "id": "test_power",
+  "url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=T2M,PRECTOTCORR&community=AG&longitude=35.26&latitude=32.22&start=20250101&end=20250107&format=JSON&time-standard=UTC",
+  "checked_at": "2026-11-14T15:12:43.516444+00:00",
+  "tls_validation": false,
+  "status": 200,
+  "final_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=T2M,PRECTOTCORR&community=AG&longitude=35.26&latitude=32.22&start=20250101&end=20250107&format=JSON&time-standard=UTC",
+  "bytes": 774,
+  "content_type": "application/json",
+  "sha256": "3292f8e5ec8c88d9c2c29b7fead6141683aa8b114934b0c7c3911348762afe03",
+  "links": [],
+  "elapsed_seconds": 0.937
+}

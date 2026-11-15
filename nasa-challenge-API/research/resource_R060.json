@@ -1,0 +1,330 @@
+{
+  "id": "resource_R060",
+  "url": "https://ecostress.jpl.nasa.gov/data",
+  "checked_at": "2026-11-14T15:15:16.639985+00:00",
+  "tls_validation": false,
+  "status": 200,
+  "final_url": "https://ecostress.jpl.nasa.gov/data",
+  "bytes": 27454,
+  "content_type": "text/html;charset=utf-8",
+  "sha256": "546d264bd681e1d6328f541f8fd1816de93cd292ba7276500a40801ed5b4999a",
+  "links": [
+    {
+      "url": "https://ecostress.jpl.nasa.gov/data",
+      "label": ""
+    },
+    {
+      "url": "https://ecostress.jpl.nasa.gov",
+      "label": ""
+    },
+    {
+      "url": "https://ecostress.jpl.nasa.gov",
+      "label": "Home"
+    },
+    {
+      "url": "https://ecostress.jpl.nasa.gov/news",
+      "label": "News"
+    },
+    {
+      "url": "https://ecostress.jpl.nasa.gov/events",
+      "label": "Events"
+    },
+    {
+      "url": "https://ecostress.jpl.nasa.gov/gallerylist",
+      "label": "Gallery"
+    },
+    {
+      "url": "https://ecostress.jpl.nasa.gov/science",
+      "label": "Research"
+    },
+    {
+      "url": "https://ecostress.jpl.nasa.gov/apps",
+      "label": "Applications"
+    },
+    {
+      "url": "https://ecostress.jpl.nasa.gov/mission",
+      "label": "Mission"
+    },
+    {
+      "url": "https://ecostress.jpl.nasa.gov/data",
+      "label": "Data"
+    },
+    {
+      "url": "https://ecostress.jpl.nasa.gov/tutorials",
+      "label": "Tutorials"
+    },
+    {
+      "url": "https://ecostress.jpl.nasa.gov/documents",
+      "label": "Other"
+    },
+    {
+      "url": "https://ecostress.jpl.nasa.gov/downloads/faq/ECOSTRESS_FAQ_20240401.pdf",
+      "label": "FAQs"
+    },
+    {
+      "url": "https://ecostress.jpl.nasa.gov/team",
+      "label": "Team"
+    },
+    {
+      "url": "https://ecostress.jpl.nasa.gov",
+      "label": "Home"
+    },
+    {
+      "url": "https://ecostress.jpl.nasa.gov/downloads/images/streetheat_la.png",
+      "label": ""
+    },
+    {
+      "url": "https://ecostress.jpl.nasa.gov/downloads/images/ECOSTRESS_LST_SummerDay_LosAngeles.kmz",
+      "label": "Streets LA KMZ file (download)"
+    },
+    {
+      "url": "https://ecostress.jpl.nasa.gov/downloads/images/ECOSTRESS_LST_SummerDay_LosAngeles.tif",
+      "label": "Streets LA Geotiff file (download)"
+    },
+    {
+      "url": "https://ecostress.jpl.nasa.gov/downloads/other/ECOSTRESS_demo.pdf",
+      "label": "How to access data - Demo"
+    },
+    {
+      "url": "https://search.earthdata.nasa.gov/search?q=ecostress&ac=true",
+      "label": "NASA Earthdata - \"ECOSTRESS\" Search"
+    },
+    {
+      "url": "https://search.earthdata.nasa.gov/search?q=ecostress&ac=true",
+      "label": ""
+    },
+    {
+      "url": "https://appeears.earthdatacloud.nasa.gov/",
+      "label": "LP DAAC subsetting tool - AppEEARS"
+    },
+    {
+      "url": "https://appeears.earthdatacloud.nasa.gov/",
+      "label": ""
+    },
+    {
+      "url": "https://ecostress.jpl.nasa.gov/downloads/faq/ECOSTRESS_FAQ_20240401.pdf",
+      "label": "Data Description and FAQ"
+    },
+    {
+      "url": "https://ecostress.jpl.nasa.gov/gmap/",
+      "label": "Preview of currently acquired data"
+    },
+    {
+      "url": "https://github.com/nasa/ECOSTRESS-Data-Resources/tree/main/python/scripts/ecostress_swath2grid",
+      "label": "LP DAAC ECOSTRESS Swath 2 Grid Data Prep Script"
+    },
+    {
+      "url": "https://ecostress.jpl.nasa.gov/data/atbds-summary-table",
+      "label": "Combined Summary Table of ATDBs, PSDs, User Guides"
+    },
+    {
+      "url": "https://ecostress.jpl.nasa.gov/data/radiometer-spectral-response-functions",
+      "label": "SRF Graph"
+    },
+    {
+      "url": "https://ecostress.jpl.nasa.gov/downloads/srf/20180318-ECOSTRESS_SRF_v3.xlsx",
+      "label": "SRF Data+Graph"
+    },
+    {
+      "url": "https://ecostress.jpl.nasa.gov/data/science-data-products-summary-table",
+      "label": "Science Data Products Summary Table"
+    },
+    {
+      "url": "https://ecostress.jpl.nasa.gov/sitemap",
+      "label": "Site Map"
+    },
+    {
+      "url": "https://ecostress.jpl.nasa.gov/accessibility-info",
+      "label": "Accessibility"
+    },
+    {
+      "url": "https://ecostress.jpl.nasa.gov/contact-info",
+      "label": "Contact"
+    },
+    {
+      "url": "https://www.facebook.com/nasa",
+      "label": ""
+    },
+    {
+      "url": "https://twitter.com/nasa",
+      "label": ""
+    },
+    {
+      "url": "https://www.youtube.com/NASA",
+      "label": ""
+    },
+    {
+      "url": "https://instagram.com/nasa",
+      "label": ""
+    },
+    {
+      "url": "https://www.jpl.nasa.gov/social/",
+      "label": "All"
+    },
+    {
+      "url": "https://ecostress.jpl.nasa.gov/",
+      "label": "Home"
+    },
+    {
+      "url": "https://ecostress.jpl.nasa.gov/news/",
+      "label": "News"
+    },
+    {
+      "url": "https://ecostress.jpl.nasa.gov/events/",
+      "label": "Events"
+    },
+    {
+      "url": "https://ecostress.jpl.nasa.gov/gallery/",
+      "label": "Gallery"
+    },
+    {
+      "url": "https://ecostress.jpl.nasa.gov/science/",
+      "label": "Science"
+    },
+    {
+      "url": "https://ecostress.jpl.nasa.gov/applications/",
+      "label": "Applications"
+    },
+    {
+      "url": "https://ecostress.jpl.nasa.gov/instrument/",
+      "label": "Instrument"
+    },
+    {
+      "url": "https://ecostress.jpl.nasa.gov/mission/",
+      "label": "Mission"
+    },
+    {
+      "url": "https://ecostress.jpl.nasa.gov/data/",
+      "label": "Data"
+    },
+    {
+      "url": "https://ecostress.jpl.nasa.gov/publications/",
+      "label": "Publications"
+    },
+    {
+      "url": "https://ecostress.jpl.nasa.gov/documents/",
+      "label": "Doc-Media-Tools"
+    },
+    {
+      "url": "https://ecostress.jpl.nasa.gov/downloads/faq/ECOSTRESS_FAQ_20240401.pdf",
+      "label": "FAQ"
+    },
+    {
+      "url": "https://ecostress.jpl.nasa.gov/team/",
+      "label": "Team"
+    },
+    {
+      "url": "https://saturn.jpl.nasa.gov/index.cfm",
+      "label": "Cassini - Mission to Saturn"
+    },
+    {
+      "url": "https://www.climate.nasa.gov",
+      "label": "Earth / Changing Environment"
+    },
+    {
+      "url": "https://planetquest.jpl.nasa.gov",
+      "label": "Planetquest / Exoplanets"
+    },
+    {
+      "url": "https://marsprogram.jpl.nasa.gov/",
+      "label": "Mars Exploration"
+    },
+    {
+      "url": "https://marsprogram.jpl.nasa.gov/msl/",
+      "label": "Mars Science Laboratory / Curiosity"
+    },
+    {
+      "url": "https://rosetta.jpl.nasa.gov/",
+      "label": "Rosetta - Understanding Comets"
+    },
+    {
+      "url": "https://scienceandtechnology.jpl.nasa.gov/",
+      "label": "Science and Technology"
+    },
+    {
+      "url": "https://solarsystem.nasa.gov/",
+      "label": "Solar System Exploration"
+    },
+    {
+      "url": "https://eyes.nasa.gov/",
+      "label": "Eyes on the Solar System"
+    },
+    {
+      "url": "https://eyes.nasa.gov/earth/",
+      "label": "Eyes on the Earth"
+    },
+    {
+      "url": "https://eyes.nasa.gov/exoplanets/",
+      "label": "Eyes on Exoplanets"
+    },
+    {
+      "url": "https://www.spitzer.caltech.edu/",
+      "label": "Spitzer Space Telescope"
+    },
+    {
+      "url": "http://www.facebook.com/NASAJPL",
+      "label": "Facebook"
+    },
+    {
+      "url": "http://twitter.com/NASAJPL",
+      "label": "Twitter"
+    },
+    {
+      "url": "http://www.youtube.com/user/JPLnews",
+      "label": "YouTube"
+    },
+    {
+      "url": "http://www.flickr.com/photos/nasa-jpl",
+      "label": "Flickr"
+    },
+    {
+      "url": "http://instagram.com/nasajpl",
+      "label": "Instagram"
+    },
+    {
+      "url": "http://itunes.apple.com/podcast/hd-nasas-jet-propulsion-laboratory/id262254981",
+      "label": "iTunes"
+    },
+    {
+      "url": "http://www.ustream.tv/nasajpl",
+      "label": "UStream"
+    },
+    {
+      "url": "https://blogs.jpl.nasa.gov",
+      "label": "Blog"
+    },
+    {
+      "url": "http://jplwater.nasa.gov",
+      "label": "NASA Water Cleanup"
+    },
+    {
+      "url": "http://www.hq.nasa.gov/office/pao/FOIA/agency/",
+      "label": "FOIA"
+    },
+    {
+      "url": "http://www.nasa.gov/",
+      "label": "NASA"
+    },
+    {
+      "url": "http://www.caltech.edu/",
+      "label": "Caltech"
+    },
+    {
+      "url": "https://www.jpl.nasa.gov/copyrights.php",
+      "label": "Privacy"
+    },
+    {
+      "url": "https://www.jpl.nasa.gov/imagepolicy",
+      "label": "Image Policy"
+    },
+    {
+      "url": "https://www.jpl.nasa.gov/faq.php",
+      "label": "FAQ"
+    },
+    {
+      "url": "https://www.jpl.nasa.gov/contact_JPL.php",
+      "label": "Feedback"
+    }
+  ],
+  "elapsed_seconds": 1.906
+}

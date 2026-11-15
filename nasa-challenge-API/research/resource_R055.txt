@@ -1,0 +1,640 @@
+EarthExplorer
+An official website of the United States government
+Here’s how you know
+Here’s how you know
+Official websites use .gov
+A
+.gov
+website belongs to an official government organization in the United States.
+Secure .gov websites use HTTPS
+A
+lock
+(
+Lock
+Locked padlock icon
+) or
+https://
+means you’ve safely connected to the .gov website. Share sensitive information only on official, secure websites.
+EarthExplorer
+Help
+Feedback
+Login
+Search Criteria
+Data Sets
+Additional Criteria
+Results
+1. Enter Search Criteria
+To narrow your search area: type in an address or place name,
+        enter coordinates or click the map to define your search area
+        (for advanced map tools, view the
+help documentation
+),
+        and/or choose a date range.
+Geocoder
+GeoJSON/KML/Shapefile Upload
+Select a Geocoding Method
+Feature (GNIS)
+Path/Row
+Set WRS Type
+Point
+Polygon
+Type:
+WRS2
+WRS1
+Path:
+Row:
+Search Limits:
+The search result limit is 100 records; select a Country, Feature Class, and/or Feature Type to reduce your chances of exceeding this limit.
+Feature Type
+US Features
+World Features
+Feature Name
+State
+All
+ALABAMA
+ALASKA
+AMERICAN SAMOA
+ARIZONA
+ARKANSAS
+CALIFORNIA
+COLORADO
+CONNECTICUT
+DELAWARE
+DISTRICT OF COLUMBIA
+FEDERATED STATES OF MICRONESIA
+FLORIDA
+GEORGIA
+GUAM
+HAWAII
+IDAHO
+ILLINOIS
+INDIANA
+IOWA
+KANSAS
+KENTUCKY
+LOUISIANA
+MAINE
+MARSHALL ISLANDS
+MARYLAND
+MASSACHUSETTS
+MICHIGAN
+MINNESOTA
+MISSISSIPPI
+MISSOURI
+MONTANA
+NEBRASKA
+NEVADA
+NEW HAMPSHIRE
+NEW JERSEY
+NEW MEXICO
+NEW YORK
+NORTH CAROLINA
+NORTH DAKOTA
+NORTHERN MARIANA ISLANDS
+OHIO
+OKLAHOMA
+OREGON
+PALAU
+PENNSYLVANIA
+PUERTO RICO
+RHODE ISLAND
+SOUTH CAROLINA
+SOUTH DAKOTA
+TENNESSEE
+TEXAS
+U.S. MINOR OUTLYING ISLANDS
+UTAH
+VERMONT
+VIRGINIA
+VIRGIN ISLANDS
+WASHINGTON
+WEST VIRGINIA
+WISCONSIN
+WYOMING
+Feature Type
+All
+PPL*CITY*POPULATED PLACE*PPL*SETTLEMENT*TOWN*VILLAGE
+ZIP CODE (5 digit)
+BOROUGH*CIVIL*COUNTY*MINICIPIO*PARISH*TOWN*TOWNSHIP
+ARCH*BRIDGE*NATURAL BRIDGE*SEA ARCH
+AREA*BADLANDS*BARREN*DELTA*FAN*GARDEN
+ARROYO*COULEE*DRAW*GULLY*WASH
+BAR*LEDGE*REEF*SANDBAR*SHOAL*SPIT
+AMPHITHEATER*BASIN*CIRQUE*PIT*SINK
+ARM*BAY*BIGHT*COVE*ESTUARY*GOLF*INLET*SOUND
+BEACH*COAST*SHORE*STRAND
+BEND*BOTTOM*LOOP*MEANDER
+CANAL*DITCH*LATERAL
+CAPE*LEA*NECK*PENINSULA*POINT
+CHANNEL*PASSAGE*REACH*STRAIT*THOROUGHFARE*THROUGHFARE
+BLUFF*CLIFF*CRAG*HEAD*HEADLAND*NOSE*PALISADES...
+CALDERA*CRATER*LUA
+CROSSING*OVERPASS*UNDERPASS
+CASCADE*CATARACT*FALLS*WATERFALL
+CLEARING*FLAT*GLADE*PLAYA
+COL*GAP*NOTCH*PASS*SADDLE*WATER GAP*WIND GAP
+GLACIER*ICEFIELD*ICE PATCH*SNOW PATCH
+CREEK*INLET*SLOUGH
+ARCHIPELAGO*ATOLL*CAY*HAMMOCK*HUMMOCK*ISLA*ISLE*KEY...
+ISTHMUS
+BACKWTR*LAC*LAGOON*LAGUNA*LAKE*POND*POOL*RESACA
+KEPULA*LAVA*LAVA FLOW
+BANK*BERM*LEVEE
+MILITARY
+BENCH*LEVEL
+CHIMNEY*MONUMENT*PILLAR*PINNACLE*POHAKU*ROCK TOWER
+GRASSLAND*HIGHLAND*KULA*PLAIN*PLATEAU*UPLAND
+CORDILLERA*RANGE*SIERRA
+RAPIDS*RIFFLE*RIPPLE
+LAKE*RESERVOIR*TANK
+CREST*CUESTA*ESCARPMENT*HOGBACK*LAE*RIDGE*RIM*SPUR
+GULF*OCEAN*SEA
+GRADE*PITCH*SLOPE
+SEEP*SPRING
+ANABRANCH*AWAWA*BAYOU*BRANCH*BROOK*CREEK*FORK...
+AHU*BERG*BALD*BUTTE*CERRO*COLINA*CONE*CUMBRE*DOME...
+BOG*CIENEGA*MARAIS*MARSH*POCOSIN*SWAMP
+BARRANCA*CANYON*CHASM*COVE*DRAW*GLEN*GORGE*GULCH*GULF
+FOREST*NAT. FOREST*NAT. GRASSLANDS*STATE FOREST*WOODS
+Country
+All
+AFGHANISTAN
+ÅLAND ISLANDS
+ALBANIA
+ALGERIA
+AMERICAN SAMOA
+ANDORRA
+ANGOLA
+ANGUILLA
+ANTARCTICA
+ANTIGUA AND BARBUDA
+ARGENTINA
+ARMENIA
+ARUBA
+AUSTRALIA
+AUSTRIA
+AZERBAIJAN
+BAHAMAS
+BAHRAIN
+BANGLADESH
+BARBADOS
+BELARUS
+BELGIUM
+BELIZE
+BENIN
+BERMUDA
+BHUTAN
+BOLIVIA, PLURINATIONAL STATE OF
+BONAIRE, SINT EUSTATIUS AND SABA
+BOSNIA AND HERZEGOVINA
+BOTSWANA
+BOUVET ISLAND
+BRAZIL
+BRITISH INDIAN OCEAN TERRITORY
+BRUNEI DARUSSALAM
+BULGARIA
+BURKINA FASO
+BURUNDI
+CABO VERDE
+CAMBODIA
+CAMEROON
+CANADA
+CAYMAN ISLANDS
+CENTRAL AFRICAN REPUBLIC
+CHAD
+CHILE
+CHINA
+CHRISTMAS ISLAND
+COCOS (KEELING) ISLANDS
+COLOMBIA
+COMOROS
+CONGO
+CONGO, THE DEMOCRATIC REPUBLIC OF THE
+COOK ISLANDS
+COSTA RICA
+CÔTE D'IVOIRE
+CROATIA
+CUBA
+CURAÇAO
+CYPRUS
+CZECHIA
+DENMARK
+DJIBOUTI
+DOMINICA
+DOMINICAN REPUBLIC
+ECUADOR
+EGYPT
+EL SALVADOR
+EQUATORIAL GUINEA
+ERITREA
+ESTONIA
+ESWATINI
+ETHIOPIA
+FALKLAND ISLANDS (MALVINAS)
+FAROE ISLANDS
+FIJI
+FINLAND
+FRANCE
+FRENCH GUIANA
+FRENCH POLYNESIA
+FRENCH SOUTHERN TERRITORIES
+GABON
+GAMBIA
+GEORGIA
+GERMANY
+GHANA
+GIBRALTAR
+GREECE
+GREENLAND
+GRENADA
+GUADELOUPE
+GUAM
+GUATEMALA
+GUERNSEY
+GUINEA
+GUINEA-BISSAU
+GUYANA
+HAITI
+HEARD ISLAND AND MCDONALD ISLANDS
+HOLY SEE (VATICAN CITY STATE)
+HONDURAS
+HONG KONG
+HUNGARY
+ICELAND
+INDIA
+INDONESIA
+IRAN, ISLAMIC REPUBLIC OF
+IRAQ
+IRELAND
+ISLE OF MAN
+ISRAEL
+ITALY
+JAMAICA
+JAPAN
+JERSEY
+JORDAN
+KAZAKHSTAN
+KENYA
+KIRIBATI
+KOREA, DEMOCRATIC PEOPLE'S REPUBLIC OF
+KOREA, REPUBLIC OF
+KUWAIT
+KYRGYZSTAN
+LAO PEOPLE'S DEMOCRATIC REPUBLIC
+LATVIA
+LEBANON
+LESOTHO
+LIBERIA
+LIBYA
+LIECHTENSTEIN
+LITHUANIA
+LUXEMBOURG
+MACAO
+MADAGASCAR
+MALAWI
+MALAYSIA
+MALDIVES
+MALI
+MALTA
+MARSHALL ISLANDS
+MARTINIQUE
+MAURITANIA
+MAURITIUS
+MAYOTTE
+MEXICO
+MICRONESIA, FEDERATED STATES OF
+MOLDOVA, REPUBLIC OF
+MONACO
+MONGOLIA
+MONTENEGRO
+MONTSERRAT
+MOROCCO
+MOZAMBIQUE
+MYANMAR
+NAMIBIA
+NAURU
+NEPAL
+NETHERLANDS
+NEW CALEDONIA
+NEW ZEALAND
+NICARAGUA
+NIGER
+NIGERIA
+NIUE
+NORFOLK ISLAND
+NORTHERN MARIANA ISLANDS
+NORTH MACEDONIA
+NORWAY
+OMAN
+PAKISTAN
+PALAU
+PALESTINE, STATE OF
+PANAMA
+PAPUA NEW GUINEA
+PARAGUAY
+PERU
+PHILIPPINES
+PITCAIRN
+POLAND
+PORTUGAL
+PUERTO RICO
+QATAR
+RÉUNION
+ROMANIA
+RUSSIAN FEDERATION
+RWANDA
+SAINT BARTHÉLEMY
+SAINT HELENA, ASCENSION AND TRISTAN DA CUNHA
+SAINT KITTS AND NEVIS
+SAINT LUCIA
+SAINT MARTIN (FRENCH PART)
+SAINT PIERRE AND MIQUELON
+SAINT VINCENT AND THE GRENADINES
+SAMOA
+SAN MARINO
+SAO TOME AND PRINCIPE
+SAUDI ARABIA
+SENEGAL
+SERBIA
+SEYCHELLES
+SIERRA LEONE
+SINGAPORE
+SINT MAARTEN (DUTCH PART)
+SLOVAKIA
+SLOVENIA
+SOLOMON ISLANDS
+SOMALIA
+SOUTH AFRICA
+SOUTH GEORGIA AND THE SOUTH SANDWICH ISLANDS
+SOUTH SUDAN
+SPAIN
+SRI LANKA
+SUDAN
+SURINAME
+SVALBARD AND JAN MAYEN
+SWEDEN
+SWITZERLAND
+SYRIAN ARAB REPUBLIC
+TAIWAN, PROVINCE OF CHINA
+TAJIKISTAN
+TANZANIA, UNITED REPUBLIC OF
+THAILAND
+TIMOR-LESTE
+TOGO
+TOKELAU
+TONGA
+TRINIDAD AND TOBAGO
+TUNISIA
+TÜRKIYE
+TURKMENISTAN
+TURKS AND CAICOS ISLANDS
+TUVALU
+UGANDA
+UKRAINE
+UNITED ARAB EMIRATES
+UNITED KINGDOM
+UNITED STATES
+UNITED STATES MINOR OUTLYING ISLANDS
+URUGUAY
+UZBEKISTAN
+VANUATU
+VENEZUELA, BOLIVARIAN REPUBLIC OF
+VIET NAM
+VIRGIN ISLANDS, BRITISH
+VIRGIN ISLANDS, U.S.
+WALLIS AND FUTUNA
+WESTERN SAHARA
+YEMEN
+ZAMBIA
+ZIMBABWE
+Feature Class
+All
+Administrative Boundary Features
+Hydrographic Features
+Area Features
+Populated Place Features
+Road or Railroad Features
+Spot Features
+Hypsographic Features
+Undersea Features
+Vegetation Features
+Feature Type
+All
+Click on an Address/Place to show the
+                        location on the map and add coordinates
+                        to the Area of Interest Control.
+Num
+Address/Place
+Latitude
+Longitude
+Click on a Feature to show the
+                        location on the map and add coordinates
+                        to the Area of Interest Control.
+Placename
+Type
+Region
+Latitude
+Longitude
+You must be logged in to upload a file.
+Type
+Select One
+AERONET
+NEON Relocatable Terrestrial
+NEON Core Terrestrial
+USCRN
+SURFRAD
+EOS Land Validation Core Sites
+CEOS Reference Sites
+CEOS Super Sites
+Cal/Val Site
+Polygon
+Circle
+Predefined Area
+Coordinates Format
+Degree/Minute/Second
+Decimal
+.
+Lat:
+,
+            Lon:
+Lat:
+,
+            Lon:
+No coordinates selected.
+Circular polygons are created using a center point defined by decimal latitude and longitude values and a radius.
+Center Latitude:
+Radius:
+Meters
+Kilometers
+Miles
+Center Longitude:
+No shape loaded.
+Save Spatial Filter
+Reset
+Cancel
+Date Range
+Cloud Cover
+Result Options
+Search from:
+to:
+Search months:
+(all)
+Select Months
+(all)
+January
+February
+March
+April
+May
+June
+July
+August
+September
+October
+November
+December
+Cloud Cover Range:
+Unknown Cloud Cover Values
+Included
+Excluded
+This filter will only be applied to data sets that support cloud cover filtering (
+in the data set list denotes cloud cover support).
+Search Type
+Standard Search
+Results per Page:
+5
+10
+25
+50
+100
+Mass Media Searches are not limited by number of results or size; however, Mass Media Orders in excess of 6 terabytes will require extra processing time and justification.
+Latitude
+Longitude
+Latitude:
+°
+'
+"
+North
+South
+Longitude:
+°
+'
+"
+West
+East
+2. Select Your Data Set(s)
+Check the boxes for the data set(s) you want to search. When done selecting data set(s), click the
+Additional Criteria
+or
+Results
+buttons below.
+        Click the plus sign next to the category name to show a list of data sets.
+Use Data Set Prefilter
+(
+What's This?
+)
+0
+data sets out of
+0
+were hidden by the prefilter
+(Show)
+.
+Data Set Search:
+Please wait while the Data Sets are loaded.
+3. Additional Criteria (Optional)
+If you have more than one data sets selected, use the dropdown to select the additional criteria for each data set.
+Data Sets:
+Additional criteria filters are cached for performance. If you are not seeing an expected filter option,
+click here to refresh
+.
+Please wait while the additional criteria form is loaded.
+4. Search Results
+If you selected more than one data set to search, use the dropdown to see the search results for each specific data set.
+Note:
+You must be logged in to download and order scenes
+Show Browse/Footprint Controls
+Show All Footprints From Current Page
+Show All Browse From Current Page
+Compare Browse:
+Map Overlay
+All Scenes
+Collection
+Browse Overlay Opacity:
+Default Browse Overlay Option (Visualization Only)
+Alternate Browse Overlay Option (Visualization Only)
+Show Result Controls
+Add All Results From Current Page to Bulk Download
+Add All Results From Current Page to Order
+Data Set
+Click here to export your results »
+Total Results Approximated
+The total number of results is approximated because search criteria were not applied to this search. If new scenes have been ingested since the daily data set approximation was ran, you may be unable to access a few
+                results through this paginated interface. Applying any criteria on the "Search Criteria" or "Additional Criteria" tabs will ensure you can access all results.
+Close
+Export Name
+What do you want to call this export? If left blank, we'll generate a random token.
+Export Format
+CSV
+KMZ - Include Browse
+KMZ - No Browse
+Comma (,) Delimited
+Pipe (|) Delimited
+Shapefile
+FGDC
+Select an export format
+Do not export "Excluded" scenes
+Export Requested for Processing
+We are processing your export request.
+Close
+Export Submitted for Processing
+Large exports may take several hours to process during periods of high demand.                
+                Once processing has finished, an e-mail will be sent to the address associated with your ERS account. Real-time status updates can be found on the export status page.
+                You may return to your results at any time, it will not impact the processing of your export.
+Open Export Status Page
+Close
+End-User License Agreement (EULA)
+You are attempting to download licenses data - this requires acknowledgement of an End-User License Agreement. Please
+                review the agreement content and click "I Agree" to proceed to your download.
+Cancel
+I Agree - Continue to Download
+Unable to add scene(s)
+Close
+Cancel
+Search Criteria Summary
+(Show)
+Clear Search Criteria
+You are searching the following data sets:
+No data sets selected.
+Your area of interest:
+No coordinates selected.
+You are searching using the following criteria:
+Start Date:
+None
+End Date:
+None
+Months:
+(all)
+(coordinates)
+Options
+Auto-Center
+AOI Overlay Location
+Above Scene Overlay
+Below Scene Overlay
+Select Coordinates format
+Decimal Degree Format
+Degree/Minute/Second Format
+AOI Type
+Polygon
+Circle
+Predefined Area
+Basemaps are for reference only and cannot be downloaded. Some non-USGS layers may not reflect current naming conventions. Use the left-side options to access available data.
+DOI Privacy Policy
+Legal
+Accessibility
+Site Map
+Contact USGS
+U.S. Department of the Interior
+DOI Inspector General
+White House
+No Fear Act
+FOIA

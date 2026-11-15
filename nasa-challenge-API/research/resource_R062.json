@@ -1,0 +1,202 @@
+{
+  "id": "resource_R062",
+  "url": "https://websoilsurvey.nrcs.usda.gov/app/",
+  "checked_at": "2026-11-14T15:15:16.985981+00:00",
+  "tls_validation": false,
+  "status": 200,
+  "final_url": "https://websoilsurvey.nrcs.usda.gov/app/",
+  "bytes": 58270,
+  "content_type": "text/html",
+  "sha256": "de92cbfd86fff4629ca550c5e69dc2139149291a7213fa01768844535f7d9ebc",
+  "links": [
+    {
+      "url": "https://websoilsurvey.nrcs.usda.gov/app/#startContent",
+      "label": "Skip to Page Content"
+    },
+    {
+      "url": "https://www.usda.gov",
+      "label": ""
+    },
+    {
+      "url": "https://nrcs.usda.gov/",
+      "label": ""
+    },
+    {
+      "url": "https://websoilsurvey.nrcs.usda.gov/app/",
+      "label": ""
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/conservation-basics/natural-resource-concerns/soil/soil-science",
+      "label": ""
+    },
+    {
+      "url": "https://websoilsurvey.nrcs.usda.gov/app/MainHelp.htm",
+      "label": ""
+    },
+    {
+      "url": "https://nrcs.usda.gov/conservation-basics/natural-resource-concerns/soils/state-soil-scientists ",
+      "label": ""
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/conservation-basics/natural-resource-concerns/soil/soil-science",
+      "label": "Soils Home"
+    },
+    {
+      "url": "https://nrcs.usda.gov/about/partner-with-us/national-cooperative-soil-survey",
+      "label": "National Cooperative Soil Survey (NCSS)"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/conservation-basics/natural-resource-concerns/soil/soil-surveys-by-state",
+      "label": "Archived Soil Surveys"
+    },
+    {
+      "url": "https://websoilsurvey.nrcs.usda.gov/DataAvailability/SoilDataAvailabilityMap.pdf",
+      "label": "Status Maps"
+    },
+    {
+      "url": "https://nrcs.usda.gov/resources/data-and-reports/official-soil-series-descriptions-osd",
+      "label": "Official Soil Series Descriptions (OSD)"
+    },
+    {
+      "url": "https://casoilresource.lawr.ucdavis.edu/see/",
+      "label": "Series Extent Explorer"
+    },
+    {
+      "url": "https://gdg.sc.egov.usda.gov/",
+      "label": "Geospatial Data Gateway"
+    },
+    {
+      "url": "http://www.nrcs.usda.gov/wps/portal/nrcs/main/national/technical/fotg/",
+      "label": "eFOTG"
+    },
+    {
+      "url": "http://ncsslabdatamart.sc.egov.usda.gov/",
+      "label": "National Soil Characterization Data"
+    },
+    {
+      "url": "https://nrcs.usda.gov/conservation-basics/natural-resource-concerns/soils/soil-health",
+      "label": "Soil Health"
+    },
+    {
+      "url": "https://nrcs.usda.gov/conservation-basics/natural-resource-concerns/soils/soil-geography ",
+      "label": "Soil Geography"
+    },
+    {
+      "url": "https://websoilsurvey.nrcs.usda.gov/app/WebSoilSurvey.aspx",
+      "label": ""
+    },
+    {
+      "url": "https://nrcs.usda.gov/contact/find-a-service-center",
+      "label": "USDA Service Center"
+    },
+    {
+      "url": "https://nrcs.usda.gov/contact/find-a-service-center",
+      "label": "NRCS State Soil Scientist"
+    },
+    {
+      "url": "https://websoilsurvey.nrcs.usda.gov/app/WebSoilSurvey.aspx",
+      "label": "Start Web Soil Survey (WSS)"
+    },
+    {
+      "url": "https://nrcs.usda.gov/conservation-basics/natural-resource-concerns/soils/requirements-for-running-web-soil-survey",
+      "label": "Know Web Soil Survey Requirements"
+    },
+    {
+      "url": "https://nrcs.usda.gov/conservation-basics/natural-resource-concerns/soils/maintenance-schedule-for-web-soil-survey",
+      "label": "Know Web Soil Survey operation hours"
+    },
+    {
+      "url": "https://websoilsurvey.nrcs.usda.gov/DataAvailability/SoilDataAvailabilityMap.pdf",
+      "label": "Find what areas of the U.S. have soil data"
+    },
+    {
+      "url": "https://nrcs.usda.gov/sites/default/files/2022-08/WSS-Guide-to-Maps-Reports-Tables.pdf",
+      "label": "Find information by topic"
+    },
+    {
+      "url": "https://nrcs.usda.gov/conservation-basics/natural-resource-concerns/soils/wss-url-query-parameters",
+      "label": "Know how to hyperlink from other documents to Web Soil Survey"
+    },
+    {
+      "url": "https://nrcs.usda.gov/resources/data-and-reports/ssurgo/stats2go-metadata",
+      "label": "Know the SSURGO data structure"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/conservation-basics/natural-resource-concerns/soils/web-soil-survey-links#mobile",
+      "label": "Use Web Soil Survey on a mobile device"
+    },
+    {
+      "url": "https://nrcs.usda.gov/conservation-basics/natural-resource-concerns/soils/web-soil-survey-new-features",
+      "label": "Web Soil Survey 3.4.0 has been released! View Web Soil Survey release history"
+    },
+    {
+      "url": "https://public.govdelivery.com/accounts/USDAFARMERS/subscriber/new?topic_id=USDAFARMERS_4035",
+      "label": "Sign up for e-mail updates via GovDelivery"
+    },
+    {
+      "url": "https://nrcs.usda.gov/conservation-basics/natural-resource-concerns/soils/getting-started-with-web-soil-survey",
+      "label": "Getting Started With Web Soil Survey"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/conservation-basics/natural-resource-concerns/soils/web-soil-survey-links#help",
+      "label": "How to use Web Soil Survey Online Help"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/conservation-basics/natural-resource-concerns/soils/web-soil-survey-links#problems",
+      "label": "Known Problems and Workarounds"
+    },
+    {
+      "url": "https://www.nrcs.usda.gov/conservation-basics/natural-resource-concerns/soils/web-soil-survey-links#faqs",
+      "label": "Frequently Asked Questions"
+    },
+    {
+      "url": "https://nrcs.usda.gov/resources/data-and-reports/web-soil-survey#citation",
+      "label": "Citing Web Soil Survey as a source of soils data"
+    },
+    {
+      "url": "https://nrcs.usda.gov/conservation-basics/natural-resource-concerns/soils/wss-tips-and-shortcuts",
+      "label": ""
+    },
+    {
+      "url": "https://nrcs.usda.gov/",
+      "label": "NRCS Home"
+    },
+    {
+      "url": "https://www.usda.gov",
+      "label": "USDA"
+    },
+    {
+      "url": "https://nrcs.usda.gov/conservation-basics/natural-resource-concerns/soils",
+      "label": "NRCS Soils"
+    },
+    {
+      "url": "https://www.usda.gov/ogc/office-information-affairs/foia-division",
+      "label": "FOIA"
+    },
+    {
+      "url": "https://www.usda.gov/accessibility-statement",
+      "label": "Accessibility Statement"
+    },
+    {
+      "url": "https://www.usda.gov/privacy-policy",
+      "label": "Privacy Policy"
+    },
+    {
+      "url": "https://www.usda.gov/non-discrimination-statement",
+      "label": "Non-Discrimination Statement"
+    },
+    {
+      "url": "https://www.ocio.usda.gov/policy-directives-records-forms/information-quality-activities",
+      "label": "Information Quality"
+    },
+    {
+      "url": "https://www.USA.gov",
+      "label": "USA.gov"
+    },
+    {
+      "url": "https://www.whitehouse.gov",
+      "label": "White House"
+    }
+  ],
+  "elapsed_seconds": 2.047
+}

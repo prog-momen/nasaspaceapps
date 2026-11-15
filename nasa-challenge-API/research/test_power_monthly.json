@@ -1,0 +1,13 @@
+{
+  "id": "test_power_monthly",
+  "url": "https://power.larc.nasa.gov/api/temporal/monthly/point?parameters=T2M&community=AG&longitude=35.26&latitude=32.22&start=2005&end=2025&format=JSON",
+  "checked_at": "2026-11-14T15:12:43.517065+00:00",
+  "tls_validation": false,
+  "status": 200,
+  "final_url": "https://power.larc.nasa.gov/api/temporal/monthly/point?parameters=T2M&community=AG&longitude=35.26&latitude=32.22&start=2005&end=2025&format=JSON",
+  "bytes": 4547,
+  "content_type": "application/json",
+  "sha256": "391ff7a495ed2d0fb612463529f5e892c772d543ed1abbfcabb872995a573427",
+  "links": [],
+  "elapsed_seconds": 0.89
+}

@@ -1,0 +1,292 @@
+Data | NASA Global Precipitation Measurement Mission
+Skip to main content
+GLOBAL
+PRECIPITATION
+MEASUREMENT
+SEARCH
+QUESTIONS
+Missions
+GPM
+GPM Core Observatory
+GPM Microwave Imager (GMI)
+Dual-frequency Precipitation Radar (DPR)
+GPM Constellation
+Launch
+GPM 10 Year Anniversary
+TRMM
+Spacecraft and Instruments
+Extreme Weather News
+Articles
+Data
+Data Directory
+Data Sources
+Data News
+Data FAQ
+Data Policy
+Training
+Tutorials
+Ground Validation Data
+IMERG
+Precipitation Climatology
+Seasonal Precipitation Variations
+Visualization
+IMERG Global Viewer
+NASA Worldview
+Precipitation & Applications Viewer
+RAIN Global Viewer
+Articles
+Applications
+Ecology
+Water & Agriculture
+Energy
+Weather
+Extreme Weather News
+Health
+Disease Initiative
+Disasters
+Landslides
+COOLR
+Landslide Reporter
+Landslide Reporter FAQ
+Who's Using GPM Data
+Applications Highlights
+Articles
+Science
+Research Topics
+Storm Structure and Mesoscale Dynamics
+The Global Water Cycle
+Climate Analysis
+Precipitation Microphysics
+Ground Validation
+Field Campaigns
+Ground and Airborne Instruments
+Validation
+Precipitation Algorithms
+Meetings
+PMM Science Team
+Articles
+Resources
+Frequently Asked Questions
+Image Gallery
+Video Gallery
+Documents
+GPM Refereed Publications
+TRMM Refereed Publications
+3D Printed GPM Precipitation Data
+Media & Press Resources
+Glossary
+All Articles
+Education
+Water Cycle
+Weather & Climate
+Societal Applications
+Technology
+Home
+Data
+Data
+Thursday, September 13, 2018
+Precipitation data from the GPM and TRMM missions are made available free to the public in a variety of formats from several sources at NASA Goddard Space Flight Center. This section outlines the different types of data available, the levels of processing, the sources to download the data, and some helpful tips for utilizing precipitation data in your research.
+Beginner Resources
+Training
+Tutorials
+Data Visualization
+Data FAQ
+Learn about IMERG
+Sections
+GPM Data Resources
+Data Directory (Downloads & Documentation)
+Data Usage Policy
+NASA Precipitation Processing System
+Ground Validation Data
+Frequently Asked Questions
+How do I get precipitation data for my specific location?
+There are several sources for downloading and viewing data which allow you to subset the data to only include specific parameters and/or geographic locations. These include the
+GES DISC
+,
+Giovanni
+and
+STORM
+. In Giovanni you can obtain data for a specific country, U.S. state, or watershed by using the "Show Shapes" option in the "Select Region" pane.
+What happened to the TRMM Multi-satellite Precipitation Analysis (TMPA / 3B4x) data products?
+The TRMM satellilte has been decommissioned and stopped collecting data in April 2015. The transition from the Tropical Rainfall Measuring Mission (TRMM) data products to the Global Precipitation Measurement (GPM) mission products has completed as of August 2019. The GPM IMERG dataset now includes TRMM-era data from June 2000 to the present, and other TRMM-era data has been reprocessed with GPM-era algorithms and is now available on the GPM FTP servers. TMPA data production ended as of December 31st, 2019 and the TRMMOpen FTP server has been shut down. Historical TMPA data is still available to download from the NASA GES DISC at:
+https://disc.gsfc.nasa.gov/datasets?keywords=TMPA&page=1
+Click here for more details on the transition from TMPA to IMERG.
+Am I allowed to use GPM data for my research?
+Yes, in line with NASA's general data policy. Please refer to the
+GPM Data Policy
+for further details.
+How do I give credit for using GPM data?
+The data set source should be acknowledged when the data are used. One standard format for a formal reference is:
+Dataset authors/producers, data release date: Dataset title, version. Data archive/distributor, access date in standard AMS format, data locator/identifier (doi or URL).
+For example:
+G.J. Huffman, D.T. Bolvin, R. Joyce, E.J. Nelkin, J. Tan, D. Braithwaite, K. Hsu, O.A. Kelley, P. Nguyen, S. Sorooshian, D.C. Watters, B.J. West, P. Xie, 2023: Integrated Multi-satellitE Retrievals for GPM (IMERG), version 07. NASA's Precipitation Processing Center, accessed 6 April 2026,
+https://arthurhouhttps.pps.eosdis.nasa.gov/gpmdata/
+For more details on citation format, please refer to the American Meteorological Society Data Archiving and Citation guidelines:
+http://www2.ametsoc.org/ams/index.cfm/publications/authors/journal-and-…
+Where can I find detailed documentation on the precipitation algorithms?
+Browse our directory of GPM data products (
+https://gpm.nasa.gov/data/directory
+) to locate your desired algorithm, then click on the links in the algorithm description under "Documentation". All documentation is also available at the Precipitation Processing System website (
+https://pps.gsfc.nasa.gov/
+). Note that "GPM data products" includes data from both the GPM and TRMM eras, uniformly processed using the most current GPM-based algorithms.
+What is the spatial and temporal resolution of GPM data?
+The resolution of Level 0, 1, and 2 data is determined by the footprint size and observation interval of the sensors involved.  Level 3 products are given a grid spacing that is driven by the typical footprint size of the input data sets.
+For our popular multi-satellite GPM IMERG data products, the spatial resolution is 0.1° x 0.1° (or roughly 10km x 10km) with a 30 minute temporal resolution.
+Visit the directory of
+GPM & TRMM data products
+for details on the resolution of each specific products.
+Can I use images or videos from this site or other NASA websites?
+For questions about permission for using NASA images and videos, please refer to
+NASA's official Media Usage Guidelines
+. For questions about specific images, please call 202-358-1900. For questions about specific video, please call 202-358-0309
+Is it possible to subset GPM data?
+There are several sources for downloading and viewing data which allow you to subset the data to only include specific parameters and/or geographic locations. These include the
+GES DISC
+,
+Giovanni
+and
+STORM
+. In Giovanni you can obtain data for a specific country, U.S. state, or watershed by using the "Show Shapes" option in the "Select Region" pane.
+What is the difference between "Near Real-time" (NRT) and "Production" / "Research" data?
+GPM data products can be divided into two groups (near real-time and production) depending on how soon they are created after the satellite collects the observations. For applications such as weather, flood, and crop forecasting that need precipitation estimates as soon as possible, near real-time data products are most appropriate. For all other applications, production data products are generally the best data sets to use because additional or improved inputs are used to increase accuracy. These other inputs are only made available several days, or in some cases, several months, after the satellite observations are taken, and the production data sets are computed after all data have arrived, making possible a more careful analysis.
+For the GPM IMERG dataset, IMERG Early and Late Runs are the near real-time products, while IMERG Final Run is the research / production product.
+View the full list of frequently asked questions.
+Data News
+Wednesday, August 19, 2026
+New WSF-M1 MWI NRT Files Available
+Effective August 12, 2026 PPS made available NRT data from the DOD WSF-M1 MWI instrument. Both intercalibrated 1C granules and GPROF precipitation retrieval files are available to users. The WSF NRT granules are about 15 mins long. Some are shorter because of the way they are delivered to NRT. Please note that 1C granules are not the same as the DOD provided SDR product that provide the basis for the intercalibration. 1C products have fewer parameters in them than the original SDR. Only those needed for the precipitation retrieval are included. NOAA is the official distributor of the WSF SDR...
+Thursday, August 6, 2026
+Update to the IMERG V08 Transition Schedule, Aug. 2026
+This is an update to the IMERG V08 transition schedule posted on April 28, 2026, at
+https://gpm.nasa.gov/data/news/imerg-v08-transition-schedule
+. At this moment, the IMERG development team is still waiting for V08 of one of the parent products to IMERG to be finalized. Until this parent product becomes available, the team cannot assess its full impact on IMERG V08 and move towards a complete reprocessing of the record starting 1998. Therefore, at this stage, it seems more likely that IMERG V08 Final Run will be released in the fall of 2026, though this projection assumes that the parent...
+Tuesday, April 28, 2026
+IMERG V08 Transition Schedule
+For the Final Run, the V07 record ends in September 2025 because the parent products feeding into the IMERG algorithm (CORRA and GPROF) are being upgraded to V08. If processing were to go beyond September, the Final record would have to use V08 inputs instead of V07 inputs. Since the IMERG V07 code is configured with the expectation of V07 inputs, this would introduce potential discontinuities in the Final record. The IMERG V08 Final Run is planned for release in the summer of 2026, though this timeline assumes that V08 of the parent products behaves within expected bounds. When this release...
+Thursday, January 8, 2026
+Upcoming GPM Near Real-time Maintenance
+On Tuesday, 20 January 2026, NASA's Precipitation Processing System (PPS) will temporarily shutdown the GPM Near Real-time (NRT) system at 18:00 EST (23:00 UTC). This is necessary to complete the move of data from the current high-speed storage system (not currently under maintenance) to the new storage system that is under maintenance. It will take approximately 14 hours to finalize the synchronization of the data from the old storage to the new one. During this 14 hours no new data will be produced or ingested. While user access to the file server (jsimpson.pps.eosdis.nasa.gov and...
+Wednesday, July 30, 2025
+SSMIS Data Collection to Continue into 2026
+Department of Defense officials have reached an agreement to continue sharing DMSP SSMIS data until the sensor fails, or until the program formally ends (currently planned for September 2026). This decision puts off for now the impacts that the previously announced SSMIS shutdown would have had on the IMERG product.
+Pagination
+Current page
+1
+Page
+2
+Page
+3
+Page
+4
+Page
+5
+Page
+6
+Page
+7
+Page
+8
+Page
+9
+…
+Next page
+Next ›
+Last page
+Last »
+Related Articles
+Global Precipitation During July to September of the 2026-27 El Niño
+Monday, October 12, 2026
+El Niño events occur every two to seven years, and they are driven by feedback between ocean currents and the circulation of the atmosphere over the tropical Pacific Ocean. Variation in ocean temperature and wind patterns drives variation in the rain and snow that falls over the tropical Pacific and elsewhere in the world. Many forecasts have been issued for the El Niño that started in the summer of 2026, and past El Niños have been extensively discussed during the months leading up to this one. One way that NASA contributes to the conversation is to provide, in near real time, estimates of
+Read More
+Oscillations in Global Precipitation
+Wednesday, August 5, 2026
+Whether or not it rains a week from now where you live may seem mostly random, but a long enough data record will likely reveal rainfall patterns that repeat over hours, months, or years. Atmospheric scientists describe some of these repeating patterns as cycles and others as oscillations. There are annual and daily precipitation cycles tied to the variation of the sun's path across the sky [1]. An example of precipitation affected by time of day is that summer thunderstorms occur predominantly in afternoon or early evening along the East Coast of the United States. An example of seasonal
+Read More
+Natural Cycles in Global Precipitation
+Friday, March 27, 2026
+In many places, the amount of that rain falls on a particular day or hour is influenced by multiple natural cycles that exist simultaneously on different time scales. One such cycle repeats every 24 hours, and another repeats every year. The global extent of these cycles can be studied using NASA's IMERG precipitation estimates that have been generated for 1998 to the present. Most of Earth's precipitation falls as rain, and the rest falls as snow, hail, or other forms of precipitation. The length of IMERG's data record makes it possible to average out some of the random error and unrelated
+Read More
+27 Years of Global Rainfall at Your Fingertips
+Thursday, July 24, 2025
+NASA's Worldview website now allows you to explore global estimates of rainfall and snowfall from 1998 to the present at 30-minute intervals. Researchers and application developers have been using this dataset since 2014 (Portier 2024; Portier et al. 2023), but now it is also available as images in Worldview.
+Read More
+Explore 20 Years of Rain and Snowfall Data from NASA’s Precipitation Missions
+Wednesday, September 9, 2020
+A new data product merges data from the Tropical Rainfall Measuring Mission (TRMM) and the Global Precipitation Measurement (GPM) mission, giving meteorologists and researchers access to a 20-year precipitation record. How much rain and snow fall on Earth in any given year? NASA scientists are answering this question more accurately than ever before and observing precipitation in the most remote places on Earth. And it’s all thanks to an international constellation of satellites. At any given time, instruments onboard about a dozen satellites contribute to a record of the world’s rain and snow
+Read More
+Using the IMERG Long-term Precipitation Dataset for Applications
+Thursday, October 17, 2019
+A long precipitation data set like the new GPM IMERG V06 product is valuable for many applications and for decision-making. Accurate and reliable precipitation records are not only crucial to understanding trends and variability but also for water management resources and food security, ecological management, and weather, climate and hydrological forecasting. Here we present a few highlights showcasing how GPM IMERG is helping a variety of end users make decisions that will benefit society for years to come. GPM IMERG Data Used for Wind Energy Map of average precipitation in north-central...
+Read More
+The Art of Creating Digital Hurricanes
+Wednesday, May 25, 2016
+Every day, scientists at NASA work on creating better hurricanes – on a computer screen. At NASA’s Goddard Space Flight Center in Greenbelt, Maryland, a team of scientists spends its days incorporating millions of atmospheric observations, sophisticated graphic tools and lines of computer code to create computer models simulating the weather and climate conditions responsible for hurricanes. Scientists use these models to study the complex environment and structure of tropical storms and hurricanes. Getting the simulations right has huge societal implications, which is why one Goddard...
+Read More
+The Evolution of NASA Precipitation Data
+Tuesday, September 29, 2015
+NASA’s global precipitation data and data processing systems have come a long way from the launch of TRMM in 1997 to the ongoing GPM mission. Just before midnight Eastern Daylight Time on June 15, 2015, a fireball appeared over central Africa, streaked across Madagascar, and tracked across the uninhabited Southern Indian Ocean. This was the fiery end of the joint NASA/Japan Aerospace Exploration Agency (JAXA) Tropical Rainfall Measuring Mission (TRMM). TRMM’s homecoming after more than 17 years in orbit also marked the end of the first major satellite mission specifically designed to gather...
+Read More
+GPM's First Global Rainfall and Snowfall Map
+Thursday, March 12, 2015
+The Global Precipitation Measurement mission has produced its first global map of rainfall and snowfall. Like a lead violin tuning an orchestra, the GPM Core Observatory – launched one year ago on Feb. 27, 2014, as a collaboration between NASA and the Japan Aerospace Exploration Agency – acts as the standard to unify precipitation measurements from a network of 12 satellites. The result is NASA's Integrated Multi-satellite Retrievals for GPM data product, called IMERG, which combines all of these data from 12 satellites into a single, seamless map. The map covers more of the globe than any...
+Read More
+GPM's How-to Guide for Global Rain Maps
+Thursday, September 4, 2014
+In a data-processing room at NASA’s Goddard Space Flight Center in Greenbelt, Maryland, racks of high-powered computers are making a set of maps. They're not the familiar satellite map of farms, forests and cities. Instead, the maps will show what's in the atmosphere above the ground -- falling rain and snow. The data come from the Global Precipitation Measurement mission, an international partnership led by NASA and the Japan Aerospace Exploration Agency. The GPM Core Observatory launched on Feb. 27, 2014, and after an initial check-out period, began its prime mission on May 29. The data...
+Read More
+Pagination
+Next page
+>>
+Hide Body
+Hide Date
+Data
+Data Directory
+Data Sources
+Data News
+Data FAQ
+Data Policy
+Training
+Tutorials
+Ground Validation Data
+IMERG
+Precipitation Climatology
+Seasonal Precipitation Variations
+Visualization
+IMERG Global Viewer
+NASA Worldview
+Precipitation & Applications Viewer
+RAIN Global Viewer
+Articles
+Connect With Us
+Ask A Question
+Other NASA Data Resources
+NASA Earthdata
+NASA ARSET: Applied Remote Sensing Training
+NASA Earth Applied Sciences Disasters Program
+NASA Worldview
+NASA Official:
+George Huffman
+NASA HQ:
+Will McCarty
+Web Curator:
+Charles Cosner
+Webmaster:
+Jacob Reed
++
+Privacy Policy
+&
+Accessibility
++
+NASA Image Use Policy
++
+Ask a Question
++
+Site Map
++
+Earth Science Division
++
+Goddard Space Flight Center
++
+NASA.gov
++
+USA.gov

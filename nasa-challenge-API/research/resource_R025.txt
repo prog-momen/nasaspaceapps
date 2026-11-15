@@ -1,0 +1,233 @@
+The Surface Water and Ocean Topography (SWOT) mission | Canadian Space Agency
+Skip to main content
+Skip to "About government"
+Language selection
+Français
+fr
+/
+Gouvernement du Canada
+Search
+Search Canadian Space Agency
+Search
+Menu
+Main
+Menu
+Jobs and the workplace
+Immigration and citizenship
+Travel and tourism
+Business and industry
+Benefits
+Health
+Taxes
+Environment and natural resources
+National security and defence
+Culture, history and sport
+Policing, justice and emergencies
+Transport and infrastructure
+Canada and the world
+Money and finances
+Science and innovation
+You are here:
+Canada.ca
+Canadian Space Agency
+Discover the themes
+Satellites
+Top of page
+The Surface Water and Ocean Topography (SWOT) mission
+Launch:
+December 16, 2022
+Mission status:
+Active
+Mission duration
+: 3 years with possibility to extend
+An international mission
+The
+SWOT
+mission
+is  providing us with new and detailed  information on one of the most important resources we share – water.
+Led by
+NASA
+and France's space agency (
+CNES
+), in collaboration with the
+CSA
+and the
+UK
+Space Agency,
+SWOT
+surveys 90% of Earth's surface water, measuring changes in water surface elevation for lakes, rivers, reservoirs, and oceans over time.
+By using innovative technology,
+SWOT
+measures ocean features at spatial scales up to 10 times smaller than previous  technologies can. These precise measurements provide the  scientific community with a better understanding of the dynamics of the world's  oceans and terrestrial surface water, allowing them to address important global  issues like
+climate  change
+and improve our management of water as a strategic resource.
+Ok
+2017-01-16 – This animation shows the
+SWOT
+mission satellite collecting precise water level measurements. (Credits:
+NASA
+,
+JPL
+-Caltech)
+Canada's contribution
+Canada's participation in this mission brings significant benefits: it builds on the strength and expertise of our industry and its economic growth; it also represents an important gain in scientific knowledge.
+Technology
+The Canadian Space Agency (
+CSA
+) accepted
+NASA
+'s invitation to participate in the
+SWOT
+mission by providing a key  component of the wide-swath radar instrument – a set of
+extended interaction klystrons (
+EIKs
+)
+. This  is a modest contribution to this major
+US
+$1.2
+B
+investment
+but nevertheless  crucial
+, as the
+EIKs
+amplify the power needed by the wide-swath  instrument to generate the microwave pulses that are used to measure water  surface elevation.
+Communications & Power Industries Canada
+Inc.
+is world-renowned for its expertise in  building this sophisticated device, as no other firms have a proven record of  building and flying space-grade
+EIKs
+.
+Text version
+of the infographic SWOT - Surface Water and Topography Mission
+SWOT
+- Surface Water and Topography Mission infographic. (Credit:
+CSA
+)
+Science
+Through this partnership, free access to
+SWOT
+data can now improve many water-related services in Canada, including flood and water level monitoring. This effort will help with implementing sustainable water management policies.
+Text version
+The
+SWOT
+mission - surveying Earth's surface water to help adapt to climate change and improve water management - infographic
+Infographic presenting elements to be studied by Canadian scientists with
+SWOT
+mission data. (Credit:
+CSA
+)
+The
+SWOT
+international science team, including Canadian scientists from Environment and Climate Change Canada and Fisheries and Oceans Canada, is pursuing
+SWOT
+mission objectives and desired outcomes within two main areas of research,
+hydrology
+and
+oceanography
+, to enhance our understanding of:
+the water cycle across the country
+sea level variations in Canadian waters
+Hydrology
+Mission objectives and desired outcomes for hydrology research
+Mission objectives
+Desired outcomes
+to measure the height and slope of fresh water bodies
+to calculate the rate of water gained or lost in lakes, reservoirs and wetlands
+to evaluate discharge variations in rivers and estuaries
+to improve our estimation of surface water availability
+to assist in understanding important water-related hazards, such as floods and droughts
+to gain knowledge on the global water cycle
+Oceanography
+Mission objectives and desired outcomes for cceanography research
+Mission objectives
+Desired outcomes
+to obtain precise measurements of ocean elevation features
+to measure small- and medium-scale features of the ocean's surface such as eddies and fronts
+to better understand small-scale ocean circulation, which transports half of the heat and carbon from the upper to the deep ocean, a critical process linked to global climate change
+to help predict and  characterize tides and storm surge features
+to improve ocean circulation numerical models leading to better prediction of ocean currents, weather and  climate important for navigation, fisheries and offshore commercial operations
+Benefits to Canadians
+The information received is greatly improving the delivery of services related to key national priorities
+related to water
+, such as marine safety and security, water management, responsible resource development, fisheries, climate change adaptation, marine transportation and sustainable development in the North. For example:
+Marine safety and security
+Example: Support the Canadian Coast Guard's search and rescue operations at sea by providing better information on water levelcurrents to more accurately forecast the water surface currents and the positions of drifting objects, ice and icebergs, oil spills or other potential contaminants.
+Water management
+Example: Environment and Climate Change Canada, in cooperation with provincial and territorial  partners, monitors water level and flow at approximately 2500 key locations on  lakes and rivers in Canada (
+Water Survey of Canada
+). Due  to the complexity and cost of operating ground-based hydrometric monitoring  gauges, especially in remote regions, this represents only a small fraction of  the total number of lakes and rivers in Canada.
+SWOT
+provides coverage of most lakes and rivers up to four times every three weeks, including northern Canada, where  very few measurements were  taken previously. This global inventory of Canadian waters serves to improve our water management and assist in  prediction of floods and drought.
+Responsible resource development
+Example: Measurements provided by
+SWOT
+benefit user communities such as structural engineers who use hydrometric data to optimize the design of various types of structures such as bridges, culverts, pipeline crossings, dams, reservoirs, hydroelectric plants, dykes and other water-related structures.
+Conservation and protection
+Example: Support sustainable management of fish habitat by providing relevant information derived from measuring water surface elevation of the oceans and freshwater water bodies such as major rivers and lakes. For example, these satellite-based measurements enable monitoring of streamflow in rivers and water storage in lakes, which are important parameters for fish migration and the availability of spawning and rearing habitat.
+Marine transportation
+Example: Provide optimized shipping routes based on accurate knowledge of marine currents, waves and water levels. These optimized shipping routes have demonstrated up to 8% savings on time and fuel for crossing the Atlantic, which represents a significant efficiency improvement for marine operators and reduces the risk of accidents.
+Sustainable development in the North
+Example:
+SWOT
+'s high-valued data assists decision makers to better monitor the effects of climate change happening in the North. Information provided to the government on water quantity supports biodiversity and habitat assessments, as well as environmental prediction activities.
+Participating universities
+Université de  Sherbrooke
+University of  Toronto
+McGill University
+Dalhousie University
+Wilfrid  Laurier University
+Université Laval
+Guelph University
+Concordia University
+Université du Québec à Rimouski
+University of Victoria
+Explore further
+SWOT
+: Unlocking the secrets of Canada's oceans, lakes, and rivers
+Taking action on climate change
+Earth observation satellites
+Follow us
+Facebook: CanadianSpaceAgency
+X: @csa_asc
+Youtube: canadianspaceagency
+Instagram: canadianspaceagency
+Linkedin: Canadian Space Agency
+RSS
+Date modified:
+2024-10-22
+About this site
+Canadian Space Agency
+Contact the
+CSA
+About the
+CSA
+Notices and copyright
+Government of Canada
+All contacts
+Departments and agencies
+About government
+Themes and topics
+Jobs
+Immigration and citizenship
+Travel and tourism
+Business
+Benefits
+Health
+Taxes
+Environment and natural resources
+National security and defence
+Culture, history and sport
+Policing, justice and emergencies
+Transport and infrastructure
+Canada and the world
+Money and finances
+Science and innovation
+Indigenous Peoples
+Veterans and military
+Youth
+Manage life events
+Government of Canada Corporate
+Social media
+Mobile applications
+About Canada.ca
+Terms and conditions
+Privacy

@@ -1,0 +1,58 @@
+[
+  [
+    "https://nssdc.gsfc.nasa.gov/",
+    "NASA Space Science Data Coordinated Archive (NSSDCA)"
+  ],
+  [
+    "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1969-059C",
+    "Apollo Lunar Modules"
+  ],
+  [
+    "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1971-063C",
+    "Lunar Roving Vehicles (LRVs)"
+  ],
+  [
+    "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1969-099C",
+    "ALSEP Scientific Packages"
+  ],
+  [
+    "https://science.nasa.gov/mission/surveyor-3/",
+    "Surveyor Landers"
+  ],
+  [
+    "https://science.nasa.gov/mission/mars-pathfinder/",
+    "Sojourner Rover"
+  ],
+  [
+    "https://science.nasa.gov/mission/mars-exploration-rovers-spirit-and-opportunity/",
+    "Spirit & Opportunity"
+  ],
+  [
+    "https://science.nasa.gov/mission/viking-1/",
+    "Viking 1 & 2 Landers"
+  ],
+  [
+    "https://science.nasa.gov/mission/insight/",
+    "Phoenix & InSight Landers"
+  ],
+  [
+    "https://science.nasa.gov/mission/dawn/",
+    "Dawn Spacecraft"
+  ],
+  [
+    "https://science.nasa.gov/mission/near-shoemaker/",
+    "NEAR Shoemaker"
+  ],
+  [
+    "https://science.nasa.gov/mission/pioneer-10/",
+    "Pioneer 10 & 11"
+  ],
+  [
+    "https://science.nasa.gov/mission/mars-2020-perseverance/ingenuity-mars-helicopter/",
+    "Ingenuity Helicopter"
+  ],
+  [
+    "https://science.nasa.gov/mission/kepler/",
+    "Kepler Space Telescope"
+  ]
+]

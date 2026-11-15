@@ -1,0 +1,675 @@
+SMAP L3 Radiometer Global Daily 36 km EASE-Grid Soil Moisture, Version 9 | National Snow and Ice Data Center
+Menu
+National Snow and Ice Data Center
+NSIDC
+a part of CIRES at the University of Colorado Boulder
+Skip to main content
+Main navigation
+News & Analyses
+News & Stories
+Sea Ice Today
+Ice Sheets Today
+Snow Today
+About our Analyses
+Multimedia
+Data
+Explore Data
+Visualize Data
+Submit Data
+User Resources
+Get Started with Data
+Data Announcements
+Help Center
+Data Tools
+Documents
+Levels of Service
+NASA Earthdata Forum
+Data Programs
+About our Programs
+NASA National Snow and Ice Data Center Distributed Active Archive Center (NSIDC DAAC)
+NOAA at NSIDC
+Exchange for Observations and Local Knowledge of the Arctic (ELOKA)
+Data Policies
+Our Research
+Learn
+What is the Cryosphere?
+Parts of the Cryosphere
+Arctic Weather & Climate
+Frozen Ground & Permafrost
+Glaciers
+Ice Sheets
+Ice Shelves
+Sea Ice
+Snow
+Ask a Scientist
+Cryosphere glossary
+About
+About NSIDC
+What We Do
+Our People
+Published Research
+Our History
+Careers
+50th Anniversary
+For the Media
+Contact Us
+Citation Policies
+Protecting Your Privacy
+Land Acknowledgement
+Search
+News & Analyses
+News & Stories
+Sea Ice Today
+Ice Sheets Today
+Snow Today
+About our Analyses
+Multimedia
+Data
+Explore Data
+Visualize Data
+Submit Data
+User Resources
+Get Started with Data
+Data Announcements
+Help Center
+Data Tools
+Documents
+Levels of Service
+NASA Earthdata Forum
+Data Programs
+About our Programs
+NASA National Snow and Ice Data Center Distributed Active Archive Center (NSIDC DAAC)
+NOAA at NSIDC
+Exchange for Observations and Local Knowledge of the Arctic (ELOKA)
+Data Policies
+Our Research
+Learn
+What is the Cryosphere?
+Parts of the Cryosphere
+Arctic Weather & Climate
+Frozen Ground & Permafrost
+Glaciers
+Ice Sheets
+Ice Shelves
+Sea Ice
+Snow
+Ask a Scientist
+Cryosphere glossary
+About
+About NSIDC
+What We Do
+Our People
+Published Research
+Our History
+Careers
+50th Anniversary
+For the Media
+Contact Us
+Citation Policies
+Protecting Your Privacy
+Land Acknowledgement
+Home
+Data
+SMAP L3 Radiometer Global Daily 36 km EASE-Grid Soil Moisture, Version 9
+SMAP L3 Radiometer Global Daily 36 km EASE-Grid Soil Moisture, Version 9
+Data set id:
+SPL3SMP
+DOI: 10.5067/4XXOGX0OOW1S
+User Guide
+Citation
+Data Citation and Acknowledgment
+As a condition of using these data, you must cite the use of this data set. Such a practice gives credit to data set producers and advances principles of transparency and reproducibility.
+O'Neill, P. E., Chan, S., Njoku, E. G., Jackson, T., Bindlish, R. & Chaubell, J. (2023).
+SMAP L3 Radiometer Global Daily 36 km EASE-Grid Soil Moisture
+. (SPL3SMP, Version 9). [Data Set]. Boulder, Colorado USA. NASA National Snow and Ice Data Center Distributed Active Archive Center.
+https://doi.org/10.5067/4XXOGX0OOW1S
+. [
+describe subset used if applicable
+]. Date Accessed 11-14-2026.
+Copied
+COPY
+RIS
+BIBTEX
+Other standard citation formats may be found on the
+DOI Citation Formatter website
+(paste
+10.5067/4XXOGX0OOW1S
+into the top form field).
+Describing subset: When applicable, include the information a reader would need to extract the same subset at the end of your citation. If multiple or complex steps were incolved, it may be more appropriate to include this information in the paper itself.
+See our
+Citation Policies
+for more details about how to structure your data citation.
+Subscribe
+Subscribe here to receive email updates of the data set SPL3SMP
+- Select -
+United States
+Canada
+Afghanistan
+Albania
+Algeria
+American Samoa
+Andorra
+Angola
+Anguilla
+Antarctica
+Antigua & Barbuda
+Argentina
+Armenia
+Aruba
+Ascension Island
+Australia
+Austria
+Azerbaijan
+Bahamas
+Bahrain
+Bangladesh
+Barbados
+Belarus
+Belgium
+Belize
+Benin
+Bermuda
+Bhutan
+Bolivia
+Bosnia & Herzegovina
+Botswana
+Bouvet Island
+Brazil
+British Indian Ocean Territory
+British Virgin Islands
+Brunei
+Bulgaria
+Burkina Faso
+Burundi
+Cambodia
+Cameroon
+Canary Islands
+Cape Verde
+Caribbean Netherlands
+Cayman Islands
+Central African Republic
+Ceuta & Melilla
+Chad
+Chile
+China
+Christmas Island
+Clipperton Island
+Cocos (Keeling) Islands
+Colombia
+Comoros
+Congo - Brazzaville
+Congo - Kinshasa
+Cook Islands
+Costa Rica
+Croatia
+Cuba
+Curaçao
+Cyprus
+Czechia
+Côte d’Ivoire
+Denmark
+Diego Garcia
+Djibouti
+Dominica
+Dominican Republic
+Ecuador
+Egypt
+El Salvador
+Equatorial Guinea
+Eritrea
+Estonia
+Eswatini
+Ethiopia
+Falkland Islands
+Faroe Islands
+Fiji
+Finland
+France
+French Guiana
+French Polynesia
+French Southern Territories
+Gabon
+Gambia
+Georgia
+Germany
+Ghana
+Gibraltar
+Greece
+Greenland
+Grenada
+Guadeloupe
+Guam
+Guatemala
+Guernsey
+Guinea
+Guinea-Bissau
+Guyana
+Haiti
+Heard & McDonald Islands
+Honduras
+Hong Kong SAR China
+Hungary
+Iceland
+India
+Indonesia
+Iran
+Iraq
+Ireland
+Isle of Man
+Israel
+Italy
+Jamaica
+Japan
+Jersey
+Jordan
+Kazakhstan
+Kenya
+Kiribati
+Kosovo
+Kuwait
+Kyrgyzstan
+Laos
+Latvia
+Lebanon
+Lesotho
+Liberia
+Libya
+Liechtenstein
+Lithuania
+Luxembourg
+Macao SAR China
+Madagascar
+Malawi
+Malaysia
+Maldives
+Mali
+Malta
+Marshall Islands
+Martinique
+Mauritania
+Mauritius
+Mayotte
+Mexico
+Micronesia
+Moldova
+Monaco
+Mongolia
+Montenegro
+Montserrat
+Morocco
+Mozambique
+Myanmar (Burma)
+Namibia
+Nauru
+Nepal
+Netherlands
+Netherlands Antilles
+New Caledonia
+New Zealand
+Nicaragua
+Niger
+Nigeria
+Niue
+Norfolk Island
+Northern Mariana Islands
+North Korea
+North Macedonia
+Norway
+Oman
+Outlying Oceania
+Pakistan
+Palau
+Palestinian Territories
+Panama
+Papua New Guinea
+Paraguay
+Peru
+Philippines
+Pitcairn Islands
+Poland
+Portugal
+Puerto Rico
+Qatar
+Romania
+Russia
+Rwanda
+Réunion
+Samoa
+San Marino
+Saudi Arabia
+Senegal
+Serbia
+Seychelles
+Sierra Leone
+Singapore
+Sint Maarten
+Slovakia
+Slovenia
+Solomon Islands
+Somalia
+South Africa
+South Georgia & South Sandwich Islands
+South Korea
+South Sudan
+Spain
+Sri Lanka
+St. Barthélemy
+St. Helena
+St. Kitts & Nevis
+St. Lucia
+St. Martin
+St. Pierre & Miquelon
+St. Vincent & Grenadines
+Sudan
+Suriname
+Svalbard & Jan Mayen
+Sweden
+Switzerland
+Syria
+São Tomé & Príncipe
+Taiwan
+Tajikistan
+Tanzania
+Thailand
+Timor-Leste
+Togo
+Tokelau
+Tonga
+Trinidad & Tobago
+Tristan da Cunha
+Tunisia
+Turkey
+Turkmenistan
+Turks & Caicos Islands
+Tuvalu
+U.S. Outlying Islands
+U.S. Virgin Islands
+Uganda
+Ukraine
+United Arab Emirates
+United Kingdom
+Uruguay
+Uzbekistan
+Vanuatu
+Vatican City
+Venezuela
+Vietnam
+Wallis & Futuna
+Western Sahara
+Yemen
+Zambia
+Zimbabwe
+Åland Islands
+Submit
+Leave this field blank
+Service
+COMPREHENSIVE Level of Service
+Data:
+Data integrity and usability verified; data customization services available for select data
+Documentation:
+Key metadata and comprehensive user guide available
+User Support:
+Assistance with data access and usage; guidance on use of data in tools and data customization services
+See All Level of Service Details
+This is the most recent version of these data.
+Version Summary
+Changes to this version include:
+•	An improved processing methodology was applied to the input Level-2 radiometer brightness temperatures.
+•	The data algorithms, structure, content, or processor code are otherwise unchanged from the previous version.
+For the full major and minor version history, go to
+https://nsidc.org/data/smap/version-history
+In this section
+Rendering Links ...
+Rendering Links ...
+Overview
+This Level-3 (L3) soil moisture product provides a composite of daily estimates of global land surface conditions retrieved by the Soil Moisture Active Passive (SMAP) passive microwave radiometer. SMAP L-band soil moisture data are resampled to a global, cylindrical 36 km Equal-Area Scalable Earth Grid, Version 2.0 (EASE-Grid 2.0).
+Parameter(s):
+BRIGHTNESS TEMPERATURE
+SURFACE SOIL MOISTURE
+Platform(s):
+SMAP
+Sensor(s):
+SMAP L-BAND RADIOMETER
+Data Format(s):
+HDF5
+Temporal Coverage:
+31 March 2015 to present
+Temporal Resolution:
+1 day
+Spatial Resolution:
+36 km
+36 km
+Spatial Reference System(s):
+WGS 84 / NSIDC EASE-Grid 2.0 Global
+EPSG:6933
+Spatial Coverage:
+Northern latitude
+85.044
+Southern latitude
+-85.044
+Eastern longitude
+180
+Western longitude
+-180
+Blue outlined yellow areas on the map below indicate the spatial coverage for this data set.
+View Metadata Record
+Data Access & Tools
+A free NASA Earthdata Login account is required to access these data.
+Learn More
+Data Access Tool
+Filter files before downloading based on date, spatial area, or file name. Choose from various download options, such as Python script. Export bounding boxes as a GeoJSON.
+Search & Discover
+Get Data
+Related Help Resources
+How to filter and order from a data set web page
+How to use Earthdata Download
+Type:
+Web Application
+Last updated:
+April 2025
+View Metadata
+NASA Earthdata Search
+Search and order data from all NASA DAACs using spatial and temporal filters in a map interface. Reformatting, reprojecting, and subsetting options are available for some data sets.
+Visualize
+Search & Discover
+Get Data
+Related Help Resources
+How to search, order, and customize data with NASA Earthdata Search
+Type:
+Web Application
+HTTPS File System
+Get Data
+Quickly download a few files using a web browser, or access data through a command-line utility such as WGET.
+Related Help Resources
+NASA Earthdata Cloud Data Access Guide
+Type:
+service
+earthaccess
+earthaccess is a python library to search and access NASA Earth science data with just a few lines of code.
+Get Data
+Search & Discover
+Supported software languages:
+Python
+Related Help Resources
+GitHub Repository
+Type:
+Downloadable Software
+Last updated:
+May 2026
+View Metadata
+Harmony Transformation Services
+Customize
+Get Data
+Prepare analysis ready data and reduce time-to-science. Achieve seamless access to data across different NASA data centers. Customization options, which vary by data set, can include spatial, temporal, and variable subsetting, as well as regridding and reformatting.
+Related Help Resources
+NASA Earthdata Harmony documentation
+Search, order and customize NSIDC DAAC data using NASA Earthdata Search
+Subsetting NASA Earthdata using Harmony (harmony-py)
+Harmony API Quickstart Guide: Customizing NASA NSIDC DAAC data in Earthdata Cloud
+Type:
+service
+NASA Worldview
+Browse and display global satellite imagery layers from NASA GIBS. Download raw data, share screenshots, and create animations from the imagery.
+Visualize
+Search & Discover
+Get Data
+Customize
+GIS
+Related Help Resources
+How to visualize and download data with NASA Worldview
+Type:
+Web Application
+Customization Capabilities:
+data reformatting
+NASA Earthdata Cloud (AWS S3)
+Get Data
+Access data directly from the NASA Earthdata Cloud via Amazon Web Services Simple Storage Service (AWS S3). This access option is only available when working within the us-west-2 region and requires additional AWS S3 credentials.
+Related Help Resources
+NASA Earthdata Cloud Data Access Guide
+AWS S3 Credentials
+Type:
+service
+View Metadata
+AppEEARS
+Extract point and area samples from geospatial data via spatial, temporal, and/or parameter subsetting. Preview and interact with samples before downloading. The Application for Extracting and Exploring Analysis Ready Samples tool is only available for select NSIDC data products.
+Visualize
+Analyze
+Get Data
+Search & Discover
+GIS
+Customize
+Related Help Resources
+How to extract point and area data
+Type:
+Web Application
+Customization Capabilities:
+data reformatting
+reprojection
+spatial subsetting
+temporal subsetting
+variable subsetting
+SMAP Python Notebooks
+Search, download, and plot L3 SMAP data, guided by Python-based Jupyter Notebooks.
+Get Data
+Visualize
+Supported software languages:
+Python
+Related Help Resources
+https://github.com/nsidc/NSIDC-Data-Tutorials/tree/main/notebooks/SMAP
+Type:
+Downloadable Software
+Last updated:
+January 2026
+View Metadata
+Documentation
+User Guide
+SPL3SMP User Guide Version 9 [2023]
+ATBDs
+SPL2/3SMP/_E Algorithm Theoretical Basis Document [2021]
+Product Specification Documents
+SPL3SMP Product Specification Document [2021]
+Subscribe to Our Newsletter
+Follow Us
+Footer
+FOR THE PUBLIC
+News & Stories
+Learn About Snow & Ice
+Current Conditions & Analyses
+Featured Research
+Careers
+For the Media
+EDUCATORS/STUDENTS
+Current Conditions & Analyses
+Explore Data
+Help Center
+Our Research
+MOST POPULAR
+Snow, Ice & the Cryosphere
+Sea Ice Index
+Sea Ice Today - data & analyses
+Ice Sheets Today - data & analyses
+Snow Today - data & analyses
+Explore Data
+FOR RESEARCHERS
+Explore Data
+Citation Policies
+NSIDC Research
+Our Scientists
+Submit Data
+FOR THE PUBLIC
+News & Stories
+Learn About Snow & Ice
+Current Conditions & Analyses
+Featured Research
+Careers
+For the Media
+EDUCATORS/STUDENTS
+Current Conditions & Analyses
+Explore Data
+Help Center
+Our Research
+MOST POPULAR
+Snow, Ice & the Cryosphere
+Sea Ice Index
+Sea Ice Today - data & analyses
+Ice Sheets Today - data & analyses
+Snow Today - data & analyses
+Explore Data
+FOR RESEARCHERS
+Explore Data
+Citation Policies
+NSIDC Research
+Our Scientists
+Submit Data
+© 2026, National Snow and Ice Data Center - Advancing knowledge of Earth's frozen regions
+News & Analyses
+News & Stories
+Sea Ice Today
+Ice Sheets Today
+Snow Today
+About our Analyses
+Multimedia
+Data
+Explore Data
+Visualize Data
+Submit Data
+User Resources
+Get Started with Data
+Data Announcements
+Help Center
+Data Tools
+Documents
+Levels of Service
+NASA Earthdata Forum
+Data Programs
+About our Programs
+NASA National Snow and Ice Data Center Distributed Active Archive Center (NSIDC DAAC)
+NOAA at NSIDC
+Exchange for Observations and Local Knowledge of the Arctic (ELOKA)
+Data Policies
+Our Research
+Learn
+What is the Cryosphere?
+Parts of the Cryosphere
+Arctic Weather & Climate
+Frozen Ground & Permafrost
+Glaciers
+Ice Sheets
+Ice Shelves
+Sea Ice
+Snow
+Ask a Scientist
+Cryosphere glossary
+About
+About NSIDC
+What We Do
+Our People
+Published Research
+Our History
+Careers
+50th Anniversary
+For the Media
+Contact Us
+Citation Policies
+Protecting Your Privacy
+Land Acknowledgement

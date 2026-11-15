@@ -1,0 +1,13 @@
+{
+  "id": "test_appeears_product",
+  "url": "https://appeears.earthdatacloud.nasa.gov/api/product?limit=1",
+  "checked_at": "2026-11-14T15:12:43.500811+00:00",
+  "tls_validation": false,
+  "status": 200,
+  "final_url": "https://appeears.earthdatacloud.nasa.gov/api/product?limit=1",
+  "bytes": 522,
+  "content_type": "application/json",
+  "sha256": "310326a9fba238927b8732f865fa83aba5ebf665166b6d2b8f967fe3cf508d79",
+  "links": [],
+  "elapsed_seconds": 0.5
+}

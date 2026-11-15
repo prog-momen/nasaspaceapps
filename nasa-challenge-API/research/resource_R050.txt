@@ -1,0 +1,284 @@
+Open data and information Portal
+Skip to main content
+Skip to "About this site"
+Language selection
+Français
+fr
+Government of Canada /
+Gouvernement du Canada
+Search Canada.ca
+Search Canada.ca
+Search
+Menu
+Main
+Menu
+Jobs and the workplace
+Immigration and citizenship
+Travel and tourism
+Business and industry
+Benefits
+Health
+Taxes
+Environment and natural resources
+National security and defence
+Culture, history and sport
+Policing, justice and emergencies
+Transport and infrastructure
+Canada and the world
+Money and finances
+Science and innovation
+You are here:
+Canada.ca
+Canadian Space Agency
+Open data and information
+Portal
+RADARSAT-1 Archive
+Have your say
+Rate this dataset from 1 to 5 stars
+1 out of 5
+2 out of 5
+3 out of 5
+4 out of 5
+5 out of 5
+0
+/ 5
+      (
+0
+votes)
+Additional information
+Contact email:
+gouvernementouvert-opengovernment@asc-csa.gc.ca
+Keywords:
+Earth Observation
+RADARSAT
+Subject:
+Nature and environment
+Science and technology
+Audience:
+General public
+Scientists
+Students
+Place of Publication:
+Canada
+Homepage:
+https://www.asc-csa.gc.ca/eng/satellites/radarsat1/
+Maintenance and update frequency:
+As Needed
+Date published:
+2023-08-01 00:00:00
+Licence:
+Open Government Licence - Canada
+About this record
+Record ID:
+bf51ec12-d6ff-43ab-a4f1-eb74ec9c8d73
+Metadata:
+Link to JSON format
+Dataset
+Groups
+RADARSAT-1 Archive
+Launched in November 1995, RADARSAT-1 provided Canada and the world with an operational radar satellite system capable of timely delivery of large amounts of data. Equipped with a powerful synthetic aperture radar (SAR) instrument, it acquired images of the Earth day or night, in all weather and through cloud cover, smoke and haze.
+All data products in the Canadian RADARSAT-1 archive have been released under an open license. New data will be added as the CSA works with partners to repatriate and process data from foreign ground stations.
+Resource list table
+Resource name
+Resource type
+Format
+Language
+Links
+RADARSAT-1 on the Earth Observation Data Management System (EODMS)
+Dataset
+TIFF
+TIFF
+English
+French
+Download
+the resource named: RADARSAT-1 on the Earth Observation Data Management System (EODMS) (en, fr)
+RADARSAT-1 on Amazon Web Services (AWS)
+Dataset
+TIFF
+TIFF
+English
+Download
+the resource named: RADARSAT-1 on Amazon Web Services (AWS) (en)
+Python Code Tutorial - RADARSAT-1 on AWS
+Guide
+Other
+other
+English
+French
+Download
+the resource named: Python Code Tutorial - RADARSAT-1 on AWS  (en, fr)
+Similar datasets
+RADARSAT-1 - Heatmap of processed archived images
+RADARSAT-1, in operation from 1995 to 2013, is Canada's first earth observation satellite. Developed and operated by the Canadian Space Agency (CSA), it has provided essential information to...
+RADARSAT Constellation Mission (RCM) Data
+The RADARSAT Constellation Mission (RCM) is Canada's new generation of Earth observation satellites.The RCM includes a trio of Earth observation satellites, capable of scanning Earth day or night...
+RADARSAT-1 - Antarctica Mosaics
+The mosaic was produced by the Byrd Polar Research Center of Ohio State University, in collaboration with the Canadian Space Agency (CSA) and the Alaska SAR Facility. Project sponsored by NASA....
+RADARSAT-1 - Africa Mosaics
+Mosaic of Africa - This mosaic of Africa consists of approximately 1600 images that were collected between October 1998 and July 2002. The northern part of the mosaic (above 10 degrees parallel...
+Provide feedback on this dataset
+Name
+(optional)
+Email
+(optional)
+I am a
+(required)
+-- Select --
+Citizen
+Researcher
+Developer
+Government Employee
+Other
+Reason for feedback
+(required)
+-- Select --
+Data Quality
+Missing Data
+Broken Link
+Suggestion
+Other
+Feedback
+(required)
+Submit Feedback
+More on this record:
+Collection type
+Geospatial data
+Title
+RADARSAT-1 Archive
+Publisher - Organization Name at Publication
+Canadian Space Agency
+Publisher - Organization section name
+Creator
+Metadata contact
+Parent identifier
+Hierarchy level
+File Identifier
+Short Key
+Version
+Language Support
+No linguistic content ; Not applicable
+Language Support Specify
+Data Steward
+Christine Giguère
+Manager or Supervisor
+Guennadi Kroupnik
+DIIDS No
+Directorate
+Space Utilization
+CSA Science category
+Science
+Portal type
+Open Data
+Dataset Status
+Division
+UTIL - Space Exploitation
+Data Owner
+CSA
+Security Classification
+Unclassified
+Data Owner (specify)
+Registered on the Open Data Site
+No
+Date released on open.canada.ca
+Data is publicly availible within another site
+Yes
+Date published on another site
+Publisher
+Personal Information
+No
+Eligible for Release
+Yes
+Format of source data
+TIFF
+Format of source data (details)
+Size of Dataset
+Contributor
+Contact email
+gouvernementouvert-opengovernment@asc-csa.gc.ca
+Description
+Launched in November 1995, RADARSAT-1 provided Canada and the world with an operational radar satellite system capable of timely delivery of large amounts of data. Equipped with a powerful synthetic aperture radar (SAR) instrument, it acquired images of the Earth day or night, in all weather and through cloud cover, smoke and haze.
+All data products in the Canadian RADARSAT-1 archive have been released under an open license. New data will be added as the CSA works with partners to repatriate and process data from foreign ground stations.
+Keywords
+Earth Observation
+RADARSAT
+Subject
+Nature and environment
+Science and technology
+Project
+Earth observation
+Audience
+General public
+Scientists
+Students
+Place of Publication
+Canada
+IMSO Approval
+Yes
+Access Restrictions
+Unrestricted
+Jurisdiction
+Federal
+Ready to Publish
+Yes
+Portal Release Date
+Spatial
+Geographic Region Name
+Canada
+Time Period Coverage Start
+Time period coverage end
+Maintenance and update frequency
+As Needed
+Date published
+2023-08-01
+Date Modified
+Homepage
+https://www.asc-csa.gc.ca/eng/satellites/radarsat1/
+Homepage Link Language
+Bilingual
+Data Visualisation
+False
+Data Series Name
+Series Issue ID
+Digital Object Identifier (DOI)
+Position Name
+Role
+Contact Information
+Topic category
+Reference System Information
+Distributor
+Status
+Association Type
+Aggregate dataset identifier
+Spatial Representation Type
+Presentation Form
+Date modified:
+2026-06-12
+Government of Canada
+All contacts
+Departments and agencies
+About government
+Themes and topics
+Jobs
+Immigration and citizenship
+Travel and tourism
+Business
+Benefits
+Health
+Taxes
+Environment and natural resources
+National security and defence
+Culture, history and sport
+Policing, justice and emergencies
+Transport and infrastructure
+Canada and the world
+Money and finance
+Science and innovation
+Indigenous peoples
+Veterans and military
+Youth
+About this site
+Social media
+Mobile applications
+About Canada.ca
+Terms and conditions
+Privacy

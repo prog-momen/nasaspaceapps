@@ -1,0 +1,214 @@
+{
+  "id": "resource_R114",
+  "url": "https://etd.gsfc.nasa.gov/capabilities/integrated-design-center/mission-design-lab/",
+  "checked_at": "2026-11-14T15:15:26.428584+00:00",
+  "tls_validation": false,
+  "status": 200,
+  "final_url": "https://etd.gsfc.nasa.gov/capabilities/integrated-design-center/mission-design-lab/",
+  "bytes": 334905,
+  "content_type": "text/html; charset=UTF-8",
+  "sha256": "a292c17755ae3dfa35b61e85bd3a58243da7bf1d2baa768450124e68f339e25d",
+  "links": [
+    {
+      "url": "https://etd.gsfc.nasa.gov/capabilities/integrated-design-center/mission-design-lab/#genesis-content",
+      "label": "Skip to main content"
+    },
+    {
+      "url": "https://etd.gsfc.nasa.gov/capabilities/integrated-design-center/mission-design-lab/#nav-header-right",
+      "label": "Skip to header right navigation"
+    },
+    {
+      "url": "https://etd.gsfc.nasa.gov/capabilities/integrated-design-center/mission-design-lab/#nav-after-header",
+      "label": "Skip to after header navigation"
+    },
+    {
+      "url": "https://etd.gsfc.nasa.gov/capabilities/integrated-design-center/mission-design-lab/#site-footer",
+      "label": "Skip to site footer"
+    },
+    {
+      "url": "https://etd.gsfc.nasa.gov/",
+      "label": ""
+    },
+    {
+      "url": "https://etd.gsfc.nasa.gov/capabilities/integrated-design-center/mission-design-lab/",
+      "label": "About ETD"
+    },
+    {
+      "url": "https://etd.gsfc.nasa.gov/about/",
+      "label": "About ETD"
+    },
+    {
+      "url": "https://etd.gsfc.nasa.gov/images/",
+      "label": "Images"
+    },
+    {
+      "url": "https://etd.gsfc.nasa.gov/multimedia/",
+      "label": "Multimedia"
+    },
+    {
+      "url": "https://etd.gsfc.nasa.gov/etd-featured-stories/",
+      "label": "Featured Stories"
+    },
+    {
+      "url": "https://etd.gsfc.nasa.gov/capabilities/integrated-design-center/mission-design-lab/",
+      "label": "Capabilities"
+    },
+    {
+      "url": "https://etd.gsfc.nasa.gov/capabilities",
+      "label": "ETD Capabilities"
+    },
+    {
+      "url": "https://etd.gsfc.nasa.gov/capabilities/capabilities-listing/",
+      "label": "Capabilities Listing"
+    },
+    {
+      "url": "https://etd.gsfc.nasa.gov/capabilities/facilities-listing/",
+      "label": "Facilities Listing"
+    },
+    {
+      "url": "https://etd.gsfc.nasa.gov/capabilities/core-flight-system/",
+      "label": "core Flight System"
+    },
+    {
+      "url": "https://etd.gsfc.nasa.gov/capabilities/flight-dynamics-facility/",
+      "label": "Flight Dynamics Facility"
+    },
+    {
+      "url": "https://etd.gsfc.nasa.gov/capabilities/integrated-design-center/",
+      "label": "Integrated Design Center"
+    },
+    {
+      "url": "https://etd.gsfc.nasa.gov/capabilities/in-space-servicing-assembly-and-manufacturing/",
+      "label": "In-Space Servicing, Assembly, and Manufacturing"
+    },
+    {
+      "url": "https://etd.gsfc.nasa.gov/partnerships/",
+      "label": "Partnerships"
+    },
+    {
+      "url": "https://etd.gsfc.nasa.gov/our-work/",
+      "label": "Our Work"
+    },
+    {
+      "url": "https://etd.gsfc.nasa.gov/capabilities/integrated-design-center/mission-design-lab/",
+      "label": "Divisions"
+    },
+    {
+      "url": "https://etd.gsfc.nasa.gov/directorate/aerospace-flight-hardware-technology/",
+      "label": "Aerospace Flight Hardware & Technology"
+    },
+    {
+      "url": "https://etd.gsfc.nasa.gov/directorate/systems-architectures/",
+      "label": "Systems Architectures"
+    },
+    {
+      "url": "https://etd.gsfc.nasa.gov/capabilities/integrated-design-center/mission-design-lab/",
+      "label": "Careers"
+    },
+    {
+      "url": "https://etd.gsfc.nasa.gov/careers/internships/",
+      "label": "Internships"
+    },
+    {
+      "url": "https://etd.gsfc.nasa.gov/capabilities/integrated-design-center/mission-design-lab/",
+      "label": "Integrated Design Center"
+    },
+    {
+      "url": "https://etd.gsfc.nasa.gov/capabilities/integrated-design-center/",
+      "label": "IDC Home"
+    },
+    {
+      "url": "https://etd.gsfc.nasa.gov/capabilities/integrated-design-center/instrument-design-lab/",
+      "label": "Instrument Design Lab"
+    },
+    {
+      "url": "https://etd.gsfc.nasa.gov/integrated-design-center/dome-lab/",
+      "label": "NASA DOME"
+    },
+    {
+      "url": "https://etd.gsfc.nasa.gov/capabilities/integrated-design-center/mission-design-lab/",
+      "label": "Mission Design Lab"
+    },
+    {
+      "url": "https://dataverse.jpl.nasa.gov/dataset.xhtml?persistentId=hdl:2014/44299",
+      "label": "Concept Maturity Levels"
+    },
+    {
+      "url": "https://www.nasa.gov/goddard/frontdoor/connect-with-us/%20",
+      "label": "Connect with Us"
+    },
+    {
+      "url": "https://etd.gsfc.nasa.gov/contact/general/",
+      "label": "Go here"
+    },
+    {
+      "url": "https://etd.gsfc.nasa.gov/about/",
+      "label": "Learn More"
+    },
+    {
+      "url": "https://www.nasa.gov/goddard/",
+      "label": "NASA Goddard"
+    },
+    {
+      "url": "https://www.nasa.gov/news/",
+      "label": "News & Events"
+    },
+    {
+      "url": "https://plus.nasa.gov/",
+      "label": "NASA+"
+    },
+    {
+      "url": "https://etd.gsfc.nasa.gov/etd-featured-stories",
+      "label": "Featured Stories"
+    },
+    {
+      "url": "https://etd.gsfc.nasa.gov/careers/internships",
+      "label": "Internships"
+    },
+    {
+      "url": "https://x.com/NASAGoddard",
+      "label": "X"
+    },
+    {
+      "url": "https://www.facebook.com/NASAGoddard",
+      "label": "Facebook"
+    },
+    {
+      "url": "https://www.flickr.com/photos/gsfc/albums",
+      "label": "Flickr"
+    },
+    {
+      "url": "https://www.youtube.com/user/NASAexplorer",
+      "label": "YouTube"
+    },
+    {
+      "url": "https://www.instagram.com/nasagoddard/",
+      "label": "Instagram"
+    },
+    {
+      "url": "https://www.nasa.gov/social-media/",
+      "label": "More NASA Social Accounts"
+    },
+    {
+      "url": "https://etd.gsfc.nasa.gov/sitemap",
+      "label": "Sitemap"
+    },
+    {
+      "url": "https://www.nasa.gov/FOIA",
+      "label": "FOIA"
+    },
+    {
+      "url": "https://www.nasa.gov/about/highlights/HP_Privacy.html",
+      "label": "Privacy"
+    },
+    {
+      "url": "https://www.nasa.gov/general/accessibility/",
+      "label": "Accessibility"
+    },
+    {
+      "url": "https://etd.gsfc.nasa.gov/contact",
+      "label": "Contact ETD"
+    }
+  ],
+  "elapsed_seconds": 2.625
+}

@@ -1,0 +1,158 @@
+<!doctype html><html lang="ar"><head><meta charset="utf-8"><style>
+@page { size: A4; margin: 14mm 15mm 15mm; }
+* { box-sizing:border-box; }
+body { direction:rtl; unicode-bidi:plaintext; font-family:"Segoe UI",Tahoma,Arial,sans-serif; font-size:10.5pt; line-height:1.55; color:#182334; }
+h1 { color:#0a5b70; font-size:23pt; line-height:1.25; border-bottom:2px solid #42a9aa; padding-bottom:8px; margin:0 0 12px; }
+h2 { color:#0a5b70; font-size:16pt; border-bottom:1px solid #d6e5e8; padding-bottom:4px; margin-top:20px; }
+h3 { color:#155f71; font-size:12pt; margin:14px 0 6px; }
+p { margin:6px 0 9px; }
+li { margin:3px 0; }
+table { direction:rtl; border-collapse:collapse; width:100%; font-size:9pt; margin:9px 0 14px; page-break-inside:avoid; }
+th { background:#e7f2f3; color:#143c4d; }
+th,td { border:1px solid #c5d4da; padding:6px 7px; vertical-align:top; }
+blockquote { border-right:3px solid #42a9aa; padding:6px 12px; margin:10px 0; background:#f2f8f8; }
+code { direction:ltr; unicode-bidi:embed; font-family:Consolas,monospace; font-size:9pt; color:#8b3d19; }
+pre { direction:ltr; text-align:left; white-space:pre-wrap; overflow-wrap:anywhere; background:#f3f6f9; border:1px solid #d8e0e5; padding:9px 12px; border-radius:4px; page-break-inside:avoid; }
+a { color:#075985; text-decoration:underline; overflow-wrap:anywhere; }
+hr { border:0; border-top:1px solid #ccd7dd; margin:15px 0; }
+strong { color:#102a43; }
+</style></head><body><h1>مرجع التنفيذ المختصر — Be An Earth System Trend Detective!</h1>
+<p><strong>إصدار خاص بهذا التحدي فقط | تاريخ المراجعة: 14 نوفمبر 2026</strong></p>
+<h2>1. ما المطلوب من التحدي؟</h2>
+<p>المطلوب إنشاء أداة تساعد المستخدم على اختيار متغير من علوم الأرض تقيسه مهمات NASA أو تنتجه نماذج NASA، وتحديد منطقة وزمن، ثم عرض السلسلة الزمنية وتحليلها لتوضيح: ما الذي يتغير؟ أين؟ ما مقدار التغير؟ وهل الاتجاه ذو دلالة إحصائية؟ تشجع ورقة التحدي على البيانات اليومية أو الشهرية، وعلى البدء بتحليل خطي بسيط، وتذكر الانحدار الخطي واختبار Mann–Kendall وفواصل الثقة كأمثلة. <a href="https://www.spaceappschallenge.org/2026/challenges/earth-system-trend-detective/">صفحة التحدي الرسمية</a></p>
+<p><strong>هذا تحدي سلاسل زمنية واتجاهات، وليس تحدي NISAR/SAR.</strong> لا نحتاج في الحل الأولي إلى معالجة صور رادارية، تنبؤ مناخي، ذكاء اصطناعي لتحليل الصور، أو كتالوج شامل لكل واجهات NASA.</p>
+<h2>2. أصغر حل يحقق جوهر التحدي</h2>
+<p>ابنوا نسخة أولى تتيح للمستخدم:</p>
+<ol>
+<li>اختيار <strong>متغير واحد</strong>، وفترة زمنية طويلة مناسبة، ونقطة أو صندوق جغرافي صغير.</li>
+<li>جلب القيم الشهرية من مصدر NASA مع إظهار اسم المنتج/المصدر، الوحدة، الدقة المكانية والزمنية، والمنطقة والفترة.</li>
+<li>عرض القياسات على مخطط زمني وإظهار البيانات الناقصة بوضوح.</li>
+<li>حساب الميل الخطي بوحدة مفهومة (مثلاً °C/عقد)، وفاصل ثقة 95%، ونتيجة اختبار اتجاه؛ ثم وصفها بأنها «اتجاه صاعد/هابط/غير حاسم» مع قيمة p.</li>
+<li>إظهار ملخص تفسير محدود وشفاف: النتيجة إحصائية لهذا المتغير والمنطقة والفترة، ولا تثبت سبب التغير.</li>
+</ol>
+<h3>مسار بيانات موصى به للنسخة الأولية: NASA POWER</h3>
+<p><strong>تنبيه مصدر:</strong> NASA POWER اختيار تنفيذي مناسب لأنه يوفر API شهرية، لكنه ليس من الروابط التي تظهر في تبويب Resources الخاص بالتحدي. الموارد المدرجة رسمياً هي Giovanni وHydrology Time Series وAppEEARS وNOAA CDO والورقة العلمية، إضافةً إلى موارد الشركاء الموضحة أدناه.</p>
+<p>استخدموا <a href="https://power.larc.nasa.gov/docs/services/api/temporal/monthly/">NASA POWER Monthly API</a> للحصول على سلسلة شهرية بصيغة JSON أو CSV. بيانات الأرصاد الشهرية في POWER مشتقة من نموذج NASA MERRA‑2 ومتاحة منذ 1981؛ بعض المتغيرات الشمسية لها مصادر وفترات مختلفة، لذلك لا تخلطوا مصادر المتغيرات في واجهة الاختيار. الدليل يذكر أن API الشهري يدعم النقطة والمنطقة، وأن الطلبات الإقليمية تقتصر على متغير واحد في الطلب. وتُتاح البيانات على الدقة الأصلية للمصدر، لذا لا توحوا أن تكبير الخريطة يعطي دقة أدق. <a href="https://power.larc.nasa.gov/docs/services/api/temporal/monthly/">مواصفات API الشهري</a> <a href="https://power.larc.nasa.gov/docs/services/api/">نظرة عامة على واجهات POWER</a> <a href="https://power.larc.nasa.gov/parameters/">دليل المتغيرات</a></p>
+<p>مثال توضيحي للطلب (عدّلوا المتغير والإحداثيات والسنوات بعد اختيار حالة الاستخدام):</p>
+<pre><code class="language-text">https://power.larc.nasa.gov/api/temporal/monthly/point?parameters=T2M&amp;community=SB&amp;longitude=35.2&amp;latitude=31.8&amp;start=2001&amp;end=2025&amp;format=JSON
+</code></pre>
+<ul>
+<li><code>T2M</code> مثال لدرجة حرارة الهواء على ارتفاع مترين. راجعوا دليل POWER والوحدة الفعلية في metadata قبل العرض.</li>
+<li>لنطاق جغرافي، استخدموا خدمة <code>regional</code> وحدود <code>latitude-min/max</code> و<code>longitude-min/max</code>، ثم وثّقوا كيف اختيرت/وُزنت خلايا الشبكة في المتوسط. لا تعاملوا صندوقاً واسعاً على أنه مدينة أو حوض مائي بدقة عالية.</li>
+<li>ابدأوا بمؤشر واحد مثل الحرارة الشهرية، ومتغير واحد ونطاق زمني واحد، قبل إضافة خيارات أخرى. لا تضيفوا <code>PRECTOTCORR</code> أو الإشعاع الشمسي إلا بعد مراجعة معناه ووحدته ومصدره وتوفّر سجله للفترة المختارة.</li>
+<li>تأكدوا من أكواد المجتمع <code>community</code> وطريقة عرض الوحدات من دليل POWER؛ لا تفترضوا أن <code>RE</code> يناسب كل المتغيرات.</li>
+</ul>
+<h3>بدائل مرتبطة مباشرة بموارد التحدي</h3>
+<table>
+<thead>
+<tr>
+<th>المصدر</th>
+<th>متى نستخدمه؟</th>
+<th>ملاحظة تنفيذية</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://giovanni.gsfc.nasa.gov/giovanni/">Giovanni / GES DISC</a></td>
+<td>عندما نحتاج استكشاف متغيرات NASA كثيرة وتجربة متوسط منطقة وسلسلة زمنية بسرعة.</td>
+<td>يتيح دليل المستخدم رسم السلسلة وتنزيل بياناتها CSV؛ الوصول الكامل والتحميل قد يتطلبان Earthdata Login. مناسب للاستكشاف أو النموذج التجريبي حتى لو جلب التطبيق الأساسي بياناته من API آخر. <a href="https://giovanni.gsfc.nasa.gov/giovanni/doc/UsersManualworkingdocument.docx.html">الدليل</a></td>
+</tr>
+<tr>
+<td><a href="https://appeears.earthdatacloud.nasa.gov/">AppEEARS</a></td>
+<td>عندما نحتاج استخراج قيم/طبقات مكانية وزمنية لمنتجات متعددة أو منطقة مضلعة، مع طبقات الجودة.</td>
+<td>يدعم نقطة أو مساحة، طبقات، وسلاسل تفاعلية؛ يتطلب غالباً Earthdata Login، وقد تكون الطلبات المهام غير فورية. استخدموا API فقط إذا كان لديكم وقت لبناء المصادقة وانتظار المهمة. <a href="https://appeears.earthdatacloud.nasa.gov/help">التوثيق وAPI</a></td>
+</tr>
+<tr>
+<td><a href="https://disc.gsfc.nasa.gov/information/tools?title=Hydrology%20Time%20Series">Hydrology Time Series</a></td>
+<td>فقط إذا اخترتم متغيراً هيدرولوجياً/مستوى مياه مناسباً من منتجاته.</td>
+<td>ليس مصدراً عاماً لكل مؤشرات المناخ؛ تحقّقوا من المنتج، وحدة القياس، التغطية الزمنية، وطريقة المصادقة قبل اعتماده.</td>
+</tr>
+<tr>
+<td><a href="https://ntrs.nasa.gov/api/citations/20090042747/downloads/20090042747.pdf">ورقة SeaWiFS المدرجة في التحدي</a></td>
+<td>مثال علمي لتصميم سلسلة زمنية واختبار الدلالة على بيانات كلوروفيل ساحلية.</td>
+<td>مرجع منهجي/مثال، وليس API حيّاً ولا يلزم إعادة إنتاجه في MVP.</td>
+</tr>
+</tbody>
+</table>
+<h3>موارد التبويب الأخرى: هل نحتاجها؟</h3>
+<ul>
+<li><strong>NOAA Climate Data Online</strong> مصدر NOAA، لا NASA. استخدموه فقط إذا وسّعتم المشروع صراحةً إلى بيانات NOAA؛ وإلا اتركوه خارج MVP.</li>
+<li><strong>KNMI Climate Explorer</strong> وأدلة الإحصاء المرتبطة مفيدة للتعلم والاستكشاف، لكنها ليست شرطاً لمنتج يعمل.</li>
+<li><strong>RCM وSWOT ومعلومات النظم البيئية وGeo.ca ودليل SAR من وكالة الفضاء الكندية</strong> موارد اختيارية لحالات استخدام بعينها. لا يحتاجها MVP المقترح. موارد SAR ليست مطلوبة لهذا التحدي لمجرد وجودها في الصفحة.</li>
+<li>القائمة الرسمية قد تتغير؛ تحقّقوا من تبويب Resources على <a href="https://www.spaceappschallenge.org/2026/challenges/earth-system-trend-detective/">صفحة التحدي</a> عند تثبيت مصدر بياناتكم.</li>
+</ul>
+<h2>3. التحليل الإحصائي الذي يجب أن يظهر للمستخدم</h2>
+<p><strong>المخرجات الأساسية لكل سلسلة:</strong> عدد المشاهدات المستخدمة، نسبة/عدد القيم المفقودة، الميل ووحدته، فترة التحليل، فاصل الثقة، الاختبار المستخدم، إحصاء الاختبار، قيمة <code>p</code>، والتفسير المختصر.</p>
+<h3>آلية المشروع لمعالجة الفجوات الزمنية</h3>
+<p>نحن نتعامل مع سلسلة <strong>شهرية منتظمة</strong>. الفجوة تعني أن شهراً متوقعاً في التقويم لا يملك قياساً صالحاً. هذا لا يعني أن كل فجوة يجب «تعبئتها»؛ أول خطوة هي الحفاظ على توقيتها وسببها، ثم تقرير هل يجوز تقديرها للغرض المطلوب.</p>
+<p><strong>أ. الكشف والتوثيق</strong></p>
+<ol>
+<li>أنشئوا تقويماً شهرياً كاملاً للفترة، شامل الطرفين. للفترة 2001–2025 مثلاً، المتوقع 300 شهر.</li>
+<li>افصلوا الحالة إلى: <code>valid</code> قيمة رقمية صالحة؛ <code>missing</code> شهر متوقع بلا قيمة؛ <code>invalid</code> قيمة أو sentinel يعرّفه توثيق المنتج كقيمة غير صالحة؛ <code>fetch_error</code> فشل HTTP/شبكة/تنسيق. <code>fetch_error</code> ليس فجوة علمية ولا يدخل إحصاء missing.</li>
+<li>لا تعتبروا الصفر مفقوداً. NASA توثق <code>-999</code> كقيمة مفقودة في Projection API؛ لا تطبقوا هذا sentinel على Monthly Historical API أو منتج آخر دون تأكيد توثيق المنتج/metadata.</li>
+<li>احسبوا <code>expected_count</code>, <code>valid_count</code>, <code>missing_count</code>, <code>missing_percent</code>, أطول فجوة متصلة بالشهور، ومعدل الفقد لكل شهر من السنة. مثال: 296 من 300 صالح = 4 مفقودة = 1.33%.</li>
+<li>افحصوا نمط الفقد: مفرد ومتفرق، كتلة متصلة، في بداية/نهاية السجل، أو يتكرر في موسم محدد. النمط يساعد في كشف احتمال انحياز، لكنه لا يثبت وحده أن الفقد MCAR/MAR/MNAR؛ يلزم سبب/metadata عن المصدر. لا تفترضوا أن البيانات المفقودة عشوائية.</li>
+</ol>
+<p><strong>معنى آلية الفقد:</strong> <code>MCAR</code> يعني أن احتمال الفقد لا يرتبط بالبيانات المرصودة أو بالقيمة المفقودة؛ <code>MAR</code> أن الفقد يرتبط بمعلومات مرصودة مثل الشهر أو الموقع؛ <code>MNAR</code> أن الفقد قد يرتبط بالقيمة التي لم نرصدها نفسها. لا نستطيع إثبات أي نوع من مواقع الفجوات وحدها؛ نسجل سبب المصدر ونمط الموسم ونصرّح أن الآلية غير معروفة إذا لم تتوفر معلومات. هذا مهم لبيانات الرصد البيئي التي قد ينقصها القياس في ظروف/مواسم معيّنة. <a href="https://ijcai.org/proceedings/2025/532">شرح آليات الفقد في السلاسل الزمنية، IJCAI 2025</a>
+<strong>ب. قرار التحليل للنسخة الأولى (من دون اختلاق قياسات)</strong></p>
+<ul>
+<li><strong>تحليل الاتجاه والإحصاء:</strong> استخدموا القياسات الصالحة فقط مع طوابعها الزمنية الحقيقية. لا تحذفوا الشهر من محور الزمن ثم تعيدوا ترقيم السلسلة كأن الفواصل متساوية؛ الشهران بعد فجوة يظلان متباعدين شهرين. اتركوا المفقود خارج حساب الميل والاختبار، واحتفظوا به كفجوة في الرسم.</li>
+<li><strong>الرسم:</strong> لا تصلوا الخط عبر فجوة طويلة كأن القياس معروف. إذا احتجتم خطاً متصلاً للعرض فقط، يمكن تقدير فجوة داخلية مفردة بالاستيفاء بين الجارين ورسم الجزء المقدّر بخط متقطع وموسوم «تقديري»؛ لا تدخلوا هذه القيمة في تحليل الدلالة أو عدّ المشاهدات. لا تستوفوا فجوات أول/آخر السجل لعدم وجود جار على الجهتين.</li>
+<li><strong>فجوات طويلة أو موسمية:</strong> لا تستخدموا استيفاءً خطياً بسيطاً، تكرار آخر قيمة، أو متوسطاً عاماً. اتركوا الفجوة واظهروا تحذيراً؛ إذا أصبح ملء السجل ضرورياً لمرحلة لاحقة، استخدموا نموذجاً يراعي الاتجاه والموسمية (مثل state-space/Kalman أو multiple imputation)، واحتفظوا بعدم اليقين، ثم قارنوا نتيجة الاتجاه مع التحليل من دون تعبئة. هذه خارج MVP.</li>
+<li><strong>قواعد التقرير:</strong> اعرضوا النسبة، أشهر/أطوال الفجوات، وطريقة المعالجة بجانب الميل و<code>p-value</code>. لا تطلقوا وصف «اتجاه دال» بثقة إذا كان الفقد متجمعاً زمنياً/موسمياً أو سببه قد يعتمد على قيمة المتغير؛ اعرضوا «تفسير بحذر» واذكروا السبب. لا توجد عتبة واحدة صالحة لكل متغيرات الأرض لتقرير أن النسبة مقبولة، لذلك لا نخترع cut-off عالميّاً.</li>
+<li><strong>جودة المصدر:</strong> إذا تعطل الطلب، أعدوا المحاولة أو اعرضوا خطأ المصدر، ولا تسجلوا أشهر الفترة كأنها missing. عند دمج مصدر آخر، يجب أولاً تطابق تعريف المتغير والوحدة والدقة والتغطية؛ هذا ليس تعويضاً آلياً.</li>
+</ul>
+<p>السبب العلمي: طرق gap-filling قد تغيّر التباين ومقدار الاتجاه ودلالته؛ دراسة على سلاسل حرارة شهرية وثّقت أثر إعادة البناء على trend magnitude/significance. لذلك فصلنا تقدير الرسم عن بيانات الاستدلال الإحصائي. <a href="https://journals.ametsoc.org/view/journals/clim/32/22/jcli-d-19-0244.1.xml">دراسة أثر ملء فجوات الحرارة الشهرية</a> · <a href="https://power.larc.nasa.gov/docs/services/api/projection/">توثيق قيم NASA POWER الناقصة</a> · <a href="https://power.larc.nasa.gov/docs/services/api/temporal/monthly/">توثيق NASA POWER الشهري</a>
+<strong>وصفة بسيطة مناسبة للعرض:</strong></p>
+<ul>
+<li>ارسموا القيم الشهرية كما هي، ثم أضيفوا خط اتجاه خطياً.</li>
+<li>احسبوا الميل الخطي وفاصل ثقته واختبار الفرضية لميل غير صفري. <code>scipy.stats.linregress</code> يعيد الميل و<code>p-value</code> والخطأ المعياري، ويمكن حساب فاصل الثقة من الخطأ المعياري ودرجات الحرية. <a href="https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.linregress.html">توثيق SciPy</a></li>
+<li>أضيفوا Mann–Kendall كاختبار رتبي لا يفترض شكلاً خطياً للاتجاه. أظهروا أيضاً مقياس حجم/سرعة التغير مثل ميل Theil–Sen عند اعتماد هذه الطريقة. <code>kendalltau</code> في SciPy اختبار ارتباط رتبي وليس وحده تنفيذ Mann–Kendall الكامل؛ لا تسمّوه Mann–Kendall إلا إذا نفذتم إحصاء الاختبار وتصحيح التعادلات كما ينبغي أو استخدمتم مكتبة متخصصة موثّقة. <a href="https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.kendalltau.html">Kendall tau في SciPy</a> <a href="https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.theilslopes.html">Theil–Sen في SciPy</a></li>
+<li>إن كانت الموسمية قوية، اختاروا مقارنة الشهر نفسه بين السنوات أو لخّصوا إلى سنوي مع شرح ذلك؛ لا تفسروا دورة الفصول على أنها اتجاه طويل الأمد. الارتباط الذاتي والفجوات في السجل قد تجعل قيمة <code>p</code> التقليدية مضللة؛ سجّلوا ذلك، واستخدموا اختباراً موسمياً/تصحيحاً مناسباً إذا كان ضمن نطاقكم.</li>
+<li>«دال إحصائياً» لا تعني «تغير كبير عملياً» ولا تعني أن متغيراً آخر سبّب التغير. اعرضوا حجم الميل وفاصل الثقة مع الدلالة، ولا تحوّلوا <code>p ≥ 0.05</code> إلى ادعاء أن التغير مستحيل أو غير موجود. شرح SciPy يوضح أن قيمة p الصغيرة لا تقيس حجم الأثر. <a href="https://docs.scipy.org/doc/scipy/tutorial/stats/hypothesis_kendalltau.html">مفهوم الفرضية والدلالة</a></li>
+</ul>
+<h2>4. وظائف Gemini / Function Calling — الضروري فقط</h2>
+<p>Gemini اختياري في الحل. التحميل والتحليل الإحصائي يجب أن ينفذهما كود موثوق في الخادم، لا النموذج. استخدموا النموذج لفهم سؤال المستخدم واختيار أحد الأدوات المحدودة أو لصياغة شرح النتائج بعد إرجاعها.</p>
+<table>
+<thead>
+<tr>
+<th>اسم الأداة المقترح</th>
+<th>وظيفتها</th>
+<th>حقول إدخال أساسية</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>list_supported_variables</code></td>
+<td>إرجاع قائمة محلية موثقة للمتغيرات التي يدعمها التطبيق</td>
+<td>لا شيء أو <code>topic</code></td>
+</tr>
+<tr>
+<td><code>get_nasa_power_series</code></td>
+<td>استدعاء NASA POWER وإرجاع النقاط مع المصدر والوحدة والبيانات الوصفية</td>
+<td><code>parameter</code>, <code>start_year</code>, <code>end_year</code>, <code>latitude/longitude</code> أو <code>bbox</code></td>
+</tr>
+<tr>
+<td><code>analyze_trend</code></td>
+<td>حساب الميل وفاصل الثقة والاختبار على السلسلة المنظفة</td>
+<td><code>dates</code>, <code>values</code>, <code>seasonal_mode</code></td>
+</tr>
+<tr>
+<td><code>explain_trend_result</code></td>
+<td>اختياري: شرح بلغة بسيطة لنتيجة محسوبة بالفعل</td>
+<td><code>variable</code>, <code>region</code>, <code>period</code>, <code>slope</code>, <code>unit</code>, <code>confidence_interval</code>, <code>p_value</code>, <code>limitations</code></td>
+</tr>
+</tbody>
+</table>
+<p>تسلسل التنفيذ: سؤال المستخدم ← Gemini يطلب <code>get_nasa_power_series</code> ← الخادم يتحقق من المتغير والفترة والإحداثيات ويطلب البيانات ← الخادم يحسب <code>analyze_trend</code> ← يعيد JSON موثّق المصدر ← Gemini يصوغ شرحاً لا يضيف أرقاماً جديدة. خزّنوا مفتاح Gemini في الخادم/متغير بيئة، ولا ترسلوه إلى المتصفح. لا حاجة في MVP إلى صوت، صور، خرائط متعددة الأدوات أو قائمة طويلة من وظائف Gemini.</p>
+<h2>5. قطع التنفيذ المقترحة</h2>
+<ul>
+<li>واجهة ويب بسيطة: اختيار المتغير، المكان (إحداثيات أو صندوق)، الفترة، ورسم السلسلة والاتجاه.</li>
+<li>خدمة خلفية واحدة لاستدعاء NASA POWER والتحقق من الاستجابة وتوحيد شكلها.</li>
+<li><code>Python</code>: <code>requests</code> لجلب API، <code>pandas</code> لتنظيف سلسلة CSV/JSON، <code>scipy</code> للتحليل، ومخطط مثل Plotly. لا تضيفوا قاعدة بيانات قبل الحاجة؛ يمكن حفظ إعدادات أمثلة ثابتة وعرض مصدر البيانات مباشرة.</li>
+<li>خزّنوا مؤقتاً الطلبات المتكررة، وحدّوا حجم الاستعلام، وتعاملوا مع أخطاء API وغياب القيم بوضع رسالة مفهومة.</li>
+<li>اعرضوا الإسناد ومعلومات المنتج والفترة والمصدر أسفل الرسم، مع رابط البيانات الخام. راجعوا شروط كل مجموعة بيانات قبل إعادة توزيع الملفات.</li>
+</ul>
+<p><strong>حالة التحقق:</strong> روجعت صفحة التحدي ووثائق NASA POWER وGiovanni وAppEEARS وSciPy بتاريخ 14 نوفمبر 2026. مثال POWER أعلاه مبني على صيغة API الرسمية ولم يُختبر باتصال حي؛ تحقّقوا من metadata وتوفر المتغير قبل اعتماده. AppEEARS وGiovanni قد يتطلبان Earthdata Login؛ لا تتطلبه صيغة POWER المعروضة.</p>
+<hr />
+<p><strong>قرار النسخة الأولى:</strong> سلسلة شهرية واحدة من NASA POWER داخل نقطة/منطقة مختارة، مع خط اتجاه وفاصل ثقة واختبار إحصائي ومصدر ظاهر. استخدموا Giovanni للاستكشاف عند الحاجة، واتركوا NISAR وSAR خارج هذا المشروع.</p></body></html>

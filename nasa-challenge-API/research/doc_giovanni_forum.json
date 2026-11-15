@@ -1,0 +1,13 @@
+{
+  "id": "doc_giovanni_forum",
+  "url": "https://forum.earthdata.nasa.gov/viewtopic.php?p=26929&t=8258",
+  "checked_at": "2026-11-14T15:13:35.782216+00:00",
+  "tls_validation": false,
+  "status": 404,
+  "final_url": "https://forum.earthdata.nasa.gov/viewtopic.php?p=26929&t=8258",
+  "bytes": 196,
+  "content_type": "text/html; charset=iso-8859-1",
+  "sha256": "80c3fe2ae1062abf56456f52518bd670f9ec3917b7f85e152b347ac6b6faf880",
+  "links": [],
+  "elapsed_seconds": 1.828
+}

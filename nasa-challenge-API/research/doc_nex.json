@@ -1,0 +1,306 @@
+{
+  "id": "doc_nex",
+  "url": "https://www.nccs.nasa.gov/data-collections/nex-gddp-cmip6/",
+  "checked_at": "2026-11-14T15:12:46.581565+00:00",
+  "tls_validation": false,
+  "status": 200,
+  "final_url": "https://www.nccs.nasa.gov/data-collections/nex-gddp-cmip6/",
+  "bytes": 115290,
+  "content_type": "text/html; charset=UTF-8",
+  "sha256": "cd1ca5064ce94e0ec301be608ead1af4f30291298a62910d82491ea7aa7b4709",
+  "links": [
+    {
+      "url": "https://www.nccs.nasa.gov/data-collections/nex-gddp-cmip6/#wp--skip-link--target",
+      "label": "Skip to content"
+    },
+    {
+      "url": "https://www.nccs.nasa.gov/nexus-compute-transition/",
+      "label": "Read more"
+    },
+    {
+      "url": "https://www.nasa.gov",
+      "label": ""
+    },
+    {
+      "url": "https://www.nccs.nasa.gov/",
+      "label": ""
+    },
+    {
+      "url": "https://www.nccs.nasa.gov/nccs-users/",
+      "label": "Users"
+    },
+    {
+      "url": "https://www.nccs.nasa.gov/nccs-users/",
+      "label": "Users Home"
+    },
+    {
+      "url": "https://www.nccs.nasa.gov/nccs-users/account-help/",
+      "label": "Account Help"
+    },
+    {
+      "url": "https://www.nccs.nasa.gov/account-set-up/",
+      "label": "Eligibility & Setup Process"
+    },
+    {
+      "url": "https://www.nccs.nasa.gov/nccs-users/account-closure/",
+      "label": "Account Closure"
+    },
+    {
+      "url": "https://www.nccs.nasa.gov/nccs-users/instructional",
+      "label": "Instructionals"
+    },
+    {
+      "url": "https://www.nccs.nasa.gov/data-collections/nex-gddp-cmip6/",
+      "label": "Systems"
+    },
+    {
+      "url": "https://www.nccs.nasa.gov/using-discover/",
+      "label": "Using Discover"
+    },
+    {
+      "url": "https://www.nccs.nasa.gov/using-explore-paas-adapt/",
+      "label": "Using Explore/ADAPT"
+    },
+    {
+      "url": "https://www.nccs.nasa.gov/data-collections/nex-gddp-cmip6/",
+      "label": "Services"
+    },
+    {
+      "url": "https://www.nccs.nasa.gov/using-cron-on-discover/",
+      "label": "Using Cron on Discover"
+    },
+    {
+      "url": "https://www.nccs.nasa.gov/using-cron-on-adapt/",
+      "label": "Using Cron on ADAPT"
+    },
+    {
+      "url": "https://www.nccs.nasa.gov/file-transfer/",
+      "label": "File Transfer"
+    },
+    {
+      "url": "https://www.nccs.nasa.gov/nccs-gitlab/",
+      "label": "GitLab"
+    },
+    {
+      "url": "https://www.nccs.nasa.gov/prism-gpu-cluster/",
+      "label": "Prism GPU Cluster"
+    },
+    {
+      "url": "https://www.nccs.nasa.gov/guacamole/",
+      "label": "Guacamole"
+    },
+    {
+      "url": "https://www.nccs.nasa.gov/glossary/",
+      "label": "Glossary"
+    },
+    {
+      "url": "https://www.nccs.nasa.gov/jupyterhub",
+      "label": "Jupyterhub"
+    },
+    {
+      "url": "https://mobaxterm.mobatek.net/",
+      "label": "MobaXterm"
+    },
+    {
+      "url": "https://www.nccs.nasa.gov/performance-analysis-tools/",
+      "label": "Performance Analysis Tools"
+    },
+    {
+      "url": "https://www.nccs.nasa.gov/gsfc-opendap-servers-and-subset-downloading/",
+      "label": "OPeNDAP Servers"
+    },
+    {
+      "url": "https://www.nccs.nasa.gov/policeme",
+      "label": "Policeme"
+    },
+    {
+      "url": "https://www.ssh.com/academy/ssh/putty",
+      "label": "Putty"
+    },
+    {
+      "url": "https://www.nccs.nasa.gov/using-slurm/",
+      "label": "Slurm"
+    },
+    {
+      "url": "https://www.nccs.nasa.gov/instructional-videos/",
+      "label": "Video Collection"
+    },
+    {
+      "url": "https://www.nccs.nasa.gov/systems",
+      "label": "Systems"
+    },
+    {
+      "url": "https://www.nccs.nasa.gov/adapt",
+      "label": "Explore/ADAPT"
+    },
+    {
+      "url": "https://www.nccs.nasa.gov/using-explore-paas-adapt/",
+      "label": "Using Explore/ADAPT"
+    },
+    {
+      "url": "https://www.nccs.nasa.gov/prism-gpu-cluster/",
+      "label": "Prism GPU Cluster"
+    },
+    {
+      "url": "https://www.nccs.nasa.gov/case-studies/",
+      "label": "Case Studies"
+    },
+    {
+      "url": "https://www.nccs.nasa.gov/nccs-users/account-help/",
+      "label": "NCCS Account Information"
+    },
+    {
+      "url": "https://www.nccs.nasa.gov/discover",
+      "label": "Discover"
+    },
+    {
+      "url": "https://www.nccs.nasa.gov/systems/discover/scu-info/",
+      "label": "SCU Hardware Info"
+    },
+    {
+      "url": "https://www.nccs.nasa.gov/using-discover/",
+      "label": "Using Discover"
+    },
+    {
+      "url": "https://www.nccs.nasa.gov/case-studies/",
+      "label": "Case Studies"
+    },
+    {
+      "url": "https://www.nccs.nasa.gov/nccs-users/account-help/",
+      "label": "Account Info"
+    },
+    {
+      "url": "https://www.nccs.nasa.gov/storage-systems",
+      "label": "Storage Systems"
+    },
+    {
+      "url": "https://www.nccs.nasa.gov/css-data-collections/",
+      "label": "CSS Data Collections"
+    },
+    {
+      "url": "https://www.nccs.nasa.gov/data-management/",
+      "label": "Data Management Plans (DMPs)"
+    },
+    {
+      "url": "https://www.nccs.nasa.gov/data-portal",
+      "label": "DataPortal"
+    },
+    {
+      "url": "https://www.nccs.nasa.gov/services/data-sharing-and-tools/",
+      "label": "Data Sharing & Tools"
+    },
+    {
+      "url": "https://www.nccs.nasa.gov/data-collections/",
+      "label": "Data Collections"
+    },
+    {
+      "url": "https://www.nccs.nasa.gov/hyperwall/",
+      "label": "Hyperwall"
+    },
+    {
+      "url": "https://www.nccs.nasa.gov/services/",
+      "label": "Services"
+    },
+    {
+      "url": "https://www.nccs.nasa.gov/services/high-performance-computing/",
+      "label": "Supercomputing"
+    },
+    {
+      "url": "https://www.nccs.nasa.gov/data-sharing-and-tools/",
+      "label": "Data Sharing & Tools"
+    },
+    {
+      "url": "https://www.nccs.nasa.gov/data-collections/",
+      "label": "Data Collections"
+    },
+    {
+      "url": "https://www.nccs.nasa.gov/sharing-research/",
+      "label": "Sharing Research"
+    },
+    {
+      "url": "https://www.nccs.nasa.gov/systems/data-portal/",
+      "label": "DataPortal"
+    },
+    {
+      "url": "https://www.nccs.nasa.gov/ds-faqs/",
+      "label": "FAQ"
+    },
+    {
+      "url": "https://www.nccs.nasa.gov/about-us/",
+      "label": "About Us"
+    },
+    {
+      "url": "https://www.nccs.nasa.gov/about-us/contact-us/",
+      "label": "Contact Us"
+    },
+    {
+      "url": "https://www.nccs.nasa.gov/case-studies/",
+      "label": "Case Studies"
+    },
+    {
+      "url": "https://www.nccs.nasa.gov/emblem/",
+      "label": "NCCS Emblem"
+    },
+    {
+      "url": "https://www.nccs.nasa.gov/nexus-compute-transition/",
+      "label": "Nexus Compute Transition"
+    },
+    {
+      "url": "https://www.nccs.nasa.gov/wp-content/uploads/2024/03/NEX-GDDP-CMIP6-Tech_Note_4.pdf",
+      "label": "tech note (v1 data)"
+    },
+    {
+      "url": "https://www.nccs.nasa.gov/wp-content/uploads/2025/06/NEX-GDDP-CMIP6-v2-Tech_Note.pdf",
+      "label": "tech note (v2 data)"
+    },
+    {
+      "url": "https://registry.opendata.aws/nex-gddp-cmip6/",
+      "label": "https://registry.opendata.aws/nex-gddp-cmip6/"
+    },
+    {
+      "url": "https://nex-gddp-cmip6.s3.us-west-2.amazonaws.com/index.html",
+      "label": "S3://NEX-GDDP-CMIP6"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds2/catalog.html",
+      "label": "NCCS THREDDS"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/catalog/AMES/NEX/GDDP-CMIP6/catalog.html",
+      "label": "NCCS THREADDS NEX-GDDP-CMIP6"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds2/catalog.html",
+      "label": "THREDDS entry point"
+    },
+    {
+      "url": "https://ds.nccs.nasa.gov/thredds/catalog/AMES/NEX/GDDP-CMIP6/catalog.html",
+      "label": "NEX-GDDP-CMIP6"
+    },
+    {
+      "url": "https://www.nasa.gov/nex",
+      "label": "NASA NEX"
+    },
+    {
+      "url": "mailto:support@nccs.nasa.gov",
+      "label": "NCCS Support"
+    },
+    {
+      "url": "https://www.nasa.gov/about/highlights/HP_Privacy.html",
+      "label": "NASA Privacy Policy & Important Notices"
+    },
+    {
+      "url": "https://www.nasa.gov/general/accessibility/",
+      "label": "NASA Accessibility Statement"
+    },
+    {
+      "url": "https://science.gsfc.nasa.gov/sed/index.cfm?fuseAction=home.main&&navOrgCode=606",
+      "label": "CISTO"
+    },
+    {
+      "url": "mailto:support@nccs.nasa.gov",
+      "label": "NCCS User Service Group"
+    }
+  ],
+  "elapsed_seconds": 1.516
+}

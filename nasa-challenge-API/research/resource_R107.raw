@@ -1,0 +1,669 @@
+
+<!DOCTYPE html>
+<html class="no-js" lang="en" dir="ltr">
+
+<head>
+
+<meta charset="utf-8">
+
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-SP0M01CHEV"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+
+		  gtag('config', 'G-SP0M01CHEV');
+		</script>
+		
+
+		<script src="https://assets.adobedtm.com/be5dfd287373/0127575cd23a/launch-f7c3e6060667.min.js"></script>
+
+	
+	
+
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+	
+
+    <!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+    wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html -->
+    <title>NEOSSat: observing asteroids, space debris and exoplanets | Canadian Space Agency</title>
+	
+    <meta content="width=device-width,initial-scale=1" name="viewport">
+    <!-- Meta data -->
+	
+    <meta name="dcterms.description" content="Discover NEOSSat, the world's first space telescope dedicated to detecting and tracking asteroids, comets, satellites and space debris.">
+	<meta name="description" content="Discover NEOSSat, the world's first space telescope dedicated to detecting and tracking asteroids, comets, satellites and space debris.">
+	
+	<meta name="dcterms.creator" content="Canadian Space Agency">
+	<meta name="dcterms.title" content="NEOSSat: observing asteroids, space debris and exoplanets">
+	<meta name="dcterms.issued" title="W3CDTF" content="2008-07-17">
+	<meta name="dcterms.modified" title="W3CDTF" content="2026-03-20">
+	<meta name="dcterms.subject" title="scheme" content="NEOSSat: observing asteroids, space debris and exoplanets">
+ 	<meta name="dcterms.language" title="ISO639-2" content="eng">
+	<meta name="dcterms.accessRights" content="2">
+	
+	<meta name="gcaaterms.sitename" content="CSA-ASC">
+	
+	
+	
+		
+
+   
+    
+	<link href="/dist/gcweb/v19.6.0/gcweb/assets/favicon.ico" rel="icon" type="image/x-icon">
+	<link rel="stylesheet" href="/dist/gcweb/v19.6.0/gcweb/css/theme.min.css">
+	<noscript><link rel="stylesheet" href="/dist/gcweb/v19.6.0/wet-boew/css/noscript.min.css"></noscript>
+
+
+
+	
+ 
+    <link rel="stylesheet" href="/css/institution-4.0.css?1794669326057">
+	<link rel="stylesheet" href="/css/institution/return-to-top.css">
+	<style>
+		#wb-sec .list-group .list-group .list-group .wb-navcurr.list-group-item {
+			background-color: #335075;
+		}
+	</style>
+	
+   
+    <meta property="fb:app_id" content="533670243330291">
+    
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.asc-csa.gc.ca/eng/satellites/neossat/">
+    <meta property="og:title" content="NEOSSat: observing asteroids, space debris and exoplanets">
+    <meta property="og:description" content="Discover NEOSSat, the world's first space telescope dedicated to detecting and tracking asteroids, comets, satellites and space debris.">
+    <meta property="og:image" content="https://www.asc-csa.gc.ca/images/satellites/neossat/neossat-v2-og.jpg">
+    <meta property="og:site_name" content="Canadian Space Agency">
+	
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://www.asc-csa.gc.ca/eng/satellites/neossat/">
+    <meta name="twitter:image" content="https://www.asc-csa.gc.ca/images/satellites/neossat/neossat-v2-og.jpg">
+    <meta name="twitter:title" content="NEOSSat: observing asteroids, space debris and exoplanets">
+    <meta name="twitter:description" content="Discover NEOSSat, the world's first space telescope dedicated to detecting and tracking asteroids, comets, satellites and space debris.">
+    <meta name="twitter:site" content="@csa_asc">
+    
+		
+	
+		<link rel="alternate" hreflang="en" href="https://www.asc-csa.gc.ca/eng/satellites/neossat/">
+		<link rel="alternate" hreflang="fr" href="https://www.asc-csa.gc.ca/fra/satellites/neossat/">
+		<link rel="alternate" hreflang="x-default" href="https://www.asc-csa.gc.ca/eng/satellites/neossat/">
+	
+																	  
+    <link rel="canonical" href="https://www.asc-csa.gc.ca/eng/satellites/neossat/">
+
+
+	
+<!-- InvitationManager Files -->
+<link rel="stylesheet" href="/dist/invitation-manager/Overlay.css">
+<!-- End InvitationManager Files --> 
+
+	
+<style>
+	.xxsmallview a[href='#og_data'],
+	.xsmallview a[href='#og_data']{
+		display: none;
+	}
+</style>
+    	<!--<link href="/css/nom.css" media="screen, print" rel="stylesheet" type="text/css">-->
+	
+
+</head>
+<body vocab="http://schema.org/" typeof="WebPage">
+			<nav>		
+			<ul id="wb-tphp">
+			   	<li class="wb-slc"><a class="wb-sl" href="#wb-cont">Skip to main content</a></li>
+			   	<li class="wb-slc visible-sm visible-md visible-lg"><a class="wb-sl" href="#wb-info">Skip to "About government"</a></li>
+			</ul>
+		</nav>
+		<header>
+			<div id="wb-bnr" class="container">
+				<div class="row">
+					<section id="wb-lng" class="col-xs-3 col-sm-12 pull-right text-right">
+						<h2 class="wb-inv">Language selection</h2>
+						<ul class="list-inline mrgn-bttm-0">
+							<li>
+								<a lang="fr" hreflang="fr" href="/fra/satellites/neossat/">
+								<span class="hidden-xs" translate="no">Français</span>
+								<abbr title="Français" translate="no" class="visible-xs h3 mrgn-tp-sm mrgn-bttm-0 text-uppercase">fr</abbr>
+								</a>
+							</li>
+						</ul>
+					</section>
+					<div class="brand col-xs-9 col-sm-5 col-md-4" property="publisher" typeof="GovernmentOrganization">
+						<a href="https://www.canada.ca/en.html" property="url">
+							<img src="/dist/gcweb/v19.6.0/gcweb/assets/sig-blk-en.svg" alt="Government of Canada" property="logo">
+								<span class="wb-inv"> /
+									<span lang="fr">Gouvernement du Canada</span>
+								</span></a>
+						<meta property="name" content="Government of Canada">
+						<meta property="areaServed" typeof="Country" content="Canada">
+						<link property="logo" href="/dist/gcweb/v19.6.0/gcweb/assets/wmms-blk.svg">
+					</div>
+					<section id="wb-srch" class="col-lg-offset-4 col-md-offset-4 col-sm-offset-2 col-xs-12 col-sm-5 col-md-4">
+						<h2>Search</h2>
+						<form action="//www.canada.ca/en/sr/srb/sra.html" method="get" name="cse-search-box" role="search">
+							<div class="form-group wb-srch-qry">
+								<label for="wb-srch-q" class="wb-inv">Search Canadian Space Agency</label>
+								<input name="dmn" value="asc-csa.gc.ca" type="hidden">
+								<input id="wb-srch-q" list="wb-srch-q-ac" class="wb-srch-q form-control" name="allq" type="search" value="" size="34" maxlength="170" placeholder="Search Canadian Space Agency">
+								<datalist id="wb-srch-q-ac"></datalist>
+							</div>
+							<div class="form-group submit">
+								<button type="submit" id="wb-srch-sub" class="btn btn-primary btn-small" name="wb-srch-sub">
+									<span class="glyphicon-search glyphicon"></span>
+									<span class="wb-inv">Search</span></button>
+							</div>
+						</form>
+					</section>
+				</div>
+			</div>
+			<hr>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8">
+						<nav class="gcweb-menu" typeof="SiteNavigationElement">
+
+							<h2 class="wb-inv">Menu</h2>
+							<button type="button" aria-haspopup="true" aria-expanded="false"><span class="wb-inv">Main </span>Menu <span class="expicon glyphicon glyphicon-chevron-down"></span></button>
+							<ul role="menu" aria-orientation="vertical" data-ajax-replace="//www.canada.ca/content/dam/canada/sitemenu/sitemenu-v2-en.html">
+								<li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/jobs.html">Jobs and the workplace</a></li>
+								<li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/immigration-citizenship.html">Immigration and citizenship</a></li>
+								<li role="presentation"><a role="menuitem" href="https://travel.gc.ca/">Travel and tourism</a></li>
+								<li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/business.html">Business and industry</a></li>
+								<li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/benefits.html">Benefits</a></li>
+								<li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/health.html">Health</a></li>
+								<li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/taxes.html">Taxes</a></li>
+								<li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/environment.html">Environment and natural resources</a></li>
+								<li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/defence.html">National security and defence</a></li>
+								<li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/culture.html">Culture, history and sport</a></li>
+								<li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/policing.html">Policing, justice and emergencies</a></li>
+								<li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/transport.html">Transport and infrastructure</a></li>
+								<li role="presentation"><a role="menuitem" href="https://international.gc.ca/world-monde/index.aspx?lang=eng">Canada and the world</a></li>
+								<li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/finance.html">Money and finances</a></li>
+								<li role="presentation"><a role="menuitem" href="https://www.canada.ca/en/services/science.html">Science and innovation</a></li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</div>
+		   <nav id="wb-bc" property="breadcrumb">
+			  <h2>You are here:</h2>
+			  <div class="container">
+				 <ol class="breadcrumb" typeof="BreadcrumbList">
+					 <li property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" href="https://www.canada.ca/en/index.html"><span property="name">Canada.ca</span></a>
+<meta property="position" content="1"></li><li property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" href="/eng/"><span property="name">Canadian Space Agency</span></a>
+<meta property="position" content="2"></li><li property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" href="/eng/discover-the-themes.asp"><span property="name">Discover the themes</span></a>
+<meta property="position" content="3"></li>
+<li property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" href="/eng/satellites/"><span property="name">Satellites</span></a>
+<meta property="position" content="4"></li>
+
+				 </ol>
+			  </div>
+		   </nav>
+		</header>
+		<main property="mainContentOfPage" typeof="WebPageElement" class="container" id="top">
+			<a href="#top" id="return-to-top" title="Top of page" class="hidden-print"><i class="fas fa-chevron-up"></i><span class="wb-inv">Top of page</span></a>
+
+<!-- ***************************************************************************** -->
+<!-- DEBUT DU CONTENU -->
+<!-- ***************************************************************************** -->
+
+<h1 property="name" id="wb-cont"><span title="Near-Earth Object Surveillance Satellite">NEOSSat</span>: observing asteroids, space debris and exoplanets</h1>
+
+
+<div class="row hidden-xs hidden-sm">
+	<figure class="col-md-12 mrgn-bttm-lg">
+		<img alt="NEOSSat: 3D model" src="/images/satellites/neossat/neossat-ban.jpg" class="img-responsive full-width">
+		<figcaption class="mrgn-tp-sm small wb-inv">
+
+			<p><span title="Near-Earth Object Surveillance Satellite">NEOSSat</span>: <abbr title="Three-dimensional">3D</abbr> model. (Credit: Canadian Space Agency)</p>
+		</figcaption>
+	</figure>
+</div>
+
+<ul class="list-unstyled">
+	<li><strong>Launch:</strong> February 25, 2013</li>
+	<li><strong> Status:</strong> Active</li>
+</ul>
+<section>
+	<h2>Canada's agile space telescope</h2>
+	<p><span title="Near-Earth Object Surveillance Satellite">NEOSSat</span> is the world's first space telescope dedicated  to detecting and tracking asteroids, comets, satellites and space debris. The  suitcase-sized satellite orbits at an altitude of approximately 800&nbsp;kilometres  above Earth. It circles the globe every 100&nbsp;minutes, scanning space near the  <a href="/eng/astronomy/solar-system/sun.asp">Sun</a> to pinpoint asteroids and comets that may someday pass close  to <a href="/eng/astronomy/solar-system/earth.asp">Earth</a>.</p>
+	<p><span title="Near-Earth Object Surveillance Satellite">NEOSSat</span> is sweeping the skies observing satellites and  space debris as part of Canada's commitment to keeping space environment safe. It  can also reveal the presence of exoplanets around distant stars using light  intensity variation measurements.</p>
+	<p><span title="Near-Earth Object Surveillance Satellite">NEOSSat</span> applies industry-leading reaction wheels  technology for which Canada has become known and has already demonstrated in  our very successful Microvariability and Oscillations of Stars (<a href="/eng/satellites/most/">MOST</a>)  satellite.</p>
+
+	
+
+</section>
+
+<section>
+
+	<h2>Tracking asteroids and comets</h2>
+
+	<p>With <span title="Near-Earth Object Surveillance Satellite">NEOSSat</span>, Canada is contributing to the  international effort to catalogue near-Earth asteroids and comets.</p>
+	<p>Due to its lofty location, it is not limited by  the day-night cycle, unaffected by weather or atmospheric conditions, and can  operate 24/7. Therefore, it can look for near-Earth <a href="/eng/astronomy/solar-system/comets-and-asteroids.asp">asteroids and comets</a> that are difficult to spot using ground-based telescopes.</p>
+	
+	<div class="row">
+		<div class="col-md-12 mrgn-tp-md">
+			<figure class="wb-mltmd">
+				            <video data-id="18359" preload="metadata" title="Comet C/2020-F3 NEOWISE" poster="/videos/recherche/1_ydlevkd3/thumbnails/1.jpg">
+                        <source src="/videos/recherche/1_ydlevkd3/1_tqhadznb.webm" type="video/webm">
+                        <source src="/videos/recherche/1_ydlevkd3/1_x9guxxeq.mp4" type="video/mp4">
+                        </video>
+
+<span class="wb-inv">Ok</span>
+				<figcaption class="mrgn-tp-sm small">
+					<p>Comet C/2020-F3 (NEOWISE)  animation processed from <span title="Near-Earth Object Surveillance Satellite">NEOSSat</span> images taken on <time datetime="2020-07-23">July&nbsp;23, 2020</time>. (Credit: Canadian Space Agency&nbsp;[<abbr>CSA</abbr>])</p>
+				</figcaption>
+			</figure>
+		</div>  
+	</div>
+</section>
+
+<section>
+
+	<h2>Space debris</h2>
+
+	<p><span title="Near-Earth Object Surveillance Satellite">NEOSSat</span> monitors orbiting space objects to help understand  their behaviour and conduct  research on techniques to reduce the risk of collisions. It is the first microsatellite  used for this purpose. Unlike ground-based telescopes, <span title="Near-Earth Object Surveillance Satellite">NEOSSat</span> is able to:</p>
+	<ul>
+		<li>accurately track space objects not visible  from Canada </li>
+		<li>collect data on emerging on-orbit situations</li>
+	</ul>
+	<p>As part of <a href="http://www.drdc-rddc.gc.ca/">Defence Research  and Development Canada</a>'s (<abbr>DRDC</abbr>) Space Domain Awareness project, <span title="Near-Earth Object Surveillance Satellite">NEOSSat</span>'s High  Earth Orbit Space Surveillance (<abbr>HEOSS</abbr>) mission enables scientists to perform a  variety of experiments aimed at improving our understanding of both satellites  and space debris. The  information gathered by <span title="Near-Earth Object Surveillance Satellite">NEOSSat</span> bolsters Canada's contribution to international  efforts to maintain the safety of Canadian and international space assets.</p>
+	<div class="row">
+		<div class="col-md-9 mrgn-tp-md"> 
+			<figure class="thumbnail"> 
+				<a href="https://www.asc-csa.gc.ca/eng/multimedia/search/image/watch/17272"><img src="https://www.asc-csa.gc.ca/images/recherche/tiles/c7826335-1043-4e0c-aeb8-e36ecc00ad79.jpg" alt="NEOSSat image of RCM satellites" class="img-responsive full-width"></a>
+				<figcaption class="caption small">	
+					<p><span title="Near-Earth Object Surveillance Satellite">NEOSSat</span>  image of <abbr title="RADARSAT Constellation Mission">RCM</abbr> satellites on <time datetime="2019-06-15">June&nbsp;15, 2019</time>, shortly after launch and before their  final orbital phasing. (Credits: <abbr title="Defence Research and Development Canada">DRDC</abbr>, <abbr title="Canadian Space Agency">CSA</abbr>)</p>
+				</figcaption>
+			</figure>
+		</div>
+	</div>
+
+
+</section>
+
+<section>
+	<h2>Monitoring planets around other stars</h2>
+	<section>
+		<h3>How to find exoplanets</h3>
+		<p>Astronomers use <span title="Near-Earth Object Surveillance Satellite">NEOSSat</span> to <strong>investigate subtle dimming of stars</strong> that <strong>reveals the presence of </strong><a href="/eng/astronomy/beyond-our-solar-system/exoplanet-zoo.asp">exoplanets</a> as  they pass in front of their star. <span title="Near-Earth Object Surveillance Satellite">NEOSSat</span> helps confirm the discovery of  these exoplanets and determine their orbital period, which complements the  science done with larger ground and space telescopes, such as <span title="National Aeronautics and Space Administration">NASA</span>'s TESS  mission. This advances our understanding of exoplanets that will continue to be  studied by observatories such as the <a href="/eng/satellites/jwst/">James Webb Space Telescope</a> and Ariel, a European Space Agency mission. </p>
+		
+		<div class="row">
+			<div class="col-md-9 mrgn-tp-lg mrgn-bttm-lg">
+				<div class="avatar small">
+					<img class="pull-left mrgn-lft-0 mrgn-rght-md mrgn-bttm-0" alt="" src="/images/astronautes/avatars/scientifique-homme.jpg">
+					<p class="mrgn-tp-sm">An <strong>exoplanet  is a planet that is outside our <a href="/eng/astronomy/solar-system/">solar system</a></strong>. Exoplanets are found orbiting  a star other than our Sun. In the same way that our solar system contains eight  planets, other <a href="/eng/astronomy/fact-sheets/star.asp">stars</a> can have many exoplanets in orbit around them.</p>
+				</div>
+			</div>
+		</div>
+		
+		
+		<div class="row">
+			<div class="col-md-9 mrgn-tp-md"> 
+				<figure class="thumbnail"> 
+					<a href="https://www.asc-csa.gc.ca/eng/multimedia/search/image/watch/17273"><img src="https://www.asc-csa.gc.ca/images/recherche/tiles/dcb7ced7-7659-48d4-8062-9805a75205bd.jpg" alt="Exoplanet Kepler-186f" class="img-responsive full-width"></a>
+					<figcaption class="caption small">	
+						<p>An  artist's concept of exoplanet Kepler-186f. (Credit: <span title="National Aeronautics and Space Administration">NASA</span> Ames/SETI Institute/<abbr title="Jet Propulsion Laboratory">JPL</abbr>-Caltech)</p>
+					</figcaption>
+				</figure>
+			</div>
+		</div>		
+	</section>
+	
+	<section>
+		<h3>Ongoing space astronomy research and open data</h3>
+		<p>Astronomers  across Canada are using <span title="Near-Earth Object Surveillance Satellite">NEOSSat</span> to:</p>
+		<ul>
+			<li>confirm the existence of exoplanets and better  understand them</li>
+			<li>provide orbital data on near-Earth asteroids and  passing comets</li>
+		</ul>
+		<p>Since <time>2019</time>, we have provided Canadian  astronomers  with <a href="/eng/funding-programs/funding-opportunities/ao/2024-neossat-science-guest-observation-program-cycle-7.asp">observation time</a> on <span title="Near-Earth Object Surveillance Satellite">NEOSSat</span>. </p>
+		<p>All  astronomy data from <span title="Near-Earth Object Surveillance Satellite">NEOSSat</span> is made available in accordance with <a href="https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=28108">Canada's Directive on Open Government</a>. Images are downlinked, and  transmitted immediately to our <a href="https://donnees-data.asc-csa.gc.ca/en/dataset/9ae3e718-8b6d-40b7-8aa4-858f00e84b30">Open data and information Portal</a>, and archived by the National Research Council Canada as part of the <a href="https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/">Canadian Astronomy Data Centre</a>. </p>
+		<table class="table table-bordered table-condensed table-striped mrgn-tp-lg" id="tbl-researchers">
+			<caption class="wb-inv">Space astronomy research projects</caption>
+			<thead>
+				<tr>
+					<th scope="col">Name of <abbr title="Principal investigator">PI</abbr></th>
+					<th scope="col" class="col-md-3">Institution</th>
+					<th scope="col">GO cycle</th>
+					<th scope="col" class="col-md-5">Project description</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td><span lang="fr">Étienne Artigau</span></td>
+					<td><span lang="fr">Université de Montréal</span></td>
+					<td>1</td>
+					<td><ul class="list-unstyled lst-spcd">
+						<li>Photometric Monitoring of Nearby M dwarfs: Disentangling Planets from  Activity</li>
+					</ul></td>
+				</tr>
+				<tr>
+					<td>David D. Balam</td>
+					<td>National Research Council Canada/Dominion Astrophysical Observatory</td>
+					<td>1, 2, 3, 4, 5, 6, 7, 8, 9, 10</td>
+					<td><ul class="list-unstyled lst-spcd">
+						<li>Cycle 1: Astrometric Follow-up of <abbr>NEOCP</abbr> Asteroids and Comets</li>
+						<li>Cycle 2, 3, 4, 5, 6, 7, 8, 9 and 10: Morphology and  Astrometry of Near-Sun Comets and Unusual Asteroids</li>
+					</ul>			</td>
+				</tr>
+				<tr>
+					<td>Aaron Boley</td>
+					<td>University of British Columbia</td>
+					<td>2</td>
+					<td><ul class="list-unstyled lst-spcd">
+						<li>TransitDot: Constraining Changes in Exoplanet Transits</li>
+					</ul></td>
+				</tr>
+				<tr>
+					<td>Emily Deibert</td>
+					<td>University of Toronto</td>
+					<td>1</td>
+					<td><ul class="list-unstyled lst-spcd"><li>Constraining the Ephemerides of a Newly Discovered Young Planetary  System</li>
+					</ul></td>
+				</tr>
+				<tr>
+					<td>Chris Fox</td>
+					<td>Western University</td>
+					<td>1, 2, 3, 4, 5</td>
+					<td><ul class="list-unstyled lst-spcd">
+						<li>Cycle 1 and 2: Follow-up Transit Observations  of Confirmed TESS Exoplanet TOI-123b</li>
+						<li>Cycle 3: Transit Observations of TESS Planet  Candidates TOI-1516b &amp; TOI-2046b</li>
+						<li>Cycle 4: Transit Observations of TESS Planet  Candidate TOI-2395.01 &amp; Transit and Secondary Eclipse Observations of  WASP-43b</li>
+						<li>Cycle 5: Transit Observations of TOI-2046.01 and TOI-2796.01</li>
+					</ul></td>
+				</tr>
+				<tr>
+					<td>Brett Gladman</td>
+					<td>University of British Columbia</td>
+					<td>1</td>
+					<td><ul class="list-unstyled lst-spcd"><li>Fine time-scale monitoring of the first interstellar comet C/2019 Q4</li>
+					</ul></td>
+				</tr>
+				<tr>
+					<td>Samantha Lambier</td>
+					<td>Western University</td>
+					<td>5, 6</td>
+					<td><ul class="list-unstyled lst-spcd">
+						<li>Cycle 5: A <span title="Near-Earth Object Surveillance Satellite">NEOSSat</span> Pilot to Measure Ultracool Dwarf Rotation Periods</li>
+						<li>Cycle 6: Using <span title="Near-Earth Object Surveillance Satellite">NEOSSat</span> to Discern Ultracool Dwarf  Rotation in Crowded TESS Fields</li>
+					</ul></td>
+				</tr>
+				<tr>
+					<td>Chris Mann</td>
+					<td><span lang="fr">Université de Montréal</span></td>
+					<td>1, 2, 3, 4, 5, 6, 7, 8, 9, 10</td>
+					<td><ul class="list-unstyled lst-spcd">
+						<li>Cycle 1, 2, and 3: Long-duration Exoplanet Transits</li>
+						<li>Cycle 4: Catching an elusive re-transit of  TOI&nbsp;2010.01 &amp; Follow-up of warm/cool Jupiters</li>
+						<li>Cycle 5 and 6: Follow-up of warm/cool Jupiters and  other long period exoplanets &amp; catching an elusive re-transit of  TOI&nbsp;2134.02</li>
+						<li>Cycle 6: Transit recovery of extreme eccentricity  exoplanet</li>
+						<li>Cycle 6: Revisit of HD 114082 to recover transit</li>
+						<li>Cycle 6: Transit recovery of cold giant  planet TOI&nbsp;429&nbsp;b</li>
+                        <li>Cycle 7, 8, 9 and 10: Orbit refinement and alias confirmation for Long-period Exoplanets (ORACLE)</li>
+						<li>Cycle 7 and 9: Revisit of TYC&nbsp;8830&nbsp;410&nbsp;1 to monitor debris field dissipation</li>
+						<li>Cycle  7: Uncovering the true period of the enigmatic V1298&nbsp;Tau&nbsp;e</li>
+						<li>Cycle  8: Transit recovery of <abbr>HD</abbr> 114082 (ORACLE)</li>
+						<li>Cycle  8: Alias search (ORACLE)</li>
+						<li>Cycle  8: Transit recovery of long-period eccentric TIC33743172b (ORACLE)</li>
+					</ul></td>
+				</tr>
+				<tr>
+					<td>Jason Rowe</td>
+					<td>Bishop's University</td>
+					<td>1, 2, 3, 4, 5</td>
+					<td><ul class="list-unstyled lst-spcd"><li><span title="Near-Earth Object Surveillance Satellite">NEOSSat</span> Observations of Transiting Exoplanets (NOTES) Survey</li>
+					</ul></td>
+				</tr>
+				<tr>
+					<td>Karun Thanjavur</td>
+					<td>University of Victoria</td>
+					<td>6, 7</td>
+					<td><ul class="list-unstyled lst-spcd">
+						<li>Cycle&nbsp;6 and 7: Characterization of an Exoplanet Candidate Around an Unusual Variable Star, TOI&nbsp;5375</li>
+					</ul></td>
+				</tr>
+				<tr>
+					<td>Paul Wiegert</td>
+					<td>Western University</td>
+					<td>1, 2, 4</td>
+					<td><ul class="list-unstyled lst-spcd">
+						<li>Cycle 1: Probing Activity on Near-Sun  Asteroids Near Perihelion</li>
+						<li>Cycle 2: Observation of Periodic Near-Sun Objects &amp; Tracing the Activity of Near-Sun Asteroid (3200) Phaethon Near Perihelion</li>
+						<li>Cycle 4: Forward Scattering by comet C/2021&nbsp;A1 (Leonard)</li>
+					</ul></td>
+				</tr>
+                <tr>
+					<td>Aidan MacDougall</td>
+					<td>University of Waterloo</td>
+					<td>7, 8</td>
+					<td><ul class="list-unstyled lst-spcd">
+						<li>Cycle&nbsp;7 and 8: Confirming the variability of white dwarfs</li>
+					</ul></td>
+				</tr>
+				 <tr>
+					<td>Michael Lesko</td>
+					<td>University of Waterloo</td>
+					<td>9, 10</td>
+					<td><ul class="list-unstyled lst-spcd">
+						<li>Cycle&nbsp;9 and 10: The Impending Eruption of T CrB: Quantifying a Recurrent Nova in its Critical Phase</li>
+					</ul></td>
+				</tr>
+				<tr>
+					<td><span lang="ru">Stanimir Metchev</span></td>
+					<td>Western University</td>
+					<td>9</td>
+					<td><ul class="list-unstyled lst-spcd">
+						<li>Cycle&nbsp;9: Measuring the rotation of the brightest single ultracool dwarf in TESS</li>
+					</ul></td>
+				</tr>
+			</tbody>
+		</table>
+	</section>
+</section>
+
+<section>
+  <h2>Collaborators</h2>
+	<p><span title="Near-Earth Object Surveillance Satellite">NEOSSat</span> is  jointly funded by the <abbr title="Canadian Space Agency">CSA</abbr> and <a href="http://www.drdc-rddc.gc.ca/"><abbr title="Defence Research and Development Canada">DRDC</abbr></a>.  The satellite was built by <a href="http://www.mscinc.ca/" rel="external">Microsat Systems  Canada&nbsp;<span title="Incorporated">Inc.</span></a>, with support from  Spectral Applied Research and COM DEV International&nbsp;<abbr title="Limited">Ltd.</abbr> (formerly Routes AstroEngineering). The  <abbr title="Canadian Space Agency">CSA</abbr>  leads <span title="Near-Earth Object Surveillance Satellite">NEOSSat</span>'s space astronomy mission, and <abbr title="Defence Research and Development Canada">DRDC</abbr> is responsible for the <abbr title="High Earth Orbit Space Surveillance">HEOSS</abbr> space  surveillance mission.</p>
+</section>
+
+<div class="row">
+	<div class="col-md-12 mrgn-tp-md">
+		<figure class="wb-mltmd">
+			            <video data-id="18477" preload="metadata" title="NEOSSat: Canada's sentinel in the sky" poster="/videos/recherche/1_sxcumel5/thumbnails/1.jpg">
+                        <source src="/videos/recherche/1_sxcumel5/1_nut681xm.webm" type="video/webm">
+                        <source src="/videos/recherche/1_sxcumel5/1_uhke3slp.mp4" type="video/mp4">
+                                <track src="/videos/recherche/1_sxcumel5/files/captions/1_jwlsqp3y.xml" kind="captions" data-type="application/ttml+xml" srclang="en" label="English">
+            </video>
+
+<span class="wb-inv">Ok</span>
+			<figcaption class="mrgn-tp-sm small">
+				<p><span title="Near-Earth Object Surveillance Satellite">NEOSSat</span> is used to observe near-Earth asteroids, comets, satellites and space debris, and to reveal the presence of exoplanets. (Credit:&nbsp;<abbr title="Canadian Space Agency">CSA</abbr>)</p>
+			</figcaption>
+		</figure>
+	</div>  
+</div>
+<section>
+	<h2>Explore further</h2>
+	<ul>
+		<li><a href="/eng/satellites/everyday-lives/">Satellites serving Earth</a></li>
+		<li><a href="/eng/satellites/earth-observation/">Earth observation satellites</a></li>
+		<li><a href="/eng/satellites/">Satellites</a></li>
+	</ul>
+</section>
+
+
+<!-- ***************************************************************************** -->
+<!-- FIN DU CONTENU -->
+<!-- ***************************************************************************** -->
+
+
+
+    <div class="pagedetails">
+<div class="row">
+<div class="col-sm-6 col-md-5 col-lg-4">
+
+	<section class="gc-followus">
+		<h2>Follow us</h2>
+		<ul class="list-inline">
+			<li><a rel="external" class="facebook" href="https://www.facebook.com/canadianspaceagency/"><span class="wb-inv">Facebook: CanadianSpaceAgency</span></a></li>
+			<li><a rel="external" class="twitter" href="https://x.com/csa_asc"><span class="wb-inv">X: @csa_asc</span></a></li>
+			<li><a rel="external" class="youtube" href="https://www.youtube.com/canadianspaceagency"><span class="wb-inv">Youtube: canadianspaceagency</span></a></li>
+			<li><a rel="external" class="instagram" href="https://www.instagram.com/canadianspaceagency/"><span class="wb-inv">Instagram: canadianspaceagency</span></a></li>
+			<li><a rel="external" class="linkedin" href="https://www.linkedin.com/company/9441729"><span class="wb-inv">Linkedin: Canadian Space Agency</span></a></li>
+			<li><a class="rss" href="/rss/default_eng.xml"><span class="wb-inv">RSS</span></a></li>
+		</ul>
+	</section>
+	
+</div>
+	
+</div>
+
+<dl id="wb-dtmd">
+<dt>Date modified:&#32;</dt>
+<dd><time property="dateModified">2026-03-20</time></dd>
+</dl>
+
+</div>
+
+</main>
+
+
+<footer id="wb-info">
+    <h2 class="wb-inv">About this site</h2>
+    <div class="gc-contextual">
+        <div class="container">
+            <nav>
+                <h3>Canadian Space Agency</h3>
+                <ul class="list-col-xs-1 list-col-sm-2 list-col-md-3">
+                    <li><a href="/eng/contact.asp">Contact the <abbr title="Canadian Space Agency">CSA</abbr></a></li>
+					<li><a href="/eng/about/">About the <abbr title="Canadian Space Agency">CSA</abbr></a></li>
+					<li><a href="/eng/terms.asp">Notices and copyright</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <div class="gc-main-footer">
+        <div class="container">
+            <nav>
+                <h3>Government of Canada</h3>
+                <ul class="list-col-xs-1 list-col-sm-2 list-col-md-3">
+                    <li><a href="https://www.canada.ca/en/contact.html">All contacts</a></li>
+                    <li><a href="https://www.canada.ca/en/government/dept.html">Departments and agencies</a></li>
+                    <li><a href="https://www.canada.ca/en/government/system.html">About government</a></li>
+                </ul>
+                <h4><span class="wb-inv">Themes and topics</span></h4>
+                <ul class="list-unstyled colcount-sm-2 colcount-md-3">
+                    <li><a href="https://www.canada.ca/en/services/jobs.html">Jobs</a></li>
+                    <li><a href="https://www.canada.ca/en/services/immigration-citizenship.html">Immigration and citizenship</a></li>
+                    <li><a href="https://travel.gc.ca/">Travel and tourism</a></li>
+                    <li><a href="https://www.canada.ca/en/services/business.html">Business</a></li>
+                    <li><a href="https://www.canada.ca/en/services/benefits.html">Benefits</a></li>
+                    <li><a href="https://www.canada.ca/en/services/health.html">Health</a></li>
+                    <li><a href="https://www.canada.ca/en/services/taxes.html">Taxes</a></li>
+                    <li><a href="https://www.canada.ca/en/services/environment.html">Environment and natural resources</a></li>
+                    <li><a href="https://www.canada.ca/en/services/defence.html">National security and defence</a></li>
+                    <li><a href="https://www.canada.ca/en/services/culture.html">Culture, history and sport</a></li>
+                    <li><a href="https://www.canada.ca/en/services/policing.html">Policing, justice and emergencies</a></li>
+                    <li><a href="https://www.canada.ca/en/services/transport.html">Transport and infrastructure</a></li>
+                    <li><a href="https://www.international.gc.ca/world-monde/index.aspx?lang=eng">Canada and the world</a></li>
+                    <li><a href="https://www.canada.ca/en/services/finance.html">Money and finances</a></li>
+                    <li><a href="https://www.canada.ca/en/services/science.html">Science and innovation</a></li>
+                    <li><a href="https://www.canada.ca/en/services/indigenous-peoples.html">Indigenous Peoples</a></li>
+                    <li><a href="https://www.canada.ca/en/services/veterans-military.html">Veterans and military</a></li>
+                    <li><a href="https://www.canada.ca/en/services/youth.html">Youth</a></li>
+                    <li><a href="https://www.canada.ca/en/services/life-events.html">Manage life events</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <div class="gc-sub-footer">
+        <div class="container d-flex align-items-center">
+            <nav>
+                <h3 class="wb-inv">Government of Canada Corporate</h3>
+                <ul>
+                    <li><a href="https://www.canada.ca/en/social.html">Social media</a></li>
+                    <li><a href="https://www.canada.ca/en/mobile.html">Mobile applications</a></li>
+                    <li><a href="https://canada.ca/en/government/about-canada-ca.html">About Canada.ca</a></li>
+                    <li><a href="https://www.canada.ca/en/transparency/terms.html">Terms and conditions</a></li>
+                    <li><a href="https://www.canada.ca/en/transparency/privacy.html">Privacy</a></li>
+                </ul>
+            </nav>
+            <div class="wtrmrk align-self-end">
+                <img src="/dist/gcweb/v19.6.0/GCWeb/assets/wmms-blk.svg" alt="Symbol of the Government of Canada">
+            </div>
+        </div>
+    </div>
+</footer>
+	
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="/dist/gcweb/v19.6.0/wet-boew/js/wet-boew.min.js"></script>
+<script src="/dist/gcweb/v19.6.0/GCWeb/js/theme.min.js"></script>
+<script src="/js/institution/return-to-top.js"></script>
+
+<script>
+
+var invitation_file = "config.json";
+
+</script>
+	
+<!-- InvitationManager Files -->
+<script src="/dist/invitation-manager/Overlay.js"></script>
+<script src="/dist/invitation-manager/InvitationManager.js"></script>
+<!-- End InvitationManager Files -->
+	
+<link href="/dist/fontawesome/6.5.1/css/all.min.css" rel="stylesheet">
+<link href="/dist/fontawesome/5.14.0/css/all.min.css" rel="stylesheet">
+
+
+
+<script>
+	
+	var va = "/eng/multimedia/search/analytics";
+</script>
+<script src="/js/institution/recherche-video/analytics.js"></script>
+<script>
+	$(document).ready(function(){
+		var theme = getParameterByName('theme');
+		if(theme !== null){
+			$("a[href^='/']").each(function(){
+				if($(this).attr("href").indexOf("theme=") == -1){
+					if($(this).attr("href").indexOf("?") == -1){
+						$(this).attr("href", $(this).attr("href") + "?");
+					} else{
+						$(this).attr("href", $(this).attr("href") + "&");
+					}
+					$(this).attr("href", $(this).attr("href") + "theme=" + theme);
+				}
+					
+			})
+		}
+		
+		
+	});
+	
+	function getParameterByName(name, url) {
+		if (!url) url = window.location.href;
+		name = name.replace(/[\[\]]/g, "\\$&");
+		var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+			results = regex.exec(url);
+		if (!results) return null;
+		if (!results[2]) return '';
+		return decodeURIComponent(results[2].replace(/\+/g, " "));
+	}
+</script>
+	
+	<script type="text/javascript">_satellite.pageBottom();</script>
+	
+    
+</body>
+</html>

@@ -1,0 +1,163 @@
+{
+  "request": {
+    "retrieved_at_utc": "2026-11-14T19:39:47+00:00",
+    "method": "GET",
+    "url_base": "https://power.larc.nasa.gov/api/temporal/monthly/point",
+    "params": {
+      "parameters": "T2M",
+      "community": "AG",
+      "longitude": "35.2000",
+      "latitude": "31.8000",
+      "start": "1981",
+      "end": "2025",
+      "format": "JSON"
+    },
+    "http_status": 200,
+    "content_type": "application/json",
+    "bytes": 9175,
+    "sha256": "5d2d82caa32f2a1a90bc319885127360a84553257854851364954688ec2aa1dd",
+    "elapsed_s": 0.75,
+    "requests_made": 1,
+    "note": "public endpoint, no credentials"
+  },
+  "data_comparison": {
+    "reference_months": 540,
+    "project_months": 540,
+    "reference_valid_months": 540,
+    "project_valid_months": 540,
+    "fill_values_seen": 0,
+    "month13_present_in_raw": true,
+    "month13_in_project_series": false,
+    "month_value_mismatches": 0,
+    "first": [
+      [
+        1981,
+        1
+      ],
+      null
+    ],
+    "last": [
+      2025,
+      12
+    ],
+    "units": "C",
+    "project_units": "°C"
+  },
+  "algorithm_comparison": {
+    "annual_means_match_reference_unweighted": true,
+    "max_abs_diff_annual_means": 3.33333333379926e-05,
+    "project_annual_n": 45,
+    "reference_annual_n": 45,
+    "years_dropped_by_project": [],
+    "project_min_months_per_year": 9,
+    "reference_min_months_per_year": 12,
+    "project_theil_sen_c_per_decade": 0.3542,
+    "reference_theil_sen_c_per_decade": 0.35421474358974253,
+    "theil_sen_abs_diff": 1.4743589742516328e-05,
+    "project_sen_note": "project Sen uses pairwise slopes on decimal-year mid-points of the valid months of each year (mean month centre); reference uses calendar years",
+    "project_mk_test_name_annual": "Mann-Kendall (original)",
+    "project_mk_p_reported": 3.25e-09,
+    "project_variance_correction_factor": 1.0,
+    "project_plain_mk_p_on_project_annual_means": 3.252794073675723e-09,
+    "reference_mk_original_p": 3.2527940341253725e-09,
+    "reference_mk_original_tau": 0.6121212121212121,
+    "project_tau": 0.6121,
+    "project_auto_choice": "annual",
+    "project_auto_reason": "significant autocorrelation in the deseasonalised monthly series (Ljung-Box p < alpha): monthly Mann-Kendall p-values would be too optimistic, so annual means are used (re-tested for autocorrelation; Hamed-Rao variance correction applies only where annual lags are significant)",
+    "project_auto_test": "Mann-Kendall (original)",
+    "project_auto_p": 3.25e-09,
+    "project_auto_sen_c_per_decade": 0.3542,
+    "project_monthly_seasonal_p": 3.68e-28,
+    "project_monthly_seasonal_sen_c_per_decade": 0.3571,
+    "project_diagnostics": {
+      "seasonality": {
+        "test": "kruskal_wallis",
+        "applicable": true,
+        "H": 512.8813,
+        "p_value": 0.0,
+        "epsilon_squared": 0.9505,
+        "significant": true,
+        "n_seasons": 12
+      },
+      "autocorrelation_monthly_deseasonalised": {
+        "lag1": 0.3464,
+        "ljung_box_p": 0.0,
+        "significant": true
+      },
+      "autocorrelation_annual": {
+        "series": "annual means (detrended by Sen slope)",
+        "lag1_autocorrelation": -0.1301,
+        "ljung_box_p": 0.7402,
+        "significant_autocorrelation": false,
+        "hamed_rao_factor_applied": 1.0
+      }
+    }
+  },
+  "annual_weighting": {
+    "weighted_vs_unweighted_ols_diff_c_per_decade": -1.0893407660195198e-05,
+    "weighted_vs_unweighted_sen_diff_c_per_decade": -0.002578033679397407,
+    "max_abs_annual_mean_diff": 0.05697716894977134,
+    "weighted": {
+      "n_years": 45,
+      "ols_c_per_decade": 0.3699309159906708,
+      "ols_ci95_c_per_decade": [
+        0.27872808543188543,
+        0.46113374654945616
+      ],
+      "ols_p": 2.6396798956142316e-10,
+      "theil_sen_c_per_decade": 0.3516367099103451,
+      "theil_sen_ci95_c_per_decade": [
+        0.26283105022831893,
+        0.4367242406194147
+      ],
+      "mk_original_p": 2.887521999284104e-09,
+      "mk_original_tau": 0.6141414141414141,
+      "mk_original_z": 5.9378680948604545,
+      "mk_S": 608.0
+    },
+    "note": "unweighted = mean of 12 monthly means (what both sides use)"
+  },
+  "historical_comparison": {
+    "historical_figures_supplied_by_user": {
+      "valid_months": 540,
+      "ols_c_per_decade": 0.37,
+      "ols_ci95": [
+        0.28,
+        0.46
+      ],
+      "theil_sen_c_per_decade": 0.35,
+      "mk_p": 3.25e-09
+    },
+    "today_reference_unweighted": {
+      "n_years": 45,
+      "ols_c_per_decade": 0.369941809398331,
+      "ols_ci95_c_per_decade": [
+        0.27868358743068256,
+        0.4612000313659795
+      ],
+      "ols_p": 2.680458527557589e-10,
+      "theil_sen_c_per_decade": 0.35421474358974253,
+      "theil_sen_ci95_c_per_decade": [
+        0.2607142857142846,
+        0.4421874999999986
+      ],
+      "mk_original_p": 3.2527940341253725e-09,
+      "mk_original_tau": 0.6121212121212121,
+      "mk_original_z": 5.918303455338673,
+      "mk_S": 606.0
+    },
+    "today_reference_valid_months": 540,
+    "consistent_with_historical": {
+      "valid_months": true,
+      "ols_within_0.05": "True",
+      "theil_sen_within_0.05": "True",
+      "mk_p_same_order_of_magnitude": true
+    }
+  },
+  "autocorrelation_demo_reference": {
+    "lag1_of_anomalies_trend_NOT_removed": 0.46974189258513654,
+    "lag1_of_anomalies_after_removing_Sen_trend": 0.34639463292816125,
+    "note": "difference shows how much of the 'autocorrelation' is just the trend"
+  },
+  "project_daily_support": "none (project path is monthly POWER only); daily/hot-day analysis is NOT comparable to annual means"
+}

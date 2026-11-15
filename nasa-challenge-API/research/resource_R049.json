@@ -1,0 +1,338 @@
+{
+  "id": "resource_R049",
+  "url": "https://uavsar.jpl.nasa.gov/education/postcards.html",
+  "checked_at": "2026-11-14T15:15:14.467105+00:00",
+  "tls_validation": false,
+  "status": 200,
+  "final_url": "https://uavsar.jpl.nasa.gov/education/postcards.html",
+  "bytes": 23842,
+  "content_type": "text/html; charset=UTF-8",
+  "sha256": "d85c0b8bb1d57e45b67077f4cc76103659f6502fd36ee72965520259e41bb4e5",
+  "links": [
+    {
+      "url": "https://uavsar.jpl.nasa.gov/education/postcards.html#startOfContent",
+      "label": ""
+    },
+    {
+      "url": "http://www.nasa.gov/",
+      "label": ""
+    },
+    {
+      "url": "http://www.jpl.nasa.gov/",
+      "label": "Jet Propulsion Laboratory"
+    },
+    {
+      "url": "http://www.caltech.edu/",
+      "label": "California Institute of Technology"
+    },
+    {
+      "url": "http://www.jpl.nasa.gov",
+      "label": "JPL HOME"
+    },
+    {
+      "url": "http://www.jpl.nasa.gov/earth",
+      "label": "EARTH"
+    },
+    {
+      "url": "http://www.jpl.nasa.gov/solar-system",
+      "label": "SOLAR SYSTEM"
+    },
+    {
+      "url": "http://www.jpl.nasa.gov/stars-galaxies",
+      "label": "STARS & GALAXIES"
+    },
+    {
+      "url": "http://scienceandtechnology.jpl.nasa.gov",
+      "label": "SCIENCE & TECHNOLOGY"
+    },
+    {
+      "url": "http://www.kintera.org/site/apps/ka/ct/contactcustom.asp?c=bsJKK2PNJtH&b=198474",
+      "label": "JPL Email News"
+    },
+    {
+      "url": "http://jpl.nasa.gov/rss",
+      "label": "RSS"
+    },
+    {
+      "url": "http://jpl.nasa.gov/podcast",
+      "label": "Podcast"
+    },
+    {
+      "url": "http://jpl.nasa.gov/video",
+      "label": "Video"
+    },
+    {
+      "url": "https://uavsar.jpl.nasa.gov/",
+      "label": "UAVSAR"
+    },
+    {
+      "url": "https://uavsar.jpl.nasa.gov/",
+      "label": "Uninhabited Aerial Vehicle Synthetic Aperture Radar"
+    },
+    {
+      "url": "https://uavsar.jpl.nasa.gov/",
+      "label": "L-band"
+    },
+    {
+      "url": "http://airmoss.jpl.nasa.gov",
+      "label": "P-band (AirMOSS)"
+    },
+    {
+      "url": "http://airbornescience.jpl.nasa.gov/instruments/glistin/",
+      "label": "Ka-band (GLISTIN-A)"
+    },
+    {
+      "url": "https://uavsar.jpl.nasa.gov/science",
+      "label": "Science & Applications"
+    },
+    {
+      "url": "https://uavsar.jpl.nasa.gov/technology",
+      "label": "Technology"
+    },
+    {
+      "url": "https://uavsar.jpl.nasa.gov/education",
+      "label": "Education"
+    },
+    {
+      "url": "https://uavsar.jpl.nasa.gov/tools",
+      "label": "Tools"
+    },
+    {
+      "url": "https://uavsar.jpl.nasa.gov/education/postcards.html",
+      "label": ""
+    },
+    {
+      "url": "https://uavsar.jpl.nasa.gov/education",
+      "label": "Education"
+    },
+    {
+      "url": "https://uavsar.jpl.nasa.gov/cgi-bin/login.pl",
+      "label": "My Account"
+    },
+    {
+      "url": "https://uavsar.jpl.nasa.gov/resources/infographics/UAVSAR_802_C-20A_Aircraft_Infographic.pdf",
+      "label": "Print this infographic (PDF)"
+    },
+    {
+      "url": "https://uavsar.jpl.nasa.gov/resources/infographics/UAVSAR_L-band_Instrument_Infographic.pdf",
+      "label": "Print this infographic (PDF)"
+    },
+    {
+      "url": "https://uavsar.jpl.nasa.gov/resources/postcards/UAVSAR-postcard-Gabon.png",
+      "label": "Image (PNG)"
+    },
+    {
+      "url": "https://uavsar.jpl.nasa.gov/resources/postcards/UAVSAR-postcard-Gabon.pdf",
+      "label": "Print this postcard (PDF)"
+    },
+    {
+      "url": "https://uavsar.jpl.nasa.gov/resources/postcards/UAVSAR-postcard-CA-drought.jpg",
+      "label": "Image (JPG)"
+    },
+    {
+      "url": "https://uavsar.jpl.nasa.gov/resources/postcards/UAVSAR-postcard-CA-drought.pdf",
+      "label": "Print this postcard (PDF)"
+    },
+    {
+      "url": "https://uavsar.jpl.nasa.gov/resources/postcards/UAVSAR-postcard-Los-Angeles.jpg",
+      "label": "Image (JPG)"
+    },
+    {
+      "url": "https://uavsar.jpl.nasa.gov/resources/postcards/UAVSAR-postcard-Los-Angeles.pdf",
+      "label": "Print this postcard (PDF)"
+    },
+    {
+      "url": "https://uavsar.jpl.nasa.gov/resources/postcards/UAVSAR-postcard-Mexicali.jpg",
+      "label": "Image (PNG)"
+    },
+    {
+      "url": "https://uavsar.jpl.nasa.gov/resources/postcards/UAVSAR-postcard-Mexicali.pdf",
+      "label": "Print this postcard (PDF)"
+    },
+    {
+      "url": "http://uavsar.jpl.nasa.gov/cgi-bin/product.pl?jobName=SanAnd_26501_09083-010_10028-000_0174d_s01_L090_01",
+      "label": "Data download page"
+    },
+    {
+      "url": "https://uavsar.jpl.nasa.gov/resources/postcards/UAVSAR-postcard-SF.jpg",
+      "label": "Image (PNG)"
+    },
+    {
+      "url": "https://uavsar.jpl.nasa.gov/resources/postcards/UAVSAR-postcard-SF.pdf",
+      "label": "Print this postcard (PDF)"
+    },
+    {
+      "url": "http://uavsar.jpl.nasa.gov/cgi-bin/product.pl?jobName=Haywrd_23501_09006_012_090218_L090_CX_01",
+      "label": "Data download page"
+    },
+    {
+      "url": "https://uavsar.jpl.nasa.gov/resources/postcards/UAVSAR-postcard-Kilauea.png",
+      "label": "Image (PNG)"
+    },
+    {
+      "url": "https://uavsar.jpl.nasa.gov/resources/postcards/UAVSAR-postcard-Kilauea.pdf",
+      "label": "Print this postcard (PDF)"
+    },
+    {
+      "url": "http://uavsar.jpl.nasa.gov/cgi-bin/product.pl?jobName=BigIsl_05901_10001-002_11024-009_0488d_s01_L090_01",
+      "label": "Data download page"
+    },
+    {
+      "url": "https://uavsar.jpl.nasa.gov/resources/postcards/UAVSAR-postcard-Cipreses.png",
+      "label": "Image (PNG)"
+    },
+    {
+      "url": "https://uavsar.jpl.nasa.gov/resources/postcards/UAVSAR-postcard-Cipreses.pdf",
+      "label": "Print this postcard (PDF)"
+    },
+    {
+      "url": "http://uavsar.jpl.nasa.gov/cgi-bin/product.pl?jobName=ChiGla_09300_13046-004_13048-011_0002d_s01_L090_02",
+      "label": "Data download page"
+    },
+    {
+      "url": "https://uavsar.jpl.nasa.gov/resources/postcards/UAVSAR-postcard-Azufre.jpg",
+      "label": "Image (JPG)"
+    },
+    {
+      "url": "https://uavsar.jpl.nasa.gov/resources/postcards/UAVSAR-postcard-Azufre.pdf",
+      "label": "Print this postcard (PDF)"
+    },
+    {
+      "url": "http://uavsar.jpl.nasa.gov/cgi-bin/product.pl?jobName=ChiVol_11304_13045_014_130324_L090_CX_01",
+      "label": "Data download page"
+    },
+    {
+      "url": "https://uavsar.jpl.nasa.gov/resources/postcards/UAVSAR-postcard-Pacaya-Samiria.png",
+      "label": "Image (PNG)"
+    },
+    {
+      "url": "https://uavsar.jpl.nasa.gov/resources/postcards/UAVSAR-postcard-Pacaya-Samiria.pdf",
+      "label": "Print this postcard (PDF)"
+    },
+    {
+      "url": "http://uavsar.jpl.nasa.gov/cgi-bin/product.pl?jobName=Pacaya_06302_13041_008_130317_L090_CX_01",
+      "label": "Data download page"
+    },
+    {
+      "url": "https://uavsar.jpl.nasa.gov/resources/postcards/UAVSAR-postcard-Tungurahua.jpg",
+      "label": "Image (JPG)"
+    },
+    {
+      "url": "https://uavsar.jpl.nasa.gov/resources/postcards/UAVSAR-postcard-Tungurahua.pdf",
+      "label": "Print this postcard (PDF)"
+    },
+    {
+      "url": "http://uavsar.jpl.nasa.gov/cgi-bin/product.pl?jobName=EcuVol_34800_13040_009_130315_L090_CX_01",
+      "label": "Data download page"
+    },
+    {
+      "url": "https://uavsar.jpl.nasa.gov/resources/postcards/UAVSAR-postcard-San-Miguel.jpg",
+      "label": "Image (JPG)"
+    },
+    {
+      "url": "https://uavsar.jpl.nasa.gov/resources/postcards/UAVSAR-postcard-San-Miguel.pdf",
+      "label": "Print this postcard (PDF)"
+    },
+    {
+      "url": "http://uavsar.jpl.nasa.gov/cgi-bin/product.pl?jobName=ElSalv_28602_13035_010_130308_L090_CX_01",
+      "label": "Data download page"
+    },
+    {
+      "url": "https://uavsar.jpl.nasa.gov/resources/postcards/UAVSAR-postcard-Kyushu.png",
+      "label": "Image (PNG)"
+    },
+    {
+      "url": "https://uavsar.jpl.nasa.gov/resources/postcards/UAVSAR-postcard-Kyushu.pdf",
+      "label": "Print this postcard (PDF)"
+    },
+    {
+      "url": "http://uavsar.jpl.nasa.gov/cgi-bin/product.pl?jobName=JapanV_20802_12092_005_121005_L090_CX_01",
+      "label": "Data download page"
+    },
+    {
+      "url": "https://uavsar.jpl.nasa.gov/resources/postcards/UAVSAR-postcard-Vatnajokull-glacier.png",
+      "label": "Image (PNG)"
+    },
+    {
+      "url": "https://uavsar.jpl.nasa.gov/resources/postcards/UAVSAR-postcard-Vatnajokull-glacier.pdf",
+      "label": "Print this postcard (PDF)"
+    },
+    {
+      "url": "http://uavsar.jpl.nasa.gov/cgi-bin/product.pl?jobName=Icelnd_28501_12034_018_120603_L090_CX_02",
+      "label": "Data download page"
+    },
+    {
+      "url": "https://uavsar.jpl.nasa.gov/resources/postcards/UAVSAR-postcard-Aleutian-1.png",
+      "label": "Image (PNG)"
+    },
+    {
+      "url": "https://uavsar.jpl.nasa.gov/resources/postcards/UAVSAR-postcard-Aleutian-1.pdf",
+      "label": "Print this postcard (PDF)"
+    },
+    {
+      "url": "http://uavsar.jpl.nasa.gov/cgi-bin/product.pl?jobName=aleutn_06005_11055_003_110802_L090_CX_01",
+      "label": "Data download page"
+    },
+    {
+      "url": "https://uavsar.jpl.nasa.gov/resources/postcards/UAVSAR-postcard-Aleutian-2.jpg",
+      "label": "Image (JPG)"
+    },
+    {
+      "url": "https://uavsar.jpl.nasa.gov/resources/postcards/UAVSAR-postcard-Aleutian-2.pdf",
+      "label": "Print this postcard (PDF)"
+    },
+    {
+      "url": "http://uavsar.jpl.nasa.gov/cgi-bin/product.pl?jobName=aleutn_24702_10063_008_100804_L090_CX_01",
+      "label": "Data download page"
+    },
+    {
+      "url": "https://uavsar.jpl.nasa.gov/resources/postcards/UAVSAR-postcard-Hawaii.jpg",
+      "label": "Image (JPG)"
+    },
+    {
+      "url": "https://uavsar.jpl.nasa.gov/resources/postcards/UAVSAR-postcard-Hawaii.pdf",
+      "label": "Print this postcard (PDF)"
+    },
+    {
+      "url": "http://uavsar.jpl.nasa.gov/cgi-bin/product.pl?jobName=OahuSE_05401_10006_004_100110_L090_CX_01",
+      "label": "Data download page"
+    },
+    {
+      "url": "https://uavsar.jpl.nasa.gov/resources/postcards/UAVSAR-postcard-Iceland-PolSAR.jpg",
+      "label": "Image (JPG)"
+    },
+    {
+      "url": "https://uavsar.jpl.nasa.gov/resources/postcards/UAVSAR-postcard-Iceland-PolSAR.pdf",
+      "label": "Print this postcard (PDF)"
+    },
+    {
+      "url": "http://uavsar.jpl.nasa.gov/cgi-bin/product.pl?jobName=Icelnd_32011_09039_008_090612_L090_CX_01",
+      "label": "Data download page"
+    },
+    {
+      "url": "https://uavsar.jpl.nasa.gov/resources/postcards/UAVSAR-postcard-Iceland-InSAR.png",
+      "label": "Image (PNG)"
+    },
+    {
+      "url": "https://uavsar.jpl.nasa.gov/resources/postcards/UAVSAR-postcard-Iceland-InSAR-front.jpg",
+      "label": "Postcard front"
+    },
+    {
+      "url": "https://uavsar.jpl.nasa.gov/resources/postcards/UAVSAR-postcard-Iceland-InSAR-back.jpg",
+      "label": "Postcard back"
+    },
+    {
+      "url": "mailto:Bruce.D.Chapman@jpl.nasa.gov",
+      "label": "Contact Webmaster"
+    },
+    {
+      "url": "http://www.jpl.nasa.gov/copyrights.cfm",
+      "label": "Privacy"
+    },
+    {
+      "url": "http://www.jpl.nasa.gov/imagepolicy/",
+      "label": "Image Policy"
+    }
+  ],
+  "elapsed_seconds": 1.625
+}

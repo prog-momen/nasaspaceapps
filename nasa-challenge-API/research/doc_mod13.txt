@@ -1,0 +1,886 @@
+MODIS/Terra Vegetation Indices Monthly L3 Global 1km SIN Grid V061 | NASA Earthdata
+Skip to main content
+Earthdata Forum is down due to unplanned maintenance. Please contact earthdata-support@nasa.gov with questions.
+See the alert
+Suomi NPP is no longer delivering new data. Users must transition to alternative products.
+Suomi NPP data announcement
+Home
+Data
+Data Catalog
+Data Alerts and Outages
+Projects
+Land, Atmosphere Near real-time Capability for Earth observation (LANCE)
+Harmonized Landsat and Sentinel-2 (HLS)
+Applied Remote Sensing Training Program (ARSET)
+Observation Methods
+Platforms
+Instruments
+Space Geodesy Techniques
+Data Tools
+Earthdata Search
+Worldview
+Fire Information for Resource Management System (FIRMS)
+Vertex
+Giovanni
+Application for Extracting and Exploring Analysis Ready Samples (AppEEARS)
+Visualization, Exploration, and Data Analysis (VEDA)
+Ocean Color Level 3 and 4 Browser
+Topics
+Atmosphere
+Biosphere
+Climate Indicators
+Cryosphere
+Human Dimensions
+Land Surface
+Ocean
+Solid Earth
+Sun-Earth Interactions
+Terrestrial Hydrosphere
+View All Topics
+Learn
+Earth Observation Data Basics
+GIS Resources
+Data in Action
+Data Recipes
+Trainings
+Tutorials
+Webinars
+Publications
+Centers
+Distributed Active Archive Centers (DAACs)
+Alaska Satellite Facility (ASF) DAAC
+Atmospheric Science Data Center (ASDC)
+Crustal Dynamics Data Information System (CDDIS)
+Global Hydrometeorology Resource Center (GHRC) DAAC
+Goddard Earth Sciences Data and Information Services Center (GES DISC)
+Land Processes (LP) DAAC
+Level 1 and Atmosphere Archive and Distribution System (LAADS) DAAC
+National Snow and Ice Data Center (NSIDC) DAAC
+Oak Ridge National Laboratory (ORNL) DAAC
+Ocean Biology DAAC (OB.DAAC)
+Physical Oceanography DAAC (PO.DAAC)
+Science Investigator-led Processing Systems (SIPS)
+MODIS Adaptive Processing System (MODAPS) SIPS
+Ocean SIPS
+Microwave Limb Sounder (MLS) SIPS
+Ozone Monitoring Instrument (OMI) SIPS
+Atmosphere SIPS
+Land SIPS
+Ozone Mapping and Profiler Suite SIPS
+Sounder SIPS
+Suborbital Data Resource Center
+Engage
+Open Data, Services, and Software Policies
+Open Science and Data Management Plan
+For Researchers and Grantees
+Data Management Guidance
+Data Rights and Related Issues
+Data Use Guidance
+For Developers
+APIs
+Common Metadata Repository
+For Data Providers
+Adding New Data
+DOI Process
+Standards
+About
+ESDS Leadership
+Organizational Chart
+Multi-Mission Data Processing System Study
+Earth Science Data and Information System (ESDIS) Project
+ESDS Digital Strategy and User Development Team
+Earth Science Data Systems Geographic Information Systems Team (EGIST)
+Competitive Programs
+News & Events
+News
+Events
+Worldview Image of the Week
+Feature Articles
+Data User Stories
+Earthdata Blog
+Data Alerts System
+Subscribe to the Earthdata Newsletter
+Data
+Toggle submenu
+Data
+Data Catalog
+Data Alerts and Outages
+Projects
+Land, Atmosphere Near real-time Capability for Earth observation (LANCE)
+Harmonized Landsat and Sentinel-2 (HLS)
+Applied Remote Sensing Training Program (ARSET)
+Observation Methods
+Platforms
+NASA operates state-of-the-art platforms that collect critical information about our home planet. Drill down to the data and tools you need by exploring platforms on Earth and in the sky.
+Instruments
+From the ground and into space, instruments aboard NASA platforms collect a vast array of Earth science data.
+Space Geodesy Techniques
+These data are used to support scientific and societal applications Earth observations, positioning, navigation, and timing.
+Data Tools
+Earthdata Search
+Worldview
+Fire Information for Resource Management System (FIRMS)
+Vertex
+Giovanni
+Application for Extracting and Exploring Analysis Ready Samples (AppEEARS)
+Visualization, Exploration, and Data Analysis (VEDA)
+Ocean Color Level 3 and 4 Browser
+?
+Get help from experienced data users and managers on Earthdata Forum
+Topics
+Toggle submenu
+Data Pathfinders by Topic
+Atmosphere
+The atmosphere is a gaseous envelope surrounding and protecting our planet from the intense radiation of the Sun.
+Biosphere
+The biosphere encompasses all life on Earth and extends from root systems to mountaintops and all depths of the ocean.
+Climate Indicators
+Climate Indicators hold key information for the most relevant domains of climate change: temperature and energy, atmospheric composition, ocean and water as well as the cryosphere.
+Cryosphere
+The cryosphere encompasses the frozen parts of Earth, including glaciers and ice sheets, sea ice, and any other frozen body of water.
+Human Dimensions
+The human dimensions discipline includes ways humans interact with the environment and how these interactions impact Earth’s systems.
+Land Surface
+The land surface discipline includes research into areas such as shrinking forests, warming land, and eroding soils.
+Ocean
+This vast, critical reservoir supports a diversity of life and helps regulate Earth’s climate.
+Solid Earth
+Processes occurring deep within Earth constantly are shaping landforms.
+Sun-Earth Interactions
+The Sun influences physical and chemical processes in Earth’s atmosphere.
+Terrestrial Hydrosphere
+The terrestrial hydrosphere includes water on the land surface and underground in the form of lakes, rivers, and groundwater along with total water storage.
+Featured Data Pathfinders by Topic
+Air Quality
+Agriculture Production
+Natural Hazards
+Water Quality
+Climate Resilience
+View all Topics
+Learn
+Toggle submenu
+Learn
+Earth Observation Data Basics
+Learn key terms and concepts like remote sensing and processing levels.
+GIS Resources
+Explore resources for the Geographic Information Systems (GIS) community, including StoryMaps.
+Data Support
+Connect with experienced data users and managers through the Earthdata Forum for help with datasets, tools, and services.
+Data in Action
+Data in Action demonstrates Earth science data applications with interactive explanations as to how the work was accomplished.
+Data Recipes
+Data Recipes are code-based instructions that help data scientists accomplish a specific task, such as converting data into a specific format for analysis or visualization.
+Trainings
+Trainings are interactive opportunities to develop technical skills with NASA Earth science data.
+Tutorials
+Tutorials are step by step “how to” content that cover a broad range of tasks, from data collection to visualization.
+Webinars
+Webinars are video seminars featuring experts in various disciplines who share their knowledge in a particular subject area, from data in the cloud to specific data tools.
+Publications
+Access publications citing NASA Earth science data.
+Centers
+Toggle submenu
+Centers
+Distributed Active Archive Centers (DAACs)
+Science Investigator-led Processing Systems (SIPS)
+Alaska Satellite Facility (ASF) DAAC
+Atmospheric Science Data Center (ASDC)
+Crustal Dynamics Data Information System (CDDIS)
+Global Hydrometeorology Resource Center (GHRC) DAAC
+Goddard Earth Sciences Data and Information Services Center (GES DISC)
+Land Processes (LP) DAAC
+Level 1 and Atmosphere Archive and Distribution System (LAADS) DAAC
+National Snow and Ice Data Center (NSIDC) DAAC
+Oak Ridge National Laboratory (ORNL) DAAC
+Ocean Biology DAAC (OB.DAAC)
+Physical Oceanography DAAC (PO.DAAC)
+MODIS Adaptive Processing System (MODAPS) SIPS
+Ocean SIPS
+Microwave Limb Sounder (MLS) SIPS
+Ozone Monitoring Instrument (OMI) SIPS
+Atmosphere SIPS
+Land SIPS
+Ozone Mapping and Profiler Suite SIPS
+Sounder SIPS
+Suborbital Data Resource Center
+All of the resources for the airborne and field data community within our program can be found here.
+Engage
+Toggle submenu
+Engage
+Open Data, Services, and Software Policies
+Open Science and Data Management Plan
+For Researchers and Grantees
+Data Management Guidance
+Data Rights and Related Issues
+Data Use Guidance
+For Developers
+APIs
+Common Metadata Repository
+For Data Providers
+Adding New Data
+DOI Process
+Standards
+About
+Toggle submenu
+About
+ESDS Leadership
+Meet the Earth Science Data Systems Program leadership team.
+Organizational Chart
+View the internal structure of the ESDS Program.
+Multi-Mission Data Processing System Study
+We are considering the right data processing system for open-source data.
+Contact Us
+Find the right contact for questions, feedback, or support related to NASA Earthdata.
+Earth Science Data and Information System (ESDIS) Project
+ESDS Digital Strategy and User Development Team
+Earth Science Data Systems Geographic Information Systems Team (EGIST)
+Competitive Programs
+Program Performance and Metrics
+Access overall ingest, archive, and distribution metrics for the ESDS program.
+News & Events
+Toggle submenu
+News
+View the latest updates from Earthdata.
+Events
+Sign up or watch a past recording of events covering Earth science data topics.
+Worldview Image of the Week
+Learn about the Earth through the lens of NASA’s Worldview.
+Data Alerts System
+Subscribe to the Earthdata Newsletter
+Feature Articles
+Read stories inspired by NASA Earth science data.
+Data User Stories
+Discover how people are researching with NASA Earth science data.
+Earthdata Blog
+Take a deeper dive into NASA Earth science data.
+Latest News
+2 MIN READ
+Atmospheric River Season for the Pacific Northwest
+Worldview Image of the Week
+Nov 13, 2026
+1 MIN READ
+earthaccess Hackathon at AGU 2026
+Event
+Nov 10, 2026
+Search
+Home
+Find Data
+Data Catalog
+MODIS/Terra Vegetation Indices Monthly L3 Global 1km SIN Grid V061
+MODIS/Terra Vegetation Indices Monthly L3 Global 1km SIN Grid V061
+MOD13A3
+Version
+061
+DOI
+https://doi.org/10.5067/MODIS/MOD13A3.061
+Citation
+Center/Project
+Land Processes DAAC (LP DAAC)
+Data at a Glance
+Cloud Enabled Dataset
+CMR Concept ID:
+c2327962326-lpcloud
+Copy URL
+Copy CMR Metadata URL
+Share
+Facebook
+Data Format
+HDF-EOS2
+Dataset Size
+8.6 MB
+Spatial Extent
+N: 90
+S: -90
+E: 180
+W: -180
+Spatial Resolution
+1000 Meters x 1000 Meters
+Location
+GLOBAL
+Temporal Extent
+2000-02-01 to Present
+Temporal Resolution
+1 Month
+Coordinate System
+CARTESIAN
+Granule Spatial Representation
+GEODETIC
+Data Access
+User Guide
+Overview
+Documents and Resources
+Publications
+Variables
+TABLE OF CONTENTS
+Description
+The Terra Moderate Resolution Imaging Spectroradiometer (MODIS) Vegetation Indices Monthly (MOD13A3) Version 6.1 data are provided monthly at 1 kilometer (km) spatial resolution as a gridded Level 3 product in the sinusoidal projection. In generating this monthly product, the algorithm ingests all the
+MOD13A2
+products that overlap the month and employs a weighted temporal average.
+The MODIS Normalized Difference Vegetation Index (NDVI) complements NOAA's Advanced Very High Resolution Radiometer (AVHRR) NDVI products and provides continuity for time series historical applications. MODIS also includes an Enhanced Vegetation Index (EVI) that minimizes canopy background variations and maintains sensitivity over dense vegetation conditions. The EVI uses the blue band to remove residual atmosphere contamination caused by smoke and sub-pixel thin clouds. The MODIS NDVI and EVI products are computed from surface reflectances corrected for molecular scattering, ozone absorption, and aerosols.
+Vegetation indices are used for global monitoring of vegetation conditions and are used in products displaying land cover and land cover changes. These data may be used as input for modeling global biogeochemical and hydrologic processes as well as global and regional climate. Additional applications include characterizing land surface biophysical properties and processes, such as primary production and land cover conversion.
+Provided along with the vegetation layers and the two quality assurance (QA) layers are reflectance bands 1 (red), 2 (near-infrared), 3 (blue), and 7 (mid-infrared), as well as three observation layers.
+Known Issues
+For complete information about known issues please refer to the
+MODIS/VIIRS Land Quality Assessment website
+.
+Version Description
+The following changes and improvements were implemented for inputs to MODIS Version 6.1 vegetation indices data products: (1) Version 6.1 Level-1B (L1B) products have been improved by undergoing various calibration changes that include: changes to the response-versus-scan angle (RVS) approach that affects reflectance bands for Aqua and Terra MODIS, corrections to adjust for the optical crosstalk in Terra MODIS infrared (IR) bands, and corrections to the Terra MODIS forward look-up table (LUT) update for the period 2012 – 2017, and (2) A polarization correction has been applied to the L1B Reflective Solar Bands (RSB).
+Product Summary
+Platforms
+Terra
+Instruments
+MODIS
+Projects
+TERRA
+Spatial Extent
+N: 90
+S: -90
+E: 180
+W: -180
+Spatial Resolution
+1000 Meters x 1000 Meters
+Spatial Reference System(s)
+MODIS Sinusoidal Tiling System
+Location
+GLOBAL
+Coordinate System
+CARTESIAN
+Granule Spatial Representation
+GEODETIC
+Temporal Extent
+2000-02-01 to Present
+Temporal Resolution
+1 Month
+Data Partner
+Land Processes Distributed Active Archive Center (LP DAAC)
+,
+MODIS Adaptive Processing System, Terrestrial Information Systems Laboratory, Earth Sciences Division, Science and Exploration Directorate, Goddard Space Flight Center, NASA (NASA/GSFC/SED/ESD/TISL/MODAPS)
+Concept ID
+C2327962326-LPCLOUD
+Data State
+ACTIVE
+Number of Files/Granules
+93611
+Processing Level
+3
+Published
+2021-02-16
+Updated
+2021-02-16
+Science Keywords
+Vegetation Index
+,
+Normalized Difference Vegetation Index (NDVI)
+,
+Enhanced Vegetation Index (EVI)
+Citation
+Citation is critically important for dataset documentation and discovery. This dataset is openly shared, without restriction, in accordance with the
+EOSDIS Data Use and Citation Guidance
+.
+Copy Citation
+Select a Citation Style:
+APA
+BibTeX
+Chicago
+MLA
+Copy
+Citation Copied
+Didan,  Kamel. (2021). MODIS/Terra Vegetation Indices Monthly L3 Global 1km SIN Grid V061 [Data set]. NASA Land Processes Distributed Active Archive Center. https://doi.org/10.5067/MODIS/MOD13A3.061
+ Date Accessed: 2026-11-14
+@misc{Didan_2021,
+  title={MODIS/Terra Vegetation Indices Monthly L3 Global 1km SIN Grid V061},
+  url={https://www.earthdata.nasa.gov/data/catalog/lpcloud-mod13a3-061},
+  DOI={10.5067/MODIS/MOD13A3.061},
+  publisher={NASA Land Processes Distributed Active Archive Center},
+  author={Didan,  Kamel},
+  year={2021},
+}
+Didan,  Kamel. “MODIS/Terra Vegetation Indices Monthly L3 Global 1km SIN Grid V061.” NASA Land Processes Distributed Active Archive Center, 2021. doi:10.5067/MODIS/MOD13A3.061.
+ Date Accessed: 2026-11-14
+Didan,  Kamel. “MODIS/Terra Vegetation Indices Monthly L3 Global 1km SIN Grid V061.” NASA Land Processes Distributed Active Archive Center, 2021, https://doi.org/10.5067/MODIS/MOD13A3.061.
+ Date Accessed: 2026-11-14
+File Naming Convention
+MOD13A3.A2025152.h01v11.061.2025195144044.hdf
+The file name begins with the Product Short Name (MOD13A3) followed by the Julian Date of Acquisition formatted as AYYYYDDD (A2025152), the Tile Identifier which is horizontal tile and vertical tile provided as hXXvYY (h01v11), the Version of the data collection (061), the Julian Date and Time of Production designated as YYYYDDDHHMMSS (2025195144044), and the Data Format (hdf).
+Get Help
+QUESTIONS & SUPPORT
+Have a question?
+Get help with NASA Earth science data, datasets, tools, services, and metadata on the Earthdata Forum. Experienced staff in the data user community review and answer questions.
+Get help on Earthdata Forum
+Earthdata
+Forum
+TABLE OF CONTENTS
+Documents
+USER'S GUIDE
+The technical information in the User's Guide enables users to interpret and use the data products.
+ALGORITHM THEORETICAL BASIS DOCUMENT (ATBD)
+The ATBD provides physical theory and mathematical procedures for the calculations used to produce the data products.
+PRODUCT QUALITY ASSESSMENT
+The LDOPE Land Product Quality Assessment website provides known issues, maneuvers, and product quality of the land products.
+SCIENCE DATA PRODUCT VALIDATION
+Further details regarding MODIS land product validation for the MOD13 data products are available from the MODIS Land Team Validation site.
+Validation at stage 3 has been achieved for the MODIS Vegetation Index product suite.
+GENERAL DOCUMENTATION
+The File Specification provides a description of the product file including Scientific Data Sets and their attributes.
+Dataset Resources
+View All Learning Resources
+View All News & Events
+Filters
+Type
+Tutorial
+Status (1)
+Current
+Archived
+Copy Link
+BibTeX
+Items
+4
+8
+12
+16
+Apply
+Clear All
+Get Started with MODIS Vegetation Indices Data Part 1: All About Accessing Data
+Learn how to access and use Moderate Resolution Imaging Spectroradiometer (MODIS) Vegetation Indices data.
+Tutorial
+April 10, 2017
+Get Started with MODIS Vegetation Indices Data Part 3: Interpreting Quality Information
+Learn how to interpret Moderate Resolution Imaging Spectroradiometer (MODIS) Vegetation Indices quality data by understanding layers, decoding bits, and using tools for quality assessment.
+Tutorial
+April 10, 2017
+Get Started with MODIS Vegetation Indices Data Part 2: Using the Data
+Learn how to access and use Moderate Resolution Imaging Spectroradiometer (MODIS) Vegetation Indices data.
+Tutorial
+April 10, 2017
+SHOWING
+3 OF 3
+Items
+4
+8
+12
+16
+Get Help
+QUESTIONS & SUPPORT
+Have a question?
+Get help with NASA Earth science data, datasets, tools, services, and metadata on the Earthdata Forum. Experienced staff in the data user community review and answer questions.
+Get help on Earthdata Forum
+Earthdata
+Forum
+Publications Citing This Dataset
+Filters
+Copy Link
+BibTeX
+Topic
+Atmosphere (83)
+Cryosphere (5)
+Human Dimensions (17)
+Land Surface (208)
+Ocean (3)
+Terrestrial Hydrosphere (23)
+Article Type
+journal_article (441)
+proceedings_article (5)
+report (2)
+Journal
+ACM (1)
+American Association for the Advancement of Science (AAAS) (2)
+American Geophysical Union (AGU) (22)
+American Meteorological Society (2)
+BMJ (1)
+British Herpetological Society (1)
+Cambridge University Press (CUP) (1)
+Computer Network Information Center, Chinese Academy of Sciences (1)
+Copernicus GmbH (20)
+CSIRO Publishing (1)
+Current Science Association (1)
+Elsevier BV (138)
+FapUNIFESP (SciELO) (1)
+Frontiers Media SA (9)
+Idojaras (1)
+IEEE (3)
+Informa UK Limited (13)
+Institute of Electrical and Electronics Engineers (IEEE) (4)
+Institute of Geographic Science and Natural Resources Research, Chinese Academy of Sciences (1)
+International Society for Environmental Information Science (ISEIS) (1)
+IOP Publishing (7)
+IWA Publishing (2)
+Korea Water Resources Association (1)
+MDPI AG (74)
+National Bureau of Economic Research (1)
+OAIMDD - EcoZone Publishing House (1)
+Oxford University Press (OUP) (1)
+Public Library of Science (PLoS) (6)
+SAGE Publications (1)
+Scientific Societies (1)
+Society of Agricultural Meteorology of Japan (1)
+Space Research Institute RAS (1)
+SPIE (1)
+SPIE-Intl Soc Optical Eng (2)
+Springer Science and Business Media LLC (75)
+The Royal Society (2)
+Tsinghua University Press (1)
+University of Wisconsin Press (1)
+UNU-WIDER (1)
+Wiley (44)
+Year
+2026 (98)
+2025 (113)
+2024 (86)
+2023 (40)
+2022 (60)
+2021 (67)
+2020 (29)
+2019 (34)
+2018 (11)
+2017 (13)
+2016 (7)
+2015 (4)
+2014 (1)
+2009 (1)
+Apply
+Clear All
+Title
+Authors
+Year
+Sort ascending
+Referenced Datasets
+An Interpretable Index-Based Analysis and Scenario-Based Spatial Simulation of Vegetation Drought in the Yellow River Water Conservation Area
+Li, Rong, Zhu, Rui, Yin, Zhenliang, Li, Tong, Li, Mengwei, Zhou, Ganlin
+2026
+MODIS/Terra Land Surface Temperature/Emissivity 8-Day L3 Global 1km SIN Grid V061
+MODIS/Terra Vegetation Indices Monthly L3 Global 1km SIN Grid V006
+MODIS/Terra Land Surface Temperature/Emissivity 8-Day L3 Global 1km SIN Grid V006
+MODIS/Terra Vegetation Indices Monthly L3 Global 1km SIN Grid V061
+Analyzing the impact of urban morphology on urban land surface temperature from the perspective of spatial configuration and explainable machine learning: A case study of seven cities
+Wan, Bo, Shen, Ningjie, Zhang, Haijian, Sheng, Qiang
+2026
+MODIS/Terra Vegetation Indices Monthly L3 Global 1km SIN Grid V006
+MODIS/Terra Vegetation Indices Monthly L3 Global 1km SIN Grid V061
+Application of Various Statistical Indicators for Drought Analysis Based on Remote Sensing Data: A Case Study of Three Major Provinces of Turkey
+KAYA, Yunus Ziya
+2026
+MODIS/Terra Vegetation Indices Monthly L3 Global 1km SIN Grid V006
+MODIS/Terra Vegetation Indices Monthly L3 Global 1km SIN Grid V061
+Atmospheric CO2 dynamics in a coastal megacity: spatiotemporal patterns, sealand breeze impacts, and anthropogenicbiogenic emission partitioning
+Zhang, Jinwen, Liang, Yongjian, Pei, Chenglei, Huang, Bo, Huang, Yingyan, Lian, Xiufeng, Song, Shaojie, Cheng, Chunlei, Wu, Cheng, Zhou, Zhen, Li, Junjie, Li, Mei
+2026
+MODIS/Terra Vegetation Indices 16-Day L3 Global 250m SIN Grid V061
+MODIS/Terra Vegetation Indices 16-Day L3 Global 250m SIN Grid V006
+MODIS/Terra Vegetation Indices 16-Day L3 Global 1km SIN Grid V006
+MODIS/Terra Vegetation Indices 16-Day L3 Global 1km SIN Grid V061
+MODIS/Terra Vegetation Indices Monthly L3 Global 1km SIN Grid V006
+MODIS/Terra Vegetation Indices Monthly L3 Global 1km SIN Grid V061
+Association of PM2. 5, O3 and greenness exposure with risk of cardiometabolic multimorbidity: a prospective cohort study
+Gao, Ning, Sheng, Dan, Tang, Shaoyan, Wang, Minzhen, Zheng, Shan
+2026
+MODIS/Terra Vegetation Indices 16-Day L3 Global 250m SIN Grid V061
+MODIS/Terra Vegetation Indices 16-Day L3 Global 250m SIN Grid V006
+MODIS/Terra Vegetation Indices 16-Day L3 Global 1km SIN Grid V006
+MODIS/Terra Vegetation Indices 16-Day L3 Global 1km SIN Grid V061
+MODIS/Terra Vegetation Indices Monthly L3 Global 1km SIN Grid V006
+MODIS/Terra Vegetation Indices Monthly L3 Global 1km SIN Grid V061
+Associations of outdoor artificial light at night exposure with telomere
+Fan, Gaojie, Fang, Qing, Guo, Wenwen, Liu, Binghai, Yan, Lianyan, Li, Jiaoyan, Miao, Wanting, Chen, Rui, Hu, Liqin, Lei, Xiaoning, Wang, Youjie, Wu, Mingyang, Song, Lulu
+2026
+MODIS/Terra Vegetation Indices 16-Day L3 Global 250m SIN Grid V061
+MODIS/Terra Vegetation Indices 16-Day L3 Global 250m SIN Grid V006
+MODIS/Terra Vegetation Indices Monthly L3 Global 1km SIN Grid V006
+MODIS/Terra Vegetation Indices Monthly L3 Global 1km SIN Grid V061
+Cysticercosis in Laos: Prevalence, risk factors and predictive mapping
+Larkins, Andrew, Sayasone, Somphou, Gabriel, Sarah, Ash, Amanda
+2026
+MODIS/Terra Vegetation Indices Monthly L3 Global 1km SIN Grid V006
+MODIS/Terra Vegetation Indices Monthly L3 Global 1km SIN Grid V061
+Mapping critical thresholds and dynamic drivers of net primary productivity response to shrub encroachment in Xilin Gol grasslands using multi-source remote ...
+Wang, Xi, Lyu, Xiaoqing, Liu, Jianhong, Zhu, Wenquan, Jia, Ruolan, Wang, Ziqi, Wang, Jing, Li, Wei, Liu, Nan, He, Yanfen
+2026
+MODIS/Terra Net Primary Production Gap-Filled Yearly L4 Global 500m SIN Grid V061
+MODIS/Terra Net Primary Production Gap-Filled Yearly L4 Global 500m SIN Grid V006
+MODIS/Terra Vegetation Indices Monthly L3 Global 1km SIN Grid V006
+MODIS/Terra Vegetation Indices Monthly L3 Global 1km SIN Grid V061
+Mapping the global potential of onshore field-scale solar PV using positive-unlabeled deep learning
+Li, Wenkai, Liu, Hongliang, Hu, Xiaomei, Lu, Xingcheng, Tao, Shengli, Ma, Qin, Yang, Haitao, Liu, Yuanchi, Li, Mingxuan, Li, Tianhong, Guo, Qinghua
+2026
+MODIS/Terra Vegetation Continuous Fields Yearly L3 Global 250m SIN Grid V061
+MODIS/Terra Vegetation Continuous Fields Yearly L3 Global 250m SIN Grid V006
+MODIS/Terra Vegetation Indices Monthly L3 Global 1km SIN Grid V006
+MODIS/Terra Vegetation Indices Monthly L3 Global 1km SIN Grid V061
+Integrating causal inference and machine learning to quantify climate-malaria relationships: Evidence of temperature and rainfall thresholds from Colombian municipalities
+Gutierrez, Juan David
+2026
+MODIS/Terra+Aqua Land Cover Type Yearly L3 Global 500m SIN Grid V006
+MODIS/Terra+Aqua Land Cover Type Yearly L3 Global 500m SIN Grid V061
+MODIS/Terra Vegetation Indices Monthly L3 Global 1km SIN Grid V006
+MODIS/Terra Vegetation Indices Monthly L3 Global 1km SIN Grid V061
+Informing African agricultural health: integrating human population dynamics and climate change into banana bunchy top disease risk assessment
+Blomme, Guy, Hufkens, Koen, Ocimati, Walter, Kearsley, Elizabeth
+2026
+MODIS/Terra Vegetation Indices Monthly L3 Global 1km SIN Grid V006
+MODIS/Terra Vegetation Indices Monthly L3 Global 1km SIN Grid V061
+Integrating remotesensing and meteorological data to identify key drivers of the potential distribution of a grassland grasshopper
+Bobo, Du, Haibin, Han, Fangzheng, Yue, Haihua, Bai, Shujing, Gao, Yuhai, Bao
+2026
+MODIS/Terra Vegetation Indices 16-Day L3 Global 250m SIN Grid V061
+MODIS/Terra Vegetation Indices 16-Day L3 Global 250m SIN Grid V006
+MODIS/Terra Vegetation Indices 16-Day L3 Global 1km SIN Grid V006
+MODIS/Terra Vegetation Indices 16-Day L3 Global 1km SIN Grid V061
+MODIS/Terra Vegetation Indices Monthly L3 Global 1km SIN Grid V006
+MODIS/Terra Vegetation Indices Monthly L3 Global 1km SIN Grid V061
+Impacts of Climate Change and Human Activities on Global Mountain Grasslands: Insights Into the Last Two Decades and Future Climate Scenarios
+Na, Mulun, Zuecco, Giulia, Tarolli, Paolo
+2026
+MODIS/Terra Vegetation Indices Monthly L3 Global 1km SIN Grid V006
+MODIS/Terra Vegetation Indices Monthly L3 Global 1km SIN Grid V061
+Influence of Artificial Oasis on Evolution Trend of Sandstorm in Tarim Basin and Policy Countermeasures from 2000 to 2022
+Zhang, Xiaodong, Qiu, Zhi
+2026
+MODIS/Terra Vegetation Indices Monthly L3 Global 1km SIN Grid V006
+MODIS/Terra Vegetation Indices Monthly L3 Global 1km SIN Grid V061
+Stability Amidst Change: A 12-Year Assessment of Sundarbans Mangrove Dynamics (20132024)
+Oney, Md Rokib Udddin, Hoque, Md. Enamul
+2026
+MODIS/Terra Vegetation Indices Monthly L3 Global 1km SIN Grid V061
+The biogeography of soil and airborne fungi in the Southwestern USA in relation to climate and vegetation
+Cat, Linh Anh, Gorris, Morgan E, Randerson, James T, Kivlin, Stephanie N, Treseder, Kathleen K
+2026
+MODIS/Terra Vegetation Indices Monthly L3 Global 1km SIN Grid V061
+Revisiting the Urban Heat and Pollution Islands over the Kolkata Metropolitan Area, India
+Pandey, Pragya, Tyagi, Bhishma, Kumar, Pradeep, Sahu, Saroj Kumar, Sharma, Kuldeep
+2026
+MODIS/Terra+Aqua Land Cover Type Yearly L3 Global 500m SIN Grid V006
+MODIS/Terra+Aqua Land Cover Type Yearly L3 Global 500m SIN Grid V061
+MODIS/Terra+Aqua BRDF/Albedo Albedo Daily L3 Global - 500m V061
+MODIS/Terra+Aqua BRDF/Albedo Albedo Daily L3 Global - 500m V006
+MODIS/Terra Land Surface Temperature/Emissivity Daily L3 Global 1km SIN Grid V061
+MODIS/Terra Land Surface Temperature/Emissivity Daily L3 Global 1km SIN Grid V006
+MODIS/Terra Vegetation Indices Monthly L3 Global 1km SIN Grid V006
+MODIS/Terra Vegetation Indices Monthly L3 Global 1km SIN Grid V061
+Spatiotemporal distribution and driving factors of atmospheric pollutants in the U-Chang-Shi urban agglomeration, Northwestern China
+Chen, Sheng, Li, Jinglong, He, Qing, Chen, Si, Ding, Gaixia, Dang, Zihao
+2026
+MODIS/Terra Vegetation Indices Monthly L3 Global 1km SIN Grid V061
+Drivers of agricultural ecosystem resilience under compound atmospheric-soil drought in Northeast China
+Wang, Luchen, Zhao, Youzhu, Faiz, Muhammad Abrar, Baluch, Shehakk Muneer, Xu, Min, Liu, Dongqi, Li, Mo
+2026
+MODIS/Terra Vegetation Indices Monthly L3 Global 1km SIN Grid V006
+MODIS/Terra Vegetation Indices Monthly L3 Global 1km SIN Grid V061
+Exploring the Seven Climate Zones of China: How Soil Moisture and Vapor Pressure Deficit Influence Vegetation Productivity
+Zhou, Yan, Meng, Changqing, Li, Yue, Fang, Qingqing
+2026
+MODIS/Terra Vegetation Indices Monthly L3 Global 1km SIN Grid V006
+MODIS/Terra Vegetation Indices Monthly L3 Global 1km SIN Grid V061
+GLDAS Noah Land Surface Model L4 monthly 0.25 x 0.25 degree V2.1 (GLDAS_NOAH025_M)
+GLDAS Noah Land Surface Model L4 monthly 0.25 x 0.25 degree V2.0 (GLDAS_NOAH025_M)
+The interaction between vegetation greenness and hydro-climatic factors in China
+Xu, Yuyue, Liao, Jiangling, Liu, Qing, Li, Yuchen, Pi, Junzheng, Ke, Chang-Qing, Chen, Jianli, Pan, Hang, Wang, Lixin, He, Liyin, Yao, Ling, Zhou, Chenghu
+2026
+MODIS/Terra Vegetation Indices Monthly L3 Global 1km SIN Grid V061
+GLDAS Noah Land Surface Model L4 monthly 0.25 x 0.25 degree V2.1 (GLDAS_NOAH025_M)
+GLDAS Noah Land Surface Model L4 monthly 0.25 x 0.25 degree V2.0 (GLDAS_NOAH025_M)
+The inconsistency between vegetation greening and ecosystem resilience in the typical subtropical region of China
+Liu, Shuang, Liu, Miaomiao, Chen, Xiaohui, Wu, Min, Ye, Limin, Hu, Xisheng
+2026
+MODIS/Terra Vegetation Indices Monthly L3 Global 1km SIN Grid V061
+Upslope and downslope vegetation expansions on the warming and wetting QinghaiTibet Plateau
+Ji, Hailong, Nan, Zhuotong, Chen, Yuhong, Zhao, Shuping
+2026
+MODIS/Terra Vegetation Indices Monthly L3 Global 1km SIN Grid V061
+Wetland Expansion Reduces
+CO
+2
+Equivalent Emissions and Strengthens the Congo Basin's Role as a Net Carbon Sink
+Byrne, Aidan, Williams, Jake, Pettorelli, Nathalie
+2026
+MODIS/Terra Vegetation Indices Monthly L3 Global 1km SIN Grid V061
+Water Functional Zoning Framework Based on Machine Learning: A Case
+Liu, Wei, Sun, Yuanzhuo, Deng, Fuliang, Wu, Bo, Zhang, Xiaoyan, Sun, Mei, Li, Lanhui, Li, Hui, Yuan, Ying
+2026
+MODIS/Terra Vegetation Indices 16-Day L3 Global 250m SIN Grid V061
+MODIS/Terra Vegetation Indices 16-Day L3 Global 1km SIN Grid V061
+MODIS/Terra Vegetation Indices Monthly L3 Global 1km SIN Grid V061
+You're viewing 25 of 564
+Load More
+Variables
+The table below lists the variables contained within a single granule for this
+dataset. Variables often contain observed or derived geophysical measurements
+collected from a variety of sources, including remote sensing instruments on
+satellite and airborne platforms, field campaigns, in situ measurements, and
+model outputs. The terms variable, parameter, scientific data set, layer, and band
+have been used across NASA’s Earth science disciplines; however, variable is the
+designated nomenclature in NASA’s Common Metadata Repository (CMR).
+Variable metadata attributes such as Name, Description, Units, Data Type, Fill
+Value, Valid Range, and Scale Factor allow users to efficiently process and analyze
+the data. The full range of attributes may not be applicable to all variables.
+Additional information on variable attributes is typically available in the data,
+user guide, and/or other product documentation.
+For questions on a specific variable, please use the
+Earthdata Forum.
+Copy Link
+BibTeX
+Apply
+Clear All
+Name
+Sort descending
+Description
+Units
+Data Type
+Fill Value
+Valid Range
+Scale Factor
+Offset
+1 km monthly blue reflectance
+Surface Reflectance Band 3
+N/A
+int16
+-1000
+0  to  10000
+0.0001
+N/A
+1 km monthly EVI
+1 km monthly EVI
+EVI
+int16
+-3000
+-2000  to  10000
+0.0001
+N/A
+1 km monthly MIR reflectance
+Surface Reflectance Band 7
+N/A
+int16
+-1000
+0  to  10000
+0.0001
+N/A
+1 km monthly NDVI
+1 km monthly NDVI
+NDVI
+int16
+-3000
+-2000  to  10000
+0.0001
+N/A
+1 km monthly NIR reflectance
+Surface Reflectance Band 2
+N/A
+int16
+-1000
+0  to  10000
+0.0001
+N/A
+1 km monthly pixel reliability
+Quality reliability of VI pixel
+Rank
+int8
+-1
+0  to  3
+N/A
+N/A
+1 km monthly red reflectance
+Surface Reflectance Band 1
+N/A
+int16
+-1000
+0  to  10000
+0.0001
+N/A
+1 km monthly relative azimuth angle
+Relative azimuth angle of VI pixel
+Degree
+int16
+-4000
+-18000  to  18000
+0.01
+N/A
+1 km monthly sun zenith angle
+Sun zenith angle of VI pixel
+Degree
+int16
+-10000
+0  to  18000
+0.01
+N/A
+1 km monthly view zenith angle
+View zenith angle of VI Pixel
+Degree
+int16
+-10000
+0  to  18000
+0.01
+N/A
+1 km monthly VI Quality
+VI quality indicators
+Bit Field
+uint16
+65535
+0  to  65534
+N/A
+N/A
+You're viewing 11 of 11
+Footer
+Find Data
+Data Catalog
+Data Tools
+Platforms
+Instruments
+Space Geodesy Techniques
+Projects
+Data Alerts and Outages
+Earthdata Login
+Data Pathfinders by Topic
+Atmosphere
+Biosphere
+Climate Indicators
+Cryosphere
+Human Dimensions
+Land Surface
+Ocean
+Solid Earth
+Sun-Earth Interactions
+Terrestrial Hydrosphere
+Learn
+Earth Observation Data Basics
+Earthdata Forum
+Webinars
+Trainings
+Tutorials
+Data in Action
+Data Recipes
+GIS Resources
+StoryMaps
+Publications
+Centers
+ASF DAAC
+ASDC
+CDDIS
+GHRC DAAC
+GES DISC
+LP DAAC
+LAADS DAAC
+NSIDC DAAC
+ORNL DAAC
+OB.DAAC
+PO.DAAC
+Sea Level Change Portal
+Suborbital Data Resource Center
+Engage
+Data Management Guidance for ESD-funded Researchers
+Open Data, Services, and Software Policies
+Public and Private Partnerships
+Memberships and Affiliations
+News
+Events
+Newsletter
+Contact
+Footer Submenu
+Web Privacy Policy
+Data and Information Guidance
+Communications Policy
+FOIA
+Accessibility
+Sitemap
+USA.gov
+Site last Updated:
+Nov. 6, 2026
+NASA Official:
+Katie Baynes

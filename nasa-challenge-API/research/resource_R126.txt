@@ -1,0 +1,219 @@
+NASA SVS | Perpetual Ocean 2: Western Boundary Currents
+Scientific Visualization Studio
+Galleries
+Help
+Search
+5510: Map of the March 29, 2025 Partial Solar Ecli...
+14745: An Ocean in Motion: NASA's Mesmerizing View...
+Perpetual Ocean 2: Western Boundary Currents
+Released
+Thursday, February 27, 2025
+ID: 5425
+Visualizations by:
+Greg Shirah
+View full credits
+This is the 'beauty shot version' of Perpetual Ocean 2: Western Boundary Currents.  The visualization starts with a rotating globe showing ocean currents.  The camera then zooms into the Kuroshio current, moves over the Indian Ocean to the Agulhas Current, then over to the Gulf Stream.The colors used to color the flow in this version where chosen to provide a pleasing look.  The flows from the surface down to 600 meters deep are all white.   Flows below 600 meters depth use the blue-cyan-white color table below.
+Download
+Movies
+perpetual_ocean2_CLOSE_093_clean_noDate_1080p30.mp4 (1920x1080) [1.2 GB]
+perpetual_ocean2_CLOSE_093_clean_noDate_2160p60.mp4 (3840x2160) [5.0 GB]
+perpetual_ocean2_beauty_hw5x3_810p30_5.mp4 (2400x810) [990.4 MB]
+Frame sets
+beauty_all_depths (3840x2160) [19002 Item(s)]
+9600x3240_16x9_30p (9600x3240) [9501 Item(s)]
+Images
+perpetual_ocean2_CLOSE_093_clean_noDate_1080p_carousel.jpg (1920x1080) [638.0 KB]
+perpetual_ocean2_CLOSE_093_4k_clean_noDate.00000_print.jpg (1024x576) [215.0 KB]
+perpetual_ocean2_CLOSE_093_4k_clean_noDate.00000_thm.png (80x40) [4.5 KB]
+This is the 'beauty shot version' of Perpetual Ocean 2: Western Boundary Currents.  The visualization starts with a rotating globe showing ocean currents.  The camera then zooms into the Kuroshio current, moves over the Indian Ocean to the Agulhas Current, then over to the Gulf Stream.
+The colors used to color the flow in this version where chosen to provide a pleasing look.  The flows from the surface down to 600 meters deep are all white.   Flows below 600 meters depth use the blue-cyan-white color table below.
+Download
+Images
+SIGGRAPH_OfficialSelectionETWhite.png (1920x1080) [49.5 KB]
+The narrated version of this visualization was accepted into ACM/SIGGRAPH's 2025 Electronic Theater.
+https://svs.gsfc.nasa.gov/14745/
+This is a visualization of ocean currents around the world. NASA’s ocean model, Estimating the Circulation and Climate of the Ocean (
+ECCO
+)), is used to visualize the currents. The ECCO ocean circulation model incorporates observations from spacecraft, buoys, and other in situ measurements to keep the model accurate. ECCO is a joint project between NASA/JPL, MIT, and UT Austin. The model output used here is from ECCO-2 and covers the years 2021-2023.
+In 2011, we used ECCO2 to create a visualization called Perpetual Ocean.  Perpetual Ocean continues to be extremely popular, but it only shows ocean currents on the surface.  In this new visualization, we use the ocean’s 3D velocity field to visualize some of the strongest ocean currents. We release virtual particles in the ocean and allow them to move with the ocean’s three dimensional velocity field. Each particle has a trail to better see its direction of movement. The particles initialized above 600 meters in depth have a trail length of 3 days, those initialized deeper than 600 meters have a trail length of 6 days. The particle trails help identify the strongest currents in the world that are squeezed in narrow belts on the western side of each ocean basin. These are called western boundary currents. The looping meanders in the boundary currents sometimes form turbulent rings (eddies) that can trap cold or warm waters in their centers and then separate from the main flow (see 2:30 of temperature version for an example for trapped warm water). In general, the western boundary currents are warm and salty.
+The visualization starts from a global rotating view before slowing down to see the Western Boundary Current along the western edge of the Pacific Ocean along the coasts of Australia, and Asia. We zoom in to show the  Kuroshio Current off the coast of Japan. Along the Japanese coast, the current exhibits large meanders that can persist for many months in more or less the same location. The Kuroshio current has a temperature range of  20 to 25 °C. Its salinity can change seasonally with an average value of 34.5.
+We then zoom out  and move over the Indian Ocean The Indian Ocean exhibits large variations in salinity. The western Indian Ocean is quite salty (>36) due to overflow inputs from marginal Seas (e.g. Persian Gulf and Red Sea). The East Indian Ocean is fresher (~35) due to river inputs from India.   The Indonesian Throughflow is quite fresh (33-34) and carries freshwater from the Pacific. We then zoom into the southern tip of Africa. The exchange of water from the Indian Ocean to the South Atlantic occurs here. The Agulhas Current is another Western Boundary current following the slope of the continental shelf closely. The continental shelf along the east coast of southern Africa is quite narrow and steep. This sloping topography stabilizes the Agulhas Current so that it shows no wide meanderings of the type familiar in other boundary currents such as the Kuroshio. The Agulhas Current overshoots the African continent, moving  into the South Atlantic. Then retroflects back to the Indian Ocean. At the retroflection, shedding of warm (20 to 25 °C ) and salty (~35.5)  rings happens. The eddies detached from the current have a lifetime of more than 2 years traveling across the south Atlantic ocean. These eddies are referred to as Agulhas Rings.
+Another Western Boundary Current, called the Gulf Stream comes into view along the east coast of North America. The Gulf Stream forms at the Florida Straits. It’s one of the fastest currents on Earth with surface speed of up to 2.5 meters per second. In the Gulf stream, cold cores (mostly anticyclonic ones) form when the Gulf Stream meanders eastward leaving the coast of North America (off Cape Hatteras in North Carolina). The eddy diameters can be as large as 1000 km. Zooming into the Gulf Stream, we can see that the warm surface water (>25°C) moves poleward (white particle trails). The Gulf Stream is generally the warmest and saltiest western boundary current. There’s a return current underneath at depth below 500m (the blue particle trails) moving southward carrying cold waters from the pole.
+The loop currents in the Gulf of Mexico are very large eddies persisting in the Gulf. They bring the warm and highly saline Caribbean water into the Gulf. As we zoom out from the Gulf Stream, the salinity version shows that the Atlantic is generally much more salty than the Pacific.
+Models like ECCO-2 help scientists to understand the characteristics of these currents better and ultimately understand how heat is transported globally in the Ocean.
+This is the 'temperature version' of Perpetual Ocean 2: Western Boundary Currents. The visualization starts with a rotating globe showing ocean currents. The camera then zooms into the Kuroshio current, moves over the Indian Ocean to the Agulhas Current, then over to the Gulf Stream.The colors used to color the flow in this version vary from dark blue to purple to orange to yellow.   See the colorbar below specified for the 'temperature version'.
+Download
+Movies
+perpetual_ocean2_CLOSE_096_temperature_1080p30.mp4 (1920x1080) [903.8 MB]
+perpetual_ocean2_CLOSE_096_temperature_2160p60.mp4 (3840x2160) [3.3 GB]
+Frame sets
+temperature (3840x2160) [19001 Item(s)]
+Images
+perpetual_ocean2_CLOSE_096_temperature.00000_print.jpg (1024x576) [189.7 KB]
+This is the 'temperature version' of Perpetual Ocean 2: Western Boundary Currents. The visualization starts with a rotating globe showing ocean currents. The camera then zooms into the Kuroshio current, moves over the Indian Ocean to the Agulhas Current, then over to the Gulf Stream.
+The colors used to color the flow in this version vary from dark blue to purple to orange to yellow.   See the colorbar below specified for the 'temperature version'.
+This is the 'salinity version' of Perpetual Ocean 2: Western Boundary Currents.  See the colorbar below specified for the 'salinity version'.
+Download
+Movies
+perpetual_ocean2_CLOSE_103_salinity_1080p30.mp4 (1920x1080) [994.5 MB]
+perpetual_ocean2_CLOSE_103_salinity_2160p30.mp4 (3840x2160) [3.9 GB]
+perpetual_ocean2_CLOSE_103_salinity.mp4 (3840x2160) [4.3 GB]
+Frame sets
+salinity (3840x2160) [19001 Item(s)]
+Images
+perpetual_ocean2_CLOSE_103_salinity.00001_print.jpg (1024x576) [180.3 KB]
+This is the 'salinity version' of Perpetual Ocean 2: Western Boundary Currents.  See the colorbar below specified for the 'salinity version'.
+This is the '600 meter and deeper beauty version' showing only ocean currents below 600 meters in the Gulf Stream region.  This is intended for fading in post production to better see the counter current.  This uses the same color table as the 'beauty shot version'.
+Download
+Movies
+perpetual_ocean2_CLOSE_095_beauty_600m_and_below_1080p30.mp4 (1920x1080) [115.3 MB]
+perpetual_ocean2_CLOSE_095_beauty_600m_and_below_2160p60.mp4 (3840x2160) [366.6 MB]
+Frame sets
+beauty_600m_and_lower (3840x2160) [2001 Item(s)]
+Images
+perpetual_ocean2_CLOSE_095_beauty_600m_and_below.14000_print.jpg (1024x576) [380.6 KB]
+This is the '600 meter and deeper beauty version' showing only ocean currents below 600 meters in the Gulf Stream region.  This is intended for fading in post production to better see the counter current.  This uses the same color table as the 'beauty shot version'.
+This is an overlay layer of the equator line and label to enable the enhancement of the equator in post production. It is rendered with a hold-out matte for the earth.
+Download
+Movies
+perpetual_ocean2_CLOSE_095_equator_holdout_1080p30.mp4 (1920x1080) [2.4 MB]
+perpetual_ocean2_CLOSE_095_equator_holdout.mp4 (3840x2160) [9.4 MB]
+Frame sets
+equator (3840x2160) [19001 Item(s)]
+Images
+perpetual_ocean2_CLOSE_095_equator_holdout.00000_print.jpg (1024x576) [8.4 KB]
+This is an overlay layer of the equator line and label to enable the enhancement of the equator in post production. It is rendered with a hold-out matte for the earth.
+Optional sea ice only layer.
+Download
+Movies
+perpetual_ocean2_CLOSE_097_SEA_ICE_ONLY_1080p30.mp4 (1920x1080) [4.9 MB]
+perpetual_ocean2_CLOSE_097_SEA_ICE_ONLY.mp4 (3840x2160) [19.1 MB]
+Frame sets
+sea_ice (3840x2160) [19001 Item(s)]
+Images
+perpetual_ocean2_CLOSE_097_SEA_ICE_ONLY.00000_print.jpg (1024x576) [14.2 KB]
+Optional sea ice only layer.
+Layer with land only
+Download
+Movies
+perpetual_ocean2_CLOSE_097_LAND_ONLY2_1080p30.mp4 (1920x1080) [229.6 MB]
+perpetual_ocean2_CLOSE_097_LAND_ONLY_2160p60.mp4 (3840x2160) [691.0 MB]
+Frame sets
+land_only (3840x2160) [19001 Item(s)]
+Images
+perpetual_ocean2_CLOSE_097_LAND_ONLY2.00000_print.jpg (1024x576) [113.3 KB]
+Layer with land only
+Land mask layer.  This is intended to be used with the land layer which has changing snow.
+Download
+Movies
+perpetual_ocean2_CLOSE_097_LAND_MASK_1080p30.mp4 (1920x1080) [46.3 MB]
+perpetual_ocean2_CLOSE_097_LAND_MASK.mp4 (3840x2160) [153.1 MB]
+Frame sets
+land_mask (3840x2160) [19001 Item(s)]
+Images
+perpetual_ocean2_CLOSE_097_LAND_MASK.00000_print.jpg (1024x576) [44.2 KB]
+Land mask layer.  This is intended to be used with the land layer which has changing snow.
+This is a dates only layer that corresponds to the 'beauty shot version' and 'temperature version' on this page.  Dates range from 15 Jan 2021 to 25 Dec 2023.
+Download
+Movies
+perpetual_ocean2_CLOSE_093_datesOnly_1080p30.mp4 (1920x1080) [2.5 MB]
+perpetual_ocean2_CLOSE_093_datesOnly_2160p60.mp4 (3840x2160) [10.1 MB]
+Frame sets
+dates (3840x2160) [19001 Item(s)]
+Images
+perpetual_ocean2_CLOSE_093_datesOnly.00000_print.jpg (1024x576) [8.4 KB]
+This is a dates only layer that corresponds to the 'beauty shot version' and 'temperature version' on this page.  Dates range from 15 Jan 2021 to 25 Dec 2023.
+Download
+Images
+perpetual_ocean2_CLOSE_100_salinity_cbar.png (1920x1080) [311.4 KB]
+perpetual_ocean2_CLOSE_100_salinity_cbar_print.jpg (1024x576) [32.1 KB]
+This color bar is applied to the 'salinity version' of the ocean currents.  The colors range from greenish-cyan to gray to orange to red.  Values range from 33 to 36 salinity units.
+Download
+Images
+perpetual_ocean2_CLOSE_101_cbar_beauty.png (1920x1080) [309.1 KB]
+perpetual_ocean2_CLOSE_101_cbar_beauty_print.jpg (1024x576) [34.6 KB]
+This is the color bar applied to the 'beauty shot version' and the '600 meters and deeper version' of the ocean currents. In the 'beauty shot version', all currents above 600 meters depth are white. All currents at 600 meters and below use this blue-cyan-white colorbar below with value ranging from -3 to 22 celcius.
+Download
+Images
+perpetual_ocean2_CLOSE_101_cbar_temperature.png (1920x1080) [361.0 KB]
+perpetual_ocean2_CLOSE_101_cbar_temperature_print.jpg (1024x576) [34.4 KB]
+Color bar applied to the 'temperature version' of the ocean currents. Colors range from blue to purple to yellow in degrees Celcius from 0 to 25.
+Earth
+Earth Science
+ocean circulation
+ocean currents
+Oceans
+Physical oceanography
+Credits
+Please give credit for this item to:
+NASA's Scientific Visualization Studio
+Visualizers
+Greg Shirah
+(NASA/GSFC)
+Horace Mitchell
+(NASA/GSFC)
+Technical support
+Laurence Schuler
+(ADNET Systems, Inc.)
+Ian Jones
+(ADNET Systems, Inc.)
+Scientists
+Atousa Saberi
+(NASA/GSFC)
+Josh Willis
+(JPL)
+Producer
+Kathleen Gaeta
+(Advocates in Manpower Management, Inc.)
+Series
+This page can be found in the following series:
+Perpetual Ocean 2
+Datasets used
+BMNG (Blue Marble: Next Generation) [Terra and Aqua: MODIS]
+ID: 508
+Sensor: MODIS
+Credit: The Blue Marble data is courtesy of Reto Stockli (NASA/GSFC).
+This dataset can be found at:
+http://earthobservatory.nasa.gov/Newsroom/BlueMarble/
+See all pages that use this dataset
+ECCO2 (ECCO2 High Resolution Ocean and Sea Ice Model)
+ID: 707
+Type: Model
+Collected by: NASA/JPL
+See all pages that use this dataset
+ETOPO-30
+ID: 1216
+Type: Model
+NOAA Earth TOPOgraphy global relief model 30 arc-second resolution (ETOPO-30): The ETOPO Global Relief Model integrates topography, bathymetry, and shoreline data from regional and global datasets to enable comprehensive, high resolution renderings of geophysical characteristics of the earth’s surface. The model is designed to support tsunami forecasting, modeling, and warning, as well as ocean circulation modeling and Earth visualization.
+This dataset can be found at:
+https://www.ncei.noaa.gov/products/etopo-global-relief-model
+See all pages that use this dataset
+Note: While we identify the data sets used on this page, we do not store any further details, nor the data sets themselves on our site.
+Related
+ID: 5479
+Visualization
+Ocean Currents in equirectangular projection
+ID: 14745
+Produced Video
+An Ocean in Motion: NASA's Mesmerizing View of Earth's Underwater Highways
+Alternate Versions
+ID: 5529
+Visualization
+Perpetual Ocean 2: Polar Views
+ID: 5505
+Visualization
+Perpetual Ocean 2: Equirectangular
+Used as a Source In
+ID: 14745
+Produced Video
+An Ocean in Motion: NASA's Mesmerizing View of Earth's Underwater Highways
+Release date
+This page was originally published on Thursday, February 27, 2025.
+This page was last updated on Tuesday, May 20, 2025 at 1:45 PM EDT.
+You may also like...
+No results.
+An error occurred. Please reload this page and try again.
+Privacy Policy and Important Notices
+Reproduction Guidelines
+NASA Official:
+Site Curator:

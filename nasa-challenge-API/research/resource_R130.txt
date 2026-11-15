@@ -1,0 +1,279 @@
+NASA SVS | GEDI Forest Height
+Scientific Visualization Studio
+Galleries
+Help
+Search
+13978: Instruments in the Sea and Sky: NASA’s S-MO...
+4947: 2021 Hurricane Season through September
+GEDI Forest Height
+Released
+Friday, October 29, 2021
+ID: 4950
+Visualizations by:
+Kel Elkins
+View full credits
+This visualization depicts a global view of forest height data collected by the GEDI instrument aboard the International Space Station.  Brown and dark green represent shorter vegetation.  Bright green and white represent taller vegetation.  This visualization uses data collected between April 2019 and April 2020. Height is exaggerated to depict variation at this scale.Coming soon to our YouTube channel.
+Download
+Movies
+GEDI_global_w_colorbar_1080p60.mp4 (1920x1080) [17.7 MB]
+GEDI_global_w_colorbar_1080p60.webm (1920x1080) [6.0 MB]
+GEDI_global_w_colorbar_2160p30.mp4 (3840x2160) [61.5 MB]
+GEDI_global_w_colorbar_2160p60.mp4 (3840x2160) [65.5 MB]
+Frame sets
+GEDI_global_w_colorbar (3840x2160) [3000 Item(s)]
+Captions
+captions_silent.31845.en_US.srt [43 bytes]
+Images
+GEDI_global_w_colorbar_0900_print.jpg (1024x576) [83.4 KB]
+GEDI_global_w_colorbar_0900_searchweb.png (320x180) [42.8 KB]
+GEDI_global_w_colorbar_0900_thm.png (80x40) [4.0 KB]
+This visualization depicts a global view of forest height data collected by the GEDI instrument aboard the International Space Station.  Brown and dark green represent shorter vegetation.  Bright green and white represent taller vegetation.  This visualization uses data collected between April 2019 and April 2020. Height is exaggerated to depict variation at this scale.
+Coming soon to our YouTube channel.
+The Global Ecosystem Dynamics Investigation (GEDI) produces high resolution laser ranging observations of the 3D structure of the Earth. GEDI’s precise measurements of forest canopy height, canopy vertical structure, and surface elevation greatly advance our ability to characterize important carbon and water cycling processes, biodiversity, and habitat.
+GEDI’s data on surface structure are also of immense value for weather forecasting, forest management, glacier and snowpack monitoring, and the generation of more accurate digital elevation models. GEDI provides the missing piece – 3D structure – in NASA’s observational assets which enables us to better understand how the Earth behaves as a system, and guides the actions we can take to sustain critical resources.
+The GEDI instrument is a geodetic-class, light detection and ranging (lidar) laser system comprised of 3 lasers that produce 8 parallel tracks of observations. Each laser fires 242 times per second and illuminates a 25 m spot (a footprint) on the surface over which 3D structure is measured. Each footprint is separated by 60 m along track, with an across-track distance of about 600 m between each of the 8 tracks. GEDI expected to produce about 10 billion cloud-free observations during its nominal 24-month mission length.
+To learn more, visit the
+GEDI webpage
+This is a closeup view of the GEDI forest height data collected for the west coast of the United States.  Data is drawn on the globe over time, depicting how data coverage increases with each satellite pass.   Brown and dark green represent shorter vegetation.  Bright green and white represent taller vegetation.  This visualization uses data collected between April 2018 and April 2019. Height is exaggerated to depict variation at this scale.Coming soon to our YouTube channel.
+Download
+Movies
+GEDI_CA_w_colorbar_1080p60.mp4 (1920x1080) [24.5 MB]
+GEDI_CA_w_colorbar_1080p60.webm (1920x1080) [3.7 MB]
+GEDI_CA_w_colorbar_2160p30.mp4 (3840x2160) [86.9 MB]
+GEDI_CA_w_colorbar_2160p60.mp4 (3840x2160) [93.2 MB]
+Frame sets
+GEDI_CA_w_colorbar (3840x2160) [1402 Item(s)]
+Captions
+captions_silent.31846.en_US.srt [43 bytes]
+Images
+GEDI_CA_w_colorbar_0850_print.jpg (1024x576) [157.8 KB]
+This is a closeup view of the GEDI forest height data collected for the west coast of the United States.  Data is drawn on the globe over time, depicting how data coverage increases with each satellite pass.   Brown and dark green represent shorter vegetation.  Bright green and white represent taller vegetation.  This visualization uses data collected between April 2018 and April 2019. Height is exaggerated to depict variation at this scale.
+Coming soon to our YouTube channel.
+Download
+Images
+GEDI_colorbar_0to50_01_print.jpg (1024x576) [10.8 KB]
+GEDI_colorbar_0to50_01.tif (3840x2160) [63.3 MB]
+Forest height color bar spanning 0m to 50m
+Download
+Images
+GEDI_colorbar_0to75_01_print.jpg (1024x576) [10.7 KB]
+GEDI_colorbar_0to75_01.tif (3840x2160) [63.3 MB]
+Forest height color bar spanning 0m to 75m
+Download
+Images
+GEDI_colorbar_0to40_01_print.jpg (1024x576) [7.5 KB]
+GEDI_colorbar_0to40_01.tif (3840x2160) [63.3 MB]
+Forest height color bar spanning 0m to 40m
+This visualization depicts a global view of forest height data collected by the GEDI instrument aboard the International Space Station.  Brown and dark green represent shorter vegetation.  Bright green and white represent taller vegetation.  This visualization uses data collected between April 2018 and April 2019. Height is exaggerated to depict variation at this scale. This version has no on screen color bar.
+Download
+Movies
+GEDI_global_2160p60.mp4 (3840x2160) [70.7 MB]
+GEDI_global_2160p60.webm (3840x2160) [20.5 MB]
+GEDI_global_prores.mov (3840x2160) [3.1 GB]
+Frame sets
+GEDI_global (3840x2160) [3000 Item(s)]
+Images
+GEDI_global.0900_print.jpg (1024x576) [80.1 KB]
+This visualization depicts a global view of forest height data collected by the GEDI instrument aboard the International Space Station.  Brown and dark green represent shorter vegetation.  Bright green and white represent taller vegetation.  This visualization uses data collected between April 2018 and April 2019. Height is exaggerated to depict variation at this scale. This version has no on screen color bar.
+This is a closeup view of the GEDI forest height data collected for the west coast of the United States.  Data is drawn on the globe over time, depicting how data coverage increases with each satellite pass.   Brown and dark green represent shorter vegetation.  Bright green and white represent taller vegetation.  This visualization uses data collected between April 2018 and April 2019. Height is exaggerated to depict variation at this scale. This version has no on screen color bar.
+Download
+Movies
+GEDI_CA_2160p60.mp4 (3840x2160) [94.5 MB]
+GEDI_CA_2160p60.webm (3840x2160) [13.1 MB]
+GEDI_CA_prores.mov (3840x2160) [3.7 GB]
+Frame sets
+GEDI_CA (3840x2160) [1402 Item(s)]
+Images
+GEDI_CA.4900_print.jpg (1024x576) [148.8 KB]
+This is a closeup view of the GEDI forest height data collected for the west coast of the United States.  Data is drawn on the globe over time, depicting how data coverage increases with each satellite pass.   Brown and dark green represent shorter vegetation.  Bright green and white represent taller vegetation.  This visualization uses data collected between April 2018 and April 2019. Height is exaggerated to depict variation at this scale. This version has no on screen color bar.
+This is a closeup view of the GEDI forest height data collected over Florida. Data is drawn on the globe over time, depicting how data coverage increases with each satellite pass. Brown and dark green represent shorter vegetation. Bright green and white represent taller vegetation. This visualization uses data collected between April 2018 and April 2019. Height is exaggerated to depict variation at this scale.
+Download
+Movies
+GEDI_FL_w_colorbar_1080p60.mp4 (1920x1080) [14.7 MB]
+GEDI_FL_w_colorbar_1080p60.webm (1920x1080) [3.0 MB]
+GEDI_FL_w_colorbar_2160p30.mp4 (3840x2160) [47.6 MB]
+GEDI_FL_w_colorbar_2160p60.mp4 (3840x2160) [51.0 MB]
+Frame sets
+GEDI_FL_w_colorbar (3840x2160) [1402 Item(s)]
+Images
+GEDI_FL_w_colorbar1400_print.jpg (1024x576) [115.7 KB]
+This is a closeup view of the GEDI forest height data collected over Florida. Data is drawn on the globe over time, depicting how data coverage increases with each satellite pass. Brown and dark green represent shorter vegetation. Bright green and white represent taller vegetation. This visualization uses data collected between April 2018 and April 2019. Height is exaggerated to depict variation at this scale.
+This is a closeup view of the GEDI forest height data collected over the Goddard Space Flight Center in Maryland. Data is drawn on the globe over time, depicting how data coverage increases with each satellite pass. Brown and dark green represent shorter vegetation. Bright green and white represent taller vegetation. This visualization uses data collected between April 2018 and April 2019. Height is exaggerated to depict variation at this scale.
+Download
+Movies
+GEDI_Goddard_w_colorbar_1080p60.mp4 (1920x1080) [43.6 MB]
+GEDI_Goddard_w_colorbar_1080p60.webm (1920x1080) [4.8 MB]
+GEDI_Goddard_w_colorbar_2160p60.mp4 (3840x2160) [146.5 MB]
+GEDI_Goddard_w_colorbar_2160p30.mp4 (3840x2160) [135.5 MB]
+Frame sets
+GEDI_Goddard_w_colorbar (3840x2160) [1396 Item(s)]
+Images
+GEDI_Goddard_w_colorbar1394_print.jpg (1024x576) [223.4 KB]
+This is a closeup view of the GEDI forest height data collected over the Goddard Space Flight Center in Maryland. Data is drawn on the globe over time, depicting how data coverage increases with each satellite pass. Brown and dark green represent shorter vegetation. Bright green and white represent taller vegetation. This visualization uses data collected between April 2018 and April 2019. Height is exaggerated to depict variation at this scale.
+This is a closeup view of the GEDI forest height data collected over the Laurentides region around Quebec Canada. Data is drawn on the globe over time, depicting how data coverage increases with each satellite pass. Brown and dark green represent shorter vegetation. Bright green and white represent taller vegetation. This visualization uses data collected between April 2018 and April 2019. Height is exaggerated to depict variation at this scale.
+Download
+Movies
+GEDI_Laurentides_w_colorbar_1080p60.mp4 (1920x1080) [42.5 MB]
+GEDI_Laurentides_w_colorbar_1080p60.webm (1920x1080) [4.7 MB]
+GEDI_Laurentides_w_colorbar_2160p30.mp4 (3840x2160) [132.6 MB]
+GEDI_Laurentides_w_colorbar_2160p60.mp4 (3840x2160) [141.1 MB]
+Frame sets
+GEDI_Laurentides_w_colorbar (3840x2160) [1397 Item(s)]
+Images
+GEDI_Laurentides_w_colorbar1395_print.jpg (1024x576) [202.1 KB]
+This is a closeup view of the GEDI forest height data collected over the Laurentides region around Quebec Canada. Data is drawn on the globe over time, depicting how data coverage increases with each satellite pass. Brown and dark green represent shorter vegetation. Bright green and white represent taller vegetation. This visualization uses data collected between April 2018 and April 2019. Height is exaggerated to depict variation at this scale.
+This is a closeup view of the GEDI forest height data collected over Senegal.  Data is drawn on the globe over time, depicting how data coverage increases with each satellite pass. Brown and dark green represent shorter vegetation. Bright green and white represent taller vegetation. This visualization uses data collected between April 2018 and April 2019. Height is exaggerated to depict variation at this scale.
+Download
+Movies
+GEDI_senegal_w_colorbar_1080p60.mp4 (1920x1080) [26.9 MB]
+GEDI_senegal_w_colorbar_1080p60.webm (1920x1080) [3.8 MB]
+GEDI_senegal_w_colorbar_2160p60.mp4 (3840x2160) [88.5 MB]
+GEDI_senegal_w_colorbar_2160p30.mp4 (3840x2160) [83.2 MB]
+Frame sets
+GEDI_Senegal_w_colorbar (3840x2160) [1347 Item(s)]
+Images
+GEDI_senegal_w_colorbar.11345_print.jpg (1024x576) [179.2 KB]
+This is a closeup view of the GEDI forest height data collected over Senegal.  Data is drawn on the globe over time, depicting how data coverage increases with each satellite pass. Brown and dark green represent shorter vegetation. Bright green and white represent taller vegetation. This visualization uses data collected between April 2018 and April 2019. Height is exaggerated to depict variation at this scale.
+This is a closeup view of the GEDI forest height data collected over Florida. Data is drawn on the globe over time, depicting how data coverage increases with each satellite pass. Brown and dark green represent shorter vegetation. Bright green and white represent taller vegetation. This visualization uses data collected between April 2018 and April 2019. Height is exaggerated to depict variation at this scale. This version has no on screen color bar.
+Download
+Movies
+GEDI_FL_1080p60.mp4 (1920x1080) [14.6 MB]
+GEDI_FL_1080p60.webm (1920x1080) [2.9 MB]
+GEDI_FL_2160p60.mp4 (3840x2160) [51.4 MB]
+GEDI_FL_2160p30.mp4 (3840x2160) [48.5 MB]
+Frame sets
+GEDI_FL (3840x2160) [1402 Item(s)]
+Images
+GEDI_FL_04.6900_print.jpg (1024x576) [110.0 KB]
+GEDI_FL_04.6900_searchweb.png (320x180) [57.9 KB]
+This is a closeup view of the GEDI forest height data collected over Florida. Data is drawn on the globe over time, depicting how data coverage increases with each satellite pass. Brown and dark green represent shorter vegetation. Bright green and white represent taller vegetation. This visualization uses data collected between April 2018 and April 2019. Height is exaggerated to depict variation at this scale. This version has no on screen color bar.
+This is a closeup view of the GEDI forest height data collected over the Goddard Space Flight Center in Maryland. Data is drawn on the globe over time, depicting how data coverage increases with each satellite pass. Brown and dark green represent shorter vegetation. Bright green and white represent taller vegetation. This visualization uses data collected between April 2018 and April 2019. Height is exaggerated to depict variation at this scale.  This version has no on screen color bar.
+Download
+Movies
+GEDI_Goddard_02_1080p60.mp4 (1920x1080) [42.9 MB]
+GEDI_Goddard_02_1080p60.webm (1920x1080) [4.6 MB]
+GEDI_Goddard_2160p60.mp4 (3840x2160) [154.2 MB]
+GEDI_Goddard_2160p30.mp4 (3840x2160) [144.7 MB]
+Frame sets
+GEDI_Goddard (3840x2160) [1396 Item(s)]
+Images
+GEDI_Goddard_02.8394_print.jpg (1024x576) [216.4 KB]
+This is a closeup view of the GEDI forest height data collected over the Goddard Space Flight Center in Maryland. Data is drawn on the globe over time, depicting how data coverage increases with each satellite pass. Brown and dark green represent shorter vegetation. Bright green and white represent taller vegetation. This visualization uses data collected between April 2018 and April 2019. Height is exaggerated to depict variation at this scale.  This version has no on screen color bar.
+This is a closeup view of the GEDI forest height data collected over the Laurentides region around Quebec Canada. Data is drawn on the globe over time, depicting how data coverage increases with each satellite pass. Brown and dark green represent shorter vegetation. Bright green and white represent taller vegetation. This visualization uses data collected between April 2018 and April 2019. Height is exaggerated to depict variation at this scale.  This version has no on screen color bar.
+Download
+Movies
+GEDI_Laurentides_02_1080p60.mp4 (1920x1080) [42.4 MB]
+GEDI_Laurentides_02_1080p60.webm (1920x1080) [4.7 MB]
+GEDI_Laurentides_02_2160p30.mp4 (3840x2160) [142.4 MB]
+GEDI_Laurentides_02_2160p60.mp4 (3840x2160) [150.2 MB]
+Frame sets
+GEDI_Laurentides (3840x2160) [1396 Item(s)]
+Images
+GEDI_Laurentides_02.9894_print.jpg (1024x576) [200.6 KB]
+This is a closeup view of the GEDI forest height data collected over the Laurentides region around Quebec Canada. Data is drawn on the globe over time, depicting how data coverage increases with each satellite pass. Brown and dark green represent shorter vegetation. Bright green and white represent taller vegetation. This visualization uses data collected between April 2018 and April 2019. Height is exaggerated to depict variation at this scale.  This version has no on screen color bar.
+This is a closeup view of the GEDI forest height data collected over Senegal.  Data is drawn on the globe over time, depicting how data coverage increases with each satellite pass. Brown and dark green represent shorter vegetation. Bright green and white represent taller vegetation. This visualization uses data collected between April 2018 and April 2019. Height is exaggerated to depict variation at this scale.  This version has no on screen color bar.
+Download
+Movies
+GEDI_senegal_1080p60.mp4 (1920x1080) [26.7 MB]
+GEDI_senegal_1080p60.webm (1920x1080) [3.7 MB]
+GEDI_senegal_2160p60.mp4 (3840x2160) [88.2 MB]
+GEDI_senegal_2160p30.mp4 (3840x2160) [82.7 MB]
+Frame sets
+GEDI_Senegal (3840x2160) [1347 Item(s)]
+Images
+GEDI_senegal.11345_print.jpg (1024x576) [173.7 KB]
+This is a closeup view of the GEDI forest height data collected over Senegal.  Data is drawn on the globe over time, depicting how data coverage increases with each satellite pass. Brown and dark green represent shorter vegetation. Bright green and white represent taller vegetation. This visualization uses data collected between April 2018 and April 2019. Height is exaggerated to depict variation at this scale.  This version has no on screen color bar.
+Download
+Images
+GEDI_global_w_colorbar_0230_print.jpg (1024x576) [82.8 KB]
+GEDI_global_w_colorbar_0230_print.tif (3840x2160) [31.7 MB]
+Still image depicting a global view of GEDI forest height data.
+Download
+Images
+GEDI_global_w_colorbar_0600_print.jpg (1024x576) [80.2 KB]
+GEDI_global_w_colorbar_0600_print.tif (3840x2160) [31.7 MB]
+Still image depicting a global view of GEDI forest height data.
+Download
+Images
+GEDI_global_w_colorbar_1055_print.jpg (1024x576) [83.4 KB]
+GEDI_global_w_colorbar_1055_print.tif (3840x2160) [31.7 MB]
+Still image depicting a global view of GEDI forest height data.
+Download
+Images
+GEDI_global_w_colorbar_1900_print.jpg (1024x576) [68.3 KB]
+GEDI_global_w_colorbar_1900_print.tif (3840x2160) [31.7 MB]
+Still image depicting a global view of GEDI forest height data.
+Download
+Images
+GEDI_CA_w_colorbar_0150_print.jpg (1024x576) [202.5 KB]
+GEDI_CA_w_colorbar_0150_print.tif (3840x2160) [31.7 MB]
+Still image depicting GEDI forest height data being collected over time. Camera is zoomed in on the west coast of the United States.
+Download
+Images
+GEDI_CA_w_colorbar_0300_print.jpg (1024x576) [225.6 KB]
+GEDI_CA_w_colorbar_0300_print.tif (3840x2160) [31.7 MB]
+Still image depicting GEDI forest height data being collected over time. Camera is zoomed in on the west coast of the United States.
+Download
+Images
+GEDI_CA_w_colorbar_1000_print.jpg (1024x576) [140.5 KB]
+GEDI_CA_w_colorbar_1000_print.tif (3840x2160) [31.7 MB]
+Still image depicting GEDI forest height data being collected over time. Camera is zoomed in on the west coast of the United States.
+Download
+Images
+GEDI_CA_w_colorbar_1400_print.jpg (1024x576) [118.0 KB]
+GEDI_CA_w_colorbar_1400_print.tif (3840x2160) [31.7 MB]
+Still image depicting GEDI forest height data being collected over time. Camera is zoomed in on the west coast of the United States.
+Earth
+Agricultural science
+Agriculture
+Earth Science
+Forest Science
+Forestry
+Hyperwall
+ISS
+Lidar
+Credits
+Please give credit for this item to:
+NASA's Scientific Visualization Studio
+Visualizers
+Kel Elkins
+(USRA)
+Horace Mitchell
+(NASA/GSFC)
+Greg Shirah
+(NASA/GSFC)
+Technical support
+Laurence Schuler
+(ADNET Systems, Inc.)
+Ian Jones
+(ADNET Systems, Inc.)
+Scientists
+Temilola Fatoyinbo
+(NASA/GSFC)
+Atticus Stovall
+(University of Maryland)
+Datasets used
+Relative Height [GEDI]
+ID: 1131
+RH100 or relative height is the 100th percentile of waveform energy relative to ground elevation. Derived from the L2B LIDAR metric RH100 data product.
+This dataset can be found at:
+https://gedi.umd.edu/
+See all pages that use this dataset
+Note: While we identify the data sets used on this page, we do not store any further details, nor the data sets themselves on our site.
+Used as a Source In
+ID: 14696
+Produced Video
+NASA + Smithsonian and Greenhouse Gases
+ID: 14261
+Produced Video
+Leaders in Lidar
+Release date
+This page was originally published on Friday, October 29, 2021.
+This page was last updated on Tuesday, April 1, 2025 at 1:54 PM EDT.
+You may also like...
+No results.
+An error occurred. Please reload this page and try again.
+Privacy Policy and Important Notices
+Reproduction Guidelines
+NASA Official:
+Site Curator:

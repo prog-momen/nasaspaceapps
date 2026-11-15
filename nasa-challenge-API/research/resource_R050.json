@@ -1,0 +1,306 @@
+{
+  "id": "resource_R050",
+  "url": "https://donnees-data.asc-csa.gc.ca/en/dataset/radarsat1",
+  "checked_at": "2026-11-14T15:15:14.530609+00:00",
+  "tls_validation": false,
+  "status": 200,
+  "final_url": "https://donnees-data.asc-csa.gc.ca/en/dataset/radarsat1",
+  "bytes": 49704,
+  "content_type": "text/html; charset=utf-8",
+  "sha256": "63662083b34cb92474011e03779aed163955a31319d013836fa6c24fa5da130c",
+  "links": [
+    {
+      "url": "https://donnees-data.asc-csa.gc.ca/en/dataset/radarsat1#wb-cont",
+      "label": "Skip to main content"
+    },
+    {
+      "url": "https://donnees-data.asc-csa.gc.ca/en/dataset/radarsat1#wb-info",
+      "label": "Skip to \"About this site\""
+    },
+    {
+      "url": "https://donnees-data.asc-csa.gc.ca/fr/dataset/radarsat1",
+      "label": "Français fr"
+    },
+    {
+      "url": "https://www.canada.ca/en.html",
+      "label": "Government of Canada / Gouvernement du Canada"
+    },
+    {
+      "url": "https://www.canada.ca/en/services/jobs.html",
+      "label": "Jobs and the workplace"
+    },
+    {
+      "url": "https://www.canada.ca/en/services/immigration-citizenship.html",
+      "label": "Immigration and citizenship"
+    },
+    {
+      "url": "https://travel.gc.ca/",
+      "label": "Travel and tourism"
+    },
+    {
+      "url": "https://www.canada.ca/en/services/business.html",
+      "label": "Business and industry"
+    },
+    {
+      "url": "https://www.canada.ca/en/services/benefits.html",
+      "label": "Benefits"
+    },
+    {
+      "url": "https://www.canada.ca/en/services/health.html",
+      "label": "Health"
+    },
+    {
+      "url": "https://www.canada.ca/en/services/taxes.html",
+      "label": "Taxes"
+    },
+    {
+      "url": "https://www.canada.ca/en/services/environment.html",
+      "label": "Environment and natural resources"
+    },
+    {
+      "url": "https://www.canada.ca/en/services/defence.html",
+      "label": "National security and defence"
+    },
+    {
+      "url": "https://www.canada.ca/en/services/culture.html",
+      "label": "Culture, history and sport"
+    },
+    {
+      "url": "https://www.canada.ca/en/services/policing.html",
+      "label": "Policing, justice and emergencies"
+    },
+    {
+      "url": "https://www.canada.ca/en/services/transport.html",
+      "label": "Transport and infrastructure"
+    },
+    {
+      "url": "https://international.gc.ca/world-monde/index.aspx?lang=eng",
+      "label": "Canada and the world"
+    },
+    {
+      "url": "https://www.canada.ca/en/services/finance.html",
+      "label": "Money and finances"
+    },
+    {
+      "url": "https://www.canada.ca/en/services/science.html",
+      "label": "Science and innovation"
+    },
+    {
+      "url": "https://www.canada.ca/en.html",
+      "label": "Canada.ca"
+    },
+    {
+      "url": "https://www.asc-csa.gc.ca/eng/Default.asp",
+      "label": "Canadian Space Agency"
+    },
+    {
+      "url": "https://asc-csa.gc.ca/eng/open-data/default.asp",
+      "label": "Open data and information"
+    },
+    {
+      "url": "https://donnees-data.asc-csa.gc.ca/en/dataset/",
+      "label": "Portal"
+    },
+    {
+      "url": "mailto:gouvernementouvert-opengovernment@asc-csa.gc.ca",
+      "label": "gouvernementouvert-opengovernment@asc-csa.gc.ca"
+    },
+    {
+      "url": "https://donnees-data.asc-csa.gc.ca/en/dataset/?keywords_en=Earth+Observation",
+      "label": "Earth Observation"
+    },
+    {
+      "url": "https://donnees-data.asc-csa.gc.ca/en/dataset/?keywords_en=RADARSAT",
+      "label": "RADARSAT"
+    },
+    {
+      "url": "https://donnees-data.asc-csa.gc.ca/en/dataset/?subject=nature_and_environment",
+      "label": "Nature and environment"
+    },
+    {
+      "url": "https://donnees-data.asc-csa.gc.ca/en/dataset/?subject=science_and_technology",
+      "label": "Science and technology"
+    },
+    {
+      "url": "https://www.asc-csa.gc.ca/eng/satellites/radarsat1/",
+      "label": "https://www.asc-csa.gc.ca/eng/satellites/radarsat1/"
+    },
+    {
+      "url": "http://open.canada.ca/en/open-government-licence-canada",
+      "label": "Open Government Licence - Canada"
+    },
+    {
+      "url": "https://donnees-data.asc-csa.gc.ca/api/action/package_show?id=bf51ec12-d6ff-43ab-a4f1-eb74ec9c8d73",
+      "label": "Link to JSON format"
+    },
+    {
+      "url": "https://donnees-data.asc-csa.gc.ca/en/dataset/radarsat1",
+      "label": "Dataset"
+    },
+    {
+      "url": "https://donnees-data.asc-csa.gc.ca/en/dataset/groups/radarsat1",
+      "label": "Groups"
+    },
+    {
+      "url": "https://www.eodms-sgdot.nrcan-rncan.gc.ca/",
+      "label": "Download the resource named: RADARSAT-1 on the Earth Observation Data Management System (EODMS) (en, fr)"
+    },
+    {
+      "url": "https://registry.opendata.aws/radarsat-1/",
+      "label": "Download the resource named: RADARSAT-1 on Amazon Web Services (AWS) (en)"
+    },
+    {
+      "url": "https://github.com/asc-csa/radarsat1-scripts",
+      "label": "Download the resource named: Python Code Tutorial - RADARSAT-1 on AWS (en, fr)"
+    },
+    {
+      "url": "https://donnees-data.asc-csa.gc.ca/en/dataset/e0333ed6-a614-46b1-b595-1fac1ce9214a",
+      "label": "RADARSAT-1 - Heatmap of processed archived images"
+    },
+    {
+      "url": "https://donnees-data.asc-csa.gc.ca/en/dataset/rcm",
+      "label": "RADARSAT Constellation Mission (RCM) Data"
+    },
+    {
+      "url": "https://donnees-data.asc-csa.gc.ca/en/dataset/38ce99e4-8c60-45cc-ba88-7edc9822fd99",
+      "label": "RADARSAT-1 - Antarctica Mosaics"
+    },
+    {
+      "url": "https://donnees-data.asc-csa.gc.ca/en/dataset/95bc6c29-6ec1-4945-9be4-0ecfb71c7008",
+      "label": "RADARSAT-1 - Africa Mosaics"
+    },
+    {
+      "url": "mailto:gouvernementouvert-opengovernment@asc-csa.gc.ca",
+      "label": "gouvernementouvert-opengovernment@asc-csa.gc.ca"
+    },
+    {
+      "url": "https://donnees-data.asc-csa.gc.ca/en/dataset/?tags=Earth+Observation",
+      "label": "Earth Observation"
+    },
+    {
+      "url": "https://donnees-data.asc-csa.gc.ca/en/dataset/?tags=RADARSAT",
+      "label": "RADARSAT"
+    },
+    {
+      "url": "https://donnees-data.asc-csa.gc.ca/en/dataset/?subject=nature_and_environment",
+      "label": "Nature and environment"
+    },
+    {
+      "url": "https://donnees-data.asc-csa.gc.ca/en/dataset/?subject=science_and_technology",
+      "label": "Science and technology"
+    },
+    {
+      "url": "https://donnees-data.asc-csa.gc.ca/en/dataset/?subject=earth_observation",
+      "label": "Earth observation"
+    },
+    {
+      "url": "https://www.asc-csa.gc.ca/eng/satellites/radarsat1/",
+      "label": "https://www.asc-csa.gc.ca/eng/satellites/radarsat1/"
+    },
+    {
+      "url": "https://www.canada.ca/en/contact.html",
+      "label": "All contacts"
+    },
+    {
+      "url": "https://www.canada.ca/en/government/dept.html",
+      "label": "Departments and agencies"
+    },
+    {
+      "url": "https://www.canada.ca/en/government/system.html",
+      "label": "About government"
+    },
+    {
+      "url": "https://www.canada.ca/en/services/jobs.html",
+      "label": "Jobs"
+    },
+    {
+      "url": "https://www.canada.ca/en/services/immigration-citizenship.html",
+      "label": "Immigration and citizenship"
+    },
+    {
+      "url": "https://travel.gc.ca/",
+      "label": "Travel and tourism"
+    },
+    {
+      "url": "https://www.canada.ca/en/services/business.html",
+      "label": "Business"
+    },
+    {
+      "url": "https://www.canada.ca/en/services/benefits.html",
+      "label": "Benefits"
+    },
+    {
+      "url": "https://www.canada.ca/en/services/health.html",
+      "label": "Health"
+    },
+    {
+      "url": "https://www.canada.ca/en/services/taxes.html",
+      "label": "Taxes"
+    },
+    {
+      "url": "https://www.canada.ca/en/services/environment.html",
+      "label": "Environment and natural resources"
+    },
+    {
+      "url": "https://www.canada.ca/en/services/defence.html",
+      "label": "National security and defence"
+    },
+    {
+      "url": "https://www.canada.ca/en/services/culture.html",
+      "label": "Culture, history and sport"
+    },
+    {
+      "url": "https://www.canada.ca/en/services/policing.html",
+      "label": "Policing, justice and emergencies"
+    },
+    {
+      "url": "https://www.canada.ca/en/services/transport.html",
+      "label": "Transport and infrastructure"
+    },
+    {
+      "url": "https://international.gc.ca/world-monde/index.aspx?lang=eng",
+      "label": "Canada and the world"
+    },
+    {
+      "url": "https://www.canada.ca/en/services/finance.html",
+      "label": "Money and finance"
+    },
+    {
+      "url": "https://www.canada.ca/en/services/science.html",
+      "label": "Science and innovation"
+    },
+    {
+      "url": "https://www.canada.ca/en/services/indigenous-peoples.html",
+      "label": "Indigenous peoples"
+    },
+    {
+      "url": "https://www.canada.ca/en/services/veterans.html",
+      "label": "Veterans and military"
+    },
+    {
+      "url": "https://www.canada.ca/en/services/youth.html",
+      "label": "Youth"
+    },
+    {
+      "url": "https://www.canada.ca/en/social.html",
+      "label": "Social media"
+    },
+    {
+      "url": "https://www.canada.ca/en/mobile.html",
+      "label": "Mobile applications"
+    },
+    {
+      "url": "https://www.canada.ca/en/government/about.html",
+      "label": "About Canada.ca"
+    },
+    {
+      "url": "https://www.canada.ca/en/transparency/terms.html",
+      "label": "Terms and conditions"
+    },
+    {
+      "url": "https://www.canada.ca/en/transparency/privacy.html",
+      "label": "Privacy"
+    }
+  ],
+  "elapsed_seconds": 1.156
+}
