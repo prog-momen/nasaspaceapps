@@ -208,7 +208,7 @@ function TargetDiscoveryLauncher() {
         {/* 3D Globe Direct Link */}
         <div className="flex flex-wrap items-center gap-3">
           <Link
-            href="/"
+            href="/earth"
             className="cosmic-gold-button px-5 py-2.5 rounded-2xl text-xs font-bold flex items-center gap-2 shadow-lg cursor-pointer"
           >
             <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2">
@@ -898,7 +898,7 @@ function DashboardLoadedView({ sel }: { sel: Selection }) {
           onRetry={retry}
         />
         <div className="mt-3 flex flex-wrap gap-2">
-          <Link href="/" className="px-3 py-1.5 text-xs rounded-lg bg-white/10 hover:bg-white/20 border border-white/15 text-white font-medium">
+          <Link href="/earth" className="px-3 py-1.5 text-xs rounded-lg bg-white/10 hover:bg-white/20 border border-white/15 text-white font-medium">
             Back to globe
           </Link>
           <Link href="/dashboard" className="px-3 py-1.5 text-xs rounded-lg bg-white/10 hover:bg-white/20 border border-white/15 text-white font-medium">
@@ -1114,7 +1114,7 @@ function DashboardLoadedView({ sel }: { sel: Selection }) {
 
               {/* Back to 3D Globe Link */}
               <Link
-                href={`/?lat=${region.lat}&lon=${region.lon}&name=${encodeURIComponent(region.name)}`}
+                href={`/earth?lat=${region.lat}&lon=${region.lon}&name=${encodeURIComponent(region.name)}`}
                 className="dark-clay-button px-3 py-1.5 rounded-xl text-xs font-bold text-amber-300 hover:text-white flex items-center gap-1.5 transition-all border border-amber-500/30"
               >
                 <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2">

@@ -18,6 +18,48 @@ import {
 } from "../lib/api-client";
 import { COUNTRIES } from "../data/countries";
 
+/** Three confidence zones for a forecast horizon, based on what the backtest actually covers. */
+function ConfidenceZones({ horizon, testedMonths, beats }: { horizon: number; testedMonths: number; beats: boolean }) {
+  const testedYears = Math.max(1, Math.floor(testedMonths / 12));
+  const active = horizon <= testedYears ? 0 : horizon <= 10 ? 1 : 2;
+  const zones = [
+    {
+      range: `up to ${testedYears} year${testedYears === 1 ? "" : "s"}`,
+      title: "Tested",
+      text: beats
+        ? "Checked against the last real months and it did better than the seasonal average. Use the 95% band as the confidence range."
+        : "Checked against the last real months, but it was not better than the seasonal average here, so treat it as indicative.",
+      cls: "border-emerald-500/50 bg-emerald-500/10",
+    },
+    {
+      range: `${testedYears} to 10 years`,
+      title: "Extrapolation",
+      text: "Assumes the historical trend simply continues. Not validated: the band widens and the result is a scenario, not a prediction.",
+      cls: "border-amber-500/50 bg-amber-500/10",
+    },
+    {
+      range: "over 10 years",
+      title: "Computation only",
+      text: "Mathematically extended. No evidence supports it and the confidence is far lower than in the first zone. Do not read it as a forecast.",
+      cls: "border-red-500/50 bg-red-500/10",
+    },
+  ];
+  return (
+    <div role="group" aria-label="Confidence by forecast horizon" className="grid grid-cols-1 gap-2 sm:grid-cols-3">
+      {zones.map((z, i) => (
+        <div key={z.title} className={`rounded-xl border p-3 text-xs leading-relaxed ${i === active ? z.cls : "border-white/10 bg-black/20 opacity-60"}`}>
+          <div className="flex items-center justify-between gap-2">
+            <b className="text-white">{z.title}</b>
+            <span className="text-[#a1a1aa]">{z.range}</span>
+          </div>
+          <p className="mt-1 text-[#d4d4d8]">{z.text}</p>
+          {i === active && <p className="mt-1 font-semibold text-white">Your selection ({horizon} year{horizon === 1 ? "" : "s"}) is here.</p>}
+        </div>
+      ))}
+    </div>
+  );
+}
+
 function Forecast({ sel, horizon }: { sel: Selection; horizon: number }) {
   const { data, error, retry: load } = useAsync(() => fetchForecast(sel, horizon), `${selectionToParams(sel)}&h=${horizon}`);
 
@@ -57,7 +99,7 @@ function Forecast({ sel, horizon }: { sel: Selection; horizon: number }) {
 
       <div className="flex flex-wrap items-center gap-2" role="group" aria-label="Forecast horizon">
         <span className="text-xs text-[#9ca3af] mr-1">Horizon (years):</span>
-        {[1, 2, 5, 10].map((h) => {
+        {[1, 2, 5, 10, 20].map((h) => {
           const p = new URLSearchParams(selectionToParams(sel));
           p.set("horizon", String(h));
           const active = h === horizon;
@@ -90,6 +132,8 @@ function Forecast({ sel, horizon }: { sel: Selection; horizon: number }) {
           )}
         </p>
       )}
+
+      <ConfidenceZones horizon={horizon} testedMonths={f.backtest?.holdoutMonths ?? 0} beats={f.backtest?.beatsBaseline ?? false} />
 
       <div className="grid grid-cols-2 lg:grid-cols-4 gap-3">
         <Stat label="Last 2 years average" value={`${fmt(f.expectedChange.fromLastYearMean)} ${v.unit}`} />

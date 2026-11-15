@@ -43,7 +43,7 @@ export default function PageFrame({
         >
           <div className={`${maxWidth} mx-auto px-4 py-2 flex items-center justify-between gap-3`}>
             <div className="flex items-center gap-3 min-w-0">
-              <Link href="/" className="flex items-center gap-2.5 shrink-0 group">
+              <Link href="/earth" className="flex items-center gap-2.5 shrink-0 group">
                 <div className="relative w-8 h-8 rounded-lg overflow-hidden border border-amber-400/40 bg-black shadow-md flex items-center justify-center transition-transform group-hover:scale-105">
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img src="/logo.jpg" alt="Astro EARTH Logo" className="w-full h-full object-contain" />
@@ -78,7 +78,7 @@ export default function PageFrame({
 
             <div className="flex items-center gap-2 shrink-0">
               <Link
-                href="/"
+                href="/earth"
                 className={`text-xs px-3 py-1.5 rounded-xl border transition-all flex items-center gap-1.5 active:scale-95 shadow-sm font-semibold ${
                   isClay
                     ? "dark-clay-button text-slate-200 hover:text-white"

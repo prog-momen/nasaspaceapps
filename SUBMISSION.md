@@ -61,6 +61,8 @@ Make trend detection understandable to high-school and university students and t
 
 Classroom use, checking local claims, Arabic-language access. Next: area averages for countries and basins, more missions as trend variables (GPM, MODIS vegetation, GLDAS), shareable investigations.
 
+**Forecast with stated confidence.** The forecast is counted from today. Months between the last NASA data month and today are forecast too and marked as missing months. Each forecast shows three confidence zones: *Tested* (up to the length of the backtest, about 5 years), *Extrapolation* (to 10 years, not validated) and *Computation only* (beyond 10 years, mathematics without evidence of skill).
+
 **Sources on every result.** Each dashboard chapter and each assistant answer shows two lines under it: *Relies on* (the datasets and methods the result is built on) and *Used in this result* (the place, the grid cell, the period, the records and the citations this particular result used).
 
 ## 5. Use of Artificial Intelligence
@@ -116,4 +118,4 @@ Anthropic Claude Haiku (in-product assistant); Claude (development assistance).
 
 ## Team
 
-[Team name] - [members and roles] - [local event]
+Astro Crash - [members and roles] - [local event]

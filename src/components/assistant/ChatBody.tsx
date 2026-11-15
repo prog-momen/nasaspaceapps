@@ -379,6 +379,9 @@ export default function ChatBody({ chat, variant, placeholder }: ChatBodyProps) 
           <p className="text-[11px] text-slate-400 leading-relaxed max-w-[280px]">
             Ask about climate trends, forecasts, fires or methods. Answers use real NASA data and cite their sources.
           </p>
+          <p className="text-[11px] text-slate-500 leading-relaxed max-w-[320px]">
+            Limits: trends need 5+ years (data from 1981) · chat forecasts up to 24 months (longer ones on the Forecast page, labelled) · weather up to 16 days · fire detections 1–5 days.
+          </p>
           <div className="flex flex-col gap-1 w-full max-w-sm">
             {starters.map((s) => (
               <button

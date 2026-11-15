@@ -184,10 +184,6 @@ Statistical references (from the challenge resources)
 
 ## Team and credits
 
-> Placeholder: the team should fill this in before submission.
-
-- Team name: _TBD_
-- Members and roles: _TBD_
-- Acknowledgements: _TBD_
+- Team name: Astro Crash
 
 NASA does not endorse this project. Data are used under the terms of their providers.
