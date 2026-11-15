@@ -41,3 +41,21 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
+
+# AI service folder (nasa-challenge-API): keep the code, leave out environments, caches, indexes and secrets
+nasa-challenge-API/**/venv/
+nasa-challenge-API/**/.venv/
+nasa-challenge-API/**/__pycache__/
+nasa-challenge-API/**/node_modules/
+nasa-challenge-API/**/.pytest_cache/
+nasa-challenge-API/**/*.env
+nasa-challenge-API/**/.env
+nasa-challenge-API/**/.env.*
+!nasa-challenge-API/**/.env.example
+nasa-challenge-API/earthtrend_rag/data/qdrant/
+nasa-challenge-API/earthtrend_rag/data/cache/
+nasa-challenge-API/earthtrend_rag/data/downloads/
+nasa-challenge-API/earthtrend_rag/data/usage.json*
+nasa-challenge-API/earthtrend_rag/data/server*
+nasa-challenge-API/earthtrend_rag/data/diagnostics_last.json
+nasa-challenge-API/research/python_deps/
