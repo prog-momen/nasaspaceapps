@@ -2,7 +2,7 @@
 
 import React from "react";
 import type { Artifact, Citation } from "@/lib/assistant/types";
-import { ArtifactView } from "./Artifacts";
+import { ArtifactView, visibleInline } from "./Artifacts";
 
 // Safe renderer for the assistant's Markdown dialect. Builds React elements only (no raw HTML).
 
@@ -133,7 +133,7 @@ export function Markdown({
         usedInline = true;
         nodes.push(
           <div key={key()}>
-            {inline.map((a, i) => (
+            {visibleInline(inline).map((a, i) => (
               <ArtifactView key={i} artifact={a} />
             ))}
           </div>,
@@ -210,7 +210,7 @@ export function Markdown({
   if (!usedInline && inline.length) {
     nodes.push(
       <div key={key()}>
-        {inline.map((a, i) => (
+        {visibleInline(inline).map((a, i) => (
           <ArtifactView key={i} artifact={a} />
         ))}
       </div>,
