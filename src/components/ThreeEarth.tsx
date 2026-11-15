@@ -4,7 +4,118 @@ import React, { useEffect, useRef, useState, useCallback } from "react";
 import * as THREE from "three";
 import { OrbitControls } from "three/examples/jsm/controls/OrbitControls.js";
 import { COUNTRIES, Country } from "../data/countries";
-import { WORLD_LANDMASSES } from "../data/worldGeo";
+import worldCountriesGeo from "../data/world-countries.json";
+
+interface GeoFeature {
+  type: string;
+  id?: string;
+  properties?: { name?: string; [key: string]: unknown };
+  geometry: {
+    type: "Polygon" | "MultiPolygon";
+    coordinates: unknown;
+  };
+}
+
+function extractRingsFromFeature(feature: GeoFeature): number[][][] {
+  const rings: number[][][] = [];
+  if (!feature || !feature.geometry) return rings;
+
+  if (feature.geometry.type === "Polygon") {
+    const coords = feature.geometry.coordinates as number[][][];
+    if (Array.isArray(coords)) {
+      for (const ring of coords) {
+        if (Array.isArray(ring) && ring.length > 1) {
+          rings.push(ring);
+        }
+      }
+    }
+  } else if (feature.geometry.type === "MultiPolygon") {
+    const coords = feature.geometry.coordinates as number[][][][];
+    if (Array.isArray(coords)) {
+      for (const poly of coords) {
+        if (Array.isArray(poly)) {
+          for (const ring of poly) {
+            if (Array.isArray(ring) && ring.length > 1) {
+              rings.push(ring);
+            }
+          }
+        }
+      }
+    }
+  }
+  return rings;
+}
+
+function findMatchingGeoFeature(
+  country: Country,
+  features: GeoFeature[]
+): GeoFeature | null {
+  if (!country || !features || !features.length) return null;
+  const cName = (country.name || "").toLowerCase().trim();
+  const cCode3 = (country.code3 || "").toUpperCase().trim();
+  const cOfficial = (country.officialName || "").toLowerCase().trim();
+
+  // 1. Exact 3-letter ISO code match (USA, PSE, EGY, JOR, SAU, FRA, BRA, DEU, etc.)
+  if (cCode3) {
+    const byCode = features.find((f) => (f.id || "").toUpperCase().trim() === cCode3);
+    if (byCode) return byCode;
+  }
+
+  // 2. Palestine / West Bank special mapping
+  if (cCode3 === "PSE" || cName.includes("palestine") || country.id === "palestine") {
+    const pse = features.find(
+      (f) => f.id === "PSE" || (f.properties?.name || "").toLowerCase().includes("west bank")
+    );
+    if (pse) return pse;
+  }
+
+  // 3. Exact English name match
+  const byName = features.find((f) => {
+    const fName = (f.properties?.name || "").toLowerCase().trim();
+    return fName === cName || fName === cOfficial;
+  });
+  if (byName) return byName;
+
+  // 4. Substring name match
+  const bySub = features.find((f) => {
+    const fName = (f.properties?.name || "").toLowerCase().trim();
+    return (
+      (fName.length > 3 && cName.includes(fName)) ||
+      (cName.length > 3 && fName.includes(cName))
+    );
+  });
+  if (bySub) return bySub;
+
+  // 5. Geographic proximity to country.lat, country.lng
+  let closestDist = Infinity;
+  let closestFeature: GeoFeature | null = null;
+  for (const f of features) {
+    const rings = extractRingsFromFeature(f);
+    if (!rings.length || !rings[0].length) continue;
+    let sumLon = 0;
+    let sumLat = 0;
+    const ring0 = rings[0];
+    for (const pt of ring0) {
+      sumLon += pt[0];
+      sumLat += pt[1];
+    }
+    const cLon = sumLon / ring0.length;
+    const cLat = sumLat / ring0.length;
+    const dLat = cLat - country.lat;
+    const dLon = cLon - country.lng;
+    const distSq = dLat * dLat + dLon * dLon;
+    if (distSq < closestDist) {
+      closestDist = distSq;
+      closestFeature = f;
+    }
+  }
+
+  if (closestDist < 12 * 12 && closestFeature) {
+    return closestFeature;
+  }
+
+  return null;
+}
 
 interface ThreeEarthProps {
   onSelectCountry?: (country: Country) => void;
@@ -108,7 +219,7 @@ export default function ThreeEarth({
   const graticuleMeshRef = useRef<THREE.LineSegments | null>(null);
   const windLinesGroupRef = useRef<THREE.Group | null>(null);
   const envOverlayMeshRef = useRef<THREE.Mesh | null>(null);
-  const highlightedCountryMeshRef = useRef<THREE.LineSegments | null>(null);
+  const highlightedCountryMeshRef = useRef<THREE.Group | null>(null);
   const selectedMarkerGroupRef = useRef<THREE.Group | null>(null);
   const reticleRingRef = useRef<THREE.Mesh | null>(null);
   const beaconMeshRef = useRef<THREE.Mesh | null>(null);
@@ -202,7 +313,7 @@ export default function ThreeEarth({
     [latLonToVector3]
   );
 
-  // Helper to highlight a country's border in glowing golden yellow 0xfacc15
+  // Helper to highlight a country's border with authentic GeoJSON boundaries
   const highlightCountryBorder = useCallback(
     (country: Country) => {
       const earthGroup = earthGroupRef.current;
@@ -210,58 +321,103 @@ export default function ThreeEarth({
 
       if (highlightedCountryMeshRef.current) {
         earthGroup.remove(highlightedCountryMeshRef.current);
-        highlightedCountryMeshRef.current.geometry.dispose();
+        highlightedCountryMeshRef.current.traverse((child) => {
+          if (child instanceof THREE.LineSegments) {
+            child.geometry.dispose();
+            if (Array.isArray(child.material)) {
+              child.material.forEach((m) => m.dispose());
+            } else {
+              child.material.dispose();
+            }
+          }
+        });
         highlightedCountryMeshRef.current = null;
       }
 
-      // Find matching landmass polygon or build fine radius boundary
-      const matching = WORLD_LANDMASSES.find(
-        (m) =>
-          m.name.toLowerCase() === country.name.toLowerCase() ||
-          (country.name === "Palestine" && m.name === "Middle East") ||
-          (country.name === "United States" && m.name === "North America")
+      const hlGroup = new THREE.Group();
+      hlGroup.name = "highlighted-country-border";
+
+      const matchedFeature = findMatchingGeoFeature(
+        country,
+        (worldCountriesGeo.features || []) as GeoFeature[]
       );
 
-      const points: THREE.Vector3[] = [];
-      const r = EARTH_RADIUS * 1.006;
+      const rPrimary = EARTH_RADIUS * 1.006;
+      const rHalo = EARTH_RADIUS * 1.009;
 
-      if (matching && matching.coordinates.length > 5) {
-        for (let i = 0; i < matching.coordinates.length - 1; i++) {
-          const [lon1, lat1] = matching.coordinates[i];
-          const [lon2, lat2] = matching.coordinates[i + 1];
-          points.push(
-            latLonToVector3(lat1, lon1, r),
-            latLonToVector3(lat2, lon2, r)
-          );
+      const primaryPoints: THREE.Vector3[] = [];
+      const haloPoints: THREE.Vector3[] = [];
+
+      if (matchedFeature) {
+        const rings = extractRingsFromFeature(matchedFeature);
+        for (const ring of rings) {
+          for (let i = 0; i < ring.length - 1; i++) {
+            const [lon1, lat1] = ring[i];
+            const [lon2, lat2] = ring[i + 1];
+            primaryPoints.push(
+              latLonToVector3(lat1, lon1, rPrimary),
+              latLonToVector3(lat2, lon2, rPrimary)
+            );
+            haloPoints.push(
+              latLonToVector3(lat1, lon1, rHalo),
+              latLonToVector3(lat2, lon2, rHalo)
+            );
+          }
         }
       } else {
-        // High-precision circular boundary around country coordinates
-        const radiusDeg = 3.8;
-        const numSteps = 64;
-        for (let i = 0; i < numSteps; i++) {
-          const a1 = (i / numSteps) * Math.PI * 2;
-          const a2 = ((i + 1) / numSteps) * Math.PI * 2;
-          const lat1 = country.lat + Math.sin(a1) * (radiusDeg * 0.7);
-          const lon1 = country.lng + Math.cos(a1) * radiusDeg;
-          const lat2 = country.lat + Math.sin(a2) * (radiusDeg * 0.7);
-          const lon2 = country.lng + Math.cos(a2) * radiusDeg;
-          points.push(
-            latLonToVector3(lat1, lon1, r),
-            latLonToVector3(lat2, lon2, r)
+        // Fallback: Custom Grid Cell or Point (0.5° × 0.5° NASA cell boundary)
+        const half = 0.35;
+        const boxRing = [
+          [country.lng - half, country.lat - half],
+          [country.lng + half, country.lat - half],
+          [country.lng + half, country.lat + half],
+          [country.lng - half, country.lat + half],
+          [country.lng - half, country.lat - half],
+        ];
+        for (let i = 0; i < boxRing.length - 1; i++) {
+          const [lon1, lat1] = boxRing[i];
+          const [lon2, lat2] = boxRing[i + 1];
+          primaryPoints.push(
+            latLonToVector3(lat1, lon1, rPrimary),
+            latLonToVector3(lat2, lon2, rPrimary)
+          );
+          haloPoints.push(
+            latLonToVector3(lat1, lon1, rHalo),
+            latLonToVector3(lat2, lon2, rHalo)
           );
         }
       }
 
-      const hlMesh = new THREE.LineSegments(
-        new THREE.BufferGeometry().setFromPoints(points),
-        new THREE.LineBasicMaterial({
-          color: 0xfacc15,
-          transparent: true,
-          opacity: 0.95,
-        })
-      );
-      earthGroup.add(hlMesh);
-      highlightedCountryMeshRef.current = hlMesh;
+      if (primaryPoints.length > 0) {
+        // 1. Sharp Glowing Golden Neon Line (Core Boundary)
+        const primaryMesh = new THREE.LineSegments(
+          new THREE.BufferGeometry().setFromPoints(primaryPoints),
+          new THREE.LineBasicMaterial({
+            color: 0xfacc15, // Golden yellow #facc15
+            linewidth: 2,
+            transparent: true,
+            opacity: 1.0,
+            depthWrite: false,
+          })
+        );
+        hlGroup.add(primaryMesh);
+
+        // 2. Halo Ambient Glow Line (Cyan Rim)
+        const haloMesh = new THREE.LineSegments(
+          new THREE.BufferGeometry().setFromPoints(haloPoints),
+          new THREE.LineBasicMaterial({
+            color: 0x38bdf8, // Electric cyan glow #38bdf8
+            linewidth: 3,
+            transparent: true,
+            opacity: 0.7,
+            depthWrite: false,
+          })
+        );
+        hlGroup.add(haloMesh);
+
+        earthGroup.add(hlGroup);
+        highlightedCountryMeshRef.current = hlGroup;
+      }
     },
     [latLonToVector3]
   );
@@ -628,17 +784,21 @@ export default function ThreeEarth({
     earthGroup.add(graticuleMesh);
     graticuleMeshRef.current = graticuleMesh;
 
-    // 9. Continental and Regional Borders (r = EARTH_RADIUS * 1.003, color 0x38bdf8)
+    // 9. All Global Country Borders (r = EARTH_RADIUS * 1.003, color 0x38bdf8)
     const borderPoints: THREE.Vector3[] = [];
     const rBorder = EARTH_RADIUS * 1.003;
-    for (const land of WORLD_LANDMASSES) {
-      for (let i = 0; i < land.coordinates.length - 1; i++) {
-        const [lon1, lat1] = land.coordinates[i];
-        const [lon2, lat2] = land.coordinates[i + 1];
-        borderPoints.push(
-          latLonToVector3(lat1, lon1, rBorder),
-          latLonToVector3(lat2, lon2, rBorder)
-        );
+    const allFeatures = (worldCountriesGeo.features || []) as GeoFeature[];
+    for (const feat of allFeatures) {
+      const rings = extractRingsFromFeature(feat);
+      for (const ring of rings) {
+        for (let i = 0; i < ring.length - 1; i++) {
+          const [lon1, lat1] = ring[i];
+          const [lon2, lat2] = ring[i + 1];
+          borderPoints.push(
+            latLonToVector3(lat1, lon1, rBorder),
+            latLonToVector3(lat2, lon2, rBorder)
+          );
+        }
       }
     }
     const bordersLineMesh = new THREE.LineSegments(
@@ -646,7 +806,8 @@ export default function ThreeEarth({
       new THREE.LineBasicMaterial({
         color: 0x38bdf8,
         transparent: true,
-        opacity: 0.4,
+        opacity: 0.35,
+        depthWrite: false,
       })
     );
     earthGroup.add(bordersLineMesh);
@@ -1202,6 +1363,16 @@ export default function ThreeEarth({
         const pulse = 0.55 + Math.sin(time * 0.005) * 0.25;
         (beaconMeshRef.current.material as THREE.MeshBasicMaterial).opacity =
           pulse;
+      }
+
+      // Pulse highlighted country border opacity
+      if (highlightedCountryMeshRef.current) {
+        const pulse = 0.8 + Math.sin(time * 0.004) * 0.2;
+        highlightedCountryMeshRef.current.children.forEach((child, idx) => {
+          if (child instanceof THREE.LineSegments && child.material instanceof THREE.LineBasicMaterial) {
+            child.material.opacity = idx === 0 ? pulse : pulse * 0.65;
+          }
+        });
       }
 
       controls.update();
