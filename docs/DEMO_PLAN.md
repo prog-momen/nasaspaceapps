@@ -1,59 +1,77 @@
-# Astro EARTH demo plan (3 minutes, no slides)
+# Astro EARTH demo plan: forecasting first (3 minutes, no slides)
 
-Team: **Astro Crash**. Two people: one speaks, one drives the screen. Keep it simple: the product proves itself.
+Team: **Astro Crash**. Two people: one speaks, one drives the screen. The forecast is the part nobody else will have, so it gets the most time.
+
+**One-line pitch for the forecast:** "Most tools draw a forecast line and say nothing about how far to trust it. Ours says where it was tested, where it is only an extension of the trend, and where it is mathematics only."
 
 ## Before the interview (10 minutes)
 
 1. Start both services: `npm run dev:all` (the AI service needs about a minute to load).
 2. Warm the cache: `node scripts/prewarm.mjs`.
-3. Open four tabs in this order: `/` (start screen), `/earth`, `/dashboard?lat=31.95&lon=35.9&name=Amman&variable=T2M_MAX&start=1990&end=2025`, `/chat`.
-4. Try each question you will ask once, with the exact wording.
+3. Open these tabs in order:
+   - `/` (start screen)
+   - `/dashboard?lat=32.22&lon=35.25&name=Nablus&variable=T2M&start=1990&end=2025`
+   - `/forecast?lat=32.22&lon=35.25&name=Nablus&variable=T2M&start=1990&end=2025&horizon=5`
+   - `/chat`
+4. Run each question once with the exact wording you will use.
 5. Record a 30–60 second screen video of the same path as a backup.
 
 ## Timeline
 
-| Time | Screen | Say | Show |
+| Time | Screen | Say | Do |
 |---|---|---|---|
-| 0:00 – 0:15 | Start screen | "Everyone hears that the climate is changing. We built Astro EARTH so anyone can check it for their own place." | Click the logo: stars rush, the Earth appears |
-| 0:15 – 0:35 | Globe | "Click any point on Earth. Each point is a 50 km NASA grid cell." | Click Jordan, then **View Dashboard** |
-| 0:35 – 1:25 | Dashboard, chapter 3 | "Amman's hottest days rise 0.58 °C per decade. Two independent tests agree, so we call it significant." | Point to the verdict, then to the **Sources** line: "every result tells you what it relies on and what it used" |
-| 1:25 – 1:50 | Switch to Manaus (Amazon, soil wetness) | "Here the line goes down, but we refuse to call it a trend: 420 months behave like 26 independent ones. Not significant is a valid answer." | Click the Manaus scenario |
-| 1:50 – 2:25 | Forecast page, 5 years | "The forecast starts from today, not from the last data month. The three boxes say how far to trust it." | Show the zones: tested, extrapolation, computation only |
-| 2:25 – 2:55 | Chat | Ask in Arabic: "هل ارتفعت درجة الحرارة في عمان بين 1990 و2024؟" then "والقاهرة؟" | "The AI writes the words; the numbers come from code and are checked." Point to the Sources block |
-| 2:55 – 3:00 | Back on the globe | "Open source, NASA data, honest limits. Try any place." | Stop |
+| 0:00 – 0:15 | Start screen | "We built Astro EARTH so anyone can check what is changing in their own place, and how far a forecast can be trusted." | Click the logo, then Palestine on the globe |
+| 0:15 – 0:45 | Dashboard, chapter 3 (Nablus) | "First, what happened: the trend, and two independent tests that agree." | Point to the verdict and the **Sources** line |
+| 0:45 – 2:15 | **Forecast page, 5 years** | see below | main part |
+| 2:15 – 2:50 | Chat | Ask in Arabic: "توقع درجة الحرارة في نابلس خلال سنتين" | Show the chart, the monthly table and the Sources block |
+| 2:50 – 3:00 | Back on the globe | "Open source, NASA data, honest limits. Try any place." | Stop |
 
-If time is short, drop Manaus. If a step is slow, keep talking about the method and let it finish.
+**The forecast minute and a half (0:45 – 2:15)**
+
+1. **From today (15 s).** "A 5-year forecast starts from today, not from the last data month. NASA data end in 2025, so the months in between are forecast too and marked as missing." Point to the *Asked* line.
+2. **Three zones (45 s).** "Up to 5 years was tested against the last 60 real months: for Nablus the error was 1.12 °C against 1.56 °C for a plain seasonal average. From 5 to 10 years it only extends the trend. Beyond 10 years it is computation only." Click **2**, **5**, then **20** and show the highlighted box move.
+3. **What it is not (15 s).** "A statistical extension of the past, not a climate model."
+4. **Invite a request (15 s).** "Pick any place and a horizon; I will tell you the zone before I press Enter."
+
+Cut Manaus and the comparison if you are short on time.
 
 ## If a judge asks for a specific request
 
-Give the boundaries first, then run it:
+Say the boundary first, then run it:
 
 | They ask for | Say first | What the app does |
 |---|---|---|
 | A trend for a place | "Any point on Earth, from 1981, at least 5 years." | Runs it. Land-only variables over the sea say so. |
-| A forecast up to 2 years | "This is the tested range." | Chat or Forecast page; backtest shown. |
-| A forecast of 5 to 10 years | "Beyond the tested range this is an extension of the trend, not a validated prediction." | Forecast page, second box highlighted. |
-| A forecast over 10 years | "We can compute it, but it is mathematics only, with far lower confidence." | Forecast page, third box highlighted. Do not present it as a prediction. |
+| A forecast up to 2 years | "This is inside the tested range." | Chat or Forecast page; backtest shown. |
+| A forecast of 2 to 5 years | "Still inside the tested range of the Forecast page (5 years), but in chat we stop at 24 months." | Forecast page, first box highlighted. |
+| A forecast of 5 to 10 years | "Beyond the tested range this extends the trend; it is a scenario, not a validated prediction." | Forecast page, second box. |
+| A forecast over 10 years | "We can compute it, but it is mathematics only, with far lower confidence." | Forecast page, third box. Do not present it as a prediction. |
 | Weather for a few days | "Up to 16 days, from Open-Meteo, not from the trend model." | Chat. |
 | Fire danger next month | "Only places we prepared: Nablus, Gaza, Amman." | Chat. Other places take minutes; do not run them live. |
-| A whole country | "Results are for one 50 km cell, a representative point, not a country average." | Runs for the point; say it. |
+| A whole country | "The result is for one 50 km cell, a representative point, not a country average." | Runs for the point; say it. |
 | "Why did it change?" | "We describe what happened, not the cause." | The assistant will not claim a cause. |
 
-Rule for the room: pick a place, a variable and a horizon together, then say which of the three zones it falls in before pressing Enter.
+Rule for the room: choose place, variable and horizon together, then name the zone before pressing Enter.
 
-## Numbers you can quote (1990–2024, computed by the app)
+## Forecast numbers you can quote
 
-| Place | Variable | Result |
-|---|---|---|
-| Amman | Maximum air temperature | +0.58 °C per decade, significant |
-| Svalbard | Air temperature | +0.73 °C per decade, significant |
-| Niamey | Precipitation | +0.11 mm/day per decade, significant (p = 0.006 and 0.044) |
-| Manaus | Root zone soil wetness | falling slope, not significant (p = 0.425 and 0.132) |
+Backtest on the last 60 months of real data, default period 1990–2025, 5-year forecast. Lower error is better.
 
-These trend numbers were recomputed independently with scipy and pymannkendall and match exactly.
+| Place | Model error | Seasonal-average error | Better by |
+|---|---|---|---|
+| Nablus | 1.12 °C | 1.56 °C | 28% |
+| Japan (representative point) | 1.40 °C | 1.64 °C | 14% |
+| Cairo | 1.15 °C | 1.32 °C | 13% |
+| Svalbard | 1.99 °C | 2.27 °C | 12% |
+| Amman (maximum temperature) | 2.04 °C | 2.16 °C | 5.5% |
+| Niamey (precipitation) | 0.83 mm/day | 0.84 mm/day | 1.9% (almost no gain, avoid for this claim) |
+
+Say the limits yourself: one place, one test window, and overlapping windows, so this is evidence for that place, not a general guarantee. The forecast values and the 95% bands were recomputed independently and match.
+
+Trend numbers (1990–2024): Amman maximum temperature +0.58 °C per decade; Svalbard +0.73 °C per decade; Niamey rainfall +0.11 mm/day per decade; Manaus soil wetness not significant. All verified against scipy and pymannkendall.
 
 ## If something breaks
 
-- Chat is slow: keep explaining the method; the answer appears after 5–17 seconds.
-- AI service is down: the chat shows an offline mode and the dashboard is unaffected.
+- Chat is slow: keep explaining the zones; the answer appears after 5–17 seconds.
+- AI service is down: the chat shows an offline mode; the dashboard and forecast page are unaffected.
 - Internet is down: use the recorded video.

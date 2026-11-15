@@ -19,11 +19,14 @@ Astro EARTH turns NASA Earth-system data into a guided investigation anyone can 
 
 ## Feature tour
 
-- **3D globe home page** (`src/app/page.tsx`, `src/components/ThreeEarth.tsx`): Three.js Earth with atmosphere, borders and fly-to; click anywhere or search a country / city.
+- **Start screen** (`src/app/page.tsx`, `src/components/StarField.tsx`): the logo and name over a live starfield; a click flies into the Earth page. Links that carry a place (`?lat=&lon=`) skip it.
+- **3D globe** (`/earth`, `src/app/earth/page.tsx`, `src/components/ThreeEarth.tsx`): Three.js Earth with atmosphere, borders and fly-to; click anywhere or search a country / city.
 - **Guided detective dashboard** (`src/components/DashboardView.tsx`): five chapters, from "what is the variable" to evidence, significance and outlook, with a plain-language verdict.
 - **12 variables**: air temperature (mean / max / min), surface temperature, precipitation, evaporation, root-zone soil wetness, humidity, wind, cloud amount, surface solar radiation and surface pressure (see `src/lib/catalog.ts`).
 - **Two-region comparison**: the same variable and period for two places side by side, since a trend can go one way in one region and the opposite way in another.
 - **Forecast** (`src/components/ForecastView.tsx` and the dashboard forecast chapter): trend + seasonal cycle, 95% prediction interval, backtest against a seasonal baseline.
+  The requested span is counted from today; months between the last NASA data month and today are forecast too and flagged. Three confidence zones are shown: **Tested** (up to the backtest length, about 5 years), **Extrapolation** (to 10 years, not validated) and **Computation only** (beyond 10 years). Horizons of 1, 2, 5, 10 and 20 years can be selected.
+- **Sources on every result**: each dashboard chapter, the forecast page and each assistant answer shows what the result relies on and what it used, with a link to the exact NASA POWER request and to the method papers.
 - **5 demo investigations**: Svalbard (T2M), Niamey (rainfall), Manaus (root-zone soil wetness), Amman (max temperature), Lhasa (solar radiation).
 - **AI assistant**: floating popup and a full `/chat` page; see "Use of AI" below.
 
